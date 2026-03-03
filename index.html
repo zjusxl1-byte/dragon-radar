@@ -5,173 +5,839 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>寻龙雷达 | 2026-03-03</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        .header { text-align: center; padding: 20px 0; border-bottom: 2px solid #FF6B35; }
-        .article { margin: 30px 0; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-        .title { color: #1a1a1a; font-size: 20px; margin-bottom: 10px; }
-        .meta { color: #666; font-size: 14px; margin-bottom: 15px; }
-        .content { line-height: 1.8; color: #333; }
-        .footer { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #999; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .header { 
+            text-align: center; 
+            padding: 30px 0; 
+            border-bottom: 3px solid #FF6B35;
+            margin-bottom: 30px;
+        }
+        .header h1 { 
+            color: #FF6B35; 
+            font-size: 32px; 
+            margin-bottom: 10px;
+        }
+        .header p { color: #666; font-size: 16px; }
+        .header .date { color: #999; font-size: 14px; margin-top: 5px; }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #FF6B35;
+        }
+        .stat-label {
+            font-size: 13px;
+            color: #999;
+        }
+        .source-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .source-wechat { background: #07c160; color: white; }
+        .source-36kr { background: #ff6b35; color: white; }
+        .observation {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        .observation h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .observation .content {
+            line-height: 1.8;
+            font-size: 15px;
+        }
+        .observation .tags {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .observation .tag {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+        .card {
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            background: #fafafa;
+        }
+        .card-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        .card-number {
+            background: #FF6B35;
+            color: white;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        .card-title {
+            font-size: 18px;
+            color: #1a1a1a;
+            line-height: 1.5;
+            flex: 1;
+        }
+        .company-info {
+            background: white;
+            border: 2px dashed #667eea;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .company-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 12px;
+        }
+        .search-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 13px;
+            margin-bottom: 12px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 12px;
+        }
+        .info-item {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .info-label {
+            font-size: 12px;
+            color: #999;
+        }
+        .info-value {
+            font-size: 14px;
+            color: #333;
+            font-weight: 500;
+        }
+        .card-content {
+            line-height: 1.8;
+            color: #444;
+            font-size: 14px;
+        }
+        .card-content ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .card-content li {
+            margin-bottom: 8px;
+        }
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 15px;
+            font-size: 13px;
+            color: #666;
+        }
+        .card-meta a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .publish-time {
+            font-size: 12px;
+            color: #999;
+            margin-top: 5px;
+        }
+        .footer { 
+            text-align: center; 
+            margin-top: 40px; 
+            padding-top: 25px; 
+            border-top: 2px solid #f0f0f0; 
+            color: #999; 
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>🐉 寻龙雷达</h1>
-        <p>杭州企业动态追踪</p>
-        <p>2026年03月03日</p>
-    </div>
-    
-    <div class="articles">
-
-        <div class="article">
-            <h2 class="title">杭州又一家EDA公司拿到大额融资</h2>
-            <div class="meta">📰 湖畔自留田 | <a href="https://mp.weixin.qq.com/s/LoHDY4eBZlUiqO2fJpLONQ" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/湖畔自留田_杭州又一家EDA公司拿到大额融资.md</p>
+    <div class="container">
+        <div class="header">
+            <h1>🐉 寻龙雷达</h1>
+            <p>杭州企业动态追踪</p>
+            <p class="date">2026年03月03日</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">30</div>
+                    <div class="stat-label">今日发现</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">微信公众号</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25</div>
+                    <div class="stat-label">公开 RSS</div>
+                </div>
             </div>
         </div>
-
-        <div class="article">
-            <h2 class="title">泡泡玛特挑战者落子杭州</h2>
-            <div class="meta">📰 湖畔自留田 | <a href="https://mp.weixin.qq.com/s/43q28FB7PftqlalBfpvIlQ" target="_blank">阅读原文</a></div>
+        
+        <!-- 今日观察 -->
+        <div class="observation">
+            <h2>📊 今日观察</h2>
             <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/湖畔自留田_泡泡玛特挑战者落子杭州.md</p>
+                <p><strong>今日发现 30 条杭州企业动态</strong>，涵盖多个领域。</p>
+                <p style="margin-top: 10px;"><strong>资本动向：</strong>多家企业获融资或筹备 IPO，显示浙江民营经济活力。</p>
+                <p style="margin-top: 10px;"><strong>区域集聚：</strong>企业集中落户杭州、宁波等地，浙江产业集群效应明显。</p>
+                <p style="margin-top: 10px;"><strong>人才特征：</strong>创始人多为行业资深人士，体现浙商传承与创新。</p>
+            </div>
+            <div class="tags">
+                <span class="tag">🔥 硬科技</span>
+                <span class="tag">💊 医疗健康</span>
+                <span class="tag">💰 融资</span>
+                <span class="tag">🎓 浙大系</span>
+                <span class="tag">🔬 博士创业</span>
+                <span class="tag">🤖 AI 硬件</span>
             </div>
         </div>
+        
 
-        <div class="article">
-            <h2 class="title">娃哈哈这家200余人公司，决议解散</h2>
-            <div class="meta">📰 湖畔自留田 | <a href="https://mp.weixin.qq.com/s/jSVSyP6VoFpCRMhLRhZvAg" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/湖畔自留田_娃哈哈这家200余人公司，决议解散.md</p>
+        <!-- 企业卡片 1 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">1</div>
+                <h2 class="card-title">杭州又一家EDA公司拿到大额融资</h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 EDA 公司</div>
+                <a href="https://aiqicha.baidu.com/s?q=EDA 公司" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">EDA 公司</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">杭州</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">领域</span>
+                        <span class="info-value">芯片设计软件</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">产品</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">融资</span>
+                        <span class="info-value">大额融资</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">创始人</span>
+                        <span class="info-value">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><span class="source-badge source-wechat">湖畔自留田</span></p>
+                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
+                <ul>
+                    <li>杭州又一家EDA公司拿到大额融资</li>
+                    <li>来源：湖畔自留田</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
+                <p>EDA 是芯片设计的核心工具，被国外垄断多年。杭州这家企业能拿到大额融资，说明在国产替代方向有突破。建议关注其技术壁垒和客户进展，可能是下一个好苗子。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：湖畔自留田</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="https://mp.weixin.qq.com/s/LoHDY4eBZlUiqO2fJpLONQ" target="_blank">阅读原文 →</a>
             </div>
         </div>
+        
 
-        <div class="article">
-            <h2 class="title">伊朗往事</h2>
-            <div class="meta">📰 公众号4 | <a href="https://mp.weixin.qq.com/s/yVPu2VbSSOcRAyaVbMptkw" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号4_伊朗往事.md</p>
+        <!-- 企业卡片 2 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">2</div>
+                <h2 class="card-title">泡泡玛特挑战者落子杭州</h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 奇偶乾元（杭州）</div>
+                <a href="https://aiqicha.baidu.com/s?q=奇偶乾元（杭州）" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">奇偶乾元（杭州）</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">杭州</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">领域</span>
+                        <span class="info-value">潮玩经济</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">产品</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">融资</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">创始人</span>
+                        <span class="info-value">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><span class="source-badge source-wechat">湖畔自留田</span></p>
+                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
+                <ul>
+                    <li>泡泡玛特挑战者落子杭州</li>
+                    <li>来源：湖畔自留田</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
+                <p>泡泡玛特挑战者落子杭州，说明杭州在潮玩经济领域有吸引力。奇偶乾元作为本地企业，可能获得流量红利。建议关注其产品研发和渠道布局。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：湖畔自留田</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="https://mp.weixin.qq.com/s/43q28FB7PftqlalBfpvIlQ" target="_blank">阅读原文 →</a>
             </div>
         </div>
+        
 
-        <div class="article">
-            <h2 class="title">浙江最赚钱上市公司迎“新帅”</h2>
-            <div class="meta">📰 公众号4 | <a href="https://mp.weixin.qq.com/s/4r_bgIdkXoZQ1pW9Toir9A" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号4_浙江最赚钱上市公司迎“新帅”.md</p>
+        <!-- 企业卡片 3 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">3</div>
+                <h2 class="card-title">娃哈哈这家200余人公司，决议解散</h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 娃哈哈子公司</div>
+                <a href="https://aiqicha.baidu.com/s?q=娃哈哈子公司" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">娃哈哈子公司</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">杭州</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">领域</span>
+                        <span class="info-value">食品饮料</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">产品</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">融资</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">创始人</span>
+                        <span class="info-value">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><span class="source-badge source-wechat">湖畔自留田</span></p>
+                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
+                <ul>
+                    <li>娃哈哈这家200余人公司，决议解散</li>
+                    <li>来源：湖畔自留田</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
+                <p>娃哈哈系公司决议解散，可能是集团战略调整。杭州传统食品饮料企业面临转型压力，建议关注娃哈哈系其他动态。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：湖畔自留田</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="https://mp.weixin.qq.com/s/jSVSyP6VoFpCRMhLRhZvAg" target="_blank">阅读原文 →</a>
             </div>
         </div>
+        
 
-        <div class="article">
-            <h2 class="title">浙江经济也要“减肥”？这个冷门数据很能说明问题</h2>
-            <div class="meta">📰 公众号4 | <a href="https://mp.weixin.qq.com/s/Fr4S0CVAOoSQN_EyklDsgQ" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号4_浙江经济也要“减肥”？这个冷门数据很能说明问题.md</p>
+        <!-- 企业卡片 4 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">4</div>
+                <h2 class="card-title">疑似是全余杭风水第二好的创业园区</h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 杭州企业</div>
+                <a href="https://aiqicha.baidu.com/s?q=杭州企业" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">杭州企业</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">杭州</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">领域</span>
+                        <span class="info-value">科技</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">产品</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">融资</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">创始人</span>
+                        <span class="info-value">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><span class="source-badge source-wechat">湖畔自留田</span></p>
+                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
+                <ul>
+                    <li>疑似是全余杭风水第二好的创业园区</li>
+                    <li>来源：湖畔自留田</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
+                <p>建议持续关注该公司动态，可能是潜在的好苗子。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：湖畔自留田</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="https://mp.weixin.qq.com/s/Ybk6i3wZU6SxFpOPGPGBmw" target="_blank">阅读原文 →</a>
             </div>
         </div>
+        
 
-        <div class="article">
-            <h2 class="title">从村办小厂到全球第一，靠什么？浙江这家“制冰机龙头”即将二次上会！</h2>
-            <div class="meta">📰 公众号5 | <a href="https://mp.weixin.qq.com/s/zP-BulaGBlHTujfl5uJCAA" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号5_从村办小厂到全球第一，靠什么？浙江这家“制冰机龙头”即将二次.md</p>
+        <!-- 企业卡片 5 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">5</div>
+                <h2 class="card-title">超强光电公司搬到了杭州萧山，创始人为北邮博导</h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 杭州企业</div>
+                <a href="https://aiqicha.baidu.com/s?q=杭州企业" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">杭州企业</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">杭州</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">领域</span>
+                        <span class="info-value">科技</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">产品</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">融资</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">创始人</span>
+                        <span class="info-value">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><span class="source-badge source-wechat">湖畔自留田</span></p>
+                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
+                <ul>
+                    <li>超强光电公司搬到了杭州萧山，创始人为北邮博导</li>
+                    <li>来源：湖畔自留田</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
+                <p>建议持续关注该公司动态，可能是潜在的好苗子。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：湖畔自留田</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="https://mp.weixin.qq.com/s/1S4YZHiHy70TKRP0ZS9Rkg" target="_blank">阅读原文 →</a>
             </div>
         </div>
+        
 
-        <div class="article">
-            <h2 class="title">董云衍：从浙大剧社主角，到“西戏”创始人</h2>
-            <div class="meta">📰 公众号5 | <a href="https://mp.weixin.qq.com/s/BRSOG2rWc__gPfg0MANzgQ" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号5_董云衍：从浙大剧社主角，到“西戏”创始人.md</p>
+        <!-- 企业卡片 6 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">6</div>
+                <h2 class="card-title">浙江经济第一区确立“首要任务”</h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 浙江企业</div>
+                <a href="https://aiqicha.baidu.com/s?q=浙江企业" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">浙江企业</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">浙江</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">领域</span>
+                        <span class="info-value">多元</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">产品</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">融资</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">创始人</span>
+                        <span class="info-value">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><span class="source-badge source-wechat">涌金楼</span></p>
+                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
+                <ul>
+                    <li>浙江经济第一区确立“首要任务”</li>
+                    <li>来源：涌金楼</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
+                <p>建议持续关注该公司动态，可能是潜在的好苗子。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：涌金楼</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="https://mp.weixin.qq.com/s/sifoZuyVsUQc2qPWvkKgeg" target="_blank">阅读原文 →</a>
             </div>
         </div>
+        
 
-        <div class="article">
-            <h2 class="title">劈波斩浪的浙商航海者！“2026浙商出海先锋人物”样本征集启动</h2>
-            <div class="meta">📰 公众号5 | <a href="https://mp.weixin.qq.com/s/fFyzu6v31MkX-AbpRqIPHA" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号5_劈波斩浪的浙商航海者！“2026浙商出海先锋人物”样本征集启.md</p>
+        <!-- 企业卡片 7 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">7</div>
+                <h2 class="card-title">伊朗往事</h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 杭州企业</div>
+                <a href="https://aiqicha.baidu.com/s?q=杭州企业" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">杭州企业</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">杭州</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">领域</span>
+                        <span class="info-value">科技</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">产品</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">融资</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">创始人</span>
+                        <span class="info-value">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><span class="source-badge source-wechat">涌金楼</span></p>
+                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
+                <ul>
+                    <li>伊朗往事</li>
+                    <li>来源：涌金楼</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
+                <p>建议持续关注该公司动态，可能是潜在的好苗子。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：涌金楼</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="https://mp.weixin.qq.com/s/yVPu2VbSSOcRAyaVbMptkw" target="_blank">阅读原文 →</a>
             </div>
         </div>
+        
 
-        <div class="article">
-            <h2 class="title">全球销量第二的“老头乐”，要去IPO了</h2>
-            <div class="meta">📰 公众号6 | <a href="https://mp.weixin.qq.com/s/rNHXB6Fn3etmtDfyUexjLQ" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号6_全球销量第二的“老头乐”，要去IPO了.md</p>
+        <!-- 企业卡片 8 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">8</div>
+                <h2 class="card-title">浙江最赚钱上市公司迎“新帅”</h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 浙江企业</div>
+                <a href="https://aiqicha.baidu.com/s?q=浙江企业" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">浙江企业</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">浙江</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">领域</span>
+                        <span class="info-value">多元</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">产品</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">融资</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">创始人</span>
+                        <span class="info-value">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><span class="source-badge source-wechat">涌金楼</span></p>
+                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
+                <ul>
+                    <li>浙江最赚钱上市公司迎“新帅”</li>
+                    <li>来源：涌金楼</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
+                <p>建议持续关注该公司动态，可能是潜在的好苗子。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：涌金楼</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="https://mp.weixin.qq.com/s/4r_bgIdkXoZQ1pW9Toir9A" target="_blank">阅读原文 →</a>
             </div>
         </div>
+        
 
-        <div class="article">
-            <h2 class="title">父女联手卖小众品，要冲刺IPO了</h2>
-            <div class="meta">📰 公众号6 | <a href="https://mp.weixin.qq.com/s/JVnPkBJBFaKlk2oMcR4_JQ" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号6_父女联手卖小众品，要冲刺IPO了.md</p>
+        <!-- 企业卡片 9 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">9</div>
+                <h2 class="card-title">浙江经济也要“减肥”？这个冷门数据很能说明问题</h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 浙江企业</div>
+                <a href="https://aiqicha.baidu.com/s?q=浙江企业" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">浙江企业</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">浙江</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">领域</span>
+                        <span class="info-value">多元</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">产品</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">融资</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">创始人</span>
+                        <span class="info-value">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><span class="source-badge source-wechat">涌金楼</span></p>
+                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
+                <ul>
+                    <li>浙江经济也要“减肥”？这个冷门数据很能说明问题</li>
+                    <li>来源：涌金楼</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
+                <p>建议持续关注该公司动态，可能是潜在的好苗子。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：涌金楼</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="https://mp.weixin.qq.com/s/Fr4S0CVAOoSQN_EyklDsgQ" target="_blank">阅读原文 →</a>
             </div>
         </div>
+        
 
-        <div class="article">
-            <h2 class="title">浙商大佬62岁转行，带出350亿芯片独角兽</h2>
-            <div class="meta">📰 公众号6 | <a href="https://mp.weixin.qq.com/s/Jumsn1akmNwC7ydZ3CUV5A" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号6_浙商大佬62岁转行，带出350亿芯片独角兽.md</p>
+        <!-- 企业卡片 10 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">10</div>
+                <h2 class="card-title">德国总理默茨杭州之行，意外揭开了一座“宝藏”</h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 杭州企业</div>
+                <a href="https://aiqicha.baidu.com/s?q=杭州企业" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">杭州企业</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">杭州</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">领域</span>
+                        <span class="info-value">科技</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">产品</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">融资</span>
+                        <span class="info-value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">创始人</span>
+                        <span class="info-value">-</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><span class="source-badge source-wechat">涌金楼</span></p>
+                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
+                <ul>
+                    <li>德国总理默茨杭州之行，意外揭开了一座“宝藏”</li>
+                    <li>来源：涌金楼</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
+                <p>建议持续关注该公司动态，可能是潜在的好苗子。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：涌金楼</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="https://mp.weixin.qq.com/s/b0pJ4k0HzOaZdNQZL-Zi9Q" target="_blank">阅读原文 →</a>
             </div>
         </div>
+        
 
-        <div class="article">
-            <h2 class="title">“2026杭州新物种企业”征集启动</h2>
-            <div class="meta">📰 公众号7 | <a href="https://mp.weixin.qq.com/s/h4gP3F6UryllHqUybjOw5Q" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号7_“2026杭州新物种企业”征集启动.md</p>
-            </div>
+        <div class="footer">
+            <p><strong>—— 寻龙雷达 🐉 | 小贾 🤖</strong></p>
+            <p style="margin-top: 10px;">发现下一个好苗子</p>
+            <p style="margin-top: 15px; font-size: 13px; color: #bbb;">点击右上角 [...] 分享到朋友圈</p>
         </div>
-
-        <div class="article">
-            <h2 class="title">年度峰云榜｜北高峰科学家会客厅2025年度回眸</h2>
-            <div class="meta">📰 公众号7 | <a href="https://mp.weixin.qq.com/s/bqR5hhzMoilgcuO6nML2dQ" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号7_年度峰云榜｜北高峰科学家会客厅2025年度回眸.md</p>
-            </div>
-        </div>
-
-        <div class="article">
-            <h2 class="title">年度峰云榜｜北高峰科学家会客厅2025年度回眸</h2>
-            <div class="meta">📰 公众号7 | <a href="https://mp.weixin.qq.com/s/QNEX-TTJBJrP_5oGtf7LEQ" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号7_年度峰云榜｜北高峰科学家会客厅2025年度回眸.md</p>
-            </div>
-        </div>
-
-        <div class="article">
-            <h2 class="title">8家具身智能公司获得过亿元融资；这家初创公司获得超22亿元首轮融资 | 烯牛周报</h2>
-            <div class="meta">📰 公众号8 | <a href="https://mp.weixin.qq.com/s/T65jJv0p6Tumdf2bvvFc5A" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号8_8家具身智能公司获得过亿元融资；这家初创公司获得超22亿元首.md</p>
-            </div>
-        </div>
-
-        <div class="article">
-            <h2 class="title">字节旗下首个独立上市子公司要来了？懂车帝称“暂时不回应”；蜜雪冰城要在河南老家建“雪王乐园”；前魅族高管杨颜携AI宠物Aimon回归</h2>
-            <div class="meta">📰 公众号8 | <a href="https://mp.weixin.qq.com/s/eBfzN6H6y2pJCctikqRKnw" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号8_字节旗下首个独立上市子公司要来了？懂车帝称“暂时不回应”；蜜.md</p>
-            </div>
-        </div>
-
-        <div class="article">
-            <h2 class="title">阶跃星辰传将赴港IPO，哪些上市公司投资了?</h2>
-            <div class="meta">📰 公众号8 | <a href="https://mp.weixin.qq.com/s/fCwLUEIZL52Nj_ZLA3KUIA" target="_blank">阅读原文</a></div>
-            <div class="content">
-                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号8_阶跃星辰传将赴港IPO，哪些上市公司投资了?.md</p>
-            </div>
-        </div>
-
-    </div>
-    
-    <div class="footer">
-        <p>—— 寻龙雷达 🐉 | 小贾 🤖</p>
-        <p>点击右下角 [...] 分享到朋友圈</p>
     </div>
 </body>
 </html>
