@@ -3,571 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>寻龙雷达 | 2026-03-02</title>
+    <title>寻龙雷达 | 2026-03-03</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif; 
-            max-width: 800px; 
-            margin: 0 auto; 
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-        .container {
-            background: white;
-            border-radius: 16px;
-            padding: 30px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-        }
-        .header { 
-            text-align: center; 
-            padding: 30px 0; 
-            border-bottom: 3px solid #FF6B35;
-            margin-bottom: 30px;
-        }
-        .header h1 { 
-            color: #FF6B35; 
-            font-size: 32px; 
-            margin-bottom: 10px;
-        }
-        .header p { color: #666; font-size: 16px; }
-        .header .date { color: #999; font-size: 14px; margin-top: 5px; }
-        .stats {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 15px;
-        }
-        .stat-item {
-            text-align: center;
-        }
-        .stat-number {
-            font-size: 24px;
-            font-weight: bold;
-            color: #FF6B35;
-        }
-        .stat-label {
-            font-size: 13px;
-            color: #999;
-        }
-        .source-badge {
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 12px;
-            font-weight: 500;
-            margin-right: 8px;
-        }
-        .source-wechat { background: #07c160; color: white; }
-        .source-36kr { background: #ff6b35; color: white; }
-        .source-huxiu { background: #0066cc; color: white; }
-        .source-tmt { background: #9c27b0; color: white; }
-        .observation {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 25px;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-        }
-        .observation h2 {
-            font-size: 20px;
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .observation .content {
-            line-height: 1.8;
-            font-size: 15px;
-        }
-        .observation .tags {
-            margin-top: 15px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-        .observation .tag {
-            background: rgba(255,255,255,0.2);
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 13px;
-        }
-        .card {
-            border: 1px solid #e0e0e0;
-            border-radius: 12px;
-            padding: 25px;
-            margin-bottom: 25px;
-            transition: all 0.3s ease;
-            background: #fafafa;
-        }
-        .card:hover {
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-            transform: translateY(-2px);
-        }
-        .card-header {
-            display: flex;
-            align-items: flex-start;
-            gap: 15px;
-            margin-bottom: 15px;
-        }
-        .card-number {
-            background: #FF6B35;
-            color: white;
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            flex-shrink: 0;
-        }
-        .card-title {
-            font-size: 18px;
-            color: #1a1a1a;
-            line-height: 1.5;
-            flex: 1;
-        }
-        .company-info {
-            background: white;
-            border: 2px dashed #667eea;
-            border-radius: 8px;
-            padding: 15px;
-            margin-bottom: 15px;
-        }
-        .company-name {
-            font-size: 16px;
-            font-weight: bold;
-            color: #667eea;
-            margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .search-link {
-            display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 8px 16px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-size: 13px;
-            font-weight: 500;
-            margin-bottom: 12px;
-            transition: all 0.3s ease;
-        }
-        .search-link:hover {
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
-            transform: translateY(-1px);
-        }
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 12px;
-        }
-        .info-item {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
-        .info-label {
-            font-size: 12px;
-            color: #999;
-            text-transform: uppercase;
-        }
-        .info-value {
-            font-size: 14px;
-            color: #333;
-            font-weight: 500;
-        }
-        .card-content {
-            line-height: 1.8;
-            color: #444;
-            font-size: 14px;
-            margin-bottom: 15px;
-        }
-        .card-content ul {
-            margin-left: 20px;
-            margin-top: 10px;
-        }
-        .card-content li {
-            margin-bottom: 8px;
-        }
-        .publish-time {
-            font-size: 12px;
-            color: #999;
-            margin-top: 5px;
-            display: inline-block;
-        }
-        .card-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 15px;
-            border-top: 1px solid #e0e0e0;
-            font-size: 13px;
-            color: #666;
-        }
-        .card-meta a {
-            color: #667eea;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        .card-meta a:hover {
-            text-decoration: underline;
-        }
-        .footer { 
-            text-align: center; 
-            margin-top: 40px; 
-            padding-top: 25px; 
-            border-top: 2px solid #f0f0f0; 
-            color: #999; 
-            font-size: 14px;
-        }
-        .footer p { margin: 5px 0; }
-        @media (max-width: 600px) {
-            body { padding: 10px; }
-            .container { padding: 20px; }
-            .header h1 { font-size: 24px; }
-            .info-grid { grid-template-columns: 1fr; }
-            .stats { gap: 15px; }
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; padding: 20px 0; border-bottom: 2px solid #FF6B35; }
+        .article { margin: 30px 0; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .title { color: #1a1a1a; font-size: 20px; margin-bottom: 10px; }
+        .meta { color: #666; font-size: 14px; margin-bottom: 15px; }
+        .content { line-height: 1.8; color: #333; }
+        .footer { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #999; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🐉 寻龙雷达</h1>
-            <p>杭州企业动态追踪</p>
-            <p class="date">2026 年 03 月 02 日</p>
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-number">5</div>
-                    <div class="stat-label">今日发现</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">3</div>
-                    <div class="stat-label">微信公众号</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">2</div>
-                    <div class="stat-label">公开 RSS</div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 今日观察 -->
-        <div class="observation">
-            <h2>📊 今日观察</h2>
+    <div class="header">
+        <h1>🐉 寻龙雷达</h1>
+        <p>杭州企业动态追踪</p>
+        <p>2026年03月03日</p>
+    </div>
+    
+    <div class="articles">
+
+        <div class="article">
+            <h2 class="title">杭州又一家EDA公司拿到大额融资</h2>
+            <div class="meta">📰 湖畔自留田 | <a href="https://mp.weixin.qq.com/s/LoHDY4eBZlUiqO2fJpLONQ" target="_blank">阅读原文</a></div>
             <div class="content">
-                <p><strong>今日发现 5 条杭州企业动态</strong>，涵盖 AI 硬件、机器人、光电芯片、医疗影像、创业园区五大领域。</p>
-                <p style="margin-top: 10px;"><strong>资本动向：</strong>秩联光子、心影医疗、千寻智能均获大额融资，显示硬科技和医疗赛道持续受资本青睐。</p>
-                <p style="margin-top: 10px;"><strong>区域集聚：</strong>企业集中落户萧山、余杭，杭州各区县形成差异化产业布局——萧山主攻硬科技、余杭集聚浙大系。</p>
-                <p style="margin-top: 10px;"><strong>人才特征：</strong>创始人均为高学历人才（北邮博导、浙大博士），体现杭州"人才 + 资本 + 产业"的正向循环。</p>
-                <p style="margin-top: 10px;"><strong>大厂动态：</strong>阿里千问进军 AI 硬件，杭州数字经济龙头布局新赛道。</p>
-            </div>
-            <div class="tags">
-                <span class="tag">🔥 硬科技</span>
-                <span class="tag">💊 医疗健康</span>
-                <span class="tag">💰 天使轮</span>
-                <span class="tag">🎓 浙大系</span>
-                <span class="tag">🔬 博士创业</span>
-                <span class="tag">🤖 AI 硬件</span>
-                <span class="tag">👓 AI 眼镜</span>
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/湖畔自留田_杭州又一家EDA公司拿到大额融资.md</p>
             </div>
         </div>
-        
-        <!-- 企业卡片 1 - RSS 源 -->
-        <div class="card">
-            <div class="card-header">
-                <div class="card-number">1</div>
-                <h2 class="card-title">千问将发布 AI 眼镜、耳机、指环，巨头抢占 AI 新入口</h2>
-            </div>
-            
-            <div class="company-info">
-                <div class="company-name">🏢 阿里巴巴（杭州）</div>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">企业名</span>
-                        <span class="info-value">阿里巴巴</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">区域</span>
-                        <span class="info-value">杭州</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">领域</span>
-                        <span class="info-value">AI 硬件/大模型</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">产品</span>
-                        <span class="info-value">AI 眼镜/耳机/指环</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">赛道</span>
-                        <span class="info-value">AI 硬件</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">状态</span>
-                        <span class="info-value">即将发布</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card-content">
-                <p><span class="source-badge source-36kr">36 氪</span></p>
-                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
-                <ul>
-                    <li>阿里旗下个人 AI 助手"千问"将进入 AI 硬件领域</li>
-                    <li>2026 年规划：AI 眼镜、AI 耳机、AI 指环，面向全球市场</li>
-                    <li>AI 眼镜将在 MWC（世界移动通信大会）发布，3 月 2 日开启预约</li>
-                    <li>千问 APP 的外卖、打车等功能将无缝迁移到硬件设备</li>
-                </ul>
-                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
-                <p>这是杭州数字经济龙头的重磅布局。阿里有通义大模型 + 阿里云 + 平头哥芯片，生态优势明显。AI 硬件是 2026 年必争之地，Meta、OpenAI、字节都在抢滩。眼镜/耳机/指环这些可穿戴设备，可能成为继手机之后的下一个 AI 入口。杭州在 AI 硬件产业链上有优势，值得关注后续动态。</p>
-            </div>
-            
-            <div class="card-meta">
-                <div>
-                    <span>📰 来源：36 氪</span>
-                    <div class="publish-time">🕐 发布时间：2026-02-28 15:09</div>
-                </div>
-                <a href="https://36kr.com/p/3702628151751046" target="_blank">阅读原文 →</a>
+
+        <div class="article">
+            <h2 class="title">泡泡玛特挑战者落子杭州</h2>
+            <div class="meta">📰 湖畔自留田 | <a href="https://mp.weixin.qq.com/s/43q28FB7PftqlalBfpvIlQ" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/湖畔自留田_泡泡玛特挑战者落子杭州.md</p>
             </div>
         </div>
-        
-        <!-- 企业卡片 2 - RSS 源 -->
-        <div class="card">
-            <div class="card-header">
-                <div class="card-number">2</div>
-                <h2 class="card-title">机器人企业大额融资频现，产业化进程全面提速</h2>
-            </div>
-            
-            <div class="company-info">
-                <div class="company-name">🏢 千寻智能（杭州）科技有限公司</div>
-                <a href="https://aiqicha.baidu.com/s?q=千寻智能" target="_blank" class="search-link">🔍 爱企查查询</a>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">企业名</span>
-                        <span class="info-value">千寻智能</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">区域</span>
-                        <span class="info-value">杭州</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">领域</span>
-                        <span class="info-value">具身智能/机器人"大脑"</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">融资</span>
-                        <span class="info-value">数亿元</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">投资方</span>
-                        <span class="info-value">红杉中国</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">赛道</span>
-                        <span class="info-value">具身智能</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card-content">
-                <p><span class="source-badge source-36kr">36 氪</span></p>
-                <p style="margin-top: 10px;"><strong>核心信息：</strong></p>
-                <ul>
-                    <li>机器人行业大额融资频繁出现</li>
-                    <li>产业化进程全面提速</li>
-                    <li><strong>千寻智能（杭州）科技有限公司</strong>：获红杉中国数亿元投资</li>
-                    <li>核心产品：具身智能"大脑"系统</li>
-                    <li>下游客户：<strong>宇树科技</strong>（杭州四足机器人头部公司）</li>
-                    <li>杭州机器人产业链：千寻智能（大脑）+ 宇树科技（本体）</li>
-                </ul>
-                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
-                <p>机器人是杭州重点布局赛道。本次融资主角<strong>千寻智能</strong>是典型的"幕后英雄"——不做机器人本体，专做具身智能"大脑"系统。其下游客户包括<strong>宇树科技</strong>（杭州四足机器人龙头）。这体现了杭州机器人产业链的完整布局：千寻智能（大脑/算法）+ 宇树科技（本体/硬件）+ 云深处（行业应用）。红杉数亿元投资说明资本看好这个方向，2026 年可能是机器人产业化元年。建议持续跟踪杭州机器人产业链公司。</p>
-            </div>
-            
-            <div class="card-meta">
-                <div>
-                    <span>📰 来源：36 氪</span>
-                    <div class="publish-time">🕐 发布时间：2026-03-01</div>
-                </div>
-                <a href="https://36kr.com/newsflashes/3705010352959621" target="_blank">阅读原文 →</a>
+
+        <div class="article">
+            <h2 class="title">娃哈哈这家200余人公司，决议解散</h2>
+            <div class="meta">📰 湖畔自留田 | <a href="https://mp.weixin.qq.com/s/jSVSyP6VoFpCRMhLRhZvAg" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/湖畔自留田_娃哈哈这家200余人公司，决议解散.md</p>
             </div>
         </div>
-        
-        <!-- 企业卡片 3 - 微信公众号 -->
-        <div class="card">
-            <div class="card-header">
-                <div class="card-number">3</div>
-                <h2 class="card-title">疑似是全余杭风水第二好的创业园区</h2>
-            </div>
-            
-            <div class="company-info">
-                <div class="company-name">🏢 浙大校友企业总部经济园</div>
-                <a href="https://aiqicha.baidu.com/s?q=浙大校友企业总部经济园" target="_blank" class="search-link">🔍 爱企查查询</a>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">区域</span>
-                        <span class="info-value">杭州余杭区</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">类型</span>
-                        <span class="info-value">创业园区</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">定位</span>
-                        <span class="info-value">浙大系企业集聚</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">特色</span>
-                        <span class="info-value">校友企业总部经济</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">代表企业</span>
-                        <span class="info-value">心影医疗等</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">区域</span>
-                        <span class="info-value">余杭区</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card-content">
-                <p><span class="source-badge source-wechat">湖畔自留田</span></p>
-                <p style="margin-top: 10px;">文章介绍了余杭区某创业园区，重点提及<strong>浙大校友企业总部经济园</strong>。该园区是浙大系初创企业的首选落户地，已形成明显的集聚效应。</p>
-                <p style="margin-top: 10px;"><strong>代表企业：</strong>心影医疗（从滨江搬迁至此）等浙大系公司。</p>
-            </div>
-            
-            <div class="card-meta">
-                <div>
-                    <span>📰 来源：湖畔自留田</span>
-                    <div class="publish-time">🕐 发布时间：2026-03-01</div>
-                </div>
-                <a href="https://mp.weixin.qq.com/s/Ybk6i3wZU6SxFpOPGPGBmw" target="_blank">阅读原文 →</a>
+
+        <div class="article">
+            <h2 class="title">伊朗往事</h2>
+            <div class="meta">📰 公众号4 | <a href="https://mp.weixin.qq.com/s/yVPu2VbSSOcRAyaVbMptkw" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号4_伊朗往事.md</p>
             </div>
         </div>
-        
-        <!-- 企业卡片 4 - 微信公众号 -->
-        <div class="card">
-            <div class="card-header">
-                <div class="card-number">4</div>
-                <h2 class="card-title">超强光电公司搬到了杭州萧山，创始人为北邮博导</h2>
-            </div>
-            
-            <div class="company-info">
-                <div class="company-name">🏢 秩联光子（杭州）科技有限公司</div>
-                <a href="https://aiqicha.baidu.com/s?q=秩联光子" target="_blank" class="search-link">🔍 爱企查查询</a>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">企业名</span>
-                        <span class="info-value">秩联光子</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">区域</span>
-                        <span class="info-value">杭州萧山区</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">领域</span>
-                        <span class="info-value">光电芯片/AI 算力</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">产品</span>
-                        <span class="info-value">AWGR 光交换芯片</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">融资</span>
-                        <span class="info-value">数千万元天使轮</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">创始人</span>
-                        <span class="info-value">薛旭伟（北邮博导）</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card-content">
-                <p><span class="source-badge source-wechat">湖畔自留田</span></p>
-                <p style="margin-top: 10px;"><strong>核心业务：</strong>聚焦光电混合互连领域，以阵列波导光栅路由器（AWGR）快速光交换技术为核心，为 AI 算力中心提供低功耗、高密度的光互连基础设施。</p>
-                <p style="margin-top: 10px;"><strong>技术优势：</strong>掌握 AWGR 芯片核心设计与制备工艺，实现纳秒级快速交换，可满足 AI 训练中 GPU 间实时通信需求。已完成全球首批适配 DWDM 标准的光交换芯片 Demo 验证。</p>
-                <p style="margin-top: 10px;"><strong>融资情况：</strong>2026 年 2 月完成数千万元天使轮融资，由杭州滨江区中赢创投领投。</p>
-                <p style="margin-top: 10px;"><strong>搬迁动态：</strong>2026 年 1 月从北京迁至杭州萧山宁围街道，原名北京汇胜合科技，现名秩联光子（杭州）科技。</p>
-            </div>
-            
-            <div class="card-meta">
-                <div>
-                    <span>📰 来源：湖畔自留田</span>
-                    <div class="publish-time">🕐 发布时间：2026-03-01</div>
-                </div>
-                <a href="https://mp.weixin.qq.com/s/1S4YZHiHy70TKRP0ZS9Rkg" target="_blank">阅读原文 →</a>
+
+        <div class="article">
+            <h2 class="title">浙江最赚钱上市公司迎“新帅”</h2>
+            <div class="meta">📰 公众号4 | <a href="https://mp.weixin.qq.com/s/4r_bgIdkXoZQ1pW9Toir9A" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号4_浙江最赚钱上市公司迎“新帅”.md</p>
             </div>
         </div>
-        
-        <!-- 企业卡片 5 - 微信公众号 -->
-        <div class="card">
-            <div class="card-header">
-                <div class="card-number">5</div>
-                <h2 class="card-title">浙大系初创医疗公司，刚刚拿到一笔天使轮</h2>
-            </div>
-            
-            <div class="company-info">
-                <div class="company-name">🏢 杭州心影医疗科技有限公司</div>
-                <a href="https://aiqicha.baidu.com/s?q=杭州心影医疗" target="_blank" class="search-link">🔍 爱企查查询</a>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">企业名</span>
-                        <span class="info-value">心影医疗</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">区域</span>
-                        <span class="info-value">杭州余杭区</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">领域</span>
-                        <span class="info-value">医疗器械/医学影像</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">产品</span>
-                        <span class="info-value">3D/4D 心腔内超声</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">融资</span>
-                        <span class="info-value">天使轮（赤子基金）</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">创始人</span>
-                        <span class="info-value">王志华（浙大博士）</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card-content">
-                <p><span class="source-badge source-wechat">湖畔自留田</span></p>
-                <p style="margin-top: 10px;"><strong>核心业务：</strong>聚焦 3D/4D 心腔内超声导管与成像系统研发，为心脏介入手术提供"纯超声智能引导"完整解决方案。</p>
-                <p style="margin-top: 10px;"><strong>技术突破：</strong>世界首创双层 3D ICE 导管，实现 90°×360°全视野成像，配备 AI 闭环智能导航系统。2D ICE 产品 ZenithEcho 7 做到 7Fr 全球最细管径。</p>
-                <p style="margin-top: 10px;"><strong>市场前景：</strong>国内 ICE 导管市场规模潜力超 100 亿元，目前被强生垄断（86.57% 份额），国产替代空间巨大。</p>
-                <p style="margin-top: 10px;"><strong>融资动态：</strong>2026 年 2 月 27 日完成天使轮融资，投资方为赤子基金。公司从滨江搬迁至余杭浙大校友企业总部经济园。</p>
-            </div>
-            
-            <div class="card-meta">
-                <div>
-                    <span>📰 来源：湖畔自留田</span>
-                    <div class="publish-time">🕐 发布时间：2026-02-27</div>
-                </div>
-                <a href="https://mp.weixin.qq.com/s/7gldHxQOFlhiEJbZyBMwzg" target="_blank">阅读原文 →</a>
+
+        <div class="article">
+            <h2 class="title">浙江经济也要“减肥”？这个冷门数据很能说明问题</h2>
+            <div class="meta">📰 公众号4 | <a href="https://mp.weixin.qq.com/s/Fr4S0CVAOoSQN_EyklDsgQ" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号4_浙江经济也要“减肥”？这个冷门数据很能说明问题.md</p>
             </div>
         </div>
-        
-        <div class="footer">
-            <p><strong>—— 寻龙雷达 🐉 | 小贾 🤖</strong></p>
-            <p style="margin-top: 10px;">发现下一个好苗子</p>
-            <p style="margin-top: 15px; font-size: 13px; color: #bbb;">点击右上角 [...] 分享到朋友圈</p>
+
+        <div class="article">
+            <h2 class="title">从村办小厂到全球第一，靠什么？浙江这家“制冰机龙头”即将二次上会！</h2>
+            <div class="meta">📰 公众号5 | <a href="https://mp.weixin.qq.com/s/zP-BulaGBlHTujfl5uJCAA" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号5_从村办小厂到全球第一，靠什么？浙江这家“制冰机龙头”即将二次.md</p>
+            </div>
         </div>
+
+        <div class="article">
+            <h2 class="title">董云衍：从浙大剧社主角，到“西戏”创始人</h2>
+            <div class="meta">📰 公众号5 | <a href="https://mp.weixin.qq.com/s/BRSOG2rWc__gPfg0MANzgQ" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号5_董云衍：从浙大剧社主角，到“西戏”创始人.md</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <h2 class="title">劈波斩浪的浙商航海者！“2026浙商出海先锋人物”样本征集启动</h2>
+            <div class="meta">📰 公众号5 | <a href="https://mp.weixin.qq.com/s/fFyzu6v31MkX-AbpRqIPHA" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号5_劈波斩浪的浙商航海者！“2026浙商出海先锋人物”样本征集启.md</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <h2 class="title">全球销量第二的“老头乐”，要去IPO了</h2>
+            <div class="meta">📰 公众号6 | <a href="https://mp.weixin.qq.com/s/rNHXB6Fn3etmtDfyUexjLQ" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号6_全球销量第二的“老头乐”，要去IPO了.md</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <h2 class="title">父女联手卖小众品，要冲刺IPO了</h2>
+            <div class="meta">📰 公众号6 | <a href="https://mp.weixin.qq.com/s/JVnPkBJBFaKlk2oMcR4_JQ" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号6_父女联手卖小众品，要冲刺IPO了.md</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <h2 class="title">浙商大佬62岁转行，带出350亿芯片独角兽</h2>
+            <div class="meta">📰 公众号6 | <a href="https://mp.weixin.qq.com/s/Jumsn1akmNwC7ydZ3CUV5A" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号6_浙商大佬62岁转行，带出350亿芯片独角兽.md</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <h2 class="title">“2026杭州新物种企业”征集启动</h2>
+            <div class="meta">📰 公众号7 | <a href="https://mp.weixin.qq.com/s/h4gP3F6UryllHqUybjOw5Q" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号7_“2026杭州新物种企业”征集启动.md</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <h2 class="title">年度峰云榜｜北高峰科学家会客厅2025年度回眸</h2>
+            <div class="meta">📰 公众号7 | <a href="https://mp.weixin.qq.com/s/bqR5hhzMoilgcuO6nML2dQ" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号7_年度峰云榜｜北高峰科学家会客厅2025年度回眸.md</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <h2 class="title">年度峰云榜｜北高峰科学家会客厅2025年度回眸</h2>
+            <div class="meta">📰 公众号7 | <a href="https://mp.weixin.qq.com/s/QNEX-TTJBJrP_5oGtf7LEQ" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号7_年度峰云榜｜北高峰科学家会客厅2025年度回眸.md</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <h2 class="title">8家具身智能公司获得过亿元融资；这家初创公司获得超22亿元首轮融资 | 烯牛周报</h2>
+            <div class="meta">📰 公众号8 | <a href="https://mp.weixin.qq.com/s/T65jJv0p6Tumdf2bvvFc5A" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号8_8家具身智能公司获得过亿元融资；这家初创公司获得超22亿元首.md</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <h2 class="title">字节旗下首个独立上市子公司要来了？懂车帝称“暂时不回应”；蜜雪冰城要在河南老家建“雪王乐园”；前魅族高管杨颜携AI宠物Aimon回归</h2>
+            <div class="meta">📰 公众号8 | <a href="https://mp.weixin.qq.com/s/eBfzN6H6y2pJCctikqRKnw" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号8_字节旗下首个独立上市子公司要来了？懂车帝称“暂时不回应”；蜜.md</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <h2 class="title">阶跃星辰传将赴港IPO，哪些上市公司投资了?</h2>
+            <div class="meta">📰 公众号8 | <a href="https://mp.weixin.qq.com/s/fCwLUEIZL52Nj_ZLA3KUIA" target="_blank">阅读原文</a></div>
+            <div class="content">
+                <p>内容已保存到文件：/Users/leoz/.openclaw/workspace/memory/wechat-articles/公众号8_阶跃星辰传将赴港IPO，哪些上市公司投资了?.md</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="footer">
+        <p>—— 寻龙雷达 🐉 | 小贾 🤖</p>
+        <p>点击右下角 [...] 分享到朋友圈</p>
     </div>
 </body>
 </html>
