@@ -8,54 +8,50 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
             font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; 
-            max-width: 800px; 
+            max-width: 100%;
             margin: 0 auto; 
-            padding: 15px;
+            padding: 0;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
         }
         .container {
             background: white;
-            border-radius: 20px;
-            padding: 25px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border-radius: 0;
+            padding: 20px 16px;
+            box-shadow: none;
+            max-width: 100%;
         }
         .header { 
             text-align: center; 
             padding: 20px 0; 
-            border-bottom: 2px solid #f0f0f0;
-            margin-bottom: 25px;
+            border-bottom: 1px solid #f0f0f0;
+            margin-bottom: 20px;
         }
         .header h1 { 
             color: #333; 
-            font-size: 20px; 
-            margin-bottom: 8px;
+            font-size: 18px; 
+            margin-bottom: 6px;
             font-weight: 600;
         }
-        .header .date { color: #999; font-size: 13px; }
+        .header .date { color: #999; font-size: 12px; }
         .stats { 
-            display: flex; 
-            justify-content: center; 
-            gap: 25px; 
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px; 
             margin-top: 15px; 
         }
-        .stat-item { text-align: center; }
-        .stat-number { font-size: 28px; font-weight: bold; color: #FF6B35; }
-        .stat-label { font-size: 12px; color: #999; margin-top: 4px; }
+        .stat-item { text-align: center; background: #f8f9fa; padding: 12px 8px; border-radius: 10px; }
+        .stat-number { font-size: 22px; font-weight: bold; color: #FF6B35; }
+        .stat-label { font-size: 11px; color: #999; margin-top: 4px; line-height: 1.2; }
         
         /* 企业卡片 */
         .card { 
-            border-radius: 16px; 
-            padding: 20px; 
-            margin-bottom: 20px; 
+            border-radius: 12px; 
+            padding: 16px; 
+            margin-bottom: 16px; 
             background: #fff;
             border: 1px solid #e8e8e8;
-            transition: all 0.3s ease;
-        }
-        .card:hover {
-            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
-            transform: translateY(-2px);
-            border-color: #667eea;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
         }
         .card.negative {
             background: #fff5f5;
@@ -66,24 +62,24 @@
         .card-header {
             display: flex;
             align-items: flex-start;
-            gap: 12px;
-            margin-bottom: 15px;
+            gap: 10px;
+            margin-bottom: 12px;
         }
         .card-number {
             background: linear-gradient(135deg, #FF6B35, #ff8f66);
             color: white;
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: bold;
-            font-size: 14px;
+            font-size: 13px;
             flex-shrink: 0;
         }
         .card-title { 
-            font-size: 15px; 
+            font-size: 13px; 
             color: #666;
             line-height: 1.4;
             flex: 1;
@@ -91,24 +87,30 @@
         
         /* 企业名称 - 最醒目 */
         .company-name { 
-            font-size: 20px; 
+            font-size: 17px; 
             font-weight: 700; 
             color: #1a1a1a;
-            margin: 15px 0;
+            margin: 12px 0;
             display: flex;
-            align-items: center;
-            gap: 8px;
+            align-items: flex-start;
+            gap: 6px;
+            line-height: 1.3;
         }
-        .company-name .icon { font-size: 22px; }
+        .company-name .icon { font-size: 18px; flex-shrink: 0; }
+        .company-name .score-badge { 
+            font-size: 11px; 
+            padding: 3px 8px; 
+            white-space: nowrap;
+        }
         
         /* 事件标签 */
         .event-tag {
             display: inline-block;
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 13px;
+            padding: 5px 12px;
+            border-radius: 16px;
+            font-size: 12px;
             font-weight: 600;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
         .event-funding { background: linear-gradient(135deg, #f093fb, #f5576c); color: white; }
         .event-relocation { background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; }
@@ -120,53 +122,50 @@
         .info-grid { 
             display: grid; 
             grid-template-columns: repeat(2, 1fr); 
-            gap: 12px;
+            gap: 10px;
             background: #f8f9fa;
-            padding: 15px;
-            border-radius: 12px;
-            margin-bottom: 15px;
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 12px;
         }
-        .info-item { display: flex; flex-direction: column; gap: 4px; }
-        .info-label { font-size: 11px; color: #999; text-transform: uppercase; }
-        .info-value { font-size: 13px; color: #333; font-weight: 500; }
+        .info-item { display: flex; flex-direction: column; gap: 3px; }
+        .info-label { font-size: 10px; color: #999; text-transform: uppercase; }
+        .info-value { font-size: 12px; color: #333; font-weight: 500; line-height: 1.3; }
         
         /* 爱企查按钮 */
         .search-link { 
             display: inline-block; 
             background: linear-gradient(135deg, #667eea, #764ba2); 
             color: white; 
-            padding: 8px 16px; 
+            padding: 10px 18px; 
             border-radius: 8px; 
             text-decoration: none; 
-            font-size: 13px; 
+            font-size: 14px; 
             font-weight: 500;
-            margin-bottom: 15px;
-            transition: all 0.3s ease;
-        }
-        .search-link:hover {
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-            transform: translateY(-1px);
+            margin-bottom: 12px;
+            width: 100%;
+            text-align: center;
         }
         
         /* 小贾洞察 */
         .insight-box {
             background: linear-gradient(135deg, #f0f7ff, #e8f4f8);
-            border-left: 4px solid #2196F3;
-            padding: 15px;
+            border-left: 3px solid #2196F3;
+            padding: 12px;
             border-radius: 8px;
-            margin: 15px 0;
+            margin: 12px 0;
         }
         .insight-title {
-            font-size: 13px;
+            font-size: 12px;
             font-weight: 600;
             color: #1976D2;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 5px;
         }
         .insight-content {
-            font-size: 13px;
+            font-size: 12px;
             color: #555;
             line-height: 1.6;
         }
@@ -175,13 +174,13 @@
         .official-tag { 
             background: linear-gradient(135deg, #fff3cd, #ffe8a1); 
             color: #856404; 
-            padding: 4px 10px; 
-            border-radius: 6px; 
-            font-size: 11px; 
+            padding: 3px 8px; 
+            border-radius: 5px; 
+            font-size: 10px; 
             font-weight: 600;
-            margin-right: 6px;
+            margin-right: 4px;
             display: inline-block;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
         }
         
         /* 卡片底部 */
@@ -189,27 +188,27 @@
             display: flex; 
             justify-content: space-between; 
             align-items: center;
-            padding-top: 15px; 
+            padding-top: 12px; 
             border-top: 1px solid #f0f0f0; 
-            margin-top: 15px;
-            font-size: 12px;
+            margin-top: 12px;
+            font-size: 11px;
         }
         .card-footer .source { color: #999; }
         .card-footer a { 
             color: #667eea; 
             text-decoration: none; 
             font-weight: 600;
+            font-size: 12px;
         }
-        .card-footer a:hover { text-decoration: underline; }
         
         /* 评分徽章 */
         .score-badge {
             display: inline-block;
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 10px;
             font-weight: 700;
-            margin-left: 8px;
+            margin-left: 6px;
         }
         .score-high { background: linear-gradient(135deg, #43e97b, #38f9d7); color: #0d5c3f; }
         .score-mid { background: linear-gradient(135deg, #667eea, #764ba2); color: white; }
@@ -218,42 +217,42 @@
         .negative-alert {
             background: linear-gradient(135deg, #ffeef0, #ffd6db);
             border: 1px solid #feb2b2;
-            border-radius: 12px;
-            padding: 15px;
-            margin-bottom: 20px;
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 16px;
         }
         .negative-alert-title {
-            font-size: 13px;
+            font-size: 12px;
             font-weight: 600;
             color: #c82333;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 5px;
         }
         .negative-alert-content {
-            font-size: 12px;
+            font-size: 11px;
             color: #721c24;
-            line-height: 1.6;
+            line-height: 1.5;
         }
         
         /* 页脚 */
         .footer { 
             text-align: center; 
-            margin-top: 30px; 
-            padding-top: 20px; 
-            border-top: 2px solid #f0f0f0; 
+            margin-top: 25px; 
+            padding-top: 15px; 
+            border-top: 1px solid #f0f0f0; 
             color: #999; 
-            font-size: 12px;
+            font-size: 11px;
         }
         
-        /* 移动端适配 */
-        @media (max-width: 600px) {
-            body { padding: 10px; }
-            .container { padding: 20px; }
-            .header h1 { font-size: 18px; }
+        /* 移动端优化 */
+        @media (max-width: 480px) {
             .info-grid { grid-template-columns: 1fr; }
-            .company-name { font-size: 18px; }
+            .stats { gap: 8px; }
+            .stat-number { font-size: 20px; }
+            .company-name { font-size: 16px; }
+            .header h1 { font-size: 17px; }
         }
     </style>
 </head>
@@ -263,17 +262,9 @@
             <h1>🐉 寻龙雷达</h1>
             <p class="date">杭州未来"六小龙"发现系统 | 2026年03月03日</p>
             <div class="stats">
-                <div class="stat-item"><div class="stat-number">9</div><div class="stat-label">寻龙标的</div></div>
-                <div class="stat-item"><div class="stat-number">1</div><div class="stat-label">负面预警</div></div>
+                <div class="stat-item"><div class="stat-number">8</div><div class="stat-label">寻龙标的</div></div>
+                <div class="stat-item"><div class="stat-number">0</div><div class="stat-label">负面预警</div></div>
                 <div class="stat-item"><div class="stat-number">18</div><div class="stat-label">监测文章</div></div>
-            </div>
-        </div>
-        
-
-        <div class="negative-alert">
-            <div class="negative-alert-title">🚨 负面预警</div>
-            <div class="negative-alert-content">
-                今日发现 1 条负面新闻，详见下方卡片。
             </div>
         </div>
         
@@ -341,8 +332,8 @@
                 <span class="score-badge score-high">95分</span>
             </div>
             
-            <div class="event-tag event-其他">
-                📌 产品推广至全国并探索海外市场
+            <div class="event-tag event-扩张">
+                📈 产品应用于全国30多城并探索海外市场
             </div>
             
             <a href="https://aiqicha.baidu.com/s?q=云途信息科技（杭州）有限公司" target="_blank" class="search-link">🔍 爱企查查询</a>
@@ -370,7 +361,7 @@
             
             <div class="insight-box">
                 <div class="insight-title">💡 小贾洞察</div>
-                <div class="insight-content">云途信息科技（杭州）有限公司深耕AI城市治理/智慧城市领域，“云上坦途”系统，通过搭载传感器的智能设备实时感知路面异常，利用AI、大数据进行道路病害识别与治理。。最新产品推广至全国并探索海外市场，已获得国家高新技术企业、浙江省专精特新中小企业认定，值得持续关注。</div>
+                <div class="insight-content">云途信息科技（杭州）有限公司深耕AI城市治理/智慧城市领域，“云上坦途”系统，通过搭载传感器的智能设备实时感知路面异常，利用AI、大数据和云计算进行道路病害识别与治理。。最新产品应用于全国30多城并探索海外市场，已获得国家高新技术企业、浙江省专精特新中小企业认定，值得持续关注。</div>
             </div>
             
             <div class="card-footer">
@@ -421,7 +412,7 @@
             
             <div class="insight-box">
                 <div class="insight-title">💡 小贾洞察</div>
-                <div class="insight-content">奇偶乾元（杭州）电子商务有限公司深耕潮玩/文创领域，IP矩阵多元化孵化与运营，主打情绪共鸣，拥有研产销一体全产业链布局。最新在杭州成立新公司，值得持续关注。</div>
+                <div class="insight-content">奇偶乾元（杭州）电子商务有限公司深耕潮玩/文创领域，IP矩阵多元化孵化与运营，主打情绪共鸣，拥有“IP中台”机制和“研产销一体”全产业链布局。。最新在杭州成立新公司，值得持续关注。</div>
             </div>
             
             <div class="card-footer">
@@ -472,7 +463,7 @@
             
             <div class="insight-box">
                 <div class="insight-title">💡 小贾洞察</div>
-                <div class="insight-content">强脑科技深耕人工智能/脑机接口领域，研发智能仿生手，通过脑电灵活控制手指，应用于医疗康复领域。最新发布新一代神经控制假肢产品，值得持续关注。</div>
+                <div class="insight-content">强脑科技深耕人工智能/脑机接口领域，研发智能仿生手，通过脑电灵活控制手指，致力于帮助残疾人恢复手部功能。最新发布新一代神经控制假肢产品，值得持续关注。</div>
             </div>
             
             <div class="card-footer">
@@ -536,57 +527,6 @@
         <div class="card">
             <div class="card-header">
                 <div class="card-number">6</div>
-                <div class="card-title">杭州跃升全球“成长型”赛事名城，45.3%增速背后的逻辑</div>
-            </div>
-            
-            <div class="company-name">
-                <span class="icon">🏢</span>
-                顺网科技
-                <span class="score-badge score-mid">50分</span>
-            </div>
-            
-            <div class="event-tag event-其他">
-                📌 作为电竞产业代表企业被提及
-            </div>
-            
-            <a href="https://aiqicha.baidu.com/s?q=顺网科技" target="_blank" class="search-link">🔍 爱企查查询</a>
-            
-            <div class="info-grid">
-                <div class="info-item">
-                    <span class="info-label">赛道</span>
-                    <span class="info-value">电竞/游戏</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">区域</span>
-                    <span class="info-value">杭州拱墅区</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">融资</span>
-                    <span class="info-value">-</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">创始人</span>
-                    <span class="info-value">-</span>
-                </div>
-            </div>
-            
-            
-            
-            <div class="insight-box">
-                <div class="insight-title">💡 小贾洞察</div>
-                <div class="insight-content">顺网科技深耕电竞/游戏领域，电竞游戏企业，业务涉及赛事举办、训练培训、内容制作等电竞产业生态。最新作为电竞产业代表企业被提及，值得持续关注。</div>
-            </div>
-            
-            <div class="card-footer">
-                <span class="source">📰 来源：浙商杂志</span>
-                <a href="https://mp.weixin.qq.com/s/rH1hlLw6pqF3oCIIj5DCGw" target="_blank">阅读原文 →</a>
-            </div>
-        </div>
-        
-
-        <div class="card">
-            <div class="card-header">
-                <div class="card-number">7</div>
                 <div class="card-title">全球销量第二的“老头乐”，要去IPO了</div>
             </div>
             
@@ -637,7 +577,7 @@
 
         <div class="card">
             <div class="card-header">
-                <div class="card-number">8</div>
+                <div class="card-number">7</div>
                 <div class="card-title">父女联手卖小众品，要冲刺IPO了</div>
             </div>
             
@@ -688,7 +628,7 @@
 
         <div class="card">
             <div class="card-header">
-                <div class="card-number">9</div>
+                <div class="card-number">8</div>
                 <div class="card-title">82%毛利率，1.3亿美元2025年前三季度营收，钛动科技赴港IPO，哪些上市公司投资了钛动科技？ | 烯牛AI解读</div>
             </div>
             
@@ -719,7 +659,7 @@
                 </div>
                 <div class="info-item">
                     <span class="info-label">创始人</span>
-                    <span class="info-value">创始人兼CEO李述昊，曾就职于华为、UC、阿里巴巴，前阿里巴巴移动事业群国际流量业务总经理。</span>
+                    <span class="info-value">创始人兼CEO李述昊曾就职于华为、UC、阿里巴巴，前阿里巴巴移动事业群国际流量业务总经理。</span>
                 </div>
             </div>
             
@@ -733,31 +673,6 @@
             <div class="card-footer">
                 <span class="source">📰 来源：火石创造</span>
                 <a href="https://mp.weixin.qq.com/s/NMioHZ0-TcjxRxVcWCR5sA" target="_blank">阅读原文 →</a>
-            </div>
-        </div>
-        
-
-        <div class="card negative">
-            <div class="card-header">
-                <div class="card-number" style="background: linear-gradient(135deg, #dc3545, #ff6b6b);">⚠️</div>
-                <div class="card-title">娃哈哈这家200余人公司，决议解散</div>
-            </div>
-            
-            <div class="company-name">
-                <span class="icon">🏢</span>
-                杭州娃哈哈精密机械有限公司
-            </div>
-            
-            <div class="insight-box" style="background: linear-gradient(135deg, #ffeef0, #ffd6db); border-left-color: #dc3545;">
-                <div class="insight-title" style="color: #c82333;">🚨 风险提醒</div>
-                <div class="insight-content" style="color: #721c24;">
-                    该企业有负面新闻，建议谨慎关注，持续观察后续发展。
-                </div>
-            </div>
-            
-            <div class="card-footer">
-                <span class="source">📰 来源：湖畔自留田</span>
-                <a href="https://mp.weixin.qq.com/s/jSVSyP6VoFpCRMhLRhZvAg" target="_blank">阅读原文 →</a>
             </div>
         </div>
         
