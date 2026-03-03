@@ -2,148 +2,845 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>寻龙雷达 | 2026-03-03</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: linear-gradient(135deg, #667eea, #764ba2); min-height: 100vh; }
-        .container { background: white; border-radius: 16px; padding: 30px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
-        .header { text-align: center; padding: 30px 0; border-bottom: 3px solid #FF6B35; margin-bottom: 30px; }
-        .header h1 { color: #FF6B35; font-size: 32px; margin-bottom: 10px; }
-        .stats { display: flex; justify-content: center; gap: 20px; margin-top: 15px; }
-        .stat-number { font-size: 24px; font-weight: bold; color: #FF6B35; }
-        .card { border: 1px solid #e0e0e0; border-radius: 12px; padding: 25px; margin-bottom: 25px; background: #fafafa; }
-        .company-name { font-size: 16px; font-weight: bold; color: #667eea; margin: 10px 0; }
-        .search-link { display: inline-block; background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; margin: 10px 0; }
-        .sector-desc { background: #f0f7ff; padding: 10px; border-radius: 6px; margin: 10px 0; color: #0066cc; }
-        .card-meta { display: flex; justify-content: space-between; padding-top: 15px; border-top: 1px solid #e0e0e0; margin-top: 15px; font-size: 13px; }
-        .card-meta a { color: #667eea; text-decoration: none; }
-        .footer { text-align: center; margin-top: 40px; padding-top: 25px; border-top: 2px solid #f0f0f0; color: #999; }
+        body { 
+            font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .header { 
+            text-align: center; 
+            padding: 20px 0; 
+            border-bottom: 2px solid #f0f0f0;
+            margin-bottom: 25px;
+        }
+        .header h1 { 
+            color: #333; 
+            font-size: 20px; 
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        .header .date { color: #999; font-size: 13px; }
+        .stats { 
+            display: flex; 
+            justify-content: center; 
+            gap: 25px; 
+            margin-top: 15px; 
+        }
+        .stat-item { text-align: center; }
+        .stat-number { font-size: 28px; font-weight: bold; color: #FF6B35; }
+        .stat-label { font-size: 12px; color: #999; margin-top: 4px; }
+        
+        /* 企业卡片 */
+        .card { 
+            border-radius: 16px; 
+            padding: 20px; 
+            margin-bottom: 20px; 
+            background: #fff;
+            border: 1px solid #e8e8e8;
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+            transform: translateY(-2px);
+            border-color: #667eea;
+        }
+        .card.negative {
+            background: #fff5f5;
+            border-color: #feb2b2;
+        }
+        
+        /* 卡片头部 */
+        .card-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+        .card-number {
+            background: linear-gradient(135deg, #FF6B35, #ff8f66);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+        .card-title { 
+            font-size: 15px; 
+            color: #666;
+            line-height: 1.4;
+            flex: 1;
+        }
+        
+        /* 企业名称 - 最醒目 */
+        .company-name { 
+            font-size: 20px; 
+            font-weight: 700; 
+            color: #1a1a1a;
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .company-name .icon { font-size: 22px; }
+        
+        /* 事件标签 */
+        .event-tag {
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .event-funding { background: linear-gradient(135deg, #f093fb, #f5576c); color: white; }
+        .event-relocation { background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; }
+        .event-expansion { background: linear-gradient(135deg, #43e97b, #38f9d7); color: white; }
+        .event-ipo { background: linear-gradient(135deg, #fa709a, #fee140); color: white; }
+        .event-other { background: linear-gradient(135deg, #a8edea, #fed6e3); color: #333; }
+        
+        /* 信息网格 */
+        .info-grid { 
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 12px;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+        .info-item { display: flex; flex-direction: column; gap: 4px; }
+        .info-label { font-size: 11px; color: #999; text-transform: uppercase; }
+        .info-value { font-size: 13px; color: #333; font-weight: 500; }
+        
+        /* 爱企查按钮 */
+        .search-link { 
+            display: inline-block; 
+            background: linear-gradient(135deg, #667eea, #764ba2); 
+            color: white; 
+            padding: 8px 16px; 
+            border-radius: 8px; 
+            text-decoration: none; 
+            font-size: 13px; 
+            font-weight: 500;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+        }
+        .search-link:hover {
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            transform: translateY(-1px);
+        }
+        
+        /* 小贾洞察 */
+        .insight-box {
+            background: linear-gradient(135deg, #f0f7ff, #e8f4f8);
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .insight-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #1976D2;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .insight-content {
+            font-size: 13px;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        /* 官方认定标签 */
+        .official-tag { 
+            background: linear-gradient(135deg, #fff3cd, #ffe8a1); 
+            color: #856404; 
+            padding: 4px 10px; 
+            border-radius: 6px; 
+            font-size: 11px; 
+            font-weight: 600;
+            margin-right: 6px;
+            display: inline-block;
+            margin-bottom: 6px;
+        }
+        
+        /* 卡片底部 */
+        .card-footer { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            padding-top: 15px; 
+            border-top: 1px solid #f0f0f0; 
+            margin-top: 15px;
+            font-size: 12px;
+        }
+        .card-footer .source { color: #999; }
+        .card-footer a { 
+            color: #667eea; 
+            text-decoration: none; 
+            font-weight: 600;
+        }
+        .card-footer a:hover { text-decoration: underline; }
+        
+        /* 评分徽章 */
+        .score-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 700;
+            margin-left: 8px;
+        }
+        .score-high { background: linear-gradient(135deg, #43e97b, #38f9d7); color: #0d5c3f; }
+        .score-mid { background: linear-gradient(135deg, #667eea, #764ba2); color: white; }
+        
+        /* 负面预警 */
+        .negative-alert {
+            background: linear-gradient(135deg, #ffeef0, #ffd6db);
+            border: 1px solid #feb2b2;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .negative-alert-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #c82333;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .negative-alert-content {
+            font-size: 12px;
+            color: #721c24;
+            line-height: 1.6;
+        }
+        
+        /* 页脚 */
+        .footer { 
+            text-align: center; 
+            margin-top: 30px; 
+            padding-top: 20px; 
+            border-top: 2px solid #f0f0f0; 
+            color: #999; 
+            font-size: 12px;
+        }
+        
+        /* 移动端适配 */
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .container { padding: 20px; }
+            .header h1 { font-size: 18px; }
+            .info-grid { grid-template-columns: 1fr; }
+            .company-name { font-size: 18px; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>🐉 寻龙雷达</h1>
-            <p>杭州未来"六小龙"发现系统</p>
-            <p>2026年03月03日</p>
+            <p class="date">杭州未来"六小龙"发现系统 | 2026年03月03日</p>
             <div class="stats">
-                <div class="stat-item"><div class="stat-number">9</div><div class="stat-label">寻龙标的</div></div>
-                <div class="stat-item"><div class="stat-number">1</div><div class="stat-label">负面预警</div></div>
-                <div class="stat-item"><div class="stat-number">18</div><div class="stat-label">抓取总数</div></div>
+                <div class="stat-item"><div class="stat-number">14</div><div class="stat-label">寻龙标的</div></div>
+                <div class="stat-item"><div class="stat-number">2</div><div class="stat-label">负面预警</div></div>
+                <div class="stat-item"><div class="stat-number">18</div><div class="stat-label">监测文章</div></div>
+            </div>
+        </div>
+        
+
+        <div class="negative-alert">
+            <div class="negative-alert-title">🚨 负面预警</div>
+            <div class="negative-alert-content">
+                今日发现 2 条负面新闻，详见下方卡片。
             </div>
         </div>
         
 
         <div class="card">
-            <h2>1. 杭州又一家EDA公司拿到大额融资</h2>
-            <div class="company-name">🏢 杭州行芯科技有限公司</div>
+            <div class="card-header">
+                <div class="card-number">1</div>
+                <div class="card-title">杭州又一家EDA公司拿到大额融资</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                杭州行芯科技有限公司
+                <span class="score-badge score-high">110分</span>
+            </div>
+            
+            <div class="event-tag event-融资">
+                💰 完成数亿元融资
+            </div>
+            
             <a href="https://aiqicha.baidu.com/s?q=杭州行芯科技有限公司" target="_blank" class="search-link">🔍 爱企查查询</a>
-            <div class="sector-desc"><strong>📌 产业定性：</strong>国产EDA签核工具链领军企业，专注先进工艺芯片设计验证，突破海外垄断，实现国产化替代。</div>
-            <div class="card-meta">
-                <span>📰 来源：湖畔自留田</span>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">EDA/芯片设计</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州滨江</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">数亿元</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">创始人</span>
+                    <span class="info-value">-</span>
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 12px;"><span class="official-tag">专精特新</span></div>
+            
+            <div class="insight-box">
+                <div class="insight-title">💡 小贾洞察</div>
+                <div class="insight-content">杭州行芯科技有限公司深耕EDA/芯片设计领域，专注于 EDA 签核工具链研发，支持 7nm 及以下先进工艺。最新完成数亿元融资，已获得专精特新认定，值得持续关注。</div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：湖畔自留田</span>
                 <a href="https://mp.weixin.qq.com/s/LoHDY4eBZlUiqO2fJpLONQ" target="_blank">阅读原文 →</a>
             </div>
         </div>
         
 
         <div class="card">
-            <h2>2. 泡泡玛特挑战者落子杭州</h2>
-            <div class="company-name">🏢 奇偶乾元（杭州）电子商务有限公司</div>
-            <a href="https://aiqicha.baidu.com/s?q=奇偶乾元（杭州）电子商务有限公司" target="_blank" class="search-link">🔍 爱企查查询</a>
-            <div class="sector-desc"><strong>📌 产业定性：</strong>潮玩行业新锐品牌，以IP矩阵多元化、高性价比和全球化布局为特点，构建研产销一体的全产业链。</div>
-            <div class="card-meta">
-                <span>📰 来源：湖畔自留田</span>
+            <div class="card-header">
+                <div class="card-number">2</div>
+                <div class="card-title">泡泡玛特挑战者落子杭州</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                
+                <span class="score-badge score-mid">50分</span>
+            </div>
+            
+            <div class="event-tag event-其他">
+                📌 泡泡玛特挑战者落子杭州
+            </div>
+            
+            <a href="https://aiqicha.baidu.com/s?q=" target="_blank" class="search-link">🔍 爱企查查询</a>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">创始人</span>
+                    <span class="info-value">-</span>
+                </div>
+            </div>
+            
+            
+            
+            <div class="insight-box">
+                <div class="insight-title">💡 小贾洞察</div>
+                <div class="insight-content">最新泡泡玛特挑战者落子杭州，值得持续关注。</div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：湖畔自留田</span>
                 <a href="https://mp.weixin.qq.com/s/43q28FB7PftqlalBfpvIlQ" target="_blank">阅读原文 →</a>
             </div>
         </div>
         
 
         <div class="card">
-            <h2>3. 浙江经济第一区确立“首要任务”</h2>
-            <div class="company-name">🏢 强脑科技</div>
-            <a href="https://aiqicha.baidu.com/s?q=强脑科技" target="_blank" class="search-link">🔍 爱企查查询</a>
-            <div class="sector-desc"><strong>📌 产业定性：</strong>专注于脑机接口技术，研发智能仿生手等产品，是全球研发投入最大的脑机接口企业之一。</div>
-            <div class="card-meta">
-                <span>📰 来源：涌金楼</span>
-                <a href="https://mp.weixin.qq.com/s/sifoZuyVsUQc2qPWvkKgeg" target="_blank">阅读原文 →</a>
+            <div class="card-header">
+                <div class="card-number">3</div>
+                <div class="card-title">浙江最赚钱上市公司迎“新帅”</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                浙江最赚钱上市公司
+                <span class="score-badge score-mid">50分</span>
+            </div>
+            
+            <div class="event-tag event-其他">
+                📌 公司迎来新任董事长
+            </div>
+            
+            <a href="https://aiqicha.baidu.com/s?q=浙江最赚钱上市公司" target="_blank" class="search-link">🔍 爱企查查询</a>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">创始人</span>
+                    <span class="info-value">-</span>
+                </div>
+            </div>
+            
+            
+            
+            <div class="insight-box">
+                <div class="insight-title">💡 小贾洞察</div>
+                <div class="insight-content">浙江最赚钱上市公司最新公司迎来新任董事长，值得持续关注。</div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：涌金楼</span>
+                <a href="https://mp.weixin.qq.com/s/4r_bgIdkXoZQ1pW9Toir9A" target="_blank">阅读原文 →</a>
             </div>
         </div>
         
 
         <div class="card">
-            <h2>4. 董云衍：从浙大剧社主角，到“西戏”创始人</h2>
-            <div class="company-name">🏢 西戏</div>
-            <a href="https://aiqicha.baidu.com/s?q=西戏" target="_blank" class="search-link">🔍 爱企查查询</a>
-            <div class="sector-desc"><strong>📌 产业定性：</strong>青年戏剧厂牌，运营西溪天堂艺术中心，专注于引入全球优秀剧场作品，通过创新营销和会员体系推广戏剧文化。</div>
-            <div class="card-meta">
-                <span>📰 来源：浙商杂志</span>
-                <a href="https://mp.weixin.qq.com/s/BRSOG2rWc__gPfg0MANzgQ" target="_blank">阅读原文 →</a>
+            <div class="card-header">
+                <div class="card-number">4</div>
+                <div class="card-title">杭州跃升全球“成长型”赛事名城，45.3%增速背后的逻辑</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                顺网科技
+                <span class="score-badge score-mid">50分</span>
+            </div>
+            
+            <div class="event-tag event-其他">
+                📌 作为电竞产业代表企业被提及
+            </div>
+            
+            <a href="https://aiqicha.baidu.com/s?q=顺网科技" target="_blank" class="search-link">🔍 爱企查查询</a>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">电竞/游戏</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州拱墅区</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">创始人</span>
+                    <span class="info-value">-</span>
+                </div>
+            </div>
+            
+            
+            
+            <div class="insight-box">
+                <div class="insight-title">💡 小贾洞察</div>
+                <div class="insight-content">顺网科技深耕电竞/游戏领域，电竞游戏企业，业务涉及赛事举办、训练培训、内容制作等电竞产业环节。最新作为电竞产业代表企业被提及，值得持续关注。</div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：浙商杂志</span>
+                <a href="https://mp.weixin.qq.com/s/rH1hlLw6pqF3oCIIj5DCGw" target="_blank">阅读原文 →</a>
             </div>
         </div>
         
 
         <div class="card">
-            <h2>5. 劈波斩浪的浙商航海者！“2026浙商出海先锋人物”样本征集启动</h2>
-            <div class="company-name">🏢 浙商杂志</div>
-            <a href="https://aiqicha.baidu.com/s?q=浙商杂志" target="_blank" class="search-link">🔍 爱企查查询</a>
-            <div class="sector-desc"><strong>📌 产业定性：</strong>财经媒体，专注于浙商群体报道、商业案例研究和全球化发展推动。</div>
-            <div class="card-meta">
-                <span>📰 来源：浙商杂志</span>
-                <a href="https://mp.weixin.qq.com/s/fFyzu6v31MkX-AbpRqIPHA" target="_blank">阅读原文 →</a>
+            <div class="card-header">
+                <div class="card-number">5</div>
+                <div class="card-title">陈宇杰：用AI铺就城市的“云上坦途”！</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                云途信息科技（杭州）有限公司
+                <span class="score-badge score-high">95分</span>
+            </div>
+            
+            <div class="event-tag event-其他">
+                📌 产品推广至全国及海外
+            </div>
+            
+            <a href="https://aiqicha.baidu.com/s?q=云途信息科技（杭州）有限公司" target="_blank" class="search-link">🔍 爱企查查询</a>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">AI城市治理/智慧交通</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">创始人</span>
+                    <span class="info-value">陈宇杰，90后创业者</span>
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 12px;"><span class="official-tag">国家高新技术企业、浙江省专精特新中小企业</span></div>
+            
+            <div class="insight-box">
+                <div class="insight-title">💡 小贾洞察</div>
+                <div class="insight-content">云途信息科技（杭州）有限公司深耕AI城市治理/智慧交通领域，研发“云上坦途”AI道路治理系统，通过智能传感设备实时感知路面异常并上传云端。最新产品推广至全国及海外，已获得国家高新技术企业、浙江省专精特新中小企业认定，值得持续关注。</div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：浙商杂志</span>
+                <a href="https://mp.weixin.qq.com/s/UOTDCrdVxhnhT6bMbFNRFg" target="_blank">阅读原文 →</a>
             </div>
         </div>
         
 
         <div class="card">
-            <h2>6. 父女联手卖小众品，要冲刺IPO了</h2>
-            <div class="company-name">🏢 浙江出海大卖乐欣户外国际有限公司</div>
+            <div class="card-header">
+                <div class="card-number">6</div>
+                <div class="card-title">关明贺：以创新破局 以乐观前行</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                愿景翰唐（杭州）传媒科技有限公司
+                <span class="score-badge score-high">85分</span>
+            </div>
+            
+            <div class="event-tag event-其他">
+                📌 CEO分享AI战略与行业洞察
+            </div>
+            
+            <a href="https://aiqicha.baidu.com/s?q=愿景翰唐（杭州）传媒科技有限公司" target="_blank" class="search-link">🔍 爱企查查询</a>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">直播电商服务/AI内容创作</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">创始人</span>
+                    <span class="info-value">关明贺</span>
+                </div>
+            </div>
+            
+            
+            
+            <div class="insight-box">
+                <div class="insight-title">💡 小贾洞察</div>
+                <div class="insight-content">愿景翰唐（杭州）传媒科技有限公司深耕直播电商服务/AI内容创作领域，明星IP营销、自研SaaS系统、达人画像系统、AI真人剧与AI垂直应用（如AI服饰）。最新CEO分享AI战略与行业洞察，值得持续关注。</div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：浙商杂志</span>
+                <a href="https://mp.weixin.qq.com/s/Q5F-zyJYIbJ5Kr0Fze2VhQ" target="_blank">阅读原文 →</a>
+            </div>
+        </div>
+        
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">7</div>
+                <div class="card-title">全球销量第二的“老头乐”，要去IPO了</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                涛涛车业
+                <span class="score-badge score-mid">50分</span>
+            </div>
+            
+            <div class="event-tag event-ipo">
+                🔔 拟赴港交所二次上市
+            </div>
+            
+            <a href="https://aiqicha.baidu.com/s?q=涛涛车业" target="_blank" class="search-link">🔍 爱企查查询</a>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">户外休闲及电动出行</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">浙江丽水缙云县</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">创始人</span>
+                    <span class="info-value">曹马涛，41岁，祖父曹桂成、父亲曹跃进为早期企业家，家族经营涛涛集团。</span>
+                </div>
+            </div>
+            
+            
+            
+            <div class="insight-box">
+                <div class="insight-title">💡 小贾洞察</div>
+                <div class="insight-content">涛涛车业深耕户外休闲及电动出行领域，主要在美国销售电动休闲车（俗称“老头乐”），产品销往全球70多个国家及地区。。最新拟赴港交所二次上市，值得持续关注。</div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：36 氪浙江</span>
+                <a href="https://mp.weixin.qq.com/s/rNHXB6Fn3etmtDfyUexjLQ" target="_blank">阅读原文 →</a>
+            </div>
+        </div>
+        
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">8</div>
+                <div class="card-title">父女联手卖小众品，要冲刺IPO了</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                浙江出海大卖乐欣户外国际有限公司
+                <span class="score-badge score-mid">50分</span>
+            </div>
+            
+            <div class="event-tag event-ipo">
+                🔔 更新招股书，冲刺IPO
+            </div>
+            
             <a href="https://aiqicha.baidu.com/s?q=浙江出海大卖乐欣户外国际有限公司" target="_blank" class="search-link">🔍 爱企查查询</a>
-            <div class="sector-desc"><strong>📌 产业定性：</strong>主营户外用品、渔具用品的设计、研发、生产和销售，产品销往全球40多个市场，海外收入占比近九成。</div>
-            <div class="card-meta">
-                <span>📰 来源：36 氪浙江</span>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">户外用品/渔具</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">创始人</span>
+                    <span class="info-value">创始人杨宝庆，1991年在杭州创业，1993年成立杭州康达皮塑制品厂</span>
+                </div>
+            </div>
+            
+            
+            
+            <div class="insight-box">
+                <div class="insight-title">💡 小贾洞察</div>
+                <div class="insight-content">浙江出海大卖乐欣户外国际有限公司深耕户外用品/渔具领域，以户外用品、渔具用品为主，包括床椅及配件、包袋、帐篷等产品的设计、研发、生产和销售。最新更新招股书，冲刺IPO，值得持续关注。</div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：36 氪浙江</span>
                 <a href="https://mp.weixin.qq.com/s/JVnPkBJBFaKlk2oMcR4_JQ" target="_blank">阅读原文 →</a>
             </div>
         </div>
         
 
         <div class="card">
-            <h2>7. 新质新动能 智创她力量丨2026巾帼创新创业大赛 等你来“创”！</h2>
-            <div class="company-name">🏢 微链</div>
+            <div class="card-header">
+                <div class="card-number">9</div>
+                <div class="card-title">浙商大佬62岁转行，带出350亿芯片独角兽</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                杭州行芯科技有限公司
+                <span class="score-badge score-high">110分</span>
+            </div>
+            
+            <div class="event-tag event-融资">
+                💰 完成数亿元融资
+            </div>
+            
+            <a href="https://aiqicha.baidu.com/s?q=杭州行芯科技有限公司" target="_blank" class="search-link">🔍 爱企查查询</a>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">EDA/芯片设计</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">数亿元</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">创始人</span>
+                    <span class="info-value">浙商大佬62岁转行</span>
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 12px;"><span class="official-tag">独角兽</span></div>
+            
+            <div class="insight-box">
+                <div class="insight-title">💡 小贾洞察</div>
+                <div class="insight-content">杭州行芯科技有限公司深耕EDA/芯片设计领域，专注于EDA签核工具链研发，支持7nm及以下先进工艺。最新完成数亿元融资，已获得独角兽认定，值得持续关注。</div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：36 氪浙江</span>
+                <a href="https://mp.weixin.qq.com/s/Jumsn1akmNwC7ydZ3CUV5A" target="_blank">阅读原文 →</a>
+            </div>
+        </div>
+        
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">10</div>
+                <div class="card-title">新质新动能 智创她力量丨2026巾帼创新创业大赛 等你来“创”！</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                微链
+                <span class="score-badge score-mid">50分</span>
+            </div>
+            
+            <div class="event-tag event-其他">
+                📌 发布2026巾帼创新创业大赛信息
+            </div>
+            
             <a href="https://aiqicha.baidu.com/s?q=微链" target="_blank" class="search-link">🔍 爱企查查询</a>
-            <div class="sector-desc"><strong>📌 产业定性：</strong>提供元宇宙、AI项目政策申报及办公空间需求、西湖英才及科创企业申报等咨询服务，聚焦科技创新服务领域。</div>
-            <div class="card-meta">
-                <span>📰 来源：微链</span>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">创业服务/活动平台</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">创始人</span>
+                    <span class="info-value">-</span>
+                </div>
+            </div>
+            
+            
+            
+            <div class="insight-box">
+                <div class="insight-title">💡 小贾洞察</div>
+                <div class="insight-content">微链深耕创业服务/活动平台领域，提供创业资讯、活动信息及政策申报咨询等服务。最新发布2026巾帼创新创业大赛信息，值得持续关注。</div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：微链</span>
                 <a href="https://mp.weixin.qq.com/s/O86YoC1fi_a5kzzbXh-3gg" target="_blank">阅读原文 →</a>
             </div>
         </div>
         
 
-        <div class="card">
-            <h2>8. 年度峰云榜｜北高峰科学家会客厅2025年度回眸</h2>
-            <div class="company-name">🏢 微链</div>
-            <a href="https://aiqicha.baidu.com/s?q=微链" target="_blank" class="search-link">🔍 爱企查查询</a>
-            <div class="sector-desc"><strong>📌 产业定性：</strong>科创服务平台，运营北高峰科学家会客厅，聚焦科技成果转化与科创生态建设。</div>
-            <div class="card-meta">
-                <span>📰 来源：微链</span>
-                <a href="https://mp.weixin.qq.com/s/bqR5hhzMoilgcuO6nML2dQ" target="_blank">阅读原文 →</a>
+        <div class="card negative">
+            <div class="card-header">
+                <div class="card-number" style="background: linear-gradient(135deg, #dc3545, #ff6b6b);">⚠️</div>
+                <div class="card-title">娃哈哈这家200余人公司，决议解散</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                杭州娃哈哈精密机械有限公司
+            </div>
+            
+            <div class="insight-box" style="background: linear-gradient(135deg, #ffeef0, #ffd6db); border-left-color: #dc3545;">
+                <div class="insight-title" style="color: #c82333;">🚨 风险提醒</div>
+                <div class="insight-content" style="color: #721c24;">
+                    该企业有负面新闻，建议谨慎关注，持续观察后续发展。
+                </div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：湖畔自留田</span>
+                <a href="https://mp.weixin.qq.com/s/jSVSyP6VoFpCRMhLRhZvAg" target="_blank">阅读原文 →</a>
             </div>
         </div>
         
 
-        <div class="card">
-            <h2>9. 82%毛利率，1.3亿美元2025年前三季度营收，钛动科技赴港IPO，哪些上市公司投资了钛动科技？ | 烯牛AI解读</h2>
-            <div class="company-name">🏢 钛动科技</div>
-            <a href="https://aiqicha.baidu.com/s?q=钛动科技" target="_blank" class="search-link">🔍 爱企查查询</a>
-            <div class="sector-desc"><strong>📌 产业定性：</strong>AI营销科技公司，基于自研AI Agent和大模型技术，提供出海全链路AI解决方案。</div>
-            <div class="card-meta">
-                <span>📰 来源：火石创造</span>
-                <a href="https://mp.weixin.qq.com/s/NMioHZ0-TcjxRxVcWCR5sA" target="_blank">阅读原文 →</a>
+        <div class="card negative">
+            <div class="card-header">
+                <div class="card-number" style="background: linear-gradient(135deg, #dc3545, #ff6b6b);">⚠️</div>
+                <div class="card-title">伊朗往事</div>
+            </div>
+            
+            <div class="company-name">
+                <span class="icon">🏢</span>
+                
+            </div>
+            
+            <div class="insight-box" style="background: linear-gradient(135deg, #ffeef0, #ffd6db); border-left-color: #dc3545;">
+                <div class="insight-title" style="color: #c82333;">🚨 风险提醒</div>
+                <div class="insight-content" style="color: #721c24;">
+                    该企业有负面新闻，建议谨慎关注，持续观察后续发展。
+                </div>
+            </div>
+            
+            <div class="card-footer">
+                <span class="source">📰 来源：涌金楼</span>
+                <a href="https://mp.weixin.qq.com/s/yVPu2VbSSOcRAyaVbMptkw" target="_blank">阅读原文 →</a>
             </div>
         </div>
         
 
         <div class="footer">
-            <p>—— 寻龙雷达 🐉 | 小贾 🤖</p>
+            <p><strong>—— 寻龙雷达 🐉 | 小贾 🤖</strong></p>
+            <p style="margin-top: 8px; color: #bbb;">发现杭州未来的"六小龙"</p>
         </div>
     </div>
 </body>
