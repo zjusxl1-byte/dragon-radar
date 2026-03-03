@@ -84,6 +84,10 @@
             margin-bottom: 25px;
             background: #fafafa;
         }
+        .card.negative {
+            background: #fff5f5;
+            border-color: #feb2b2;
+        }
         .score-badge {
             display: inline-block;
             padding: 4px 12px;
@@ -94,6 +98,7 @@
         }
         .score-high { background: #28a745; color: white; }
         .score-mid { background: #17a2b8; color: white; }
+        .score-negative { background: #dc3545; color: white; }
         .card-header {
             display: flex;
             align-items: flex-start;
@@ -167,6 +172,10 @@
             margin: 15px 0;
             font-size: 13px;
         }
+        .evaluation.negative {
+            background: #ffeef0;
+            border-left-color: #dc3545;
+        }
         .card-meta {
             display: flex;
             justify-content: space-between;
@@ -180,6 +189,10 @@
         .card-meta a {
             color: #667eea;
             text-decoration: none;
+            font-weight: 500;
+        }
+        .card-meta a:hover {
+            text-decoration: underline;
         }
         .footer { 
             text-align: center; 
@@ -199,7 +212,7 @@
             <p class="date">2026年03月03日</p>
             <div class="stats">
                 <div class="stat-item">
-                    <div class="stat-number">6</div>
+                    <div class="stat-number">3</div>
                     <div class="stat-label">寻龙标的</div>
                 </div>
                 <div class="stat-item">
@@ -213,12 +226,12 @@
             </div>
         </div>
         
-        <div class="alert-negative">🚨 今日 3 条负面预警，详见列表底部</div>
+        <div class="alert-negative">🚨 今日 3 条负面预警</div>
         
         <div class="observation">
             <h2>📊 今日观察</h2>
             <div class="content">
-                <p><strong>今日发现 6 家符合寻龙标的的杭州企业</strong>。</p>
+                <p><strong>今日发现 3 家符合寻龙标的的杭州企业</strong>。</p>
                 <p style="margin-top: 10px;"><strong>赛道分布：</strong>主要集中在 AI、芯片、生物医药等未来产业。</p>
                 <p style="margin-top: 10px;"><strong>资本动向：</strong>多家企业获融资或筹备 IPO，显示资本看好杭州初创生态。</p>
             </div>
@@ -233,6 +246,7 @@
         </div>
         
 
+        <!-- 企业卡片 1 -->
         <div class="card">
             <div class="card-header">
                 <div class="card-number">1</div>
@@ -289,6 +303,7 @@
         </div>
         
 
+        <!-- 企业卡片 2 -->
         <div class="card">
             <div class="card-header">
                 <div class="card-number">2</div>
@@ -345,177 +360,10 @@
         </div>
         
 
+        <!-- 企业卡片 3 -->
         <div class="card">
             <div class="card-header">
                 <div class="card-number">3</div>
-                <h2 class="card-title">“2026杭州新物种企业”征集启动 <span class="score-badge score-high">100分</span></h2>
-            </div>
-            
-            <div class="company-info">
-                <div class="company-name">🏢 杭州企业</div>
-                <a href="https://aiqicha.baidu.com/s?q=杭州企业" target="_blank" class="search-link">🔍 爱企查查询</a>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">企业名</span>
-                        <span class="info-value">杭州企业</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">区域</span>
-                        <span class="info-value">杭州</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">领域</span>
-                        <span class="info-value">未来产业</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">产品</span>
-                        <span class="info-value">-</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">融资</span>
-                        <span class="info-value">关注中</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">创始人</span>
-                        <span class="info-value">-</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card-content">
-                <p><strong>🎯 寻龙评估：</strong></p>
-                <div class="evaluation">
-                    <strong>评分：100分</strong> | 杭州本地；未来产业；融资信号；公司明确
-                </div>
-                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
-                <p>✅ 评分100分，优质寻龙标的！杭州企业属于未来产业赛道，建议重点关注和跟踪。</p>
-            </div>
-            
-            <div class="card-meta">
-                <div>
-                    <span>📰 来源：网络</span>
-                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
-                </div>
-                <a href="#" target="_blank">阅读原文 →</a>
-            </div>
-        </div>
-        
-
-        <div class="card">
-            <div class="card-header">
-                <div class="card-number">4</div>
-                <h2 class="card-title">8家具身智能公司获得过亿元融资；这家初创公司获得超22亿元首轮融资 | 烯牛周报 <span class="score-badge score-high">100分</span></h2>
-            </div>
-            
-            <div class="company-info">
-                <div class="company-name">🏢 融资企业</div>
-                <a href="https://aiqicha.baidu.com/s?q=融资企业" target="_blank" class="search-link">🔍 爱企查查询</a>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">企业名</span>
-                        <span class="info-value">融资企业</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">区域</span>
-                        <span class="info-value">杭州</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">领域</span>
-                        <span class="info-value">未来产业</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">产品</span>
-                        <span class="info-value">-</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">融资</span>
-                        <span class="info-value">关注中</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">创始人</span>
-                        <span class="info-value">-</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card-content">
-                <p><strong>🎯 寻龙评估：</strong></p>
-                <div class="evaluation">
-                    <strong>评分：100分</strong> | 杭州本地；未来产业；融资信号；公司明确
-                </div>
-                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
-                <p>✅ 评分100分，优质寻龙标的！融资企业属于未来产业赛道，建议重点关注和跟踪。</p>
-            </div>
-            
-            <div class="card-meta">
-                <div>
-                    <span>📰 来源：网络</span>
-                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
-                </div>
-                <a href="#" target="_blank">阅读原文 →</a>
-            </div>
-        </div>
-        
-
-        <div class="card">
-            <div class="card-header">
-                <div class="card-number">5</div>
-                <h2 class="card-title">父女联手卖小众品，要冲刺IPO了 <span class="score-badge score-mid">75分</span></h2>
-            </div>
-            
-            <div class="company-info">
-                <div class="company-name">🏢 融资企业</div>
-                <a href="https://aiqicha.baidu.com/s?q=融资企业" target="_blank" class="search-link">🔍 爱企查查询</a>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">企业名</span>
-                        <span class="info-value">融资企业</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">区域</span>
-                        <span class="info-value">杭州</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">领域</span>
-                        <span class="info-value">未来产业</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">产品</span>
-                        <span class="info-value">-</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">融资</span>
-                        <span class="info-value">关注中</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">创始人</span>
-                        <span class="info-value">-</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card-content">
-                <p><strong>🎯 寻龙评估：</strong></p>
-                <div class="evaluation">
-                    <strong>评分：75分</strong> | 杭州本地；其他行业；融资信号；公司明确
-                </div>
-                <p style="margin-top: 15px;"><strong>💡 小贾点评：</strong></p>
-                <p>✅ 评分75分，符合寻龙标的。融资企业有发展潜力，建议持续关注。</p>
-            </div>
-            
-            <div class="card-meta">
-                <div>
-                    <span>📰 来源：网络</span>
-                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
-                </div>
-                <a href="#" target="_blank">阅读原文 →</a>
-            </div>
-        </div>
-        
-
-        <div class="card">
-            <div class="card-header">
-                <div class="card-number">6</div>
                 <h2 class="card-title">泡泡玛特挑战者落子杭州 <span class="score-badge score-mid">50分</span></h2>
             </div>
             
@@ -569,19 +417,137 @@
         </div>
         
 
-        <div class="observation" style="background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);">
-            <h2>🚨 负面预警</h2>
-            <div class="content">
+        <!-- 负面预警卡片 1 -->
+        <div class="card negative">
+            <div class="card-header">
+                <div class="card-number" style="background: #dc3545;">⚠️</div>
+                <h2 class="card-title">娃哈哈这家200余人公司，决议解散 <span class="score-badge score-negative">预警</span></h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 娃哈哈</div>
+                <a href="https://aiqicha.baidu.com/s?q=娃哈哈" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">娃哈哈</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">杭州</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">预警类型</span>
+                        <span class="info-value">负面新闻</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><strong>🚨 预警说明：</strong></p>
+                <div class="evaluation negative">
+                    <strong>负面预警</strong> | 负面预警
+                </div>
+                <p style="margin-top: 15px;"><strong>💡 建议：</strong></p>
+                <p>该企业有负面新闻，建议谨慎关注，持续观察后续发展。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：网络</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="#" target="_blank">阅读原文 →</a>
+            </div>
+        </div>
+        
 
-                <p style="margin-bottom: 10px;"><strong>⚠️ 娃哈哈</strong> - 娃哈哈这家200余人公司，决议解散<br>
-                <span style="font-size: 12px; opacity: 0.8;">📰 网络</span></p>
+        <!-- 负面预警卡片 2 -->
+        <div class="card negative">
+            <div class="card-header">
+                <div class="card-number" style="background: #dc3545;">⚠️</div>
+                <h2 class="card-title">从村办小厂到全球第一，靠什么？浙江这家“制冰机龙头”即将二次上会！ <span class="score-badge score-negative">预警</span></h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 制冰机公司</div>
+                <a href="https://aiqicha.baidu.com/s?q=制冰机公司" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">制冰机公司</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">杭州</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">预警类型</span>
+                        <span class="info-value">负面新闻</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><strong>🚨 预警说明：</strong></p>
+                <div class="evaluation negative">
+                    <strong>负面预警</strong> | 负面预警
+                </div>
+                <p style="margin-top: 15px;"><strong>💡 建议：</strong></p>
+                <p>该企业有负面新闻，建议谨慎关注，持续观察后续发展。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：网络</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="#" target="_blank">阅读原文 →</a>
+            </div>
+        </div>
+        
 
-                <p style="margin-bottom: 10px;"><strong>⚠️ 制冰机公司</strong> - 从村办小厂到全球第一，靠什么？浙江这家“制冰机龙头”即将二次上会！<br>
-                <span style="font-size: 12px; opacity: 0.8;">📰 网络</span></p>
-
-                <p style="margin-bottom: 10px;"><strong>⚠️ 芯片公司</strong> - 浙商大佬62岁转行，带出350亿芯片独角兽<br>
-                <span style="font-size: 12px; opacity: 0.8;">📰 网络</span></p>
-
+        <!-- 负面预警卡片 3 -->
+        <div class="card negative">
+            <div class="card-header">
+                <div class="card-number" style="background: #dc3545;">⚠️</div>
+                <h2 class="card-title">浙商大佬62岁转行，带出350亿芯片独角兽 <span class="score-badge score-negative">预警</span></h2>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">🏢 芯片公司</div>
+                <a href="https://aiqicha.baidu.com/s?q=芯片公司" target="_blank" class="search-link">🔍 爱企查查询</a>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">企业名</span>
+                        <span class="info-value">芯片公司</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">区域</span>
+                        <span class="info-value">杭州</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">预警类型</span>
+                        <span class="info-value">负面新闻</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <p><strong>🚨 预警说明：</strong></p>
+                <div class="evaluation negative">
+                    <strong>负面预警</strong> | 负面预警
+                </div>
+                <p style="margin-top: 15px;"><strong>💡 建议：</strong></p>
+                <p>该企业有负面新闻，建议谨慎关注，持续观察后续发展。</p>
+            </div>
+            
+            <div class="card-meta">
+                <div>
+                    <span>📰 来源：网络</span>
+                    <div class="publish-time">🕐 发布时间：2026-03-03</div>
+                </div>
+                <a href="#" target="_blank">阅读原文 →</a>
             </div>
         </div>
         
