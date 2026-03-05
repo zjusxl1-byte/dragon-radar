@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浙江星辉新材 - 深度研究报告</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px 16px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 32px;
+            max-width: 900px;
+            margin: 0 auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            text-align: center;
+            padding-bottom: 24px;
+            border-bottom: 3px solid #667eea;
+            margin-bottom: 32px;
+        }
+        .header h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 12px;
+            font-weight: 800;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+        .rating {
+            display: inline-block;
+            background: linear-gradient(135deg, #FF6B35, #ff8f66);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 12px;
+        }
+        
+        .section {
+            margin-bottom: 32px;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .section-title::before {
+            content: '';
+            display: inline-block;
+            width: 4px;
+            height: 20px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 2px;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #f0f7ff, #e8f4f8);
+            border-left: 4px solid #2196F3;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .highlight-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+        .highlight-item:last-child {
+            margin-bottom: 0;
+        }
+        .highlight-icon {
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+        .highlight-text {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        th {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        td {
+            padding: 14px 16px;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 14px;
+            color: #333;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea20, #764ba220);
+            border: 2px solid #667eea;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+        .stat-label {
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 24px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -26px;
+            top: 6px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #667eea;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #667eea;
+        }
+        .timeline-date {
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 4px;
+        }
+        .timeline-content {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 14px;
+        }
+        .timeline-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+        }
+        .timeline-desc {
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .rating-stars {
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+        .rating-score {
+            display: inline-block;
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 2px solid #f0f0f0;
+            color: #999;
+            font-size: 12px;
+        }
+        
+        @media (max-width: 600px) {
+            .container { padding: 20px 16px; }
+            .header h1 { font-size: 22px; }
+            .stats-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔬 浙江星辉新材</h1>
+            <p class="subtitle">深度研究报告 | 2026-03-05</p>
+            <div class="rating">⭐⭐⭐⭐⭐ 强烈推荐</div>
+        </div>
+        
+        <!-- 核心亮点 -->
+        <div class="section">
+            <div class="section-title">核心亮点</div>
+            <div class="highlight-box">
+                <div class="highlight-item">
+                    <span class="highlight-icon">✅</span>
+                    <span class="highlight-text"><strong>产业链完整</strong> - 拥有碳纤维保温材料和碳/碳复合增强材料完整产业链</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="highlight-icon">✅</span>
+                    <span class="highlight-text"><strong>技术领先</strong> - 拥有 129 项专利，技术水平行业领先</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="highlight-icon">✅</span>
+                    <span class="highlight-text"><strong>市场地位</strong> - 光伏单晶炉热场板材领域国内市占率第一</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="highlight-icon">✅</span>
+                    <span class="highlight-text"><strong>客户优质</strong> - 覆盖国内前五知名光伏单晶硅料生产商</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="highlight-icon">✅</span>
+                    <span class="highlight-text"><strong>融资强劲</strong> - 已完成 B+ 轮融资，累计融资数千万人民币</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 工商信息 -->
+        <div class="section">
+            <div class="section-title">工商信息</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th width="30%">项目</th>
+                        <th>详情</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>公司全称</strong></td>
+                        <td>浙江星辉新材料科技股份有限公司</td>
+                    </tr>
+                    <tr>
+                        <td><strong>成立时间</strong></td>
+                        <td>2019 年 6 月 13 日</td>
+                    </tr>
+                    <tr>
+                        <td><strong>注册资本</strong></td>
+                        <td>2000 万人民币</td>
+                    </tr>
+                    <tr>
+                        <td><strong>法定代表人</strong></td>
+                        <td>曾国伟</td>
+                    </tr>
+                    <tr>
+                        <td><strong>注册地址</strong></td>
+                        <td>浙江省嘉兴市嘉善经济技术开发区</td>
+                    </tr>
+                    <tr>
+                        <td><strong>企业资质</strong></td>
+                        <td>国家高新技术企业、国家级专精特新"小巨人"、129 项专利</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- 融资历史 -->
+        <div class="section">
+            <div class="section-title">融资历史</div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024-06</div>
+                    <div class="timeline-content">
+                        <div class="timeline-title">🟣 B+ 轮 - 数千万人民币</div>
+                        <div class="timeline-desc">投资方：华民投</div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2022-05</div>
+                    <div class="timeline-content">
+                        <div class="timeline-title">🔵 B 轮 - 未透露</div>
+                        <div class="timeline-desc">投资方：礼瀚投资、同鑫力诚、嘉睿投资、坤泰资本</div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021-12</div>
+                    <div class="timeline-content">
+                        <div class="timeline-title">🟢 A 轮 - 未透露</div>
+                        <div class="timeline-desc">投资方：华睿投资、坤泰资本</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 产品与技术 -->
+        <div class="section">
+            <div class="section-title">产品与技术</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>产品系列</th>
+                        <th>具体产品</th>
+                        <th>应用领域</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>碳纤维保温毡</strong></td>
+                        <td>各种规格保温毡</td>
+                        <td>光伏、半导体</td>
+                    </tr>
+                    <tr>
+                        <td><strong>高强度碳碳复合材料</strong></td>
+                        <td>碳/碳复合增强材料</td>
+                        <td>航空航天、轨道交通</td>
+                    </tr>
+                    <tr>
+                        <td><strong>高纯石墨材料</strong></td>
+                        <td>高纯度石墨制品</td>
+                        <td>高温冶金、半导体</td>
+                    </tr>
+                    <tr>
+                        <td><strong>定制加工件</strong></td>
+                        <td>根据客户需求定制</td>
+                        <td>多领域</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- 市场地位 -->
+        <div class="section">
+            <div class="section-title">市场地位</div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">#1</div>
+                    <div class="stat-label">光伏单晶炉热场板材<br>国内市占率</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">129</div>
+                    <div class="stat-label">专利数量<br>技术领先</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">TOP5</div>
+                    <div class="stat-label">客户覆盖<br>国内前五光伏厂商</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 投资评级 -->
+        <div class="section">
+            <div class="section-title">投资评级</div>
+            <div class="rating-stars">
+                ⭐⭐⭐⭐⭐ <span class="rating-score">5.0/5.0</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>维度</th>
+                        <th>评分</th>
+                        <th>说明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>技术实力</strong></td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>129 项专利，行业领先</td>
+                    </tr>
+                    <tr>
+                        <td><strong>市场地位</strong></td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>市占率第一</td>
+                    </tr>
+                    <tr>
+                        <td><strong>融资能力</strong></td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>B+ 轮，知名机构投资</td>
+                    </tr>
+                    <tr>
+                        <td><strong>团队背景</strong></td>
+                        <td>⭐⭐⭐⭐</td>
+                        <td>多学科核心团队</td>
+                    </tr>
+                    <tr>
+                        <td><strong>成长性</strong></td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>高速发展，前景广阔</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="footer">
+            <p><strong>—— 寻龙雷达 🐉 | 小贾 🤖</strong></p>
+            <p style="margin-top: 8px;">报告生成时间：2026-03-05 16:07</p>
+            <p style="margin-top: 4px; color: #bbb;">免责声明：本报告基于公开信息整理，不构成投资建议</p>
+        </div>
+    </div>
+</body>
+</html>
