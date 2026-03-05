@@ -21,6 +21,7 @@
             box-shadow: 0 10px 40px rgba(0,0,0,0.3);
         }
         
+        /* 头部 */
         .header { 
             text-align: center; 
             padding-bottom: 24px;
@@ -153,39 +154,6 @@
             border-radius: 5px;
         }
         
-        /* 数据概览 */
-        .stats-card {
-            background: linear-gradient(135deg, #f0f7ff, #e8f4f8);
-            border-left: 4px solid #2196F3;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 24px;
-        }
-        .stats-title {
-            font-size: 13px;
-            font-weight: 600;
-            color: #1976D2;
-            margin-bottom: 12px;
-        }
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-        }
-        .stats-item {
-            text-align: center;
-        }
-        .stats-number {
-            font-size: 24px;
-            font-weight: bold;
-            color: #667eea;
-        }
-        .stats-label {
-            font-size: 11px;
-            color: #999;
-            margin-top: 4px;
-        }
-        
         /* 本周亮点 */
         .highlights {
             background: linear-gradient(135deg, #f0f7ff, #e8f4f8);
@@ -203,7 +171,36 @@
             align-items: center;
             gap: 6px;
         }
+        .top-company {
+            background: white;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 8px;
+        }
+        .top-company:last-child {
+            margin-bottom: 0;
+        }
+        .company-name {
+            font-size: 13px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+        }
+        .company-meta {
+            font-size: 11px;
+            color: #999;
+        }
         
+        /* 最近更新时间 */
+        .last-update {
+            text-align: center;
+            color: #999;
+            font-size: 11px;
+            padding-top: 16px;
+            border-top: 1px solid #f0f0f0;
+        }
+        
+        /* 页脚 */
         .footer { 
             text-align: center; 
             margin-top: 16px; 
@@ -225,10 +222,10 @@
         <!-- 今日概览 -->
         <div class="today-card">
             <div class="today-label">📅 今日数据</div>
-            <div class="today-date">2026-03-05</div>
+            <div class="today-date">2026-03-06</div>
             <div class="today-stats">
                 <div class="stat">
-                    <div class="stat-number">8</div>
+                    <div class="stat-number">0</div>
                     <div class="stat-label">新增企业</div>
                 </div>
                 <div class="stat">
@@ -237,26 +234,7 @@
                 </div>
                 <div class="stat">
                     <div class="stat-number">4</div>
-                    <div class="stat-label">已收录天数</div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 数据概览 -->
-        <div class="stats-card">
-            <div class="stats-title">📊 数据总览</div>
-            <div class="stats-grid">
-                <div class="stats-item">
-                    <div class="stats-number">4</div>
-                    <div class="stats-label">每日报告</div>
-                </div>
-                <div class="stats-item">
-                    <div class="stats-number">1</div>
-                    <div class="stats-label">周报</div>
-                </div>
-                <div class="stats-item">
-                    <div class="stats-number">8</div>
-                    <div class="stats-label">本周企业</div>
+                    <div class="stat-label">本月活跃</div>
                 </div>
             </div>
         </div>
@@ -278,12 +256,12 @@
                 <a href="weekly.html" class="nav-card badge">
                     <div class="nav-card-icon">📊</div>
                     <div class="nav-card-title">本周周报</div>
-                    <div class="nav-card-desc">第W10周数据汇总</div>
+                    <div class="nav-card-desc">第10周数据汇总</div>
                 </a>
-                <a href="#archive" class="nav-card" onclick="alert('历史归档可通过周历视图访问'); return false;">
+                <a href="#archive" class="nav-card" onclick="alert('历史归档功能开发中...'); return false;">
                     <div class="nav-card-icon">📁</div>
                     <div class="nav-card-title">历史归档</div>
-                    <div class="nav-card-desc">已保存4天数据</div>
+                    <div class="nav-card-desc">查看历史数据</div>
                 </a>
             </div>
         </div>
@@ -291,23 +269,30 @@
         <!-- 本周亮点 -->
         
         <div class="highlights">
-            <div class="highlights-title">📊 本周概览</div>
-            <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px;">
-                <div style="text-align:center;background:white;border-radius:8px;padding:12px;">
-                    <div style="font-size:20px;font-weight:bold;color:#667eea;">8</div>
-                    <div style="font-size:10px;color:#999;margin-top:4px;">企业总数</div>
-                </div>
-                <div style="text-align:center;background:white;border-radius:8px;padding:12px;">
-                    <div style="font-size:20px;font-weight:bold;color:#43e97b;">第10周</div>
-                    <div style="font-size:10px;color:#999;margin-top:4px;">当前周</div>
-                </div>
-                <div style="text-align:center;background:white;border-radius:8px;padding:12px;">
-                    <div style="font-size:20px;font-weight:bold;color:#FF6B35;">8</div>
-                    <div style="font-size:10px;color:#999;margin-top:4px;">已收录</div>
-                </div>
+            <div class="highlights-title">🏆 本周 TOP3</div>
+
+            <div class="top-company">
+                <div class="company-name">1️⃣ 奥立安新能源科技（杭州）有限公司</div>
+                <div class="company-meta">📍 新能源/智能船舶 | ⭐ 100分</div>
             </div>
+
+            <div class="top-company">
+                <div class="company-name">2️⃣ 杭州精控集成半导体有限公司</div>
+                <div class="company-meta">📍 芯片设计 | ⭐ 100分</div>
+            </div>
+
+            <div class="top-company">
+                <div class="company-name">3️⃣ Flowith</div>
+                <div class="company-meta">📍 AI/人工智能 | ⭐ 100分</div>
+            </div>
+
         </div>
 
+        
+        <!-- 最近更新时间 -->
+        <div class="last-update">
+            最后更新：2026-03-06 07:25
+        </div>
         
         <div class="footer">
             <p><strong>—— 寻龙雷达 🐉 | 小贾 🤖</strong></p>
