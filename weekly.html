@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寻龙雷达·周报 | 2026年第10周</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px 16px;
+        }
+        .container {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .header { 
+            text-align: center; 
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f0f0f0;
+            margin-bottom: 24px;
+        }
+        .header h1 { 
+            color: #333; 
+            font-size: 22px; 
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .header .period { 
+            color: #999; 
+            font-size: 14px; 
+        }
+        
+        /* 概览卡片 */
+        .overview {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .overview-card {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+        }
+        .overview-card.highlight {
+            background: linear-gradient(135deg, #FF6B35, #ff8f66);
+        }
+        .overview-number {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        .overview-label {
+            font-size: 11px;
+            opacity: 0.9;
+        }
+        
+        /* TOP10 榜单 */
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #333;
+            margin: 24px 0 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .top-list {
+            margin-bottom: 24px;
+        }
+        .top-item {
+            display: flex;
+            align-items: center;
+            padding: 14px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            margin-bottom: 10px;
+        }
+        .top-rank {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+        .top-rank.gold {
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: white;
+        }
+        .top-rank.silver {
+            background: linear-gradient(135deg, #C0C0C0, #808080);
+            color: white;
+        }
+        .top-rank.bronze {
+            background: linear-gradient(135deg, #CD7F32, #8B4513);
+            color: white;
+        }
+        .top-rank.normal {
+            background: #e0e0e0;
+            color: #666;
+        }
+        .top-info {
+            flex: 1;
+            overflow: hidden;
+        }
+        .top-company {
+            font-size: 15px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .top-meta {
+            display: flex;
+            gap: 10px;
+            font-size: 11px;
+            color: #999;
+        }
+        .top-score {
+            background: linear-gradient(135deg, #43e97b, #38f9d7);
+            color: #0d5c3f;
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        
+        /* 赛道分布 */
+        .sector-list {
+            margin-bottom: 24px;
+        }
+        .sector-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .sector-name {
+            width: 100px;
+            font-size: 13px;
+            color: #666;
+            flex-shrink: 0;
+        }
+        .sector-bar {
+            flex: 1;
+            height: 8px;
+            background: #f0f0f0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .sector-fill {
+            height: 100%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 4px;
+        }
+        .sector-count {
+            width: 40px;
+            text-align: right;
+            font-size: 12px;
+            color: #999;
+            margin-left: 10px;
+        }
+        
+        /* 每日详情 */
+        .daily-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+        .daily-item {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 12px 8px;
+            text-align: center;
+        }
+        .daily-date {
+            font-size: 11px;
+            color: #999;
+            margin-bottom: 6px;
+        }
+        .daily-count {
+            font-size: 18px;
+            font-weight: bold;
+            color: #FF6B35;
+        }
+        .daily-label {
+            font-size: 10px;
+            color: #999;
+            margin-top: 2px;
+        }
+        
+        /* 链接按钮 */
+        .action-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 24px;
+        }
+        .action-btn {
+            display: block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+            padding: 14px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .footer { 
+            text-align: center; 
+            margin-top: 24px; 
+            padding-top: 20px; 
+            border-top: 1px solid #f0f0f0; 
+            color: #999; 
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 寻龙雷达·周报</h1>
+            <p class="period">2026年第10周 | 03-02 ~ 03-08</p>
+        </div>
+        
+        <!-- 概览 -->
+        <div class="overview">
+            <div class="overview-card highlight">
+                <div class="overview-number">8</div>
+                <div class="overview-label">新增企业</div>
+            </div>
+            <div class="overview-card">
+                <div class="overview-number">1</div>
+                <div class="overview-label">融资事件</div>
+            </div>
+            <div class="overview-card">
+                <div class="overview-number">2</div>
+                <div class="overview-label">IPO 进展</div>
+            </div>
+        </div>
+        
+        <!-- TOP10 榜单 -->
+        <div class="section-title">
+            🏆 本周 TOP10 企业
+        </div>
+        <div class="top-list">
+
+            <div class="top-item">
+                <div class="top-rank gold">1</div>
+                <div class="top-info">
+                    <div class="top-company">奥立安新能源科技（杭州）有限公司</div>
+                    <div class="top-meta">
+                        <span>💰 数千万元 PRE-A 轮</span>
+                        <span>🏷️ 新能源/智能船舶</span>
+                        <span class="top-score">⭐ 100分</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-item">
+                <div class="top-rank silver">2</div>
+                <div class="top-info">
+                    <div class="top-company">杭州精控集成半导体有限公司</div>
+                    <div class="top-meta">
+                        <span>💰 新一轮融资</span>
+                        <span>🏷️ 芯片设计</span>
+                        <span class="top-score">⭐ 100分</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-item">
+                <div class="top-rank bronze">3</div>
+                <div class="top-info">
+                    <div class="top-company">Flowith</div>
+                    <div class="top-meta">
+                        <span>💰 千万美元种子轮</span>
+                        <span>🏷️ AI/人工智能</span>
+                        <span class="top-score">⭐ 100分</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-item">
+                <div class="top-rank normal">4</div>
+                <div class="top-info">
+                    <div class="top-company">强脑科技</div>
+                    <div class="top-meta">
+                        <span>💰 -</span>
+                        <span>🏷️ 人工智能/脑机接口</span>
+                        <span class="top-score">⭐ 85分</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-item">
+                <div class="top-rank normal">5</div>
+                <div class="top-info">
+                    <div class="top-company">正泰集团</div>
+                    <div class="top-meta">
+                        <span>💰 -</span>
+                        <span>🏷️ 智能电气、绿色能源</span>
+                        <span class="top-score">⭐ 85分</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-item">
+                <div class="top-rank normal">6</div>
+                <div class="top-info">
+                    <div class="top-company">涛涛车业</div>
+                    <div class="top-meta">
+                        <span>💰 拟赴港二次上市</span>
+                        <span>🏷️ 户外休闲及电动出行</span>
+                        <span class="top-score">⭐ 50分</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-item">
+                <div class="top-rank normal">7</div>
+                <div class="top-info">
+                    <div class="top-company">浙江出海大卖乐欣户外国际有限公司</div>
+                    <div class="top-meta">
+                        <span>💰 冲刺 IPO</span>
+                        <span>🏷️ 户外用品/渔具</span>
+                        <span class="top-score">⭐ 50分</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-item">
+                <div class="top-rank normal">8</div>
+                <div class="top-info">
+                    <div class="top-company">钛动科技</div>
+                    <div class="top-meta">
+                        <span>💰 递交招股书</span>
+                        <span>🏷️ AI 营销科技</span>
+                        <span class="top-score">⭐ 50分</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="section-title">
+            📈 赛道分布
+        </div>
+        <div class="sector-list">
+
+            <div class="sector-item">
+                <div class="sector-name">新能源/智能船舶...</div>
+                <div class="sector-bar">
+                    <div class="sector-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="sector-count">1家</div>
+            </div>
+
+            <div class="sector-item">
+                <div class="sector-name">芯片设计...</div>
+                <div class="sector-bar">
+                    <div class="sector-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="sector-count">1家</div>
+            </div>
+
+            <div class="sector-item">
+                <div class="sector-name">AI/人工智能...</div>
+                <div class="sector-bar">
+                    <div class="sector-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="sector-count">1家</div>
+            </div>
+
+            <div class="sector-item">
+                <div class="sector-name">人工智能/脑机接口...</div>
+                <div class="sector-bar">
+                    <div class="sector-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="sector-count">1家</div>
+            </div>
+
+            <div class="sector-item">
+                <div class="sector-name">智能电气、绿色能源...</div>
+                <div class="sector-bar">
+                    <div class="sector-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="sector-count">1家</div>
+            </div>
+
+            <div class="sector-item">
+                <div class="sector-name">户外休闲及电动出行...</div>
+                <div class="sector-bar">
+                    <div class="sector-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="sector-count">1家</div>
+            </div>
+
+            <div class="sector-item">
+                <div class="sector-name">户外用品/渔具...</div>
+                <div class="sector-bar">
+                    <div class="sector-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="sector-count">1家</div>
+            </div>
+
+            <div class="sector-item">
+                <div class="sector-name">AI 营销科技...</div>
+                <div class="sector-bar">
+                    <div class="sector-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="sector-count">1家</div>
+            </div>
+
+        </div>
+        
+        <div class="section-title">
+            📅 每日详情
+        </div>
+        <div class="daily-grid">
+
+            <div class="daily-item">
+                <div class="daily-date">05日</div>
+                <div class="daily-count">8</div>
+                <div class="daily-label">企业</div>
+            </div>
+
+        </div>
+        
+        <!-- 行动按钮 -->
+        <div class="action-buttons">
+            <a href="calendar_20260305.html" class="action-btn">📅 周历视图</a>
+            <a href="index_20260305.html" class="action-btn">📰 今日详情</a>
+        </div>
+        
+        <div class="footer">
+            <p><strong>—— 寻龙雷达 🐉 | 小贾 🤖</strong></p>
+            <p style="margin-top: 8px; color: #bbb;">发现杭州未来的"六小龙"</p>
+        </div>
+    </div>
+</body>
+</html>
