@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>寻龙雷达 - 周历视图</title>
+    <title>寻龙雷达 | 周历视图 | 2026年3月</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
@@ -14,146 +14,232 @@
         }
         .container {
             background: white;
-            border-radius: 20px;
-            padding: 24px;
+            border-radius: 16px;
+            padding: 20px;
             max-width: 600px;
             margin: 0 auto;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
         }
         
+        /* 头部 */
         .header { 
             text-align: center; 
             padding-bottom: 20px;
-            border-bottom: 2px solid #f0f0f0;
-            margin-bottom: 24px;
+            border-bottom: 1px solid #f0f0f0;
+            margin-bottom: 20px;
         }
         .header h1 { 
             color: #333; 
-            font-size: 22px; 
-            margin-bottom: 8px;
-            font-weight: 700;
+            font-size: 18px; 
+            margin-bottom: 6px;
+            font-weight: 600;
         }
-        .header .subtitle { 
-            color: #999; 
-            font-size: 13px; 
-        }
+        .header .date { color: #999; font-size: 12px; }
         
         /* 导航按钮 */
         .nav-buttons {
             display: flex;
             gap: 10px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
         .nav-btn {
             flex: 1;
             background: linear-gradient(135deg, #667eea, #764ba2);
             color: white;
             border: none;
-            padding: 12px;
-            border-radius: 10px;
-            font-size: 14px;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 13px;
             font-weight: 600;
             cursor: pointer;
             text-decoration: none;
             text-align: center;
-            transition: all 0.2s;
         }
-        .nav-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        
+        /* 周历导航 */
+        .calendar-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .calendar-nav button {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .calendar-nav .month-label {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
         }
         
         /* 周历表格 */
         .calendar {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
         }
         .calendar th {
             color: #999;
             font-size: 12px;
-            padding: 10px 4px;
+            padding: 8px 4px;
             text-align: center;
         }
         .calendar td {
             width: 14.28%;
-            height: 60px;
+            height: 50px;
             text-align: center;
-            padding: 6px;
-            border-radius: 10px;
-            transition: all 0.2s;
+            padding: 4px;
             cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.2s;
         }
         .calendar td:hover {
             background: #f0f0f0;
         }
         .calendar td.has-data {
             background: linear-gradient(135deg, #667eea20, #764ba220);
-            border: 2px solid #667eea;
+            border: 1px solid #667eea;
         }
         .calendar td.today {
             background: linear-gradient(135deg, #FF6B35, #ff8f66);
             color: white;
             font-weight: bold;
         }
-        .calendar td.empty {
-            background: transparent;
-            cursor: default;
+        .calendar td.selected {
+            box-shadow: 0 0 0 3px #667eea;
         }
         .calendar .day-number {
-            font-size: 16px;
-            font-weight: 600;
+            font-size: 14px;
         }
         .calendar .day-count {
             font-size: 10px;
             color: #999;
-            margin-top: 4px;
+            margin-top: 2px;
         }
         .calendar td.today .day-count {
             color: #fff;
         }
         
-        /* 说明文字 */
-        .info-box {
-            background: linear-gradient(135deg, #f0f7ff, #e8f4f8);
-            border-left: 4px solid #2196F3;
-            border-radius: 10px;
+        /* 数据区域 */
+        .data-section {
+            background: #f8f9fa;
+            border-radius: 12px;
             padding: 16px;
             margin-top: 20px;
         }
-        .info-title {
-            font-size: 13px;
-            font-weight: 600;
-            color: #1976D2;
-            margin-bottom: 8px;
+        .data-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
         }
-        .info-content {
-            font-size: 12px;
-            color: #555;
-            line-height: 1.6;
+        .data-date {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+        }
+        .data-stats {
+            display: flex;
+            gap: 15px;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 18px;
+            font-weight: bold;
+            color: #FF6B35;
+        }
+        .stat-label {
+            font-size: 11px;
+            color: #999;
         }
         
+        /* 企业卡片 */
+        .card { 
+            background: white;
+            border-radius: 12px; 
+            padding: 16px; 
+            margin-bottom: 12px; 
+            border: 1px solid #e8e8e8;
+        }
+        .card-header {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .card-number {
+            background: linear-gradient(135deg, #FF6B35, #ff8f66);
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 12px;
+            flex-shrink: 0;
+        }
+        .card-title { 
+            font-size: 13px; 
+            color: #666;
+            line-height: 1.4;
+            flex: 1;
+        }
+        .company-name { 
+            font-size: 15px; 
+            font-weight: 700; 
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .company-info {
+            display: flex;
+            gap: 10px;
+            font-size: 11px;
+            color: #666;
+        }
+        .company-info span {
+            background: #f0f0f0;
+            padding: 3px 8px;
+            border-radius: 5px;
+        }
+        
+        /* 空状态 */
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #999;
+        }
+        .empty-state .icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        
+        /* 页脚 */
         .footer { 
             text-align: center; 
-            margin-top: 24px; 
-            padding-top: 16px; 
+            margin-top: 20px; 
+            padding-top: 15px; 
             border-top: 1px solid #f0f0f0; 
             color: #999; 
             font-size: 11px;
         }
         
-        /* 链接样式 */
-        a {
-            color: #667eea;
-            text-decoration: none;
-        }
+        a { color: #667eea; text-decoration: none; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>🗓️ 周历视图</h1>
-            <p class="subtitle">2026年3月</p>
+            <h1>🐉 寻龙雷达</h1>
+            <p class="date">杭州未来"六小龙"发现系统 · 周历视图</p>
         </div>
         
         <!-- 导航按钮 -->
@@ -161,6 +247,13 @@
             <a href="index.html" class="nav-btn">🏠 主页</a>
             <a href="today.html" class="nav-btn">📰 今日详情</a>
             <a href="weekly.html" class="nav-btn">📊 本周周报</a>
+        </div>
+        
+        <!-- 周历导航 -->
+        <div class="calendar-nav">
+            <button onclick="prevMonth()">← 上月</button>
+            <span class="month-label" id="monthLabel">2026年3月</span>
+            <button onclick="nextMonth()">下月 →</button>
         </div>
         
         <!-- 周历表格 -->
@@ -178,12 +271,12 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td class="" onclick="">
                         <div class="day-number">1</div>
                         
@@ -192,19 +285,19 @@
                 <tr>
                     <td class="has-data" onclick="window.location.href='archive/2026-03-02.html'">
                         <div class="day-number">2</div>
-                        <div class="day-count">0家企业</div>
+                        <div class="day-count">5家</div>
                     </td>
                     <td class="has-data" onclick="window.location.href='archive/2026-03-03.html'">
                         <div class="day-number">3</div>
-                        <div class="day-count">0家企业</div>
+                        <div class="day-count">8家</div>
                     </td>
                     <td class="has-data" onclick="window.location.href='archive/2026-03-04.html'">
                         <div class="day-number">4</div>
-                        <div class="day-count">0家企业</div>
+                        <div class="day-count">9家</div>
                     </td>
                     <td class="has-data today" onclick="window.location.href='today.html'">
                         <div class="day-number">5</div>
-                        <div class="day-count">8家企业</div>
+                        <div class="day-count">8家</div>
                     </td>
                     <td class="" onclick="">
                         <div class="day-number">6</div>
@@ -318,31 +411,29 @@
                         <div class="day-number">31</div>
                         
                     </td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
-
             </tbody>
         </table>
         
-        <!-- 说明信息 -->
-        <div class="info-box">
-            <div class="info-title">💡 使用说明</div>
-            <div class="info-content">
-                • 点击<strong>橙色日期</strong>查看今日详情<br>
-                • 点击<strong>高亮日期</strong>查看历史报告<br>
-                • 白色日期表示暂无数据<br>
-                • 已收录 <strong>4</strong> 天数据
-            </div>
-        </div>
-        
         <div class="footer">
             <p><strong>—— 寻龙雷达 🐉 | 小贾 🤖</strong></p>
-            <p style="margin-top: 8px; color: #bbb;">点击日期查看当天企业动态</p>
+            <p style="margin-top: 8px; color: #bbb;">点击日期查看当天数据</p>
         </div>
     </div>
+    
+    <script>
+        function prevMonth() {
+            alert('上月功能开发中...');
+        }
+        
+        function nextMonth() {
+            alert('下月功能开发中...');
+        }
+    </script>
 </body>
 </html>
