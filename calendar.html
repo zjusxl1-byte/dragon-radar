@@ -44,6 +44,135 @@
         .stat-number { font-size: 22px; font-weight: bold; color: #FF6B35; }
         .stat-label { font-size: 11px; color: #999; margin-top: 4px; line-height: 1.2; }
         
+        /* 今日概览卡片 */
+        .today-card {
+            background: linear-gradient(135deg, #FF6B35, #ff8f66);
+            color: white;
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .today-label {
+            font-size: 12px;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+        .today-date {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        .today-stats {
+            display: flex;
+            gap: 24px;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 32px;
+            font-weight: 800;
+        }
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.9;
+            margin-top: 4px;
+        }
+        
+        /* 导航卡片 */
+        .nav-section {
+            margin-bottom: 24px;
+        }
+        .nav-section-title {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        .nav-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 16px;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.2s;
+        }
+        .nav-card:hover {
+            transform: translateY(-2px);
+            background: #e9ecef;
+        }
+        .nav-card-icon {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .nav-card-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .nav-card-desc {
+            font-size: 12px;
+            color: #999;
+        }
+        .nav-card.badge {
+            position: relative;
+        }
+        .nav-card.badge::after {
+            content: 'NEW';
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: #ff4757;
+            color: white;
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        
+        /* TOP 企业 */
+        .top-section {
+            margin-bottom: 24px;
+        }
+        .top-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #333;
+        }
+        .company-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .rank {
+            font-size: 24px;
+            font-weight: 800;
+            min-width: 32px;
+        }
+        .company-info {
+            flex: 1;
+        }
+        .company-name {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #333;
+        }
+        .company-meta {
+            font-size: 12px;
+            color: #999;
+        }
+        
         /* 企业卡片 */
         .card { 
             border-radius: 12px; 
@@ -329,7 +458,7 @@
 
         
         <div class="last-update">
-            最后更新：2026-03-06 09:15
+            最后更新：2026-03-06 09:20
         </div>
         
         <div class="footer">
