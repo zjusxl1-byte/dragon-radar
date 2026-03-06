@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>寻龙雷达 - 杭州未来"六小龙"发现系统</title>
     
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- 自定义配置 -->
     <script>
         tailwind.config = {
             theme: {
@@ -36,17 +34,14 @@
     </style>
 </head>
 <body>
-    <!-- 顶部导航栏 -->
     <nav class="bg-white/95 backdrop-blur-sm shadow-lg sticky top-0 z-50">
         <div class="max-w-lg mx-auto px-4">
             <div class="flex justify-between items-center h-14">
-                <!-- Logo -->
                 <div class="flex items-center space-x-2">
                     <span class="text-2xl">🐉</span>
                     <span class="font-bold text-gray-800">寻龙雷达</span>
                 </div>
                 
-                <!-- 导航链接 -->
                 <div class="flex space-x-1">
                     <a href="#/" data-route="/" class="nav-item px-3 py-2 rounded-lg text-sm text-gray-600 hover:bg-gray-100 transition">主页</a>
                     <a href="#/today" data-route="/today" class="nav-item px-3 py-2 rounded-lg text-sm text-gray-600 hover:bg-gray-100 transition">今日</a>
@@ -57,7 +52,6 @@
         </div>
     </nav>
 
-    <!-- 内容挂载点 -->
     <main class="max-w-lg mx-auto px-4 py-6">
         <div id="app-content" class="bg-white rounded-2xl shadow-xl p-6 min-h-[60vh]">
             <div class="text-center py-12">
@@ -66,14 +60,12 @@
             </div>
         </div>
         
-        <!-- 页脚 -->
         <footer class="text-center py-6 text-white/80 text-sm">
             <p>—— 寻龙雷达 🐉 | 小贾 🤖</p>
             <p class="mt-1">发现杭州未来的"六小龙"</p>
         </footer>
     </main>
 
-    <!-- 主应用逻辑 -->
     <script>
         // ============================================
         // 全局状态
@@ -198,9 +190,10 @@
                 '<div class="mt-6 p-5 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl border border-purple-100"><h3 class="text-sm font-bold text-gray-700 mb-3">📊 本周概览</h3><div class="grid grid-cols-2 gap-3"><div class="bg-white rounded-lg p-3"><div class="text-lg font-bold text-purple-600">' + data.summary.week.total_companies + '</div><div class="text-xs text-gray-500 mt-1">本周企业</div></div><div class="bg-white rounded-lg p-3"><div class="text-lg font-bold text-pink-600">' + data.summary.week.financing_count + '</div><div class="text-xs text-gray-500 mt-1">融资事件</div></div></div></div>';
             },
             
+            // 【修改点 1】：将 data.today_targets 修改为了 data.targets
             today: function(data, date) {
                 var targetDate = date || data.today;
-                var companies = data.today_targets || [];
+                var companies = data.targets || [];
                 companies.sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
                 
                 return '<button onclick="Router.navigate(\'/\')" class="mb-4 flex items-center gap-2 text-gray-600 hover:text-primary transition"><span>←</span><span class="text-sm font-medium">返回主页</span></button>' +
@@ -366,8 +359,7 @@
         function loadDailyData(date) {
             return new Promise(function(resolve, reject) {
                 if (date === window.RadarData.manifest.today) {
-                    resolve(window.RadarData.manifest);
-                    return;
+                    // 如果刚好是今天，仍然去加载当天的独立文件，而不是复用没有企业列表的 manifest
                 }
                 fetch('./data/daily/' + date + '.json')
                     .then(function(response) {
@@ -404,16 +396,14 @@
                     appContent.innerHTML = Views.home(manifest);
                     break;
                 case '/today':
-                    if (params.date) {
-                        appContent.innerHTML = Views.loading('加载历史数据...');
-                        loadDailyData(params.date).then(function(dailyData) {
-                            appContent.innerHTML = Views.today(dailyData, params.date);
-                        }).catch(function(error) {
-                            appContent.innerHTML = Views.error('加载失败：' + error.message);
-                        });
-                    } else {
-                        appContent.innerHTML = Views.today(manifest);
-                    }
+                    // 【修改点 2】：统一逻辑，无论是否带参数，都去请求具体的每日 JSON 文件
+                    var targetDate = params.date || manifest.today;
+                    appContent.innerHTML = Views.loading('加载今日数据...');
+                    loadDailyData(targetDate).then(function(dailyData) {
+                        appContent.innerHTML = Views.today(dailyData, targetDate);
+                    }).catch(function(error) {
+                        appContent.innerHTML = Views.error('加载失败：' + error.message);
+                    });
                     break;
                 case '/calendar':
                     appContent.innerHTML = Views.calendar(manifest);
