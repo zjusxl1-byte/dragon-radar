@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>寻龙雷达 - 杭州未来"六小龙"发现系统</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#667eea',
+                        secondary: '#764ba2',
+                        accent: '#FF6B35'
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.3s ease-out forwards',
+                        'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(8px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, sans-serif;
+            /* 适配移动端点击高亮，禁用默认的半透明遮罩 */
+            -webkit-tap-highlight-color: transparent; 
+        }
+        /* 隐藏滚动条但保持可滚动 */
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        .nav-item.active {
+            color: #667eea;
+        }
+        .nav-item.active .nav-icon {
+            transform: scale(1.15);
+            transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+    </style>
+</head>
+<body class="bg-[#F4F5F7] text-gray-800 antialiased relative min-h-screen pb-[calc(3.5rem+env(safe-area-inset-bottom))]">
+
+    <header class="bg-gradient-to-r from-primary to-secondary text-white sticky top-0 z-40 shadow-sm pt-[env(safe-area-inset-top)]">
+        <div class="max-w-lg mx-auto px-4 h-12 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-xl">🐉</span>
+                <span class="font-extrabold tracking-wide">寻龙雷达</span>
+            </div>
+            <div class="text-[10px] bg-white/20 px-2 py-1 rounded-full backdrop-blur-sm">发现“六小龙”</div>
+        </div>
+    </header>
+
+    <main class="max-w-lg mx-auto px-4 py-4 min-h-[70vh]">
+        <div id="app-content">
+            <div class="animate-pulse-fast space-y-4 py-4">
+                <div class="h-24 bg-gray-200 rounded-2xl"></div>
+                <div class="h-40 bg-white rounded-2xl shadow-sm"></div>
+                <div class="h-40 bg-white rounded-2xl shadow-sm"></div>
+            </div>
+        </div>
+        
+        <footer class="text-center py-8 text-gray-400 text-[10px]">
+            <p>小贾 🤖 提供数据洞察支持</p>
+            <p class="mt-1 opacity-60">杭州专精特新企业培育系统</p>
+        </footer>
+    </main>
+
+    <nav class="fixed bottom-0 w-full bg-white/95 backdrop-blur-md border-t border-gray-100 z-50 pb-[env(safe-area-inset-bottom)]">
+        <div class="max-w-lg mx-auto flex justify-around items-center h-14">
+            <a href="#/" data-route="/" class="nav-item flex flex-col items-center justify-center w-full h-full text-gray-400 active:bg-gray-50 transition-colors">
+                <span class="nav-icon text-xl mb-0.5 origin-bottom">🏠</span>
+                <span class="text-[10px] font-medium">主页</span>
+            </a>
+            <a href="#/today" data-route="/today" class="nav-item flex flex-col items-center justify-center w-full h-full text-gray-400 active:bg-gray-50 transition-colors">
+                <span class="nav-icon text-xl mb-0.5 origin-bottom">📰</span>
+                <span class="text-[10px] font-medium">今日</span>
+            </a>
+            <a href="#/calendar" data-route="/calendar" class="nav-item flex flex-col items-center justify-center w-full h-full text-gray-400 active:bg-gray-50 transition-colors">
+                <span class="nav-icon text-xl mb-0.5 origin-bottom">📅</span>
+                <span class="text-[10px] font-medium">周历</span>
+            </a>
+            <a href="#/weekly" data-route="/weekly" class="nav-item flex flex-col items-center justify-center w-full h-full text-gray-400 active:bg-gray-50 transition-colors">
+                <span class="nav-icon text-xl mb-0.5 origin-bottom">📊</span>
+                <span class="text-[10px] font-medium">周报</span>
+            </a>
+        </div>
+    </nav>
+
+    <script>
+        // ============================================
+        // 全局状态
+        // ============================================
+        window.RadarData = {
+            manifest: null,
+            loaded: false,
+            error: null
+        };
+
+        // ============================================
+        // 工具函数
+        // ============================================
+        function getScoreColor(score) {
+            if (!score) return 'text-gray-400';
+            if (score >= 80) return 'text-red-500';
+            if (score >= 50) return 'text-orange-500';
+            return 'text-gray-400';
+        }
+
+        function getScoreBadge(score) {
+            if (!score) return 'bg-gray-300 text-gray-600 border-gray-100';
+            if (score >= 80) return 'bg-gradient-to-br from-red-500 to-red-600 text-white border-red-200';
+            if (score >= 50) return 'bg-gradient-to-br from-orange-400 to-orange-500 text-white border-orange-200';
+            return 'bg-gray-300 text-gray-600';
+        }
+
+        function getEventTagStyle(eventType) {
+            if (!eventType) return 'bg-gray-100 text-gray-500';
+            var styles = {
+                '融资': 'bg-rose-50 text-rose-600 border border-rose-100',
+                'IPO': 'bg-amber-50 text-amber-600 border border-amber-100',
+                '搬迁': 'bg-cyan-50 text-cyan-600 border border-cyan-100',
+                '扩张': 'bg-emerald-50 text-emerald-600 border border-emerald-100'
+            };
+            return styles[eventType] || 'bg-gray-100 text-gray-500 border border-gray-200';
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return '';
+            var date = new Date(dateStr.replace(/-/g, '/'));
+            var today = new Date();
+            var yesterday = new Date(today);
+            yesterday.setDate(yesterday.getDate() - 1);
+            
+            if (date.toDateString() === today.toDateString()) return '今日';
+            if (date.toDateString() === yesterday.toDateString()) return '昨日';
+            return (date.getMonth() + 1) + '月' + date.getDate() + '日';
+        }
+
+        // ============================================
+        // 企业卡片组件 (移动端重构版)
+        // ============================================
+        function renderCompanyCard(company, index) {
+            var scoreColor = getScoreBadge(company.score || 50);
+            var eventStyle = getEventTagStyle(company.event_type);
+            var companyName = company.company || '未知企业';
+            var sector = company.sector || '未知赛道';
+            var location = company.location || '未知区域';
+            var financing = company.financing || '';
+            var source = company.source || '未知信源';
+            var summary = company.summary || '';
+            var link = company.link || '';
+            var date = company.date || '';
+            
+            var rankBadge = '';
+            if (index !== null && index !== undefined) {
+                rankBadge = '<div class="absolute -top-2.5 -left-2.5 w-7 h-7 rounded-full ' + scoreColor + ' flex items-center justify-center text-xs font-black shadow-sm border-2">' + index + '</div>';
+            }
+            
+            var aiqichaUrl = 'https://aiqicha.baidu.com/s?q=' + encodeURIComponent(companyName);
+            var cardAction = link ? 'onclick="window.open(\'' + link + '\', \'_blank\')"' : '';
+            var cursorStyle = link ? 'cursor-pointer active:scale-[0.98] active:bg-gray-50' : '';
+            
+            return '<div class="relative bg-white rounded-2xl shadow-[0_2px_10px_-3px_rgba(6,81,237,0.1)] p-4 mb-4 transition-all duration-200 ' + cursorStyle + '" ' + cardAction + '>' +
+                rankBadge +
+                
+                // 头部：标题与快捷操作
+                '<div class="flex justify-between items-start mb-2.5 gap-2 ml-2">' +
+                    '<h3 class="text-[17px] font-extrabold text-gray-800 leading-snug tracking-tight">' + companyName + '</h3>' +
+                    // 阻止冒泡，独立点击查工商
+                    '<button onclick="event.stopPropagation(); window.open(\'' + aiqichaUrl + '\', \'_blank\')" class="shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-indigo-50 text-indigo-500 active:bg-indigo-100 transition-colors" title="查工商">🏢</button>' +
+                '</div>' +
+                
+                // 标签区
+                '<div class="flex flex-wrap gap-1.5 mb-3">' +
+                    (company.event_type ? '<span class="px-2 py-0.5 text-[10px] font-semibold rounded ' + eventStyle + '">' + company.event_type + '</span>' : '') +
+                    '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495]">' + sector + '</span>' +
+                    '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-gray-50 text-gray-500">📍 ' + location + '</span>' +
+                '</div>' +
+                
+                // 核心数据区 (分数 & 融资，灰色底座强化对比)
+                '<div class="flex items-center justify-between bg-gray-50/80 rounded-xl p-3 mb-3 border border-gray-100">' +
+                    '<div class="flex flex-col">' +
+                        '<span class="text-[10px] text-gray-400 mb-0.5 font-medium">雷达评分</span>' +
+                        '<div class="flex items-baseline gap-0.5"><span class="text-2xl font-black leading-none tracking-tighter ' + getScoreColor(company.score) + '">' + (company.score || 50) + '</span><span class="text-xs text-gray-400 font-bold">分</span></div>' +
+                    '</div>' +
+                    '<div class="w-px h-8 bg-gray-200"></div>' +
+                    '<div class="flex flex-col text-right">' +
+                        '<span class="text-[10px] text-gray-400 mb-0.5 font-medium">融资动态</span>' +
+                        '<span class="text-[13px] font-bold text-gray-700">' + (financing && financing !== '-' ? financing : '未披露') + '</span>' +
+                    '</div>' +
+                '</div>' +
+                
+                // 洞察区
+                (summary ? '<div class="mb-3 p-2.5 bg-blue-50/50 rounded-lg"><div class="flex items-center gap-1.5 mb-1"><span class="text-[11px]">💡</span><span class="text-[11px] font-bold text-blue-700">小贾分析</span></div><p class="text-xs text-gray-600 leading-relaxed line-clamp-2">' + summary + '</p></div>' : '') +
+                
+                // 底部信息
+                '<div class="flex justify-between items-center text-[10px] text-gray-400 mt-1">' +
+                    '<span class="flex items-center gap-1">📰 ' + source + '</span>' +
+                    '<span>' + (date ? '📅 ' + formatDate(date) : '') + (link ? ' · 读原文 ↗' : '') + '</span>' +
+                '</div>' +
+            '</div>';
+        }
+
+        // ============================================
+        // 视图渲染器 (全面增加 animate-fade-in)
+        // ============================================
+        var Views = {
+            home: function(data) {
+                var todaySummary = data.summary.today;
+                var top3 = todaySummary.top3 || [];
+                
+                return '<div class="animate-fade-in">' +
+                    // 顶部数据卡片
+                    '<div class="bg-gradient-to-br from-[#FF6B35] to-[#FF8C61] rounded-2xl p-5 text-white mb-5 shadow-md">' +
+                        '<div class="flex items-center justify-between mb-3"><div class="flex items-center gap-1.5"><span class="text-lg">📅</span><span class="text-sm font-medium opacity-90">今日情报</span></div><div class="text-sm font-bold bg-white/20 px-2 py-0.5 rounded-md">' + data.today + '</div></div>' +
+                        '<div class="grid grid-cols-3 gap-4 mt-4">' +
+                            '<div class="text-center"><div class="text-3xl font-black">' + todaySummary.total_companies + '</div><div class="text-[11px] font-medium opacity-80 mt-1">发现企业</div></div>' +
+                            '<div class="text-center"><div class="text-3xl font-black">' + (todaySummary.negative_count || 0) + '</div><div class="text-[11px] font-medium opacity-80 mt-1">负面预警</div></div>' +
+                            '<div class="text-center"><div class="text-3xl font-black">' + todaySummary.financing_count + '</div><div class="text-[11px] font-medium opacity-80 mt-1">融资事件</div></div>' +
+                        '</div>' +
+                    '</div>' +
+                    
+                    // 快捷入口
+                    (todaySummary.total_companies > 0 ? '<button onclick="Router.navigate(\'/today\')" class="w-full py-3.5 mb-6 bg-white text-primary font-bold rounded-xl shadow-sm border border-gray-100 active:bg-gray-50 active:scale-[0.98] transition-all flex items-center justify-center gap-2"><span class="text-lg">⚡️</span><span>查看今日全部 ' + todaySummary.total_companies + ' 家标的</span><span class="opacity-50">→</span></button>' : '') +
+                    
+                    // Top 3 列表
+                    '<div class="mb-6"><div class="flex items-center justify-between mb-3 px-1"><h2 class="text-base font-extrabold text-gray-800 tracking-tight">🏆 今日高分推荐</h2></div>' +
+                    (top3.length > 0 ? top3.map(function(company, index) { return renderCompanyCard(company, index + 1); }).join('') :
+                        '<div class="text-center py-10 bg-white rounded-2xl shadow-sm"><span class="text-4xl mb-3 block opacity-50">😴</span><p class="text-gray-400 text-sm font-medium">今日暂无高分企业</p></div>') +
+                    '</div>' +
+                '</div>';
+            },
+            
+            today: function(data, date) {
+                var targetDate = date || data.today;
+                var companies = data.targets || [];
+                companies.sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
+                
+                return '<div class="animate-fade-in">' +
+                    '<div class="flex items-center justify-between mb-4 px-1">' +
+                        '<div><h2 class="text-xl font-extrabold text-gray-800 tracking-tight">📰 详情列表</h2><p class="text-[11px] text-gray-500 font-medium mt-0.5">' + targetDate + ' · 共扫描 ' + companies.length + ' 家</p></div>' +
+                    '</div>' +
+                    '<div class="space-y-4">' +
+                    (companies.length > 0 ? companies.map(function(company, index) { return renderCompanyCard(company, index + 1); }).join('') :
+                        '<div class="text-center py-12 bg-white rounded-2xl shadow-sm"><span class="text-4xl mb-3 block opacity-50">📭</span><p class="text-gray-400 text-sm font-medium">该日暂无企业数据</p></div>') +
+                    '</div>' +
+                '</div>';
+            },
+            
+            calendar: function(data) {
+                var availableDates = data.available_dates || [];
+                var today = data.today;
+                var now = new Date(today.replace(/-/g, '/'));
+                var year = now.getFullYear();
+                var month = now.getMonth();
+                var firstDay = new Date(year, month, 1);
+                var lastDay = new Date(year, month + 1, 0);
+                var startDay = firstDay.getDay();
+                startDay = startDay === 0 ? 7 : startDay;
+                
+                var dateMap = {};
+                for (var i = 0; i < availableDates.length; i++) {
+                    dateMap[availableDates[i].date] = availableDates[i];
+                }
+                
+                var calendarDays = [];
+                for (var j = 1; j < startDay; j++) { calendarDays.push({ type: 'empty' }); }
+                for (var day = 1; day <= lastDay.getDate(); day++) {
+                    var dateStr = year + '-' + String(month + 1).padStart(2, '0') + '-' + String(day).padStart(2, '0');
+                    var dateInfo = dateMap[dateStr];
+                    calendarDays.push({
+                        type: 'day', day: day, date: dateStr,
+                        hasData: !!dateInfo, count: dateInfo ? dateInfo.count : 0,
+                        hasHighScore: dateInfo ? dateInfo.has_high_score : false,
+                        isToday: dateStr === today
+                    });
+                }
+                
+                var weekDays = ['一', '二', '三', '四', '五', '六', '日'];
+                var monthPrefix = year + '-' + String(month + 1).padStart(2, '0');
+                var monthDays = 0, monthCompanies = 0;
+                for (var k = 0; k < availableDates.length; k++) {
+                    if (availableDates[k].date.indexOf(monthPrefix) === 0) {
+                        monthDays++; monthCompanies += availableDates[k].count;
+                    }
+                }
+                
+                return '<div class="animate-fade-in">' +
+                    '<div class="mb-4 px-1"><h2 class="text-xl font-extrabold text-gray-800 tracking-tight">🗓️ 发现日历</h2><p class="text-[11px] text-gray-500 font-medium mt-0.5">' + year + '年' + (month + 1) + '月</p></div>' +
+                    '<div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-5">' +
+                        '<div class="grid grid-cols-7 gap-1 mb-2">' + weekDays.map(function(d) { return '<div class="text-center text-[11px] font-bold text-gray-400 py-1">' + d + '</div>'; }).join('') + '</div>' +
+                        '<div class="grid grid-cols-7 gap-1.5">' + calendarDays.map(function(cell) {
+                            if (cell.type === 'empty') return '<div class="aspect-square"></div>';
+                            var cellClass = 'aspect-square rounded-xl flex flex-col items-center justify-center text-sm transition-all active:scale-[0.85] ';
+                            if (cell.isToday) cellClass += 'bg-gradient-to-br from-orange-400 to-orange-500 text-white font-bold shadow-sm ';
+                            else if (cell.hasData) cellClass += cell.hasHighScore ? 'bg-red-50 text-red-600 font-bold border border-red-200 ' : 'bg-blue-50 text-blue-600 border border-blue-100 ';
+                            else cellClass += 'bg-gray-50 text-gray-400 ';
+                            return '<button onclick="Router.navigate(\'/today?date=' + cell.date + '\')" class="' + cellClass + '">' +
+                                '<span class="text-[15px]">' + cell.day + '</span>' +
+                                (cell.hasData ? '<span class="text-[9px] mt-0.5 font-medium">' + cell.count + '家</span>' : '') +
+                            '</button>';
+                        }).join('') + '</div>' +
+                    '</div>' +
+                    
+                    '<div class="grid grid-cols-2 gap-3 mb-4">' +
+                        '<div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center text-purple-600 text-lg">📈</div><div><div class="text-xl font-black text-gray-800">' + monthDays + '<span class="text-xs font-normal text-gray-400 ml-1">天</span></div><div class="text-[10px] text-gray-500 font-medium">本月收录天数</div></div></div>' +
+                        '<div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-pink-50 flex items-center justify-center text-pink-600 text-lg">🏢</div><div><div class="text-xl font-black text-gray-800">' + monthCompanies + '<span class="text-xs font-normal text-gray-400 ml-1">家</span></div><div class="text-[10px] text-gray-500 font-medium">本月扫描总数</div></div></div>' +
+                    '</div>' +
+                '</div>';
+            },
+            
+            weekly: function(data) {
+                var weekSummary = data.summary.week;
+                var top10 = data.weekly_top10 || [];
+                var topSectors = weekSummary.top_sectors || [];
+                var colors = ['from-red-400 to-orange-500', 'from-blue-400 to-cyan-500', 'from-green-400 to-emerald-500'];
+                
+                return '<div class="animate-fade-in">' +
+                    '<div class="mb-4 px-1"><h2 class="text-xl font-extrabold text-gray-800 tracking-tight">📊 周期财报</h2><p class="text-[11px] text-gray-500 font-medium mt-0.5">档案号: ' + weekSummary.week_id + '</p></div>' +
+                    
+                    '<div class="bg-gradient-to-br from-[#764ba2] to-[#667eea] rounded-2xl p-5 text-white mb-5 shadow-md">' +
+                        '<div class="text-[11px] font-medium opacity-80 mb-4 tracking-wider">WEEKLY SUMMARY</div>' +
+                        '<div class="grid grid-cols-4 gap-2">' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + weekSummary.total_companies + '</div><div class="text-[10px] opacity-80 mt-1">扫描企业</div></div>' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + weekSummary.total_days + '</div><div class="text-[10px] opacity-80 mt-1">监控天数</div></div>' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + weekSummary.financing_count + '</div><div class="text-[10px] opacity-80 mt-1">融资事件</div></div>' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + weekSummary.ipo_count + '</div><div class="text-[10px] opacity-80 mt-1">冲刺IPO</div></div>' +
+                        '</div>' +
+                    '</div>' +
+                    
+                    (topSectors.length > 0 ? '<div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-5"><h3 class="text-[13px] font-extrabold text-gray-800 mb-4 flex items-center gap-1.5"><span class="text-base">🏷️</span> 活跃赛道</h3><div class="space-y-3.5">' +
+                        topSectors.map(function(sector, index) {
+                            var percentage = Math.round((sector.count / weekSummary.total_companies) * 100) || 0;
+                            var barColor = colors[index] || 'from-gray-300 to-gray-400';
+                            return '<div><div class="flex items-center justify-between mb-1.5"><span class="text-xs font-bold text-gray-700">' + (index + 1) + '. ' + sector.sector + '</span><span class="text-[10px] text-gray-500">' + sector.count + '家 (' + percentage + '%)</span></div>' +
+                                '<div class="h-1.5 bg-gray-100 rounded-full overflow-hidden"><div class="h-full bg-gradient-to-r ' + barColor + ' rounded-full" style="width: ' + percentage + '%"></div></div></div>';
+                        }).join('') + '</div></div>' : '') +
+                        
+                    '<div class="mb-6"><div class="flex items-center justify-between mb-3 px-1"><h3 class="text-base font-extrabold text-gray-800 tracking-tight">🎖️ 本周雷达榜单</h3></div>' +
+                    (top10.length > 0 ? top10.map(function(company, index) { return renderCompanyCard(company, index + 1); }).join('') :
+                        '<div class="text-center py-10 bg-white rounded-2xl shadow-sm"><span class="text-4xl mb-3 block opacity-50">📭</span><p class="text-gray-400 text-sm font-medium">本周暂无榜单数据</p></div>') +
+                    '</div>' +
+                '</div>';
+            },
+            
+            loading: function() {
+                return '<div class="animate-fade-in flex flex-col items-center justify-center py-20"><div class="w-10 h-10 border-4 border-indigo-100 border-t-indigo-500 rounded-full animate-spin mb-3"></div><p class="text-gray-400 text-[11px] font-medium tracking-widest">LOADING</p></div>';
+            },
+            
+            error: function(msg) {
+                return '<div class="animate-fade-in text-center py-12 bg-red-50 rounded-2xl border border-red-100"><span class="text-4xl mb-3 block">⚠️</span><h2 class="text-base font-bold text-red-600 mb-2">数据同步失败</h2><p class="text-red-400 text-xs mb-5 px-4">' + msg + '</p><button onclick="location.reload()" class="px-5 py-2 bg-red-500 text-white text-xs font-bold rounded-full active:scale-95 transition-transform">重试</button></div>';
+            }
+        };
+
+        // ============================================
+        // 路由管理器
+        // ============================================
+        var Router = {
+            getRoute: function() {
+                var hash = window.location.hash.slice(1) || '/';
+                return hash.split('?')[0];
+            },
+            getQueryParams: function() {
+                var hash = window.location.hash || '';
+                var parts = hash.split('?');
+                var queryString = parts[1] || '';
+                var params = {};
+                if (queryString) {
+                    var pairs = queryString.split('&');
+                    for (var i = 0; i < pairs.length; i++) {
+                        var pair = pairs[i].split('=');
+                        params[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
+                    }
+                }
+                return params;
+            },
+            updateNavActive: function() {
+                var route = this.getRoute();
+                var navItems = document.querySelectorAll('.nav-item');
+                for (var i = 0; i < navItems.length; i++) {
+                    var item = navItems[i];
+                    var itemRoute = item.getAttribute('data-route');
+                    if (itemRoute === route || (route === '' && itemRoute === '/')) {
+                        item.classList.add('active');
+                        item.classList.remove('text-gray-400');
+                    } else {
+                        item.classList.remove('active');
+                        item.classList.add('text-gray-400');
+                    }
+                }
+            },
+            navigate: function(route) {
+                window.location.hash = route;
+            }
+        };
+
+        // ============================================
+        // 异步加载每日数据
+        // ============================================
+        function loadDailyData(date) {
+            return new Promise(function(resolve, reject) {
+                fetch('./data/daily/' + date + '.json')
+                    .then(function(response) {
+                        if (!response.ok) throw new Error('未能获取 ' + date + ' 的雷达扫描数据');
+                        return response.json();
+                    })
+                    .then(function(data) { resolve(data); })
+                    .catch(function(error) { reject(error); });
+            });
+        }
+
+        // ============================================
+        // 主渲染函数
+        // ============================================
+        function renderPage() {
+            var appContent = document.getElementById('app-content');
+            Router.updateNavActive();
+            
+            // 每次切换路由，回到页面顶部
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            
+            if (!window.RadarData.loaded) {
+                appContent.innerHTML = Views.loading();
+                return;
+            }
+            if (window.RadarData.error) {
+                appContent.innerHTML = Views.error(window.RadarData.error.message);
+                return;
+            }
+            
+            var route = Router.getRoute();
+            var params = Router.getQueryParams();
+            var manifest = window.RadarData.manifest;
+            
+            switch (route) {
+                case '/':
+                    appContent.innerHTML = Views.home(manifest);
+                    break;
+                case '/today':
+                    var targetDate = params.date || manifest.today;
+                    appContent.innerHTML = Views.loading();
+                    loadDailyData(targetDate).then(function(dailyData) {
+                        appContent.innerHTML = Views.today(dailyData, targetDate);
+                    }).catch(function(error) {
+                        appContent.innerHTML = Views.error(error.message);
+                    });
+                    break;
+                case '/calendar':
+                    appContent.innerHTML = Views.calendar(manifest);
+                    break;
+                case '/weekly':
+                    appContent.innerHTML = Views.weekly(manifest);
+                    break;
+                default:
+                    appContent.innerHTML = Views.error('页面未找到');
+            }
+        }
+
+        // ============================================
+        // 应用初始化
+        // ============================================
+        function initApp() {
+            console.log('🚀 寻龙雷达启动...');
+            var appContent = document.getElementById('app-content');
+            
+            fetch('./data/manifest.json?t=' + Date.now())
+                .then(function(response) {
+                    if (!response.ok) throw new Error('配置清单加载失败');
+                    return response.json();
+                })
+                .then(function(data) {
+                    window.RadarData.manifest = data;
+                    window.RadarData.loaded = true;
+                    console.log('✅ 系统初始化完成:', data.today);
+                    window.addEventListener('hashchange', renderPage);
+                    renderPage();
+                })
+                .catch(function(error) {
+                    window.RadarData.error = error;
+                    appContent.innerHTML = Views.error(error.message);
+                });
+        }
+
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
