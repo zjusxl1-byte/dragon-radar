@@ -34,8 +34,10 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, sans-serif;
+            /* 适配移动端点击高亮，禁用默认的半透明遮罩 */
             -webkit-tap-highlight-color: transparent; 
         }
+        /* 隐藏滚动条但保持可滚动 */
         ::-webkit-scrollbar {
             display: none;
         }
@@ -64,8 +66,8 @@
         <div id="app-content">
             <div class="animate-pulse-fast space-y-4 py-4">
                 <div class="h-24 bg-gray-200 rounded-2xl"></div>
-                <div class="h-48 bg-white rounded-2xl shadow-sm"></div>
-                <div class="h-48 bg-white rounded-2xl shadow-sm"></div>
+                <div class="h-40 bg-white rounded-2xl shadow-sm"></div>
+                <div class="h-40 bg-white rounded-2xl shadow-sm"></div>
             </div>
         </div>
         
@@ -97,15 +99,20 @@
     </nav>
 
     <script>
+        // ============================================
+        // 全局状态
+        // ============================================
         window.RadarData = {
             manifest: null,
             loaded: false,
             error: null
         };
 
+        // ============================================
+        // 工具函数
+        // ============================================
         function getScoreColor(score) {
             if (!score) return 'text-gray-400';
-            if (score >= 100) return 'text-red-600';
             if (score >= 80) return 'text-red-500';
             if (score >= 50) return 'text-orange-500';
             return 'text-gray-400';
@@ -113,8 +120,7 @@
 
         function getScoreBadge(score) {
             if (!score) return 'bg-gray-300 text-gray-600 border-gray-100';
-            if (score >= 100) return 'bg-gradient-to-br from-red-600 to-rose-700 text-white border-red-200';
-            if (score >= 80) return 'bg-gradient-to-br from-red-400 to-red-600 text-white border-red-200';
+            if (score >= 80) return 'bg-gradient-to-br from-red-500 to-red-600 text-white border-red-200';
             if (score >= 50) return 'bg-gradient-to-br from-orange-400 to-orange-500 text-white border-orange-200';
             return 'bg-gray-300 text-gray-600';
         }
@@ -143,7 +149,7 @@
         }
 
         // ============================================
-        // 企业卡片组件 (深度内容展示版)
+        // 企业卡片组件 (移动端重构版)
         // ============================================
         function renderCompanyCard(company, index) {
             var scoreColor = getScoreBadge(company.score || 50);
@@ -153,12 +159,7 @@
             var location = company.location || '未知区域';
             var financing = company.financing || '';
             var source = company.source || '未知信源';
-            
-            // 修正字段映射，抓取长文本内容
-            var articleTitle = company.article_title || company.title || '';
-            var eventDesc = company.event_desc || '';
-            var insight = company.insight || company.summary || ''; 
-            
+            var summary = company.summary || '';
             var link = company.link || '';
             var date = company.date || '';
             
@@ -169,84 +170,70 @@
             
             var aiqichaUrl = 'https://aiqicha.baidu.com/s?q=' + encodeURIComponent(companyName);
             var cardAction = link ? 'onclick="window.open(\'' + link + '\', \'_blank\')"' : '';
-            var cursorStyle = link ? 'cursor-pointer active:scale-[0.99] active:bg-gray-50' : '';
+            var cursorStyle = link ? 'cursor-pointer active:scale-[0.98] active:bg-gray-50' : '';
             
             return '<div class="relative bg-white rounded-2xl shadow-[0_2px_10px_-3px_rgba(6,81,237,0.1)] p-4 mb-4 transition-all duration-200 ' + cursorStyle + '" ' + cardAction + '>' +
                 rankBadge +
                 
-                // 1. 头部：企业名称与快捷操作
+                // 头部：标题与快捷操作
                 '<div class="flex justify-between items-start mb-2.5 gap-2 ml-2">' +
                     '<h3 class="text-[17px] font-extrabold text-gray-800 leading-snug tracking-tight">' + companyName + '</h3>' +
+                    // 阻止冒泡，独立点击查工商
                     '<button onclick="event.stopPropagation(); window.open(\'' + aiqichaUrl + '\', \'_blank\')" class="shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-indigo-50 text-indigo-500 active:bg-indigo-100 transition-colors" title="查工商">🏢</button>' +
                 '</div>' +
                 
-                // 2. 标签区
-                '<div class="flex flex-wrap gap-1.5 mb-3.5">' +
+                // 标签区
+                '<div class="flex flex-wrap gap-1.5 mb-3">' +
                     (company.event_type ? '<span class="px-2 py-0.5 text-[10px] font-semibold rounded ' + eventStyle + '">' + company.event_type + '</span>' : '') +
                     '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495]">' + sector + '</span>' +
                     '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-gray-50 text-gray-500">📍 ' + location + '</span>' +
                 '</div>' +
-
-                // 3. 新闻标题与事件描述 (新增重点区域)
-                (articleTitle ? '<div class="mb-1.5 text-[14px] font-bold text-gray-800 leading-snug border-l-2 border-primary pl-2">' + articleTitle + '</div>' : '') +
-                (eventDesc ? '<div class="mb-3.5 text-[12px] text-gray-500 leading-relaxed line-clamp-3">' + eventDesc + '</div>' : '') +
                 
-                // 4. 核心数据区 (分数 & 融资)
-                '<div class="flex items-center justify-between bg-gray-50/80 rounded-xl p-3 mb-3.5 border border-gray-100">' +
-                    '<div class="flex flex-col shrink-0 pr-3">' +
+                // 核心数据区 (分数 & 融资，灰色底座强化对比)
+                '<div class="flex items-center justify-between bg-gray-50/80 rounded-xl p-3 mb-3 border border-gray-100">' +
+                    '<div class="flex flex-col">' +
                         '<span class="text-[10px] text-gray-400 mb-0.5 font-medium">雷达评分</span>' +
                         '<div class="flex items-baseline gap-0.5"><span class="text-2xl font-black leading-none tracking-tighter ' + getScoreColor(company.score) + '">' + (company.score || 50) + '</span><span class="text-xs text-gray-400 font-bold">分</span></div>' +
                     '</div>' +
                     '<div class="w-px h-8 bg-gray-200"></div>' +
-                    '<div class="flex flex-col text-right pl-3 overflow-hidden">' +
-                        '<span class="text-[10px] text-gray-400 mb-0.5 font-medium">融资/资本动态</span>' +
-                        '<span class="text-[11px] font-bold text-gray-700 truncate block">' + (financing && financing !== '-' ? financing : '未披露') + '</span>' +
+                    '<div class="flex flex-col text-right">' +
+                        '<span class="text-[10px] text-gray-400 mb-0.5 font-medium">融资动态</span>' +
+                        '<span class="text-[13px] font-bold text-gray-700">' + (financing && financing !== '-' ? financing : '未披露') + '</span>' +
                     '</div>' +
                 '</div>' +
                 
-                // 5. 深度洞察区 (修正字段并强化视觉)
-                (insight ? '<div class="mb-3 p-3 bg-gradient-to-br from-[#F5F7FF] to-[#EBF0FF] rounded-xl border border-indigo-100/50 relative overflow-hidden">' +
-                    '<div class="absolute -right-2 -top-2 text-4xl opacity-[0.03] pointer-events-none">💡</div>' +
-                    '<div class="flex items-center gap-1.5 mb-2"><span class="text-[12px]">💡</span><span class="text-[11px] font-extrabold text-[#3B4C8A] tracking-wider">小贾深度洞察</span></div>' +
-                    '<p class="text-[12px] text-[#4A5D9A] leading-relaxed">' + insight + '</p>' +
-                '</div>' : '') +
+                // 洞察区
+                (summary ? '<div class="mb-3 p-2.5 bg-blue-50/50 rounded-lg"><div class="flex items-center gap-1.5 mb-1"><span class="text-[11px]">💡</span><span class="text-[11px] font-bold text-blue-700">小贾分析</span></div><p class="text-xs text-gray-600 leading-relaxed line-clamp-2">' + summary + '</p></div>' : '') +
                 
-                // 6. 底部来源信息
-                '<div class="flex justify-between items-center text-[10px] text-gray-400 mt-2">' +
-                    '<span class="flex items-center gap-1 font-medium bg-gray-50 px-2 py-0.5 rounded">📰 ' + source + '</span>' +
-                    '<span class="font-medium text-indigo-400">' + (date ? formatDate(date) : '') + (link ? ' · 阅读全文 ↗' : '') + '</span>' +
+                // 底部信息
+                '<div class="flex justify-between items-center text-[10px] text-gray-400 mt-1">' +
+                    '<span class="flex items-center gap-1">📰 ' + source + '</span>' +
+                    '<span>' + (date ? '📅 ' + formatDate(date) : '') + (link ? ' · 读原文 ↗' : '') + '</span>' +
                 '</div>' +
             '</div>';
         }
 
+        // ============================================
+        // 视图渲染器 (全面增加 animate-fade-in)
+        // ============================================
         var Views = {
             home: function(data) {
                 var todaySummary = data.summary.today;
                 var top3 = todaySummary.top3 || [];
-                var updates = data.recent_updates || [];
-                
-                var updateHtml = '';
-                if (updates.length > 0) {
-                    var latest = updates[0];
-                    updateHtml = '<div class="mb-4 bg-white px-3 py-2 rounded-xl shadow-sm border border-orange-100 flex items-center justify-between animate-fade-in"><div class="flex items-center gap-2"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span></span><span class="text-[11px] font-bold text-orange-600">' + latest.title + '</span></div><span class="text-[10px] text-gray-500 truncate max-w-[60%]">' + latest.highlight + '</span></div>';
-                }
                 
                 return '<div class="animate-fade-in">' +
-                    // 动态横幅
-                    updateHtml +
-                    
                     // 顶部数据卡片
                     '<div class="bg-gradient-to-br from-[#FF6B35] to-[#FF8C61] rounded-2xl p-5 text-white mb-5 shadow-md">' +
                         '<div class="flex items-center justify-between mb-3"><div class="flex items-center gap-1.5"><span class="text-lg">📅</span><span class="text-sm font-medium opacity-90">今日情报</span></div><div class="text-sm font-bold bg-white/20 px-2 py-0.5 rounded-md">' + data.today + '</div></div>' +
                         '<div class="grid grid-cols-3 gap-4 mt-4">' +
                             '<div class="text-center"><div class="text-3xl font-black">' + todaySummary.total_companies + '</div><div class="text-[11px] font-medium opacity-80 mt-1">发现企业</div></div>' +
                             '<div class="text-center"><div class="text-3xl font-black">' + (todaySummary.negative_count || 0) + '</div><div class="text-[11px] font-medium opacity-80 mt-1">负面预警</div></div>' +
-                            '<div class="text-center"><div class="text-3xl font-black">' + todaySummary.financing_count + '</div><div class="text-[11px] font-medium opacity-80 mt-1">融资/IPO</div></div>' +
+                            '<div class="text-center"><div class="text-3xl font-black">' + todaySummary.financing_count + '</div><div class="text-[11px] font-medium opacity-80 mt-1">融资事件</div></div>' +
                         '</div>' +
                     '</div>' +
                     
                     // 快捷入口
-                    (todaySummary.total_companies > 0 ? '<button onclick="Router.navigate(\'/today\')" class="w-full py-3.5 mb-6 bg-white text-primary font-bold rounded-xl shadow-sm border border-gray-100 active:bg-gray-50 active:scale-[0.98] transition-all flex items-center justify-center gap-2"><span class="text-lg">⚡️</span><span>查看今日全部 ' + todaySummary.total_companies + ' 份简报</span><span class="opacity-50">→</span></button>' : '') +
+                    (todaySummary.total_companies > 0 ? '<button onclick="Router.navigate(\'/today\')" class="w-full py-3.5 mb-6 bg-white text-primary font-bold rounded-xl shadow-sm border border-gray-100 active:bg-gray-50 active:scale-[0.98] transition-all flex items-center justify-center gap-2"><span class="text-lg">⚡️</span><span>查看今日全部 ' + todaySummary.total_companies + ' 家标的</span><span class="opacity-50">→</span></button>' : '') +
                     
                     // Top 3 列表
                     '<div class="mb-6"><div class="flex items-center justify-between mb-3 px-1"><h2 class="text-base font-extrabold text-gray-800 tracking-tight">🏆 今日高分推荐</h2></div>' +
@@ -263,11 +250,11 @@
                 
                 return '<div class="animate-fade-in">' +
                     '<div class="flex items-center justify-between mb-4 px-1">' +
-                        '<div><h2 class="text-xl font-extrabold text-gray-800 tracking-tight">📰 情报简报</h2><p class="text-[11px] text-gray-500 font-medium mt-0.5">' + targetDate + ' · 共收录 ' + companies.length + ' 份</p></div>' +
+                        '<div><h2 class="text-xl font-extrabold text-gray-800 tracking-tight">📰 详情列表</h2><p class="text-[11px] text-gray-500 font-medium mt-0.5">' + targetDate + ' · 共扫描 ' + companies.length + ' 家</p></div>' +
                     '</div>' +
                     '<div class="space-y-4">' +
                     (companies.length > 0 ? companies.map(function(company, index) { return renderCompanyCard(company, index + 1); }).join('') :
-                        '<div class="text-center py-12 bg-white rounded-2xl shadow-sm"><span class="text-4xl mb-3 block opacity-50">📭</span><p class="text-gray-400 text-sm font-medium">该日暂无情报数据</p></div>') +
+                        '<div class="text-center py-12 bg-white rounded-2xl shadow-sm"><span class="text-4xl mb-3 block opacity-50">📭</span><p class="text-gray-400 text-sm font-medium">该日暂无企业数据</p></div>') +
                     '</div>' +
                 '</div>';
             },
@@ -377,6 +364,9 @@
             }
         };
 
+        // ============================================
+        // 路由管理器
+        // ============================================
         var Router = {
             getRoute: function() {
                 var hash = window.location.hash.slice(1) || '/';
@@ -416,6 +406,9 @@
             }
         };
 
+        // ============================================
+        // 异步加载每日数据
+        // ============================================
         function loadDailyData(date) {
             return new Promise(function(resolve, reject) {
                 fetch('./data/daily/' + date + '.json')
@@ -428,10 +421,14 @@
             });
         }
 
+        // ============================================
+        // 主渲染函数
+        // ============================================
         function renderPage() {
             var appContent = document.getElementById('app-content');
             Router.updateNavActive();
             
+            // 每次切换路由，回到页面顶部
             window.scrollTo({ top: 0, behavior: 'smooth' });
             
             if (!window.RadarData.loaded) {
@@ -471,7 +468,11 @@
             }
         }
 
+        // ============================================
+        // 应用初始化
+        // ============================================
         function initApp() {
+            console.log('🚀 寻龙雷达启动...');
             var appContent = document.getElementById('app-content');
             
             fetch('./data/manifest.json?t=' + Date.now())
@@ -482,6 +483,7 @@
                 .then(function(data) {
                     window.RadarData.manifest = data;
                     window.RadarData.loaded = true;
+                    console.log('✅ 系统初始化完成:', data.today);
                     window.addEventListener('hashchange', renderPage);
                     renderPage();
                 })
