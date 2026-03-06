@@ -3,255 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>寻龙雷达 - 杭州未来"六小龙"发现系统</title>
+    <title>寻龙雷达 - 今日详情 | 2026-03-06</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
             font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; 
-            max-width: 100%;
-            margin: 0 auto; 
-            padding: 0;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
+            padding: 20px 16px;
         }
         .container {
             background: white;
-            border-radius: 0;
-            padding: 20px 16px;
-            box-shadow: none;
-            max-width: 100%;
+            border-radius: 20px;
+            padding: 24px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
         }
+        
         .header { 
             text-align: center; 
-            padding: 20px 0; 
-            border-bottom: 1px solid #f0f0f0;
-            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+            margin-bottom: 24px;
         }
         .header h1 { 
             color: #333; 
-            font-size: 18px; 
-            margin-bottom: 6px;
-            font-weight: 600;
+            font-size: 22px; 
+            margin-bottom: 8px;
+            font-weight: 700;
         }
-        .header .date { color: #999; font-size: 12px; }
-        .stats { 
+        .header .date { 
+            color: #999; 
+            font-size: 13px; 
+        }
+        
+        /* 导航按钮 */
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .nav-btn {
+            flex: 1;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        /* 统计卡片 */
+        .stats {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 10px; 
-            margin-top: 15px; 
-        }
-        .stat-item { text-align: center; background: #f8f9fa; padding: 12px 8px; border-radius: 10px; }
-        .stat-number { font-size: 22px; font-weight: bold; color: #FF6B35; }
-        .stat-label { font-size: 11px; color: #999; margin-top: 4px; line-height: 1.2; }
-        
-        /* 今日概览卡片 */
-        .today-card {
-            background: linear-gradient(135deg, #FF6B35, #ff8f66);
-            color: white;
-            border-radius: 16px;
-            padding: 20px;
+            gap: 10px;
             margin-bottom: 24px;
         }
-        .today-label {
-            font-size: 12px;
-            opacity: 0.9;
-            margin-bottom: 8px;
-        }
-        .today-date {
-            font-size: 28px;
-            font-weight: 800;
-            margin-bottom: 16px;
-        }
-        .today-stats {
-            display: flex;
-            gap: 24px;
-        }
-        .stat {
+        .stat-card {
+            background: linear-gradient(135deg, #f0f7ff, #e8f4f8);
+            border-radius: 12px;
+            padding: 16px;
             text-align: center;
         }
         .stat-number {
-            font-size: 32px;
-            font-weight: 800;
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
         }
         .stat-label {
-            font-size: 12px;
-            opacity: 0.9;
+            font-size: 11px;
+            color: #999;
             margin-top: 4px;
-        }
-        
-        /* 导航卡片 */
-        .nav-section {
-            margin-bottom: 24px;
-        }
-        .nav-section-title {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 12px;
-            font-weight: 600;
-        }
-        .nav-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
-        }
-        .nav-card {
-            background: #f8f9fa;
-            border-radius: 12px;
-            padding: 16px;
-            text-decoration: none;
-            color: #333;
-            transition: transform 0.2s;
-        }
-        .nav-card:hover {
-            transform: translateY(-2px);
-            background: #e9ecef;
-        }
-        .nav-card-icon {
-            font-size: 24px;
-            margin-bottom: 8px;
-        }
-        .nav-card-title {
-            font-size: 14px;
-            font-weight: 600;
-            margin-bottom: 4px;
-        }
-        .nav-card-desc {
-            font-size: 12px;
-            color: #999;
-        }
-        .nav-card.badge {
-            position: relative;
-        }
-        .nav-card.badge::after {
-            content: 'NEW';
-            position: absolute;
-            top: 8px;
-            right: 8px;
-            background: #ff4757;
-            color: white;
-            font-size: 10px;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-weight: 600;
-        }
-        
-        /* TOP 企业 */
-        .top-section {
-            margin-bottom: 24px;
-        }
-        .top-title {
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 16px;
-            color: #333;
-        }
-        .company-card {
-            background: #f8f9fa;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-        .rank {
-            font-size: 24px;
-            font-weight: 800;
-            min-width: 32px;
-        }
-        .company-info {
-            flex: 1;
-        }
-        .company-name {
-            font-size: 14px;
-            font-weight: 600;
-            margin-bottom: 4px;
-            color: #333;
-        }
-        .company-meta {
-            font-size: 12px;
-            color: #999;
         }
         
         /* 企业卡片 */
         .card { 
             border-radius: 12px; 
-            padding: 16px; 
+            padding: 18px; 
             margin-bottom: 16px; 
             background: #fff;
             border: 1px solid #e8e8e8;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
         }
-        .card.negative {
-            background: #fff5f5;
-            border-color: #feb2b2;
-        }
-        
-        /* 卡片头部 */
         .card-header {
             display: flex;
-            align-items: flex-start;
-            gap: 10px;
+            gap: 12px;
             margin-bottom: 12px;
         }
         .card-number {
             background: linear-gradient(135deg, #FF6B35, #ff8f66);
             color: white;
-            width: 28px;
-            height: 28px;
+            width: 32px;
+            height: 32px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: bold;
-            font-size: 13px;
+            font-size: 16px;
             flex-shrink: 0;
         }
         .card-title { 
-            font-size: 13px; 
+            font-size: 14px; 
             color: #666;
-            line-height: 1.4;
+            line-height: 1.5;
             flex: 1;
         }
-        
-        /* 企业名称 - 最醒目 */
         .company-name { 
             font-size: 17px; 
             font-weight: 700; 
             color: #1a1a1a;
-            margin: 12px 0;
-            display: flex;
-            align-items: flex-start;
-            gap: 6px;
-            line-height: 1.3;
-        }
-        .company-name .icon { font-size: 18px; flex-shrink: 0; }
-        .company-name .score-badge { 
-            background: linear-gradient(135deg, #FF6B35, #ff8f66);
-            color: white;
-            font-size: 11px; 
-            padding: 3px 8px; 
-            border-radius: 12px;
-            white-space: nowrap;
-            font-weight: 600;
-        }
-        
-        /* 事件标签 */
-        .event-tag {
-            display: inline-block;
-            padding: 5px 12px;
-            border-radius: 16px;
-            font-size: 12px;
-            font-weight: 600;
             margin-bottom: 12px;
         }
-        .event-funding { background: linear-gradient(135deg, #f093fb, #f5576c); color: white; }
-        .event-relocation { background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; }
-        .event-expansion { background: linear-gradient(135deg, #43e97b, #38f9d7); color: white; }
-        .event-ipo { background: linear-gradient(135deg, #fa709a, #fee140); color: white; }
-        .event-other { background: linear-gradient(135deg, #a8edea, #fed6e3); color: #333; }
-        
-        /* 信息网格 */
         .info-grid { 
             display: grid; 
             grid-template-columns: repeat(2, 1fr); 
@@ -262,179 +130,305 @@
             margin-bottom: 12px;
         }
         .info-item { display: flex; flex-direction: column; gap: 3px; }
-        .info-label { font-size: 10px; color: #999; text-transform: uppercase; }
-        .info-value { font-size: 12px; color: #333; font-weight: 500; line-height: 1.3; }
+        .info-label { font-size: 10px; color: #999; }
+        .info-value { font-size: 12px; color: #333; font-weight: 500; }
         
-        /* 爱企查按钮 */
-        .search-link { 
-            display: inline-block; 
-            background: linear-gradient(135deg, #667eea, #764ba2); 
-            color: white; 
-            padding: 10px 18px; 
-            border-radius: 8px; 
-            text-decoration: none; 
-            font-size: 14px; 
-            font-weight: 500;
+        .event-tag {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: 600;
             margin-bottom: 12px;
-            width: 100%;
-            text-align: center;
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            color: white;
         }
         
-        /* 小贾洞察 */
-        .insight-box {
-            background: linear-gradient(135deg, #f0f7ff, #e8f4f8);
-            border-left: 3px solid #2196F3;
-            padding: 12px;
+        .score-badge {
+            display: inline-block;
+            padding: 4px 10px;
             border-radius: 8px;
-            margin: 12px 0;
-        }
-        .insight-title {
             font-size: 12px;
-            font-weight: 600;
-            color: #1976D2;
-            margin-bottom: 6px;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-        .insight-content {
-            font-size: 12px;
-            color: #555;
-            line-height: 1.6;
+            font-weight: 700;
+            background: linear-gradient(135deg, #43e97b, #38f9d7);
+            color: #0d5c3f;
         }
         
-        /* 卡片底部 */
-        .card-footer { 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center;
-            padding-top: 12px; 
+        .footer { 
+            text-align: center; 
+            margin-top: 24px; 
+            padding-top: 16px; 
             border-top: 1px solid #f0f0f0; 
-            margin-top: 12px;
+            color: #999; 
             font-size: 11px;
-        }
-        .card-footer .source { color: #999; }
-        .card-footer a { 
-            color: #667eea; 
-            text-decoration: none; 
-            font-weight: 600;
-        }
-        
-        /* 页脚 */
-        .footer {
-            text-align: center;
-            padding: 20px 0;
-            border-top: 1px solid #f0f0f0;
-            margin-top: 20px;
-        }
-        .footer p {
-            font-size: 12px;
-            color: #999;
-            margin: 4px 0;
-        }
-        .last-update {
-            text-align: center;
-            font-size: 11px;
-            color: #999;
-            margin-bottom: 12px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        
-<!-- 头部 -->
-<div class="header">
-    <h1>🐉 寻龙雷达</h1>
-    <p class="date">杭州未来"六小龙"发现系统</p>
-    <p class="tagline">发现 · 追踪 · 洞察</p>
-</div>
-
-<!-- 今日概览卡片 -->
-<div class="today-card">
-    <div class="today-label">📅 今日数据</div>
-    <div class="today-date">2026-03-06</div>
-    <div class="today-stats">
-        <div class="stat">
-            <div class="stat-number">8</div>
-            <div class="stat-label">寻龙标的</div>
-        </div>
-        <div class="stat">
-            <div class="stat-number">0</div>
-            <div class="stat-label">负面预警</div>
-        </div>
-        <div class="stat">
-            <div class="stat-number">8</div>
-            <div class="stat-label">监测文章</div>
-        </div>
-    </div>
-</div>
-
-<!-- 快捷导航 -->
-<div class="nav-section">
-    <div class="nav-section-title">快速访问</div>
-    <div class="nav-grid">
-        <a href="today.html" class="nav-card badge">
-            <div class="nav-card-icon">📰</div>
-            <div class="nav-card-title">今日详情</div>
-            <div class="nav-card-desc">查看今日所有企业动态</div>
-        </a>
-        <a href="calendar.html" class="nav-card">
-            <div class="nav-card-icon">🗓️</div>
-            <div class="nav-card-title">周历视图</div>
-            <div class="nav-card-desc">点击日期查看历史数据</div>
-        </a>
-        <a href="weekly.html" class="nav-card badge">
-            <div class="nav-card-icon">📊</div>
-            <div class="nav-card-title">本周周报</div>
-            <div class="nav-card-desc">第 10 周数据汇总</div>
-        </a>
-        <a href="#archive" class="nav-card">
-            <div class="nav-card-icon">📁</div>
-            <div class="nav-card-title">历史归档</div>
-            <div class="nav-card-desc">查看历史数据</div>
-        </a>
-    </div>
-</div>
-
-<!-- TOP3 企业 -->
-<div class="top-section">
-    <div class="top-title">🏆 本周 TOP3</div>
-    
-    <div class="company-card">
-        <div class="rank">1️⃣</div>
-        <div class="company-info">
-            <div class="company-name">奥立安新能源科技（杭州）有限公司</div>
-            <div class="company-meta">新能源/智能船舶 | ⭐ 100分</div>
-        </div>
-    </div>
-    
-    <div class="company-card">
-        <div class="rank">2️⃣</div>
-        <div class="company-info">
-            <div class="company-name">杭州精控集成半导体有限公司</div>
-            <div class="company-meta">芯片设计 | ⭐ 100分</div>
-        </div>
-    </div>
-    
-    <div class="company-card">
-        <div class="rank">3️⃣</div>
-        <div class="company-info">
-            <div class="company-name">Flowith</div>
-            <div class="company-meta">AI/人工智能 | ⭐ 100分</div>
-        </div>
-    </div>
-    
-</div>
-
-        
-        <div class="last-update">
-            最后更新：2026-03-06 09:20
+        <div class="header">
+            <h1>📰 今日详情</h1>
+            <p class="date">2026-03-06</p>
         </div>
         
+        <!-- 导航按钮 -->
+        <div class="nav-buttons">
+            <a href="index.html" class="nav-btn">🏠 主页</a>
+            <a href="calendar.html" class="nav-btn">🗓️ 周历</a>
+            <a href="weekly.html" class="nav-btn">📊 周报</a>
+        </div>
+        
+        <!-- 统计 -->
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">8</div>
+                <div class="stat-label">企业数</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">0</div>
+                <div class="stat-label">负面</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">0</div>
+                <div class="stat-label">已排除</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">1</div>
+                <div class="card-title">奥立安新能源智能船舶...</div>
+            </div>
+            
+            <div class="company-name">
+                奥立安新能源科技（杭州）有限公司
+                <span class="score-badge">100分</span>
+            </div>
+            
+            <div class="event-tag">💰 融资</div>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">新能源/智能船舶</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州桐庐</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">数千万元 PRE-A 轮</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">2</div>
+                <div class="card-title">精控集成半导体完成融资...</div>
+            </div>
+            
+            <div class="company-name">
+                杭州精控集成半导体有限公司
+                <span class="score-badge">100分</span>
+            </div>
+            
+            <div class="event-tag">💰 融资</div>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">芯片设计</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州钱塘区</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">新一轮融资</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">3</div>
+                <div class="card-title">Flowith 完成种子轮融资...</div>
+            </div>
+            
+            <div class="company-name">
+                Flowith
+                <span class="score-badge">100分</span>
+            </div>
+            
+            <div class="event-tag">💰 融资</div>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">AI/人工智能</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">千万美元种子轮</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">4</div>
+                <div class="card-title">强脑科技神经控制假肢...</div>
+            </div>
+            
+            <div class="company-name">
+                强脑科技
+                <span class="score-badge">85分</span>
+            </div>
+            
+            <div class="event-tag">💰 其他</div>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">人工智能/脑机接口</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州余杭</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">5</div>
+                <div class="card-title">正泰集团绿色低碳...</div>
+            </div>
+            
+            <div class="company-name">
+                正泰集团
+                <span class="score-badge">85分</span>
+            </div>
+            
+            <div class="event-tag">💰 其他</div>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">智能电气、绿色能源</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">6</div>
+                <div class="card-title">涛涛车业拟赴港 IPO...</div>
+            </div>
+            
+            <div class="company-name">
+                涛涛车业
+                <span class="score-badge">50分</span>
+            </div>
+            
+            <div class="event-tag">💰 IPO</div>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">户外休闲及电动出行</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">浙江丽水缙云县</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">拟赴港二次上市</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">7</div>
+                <div class="card-title">乐欣户外冲刺 IPO...</div>
+            </div>
+            
+            <div class="company-name">
+                浙江出海大卖乐欣户外国际有限公司
+                <span class="score-badge">50分</span>
+            </div>
+            
+            <div class="event-tag">💰 IPO</div>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">户外用品/渔具</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">冲刺 IPO</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-number">8</div>
+                <div class="card-title">钛动科技赴港 IPO...</div>
+            </div>
+            
+            <div class="company-name">
+                钛动科技
+                <span class="score-badge">50分</span>
+            </div>
+            
+            <div class="event-tag">💰 其他</div>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">赛道</span>
+                    <span class="info-value">AI 营销科技</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">区域</span>
+                    <span class="info-value">杭州</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">融资</span>
+                    <span class="info-value">递交招股书</span>
+                </div>
+            </div>
+        </div>
+
         <div class="footer">
             <p><strong>—— 寻龙雷达 🐉 | 小贾 🤖</strong></p>
-            <p>发现杭州未来的"六小龙"</p>
+            <p style="margin-top: 8px; color: #bbb;">数据已应用智能去重</p>
         </div>
     </div>
 </body>
