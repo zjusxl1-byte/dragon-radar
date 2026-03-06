@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>寻龙雷达 | 周历视图 | 2026年3月</title>
+    <title>寻龙雷达 | 周历视图</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
             font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; 
+            max-width: 100%;
+            margin: 0 auto; 
+            padding: 0;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            padding: 20px 16px;
         }
         .container {
             background: white;
-            border-radius: 16px;
-            padding: 20px;
-            max-width: 600px;
-            margin: 0 auto;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            border-radius: 0;
+            padding: 20px 16px;
+            box-shadow: none;
+            max-width: 100%;
         }
-        
-        /* 头部 */
         .header { 
             text-align: center; 
-            padding-bottom: 20px;
+            padding: 20px 0; 
             border-bottom: 1px solid #f0f0f0;
             margin-bottom: 20px;
         }
@@ -35,156 +34,177 @@
             font-weight: 600;
         }
         .header .date { color: #999; font-size: 12px; }
+        .stats { 
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px; 
+            margin-top: 15px; 
+        }
+        .stat-item { text-align: center; background: #f8f9fa; padding: 12px 8px; border-radius: 10px; }
+        .stat-number { font-size: 22px; font-weight: bold; color: #FF6B35; }
+        .stat-label { font-size: 11px; color: #999; margin-top: 4px; line-height: 1.2; }
         
-        /* 导航按钮 */
-        .nav-buttons {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 15px;
-        }
-        .nav-btn {
-            flex: 1;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 8px;
-            font-size: 13px;
-            font-weight: 600;
-            cursor: pointer;
-            text-decoration: none;
-            text-align: center;
-        }
-        
-        /* 周历导航 */
-        .calendar-nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-        .calendar-nav button {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 8px;
-            font-size: 14px;
-            cursor: pointer;
-        }
-        .calendar-nav .month-label {
-            font-size: 16px;
-            font-weight: 600;
-            color: #333;
-        }
-        
-        /* 周历表格 */
-        .calendar {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        .calendar th {
-            color: #999;
-            font-size: 12px;
-            padding: 8px 4px;
-            text-align: center;
-        }
-        .calendar td {
-            width: 14.28%;
-            height: 50px;
-            text-align: center;
-            padding: 4px;
-            cursor: pointer;
-            border-radius: 8px;
-            transition: all 0.2s;
-        }
-        .calendar td:hover {
-            background: #f0f0f0;
-        }
-        .calendar td.has-data {
-            background: linear-gradient(135deg, #667eea20, #764ba220);
-            border: 1px solid #667eea;
-        }
-        .calendar td.today {
+        /* 今日概览卡片 */
+        .today-card {
             background: linear-gradient(135deg, #FF6B35, #ff8f66);
             color: white;
-            font-weight: bold;
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 24px;
         }
-        .calendar td.selected {
-            box-shadow: 0 0 0 3px #667eea;
+        .today-label {
+            font-size: 12px;
+            opacity: 0.9;
+            margin-bottom: 8px;
         }
-        .calendar .day-number {
-            font-size: 14px;
+        .today-date {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 16px;
         }
-        .calendar .day-count {
-            font-size: 10px;
-            color: #999;
-            margin-top: 2px;
-        }
-        .calendar td.today .day-count {
-            color: #fff;
-        }
-        
-        /* 数据区域 */
-        .data-section {
-            background: #f8f9fa;
-            border-radius: 12px;
-            padding: 16px;
-            margin-top: 20px;
-        }
-        .data-header {
+        .today-stats {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-        .data-date {
-            font-size: 16px;
-            font-weight: 600;
-            color: #333;
-        }
-        .data-stats {
-            display: flex;
-            gap: 15px;
+            gap: 24px;
         }
         .stat {
             text-align: center;
         }
         .stat-number {
-            font-size: 18px;
-            font-weight: bold;
-            color: #FF6B35;
+            font-size: 32px;
+            font-weight: 800;
         }
         .stat-label {
-            font-size: 11px;
+            font-size: 12px;
+            opacity: 0.9;
+            margin-top: 4px;
+        }
+        
+        /* 导航卡片 */
+        .nav-section {
+            margin-bottom: 24px;
+        }
+        .nav-section-title {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        .nav-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 16px;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.2s;
+        }
+        .nav-card:hover {
+            transform: translateY(-2px);
+            background: #e9ecef;
+        }
+        .nav-card-icon {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .nav-card-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .nav-card-desc {
+            font-size: 12px;
+            color: #999;
+        }
+        .nav-card.badge {
+            position: relative;
+        }
+        .nav-card.badge::after {
+            content: 'NEW';
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: #ff4757;
+            color: white;
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        
+        /* TOP 企业 */
+        .top-section {
+            margin-bottom: 24px;
+        }
+        .top-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #333;
+        }
+        .company-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .rank {
+            font-size: 24px;
+            font-weight: 800;
+            min-width: 32px;
+        }
+        .company-info {
+            flex: 1;
+        }
+        .company-name {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #333;
+        }
+        .company-meta {
+            font-size: 12px;
             color: #999;
         }
         
         /* 企业卡片 */
         .card { 
-            background: white;
             border-radius: 12px; 
             padding: 16px; 
-            margin-bottom: 12px; 
+            margin-bottom: 16px; 
+            background: #fff;
             border: 1px solid #e8e8e8;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
         }
+        .card.negative {
+            background: #fff5f5;
+            border-color: #feb2b2;
+        }
+        
+        /* 卡片头部 */
         .card-header {
             display: flex;
+            align-items: flex-start;
             gap: 10px;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
         .card-number {
             background: linear-gradient(135deg, #FF6B35, #ff8f66);
             color: white;
-            width: 24px;
-            height: 24px;
+            width: 28px;
+            height: 28px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: bold;
-            font-size: 12px;
+            font-size: 13px;
             flex-shrink: 0;
         }
         .card-title { 
@@ -193,247 +213,258 @@
             line-height: 1.4;
             flex: 1;
         }
+        
+        /* 企业名称 - 最醒目 */
         .company-name { 
-            font-size: 15px; 
+            font-size: 17px; 
             font-weight: 700; 
             color: #1a1a1a;
-            margin-bottom: 8px;
-        }
-        .company-info {
+            margin: 12px 0;
             display: flex;
-            gap: 10px;
-            font-size: 11px;
-            color: #666;
+            align-items: flex-start;
+            gap: 6px;
+            line-height: 1.3;
         }
-        .company-info span {
-            background: #f0f0f0;
-            padding: 3px 8px;
-            border-radius: 5px;
+        .company-name .icon { font-size: 18px; flex-shrink: 0; }
+        .company-name .score-badge { 
+            background: linear-gradient(135deg, #FF6B35, #ff8f66);
+            color: white;
+            font-size: 11px; 
+            padding: 3px 8px; 
+            border-radius: 12px;
+            white-space: nowrap;
+            font-weight: 600;
         }
         
-        /* 空状态 */
-        .empty-state {
-            text-align: center;
-            padding: 40px 20px;
-            color: #999;
+        /* 事件标签 */
+        .event-tag {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
         }
-        .empty-state .icon {
-            font-size: 48px;
-            margin-bottom: 10px;
+        .event-funding { background: linear-gradient(135deg, #f093fb, #f5576c); color: white; }
+        .event-relocation { background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; }
+        .event-expansion { background: linear-gradient(135deg, #43e97b, #38f9d7); color: white; }
+        .event-ipo { background: linear-gradient(135deg, #fa709a, #fee140); color: white; }
+        .event-other { background: linear-gradient(135deg, #a8edea, #fed6e3); color: #333; }
+        
+        /* 信息网格 */
+        .info-grid { 
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 10px;
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+        }
+        .info-item { display: flex; flex-direction: column; gap: 3px; }
+        .info-label { font-size: 10px; color: #999; text-transform: uppercase; }
+        .info-value { font-size: 12px; color: #333; font-weight: 500; line-height: 1.3; }
+        
+        /* 爱企查按钮 */
+        .search-link { 
+            display: inline-block; 
+            background: linear-gradient(135deg, #667eea, #764ba2); 
+            color: white; 
+            padding: 10px 18px; 
+            border-radius: 8px; 
+            text-decoration: none; 
+            font-size: 14px; 
+            font-weight: 500;
+            margin-bottom: 12px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        /* 小贾洞察 */
+        .insight-box {
+            background: linear-gradient(135deg, #f0f7ff, #e8f4f8);
+            border-left: 3px solid #2196F3;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 12px 0;
+        }
+        .insight-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: #1976D2;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .insight-content {
+            font-size: 12px;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        /* 卡片底部 */
+        .card-footer { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            padding-top: 12px; 
+            border-top: 1px solid #f0f0f0; 
+            margin-top: 12px;
+            font-size: 11px;
+        }
+        .card-footer .source { color: #999; }
+        .card-footer a { 
+            color: #667eea; 
+            text-decoration: none; 
+            font-weight: 600;
         }
         
         /* 页脚 */
-        .footer { 
-            text-align: center; 
-            margin-top: 20px; 
-            padding-top: 15px; 
-            border-top: 1px solid #f0f0f0; 
-            color: #999; 
-            font-size: 11px;
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #f0f0f0;
+            margin-top: 20px;
         }
-        
-        a { color: #667eea; text-decoration: none; }
+        .footer p {
+            font-size: 12px;
+            color: #999;
+            margin: 4px 0;
+        }
+        .last-update {
+            text-align: center;
+            font-size: 11px;
+            color: #999;
+            margin-bottom: 12px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>🐉 寻龙雷达</h1>
-            <p class="date">杭州未来"六小龙"发现系统 · 周历视图</p>
-        </div>
         
-        <!-- 导航按钮 -->
-        <div class="nav-buttons">
-            <a href="index.html" class="nav-btn">🏠 主页</a>
-            <a href="today.html" class="nav-btn">📰 今日详情</a>
-            <a href="weekly.html" class="nav-btn">📊 本周周报</a>
+<!-- 头部 -->
+<div class="header">
+    <h1>🗓️ 周历视图</h1>
+    <p class="date">点击日期查看历史数据</p>
+</div>
+
+<!-- 日期导航 -->
+<div class="card" style="margin-bottom: 20px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; padding: 16px;">
+        <a href="calendar.html?date=2026-02-27" style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-size: 14px;">
+            ← 7 天前
+        </a>
+        <div style="text-align: center;">
+            <div style="font-size: 18px; font-weight: bold; color: #333;">2026-03-06</div>
+            <div style="font-size: 12px; color: #999;">今日</div>
         </div>
+        <a href="calendar.html?date=2026-03-13" style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-size: 14px;">
+            7 天后 →
+        </a>
+    </div>
+</div>
+
+<!-- 日历网格 -->
+<div class="card">
+    <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; text-align: center; padding: 10px 0;">
+        <!-- 星期标题 -->
+        <div style="font-size: 11px; color: #999; padding: 8px;">一</div>
+        <div style="font-size: 11px; color: #999; padding: 8px;">二</div>
+        <div style="font-size: 11px; color: #999; padding: 8px;">三</div>
+        <div style="font-size: 11px; color: #999; padding: 8px;">四</div>
+        <div style="font-size: 11px; color: #999; padding: 8px;">五</div>
+        <div style="font-size: 11px; color: #999; padding: 8px;">六</div>
+        <div style="font-size: 11px; color: #999; padding: 8px;">日</div>
         
-        <!-- 周历导航 -->
-        <div class="calendar-nav">
-            <button onclick="prevMonth()">← 上月</button>
-            <span class="month-label" id="monthLabel">2026年3月</span>
-            <button onclick="nextMonth()">下月 →</button>
+        <!-- 日期（示例：3 月） -->
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">23</div>
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">24</div>
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">25</div>
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">26</div>
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">27</div>
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">28</div>
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">1</div>
+        
+        <div style="font-size: 13px; padding: 12px;">2</div>
+        <div style="font-size: 13px; padding: 12px;">3</div>
+        <div style="font-size: 13px; padding: 12px;">4</div>
+        <div style="font-size: 13px; padding: 12px;">5</div>
+        <div style="font-size: 13px; padding: 12px; background: linear-gradient(135deg, #FF6B35, #ff8f66); color: white; border-radius: 8px; font-weight: bold;">6</div>
+        <div style="font-size: 13px; padding: 12px;">7</div>
+        <div style="font-size: 13px; padding: 12px;">8</div>
+        
+        <div style="font-size: 13px; padding: 12px;">9</div>
+        <div style="font-size: 13px; padding: 12px;">10</div>
+        <div style="font-size: 13px; padding: 12px;">11</div>
+        <div style="font-size: 13px; padding: 12px;">12</div>
+        <div style="font-size: 13px; padding: 12px;">13</div>
+        <div style="font-size: 13px; padding: 12px;">14</div>
+        <div style="font-size: 13px; padding: 12px;">15</div>
+        
+        <div style="font-size: 13px; padding: 12px;">16</div>
+        <div style="font-size: 13px; padding: 12px;">17</div>
+        <div style="font-size: 13px; padding: 12px;">18</div>
+        <div style="font-size: 13px; padding: 12px;">19</div>
+        <div style="font-size: 13px; padding: 12px;">20</div>
+        <div style="font-size: 13px; padding: 12px;">21</div>
+        <div style="font-size: 13px; padding: 12px;">22</div>
+        
+        <div style="font-size: 13px; padding: 12px;">23</div>
+        <div style="font-size: 13px; padding: 12px;">24</div>
+        <div style="font-size: 13px; padding: 12px;">25</div>
+        <div style="font-size: 13px; padding: 12px;">26</div>
+        <div style="font-size: 13px; padding: 12px;">27</div>
+        <div style="font-size: 13px; padding: 12px;">28</div>
+        <div style="font-size: 13px; padding: 12px;">29</div>
+        
+        <div style="font-size: 13px; padding: 12px;">30</div>
+        <div style="font-size: 13px; padding: 12px;">31</div>
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">1</div>
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">2</div>
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">3</div>
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">4</div>
+        <div style="font-size: 12px; color: #ccc; padding: 12px;">5</div>
+    </div>
+    
+    <!-- 图例 -->
+    <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid #f0f0f0; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+        <div style="display: flex; align-items: center; gap: 6px;">
+            <div style="width: 14px; height: 14px; background: linear-gradient(135deg, #FF6B35, #ff8f66); border-radius: 4px;"></div>
+            <span style="font-size: 11px; color: #666;">今日</span>
         </div>
+        <div style="display: flex; align-items: center; gap: 6px;">
+            <div style="width: 14px; height: 14px; background: #e9ecef; border-radius: 4px; border: 2px solid #667eea;"></div>
+            <span style="font-size: 11px; color: #666;">有数据</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 6px;">
+            <div style="width: 14px; height: 14px; background: #f8f9fa; border-radius: 4px;"></div>
+            <span style="font-size: 11px; color: #666;">无数据</span>
+        </div>
+    </div>
+</div>
+
+<!-- 快捷导航 -->
+<div style="margin-top: 20px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;">
+    <a href="index.html" style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 16px; border-radius: 12px; text-decoration: none; text-align: center;">
+        <div style="font-size: 20px; margin-bottom: 6px;">🏠</div>
+        <div style="font-size: 13px; font-weight: 600;">返回主页</div>
+    </a>
+    <a href="today.html" style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; padding: 16px; border-radius: 12px; text-decoration: none; text-align: center;">
+        <div style="font-size: 20px; margin-bottom: 6px;">📰</div>
+        <div style="font-size: 13px; font-weight: 600;">今日详情</div>
+    </a>
+</div>
+
         
-        <!-- 周历表格 -->
-        <table class="calendar">
-            <thead>
-                <tr>
-                    <th>一</th>
-                    <th>二</th>
-                    <th>三</th>
-                    <th>四</th>
-                    <th>五</th>
-                    <th>六</th>
-                    <th>日</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="" onclick="">
-                        <div class="day-number">1</div>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td class="has-data" onclick="window.location.href='archive/2026-03-02.html'">
-                        <div class="day-number">2</div>
-                        <div class="day-count">5家</div>
-                    </td>
-                    <td class="has-data" onclick="window.location.href='archive/2026-03-03.html'">
-                        <div class="day-number">3</div>
-                        <div class="day-count">8家</div>
-                    </td>
-                    <td class="has-data" onclick="window.location.href='archive/2026-03-04.html'">
-                        <div class="day-number">4</div>
-                        <div class="day-count">9家</div>
-                    </td>
-                    <td class="has-data today" onclick="window.location.href='today.html'">
-                        <div class="day-number">5</div>
-                        <div class="day-count">8家</div>
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">6</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">7</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">8</div>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td class="" onclick="">
-                        <div class="day-number">9</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">10</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">11</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">12</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">13</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">14</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">15</div>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td class="" onclick="">
-                        <div class="day-number">16</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">17</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">18</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">19</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">20</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">21</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">22</div>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td class="" onclick="">
-                        <div class="day-number">23</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">24</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">25</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">26</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">27</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">28</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">29</div>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td class="" onclick="">
-                        <div class="day-number">30</div>
-                        
-                    </td>
-                    <td class="" onclick="">
-                        <div class="day-number">31</div>
-                        
-                    </td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="last-update">
+            最后更新：2026-03-06 09:32
+        </div>
         
         <div class="footer">
             <p><strong>—— 寻龙雷达 🐉 | 小贾 🤖</strong></p>
-            <p style="margin-top: 8px; color: #bbb;">点击日期查看当天数据</p>
+            <p>发现杭州未来的"六小龙"</p>
         </div>
     </div>
-    
-    <script>
-        function prevMonth() {
-            alert('上月功能开发中...');
-        }
-        
-        function nextMonth() {
-            alert('下月功能开发中...');
-        }
-    </script>
 </body>
 </html>
