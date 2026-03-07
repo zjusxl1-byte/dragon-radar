@@ -140,32 +140,51 @@
         }
 
         // ============================================
-        // 负面预警卡片组件
+        // 负面预警卡片组件 (全量 10 字段满血版)
         // ============================================
         function renderNegativeCard(item) {
             var company = item.company || '未知企业';
             var title = item.title || '无内容';
             var source = item.source || '未知信源';
             var reason = item.reason || '';
+            var sector = item.sector || '未知赛道';
+            var location = item.location || '未知区域';
+            var link = item.link || '';
+            var articleTitle = item.article_title || item.title || '';
+            var eventDesc = item.event_desc || '';
+            var insight = item.insight || '';
+
+            var cardAction = link ? 'onclick="window.open(\'' + link + '\', \'_blank\')"' : '';
+            var cursorStyle = link ? 'cursor-pointer active:scale-[0.99] active:bg-red-50/50' : '';
             
-            return '<div class="bg-gradient-to-r from-red-50 to-white rounded-2xl p-4 mb-3 border border-red-100 shadow-sm relative overflow-hidden">' +
+            return '<div class="bg-gradient-to-r from-red-50 to-white rounded-2xl p-4 mb-4 border border-red-100 shadow-sm relative overflow-hidden transition-all duration-200 ' + cursorStyle + '" ' + cardAction + '>' +
                 '<div class="absolute -right-4 -top-4 text-6xl opacity-5 pointer-events-none">🚨</div>' +
-                '<div class="flex items-start gap-2.5">' +
+                '<div class="flex items-center gap-2 mb-2.5">' +
                     '<div class="shrink-0 w-8 h-8 bg-red-100 text-red-500 rounded-full flex items-center justify-center text-sm">⚠️</div>' +
-                    '<div class="flex-1">' +
-                        '<h4 class="text-[14px] font-extrabold text-gray-800 leading-snug mb-2">' + title + '</h4>' +
-                        (reason ? '<p class="text-[12px] text-gray-500 mb-2">' + reason + '</p>' : '') +
-                        '<div class="flex items-center justify-between mt-2">' +
-                            '<span class="text-[10px] font-bold text-red-600 bg-red-100/60 px-2 py-0.5 rounded border border-red-100">' + company + '</span>' +
-                            '<span class="text-[10px] text-gray-400">📰 ' + source + '</span>' +
-                        '</div>' +
-                    '</div>' +
+                    '<h3 class="text-[17px] font-extrabold text-gray-800 leading-snug tracking-tight">' + company + '</h3>' +
+                '</div>' +
+                '<div class="flex flex-wrap gap-1.5 mb-3.5 pl-[40px]">' +
+                    '<span class="px-2 py-0.5 text-[10px] font-semibold rounded bg-red-100 text-red-600">风险预警</span>' +
+                    '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495]">' + sector + '</span>' +
+                    '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-gray-50 text-gray-500">📍 ' + location + '</span>' +
+                '</div>' +
+                '<div class="pl-[40px]">' +
+                    (articleTitle ? '<div class="mb-1.5 text-[14px] font-bold text-gray-800 leading-snug border-l-2 border-red-500 pl-2">' + articleTitle + '</div>' : '') +
+                    ((eventDesc || reason) ? '<div class="mb-3.5 text-[12px] text-gray-500 leading-relaxed line-clamp-3">' + (eventDesc || reason) + '</div>' : '') +
+                '</div>' +
+                (insight ? '<div class="ml-[40px] mb-3 p-3 bg-red-50/80 rounded-xl border border-red-100/50 relative overflow-hidden">' +
+                    '<div class="flex items-center gap-1.5 mb-2"><span class="text-[12px]">🛑</span><span class="text-[11px] font-extrabold text-red-700 tracking-wider">小贾风险洞察</span></div>' +
+                    '<p class="text-[12px] text-red-800/90 leading-relaxed">' + insight + '</p>' +
+                '</div>' : '') +
+                '<div class="flex justify-between items-center text-[10px] text-gray-400 mt-2 pl-[40px]">' +
+                    '<span class="flex items-center gap-1 font-medium bg-white px-2 py-0.5 rounded border border-gray-100 shadow-sm">📰 ' + source + '</span>' +
+                    '<span class="font-medium text-red-400">' + (link ? '查看详情 ↗' : '') + '</span>' +
                 '</div>' +
             '</div>';
         }
 
         // ============================================
-        // 企业卡片组件
+        // 发现企业卡片组件 (全量 10 字段满血版)
         // ============================================
         function renderCompanyCard(company, index) {
             var scoreColor = getScoreBadge(company.score || 50);
@@ -227,7 +246,7 @@
         }
 
         // ============================================
-        // 视图渲染器
+        // 视图渲染器 (全视图联动预警)
         // ============================================
         var Views = {
             home: function(data) {
@@ -248,7 +267,6 @@
                         '<div class="flex items-center justify-between mb-3"><div class="flex items-center gap-1.5"><span class="text-lg">📅</span><span class="text-sm font-medium opacity-90">今日情报</span></div><div class="text-sm font-bold bg-white/20 px-2 py-0.5 rounded-md">' + data.today + '</div></div>' +
                         '<div class="grid grid-cols-3 gap-4 mt-4">' +
                             '<div class="text-center"><div class="text-3xl font-black">' + todaySummary.total_companies + '</div><div class="text-[11px] font-medium opacity-80 mt-1">发现企业</div></div>' +
-                            // 动态凸显负面预警的数字和图标
                             '<div class="text-center"><div class="text-3xl font-black ' + (negCount > 0 ? 'text-red-100' : '') + '">' + negCount + '</div><div class="text-[11px] font-medium opacity-80 mt-1 flex items-center justify-center gap-0.5">' + (negCount > 0 ? '🚨 ' : '') + '负面预警</div></div>' +
                             '<div class="text-center"><div class="text-3xl font-black">' + todaySummary.financing_count + '</div><div class="text-[11px] font-medium opacity-80 mt-1">融资/IPO</div></div>' +
                         '</div>' +
@@ -316,7 +334,7 @@
                         type: 'day', day: day, date: dateStr,
                         hasData: !!dateInfo, count: dateInfo ? dateInfo.count : 0,
                         hasHighScore: dateInfo ? dateInfo.has_high_score : false,
-                        negativeCount: dateInfo ? (dateInfo.negative_count || 0) : 0, // 新增读取预警数据
+                        negativeCount: dateInfo ? (dateInfo.negative_count || 0) : 0,
                         isToday: dateStr === today
                     });
                 }
@@ -338,7 +356,6 @@
                             if (cell.type === 'empty') return '<div class="aspect-square"></div>';
                             var cellClass = 'relative aspect-square rounded-xl flex flex-col items-center justify-center text-sm transition-all active:scale-[0.85] ';
                             
-                            // 负面预警红点标记
                             var negativeBadge = cell.negativeCount > 0 ? '<span class="absolute top-[3px] right-[3px] flex h-1.5 w-1.5"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span><span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-red-500"></span></span>' : '';
                             
                             if (cell.isToday) cellClass += 'bg-gradient-to-br from-orange-400 to-orange-500 text-white font-bold shadow-sm ';
@@ -353,7 +370,6 @@
                         }).join('') + '</div>' +
                     '</div>' +
                     
-                    // 日历底部小图例
                     '<div class="flex items-center gap-3 px-1 mb-5"><span class="flex items-center gap-1 text-[10px] text-gray-400"><span class="w-1.5 h-1.5 rounded-full bg-red-500 shadow-[0_0_2px_rgba(239,68,68,0.8)]"></span> 含有风险预警</span><span class="flex items-center gap-1 text-[10px] text-gray-400"><span class="w-2 h-2 rounded bg-red-50 border border-red-200"></span> 包含高分企业</span></div>' +
                     
                     '<div class="grid grid-cols-2 gap-3 mb-4">' +
@@ -369,7 +385,6 @@
                 var topSectors = weekSummary.top_sectors || [];
                 var colors = ['from-red-400 to-orange-500', 'from-blue-400 to-cyan-500', 'from-green-400 to-emerald-500'];
                 
-                // 尝试读取周报里的负面数据，如果没有则兼容显示 0
                 var weeklyNegCount = weekSummary.negative_count || 0;
                 
                 return '<div class="animate-fade-in">' +
@@ -381,7 +396,6 @@
                             '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + weekSummary.total_companies + '</div><div class="text-[10px] opacity-80 mt-1">发现企业</div></div>' +
                             '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + (weekSummary.financing_count + weekSummary.ipo_count) + '</div><div class="text-[10px] opacity-80 mt-1">融资/IPO</div></div>' +
                             '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + topSectors.length + '</div><div class="text-[10px] opacity-80 mt-1">活跃赛道</div></div>' +
-                            // 周报模块替换为非常重要的“风险预警”
                             '<div class="flex flex-col items-center"><div class="text-2xl font-black ' + (weeklyNegCount > 0 ? 'text-red-200' : '') + '">' + weeklyNegCount + '</div><div class="text-[10px] opacity-80 mt-1 flex items-center gap-0.5">' + (weeklyNegCount > 0 ? '🚨 ' : '') + '风险预警</div></div>' +
                         '</div>' +
                     '</div>' +
@@ -504,7 +518,7 @@
         }
 
         // ============================================
-        // 核心升级：包含修正所有关联面板历史预警数据的自愈机制
+        // 核心应用初始化及数据自愈机制
         // ============================================
         function initApp() {
             var appContent = document.getElementById('app-content');
@@ -528,7 +542,6 @@
                             }
                             var sorted = targets.slice().sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
                             
-                            // 修复主页汇总数据
                             window.RadarData.manifest.summary.today = {
                                 date: manifestData.today,
                                 total_companies: targets.length,
@@ -537,7 +550,6 @@
                                 top3: sorted.slice(0, 3)
                             };
                             
-                            // 修复横幅
                             if (window.RadarData.manifest.recent_updates && window.RadarData.manifest.recent_updates.length > 0) {
                                 if (window.RadarData.manifest.recent_updates[0].title.indexOf('0') !== -1) {
                                     window.RadarData.manifest.recent_updates[0] = {
@@ -547,7 +559,6 @@
                                 }
                             }
                             
-                            // 修复或追加日历数据，注入 negative_count 字段
                             var targetDateObj = null;
                             window.RadarData.manifest.available_dates = window.RadarData.manifest.available_dates || [];
                             for(var j=0; j<window.RadarData.manifest.available_dates.length; j++) {
@@ -561,14 +572,14 @@
                                 targetDateObj.count = targets.length;
                                 targetDateObj.has_high_score = sorted[0] && sorted[0].score >= 80;
                                 targetDateObj.max_score = sorted[0] ? sorted[0].score : 0;
-                                targetDateObj.negative_count = negatives.length; // 强势插入预警数据
+                                targetDateObj.negative_count = negatives.length; 
                             } else {
                                 window.RadarData.manifest.available_dates.push({
                                     date: manifestData.today,
                                     count: targets.length,
                                     has_high_score: sorted[0] && sorted[0].score >= 80,
                                     max_score: sorted[0] ? sorted[0].score : 0,
-                                    negative_count: negatives.length, // 追加预警数据
+                                    negative_count: negatives.length, 
                                     week_id: manifestData.current_week || ''
                                 });
                             }
