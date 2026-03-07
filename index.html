@@ -140,7 +140,7 @@
         }
 
         // ============================================
-        // 负面预警卡片组件 (全量 10 字段满血版)
+        // 负面预警卡片组件 (包含日期展示)
         // ============================================
         function renderNegativeCard(item) {
             var company = item.company || '未知企业';
@@ -153,6 +153,7 @@
             var articleTitle = item.article_title || item.title || '';
             var eventDesc = item.event_desc || '';
             var insight = item.insight || '';
+            var date = item.date || ''; // 新增读取日期字段
 
             var cardAction = link ? 'onclick="window.open(\'' + link + '\', \'_blank\')"' : '';
             var cursorStyle = link ? 'cursor-pointer active:scale-[0.99] active:bg-red-50/50' : '';
@@ -177,14 +178,17 @@
                     '<p class="text-[12px] text-red-800/90 leading-relaxed">' + insight + '</p>' +
                 '</div>' : '') +
                 '<div class="flex justify-between items-center text-[10px] text-gray-400 mt-2 pl-[40px]">' +
-                    '<span class="flex items-center gap-1 font-medium bg-white px-2 py-0.5 rounded border border-gray-100 shadow-sm">📰 ' + source + '</span>' +
+                    '<div class="flex items-center gap-1.5">' +
+                        '<span class="flex items-center gap-1 font-medium bg-white px-2 py-0.5 rounded border border-gray-100 shadow-sm">📰 ' + source + '</span>' +
+                        (date ? '<span class="text-gray-400 font-medium">· ' + formatDate(date) + '</span>' : '') +
+                    '</div>' +
                     '<span class="font-medium text-red-400">' + (link ? '查看详情 ↗' : '') + '</span>' +
                 '</div>' +
             '</div>';
         }
 
         // ============================================
-        // 发现企业卡片组件 (全量 10 字段满血版)
+        // 发现企业卡片组件
         // ============================================
         function renderCompanyCard(company, index) {
             var scoreColor = getScoreBadge(company.score || 50);
@@ -246,7 +250,7 @@
         }
 
         // ============================================
-        // 视图渲染器 (全视图联动预警)
+        // 视图渲染器
         // ============================================
         var Views = {
             home: function(data) {
@@ -322,7 +326,21 @@
                 
                 var dateMap = {};
                 for (var i = 0; i < availableDates.length; i++) {
-                    dateMap[availableDates[i].date] = availableDates[i];
+                    // 深拷贝避免多次渲染污染原始数据
+                    dateMap[availableDates[i].date] = JSON.parse(JSON.stringify(availableDates[i])); 
+                }
+                
+                // 🔴 智能回填补丁：由于后端未将 negative_count 写入 historical available_dates
+                // 这里利用 weekly_negatives 自动点亮曾经发生过风险事件的日历红点
+                var weeklyNegatives = data.weekly_negatives || [];
+                for (var n = 0; n < weeklyNegatives.length; n++) {
+                    var negDate = weeklyNegatives[n].date;
+                    if (negDate) {
+                        if (!dateMap[negDate]) {
+                            dateMap[negDate] = { date: negDate, count: 0, hasData: true, negative_count: 0 };
+                        }
+                        dateMap[negDate].negative_count = (dateMap[negDate].negative_count || 0) + 1;
+                    }
                 }
                 
                 var calendarDays = [];
@@ -385,7 +403,9 @@
                 var topSectors = weekSummary.top_sectors || [];
                 var colors = ['from-red-400 to-orange-500', 'from-blue-400 to-cyan-500', 'from-green-400 to-emerald-500'];
                 
-                var weeklyNegCount = weekSummary.negative_count || 0;
+                // 🔴 新增提取本周预警数据，作为统计和列表渲染的依据
+                var weeklyNegatives = data.weekly_negatives || [];
+                var weeklyNegCount = weekSummary.negative_count !== undefined ? weekSummary.negative_count : weeklyNegatives.length;
                 
                 return '<div class="animate-fade-in">' +
                     '<div class="mb-4 px-1"><h2 class="text-xl font-extrabold text-gray-800 tracking-tight">📊 周期财报</h2><p class="text-[11px] text-gray-500 font-medium mt-0.5">档案号: ' + weekSummary.week_id + '</p></div>' +
@@ -396,9 +416,15 @@
                             '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + weekSummary.total_companies + '</div><div class="text-[10px] opacity-80 mt-1">发现企业</div></div>' +
                             '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + (weekSummary.financing_count + weekSummary.ipo_count) + '</div><div class="text-[10px] opacity-80 mt-1">融资/IPO</div></div>' +
                             '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + topSectors.length + '</div><div class="text-[10px] opacity-80 mt-1">活跃赛道</div></div>' +
+                            // 替换原来的冲刺IPO，变为风险预警统计
                             '<div class="flex flex-col items-center"><div class="text-2xl font-black ' + (weeklyNegCount > 0 ? 'text-red-200' : '') + '">' + weeklyNegCount + '</div><div class="text-[10px] opacity-80 mt-1 flex items-center gap-0.5">' + (weeklyNegCount > 0 ? '🚨 ' : '') + '风险预警</div></div>' +
                         '</div>' +
                     '</div>' +
+                    
+                    // 🔴 修复：将周报内的预警列表渲染出来，置顶于排行榜之前
+                    (weeklyNegatives.length > 0 ? '<div class="mb-6"><div class="flex items-center justify-between mb-3 px-1"><h3 class="text-base font-extrabold text-red-600 tracking-tight flex items-center gap-1.5">🚨 本周风险与负面预警</h3></div><div class="space-y-3">' +
+                        weeklyNegatives.map(function(item) { return renderNegativeCard(item); }).join('') +
+                    '</div></div>' : '') +
                     
                     (topSectors.length > 0 ? '<div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-5"><h3 class="text-[13px] font-extrabold text-gray-800 mb-4 flex items-center gap-1.5"><span class="text-base">🏷️</span> 活跃赛道</h3><div class="space-y-3.5">' +
                         topSectors.map(function(sector, index) {
