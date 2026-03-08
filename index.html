@@ -44,16 +44,15 @@
         .nav-item svg { transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1); stroke-width: 1.8; }
         .nav-item.active svg { transform: scale(1.15); stroke-width: 2.5; }
         
-        /* 🚀 目标定位：丝滑降落与呼吸光环 */
+        /* 🚀 目标定位高亮降落动画 */
         .target-highlight {
             box-shadow: 0 0 0 2px #667eea, 0 8px 25px -5px rgba(102, 126, 234, 0.3) !important;
             border-color: #667eea !important;
-            background-color: #F8FAFF !important;
+            background-color: #FAFAFF !important;
             transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
             z-index: 10;
         }
         
-        /* 保证平滑滚动时顶部留出呼吸空间 */
         .scroll-margin {
             scroll-margin-top: 80px;
             scroll-margin-bottom: 80px;
@@ -150,7 +149,8 @@
                 'IPO': 'bg-amber-50 text-amber-600 border border-amber-100',
                 '搬迁': 'bg-cyan-50 text-cyan-600 border border-cyan-100',
                 '扩张': 'bg-emerald-50 text-emerald-600 border border-emerald-100',
-                '其他': 'bg-purple-50 text-purple-600 border border-purple-100'
+                '其他': 'bg-purple-50 text-purple-600 border border-purple-100',
+                '负面': 'bg-red-50 text-red-600 border border-red-100'
             };
             return styles[eventType] || 'bg-gray-100 text-gray-500 border border-gray-200';
         }
@@ -186,7 +186,7 @@
                 '人工智能与算力': ['人工智能', 'AI', '算力', '模型', '数据', '算法'],
                 '医疗与生命科学': ['医疗', '医药', '生物', '脑机', '基因', '神经', '健康', '器械'],
                 '机器人与自动驾驶': ['机器', '具身', '自动驾驶', '无人', '飞行', '汽车'],
-                '先进制造与新材料': ['制造', '半导体', '芯片', '材料', '化工', '硬件', '船舶', '电气'],
+                '先进制造与新材料': ['制造', '半导体', '芯片', '材料', '化工', '硬件', '船舶', '电气', '装备'],
                 '新能源与双碳': ['新能源', '能源', '碳', '电池', '光伏', '储能'],
                 '新消费与泛互娱': ['消费', '文创', '游戏', '电商', '社交', '文化', '艺术', '潮玩', '影视', '出海', '演出']
             };
@@ -221,19 +221,46 @@
             sorted.sort(function(a, b) { return b.count - a.count; });
             return sorted; 
         }
+        
+        // 🧩 提取通用元数据面板 HTML (解决硬数据与软文本混排的视觉疲劳)
+        function buildMetaDataHtml(item) {
+            var financing = item.financing_info || item.financing || '';
+            var metaItems = [];
+            
+            // 严格过滤无用信息
+            var skipWords = ['无相关信息', '未披露', '-', '未提及'];
+            
+            if (financing && skipWords.indexOf(financing) === -1) {
+                metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">资本动作</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + financing + '</span></div>');
+            }
+            if (item.core_tech && skipWords.indexOf(item.core_tech) === -1) {
+                metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">核心技术</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + item.core_tech + '</span></div>');
+            }
+            if (item.official_evaluation && skipWords.indexOf(item.official_evaluation) === -1) {
+                metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">官方认定</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + item.official_evaluation + '</span></div>');
+            }
+            if (item.founder_info && skipWords.indexOf(item.founder_info) === -1) {
+                metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">创始人</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + item.founder_info + '</span></div>');
+            }
+
+            if (metaItems.length > 0) {
+                return '<div class="bg-gray-50/70 rounded-xl p-3 mb-3.5 space-y-2 border border-gray-100 text-[12px]">' + metaItems.join('') + '</div>';
+            }
+            return '';
+        }
 
         // ============================================
         // 🚨 负面预警卡片组件
         // ============================================
         function renderNegativeCard(item, isCompact) {
-            var company = item.company || '未知企业';
+            var company = item.company_name || item.company || '未知企业';
             var title = item.title || '无内容';
             var source = item.source || '未知信源';
             var reason = item.reason || '';
             var sector = item.sector || '未知赛道';
             var location = item.location || '未知区域';
             var link = item.link || '';
-            var articleTitle = item.article_title || item.title || '';
+            var articleTitle = item.event_description || item.article_title || item.title || '';
             var eventDesc = item.event_desc || '';
             var insight = item.insight || '';
             var date = item.date || window.RadarData.manifest.today;
@@ -256,6 +283,8 @@
                     '</div>' +
                 '</div>';
             }
+            
+            var metaHtml = buildMetaDataHtml(item);
 
             return '<div id="' + targetId + '" class="scroll-margin bg-gradient-to-br from-red-50 to-white rounded-2xl p-4 mb-4 border border-red-100 shadow-sm relative overflow-hidden transition-all duration-500">' +
                 '<div class="absolute -right-4 -top-4 text-6xl opacity-5 pointer-events-none">🚨</div>' +
@@ -270,14 +299,18 @@
                     '<span class="px-2 py-0.5 text-[10px] font-semibold rounded bg-red-100 text-red-600 border border-red-200">风险预警</span>' +
                     '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495]">' + sector + '</span>' +
                 '</div>' +
-                '<div>' +
-                    (articleTitle ? '<div class="mb-2 text-[14px] font-bold text-gray-800 leading-snug border-l-[3px] border-red-500 pl-2">' + articleTitle + '</div>' : '') +
-                    ((eventDesc || reason) ? '<div class="mb-3.5 text-[13px] text-gray-600 leading-relaxed text-justify">' + (eventDesc || reason) + '</div>' : '') +
-                '</div>' +
+                
+                (articleTitle ? '<div class="mb-2 text-[14px] font-bold text-gray-800 leading-snug border-l-[3px] border-red-500 pl-2">' + articleTitle + '</div>' : '') +
+                
+                metaHtml + 
+                
+                ((eventDesc || reason) ? '<div class="mb-3 text-[13px] text-gray-600 leading-relaxed text-justify">' + (eventDesc || reason) + '</div>' : '') +
+                
                 (insight ? '<div class="mb-3 p-3 bg-red-50/80 rounded-xl border border-red-100/50">' +
                     '<div class="flex items-center gap-1.5 mb-1.5"><span class="text-[12px]">🛑</span><span class="text-[11px] font-extrabold text-red-700 tracking-wider">小贾风险洞察</span></div>' +
                     '<p class="text-[12px] text-red-800/90 leading-relaxed text-justify">' + insight + '</p>' +
                 '</div>' : '') +
+                
                 '<div class="flex items-center gap-2 mt-4 pt-3 border-t border-red-100/60">' +
                     '<button onclick="window.open(\'' + aiqichaUrl + '\', \'_blank\')" class="flex-1 py-2.5 bg-white text-red-600 border border-red-200 rounded-xl text-xs font-bold active:bg-red-50 transition-colors flex items-center justify-center gap-1"><span>🏢</span><span>查企业</span></button>' +
                     (link ? '<button onclick="window.open(\'' + link + '\', \'_blank\')" class="flex-1 py-2.5 bg-red-500 text-white rounded-xl text-xs font-bold active:bg-red-600 transition-colors flex items-center justify-center gap-1"><span>📰</span><span>阅读原文</span></button>' : '') +
@@ -289,14 +322,15 @@
         // 🟢 发现企业卡片组件
         // ============================================
         function renderCompanyCard(company, index, isCompact) {
+            // 兼容各种神仙命名
+            var companyName = company.company_name || company.company || '未知企业';
             var scoreColor = getScoreBadge(company.score || 50);
-            var eventStyle = getEventTagStyle(company.event_type);
-            var companyName = company.company || '未知企业';
+            var eventType = company.event_type || '其他';
+            var eventStyle = getEventTagStyle(eventType);
             var sector = company.sector || '未知赛道';
             var location = company.location || '未知区域';
-            var financing = company.financing || '';
             var source = company.source || '未知信源';
-            var articleTitle = company.article_title || company.title || '';
+            var articleTitle = company.event_description || company.article_title || company.title || '';
             var eventDesc = company.event_desc || '';
             var insight = company.insight || company.summary || ''; 
             var link = company.link || '';
@@ -313,7 +347,7 @@
                         '<div class="flex-1 min-w-0">' + 
                             '<h3 class="text-[14px] font-bold text-gray-800 leading-snug truncate">' + companyName + '</h3>' +
                             '<div class="flex items-center gap-1.5 mt-1.5">' +
-                                (company.event_type ? '<span class="px-1.5 py-0.5 text-[9px] font-semibold rounded ' + eventStyle + '">' + company.event_type + '</span>' : '') +
+                                (eventType ? '<span class="px-1.5 py-0.5 text-[9px] font-semibold rounded ' + eventStyle + '">' + eventType + '</span>' : '') +
                                 '<span class="text-[10px] text-gray-500 truncate">' + sector + '</span>' +
                             '</div>' +
                         '</div>' +
@@ -330,11 +364,8 @@
                 rankBadge = '<div class="absolute -top-2.5 -left-2.5 w-7 h-7 rounded-full ' + scoreColor + ' flex items-center justify-center text-xs font-black shadow-sm border-2 border-white">' + index + '</div>';
             }
             
-            // 💡 融资信息去框化，行内排版，零缩进
-            var financingHtml = '';
-            if (financing && financing !== '-' && financing !== '未提及') {
-                financingHtml = '<div class="mb-3.5 text-[12px] text-gray-700 leading-relaxed"><span class="font-bold text-[#FF6B35]">💰 资本动作：</span>' + financing + '</div>';
-            }
+            // 💡 提取结构化元数据块
+            var metaHtml = buildMetaDataHtml(company);
 
             return '<div id="' + targetId + '" class="scroll-margin relative bg-white rounded-2xl shadow-[0_2px_12px_-4px_rgba(6,81,237,0.08)] border border-gray-100/50 p-4 mb-5 transition-all duration-500">' +
                 rankBadge +
@@ -348,13 +379,14 @@
                     '</div>' +
                 '</div>' +
                 '<div class="flex flex-wrap gap-1.5 mb-3.5">' +
-                    (company.event_type ? '<span class="px-2 py-0.5 text-[10px] font-semibold rounded ' + eventStyle + '">' + company.event_type + '</span>' : '') +
+                    (eventType ? '<span class="px-2 py-0.5 text-[10px] font-semibold rounded ' + eventStyle + '">' + eventType + '</span>' : '') +
                     '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495]">' + sector + '</span>' +
                     '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-gray-50 text-gray-500">📍 ' + location + '</span>' +
                 '</div>' +
-                (articleTitle ? '<div class="mb-2.5 text-[14px] font-bold text-gray-800 leading-snug border-l-[3px] border-primary pl-2">' + articleTitle + '</div>' : '') +
                 
-                financingHtml + 
+                (articleTitle ? '<div class="mb-3 text-[14px] font-bold text-gray-800 leading-snug border-l-[3px] border-primary pl-2">' + articleTitle + '</div>' : '') +
+                
+                metaHtml + 
                 
                 (eventDesc ? '<div class="mb-3.5 text-[13px] text-gray-600 leading-relaxed text-justify">' + eventDesc + '</div>' : '') +
                 
@@ -553,7 +585,7 @@
                 }
                 
                 var weeklyNegCount = isIndependent 
-                    ? (data.summary && data.summary.negative_events !== undefined ? data.summary.negative_events : weeklyNegatives.length)
+                    ? (data.summary.negative_events !== undefined ? data.summary.negative_events : weeklyNegatives.length)
                     : (data.summary && data.summary.week && data.summary.week.negative_count !== undefined ? data.summary.week.negative_count : weeklyNegatives.length);
                 
                 var weekOptions = generateWeekOptions(availableWeeks, weekId);
@@ -702,22 +734,18 @@
                     loadDailyData(targetDate).then(function(dailyData) {
                         appContent.innerHTML = Views.today(dailyData, targetDate);
                         
-                        // 🎯 终极精确制导：延迟确保 DOM 完全撑开后再滚动
                         if (params.target) {
                             setTimeout(function() {
                                 var targetEl = document.getElementById(params.target);
                                 if (targetEl) {
-                                    // 使用原生极简的方法：平滑居中显示，无视顶部导航栏遮挡
                                     targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                                     
                                     targetEl.classList.add('target-highlight');
                                     setTimeout(function() {
                                         targetEl.classList.remove('target-highlight');
-                                    }, 2500); // 呼吸光环维持 2.5 秒
-                                } else {
-                                    console.warn('雷达制导未发现目标企业 ID:', params.target);
+                                    }, 2000);
                                 }
-                            }, 200); // 延迟 200ms 等待图片等资源推开高度
+                            }, 300);
                         }
                     }).catch(function(error) {
                         appContent.innerHTML = Views.error(error.message);
