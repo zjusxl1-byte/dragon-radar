@@ -81,8 +81,8 @@
         </div>
         
         <footer class="text-center py-8 text-gray-400 text-[10px]">
-            <p>小贾 🤖 提供数据洞察支持</p>
-            <p class="mt-1 opacity-60">杭州专精特新企业培育系统</p>
+            <p>小贾 🤖 提供智能洞察支持</p>
+            <p class="mt-1 opacity-60">企业前沿动向监控网络</p>
         </footer>
     </main>
 
@@ -142,6 +142,7 @@
             return 'bg-gray-300 text-gray-600';
         }
 
+        // 🌟 扩充七彩业务光谱 (Event Palette)
         function getEventTagStyle(eventType) {
             if (!eventType) return 'bg-gray-100 text-gray-500';
             var styles = {
@@ -149,7 +150,11 @@
                 'IPO': 'bg-amber-50 text-amber-600 border border-amber-100',
                 '搬迁': 'bg-cyan-50 text-cyan-600 border border-cyan-100',
                 '扩张': 'bg-emerald-50 text-emerald-600 border border-emerald-100',
-                '其他': 'bg-purple-50 text-purple-600 border border-purple-100',
+                '技术突破': 'bg-indigo-50 text-indigo-600 border border-indigo-100',
+                '重磅发布': 'bg-violet-50 text-violet-600 border border-violet-100',
+                '战略合作': 'bg-blue-50 text-blue-600 border border-blue-100',
+                '并购': 'bg-fuchsia-50 text-fuchsia-600 border border-fuchsia-100',
+                '资质获批': 'bg-teal-50 text-teal-600 border border-teal-100',
                 '负面': 'bg-red-50 text-red-600 border border-red-100'
             };
             return styles[eventType] || 'bg-gray-100 text-gray-500 border border-gray-200';
@@ -222,29 +227,28 @@
             return sorted; 
         }
         
-        // 🧩 提取通用元数据面板 HTML (解决硬数据与软文本混排的视觉疲劳)
+        // 🧩 提取通用元数据面板 HTML
         function buildMetaDataHtml(item) {
             var financing = item.financing_info || item.financing || '';
             var metaItems = [];
             
-            // 严格过滤无用信息
-            var skipWords = ['无相关信息', '未披露', '-', '未提及'];
+            var skipWords = ['无相关信息', '未披露', '-', '未提及', 'null', ''];
             
-            if (financing && skipWords.indexOf(financing) === -1) {
+            if (financing && skipWords.indexOf(String(financing).trim()) === -1) {
                 metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">资本动作</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + financing + '</span></div>');
             }
-            if (item.core_tech && skipWords.indexOf(item.core_tech) === -1) {
+            if (item.core_tech && skipWords.indexOf(String(item.core_tech).trim()) === -1) {
                 metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">核心技术</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + item.core_tech + '</span></div>');
             }
-            if (item.official_evaluation && skipWords.indexOf(item.official_evaluation) === -1) {
+            if (item.official_evaluation && skipWords.indexOf(String(item.official_evaluation).trim()) === -1) {
                 metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">官方认定</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + item.official_evaluation + '</span></div>');
             }
-            if (item.founder_info && skipWords.indexOf(item.founder_info) === -1) {
+            if (item.founder_info && skipWords.indexOf(String(item.founder_info).trim()) === -1) {
                 metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">创始人</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + item.founder_info + '</span></div>');
             }
 
             if (metaItems.length > 0) {
-                return '<div class="bg-gray-50/70 rounded-xl p-3 mb-3.5 space-y-2 border border-gray-100 text-[12px]">' + metaItems.join('') + '</div>';
+                return '<div class="bg-gray-50/80 rounded-xl p-3 mb-3.5 space-y-2 border border-gray-100/80 text-[12px]">' + metaItems.join('') + '</div>';
             }
             return '';
         }
@@ -258,7 +262,7 @@
             var source = item.source || '未知信源';
             var reason = item.reason || '';
             var sector = item.sector || '未知赛道';
-            var location = item.location || '未知区域';
+            var location = item.location || '';
             var link = item.link || '';
             var articleTitle = item.event_description || item.article_title || item.title || '';
             var eventDesc = item.event_desc || '';
@@ -268,6 +272,15 @@
             var aiqichaUrl = 'https://aiqicha.baidu.com/s?q=' + encodeURIComponent(company);
             var targetId = generateSafeId(company);
 
+            // 智能地址渲染
+            var locationHtml = (location && location.trim() !== '' && location !== '-' && location !== '未提及') 
+                ? '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-gray-50 text-gray-500">📍 ' + location + '</span>' : '';
+                
+            // 紫金标杆渲染
+            var isNationalStar = item.is_national_star === true;
+            var starHtml = isNationalStar ? '<span class="px-2 py-0.5 text-[10px] font-bold rounded bg-gradient-to-r from-purple-500 to-indigo-500 text-white shadow-[0_2px_4px_rgba(168,85,247,0.3)] border border-purple-400">🌐 全国标杆</span>' : '';
+            var compactStarHtml = isNationalStar ? '<span class="px-1.5 py-0.5 text-[9px] font-bold rounded bg-gradient-to-r from-purple-500 to-indigo-500 text-white shadow-sm">🌐标杆</span>' : '';
+
             if (isCompact) {
                 var cardClick = 'onclick="Router.navigate(\'/today?date=' + date + '&target=' + targetId + '\')"';
                 return '<div class="bg-red-50 rounded-xl p-3 mb-2.5 border border-red-100 shadow-sm relative overflow-hidden transition-all active:scale-[0.98] cursor-pointer" ' + cardClick + '>' +
@@ -275,7 +288,7 @@
                         '<div class="flex items-center gap-2 min-w-0 flex-1">' +
                             '<div class="shrink-0 w-6 h-6 bg-red-100 text-red-500 rounded-full flex items-center justify-center text-[10px]">⚠️</div>' +
                             '<div class="min-w-0 flex-1">' +
-                                '<h3 class="text-[14px] font-bold text-red-800 leading-snug truncate">' + company + '</h3>' +
+                                '<div class="flex items-center gap-1.5"><h3 class="text-[14px] font-bold text-red-800 leading-snug truncate">' + company + '</h3>' + compactStarHtml + '</div>' +
                                 '<div class="text-[10px] text-red-500 truncate mt-0.5">' + (articleTitle || title || '检测到风险事件') + '</div>' +
                             '</div>' +
                         '</div>' +
@@ -296,8 +309,10 @@
                     '</div>' +
                 '</div>' +
                 '<div class="flex flex-wrap gap-1.5 mb-3.5">' +
+                    starHtml +
                     '<span class="px-2 py-0.5 text-[10px] font-semibold rounded bg-red-100 text-red-600 border border-red-200">风险预警</span>' +
                     '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495]">' + sector + '</span>' +
+                    locationHtml +
                 '</div>' +
                 
                 (articleTitle ? '<div class="mb-2 text-[14px] font-bold text-gray-800 leading-snug border-l-[3px] border-red-500 pl-2">' + articleTitle + '</div>' : '') +
@@ -322,13 +337,12 @@
         // 🟢 发现企业卡片组件
         // ============================================
         function renderCompanyCard(company, index, isCompact) {
-            // 兼容各种神仙命名
             var companyName = company.company_name || company.company || '未知企业';
             var scoreColor = getScoreBadge(company.score || 50);
             var eventType = company.event_type || '其他';
             var eventStyle = getEventTagStyle(eventType);
             var sector = company.sector || '未知赛道';
-            var location = company.location || '未知区域';
+            var location = company.location || '';
             var source = company.source || '未知信源';
             var articleTitle = company.event_description || company.article_title || company.title || '';
             var eventDesc = company.event_desc || '';
@@ -338,6 +352,13 @@
             
             var aiqichaUrl = 'https://aiqicha.baidu.com/s?q=' + encodeURIComponent(companyName);
             var targetId = generateSafeId(companyName);
+            
+            var locationHtml = (location && location.trim() !== '' && location !== '-' && location !== '未提及') 
+                ? '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-gray-50 text-gray-500">📍 ' + location + '</span>' : '';
+                
+            var isNationalStar = company.is_national_star === true;
+            var starHtml = isNationalStar ? '<span class="px-2 py-0.5 text-[10px] font-bold rounded bg-gradient-to-r from-purple-500 to-indigo-500 text-white shadow-[0_2px_4px_rgba(168,85,247,0.3)] border border-purple-400">🌐 全国标杆</span>' : '';
+            var compactStarHtml = isNationalStar ? '<span class="px-1.5 py-0.5 text-[9px] font-bold rounded bg-gradient-to-r from-purple-500 to-indigo-500 text-white shadow-sm">🌐标杆</span>' : '';
 
             if (isCompact) {
                 var cardClick = 'onclick="Router.navigate(\'/today?date=' + date + '&target=' + targetId + '\')"';
@@ -347,6 +368,7 @@
                         '<div class="flex-1 min-w-0">' + 
                             '<h3 class="text-[14px] font-bold text-gray-800 leading-snug truncate">' + companyName + '</h3>' +
                             '<div class="flex items-center gap-1.5 mt-1.5">' +
+                                compactStarHtml +
                                 (eventType ? '<span class="px-1.5 py-0.5 text-[9px] font-semibold rounded ' + eventStyle + '">' + eventType + '</span>' : '') +
                                 '<span class="text-[10px] text-gray-500 truncate">' + sector + '</span>' +
                             '</div>' +
@@ -364,7 +386,6 @@
                 rankBadge = '<div class="absolute -top-2.5 -left-2.5 w-7 h-7 rounded-full ' + scoreColor + ' flex items-center justify-center text-xs font-black shadow-sm border-2 border-white">' + index + '</div>';
             }
             
-            // 💡 提取结构化元数据块
             var metaHtml = buildMetaDataHtml(company);
 
             return '<div id="' + targetId + '" class="scroll-margin relative bg-white rounded-2xl shadow-[0_2px_12px_-4px_rgba(6,81,237,0.08)] border border-gray-100/50 p-4 mb-5 transition-all duration-500">' +
@@ -379,9 +400,10 @@
                     '</div>' +
                 '</div>' +
                 '<div class="flex flex-wrap gap-1.5 mb-3.5">' +
+                    starHtml +
                     (eventType ? '<span class="px-2 py-0.5 text-[10px] font-semibold rounded ' + eventStyle + '">' + eventType + '</span>' : '') +
                     '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495]">' + sector + '</span>' +
-                    '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-gray-50 text-gray-500">📍 ' + location + '</span>' +
+                    locationHtml +
                 '</div>' +
                 
                 (articleTitle ? '<div class="mb-3 text-[14px] font-bold text-gray-800 leading-snug border-l-[3px] border-primary pl-2">' + articleTitle + '</div>' : '') +
@@ -426,14 +448,16 @@
                         '</div>';
                 }
                 
+                // 🌟 新增：主页顶部看板 4 栏黄金均分排版
                 return '<div class="animate-fade-in">' +
                     updateHtml +
                     '<div class="bg-gradient-to-br from-[#FF6B35] to-[#FF8C61] rounded-2xl p-5 text-white mb-6 shadow-md">' +
-                        '<div class="flex items-center justify-between mb-4"><div class="flex items-center gap-1.5"><span class="text-lg">⚡️</span><span class="text-sm font-extrabold tracking-wide">最新雷达快报</span></div><div class="text-[11px] font-bold bg-white/20 px-2.5 py-1 rounded-md">' + data.today + '</div></div>' +
-                        '<div class="grid grid-cols-3 gap-4">' +
-                            '<div class="text-center"><div class="text-3xl font-black">' + todaySummary.total_companies + '</div><div class="text-[11px] font-medium opacity-80 mt-1">发现企业</div></div>' +
-                            '<div class="text-center"><div class="text-3xl font-black ' + (negCount > 0 ? 'text-red-100' : '') + '">' + negCount + '</div><div class="text-[11px] font-medium opacity-80 mt-1 flex items-center justify-center gap-0.5">' + (negCount > 0 ? '🚨 ' : '') + '风险预警</div></div>' +
-                            '<div class="text-center"><div class="text-3xl font-black">' + todaySummary.financing_count + '</div><div class="text-[11px] font-medium opacity-80 mt-1">融资/IPO</div></div>' +
+                        '<div class="flex items-center justify-between mb-5"><div class="flex items-center gap-1.5"><span class="text-lg">⚡️</span><span class="text-sm font-extrabold tracking-wide">最新雷达快报</span></div><div class="text-[11px] font-bold bg-white/20 px-2.5 py-1 rounded-md">' + data.today + '</div></div>' +
+                        '<div class="flex justify-between items-center px-1">' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + todaySummary.total_companies + '</div><div class="text-[10px] font-medium opacity-90 mt-1.5">发现企业</div></div>' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black text-yellow-100">' + (todaySummary.milestone_count || 0) + '</div><div class="text-[10px] font-bold opacity-100 mt-1.5">重大突破</div></div>' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + todaySummary.financing_count + '</div><div class="text-[10px] font-medium opacity-90 mt-1.5">融资/IPO</div></div>' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black ' + (negCount > 0 ? 'text-red-100' : '') + '">' + negCount + '</div><div class="text-[10px] font-medium opacity-90 mt-1.5 flex items-center justify-center gap-0.5">' + (negCount > 0 ? '🚨 ' : '') + '风险预警</div></div>' +
                         '</div>' +
                     '</div>' +
                     
@@ -571,6 +595,11 @@
                 var finCount = isIndependent ? (data.summary.financing_events || 0) : (data.summary && data.summary.week ? data.summary.week.financing_count || 0 : 0);
                 var ipoCount = isIndependent ? (data.summary.ipo_events || 0) : (data.summary && data.summary.week ? data.summary.week.ipo_count || 0 : 0);
                 
+                // 🌟 新增里程碑统计
+                var milestoneCount = isIndependent 
+                    ? (data.summary.milestone_events !== undefined ? data.summary.milestone_events : (data.summary.milestone_count || 0)) 
+                    : (data.summary && data.summary.week ? data.summary.week.milestone_count || 0 : 0);
+                
                 var top10 = isIndependent ? (data.top10 || []) : (data.weekly_top10 || []);
                 var rawSectors = isIndependent ? (data.sector_distribution || {}) : (data.summary && data.summary.week ? data.summary.week.sector_distribution || data.summary.week.top_sectors || [] : []);
                 var topSectors = normalizeSectors(rawSectors);
@@ -602,13 +631,16 @@
                         '<div><h2 class="text-[18px] font-extrabold text-gray-800 tracking-tight">📊 周期财报</h2><div class="mt-1.5 flex items-center"><p class="text-[11px] text-gray-500 font-medium">归档区间: </p>' + selectorHtml + '</div></div>' +
                     '</div>' +
                     
+                    // 🌟 3+2 黄金分割布局
                     '<div class="bg-gradient-to-br from-[#764ba2] to-[#667eea] rounded-2xl p-5 text-white mb-6 shadow-md">' +
-                        '<div class="text-[10px] font-bold opacity-70 mb-4 tracking-widest uppercase">Weekly Summary</div>' +
-                        '<div class="grid grid-cols-4 gap-2">' +
-                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + totalCompanies + '</div><div class="text-[10px] opacity-80 mt-1">发现企业</div></div>' +
-                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + (finCount + ipoCount) + '</div><div class="text-[10px] opacity-80 mt-1">融资/IPO</div></div>' +
-                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + topSectors.length + '</div><div class="text-[10px] opacity-80 mt-1">活跃赛道</div></div>' +
-                            '<div class="flex flex-col items-center"><div class="text-2xl font-black ' + (weeklyNegCount > 0 ? 'text-red-200' : '') + '">' + weeklyNegCount + '</div><div class="text-[10px] opacity-80 mt-1 flex items-center gap-0.5">' + (weeklyNegCount > 0 ? '🚨 ' : '') + '风险预警</div></div>' +
+                        '<div class="text-[10px] font-bold opacity-70 mb-5 tracking-widest uppercase">Weekly Summary</div>' +
+                        '<div class="flex flex-wrap justify-around gap-y-6 px-1">' +
+                            '<div class="flex flex-col items-center w-[30%]"><div class="text-2xl font-black">' + totalCompanies + '</div><div class="text-[10px] opacity-80 mt-1">发现企业</div></div>' +
+                            '<div class="flex flex-col items-center w-[30%]"><div class="text-2xl font-black text-yellow-100">' + milestoneCount + '</div><div class="text-[10px] opacity-90 mt-1 font-bold">重大突破</div></div>' +
+                            '<div class="flex flex-col items-center w-[30%]"><div class="text-2xl font-black">' + (finCount + ipoCount) + '</div><div class="text-[10px] opacity-80 mt-1">融资/IPO</div></div>' +
+                            '<div class="w-full h-px bg-white/10 my-0.5 rounded-full"></div>' +
+                            '<div class="flex flex-col items-center w-[45%]"><div class="text-2xl font-black">' + topSectors.length + '</div><div class="text-[10px] opacity-80 mt-1">活跃赛道</div></div>' +
+                            '<div class="flex flex-col items-center w-[45%]"><div class="text-2xl font-black ' + (weeklyNegCount > 0 ? 'text-red-200' : '') + '">' + weeklyNegCount + '</div><div class="text-[10px] opacity-80 mt-1 flex items-center gap-0.5">' + (weeklyNegCount > 0 ? '🚨 ' : '') + '风险预警</div></div>' +
                         '</div>' +
                     '</div>' +
                     
@@ -743,9 +775,9 @@
                                     targetEl.classList.add('target-highlight');
                                     setTimeout(function() {
                                         targetEl.classList.remove('target-highlight');
-                                    }, 2000);
+                                    }, 2500);
                                 }
-                            }, 300);
+                            }, 200);
                         }
                     }).catch(function(error) {
                         appContent.innerHTML = Views.error(error.message);
@@ -791,8 +823,12 @@
                         
                         if (targets.length > 0 || negatives.length > 0) {
                             var finCount = 0;
+                            var milestoneCountLocal = 0;
+                            var milestoneTypes = ['技术突破', '重磅发布', '战略合作', '并购', '资质获批'];
+                            
                             for(var i=0; i<targets.length; i++) {
                                 if(targets[i].event_type === '融资' || targets[i].event_type === 'IPO') finCount++;
+                                if(milestoneTypes.indexOf(targets[i].event_type) !== -1) milestoneCountLocal++;
                             }
                             var sorted = targets.slice().sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
                             
@@ -801,6 +837,7 @@
                                 total_companies: targets.length,
                                 negative_count: negatives.length,
                                 financing_count: finCount,
+                                milestone_count: (manifestData.summary && manifestData.summary.today && manifestData.summary.today.milestone_count !== undefined) ? manifestData.summary.today.milestone_count : milestoneCountLocal,
                                 top3: sorted.slice(0, 5),
                                 today_negatives: negatives 
                             };
