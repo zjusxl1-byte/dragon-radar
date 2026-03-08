@@ -146,22 +146,17 @@
             return (date.getMonth() + 1) + '月' + date.getDate() + '日';
         }
         
-        // 优雅推算历史周报 (生成下拉框选项)
-        function generateWeekOptions(currentWeekStr) {
-            if (!currentWeekStr) return '';
-            var parts = currentWeekStr.split('-W');
-            if(parts.length !== 2) return '<option value="'+currentWeekStr+'">'+currentWeekStr+' (本周)</option>';
-            
-            var year = parseInt(parts[0]);
-            var week = parseInt(parts[1]);
-            var html = '<option value="' + currentWeekStr + '">' + currentWeekStr + ' (本周)</option>';
-            
-            for(var i=1; i<=3; i++) {
-                var w = week - i;
-                var y = year;
-                if(w <= 0) { w += 52; y -= 1; }
-                var wStr = y + '-W' + String(w).padStart(2, '0');
-                html += '<option value="' + wStr + '">' + wStr + ' 历史归档</option>';
+        // ✅ 真实读取 available_weeks 渲染周报历史
+        function generateWeekOptions(availableWeeks, selectedWeekId) {
+            if (!availableWeeks || availableWeeks.length === 0) {
+                return '<option value="' + selectedWeekId + '">' + selectedWeekId + ' (最新)</option>';
+            }
+            var html = '';
+            for (var i = 0; i < availableWeeks.length; i++) {
+                var weekStr = availableWeeks[i];
+                var isSelected = weekStr === selectedWeekId ? ' selected' : '';
+                var label = weekStr + (i === 0 ? ' (最新)' : ' (归档)');
+                html += '<option value="' + weekStr + '"' + isSelected + '>' + label + '</option>';
             }
             return html;
         }
@@ -185,7 +180,6 @@
             var aiqichaUrl = 'https://aiqicha.baidu.com/s?q=' + encodeURIComponent(company);
             var safeId = 'company-' + encodeURIComponent(company);
 
-            // ⚠️ 仅周报使用的紧凑目录模式，带精确制导锚点参数
             if (isCompact) {
                 var cardClick = 'onclick="Router.navigate(\'/today?date=' + date + '&target=' + encodeURIComponent(company) + '\')"';
                 return '<div class="bg-red-50 rounded-xl p-3 mb-2.5 border border-red-100 shadow-sm relative overflow-hidden transition-all active:scale-[0.98] cursor-pointer" ' + cardClick + '>' +
@@ -202,14 +196,12 @@
                 '</div>';
             }
 
-            // 🌟 沉浸阅读模式（主页、今日展示）
             return '<div id="' + safeId + '" class="bg-gradient-to-br from-red-50 to-white rounded-2xl p-4 mb-4 border border-red-100 shadow-sm relative overflow-hidden transition-all duration-500">' +
                 '<div class="absolute -right-4 -top-4 text-6xl opacity-5 pointer-events-none">🚨</div>' +
                 '<div class="flex items-start gap-2 mb-3">' +
                     '<div class="shrink-0 w-7 h-7 mt-0.5 bg-red-100 text-red-500 rounded-full flex items-center justify-center text-xs">⚠️</div>' +
                     '<div>' +
                         '<h3 class="text-[16px] font-extrabold text-gray-800 leading-snug tracking-tight mb-1.5">' + company + '</h3>' +
-                        // 将公众号来源高亮前置在标题下方
                         '<span class="px-2 py-0.5 text-[10px] font-bold rounded bg-white border border-gray-200 text-gray-500 shadow-sm inline-flex items-center gap-1">📰 ' + source + '</span>' +
                     '</div>' +
                 '</div>' +
@@ -225,8 +217,6 @@
                     '<div class="flex items-center gap-1.5 mb-1.5"><span class="text-[12px]">🛑</span><span class="text-[11px] font-extrabold text-red-700 tracking-wider">小贾风险洞察</span></div>' +
                     '<p class="text-[12px] text-red-800/90 leading-relaxed text-justify">' + insight + '</p>' +
                 '</div>' : '') +
-                
-                // 🚀 双擎操作条：文案严肃化为“阅读原文”
                 '<div class="flex items-center gap-2 mt-4 pt-3 border-t border-red-100/60">' +
                     '<button onclick="window.open(\'' + aiqichaUrl + '\', \'_blank\')" class="flex-1 py-2.5 bg-white text-red-600 border border-red-200 rounded-xl text-xs font-bold active:bg-red-50 transition-colors flex items-center justify-center gap-1"><span>🏢</span><span>查企业</span></button>' +
                     (link ? '<button onclick="window.open(\'' + link + '\', \'_blank\')" class="flex-1 py-2.5 bg-red-500 text-white rounded-xl text-xs font-bold active:bg-red-600 transition-colors flex items-center justify-center gap-1"><span>📰</span><span>阅读原文</span></button>' : '') +
@@ -254,7 +244,6 @@
             var aiqichaUrl = 'https://aiqicha.baidu.com/s?q=' + encodeURIComponent(companyName);
             var safeId = 'company-' + encodeURIComponent(companyName);
 
-            // ⚠️ 仅周报使用的紧凑目录模式，带精确制导锚点参数
             if (isCompact) {
                 var cardClick = 'onclick="Router.navigate(\'/today?date=' + date + '&target=' + encodeURIComponent(companyName) + '\')"';
                 return '<div class="relative bg-white rounded-xl shadow-sm border border-gray-100 p-3 mb-2.5 hover:shadow-md transition-all active:scale-[0.98] cursor-pointer" ' + cardClick + '>' +
@@ -275,7 +264,6 @@
                 '</div>';
             }
             
-            // 🌟 沉浸阅读模式（主页、今日展示）
             var rankBadge = '';
             if (index !== null && index !== undefined) {
                 rankBadge = '<div class="absolute -top-2.5 -left-2.5 w-7 h-7 rounded-full ' + scoreColor + ' flex items-center justify-center text-xs font-black shadow-sm border-2 border-white">' + index + '</div>';
@@ -286,7 +274,6 @@
                 '<div class="mb-3 ml-2 flex justify-between items-start">' +
                     '<div>' +
                         '<h3 class="text-[17px] font-extrabold text-gray-800 leading-snug tracking-tight pr-2 mb-1.5">' + companyName + '</h3>' +
-                        // 公众号来源高亮前置
                         '<span class="px-2 py-0.5 text-[10px] font-bold rounded bg-gray-50 border border-gray-100 text-gray-500 shadow-sm inline-flex items-center gap-1">📰 ' + source + '</span>' +
                     '</div>' +
                     '<div class="flex flex-col items-end shrink-0">' +
@@ -308,7 +295,6 @@
                     '<p class="text-[12px] text-[#4A5D9A] leading-relaxed text-justify">' + insight + '</p>' +
                 '</div>' : '') +
                 
-                // 🚀 双擎操作条：文案严肃化
                 '<div class="flex items-center gap-2 mt-4 pt-3 border-t border-gray-100/80">' +
                     '<button onclick="window.open(\'' + aiqichaUrl + '\', \'_blank\')" class="flex-1 py-2.5 bg-[#F4F6FB] text-[#4A6495] rounded-xl text-xs font-bold active:bg-indigo-100 transition-colors flex items-center justify-center gap-1"><span>🏢</span><span>查企业</span></button>' +
                     (link ? '<button onclick="window.open(\'' + link + '\', \'_blank\')" class="flex-1 py-2.5 bg-gray-800 text-white rounded-xl text-xs font-bold active:bg-gray-700 transition-colors flex items-center justify-center gap-1"><span>📰</span><span>阅读原文</span></button>' : '') +
@@ -332,7 +318,6 @@
                     updateHtml = '<div class="mb-4 bg-white px-3 py-2.5 rounded-xl shadow-sm border border-orange-100 flex items-center justify-between animate-fade-in"><div class="flex items-center gap-2"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span></span><span class="text-[12px] font-bold text-orange-600">' + latest.title + '</span></div><span class="text-[11px] text-gray-500 truncate max-w-[60%]">' + latest.highlight + '</span></div>';
                 }
                 
-                // 彻底修正的严肃化文案：发现企业、风险预警、融资/IPO
                 return '<div class="animate-fade-in">' +
                     updateHtml +
                     '<div class="bg-gradient-to-br from-[#FF6B35] to-[#FF8C61] rounded-2xl p-5 text-white mb-6 shadow-md">' +
@@ -438,7 +423,7 @@
                         '<div class="grid grid-cols-7 gap-1.5">' + calendarDays.map(function(cell) {
                             if (cell.type === 'empty') return '<div class="aspect-square"></div>';
                             
-                            // 优雅防呆：有数据才赋予button和点击事件，没数据就是个纯净的div
+                            // ✅ 优雅防呆：有数据才可点，没数据是纯净的 div
                             var isClickable = cell.hasData;
                             var cellTag = isClickable ? 'button' : 'div';
                             var cellClick = isClickable ? 'onclick="Router.navigate(\'/today?date=' + cell.date + '\')"' : '';
@@ -469,7 +454,8 @@
                 '</div>';
             },
             
-            weekly: function(data) {
+            // ✅ 接收 availableWeeks 参数渲染历史周报
+            weekly: function(data, availableWeeks) {
                 var weekSummary = data.summary.week;
                 var top10 = data.weekly_top10 || [];
                 var topSectors = weekSummary.top_sectors || [];
@@ -478,14 +464,14 @@
                 var weeklyNegatives = data.weekly_negatives || [];
                 var weeklyNegCount = weekSummary.negative_count !== undefined ? weekSummary.negative_count : weeklyNegatives.length;
                 
-                // 优雅的历史周报选择器UI
-                var weekOptions = generateWeekOptions(weekSummary.week_id);
+                // ✅ 原生下拉组件渲染
+                var weekOptions = generateWeekOptions(availableWeeks, weekSummary.week_id);
                 var selectorHtml = '<div class="relative inline-block ml-2">' +
-                    '<select class="absolute inset-0 w-full h-full opacity-0" onchange="alert(\'历史归档：需后端在/data/weekly/目录下生成对应的 \'+ this.value +\'.json，后续版本可直连切换。\'); this.selectedIndex = 0;">' +
+                    '<select class="absolute inset-0 w-full h-full opacity-0" onchange="Router.navigate(\'/weekly?week=\' + this.value)">' +
                     weekOptions +
                     '</select>' +
                     '<div class="flex items-center gap-1 bg-white/60 px-2 py-0.5 rounded border border-gray-200 text-gray-600 shadow-sm active:bg-gray-100 transition-colors">' +
-                    '<span class="text-[11px] font-bold">' + weekSummary.week_id + ' (本周)</span><span class="text-[8px]">▼</span>' +
+                    '<span class="text-[11px] font-bold">' + weekSummary.week_id + '</span><span class="text-[8px]">▼</span>' +
                     '</div></div>';
                 
                 return '<div class="animate-fade-in">' +
@@ -579,6 +565,19 @@
                     .catch(function(error) { reject(error); });
             });
         }
+        
+        // ✅ 新增：异步加载独立的周报数据
+        function loadWeeklyData(weekId) {
+            return new Promise(function(resolve, reject) {
+                fetch('./data/weekly/' + weekId + '.json')
+                    .then(function(response) {
+                        if (!response.ok) throw new Error('未能获取 ' + weekId + ' 的周报归档数据');
+                        return response.json();
+                    })
+                    .then(function(data) { resolve(data); })
+                    .catch(function(error) { reject(error); });
+            });
+        }
 
         function renderPage() {
             var appContent = document.getElementById('app-content');
@@ -608,7 +607,7 @@
                     loadDailyData(targetDate).then(function(dailyData) {
                         appContent.innerHTML = Views.today(dailyData, targetDate);
                         
-                        // 精确制导：页面渲染后平滑滚动到目标卡片并高亮提示
+                        // 🎯 精确制导：页面渲染后平滑滚动到目标卡片并高亮提示
                         setTimeout(function() {
                             if (params.target) {
                                 var targetEl = document.getElementById('company-' + params.target);
@@ -629,7 +628,21 @@
                     appContent.innerHTML = Views.calendar(manifest);
                     break;
                 case '/weekly':
-                    appContent.innerHTML = Views.weekly(manifest);
+                    var targetWeek = params.week || manifest.current_week;
+                    var availableWeeks = manifest.available_weeks || [];
+                    appContent.innerHTML = Views.loading();
+                    
+                    // ✅ 尝试拉取独立的周报文件
+                    loadWeeklyData(targetWeek).then(function(weeklyData) {
+                        appContent.innerHTML = Views.weekly(weeklyData, availableWeeks);
+                    }).catch(function(error) {
+                        // ✅ 防崩降级：如果独立文件获取失败，但请求的是本周且 manifest 里面自带了数据，则使用 manifest 数据
+                        if (targetWeek === manifest.current_week && manifest.summary && manifest.summary.week) {
+                            appContent.innerHTML = Views.weekly(manifest, availableWeeks);
+                        } else {
+                            appContent.innerHTML = Views.error(error.message);
+                        }
+                    });
                     break;
                 default:
                     appContent.innerHTML = Views.error('页面未找到');
