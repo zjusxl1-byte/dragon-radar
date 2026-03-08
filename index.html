@@ -171,12 +171,12 @@
             return html;
         }
 
-        // 🧠 核心：智能赛道语义聚合引擎 (支持“跨界多重映射”路线B)
+        // 🧠 核心：智能赛道语义聚合引擎 (支持跨界多重映射)
         function normalizeSectors(sectorData) {
             var macroSectors = {
+                '人工智能与算力': ['人工智能', 'AI', '算力', '模型', '数据', '算法'],
                 '医疗与生命科学': ['医疗', '医药', '生物', '脑机', '基因', '神经', '健康', '器械'],
                 '机器人与自动驾驶': ['机器', '具身', '自动驾驶', '无人', '飞行', '汽车'],
-                '人工智能与算力': ['人工智能', 'AI', '算力', '模型', '数据', '算法'],
                 '先进制造与新材料': ['制造', '半导体', '芯片', '材料', '化工', '硬件', '船舶', '电气'],
                 '新能源与双碳': ['新能源', '能源', '碳', '电池', '光伏', '储能'],
                 '新消费与泛互娱': ['消费', '文创', '游戏', '电商', '社交', '文化', '艺术', '潮玩', '影视', '出海', '演出']
@@ -192,11 +192,9 @@
                         if (rawName.toUpperCase().indexOf(keywords[j].toUpperCase()) !== -1) {
                             counts[macro] = (counts[macro] || 0) + count;
                             matchedAny = true;
-                            // 保留内层break：同一家企业如果带了"医疗"和"医药"，只给【医疗】加1分
                             break; 
                         }
                     }
-                    // 🚨 删去了外层的 break，允许继续匹配后面的宏观赛道，实现跨界多重计次
                 }
                 
                 if (!matchedAny) {
@@ -216,15 +214,13 @@
 
             var sorted = [];
             for (var k in counts) {
-                // 💡 优雅防呆：只展示大于 0 的赛道
-                if (counts[k] > 0) {
+                if (counts[k] > 0) { 
                     sorted.push({ sector: k, count: counts[k] });
                 }
             }
             sorted.sort(function(a, b) { return b.count - a.count; });
             
-            // 💡 不再 slice(0, 3)，而是全量展示非0赛道，体现热度分布
-            return sorted;
+            return sorted; 
         }
 
         // ============================================
@@ -520,26 +516,35 @@
             },
             
             weekly: function(data, availableWeeks) {
-                var weekSummary = data.summary.week;
-                var top10 = data.weekly_top10 || [];
+                // 💡 核心修复：智能嗅探并向下兼容两种 JSON 结构！
+                var isIndependent = (data.year !== undefined && data.week !== undefined);
                 
-                // 🧠 接入语义归类漏斗 (路线 B，多重映射动态统计)
-                var rawSectors = weekSummary.sector_distribution || weekSummary.top_sectors || [];
+                var weekId = isIndependent ? (data.year + '-W' + data.week) : (data.summary && data.summary.week ? data.summary.week.week_id : '未知归档');
+                var totalCompanies = isIndependent ? (data.summary.total_companies || 0) : (data.summary && data.summary.week ? data.summary.week.total_companies : 0);
+                var finCount = isIndependent ? (data.summary.financing_events || 0) : (data.summary && data.summary.week ? data.summary.week.financing_count || 0 : 0);
+                var ipoCount = isIndependent ? (data.summary.ipo_events || 0) : (data.summary && data.summary.week ? data.summary.week.ipo_count || 0 : 0);
+                
+                var top10 = isIndependent ? (data.top10 || []) : (data.weekly_top10 || []);
+                
+                // 💡 赛道字典嗅探：去独立文件的根节点找，或者去 manifest 里面找
+                var rawSectors = isIndependent ? (data.sector_distribution || {}) : (data.summary && data.summary.week ? data.summary.week.sector_distribution || data.summary.week.top_sectors || [] : []);
                 var topSectors = normalizeSectors(rawSectors);
                 
-                // 视觉配色体系
                 var colors = ['from-red-400 to-orange-500', 'from-orange-400 to-amber-500', 'from-blue-400 to-cyan-500', 'from-cyan-400 to-teal-500', 'from-green-400 to-emerald-500', 'from-purple-400 to-pink-500', 'from-gray-400 to-gray-500'];
                 
-                var weeklyNegatives = data.weekly_negatives || [];
-                var weeklyNegCount = weekSummary.negative_count !== undefined ? weekSummary.negative_count : weeklyNegatives.length;
+                // 💡 预警嗅探：兼容独立文件可能缺失的 weekly_negatives 数组
+                var weeklyNegatives = isIndependent ? (data.weekly_negatives || data.negatives || []) : (data.weekly_negatives || []);
+                var weeklyNegCount = isIndependent 
+                    ? (data.summary.negative_events !== undefined ? data.summary.negative_events : weeklyNegatives.length)
+                    : (data.summary && data.summary.week && data.summary.week.negative_count !== undefined ? data.summary.week.negative_count : weeklyNegatives.length);
                 
-                var weekOptions = generateWeekOptions(availableWeeks, weekSummary.week_id);
+                var weekOptions = generateWeekOptions(availableWeeks, weekId);
                 var selectorHtml = '<div class="relative inline-block ml-2">' +
                     '<select class="absolute inset-0 w-full h-full opacity-0" onchange="Router.navigate(\'/weekly?week=\' + this.value)">' +
                     weekOptions +
                     '</select>' +
                     '<div class="flex items-center gap-1 bg-white/60 px-2 py-0.5 rounded border border-gray-200 text-gray-600 shadow-sm active:bg-gray-100 transition-colors">' +
-                    '<span class="text-[11px] font-bold">' + weekSummary.week_id + '</span><span class="text-[8px]">▼</span>' +
+                    '<span class="text-[11px] font-bold">' + weekId + '</span><span class="text-[8px]">▼</span>' +
                     '</div></div>';
                 
                 return '<div class="animate-fade-in">' +
@@ -550,8 +555,8 @@
                     '<div class="bg-gradient-to-br from-[#764ba2] to-[#667eea] rounded-2xl p-5 text-white mb-6 shadow-md">' +
                         '<div class="text-[10px] font-bold opacity-70 mb-4 tracking-widest uppercase">Weekly Summary</div>' +
                         '<div class="grid grid-cols-4 gap-2">' +
-                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + weekSummary.total_companies + '</div><div class="text-[10px] opacity-80 mt-1">发现企业</div></div>' +
-                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + (weekSummary.financing_count + weekSummary.ipo_count) + '</div><div class="text-[10px] opacity-80 mt-1">融资/IPO</div></div>' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + totalCompanies + '</div><div class="text-[10px] opacity-80 mt-1">发现企业</div></div>' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + (finCount + ipoCount) + '</div><div class="text-[10px] opacity-80 mt-1">融资/IPO</div></div>' +
                             '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + topSectors.length + '</div><div class="text-[10px] opacity-80 mt-1">活跃赛道</div></div>' +
                             '<div class="flex flex-col items-center"><div class="text-2xl font-black ' + (weeklyNegCount > 0 ? 'text-red-200' : '') + '">' + weeklyNegCount + '</div><div class="text-[10px] opacity-80 mt-1 flex items-center gap-0.5">' + (weeklyNegCount > 0 ? '🚨 ' : '') + '风险预警</div></div>' +
                         '</div>' +
@@ -561,10 +566,9 @@
                         weeklyNegatives.map(function(item) { return renderNegativeCard(item, true); }).join('') +
                     '</div></div>' : '') +
                     
-                    // 💡 赛道热度词频榜（多重映射展示版）
                     (topSectors.length > 0 ? '<div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-6"><div class="mb-4"><h3 class="text-[13px] font-extrabold text-gray-800 mb-1 flex items-center gap-1.5"><span class="text-base">🔥</span> 前沿领域热度趋势</h3><div class="text-[9px] text-gray-400">* 注：含跨界属性企业多重计次</div></div><div class="space-y-3.5">' +
                         topSectors.map(function(sector, index) {
-                            var maxCount = topSectors[0].count; // 以第一名为基准标尺
+                            var maxCount = topSectors[0].count; 
                             var percentage = Math.round((sector.count / maxCount) * 100) || 0;
                             var barColor = colors[index] || 'from-gray-300 to-gray-400';
                             return '<div><div class="flex items-center justify-between mb-1.5"><span class="text-xs font-bold text-gray-700">' + (index + 1) + '. ' + sector.sector + '</span><span class="text-[10px] font-medium text-gray-500">' + sector.count + '家</span></div>' +
