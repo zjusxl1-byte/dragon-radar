@@ -43,7 +43,6 @@
         .nav-item svg { transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1); stroke-width: 1.8; }
         .nav-item.active svg { transform: scale(1.15); stroke-width: 2.5; }
         
-        /* 🚀 目标定位高亮降落动画 */
         .target-highlight {
             box-shadow: 0 0 0 3px #667eea, 0 12px 30px -5px rgba(102, 126, 234, 0.4) !important;
             border-color: #667eea !important;
@@ -107,14 +106,13 @@
             error: null
         };
 
-        // 🛠 核心：安全哈希算法，为每家企业生成唯一的纯数字 ID
         function generateSafeId(str) {
             var hash = 0;
-            if (str.length === 0) return 'card-0';
+            if (!str || str.length === 0) return 'card-0';
             for (var i = 0; i < str.length; i++) {
                 var char = str.charCodeAt(i);
                 hash = ((hash << 5) - hash) + char;
-                hash = hash & hash; // Convert to 32bit integer
+                hash = hash & hash;
             }
             return 'card-' + Math.abs(hash);
         }
@@ -173,6 +171,62 @@
             return html;
         }
 
+        // 🧠 核心：智能赛道语义聚合引擎 (支持“跨界多重映射”路线B)
+        function normalizeSectors(sectorData) {
+            var macroSectors = {
+                '医疗与生命科学': ['医疗', '医药', '生物', '脑机', '基因', '神经', '健康', '器械'],
+                '机器人与自动驾驶': ['机器', '具身', '自动驾驶', '无人', '飞行', '汽车'],
+                '人工智能与算力': ['人工智能', 'AI', '算力', '模型', '数据', '算法'],
+                '先进制造与新材料': ['制造', '半导体', '芯片', '材料', '化工', '硬件', '船舶', '电气'],
+                '新能源与双碳': ['新能源', '能源', '碳', '电池', '光伏', '储能'],
+                '新消费与泛互娱': ['消费', '文创', '游戏', '电商', '社交', '文化', '艺术', '潮玩', '影视', '出海', '演出']
+            };
+            
+            var counts = {};
+            
+            function processSector(rawName, count) {
+                var matchedAny = false; 
+                for (var macro in macroSectors) {
+                    var keywords = macroSectors[macro];
+                    for (var j = 0; j < keywords.length; j++) {
+                        if (rawName.toUpperCase().indexOf(keywords[j].toUpperCase()) !== -1) {
+                            counts[macro] = (counts[macro] || 0) + count;
+                            matchedAny = true;
+                            // 保留内层break：同一家企业如果带了"医疗"和"医药"，只给【医疗】加1分
+                            break; 
+                        }
+                    }
+                    // 🚨 删去了外层的 break，允许继续匹配后面的宏观赛道，实现跨界多重计次
+                }
+                
+                if (!matchedAny) {
+                    counts['前沿跨界探索'] = (counts['前沿跨界探索'] || 0) + count;
+                }
+            }
+
+            if (Array.isArray(sectorData)) {
+                for(var i=0; i<sectorData.length; i++) {
+                    processSector(sectorData[i].sector, sectorData[i].count);
+                }
+            } else if (typeof sectorData === 'object') {
+                for (var key in sectorData) {
+                    processSector(key, sectorData[key]);
+                }
+            }
+
+            var sorted = [];
+            for (var k in counts) {
+                // 💡 优雅防呆：只展示大于 0 的赛道
+                if (counts[k] > 0) {
+                    sorted.push({ sector: k, count: counts[k] });
+                }
+            }
+            sorted.sort(function(a, b) { return b.count - a.count; });
+            
+            // 💡 不再 slice(0, 3)，而是全量展示非0赛道，体现热度分布
+            return sorted;
+        }
+
         // ============================================
         // 🚨 负面预警卡片组件
         // ============================================
@@ -190,8 +244,6 @@
             var date = item.date || window.RadarData.manifest.today;
             
             var aiqichaUrl = 'https://aiqicha.baidu.com/s?q=' + encodeURIComponent(company);
-            
-            // 使用哈希值生成安全 ID
             var targetId = generateSafeId(company);
 
             if (isCompact) {
@@ -210,7 +262,6 @@
                 '</div>';
             }
 
-            // 完整阅读模式挂载 ID
             return '<div id="' + targetId + '" class="bg-gradient-to-br from-red-50 to-white rounded-2xl p-4 mb-4 border border-red-100 shadow-sm relative overflow-hidden transition-all duration-500">' +
                 '<div class="absolute -right-4 -top-4 text-6xl opacity-5 pointer-events-none">🚨</div>' +
                 '<div class="flex items-start gap-2 mb-3">' +
@@ -471,8 +522,13 @@
             weekly: function(data, availableWeeks) {
                 var weekSummary = data.summary.week;
                 var top10 = data.weekly_top10 || [];
-                var topSectors = weekSummary.top_sectors || [];
-                var colors = ['from-red-400 to-orange-500', 'from-blue-400 to-cyan-500', 'from-green-400 to-emerald-500'];
+                
+                // 🧠 接入语义归类漏斗 (路线 B，多重映射动态统计)
+                var rawSectors = weekSummary.sector_distribution || weekSummary.top_sectors || [];
+                var topSectors = normalizeSectors(rawSectors);
+                
+                // 视觉配色体系
+                var colors = ['from-red-400 to-orange-500', 'from-orange-400 to-amber-500', 'from-blue-400 to-cyan-500', 'from-cyan-400 to-teal-500', 'from-green-400 to-emerald-500', 'from-purple-400 to-pink-500', 'from-gray-400 to-gray-500'];
                 
                 var weeklyNegatives = data.weekly_negatives || [];
                 var weeklyNegCount = weekSummary.negative_count !== undefined ? weekSummary.negative_count : weeklyNegatives.length;
@@ -505,11 +561,13 @@
                         weeklyNegatives.map(function(item) { return renderNegativeCard(item, true); }).join('') +
                     '</div></div>' : '') +
                     
-                    (topSectors.length > 0 ? '<div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-6"><h3 class="text-[13px] font-extrabold text-gray-800 mb-4 flex items-center gap-1.5"><span class="text-base">🏷️</span> 赛道热度 TOP3</h3><div class="space-y-3.5">' +
+                    // 💡 赛道热度词频榜（多重映射展示版）
+                    (topSectors.length > 0 ? '<div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-6"><div class="mb-4"><h3 class="text-[13px] font-extrabold text-gray-800 mb-1 flex items-center gap-1.5"><span class="text-base">🔥</span> 前沿领域热度趋势</h3><div class="text-[9px] text-gray-400">* 注：含跨界属性企业多重计次</div></div><div class="space-y-3.5">' +
                         topSectors.map(function(sector, index) {
-                            var percentage = Math.round((sector.count / weekSummary.total_companies) * 100) || 0;
+                            var maxCount = topSectors[0].count; // 以第一名为基准标尺
+                            var percentage = Math.round((sector.count / maxCount) * 100) || 0;
                             var barColor = colors[index] || 'from-gray-300 to-gray-400';
-                            return '<div><div class="flex items-center justify-between mb-1.5"><span class="text-xs font-bold text-gray-700">' + (index + 1) + '. ' + sector.sector + '</span><span class="text-[10px] font-medium text-gray-500">' + sector.count + '家 (' + percentage + '%)</span></div>' +
+                            return '<div><div class="flex items-center justify-between mb-1.5"><span class="text-xs font-bold text-gray-700">' + (index + 1) + '. ' + sector.sector + '</span><span class="text-[10px] font-medium text-gray-500">' + sector.count + '家</span></div>' +
                                 '<div class="h-1.5 bg-gray-100 rounded-full overflow-hidden"><div class="h-full bg-gradient-to-r ' + barColor + ' rounded-full" style="width: ' + percentage + '%"></div></div></div>';
                         }).join('') + '</div></div>' : '') +
                         
@@ -597,7 +655,6 @@
             var route = Router.getRoute();
             var params = Router.getQueryParams();
             
-            // 解决滚动冲突：只有在不是精确定位的情况下，才滚回顶部
             if (!params.target) {
                 window.scrollTo(0, 0);
             }
@@ -623,12 +680,10 @@
                     loadDailyData(targetDate).then(function(dailyData) {
                         appContent.innerHTML = Views.today(dailyData, targetDate);
                         
-                        // 🎯 终极精确制导：智能计算顶部导航栏遮挡偏移量
                         if (params.target) {
                             setTimeout(function() {
                                 var targetEl = document.getElementById(params.target);
                                 if (targetEl) {
-                                    // 获取顶部悬浮 Header 的高度 (约 48px)，多留 20px 边距
                                     var headerOffset = document.getElementById('top-header').offsetHeight + 20; 
                                     var elementPosition = targetEl.getBoundingClientRect().top;
                                     var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
@@ -638,13 +693,12 @@
                                         behavior: 'smooth'
                                     });
                                     
-                                    // 触发两秒的蓝色光环脉冲特效
                                     targetEl.classList.add('target-highlight');
                                     setTimeout(function() {
                                         targetEl.classList.remove('target-highlight');
                                     }, 2000);
                                 }
-                            }, 300); // 稍微增加一点延时，确保 DOM 完全排版完毕
+                            }, 300);
                         }
                     }).catch(function(error) {
                         appContent.innerHTML = Views.error(error.message);
