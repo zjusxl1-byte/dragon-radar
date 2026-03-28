@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>寻龙雷达 - 杭州未来"六小龙"发现系统</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#667eea',
+                        secondary: '#764ba2',
+                        accent: '#FF6B35'
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.2s ease-out forwards',
+                        'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(6px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, sans-serif;
+            -webkit-tap-highlight-color: transparent; 
+            scroll-behavior: smooth;
+        }
+        ::-webkit-scrollbar { display: none; }
+        
+        .nav-item { color: #9CA3AF; }
+        .nav-item.active { color: #667eea; }
+        .nav-item svg { transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1); stroke-width: 1.8; }
+        .nav-item.active svg { transform: scale(1.15); stroke-width: 2.5; }
+        
+        /* 🚀 目标定位高亮降落动画 */
+        .target-highlight {
+            box-shadow: 0 0 0 2px #667eea, 0 8px 25px -5px rgba(102, 126, 234, 0.3) !important;
+            border-color: #667eea !important;
+            background-color: #FAFAFF !important;
+            transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+            z-index: 10;
+        }
+        
+        .scroll-margin {
+            scroll-margin-top: 80px;
+            scroll-margin-bottom: 80px;
+        }
+    </style>
+</head>
+<body class="bg-[#F4F5F7] text-gray-800 antialiased relative min-h-screen pb-[calc(3.5rem+env(safe-area-inset-bottom))]">
+
+    <header id="top-header" class="bg-gradient-to-r from-primary to-secondary text-white sticky top-0 z-40 shadow-sm pt-[env(safe-area-inset-top)]">
+        <div class="max-w-lg mx-auto px-4 h-12 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-xl">🐉</span>
+                <span class="font-extrabold tracking-wide">寻龙雷达</span>
+            </div>
+            <div class="text-[10px] bg-white/20 px-2 py-1 rounded-full backdrop-blur-sm">发现“六小龙”</div>
+        </div>
+    </header>
+
+    <main class="max-w-lg mx-auto px-4 py-4 min-h-[70vh]">
+        <div id="app-content">
+            <div class="animate-pulse-fast space-y-4 py-4">
+                <div class="h-24 bg-gray-200 rounded-2xl"></div>
+                <div class="h-48 bg-white rounded-2xl shadow-sm"></div>
+                <div class="h-48 bg-white rounded-2xl shadow-sm"></div>
+            </div>
+        </div>
+        
+        <footer class="text-center py-8 text-gray-400 text-[10px]">
+            <p>小贾 🤖 提供智能洞察支持</p>
+            <p class="mt-1 opacity-60">企业前沿动向监控网络</p>
+        </footer>
+    </main>
+
+    <nav class="fixed bottom-0 w-full bg-white/95 backdrop-blur-md border-t border-gray-100 z-50 pb-[env(safe-area-inset-bottom)]">
+        <div class="max-w-lg mx-auto flex justify-around items-center h-14">
+            <a href="#/" data-route="/" class="nav-item flex flex-col items-center justify-center w-full h-full active:bg-gray-50 transition-colors">
+                <svg class="w-[22px] h-[22px] mb-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+                <span class="text-[10px] font-medium">主页</span>
+            </a>
+            <a href="#/today" data-route="/today" class="nav-item flex flex-col items-center justify-center w-full h-full active:bg-gray-50 transition-colors">
+                <svg class="w-[22px] h-[22px] mb-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2.5 2.5 0 00-2.5-2.5H15M9 11h3m-3 4h3m-6-4h.01M6 15h.01M8 20h8" /></svg>
+                <span class="text-[10px] font-medium">今日</span>
+            </a>
+            <a href="#/calendar" data-route="/calendar" class="nav-item flex flex-col items-center justify-center w-full h-full active:bg-gray-50 transition-colors">
+                <svg class="w-[22px] h-[22px] mb-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                <span class="text-[10px] font-medium">周历</span>
+            </a>
+            <a href="#/weekly" data-route="/weekly" class="nav-item flex flex-col items-center justify-center w-full h-full active:bg-gray-50 transition-colors">
+                <svg class="w-[22px] h-[22px] mb-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
+                <span class="text-[10px] font-medium">趋势</span>
+            </a>
+            <a href="#/briefing" data-route="/briefing" class="nav-item flex flex-col items-center justify-center w-full h-full active:bg-gray-50 transition-colors">
+                <svg class="w-[22px] h-[22px] mb-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                <span class="text-[10px] font-medium">简报</span>
+            </a>
+        </div>
+    </nav>
+
+    <script>
+        window.RadarData = {
+            manifest: null,
+            loaded: false,
+            error: null
+        };
+
+        // 安全锚点 ID
+        function generateSafeId(str) {
+            var hash = 0;
+            if (!str || str.length === 0) return 'card-0';
+            for (var i = 0; i < str.length; i++) {
+                var char = str.charCodeAt(i);
+                hash = ((hash << 5) - hash) + char;
+                hash = hash & hash;
+            }
+            return 'card-' + Math.abs(hash);
+        }
+
+        function getScoreColor(score) {
+            if (!score) return 'text-gray-400';
+            if (score >= 100) return 'text-red-600';
+            if (score >= 80) return 'text-red-500';
+            if (score >= 50) return 'text-orange-500';
+            return 'text-gray-400';
+        }
+
+        function getScoreBadge(score) {
+            if (!score) return 'bg-gray-300 text-gray-600 border-gray-100';
+            if (score >= 100) return 'bg-gradient-to-br from-red-600 to-rose-700 text-white border-red-200 shadow-sm';
+            if (score >= 80) return 'bg-gradient-to-br from-red-400 to-red-600 text-white border-red-200 shadow-sm';
+            if (score >= 50) return 'bg-gradient-to-br from-orange-400 to-orange-500 text-white border-orange-200 shadow-sm';
+            return 'bg-gray-300 text-gray-600';
+        }
+
+        // 🌟 扩充七彩业务光谱 (Event Palette)
+        function getEventTagStyle(eventType) {
+            if (!eventType) return 'bg-gray-100 text-gray-500';
+            var styles = {
+                '融资': 'bg-rose-50 text-rose-600 border border-rose-100',
+                'IPO': 'bg-amber-50 text-amber-600 border border-amber-100',
+                '搬迁': 'bg-cyan-50 text-cyan-600 border border-cyan-100',
+                '扩张': 'bg-emerald-50 text-emerald-600 border border-emerald-100',
+                '技术突破': 'bg-indigo-50 text-indigo-600 border border-indigo-100',
+                '重磅发布': 'bg-violet-50 text-violet-600 border border-violet-100',
+                '战略合作': 'bg-blue-50 text-blue-600 border border-blue-100',
+                '并购': 'bg-fuchsia-50 text-fuchsia-600 border border-fuchsia-100',
+                '资质获批': 'bg-teal-50 text-teal-600 border border-teal-100',
+                '负面': 'bg-red-50 text-red-600 border border-red-100'
+            };
+            return styles[eventType] || 'bg-gray-100 text-gray-500 border border-gray-200';
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return '';
+            var date = new Date(dateStr.replace(/-/g, '/'));
+            var today = new Date();
+            var yesterday = new Date(today);
+            yesterday.setDate(yesterday.getDate() - 1);
+            if (date.toDateString() === today.toDateString()) return '今日';
+            if (date.toDateString() === yesterday.toDateString()) return '昨日';
+            return (date.getMonth() + 1) + '月' + date.getDate() + '日';
+        }
+        
+        function generateWeekOptions(availableWeeks, selectedWeekId) {
+            if (!availableWeeks || availableWeeks.length === 0) {
+                return '<option value="' + selectedWeekId + '">' + selectedWeekId + ' (最新)</option>';
+            }
+            var html = '';
+            for (var i = 0; i < availableWeeks.length; i++) {
+                var weekStr = availableWeeks[i];
+                var isSelected = weekStr === selectedWeekId ? ' selected' : '';
+                var label = weekStr + (i === 0 ? ' (最新)' : ' (归档)');
+                html += '<option value="' + weekStr + '"' + isSelected + '>' + label + '</option>';
+            }
+            return html;
+        }
+
+        function generateMonthOptions(availableMonths, selectedMonthId) {
+            if (!availableMonths || availableMonths.length === 0) {
+                return '<option value="' + selectedMonthId + '">' + selectedMonthId + ' (最新)</option>';
+            }
+            var html = '';
+            for (var i = 0; i < availableMonths.length; i++) {
+                var monthStr = availableMonths[i];
+                var isSelected = monthStr === selectedMonthId ? ' selected' : '';
+                var label = monthStr + (i === 0 ? ' (最新)' : ' (归档)');
+                html += '<option value="' + monthStr + '"' + isSelected + '>' + label + '</option>';
+            }
+            return html;
+        }
+
+        // 🧠 核心：智能赛道语义聚合引擎
+        function normalizeSectors(sectorData) {
+            var macroSectors = {
+                '人工智能与算力': ['人工智能', 'AI', '算力', '模型', '数据', '算法'],
+                '医疗与生命科学': ['医疗', '医药', '生物', '脑机', '基因', '神经', '健康', '器械'],
+                '机器人与自动驾驶': ['机器', '具身', '自动驾驶', '无人', '飞行', '汽车'],
+                '先进制造与新材料': ['制造', '半导体', '芯片', '材料', '化工', '硬件', '船舶', '电气', '装备'],
+                '新能源与双碳': ['新能源', '能源', '碳', '电池', '光伏', '储能'],
+                '新消费与泛互娱': ['消费', '文创', '游戏', '电商', '社交', '文化', '艺术', '潮玩', '影视', '出海', '演出']
+            };
+            var counts = {};
+            function processSector(rawName, count) {
+                var matchedAny = false; 
+                for (var macro in macroSectors) {
+                    var keywords = macroSectors[macro];
+                    for (var j = 0; j < keywords.length; j++) {
+                        if (rawName.toUpperCase().indexOf(keywords[j].toUpperCase()) !== -1) {
+                            counts[macro] = (counts[macro] || 0) + count;
+                            matchedAny = true;
+                            break; 
+                        }
+                    }
+                }
+                if (!matchedAny) {
+                    counts['前沿跨界探索'] = (counts['前沿跨界探索'] || 0) + count;
+                }
+            }
+
+            if (Array.isArray(sectorData)) {
+                for(var i=0; i<sectorData.length; i++) { processSector(sectorData[i].sector, sectorData[i].count); }
+            } else if (typeof sectorData === 'object') {
+                for (var key in sectorData) { processSector(key, sectorData[key]); }
+            }
+
+            var sorted = [];
+            for (var k in counts) {
+                if (counts[k] > 0) sorted.push({ sector: k, count: counts[k] });
+            }
+            sorted.sort(function(a, b) { return b.count - a.count; });
+            return sorted; 
+        }
+        
+        // 🧩 提取通用元数据面板 HTML
+        function buildMetaDataHtml(item) {
+            var financing = item.financing_info || item.financing || '';
+            var metaItems = [];
+            
+            var skipWords = ['无相关信息', '未披露', '-', '未提及', 'null', ''];
+            
+            if (financing && skipWords.indexOf(String(financing).trim()) === -1) {
+                metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">资本动作</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + financing + '</span></div>');
+            }
+            if (item.core_tech && skipWords.indexOf(String(item.core_tech).trim()) === -1) {
+                metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">核心技术</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + item.core_tech + '</span></div>');
+            }
+            if (item.official_evaluation && skipWords.indexOf(String(item.official_evaluation).trim()) === -1) {
+                metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">官方认定</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + item.official_evaluation + '</span></div>');
+            }
+            if (item.founder_info && skipWords.indexOf(String(item.founder_info).trim()) === -1) {
+                metaItems.push('<div class="flex items-start gap-3"><span class="text-gray-400 w-12 shrink-0">创始人</span><span class="text-gray-800 font-medium flex-1 leading-snug">' + item.founder_info + '</span></div>');
+            }
+
+            if (metaItems.length > 0) {
+                return '<div class="bg-gray-50/80 rounded-xl p-3 mb-3.5 space-y-2 border border-gray-100/80 text-[12px]">' + metaItems.join('') + '</div>';
+            }
+            return '';
+        }
+
+        // ============================================
+        // 🚨 负面预警卡片组件
+        // ============================================
+        function renderNegativeCard(item, isCompact) {
+            var company = item.company_name || item.company || '未知企业';
+            var title = item.title || '无内容';
+            var source = item.source || '未知信源';
+            var reason = item.reason || '';
+            var sector = item.sector || '未知赛道';
+            var location = item.location || '';
+            var link = item.link || '';
+            var articleTitle = item.event_description || item.article_title || item.title || '';
+            var eventDesc = item.event_desc || '';
+            var insight = item.insight || '';
+            var date = item.date || window.RadarData.manifest.today;
+            
+            var aiqichaUrl = 'https://aiqicha.baidu.com/s?q=' + encodeURIComponent(company);
+            var targetId = generateSafeId(company);
+
+            // 智能地址渲染
+            var locationHtml = (location && location.trim() !== '' && location !== '-' && location !== '未提及') 
+                ? '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-gray-50 text-gray-500">📍 ' + location + '</span>' : '';
+                
+            // 紫金标杆渲染
+            var isNationalStar = item.is_national_star === true;
+            var starHtml = isNationalStar ? '<span class="px-2 py-0.5 text-[10px] font-bold rounded bg-gradient-to-r from-purple-500 to-indigo-500 text-white shadow-[0_2px_4px_rgba(168,85,247,0.3)] border border-purple-400">🌐 全国标杆</span>' : '';
+            var compactStarHtml = isNationalStar ? '<span class="px-1.5 py-0.5 text-[9px] font-bold rounded bg-gradient-to-r from-purple-500 to-indigo-500 text-white shadow-sm">🌐标杆</span>' : '';
+
+            if (isCompact) {
+                var cardClick = 'onclick="Router.navigate(\'/today?date=' + date + '&target=' + targetId + '\')"';
+                return '<div class="bg-red-50 rounded-xl p-3 mb-2.5 border border-red-100 shadow-sm relative overflow-hidden transition-all active:scale-[0.98] cursor-pointer" ' + cardClick + '>' +
+                    '<div class="flex justify-between items-center gap-2">' +
+                        '<div class="flex items-center gap-2 min-w-0 flex-1">' +
+                            '<div class="shrink-0 w-6 h-6 bg-red-100 text-red-500 rounded-full flex items-center justify-center text-[10px]">⚠️</div>' +
+                            '<div class="min-w-0 flex-1">' +
+                                '<div class="flex items-center gap-1.5"><h3 class="text-[14px] font-bold text-red-800 leading-snug truncate">' + company + '</h3>' + compactStarHtml + '</div>' +
+                                '<div class="text-[10px] text-red-500 truncate mt-0.5">' + (articleTitle || title || '检测到风险事件') + '</div>' +
+                            '</div>' +
+                        '</div>' +
+                        '<span class="text-red-400 text-xs font-bold shrink-0">查阅 →</span>' +
+                    '</div>' +
+                '</div>';
+            }
+            
+            var metaHtml = buildMetaDataHtml(item);
+
+            return '<div id="' + targetId + '" class="scroll-margin bg-gradient-to-br from-red-50 to-white rounded-2xl p-4 mb-4 border border-red-100 shadow-sm relative overflow-hidden transition-all duration-500">' +
+                '<div class="absolute -right-4 -top-4 text-6xl opacity-5 pointer-events-none">🚨</div>' +
+                '<div class="flex items-start gap-2 mb-3">' +
+                    '<div class="shrink-0 w-7 h-7 mt-0.5 bg-red-100 text-red-500 rounded-full flex items-center justify-center text-xs">⚠️</div>' +
+                    '<div>' +
+                        '<h3 class="text-[16px] font-extrabold text-gray-800 leading-snug tracking-tight mb-1.5">' + company + '</h3>' +
+                        '<span class="px-2 py-0.5 text-[10px] font-bold rounded bg-white border border-gray-200 text-gray-500 shadow-sm inline-flex items-center gap-1">📰 ' + source + '</span>' +
+                    '</div>' +
+                '</div>' +
+                '<div class="flex flex-wrap gap-1.5 mb-3.5">' +
+                    starHtml +
+                    '<span class="px-2 py-0.5 text-[10px] font-semibold rounded bg-red-100 text-red-600 border border-red-200">风险预警</span>' +
+                    '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495]">' + sector + '</span>' +
+                    locationHtml +
+                '</div>' +
+                
+                (articleTitle ? '<div class="mb-2 text-[14px] font-bold text-gray-800 leading-snug border-l-[3px] border-red-500 pl-2">' + articleTitle + '</div>' : '') +
+                
+                metaHtml + 
+                
+                ((eventDesc || reason) ? '<div class="mb-3 text-[13px] text-gray-600 leading-relaxed text-justify">' + (eventDesc || reason) + '</div>' : '') +
+                
+                (insight ? '<div class="mb-3 p-3 bg-red-50/80 rounded-xl border border-red-100/50">' +
+                    '<div class="flex items-center gap-1.5 mb-1.5"><span class="text-[12px]">🛑</span><span class="text-[11px] font-extrabold text-red-700 tracking-wider">小贾风险洞察</span></div>' +
+                    '<p class="text-[12px] text-red-800/90 leading-relaxed text-justify">' + insight + '</p>' +
+                '</div>' : '') +
+                
+                '<div class="flex items-center gap-2 mt-4 pt-3 border-t border-red-100/60">' +
+                    '<button onclick="window.open(\'' + aiqichaUrl + '\', \'_blank\')" class="flex-1 py-2.5 bg-white text-red-600 border border-red-200 rounded-xl text-xs font-bold active:bg-red-50 transition-colors flex items-center justify-center gap-1"><span>🏢</span><span>查企业</span></button>' +
+                    (link ? '<button onclick="window.open(\'' + link + '\', \'_blank\')" class="flex-1 py-2.5 bg-red-500 text-white rounded-xl text-xs font-bold active:bg-red-600 transition-colors flex items-center justify-center gap-1"><span>📰</span><span>阅读原文</span></button>' : '') +
+                '</div>' +
+            '</div>';
+        }
+
+        // ============================================
+        // 🟢 发现企业卡片组件
+        // ============================================
+        function renderCompanyCard(company, index, isCompact) {
+            var companyName = company.company_name || company.company || '未知企业';
+            var scoreColor = getScoreBadge(company.score || 50);
+            var eventType = company.event_type || '其他';
+            var eventStyle = getEventTagStyle(eventType);
+            var sector = company.sector || '未知赛道';
+            var location = company.location || '';
+            var source = company.source || '未知信源';
+            var articleTitle = company.event_description || company.article_title || company.title || '';
+            var eventDesc = company.event_desc || '';
+            var insight = company.insight || company.summary || ''; 
+            var link = company.link || '';
+            var date = company.date || window.RadarData.manifest.today;
+            
+            var aiqichaUrl = 'https://aiqicha.baidu.com/s?q=' + encodeURIComponent(companyName);
+            var targetId = generateSafeId(companyName);
+            
+            var locationHtml = (location && location.trim() !== '' && location !== '-' && location !== '未提及') 
+                ? '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-gray-50 text-gray-500">📍 ' + location + '</span>' : '';
+                
+            var isNationalStar = company.is_national_star === true;
+            var starHtml = isNationalStar ? '<span class="px-2 py-0.5 text-[10px] font-bold rounded bg-gradient-to-r from-purple-500 to-indigo-500 text-white shadow-[0_2px_4px_rgba(168,85,247,0.3)] border border-purple-400">🌐 全国标杆</span>' : '';
+            var compactStarHtml = isNationalStar ? '<span class="px-1.5 py-0.5 text-[9px] font-bold rounded bg-gradient-to-r from-purple-500 to-indigo-500 text-white shadow-sm">🌐标杆</span>' : '';
+
+            if (isCompact) {
+                var cardClick = 'onclick="Router.navigate(\'/today?date=' + date + '&target=' + targetId + '\')"';
+                return '<div class="relative bg-white rounded-xl shadow-sm border border-gray-100 p-3 mb-2.5 hover:shadow-md transition-all active:scale-[0.98] cursor-pointer" ' + cardClick + '>' +
+                    (index ? '<div class="absolute -top-1.5 -left-1.5 w-5 h-5 rounded-full ' + scoreColor + ' flex items-center justify-center text-[10px] font-black shadow-sm border-2 border-white">' + index + '</div>' : '') +
+                    '<div class="flex justify-between items-center gap-2 ml-1.5">' +
+                        '<div class="flex-1 min-w-0">' + 
+                            '<h3 class="text-[14px] font-bold text-gray-800 leading-snug truncate">' + companyName + '</h3>' +
+                            '<div class="flex items-center gap-1.5 mt-1.5">' +
+                                compactStarHtml +
+                                (eventType ? '<span class="px-1.5 py-0.5 text-[9px] font-semibold rounded ' + eventStyle + '">' + eventType + '</span>' : '') +
+                                '<span class="text-[10px] text-gray-500 truncate">' + sector + '</span>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="flex items-center gap-2 shrink-0 pl-2 border-l border-gray-100">' +
+                            '<span class="text-lg font-black leading-none ' + getScoreColor(company.score) + '">' + (company.score || 50) + '</span>' +
+                            '<span class="text-gray-300 text-xs font-bold">查阅 →</span>' +
+                        '</div>' +
+                    '</div>' +
+                '</div>';
+            }
+            
+            var rankBadge = '';
+            if (index !== null && index !== undefined) {
+                rankBadge = '<div class="absolute -top-2.5 -left-2.5 w-7 h-7 rounded-full ' + scoreColor + ' flex items-center justify-center text-xs font-black shadow-sm border-2 border-white">' + index + '</div>';
+            }
+            
+            var metaHtml = buildMetaDataHtml(company);
+
+            return '<div id="' + targetId + '" class="scroll-margin relative bg-white rounded-2xl shadow-[0_2px_12px_-4px_rgba(6,81,237,0.08)] border border-gray-100/50 p-4 mb-5 transition-all duration-500">' +
+                rankBadge +
+                '<div class="mb-3 ml-2 flex justify-between items-start">' +
+                    '<div>' +
+                        '<h3 class="text-[17px] font-extrabold text-gray-800 leading-snug tracking-tight pr-2 mb-1.5">' + companyName + '</h3>' +
+                        '<span class="px-2 py-0.5 text-[10px] font-bold rounded bg-gray-50 border border-gray-100 text-gray-500 shadow-sm inline-flex items-center gap-1">📰 ' + source + '</span>' +
+                    '</div>' +
+                    '<div class="flex flex-col items-end shrink-0">' +
+                        '<div class="flex items-baseline gap-0.5"><span class="text-2xl font-black leading-none tracking-tighter ' + getScoreColor(company.score) + '">' + (company.score || 50) + '</span></div>' +
+                    '</div>' +
+                '</div>' +
+                '<div class="flex flex-wrap gap-1.5 mb-3.5">' +
+                    starHtml +
+                    (eventType ? '<span class="px-2 py-0.5 text-[10px] font-semibold rounded ' + eventStyle + '">' + eventType + '</span>' : '') +
+                    '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495]">' + sector + '</span>' +
+                    locationHtml +
+                '</div>' +
+                
+                (articleTitle ? '<div class="mb-3 text-[14px] font-bold text-gray-800 leading-snug border-l-[3px] border-primary pl-2">' + articleTitle + '</div>' : '') +
+                
+                metaHtml + 
+                
+                (eventDesc ? '<div class="mb-3.5 text-[13px] text-gray-600 leading-relaxed text-justify">' + eventDesc + '</div>' : '') +
+                
+                (insight ? '<div class="mb-2 p-3 bg-gradient-to-br from-[#F5F7FF] to-[#EBF0FF] rounded-xl border border-indigo-100/50">' +
+                    '<div class="flex items-center gap-1.5 mb-1.5"><span class="text-[12px]">💡</span><span class="text-[11px] font-extrabold text-[#3B4C8A] tracking-wider">小贾深度洞察</span></div>' +
+                    '<p class="text-[12px] text-[#4A5D9A] leading-relaxed text-justify">' + insight + '</p>' +
+                '</div>' : '') +
+                
+                '<div class="flex items-center gap-2 mt-4 pt-3 border-t border-gray-100/80">' +
+                    '<button onclick="window.open(\'' + aiqichaUrl + '\', \'_blank\')" class="flex-1 py-2.5 bg-[#F4F6FB] text-[#4A6495] rounded-xl text-xs font-bold active:bg-indigo-100 transition-colors flex items-center justify-center gap-1"><span>🏢</span><span>查企业</span></button>' +
+                    (link ? '<button onclick="window.open(\'' + link + '\', \'_blank\')" class="flex-1 py-2.5 bg-gray-800 text-white rounded-xl text-xs font-bold active:bg-gray-700 transition-colors flex items-center justify-center gap-1"><span>📰</span><span>阅读原文</span></button>' : '') +
+                '</div>' +
+            '</div>';
+        }
+
+        // ============================================
+        // 🏛️ 专报专供决策卡片（无雷达分，含内参智囊批注）
+        // ============================================
+        function renderBriefingCard(company, index, listType) {
+            var companyName = company.company_name || company.company || '未知企业';
+            var fullName = company.full_name || '';
+            var eventType = company.event_type || '';
+            var eventStyle = getEventTagStyle(eventType);
+            
+            var sectorsHtml = '';
+            var targetSectors = company.standard_sectors && company.standard_sectors.length > 0 ? company.standard_sectors : [company.sector || '前沿科技'];
+            targetSectors.forEach(function(s) {
+                sectorsHtml += '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495] shadow-sm">' + s + '</span>';
+            });
+            
+            var articleTitle = company.event_description || company.article_title || company.title || '';
+            var eventDesc = company.event_desc || '';
+            var aiReason = company.ai_reason || '';
+            
+            var aiqichaUrl = 'https://aiqicha.baidu.com/s?q=' + encodeURIComponent(companyName);
+            var targetId = generateSafeId(companyName);
+            
+            // Strategic Badge
+            var strategyBadge = '';
+            var titleColor = 'text-gray-800';
+            
+            if (company.is_dragon) {
+                strategyBadge = '<span class="px-2 py-0.5 text-[11px] font-bold rounded-md bg-amber-50 text-amber-600 border border-amber-200 shadow-sm flex items-center gap-1">🐉 头部跟踪</span>';
+                titleColor = 'text-amber-900';
+            } else if (listType === 'local') {
+                strategyBadge = '<span class="px-2 py-0.5 text-[11px] font-bold rounded-md bg-red-50 text-red-600 border border-red-200 shadow-sm flex items-center gap-1">🌱 重点培育</span>';
+                titleColor = 'text-red-900';
+            } else if (listType === 'national') {
+                strategyBadge = '<span class="px-2 py-0.5 text-[11px] font-bold rounded-md bg-indigo-50 text-indigo-600 border border-indigo-200 shadow-sm flex items-center gap-1">🎯 优选标杆</span>';
+                titleColor = 'text-indigo-900';
+            }
+            
+            var rankBadge = '';
+            if (index !== null && index !== undefined) {
+                var badgeBg = 'bg-red-600';
+                if (company.is_dragon) badgeBg = 'bg-amber-500';
+                else if (listType === 'national') badgeBg = 'bg-indigo-600';
+                rankBadge = '<div class="absolute -top-2.5 -left-2.5 w-7 h-7 rounded-full ' + badgeBg + ' text-white flex items-center justify-center text-xs font-black shadow-sm border-2 border-white">' + index + '</div>';
+            }
+
+            return '<div id="' + targetId + '" class="scroll-margin relative bg-white rounded-xl shadow-[0_2px_10px_-4px_rgba(0,0,0,0.1)] border border-gray-200 p-4 mb-5 transition-all">' +
+                rankBadge +
+                
+                '<div class="mb-3 ml-2 flex justify-between items-start">' +
+                    '<div>' +
+                        '<h3 class="text-[17px] font-bold ' + titleColor + ' leading-snug tracking-tight pr-2 mb-0.5" style="font-family: STZhongsong, \'SimSun\', serif;">' + companyName + '</h3>' +
+                        (fullName && fullName !== companyName ? '<p class="text-[11px] text-gray-400 font-medium leading-snug">' + fullName + '</p>' : '') +
+                    '</div>' +
+                    '<div class="flex items-center shrink-0">' + strategyBadge + '</div>' +
+                '</div>' +
+                
+                (aiReason ? '<div class="mb-4 p-3.5 bg-gradient-to-r from-gray-50 to-white rounded-lg border-l-4 ' + (company.is_dragon ? 'border-amber-500' : (listType === 'local' ? 'border-red-500' : 'border-indigo-500')) + ' shadow-sm">' +
+                    '<div class="flex items-center gap-1.5 mb-1.5"><span class="text-[14px]">💡</span><span class="text-[12px] font-extrabold text-gray-800 tracking-widest">小贾研判</span></div>' +
+                    '<p class="text-[13px] text-gray-700 leading-relaxed font-medium text-justify">' + aiReason + '</p>' +
+                '</div>' : '') +
+                
+                '<div class="flex flex-wrap gap-1.5 mb-3.5 mt-1.5">' +
+                    (eventType ? '<span class="px-2 py-0.5 text-[10px] font-semibold rounded shadow-sm ' + eventStyle + '">' + eventType + '</span>' : '') +
+                    sectorsHtml +
+                '</div>' +
+                
+                (articleTitle ? '<div class="mb-2 text-[14px] font-bold text-gray-800 leading-snug">' + articleTitle + '</div>' : '') +
+                (eventDesc ? '<div class="mb-3 text-[13px] text-gray-600 leading-relaxed text-justify">' + eventDesc + '</div>' : '') +
+                
+                '<div class="flex items-center gap-2 mt-4 pt-3 border-t border-gray-100">' +
+                    '<button onclick="window.open(\'' + aiqichaUrl + '\', \'_blank\')" class="py-1.5 px-4 bg-gray-50 text-gray-600 rounded-lg text-[11px] font-bold hover:bg-gray-100 border border-gray-200 transition-colors flex items-center justify-center gap-1"><span>🏢</span><span>工商信息</span></button>' +
+                    (company.link ? '<button onclick="window.open(\'' + company.link + '\', \'_blank\')" class="py-1.5 px-4 bg-red-50 text-red-600 rounded-lg text-[11px] font-bold hover:bg-red-100 border border-red-200 transition-colors flex items-center justify-center gap-1"><span>📰</span><span>原文来源</span></button>' : '') +
+                '</div>' +
+            '</div>';
+        }
+
+
+        // ============================================
+        // 视图渲染器
+        // ============================================
+        var Views = {
+            home: function(data) {
+                var todaySummary = data.summary.today;
+                var top3 = todaySummary.top3 || [];
+                var updates = data.recent_updates || [];
+                var negCount = todaySummary.negative_count || 0;
+                var todayNegatives = todaySummary.today_negatives || []; 
+                
+                var updateHtml = '';
+                if (updates.length > 0) {
+                    var latest = updates[0];
+                    updateHtml = '<div class="mb-4 bg-white px-3 py-2.5 rounded-xl shadow-sm border border-orange-100 flex items-center justify-between animate-fade-in"><div class="flex items-center gap-2"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span></span><span class="text-[12px] font-bold text-orange-600">' + latest.title + '</span></div><span class="text-[11px] text-gray-500 truncate max-w-[60%]">' + latest.highlight + '</span></div>';
+                }
+                
+                var negHtml = '';
+                if (todayNegatives.length > 0) {
+                    negHtml = '<div class="mb-6"><div class="flex items-center justify-between mb-3 px-1"><h2 class="text-[15px] font-extrabold text-red-600 tracking-tight flex items-center gap-1.5">🚨 今日重点风险排查</h2></div>' +
+                        todayNegatives.map(function(item) { return renderNegativeCard(item, false); }).join('') +
+                        '</div>';
+                }
+                
+                // 🌟 新增：主页顶部看板 4 栏黄金均分排版
+                return '<div class="animate-fade-in">' +
+                    updateHtml +
+                    '<div class="bg-gradient-to-br from-[#FF6B35] to-[#FF8C61] rounded-2xl p-5 text-white mb-6 shadow-md">' +
+                        '<div class="flex items-center justify-between mb-5"><div class="flex items-center gap-1.5"><span class="text-lg">⚡️</span><span class="text-sm font-extrabold tracking-wide">最新雷达快报</span></div><div class="text-[11px] font-bold bg-white/20 px-2.5 py-1 rounded-md">' + data.today + '</div></div>' +
+                        '<div class="flex justify-between items-center px-1">' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + todaySummary.total_companies + '</div><div class="text-[10px] font-medium opacity-90 mt-1.5">发现企业</div></div>' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black text-yellow-100">' + (todaySummary.milestone_count || 0) + '</div><div class="text-[10px] font-bold opacity-100 mt-1.5">重点领域进展</div></div>' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black">' + todaySummary.financing_count + '</div><div class="text-[10px] font-medium opacity-90 mt-1.5">融资/IPO</div></div>' +
+                            '<div class="flex flex-col items-center"><div class="text-2xl font-black ' + (negCount > 0 ? 'text-red-100' : '') + '">' + negCount + '</div><div class="text-[10px] font-medium opacity-90 mt-1.5 flex items-center justify-center gap-0.5">' + (negCount > 0 ? '🚨 ' : '') + '风险预警</div></div>' +
+                        '</div>' +
+                    '</div>' +
+                    
+                    negHtml + 
+                    
+                    '<div class="mb-6"><div class="flex items-center justify-between mb-4 px-1"><h2 class="text-[15px] font-extrabold text-gray-800 tracking-tight flex items-center gap-1.5">🏆 重点情报精读</h2><span class="text-xs text-gray-400">滑动直阅</span></div>' +
+                    (top3.length > 0 ? top3.map(function(company, index) { return renderCompanyCard(company, index + 1, false); }).join('') :
+                        '<div class="text-center py-12 bg-white rounded-2xl shadow-sm border border-gray-50"><span class="text-5xl mb-3 block opacity-30">📭</span><p class="text-gray-400 text-sm font-medium">今日雷达暂无捕获</p></div>') +
+                    '</div>' +
+                '</div>';
+            },
+            
+            today: function(data, date) {
+                var targetDate = date || data.today;
+                var companies = data.targets || [];
+                var negatives = data.negatives || []; 
+                companies.sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
+                
+                var html = '<div class="animate-fade-in">' +
+                    '<div class="flex items-center justify-between mb-5 px-1">' +
+                        '<div><h2 class="text-[18px] font-extrabold text-gray-800 tracking-tight">📰 完整情报池</h2><p class="text-[11px] text-gray-500 font-medium mt-1">' + targetDate + ' · 共收录 ' + (companies.length + negatives.length) + ' 份深度研报</p></div>' +
+                    '</div>';
+                    
+                if (negatives.length > 0) {
+                    html += '<div class="mb-6">' +
+                        '<h3 class="text-[13px] font-extrabold text-red-600 mb-3 flex items-center gap-1.5 px-1"><span class="text-base">🚨</span> 风险与负面排雷 (' + negatives.length + ')</h3>' +
+                        '<div class="space-y-4">' +
+                        negatives.map(function(item) { return renderNegativeCard(item, false); }).join('') +
+                        '</div></div>';
+                }
+
+                html += '<div>' +
+                    (negatives.length > 0 && companies.length > 0 ? '<h3 class="text-[13px] font-extrabold text-gray-800 mb-3 px-1 flex items-center gap-1.5"><span class="text-base">✨</span> 高潜企业动态 (' + companies.length + ')</h3>' : '') +
+                    '<div class="space-y-5">' +
+                    (companies.length > 0 ? companies.map(function(company, index) { return renderCompanyCard(company, index + 1, false); }).join('') :
+                        '<div class="text-center py-16 bg-white rounded-2xl shadow-sm"><span class="text-5xl mb-4 block opacity-30">☕️</span><p class="text-gray-400 text-sm font-medium">这天没有企业动态，休息一下吧</p></div>') +
+                    '</div></div>';
+                    
+                html += '</div>';
+                return html;
+            },
+            
+            calendar: function(data) {
+                var availableDates = data.available_dates || [];
+                var today = data.today;
+                var now = new Date(today.replace(/-/g, '/'));
+                var year = now.getFullYear();
+                var month = now.getMonth();
+                var firstDay = new Date(year, month, 1);
+                var lastDay = new Date(year, month + 1, 0);
+                var startDay = firstDay.getDay();
+                startDay = startDay === 0 ? 7 : startDay;
+                
+                var dateMap = {};
+                for (var i = 0; i < availableDates.length; i++) {
+                    dateMap[availableDates[i].date] = JSON.parse(JSON.stringify(availableDates[i])); 
+                }
+                
+                var weeklyNegatives = data.weekly_negatives || [];
+                for (var n = 0; n < weeklyNegatives.length; n++) {
+                    var negDate = weeklyNegatives[n].date;
+                    if (negDate) {
+                        if (!dateMap[negDate]) {
+                            dateMap[negDate] = { date: negDate, count: 0, hasData: true, negative_count: 0 };
+                        }
+                        dateMap[negDate].negative_count = (dateMap[negDate].negative_count || 0) + 1;
+                    }
+                }
+                
+                var calendarDays = [];
+                for (var j = 1; j < startDay; j++) { calendarDays.push({ type: 'empty' }); }
+                for (var day = 1; day <= lastDay.getDate(); day++) {
+                    var dateStr = year + '-' + String(month + 1).padStart(2, '0') + '-' + String(day).padStart(2, '0');
+                    var dateInfo = dateMap[dateStr];
+                    calendarDays.push({
+                        type: 'day', day: day, date: dateStr,
+                        hasData: !!dateInfo, count: dateInfo ? dateInfo.count : 0,
+                        hasHighScore: dateInfo ? dateInfo.has_high_score : false,
+                        negativeCount: dateInfo ? (dateInfo.negative_count || 0) : 0,
+                        isToday: dateStr === today
+                    });
+                }
+                
+                var weekDays = ['一', '二', '三', '四', '五', '六', '日'];
+                var monthPrefix = year + '-' + String(month + 1).padStart(2, '0');
+                var monthDays = 0, monthCompanies = 0;
+                for (var k = 0; k < availableDates.length; k++) {
+                    if (availableDates[k].date.indexOf(monthPrefix) === 0) {
+                        monthDays++; monthCompanies += availableDates[k].count;
+                    }
+                }
+                
+                return '<div class="animate-fade-in">' +
+                    '<div class="mb-4 px-1"><h2 class="text-xl font-extrabold text-gray-800 tracking-tight">🗓️ 发现日历</h2><p class="text-[11px] text-gray-500 font-medium mt-0.5">' + year + '年' + (month + 1) + '月</p></div>' +
+                    '<div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-4">' +
+                        '<div class="grid grid-cols-7 gap-1 mb-2">' + weekDays.map(function(d) { return '<div class="text-center text-[11px] font-bold text-gray-400 py-1">' + d + '</div>'; }).join('') + '</div>' +
+                        '<div class="grid grid-cols-7 gap-1.5">' + calendarDays.map(function(cell) {
+                            if (cell.type === 'empty') return '<div class="aspect-square"></div>';
+                            
+                            var isClickable = cell.hasData;
+                            var cellTag = isClickable ? 'button' : 'div';
+                            var cellClick = isClickable ? 'onclick="Router.navigate(\'/today?date=' + cell.date + '\')"' : '';
+                            
+                            var cellClass = 'relative aspect-square rounded-xl flex flex-col items-center justify-center text-sm transition-all ';
+                            if (isClickable) cellClass += 'active:scale-[0.85] cursor-pointer hover:shadow-sm ';
+                            
+                            var negativeBadge = cell.negativeCount > 0 ? '<span class="absolute top-[3px] right-[3px] flex h-1.5 w-1.5"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span><span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-red-500"></span></span>' : '';
+                            
+                            if (cell.isToday) cellClass += 'bg-gradient-to-br from-orange-400 to-orange-500 text-white font-bold shadow-md ';
+                            else if (cell.hasData) cellClass += cell.hasHighScore ? 'bg-red-50 text-red-600 font-bold border border-red-200 ' : 'bg-blue-50 text-blue-600 border border-blue-100 ';
+                            else cellClass += 'bg-gray-50 text-gray-300 ';
+                            
+                            return '<' + cellTag + ' ' + cellClick + ' class="' + cellClass + '">' +
+                                negativeBadge +
+                                '<span class="text-[15px]">' + cell.day + '</span>' +
+                                (cell.hasData ? '<span class="text-[9px] mt-0.5 font-medium">' + cell.count + '家</span>' : '') +
+                            '</' + cellTag + '>';
+                        }).join('') + '</div>' +
+                    '</div>' +
+                    
+                    '<div class="flex items-center justify-center gap-4 px-1 mb-6"><span class="flex items-center gap-1 text-[10px] font-medium text-gray-500"><span class="w-2 h-2 rounded-full bg-red-500 shadow-[0_0_2px_rgba(239,68,68,0.8)]"></span> 含风险预警</span><span class="flex items-center gap-1 text-[10px] font-medium text-gray-500"><span class="w-2.5 h-2.5 rounded-sm bg-red-50 border border-red-200"></span> 含高分精选</span></div>' +
+                    
+                    '<div class="grid grid-cols-2 gap-3 mb-4">' +
+                        '<div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex items-center gap-3"><div class="w-10 h-10 rounded-xl bg-purple-50 flex items-center justify-center text-purple-600 text-lg">📈</div><div><div class="text-xl font-black text-gray-800">' + monthDays + '<span class="text-xs font-normal text-gray-400 ml-1">天</span></div><div class="text-[10px] text-gray-500 font-medium mt-0.5">本月收录天数</div></div></div>' +
+                        '<div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex items-center gap-3"><div class="w-10 h-10 rounded-xl bg-pink-50 flex items-center justify-center text-pink-600 text-lg">🏢</div><div><div class="text-xl font-black text-gray-800">' + monthCompanies + '<span class="text-xs font-normal text-gray-400 ml-1">家</span></div><div class="text-[10px] text-gray-500 font-medium mt-0.5">本月扫描总数</div></div></div>' +
+                    '</div>' +
+                '</div>';
+            },
+            
+            weekly: function(data, availableWeeks) {
+                var isIndependent = (data.year !== undefined && data.week !== undefined);
+                
+                var weekId = isIndependent ? (data.year + '-W' + data.week) : (data.summary && data.summary.week ? data.summary.week.week_id : '未知归档');
+                var totalCompanies = isIndependent ? (data.summary.total_companies || 0) : (data.summary && data.summary.week ? data.summary.week.total_companies : 0);
+                var finCount = isIndependent ? (data.summary.financing_events || 0) : (data.summary && data.summary.week ? data.summary.week.financing_count || 0 : 0);
+                var ipoCount = isIndependent ? (data.summary.ipo_events || 0) : (data.summary && data.summary.week ? data.summary.week.ipo_count || 0 : 0);
+                
+                // 🌟 新增里程碑统计
+                var milestoneCount = isIndependent 
+                    ? (data.summary.milestone_events !== undefined ? data.summary.milestone_events : (data.summary.milestone_count || 0)) 
+                    : (data.summary && data.summary.week ? data.summary.week.milestone_count || 0 : 0);
+                
+                var top10 = isIndependent ? (data.top10 || []) : (data.weekly_top10 || []);
+                var rawSectors = isIndependent ? (data.sector_distribution || {}) : (data.summary && data.summary.week ? data.summary.week.sector_distribution || data.summary.week.top_sectors || [] : []);
+                var topSectors = normalizeSectors(rawSectors);
+                var colors = ['from-red-400 to-orange-500', 'from-orange-400 to-amber-500', 'from-blue-400 to-cyan-500', 'from-cyan-400 to-teal-500', 'from-green-400 to-emerald-500', 'from-purple-400 to-pink-500', 'from-gray-400 to-gray-500'];
+                
+                var weeklyNegatives = isIndependent ? (data.negatives || data.weekly_negatives || []) : (data.weekly_negatives || []);
+                
+                if (weeklyNegatives.length === 0 && window.RadarData.manifest.weekly_negatives && window.RadarData.manifest.weekly_negatives.length > 0) {
+                    if (weekId === window.RadarData.manifest.current_week) {
+                        weeklyNegatives = window.RadarData.manifest.weekly_negatives;
+                    }
+                }
+                
+                var weeklyNegCount = isIndependent 
+                    ? (data.summary.negative_events !== undefined ? data.summary.negative_events : weeklyNegatives.length)
+                    : (data.summary && data.summary.week && data.summary.week.negative_count !== undefined ? data.summary.week.negative_count : weeklyNegatives.length);
+                
+                var weekOptions = generateWeekOptions(availableWeeks, weekId);
+                var selectorHtml = '<div class="relative inline-block ml-2">' +
+                    '<select class="absolute inset-0 w-full h-full opacity-0" onchange="Router.navigate(\'/weekly?week=\' + this.value)">' +
+                    weekOptions +
+                    '</select>' +
+                    '<div class="flex items-center gap-1 bg-white/60 px-2 py-0.5 rounded border border-gray-200 text-gray-600 shadow-sm active:bg-gray-100 transition-colors">' +
+                    '<span class="text-[11px] font-bold">' + weekId + '</span><span class="text-[8px]">▼</span>' +
+                    '</div></div>';
+                
+                return '<div class="animate-fade-in">' +
+                    '<div class="mb-4 px-1 flex items-center justify-between">' + 
+                        '<div><h2 class="text-[18px] font-extrabold text-gray-800 tracking-tight">📊 周期趋势</h2><div class="mt-1.5 flex items-center"><p class="text-[11px] text-gray-500 font-medium">归档区间: </p>' + selectorHtml + '</div></div>' +
+                    '</div>' +
+                    
+                    // 🌟 3+2 黄金分割布局
+                    '<div class="bg-gradient-to-br from-[#764ba2] to-[#667eea] rounded-2xl p-5 text-white mb-6 shadow-md">' +
+                        '<div class="text-[10px] font-bold opacity-70 mb-5 tracking-widest uppercase">Weekly Summary</div>' +
+                        '<div class="flex flex-wrap justify-around gap-y-6 px-1">' +
+                            '<div class="flex flex-col items-center w-[30%]"><div class="text-2xl font-black">' + totalCompanies + '</div><div class="text-[10px] opacity-80 mt-1">发现企业</div></div>' +
+                            '<div class="flex flex-col items-center w-[30%]"><div class="text-2xl font-black text-yellow-100">' + milestoneCount + '</div><div class="text-[10px] opacity-90 mt-1 font-bold">重点领域进展</div></div>' +
+                            '<div class="flex flex-col items-center w-[30%]"><div class="text-2xl font-black">' + (finCount + ipoCount) + '</div><div class="text-[10px] opacity-80 mt-1">融资/IPO</div></div>' +
+                            '<div class="w-full h-px bg-white/10 my-0.5 rounded-full"></div>' +
+                            '<div class="flex flex-col items-center w-[45%]"><div class="text-2xl font-black">' + topSectors.length + '</div><div class="text-[10px] opacity-80 mt-1">活跃赛道</div></div>' +
+                            '<div class="flex flex-col items-center w-[45%]"><div class="text-2xl font-black ' + (weeklyNegCount > 0 ? 'text-red-200' : '') + '">' + weeklyNegCount + '</div><div class="text-[10px] opacity-80 mt-1 flex items-center gap-0.5">' + (weeklyNegCount > 0 ? '🚨 ' : '') + '风险预警</div></div>' +
+                        '</div>' +
+                    '</div>' +
+                    
+                    (weeklyNegatives.length > 0 ? '<div class="mb-6"><div class="flex items-center justify-between mb-3 px-1"><h3 class="text-[14px] font-extrabold text-red-600 tracking-tight flex items-center gap-1.5">🚨 本周风险目录</h3></div><div class="space-y-0">' +
+                        weeklyNegatives.map(function(item) { return renderNegativeCard(item, true); }).join('') +
+                    '</div></div>' : '') +
+                    
+                    (topSectors.length > 0 ? '<div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-6"><div class="mb-4"><h3 class="text-[13px] font-extrabold text-gray-800 mb-1 flex items-center gap-1.5"><span class="text-base">🔥</span> 前沿领域热度趋势</h3><div class="text-[9px] text-gray-400">* 注：含跨界属性企业多重计次</div></div><div class="space-y-3.5">' +
+                        topSectors.map(function(sector, index) {
+                            var maxCount = topSectors[0].count; 
+                            var percentage = Math.round((sector.count / maxCount) * 100) || 0;
+                            var barColor = colors[index] || 'from-gray-300 to-gray-400';
+                            return '<div><div class="flex items-center justify-between mb-1.5"><span class="text-xs font-bold text-gray-700">' + (index + 1) + '. ' + sector.sector + '</span><span class="text-[10px] font-medium text-gray-500">' + sector.count + '家</span></div>' +
+                                '<div class="h-1.5 bg-gray-100 rounded-full overflow-hidden"><div class="h-full bg-gradient-to-r ' + barColor + ' rounded-full" style="width: ' + percentage + '%"></div></div></div>';
+                        }).join('') + '</div></div>' : '') +
+                        
+                    '<div class="mb-6"><div class="flex items-center justify-between mb-3 px-1"><h3 class="text-[14px] font-extrabold text-gray-800 tracking-tight flex items-center gap-1.5">🎖️ 本周精选榜单索引</h3></div>' +
+                    (top10.length > 0 ? top10.map(function(company, index) { return renderCompanyCard(company, index + 1, true); }).join('') :
+                        '<div class="text-center py-10 bg-white rounded-2xl shadow-sm"><span class="text-4xl mb-3 block opacity-50">📭</span><p class="text-gray-400 text-sm font-medium">本周暂无榜单数据</p></div>') +
+                    '</div>' +
+                '</div>';
+            },
+            
+            briefing: function(data, availableBriefings, briefType) {
+                var reportId = data.summary.report_id || '未知期数';
+                var analysisText = data.summary.analysis_text || '';
+                var hangzhouTop = data.hangzhou_top || [];
+                var nationalTop = data.national_top || [];
+                var startDate = data.summary.start_date || '';
+                
+                var aiInsight = data.summary.ai_insight;
+                var hzInsight = '本地企业在重点领域取得扎实进展，产业爆发潜能显现，值得进行重点观察。';
+                var natInsight = '全国范围内底层技术与前沿跨界融合加速，标杆企业在关键首创技术上实现领跑，对本市具有高度参考意义。';
+                
+                if (aiInsight && typeof aiInsight === 'object') {
+                    if (aiInsight.hz_insight) hzInsight = aiInsight.hz_insight;
+                    if (aiInsight.nat_insight) natInsight = aiInsight.nat_insight;
+                } else if (aiInsight && typeof aiInsight === 'string') {
+                    hzInsight = aiInsight;
+                    natInsight = "详见本地观察研判综合。";
+                } else if (!aiInsight && analysisText) {
+                    var parts = analysisText.split(/<b>【深度研判】<\/b>\s*/);
+                    if (parts.length > 1) {
+                        hzInsight = parts[1].split('<br>')[0];
+                        natInsight = "基于全网动态分析生成。";
+                    }
+                }
+                
+                var totalComp = data.summary.total_companies || 0;
+                var finEvents = data.summary.financing_events || 0;
+                var mileEvents = data.summary.milestone_events || 0;
+                var endDate = data.summary.end_date || '';
+                var dateStr = (startDate && endDate) ? (startDate + ' 至 ' + endDate) : '';
+                
+                var typeOptions = '<option value="weekly"' + (briefType === 'weekly' ? ' selected' : '') + '>周简报</option>' +
+                                  '<option value="monthly"' + (briefType === 'monthly' ? ' selected' : '') + '>月度报</option>';
+                                  
+                var timeOptions = '';
+                for (var i = 0; i < availableBriefings.length; i++) {
+                    var bId = availableBriefings[i];
+                    var isSelected = bId === reportId ? ' selected' : '';
+                    timeOptions += '<option value="' + bId + '"' + isSelected + '>' + bId + (i===0?' (最新)':'') + '</option>';
+                }
+
+                return '<div class="animate-fade-in pb-10">' +
+                    '<div class="mb-3 pt-2">' +
+                        '<div class="flex justify-between items-start mb-3 px-1">' +
+                            '<div>' +
+                                '<h2 class="text-[20px] font-bold text-red-700 tracking-widest leading-none mb-2" style="font-family: STZhongsong, \'SimSun\', serif;">寻龙雷达·简报</h2>' +
+                                '<div class="flex items-center gap-2 text-[12px] text-gray-800 font-bold tracking-tight mb-0.5">' +
+                                    '<span>第 ' + reportId + ' 期</span>' +
+                                    '<span class="text-gray-400 font-normal">(' + dateStr + ')</span>' +
+                                '</div>' +
+                            '</div>' +
+                            
+                            '<div class="flex flex-col items-end gap-1.5 pt-0.5">' +
+                                '<div class="flex items-center gap-1.5">' +
+                                    '<div class="relative inline-block">' +
+                                        '<select class="absolute inset-0 w-full h-full opacity-0" onchange="Router.navigate(\'/briefing?type=\' + this.value + \'&id=\')">' + typeOptions + '</select>' +
+                                        '<div class="flex items-center gap-0.5 text-red-700 font-bold bg-red-50 px-1.5 py-0.5 rounded border border-red-100 text-[10px]"><span>' + (briefType==='weekly'?'周简报':'月报') + '</span><span>▼</span></div>' +
+                                    '</div>' +
+                                    '<div class="relative inline-block">' +
+                                        '<select class="absolute inset-0 w-full h-full opacity-0" onchange="Router.navigate(\'/briefing?type=' + briefType + '&id=\' + this.value)">' + timeOptions + '</select>' +
+                                        '<div class="flex items-center gap-0.5 text-gray-600 bg-gray-50 px-1.5 py-0.5 rounded border border-gray-200 text-[10px]"><span>' + reportId + '</span><span>▼</span></div>' +
+                                    '</div>' +
+                                '</div>' +
+                                '<div class="text-[10px] text-gray-400 tracking-tight text-right w-full" style="padding-top:2px;">全网重点企业监测信息 ' + totalComp + ' 起</div>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="h-[2px] w-full bg-red-600 mb-0.5"></div><div class="h-[1px] w-full bg-red-600 mb-3"></div>' +
+                        
+                        '<div class="mb-5">' +
+                            '<div class="bg-gray-50/70 rounded-lg py-3.5 px-3 border border-gray-100 shadow-sm">' +
+                                '<div class="flex items-stretch gap-2 mb-3">' +
+                                    '<div class="mt-0.5"><div class="bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded whitespace-nowrap shadow-sm border border-red-200">📍杭州观察</div></div>' +
+                                    '<div class="text-[13px] text-gray-700 leading-relaxed text-justify flex-1" style="font-family: \'FangSong\', \'STFangsong\', serif;">' +
+                                        hzInsight +
+                                    '</div>' +
+                                '</div>' +
+                                '<div class="flex items-stretch gap-2">' +
+                                    '<div class="mt-0.5"><div class="bg-indigo-100 text-indigo-700 text-[10px] font-bold px-1.5 py-0.5 rounded whitespace-nowrap shadow-sm border border-indigo-200">🌐全国标杆</div></div>' +
+                                    '<div class="text-[13px] text-gray-700 leading-relaxed text-justify flex-1" style="font-family: \'FangSong\', \'STFangsong\', serif;">' +
+                                        natInsight +
+                                    '</div>' +
+                                '</div>' +
+                            '</div>' +
+                        '</div>' +
+                        
+                        (hangzhouTop.length > 0 ? '<div class="mb-6"><div class="flex items-center mb-3"><div class="bg-red-600 text-white text-[12px] font-bold px-3 py-1 rounded-r-full shadow-sm">📍 杭州观察</div></div><div class="space-y-4 px-1">' +
+                            hangzhouTop.map(function(company, index) { return renderBriefingCard(company, index + 1, 'local'); }).join('') +
+                        '</div></div>' : '') +
+                        
+                        (nationalTop.length > 0 ? '<div class="mb-6"><div class="flex items-center mb-3"><div class="bg-indigo-600 text-white text-[12px] font-bold px-3 py-1 rounded-r-full shadow-sm">🌐 全国标杆</div></div><div class="space-y-4 px-1">' +
+                            nationalTop.map(function(company, index) { return renderBriefingCard(company, index + 1, 'national'); }).join('') +
+                        '</div></div>' : '') +
+                        
+                    '</div>' +
+                '</div>';
+            },
+            
+            loading: function() {
+                return '<div class="animate-fade-in flex flex-col items-center justify-center py-32"><div class="w-10 h-10 border-4 border-indigo-100 border-t-indigo-500 rounded-full animate-spin mb-4"></div><p class="text-gray-400 text-[10px] font-bold tracking-widest uppercase">Syncing Data...</p></div>';
+            },
+            
+            error: function(msg) {
+                return '<div class="animate-fade-in text-center py-16 bg-red-50 rounded-2xl border border-red-100"><span class="text-5xl mb-4 block">⚠️</span><h2 class="text-base font-bold text-red-600 mb-2">雷达链路异常</h2><p class="text-red-400 text-xs mb-6 px-4">' + msg + '</p><button onclick="location.reload()" class="px-6 py-2.5 bg-red-500 text-white text-xs font-bold rounded-xl active:scale-95 transition-transform shadow-sm">重新连接</button></div>';
+            }
+        };
+
+        var Router = {
+            getRoute: function() {
+                var hash = window.location.hash.slice(1) || '/';
+                return hash.split('?')[0];
+            },
+            getQueryParams: function() {
+                var hash = window.location.hash || '';
+                var parts = hash.split('?');
+                var queryString = parts[1] || '';
+                var params = {};
+                if (queryString) {
+                    var pairs = queryString.split('&');
+                    for (var i = 0; i < pairs.length; i++) {
+                        var pair = pairs[i].split('=');
+                        params[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
+                    }
+                }
+                return params;
+            },
+            updateNavActive: function() {
+                var route = this.getRoute();
+                var navItems = document.querySelectorAll('.nav-item');
+                for (var i = 0; i < navItems.length; i++) {
+                    var item = navItems[i];
+                    var itemRoute = item.getAttribute('data-route');
+                    if (itemRoute === route || (route === '' && itemRoute === '/')) {
+                        item.classList.add('active');
+                    } else {
+                        item.classList.remove('active');
+                    }
+                }
+            },
+            navigate: function(route) {
+                window.location.hash = route;
+            }
+        };
+
+        function loadDailyData(date) {
+            return new Promise(function(resolve, reject) {
+                fetch('./data/daily/' + date + '.json')
+                    .then(function(response) {
+                        if (!response.ok) throw new Error('未能获取 ' + date + ' 的雷达扫描数据');
+                        return response.json();
+                    })
+                    .then(function(data) { resolve(data); })
+                    .catch(function(error) { reject(error); });
+            });
+        }
+        
+        function loadWeeklyData(weekId) {
+            return new Promise(function(resolve, reject) {
+                fetch('./data/weekly/' + weekId + '.json')
+                    .then(function(response) {
+                        if (!response.ok) throw new Error('未能获取 ' + weekId + ' 的周报归档数据');
+                        return response.json();
+                    })
+                    .then(function(data) { resolve(data); })
+                    .catch(function(error) { reject(error); });
+            });
+        }
+        
+        function loadBriefingData(briefType, briefId) {
+            return new Promise(function(resolve, reject) {
+                fetch('./data/briefing/' + briefType + '_' + briefId + '.json')
+                    .then(function(response) {
+                        if (!response.ok) throw new Error('未能获取 ' + briefId + ' 的简报数据');
+                        return response.json();
+                    })
+                    .then(function(data) { resolve(data); })
+                    .catch(function(error) { reject(error); });
+            });
+        }
+
+        function renderPage() {
+            var appContent = document.getElementById('app-content');
+            Router.updateNavActive();
+            
+            var route = Router.getRoute();
+            var params = Router.getQueryParams();
+            
+            if (!params.target) {
+                window.scrollTo(0, 0);
+            }
+            
+            if (!window.RadarData.loaded) {
+                appContent.innerHTML = Views.loading();
+                return;
+            }
+            if (window.RadarData.error) {
+                appContent.innerHTML = Views.error(window.RadarData.error.message);
+                return;
+            }
+            
+            var manifest = window.RadarData.manifest;
+            
+            switch (route) {
+                case '/':
+                    appContent.innerHTML = Views.home(manifest);
+                    break;
+                case '/today':
+                    var targetDate = params.date || manifest.today;
+                    appContent.innerHTML = Views.loading();
+                    loadDailyData(targetDate).then(function(dailyData) {
+                        appContent.innerHTML = Views.today(dailyData, targetDate);
+                        
+                        if (params.target) {
+                            setTimeout(function() {
+                                var targetEl = document.getElementById(params.target);
+                                if (targetEl) {
+                                    targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                    
+                                    targetEl.classList.add('target-highlight');
+                                    setTimeout(function() {
+                                        targetEl.classList.remove('target-highlight');
+                                    }, 2500);
+                                }
+                            }, 200);
+                        }
+                    }).catch(function(error) {
+                        appContent.innerHTML = Views.error(error.message);
+                    });
+                    break;
+                case '/calendar':
+                    appContent.innerHTML = Views.calendar(manifest);
+                    break;
+                case '/weekly':
+                    var targetWeek = params.week || manifest.current_week;
+                    var availableWeeks = manifest.available_weeks || [];
+                    
+                    if (targetWeek === manifest.current_week && manifest.summary && manifest.summary.week) {
+                        appContent.innerHTML = Views.weekly(manifest, availableWeeks);
+                    } else {
+                        appContent.innerHTML = Views.loading();
+                        loadWeeklyData(targetWeek).then(function(weeklyData) {
+                            appContent.innerHTML = Views.weekly(weeklyData, availableWeeks);
+                        }).catch(function(error) {
+                            appContent.innerHTML = Views.error('未找到该历史归档记录：' + error.message);
+                        });
+                    }
+                    break;
+                case '/briefing':
+                    var briefType = params.type || 'weekly';
+                    var briefingsBlock = manifest.briefings || {};
+                    var availableBriefings = briefingsBlock[briefType] || [];
+                    var targetBriefId = params.id || availableBriefings[0];
+                    
+                    if (!targetBriefId) {
+                        appContent.innerHTML = Views.error('暂无简报数据');
+                        break;
+                    }
+                    
+                    appContent.innerHTML = Views.loading();
+                    loadBriefingData(briefType, targetBriefId).then(function(briefData) {
+                        appContent.innerHTML = Views.briefing(briefData, availableBriefings, briefType);
+                    }).catch(function(error) {
+                        appContent.innerHTML = Views.error('未找到该简报数据：' + error.message);
+                    });
+                    break;
+                default:
+                    appContent.innerHTML = Views.error('页面未找到');
+            }
+        }
+
+        function initApp() {
+            var appContent = document.getElementById('app-content');
+            
+            fetch('./data/manifest.json?t=' + Date.now())
+                .then(function(response) {
+                    if (!response.ok) throw new Error('雷达配置加载失败，请检查网络');
+                    return response.json();
+                })
+                .then(function(manifestData) {
+                    window.RadarData.manifest = manifestData;
+                    
+                    return loadDailyData(manifestData.today).then(function(dailyData) {
+                        var targets = dailyData.targets || [];
+                        var negatives = dailyData.negatives || [];
+                        
+                        if (targets.length > 0 || negatives.length > 0) {
+                            var finCount = 0;
+                            var milestoneCountLocal = 0;
+                            var milestoneTypes = ['技术突破', '重磅发布', '战略合作', '并购', '资质获批'];
+                            
+                            for(var i=0; i<targets.length; i++) {
+                                if(targets[i].event_type === '融资' || targets[i].event_type === 'IPO') finCount++;
+                                if(milestoneTypes.indexOf(targets[i].event_type) !== -1) milestoneCountLocal++;
+                            }
+                            var sorted = targets.slice().sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
+                            
+                            window.RadarData.manifest.summary.today = {
+                                date: manifestData.today,
+                                total_companies: targets.length,
+                                negative_count: negatives.length,
+                                financing_count: finCount,
+                                milestone_count: (manifestData.summary && manifestData.summary.today && manifestData.summary.today.milestone_count !== undefined) ? manifestData.summary.today.milestone_count : milestoneCountLocal,
+                                top3: sorted.slice(0, 5),
+                                today_negatives: negatives 
+                            };
+                            
+                            if (window.RadarData.manifest.recent_updates && window.RadarData.manifest.recent_updates.length > 0) {
+                                if (window.RadarData.manifest.recent_updates[0].title.indexOf('0') !== -1) {
+                                    window.RadarData.manifest.recent_updates[0] = {
+                                        title: '截获 ' + targets.length + ' 份高潜情报',
+                                        highlight: sorted.length > 0 ? '最高分标的: ' + sorted[0].company : (negatives.length > 0 ? '警告：今日检出 ' + negatives.length + ' 处风险' : '')
+                                    };
+                                }
+                            }
+                            
+                            var targetDateObj = null;
+                            window.RadarData.manifest.available_dates = window.RadarData.manifest.available_dates || [];
+                            for(var j=0; j<window.RadarData.manifest.available_dates.length; j++) {
+                                if(window.RadarData.manifest.available_dates[j].date === manifestData.today) {
+                                    targetDateObj = window.RadarData.manifest.available_dates[j];
+                                    break;
+                                }
+                            }
+                            
+                            if (targetDateObj) {
+                                targetDateObj.count = targets.length;
+                                targetDateObj.has_high_score = sorted[0] && sorted[0].score >= 80;
+                                targetDateObj.max_score = sorted[0] ? sorted[0].score : 0;
+                                targetDateObj.negative_count = negatives.length; 
+                            } else {
+                                window.RadarData.manifest.available_dates.push({
+                                    date: manifestData.today,
+                                    count: targets.length,
+                                    has_high_score: sorted[0] && sorted[0].score >= 80,
+                                    max_score: sorted[0] ? sorted[0].score : 0,
+                                    negative_count: negatives.length, 
+                                    week_id: manifestData.current_week || ''
+                                });
+                            }
+                        }
+                    }).catch(function(err) {
+                        console.log("后台静默核对失败，走默认缓存配置");
+                    });
+                })
+                .then(function() {
+                    window.RadarData.loaded = true;
+                    window.addEventListener('hashchange', renderPage);
+                    renderPage();
+                })
+                .catch(function(error) {
+                    window.RadarData.error = error;
+                    appContent.innerHTML = Views.error(error.message);
+                });
+        }
+
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
