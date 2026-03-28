@@ -1031,13 +1031,22 @@
         function initApp() {
             var appContent = document.getElementById('app-content');
             
-            fetch('./data/manifest.json?t=' + Date.now())
-                .then(function(response) {
+            Promise.all([
+                fetch('./data/manifest.json?t=' + Date.now()).then(function(response) {
                     if (!response.ok) throw new Error('雷达配置加载失败，请检查网络');
                     return response.json();
+                }),
+                fetch('./data/briefings_manifest.json?t=' + Date.now()).then(function(response) {
+                    return response.ok ? response.json() : { weekly: [], monthly: [] };
+                }).catch(function() {
+                    return { weekly: [], monthly: [] };
                 })
-                .then(function(manifestData) {
-                    window.RadarData.manifest = manifestData;
+            ])
+            .then(function(results) {
+                var manifestData = results[0];
+                var briefingsData = results[1];
+                manifestData.briefings = briefingsData;
+                window.RadarData.manifest = manifestData;
                     
                     return loadDailyData(manifestData.today).then(function(dailyData) {
                         var targets = dailyData.targets || [];
