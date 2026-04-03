@@ -597,12 +597,19 @@
                 return html;
             },
             
-            calendar: function(data) {
+            calendar: function(data, targetMonth) {
                 var availableDates = data.available_dates || [];
                 var today = data.today;
-                var now = new Date(today.replace(/-/g, '/'));
-                var year = now.getFullYear();
-                var month = now.getMonth();
+                var year, month;
+                if (targetMonth && /^\d{4}-\d{2}$/.test(targetMonth)) {
+                    var parts = targetMonth.split('-');
+                    year = parseInt(parts[0], 10);
+                    month = parseInt(parts[1], 10) - 1;
+                } else {
+                    var now = new Date(today.replace(/-/g, '/'));
+                    year = now.getFullYear();
+                    month = now.getMonth();
+                }
                 var firstDay = new Date(year, month, 1);
                 var lastDay = new Date(year, month + 1, 0);
                 var startDay = firstDay.getDay();
@@ -647,8 +654,30 @@
                     }
                 }
                 
+                var prevMonth = month === 0 ? 12 : month;
+                var prevYear = month === 0 ? year - 1 : year;
+                var nextMonth = month === 11 ? 1 : month + 2;
+                var nextYear = month === 11 ? year + 1 : year;
+                var prevMonthStr = prevYear + '-' + String(prevMonth).padStart(2, '0');
+                var nextMonthStr = nextYear + '-' + String(nextMonth).padStart(2, '0');
+                var currentMonthStr = year + '-' + String(month + 1).padStart(2, '0');
+                var todayNow = new Date(today.replace(/-/g, '/'));
+                var todayMonthStr = todayNow.getFullYear() + '-' + String(todayNow.getMonth() + 1).padStart(2, '0');
+                var isCurrentMonth = (currentMonthStr === todayMonthStr);
+                
+                // Check if there's data in prev/next months
+                var hasPrevData = false, hasNextData = false;
+                for (var ad = 0; ad < availableDates.length; ad++) {
+                    if (availableDates[ad].date.indexOf(prevMonthStr) === 0) hasPrevData = true;
+                    if (availableDates[ad].date.indexOf(nextMonthStr) === 0) hasNextData = true;
+                }
+                
                 return '<div class="animate-fade-in">' +
-                    '<div class="mb-4 px-1"><h2 class="text-xl font-extrabold text-gray-800 tracking-tight">🗓️ 发现日历</h2><p class="text-[11px] text-gray-500 font-medium mt-0.5">' + year + '年' + (month + 1) + '月</p></div>' +
+                    '<div class="mb-4 px-1 flex items-center justify-between">' +
+                        '<button onclick="Router.navigate(\'/calendar?month=' + prevMonthStr + '\')" class="w-9 h-9 rounded-xl flex items-center justify-center ' + (hasPrevData ? 'bg-white shadow-sm border border-gray-200 text-gray-600 active:scale-90' : 'bg-gray-50 text-gray-300 cursor-default') + ' transition-all"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg></button>' +
+                        '<div class="text-center"><h2 class="text-xl font-extrabold text-gray-800 tracking-tight">🗓️ 发现日历</h2><p class="text-[11px] text-gray-500 font-medium mt-0.5">' + year + '年' + (month + 1) + '月' + (!isCurrentMonth ? ' <span class="text-[10px] text-primary cursor-pointer underline" onclick="Router.navigate(\'/calendar\')">回到本月</span>' : '') + '</p></div>' +
+                        '<button onclick="Router.navigate(\'/calendar?month=' + nextMonthStr + '\')" class="w-9 h-9 rounded-xl flex items-center justify-center ' + (hasNextData ? 'bg-white shadow-sm border border-gray-200 text-gray-600 active:scale-90' : 'bg-gray-50 text-gray-300 cursor-default') + ' transition-all"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></button>' +
+                    '</div>' +
                     '<div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-4">' +
                         '<div class="grid grid-cols-7 gap-1 mb-2">' + weekDays.map(function(d) { return '<div class="text-center text-[11px] font-bold text-gray-400 py-1">' + d + '</div>'; }).join('') + '</div>' +
                         '<div class="grid grid-cols-7 gap-1.5">' + calendarDays.map(function(cell) {
@@ -983,7 +1012,7 @@
                     });
                     break;
                 case '/calendar':
-                    appContent.innerHTML = Views.calendar(manifest);
+                    appContent.innerHTML = Views.calendar(manifest, params.month);
                     break;
                 case '/weekly':
                     var targetWeek = params.week || manifest.current_week;
