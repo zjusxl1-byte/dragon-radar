@@ -1,15 +1,318 @@
 {
   "date": "2026-05-18",
-  "targets": [],
+  "targets": [
+    {
+      "company": "宇树科技",
+      "score": 110,
+      "event_type": "重大里程碑",
+      "sector": "人形机器人/具身智能",
+      "core_tech": "全球首款量产版载人机甲发布",
+      "location": "杭州",
+      "is_hangzhou": true,
+      "source": "公众号",
+      "quality_review": {
+        "keep": true,
+        "reason": "宇树科技发布全球首款量产载人机甲，具身智能重大里程碑，符合硬科技赛道。"
+      }
+    },
+    {
+      "company": "浙江灵巧智能科技有限公司",
+      "score": 110,
+      "event_type": "资质获批",
+      "sector": "具身智能",
+      "core_tech": "国家人工智能应用中试基地（具身智能）入驻企业",
+      "official_evaluation": "国家人工智能应用中试基地（具身智能）入驻企业",
+      "location": "杭州",
+      "is_hangzhou": true,
+      "source": "公众号",
+      "quality_review": {
+        "keep": true,
+        "reason": "入驻国家级具身智能中试基地，资质获批，杭州具身智能核心企业。"
+      }
+    },
+    {
+      "title": "具身智能“国家队”落子！下一个机器人时代，看杭州",
+      "company": "杭州宇树科技有限公司",
+      "score": 110,
+      "sector": "具身智能机器人",
+      "financing": "",
+      "source": "浙商杂志",
+      "location": "杭州",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/mYjwKRb0b4H5COrSHmhwvg",
+      "article_title": "具身智能“国家队”落子！下一个机器人时代，看杭州",
+      "event_desc": "宇树科技创始人王兴兴在中试基地揭牌大会上透露，其H1人形机器人再次刷新世界纪录，奔跑速度达到10m/s，有望在三个月内超越博尔特。该突破依托杭州完善的具身智能生态与供应链优势，展现宇树在机器人本体运动控制上的领先地位，加速人形机器人在工业、服务等场景的落地。",
+      "insight": "宇树科技在机器人运动性能上持续突破，巩固其全球领先地位。杭州具身智能生态完善，有助于加速机器人商业化落地。",
+      "is_national_star": false,
+      "quality_review": {
+        "keep": true,
+        "reason": "H1人形机器人再破世界纪录，运动速度10m/s，技术突破。"
+      }
+    },
+    {
+      "title": "前苹果工程师跨界骨传导耳机，独创技术路线，打破头部企业专利垄断｜早起看早期",
+      "company": "苏州索迩电子技术有限公司",
+      "score": 70,
+      "sector": "消费电子/智能硬件",
+      "financing": "A+轮，数千万元人民币，正海资本领投",
+      "source": "36 氪",
+      "location": "苏州",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/3Y9z8BxjTN_GjNvQYoCuHQ",
+      "article_title": "前苹果工程师跨界骨传导耳机，独创技术路线，打破头部企业专利垄断｜早起看早期",
+      "event_desc": "骨传导耳机品牌Mojawa母公司索迩电子完成数千万元A+轮融资，由正海资本领投，资金将用于拓展海外线下渠道和推进AI智能化研发。公司独创宽频振动技术，避开传统声学专利封锁，定位中高端专业运动人群，已入驻山姆及北美主流KA平台。",
+      "insight": "公司通过底层技术平移实现差异化，绕过头部品牌专利壁垒；从触觉反馈跨界骨传导，并持续向AI健康监测延伸，有望在运动智能穿戴赛道建立独特壁垒。",
+      "is_national_star": true,
+      "quality_review": {
+        "keep": true,
+        "reason": "骨传导耳机技术突破，A+轮融资，前苹果工程师创业。"
+      }
+    },
+    {
+      "title": "载合卡车完成10亿元级战略融资，开创车云一体AI重卡全新赛道",
+      "company": "载合卡车",
+      "score": 80,
+      "sector": "新能源智能重卡",
+      "financing": "10亿元级战略融资，投资方包括BV百度风投、苏创投、陆石投资、地平线、创元集团、万安科技、中国工商银行、中国建设银行等，形成“股权+债权+产业”三位一体闭环。",
+      "source": "36 氪",
+      "location": "",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/MKrPKDoYzfK1nADbRd4NJw",
+      "article_title": "载合卡车完成10亿元级战略融资，开创车云一体AI重卡全新赛道",
+      "event_desc": "载合卡车近日宣布累计完成10亿元级融资，资方包括BV百度风投、苏创投、陆石投资等VC，地平线、创元集团、万安科技等产业方，以及中国工商银行、中国建设银行等五大国有银行，形成“股权+债权+产业”三位一体的资本战略闭环。资金将用于深化车云一体AI重卡技术研发、全新一代旗舰车型量产及商业化布局。",
+      "insight": "载合卡车以“车云一体”架构突破单车智能物理极限，通过正向研发与数据闭环构建长期壁垒，其技术路线与产业化落地能力已获资本与头部客户双重验证，有望在万亿级无人驾驶重卡赛道占据先机。",
+      "is_national_star": true,
+      "quality_review": {
+        "keep": true,
+        "reason": "AI重卡完成10亿级融资，车云一体技术，战略产业资本加持。"
+      }
+    },
+    {
+      "title": "首发| 半导体顶流，联手投了上海量子新锐",
+      "company": "上海矩量光启",
+      "score": 80,
+      "sector": "量子计算",
+      "financing": "天使轮2亿元，投资方：和利资本、钧山资本、中芯聚源、翌昕投资、千乘资本、德同资本等",
+      "source": "投资界",
+      "location": "上海",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/LSyW6kh2trRtOx2b9zSLDA",
+      "article_title": "首发| 半导体顶流，联手投了上海量子新锐",
+      "event_desc": "本轮由和利资本、钧山资本联合领投，中芯聚源、翌昕投资等产业方跟投，老股东千乘资本、德同资本及知名半导体设备方超额追加。资金将用于硅基衬底超导量子计算路线研发，依托成熟半导体产线，推动量子芯片、整机到应用的全栈技术体系落地。",
+      "insight": "矩量光启是国内首家依托工业级半导体产线研发的超导量子计算企业，团队兼具前沿技术与工程化思维，受到多家半导体产业资本青睐，有望推进量子计算实用化。",
+      "is_national_star": true,
+      "quality_review": {
+        "keep": true,
+        "reason": "量子计算初创天使轮2亿，硅基超导路线，半导体产业资本领投。"
+      }
+    },
+    {
+      "title": "独家| 全球销量第一，极壳融资1.2亿美元",
+      "company": "极壳科技（Hypershell）",
+      "score": 80,
+      "sector": "消费级外骨骼/智能硬件",
+      "financing": "B+轮5000万美元，由蚂蚁集团和美团龙珠领投，Sofina、Granite Asia跟投；B轮系列共1.2亿美元。此前投资方包括IDG资本、红杉中国、Monolith、五源资本、光合创投、绿洲资本、德迅投资等。",
+      "source": "投资界",
+      "location": "",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/v5iT_Q2NskEr-eq5Unnrig",
+      "article_title": "独家| 全球销量第一，极壳融资1.2亿美元",
+      "event_desc": "消费级外骨骼创业公司极壳科技宣布完成5000万美元B+轮融资，由蚂蚁集团和美团龙珠领投，Sofina、Granite Asia跟投，高鹄资本担任独家财务顾问。本轮融资使B轮系列融资总额达1.2亿美元。资金将用于技术研发、产品迭代及全球市场拓展。此前，极壳已获IDG资本、红杉中国、五源资本等机构多轮投资。",
+      "insight": "极壳科技通过将外骨骼技术从工业医疗领域引入消费市场，以千元级价格和轻量化设计打开全球市场，验证了人类增强赛道的商业可行性。其技术壁垒和品牌先发优势明显，有望在外骨骼万亿赛道中持续领跑。",
+      "is_national_star": true,
+      "quality_review": {
+        "keep": true,
+        "reason": "消费级外骨骼B+轮5000万美元，全球销量第一，赛道领先。"
+      }
+    },
+    {
+      "title": "开盘大涨82%，山东80后清华博士造工业机器人，刚刚敲钟",
+      "company": "浙江翼菲智能科技股份有限公司",
+      "score": 80,
+      "sector": "工业机器人",
+      "financing": "IPO前已完成多轮融资，投资方包括玉环市财政局、宽带资本、峰瑞资本、清控银杏、常春藤资本、春华资本等，Pre-IPO轮投后估值36.04亿元。IPO发行价30.5港元，募资总额未披露。",
+      "source": "创业邦",
+      "location": "浙江台州玉环市",
+      "event_type": "IPO",
+      "link": "https://mp.weixin.qq.com/s/XQQkyTiOLATKi3tGDSvgvA",
+      "article_title": "开盘大涨82%，山东80后清华博士造工业机器人，刚刚敲钟",
+      "event_desc": "2026年5月18日，翼菲科技在港交所主板上市，发行价30.5港元，首日开盘价54.65港元，市值约137亿港元。公司专注并联、SCARA、六轴等轻工业机器人，客户包括比亚迪、宁德时代等。上市前完成多轮融资，引入玉环市财政局等股东，此次IPO助力公司扩大产能及全球化布局。",
+      "insight": "翼菲科技卡位轻工业机器人赛道，产品矩阵完善，已切入比亚迪等头部客户供应链，并布局人形机器人，但行业竞争激烈，仍需观察盈利改善与海外拓展进展。",
+      "is_national_star": true,
+      "quality_review": {
+        "keep": true,
+        "reason": "工业机器人企业港交所IPO，刚上市，符合关注范畴。"
+      }
+    },
+    {
+      "title": "温州90后投资人下场创业，专攻“替人玩命”的机器狗，2个月融4轮",
+      "company": "具微科技",
+      "score": 110,
+      "sector": "具身智能/特种机器人",
+      "financing": "A轮（2026-01，近亿元，正强股份、壹连科技、鲁信创投）；A+轮（2026-02中，建元天华）；A++轮（2026-02下，滨州国投）；A+++轮（2026-04，数亿元，滨州国投、滨化股份联合领投）",
+      "source": "创业邦",
+      "location": "杭州",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/kRvsHD9PgB9gKMz_2LLqwA",
+      "article_title": "温州90后投资人下场创业，专攻“替人玩命”的机器狗，2个月融4轮",
+      "event_desc": "具微科技在2026年1月至4月间连续完成A、A+、A++、A+++四轮融资，投资方涵盖正强股份、壹连科技、鲁信创投、建元天华、滨州国投及全球化工巨头滨化股份，累计融资数亿元，估值达35亿元。资金将用于特种工业场景机器狗的量产、全球化布局及防磁防爆等核心技术迭代。",
+      "insight": "具微科技避开人形机器人红海，专攻电解铝、化工等特种高危场景，以“四防”技术构建壁垒，快速获得产业资本认可，体现了场景驱动的务实路径，具备商业化潜力。",
+      "is_national_star": false,
+      "quality_review": {
+        "keep": true,
+        "reason": "具身智能特种机器狗2个月内连融4轮，获产业资本认可。"
+      }
+    },
+    {
+      "title": "微元合成完成15亿元A+++轮融资；长裕集团登陆上交所，最新市值为313.25亿元丨全球投融资周报05.09-05.15",
+      "company": "Vbot 维他动力",
+      "score": 70,
+      "sector": "人工智能、具身智能",
+      "financing": "A轮，近5亿人民币",
+      "source": "创业邦",
+      "location": "",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/aLg9URjjvM1JM919353vgw",
+      "article_title": "微元合成完成15亿元A+++轮融资；长裕集团登陆上交所，最新市值为313.25亿元丨全球投融资周报05.09-05.15",
+      "event_desc": "Vbot维他动力完成近5亿人民币A轮融资，资金将用于产品研发、产线建设及市场拓展。公司致力于打造户外与室内两大场景的智能机器人，推动自主移动和自主操作技术的产品化落地。",
+      "insight": "Vbot维他动力凭借顶级车企高管背景和全栈自研能力，切入消费级具身智能赛道，有望在家庭场景实现技术落地，但面临供应链和市场验证的挑战。",
+      "is_national_star": true,
+      "quality_review": {
+        "keep": true,
+        "reason": "具身智能Vbot维他动力A轮近5亿，消费级机器人方向。"
+      }
+    },
+    {
+      "title": "张雪机车夺得第4冠；传蜜雪CEO朋友圈隔空回复黄仁勋；《给阿嬷的情书》进入2026年度票房榜前八；俞敏洪谈“新东方留不住人才”丨邦早报",
+      "company": "博银合创科技有限公司",
+      "score": 80,
+      "sector": "具身智能",
+      "financing": "Pre-A轮，近3亿元人民币，元禾辰坤领投，博原资本、博世创投追加，元禾控股等跟投",
+      "source": "创业邦",
+      "location": "",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/UFFy34Qyks4sj-T0RxQdtA",
+      "article_title": "张雪机车夺得第4冠；传蜜雪CEO朋友圈隔空回复黄仁勋；《给阿嬷的情书》进入2026年度票房榜前八；俞敏洪谈“新东方留不住人才”丨邦早报",
+      "event_desc": "博银合创是博世旗下博原资本与银河通用孵化的合资公司，专注工业具身智能领域，本轮融资将用于加速技术研发与规模化落地。",
+      "insight": "具身智能赛道持续吸引资本，产业资本与技术创企结合有望加速工业场景落地。",
+      "is_national_star": true,
+      "quality_review": {
+        "keep": true,
+        "reason": "博银合创完成近3亿Pre-A轮，工业具身智能，产业资本孵化。"
+      }
+    },
+    {
+      "title": "黄仁勋现身北京街头：逛南锣鼓巷，吃炸酱面喝蜜雪冰城；iPhone17 Pro系列全线下调1000元；洁丽雅家族被网友质疑“家族关系混乱”丨邦早报",
+      "company": "瑞意旭联",
+      "score": 80,
+      "sector": "脑机接口",
+      "financing": "近亿元Pre-A轮，诺庾资本、维力医疗领投，楚昌基金、橡栎投资跟投，老股东比邻星投资、苏创投-天使母基金持续加注",
+      "source": "创业邦",
+      "location": "",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/8tXEh6LfAQBd8UvnFCA_rg",
+      "article_title": "黄仁勋现身北京街头：逛南锣鼓巷，吃炸酱面喝蜜雪冰城；iPhone17 Pro系列全线下调1000元；洁丽雅家族被网友质疑“家族关系混乱”丨邦早报",
+      "event_desc": "瑞意旭联完成近亿元Pre-A轮融资，由诺庾资本、维力医疗领投，楚昌基金、橡栎投资跟投，老股东比邻星投资、苏创投-天使母基金持续加注。资金将用于推进植入式双向脑机接口全栈技术落地，加速脑脊接口应用场景的量产和临床进度等。",
+      "insight": "瑞意旭联聚焦植入式双向脑机接口，技术门槛高，临床进展顺利，Pre-A轮融资获产业资本加持，有望在神经接口领域占据先机。",
+      "is_national_star": true,
+      "quality_review": {
+        "keep": true,
+        "reason": "脑机接口瑞意旭联Pre-A轮近亿元，双向植入式全栈技术。"
+      }
+    },
+    {
+      "title": "临平再“闯”上海！这次拼什么？",
+      "company": "肇观电子",
+      "score": 100,
+      "sector": "人工智能",
+      "financing": "",
+      "source": "临平发布",
+      "location": "杭州市临平区",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/2sd8MqHp-C5AtrTNePYqPw",
+      "article_title": "临平再“闯”上海！这次拼什么？",
+      "event_desc": "肇观电子、深明奥思等5个重大产业项目签约落户杭州临平经开区，企业看重临平算力市场、政策红利与产业生态。中翰盛泰与上海交大深化产学研合作，常春藤等6家基金达成战略合作。",
+      "insight": "临平通过精准对接上海优势赛道，以‘上海研发、临平转化’模式吸引科创企业落户，肇观电子等企业的加入强化了临平在人工智能等领域的产业集群效应，有望加速技术迭代与产业化。",
+      "is_national_star": false,
+      "quality_review": {
+        "keep": true,
+        "reason": "肇观电子等签约落户临平，AI芯片企业强化产业集群。"
+      }
+    }
+  ],
   "negatives": [],
   "excluded_count": {
-    "wechat": 0,
-    "web_search": 5,
-    "total": 5
+    "wechat": 192,
+    "web_search": 0,
+    "total": 192
   },
   "quality_review": {
-    "status": "skipped",
-    "reason": "no targets and no negatives",
-    "timestamp": "2026-05-18T11:44:02.751988"
+    "status": "completed",
+    "timestamp": "2026-05-18T12:13:02.441704",
+    "original_targets_count": 21,
+    "kept_targets_count": 13,
+    "removed_targets_count": 8,
+    "duplicate_targets_count": 0,
+    "original_negatives_count": 1,
+    "kept_negatives_count": 0,
+    "removed_negatives_count": 1,
+    "rescued_to_targets_count": 0,
+    "removed_targets_items": [
+      {
+        "company": "智身科技",
+        "score": 85,
+        "sector": "具身智能",
+        "reason": "缺乏具体技术突破描述，信息不充分，难以判断价值。"
+      },
+      {
+        "company": "碧澄能源",
+        "score": 65,
+        "sector": "新能源",
+        "reason": "无实质事件描述，且评分低（65），倾向剔除。"
+      },
+      {
+        "company": "碧澄能源",
+        "score": 65,
+        "sector": "绿色能源",
+        "reason": "投资事件发生于2025年6月，已逾30天时效，旧闻新发。"
+      },
+      {
+        "company": "IREN",
+        "score": 70,
+        "sector": "数据中心/AI基础设施",
+        "reason": "IREN为海外成熟数据中心运营商，非早期/成长期硬科技企业。"
+      },
+      {
+        "company": "弘信电子",
+        "score": 70,
+        "sector": "算力基础设施",
+        "reason": "弘信电子为已上市超3年成熟企业，非初创/成长期。"
+      },
+      {
+        "company": "Intros AI",
+        "score": 70,
+        "sector": "企业服务",
+        "reason": "收购发生于2025年7月，已超30天时效，旧闻。"
+      },
+      {
+        "company": "TSMC Arizona",
+        "score": 70,
+        "sector": "半导体制造",
+        "reason": "台积电海外子公司，成熟半导体巨头，非早期/成长期。"
+      },
+      {
+        "company": "Marvell",
+        "score": 70,
+        "sector": "半导体/AI芯片",
+        "reason": "Marvell为上市多年半导体公司，非早期/成长期硬科技企业。"
+      }
+    ],
+    "removed_negatives_items": [
+      {
+        "company": "杭州泰潼商贸有限公司",
+        "reason": "消费鞋服品牌，非硬科技企业，且营销争议不构成核心关注点。"
+      }
+    ],
+    "rescued_items": []
   }
 }
