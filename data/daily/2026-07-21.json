@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-21",
+  "targets": [],
+  "negatives": [],
+  "excluded_count": {
+    "wechat": 67,
+    "web_search": 0,
+    "total": 67
+  },
+  "quality_review": {
+    "status": "completed",
+    "timestamp": "2026-07-21T02:05:20.569417",
+    "original_targets_count": 4,
+    "kept_targets_count": 0,
+    "removed_targets_count": 4,
+    "duplicate_targets_count": 0,
+    "original_negatives_count": 0,
+    "kept_negatives_count": 0,
+    "removed_negatives_count": 0,
+    "rescued_to_targets_count": 0,
+    "removed_targets_items": [
+      {
+        "company": "深圳一目科技有限公司",
+        "score": 70,
+        "sector": "触觉传感器/具身智能",
+        "reason": "E轮融资且估值超百亿，属于成熟期企业，不符合早期/成长期定位，且触觉传感器赛道虽硬但阶段不匹配。"
+      },
+      {
+        "company": "北京逐际动力科技有限公司",
+        "score": 80,
+        "sector": "具身智能机器人",
+        "reason": "Pre-IPO轮融资，属于上市前成熟阶段，不符合天使轮到C轮的早期/成长期定位。"
+      },
+      {
+        "company": "半导体技术有限公司",
+        "score": 70,
+        "sector": "AI算力网络互联",
+        "reason": "公司名称‘半导体技术有限公司’过于泛化，与事件描述中的‘奇异摩尔’实体不一致，违反第四层实体一致性校验。"
+      },
+      {
+        "company": "苏州三星电子电脑有限公司",
+        "score": 70,
+        "sector": "半导体/晶圆代工",
+        "reason": "三星为全球科技巨头，估值远超千亿，触发第零层黑名单一票否决。"
+      }
+    ],
+    "removed_negatives_items": [],
+    "rescued_items": []
+  }
+}
