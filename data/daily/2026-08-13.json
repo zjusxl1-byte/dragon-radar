@@ -1,0 +1,40 @@
+{
+  "date": "2026-08-13",
+  "targets": [],
+  "negatives": [],
+  "excluded_count": {
+    "wechat": 10,
+    "web_search": 23,
+    "total": 33
+  },
+  "quality_review": {
+    "status": "completed",
+    "timestamp": "2026-08-13T02:06:13.672097",
+    "original_targets_count": 2,
+    "kept_targets_count": 0,
+    "removed_targets_count": 2,
+    "duplicate_targets_count": 0,
+    "original_negatives_count": 0,
+    "kept_negatives_count": 0,
+    "removed_negatives_count": 0,
+    "duplicate_negatives_count": 0,
+    "rescued_to_targets_count": 0,
+    "removed_targets_items": [
+      {
+        "company": "深圳奥松机器人科技有限公司",
+        "score": 50,
+        "sector": "具身智能/机器人",
+        "reason": "报道主体为自变量机器人，与company字段不一致，属实体错配，须剔除。"
+      },
+      {
+        "company": "杭州临平交通建设有限公司",
+        "score": 50,
+        "sector": "建筑/基建",
+        "reason": "传统基建施工企业，非科技类早期/成长期标的，无融资或技术突破信号。"
+      }
+    ],
+    "removed_negatives_items": [],
+    "duplicate_negatives_items": [],
+    "rescued_items": []
+  }
+}
