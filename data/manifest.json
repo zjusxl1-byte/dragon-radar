@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-13T15:34:27",
-  "today": "2026-08-13",
+  "generated_at": "2026-08-14T07:45:18",
+  "today": "2026-08-14",
   "current_week": "2026-W33",
   "available_weeks": [
     "2026-W33",
@@ -31,37 +31,143 @@
   ],
   "summary": {
     "today": {
-      "date": "2026-08-13",
-      "total_companies": 0,
+      "date": "2026-08-14",
+      "total_companies": 3,
       "financing_count": 0,
       "ipo_count": 0,
-      "milestone_count": 0,
-      "negative_count": 0,
-      "top3": []
+      "milestone_count": 3,
+      "negative_count": 2,
+      "top3": [
+        {
+          "title": "刚刚，DeepSeek V4 Pro正式版发布，多项对标Fable 5",
+          "company": "杭州深度求索人工智能基础技术研究有限公司",
+          "score": 100,
+          "sector": "人工智能/大模型",
+          "financing": "",
+          "source": "量子位",
+          "location": "",
+          "event_type": "重磅发布",
+          "link": "https://mp.weixin.qq.com/s/-iEzAqsgHWwiBq462SPkFg",
+          "article_title": "刚刚，DeepSeek V4 Pro正式版发布，多项对标Fable 5",
+          "event_desc": "DeepSeek V4 Pro正式版发布，API平台更新为DeepSeek-V4-Pro-0813。Benchmark显示其在HLE、Terminal Bench、Cybergym、DeepSWE等Agent任务上接近或反超Fable 5。价格方面，百万tokens输入3元、命中缓存0.025元、输出6元，基本与此前Pro预览版一致。文章认为V4 Pro不再仅主打性价比，而是冲击SOTA王冠，国产开源阵营出现紧逼闭源的超级模型。",
+          "insight": "DeepSeek V4 Pro在保持低价的同时将Agent/Coding能力提升至逼近Fable 5，可能进一步挤压闭源模型定价空间，强化国产开源模型竞争力。",
+          "is_national_star": false,
+          "event_time_evidence": {
+            "status": "date_unknown_recent_report",
+            "description": "事件日期未明确；报道日为 2026-08-13",
+            "event_date": null,
+            "observed_date": "2026-08-13",
+            "review_required": true
+          },
+          "selection_recommendation": "keep",
+          "selection_reason": "文章明确写出DeepSeek V4 Pro正式版发布且API更新为DeepSeek-V4-Pro-0813，多项Benchmark在Agent任务上逼近或反超Fable 5，属于重要技术/产品发布。",
+          "agent_review": {
+            "decision": "keep",
+            "reviewed_at": "2026-08-14T02:15:00+08:00",
+            "reviewer": "agent",
+            "reason": "杭州本地AI大模型企业，V4 Pro正式版发布，多项Benchmark逼近Fable 5，保持低价同时提升Agent/Coding能力。"
+          },
+          "quality_review": {
+            "keep": true,
+            "reason": "DeepSeek V4 Pro正式版发布,API平台更新至DeepSeek-V4-Pro-0813,杭州大模型底座关键发布,产业风向标意义显著"
+          }
+        },
+        {
+          "title": "吉利远程的十年“埋伏” ，赌对了吗",
+          "company": "远程新能源商用车",
+          "score": 90,
+          "sector": "新能源商用车",
+          "financing": "",
+          "source": "涌金楼",
+          "location": "杭州",
+          "event_type": "重磅发布",
+          "link": "https://mp.weixin.qq.com/s/QEoAZuPQKjzyxFB6_0Knbg",
+          "article_title": "吉利远程的十年“埋伏” ，赌对了吗",
+          "event_desc": "远程新能源商用车第60万台——星瀚H欧洲版正式下线，成为全球首个在新能源商用车领域达到该规模量级的品牌。远程自2014年吉利筹建商用车集团、2016年品牌面世，历时十年完成从0到60万台跨越。依托吉利乘商协同战略，形成纯电、醇氢电动等多技术路线，完成重卡、轻卡、小微卡、LCV、客车五大产品线布局，累计申请专利4000余项。",
+          "insight": "远程凭借吉利乘商协同和醇氢电动差异化技术，在新能源轻卡及出口市场占据领先；但行业进入全生命周期运营效率比拼，甲醇基建仍是其规模化主要瓶颈。",
+          "is_national_star": false,
+          "event_time_evidence": {
+            "status": "date_unknown_recent_report",
+            "description": "事件日期未明确；报道日为 2026-08-12",
+            "event_date": null,
+            "observed_date": "2026-08-12",
+            "review_required": true
+          },
+          "selection_recommendation": "keep",
+          "selection_reason": "远程成为全球首个新能源商用车达60万台量级品牌，2026上半年出口同比增长123%居行业第一，新能源轻卡1-5月以16.4%份额居榜首，显示龙头地位。",
+          "agent_review": {
+            "decision": "keep",
+            "reviewed_at": "2026-08-14T02:15:00+08:00",
+            "reviewer": "agent",
+            "reason": "杭州本地新能源商用车龙头，全球首个达60万台量级品牌，2026上半年出口同比增长123%，新能源轻卡市场份额16.4%居首。需修正公司名为远程新能源商用车股份有限公司。"
+          },
+          "quality_review": {
+            "keep": true,
+            "reason": "第60万台星瀚H欧洲版正式下线,全球首个新能源商用车达到该规模量级的品牌,杭州新能源商用车龙头实质进展"
+          }
+        },
+        {
+          "title": "中芯国际季度营收，首破30亿美元",
+          "company": "中芯国际集成电路制造有限公司",
+          "score": 50,
+          "sector": "半导体制造",
+          "financing": "",
+          "source": "半导体行业观察",
+          "location": "",
+          "event_type": "重磅发布",
+          "link": "https://mp.weixin.qq.com/s/5Fs_uwUXT0Kvh90QOlfnvg",
+          "article_title": "中芯国际季度营收，首破30亿美元",
+          "event_desc": "中芯国际2026年第二季销售收入30.056亿美元，首破30亿美元，环比增长约20%，毛利率25.3%；产能利用率升至93.7%，月产能增至109.65万片折合8英寸标准逻辑。中国区营收占比达90.2%，消费电子应用占比44.2%。公司预计三季度收入环比增长2%-4%，毛利率指引26%-28%，管理层认为AI产业推动与溢出效应将持续带来集成电路制造需求。",
+          "insight": "中芯国际季度营收首破30亿美元，产能利用率与毛利率同步提升，显示AI需求对本土晶圆代工拉动显著；但美国区收入占比降至9.2%，地缘影响仍存。",
+          "is_national_star": false,
+          "event_time_evidence": {
+            "status": "date_unknown_recent_report",
+            "description": "事件日期未明确；报道日为 2026-08-13",
+            "event_date": null,
+            "observed_date": "2026-08-13",
+            "review_required": true
+          },
+          "selection_recommendation": "keep",
+          "selection_reason": "公司2026年第二季销售收入30.056亿美元，首次突破30亿美元，毛利率25.3%，产能利用率93.7%，中国区营收占比90.2%。",
+          "agent_review": {
+            "decision": "keep",
+            "reviewed_at": "2026-08-14T02:15:00+08:00",
+            "reviewer": "agent",
+            "reason": "全国行业标杆，半导体制造龙头，Q2营收首破30亿美元，产能利用率93.7%，AI需求拉动显著。"
+          },
+          "quality_review": {
+            "keep": true,
+            "reason": "中芯国际2026Q2销售收入30.056亿美元首破30亿,环比+20%,毛利率25.3%,产能利用率93.7%,AI需求拉动本土晶圆代工,全国行业标杆"
+          }
+        }
+      ]
     },
     "week": {
       "week_id": "2026-W33",
-      "total_companies": 16,
-      "total_days": 4,
+      "total_companies": 19,
+      "total_days": 5,
       "financing_count": 5,
       "ipo_count": 5,
-      "milestone_count": 3,
-      "negative_count": 0,
+      "milestone_count": 6,
+      "negative_count": 2,
       "top_sectors": [
         {
           "sector": "具身智能",
           "count": 2
         },
         {
-          "sector": "航空制造",
+          "sector": "半导体制造",
           "count": 1
         },
         {
-          "sector": "人形机器人",
+          "sector": "人工智能/大模型",
           "count": 1
         }
       ],
       "sector_distribution": {
+        "半导体制造": 1,
+        "人工智能/大模型": 1,
+        "新能源商用车": 1,
         "航空制造": 1,
         "人形机器人": 1,
         "新能源/固态电池": 1,
@@ -81,6 +187,13 @@
     }
   },
   "available_dates": [
+    {
+      "date": "2026-08-14",
+      "count": 3,
+      "has_high_score": true,
+      "max_score": 100,
+      "week_id": "2026-W33"
+    },
     {
       "date": "2026-08-13",
       "count": 0,
@@ -1326,6 +1439,41 @@
       "date": "2026-08-12"
     },
     {
+      "title": "刚刚，DeepSeek V4 Pro正式版发布，多项对标Fable 5",
+      "company": "杭州深度求索人工智能基础技术研究有限公司",
+      "score": 100,
+      "sector": "人工智能/大模型",
+      "financing": "",
+      "source": "量子位",
+      "location": "",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/-iEzAqsgHWwiBq462SPkFg",
+      "article_title": "刚刚，DeepSeek V4 Pro正式版发布，多项对标Fable 5",
+      "event_desc": "DeepSeek V4 Pro正式版发布，API平台更新为DeepSeek-V4-Pro-0813。Benchmark显示其在HLE、Terminal Bench、Cybergym、DeepSWE等Agent任务上接近或反超Fable 5。价格方面，百万tokens输入3元、命中缓存0.025元、输出6元，基本与此前Pro预览版一致。文章认为V4 Pro不再仅主打性价比，而是冲击SOTA王冠，国产开源阵营出现紧逼闭源的超级模型。",
+      "insight": "DeepSeek V4 Pro在保持低价的同时将Agent/Coding能力提升至逼近Fable 5，可能进一步挤压闭源模型定价空间，强化国产开源模型竞争力。",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-08-13",
+        "event_date": null,
+        "observed_date": "2026-08-13",
+        "review_required": true
+      },
+      "selection_recommendation": "keep",
+      "selection_reason": "文章明确写出DeepSeek V4 Pro正式版发布且API更新为DeepSeek-V4-Pro-0813，多项Benchmark在Agent任务上逼近或反超Fable 5，属于重要技术/产品发布。",
+      "agent_review": {
+        "decision": "keep",
+        "reviewed_at": "2026-08-14T02:15:00+08:00",
+        "reviewer": "agent",
+        "reason": "杭州本地AI大模型企业，V4 Pro正式版发布，多项Benchmark逼近Fable 5，保持低价同时提升Agent/Coding能力。"
+      },
+      "quality_review": {
+        "keep": true,
+        "reason": "DeepSeek V4 Pro正式版发布,API平台更新至DeepSeek-V4-Pro-0813,杭州大模型底座关键发布,产业风向标意义显著"
+      },
+      "date": "2026-08-14"
+    },
+    {
       "title": "白马湖实验室固态电池研发取得突破",
       "company": "浙江省白马湖实验室有限公司",
       "score": 100,
@@ -1382,6 +1530,41 @@
         "reason": "昆仑芯正推进A+H上市，估值500亿美元，为国产AI芯片里程碑级资本事件，企业处于成长期，技术赛道与国家战略对齐。"
       },
       "date": "2026-08-12"
+    },
+    {
+      "title": "吉利远程的十年“埋伏” ，赌对了吗",
+      "company": "远程新能源商用车",
+      "score": 90,
+      "sector": "新能源商用车",
+      "financing": "",
+      "source": "涌金楼",
+      "location": "杭州",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/QEoAZuPQKjzyxFB6_0Knbg",
+      "article_title": "吉利远程的十年“埋伏” ，赌对了吗",
+      "event_desc": "远程新能源商用车第60万台——星瀚H欧洲版正式下线，成为全球首个在新能源商用车领域达到该规模量级的品牌。远程自2014年吉利筹建商用车集团、2016年品牌面世，历时十年完成从0到60万台跨越。依托吉利乘商协同战略，形成纯电、醇氢电动等多技术路线，完成重卡、轻卡、小微卡、LCV、客车五大产品线布局，累计申请专利4000余项。",
+      "insight": "远程凭借吉利乘商协同和醇氢电动差异化技术，在新能源轻卡及出口市场占据领先；但行业进入全生命周期运营效率比拼，甲醇基建仍是其规模化主要瓶颈。",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-08-12",
+        "event_date": null,
+        "observed_date": "2026-08-12",
+        "review_required": true
+      },
+      "selection_recommendation": "keep",
+      "selection_reason": "远程成为全球首个新能源商用车达60万台量级品牌，2026上半年出口同比增长123%居行业第一，新能源轻卡1-5月以16.4%份额居榜首，显示龙头地位。",
+      "agent_review": {
+        "decision": "keep",
+        "reviewed_at": "2026-08-14T02:15:00+08:00",
+        "reviewer": "agent",
+        "reason": "杭州本地新能源商用车龙头，全球首个达60万台量级品牌，2026上半年出口同比增长123%，新能源轻卡市场份额16.4%居首。需修正公司名为远程新能源商用车股份有限公司。"
+      },
+      "quality_review": {
+        "keep": true,
+        "reason": "第60万台星瀚H欧洲版正式下线,全球首个新能源商用车达到该规模量级的品牌,杭州新能源商用车龙头实质进展"
+      },
+      "date": "2026-08-14"
     },
     {
       "title": "两家清华系Token工厂在杭州贴身肉搏",
@@ -1460,72 +1643,85 @@
         "reason": "蚂蚁集团领投数亿元战略轮，戴盟推出全球首个触觉驱动物理交互脑，具身智能触觉全栈标杆，产业资本高度认可，具重大产业信号 | 已修正 company: 机器人科技有限公司 → 戴盟机器人"
       },
       "date": "2026-08-12"
-    },
-    {
-      "title": "宇树科技中签率，0.01809759%；苹果被曝探索无屏Apple Watch；Meta遭1.4万亿美元天价索赔；SK海力士回应“考虑出售重庆工厂”",
-      "company": "深圳诺因智能有限公司",
-      "score": 80,
-      "sector": "具身智能",
-      "financing": "天使++轮融资5亿元人民币，经纬创投领投，红点创投、商汤国香资本、华登科技、L2F光源创业者基金跟投",
-      "source": "创业邦",
-      "location": "",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/EZHTPFwRwaQ-awcR-yNl1w",
-      "article_title": "宇树科技中签率，0.01809759%；苹果被曝探索无屏Apple Watch；Meta遭1.4万亿美元天价索赔；SK海力士回应“考虑出售重庆工厂”",
-      "event_desc": "消费级具身智能大模型公司诺因智能宣布完成单笔5亿元人民币天使++轮融资。本轮融资由经纬创投领投，红点创投、商汤国香资本、华登科技、L2F光源创业者基金跟投。资金将重点投入更强泛化的具身大模型研发、GLOW生成式世界模型持续迭代，以及产品验证与量产提速。",
-      "insight": "具身智能赛道持续吸金，诺因智能聚焦消费级场景与生成式世界模型，有望在通用机器人落地中占据先机，但产品验证和规模化仍面临挑战。",
-      "is_national_star": true,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-08-11",
-        "event_date": null,
-        "observed_date": "2026-08-11",
-        "review_required": true
-      },
-      "selection_recommendation": "keep",
-      "selection_reason": "诺因智能为具身智能初创公司，完成5亿元天使++轮融资，资金将用于大模型研发与量产提速，赛道热度高且融资规模较大，具备早期跟踪价值。",
-      "quality_review": {
-        "keep": true,
-        "reason": "全国标杆，完成5亿元天使++轮融资，具身智能赛道热度高，融资规模大，事件有实质产业意义。"
-      },
-      "date": "2026-08-12"
-    },
-    {
-      "title": "晚点独家丨智谱 API 用户数近 700 万，新启用超 5 万块国产算力芯片",
-      "company": "北京智谱华章科技股份有限公司",
-      "score": 70,
-      "sector": "人工智能大模型",
-      "financing": "2025年7月智谱完成港股配售，募资超300亿港元，55%用于研发（算力采买与人才扩充）。",
-      "source": "晚点 LatePost",
-      "location": "",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/aKkypqNC79L1aGMiP9GhoA",
-      "article_title": "晚点独家丨智谱 API 用户数近 700 万，新启用超 5 万块国产算力芯片",
-      "event_desc": "智谱MaaS开放平台API用户近700万，较7月初增长约200万，含2.3万企业客户；建成1GW国产AI算力基础设施，超5万块国产算力芯片已启用；开发者产品ZCode上线1个月用户破百万；收购中科加禾强化Infra效率，推出高速版API。",
-      "insight": "编程场景需求爆发驱动ARR 15倍增长，智谱通过先进模型发布和国产算力基础设施缓解推理瓶颈，Infra效率优化成为差异化关键，但算力瓶颈和大厂追赶仍是长期挑战。",
-      "is_national_star": true,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-08-10",
-        "event_date": null,
-        "observed_date": "2026-08-10",
-        "review_required": true
-      },
-      "selection_recommendation": "keep",
-      "selection_reason": "智谱API用户近700万、新启用超5万块国产算力芯片、ARR增长15倍且收购中科加禾，显示商业化加速与基础设施突破，是国产大模型头部企业的重要进展。",
-      "quality_review": {
-        "keep": true,
-        "reason": "全国标杆，API用户近700万，启用5万块国产算力芯片，ARR大增，收购中科加禾，商业化与基础设施实质突破。 | 已修正 company: 唐杰直接持有北京智谱华章科技股份有限公司 → 北京智谱华章科技股份有限公司"
-      },
-      "date": "2026-08-12"
     }
   ],
-  "weekly_negatives": [],
+  "weekly_negatives": [
+    {
+      "title": "今早4点多，赶到西湖边排队！杭州“夏日限定”回归：10元/份，太值了！",
+      "company": "杭州茶厂有限公司",
+      "score": 50,
+      "sector": "文旅/公益",
+      "financing": "",
+      "source": "杭州发布",
+      "location": "杭州",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/j9Q9jroFPfefPm7rtQB0Bg",
+      "article_title": "今早4点多，赶到西湖边排队！杭州“夏日限定”回归：10元/份，太值了！",
+      "event_desc": "杭州西湖风景名胜区恢复西湖荷叶莲蓬爱心义卖，8月13日起工作日早上7点在柳浪闻莺微笑亭发号，8点半至9点凭号购买，每份10元含3个莲蓬和5张荷叶，每日限量70份，供应至8月下旬。义卖所得将统一捐赠给慈善机构。参与市民包括长期购买者，现场有音乐剧演员助阵。",
+      "insight": "该事件为西湖景区公益义卖，非商业公司或科技企业活动，无投资标的；可关注地方文旅品牌化运营价值。",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-08-13",
+        "event_date": null,
+        "observed_date": "2026-08-13",
+        "review_required": true
+      },
+      "selection_recommendation": "reject",
+      "selection_reason": "文章主体为西湖景区水域管理处组织的公益义卖，未出现任何公司工商注册名称，无商业企业事件，不符合寻龙雷达标的筛选条件。",
+      "agent_review": {
+        "decision": "reject",
+        "reviewed_at": "2026-08-14T02:15:00+08:00",
+        "reviewer": "agent",
+        "reason": "非企业主体事件，为西湖景区公益义卖活动，无商业企业事件。"
+      },
+      "quality_review": {
+        "keep": false,
+        "reason": "西湖荷叶莲蓬义卖活动,非企业事件,不构成高潜信号"
+      },
+      "date": "2026-08-14"
+    },
+    {
+      "title": "阿里云的新“算”盘",
+      "company": "信息科技有限公司",
+      "score": 50,
+      "sector": "智算中心/AI基础设施",
+      "financing": "",
+      "source": "涌金楼",
+      "location": "内蒙古乌兰察布",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/xjXi-Xt6tdVRBu4tSLvgHQ",
+      "article_title": "阿里云的新“算”盘",
+      "event_desc": "阿里云在乌兰察布发布CUBE 5.0新一代数据中心架构，实现供电、冷却、安防、智能化及消防五大系统全模块化，模块化率从30%提升至90%，交付工期由11个月缩短至100天。同等面积算力密度提升5至10倍，单位千瓦建设成本降低10%以上。该架构已获欧洲CE认证和东南亚产品准入，今年计划将模块化数据中心全球产能提升两倍以上，并筹备出海。",
+      "insight": "阿里云CUBE 5.0以90%模块化率和100天交付周期直击AIGC算力供给瓶颈，并已获欧洲及东南亚准入，显示其从技术迭代走向规模化出海，有望带动中国智算制造产业链。",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-08-12",
+        "event_date": null,
+        "observed_date": "2026-08-12",
+        "review_required": true
+      },
+      "selection_recommendation": "keep",
+      "selection_reason": "文中明确提到阿里云10日宣布今年计划将模块化数据中心全球产能提升两倍以上，且CUBE 5.0已获欧洲CE认证和东南亚产品准入，交付工期缩短至100天，属于重大技术发布与市场扩张信号。",
+      "agent_review": {
+        "decision": "reject",
+        "reviewed_at": "2026-08-14T02:15:00+08:00",
+        "reviewer": "agent",
+        "reason": "公司名不完整（信息科技有限公司），事件发生地内蒙古乌兰察布非杭州，不符合杭州本地企业或全国标杆.track标准。"
+      },
+      "quality_review": {
+        "keep": false,
+        "reason": "名称不完整,主体为阿里云乌兰察布数据中心发布,非杭州企业"
+      },
+      "date": "2026-08-14"
+    }
+  ],
   "recent_updates": [
     {
-      "date": "2026-08-13",
-      "title": "新增 0 家企业",
-      "highlight": "无"
+      "date": "2026-08-14",
+      "title": "新增 3 家企业",
+      "highlight": "杭州深度求索人工智能基础技术研究有限公司"
     }
   ]
 }
