@@ -9,7 +9,7 @@
     "financing_events": 8,
     "ipo_events": 6,
     "milestone_events": 11,
-    "negative_events": 5,
+    "negative_events": 0,
     "active_days": 7
   },
   "top10": [
@@ -306,144 +306,7 @@
       }
     }
   ],
-  "negatives": [
-    {
-      "title": "今早4点多，赶到西湖边排队！杭州“夏日限定”回归：10元/份，太值了！",
-      "company": "杭州茶厂有限公司",
-      "score": 50,
-      "sector": "文旅/公益",
-      "financing": "",
-      "source": "杭州发布",
-      "location": "杭州",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/j9Q9jroFPfefPm7rtQB0Bg",
-      "article_title": "今早4点多，赶到西湖边排队！杭州“夏日限定”回归：10元/份，太值了！",
-      "event_desc": "杭州西湖风景名胜区恢复西湖荷叶莲蓬爱心义卖，8月13日起工作日早上7点在柳浪闻莺微笑亭发号，8点半至9点凭号购买，每份10元含3个莲蓬和5张荷叶，每日限量70份，供应至8月下旬。义卖所得将统一捐赠给慈善机构。参与市民包括长期购买者，现场有音乐剧演员助阵。",
-      "insight": "该事件为西湖景区公益义卖，非商业公司或科技企业活动，无投资标的；可关注地方文旅品牌化运营价值。",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-08-13",
-        "event_date": null,
-        "observed_date": "2026-08-13",
-        "review_required": true
-      },
-      "selection_recommendation": "reject",
-      "selection_reason": "文章主体为西湖景区水域管理处组织的公益义卖，未出现任何公司工商注册名称，无商业企业事件，不符合寻龙雷达标的筛选条件。",
-      "agent_review": {
-        "decision": "reject",
-        "reviewed_at": "2026-08-14T02:15:00+08:00",
-        "reviewer": "agent",
-        "reason": "非企业主体事件，为西湖景区公益义卖活动，无商业企业事件。"
-      },
-      "quality_review": {
-        "keep": false,
-        "reason": "西湖荷叶莲蓬义卖活动,非企业事件,不构成高潜信号"
-      },
-      "date": "2026-08-14"
-    },
-    {
-      "title": "阿里云的新“算”盘",
-      "company": "信息科技有限公司",
-      "score": 50,
-      "sector": "智算中心/AI基础设施",
-      "financing": "",
-      "source": "涌金楼",
-      "location": "内蒙古乌兰察布",
-      "event_type": "技术突破",
-      "link": "https://mp.weixin.qq.com/s/xjXi-Xt6tdVRBu4tSLvgHQ",
-      "article_title": "阿里云的新“算”盘",
-      "event_desc": "阿里云在乌兰察布发布CUBE 5.0新一代数据中心架构，实现供电、冷却、安防、智能化及消防五大系统全模块化，模块化率从30%提升至90%，交付工期由11个月缩短至100天。同等面积算力密度提升5至10倍，单位千瓦建设成本降低10%以上。该架构已获欧洲CE认证和东南亚产品准入，今年计划将模块化数据中心全球产能提升两倍以上，并筹备出海。",
-      "insight": "阿里云CUBE 5.0以90%模块化率和100天交付周期直击AIGC算力供给瓶颈，并已获欧洲及东南亚准入，显示其从技术迭代走向规模化出海，有望带动中国智算制造产业链。",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-08-12",
-        "event_date": null,
-        "observed_date": "2026-08-12",
-        "review_required": true
-      },
-      "selection_recommendation": "keep",
-      "selection_reason": "文中明确提到阿里云10日宣布今年计划将模块化数据中心全球产能提升两倍以上，且CUBE 5.0已获欧洲CE认证和东南亚产品准入，交付工期缩短至100天，属于重大技术发布与市场扩张信号。",
-      "agent_review": {
-        "decision": "reject",
-        "reviewed_at": "2026-08-14T02:15:00+08:00",
-        "reviewer": "agent",
-        "reason": "公司名不完整（信息科技有限公司），事件发生地内蒙古乌兰察布非杭州，不符合杭州本地企业或全国标杆.track标准。"
-      },
-      "quality_review": {
-        "keep": false,
-        "reason": "名称不完整,主体为阿里云乌兰察布数据中心发布,非杭州企业"
-      },
-      "date": "2026-08-14"
-    },
-    {
-      "title": "“涨价”拉动出口？事情没那么简单",
-      "company": "飞豚电子产品有限公司",
-      "reason": "",
-      "source": "涌金楼",
-      "location": "",
-      "sector": "消费电子/3C产品制造",
-      "link": "https://mp.weixin.qq.com/s/7V9hMUhly41q6LwrXB3PPg",
-      "article_title": "“涨价”拉动出口？事情没那么简单",
-      "event_desc": "飞豚电子主营3C产品，总经理包海刚反映，去年至今内存芯片价格暴涨，电阻电容涨幅数倍至十倍。公司摄像头产品因内存涨价成本大幅上升，但海外售价难以上调，客户因涨价减少下单，部分款式因无利润停产；充电器等刚需产品虽涨价仍可销售，但整体成本上涨超10%，销量未同步增长，利润被侵蚀。",
-      "insight": "原材料涨价并未转化为出口企业利润，缺乏技术壁垒的3C成品海外提价能力弱，成本压力主要由企业自身消化。",
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-08-14",
-        "event_date": null,
-        "observed_date": "2026-08-14",
-        "review_required": true
-      },
-      "selection_recommendation": "reject",
-      "selection_reason": "文章仅提及飞豚电子因内存芯片、电阻电容涨价导致摄像头等产品利润受挤压，未涉及融资、技术突破或战略合作等可进入寻龙雷达的事件。",
-      "date": "2026-08-15"
-    },
-    {
-      "title": "商务部：对印度产光纤征收反倾销税",
-      "company": "斯德雷特科技有限公司",
-      "reason": "",
-      "source": "半导体行业观察",
-      "location": "",
-      "sector": "光纤光缆/光通信",
-      "link": "https://mp.weixin.qq.com/s/CUAA3IBqZ4bNC3UR3RobVA",
-      "article_title": "商务部：对印度产光纤征收反倾销税",
-      "event_desc": "商务部发布2026年第35号公告，裁定若终止反倾销措施，原产于印度的进口单模光纤对华倾销及产业损害可能继续或再度发生，决定自2026年8月14日起继续征收反倾销税，实施期限5年。涉及斯德雷特科技、贝拉古河光纤、康宁技术印度、阿克什光纤、菲诺莱克斯电缆等公司，税率7.4%至30.6%不等。",
-      "insight": "国内光纤光缆厂商有望受益于对印度进口单模光纤反倾销税的延续，获得价格保护；但需关注贸易保护措施对下游光缆成本及供应链稳定的潜在影响。",
-      "event_time_evidence": {
-        "status": "recent_event",
-        "description": "事件日期在最近7个自然日内: 2026-08-13",
-        "event_date": "2026-08-13",
-        "observed_date": "2026-08-13",
-        "review_required": true
-      },
-      "selection_recommendation": "reject",
-      "selection_reason": "文章主体为商务部对原产于印度的进口单模光纤继续征收反倾销税的贸易救济裁定，涉及斯德雷特科技等印度光纤企业，并非中国初创或商业科技公司的可追踪投资事件，因此不建议进入寻龙雷达。",
-      "date": "2026-08-15"
-    },
-    {
-      "title": "保时捷的“摇钱树”，跌破百万了",
-      "company": "斐迪南·保时捷荣誉工学博士股份有限公司",
-      "reason": "",
-      "source": "创业邦",
-      "location": "",
-      "sector": "豪华汽车",
-      "link": "https://mp.weixin.qq.com/s/px64I1lSuiqTaCBB_omn8A",
-      "article_title": "保时捷的“摇钱树”，跌破百万了",
-      "event_desc": "2026年3月，保时捷在中国市场推出帕拉梅拉尽享版，起售价99.8万元，首次将官方起售价拉入百万元以内。新车将13项选装配置变为标配并小幅缩减选装规模，以降低购买门槛、提振销量。此举是在保时捷利润与在华销量持续下滑背景下作出的策略调整。",
-      "insight": "保时捷以官方降价和选装标配化换取短期销量，反映传统豪华燃油车受新能源冲击与保值率下行压力；需关注品牌溢价被稀释后能否守住利润底线。",
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-08-15",
-        "event_date": null,
-        "observed_date": "2026-08-15",
-        "review_required": true
-      },
-      "selection_recommendation": "reject",
-      "selection_reason": "文章主体为成熟传统车企保时捷，非初创或商业科技公司；事件为降价发布，且披露其2025年营业利润暴跌九成、中国市场销量连续第四年下滑，无融资或技术突破价值。",
-      "date": "2026-08-16"
-    }
-  ],
+  "negatives": [],
   "sector_distribution": {
     "AI基础设施/Token工厂": 1,
     "航空制造": 1,
@@ -491,16 +354,16 @@
     },
     "2026-08-14": {
       "count": 3,
-      "negatives": 2
+      "negatives": 0
     },
     "2026-08-15": {
       "count": 6,
-      "negatives": 2
+      "negatives": 0
     },
     "2026-08-16": {
       "count": 4,
-      "negatives": 1
+      "negatives": 0
     }
   },
-  "created": "2026-08-16 12:19:21"
+  "created": "2026-08-17 02:15:39"
 }
