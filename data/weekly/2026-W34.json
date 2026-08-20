@@ -5,12 +5,12 @@
   "start_date": "2026-08-17",
   "end_date": "2026-08-23",
   "summary": {
-    "total_companies": 17,
+    "total_companies": 19,
     "financing_events": 2,
     "ipo_events": 5,
-    "milestone_events": 7,
+    "milestone_events": 9,
     "negative_events": 0,
-    "active_days": 4
+    "active_days": 5
   },
   "top10": [
     {
@@ -95,6 +95,34 @@
       "quality_review": {
         "keep": true,
         "reason": "成立约4年的消费级人形机器人企业，具备微型舵机、情感交互算法差异化能力及科大讯飞早期投资，总部迁入杭州属实质落地。"
+      }
+    },
+    {
+      "title": "清华学霸的量子初创公司，正兴起一场全新的革命",
+      "company": "杭州诺维智启量子科技有限公司",
+      "score": 110,
+      "sector": "量子精密测量",
+      "financing": "",
+      "source": "湖畔自留田",
+      "location": "杭州上城区玉皇山南基金小镇",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/VyA_P_Q2e5Mi6L94a0knUw",
+      "article_title": "清华学霸的量子初创公司，正兴起一场全新的革命",
+      "event_desc": "诺维量子通过MEMS微纳工艺将1.5厘米探测探头压缩至5×5×2毫米芯片，打造pT级FID量子磁芯片，配合AI主动补偿算法和三轴线圈闭环系统，无需磁屏蔽室即可在地磁场中完成高精度测量。团队承担多项钱学森实验室项目，累计国家级研发项目经费1.8亿元，拥有41项知识产权，核心元器件国产化供应链几乎实现100%自主可控，已与上市公司、头部航空公司在订单或验证层面展开合作。",
+      "insight": "诺维量子以芯片级免屏蔽量子磁测量切入国产替代空白，技术壁垒高且已进入上市公司和头部航空验证，应用覆盖探矿、低空经济与心脑磁检测等万亿级市场，具备较强扩展潜力。",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "recent_event",
+        "description": "事件日期在最近7个自然日内: 2026-08-19",
+        "event_date": "2026-08-19",
+        "observed_date": "2026-08-20",
+        "review_required": true
+      },
+      "selection_recommendation": "keep",
+      "selection_reason": "文章明确其将1.5厘米探测头压缩到5×5×2毫米芯片，拥有41项知识产权，并已与上市公司、头部航空公司开启订单或验证合作，技术壁垒和商业进展均有具体事实支撑。",
+      "quality_review": {
+        "keep": true,
+        "reason": "量子精密测量初创，芯片级免屏蔽量子磁芯片技术壁垒明确且有商业验证，符合早期硬科技标的。"
       }
     },
     {
@@ -264,34 +292,6 @@
         "keep": true,
         "reason": "实际报道对象为SpaceX全球史上最大IPO，属商业航天重大产业里程碑，修正公司字段后保留。 | 已修正 company: 上海界面财联社科技股份有限公司 → SpaceX"
       }
-    },
-    {
-      "title": "500亿，四川兄弟赚翻了",
-      "company": "成都超纯应用材料股份有限公司",
-      "score": 80,
-      "sector": "半导体设备特种涂层零部件",
-      "financing": "IPO发行价65.99元/股；战略配售254.6万股，占新股发行总量10%；比亚迪等产业资本入股",
-      "source": "投资界",
-      "location": "成都双流区",
-      "event_type": "IPO",
-      "link": "https://mp.weixin.qq.com/s/vBhjnvU4AzxoAsQcq74Jyw",
-      "article_title": "500亿，四川兄弟赚翻了",
-      "event_desc": "超纯应材在创业板正式IPO，发行价65.99元/股，开盘450元/股，盘中最高554.73元，首日涨幅一度超700%，市值突破500亿元。公司聚焦半导体设备特种涂层零部件，产品已进入中微公司、北方华创供应链，并实现对5nm制程刻蚀设备配套。2023-2025年营收从1.69亿元增至4.96亿元，三年复合增速超71%，半导体涂层零部件营收占比超95%。",
-      "insight": "超纯应材以半导体刻蚀设备涂层零部件实现国产替代，切入中微、北方华创等头部供应链，并具备5nm配套能力，IPO后资本助力有望加速扩产与研发。",
-      "is_national_star": true,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-08-16",
-        "event_date": null,
-        "observed_date": "2026-08-16",
-        "review_required": true
-      },
-      "selection_recommendation": "keep",
-      "selection_reason": "文章明确超纯应材产品进入中微公司和北方华创供应链，实现5nm制程刻蚀设备配套，营收三年复合增速超71%，且创业板IPO首日市值突破500亿元。",
-      "quality_review": {
-        "keep": true,
-        "reason": "超纯应材半导体涂层零部件进入中微、北方华创并实现5nm刻蚀配套，创业板IPO首日市值突破500亿元，具全国产业意义。"
-      }
     }
   ],
   "negatives": [],
@@ -311,7 +311,9 @@
     "机器人": 1,
     "消费级人形机器人/AI陪伴硬件": 1,
     "人工智能大模型": 1,
-    "智能汽车座舱交互/大模型": 1
+    "智能汽车座舱交互/大模型": 1,
+    "量子精密测量": 1,
+    "机器人/具身智能": 1
   },
   "daily_details": {
     "2026-08-17": {
@@ -329,7 +331,11 @@
     "2026-08-20": {
       "count": 4,
       "negatives": 0
+    },
+    "2026-08-21": {
+      "count": 2,
+      "negatives": 0
     }
   },
-  "created": "2026-08-20 02:19:41"
+  "created": "2026-08-21 02:15:30"
 }
