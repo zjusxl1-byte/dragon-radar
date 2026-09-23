@@ -5,12 +5,12 @@
   "start_date": "2026-09-21",
   "end_date": "2026-09-27",
   "summary": {
-    "total_companies": 15,
-    "financing_events": 6,
+    "total_companies": 20,
+    "financing_events": 9,
     "ipo_events": 1,
-    "milestone_events": 6,
+    "milestone_events": 8,
     "negative_events": 0,
-    "active_days": 3
+    "active_days": 4
   },
   "top10": [
     {
@@ -42,6 +42,34 @@
       }
     },
     {
+      "title": "DeepSeek新论文公开Agent训练！梁文锋署名",
+      "company": "杭州深度求索人工智能基础技术研究有限公司",
+      "score": 100,
+      "sector": "人工智能基础设施/大模型与Agent训练基础设施",
+      "financing": "",
+      "source": "量子位",
+      "location": "杭州市",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/2DTwYhtgbdwK3g2aCeHitw",
+      "article_title": "DeepSeek新论文公开Agent训练！梁文锋署名",
+      "event_desc": "DeepSeek发布梁文锋署名论文，公开Agent训练沙盒系统DSec：每秒创建5000+沙盒、日达300万个、峰值并发38万个；提供FnCall、Container、MicroVM、Full VM四种后端，镜像按EROFS分层按需加载，8192容器部署仅35分钟。论文还披露Agent作弊及防御。",
+      "insight": "Agent训练瓶颈正从算力转向环境基础设施，DSec展示的沙盒调度、镜像按需加载与资源超分能力构成新的工程壁垒，虚拟化、分布式存储与调度层技术或成AI基础设施投资的关键方向。",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-09-23",
+        "event_date": null,
+        "observed_date": "2026-09-23",
+        "review_required": true
+      },
+      "selection_recommendation": "keep",
+      "selection_reason": "文章披露梁文锋署名的DeepSeek论文公开DSec系统，实现每秒创建5000+沙盒、日承载300万沙盒、峰值并发38万，8192容器突发部署仅35分钟、内存峰值降40.2%，并披露Agent reward hacking行为及AppArmor/eBPF防御，属Agent训练基础设施的重要技术突破，值得进入寻龙雷达。",
+      "quality_review": {
+        "keep": true,
+        "reason": "梁文锋署名论文公开DSec Agent训练沙盒系统，披露每秒5000+沙盒、日300万沙盒等具体指标，属AI基础设施重大技术突破。"
+      }
+    },
+    {
       "title": "又一家超强量子公司在杭州临平成立，创始人国科大背景",
       "company": "杭州国科止水量子科技有限公司",
       "score": 95,
@@ -67,6 +95,25 @@
       "quality_review": {
         "keep": true,
         "reason": "国科大背景团队新成立于杭州临平，锚定量子专用低温真空装备，首代产品已交付国家授时中心并与中国电科、联影医疗合作，符合早期硬科技发现标准。"
+      }
+    },
+    {
+      "title": "「最新融资」维纳安可:获得4900万元B轮融资,加速肿瘤微创消融技术产业化落地医药新闻-ByDrug-一站式医药资源共享中心-医药魔方",
+      "company": "杭州维纳安可医疗科技有限责任公司",
+      "score": 93,
+      "sector": "医疗器械（肿瘤微创消融）",
+      "financing": "完成4900万元B轮融资，由高控集团下属绍兴高新技术产业发展有限公司出资；此前曾获苏高新创投、辰德资本等机构投资",
+      "source": "bydrug.pharmcube.com",
+      "location": "浙江省杭州市",
+      "event_type": "融资",
+      "link": "https://bydrug.pharmcube.com/news/detail/1a314ade634eaf038d1b8bf1765cb328",
+      "article_title": "「最新融资」维纳安可:获得4900万元B轮融资,加速肿瘤微创消融技术产业化落地医药新闻-ByDrug-一站式医药资源共享中心-医药魔方",
+      "event_desc": "杭州维纳安可医疗科技有限责任公司近日完成4900万元B轮融资，由高控集团下属绍兴高新技术产业发展有限公司出资。公司聚焦肿瘤微创消融技术研发与产业化，此前已获苏高新创投、辰德资本等机构投资，并获评国家级高新技术企业、浙江省专精特新企业，建有浙江省企业研究院，累计申请国内外发明专利超200项。",
+      "insight": "肿瘤消融是微创治疗领域的高成长赛道，公司专利储备与研发平台扎实，叠加地方国资战略加持，本轮资金将加速产品产业化与临床落地；对杭州高端医疗器械生态是积极信号，建议持续跟踪其注册审批与商业化放量进度。",
+      "is_national_star": false,
+      "quality_review": {
+        "keep": true,
+        "reason": "完成4900万元B轮融资且由绍兴高新产业资本出资，肿瘤微创消融属硬科技成长期赛道，专利与研发平台具备持续跟踪价值。"
       }
     },
     {
@@ -236,62 +283,6 @@
         "keep": true,
         "reason": "公司为2025年成立的具身智能/空间智能早期企业，连续完成两轮数千万元融资并获力合创投、光谷金控、武汉高科及奇绩创坛等资本背书，符合早期硬科技发现。"
       }
-    },
-    {
-      "title": "罗永浩回应贾国龙称下跪才肯和解爆料；雷军回应武汉吃热干面争议；蚂蚁组织架构大调整；闲鱼回应平台涉黄产业链；智谱开源ZCode丨邦早报",
-      "company": "北京行云集成电路有限公司",
-      "score": 70,
-      "sector": "AI推理芯片/GPGPU",
-      "financing": "完成新一轮近8亿元融资，宁德时代通过旗下唯一产业投资平台溥泉资本和自有资金领投，春华资本、基石创投等机构跟投。",
-      "source": "创业邦",
-      "location": "北京",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/1SllTklV_GYtwPW4a68rog",
-      "article_title": "罗永浩回应贾国龙称下跪才肯和解爆料；雷军回应武汉吃热干面争议；蚂蚁组织架构大调整；闲鱼回应平台涉黄产业链；智谱开源ZCode丨邦早报",
-      "event_desc": "北京行云集成电路有限公司完成新一轮近8亿元融资，本轮由宁德时代通过旗下唯一产业投资平台溥泉资本和自有资金领投，春华资本、基石创投等机构跟投。公司为国内全自研GPGPU创新企业，此次融资体现AI推理芯片赛道获产业资本与专业机构共同加注。",
-      "insight": "AI推理芯片与国产GPGPU受产业资本关注，宁德时代领投可带来资金与产业协同；但文章未披露估值、轮次和资金用途，仍需跟踪产品落地与客户验证。",
-      "is_national_star": true,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-09-22",
-        "event_date": null,
-        "observed_date": "2026-09-22",
-        "review_required": true
-      },
-      "selection_recommendation": "keep",
-      "selection_reason": "文章明确称北京行云集成电路有限公司完成新一轮近8亿元融资，宁德时代通过旗下溥泉资本和自有资金领投，春华资本、基石创投等跟投，符合AI芯片初创融资雷达关注点。",
-      "quality_review": {
-        "keep": true,
-        "reason": "公司完成近8亿元融资，宁德时代旗下溥泉资本领投，春华资本、基石创投跟投，AI推理芯片/GPGPU赛道获产业资本重要加注，保留。"
-      }
-    },
-    {
-      "title": "LP圈发生了什么",
-      "company": "宁德时代新能源科技股份有限公司",
-      "score": 70,
-      "sector": "新能源、人工智能、具身智能",
-      "financing": "宁波问鼎认缴11.2亿元、比例19.42%；福建闽东时代认缴5亿元、比例10.2%",
-      "source": "投资界",
-      "location": "",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/tUEAq2XaWojp0Jl4Z7yzjQ",
-      "article_title": "LP圈发生了什么",
-      "event_desc": "宁德时代连续公告，全资子公司宁波问鼎拟作为LP参与厦门时代怡远创业投资基金，认缴11.2亿元、比例19.42%；附属企业福建闽东时代拟参投厦门时代深远创业投资基金，认缴5亿元、比例10.2%。两只基金覆盖新能源产业链、人工智能及具身智能、科创等方向。",
-      "insight": "宁德时代以LP身份布局新能源、AI与具身智能，反映产业资本通过基金延伸触角，而非自身融资或技术突破。",
-      "is_national_star": true,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-09-19",
-        "event_date": null,
-        "observed_date": "2026-09-19",
-        "review_required": true
-      },
-      "selection_recommendation": "review",
-      "selection_reason": "文章明确披露宁德时代子公司拟认缴两只创投基金合计16.2亿元，方向覆盖新能源、人工智能及具身智能；但属于LP出资而非公司核心业务事件，且未提供工商注册全称和精确日期，需进一步核实。",
-      "quality_review": {
-        "keep": true,
-        "reason": "作为全国产业标杆，宁德时代子公司认缴16.2亿元参投新能源、AI及具身智能基金，属实质产业资本布局，保留。"
-      }
     }
   ],
   "negatives": [],
@@ -310,7 +301,12 @@
     "AI推理芯片/GPGPU": 1,
     "量子科技/量子专用低温真空装备": 1,
     "再生材料/循环经济": 1,
-    "新能源、人工智能、具身智能": 1
+    "新能源、人工智能、具身智能": 1,
+    "医疗器械（肿瘤微创消融）": 1,
+    "AI大模型": 1,
+    "人工智能基础设施/大模型与Agent训练基础设施": 1,
+    "硅电容/被动元件/半导体": 1,
+    "半导体存储芯片": 1
   },
   "daily_details": {
     "2026-09-21": {
@@ -324,7 +320,11 @@
     "2026-09-23": {
       "count": 15,
       "negatives": 0
+    },
+    "2026-09-24": {
+      "count": 5,
+      "negatives": 0
     }
   },
-  "created": "2026-09-23 09:24:24"
+  "created": "2026-09-24 02:31:38"
 }
