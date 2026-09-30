@@ -59,7 +59,7 @@
         }
     </style>
     <link rel="stylesheet" href="./assets/radar-share.css?v=20260930">
-    <link rel="stylesheet" href="./assets/radar-refinements.css?v=20260930-source-row">
+    <link rel="stylesheet" href="./assets/radar-refinements.css?v=20260930-history">
 </head>
 <body class="bg-[#F4F5F7] text-gray-800 antialiased relative min-h-screen pb-[calc(3.5rem+env(safe-area-inset-bottom))]">
 
@@ -999,6 +999,7 @@
                         if (params.target) {
                             setTimeout(function() {
                                 var targetEl = document.getElementById(params.target);
+                                if (targetEl && targetEl.classList.contains('radar-event-anchor')) targetEl = targetEl.parentElement;
                                 if (targetEl) {
                                     targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
                                     
@@ -1150,7 +1151,8 @@
 
         document.addEventListener('DOMContentLoaded', initApp);
     </script>
-    <script src="./assets/radar-share.js?v=20260930"></script>
-    <script src="./assets/radar-refinements.js?v=20260930-source-row"></script>
+    <script src="./assets/radar-share.js?v=20260930-history"></script>
+    <script src="./assets/radar-history.js?v=20260930-history"></script>
+    <script src="./assets/radar-refinements.js?v=20260930-history"></script>
 </body>
 </html>

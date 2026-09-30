@@ -129,7 +129,7 @@
     target.appendChild(b);
     function update() {
       var route = Router.getRoute();
-      b.hidden = !['/','/today','/briefing',''].includes(route);
+      b.hidden = !['/','/today','/briefing',''].includes(route) || (route==='/today' && Router.getQueryParams().search==='all');
     }
     window.addEventListener('hashchange', update); update();
   });
