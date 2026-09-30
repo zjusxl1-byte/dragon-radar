@@ -21,8 +21,10 @@
     if(place==='海外参考')html=html.replace(/全国标杆/g,'海外参考').replace(/🌐标杆/g,'🌐海外');
     if(!compact){
       const name=item.company_name||item.company||'';
-      // A small action beside the existing company title opens history on demand.
-      html=html.replace('</h3>',' <button type="button" class="radar-track" data-track-company="'+esc(name)+'" aria-label="查看'+esc(name)+'的历史动态">追踪</button></h3>');
+      // Keep the company title free of controls; source and history share one row.
+      const track='<button type="button" class="radar-track" data-track-company="'+esc(name)+'" aria-label="查看'+esc(name)+'的历史动态">追踪</button>';
+      html=html.replace(/(<span class="[^"]*">📰 [\s\S]*?<\/span>)/, '<div class="radar-source-row">$1'+track+'</div>');
+      html=html.replace('<div class="mb-3 ml-2 flex justify-between items-start"><div>', '<div class="mb-3 ml-2 flex justify-between items-start"><div class="min-w-0 flex-1 pr-2">');
       const occurred=item.event_date||item.event_time_evidence?.event_date;
       const published=item.published_date;
       const parts=[];if(occurred)parts.push('事件 '+occurred);if(published)parts.push('报道 '+published);

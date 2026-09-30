@@ -14,3 +14,7 @@
 #radar-tracking article{border-top:1px solid #e5e7eb;padding:15px 0;margin-top:12px;font-size:13px;line-height:1.8}
 #radar-tracking article span{font-size:11px;color:#64748b}#radar-tracking article a{display:inline-flex;align-items:center;min-height:44px;color:#667eea;font-size:12px}
 .radar-track:focus-visible,.radar-filter-toggle:focus-visible,#radar-tracking :focus-visible{outline:2px solid #667eea;outline-offset:2px}
+
+.radar-source-row{display:flex;align-items:center;gap:6px;min-width:0}
+.radar-source-row>span{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.radar-source-row>.radar-track{flex:none;margin:0;min-width:40px;padding:4px}
