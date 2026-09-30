@@ -1,4 +1,4 @@
-/* Search the existing public daily archive without loading every daily document. */
+/* Shared public archive semantics: exact entities, date ranges and event identity. */
 (function () {
   'use strict';
   function region(row) {
@@ -8,22 +8,45 @@
     if(/中国|北京|上海|天津|重庆|浙江|江苏|广东|山东|福建|安徽|湖北|湖南|河南|河北|江西|四川|陕西|山西|辽宁|吉林|黑龙江|云南|贵州|广西|海南|甘肃|青海|宁夏|内蒙古|新疆|西藏|香港|澳门|台湾|深圳|苏州|南京|武汉|成都|合肥|广州|无锡|宁波|西安|厦门|青岛/.test(place))return '国内其他';
     return '待核实';
   }
-  function rows(history) {
-    return Object.entries(history).flatMap(([company,records])=>records.map(r=>({...r,company,region:region(r)})))
-      .sort((a,b)=>b.date.localeCompare(a.date));
+  function canonical(name){
+    const entity=(window.RadarData?.manifest?.reading_entities||[]).find(e=>e.name===name||e.aliases.includes(name));
+    return entity?entity.name:name;
   }
-  function search(records,filters) {
-    const terms=String(filters.q||'').trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
-    if(filters.from&&filters.to&&filters.from>filters.to)return [];
-    return records.filter(r=>(!filters.from||r.date>=filters.from)&&(!filters.to||r.date<=filters.to)
-      &&(!filters.region||r.region===filters.region)
-      &&(!filters.type||(filters.type==='风险预警'?(r.kind==='risk'||/风险|负面/.test(r.event_type)):r.event_type===filters.type))
-      &&terms.every(term=>[r.company,r.title,r.article_title,r.sector,r.location,r.source,r.event_type,r.kind==='risk'?'风险预警':''].join(' ').toLocaleLowerCase().includes(term)));
+  function sectors(row){return normalizeSectors({[row.sector||'']:1}).map(s=>s.sector);}
+  function rows(history) {
+    return Object.entries(history).flatMap(([company,records])=>records.map(r=>({...r,company,canonical_name:canonical(r.canonical_name||company),region:region(r)})))
+      .sort((a,b)=>b.date.localeCompare(a.date)||(b.score||0)-(a.score||0));
+  }
+  function search(records,f) {
+    const terms=String(f.q||'').trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
+    if(f.from&&f.to&&f.from>f.to)return [];
+    return records.filter(r=>(!f.from||r.date>=f.from)&&(!f.to||r.date<=f.to)
+      &&(!f.company||canonical(r.canonical_name||r.company)===canonical(f.company))
+      &&(!f.region||r.region===f.region)&&(!f.sector||sectors(r).includes(f.sector)||r.sector===f.sector)
+      &&(!f.type||(f.type==='风险预警'?(r.kind==='risk'||/风险|负面/.test(r.event_type)):f.type==='融资/IPO'?/融资|IPO|上市/.test(r.event_type):r.event_type===f.type))
+      &&terms.every(term=>[r.company,r.canonical_name,r.title,r.article_title,r.sector,r.location,r.source,r.event_type,r.kind==='risk'?'风险预警':''].join(' ').toLocaleLowerCase().includes(term)));
   }
   function anchor(item) {
     const name=item.company_name||item.company||'';
     const text=item.event_desc||item.reason||item.title||'';
     return generateSafeId([name,text,item.link||''].join('\n')).replace('card-','event-');
   }
-  window.RadarHistory={region,rows,search,anchor};
+  function grouped(records){
+    const groups=new Map();
+    for(const r of records){
+      // Identical facts can collect multiple sources. Different text/analysis is never discarded.
+      const key=JSON.stringify([canonical(r.company),r.title||r.article_title,r.event_date||'',r.kind,r.insight||'',r.financing||'',r.core_tech||'',r.official_evaluation||'',r.founder_info||'']);
+      if(!groups.has(key))groups.set(key,{...r,observations:[]});
+      groups.get(key).observations.push(r);
+    }
+    return [...groups.values()];
+  }
+  function weekRange(id){
+    if(!/^\d{4}-W\d{1,2}$/.test(id))return {};
+    const [y,w]=id.split('-W').map(Number),d=new Date(Date.UTC(y,0,4));
+    d.setUTCDate(d.getUTCDate()-(d.getUTCDay()||7)+1+(w-1)*7);
+    const from=d.toISOString().slice(0,10);d.setUTCDate(d.getUTCDate()+6);return {from,to:d.toISOString().slice(0,10)};
+  }
+  function safeURL(link){try{const u=new URL(link);return /^https?:$/.test(u.protocol)?u.href:'';}catch{return '';}}
+  window.RadarHistory={region,canonical,sectors,rows,search,anchor,grouped,weekRange,safeURL};
 })();

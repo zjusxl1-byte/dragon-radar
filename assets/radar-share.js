@@ -26,7 +26,7 @@
     return result.href;
   }
   function dateFor(item) {
-    return selectedDay || item.date || window.RadarData.manifest.today;
+    return item.date || selectedDay || window.RadarData.manifest.today;
   }
   function shareButton(key) {
     return '<button type="button" class="radar-share-button" data-radar-share="' + key + '">分享</button>';
@@ -43,7 +43,7 @@
       items.set(key, {
         title: company + '｜寻龙雷达',
         text: (item.event_desc || item.event_description || item.title || '') + '\n收录日期：' + day,
-        url: url('/today?date=' + encodeURIComponent(day) + '&target=' + encodeURIComponent(generateSafeId(company)))
+        url: url('/today?date=' + encodeURIComponent(day) + '&target=' + encodeURIComponent(window.RadarHistory.anchor(item)))
       });
       // Insert alongside existing “查企业 / 阅读原文” controls, without another row.
       var match = html.match(/<\/div>\s*<\/div>\s*$/);
@@ -72,6 +72,7 @@
       return {title:'寻龙雷达' + (type === 'monthly' ? '月' : '周') + '简报', text:id,
         url:url('/briefing?type=' + encodeURIComponent(type) + '&id=' + encodeURIComponent(id))};
     }
+    if(route === '/company')return {title:(params.name||'企业')+'｜寻龙雷达',text:'已收录企业动态与研判',url:url('/company?name='+encodeURIComponent(params.name||''))};
     var day = params.date || window.RadarData.manifest.today;
     return {title:'寻龙雷达｜' + day, text:'企业动态与研判', url:url('/today?date=' + encodeURIComponent(day))};
   }
@@ -83,27 +84,36 @@
       dialog.setAttribute('aria-labelledby', 'radar-share-heading');
       dialog.innerHTML = '<h2 id="radar-share-heading">分享</h2><label for="radar-share-text">文字和链接</label>' +
         '<textarea id="radar-share-text" readonly></textarea><p id="radar-share-status" role="status"></p>' +
-        '<div><button type="button" data-radar-copy>复制</button><button type="button" data-radar-close>关闭</button></div>';
+        '<div><button type="button" data-radar-native>系统分享</button><button type="button" data-radar-copy>复制文字与链接</button><button type="button" data-radar-close>关闭</button></div>';
       document.body.appendChild(dialog);
       dialog.addEventListener('close', function () {if(returnFocus && returnFocus.isConnected)returnFocus.focus();});
     }
+    dialog.querySelector('[data-radar-native]').hidden = !navigator.share;
     dialog.querySelector('textarea').value = [payload.title, payload.text, payload.url].filter(Boolean).join('\n');
     dialog.querySelector('[role="status"]').textContent = '';
     dialog.showModal();
   }
-  async function share(payload) {
-    if (navigator.share) {
-      try {await navigator.share(payload); return;}
-      catch (err) {if (err.name === 'AbortError') return;}
-    }
-    showCopy(payload);
-  }
+  var activePayload;
+  async function share(payload) {activePayload=payload;showCopy(payload);}
+  window.RadarShare={
+    registerEvent:function(item){
+      var key='event-'+(++serial),company=item.company_name||item.company||'企业动态';
+      items.set(key,{title:company+'｜寻龙雷达',text:(item.event_desc||item.title||item.reason||'')+'\n收录日期：'+dateFor(item),url:url('/today?date='+encodeURIComponent(dateFor(item))+'&target='+encodeURIComponent(window.RadarHistory.anchor(item)))});
+      return key;
+    },
+    eventPayload:function(key){return items.get(key);},
+    currentPayload:currentPayload
+  };
   document.addEventListener('click', async function (event) {
     var trigger = event.target.closest('[data-radar-share]');
     if (trigger) {
       returnFocus = trigger;
       var payload = trigger.dataset.radarShare === 'page' ? currentPayload() : items.get(trigger.dataset.radarShare);
       if (payload) await share(payload);
+    }
+    if (event.target.closest('[data-radar-native]') && navigator.share && activePayload) {
+      try {await navigator.share(activePayload);}
+      catch(err){if(err.name!=='AbortError')document.getElementById('radar-share-status').textContent='可复制下方文字与链接分享';}
     }
     if (event.target.closest('[data-radar-close]')) document.getElementById('radar-share-dialog').close();
     if (event.target.closest('[data-radar-copy]')) {
@@ -129,7 +139,7 @@
     target.appendChild(b);
     function update() {
       var route = Router.getRoute();
-      b.hidden = !['/','/today','/briefing',''].includes(route) || (route==='/today' && Router.getQueryParams().search==='all');
+      b.hidden = !['/','/today','/company','/briefing',''].includes(route) || (route==='/today' && Router.getQueryParams().search==='all');
     }
     window.addEventListener('hashchange', update); update();
   });
