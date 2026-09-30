@@ -13,6 +13,7 @@
     return entity?entity.name:name;
   }
   function sectors(row){return normalizeSectors({[row.sector||'']:1}).map(s=>s.sector);}
+  function bucket(name){let hash=0;const text=canonical(name);for(let i=0;i<text.length;i++)hash=(31*hash+text.charCodeAt(i))>>>0;return (hash%64).toString(16).padStart(2,'0');}
   function rows(history) {
     return Object.entries(history).flatMap(([company,records])=>records.map(r=>({...r,company,canonical_name:canonical(r.canonical_name||company),region:region(r)})))
       .sort((a,b)=>b.date.localeCompare(a.date)||(b.score||0)-(a.score||0));
@@ -48,5 +49,5 @@
     const from=d.toISOString().slice(0,10);d.setUTCDate(d.getUTCDate()+6);return {from,to:d.toISOString().slice(0,10)};
   }
   function safeURL(link){try{const u=new URL(link);return /^https?:$/.test(u.protocol)?u.href:'';}catch{return '';}}
-  window.RadarHistory={region,canonical,sectors,rows,search,anchor,grouped,weekRange,safeURL};
+  window.RadarHistory={region,canonical,sectors,rows,search,anchor,grouped,weekRange,safeURL,bucket};
 })();

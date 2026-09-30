@@ -4,10 +4,13 @@
 .radar-share-button:focus-visible,.radar-share-header:focus-visible,#radar-share-dialog button:focus-visible{outline:3px solid #8194f1;outline-offset:2px}
 #radar-share-dialog{width:calc(100% - 32px);max-width:440px;padding:20px;border:1px solid #dce3f2;border-radius:16px;color:#1f2937;max-height:85vh;overflow:auto}
 #radar-share-dialog::backdrop{background:#11182766}
-#radar-share-dialog h2{font-weight:700;font-size:18px;margin:0 0 12px}
+#radar-share-dialog h2{font-weight:800;font-size:18px;letter-spacing:-.025em;margin:0 0 12px}
 #radar-share-dialog label{display:block;font-size:12px;margin-bottom:6px}
-#radar-share-dialog textarea{width:100%;min-height:190px;border:1px solid #cbd5e1;border-radius:8px;padding:10px;font-size:14px;line-height:1.6;resize:vertical}
-#radar-share-dialog button{min-height:44px;padding:8px 20px;border:1px solid #dce3f2;border-radius:8px;font-size:14px;margin-right:8px}
+#radar-share-dialog textarea{width:100%;min-height:190px;border:1px solid #e5e7eb;background:#f9fafb;border-radius:12px;padding:12px;font-size:16px;line-height:1.625;resize:vertical}
+#radar-share-dialog button{min-height:44px;padding:10px 12px;border:1px solid #e5e7eb;border-radius:12px;font-size:12px;font-weight:700;background:#f4f6fb;color:#4a6495}
+#radar-share-dialog [data-radar-copy]{background:#1f2937;color:white;border-color:#1f2937;flex:1}
 #radar-share-dialog [role=status]{font-size:13px;min-height:22px;margin:8px 0;color:#4a6495}
 
-#radar-share-dialog [hidden]{display:none!important}#radar-share-dialog>div{display:flex;flex-wrap:wrap;gap:8px}#radar-share-dialog button{margin:0}#radar-share-dialog textarea{font-size:16px}
+#radar-share-dialog [hidden]{display:none!important}#radar-share-dialog>div{display:grid;grid-template-columns:1fr 1fr;gap:8px}#radar-share-dialog button{margin:0;white-space:nowrap}#radar-share-dialog textarea{font-size:16px}
+#radar-share-dialog [data-radar-close]{grid-column:1/-1;justify-self:end;background:transparent;border-color:transparent}
+#radar-share-dialog [data-radar-native][hidden]+[data-radar-copy]{grid-column:1/-1}
