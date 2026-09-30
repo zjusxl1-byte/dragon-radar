@@ -13,4 +13,4 @@
 
 #radar-share-dialog [hidden]{display:none!important}#radar-share-dialog>div{display:grid;grid-template-columns:1fr 1fr;gap:8px}#radar-share-dialog button{margin:0;white-space:nowrap}#radar-share-dialog textarea{font-size:16px}
 #radar-share-dialog [data-radar-close]{grid-column:1/-1;justify-self:end;background:transparent;border-color:transparent}
-#radar-share-dialog [data-radar-native][hidden]+[data-radar-copy]{grid-column:1/-1}
+#radar-share-dialog [data-radar-copy]{grid-column:1/-1}

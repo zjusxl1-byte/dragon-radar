@@ -84,17 +84,30 @@
       dialog.setAttribute('aria-labelledby', 'radar-share-heading');
       dialog.innerHTML = '<h2 id="radar-share-heading">分享</h2><label for="radar-share-text">文字和链接</label>' +
         '<textarea id="radar-share-text" readonly></textarea><p id="radar-share-status" role="status"></p>' +
-        '<div><button type="button" data-radar-native>系统分享</button><button type="button" data-radar-copy>复制文字与链接</button><button type="button" data-radar-close>关闭</button></div>';
+        '<div><button type="button" data-radar-copy>复制文字与链接</button><button type="button" data-radar-close>关闭</button></div>';
       document.body.appendChild(dialog);
       dialog.addEventListener('close', function () {if(returnFocus && returnFocus.isConnected)returnFocus.focus();});
     }
-    dialog.querySelector('[data-radar-native]').hidden = !navigator.share;
     dialog.querySelector('textarea').value = [payload.title, payload.text, payload.url].filter(Boolean).join('\n');
     dialog.querySelector('[role="status"]').textContent = '';
     dialog.showModal();
   }
-  var activePayload;
-  async function share(payload) {activePayload=payload;showCopy(payload);}
+  var sharing = false;
+  async function share(payload) {
+    if (sharing) return;
+    if (typeof navigator.share === 'function') {
+      sharing = true;
+      try {
+        await navigator.share(payload);
+        return;
+      } catch (error) {
+        if (error && error.name === 'AbortError') return;
+      } finally {
+        sharing = false;
+      }
+    }
+    showCopy(payload);
+  }
   window.RadarShare={
     registerEvent:function(item){
       var key='event-'+(++serial),company=item.company_name||item.company||'企业动态';
@@ -110,10 +123,6 @@
       returnFocus = trigger;
       var payload = trigger.dataset.radarShare === 'page' ? currentPayload() : items.get(trigger.dataset.radarShare);
       if (payload) await share(payload);
-    }
-    if (event.target.closest('[data-radar-native]') && navigator.share && activePayload) {
-      try {await navigator.share(activePayload);}
-      catch(err){if(err.name!=='AbortError')document.getElementById('radar-share-status').textContent='可复制下方文字与链接分享';}
     }
     if (event.target.closest('[data-radar-close]')) document.getElementById('radar-share-dialog').close();
     if (event.target.closest('[data-radar-copy]')) {
