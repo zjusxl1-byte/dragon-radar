@@ -1,0 +1,11 @@
+.radar-share-button{flex:1;min-height:40px;padding:10px 8px;border:1px solid #dce3f2;border-radius:12px;background:#f4f6fb;color:#4a6495;font-size:12px;font-weight:700;white-space:nowrap}
+.radar-share-header{min-width:44px;min-height:40px;padding:8px;border-radius:8px;color:inherit;background:transparent;border:0;font-size:12px;cursor:pointer}
+.radar-share-header[hidden]{display:none}
+.radar-share-button:focus-visible,.radar-share-header:focus-visible,#radar-share-dialog button:focus-visible{outline:3px solid #8194f1;outline-offset:2px}
+#radar-share-dialog{width:calc(100% - 32px);max-width:440px;padding:20px;border:1px solid #dce3f2;border-radius:16px;color:#1f2937;max-height:85vh;overflow:auto}
+#radar-share-dialog::backdrop{background:#11182766}
+#radar-share-dialog h2{font-weight:700;font-size:18px;margin:0 0 12px}
+#radar-share-dialog label{display:block;font-size:12px;margin-bottom:6px}
+#radar-share-dialog textarea{width:100%;min-height:190px;border:1px solid #cbd5e1;border-radius:8px;padding:10px;font-size:14px;line-height:1.6;resize:vertical}
+#radar-share-dialog button{min-height:44px;padding:8px 20px;border:1px solid #dce3f2;border-radius:8px;font-size:14px;margin-right:8px}
+#radar-share-dialog [role=status]{font-size:13px;min-height:22px;margin:8px 0;color:#4a6495}
