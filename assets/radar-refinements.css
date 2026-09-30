@@ -1,17 +1,21 @@
 /* New reading flows use the existing site's exact card, type and control values. */
-.radar-track,.radar-text-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;color:#667eea;font-size:12px;font-weight:500;white-space:nowrap}
-.radar-track{min-width:44px;padding:4px}.radar-dates{font-size:10px;color:#64748b;margin-top:10px;line-height:1.5}
+.radar-track,.radar-text-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;color:#5164bc;font-size:12px;font-weight:500;white-space:nowrap}
+.radar-track{min-width:44px;padding:4px}.radar-dates{font-size:12px;color:#64748b;margin-top:10px;line-height:1.5}
 .radar-source-row{display:flex;align-items:center;gap:6px;min-width:0}
-.radar-source-row>span{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.radar-source-row>span{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;line-height:18px}
 .radar-source-row>.radar-track{flex:none;margin:0}
-.radar-source-label{font-size:10px;line-height:15px;color:#6b7280;border:1px solid #f3f4f6;background:#f9fafb;border-radius:4px;padding:2px 8px;font-weight:700;max-width:100%;box-shadow:0 1px 2px #0000000d}
+.radar-source-label{font-size:12px;line-height:18px;color:#6b7280;border:1px solid #f3f4f6;background:#f9fafb;border-radius:4px;padding:2px 8px;font-weight:700;max-width:100%;box-shadow:0 1px 2px #0000000d}
+.radar-event-tags{align-items:flex-start;gap:6px}
+.radar-event-tags>span{display:inline-flex;align-items:center;max-width:100%;min-width:0;min-height:24px;padding:2px 8px;font-size:12px;line-height:18px;white-space:normal;overflow-wrap:anywhere}
+/* Keep room for the event badge; wrap long industries inside their own label. */
+.radar-event-tags>.radar-tag-sector{max-width:calc(100% - 72px)}
 .radar-page-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px;padding:0 4px;min-height:44px}
 .radar-page-heading h2{font-size:18px;line-height:28px;font-weight:800;letter-spacing:-.025em;color:#1f2937}
 .radar-period-picker{position:relative;flex:none;max-width:48%}
 .radar-period-picker>span{pointer-events:none;position:absolute;right:12px;top:50%;transform:translateY(-50%);font-size:10px;color:#9ca3af}
 .radar-filter{margin:0 0 16px;min-width:0}
 .radar-filter input,.radar-filter select{font-family:inherit;box-sizing:border-box;max-width:100%;min-width:0;min-height:44px;border:1px solid #e5e7eb;border-radius:12px;padding:8px 12px;font-size:16px;line-height:1.5;background:#fff;color:#374151}
-.radar-filter input{width:100%}.radar-filter label{color:#6b7280;font-size:11px;font-weight:500}
+.radar-filter input{width:100%}.radar-filter label{color:#6b7280;font-size:12px;font-weight:500}
 .radar-filter .radar-period-picker select{appearance:none;padding:8px 30px 8px 12px;font-size:12px;font-weight:700;box-shadow:0 1px 2px #0000000d;background:#ffffffcc}
 .radar-search-bar{display:flex;align-items:center;background:#fff;border:1px solid #f3f4f6;border-radius:12px;box-shadow:0 1px 2px #0000000d;overflow:hidden}
 .radar-search-bar input{flex:1;width:0;border:0;background:transparent;border-radius:0;padding:10px 12px}
@@ -26,22 +30,22 @@
 .radar-filter-grid>label{display:flex;flex-direction:column;min-width:0;gap:6px}.radar-filter-grid select,.radar-filter-grid input{width:100%}
 .radar-filter fieldset{min-width:0;margin-top:14px;padding-top:12px;border-top:1px solid #f3f4f6}.radar-filter legend{font-size:11px;color:#6b7280;padding-right:8px}
 .radar-reading-caption{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding:0 4px;margin-top:10px}
-.radar-filter-context,.radar-filter-result{font-size:11px;color:#6b7280;line-height:1.6;font-weight:500}.radar-filter-context{min-width:0;overflow-wrap:anywhere}.radar-filter-result{flex:none;text-align:right}
+.radar-filter-context,.radar-filter-result{font-size:12px;color:#6b7280;line-height:1.6;font-weight:500}.radar-filter-context{min-width:0;overflow-wrap:anywhere}.radar-filter-result{flex:none;text-align:right}
 .radar-stream-item{position:relative;background:#fff;border:1px solid #f3f4f680;border-radius:16px;padding:16px;margin-bottom:20px;box-shadow:0 2px 12px -4px #0651ed14;scroll-margin-top:65px}
 .radar-risk-item{border-color:#fee2e2;background:linear-gradient(135deg,#fef2f2,#fff);box-shadow:0 1px 2px #0000000d}
 .radar-reading-card-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin:0 0 12px 8px}
 .radar-reading-identity{min-width:0;flex:1}.radar-stream-item h3{font-size:17px;font-weight:800;line-height:1.375;letter-spacing:-.025em;color:#1f2937;margin-bottom:6px;overflow-wrap:anywhere}.radar-stream-item h3>a{display:block}
 .radar-reading-score{flex:none;display:flex;align-items:flex-end;padding-left:2px;padding-top:1px}.radar-reading-score>span{font-size:24px}
-.radar-stream-item h3.radar-record-date{font-size:14px;letter-spacing:0}.radar-record-date+.radar-source-row{min-height:24px}
+.radar-stream-item h3.radar-record-date{font-size:14px;letter-spacing:0}.radar-record-date>span{font-size:12px;font-weight:500;color:#64748b;margin-right:4px}.radar-record-date+.radar-source-row{min-height:24px}
 .radar-event-details>summary{list-style:none;cursor:pointer}.radar-event-details>summary::-webkit-details-marker{display:none}
 .radar-event-excerpt{font-size:13px;line-height:1.625;color:#4b5563;text-align:justify;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin:0 0 12px}
 .radar-reading-card-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;padding-top:10px;border-top:1px solid #f3f4f6cc}
-.radar-stream-meta{font-size:10px;color:#9ca3af;line-height:1.5}
-.radar-expand-label{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:10px 12px;color:#4a6495;background:#f4f6fb;border-radius:12px;font-size:12px;font-weight:700;white-space:nowrap}
-.radar-when-open,.radar-event-details[open] .radar-when-closed{display:none}.radar-event-details[open] .radar-when-open{display:inline}
-.radar-event-details[open] .radar-event-excerpt{display:none}.radar-event-details[open] .radar-reading-card-footer{border:0;padding:0 0 12px}
+.radar-stream-meta{font-size:12px;color:#64748b;line-height:1.5}
+.radar-expand-label{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-left:auto;padding:10px 12px;color:#4a6495;background:#f4f6fb;border-radius:12px;font-size:12px;font-weight:700;white-space:nowrap}
+.radar-event-details[open]>summary{display:none}
+.radar-collapse-footer{border:0;padding-top:12px}
 .radar-event-body>div{padding:0!important;margin:0!important;border:0!important;box-shadow:none!important;background:transparent!important}.radar-event-body>div>.absolute,.radar-event-body .radar-event-anchor{display:none}
-.radar-company-heading{padding:16px;margin-bottom:16px;background:#fff;border:1px solid #f3f4f680;border-radius:16px;box-shadow:0 2px 12px -4px #0651ed14}.radar-company-heading h2{font-size:17px;font-weight:800;line-height:1.375;letter-spacing:-.025em;color:#1f2937;overflow-wrap:anywhere;margin-bottom:8px}.radar-company-heading p{font-size:11px;line-height:1.7;color:#6b7280;margin-top:4px}
+.radar-company-heading{padding:16px;margin-bottom:16px;background:#fff;border:1px solid #f3f4f680;border-radius:16px;box-shadow:0 2px 12px -4px #0651ed14}.radar-company-heading h2{font-size:17px;font-weight:800;line-height:1.375;letter-spacing:-.025em;color:#1f2937;overflow-wrap:anywhere;margin-bottom:8px}.radar-company-heading p{font-size:12px;line-height:1.7;color:#6b7280;margin-top:4px}
 .radar-section-title{font-size:14px;font-weight:800;letter-spacing:-.025em;color:#1f2937;margin:20px 4px 12px}
 .radar-company-context{background:#fff;border:1px solid #f3f4f6;border-radius:16px;box-shadow:0 1px 2px #0000000d;padding:0 16px;margin:0 0 12px;font-size:12px;color:#6b7280}
 .radar-company-context summary,.radar-observations summary{min-height:44px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;color:#374151;font-size:12px;font-weight:700}.radar-company-context summary:after{content:'▼';color:#9ca3af;font-size:10px}.radar-company-context[open] summary:after{transform:rotate(180deg)}
