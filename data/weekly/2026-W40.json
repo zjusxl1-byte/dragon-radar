@@ -5,12 +5,12 @@
   "start_date": "2026-09-28",
   "end_date": "2026-10-04",
   "summary": {
-    "total_companies": 53,
-    "financing_events": 16,
+    "total_companies": 66,
+    "financing_events": 17,
     "ipo_events": 8,
-    "milestone_events": 10,
-    "negative_events": 1,
-    "active_days": 4
+    "milestone_events": 15,
+    "negative_events": 3,
+    "active_days": 5
   },
   "top10": [
     {
@@ -413,6 +413,104 @@
         "canonical_id": "铅笔道9月30日报道，8月下旬深圳市中级人民法院发布盈合机器人破产受理及债权申报公告。报道另涉及收入、欠款和投资人争议，其中部分说法未获公司回应或证实，不作已核实事实。"
       },
       "date": "2026-10-01"
+    },
+    {
+      "title": "从编程到个人助理：更强大的 AI，更透明的你",
+      "article_title": "从编程到个人助理：更强大的 AI，更透明的你",
+      "company": "北京智谱华章科技股份有限公司（ZCode）",
+      "location": "北京",
+      "score": 35,
+      "sector": "AI编程工具",
+      "financing": "未披露",
+      "source": "晚点 LatePost",
+      "link": "https://mp.weixin.qq.com/s/TMGKfSIBVjj4psLghLkMjw",
+      "event_type": "负面",
+      "event_desc": "报道称开发者发现ZCode默认代码库索引将包含.git历史的约4.2万个文件打包上传至云存储，智谱9月18日回应并修复、9月21日开源、9月28日称涉事存储桶及数据已删除并发放Token补偿。上传指控为开发者与媒体陈述；删除情况为公司回应，独立核验待完善。",
+      "insight": "代码索引在默认权限与第三方云上传之间越过了用户预期，会直接损伤AI编程工具对商业代码的信任基础。报道把开发者发现与智谱后续修复、开源、删除存储桶及Token补偿分开叙述；这些回应不能替代独立的数据删除及留存链核验。风险验收应看默认授权范围、敏感文件排除和数据流可审计性，而非只看开源或补偿。",
+      "published_date": "2026-09-30",
+      "published_at": "2026-09-30T12:48:00Z",
+      "publication_basis": "accepted_article_current.published_at（原始发布时刻，非采集/更新时间）",
+      "event_date": null,
+      "event_period": "2026年9月18日至28日",
+      "event_date_precision": "period",
+      "identity_status": "existing_history_company; registry_refresh_pending",
+      "tracking_track": "national_risk",
+      "region_classification": "national_other",
+      "is_national_star": false,
+      "selection_recommendation": "keep_negative",
+      "selection_reason": "漏抓负面：ZCode数据上传指控及9月28日删除、补偿回应有新增事实；9月23日仅在另一企业新闻标题提到开源，没有收录本项风险与补偿。",
+      "evidence": {
+        "body_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/runs/wechat-reader-body-shadow/bundles/11/11dcb260bca0961b46be6e0da566ac21d15055302c45f5144a89c63af80af1ff/95d299bccc4b34fe02215be720725c7c08021ff089e227217201351cfb7e919b/3bd18d1567ba6439a037681719eb6080f6f71ed07d0b5fabff598a04337d7c9a/body.txt",
+        "body_sha256": "95d299bccc4b34fe02215be720725c7c08021ff089e227217201351cfb7e919b",
+        "manifest_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/safe-body-local-article-adapter/artifacts/objects/16/1628689832b2391d893704dbdb3cb0db142e3d02ddf65fa7cd44a1904bef0bae/manifest.json",
+        "locator": "上述企业对应正文段落"
+      },
+      "quality_review": {
+        "keep_negative": true,
+        "reason": "漏抓负面：ZCode数据上传指控及9月28日删除、补偿回应有新增事实；9月23日仅在另一企业新闻标题提到开源，没有收录本项风险与补偿。",
+        "reviewer": "current_task_agent",
+        "publication_status": "original_publication_verified_recent"
+      },
+      "event_time_evidence": {
+        "status": "period_reported",
+        "event_date": null,
+        "event_period": "2026年9月18日至28日",
+        "description": "独立保留事件日与新闻日；精确事件日不明时不补造",
+        "review_required": false
+      },
+      "first_discovery_status": "available_history_checked; global_first_unconfirmed",
+      "first_discovery_basis": "检查可读历史日报：本事件未找到同一已收录事件；索引覆盖有限，不能保证全局首次。",
+      "reason": "漏抓负面：ZCode数据上传指控及9月28日删除、补偿回应有新增事实；9月23日仅在另一企业新闻标题提到开源，没有收录本项风险与补偿。",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "寒武纪前高管梁军，要求赔偿278.32亿",
+      "article_title": "寒武纪前高管梁军，要求赔偿278.32亿",
+      "company": "中科寒武纪科技股份有限公司",
+      "location": "北京（既有企业信息；注册地址待核实）",
+      "score": 35,
+      "sector": "半导体/AI芯片",
+      "financing": "未披露",
+      "source": "半导体行业观察",
+      "link": "https://mp.weixin.qq.com/s/KM0_hV1ifERaujJGY7Krug",
+      "event_type": "负面",
+      "event_desc": "公司收到法院送达的《变更诉讼请求申请书》，原副总经理梁军（2022年初已离职）将股权激励损失索赔金额由4,286,624,448元变更为27,831,946,056元，系基于回购案件中其被强制执行变更登记的财产份额对应的持股权益计算：涉及北京艾溪科技中心（有限合伙）、天津玄算九号企业管理合伙企业（有限合伙）财产份额，经2025年度利润分配及资本公积金转增股本后间接对应分红17,284,776元、寒武纪股票增加至17,169,554股，单价按2024年1月2日至变更申请书提交日期间寒武纪股票最高价1,620元（2026年7月3日）确定。该劳动争议案件已立案受理、尚未开庭审理；公司称案件对日常研发及经营不存在影响，将积极应诉。此前股权激励相关6起案件均以梁军败诉结案，回购案件已进入司法强制执行阶段。",
+      "insight": "纠纷核心是离职高管持有的股权激励份额回购：梁军主张的278.32亿元对应北京艾溪科技中心（有限合伙）、天津玄算九号企业管理合伙企业（有限合伙）份额经2025年度转增后间接对应的17,169,554股及1,728.48万元分红，若诉求获支持将触及股权激励平台的份额归属与费用确认。公司此前6起相关案件均胜诉、并称诉讼不影响研发经营，短期风险主要在潜在赔付与声誉，需跟踪尚未开庭的本案判决。",
+      "published_date": "2026-09-30",
+      "published_at": "2026-09-30T14:13:00Z",
+      "publication_basis": "accepted_article_current.published_at（原始发布时刻，非采集/更新时间）",
+      "event_date": null,
+      "event_period": null,
+      "event_date_precision": "unknown",
+      "identity_status": "reported_brand; legal_entity_pending",
+      "tracking_track": "national_risk",
+      "region_classification": "national_other",
+      "is_national_star": false,
+      "selection_recommendation": "keep_negative",
+      "selection_reason": "寒武纪278.32亿元诉请变更是可识别AI芯片法律风险，不应丢弃；单方索赔不等于债务、败诉或研发已受影响。",
+      "evidence": {
+        "body_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/runs/wechat-reader-body-shadow/bundles/9d/9d40e9b3b92bcc58903c973278895cb074e028d7f1e97ce4203e311c111864c6/cbfd52de10c6dc9ff9a7fa48ba73c1bf51f1dd6cc74f076847eb6140432c7c4a/0233af4155e2764c93191bb42f868288ce0fd59c4373f89ea9db96a6881ab15b/body.txt",
+        "body_sha256": "cbfd52de10c6dc9ff9a7fa48ba73c1bf51f1dd6cc74f076847eb6140432c7c4a",
+        "manifest_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/safe-body-local-article-adapter/artifacts/objects/a5/a51c8a995c4b7e099bd2dd214efd600ed4f8888ff8c2135cd5de33c08fdb24c8/manifest.json",
+        "locator": "上述企业对应正文段落"
+      },
+      "quality_review": {
+        "keep_negative": true,
+        "reason": "寒武纪278.32亿元诉请变更是可识别AI芯片法律风险，不应丢弃；单方索赔不等于债务、败诉或研发已受影响。",
+        "reviewer": "current_task_agent",
+        "publication_status": "original_publication_verified_recent"
+      },
+      "event_time_evidence": {
+        "status": "event_date_unknown",
+        "event_date": null,
+        "event_period": null,
+        "description": "独立保留事件日与新闻日；精确事件日不明时不补造",
+        "review_required": false
+      },
+      "first_discovery_status": "available_history_checked; global_first_unconfirmed",
+      "first_discovery_basis": "检查可读历史日报：本事件未找到同一已收录事件；索引覆盖有限，不能保证全局首次。",
+      "reason": "寒武纪278.32亿元诉请变更是可识别AI芯片法律风险，不应丢弃；单方索赔不等于债务、败诉或研发已受影响。",
+      "date": "2026-10-02"
     }
   ],
   "sector_distribution": {
@@ -467,7 +565,19 @@
     "具身智能/量产服务": 1,
     "企业级AI/AGI": 1,
     "跨境电商SaaS/广告算法": 1,
-    "AI云/企业智能体出海": 1
+    "AI云/企业智能体出海": 1,
+    "人工智能—视频大模型／直播多模态理解": 1,
+    "AIGC/AI短片创作": 1,
+    "AI算力基础设施（零碳数据中心）": 1,
+    "互联网/电商、云计算与人工智能": 1,
+    "光互连芯片（硅光子）": 1,
+    "新能源汽车/智能汽车": 1,
+    "氢能储运装备": 1,
+    "餐饮连锁/烧烤": 1,
+    "汽车制造/国企改革": 1,
+    "人工智能/大模型": 1,
+    "新能源汽车整车制造": 1,
+    "半导体/晶圆代工": 2
   },
   "daily_details": {
     "2026-09-28": {
@@ -485,7 +595,11 @@
     "2026-10-01": {
       "count": 33,
       "negatives": 1
+    },
+    "2026-10-02": {
+      "count": 13,
+      "negatives": 2
     }
   },
-  "created": "2026-10-01 08:54:42"
+  "created": "2026-10-02 02:33:20"
 }
