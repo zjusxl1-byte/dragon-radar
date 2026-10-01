@@ -6,6 +6,7 @@
     <title>寻龙雷达 - 杭州未来"六小龙"发现系统</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/radar-insight-quality.js?v=20261001-review"></script>
     
     <script>
         tailwind.config = {
@@ -366,7 +367,9 @@
             var source = company.source || '未知信源';
             var articleTitle = company.event_description || company.article_title || company.title || '';
             var eventDesc = company.event_desc || '';
-            var insight = company.insight || company.summary || ''; 
+            var insight = company.insight || company.summary || '';
+            var insightPending = window.RadarInsightQuality && window.RadarInsightQuality.needsReview(insight, window.RadarData && window.RadarData.manifest);
+            if (insightPending) insight = '';
             var link = company.link || '';
             var date = company.date || window.RadarData.manifest.today;
             
@@ -435,7 +438,7 @@
                 (insight ? '<div class="mb-2 p-3 bg-gradient-to-br from-[#F5F7FF] to-[#EBF0FF] rounded-xl border border-indigo-100/50">' +
                     '<div class="flex items-center gap-1.5 mb-1.5"><span class="text-[12px]">💡</span><span class="text-[11px] font-extrabold text-[#3B4C8A] tracking-wider">小贾深度洞察</span></div>' +
                     '<p class="text-[12px] text-[#4A5D9A] leading-relaxed text-justify">' + insight + '</p>' +
-                '</div>' : '') +
+                '</div>' : (insightPending ? '<p class="text-xs text-gray-500 mb-2">分析待完善；以上为报道事实，不代表已完成深度研判。</p>' : '')) +
                 
                 '<div class="flex items-center gap-2 mt-4 pt-3 border-t border-gray-100/80">' +
                     '<button onclick="window.open(\'' + aiqichaUrl + '\', \'_blank\')" class="flex-1 py-2.5 bg-[#F4F6FB] text-[#4A6495] rounded-xl text-xs font-bold active:bg-indigo-100 transition-colors flex items-center justify-center gap-1"><span>🏢</span><span>查企业</span></button>' +
