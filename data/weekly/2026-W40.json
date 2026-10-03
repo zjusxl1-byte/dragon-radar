@@ -5,12 +5,12 @@
   "start_date": "2026-09-28",
   "end_date": "2026-10-04",
   "summary": {
-    "total_companies": 103,
+    "total_companies": 114,
     "financing_events": 24,
     "ipo_events": 10,
-    "milestone_events": 25,
-    "negative_events": 4,
-    "active_days": 6
+    "milestone_events": 28,
+    "negative_events": 8,
+    "active_days": 7
   },
   "top10": [
     {
@@ -572,6 +572,187 @@
         "locator": "宇信科技（法人全称待核实）对应正文段落"
       },
       "date": "2026-10-03"
+    },
+    {
+      "title": "4A景区批量摘牌，游客不好骗了",
+      "company": "金寨县小南京旅游开发有限公司",
+      "score": 0,
+      "sector": "文旅景区运营",
+      "financing": "",
+      "source": "36 氪",
+      "location": "安徽省金寨县",
+      "event_type": "负面",
+      "link": "https://mp.weixin.qq.com/s/gV0geXqbDV6wZAIMkmes9g",
+      "article_title": "4A景区批量摘牌，游客不好骗了",
+      "event_desc": "2026年9月，金寨县小南京乡村旅游景区被取消4A级旅游景区质量等级；该景区总体规划占地7500亩、旅游商业建筑面积30万平方米、规划总投资23亿元，2015年获评国家4A级，其运营主体金寨县小南京旅游开发有限公司成立于2017年（即景区获评4A两年后）；据中国新闻周刊报道，景区现状与规划相去甚远，已被列入金寨县2026年《政府工作报告》需盘活项目。",
+      "insight": "该项目以7500亩占地、30万平方米商业建筑面积、23亿元规划总投资的重资产模式推进，但运营主体在景区获评4A两年后才成立，最终因长期运营不善被摘牌并列入政府盘活清单，说明缺乏客流与持续运营现金流支撑的文旅重资产易形成资产闲置与投资沉淀；同类景区运营商需重点审视门票依赖度、客流自给能力与地方支持可持续性。",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "event_date": null,
+        "description": "事件时间按正文粒度记录，不自动补年份或月初日期",
+        "observed_date": "2026-10-04",
+        "review_required": true
+      },
+      "published_date": "2026-10-03T02:00:00Z",
+      "publication_basis": "本地 accepted 原文 manifest published_at",
+      "discovered_date": "2026-10-04",
+      "source_last_collected_at": "2026-10-03T11:45:58Z",
+      "event_date": null,
+      "source_evidence": {
+        "canonical_url": "https://mp.weixin.qq.com/s/gV0geXqbDV6wZAIMkmes9g",
+        "body_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/runs/wechat-reader-body-shadow/bundles/ae/ae752ba0b93139c1095511ec1e5aaa2f2acca7fe724c29691c0696cbe1d0f3f9/28ba1d600280ec2f5345ef8ecf45a09f6144845a0f53c71e5391447b93b87fc8/90bbf775b6225f183aa2bf7dd00267b52ad25cead9d4706b6814267bc512437a/body.txt",
+        "body_sha256": "28ba1d600280ec2f5345ef8ecf45a09f6144845a0f53c71e5391447b93b87fc8",
+        "manifest_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/safe-body-local-article-adapter/artifacts/objects/f6/f6c0f9952a9887c66497bf8645ffd832cb27adee582129e57fe58201fcfa1982/manifest.json"
+      },
+      "quality_review": {
+        "keep": true,
+        "reason": "原文明确经营主体与9月摘牌事件，应归入负面预警而非正面标的。",
+        "publication_status": "within_7_days",
+        "event_date_status": "exact_date_unverified",
+        "first_discovery_status": "no_same_url_in_available_daily_history",
+        "history_matches": [],
+        "review_model": "current_task_model",
+        "fact_boundary": "来源报道事实；未将模型推断当作原文事实",
+        "score_correction": "撤销已摘牌4A资质的正向认定加分；负面事件仍保留"
+      },
+      "reason": "运营景区被取消4A级质量等级并进入政府盘活清单",
+      "date": "2026-10-04"
+    },
+    {
+      "company": "比亚迪股份有限公司",
+      "title": "服务区闪充变慢充，不同品牌充电上限搞“双标”？ 比亚迪、理想等回应；Turbo GT版保时捷电动卡宴Coupe曝光丨汽车交通日报",
+      "article_title": "服务区闪充变慢充，不同品牌充电上限搞“双标”？ 比亚迪、理想等回应；Turbo GT版保时捷电动卡宴Coupe曝光丨汽车交通日报",
+      "link": "https://mp.weixin.qq.com/s/JKm3MeLuegj4offQl3K-ow",
+      "source": "创业邦",
+      "sector": "新能源汽车/超快充",
+      "location": "深圳",
+      "score": 35,
+      "event_type": "负面",
+      "event_desc": "创业邦10月3日汽车交通日报转述国庆期间车主投诉，比亚迪闪充实际速度受储能柜电量影响。客服回应称使用人数多可能导致储能柜来不及补能；不能据此认定所有站点或车辆存在产品缺陷。",
+      "insight": "闪充峰值功率依赖站端储能，假日集中使用会把竞争重点从单车充电速度转向站点补能能力。若储能柜恢复慢，车辆端高压平台优势难以持续兑现，后续运营投入应看高峰排队时间与储能容量配置。",
+      "financing": "未披露融资信息",
+      "is_national_star": true,
+      "published_date": "2026-10-03T10:46:00Z",
+      "publication_basis": "本地 accepted 原文 manifest published_at",
+      "discovered_date": "2026-10-04",
+      "source_last_collected_at": "2026-10-03T11:16:06Z",
+      "event_date": null,
+      "source_evidence": {
+        "canonical_url": "https://mp.weixin.qq.com/s/JKm3MeLuegj4offQl3K-ow",
+        "body_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/runs/wechat-reader-body-shadow/bundles/b8/b8967c094f88b454201e9016c6b65db05a1e6cf4b53d1f7eb0d678da64a647b8/c47cb13cac9fb8eb8073c0793d774d405145ead4824122b3cdd440371d7f57fe/072bc69278f9c66dcbaf360b4c7109ae02a6c09dd73f6aa8c12bde29e96f41f9/body.txt",
+        "body_sha256": "c47cb13cac9fb8eb8073c0793d774d405145ead4824122b3cdd440371d7f57fe",
+        "manifest_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/safe-body-local-article-adapter/artifacts/objects/82/82a7817d911364747f84518a0477e7faeb2d50f10b73bf93012280d7fbc4dba8/manifest.json"
+      },
+      "quality_review": {
+        "keep": true,
+        "reason": "已读同一 accepted 正文；主体与本条事件对应，有产品、经营或行业基准实质信息；不按地域、成熟度或参考分数剔除。",
+        "publication_status": "within_7_days",
+        "event_date_status": "exact_date_unverified",
+        "first_discovery_status": "no_same_url_in_available_daily_history",
+        "history_matches": [],
+        "review_model": "current_task_model",
+        "fact_boundary": "来源报道事实；未将模型推断当作原文事实"
+      },
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "event_date": null,
+        "description": "事件时间按正文粒度记录，不自动补年份或月初日期",
+        "observed_date": "2026-10-04",
+        "review_required": true
+      },
+      "reason": "节假日闪充体验投诉，客服承认储能柜补能约束",
+      "date": "2026-10-04"
+    },
+    {
+      "company": "理想汽车",
+      "title": "服务区闪充变慢充，不同品牌充电上限搞“双标”？ 比亚迪、理想等回应；Turbo GT版保时捷电动卡宴Coupe曝光丨汽车交通日报",
+      "article_title": "服务区闪充变慢充，不同品牌充电上限搞“双标”？ 比亚迪、理想等回应；Turbo GT版保时捷电动卡宴Coupe曝光丨汽车交通日报",
+      "link": "https://mp.weixin.qq.com/s/JKm3MeLuegj4offQl3K-ow",
+      "source": "创业邦",
+      "sector": "新能源汽车/充电网络",
+      "location": "北京",
+      "score": 35,
+      "event_type": "负面",
+      "event_desc": "创业邦10月3日汽车交通日报转述，不同品牌车辆在理想站点面临不同充电上限的投诉。客服表示长假会按站点繁忙程度调整80%、90%或95%上限；品牌差异的具体站点规则与覆盖范围待核实。",
+      "insight": "限制高荷电区间可缩短单车占桩时间，提升繁忙站点周转，但跨品牌用户若难以预先看到上限，会降低公共充电网络的可预期性。经营上的平衡在于车主权益与对外开放收入，问题应落实到站点规则透明度，而不是把个案扩展为全网歧视结论。",
+      "financing": "未披露融资信息",
+      "is_national_star": true,
+      "published_date": "2026-10-03T10:46:00Z",
+      "publication_basis": "本地 accepted 原文 manifest published_at",
+      "discovered_date": "2026-10-04",
+      "source_last_collected_at": "2026-10-03T11:16:06Z",
+      "event_date": null,
+      "source_evidence": {
+        "canonical_url": "https://mp.weixin.qq.com/s/JKm3MeLuegj4offQl3K-ow",
+        "body_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/runs/wechat-reader-body-shadow/bundles/b8/b8967c094f88b454201e9016c6b65db05a1e6cf4b53d1f7eb0d678da64a647b8/c47cb13cac9fb8eb8073c0793d774d405145ead4824122b3cdd440371d7f57fe/072bc69278f9c66dcbaf360b4c7109ae02a6c09dd73f6aa8c12bde29e96f41f9/body.txt",
+        "body_sha256": "c47cb13cac9fb8eb8073c0793d774d405145ead4824122b3cdd440371d7f57fe",
+        "manifest_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/safe-body-local-article-adapter/artifacts/objects/82/82a7817d911364747f84518a0477e7faeb2d50f10b73bf93012280d7fbc4dba8/manifest.json"
+      },
+      "quality_review": {
+        "keep": true,
+        "reason": "已读同一 accepted 正文；主体与本条事件对应，有产品、经营或行业基准实质信息；不按地域、成熟度或参考分数剔除。",
+        "publication_status": "within_7_days",
+        "event_date_status": "exact_date_unverified",
+        "first_discovery_status": "no_same_url_in_available_daily_history",
+        "history_matches": [],
+        "review_model": "current_task_model",
+        "fact_boundary": "来源报道事实；未将模型推断当作原文事实"
+      },
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "event_date": null,
+        "description": "事件时间按正文粒度记录，不自动补年份或月初日期",
+        "observed_date": "2026-10-04",
+        "review_required": true
+      },
+      "reason": "公共充电上限透明度与跨品牌体验争议",
+      "date": "2026-10-04"
+    },
+    {
+      "company": "杭州娃哈哈集团有限公司",
+      "title": "宗馥莉接班两年，一地鸡毛",
+      "article_title": "宗馥莉接班两年，一地鸡毛",
+      "link": "https://mp.weixin.qq.com/s/vcTxCqoojNhJRDLQnKgOcQ",
+      "source": "36 氪",
+      "sector": "消费/饮料",
+      "location": "杭州",
+      "score": 50,
+      "event_type": "负面",
+      "event_desc": "36氪10月2日转载盐财经，回顾娃哈哈接班、渠道改革和品牌控制权争议，并称8月虎林市宏胜饮料有限公司因欠缴住房公积金被查封办公楼，集团随后致歉。文中销售和订货下滑数据来自其引用的内部通报，未经财报对照，不作为集团全年业绩定论。",
+      "insight": "娃哈哈的品牌权、渠道与生产体系不完全处于同一控制链条，渠道集中和考核收紧因此容易与经销商库存压力相互放大。保证金式联销体原本支持现金流，终端动销下降时却会使压货转成拒收与缓发；劳动欠缴情形又增加执行成本，集团的实际回款与终端库存比单纯出厂任务更能反映修复进度。",
+      "financing": "未披露融资信息",
+      "is_national_star": false,
+      "published_date": "2026-10-02T13:00:00Z",
+      "publication_basis": "本地 accepted 原文 manifest published_at",
+      "discovered_date": "2026-10-04",
+      "source_last_collected_at": "2026-10-02T23:01:03Z",
+      "event_date": null,
+      "source_evidence": {
+        "canonical_url": "https://mp.weixin.qq.com/s/vcTxCqoojNhJRDLQnKgOcQ",
+        "body_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/runs/wechat-reader-body-shadow/bundles/07/075f200fe9039cd32e62933fc927878a95bf8d637316f5068004f00fcdde3d86/921566e0882306e031f90e08a82ad154892ec886b1d0bc8c9a890f387d110a86/9f9be5e78ab1ba6a36384025a1674285fa4553b0924a3c62792d3f39e02fb186/body.txt",
+        "body_sha256": "921566e0882306e031f90e08a82ad154892ec886b1d0bc8c9a890f387d110a86",
+        "manifest_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/safe-body-local-article-adapter/artifacts/objects/2a/2ad9a28e3f5880d56ccbb0d67004ca0e73caee2ff48ac49ac1e9b1c021fa0e0e/manifest.json"
+      },
+      "quality_review": {
+        "keep": true,
+        "reason": "已读同一 accepted 正文；主体与本条事件对应，有产品、经营或行业基准实质信息；不按地域、成熟度或参考分数剔除。",
+        "publication_status": "within_7_days",
+        "event_date_status": "exact_date_unverified",
+        "first_discovery_status": "no_same_url_in_available_daily_history",
+        "history_matches": [],
+        "review_model": "current_task_model",
+        "fact_boundary": "来源报道事实；未将模型推断当作原文事实"
+      },
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "event_date": null,
+        "description": "事件时间按正文粒度记录，不自动补年份或月初日期",
+        "observed_date": "2026-10-04",
+        "review_required": true
+      },
+      "reason": "报道涉及渠道库存压力及关联生产主体劳动欠缴情形，归属和财务口径保留边界",
+      "date": "2026-10-04"
     }
   ],
   "sector_distribution": {
@@ -672,7 +853,18 @@
     "具身智能": 1,
     "合成生物/生物制造": 1,
     "AI视频生成": 1,
-    "人形机器人": 1
+    "人形机器人": 1,
+    "房地产/城市更新": 1,
+    "半导体制造设备与材料": 1,
+    "具身智能数据基础设施（机器人数据采集与管理）": 1,
+    "半导体/AI芯片": 1,
+    "半导体/先进晶圆代工": 1,
+    "人工智能/软件开发智能体": 1,
+    "人工智能/端侧视觉语言模型": 1,
+    "人工智能/图像生成与编辑": 1,
+    "人工智能/空间智能与出行服务": 1,
+    "具身智能/机器人芯片": 1,
+    "新能源/户用储能与虚拟电厂": 1
   },
   "daily_details": {
     "2026-09-28": {
@@ -698,7 +890,11 @@
     "2026-10-03": {
       "count": 37,
       "negatives": 1
+    },
+    "2026-10-04": {
+      "count": 11,
+      "negatives": 4
     }
   },
-  "created": "2026-10-03 02:30:45"
+  "created": "2026-10-04 02:20:47"
 }
