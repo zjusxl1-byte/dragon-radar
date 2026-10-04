@@ -1095,7 +1095,8 @@
                             
                             window.RadarData.manifest.summary.today = {
                                 date: manifestData.today,
-                                total_companies: targets.length,
+                                total_companies: new Set(targets.map(function(t) { return String(t.company || t.company_name || '').trim(); }).filter(Boolean)).size,
+                                total_events: targets.length,
                                 negative_count: negatives.length,
                                 financing_count: finCount,
                                 milestone_count: (manifestData.summary && manifestData.summary.today && manifestData.summary.today.milestone_count !== undefined) ? manifestData.summary.today.milestone_count : milestoneCountLocal,
