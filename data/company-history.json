@@ -13668,6 +13668,25 @@
       "insight": "Harness v0.2把安装、账号、插件和后台任务整合进桌面产品，降低智能体使用门槛，强化日常工作入口。与CLI共享数据和任务有机会提升用户黏性，核心指标是长任务完成率、插件兼容性和持续使用。",
       "financing": "未披露",
       "event_date": "2026-09-29"
+    },
+    {
+      "date": "2026-10-05",
+      "title": "报道披露DeepSeek弹性计算团队扩招及DSec规模化细节：资源超卖率超过50倍，以pack_diff保存增量环境并支持轨迹分叉；公司计划将Agent运行环境数量和种类扩充成百上千倍。扩容为计划，未披露完成时间。",
+      "article_title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+      "event_type": "技术更新",
+      "link": "https://mp.weixin.qq.com/s/SfHH58LQK-RFv-9dpMmOMw",
+      "sector": "人工智能/Agent基础设施",
+      "location": "杭州",
+      "geography": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "score": 85,
+      "is_national_star": false,
+      "published_date": "2026-10-03",
+      "insight": "DSec把环境快照与轨迹分叉变为可复用训练资产，减少强化学习在重复环境搭建上的开销；超过50倍资源超卖依赖沙盒CPU稀疏使用和内存管理，扩容的约束将从机器数量转向状态保存、调度和隔离能力。这次招聘与新增工程细节可作为基础设施扩张观察点。",
+      "financing": "",
+      "event_date": ""
     }
   ],
   "上海垣信卫星科技有限公司": [
@@ -16370,6 +16389,25 @@
       "is_national_star": true,
       "insight": "驭势科技在机场和厂区L4自动驾驶场景占据龙头地位，商业落地能力强，但持续亏损和高研发投入是潜在风险；此次IPO有助于拓宽融资渠道，加速技术迭代和场景拓展。",
       "financing": "IPO募资8.72亿港元，累计融资超17.5亿元，投资方含中科创星、博世创投等",
+      "event_date": ""
+    },
+    {
+      "date": "2026-10-05",
+      "title": "铅笔道10月3日报道，驭势科技今年上半年收入约1.63亿元，同比增长64.9%，毛利约8599万元、毛利率52.9%；公司在机场、厂矿等封闭场景提供无人车、自动驾驶软件与AI司机订阅，并披露与汉莎航空在慕尼黑机场合作。",
+      "article_title": "江苏南通70后卖AI司机，半年收入1.63亿，港股上市",
+      "event_type": "商业化进展",
+      "link": "https://mp.weixin.qq.com/s/Gm7xgQGRN48z323x2a3aBg",
+      "sector": "自动驾驶",
+      "location": "北京",
+      "geography": "",
+      "source": "铅笔道",
+      "kind": "event",
+      "canonical_name": "驭势科技（北京）股份有限公司",
+      "score": 70,
+      "is_national_star": true,
+      "published_date": "2026-10-03",
+      "insight": "驭势科技避开开放道路乘用车，聚焦机场、厂矿等封闭场景L4商用车，以AI司机订阅将一次性销售转为服务收入并压缩账期；需关注客户集中度、订阅规模化复制与毛利率维持能力。",
+      "financing": "港交所上市，市值近百亿",
       "event_date": ""
     }
   ],
@@ -21114,6 +21152,44 @@
       "published_date": "2026-10-01",
       "insight": "报道中的外部云增长40%与AI收入约30%占比，显示AI已成为云业务收入的重要组成，而电商补贴、算力建设和设备折旧共同影响集团利润与现金回收。云业务扩张能否改善集团回报，取决于云利润率、AI增量回款与算力投入的匹配。季度云指标与集团年度数据的财年口径仍待核实。",
       "financing": "未披露",
+      "event_date": ""
+    },
+    {
+      "date": "2026-10-05",
+      "title": "ModelScope团队推出并开源Sirchmunk框架，面向动态原始文件提供免预构建向量索引的即时检索与证据核验；其LENS算法通过低成本先验和Propose→Observe→Update循环定位证据，并将验证过的问题、证据和答案沉淀为KnowledgeCluster，由KnowledgeEvolver连接、合并、重组为可复用知识。框架提供Python SDK、CLI、MCP、HTTP API和Web UI，支持FAST/DEEP模式，演示基于SQuAD数据集200条问题回放知识图谱演化。",
+      "article_title": "魔搭开源动态检索新框架，无需预构建向量索引，知识库还能自己进化",
+      "event_type": "开源发布",
+      "link": "https://mp.weixin.qq.com/s/aUEvKaotmC-2u4k5GBBoVw",
+      "sector": "人工智能/企业知识检索软件",
+      "location": "杭州（集团）；魔搭团队所在地未单列",
+      "geography": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "阿里巴巴集团控股有限公司",
+      "score": 85,
+      "is_national_star": false,
+      "published_date": "2026-10-03",
+      "insight": "Sirchmunk以免预构建索引的即时检索和运行时知识自进化，省去全量建索引的等待，并降低动态知识库的索引维护负担，适合高频变化、时效敏感的企业知识检索场景。其开源模式有利于形成开发者生态，但需观察与既有向量索引/RAG平台的竞合、企业级采用及长期维护成本。",
+      "financing": "",
+      "event_date": ""
+    },
+    {
+      "date": "2026-10-05",
+      "title": "投资界10月3日报道，阿里在云栖大会公布千问Personal Agent规划，拟在用户授权前提下对接个人消费和生活数据，连接淘宝、支付宝、高德等消费生态。此项为产品规划，未披露正式开放时间。",
+      "article_title": "“大厂三倍工资，原地加班”",
+      "event_type": "产品规划",
+      "link": "https://mp.weixin.qq.com/s/Z8IqeHnXkYohD-jl9gueKg",
+      "sector": "人工智能/消费生态Agent",
+      "location": "杭州（集团）",
+      "geography": "",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "阿里巴巴集团控股有限公司",
+      "score": 85,
+      "is_national_star": false,
+      "published_date": "2026-10-03",
+      "insight": "千问Personal Agent若能连接交易、支付与地图服务，可在阿里消费生态内减少Agent执行任务时的外部接口摩擦。跨业务数据授权与任务交接是落实规划的关键，现有生态覆盖提供入口优势，但公开报道尚未说明各服务的接入深度。",
+      "financing": "",
       "event_date": ""
     }
   ],
@@ -28436,6 +28512,214 @@
       "published_date": "2026-10-03T10:46:00Z",
       "insight": "限制高荷电区间可缩短单车占桩时间，提升繁忙站点周转，但跨品牌用户若难以预先看到上限，会降低公共充电网络的可预期性。经营上的平衡在于车主权益与对外开放收入，问题应落实到站点规则透明度，而不是把个案扩展为全网歧视结论。",
       "financing": "未披露融资信息",
+      "event_date": ""
+    }
+  ],
+  "英飞凌科技股份公司": [
+    {
+      "date": "2026-10-05",
+      "title": "英飞凌位于泰国北榄府的功率半导体制造综合体举行落成典礼，投资14亿美元（480亿泰铢），规划分五个模块建设，全面建成后预计成为英飞凌全球最大的后端组装和测试中心；项目由泰国投资促进委员会（BOI）推动，预计创造超过5000个本地高技能就业岗位，并与泰国半导体产业协会及当地大学合作开发至少60门半导体专业课程、培训1100名本科生、支持18个联合研发项目。",
+      "article_title": "泰国，发力半导体",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/2vb6lNiyKdQIM7eQFgWcrQ",
+      "sector": "半导体（功率半导体制造与封测）",
+      "location": "泰国北榄府",
+      "geography": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "英飞凌科技股份公司",
+      "score": 80,
+      "is_national_star": true,
+      "published_date": "2026-10-03",
+      "insight": "英飞凌在泰国新增后端组装与测试产能，并规划将该综合体建成其全球最大封测中心，体现功率半导体封测环节向东南亚布局的趋势。对功率器件厂商而言，分模块投产能否与本地人才培养协同，将影响项目爬坡及车规、工业客户的交付能力。",
+      "financing": "英飞凌投资14亿美元（480亿泰铢）建设该综合体",
+      "event_date": ""
+    }
+  ],
+  "字节跳动（豆包；运营法人待核实）": [
+    {
+      "date": "2026-10-05",
+      "title": "投资界10月3日援引社媒消息称，豆包团队国庆前加速重构个人Agent产品，9月27日联调、9月30日拟提交体验版内测；项目据称基于4月启动的Spell，计划减少硬件限制并做成全机型独立个人助理App，网传名称“小豆”，对标Meta Muse。报道未给出正式发布公告，内测进度与名称待核实。",
+      "article_title": "“大厂三倍工资，原地加班”",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Z8IqeHnXkYohD-jl9gueKg",
+      "sector": "AI Agent/个人AI助理",
+      "location": "北京",
+      "geography": "",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "字节跳动（豆包；运营法人待核实）",
+      "score": 35,
+      "is_national_star": true,
+      "published_date": "2026-10-03",
+      "insight": "若Spell升级为脱离硬件的独立个人助理App，将表明豆包尝试把对话用户迁移到可执行任务的Agent入口；目前只是报道中的内测传闻，不能据此认定产品已上线。接口授权、专属运行环境成本和复杂任务恢复能力，是这一产品方向兑现价值的关键。",
+      "financing": "",
+      "event_date": ""
+    }
+  ],
+  "青岛翼晨镭硕科技有限公司": [
+    {
+      "date": "2026-10-05",
+      "title": "2026年09月24日，青岛翼晨镭硕科技有限公司在杭州余杭成立全资子公司杭州翼晨半导体科技有限公司。",
+      "article_title": "一周之内，三家半导体集体杀入杭州",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/qD4pLiVDZMVAut30cObtcw",
+      "sector": "半导体/光电子",
+      "location": "青岛（母公司）；杭州余杭（子公司）",
+      "geography": "",
+      "source": "湖畔自留田",
+      "kind": "event",
+      "canonical_name": "青岛翼晨镭硕科技有限公司",
+      "score": 95,
+      "is_national_star": false,
+      "published_date": "2026-10-04",
+      "insight": "公司具备光电子芯片/器件全流程与微纳加工能力，落地余杭可接入杭州AI、云计算和光通信场景；后续跟踪杭州子公司是否承接实际研发/量产及超净间平台产能利用。",
+      "financing": "",
+      "event_date": "2026-09-24"
+    }
+  ],
+  "杭州鸿芯跃智能科技有限公司": [
+    {
+      "date": "2026-10-05",
+      "title": "2026年09月24日，杭州鸿芯跃智能科技有限公司在杭州上城正式成立，母公司系江苏红芯智联科技有限公司。",
+      "article_title": "一周之内，三家半导体集体杀入杭州",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/qD4pLiVDZMVAut30cObtcw",
+      "sector": "半导体/集成电路供应链/算力设备",
+      "location": "杭州上城",
+      "geography": "",
+      "source": "湖畔自留田",
+      "kind": "event",
+      "canonical_name": "杭州鸿芯跃智能科技有限公司",
+      "score": 85,
+      "is_national_star": false,
+      "published_date": "2026-10-04",
+      "insight": "杭州鸿芯跃以母公司红芯智联的半导体供应链与算力设备业务为背景；报道披露的红豆股份、NVIDIA精英伙伴ZENTEK属于母公司发起股东结构。杭州子公司的注册提供业务扩展观察点，但能否从销售渠道转为实际算力或集成电路项目，仍需订单与履约证据。",
+      "financing": "",
+      "event_date": "2026-09-24"
+    }
+  ],
+  "芯率智能科技（苏州）有限公司": [
+    {
+      "date": "2026-10-05",
+      "title": "2026年09月29日，芯率智能科技（苏州）有限公司在杭州成立焱芯智测科技（杭州）有限公司。",
+      "article_title": "一周之内，三家半导体集体杀入杭州",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/qD4pLiVDZMVAut30cObtcw",
+      "sector": "半导体软件/晶圆制造良率管理",
+      "location": "苏州（母公司）；杭州（子公司）",
+      "geography": "",
+      "source": "湖畔自留田",
+      "kind": "event",
+      "canonical_name": "芯率智能科技（苏州）有限公司",
+      "score": 85,
+      "is_national_star": false,
+      "published_date": "2026-10-04",
+      "insight": "良率管理是晶圆制造核心软件环节，产品已导入华虹宏力、华虹无锡、格科微、积塔半导体等十几个量产线；杭州子公司可成为客户服务与拓展节点。已有产线导入比单纯注册更能支撑国产替代价值，后续订单复制和回款将检验这次布局是否转化为持续业务。",
+      "financing": "",
+      "event_date": "2026-09-29"
+    }
+  ],
+  "长鑫存储技术有限公司（CXMT）": [
+    {
+      "date": "2026-10-05",
+      "title": "半导体行业观察10月3日转述Counterpoint 10月2日发布的统计：CXMT第二季度全球DRAM营收份额为10%，前一季度为8%、去年同期为4%，居第四；三星、SK海力士、美光同期分别为38%、25%、24%。",
+      "article_title": "DRAM市占，SK海力士被紧追",
+      "event_type": "产业竞争",
+      "link": "https://mp.weixin.qq.com/s/xr0winaGppnN6rIRW0OF_w",
+      "sector": "半导体/DRAM",
+      "location": "合肥",
+      "geography": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "长鑫存储技术有限公司（CXMT）",
+      "score": 35,
+      "is_national_star": true,
+      "published_date": "2026-10-03",
+      "insight": "份额由8%升至10%反映国产DRAM在本轮市场中扩大营收占比，但涨价会同时影响各厂商营收，不能据此分解出货量增长。与前三家合计87%的份额相比，长鑫仍有较大差距；其竞争位置取决于产品结构和客户导入能否在价格周期变化后保持。",
+      "financing": "",
+      "event_date": "2026-10-02"
+    }
+  ],
+  "Sharpa（法人全称待核实）": [
+    {
+      "date": "2026-10-05",
+      "title": "创业邦10月3日报道，Sharpa机器人在上海吴江路DQ门店连续运行约一个月，在不改造原有设备与流程的条件下自主完成55步冰淇淋制作。单次流程约6分钟，约为熟练店员的两倍；9月另发布W02灵巧手、D01机器人和AE01数据手套。",
+      "article_title": "具身智能落地，从犯错开始",
+      "event_type": "场景交付",
+      "link": "https://mp.weixin.qq.com/s/VU9BenyqoQ0d9ouraIXkMw",
+      "sector": "具身智能/触觉灵巧手",
+      "location": "上海（门店部署地；企业总部待核实）",
+      "geography": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Sharpa（法人全称待核实）",
+      "score": 35,
+      "is_national_star": true,
+      "published_date": "2026-10-03",
+      "insight": "触觉灵巧手、整机和CraftNet模型的组合，把机器人验证从预设演示推进到温度、材料状态和工具摆放会变化的完整流程。一个月运行积累的异常样本可反哺泛化能力，但约6分钟的出品速度仍限制门店吞吐；能否缩短节拍并降低现场调试成本，决定这套技术从样板店走向复制的价值。",
+      "financing": "",
+      "event_date": ""
+    }
+  ],
+  "腾讯控股有限公司（LightVela团队）": [
+    {
+      "date": "2026-10-05",
+      "title": "投资界10月3日报道，腾讯云轻量云团队上线云端常驻个人Agent平台LightVela，支持7×24小时运行、长期记忆、定时任务和可安装技能。文中未给出精确上线日。",
+      "article_title": "“大厂三倍工资，原地加班”",
+      "event_type": "产品发布",
+      "link": "https://mp.weixin.qq.com/s/Z8IqeHnXkYohD-jl9gueKg",
+      "sector": "人工智能/云端Agent托管",
+      "location": "深圳（集团）；云团队所在地未单列",
+      "geography": "",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "腾讯控股有限公司（LightVela团队）",
+      "score": 35,
+      "is_national_star": true,
+      "published_date": "2026-10-03",
+      "insight": "LightVela把个人Agent从一次性对话延伸为可长期运行的云端服务，记忆、定时任务和技能形成持续作业入口。腾讯云现有计算与开发者分发可支持托管，但长期任务的执行稳定性和单用户常驻算力成本决定服务能否持续收费。",
+      "financing": "",
+      "event_date": ""
+    }
+  ],
+  "Manus（运营法人全称待核实）": [
+    {
+      "date": "2026-10-05",
+      "title": "投资界10月3日报道，Manus发布面向海外用户的2.0版本及个人智能助理Cue，配置独立邮箱、虚拟身份，可在用户授权预算内处理个人事务；国内产品和团队仍在筹备。精确发布日期未披露。",
+      "article_title": "“大厂三倍工资，原地加班”",
+      "event_type": "产品发布",
+      "link": "https://mp.weixin.qq.com/s/Z8IqeHnXkYohD-jl9gueKg",
+      "sector": "人工智能/个人事务Agent",
+      "location": "面向海外用户；企业所在地待核实",
+      "geography": "",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "Manus（运营法人全称待核实）",
+      "score": 35,
+      "is_national_star": true,
+      "published_date": "2026-10-03",
+      "insight": "独立邮箱与虚拟身份使Cue能接入实际事务，而授权预算为交易执行划出可核对的边界。相比只生成建议，产品价值取决于跨服务任务的履约和恢复能力；海外可用版本与国内筹备应分开观察，不能从筹备进度推算国内用户规模。",
+      "financing": "",
+      "event_date": ""
+    }
+  ],
+  "OpenAI": [
+    {
+      "date": "2026-10-05",
+      "title": "量子位10月3日转述《华尔街日报》报道，OpenAI内部调查称三名安全与模型对齐员工向外部AI安全机构分享敏感信息，其中含基础设施架构，随后将其解雇；另转述BI称安全透明度负责人David Robinson离职，继任者未公布。",
+      "article_title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "event_type": "信息安全风险",
+      "link": "https://mp.weixin.qq.com/s/HBuB_NryTns-E3gNNisPsQ",
+      "sector": "人工智能/模型安全治理",
+      "location": "美国",
+      "geography": "",
+      "source": "量子位",
+      "kind": "risk",
+      "canonical_name": "OpenAI",
+      "published_date": "2026-10-03",
+      "insight": "敏感架构信息的外流指控，暴露的是第三方安全研究协作与内部保密边界之间的冲突。技术联系人被解雇可能影响外部评估衔接，但报道未证实模型发布受阻或经营损失；风险观察应集中于调查结论、评估协作和披露工作的连续性。",
+      "financing": "",
       "event_date": ""
     }
   ]
