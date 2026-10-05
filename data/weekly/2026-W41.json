@@ -5,14 +5,86 @@
   "start_date": "2026-10-05",
   "end_date": "2026-10-11",
   "summary": {
-    "total_companies": 13,
-    "financing_events": 0,
-    "ipo_events": 0,
-    "milestone_events": 0,
+    "total_companies": 24,
+    "financing_events": 2,
+    "ipo_events": 1,
+    "milestone_events": 5,
     "negative_events": 0,
-    "active_days": 1
+    "active_days": 2
   },
   "top10": [
+    {
+      "title": "DeepSeek假期上新，90后负责人回应",
+      "company": "杭州深度求索人工智能基础技术研究有限公司",
+      "score": 100,
+      "sector": "人工智能大模型/智能体基础设施",
+      "financing": "",
+      "source": "浙商杂志",
+      "location": "杭州",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/yJR5UjwixRv_HPeSr9COYQ",
+      "article_title": "DeepSeek假期上新，90后负责人回应",
+      "event_desc": "10月3日，DeepSeek旗下智能体框架DeepSeek Harness发布新版本，强化插件化和跨平台能力，并加入实验性Claude Code Mods兼容层，使Anthropic旗下Claude Code开发的部分扩展功能理论上可经适配后在DSH框架内运行。负责人崔添翼10月4日发文回应称，做兼容层的主要目的是验证Claude Code Mods向插件作者提供的扩展能力是否大致是DSH“一切皆插件”架构能力的子集，目前还无法让所有Claude Code Mods无缝运行，若认为值得投入，未来技术上有可能做到；其强调DSH的开放开源理念从立项之初即确立，团队目标是从Harness角度推进AGI。DSH v0.1开发者预览版于8月13日向全球开放测试并以MIT协议开源，发布后不到24小时在GitHub获超7万颗星。",
+      "insight": "DSH以MIT开源加‘一切皆插件’架构切入Agent Harness，兼容Claude Code Mods是在检验两套插件系统的扩展能力边界。它为现有扩展迁移提供入口，但目前尚不能无缝运行，扩展接口的覆盖程度和实际适配成本将决定跨生态迁移的价值。",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "event_date": "2026-10-03",
+        "reported_event_date": null,
+        "observed_date": "2026-10-05",
+        "status": "actual",
+        "review_required": false,
+        "description": "事件日期与报道日期分开记录；日期不明保留null。"
+      },
+      "published_date": "2026-10-05",
+      "publication_basis": "local_repository accepted原始published_at；对应正文SHA-256已核验",
+      "event_date": "2026-10-03",
+      "reported_event_date": null,
+      "event_timing": "actual",
+      "quality_review": {
+        "keep": true,
+        "reason": "本条Harness兼容层及插件扩展能力实验是具体AI软件产品新增；2026-10-01桌面版、10-05沙盒扩容是不同事实。纠正秘书公司误映射及模型2025年份。",
+        "scope_reviewed": true,
+        "publication_passed": true,
+        "reviewer": "current_task_agent",
+        "body_sha256": "3acc8842c38fd5f43ea3042b8c1909f16007e2c98055f0f7ac25037e55e2ebd3"
+      }
+    },
+    {
+      "title": "速卖通智能经营AI Agent全面上线；百度海外版Kooko用户破千万｜36氪出海·要闻回顾",
+      "company": "阿里巴巴集团控股有限公司（速卖通）",
+      "score": 100,
+      "sector": "跨境电商/AI应用",
+      "financing": "",
+      "source": "36 氪",
+      "location": "杭州",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/fB-U2fXp381Ux7HyhJuiXg",
+      "article_title": "速卖通智能经营AI Agent全面上线；百度海外版Kooko用户破千万｜36氪出海·要闻回顾",
+      "event_desc": "9月22日，速卖通宣布潜力市场智能经营Agent全面上线，AI可自动接管200多个潜力国家和地区的商品信息翻译优化、大促活动报名、物流线路匹配等日常经营；今年针对潜力市场推出“一人一国”解决方案，投入同比翻倍，哥伦比亚、马来西亚、孟加拉国等市场9月GMV同比上涨超过50%。",
+      "insight": "速卖通把翻译、活动报名和物流匹配纳入AI托管，降低商家同时经营小规模海外市场的人力负担，200多个市场的覆盖体现平台分发优势。哥伦比亚等市场9月GMV增长与投入翻倍并行，现有证据不能把增长单独归因于Agent；商业价值取决于托管商家的转化和持续使用。",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "event_date": "2026-09-22",
+        "reported_event_date": null,
+        "observed_date": "2026-10-04",
+        "status": "actual",
+        "review_required": false,
+        "description": "事件日期与报道日期分开记录；日期不明保留null。"
+      },
+      "published_date": "2026-10-04",
+      "publication_basis": "local_repository accepted原始published_at；对应正文SHA-256已核验",
+      "event_date": "2026-09-22",
+      "reported_event_date": null,
+      "event_timing": "actual",
+      "quality_review": {
+        "keep": true,
+        "reason": "具名速卖通AI Agent覆盖200多个市场及具体翻译、活动、物流工作流，有规模应用对标；联想误映射必须纠正。旧事件由10月4日报导，历史日报未见同一事件。",
+        "scope_reviewed": true,
+        "publication_passed": true,
+        "reviewer": "current_task_agent",
+        "body_sha256": "e250fe1307da94afc8242f7879d72fe02fa037955abac2e2deafbb3fd4e3bff0"
+      }
+    },
     {
       "title": "一周之内，三家半导体集体杀入杭州",
       "company": "青岛翼晨镭硕科技有限公司",
@@ -255,6 +327,43 @@
       "selection_reason": "个人Agent独立应用研发、云端托管、授权执行与生态规划分别具产业信息；豆包为网传内测，阿里为规划，不写正式上线"
     },
     {
+      "title": "港大博士在杭州创业，想让Agent自己进化起来",
+      "company": "向界智能科技（杭州）有限责任公司",
+      "score": 85,
+      "sector": "AI智能体基础设施/智能体仿真与自进化",
+      "financing": "",
+      "source": "湖畔自留田",
+      "location": "杭州西湖区",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/SgJqD2vsvgKYQ5j73QEHlg",
+      "article_title": "港大博士在杭州创业，想让Agent自己进化起来",
+      "event_desc": "2026年2月4日，向界智能科技（杭州）有限责任公司在杭州西湖区成立，由胡梦康个人独资；关联公司向界企业管理（杭州）有限公司于4月28日成立，由Evolvent AI (HK) Limited全资投资。Evolvent AI推出Terrarium动态多回合环境引擎，使环境在Agent每轮行动之间发生变异，支持邮箱、日历、数据库等外部事件复现及心跳、webhook主动式行为；并发布ClawMark基准集，面向多天长周期办公协作智能体，使用确定性Python校验器打分。团队有11个岗位招聘。",
+      "insight": "Terrarium将Agent评测/训练从静态数据集推进到可变异的多回合动态环境，ClawMark以确定性Python校验器打分，目标是形成考评-训练-进化飞轮并成为Agent自进化基础设施；商业上仍需验证企业客户付费、开源生态转化和11个招聘岗位所对应的交付能力。",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "event_date": "2026-02-04",
+        "reported_event_date": null,
+        "observed_date": "2026-10-05",
+        "status": "actual",
+        "review_required": false,
+        "description": "事件日期与报道日期分开记录；日期不明保留null。"
+      },
+      "published_date": "2026-10-05",
+      "publication_basis": "local_repository accepted原始published_at；对应正文SHA-256已核验",
+      "event_date": "2026-02-04",
+      "reported_event_date": null,
+      "event_timing": "actual",
+      "event_date_basis": "2026-02-04是成立日；Terrarium/ClawMark发布日期未明",
+      "quality_review": {
+        "keep": true,
+        "reason": "杭州AI基础设施，Terrarium动态环境和ClawMark确定性验证具实质技术机制；近期报道成立较早的企业可留。成立日不是产品发布日，产品事件日未明确。",
+        "scope_reviewed": true,
+        "publication_passed": true,
+        "reviewer": "current_task_agent",
+        "body_sha256": "bf4090a7505db51be685e9668c3f8c3e61ad01434ebcf844ea70bbadae7abe08"
+      }
+    },
+    {
       "title": "泰国，发力半导体",
       "company": "英飞凌科技股份公司",
       "score": 80,
@@ -296,139 +405,6 @@
         "published_at": "2026-10-03T02:45:00Z",
         "body_sha256": "2f202b553ad585f85434f79b273355c4f0e02cf0c8cc6a5265ca1965513990e0"
       }
-    },
-    {
-      "title": "江苏南通70后卖AI司机，半年收入1.63亿，港股上市",
-      "company": "驭势科技（北京）股份有限公司",
-      "score": 70,
-      "sector": "自动驾驶",
-      "financing": "港交所上市，市值近百亿",
-      "source": "铅笔道",
-      "location": "北京",
-      "event_type": "商业化进展",
-      "link": "https://mp.weixin.qq.com/s/Gm7xgQGRN48z323x2a3aBg",
-      "article_title": "江苏南通70后卖AI司机，半年收入1.63亿，港股上市",
-      "event_desc": "铅笔道10月3日报道，驭势科技今年上半年收入约1.63亿元，同比增长64.9%，毛利约8599万元、毛利率52.9%；公司在机场、厂矿等封闭场景提供无人车、自动驾驶软件与AI司机订阅，并披露与汉莎航空在慕尼黑机场合作。",
-      "insight": "驭势科技避开开放道路乘用车，聚焦机场、厂矿等封闭场景L4商用车，以AI司机订阅将一次性销售转为服务收入并压缩账期；需关注客户集中度、订阅规模化复制与毛利率维持能力。",
-      "is_national_star": true,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-03",
-        "event_date": null,
-        "observed_date": "2026-10-03",
-        "review_required": true
-      },
-      "published_date": "2026-10-03",
-      "publication_basis": "local_repository accepted文章保留的原始published_at；不使用采集日或网页更新时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "封闭场景L4商业化；5月IPO已记录，保留新半年经营、汉莎合作和订阅模式，不再作为新IPO",
-      "event_date": null,
-      "quality_review": {
-        "keep": true,
-        "reason": "封闭场景L4商业化；5月IPO已记录，保留新半年经营、汉莎合作和订阅模式，不再作为新IPO",
-        "model": "openai/gpt-6.1-sol",
-        "review_status": "approved",
-        "scope_track": "全国/全球科技产业对标；不按参考分数排除"
-      },
-      "publication_status": "within_7_days",
-      "first_discovery_review": {
-        "status": "new_information_in_available_history",
-        "basis": "2026-05-21已收录IPO，当前保留半年经营数据、汉莎合作和订阅模式增量，不再作为新IPO"
-      },
-      "publication_evidence": {
-        "published_at": "2026-10-03T04:23:00Z",
-        "body_sha256": "b205ecb2d0e2aa5d6fd3e034c78e5cb589915ceba7e518d4afcb26c6486103cf"
-      },
-      "event_identity": {
-        "canonical_id": "今年5月20日，驭势科技在港交所上市，市值近百亿；今年上半年收入约1.63亿元，同比增长64.9%，毛利约8599万元，毛利率52.9%；公司主要卖无人车、自动驾驶软件、AI司机，并官宣与汉莎航空在慕尼黑机场合作。"
-      }
-    },
-    {
-      "title": "“大厂三倍工资，原地加班”",
-      "company": "字节跳动（豆包；运营法人待核实）",
-      "score": 35,
-      "sector": "AI Agent/个人AI助理",
-      "financing": "",
-      "source": "投资界",
-      "location": "北京",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/Z8IqeHnXkYohD-jl9gueKg",
-      "article_title": "“大厂三倍工资，原地加班”",
-      "event_desc": "投资界10月3日援引社媒消息称，豆包团队国庆前加速重构个人Agent产品，9月27日联调、9月30日拟提交体验版内测；项目据称基于4月启动的Spell，计划减少硬件限制并做成全机型独立个人助理App，网传名称“小豆”，对标Meta Muse。报道未给出正式发布公告，内测进度与名称待核实。",
-      "insight": "若Spell升级为脱离硬件的独立个人助理App，将表明豆包尝试把对话用户迁移到可执行任务的Agent入口；目前只是报道中的内测传闻，不能据此认定产品已上线。接口授权、专属运行环境成本和复杂任务恢复能力，是这一产品方向兑现价值的关键。",
-      "is_national_star": true,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-03",
-        "event_date": null,
-        "observed_date": "2026-10-03",
-        "review_required": true
-      },
-      "published_date": "2026-10-03",
-      "publication_basis": "local_repository accepted文章保留的原始published_at；不使用采集日或网页更新时间",
-      "selection_recommendation": "review",
-      "selection_reason": "个人Agent独立应用研发、云端托管、授权执行与生态规划分别具产业信息；豆包为网传内测，阿里为规划，不写正式上线",
-      "event_date": null,
-      "quality_review": {
-        "keep": true,
-        "reason": "个人Agent独立应用研发、云端托管、授权执行与生态规划分别具产业信息；豆包为网传内测，阿里为规划，不写正式上线",
-        "model": "openai/gpt-6.1-sol",
-        "review_status": "approved",
-        "scope_track": "全国/全球科技产业对标；不按参考分数排除",
-        "uncertainty": "社媒传闻与内测计划，运营法人待核实；非已发布产品"
-      },
-      "publication_status": "within_7_days",
-      "first_discovery_review": {
-        "status": "new_information_in_available_history",
-        "basis": "2026-10-03豆包出行报道与本次Spell个人Agent内测传闻不同；内测未证实为正式发布"
-      },
-      "publication_evidence": {
-        "published_at": "2026-10-03T07:06:00Z",
-        "body_sha256": "0027ee48e787204b5868bca24f68388cf422baee88e886779f942092862738c2"
-      },
-      "event_timing": "reported_internal_plan",
-      "event_identity": {
-        "canonical_id": "国庆假期前夕，字节豆包内部团队中秋不放假，开启高优先级紧急新项目，快速重构一款对标Meta Muse的新产品；9月27日联调，9月30日需拿出体验版（上会内测），总工期约6天；豆包全产品线及算法、工程、产品、设计等上下游团队联动，部分员工中秋开始加班。此前4月豆包内部启动代号Spell的内测项目，Muse爆火后字节升级Spell能力并加速开发，计划剥离硬件限制，做成全机型可用的独立消费级个人助理App，网传内部名称“小豆”，直接对标Muse。"
-      }
-    },
-    {
-      "title": "DRAM市占，SK海力士被紧追",
-      "article_title": "DRAM市占，SK海力士被紧追",
-      "company": "长鑫存储技术有限公司（CXMT）",
-      "location": "合肥",
-      "sector": "半导体/DRAM",
-      "event_type": "产业竞争",
-      "score": 35,
-      "source": "半导体行业观察",
-      "link": "https://mp.weixin.qq.com/s/xr0winaGppnN6rIRW0OF_w",
-      "financing": "",
-      "event_desc": "半导体行业观察10月3日转述Counterpoint 10月2日发布的统计：CXMT第二季度全球DRAM营收份额为10%，前一季度为8%、去年同期为4%，居第四；三星、SK海力士、美光同期分别为38%、25%、24%。",
-      "insight": "份额由8%升至10%反映国产DRAM在本轮市场中扩大营收占比，但涨价会同时影响各厂商营收，不能据此分解出货量增长。与前三家合计87%的份额相比，长鑫仍有较大差距；其竞争位置取决于产品结构和客户导入能否在价格周期变化后保持。",
-      "published_date": "2026-10-03",
-      "publication_basis": "local_repository accepted文章保留的原始published_at；不使用采集日或网页更新时间",
-      "publication_status": "within_7_days",
-      "event_date": "2026-10-02",
-      "event_timing": "actual",
-      "is_national_star": true,
-      "quality_review": {
-        "keep": true,
-        "reason": "DRAM营收份额与产业竞争新统计；10月2日距本轮3天，第二季度是统计期不是新闻日；长信为原文名称误写",
-        "model": "openai/gpt-6.1-sol",
-        "review_status": "approved",
-        "identity_status": "business_identity_resolved",
-        "evidence_body_sha256": "1f6bf739aedf77db50e8e364ece7fac06f060d8bdc6bf27578b959f08e579505",
-        "source_quality_gap": "原文中文名称及非本条保留的美光财务数字存在矛盾；只保留明确归属Counterpoint的份额口径，原始统计待独立核验",
-        "name_correction": "CXMT原文中文名“长信”误写；根据既有企业记录归为长鑫存储，不新建长信企业"
-      },
-      "first_discovery_review": {
-        "status": "new_information_in_available_history",
-        "basis": "2026-09-24存储产品平台事件不同；此次为新近公布的第二季度份额统计"
-      },
-      "publication_evidence": {
-        "published_at": "2026-10-03T02:45:00Z",
-        "body_sha256": "1f6bf739aedf77db50e8e364ece7fac06f060d8bdc6bf27578b959f08e579505"
-      },
-      "selection_reason": "DRAM营收份额与产业竞争新统计；10月2日距本轮3天，第二季度是统计期不是新闻日；长信为原文名称误写"
     }
   ],
   "negatives": [],
@@ -445,13 +421,28 @@
     "具身智能/触觉灵巧手": 1,
     "人工智能/云端Agent托管": 1,
     "人工智能/个人事务Agent": 1,
-    "人工智能/消费生态Agent": 1
+    "人工智能/消费生态Agent": 1,
+    "人工智能大模型/智能体基础设施": 1,
+    "智能穿戴设备/健康监测": 1,
+    "消费电子/智能手机": 1,
+    "AI智能体基础设施/智能体仿真与自进化": 1,
+    "半导体/芯片供电与先进封装": 1,
+    "半导体/先进制程与背面供电": 1,
+    "跨境电商/AI应用": 1,
+    "AI办公/生产力软件": 1,
+    "商用车/新能源汽车制造": 1,
+    "低空经济/飞行汽车/eVTOL": 1,
+    "具身智能/柔性触觉传感器": 1
   },
   "daily_details": {
     "2026-10-05": {
       "count": 13,
       "negatives": 0
+    },
+    "2026-10-06": {
+      "count": 11,
+      "negatives": 0
     }
   },
-  "created": "2026-10-05 20:44:55"
+  "created": "2026-10-06 02:17:36"
 }
