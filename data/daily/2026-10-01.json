@@ -179,51 +179,6 @@
       }
     },
     {
-      "title": "张雪称赞“特别漂亮”的浙江老板娘要IPO了",
-      "company": "浙江阿波罗运动科技股份有限公司",
-      "score": 25,
-      "sector": "摩托车及非道路休闲车制造（汽摩配）",
-      "financing": "北交所IPO申请获受理，拟募集资金约3.97亿元，用于越野车辆扩产、生产基地建设等",
-      "source": "浙商杂志",
-      "location": "浙江金华武义",
-      "event_type": "IPO",
-      "link": "https://mp.weixin.qq.com/s/u38EeJYTJxLo8-c-donShQ",
-      "article_title": "张雪称赞“特别漂亮”的浙江老板娘要IPO了",
-      "event_desc": "9月28日，浙江阿波罗运动科技股份有限公司（简称“浙阿波罗”）北交所IPO申请获受理，公司拟募集资金约3.97亿元，用于越野车辆扩产、生产基地建设等。招股书显示，今年上半年浙阿波罗实现营业收入3.07亿元、归母净利润2704万元。公司从金华小型外贸企业成长为非道路休闲车出口企业，产品曾获德国设计奖、国际汽车品牌奖等荣誉。",
-      "insight": "金华汽摩配供应链与海外经销渠道支撑其非道路休闲车业务，IPO募资拟用于扩产。上半年营收3.07亿元、归母净利2704万元，后续扩张质量主要看海外订单覆盖、库存和经营现金流。",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "dated",
-        "event_date": "2026-09-28",
-        "event_period": null,
-        "description": "新闻发布时间、事件日、发现日分别判断；事件日不明不推定",
-        "review_required": false
-      },
-      "published_date": "2026-09-30",
-      "publication_basis": "accepted_article_current.published_at 与本地采信制品",
-      "selection_recommendation": "keep",
-      "selection_reason": "IPO申请受理不同于2026-09-28日报中的辅导验收，是新的资本市场阶段；保留低分参考，不将上市或传统制造属性作为自动拒绝。",
-      "event_date": "2026-09-28",
-      "event_date_precision": "day",
-      "first_discovery_status": "available_history_checked; cannot_confirm_global_first",
-      "first_discovery_basis": "核对现存历史日报；未确认全局首次发现，不以本次采集日替代事件日",
-      "identity_status": "reported_company",
-      "tracking_track": "national_growth",
-      "quality_review": {
-        "keep": true,
-        "reason": "IPO申请受理不同于2026-09-28日报中的辅导验收，是新的资本市场阶段；保留低分参考，不将上市或传统制造属性作为自动拒绝。",
-        "reviewer": "current_task_agent",
-        "publication_status": "original_publication_verified_recent"
-      },
-      "published_at": "2026-09-30T10:46:00Z",
-      "evidence": {
-        "body_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/runs/wechat-reader-body-shadow/bundles/cc/cc0b924b8cd487ffb94ce3f1d78d57bfd52907562d939bf8299797fcc0715bed/c69e4560fa5cf202943a97dc792aff8670a303a51b57968829d5a44949a17045/6b2905bc2825e94712baae15e23f2e1df29ba8645780c9038a0eb16f64c928e1/body.txt",
-        "body_sha256": "c69e4560fa5cf202943a97dc792aff8670a303a51b57968829d5a44949a17045",
-        "manifest_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/safe-body-local-article-adapter/artifacts/objects/e8/e8fd8cc200f7a06850a81f5abdc4c8c118584d47a3ce1e4c481d72f26d82d8cb/manifest.json",
-        "locator": "企业相关正文段落"
-      }
-    },
-    {
       "title": "直播回顾：工业AI的下一个机会在哪？",
       "company": "北京阿丘科技有限公司",
       "score": 50,
@@ -1526,7 +1481,8 @@
     "kept_negatives_count": 1,
     "review_file": "data/stages/2026-10-01/agent-review-summary.json",
     "supersedes": "pipeline quality review; no maturity/IPO/score/age hard gate",
-    "additional_exclusion_evidence_review": "data/stages/2026-10-01/wechat-agent-assessments.json"
+    "additional_exclusion_evidence_review": "data/stages/2026-10-01/wechat-agent-assessments.json",
+    "goal_alignment_removed_entities": 1
   },
   "_semantic_pending": [
     {
@@ -1653,5 +1609,11 @@
     "wechat_source_expected_count": 18,
     "collection_failed_stages": []
   },
-  "excluded_count_scope": "保留采集阶段分类计数；最终语义重分类、漏抓补回和去重见agent-review-summary.json"
+  "excluded_count_scope": "保留采集阶段分类计数；最终语义重分类、漏抓补回和去重见agent-review-summary.json",
+  "goal_alignment_review": {
+    "reviewed_on": "2026-10-05",
+    "removed_entities": 1,
+    "reference": "references/selection-scope.md",
+    "receipt": "/Users/leoz/.openclaw/workspace/skills/dragon-radar/data/stages/2026-10-05/goal-alignment-review/2026-10-01/correction.json"
+  }
 }
