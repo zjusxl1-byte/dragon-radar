@@ -314,49 +314,6 @@
       }
     },
     {
-      "company": "高德（Amap）",
-      "title": "OpenAI解雇三名研究员，指其不当分享敏感信息；AI伦理研究：DeepSeek对男女一视同仁，美系模型却“区别对待”丨AIGC日报",
-      "article_title": "OpenAI解雇三名研究员，指其不当分享敏感信息；AI伦理研究：DeepSeek对男女一视同仁，美系模型却“区别对待”丨AIGC日报",
-      "link": "https://mp.weixin.qq.com/s/IUx1Gas0B7-Gut_mCtEkFg",
-      "source": "创业邦",
-      "sector": "人工智能/空间智能与出行服务",
-      "location": "中国；正文未给出总部城市",
-      "score": 35,
-      "event_type": "其他",
-      "event_desc": "创业邦10月3日AIGC日报转述高德10月2日公布的长假首日运营数据：DAU近3.7亿、空间智能服务超28亿次、驾车导航97亿公里、扫街榜用户超1.28亿。数字为公司披露的节假日峰值，不是付费用户或收入。",
-      "insight": "高德的优势是把路线、地点和消费决策接到实时出行需求，空间智能服务因而有天然的高频分发入口。扫街榜可把导航流量引向本地商家，商业价值取决于推荐到到店交易的转化；节假日峰值能展示系统承载能力，却不足以推算日常留存和变现效率。",
-      "financing": "未披露融资信息",
-      "is_national_star": true,
-      "published_date": "2026-10-03T01:05:00Z",
-      "publication_basis": "本地 accepted 原文 manifest published_at",
-      "discovered_date": "2026-10-04",
-      "source_last_collected_at": "2026-10-03T11:16:32Z",
-      "event_date": "2026-10-02",
-      "source_evidence": {
-        "canonical_url": "https://mp.weixin.qq.com/s/IUx1Gas0B7-Gut_mCtEkFg",
-        "body_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/runs/wechat-reader-body-shadow/bundles/63/632614450db14167ee510b5ecd4215ead37bef57f0329baa7cd4d85ab60bd58d/1a6c0be0a70c0878aeff16c290eb3a32ba4cb95ab05061408f071a78b4ee4280/91e845e69509940a787b5630be61322e8829baa06adc31c57ea4d75270f1c46e/body.txt",
-        "body_sha256": "1a6c0be0a70c0878aeff16c290eb3a32ba4cb95ab05061408f071a78b4ee4280",
-        "manifest_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/safe-body-local-article-adapter/artifacts/objects/a1/a1de1fe369c7db978f036df273eb03dcb99835776392a395f5d0f4238dce9958/manifest.json"
-      },
-      "quality_review": {
-        "keep": true,
-        "reason": "已读同一 accepted 正文；主体与本条事件对应，有产品、经营或行业基准实质信息；不按地域、成熟度或参考分数剔除。",
-        "publication_status": "within_7_days",
-        "event_date_status": "reported_exact_date",
-        "first_discovery_status": "no_same_url_in_available_daily_history",
-        "history_matches": [],
-        "review_model": "current_task_model",
-        "fact_boundary": "来源报道事实；未将模型推断当作原文事实"
-      },
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "event_date": "2026-10-02",
-        "description": "事件时间按正文粒度记录，不自动补年份或月初日期",
-        "observed_date": "2026-10-04",
-        "review_required": false
-      }
-    },
-    {
       "company": "特斯拉（Tesla）",
       "title": "亚马逊计划向投资者出售价值80亿美元的英伟达芯片；马斯克：为推进 Optimus 机器人量产，特斯拉AI5芯片内存用量砍半丨智能制造日报",
       "article_title": "亚马逊计划向投资者出售价值80亿美元的英伟达芯片；马斯克：为推进 Optimus 机器人量产，特斯拉AI5芯片内存用量砍半丨智能制造日报",
@@ -544,13 +501,14 @@
     "status": "agent_review_completed",
     "review_model": "current_task_model",
     "reviewed_article_count": 47,
-    "final_targets": 10,
+    "final_targets": 9,
     "final_negatives": 2,
     "removed_web_candidates": 4,
     "rescued_wechat_target_entities": 9,
     "original_pipeline_review": "data/stages/2026-10-04/daily-before-agent-review.json",
     "publication_date_event_date_separated": true,
-    "scope_removed_entities": 3
+    "scope_removed_entities": 3,
+    "goal_alignment_removed_entities": 1
   },
   "coverage_status": "partial",
   "coverage_note": "仅反映 observed coverage。公众号已接受正文正常消费；部分账号生产者覆盖未完整，详见阶段回执。健康图片正文未覆盖；不得宣称全网无遗漏。",
@@ -561,9 +519,10 @@
     "wechat_target_articles": 9,
     "wechat_negative_articles": 1,
     "wechat_excluded_articles": 22,
-    "final_target_entities": 10,
+    "final_target_entities": 9,
     "final_negative_entities": 2,
-    "scope_removed_entities": 3
+    "scope_removed_entities": 3,
+    "goal_alignment_removed_entities": 1
   },
   "scope_review": {
     "status": "agent_review_completed",
@@ -573,5 +532,11 @@
     "receipt": "/Users/leoz/.openclaw/workspace/skills/dragon-radar/data/stages/2026-10-04/scope-correction-20261004/2026-10-04/correction.json",
     "targets": 10,
     "negatives": 2
+  },
+  "goal_alignment_review": {
+    "reviewed_on": "2026-10-05",
+    "removed_entities": 1,
+    "reference": "references/selection-scope.md",
+    "receipt": "/Users/leoz/.openclaw/workspace/skills/dragon-radar/data/stages/2026-10-05/goal-alignment-review/2026-10-04/correction.json"
   }
 }
