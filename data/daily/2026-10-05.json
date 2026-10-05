@@ -535,40 +535,7 @@
       "selection_reason": "个人Agent独立应用研发、云端托管、授权执行与生态规划分别具产业信息；豆包为网传内测，阿里为规划，不写正式上线"
     }
   ],
-  "negatives": [
-    {
-      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
-      "article_title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
-      "company": "OpenAI",
-      "location": "美国",
-      "sector": "人工智能/模型安全治理",
-      "event_type": "信息安全风险",
-      "source": "量子位",
-      "link": "https://mp.weixin.qq.com/s/HBuB_NryTns-E3gNNisPsQ",
-      "published_date": "2026-10-03",
-      "publication_basis": "local_repository accepted文章保留的原始published_at；不使用采集日或网页更新时间",
-      "event_date": null,
-      "reason": "报道称三名安全及对齐员工因向外部机构分享敏感信息被解雇，涉及基础设施架构；披露范围、影响及调查结论待核实。",
-      "event_desc": "量子位10月3日转述《华尔街日报》报道，OpenAI内部调查称三名安全与模型对齐员工向外部AI安全机构分享敏感信息，其中含基础设施架构，随后将其解雇；另转述BI称安全透明度负责人David Robinson离职，继任者未公布。",
-      "insight": "敏感架构信息的外流指控，暴露的是第三方安全研究协作与内部保密边界之间的冲突。技术联系人被解雇可能影响外部评估衔接，但报道未证实模型发布受阻或经营损失；风险观察应集中于调查结论、评估协作和披露工作的连续性。",
-      "quality_review": {
-        "keep": true,
-        "reason": "AI科技企业具体信息安全调查与敏感架构外流指控；不是以常规人员离职代替经营风险证据",
-        "model": "openai/gpt-6.1-sol",
-        "uncertainty": "转述调查指控，原始调查结果未公开，不断言经营损害"
-      },
-      "publication_status": "within_7_days",
-      "publication_evidence": {
-        "published_at": "2026-10-03T03:36:00Z",
-        "body_sha256": "75a84f0a4886c410888c88c29970698a122e1881de838e9c3126056fb8346370"
-      },
-      "first_discovery_review": {
-        "status": "new_information_in_available_history",
-        "basis": "已检索全部既有日报，未检出同一事件；该检索不证明全网首次发现"
-      },
-      "selection_reason": "AI科技企业具体信息安全调查与敏感架构外流指控；不是以常规人员离职代替经营风险证据"
-    }
-  ],
+  "negatives": [],
   "excluded_count": {
     "web_search": 16,
     "wechat": 8,
@@ -902,6 +869,13 @@
     "reviewed_targets": 13,
     "reviewed_negatives": 1,
     "observed_coverage_only": true,
-    "audit_artifact": "agent-semantic-decisions.json"
+    "audit_artifact": "agent-semantic-decisions.json",
+    "goal_alignment_removed_entities": 1
+  },
+  "goal_alignment_review": {
+    "reviewed_on": "2026-10-05",
+    "removed_entities": 1,
+    "reference": "references/selection-scope.md",
+    "receipt": "/Users/leoz/.openclaw/workspace/skills/dragon-radar/data/stages/2026-10-05/goal-alignment-review/2026-10-05/correction.json"
   }
 }
