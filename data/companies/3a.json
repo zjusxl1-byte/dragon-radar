@@ -653,5 +653,26 @@
       "financing": "",
       "event_date": "2026-09-18"
     }
+  ],
+  "联通数据智能有限公司": [
+    {
+      "date": "2026-10-07",
+      "title": "中国联通数据科学与人工智能研究院团队提出异构分组混合专家架构MoHGE，成果入选ACL2026，代码已开源。该架构在3B和14B规模下，相较同等精度传统基线MoE削减约20%整体参数量，每次推理激活专家参数量降低近四分之一；在MMLU、MATH、GSM8K等基准实现媲美或超越传统架构的准确率，数学逻辑推理尤为突出；路由监控显示各GPU节点处理Token数量保持高度一致。",
+      "article_title": "异构分组混合专家架构上线：参数瘦身20%，推理反超传统MoE | ACL'26",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/KXcHiVoYrHCU6nXpVPiuGA",
+      "sector": "人工智能/大语言模型基础设施",
+      "location": "非杭州对标（报道未披露主体所在地）",
+      "geography": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "联通数据智能有限公司",
+      "score": 60,
+      "is_national_star": false,
+      "published_date": "2026-10-04",
+      "insight": "MoHGE以两级路由为不同复杂度Token选择专家组，再用全尺寸解耦分配平衡GPU负载。实验中的参数与激活量减少给出了算力节省方向，但并未直接披露端到端吞吐或时延改善；其产业价值在于把容量自适应与分布式调度兼容，能否转成真实推理成本优势仍需生产集群数据。",
+      "financing": "",
+      "event_date": ""
+    }
   ]
 }
