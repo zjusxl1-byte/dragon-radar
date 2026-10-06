@@ -5,12 +5,12 @@
   "start_date": "2026-10-05",
   "end_date": "2026-10-11",
   "summary": {
-    "total_companies": 24,
-    "financing_events": 2,
+    "total_companies": 40,
+    "financing_events": 4,
     "ipo_events": 1,
-    "milestone_events": 5,
+    "milestone_events": 11,
     "negative_events": 0,
-    "active_days": 2
+    "active_days": 3
   },
   "top10": [
     {
@@ -126,6 +126,33 @@
       "publication_evidence": {
         "published_at": "2026-10-03T16:00:00Z",
         "body_sha256": "cf99cebd31924715578b07162ccab7c060a81965cd84f90e4b80a2b970e33e41"
+      }
+    },
+    {
+      "title": "杭州银行科创金融三重跃变：体系重构、模式迭代、生态融合",
+      "article_title": "杭州银行科创金融三重跃变：体系重构、模式迭代、生态融合",
+      "company": "杭州安澜数智科技",
+      "score": 90,
+      "sector": "智能环保装备/物联网",
+      "financing": "获杭州银行200万元授信（非股权融资）",
+      "source": "www.cls.cn",
+      "location": "杭州",
+      "event_type": "融资",
+      "link": "https://www.cls.cn/detail/2497196",
+      "event_desc": "杭州安澜数智科技成立于2024年，因成立时间短、营收规模小，杭州银行通过动态评价模型识别其智能污水检测设备的技术优势，仅用一周完成200万元授信审批；企业表示资金用于推进产品迭代。",
+      "insight": "安澜数智以智能污水检测设备获得无传统规模优势时的授信支持，200万元额度为产品迭代提供资金空间。其成长环节仍是把检测技术转成稳定的现场部署和持续回款；正文没有客户部署、设备售价及授信实际使用情况，暂无法判断资金支持对交付规模的影响。",
+      "published_date": "2026-10-02",
+      "publication_basis": "财联社原页正文时间与articleDetail.ctime",
+      "event_date": null,
+      "is_national_star": false,
+      "quality_review": {
+        "keep": true,
+        "reason": "安澜数智的智能污水检测设备及200万元授信用于产品迭代，是杭州早期环保装备企业的资金供给信息；银行不是候选，授信不改写成股权融资或已放款。财联社原页发布时间2026-10-02 11:49。",
+        "model": "openai/gpt-6.1-sol",
+        "scope_basis": "杭州智能环保检测装备及用于产品迭代的银行授信",
+        "publication_status": "verified",
+        "event_date_status": "unknown",
+        "novelty": "历史日报未找到同一授信事件；只能确认所检本地历史范围"
       }
     },
     {
@@ -362,49 +389,6 @@
         "reviewer": "current_task_agent",
         "body_sha256": "bf4090a7505db51be685e9668c3f8c3e61ad01434ebcf844ea70bbadae7abe08"
       }
-    },
-    {
-      "title": "泰国，发力半导体",
-      "company": "英飞凌科技股份公司",
-      "score": 80,
-      "sector": "半导体（功率半导体制造与封测）",
-      "financing": "英飞凌投资14亿美元（480亿泰铢）建设该综合体",
-      "source": "半导体行业观察",
-      "location": "泰国北榄府",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/2vb6lNiyKdQIM7eQFgWcrQ",
-      "article_title": "泰国，发力半导体",
-      "event_desc": "英飞凌位于泰国北榄府的功率半导体制造综合体举行落成典礼，投资14亿美元（480亿泰铢），规划分五个模块建设，全面建成后预计成为英飞凌全球最大的后端组装和测试中心；项目由泰国投资促进委员会（BOI）推动，预计创造超过5000个本地高技能就业岗位，并与泰国半导体产业协会及当地大学合作开发至少60门半导体专业课程、培训1100名本科生、支持18个联合研发项目。",
-      "insight": "英飞凌在泰国新增后端组装与测试产能，并规划将该综合体建成其全球最大封测中心，体现功率半导体封测环节向东南亚布局的趋势。对功率器件厂商而言，分模块投产能否与本地人才培养协同，将影响项目爬坡及车规、工业客户的交付能力。",
-      "is_national_star": true,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-03",
-        "event_date": null,
-        "observed_date": "2026-10-03",
-        "review_required": true
-      },
-      "published_date": "2026-10-03",
-      "publication_basis": "local_repository accepted文章保留的原始published_at；不使用采集日或网页更新时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "功率半导体封测综合体落成与分模块扩产，全球供应链对标",
-      "event_date": null,
-      "quality_review": {
-        "keep": true,
-        "reason": "功率半导体封测综合体落成与分模块扩产，全球供应链对标",
-        "model": "openai/gpt-6.1-sol",
-        "review_status": "approved",
-        "scope_track": "全国/全球科技产业对标；不按参考分数排除"
-      },
-      "publication_status": "within_7_days",
-      "first_discovery_review": {
-        "status": "new_information_in_available_history",
-        "basis": "已检索全部既有日报，未检出同一事件；该检索不证明全网首次发现"
-      },
-      "publication_evidence": {
-        "published_at": "2026-10-03T02:45:00Z",
-        "body_sha256": "2f202b553ad585f85434f79b273355c4f0e02cf0c8cc6a5265ca1965513990e0"
-      }
     }
   ],
   "negatives": [],
@@ -432,7 +416,23 @@
     "AI办公/生产力软件": 1,
     "商用车/新能源汽车制造": 1,
     "低空经济/飞行汽车/eVTOL": 1,
-    "具身智能/柔性触觉传感器": 1
+    "具身智能/柔性触觉传感器": 1,
+    "智能环保装备/物联网": 1,
+    "AI芯片与计算架构": 1,
+    "新能源汽车充换电/新能源补能基础设施": 1,
+    "半导体制造": 1,
+    "AI Agent/企业级AI风控": 1,
+    "人工智能/大语言模型基础设施": 1,
+    "新能源汽车/微型电动车": 1,
+    "新能源汽车/电动汽车制造": 1,
+    "半导体晶圆代工/AI算力芯片制造": 1,
+    "人工智能/大模型与AI Agent": 1,
+    "人工智能/大模型（生成式AI）": 1,
+    "通信技术/半导体/知识产权许可": 1,
+    "新能源汽车/高性能电动车": 1,
+    "新能源汽车/进口汽车销售": 1,
+    "企业级AI/大模型": 1,
+    "AI推理云/模型部署基础设施": 1
   },
   "daily_details": {
     "2026-10-05": {
@@ -442,7 +442,11 @@
     "2026-10-06": {
       "count": 11,
       "negatives": 0
+    },
+    "2026-10-07": {
+      "count": 16,
+      "negatives": 0
     }
   },
-  "created": "2026-10-06 02:17:36"
+  "created": "2026-10-07 02:17:30"
 }
