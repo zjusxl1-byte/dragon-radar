@@ -72,11 +72,12 @@
         const data=await check(name,version);if(!current(name,run))return;
         if(data.status==='version_changed'){
           version=data.source_version;
-          if(data.reading){cached.set(name,data.reading);paint(data.reading);shown=true;}
-          else {cached.delete(name);document.getElementById('radar-ai-content').textContent='';shown=false;}
+          entry.source_version=version;
+          if(data.reading){entry.cached_source_version=data.reading.source_version;cached.set(name,data.reading);paint(data.reading);shown=true;}
+          else {for(const key of ['path','version','cached_source_version','cached_as_of'])delete entry[key];cached.delete(name);document.getElementById('radar-ai-content').textContent='';shown=false;}
           status('已收录新信息，正在更新解读…');continue;
         }
-        if(data.status==='disqualified'){document.getElementById('radar-ai-content').textContent='当前材料尚不足以形成有依据的企业解读。';status('');button.hidden=true;return;}
+        if(data.status==='disqualified'){delete manifest().company_interpretations[name];cached.delete(name);document.getElementById('radar-ai-content').textContent='当前材料尚不足以形成有依据的企业解读。';status('');button.hidden=true;return;}
         if(data.reading){cached.set(name,data.reading);paint(data.reading);shown=true;}
         if(data.status==='ready'){status('已包含当前收录信息');return;}
         if(data.status==='failed'){status((shown?'已显示上次解读；':'')+'本次更新暂未完成，后续采集时会再次尝试。');return;}
