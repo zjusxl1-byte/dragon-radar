@@ -120,7 +120,7 @@
     // Keep an intact sentence: dates, amounts and tentative stages must survive.
     const facts=String(r.title||r.event_desc||r.reason||'').trim();
     if(!facts)return {headline:'企业相关报道已收录，事件要点待补充',excerpt:''};
-    const caption=window.RadarMilestones?.caption(r,A.canonical(r.company||r.company_name||''));
+    const caption=String(r.event_headline||'').trim();
     if(caption)return {headline:caption,excerpt:facts};
     const first=facts.match(/^[\s\S]*?[。！？][”’」』】）)]*/)?.[0]||facts;
     return {headline:first.trim(),excerpt:facts.slice(first.length).trim()};
@@ -278,9 +278,9 @@
     const months=timelineMonths(grouped),multiYear=new Set(months.map(item=>item.key.slice(0,4))).size>1,contexts=new Set(screenStates.get(activeKey)?.contexts||[]);
     const monthIndex=months.length>1?'<nav id="radar-month-index" class="radar-month-index" aria-label="按收录月份定位">'+months.map(item=>'<button type="button" data-timeline-month="'+esc(item.key)+'" aria-label="定位'+esc(item.key==='undated'?'未标注日期':item.key.slice(0,4)+'年'+Number(item.key.slice(5))+'月')+'" aria-current="false">'+esc(item.key==='undated'?'未标注日期':(multiYear?item.key.slice(0,4)+'年 ':'')+Number(item.key.slice(5))+'月')+'</button>').join('')+'</nav>':'';
     return '<div class="radar-company-view'+(months.length<2?' radar-single-month':'')+'"><div class="radar-page-heading"><h2>🏢 企业追踪</h2><a class="radar-text-link radar-back-button" href="#'+esc(safeBack(params().back))+'">← 返回</a></div><div class="radar-company-heading"><h2>'+esc(canonical)+'</h2>'+
-      '<p>'+esc(latest?[latest.sector,latest.location].filter(Boolean).join(' · '):'暂未收录企业动态')+'</p><p>'+grouped.length+' 项动态'+(all.length!==grouped.length?' · '+all.length+' 条收录记录':'')+' · 按收录日期排列</p><div class="radar-company-utilities">'+
+      '<p>'+esc(latest?[latest.sector,latest.location].filter(Boolean).join(' · '):'暂未收录企业动态')+'</p><div class="radar-company-reading-row"><p>'+grouped.length+' 项动态'+(all.length!==grouped.length?' · '+all.length+' 条收录记录':'')+' · 按收录日期排列</p>'+(window.RadarInterpretation?.control(canonical)||'')+'</div><div class="radar-company-utilities">'+
       (names.length>1?'<details class="radar-company-context" data-company-context="names" '+(contexts.has('names')?'open':'')+'><summary>归集名称 '+names.length+'</summary><p>'+names.map(esc).join('、')+'</p>'+(entity&&A.safeURL(entity.source)?'<a href="'+esc(entity.source)+'" target="_blank" rel="noopener noreferrer">名称沿革依据</a>':'')+'</details>':'')+
-      (refs.length?'<details class="radar-company-context" data-company-context="briefings" '+(contexts.has('briefings')?'open':'')+'><summary>简报收录 '+refs.length+'</summary><div class="radar-brief-links">'+refs.slice().reverse().map(b=>'<a href="'+esc(routeLink('/briefing',{type:b.type,id:b.id,back:location.hash.slice(1)}))+'">'+esc((b.type==='weekly'?'周简报 ':'月简报 ')+b.id)+'</a>').join('')+'</div></details>':'')+'</div></div>'+monthIndex+
+      (refs.length?'<details class="radar-company-context" data-company-context="briefings" '+(contexts.has('briefings')?'open':'')+'><summary>简报收录 '+refs.length+'</summary><div class="radar-brief-links">'+refs.slice().reverse().map(b=>'<a href="'+esc(routeLink('/briefing',{type:b.type,id:b.id,back:location.hash.slice(1)}))+'">'+esc((b.type==='weekly'?'周简报 ':'月简报 ')+b.id)+'</a>').join('')+'</div></details>':'')+'</div></div>'+(window.RadarInterpretation?.panel(canonical)||'')+monthIndex+
       '<div id="radar-stream" class="radar-timeline" aria-label="企业历史动态与研判"></div><button class="radar-more" type="button" data-history-more hidden>再显示20条</button></div>';
   }
   // One route owner prevents late responses from replacing a newer screen.
