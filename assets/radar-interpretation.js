@@ -71,7 +71,12 @@
         if(poll)await new Promise(resolve=>setTimeout(resolve,4000));if(!current(name,run))return;
         const data=await check(name,version);if(!current(name,run))return;
         if(data.status==='version_changed'){
+          const revision=data.metadata;
+          if(!revision||!Number.isSafeInteger(revision.source_epoch)||revision.source_epoch<(entry.source_epoch||0)||revision.reading_model!==entry.reading_model||revision.prompt_version!==entry.prompt_version){
+            status((shown?'已显示有效缓存；':'')+'最新材料正在同步，稍后可重新查看。');return;
+          }
           version=data.source_version;
+          Object.assign(entry,revision);
           entry.source_version=version;
           if(data.reading){entry.cached_source_version=data.reading.source_version;cached.set(name,data.reading);paint(data.reading);shown=true;}
           else {for(const key of ['path','version','cached_source_version','cached_as_of'])delete entry[key];cached.delete(name);document.getElementById('radar-ai-content').textContent='';shown=false;}
