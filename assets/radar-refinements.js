@@ -115,17 +115,28 @@
   function observations(r){
     return (r.observations||[]).length>1?'<details class="radar-observations"><summary>'+r.observations.length+' 条收录记录与来源</summary>'+r.observations.map(o=>'<p>'+esc(o.date)+' · '+esc(o.company)+' · '+esc(o.source||'来源见原文')+' <a href="'+esc(eventLink(o))+'">查看记录</a>'+(A.safeURL(o.link)?' · <a target="_blank" rel="noopener noreferrer" href="'+esc(A.safeURL(o.link))+'">原文</a>':'')+'</p>').join('')+'</details>':'';
   }
+  function timelineEventText(r){
+    // History title stores the reviewed event facts, not the publisher's headline.
+    // Keep an intact sentence: dates, amounts and tentative stages must survive.
+    const facts=String(r.title||r.event_desc||r.reason||'').trim();
+    if(!facts)return {headline:'企业相关报道已收录，事件要点待补充',excerpt:''};
+    const caption=window.RadarMilestones?.caption(r,A.canonical(r.company||r.company_name||''));
+    if(caption)return {headline:caption,excerpt:facts};
+    const first=facts.match(/^[\s\S]*?[。！？][”’」』】）)]*/)?.[0]||facts;
+    return {headline:first.trim(),excerpt:facts.slice(first.length).trim()};
+  }
   function timelineRow(r,open=false,latest=false){
     const key=rowKey(r),risk=r.kind==='risk'||/风险|负面/.test(r.event_type||''),{body,tags}=readingBody(r);
-    const headline=r.article_title||r.title||'查看原始记录';
+    const {headline,excerpt}=timelineEventText(r);
+    const origin=r.article_title?'<div class="radar-timeline-origin-title"><span>原文标题</span><p>'+esc(r.article_title)+'</p></div>':'';
     const pending=window.RadarInsightQuality?.needsReview(r.insight||'',window.RadarData.manifest);
     const insight=latest&&r.insight&&!pending?'<aside class="radar-timeline-insight-preview"><strong>'+ (risk?'小贾风险洞察':'小贾深度洞察')+'</strong><p>'+esc(r.insight)+'</p></aside>':'';
     const score=Number.isFinite(r.score)?'<span class="radar-timeline-score">当期评分 '+esc(r.score)+'</span>':'';
     const shareKey=latest&&window.RadarShare?window.RadarShare.registerEvent({...r,event_desc:r.title}):'';
     const actions=latest?'<div class="radar-timeline-preview-actions">'+(A.safeURL(r.link)?'<a href="'+esc(A.safeURL(r.link))+'" target="_blank" rel="noopener noreferrer">阅读原文</a>':'')+(shareKey?'<button type="button" data-radar-share="'+esc(shareKey)+'">分享</button>':'')+'<button type="button" data-expand-record aria-label="展开'+esc(r.company)+'在'+esc(r.date)+'的全文与研判">全文与研判</button></div>':'';
     return '<article class="radar-stream-item radar-timeline-item '+(risk?'radar-risk-item':'')+(latest?' radar-timeline-latest':'')+'" data-row="'+esc(key)+'">'+
-      '<div class="radar-timeline-stamp"><span>收录 <time tabindex="-1" datetime="'+esc(r.date)+'">'+esc(r.date)+'</time></span><span class="radar-timeline-source" title="'+esc(r.source||'来源见原文')+'">'+esc(r.source||'来源见原文')+'</span>'+(risk?'<span class="radar-timeline-risk">风险预警</span>':'')+'</div><h3 class="radar-timeline-title">'+esc(headline)+'</h3>'+
-      '<details class="radar-event-details" data-event-details="'+esc(key)+'" '+(open?'open':'')+'><summary aria-label="展开'+esc(r.company)+'在'+esc(r.date)+'的全文与研判">'+(r.title&&r.title!==headline?'<p class="radar-event-excerpt">'+esc(r.title)+'</p>':'')+insight+(latest?'':'<span class="radar-reading-card-footer"><span class="radar-expand-label">全文与研判 ↓</span></span>')+'</summary><div class="radar-event-body" tabindex="-1"><div class="radar-timeline-detail-meta">'+tags+score+'</div>'+body+'</div><div class="radar-reading-card-footer radar-collapse-footer"><button type="button" class="radar-expand-label" data-collapse-record aria-label="收起'+esc(r.company)+'在'+esc(r.date)+'的全文与研判">收起全文 ↑</button></div></details>'+actions+observations(r)+'</article>';
+      '<div class="radar-timeline-stamp"><span>收录 <time tabindex="-1" datetime="'+esc(r.date)+'">'+esc(r.date)+'</time></span><span class="radar-timeline-source" title="'+esc(r.source||'来源见原文')+'">'+esc(r.source||'来源见原文')+'</span>'+(risk?'<span class="radar-timeline-risk">风险预警</span>':'')+'</div><h3 class="radar-timeline-title" title="'+esc(headline)+'">'+esc(headline)+'</h3>'+
+      '<details class="radar-event-details" data-event-details="'+esc(key)+'" '+(open?'open':'')+'><summary aria-label="展开'+esc(r.company)+'在'+esc(r.date)+'的全文与研判">'+(excerpt?'<p class="radar-event-excerpt">'+esc(excerpt)+'</p>':'')+insight+(latest?'':'<span class="radar-reading-card-footer"><span class="radar-expand-label">全文与研判 ↓</span></span>')+'</summary><div class="radar-event-body" tabindex="-1"><div class="radar-timeline-detail-meta">'+tags+score+'</div>'+body+origin+'</div><div class="radar-reading-card-footer radar-collapse-footer"><button type="button" class="radar-expand-label" data-collapse-record aria-label="收起'+esc(r.company)+'在'+esc(r.date)+'的全文与研判">收起全文 ↑</button></div></details>'+actions+observations(r)+'</article>';
   }
   function streamRow(r,open=false,inCompany=false,latest=false){
     if(inCompany)return timelineRow(r,open,latest);
