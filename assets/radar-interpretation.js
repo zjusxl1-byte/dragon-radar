@@ -6,21 +6,22 @@
   let sequence=0;
   const manifest=()=>window.RadarData.manifest;
   const metadata=name=>manifest().company_interpretations?.[name];
-  function control(name){return metadata(name)?'<button class="radar-ai-button" type="button" data-ai-reading="'+esc(name)+'" aria-expanded="false" aria-controls="radar-ai-panel">AI 解读 <span aria-hidden="true">↗</span></button>':'';}
-  function panel(name){return metadata(name)?'<section class="radar-ai-panel" id="radar-ai-panel" aria-label="企业 AI 解读" hidden><div class="radar-ai-caption"><span>企业解读</span><button type="button" data-ai-close aria-label="收起 AI 解读">收起 ↑</button></div><div class="radar-ai-working" id="radar-ai-working" aria-hidden="true" hidden><span class="radar-ai-orbit"><i></i><i></i><i></i></span><div class="radar-ai-skeleton"><span></span><span></span><span></span></div></div><div class="radar-ai-content" id="radar-ai-content" tabindex="-1"></div><p class="radar-ai-status" id="radar-ai-status" role="status" aria-live="polite"></p></section>':'';}
-  function markup(reading){
+  function control(name){return metadata(name)?'<button class="radar-ai-button" type="button" data-ai-reading="'+esc(name)+'" aria-expanded="false" aria-controls="radar-ai-panel">AI 解读 <span aria-hidden="true">⌄</span></button>':'';}
+  function panel(name){return metadata(name)?'<section class="radar-ai-panel" id="radar-ai-panel" aria-label="企业 AI 解读" hidden><div class="radar-ai-working" id="radar-ai-working" aria-hidden="true" hidden><span class="radar-ai-orbit"><i></i><i></i><i></i></span><div class="radar-ai-skeleton"><span></span><span></span><span></span></div></div><div class="radar-ai-content" id="radar-ai-content" tabindex="-1"></div><p class="radar-ai-status" id="radar-ai-status" role="status" aria-live="polite"></p></section>':'';}
+  function markup(reading,expanded=false){
     if(!reading||!Array.isArray(reading.sources))throw Error('解读暂时无法读取');
     const byID=new Map(reading.sources.map((source,i)=>[source.id,{...source,number:i+1}]));
     const refs=block=>(block.evidence_ids||[]).map(id=>byID.get(id)).filter(Boolean).map(source=>{
       const link=window.RadarHistory.safeURL(source.link);
       return link?'<a class="radar-ai-citation" href="'+esc(link)+'" target="_blank" rel="noopener noreferrer" aria-label="依据'+source.number+'：'+esc(source.article_title||source.event_headline)+'">['+source.number+']</a>':'';
     }).join('');
-    const block=(key,label)=>'<div class="radar-ai-paragraph"><h4>'+label+'</h4><p>'+esc(reading[key]?.text||'')+refs(reading[key]||{})+'</p></div>';
-    return '<h3>'+esc(reading.verdict?.text||'')+refs(reading.verdict||{})+'</h3>'+block('progress','进程')+block('assessment','判断')+block('watch','下一步看什么')+
+    const evidence=block=>{const links=refs(block);return links?'<span class="radar-ai-refs">'+links+'</span>':'';};
+    const block=(key,label)=>'<div class="radar-ai-paragraph"><h4>'+label+'</h4><p>'+esc(reading[key]?.text||'')+evidence(reading[key]||{})+'</p></div>';
+    return '<h3 class="radar-ai-verdict">'+esc(reading.verdict?.text||'')+evidence(reading.verdict||{})+'</h3><details class="radar-ai-detail" data-ai-details'+(expanded?' open':'')+'><summary><span class="radar-ai-detail-open">展开完整解读</span><span class="radar-ai-detail-close">收起完整解读</span><span class="radar-ai-as-of">材料截至 '+esc(reading.as_of)+'</span></summary><div class="radar-ai-analysis">'+block('progress','进程')+block('assessment','判断')+block('watch','下一步看什么')+
       '<details class="radar-ai-sources"><summary>解读依据 · '+reading.sources.length+' 条</summary><ol>'+reading.sources.map(source=>{
         const link=window.RadarHistory.safeURL(source.link),text=esc(source.article_title||source.event_headline||'已收录报道');
         return '<li>'+(link?'<a href="'+esc(link)+'" target="_blank" rel="noopener noreferrer">'+text+'</a>':text)+'<small>'+esc(source.source||'原始来源')+' · 收录 '+esc(source.collected_date)+'</small></li>';
-      }).join('')+'</ol></details><p class="radar-ai-scope">基于已收录报道 · 材料截至 '+esc(reading.as_of)+'</p>';
+      }).join('')+'</ol></details><div class="radar-ai-detail-footer"><button type="button" data-ai-detail-close>收起完整解读 ↑</button></div></div></details>';
   }
   function reuse(key,load){
     if(inflight.has(key))return inflight.get(key);
@@ -59,11 +60,11 @@
   function current(name,run){return sequence===run&&document.getElementById('radar-ai-panel')&&!document.getElementById('radar-ai-panel').hidden&&document.querySelector('[data-ai-reading]')?.dataset.aiReading===name;}
   function status(text,phase='idle'){
     const field=document.getElementById('radar-ai-status'),box=document.getElementById('radar-ai-panel'),content=document.getElementById('radar-ai-content'),working=document.getElementById('radar-ai-working');
-    if(field)field.textContent=text;
+    if(field){field.textContent=text;field.setAttribute?.('data-complete',String(text==='已包含当前收录信息'));}
     if(box){box.dataset.phase=phase;box.setAttribute('aria-busy',String(phase!=='idle'));}
     if(working)working.hidden=phase==='idle'||!!content?.innerHTML;
   }
-  function paint(reading){document.getElementById('radar-ai-content').innerHTML=markup(reading);}
+  function paint(reading){const content=document.getElementById('radar-ai-content'),expanded=!!content.querySelector?.('[data-ai-details]')?.open;content.innerHTML=markup(reading,expanded);}
   async function open(name){
     const entry=metadata(name),box=document.getElementById('radar-ai-panel');if(!entry||!box)return;
     const run=++sequence,button=document.querySelector('[data-ai-reading]');box.hidden=false;button?.setAttribute('aria-expanded','true');document.getElementById('radar-ai-content').textContent='';status('正在读取解读…','reading');
@@ -97,7 +98,10 @@
     }catch(error){if(current(name,run))status((shown?'已显示缓存解读；':'')+(error.message||'暂时无法更新')+'，可重新打开重试。');}
   }
   function close(){sequence++;status('');const box=document.getElementById('radar-ai-panel');if(box)box.hidden=true;const button=document.querySelector('[data-ai-reading]');button?.setAttribute('aria-expanded','false');button?.focus({preventScroll:true});}
-  document.addEventListener('click',event=>{const button=event.target.closest('[data-ai-reading]');if(button){button.getAttribute('aria-expanded')==='true'?close():open(button.dataset.aiReading);}if(event.target.closest('[data-ai-close]'))close();});
+  document.addEventListener('click',event=>{
+    const button=event.target.closest('[data-ai-reading]');if(button){button.getAttribute('aria-expanded')==='true'?close():open(button.dataset.aiReading);}if(event.target.closest('[data-ai-close]'))close();
+    const collapse=event.target.closest('[data-ai-detail-close]');if(collapse){const details=collapse.closest('[data-ai-details]');if(!details)return;details.open=false;const summary=details.querySelector('summary');if(summary.getBoundingClientRect().top<56)(details.closest?.('.radar-ai-content')||summary).scrollIntoView({block:'start',behavior:'auto'});summary.focus({preventScroll:true});}
+  });
   window.addEventListener('hashchange',()=>{sequence++;});
   window.RadarInterpretation={control,panel,markup,check,staticReading,open,close};
 })();
