@@ -142,7 +142,7 @@
     if(inCompany)return timelineRow(r,open,latest);
     const key=rowKey(r),risk=r.kind==='risk'||/风险|负面/.test(r.event_type||''),{body,tags,title}=readingBody(r);
     const score=Number.isFinite(r.score)?'<div class="radar-reading-score" aria-label="当期评分 '+esc(r.score)+'"><span class="text-2xl font-black leading-none tracking-tighter '+getScoreColor(r.score)+'">'+esc(r.score)+'</span></div>':'';
-    const heading=inCompany?'<h3 class="radar-record-date"><span>收录</span> <time datetime="'+esc(r.date)+'">'+esc(r.date)+'</time></h3>':'<h3><a href="'+esc(companyLink(r.company))+'">'+esc(r.company)+'</a></h3>';
+    const heading=inCompany?'<h3 class="radar-record-date"><span>收录</span> <time datetime="'+esc(r.date)+'">'+esc(r.date)+'</time></h3>':'<h3><a href="'+esc(companyLink(r.company))+'">'+esc(A.canonical(r.canonical_name||r.company))+'</a></h3>';
     const recordedAt=inCompany?'':'<span class="radar-stream-meta">收录 <time datetime="'+esc(r.date)+'">'+esc(r.date)+'</time></span>';
     const originals=observations(r);
     return '<article class="radar-stream-item '+(risk?'radar-risk-item':'')+'" data-row="'+esc(key)+'">'+
@@ -279,6 +279,7 @@
     const monthIndex=months.length>1?'<nav id="radar-month-index" class="radar-month-index" aria-label="按收录月份定位">'+months.map(item=>'<button type="button" data-timeline-month="'+esc(item.key)+'" aria-label="定位'+esc(item.key==='undated'?'未标注日期':item.key.slice(0,4)+'年'+Number(item.key.slice(5))+'月')+'" aria-current="false">'+esc(item.key==='undated'?'未标注日期':(multiYear?item.key.slice(0,4)+'年 ':'')+Number(item.key.slice(5))+'月')+'</button>').join('')+'</nav>':'';
     return '<div class="radar-company-view'+(months.length<2?' radar-single-month':'')+'"><div class="radar-page-heading"><h2>🏢 企业追踪</h2><a class="radar-text-link radar-back-button" href="#'+esc(safeBack(params().back))+'">← 返回</a></div><div class="radar-company-heading"><h2>'+esc(canonical)+'</h2>'+
       '<p>'+esc(latest?[latest.sector,latest.location].filter(Boolean).join(' · '):'暂未收录企业动态')+'</p><div class="radar-company-reading-row"><p>'+grouped.length+' 项动态'+(all.length!==grouped.length?' · '+all.length+' 条收录记录':'')+' · 按收录日期排列</p>'+(window.RadarInterpretation?.control(canonical)||'')+'</div><div class="radar-company-utilities">'+
+      (all.some(row=>row.identity_status==='ambiguous')?'<span>同名主体待确认，记录分别保留</span>':'')+
       (names.length>1?'<details class="radar-company-context" data-company-context="names" '+(contexts.has('names')?'open':'')+'><summary>归集名称 '+names.length+'</summary><p>'+names.map(esc).join('、')+'</p>'+(entity&&A.safeURL(entity.source)?'<a href="'+esc(entity.source)+'" target="_blank" rel="noopener noreferrer">名称沿革依据</a>':'')+'</details>':'')+
       (refs.length?'<details class="radar-company-context" data-company-context="briefings" '+(contexts.has('briefings')?'open':'')+'><summary>简报收录 '+refs.length+'</summary><div class="radar-brief-links">'+refs.slice().reverse().map(b=>'<a href="'+esc(routeLink('/briefing',{type:b.type,id:b.id,back:location.hash.slice(1)}))+'">'+esc((b.type==='weekly'?'周简报 ':'月简报 ')+b.id)+'</a>').join('')+'</div></details>':'')+'</div></div>'+(window.RadarInterpretation?.panel(canonical)||'')+monthIndex+
       '<div id="radar-stream" class="radar-timeline" aria-label="企业历史动态与研判"></div><button class="radar-more" type="button" data-history-more hidden>再显示20条</button></div>';
@@ -321,7 +322,14 @@
     }catch(error){if(seq===renderSequence){mount('<div class="radar-empty" role="alert">'+esc(error.message||'内容暂时无法读取')+'<p><button class="radar-text-link" type="button" data-retry-page>重新读取</button> · <a href="#/today">返回动态</a></p></div>');}}
   };
   // URLSearchParams also correctly decodes spaces and names containing '&'.
-  Router.getQueryParams=function(){return Object.fromEntries(new URLSearchParams((location.hash.split('?')[1]||'')));};
+  Router.getQueryParams=function(){
+    const p=Object.fromEntries(new URLSearchParams((location.hash.split('?')[1]||'')));
+    if(!p.search&&['q','company','region','type','sector','from','to'].some(key=>p[key])){
+      p.search='all';
+      if(p.date&&!p.from&&!p.to){p.from=p.date;p.to=p.date;}
+    }
+    return p;
+  };
   const nav=Router.updateNavActive;
   Router.updateNavActive=function(){nav.call(this);if(this.getRoute()==='/company'){document.querySelector('[data-route="/today"]')?.classList.add('active');}};
   document.addEventListener('click',e=>{

@@ -7,7 +7,7 @@
   const manifest=()=>window.RadarData.manifest;
   const metadata=name=>manifest().company_interpretations?.[name];
   function control(name){return metadata(name)?'<button class="radar-ai-button" type="button" data-ai-reading="'+esc(name)+'" aria-expanded="false" aria-controls="radar-ai-panel">AI 解读 <span aria-hidden="true">↗</span></button>':'';}
-  function panel(name){return metadata(name)?'<section class="radar-ai-panel" id="radar-ai-panel" aria-label="企业 AI 解读" hidden><div class="radar-ai-caption"><span>企业解读</span><button type="button" data-ai-close aria-label="收起 AI 解读">收起 ↑</button></div><div class="radar-ai-content" id="radar-ai-content" tabindex="-1"></div><p class="radar-ai-status" id="radar-ai-status" role="status" aria-live="polite"></p></section>':'';}
+  function panel(name){return metadata(name)?'<section class="radar-ai-panel" id="radar-ai-panel" aria-label="企业 AI 解读" hidden><div class="radar-ai-caption"><span>企业解读</span><button type="button" data-ai-close aria-label="收起 AI 解读">收起 ↑</button></div><div class="radar-ai-working" id="radar-ai-working" aria-hidden="true" hidden><span class="radar-ai-orbit"><i></i><i></i><i></i></span><div class="radar-ai-skeleton"><span></span><span></span><span></span></div></div><div class="radar-ai-content" id="radar-ai-content" tabindex="-1"></div><p class="radar-ai-status" id="radar-ai-status" role="status" aria-live="polite"></p></section>':'';}
   function markup(reading){
     if(!reading||!Array.isArray(reading.sources))throw Error('解读暂时无法读取');
     const byID=new Map(reading.sources.map((source,i)=>[source.id,{...source,number:i+1}]));
@@ -57,13 +57,18 @@
     }));
   }
   function current(name,run){return sequence===run&&document.getElementById('radar-ai-panel')&&!document.getElementById('radar-ai-panel').hidden&&document.querySelector('[data-ai-reading]')?.dataset.aiReading===name;}
-  function status(text){const field=document.getElementById('radar-ai-status');if(field)field.textContent=text;}
+  function status(text,phase='idle'){
+    const field=document.getElementById('radar-ai-status'),box=document.getElementById('radar-ai-panel'),content=document.getElementById('radar-ai-content'),working=document.getElementById('radar-ai-working');
+    if(field)field.textContent=text;
+    if(box){box.dataset.phase=phase;box.setAttribute('aria-busy',String(phase!=='idle'));}
+    if(working)working.hidden=phase==='idle'||!!content?.innerHTML;
+  }
   function paint(reading){document.getElementById('radar-ai-content').innerHTML=markup(reading);}
   async function open(name){
     const entry=metadata(name),box=document.getElementById('radar-ai-panel');if(!entry||!box)return;
-    const run=++sequence,button=document.querySelector('[data-ai-reading]');box.hidden=false;button?.setAttribute('aria-expanded','true');status('正在读取解读…');
+    const run=++sequence,button=document.querySelector('[data-ai-reading]');box.hidden=false;button?.setAttribute('aria-expanded','true');document.getElementById('radar-ai-content').textContent='';status('正在读取解读…','reading');
     let shown=false,version=entry.source_version;
-    try{const reading=await staticReading(name,entry);if(!current(name,run))return;if(reading){paint(reading);shown=true;status(reading.source_version===version?'正在检查是否有新信息…':'已收录新信息，正在更新解读…');}}
+    try{const reading=await staticReading(name,entry);if(!current(name,run))return;if(reading){paint(reading);shown=true;status(reading.source_version===version?'正在检查是否有新信息…':'已收录新信息，正在更新解读…','checking');}}
     catch{if(!current(name,run))return;}
     if(current(name,run))document.getElementById('radar-ai-content').focus({preventScroll:true});
     try{
@@ -80,18 +85,18 @@
           entry.source_version=version;
           if(data.reading){entry.cached_source_version=data.reading.source_version;cached.set(name,data.reading);paint(data.reading);shown=true;}
           else {for(const key of ['path','version','cached_source_version','cached_as_of'])delete entry[key];cached.delete(name);document.getElementById('radar-ai-content').textContent='';shown=false;}
-          status('已收录新信息，正在更新解读…');continue;
+          status('已收录新信息，正在更新解读…','queued');continue;
         }
         if(data.status==='disqualified'){delete manifest().company_interpretations[name];cached.delete(name);document.getElementById('radar-ai-content').textContent='当前材料尚不足以形成有依据的企业解读。';status('');button.hidden=true;return;}
         if(data.reading){cached.set(name,data.reading);paint(data.reading);shown=true;}
         if(data.status==='ready'){status('已包含当前收录信息');return;}
         if(data.status==='failed'){status((shown?'已显示上次解读；':'')+'本次更新暂未完成，后续采集时会再次尝试。');return;}
-        status(shown?'有新信息，正在更新解读；下方为上次版本。':'正在按时间梳理材料并生成解读…');
+        status(shown?'有新信息，正在更新解读；下方为上次版本。':data.status==='running'?'正在按时间梳理材料并生成解读…':'已提交解读请求，正在等待生成…',data.status==='running'?'generating':'queued');
       }
       if(current(name,run))status('解读仍在生成，可稍后重新打开。');
     }catch(error){if(current(name,run))status((shown?'已显示缓存解读；':'')+(error.message||'暂时无法更新')+'，可重新打开重试。');}
   }
-  function close(){sequence++;const box=document.getElementById('radar-ai-panel');if(box)box.hidden=true;const button=document.querySelector('[data-ai-reading]');button?.setAttribute('aria-expanded','false');button?.focus({preventScroll:true});}
+  function close(){sequence++;status('');const box=document.getElementById('radar-ai-panel');if(box)box.hidden=true;const button=document.querySelector('[data-ai-reading]');button?.setAttribute('aria-expanded','false');button?.focus({preventScroll:true});}
   document.addEventListener('click',event=>{const button=event.target.closest('[data-ai-reading]');if(button){button.getAttribute('aria-expanded')==='true'?close():open(button.dataset.aiReading);}if(event.target.closest('[data-ai-close]'))close();});
   window.addEventListener('hashchange',()=>{sequence++;});
   window.RadarInterpretation={control,panel,markup,check,staticReading,open,close};
