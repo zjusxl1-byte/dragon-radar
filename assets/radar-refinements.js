@@ -264,7 +264,7 @@
   }
   function syncHeader(){
     const share=document.querySelector('.radar-share-header');if(!share)return;
-    const r=Router.getRoute();share.hidden=!['/','/today','/company','/briefing','/topic'].includes(r)||(r==='/today'&&params().search==='all');
+    const r=Router.getRoute();share.hidden=!['/','/today','/company','/briefing','/observations','/topic'].includes(r)||(r==='/today'&&params().search==='all');
   }
   async function filter(changeURL=true){
     if(!field('radar-history-filter'))return;

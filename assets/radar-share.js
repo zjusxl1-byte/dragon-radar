@@ -66,7 +66,7 @@
   function currentPayload() {
     var route = Router.getRoute();
     var params = Router.getQueryParams();
-    if(route === '/topic' && window.RadarObservations){var observation=window.RadarObservations.sharePayload();if(observation)return observation;}
+    if((route === '/topic' || route === '/observations') && window.RadarObservations){var observation=window.RadarObservations.sharePayload();if(observation)return observation;}
     if (route === '/briefing' && selectedBrief) {
       var type = params.type || selectedBrief.type || 'weekly';
       var id = params.id || (window.RadarData.manifest.briefings[type] || [])[0];
@@ -149,7 +149,7 @@
     target.appendChild(b);
     function update() {
       var route = Router.getRoute();
-      b.hidden = !['/','/today','/company','/briefing',''].includes(route) || (route==='/today' && Router.getQueryParams().search==='all');
+      b.hidden = !['/','/today','/company','/briefing','/observations','/topic',''].includes(route) || (route==='/today' && Router.getQueryParams().search==='all');
     }
     window.addEventListener('hashchange', update); update();
   });
