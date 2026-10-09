@@ -327,7 +327,7 @@
         mount(companyPage(p.name||'',records));showRows(true);
         if(p.reading==='1')window.RadarInterpretation?.open(A.canonical(p.name||''));
       }else if(r==='/observations'||r==='/topic'){
-        mount(Views.loading());const observations=await window.RadarObservations.read();if(seq!==renderSequence)return;
+        mount(window.RadarObservations.loading());const observations=await window.RadarObservations.read();if(seq!==renderSequence)return;
         mount(r==='/topic'?window.RadarObservations.topic(observations,p):window.RadarObservations.hub(observations,p));
       }else if(r==='/weekly'){
         const week=p.week||m.current_week;mount(Views.loading());
