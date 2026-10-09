@@ -24,8 +24,22 @@
     }
     return identityIndex;
   }
-  function canonical(name){return identities().get(nameKey(name))?.name||name;}
-  function names(name){const entity=identities().get(nameKey(name));return entity?[entity.name,...(entity.aliases||[])]:[name];}
+  function identityFor(name){
+    const index=identities(),key=nameKey(name),exact=index.get(key);
+    if(exact&&exact.identity_status!=='unresolved')return exact;
+    const parts=key.match(/^([^()]+)\(([^()]+)\)$/)||key.match(/^(.+[\u4e00-\u9fff])\s*([a-z][a-z0-9 .&-]*)$/)||key.match(/^([a-z][a-z0-9 .&-]*)\s*(.+[\u4e00-\u9fff])$/);
+    if(parts){const left=index.get(nameKey(parts[1])),right=index.get(nameKey(parts[2]));if(left&&right&&left.id===right.id&&left.identity_status!=='unresolved'&&right.identity_status!=='unresolved')return left;}
+    return exact;
+  }
+  function canonical(name){return identityFor(name)?.name||name;}
+  function formatDate(value){
+    const text=String(value||'');if(/^\d{4}-\d{2}-\d{2}$/.test(text))return text;
+    if(!/^\d{4}-\d{2}-\d{2}T/.test(text))return text;
+    const date=new Date(text);if(!Number.isFinite(date.getTime()))return text;
+    const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(date);
+    const get=type=>parts.find(p=>p.type===type).value;return get('year')+'-'+get('month')+'-'+get('day');
+  }
+  function names(name){const entity=identityFor(name);return entity?[entity.name,...(entity.aliases||[])]:[name];}
   function sectors(row){return normalizeSectors({[row.sector||'']:1}).map(s=>s.sector);}
   function bucket(name){let hash=0;const text=canonical(name);for(let i=0;i<text.length;i++)hash=(31*hash+text.charCodeAt(i))>>>0;return (hash%64).toString(16).padStart(2,'0');}
   function rows(history) {
@@ -63,5 +77,5 @@
     const from=d.toISOString().slice(0,10);d.setUTCDate(d.getUTCDate()+6);return {from,to:d.toISOString().slice(0,10)};
   }
   function safeURL(link){try{const u=new URL(link);return /^https?:$/.test(u.protocol)?u.href:'';}catch{return '';}}
-  window.RadarHistory={region,canonical,sectors,rows,search,anchor,grouped,weekRange,safeURL,bucket};
+  window.RadarHistory={region,canonical,sectors,rows,search,anchor,grouped,weekRange,safeURL,bucket,formatDate};
 })();

@@ -44,15 +44,25 @@
   loadWeeklyData=week=>reuseRequest(dataRequests,'week:'+week,()=>originalWeeklyLoad(week));
   loadBriefingData=(type,id)=>reuseRequest(dataRequests,'brief:'+type+':'+id,()=>originalBriefingLoad(type,id));
   function trackButton(name){return '<a class="radar-track" href="'+esc(companyLink(name))+'" aria-label="追踪'+esc(name)+'，查看全部已收录信息">追踪</a>';}
+  function originTitle(title){return title?'<details class="radar-original-source"><summary>原文标题</summary><p>'+esc(title)+'</p></details>':'';}
   function extendCard(html,item,compact){
     const name=item.company_name||item.company||'';
     if(A.region(item)==='海外')html=html.replace(/全国标杆/g,'海外参考').replace(/🌐标杆/g,'🌐海外');
     if(compact){return html.replace(/onclick="Router.navigate\([^\n]*?\)"/,'role="link" tabindex="0" data-company-card="'+esc(name)+'"');}
+    html=html.replace('class="scroll-margin ','class="scroll-margin radar-overview-card ');
+    const facts=item.event_desc||item.reason||'',caption=timelineEventText({...item,title:facts}).headline;
+    html=html.replace(/(<div class="mb-(?:2|3) text-\[14px\][^"]*border-l-\[3px\][^"]*">)[\s\S]*?<\/div>/,(_,start)=>start+(item._radarEscaped?caption:esc(caption))+'</div>');
+    if(!item._radarDetails){
+      if(facts.length>110)html=html.replace(/<div class="mb-3\.5 text-\[13px\] text-gray-600 leading-relaxed text-justify">([\s\S]*?)<\/div>/,
+        '<details class="radar-overview-facts"><summary aria-label="展开'+esc(name)+'的完整事实"><span class="radar-overview-facts-text">$1</span><span class="radar-facts-expand">展开事实 ↓</span><span class="radar-facts-collapse">收起事实 ↑</span></summary></details>');
+      const origin=originTitle(item.event_description||item.article_title||item.title||'');
+      html=html.replace('<div class="flex items-center gap-2 mt-4',origin+'<div class="flex items-center gap-2 mt-4');
+    }
     html=html.replace('<div class="flex flex-wrap gap-1.5 mb-3.5">','<div class="radar-event-tags flex flex-wrap gap-1.5 mb-3.5">');
     html=html.replace('rounded bg-[#F4F6FB] text-[#4A6495]','rounded radar-tag-sector bg-[#F4F6FB] text-[#4A6495]');
     html=html.replace(/(<span class="[^"]*">📰 [\s\S]*?<\/span>)/,'<div class="radar-source-row">$1'+trackButton(name)+'</div>');
     html=html.replace('<div class="mb-3 ml-2 flex justify-between items-start"><div>','<div class="mb-3 ml-2 flex justify-between items-start"><div class="min-w-0 flex-1 pr-2">');
-    const dates=[item.event_date||item.event_time_evidence?.event_date,item.published_date].map((x,i)=>x?['事件 ','报道 '][i]+esc(x):'').filter(Boolean);
+    const dates=[item.event_date||item.event_time_evidence?.event_date,item.published_date].map((x,i)=>x?['事件 ','报道 '][i]+esc(A.formatDate(x)):'').filter(Boolean);
     if(dates.length)html=html.replace('<div class="flex items-center gap-2 mt-4','<div class="radar-dates">'+dates.join(' · ')+'</div><div class="flex items-center gap-2 mt-4');
     return html.replace(/(<div id="[^"]+"[^>]*>)/,'$1<span class="radar-event-anchor" id="'+A.anchor(item)+'" aria-hidden="true"></span>');
   }
@@ -60,7 +70,12 @@
   renderCompanyCard=function(item,index,compact){return extendCard(card.apply(this,arguments),item,compact);};
   renderNegativeCard=function(item,compact){return extendCard(negative.apply(this,arguments),item,compact);};
   const home=Views.home;
-  Views.home=function(data){return home(data).replace('<span class="text-xs text-gray-400">滑动直阅</span>','<a class="radar-text-link" href="#/today">全部动态 →</a>');};
+  Views.home=function(data){
+    const today={...data.summary.today},copy={...data,summary:{...data.summary,today}};
+    today.total_companies=today.record_count??today.total_companies;
+    copy.recent_updates=[{date:data.today,title:'今日收录 '+today.total_companies+' 条',highlight:Number.isInteger(today.first_seen_count)?'首次收录 '+today.first_seen_count+' 家 · 持续更新 '+today.updated_company_count+' 家':''}];
+    return home(copy).replace('bg-gradient-to-br from-[#FF6B35] to-[#FF8C61] rounded-2xl','radar-home-summary bg-gradient-to-br from-[#FF6B35] to-[#FF8C61] rounded-2xl').replace('最新雷达快报','今日收录').replace('发现企业</div>','收录动态</div>').replace('<span class="text-xs text-gray-400">滑动直阅</span>','<a class="radar-text-link" href="#/today">全部动态 →</a>');
+  };
   const calendar=Views.calendar;
   Views.calendar=function(data,month){
     const copy={...data,weekly_negatives:[],available_dates:(data.available_dates||[]).map(day=>({...day,count:(day.count||0)+(day.negative_count||0)}))};
@@ -75,7 +90,7 @@
     const week=data.year!==undefined?data.year+'-W'+String(data.week).padStart(2,'0'):data.current_week;
     const count=window.RadarData.manifest.weekly_counts?.[week];
     if(count){if(copy.year!==undefined)copy.summary.total_companies=count.companies;else if(copy.summary?.week)copy.summary.week.total_companies=count.companies;}
-    let html=weekly(copy,weeks);
+    let html=weekly(copy,weeks).replace('前沿领域热度趋势','本期收录领域').replace('* 注：含跨界属性企业多重计次','* 按已收录材料统计，跨领域企业多重计次');
     const raw=data.year!==undefined?data.sector_distribution:(data.summary?.week?.sector_distribution||data.summary?.week?.top_sectors||[]);
     normalizeSectors(raw||{}).forEach((sector,i)=>{
       const label=(i+1)+'. '+sector.sector;
@@ -85,7 +100,7 @@
     return html;
   };
   function dailyRows(data,day){
-    return [['targets','event'],['negatives','risk']].flatMap(([key,kind])=>(Array.isArray(data[key])?data[key]:[]).map(t=>({...t,company:t.company_name||t.company,date:day,kind,title:t.event_desc||t.reason||t.title||'',article_title:t.event_description||t.article_title||t.title||'',insight:t.insight||t.summary||'',event_date:t.event_date||t.event_time_evidence?.event_date||'',canonical_name:A.canonical(t.company_name||t.company),region:A.region(t)})))
+    return [['targets','event'],['negatives','risk']].flatMap(([key,kind])=>(Array.isArray(data[key])?data[key]:[]).map(t=>({...t,company:t.company_name||t.company,date:day,kind,title:t.event_desc||t.reason||t.title||'',article_title:t.event_description||t.article_title||t.title||'',insight:t.insight||t.summary||'',event_date:t.event_date||t.event_time_evidence?.event_date||'',canonical_name:A.canonical(t.company_name||t.company),discovery_status:window.RadarData.manifest.company_first_seen?.[A.canonical(t.company_name||t.company)]?(window.RadarData.manifest.company_first_seen[A.canonical(t.company_name||t.company)]===day?'first_seen':'update'):'',region:A.region(t)})))
       .sort((a,b)=>(a.kind==='risk'?-1:0)-(b.kind==='risk'?-1:0)||(b.score||0)-(a.score||0));
   }
   function eventLink(r){const q={date:r.date,target:A.anchor(r)};const p=params();const version=(p.date===r.date&&p.v)||window.RadarData.manifest.daily_versions?.[r.date];if(version)q.v=version;return routeLink('/today',q);}
@@ -93,6 +108,7 @@
     const item={...r,company:r.company,event_desc:r.title,article_title:r.article_title,insight:r.insight};
     // Existing renderers interpolate strings. Escape content and restrict outgoing URLs here.
     Object.keys(item).forEach(k=>{if(typeof item[k]==='string'&&k!=='link')item[k]=esc(item[k]);});
+    item._radarEscaped=true;item._radarDetails=true;
     item.link=A.safeURL(r.link).replace(/'/g,'%27');
     let html=r.kind==='risk'?renderNegativeCard(item,false):renderCompanyCard(item,null,false);
     if(window.RadarShare){const shareKey=window.RadarShare.registerEvent({...r,event_desc:r.title});html=html.replace(/data-radar-share="[^"]+"/,'data-radar-share="'+shareKey+'"');}
@@ -110,7 +126,7 @@
     const tags=body.match(/<div class="radar-event-tags flex flex-wrap gap-1.5 mb-3.5">[\s\S]*?<\/div>/)?.[0]||'';
     const title=body.match(/<div class="mb-(?:2|3) text-\[14px\][^"]*border-l-\[3px\][^"]*">[\s\S]*?<\/div>/)?.[0]||'';
     body=body.replace(tags,'').replace(title,'');
-    return {body,tags,title};
+    return {body:body+originTitle(r.article_title),tags,title};
   }
   function observations(r){
     return (r.observations||[]).length>1?'<details class="radar-observations"><summary>'+r.observations.length+' 条收录记录与来源</summary>'+r.observations.map(o=>'<p>'+esc(o.date)+' · '+esc(o.company)+' · '+esc(o.source||'来源见原文')+' <a href="'+esc(eventLink(o))+'">查看记录</a>'+(A.safeURL(o.link)?' · <a target="_blank" rel="noopener noreferrer" href="'+esc(A.safeURL(o.link))+'">原文</a>':'')+'</p>').join('')+'</details>':'';
@@ -128,7 +144,7 @@
   function timelineRow(r,open=false,latest=false){
     const key=rowKey(r),risk=r.kind==='risk'||/风险|负面/.test(r.event_type||''),{body,tags}=readingBody(r);
     const {headline,excerpt}=timelineEventText(r);
-    const origin=r.article_title?'<div class="radar-timeline-origin-title"><span>原文标题</span><p>'+esc(r.article_title)+'</p></div>':'';
+    const origin='';
     const pending=window.RadarInsightQuality?.needsReview(r.insight||'',window.RadarData.manifest);
     const insight=latest&&r.insight&&!pending?'<aside class="radar-timeline-insight-preview"><strong>'+ (risk?'小贾风险洞察':'小贾深度洞察')+'</strong><p>'+esc(r.insight)+'</p></aside>':'';
     const score=Number.isFinite(r.score)?'<span class="radar-timeline-score">当期评分 '+esc(r.score)+'</span>':'';
@@ -143,7 +159,7 @@
     const key=rowKey(r),risk=r.kind==='risk'||/风险|负面/.test(r.event_type||''),{body,tags,title}=readingBody(r);
     const score=Number.isFinite(r.score)?'<div class="radar-reading-score" aria-label="当期评分 '+esc(r.score)+'"><span class="text-2xl font-black leading-none tracking-tighter '+getScoreColor(r.score)+'">'+esc(r.score)+'</span></div>':'';
     const heading=inCompany?'<h3 class="radar-record-date"><span>收录</span> <time datetime="'+esc(r.date)+'">'+esc(r.date)+'</time></h3>':'<h3><a href="'+esc(companyLink(r.company))+'">'+esc(A.canonical(r.canonical_name||r.company))+'</a></h3>';
-    const recordedAt=inCompany?'':'<span class="radar-stream-meta">收录 <time datetime="'+esc(r.date)+'">'+esc(r.date)+'</time></span>';
+    const recordedAt=inCompany?'':'<span class="radar-stream-meta">收录 <time datetime="'+esc(r.date)+'">'+esc(r.date)+'</time>'+ (r.discovery_status?'<span class="radar-discovery-label">'+(r.discovery_status==='first_seen'?'首次收录':'持续更新')+'</span>':'')+'</span>';
     const originals=observations(r);
     return '<article class="radar-stream-item '+(risk?'radar-risk-item':'')+'" data-row="'+esc(key)+'">'+
       '<div class="radar-reading-card-heading"><div class="radar-reading-identity">'+heading+'<div class="radar-source-row"><span class="radar-source-label">📰 '+esc(r.source||'来源见原文')+'</span>'+(inCompany?'':trackButton(r.company))+'</div></div>'+score+'</div>'+tags+title+

@@ -60,7 +60,7 @@
         }
     </style>
     <link rel="stylesheet" href="./assets/radar-share.css?v=20260930-native-share">
-    <link rel="stylesheet" href="./assets/radar-refinements.css?v=20261009-reading-clarity-v3">
+    <link rel="stylesheet" href="./assets/radar-refinements.css?v=20261009-reading-system-v4">
 </head>
 <body class="bg-[#F4F5F7] text-gray-800 antialiased relative min-h-screen pb-[calc(3.5rem+env(safe-area-inset-bottom))]">
 
@@ -1093,7 +1093,7 @@
                             }
                             var sorted = targets.slice().sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
                             
-                            window.RadarData.manifest.summary.today = {
+                            window.RadarData.manifest.summary.today = Object.assign({}, manifestData.summary.today, {
                                 date: manifestData.today,
                                 total_companies: new Set(targets.map(function(t) { return String(t.company || t.company_name || '').trim(); }).filter(Boolean)).size,
                                 total_events: targets.length,
@@ -1102,7 +1102,7 @@
                                 milestone_count: (manifestData.summary && manifestData.summary.today && manifestData.summary.today.milestone_count !== undefined) ? manifestData.summary.today.milestone_count : milestoneCountLocal,
                                 top3: sorted.slice(0, 5),
                                 today_negatives: negatives 
-                            };
+                            });
                             
                             if (window.RadarData.manifest.recent_updates && window.RadarData.manifest.recent_updates.length > 0) {
                                 if (window.RadarData.manifest.recent_updates[0].title.indexOf('0') !== -1) {
@@ -1156,8 +1156,8 @@
         document.addEventListener('DOMContentLoaded', initApp);
     </script>
     <script src="./assets/radar-share.js?v=20260930-native-share"></script>
-    <script src="./assets/radar-history.js?v=20261008-reading-visual-v1"></script>
-    <script src="./assets/radar-interpretation.js?v=20261009-reading-clarity-v3"></script>
-    <script src="./assets/radar-refinements.js?v=20261008-reading-visual-v1"></script>
+    <script src="./assets/radar-history.js?v=20261009-reading-system-v4"></script>
+    <script src="./assets/radar-interpretation.js?v=20261009-reading-system-v4"></script>
+    <script src="./assets/radar-refinements.js?v=20261009-reading-system-v4"></script>
 </body>
 </html>
