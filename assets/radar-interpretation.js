@@ -16,9 +16,14 @@
       return link?'<a class="radar-ai-citation" href="'+esc(link)+'" target="_blank" rel="noopener noreferrer" aria-label="依据'+source.number+'：'+esc(source.article_title||source.event_headline)+'">['+source.number+']</a>':'';
     }).join('');
     const evidence=block=>{const links=refs(block);return links?'<span class="radar-ai-refs">'+links+'</span>':'';};
-    const block=(key,label)=>'<div class="radar-ai-paragraph"><h4>'+label+'</h4><p>'+esc(reading[key]?.text||'')+evidence(reading[key]||{})+'</p></div>';
-    return '<h3 class="radar-ai-verdict">'+esc(reading.verdict?.text||'')+evidence(reading.verdict||{})+'</h3><details class="radar-ai-detail" data-ai-details'+(expanded?' open':'')+'><summary><span class="radar-ai-detail-open">展开完整解读</span><span class="radar-ai-detail-close">收起完整解读</span><span class="radar-ai-as-of">材料截至 '+esc(reading.as_of)+'</span></summary><div class="radar-ai-analysis">'+block('progress','进程')+block('assessment','判断')+block('watch','下一步看什么')+
-      '<details class="radar-ai-sources"><summary>解读依据 · '+reading.sources.length+' 条</summary><ol>'+reading.sources.map(source=>{
+    const block=(key,label)=>{
+      const part=reading[key]||{},points=key==='progress'&&Array.isArray(part.points)?part.points:null;
+      const body=points?'<ul class="radar-ai-points">'+points.map(point=>'<li><p><strong class="radar-ai-point-label">'+esc(point.label)+'</strong>'+esc(point.text)+evidence(point)+'</p></li>').join('')+'</ul>':
+        (part.lead?'<p class="radar-ai-lead"><strong>'+esc(part.lead)+'</strong></p>':'')+'<p>'+esc(part.text||'')+evidence(part)+'</p>';
+      return '<section class="radar-ai-paragraph'+(key==='watch'?' radar-ai-watch':'')+'"><h4>'+label+'</h4>'+body+'</section>';
+    };
+    return '<h3 class="radar-ai-verdict">'+esc(reading.verdict?.text||'')+evidence(reading.verdict||{})+'</h3><details class="radar-ai-detail" data-ai-details'+(expanded?' open':'')+'><summary><span class="radar-ai-detail-open">展开完整解读</span><span class="radar-ai-detail-close">收起完整解读</span><span class="radar-ai-as-of">材料截至 '+esc(reading.as_of)+'</span></summary><div class="radar-ai-analysis">'+block('progress','关键进展')+block('assessment','解读')+block('watch','下一步看什么')+
+      '<details class="radar-ai-sources"><summary>解读依据 · '+reading.sources.length+' 条</summary>'+(reading.note?.text?'<p class="radar-ai-note">'+esc(reading.note.text)+evidence(reading.note)+'</p>':'')+'<ol>'+reading.sources.map(source=>{
         const link=window.RadarHistory.safeURL(source.link),text=esc(source.article_title||source.event_headline||'已收录报道');
         return '<li>'+(link?'<a href="'+esc(link)+'" target="_blank" rel="noopener noreferrer">'+text+'</a>':text)+'<small>'+esc(source.source||'原始来源')+' · 收录 '+esc(source.collected_date)+'</small></li>';
       }).join('')+'</ol></details><div class="radar-ai-detail-footer"><button type="button" data-ai-detail-close>收起完整解读 ↑</button></div></div></details>';
@@ -30,7 +35,7 @@
   async function request(url,options){
     const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),15000);
     try{const response=await fetch(url,{...options,signal:controller.signal});return {ok:response.ok,status:response.status,data:await response.json()};}
-    catch(error){if(error.name==='AbortError')throw Error('网络响应较慢，请稍后重试');throw error;}
+    catch(error){if(error.name==='AbortError')throw Error('网络响应较慢，请稍后重试');throw Error(error.name==='SyntaxError'?'解读数据暂时无法读取':'网络暂时无法连接');}
     finally{clearTimeout(timer);}
   }
   async function staticReading(name,entry){

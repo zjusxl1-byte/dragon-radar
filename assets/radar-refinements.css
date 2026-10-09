@@ -139,10 +139,16 @@
 .radar-ai-detail-close,.radar-ai-detail[open] .radar-ai-detail-open{display:none}
 .radar-ai-detail[open] .radar-ai-detail-close{display:inline}
 .radar-ai-as-of{margin-left:auto;font-size:11px;font-weight:400;color:#6b7280}
-.radar-ai-analysis{padding-top:10px;border-top:1px solid #edf0f6}
-.radar-ai-paragraph{margin:0 0 16px}
-.radar-ai-paragraph h4{font-size:12px;line-height:1.6;color:#6b7280;font-weight:600;margin:0 0 5px}
-.radar-company-heading .radar-ai-paragraph p{font-size:14px;color:#374151;line-height:1.75;margin:0;text-align:left}
+.radar-ai-analysis{padding-top:14px;border-top:1px solid #edf0f6}
+.radar-ai-paragraph{margin:0 0 22px}
+.radar-ai-paragraph h4{font-size:12px;line-height:1.6;color:#6b7280;font-weight:500;margin:0 0 8px}
+.radar-company-heading .radar-ai-paragraph p{font-size:14px;color:#4b5563;line-height:1.75;margin:0;text-align:left}
+.radar-ai-points{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.radar-ai-point-label{font-weight:650;color:#374151;margin-right:8px}
+.radar-company-heading .radar-ai-paragraph .radar-ai-lead{font-size:15px;line-height:1.65;color:#374151;margin:0 0 6px}
+.radar-ai-lead strong{font-weight:650}
+.radar-ai-watch{border-left:2px solid #c8d0f4;padding-left:12px}
+.radar-company-heading .radar-ai-note{font-size:12px;color:#6b7280;line-height:1.7;margin:6px 0 12px}
 .radar-ai-refs{display:inline-block;white-space:nowrap;vertical-align:baseline;margin-left:4px;line-height:24px;font-weight:400}
 .radar-ai-citation{display:inline-flex;align-items:center;justify-content:center;min-width:24px;min-height:24px;color:#596bd8;font-size:11px;font-weight:500;line-height:1.1}
 .radar-ai-sources{padding-top:4px;border-top:1px solid #edf0f6;font-size:12px;line-height:1.65;color:#6b7280}
