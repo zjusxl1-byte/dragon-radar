@@ -1,4 +1,36 @@
 /* New reading flows use the existing site's exact card, type and control values. */
+.radar-reading-badge{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;flex:none;color:#6268b8;font-size:11px;font-weight:600;white-space:nowrap}
+.radar-reading-badge>span{padding:2px 6px;border-radius:5px;background:#f1f3ff;line-height:18px}
+.radar-reading-badge:focus-visible{outline:2px solid #667eea;outline-offset:2px;border-radius:6px}
+.radar-observation-tabs{display:flex;gap:24px;border-bottom:1px solid #e7eaf2;margin:0 4px 16px}
+.radar-observation-tabs>a{display:flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;color:#6b7280;font-size:14px;font-weight:700;border-bottom:2px solid transparent}
+.radar-observation-tabs>a[aria-current=page]{color:#5263c9;border-bottom-color:#667eea}
+.radar-observation-tabs small{font-size:11px;font-weight:500;color:#8b94a8}
+.radar-observation-caption{padding:0 4px;margin:-4px 0 14px;color:#7b8396;font-size:12px;line-height:1.6}
+.radar-observation-card{display:block;min-width:0;background:#fff;border:1px solid #f3f4f680;border-radius:16px;padding:16px;margin-bottom:16px;box-shadow:0 2px 12px -4px #0651ed0b;transition:box-shadow .15s}
+.radar-observation-card h3{font-size:17px;line-height:1.45;color:#1f2937;letter-spacing:-.025em;font-weight:800;overflow-wrap:anywhere;margin:4px 0 7px}
+.radar-observation-sector{display:flex;align-items:baseline;gap:8px;justify-content:space-between;font-size:11px;line-height:1.6;color:#8a93a4;overflow-wrap:anywhere}
+.radar-observation-sector>span{color:#747bb4;white-space:nowrap;flex:none}
+.radar-company-observation .radar-observation-sector{display:block;margin-bottom:12px}
+.radar-observation-thesis{font-size:14px;line-height:1.75;color:#374151;margin:10px 0 12px;padding-left:10px;border-left:2px solid #b4b9e9;overflow-wrap:anywhere}
+.radar-observation-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;border-top:1px solid #edf0f6;padding-top:10px;font-size:11px;line-height:1.5;color:#8a93a4}
+.radar-observation-action{color:#6970b7;white-space:nowrap;flex:none}
+.radar-observation-list-footer{padding:0 4px;text-align:center;color:#7b8396;font-size:12px}.radar-observation-list-footer .radar-more{margin-top:12px}
+.radar-observation-card:hover{box-shadow:0 4px 15px -5px #0651ed1c}.radar-observation-view :focus-visible,.radar-topic-view :focus-visible{outline:2px solid #667eea;outline-offset:3px}
+.radar-related-observations{border-top:1px solid #edf0f6;margin-top:8px;padding-top:10px;font-size:12px;line-height:1.65}
+.radar-related-observations>span{display:block;font-size:11px;color:#8a93a4;margin-bottom:2px}
+.radar-related-observations>a{display:block;padding:7px 0;color:#5e6db3;min-height:44px}
+.radar-topic-reading{background:#fff;border:1px solid #f3f4f680;border-radius:16px;padding:18px 16px;box-shadow:0 2px 12px -4px #0651ed0b}
+.radar-topic-reading>h2{font-size:21px;line-height:1.45;letter-spacing:-.025em;font-weight:800;color:#1f2937;margin:8px 0 7px;overflow-wrap:anywhere}
+.radar-topic-meta{color:#9299a8;font-size:11px;line-height:1.6;margin-bottom:18px}
+.radar-topic-reading .radar-ai-verdict{font-size:15px;font-weight:650;color:#374151;line-height:1.7;margin-bottom:18px}.radar-topic-points{margin:0 0 20px!important}.radar-topic-points p{font-size:14px;color:#4b5563;line-height:1.75;margin:0}
+.radar-topic-change{background:#f5f6fc;border-left:2px solid #b4b9e9;border-radius:0 8px 8px 0;padding:10px 12px;margin-bottom:16px;font-size:12px;line-height:1.75;color:#59637a}
+.radar-topic-change strong{display:block;color:#6970b7;font-size:11px;margin-bottom:2px}
+.radar-topic-companies{padding:14px 0 8px;border-top:1px solid #edf0f6;font-size:13px;line-height:1.6}
+.radar-topic-companies>h4{color:#7b8396;font-size:11px;font-weight:500;margin-bottom:5px}
+.radar-topic-companies>a{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;color:#374151;font-weight:600;padding:6px 0;overflow-wrap:anywhere}
+.radar-topic-companies>a>span{flex:none;white-space:nowrap;font-size:11px;font-weight:500;color:#6970b7}
+@media(prefers-reduced-motion:reduce){.radar-observation-card{transition:none}}
 .radar-track,.radar-text-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;color:#5164bc;font-size:12px;font-weight:500;white-space:nowrap}
 .radar-track{min-width:44px;padding:4px}.radar-dates{font-size:12px;color:#64748b;margin-top:10px;line-height:1.5}
 .radar-source-row{display:flex;align-items:center;gap:6px;min-width:0}
@@ -161,13 +193,13 @@
 .radar-ai-analysis{padding-top:14px;border-top:1px solid #edf0f6}
 .radar-ai-paragraph{margin:0 0 22px}
 .radar-ai-paragraph h4{font-size:12px;line-height:1.6;color:#6b7280;font-weight:500;margin:0 0 8px}
-.radar-company-heading .radar-ai-paragraph p{font-size:14px;color:#4b5563;line-height:1.75;margin:0;text-align:left}
+:is(.radar-company-heading,.radar-topic-reading) .radar-ai-paragraph p{font-size:14px;color:#4b5563;line-height:1.75;margin:0;text-align:left}
 .radar-ai-points{list-style:none;padding:0;margin:0;display:grid;gap:10px}
 .radar-ai-point-label{font-weight:650;color:#374151;margin-right:8px}
-.radar-company-heading .radar-ai-paragraph .radar-ai-lead{font-size:15px;line-height:1.65;color:#374151;margin:0 0 6px}
+:is(.radar-company-heading,.radar-topic-reading) .radar-ai-paragraph .radar-ai-lead{font-size:15px;line-height:1.65;color:#374151;margin:0 0 6px}
 .radar-ai-lead strong{font-weight:650}
 .radar-ai-watch{border-left:2px solid #c8d0f4;padding-left:12px}
-.radar-company-heading .radar-ai-note{font-size:12px;color:#6b7280;line-height:1.7;margin:6px 0 12px}
+:is(.radar-company-heading,.radar-topic-reading) .radar-ai-note{font-size:12px;color:#6b7280;line-height:1.7;margin:6px 0 12px}
 .radar-ai-refs{display:inline-block;white-space:nowrap;vertical-align:baseline;margin-left:4px;line-height:24px;font-weight:400}
 .radar-ai-citation{display:inline-flex;align-items:center;justify-content:center;min-width:24px;min-height:24px;color:#596bd8;font-size:11px;font-weight:500;line-height:1.1}
 .radar-ai-sources{padding-top:4px;border-top:1px solid #edf0f6;font-size:12px;line-height:1.65;color:#6b7280}

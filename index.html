@@ -60,7 +60,7 @@
         }
     </style>
     <link rel="stylesheet" href="./assets/radar-share.css?v=20260930-native-share">
-    <link rel="stylesheet" href="./assets/radar-refinements.css?v=20261009-reading-system-v4">
+    <link rel="stylesheet" href="./assets/radar-refinements.css?v=20261009-observation-system-v2">
 </head>
 <body class="bg-[#F4F5F7] text-gray-800 antialiased relative min-h-screen pb-[calc(3.5rem+env(safe-area-inset-bottom))]">
 
@@ -103,9 +103,9 @@
                 <svg class="w-[22px] h-[22px] mb-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
                 <span class="text-[10px] font-medium">日历</span>
             </a>
-            <a href="#/weekly" data-route="/weekly" class="nav-item flex flex-col items-center justify-center w-full h-full active:bg-gray-50 transition-colors">
-                <svg class="w-[22px] h-[22px] mb-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
-                <span class="text-[10px] font-medium">趋势</span>
+            <a href="#/observations" data-route="/observations" class="nav-item flex flex-col items-center justify-center w-full h-full active:bg-gray-50 transition-colors">
+                <svg class="w-[22px] h-[22px] mb-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3" /></svg>
+                <span class="text-[10px] font-medium">观察</span>
             </a>
             <a href="#/briefing" data-route="/briefing" class="nav-item flex flex-col items-center justify-center w-full h-full active:bg-gray-50 transition-colors">
                 <svg class="w-[22px] h-[22px] mb-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
@@ -1155,9 +1155,10 @@
 
         document.addEventListener('DOMContentLoaded', initApp);
     </script>
-    <script src="./assets/radar-share.js?v=20260930-native-share"></script>
-    <script src="./assets/radar-history.js?v=20261009-reading-system-v4"></script>
-    <script src="./assets/radar-interpretation.js?v=20261009-reading-system-v4"></script>
-    <script src="./assets/radar-refinements.js?v=20261009-reading-system-v4"></script>
+    <script src="./assets/radar-share.js?v=20261009-observation-system-v2"></script>
+    <script src="./assets/radar-history.js?v=20261009-observation-system-v2"></script>
+    <script src="./assets/radar-interpretation.js?v=20261009-observation-system-v2"></script>
+    <script src="./assets/radar-observations.js?v=20261009-observation-system-v2"></script>
+    <script src="./assets/radar-refinements.js?v=20261009-observation-system-v2"></script>
 </body>
 </html>

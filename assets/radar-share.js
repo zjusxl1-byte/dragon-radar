@@ -66,6 +66,7 @@
   function currentPayload() {
     var route = Router.getRoute();
     var params = Router.getQueryParams();
+    if(route === '/topic' && window.RadarObservations){var observation=window.RadarObservations.sharePayload();if(observation)return observation;}
     if (route === '/briefing' && selectedBrief) {
       var type = params.type || selectedBrief.type || 'weekly';
       var id = params.id || (window.RadarData.manifest.briefings[type] || [])[0];

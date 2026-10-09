@@ -5,7 +5,13 @@
   const cached=new Map(),inflight=new Map();
   let sequence=0;
   const manifest=()=>window.RadarData.manifest;
-  const metadata=name=>manifest().company_interpretations?.[name];
+  const metadata=name=>manifest()?.company_interpretations?.[window.RadarHistory?.canonical?.(name)||name];
+  function hasReading(name){const entry=metadata(name);return !!(entry&&/^data\/interpretations\/[a-f0-9]{20}\.json$/.test(entry.path||'')&&/^[a-f0-9]{64}$/.test(entry.version||'')&&entry.cached_source_version);}
+  function badge(name,back='/today'){
+    if(!hasReading(name))return '';
+    const canonical=window.RadarHistory.canonical(name),query=new URLSearchParams({name:canonical,reading:'1',back});
+    return '<a class="radar-reading-badge" href="#/company?'+esc(query.toString())+'" aria-label="阅读'+esc(canonical)+'的企业解读"><span>解读</span></a>';
+  }
   function control(name){return metadata(name)?'<button class="radar-ai-button" type="button" data-ai-reading="'+esc(name)+'" aria-expanded="false" aria-controls="radar-ai-panel">AI 解读 <span aria-hidden="true">⌄</span></button>':'';}
   function panel(name){return metadata(name)?'<section class="radar-ai-panel" id="radar-ai-panel" aria-label="企业 AI 解读" hidden><div class="radar-ai-working" id="radar-ai-working" aria-hidden="true" hidden><span class="radar-ai-orbit"><i></i><i></i><i></i></span><div class="radar-ai-skeleton"><span></span><span></span><span></span></div></div><div class="radar-ai-content" id="radar-ai-content" tabindex="-1"></div><p class="radar-ai-status" id="radar-ai-status" role="status" aria-live="polite"></p></section>':'';}
   function markup(reading,expanded=false){
@@ -108,5 +114,5 @@
     const collapse=event.target.closest('[data-ai-detail-close]');if(collapse){const details=collapse.closest('[data-ai-details]');if(!details)return;details.open=false;const summary=details.querySelector('summary');if(summary.getBoundingClientRect().top<56)(details.closest?.('.radar-ai-content')||summary).scrollIntoView({block:'start',behavior:'auto'});summary.focus({preventScroll:true});}
   });
   window.addEventListener('hashchange',()=>{sequence++;});
-  window.RadarInterpretation={control,panel,markup,check,staticReading,open,close};
+  window.RadarInterpretation={control,panel,markup,check,staticReading,open,close,hasReading,badge};
 })();

@@ -16,7 +16,7 @@
     return pending;
   }
   const field=id=>document.getElementById(id);
-  const safeBack=value=>/^\/(?:today|company|calendar|weekly|briefing)?(?:\?|$)/.test(value||'')?value:'/today';
+  const safeBack=value=>/^\/(?:today|company|calendar|weekly|briefing|observations|topic)?(?:\?|$)/.test(value||'')?value:'/today';
   function companyLink(name){return routeLink('/company',{name:A.canonical(name),back:safeBack(location.hash.slice(1)||'/')});}
   function readHistory(){
     if(!historyPromise){
@@ -44,9 +44,10 @@
   loadWeeklyData=week=>reuseRequest(dataRequests,'week:'+week,()=>originalWeeklyLoad(week));
   loadBriefingData=(type,id)=>reuseRequest(dataRequests,'brief:'+type+':'+id,()=>originalBriefingLoad(type,id));
   function trackButton(name){return '<a class="radar-track" href="'+esc(companyLink(name))+'" aria-label="追踪'+esc(name)+'，查看全部已收录信息">追踪</a>';}
+  function readingBadge(name){return window.RadarInterpretation?.badge(name,safeBack(location.hash.slice(1)||'/'))||'';}
   function originTitle(title){return title?'<details class="radar-original-source"><summary>原文标题</summary><p>'+esc(title)+'</p></details>':'';}
   function extendCard(html,item,compact){
-    const name=item.company_name||item.company||'';
+    const name=item._radarRawName||item.company_name||item.company||'';
     if(A.region(item)==='海外')html=html.replace(/全国标杆/g,'海外参考').replace(/🌐标杆/g,'🌐海外');
     if(compact){return html.replace(/onclick="Router.navigate\([^\n]*?\)"/,'role="link" tabindex="0" data-company-card="'+esc(name)+'"');}
     html=html.replace('class="scroll-margin ','class="scroll-margin radar-overview-card ');
@@ -60,7 +61,7 @@
     }
     html=html.replace('<div class="flex flex-wrap gap-1.5 mb-3.5">','<div class="radar-event-tags flex flex-wrap gap-1.5 mb-3.5">');
     html=html.replace('rounded bg-[#F4F6FB] text-[#4A6495]','rounded radar-tag-sector bg-[#F4F6FB] text-[#4A6495]');
-    html=html.replace(/(<span class="[^"]*">📰 [\s\S]*?<\/span>)/,'<div class="radar-source-row">$1'+trackButton(name)+'</div>');
+    html=html.replace(/(<span class="[^"]*">📰 [\s\S]*?<\/span>)/,'<div class="radar-source-row">$1'+trackButton(name)+readingBadge(name)+'</div>');
     html=html.replace('<div class="mb-3 ml-2 flex justify-between items-start"><div>','<div class="mb-3 ml-2 flex justify-between items-start"><div class="min-w-0 flex-1 pr-2">');
     const dates=[item.event_date||item.event_time_evidence?.event_date,item.published_date].map((x,i)=>x?['事件 ','报道 '][i]+esc(A.formatDate(x)):'').filter(Boolean);
     if(dates.length)html=html.replace('<div class="flex items-center gap-2 mt-4','<div class="radar-dates">'+dates.join(' · ')+'</div><div class="flex items-center gap-2 mt-4');
@@ -108,7 +109,7 @@
     const item={...r,company:r.company,event_desc:r.title,article_title:r.article_title,insight:r.insight};
     // Existing renderers interpolate strings. Escape content and restrict outgoing URLs here.
     Object.keys(item).forEach(k=>{if(typeof item[k]==='string'&&k!=='link')item[k]=esc(item[k]);});
-    item._radarEscaped=true;item._radarDetails=true;
+    item._radarEscaped=true;item._radarDetails=true;item._radarRawName=r.company;
     item.link=A.safeURL(r.link).replace(/'/g,'%27');
     let html=r.kind==='risk'?renderNegativeCard(item,false):renderCompanyCard(item,null,false);
     if(window.RadarShare){const shareKey=window.RadarShare.registerEvent({...r,event_desc:r.title});html=html.replace(/data-radar-share="[^"]+"/,'data-radar-share="'+shareKey+'"');}
@@ -162,7 +163,7 @@
     const recordedAt=inCompany?'':'<span class="radar-stream-meta">收录 <time datetime="'+esc(r.date)+'">'+esc(r.date)+'</time>'+ (r.discovery_status?'<span class="radar-discovery-label">'+(r.discovery_status==='first_seen'?'首次收录':'持续更新')+'</span>':'')+'</span>';
     const originals=observations(r);
     return '<article class="radar-stream-item '+(risk?'radar-risk-item':'')+'" data-row="'+esc(key)+'">'+
-      '<div class="radar-reading-card-heading"><div class="radar-reading-identity">'+heading+'<div class="radar-source-row"><span class="radar-source-label">📰 '+esc(r.source||'来源见原文')+'</span>'+(inCompany?'':trackButton(r.company))+'</div></div>'+score+'</div>'+tags+title+
+      '<div class="radar-reading-card-heading"><div class="radar-reading-identity">'+heading+'<div class="radar-source-row"><span class="radar-source-label">📰 '+esc(r.source||'来源见原文')+'</span>'+(inCompany?'':trackButton(r.company)+readingBadge(r.company))+'</div></div>'+score+'</div>'+tags+title+
       '<details class="radar-event-details" data-event-details="'+esc(key)+'" '+(open?'open':'')+'><summary aria-label="展开'+esc(r.company)+'在'+esc(r.date)+'的全文与研判"><p class="radar-event-excerpt">'+esc(r.title||r.article_title||'查看原始记录')+'</p><span class="radar-reading-card-footer">'+recordedAt+'<span class="radar-expand-label">全文与研判 ↓</span></span></summary><div class="radar-event-body" tabindex="-1">'+(r.previewOnly?'<p class="radar-detail-loading" role="status">正在读取全文与研判…</p>':body)+'</div><div class="radar-reading-card-footer radar-collapse-footer">'+recordedAt+'<button type="button" class="radar-expand-label" data-collapse-record aria-label="收起'+esc(r.company)+'在'+esc(r.date)+'的全文与研判">收起全文 ↑</button></div></details>'+originals+'</article>';
   }
   async function hydrateRecord(article){
@@ -263,7 +264,7 @@
   }
   function syncHeader(){
     const share=document.querySelector('.radar-share-header');if(!share)return;
-    const r=Router.getRoute();share.hidden=!['/','/today','/company','/briefing'].includes(r)||(r==='/today'&&params().search==='all');
+    const r=Router.getRoute();share.hidden=!['/','/today','/company','/briefing','/topic'].includes(r)||(r==='/today'&&params().search==='all');
   }
   async function filter(changeURL=true){
     if(!field('radar-history-filter'))return;
@@ -297,7 +298,7 @@
       '<p>'+esc(latest?[latest.sector,latest.location].filter(Boolean).join(' · '):'暂未收录企业动态')+'</p><div class="radar-company-reading-row"><p>'+grouped.length+' 项动态'+(all.length!==grouped.length?' · '+all.length+' 条收录记录':'')+' · 按收录日期排列</p>'+(window.RadarInterpretation?.control(canonical)||'')+'</div><div class="radar-company-utilities">'+
       (all.some(row=>row.identity_status==='ambiguous')?'<span>同名主体待确认，记录分别保留</span>':'')+
       (names.length>1?'<details class="radar-company-context" data-company-context="names" '+(contexts.has('names')?'open':'')+'><summary>归集名称 '+names.length+'</summary><p>'+names.map(esc).join('、')+'</p>'+(entity&&A.safeURL(entity.source)?'<a href="'+esc(entity.source)+'" target="_blank" rel="noopener noreferrer">名称沿革依据</a>':'')+'</details>':'')+
-      (refs.length?'<details class="radar-company-context" data-company-context="briefings" '+(contexts.has('briefings')?'open':'')+'><summary>简报收录 '+refs.length+'</summary><div class="radar-brief-links">'+refs.slice().reverse().map(b=>'<a href="'+esc(routeLink('/briefing',{type:b.type,id:b.id,back:location.hash.slice(1)}))+'">'+esc((b.type==='weekly'?'周简报 ':'月简报 ')+b.id)+'</a>').join('')+'</div></details>':'')+'</div>'+(window.RadarInterpretation?.panel(canonical)||'')+'</div>'+monthIndex+
+      (refs.length?'<details class="radar-company-context" data-company-context="briefings" '+(contexts.has('briefings')?'open':'')+'><summary>简报收录 '+refs.length+'</summary><div class="radar-brief-links">'+refs.slice().reverse().map(b=>'<a href="'+esc(routeLink('/briefing',{type:b.type,id:b.id,back:location.hash.slice(1)}))+'">'+esc((b.type==='weekly'?'周简报 ':'月简报 ')+b.id)+'</a>').join('')+'</div></details>':'')+'</div>'+(window.RadarInterpretation?.panel(canonical)||'')+(window.RadarObservations?.related(canonical)||'')+'</div>'+monthIndex+
       '<div id="radar-stream" class="radar-timeline" aria-label="企业历史动态与研判"></div><button class="radar-more" type="button" data-history-more hidden>再显示20条</button></div>';
   }
   // One route owner prevents late responses from replacing a newer screen.
@@ -324,10 +325,14 @@
       }else if(r==='/company'){
         mount('<div class="radar-page-heading"><h2>🏢 企业追踪</h2><a class="radar-text-link radar-back-button" href="#'+esc(safeBack(p.back))+'">← 返回</a></div><div class="radar-company-heading"><h2>'+esc(A.canonical(p.name||''))+'</h2><p role="status">正在读取企业记录…</p></div>'+Views.loading());const records=await readCompany(p.name||'');if(seq!==renderSequence)return;
         mount(companyPage(p.name||'',records));showRows(true);
+        if(p.reading==='1')window.RadarInterpretation?.open(A.canonical(p.name||''));
+      }else if(r==='/observations'||r==='/topic'){
+        mount(Views.loading());const observations=await window.RadarObservations.read();if(seq!==renderSequence)return;
+        mount(r==='/topic'?window.RadarObservations.topic(observations,p):window.RadarObservations.hub(observations,p));
       }else if(r==='/weekly'){
         const week=p.week||m.current_week;mount(Views.loading());
         const data=week===m.current_week&&m.summary?.week?m:await loadWeeklyData(week);
-        if(seq!==renderSequence)return;mount(Views.weekly(data,m.available_weeks||[]));
+        if(seq!==renderSequence)return;mount('<a class="radar-text-link radar-back" href="#/observations">← 返回观察</a>'+Views.weekly(data,m.available_weeks||[]));
       }else if(r==='/briefing'){
         const type=p.type||'weekly',aliases=m.briefing_aliases||{},available=(m.briefings?.[type]||[]).filter(id=>!aliases[id]),id=p.id||available[0];
         if(!id)throw Error('暂无简报数据');mount(Views.loading());
@@ -347,7 +352,7 @@
     return p;
   };
   const nav=Router.updateNavActive;
-  Router.updateNavActive=function(){nav.call(this);if(this.getRoute()==='/company'){document.querySelector('[data-route="/today"]')?.classList.add('active');}};
+  Router.updateNavActive=function(){nav.call(this);const route=this.getRoute();if(route==='/company'){document.querySelector('[data-route="'+(/^\/(observations|topic)/.test(params().back||'')?'/observations':'/today')+'"]')?.classList.add('active');}if(route==='/topic'||route==='/weekly')document.querySelector('[data-route="/observations"]')?.classList.add('active');};
   document.addEventListener('click',e=>{
     if(e.target.closest('[data-retry-page]'))renderPage();
     const compact=e.target.closest('[data-company-card]');if(compact)Router.navigate(companyLink(compact.dataset.companyCard).slice(1));
