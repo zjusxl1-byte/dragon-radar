@@ -73,6 +73,31 @@
       "event_headline": "d-Matrix宣布收购GigaIO数据中心业务，拟强化AI推理基础设施",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-11",
+      "title": "据The Information援引三位知情人士报道，英伟达计划投资AI服务器芯片开发商d-Matrix，财务条款尚不明确。文章另称，d-Matrix已宣布与英伟达开展多年产品路线图合作，拟通过NVLink Fusion将下一代Raptor推理XPU集成至英伟达MGX机架级基础设施。",
+      "article_title": "传英伟达投资AI芯片公司",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/B-gSmA-Tu0YPmf2wqvlXLQ",
+      "sector": "AI推理芯片与数据中心互连",
+      "location": "",
+      "geography": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "d-Matrix",
+      "company_entity_id": "dr-u-41922380275ba26e163e",
+      "company_raw_name": "d-Matrix",
+      "identity_status": "confirmed",
+      "score": 70,
+      "is_national_star": true,
+      "published_date": "2026-10-09",
+      "insight": "存算融合以减少模型权重搬运来提升推理效率，单卡2GB SRAM之外还有最高256GB的LPDDR5容量；把大模型全部放在SRAM中才需更多跨卡、跨节点扩展，而使用片外内存存在带宽权衡，互连效率与集群成本仍是关键竞争指标。接入英伟达机架生态有助于降低系统集成门槛，后续商业价值应重点观察实际客户部署规模、付费收入及端到端推理成本。",
+      "financing": "英伟达拟投资，投资金额及财务条款尚不明确；文章称d-Matrix迄今累计融资约5亿美元、估值约20亿美元，微软旗下风险投资机构M12为其投资者之一。",
+      "event_date": "",
+      "event_headline": "d-Matrix据报道将获英伟达投资，金额未披露",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "Taalas": [
@@ -457,6 +482,33 @@
       "financing": "完成首轮数千万元人民币融资，由动力未来科技、通力科技等产业资本及产业投资人黄跃先、刘少杰联合投资",
       "event_date": "",
       "event_headline": "图睿智能获首轮数千万元融资，拟建具身智能中试基地及产线",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "IoTBank": [
+    {
+      "date": "2026-10-11",
+      "title": "据报道，日本物联网企业IoTBank与奕斯伟计算达成战略合作，依托RISAA平台共同推进RISC-V+AI在日本企业会议、教育及养老场景落地；未披露实际订单、部署规模或验收指标。",
+      "article_title": "RISC‑V第一股，来了",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/86CnAdZan8IROTC8oj9eSg",
+      "sector": "物联网与RISC-V AI平台",
+      "location": "未核实",
+      "geography": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "IoTBank",
+      "company_entity_id": "dr-u-a05cbc97f2ef07118300",
+      "company_raw_name": "IoTBank",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-09",
+      "insight": "本地场景伙伴可降低开放芯片架构进入日本市场的集成与渠道成本。合作价值取决于具体试点转订单、日语应用适配及设备维护成本，而非协议所列场景数量。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "IoTBank据报道与奕斯伟合作推进日本RISC-V+AI应用",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
