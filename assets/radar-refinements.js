@@ -228,6 +228,9 @@
     screenStates.set(activeKey,state);
     try{sessionStorage.setItem('radar-reading-state',JSON.stringify([...screenStates].slice(-15)));}catch{}
   }
+  function replaceRoute(route){
+    saveScreen();history.replaceState(history.state,'',route);activeKey=location.hash;
+  }
   function restoreScreen(key,target){
     const state=screenStates.get(key);
     if(target){
@@ -298,7 +301,7 @@
       renderSequence++;
       const origin=params(),p={search:'all'};if(/^\d{4}-(?:0[1-9]|1[0-2])$/.test(origin.calendar||''))p.calendar=origin.calendar;
       for(const [k,v] of Object.entries(f))if(v)p[k]=v;
-      history.replaceState(history.state,'',routeLink('/today',p));activeKey=location.hash;visibleCount=20;syncHeader();
+      replaceRoute(routeLink('/today',p));visibleCount=20;syncHeader();
     }
     field('radar-filter-context').textContent=[f.from===f.to&&f.from?f.from:(f.from||f.to?(f.from||'最早')+' 至 '+(f.to||'最新'):'全部日期'),f.company||'全部企业',f.region,f.type,f.sector].filter(Boolean).join(' · ');
     const status=field('radar-result-status');status.textContent='正在读取动态…';
@@ -420,5 +423,5 @@
   window.addEventListener('pagehide',saveScreen);
   let timelineScrollPending=false;
   window.addEventListener('scroll',()=>{if(!field('radar-month-index')||timelineScrollPending)return;timelineScrollPending=true;requestAnimationFrame(()=>{timelineScrollPending=false;syncTimelineMonth();});},{passive:true});
-  window.RadarReading={eventLink,companyLink,streamRow,dailyRows,readCompany,companyPage,timelineMonths,jumpTimelineMonth};
+  window.RadarReading={eventLink,companyLink,streamRow,dailyRows,readCompany,companyPage,timelineMonths,jumpTimelineMonth,replaceRoute};
 })();

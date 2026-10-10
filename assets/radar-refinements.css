@@ -38,16 +38,20 @@
 .radar-observation-more>summary:after{content:'⌄';margin-left:8px;color:#8793b0}
 .radar-observation-more[open]>summary:after{content:'⌃'}
 .radar-observation-leads{background:#fff;border:1px solid #f3f4f680;border-radius:16px;padding:14px 16px 0;margin:14px 0 20px;box-shadow:0 2px 12px -4px #0651ed0b}
-.radar-observation-leads>h4{font-size:14px;line-height:1.7;font-weight:700;color:#916631;padding-bottom:10px;border-bottom:1px solid #edf0f6}
-.radar-observation-leads>h4 small{font-size:11px;font-weight:500;color:#646b78;margin-left:5px}
+.radar-observation-leads-heading{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding-bottom:10px;border-bottom:1px solid #edf0f6}
+.radar-observation-leads-heading h4{font-size:14px;line-height:1.7;font-weight:700;color:#916631;min-width:0}
+.radar-observation-leads-heading h4 small{font-size:12px;font-weight:500;color:#646b78;margin-left:5px}
+.radar-observation-leads-heading>span{font-size:12px;color:#646b78;white-space:nowrap;font-variant-numeric:tabular-nums}
+.radar-observation-lead-pages{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:4px 0;font-size:12px;color:#5e6eb8}
+.radar-observation-lead-pages button{min-height:44px;min-width:44px;padding:0 2px;white-space:nowrap;cursor:pointer}
+.radar-observation-lead-pages button:disabled{color:#9298a4;cursor:default}
+.radar-observation-lead-pages select{min-height:44px;max-width:100%;border:0;background:transparent;color:#56627d;font:inherit;padding:0 2px;cursor:pointer;font-variant-numeric:tabular-nums}
 .radar-observation-lead{display:block;min-width:0;padding:13px 0 12px;border-bottom:1px solid #edf0f6}
 .radar-observation-lead:last-child{border-bottom:0}
 .radar-observation-lead-heading{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 10px;min-width:0}
 .radar-observation-lead-heading h4{min-width:0;max-width:100%;overflow-wrap:anywhere;font-size:15px;line-height:1.5;font-weight:750;letter-spacing:-.025em;color:#374151}
 .radar-observation-lead>p{font-size:13px;line-height:1.7;color:#68758b;margin:7px 0;overflow-wrap:anywhere}
 .radar-observation-lead-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:11px;line-height:1.6;color:#646b78}
-.radar-observation-leads>.radar-observation-more{margin-bottom:0}
-.radar-observation-leads .radar-observation-more>summary{border-top:0}
 .radar-observation-card:hover{box-shadow:0 4px 15px -5px #0651ed1c}.radar-observation-view :focus-visible,.radar-topic-view :focus-visible{outline:2px solid #667eea;outline-offset:3px}
 .radar-related-observations{border-top:1px solid #edf0f6;margin-top:8px;padding-top:10px;font-size:12px;line-height:1.65}
 .radar-related-observations>span{display:block;font-size:11px;color:#646b78;margin-bottom:2px}
