@@ -313,3 +313,306 @@
 @keyframes radar-ai-breathe{50%{opacity:.45;transform:scale(.88)}}
 @keyframes radar-ai-shimmer{to{background-position:-220% 0}}
 @media(prefers-reduced-motion:reduce){.radar-ai-orbit::before,.radar-ai-orbit i,.radar-ai-skeleton span,.radar-ai-panel .radar-ai-status::before{animation:none!important}.radar-ai-button>span{transition:none}}
+
+
+/* Local visual review 2026-10-09: observations hierarchy, original scheme 1. */
+.radar-observation-view > .radar-page-heading {
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  min-height: 26px;
+  margin-bottom: 4px;
+}
+.radar-observation-view > .radar-page-heading h2 {
+  flex: none;
+  margin: 0;
+}
+.radar-observation-view > .radar-page-heading .radar-agent-observer {
+  justify-content: flex-end;
+  margin-left: auto;
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: right;
+}
+.radar-observation-view .radar-observation-toolbar {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  margin: 0 4px 8px;
+}
+.radar-observation-view .radar-observation-toolbar .radar-observation-tabs {
+  align-self: stretch;
+  gap: 18px;
+  margin: 0;
+  border-bottom: 0;
+}
+.radar-observation-view .radar-observation-toolbar .radar-observation-tabs > a {
+  min-height: 44px;
+  gap: 6px;
+}
+.radar-observation-view .radar-observation-toolbar .radar-observation-tabs small {
+  font-size: 12px;
+}
+.radar-observation-view .radar-observation-toolbar .radar-filter {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+.radar-observation-view .radar-observation-toolbar .radar-search-bar {
+  min-height: 44px;
+  box-shadow: none;
+}
+.radar-observation-view .radar-observation-toolbar input {
+  min-height: 44px;
+  padding: 8px 10px;
+}
+.radar-observation-view .radar-observation-toolbar input::placeholder {
+  color: #6b7280;
+}
+.radar-observation-view .radar-observation-toolbar button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 8px;
+  background: #fff;
+  color: #6675ad;
+  font-weight: 600;
+}
+
+/* Separate subject, metadata, judgment and explanation without nesting cards. */
+.radar-observation-view .radar-observation-card {
+  padding: 16px;
+  margin-bottom: 12px;
+}
+.radar-observation-view .radar-company-observation {
+  padding: 10px 14px;
+  margin-bottom: 8px;
+}
+.radar-observation-view .radar-company-observation .radar-observation-card-title {
+  display: block;
+}
+.radar-observation-view .radar-company-observation h3 {
+  margin: 0 0 3px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.radar-observation-view .radar-company-observation .radar-observation-sector {
+  align-items: baseline;
+  gap: 4px 8px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.radar-observation-view .radar-company-observation .radar-observation-field {
+  display: inline !important;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #646b78 !important;
+  font-size: 12px;
+  line-height: inherit;
+}
+.radar-observation-view .radar-company-observation .radar-observation-location {
+  color: #646b78;
+}
+.radar-observation-view .radar-topic-card .radar-observation-sector {
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+.radar-observation-view .radar-observation-thesis {
+  margin: 11px 0 0;
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 600;
+  color: #374151;
+}
+.radar-observation-view .radar-company-observation .radar-observation-thesis {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 21px;
+}
+.radar-observation-view .radar-company-observation .radar-observation-explanation {
+  margin: 4px 0 0;
+  padding-left: 12px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #596272;
+  overflow-wrap: anywhere;
+}
+.radar-observation-view .radar-observation-footer {
+  margin-top: 12px;
+  padding-top: 9px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.radar-observation-view .radar-company-observation .radar-observation-footer {
+  margin-top: 6px;
+  padding-top: 0;
+  border-top: 0;
+  line-height: 18px;
+}
+.radar-observation-view .radar-observation-lead > p {
+  font-size: 13px;
+  line-height: 1.65;
+}
+.radar-observation-view :is(.radar-observation-lead-footer, .radar-observation-subheading small, .radar-observation-group-heading small, .radar-observation-leads > h4 small) {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.radar-observation-view .radar-new-discovery {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* Detail and tracking keep their layout; only header spacing and small text. */
+:is(.radar-company-view, .radar-topic-view) > .radar-page-heading {
+  min-height: 44px;
+  margin-bottom: 8px;
+}
+:is(.radar-company-view, .radar-topic-view) > .radar-page-heading .radar-back-button {
+  min-height: 44px;
+}
+.radar-topic-view :is(.radar-topic-meta, .radar-topic-agent-record, .radar-topic-verdict > span, .radar-research-time, .radar-research-time > span, .radar-research-history li > span, .radar-research-history small, .radar-topic-companies > h4, .radar-topic-companies > a > span, .radar-ai-sources small) {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.radar-topic-view .radar-topic-meta {
+  margin-bottom: 14px;
+}
+.radar-company-view :is(.radar-ai-as-of, .radar-ai-sources small, .radar-company-heading .radar-ai-status) {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.radar-company-view .radar-company-utilities .radar-company-context summary,
+.radar-company-view .radar-company-context a {
+  min-height: 44px;
+}
+
+@media (max-width: 360px) {
+  .radar-observation-view .radar-observation-toolbar {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+  .radar-observation-group[data-group=local_potential] .radar-observation-group-heading {
+    gap: 6px;
+  }
+  .radar-observation-group-links {
+    gap: 6px;
+  }
+}
+
+/* Factual research cadence and brief, state-bound reading transitions. */
+.radar-observation-view .radar-observation-research-summary {
+  margin: -3px 4px 8px;
+  color: #646b78;
+  font-size: 12px;
+  line-height: 20px;
+}
+.radar-observation-group[data-group=local_potential] .radar-observation-group-heading {
+  padding-left: 0;
+  border-left: 0;
+  margin-top: 0;
+  margin-bottom: 6px;
+  min-height: 44px;
+}
+.radar-observation-group[data-group=local_potential] .radar-observation-group-heading h3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.radar-local-location-icon {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  color: #764ba2;
+}
+.radar-observation-group-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: none;
+}
+.radar-observation-lead-jump {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #5e6eb8;
+  font-size: 12px;
+  font-weight: 600;
+  min-width: 44px;
+  min-height: 44px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.radar-topic-update-details {
+  margin: 0 0 16px;
+  color: #646b78;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.radar-topic-update-details > summary {
+  min-height: 44px;
+  padding: 12px 0;
+  list-style-position: inside;
+  cursor: pointer;
+}
+.radar-topic-update-details > summary::marker {
+  color: #8793b0;
+}
+.radar-topic-update-details .radar-topic-agent-record {
+  margin: 0 0 10px;
+}
+.radar-observation-view .radar-observation-leads {
+  scroll-margin-top: 64px;
+}
+.radar-new-research:before { display: none; }
+.radar-new-research,
+.radar-research-update:not([hidden]),
+.radar-research-history[open] > ol {
+  animation: radar-reading-settle 240ms ease-out 1 both;
+}
+@keyframes radar-reading-settle {
+  from { opacity: .65; transform: translateY(2px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .radar-new-research,
+  .radar-research-update:not([hidden]),
+  .radar-research-history[open] > ol {
+    animation: none !important;
+  }
+}
+
+/* Reading hierarchy without repeated decorative quotation bars. */
+.radar-observation-view .radar-observation-thesis,
+.radar-observation-view .radar-observation-group-heading,
+.radar-topic-view .radar-topic-verdict,
+.radar-topic-view .radar-topic-change,
+.radar-company-view .radar-ai-watch,
+.radar-topic-view .radar-ai-watch,
+.radar-company-view #radar-history-filter .radar-page-heading {
+  border-left: 0;
+  padding-left: 0;
+}
+.radar-observation-view .radar-company-observation .radar-observation-explanation {
+  padding-left: 0;
+}
+.radar-topic-view .radar-research-section > h3:before { display: none; }
+.radar-topic-view .radar-topic-change {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+.radar-company-view .radar-company-heading .radar-ai-panel > .radar-ai-content > .radar-ai-verdict,
+.radar-topic-view .radar-topic-reading .radar-topic-watch {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+.radar-company-view .radar-timeline-insight-preview {
+  border-left-width: 1px;
+  border-left-color: #e8ecff;
+}

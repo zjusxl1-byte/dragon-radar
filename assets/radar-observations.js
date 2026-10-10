@@ -13,8 +13,13 @@
   }
   function agentStatus(value){
     const when=reviewedTime(value.research?.reviewed_at);
-    return when?'<p class="radar-agent-observer"><span>自主研判</span><time datetime="'+esc(value.research.reviewed_at)+'">'+esc(when)+'</time></p>':'';
+    return when?'<p class="radar-agent-observer"><span>最近复核</span><time datetime="'+esc(value.research.reviewed_at)+'">'+esc(when)+'</time></p>':'';
   }
+  function researchSummary(value){
+    if(value.research?.mode!=='autonomous')return '';
+    return '<p class="radar-observation-research-summary">自主研究企业与产业变化</p>';
+  }
+  const locationIcon='<svg class="radar-local-location-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>';
   function loading(){
     return '<section class="radar-observation-loading" role="status"><span class="radar-ai-orbit" aria-hidden="true"><i></i><i></i><i></i></span><strong>读取观察与研判记录</strong><p>正在同步已完成的研究</p></section>';
   }
@@ -56,7 +61,7 @@
   const hasReading=company=>company.has_reading!==false&&window.RadarInterpretation.hasReading(company.company);
   const publishedCompany=company=>hasReading(company)||(company.has_reading===false&&company.role==='local_potential'&&typeof company.progress==='string'&&company.progress.trim());
   const shortDate=value=>String(value||'').replace(/^(\d{4})-(\d{2})-(\d{2})$/,(_,year,month,day)=>(year===String(new Date().getFullYear())?'':year+'/')+Number(month)+'/'+Number(day));
-  const dateMarkup=value=>'<time datetime="'+esc(value)+'" title="'+esc(value)+'">'+esc(shortDate(value))+'</time>';
+  const dateMarkup=value=>'<time datetime="'+esc(value)+'" title="'+esc(H.formatDate(value))+'">'+esc(shortDate(H.formatDate(value)))+'</time>';
   function progressText(company,field){
     const text=String(company[field]||'');
     const names=[company.company,company.display_name].filter(Boolean).sort((a,b)=>b.length-a.length);
@@ -68,23 +73,26 @@
     return text;
   }
   function companyCard(company){
-    return '<a class="radar-observation-card radar-company-observation" data-role="'+esc(company.role||'unresolved')+'" aria-label="阅读'+esc(company.company)+'的企业解读" href="'+esc(companyHref(company.company,location.hash.slice(1),true))+'"><div class="radar-observation-card-title"><h3 title="'+esc(company.company)+'">'+esc(company.display_name||company.company)+'</h3><p class="radar-observation-sector"><span class="radar-observation-field">'+esc(company.sector_label||company.sector||company.location||'企业进展')+'</span>'+(company.is_new_discovery?'<span class="radar-new-discovery">近期发现</span>':'')+'</p></div><p class="radar-observation-thesis">'+esc(progressText(company,'thesis'))+'</p><div class="radar-observation-footer"><span>材料 '+dateMarkup(company.as_of)+(company.updating?' · 待更新':'')+'</span><span class="radar-observation-action">完整解读 →</span></div></a>';
+    const sector=company.sector_label||company.sector||'企业进展';
+    const region=company.location&&company.location!==sector?'<span class="radar-observation-location">'+esc(company.location)+'</span>':'';
+    const explanation=company.explanation&&typeof company.explanation.text==='string'&&company.explanation.text.trim();
+    return '<a class="radar-observation-card radar-company-observation" data-role="'+esc(company.role||'unresolved')+'" aria-label="阅读'+esc(company.company)+'的企业解读" href="'+esc(companyHref(company.company,location.hash.slice(1),true))+'"><div class="radar-observation-card-title"><h3 title="'+esc(company.company)+'">'+esc(company.display_name||company.company)+'</h3><p class="radar-observation-sector"><span class="radar-observation-field">'+esc(sector)+'</span>'+region+(company.is_new_discovery?'<span class="radar-new-discovery">近期发现</span>':'')+'</p></div><p class="radar-observation-thesis">'+esc(progressText(company,'thesis'))+'</p>'+(explanation?'<p class="radar-observation-explanation">'+esc(explanation)+'</p>':'')+'<div class="radar-observation-footer"><span>'+ (company.reading_generated_at?'解读 '+dateMarkup(company.reading_generated_at)+' · ':'')+'材料 '+dateMarkup(company.as_of)+(company.updating?' · 待更新':'')+'</span><span class="radar-observation-action">完整解读 →</span></div></a>';
   }
   function leadCard(company){
     return '<a class="radar-observation-lead" aria-label="查看'+esc(company.company)+'的已收录进展" href="'+esc(companyHref(company.company,location.hash.slice(1),false))+'"><div class="radar-observation-lead-heading"><h4 title="'+esc(company.company)+'">'+esc(company.display_name||company.company)+'</h4><span class="radar-observation-field">'+esc(company.sector_label||company.sector||'企业进展')+'</span></div><p>'+esc(progressText(company,'progress'))+'</p><div class="radar-observation-lead-footer"><span>收录 '+dateMarkup(company.as_of)+'</span><span class="radar-observation-action">查看进展 →</span></div></a>';
   }
   function expanded(key){try{return sessionStorage.getItem('radar-observation-open-'+key)==='1';}catch{return false;}}
   function readingStack(items,role,query){
-    const limit=query?items.length:(role==='local_potential'?2:3);
+    const limit=query?items.length:role==='local_potential'?2:3;
     return items.slice(0,limit).map(companyCard).join('')+(items.length>limit?'<details class="radar-observation-more" data-observation-expand="'+role+'-reading" '+(expanded(role+'-reading')?'open':'')+'><summary>展开其余 '+(items.length-limit)+' 家解读</summary>'+items.slice(limit).map(companyCard).join('')+'</details>':'');
   }
   function leadList(items,query){
     if(!items.length)return '';
     const limit=query?items.length:5,key='local_potential-lead';
-    return '<section class="radar-observation-leads"><h4>进展线索 <small>尚未解读 · '+items.length+'</small></h4>'+items.slice(0,limit).map(leadCard).join('')+(items.length>limit?'<details class="radar-observation-more" data-observation-expand="'+key+'" '+(expanded(key)?'open':'')+'><summary>展开其余 '+(items.length-limit)+' 家线索</summary>'+items.slice(limit).map(leadCard).join('')+'</details>':'')+'</section>';
+    return '<section class="radar-observation-leads"><h4 tabindex="-1">进展线索 <small>尚未解读 · '+items.length+'</small></h4>'+items.slice(0,limit).map(leadCard).join('')+(items.length>limit?'<details class="radar-observation-more" data-observation-expand="'+key+'" '+(expanded(key)?'open':'')+'><summary>展开其余 '+(items.length-limit)+' 家线索</summary>'+items.slice(limit).map(leadCard).join('')+'</details>':'')+'</section>';
   }
   function topicCard(topic){
-    return '<a class="radar-observation-card radar-topic-card'+(unseen(topic)?' radar-new-research':'')+'" href="'+esc(link('/topic',{id:topic.topic_id,back:location.hash.slice(1)}))+'"><p class="radar-observation-sector">'+esc(topic.sector)+'<span class="radar-topic-state">'+esc(labels[topic.status]||'持续观察')+'</span></p><h3>'+esc(topic.question)+'</h3><p class="radar-observation-thesis">'+esc(topic.thesis.text)+'</p><div class="radar-observation-footer"><span>'+topic.companies.length+' 家企业 · 第 '+Number(topic.revision||1)+' 次研判</span><span class="radar-observation-action">查看观察 →</span></div></a>';
+    return '<a class="radar-observation-card radar-topic-card'+(unseen(topic)?' radar-new-research':'')+'" href="'+esc(link('/topic',{id:topic.topic_id,back:location.hash.slice(1)}))+'"><p class="radar-observation-sector">'+esc(topic.sector)+'<span class="radar-topic-state">'+esc(labels[topic.status]||'持续观察')+'</span></p><h3>'+esc(topic.question)+'</h3><p class="radar-observation-thesis">'+esc(topic.thesis.text)+'</p><div class="radar-observation-footer"><span>'+topic.companies.length+' 家企业 · 判断第 '+Number(topic.revision||1)+' 版'+(topic.updated_at?' · 更新 '+esc(shortDate(H.formatDate(topic.updated_at))):'')+'</span><span class="radar-observation-action">查看观察 →</span></div></a>';
   }
   function matches(item,query,isTopic=false){
     const terms=nameKey(query).split(/\s+/).filter(Boolean);
@@ -97,14 +105,15 @@
     const shown=items.slice(0,visible);
     const cards=topics?shown.map(topicCard).join(''):roles.map(([role,label,caption])=>{
       const group=items.filter(c=>(c.role||'unresolved')===role),readings=group.filter(hasReading),leads=group.filter(c=>!hasReading(c));
-      return group.length?'<section class="radar-observation-group" data-group="'+role+'"><div class="radar-observation-group-heading"><h3>'+label+' <small>'+group.length+'</small></h3>'+(role==='local_potential'&&readings.length?'<h4 class="radar-observation-subheading">已有解读 <small>'+readings.length+'</small></h4>':'')+'</div>'+(readings.length?'<div class="radar-observation-readings">'+readingStack(readings,role,query)+'</div>':'')+leadList(leads,query)+'</section>':'';
+      const localLinks=role==='local_potential'?'<div class="radar-observation-group-links">'+(readings.length?'<h4 class="radar-observation-subheading">已有解读 <small>'+readings.length+'</small></h4>':'')+(leads.length?'<button class="radar-observation-lead-jump" type="button" data-observation-leads aria-label="查看 '+leads.length+' 家尚未解读企业">查看线索 <small>'+leads.length+'</small> →</button>':'')+'</div>':'';
+      return group.length?'<section class="radar-observation-group" data-group="'+role+'"><div class="radar-observation-group-heading"><h3>'+(role==='local_potential'?locationIcon:'')+label+' <small>'+group.length+'</small></h3>'+localLinks+'</div>'+(readings.length?'<div class="radar-observation-readings">'+readingStack(readings,role,query)+'</div>':'')+leadList(leads,query)+'</section>':'';
     }).join('');
     return '<div id="radar-observation-results">'+(cards||'<p class="radar-empty">'+(query?'没有符合关键词的'+(topics?'专题。':'企业。'):topics?'暂未形成专题判断。':'暂未形成企业观察。')+'</p>')+'</div><div class="radar-observation-list-footer"><span role="status">'+items.length+' '+(topics?'个专题':'家企业 · '+items.filter(hasReading).length+' 家已有解读')+'</span>'+(topics&&items.length>visible?'<button class="radar-more" type="button" data-observation-more>再显示20个</button>':'')+'<a href="#/weekly?back=%2Fobservations">收录分布 →</a></div>';
   }
   function hub(value,p){
     value={...value,companies:value.companies.filter(publishedCompany)};
     const topics=p.view==='topics',count=value.topics.filter(t=>t.status!=='archived').length;
-    return '<section class="radar-observation-view animate-fade-in"><div class="radar-page-heading"><h2>观察</h2></div>'+updateNotice()+'<div class="radar-observation-controls">'+agentStatus(value)+'<form id="radar-observation-search" class="radar-filter" role="search" aria-label="搜索观察"><label class="radar-sr-only" for="radar-observation-input">'+(topics?'搜索专题、企业或领域':'搜索企业、英文名或领域')+'</label><div class="radar-search-bar"><input type="search" id="radar-observation-input" value="'+esc(p.q||'')+'" placeholder="'+(topics?'搜索专题、企业或领域':'搜索企业、领域')+'"><button type="submit">搜索</button></div></form></div><nav class="radar-observation-tabs" aria-label="观察内容"><a href="#/observations" '+(!topics?'aria-current="page"':'')+'>企业 <small>'+value.companies.length+'</small></a><a href="#/observations?view=topics" '+(topics?'aria-current="page"':'')+'>专题 <small>'+count+'</small></a></nav>'+listing(value,p)+'</section>';
+    return '<section class="radar-observation-view animate-fade-in"><div class="radar-page-heading"><h2>观察</h2>'+agentStatus(value)+'</div>'+researchSummary(value)+updateNotice()+'<div class="radar-observation-toolbar"><nav class="radar-observation-tabs" aria-label="观察内容"><a href="#/observations" '+(!topics?'aria-current="page"':'')+'>企业 <small>'+value.companies.length+'</small></a><a href="#/observations?view=topics" '+(topics?'aria-current="page"':'')+'>专题 <small>'+count+'</small></a></nav><form id="radar-observation-search" class="radar-filter" role="search" aria-label="搜索观察"><label class="radar-sr-only" for="radar-observation-input">'+(topics?'搜索专题、企业或领域':'搜索企业、英文名或领域')+'</label><div class="radar-search-bar"><input type="search" id="radar-observation-input" value="'+esc(p.q||'')+'" placeholder="'+(topics?'搜索专题、企业或领域':'搜索企业、领域')+'"><button type="submit">搜索</button></div></form></div>'+listing(value,p)+'</section>';
   }
   function related(name){
     const topics=window.RadarData.manifest?.company_observations?.[H.canonical(name)]||[];
@@ -120,7 +129,17 @@
   }
   function researchHistory(item){
     if(!item.research_history?.length)return '';
-    return '<details class="radar-research-history"><summary>研判记录 · 第 '+Number(item.revision)+' 次</summary><ol>'+item.research_history.slice().reverse().map(entry=>'<li><span>第 '+Number(entry.revision)+' 次 · '+esc(reviewedTime(entry.updated_at))+'</span><p>'+esc(entry.thesis.text)+'</p><small>'+esc(entry.changed_reason)+'</small></li>').join('')+'</ol></details>';
+    return '<details class="radar-research-history"><summary>历次判断 · 第 '+Number(item.revision)+' 版</summary><ol>'+item.research_history.slice().reverse().map(entry=>'<li><span>第 '+Number(entry.revision)+' 版 · '+esc(reviewedTime(entry.updated_at))+'</span><p>'+esc(entry.thesis.text)+'</p><small>'+esc(entry.changed_reason)+'</small></li>').join('')+'</ol></details>';
+  }
+  function topicUpdated(item){
+    const when=reviewedTime(item.updated_at);
+    return when?'<p class="radar-topic-meta">判断更新 <time datetime="'+esc(item.updated_at)+'">'+esc(when)+'</time></p>':'';
+  }
+  function topicUpdateDetails(item,fresh){
+    const key='topic-'+item.topic_id+'-update',when=reviewedTime(item.reviewed_at);
+    const review=when?'<span>最近复核</span><time datetime="'+esc(item.reviewed_at)+'">'+esc(when)+'</time>':'';
+    const change=item.revision>1&&item.changed_reason?'<p class="radar-topic-change'+(fresh?' radar-new-research':'')+'"><strong>本次判断更新</strong>'+esc(item.changed_reason)+'</p>':'';
+    return '<details class="radar-topic-update-details" data-observation-expand="'+esc(key)+'" '+(expanded(key)?'open':'')+'><summary>更新详情</summary><div class="radar-topic-agent-record">'+review+'<span>判断第 '+Number(item.revision||1)+' 版</span><span>材料截至 '+esc(item.as_of)+'</span></div>'+change+'</details>';
   }
   function topic(value,p){
     const item=value.topics.find(t=>t.topic_id===p.id);
@@ -130,7 +149,7 @@
     const back=/^\/(?:observations|company)(?:\?|$)/.test(p.back||'')?p.back:'/observations?view=topics';
     const note=item.note?.text?'<p class="radar-ai-note">'+esc(item.note.text)+refs(item.note)+'</p>':'';
     const fresh=unseen(item);try{sessionStorage.setItem('radar-topic-seen-'+item.topic_id,String(item.revision));}catch{}
-    return '<section class="radar-topic-view animate-fade-in"><div class="radar-page-heading"><h2>专题观察</h2><a class="radar-text-link radar-back-button" href="#'+esc(back)+'">← 返回</a></div>'+updateNotice()+'<article class="radar-topic-reading" data-research-revision="'+Number(item.revision||1)+'"><p class="radar-observation-sector">'+esc(item.sector)+'<span class="radar-topic-state">'+esc(labels[item.status]||'持续观察')+'</span></p><h2>'+esc(item.question)+'</h2><p class="radar-topic-meta">材料截至 '+esc(item.as_of)+'</p><div class="radar-topic-verdict"><span>当前判断</span><h3 class="radar-ai-verdict">'+esc(item.thesis.text)+refs(item.thesis)+'</h3></div><div class="radar-topic-agent-record"><span>自主研判</span><time>'+esc(reviewedTime(item.reviewed_at||item.updated_at))+'</time><span>第 '+Number(item.revision||1)+' 次</span></div>'+(item.revision>1?'<p class="radar-topic-change'+(fresh?' radar-new-research':'')+'"><strong>本次变化</strong>'+esc(item.changed_reason)+'</p>':'')+'<ul class="radar-ai-points radar-topic-points">'+item.points.map(point=>'<li><p><strong class="radar-ai-point-label">'+esc(point.label)+'</strong>'+esc(point.text)+refs(point)+'</p></li>').join('')+'</ul>'+researchBody(item,refs)+'<section class="radar-research-section"><h3>这意味着什么</h3><p>'+esc(item.assessment.text)+refs(item.assessment)+'</p></section><section class="radar-ai-paragraph radar-ai-watch radar-topic-watch"><h4>下一步看什么</h4><p class="radar-ai-lead"><strong>'+esc(item.watch.lead)+'</strong></p><p>'+esc(item.watch.text)+refs(item.watch)+'</p></section><section class="radar-topic-companies"><h4>涉及企业</h4>'+item.companies.map(name=>'<a href="'+esc(companyHref(name))+'">'+esc(name)+'<span>'+(window.RadarInterpretation.hasReading(name)?'企业解读':'完整历史')+' →</span></a>').join('')+'</section>'+researchHistory(item)+'<details class="radar-ai-sources"><summary>观察依据 · '+item.sources.length+' 条</summary>'+note+'<ol>'+item.sources.map(s=>'<li>'+(H.safeURL(s.link)?'<a href="'+esc(H.safeURL(s.link))+'" target="_blank" rel="noopener noreferrer">'+esc(s.article_title||s.event_headline||'一手材料')+'</a>':esc(s.article_title||s.event_headline))+'<small>'+esc(s.source||'原始来源')+' · '+esc(s.collected_date)+'</small></li>').join('')+'</ol></details></article></section>';
+    return '<section class="radar-topic-view animate-fade-in"><div class="radar-page-heading"><h2>专题观察</h2><a class="radar-text-link radar-back-button" href="#'+esc(back)+'">← 返回</a></div>'+updateNotice()+'<article class="radar-topic-reading" data-research-revision="'+Number(item.revision||1)+'"><p class="radar-observation-sector">'+esc(item.sector)+'<span class="radar-topic-state">'+esc(labels[item.status]||'持续观察')+'</span></p><h2>'+esc(item.question)+'</h2>'+topicUpdated(item)+'<div class="radar-topic-verdict"><span>当前判断</span><h3 class="radar-ai-verdict">'+esc(item.thesis.text)+refs(item.thesis)+'</h3></div>'+topicUpdateDetails(item,fresh)+'<ul class="radar-ai-points radar-topic-points">'+item.points.map(point=>'<li><p><strong class="radar-ai-point-label">'+esc(point.label)+'</strong>'+esc(point.text)+refs(point)+'</p></li>').join('')+'</ul>'+researchBody(item,refs)+'<section class="radar-research-section"><h3>这意味着什么</h3><p>'+esc(item.assessment.text)+refs(item.assessment)+'</p></section><section class="radar-ai-paragraph radar-ai-watch radar-topic-watch"><h4>下一步看什么</h4><p class="radar-ai-lead"><strong>'+esc(item.watch.lead)+'</strong></p><p>'+esc(item.watch.text)+refs(item.watch)+'</p></section><section class="radar-topic-companies"><h4>涉及企业</h4>'+item.companies.map(name=>'<a href="'+esc(companyHref(name))+'">'+esc(name)+'<span>'+(window.RadarInterpretation.hasReading(name)?'企业解读':'完整历史')+' →</span></a>').join('')+'</section>'+researchHistory(item)+'<details class="radar-ai-sources"><summary>观察依据 · '+item.sources.length+' 条</summary>'+note+'<ol>'+item.sources.map(s=>'<li>'+(H.safeURL(s.link)?'<a href="'+esc(H.safeURL(s.link))+'" target="_blank" rel="noopener noreferrer">'+esc(s.article_title||s.event_headline||'一手材料')+'</a>':esc(s.article_title||s.event_headline))+'<small>'+esc(s.source||'原始来源')+' · '+esc(s.collected_date)+'</small></li>').join('')+'</ol></details></article></section>';
   }
   function sharePayload(){
     if(Router.getRoute()==='/observations'){
@@ -143,6 +162,7 @@
   }
   document.addEventListener('submit',event=>{if(event.target.id==='radar-observation-search'){event.preventDefault();const query=document.getElementById('radar-observation-input').value.trim();Router.navigate(link('/observations',{...(params().view==='topics'?{view:'topics'}:{}),...(query?{q:query}:{})}).slice(1));}});
   document.addEventListener('click',event=>{
+    if(event.target.closest('[data-observation-leads]')){const leads=document.querySelector('.radar-observation-leads');if(leads){leads.scrollIntoView({block:'start',behavior:'instant'});leads.querySelector('h4')?.focus({preventScroll:true});}return;}
     if(event.target.closest('[data-observation-refresh]')&&nextManifest){location.reload();return;}
     if(event.target.closest('[data-observation-more]')&&data){visible+=20;const box=document.querySelector('.radar-observation-view');const previous=document.getElementById('radar-observation-results');const footer=document.querySelector('.radar-observation-list-footer');if(box&&previous&&footer){previous.insertAdjacentHTML('beforebegin',listing(data,params()));previous.remove();footer.remove();}}
   });
