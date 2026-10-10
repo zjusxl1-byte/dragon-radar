@@ -137,9 +137,11 @@
   }
   function topicUpdateDetails(item,fresh){
     const key='topic-'+item.topic_id+'-update',when=reviewedTime(item.reviewed_at);
-    const review=when?'<span>最近复核</span><time datetime="'+esc(item.reviewed_at)+'">'+esc(when)+'</time>':'';
-    const change=item.revision>1&&item.changed_reason?'<p class="radar-topic-change'+(fresh?' radar-new-research':'')+'"><strong>本次判断更新</strong>'+esc(item.changed_reason)+'</p>':'';
-    return '<details class="radar-topic-update-details" data-observation-expand="'+esc(key)+'" '+(expanded(key)?'open':'')+'><summary>更新详情</summary><div class="radar-topic-agent-record">'+review+'<span>判断第 '+Number(item.revision||1)+' 版</span><span>材料截至 '+esc(item.as_of)+'</span></div>'+change+'</details>';
+    const first=(item.research_history||[]).find(entry=>entry.revision===1);
+    const initial=first?'<li><div><strong>初版判断</strong>'+(first.updated_at?'<time datetime="'+esc(first.updated_at)+'">'+esc(reviewedTime(first.updated_at))+'</time>':'')+'</div>'+(first.changed_reason?'<p><span>材料缘由</span>'+esc(first.changed_reason)+'</p>':'')+'</li>':'';
+    const change=item.revision>1&&item.changed_reason?'<li class="'+(fresh?'radar-new-research':'')+'"><div><strong>本次判断更新</strong>'+(item.updated_at?'<time datetime="'+esc(item.updated_at)+'">'+esc(reviewedTime(item.updated_at))+'</time>':'')+'</div><p>'+esc(item.changed_reason)+'</p></li>':'';
+    const review=when?'<li><div><strong>最近复核</strong><time datetime="'+esc(item.reviewed_at)+'">'+esc(when)+'</time></div></li>':'';
+    return '<details class="radar-topic-update-details" data-observation-expand="'+esc(key)+'" '+(expanded(key)?'open':'')+'><summary>更新详情</summary>'+((initial||change||review)?'<ol class="radar-research-trace" aria-label="已记录的判断形成与复核">'+initial+change+review+'</ol>':'')+'<div class="radar-topic-agent-record"><span>判断第 '+Number(item.revision||1)+' 版</span><span>材料截至 '+esc(item.as_of)+'</span><button type="button" data-topic-sources>观察依据 '+item.sources.length+' 条 →</button></div></details>';
   }
   function topic(value,p){
     const item=value.topics.find(t=>t.topic_id===p.id);
@@ -162,6 +164,7 @@
   }
   document.addEventListener('submit',event=>{if(event.target.id==='radar-observation-search'){event.preventDefault();const query=document.getElementById('radar-observation-input').value.trim();Router.navigate(link('/observations',{...(params().view==='topics'?{view:'topics'}:{}),...(query?{q:query}:{})}).slice(1));}});
   document.addEventListener('click',event=>{
+    if(event.target.closest('[data-topic-sources]')){const sources=document.querySelector('.radar-topic-view .radar-ai-sources');if(sources){sources.open=true;sources.scrollIntoView({block:'start',behavior:'instant'});sources.querySelector('summary')?.focus({preventScroll:true});}return;}
     if(event.target.closest('[data-observation-leads]')){const leads=document.querySelector('.radar-observation-leads');if(leads){leads.scrollIntoView({block:'start',behavior:'instant'});leads.querySelector('h4')?.focus({preventScroll:true});}return;}
     if(event.target.closest('[data-observation-refresh]')&&nextManifest){location.reload();return;}
     if(event.target.closest('[data-observation-more]')&&data){visible+=20;const box=document.querySelector('.radar-observation-view');const previous=document.getElementById('radar-observation-results');const footer=document.querySelector('.radar-observation-list-footer');if(box&&previous&&footer){previous.insertAdjacentHTML('beforebegin',listing(data,params()));previous.remove();footer.remove();}}

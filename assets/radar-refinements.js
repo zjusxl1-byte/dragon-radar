@@ -51,6 +51,7 @@
     if(A.region(item)==='海外')html=html.replace(/全国标杆/g,'海外参考').replace(/🌐标杆/g,'🌐海外');
     if(compact){return html.replace(/onclick="Router.navigate\([^\n]*?\)"/,'role="link" tabindex="0" data-company-card="'+esc(name)+'"');}
     html=html.replace('class="scroll-margin ','class="scroll-margin radar-overview-card ');
+    html=html.replace('<div class="flex flex-col items-end shrink-0">','<div class="radar-overview-score flex flex-col items-end shrink-0"><span class="radar-score-label">当期评分</span>');
     const facts=item.event_desc||item.reason||'',caption=timelineEventText({...item,title:facts}).headline;
     html=html.replace(/(<div class="mb-(?:2|3) text-\[14px\][^"]*border-l-\[3px\][^"]*">)[\s\S]*?<\/div>/,(_,start)=>start+(item._radarEscaped?caption:esc(caption))+'</div>');
     if(!item._radarDetails){
@@ -74,16 +75,34 @@
   Views.home=function(data){
     const today={...data.summary.today},copy={...data,summary:{...data.summary,today}};
     today.total_companies=today.record_count??today.total_companies;
-    copy.recent_updates=[{date:data.today,title:'今日收录 '+today.total_companies+' 条',highlight:Number.isInteger(today.first_seen_count)?'首次收录 '+today.first_seen_count+' 家 · 持续更新 '+today.updated_company_count+' 家':''}];
-    return home(copy).replace('bg-gradient-to-br from-[#FF6B35] to-[#FF8C61] rounded-2xl','radar-home-summary bg-gradient-to-br from-[#FF6B35] to-[#FF8C61] rounded-2xl').replace('最新雷达快报','今日收录').replace('发现企业</div>','收录动态</div>').replace('<span class="text-xs text-gray-400">滑动直阅</span>','<a class="radar-text-link" href="#/today">全部动态 →</a>');
+    copy.recent_updates=[];
+    const stats=[['收录动态',today.total_companies],['重点领域进展',today.milestone_count||0],['融资/IPO',today.financing_count||0],['风险预警',today.negative_count||0]];
+    const discovery=Number.isInteger(today.first_seen_count)&&Number.isInteger(today.updated_company_count)?'<p class="radar-home-discovery">首次收录 '+today.first_seen_count+' 家 <span>·</span> 持续更新 '+today.updated_company_count+' 家</p>':'';
+    const summary='<section class="radar-home-summary" aria-label="今日收录汇总"><div class="radar-home-summary-heading"><h2>⚡ 今日收录</h2><time datetime="'+esc(data.today)+'">'+esc(data.today)+'</time></div><dl class="radar-home-statistics">'+stats.map(([label,count])=>'<div><dt>'+label+'</dt><dd>'+esc(count)+'</dd></div>').join('')+'</dl>'+discovery+'</section>';
+    let html=home(copy);
+    // Replace only the original summary; keep priority risks and complete company cards.
+    html=html.replace(/<div class="bg-gradient-to-br from-\[#FF6B35\] to-\[#FF8C61\] rounded-2xl[\s\S]*?风险预警<\/div><\/div><\/div><\/div>/,summary);
+    return html.replace('<span class="text-xs text-gray-400">滑动直阅</span>','<a class="radar-text-link" href="#/today">全部动态 →</a>');
   };
-  const calendar=Views.calendar;
   Views.calendar=function(data,month){
-    const copy={...data,weekly_negatives:[],available_dates:(data.available_dates||[]).map(day=>({...day,count:(day.count||0)+(day.negative_count||0)}))};
-    let html=calendar(copy,month).replace(/(\d+)家<\/span>/g,'$1条</span>').replace('本月收录天数','本月归档天数').replace('本月扫描总数','本月收录动态');
-    html=html.replace(/(text-xl font-black text-gray-800">\d+<span class="text-xs font-normal text-gray-400 ml-1">)家/g,'$1条');
-    html=html.replace(/<button onclick="Router.navigate\('\/calendar\?month=([^']+)'\)"/g,'<button aria-label="查看 $1 月" onclick="Router.navigate(\'/calendar?month=$1\')"');
-    return html;
+    const selected=/^\d{4}-(?:0[1-9]|1[0-2])$/.test(month||'')?month:data.today.slice(0,7);
+    const [year,m]=selected.split('-').map(Number),dates=new Map((data.available_dates||[]).map(d=>[d.date,{...d,count:(d.count||0)+(d.negative_count||0)}]));
+    const monthKey=offset=>{const d=new Date(Date.UTC(year,m-1+offset,1));return d.toISOString().slice(0,7);};
+    const prev=monthKey(-1),next=monthKey(1),months=[...dates.keys()].map(d=>d.slice(0,7));
+    // Empty months between archives remain reachable; disable only outside the archived range.
+    const monthButton=(key,enabled,arrow)=>'<button type="button" class="radar-calendar-month" aria-label="查看 '+key+' 月" '+(enabled?'onclick="Router.navigate(\'/calendar?month='+key+'\')"':'disabled')+'>'+arrow+'</button>';
+    const first=(new Date(Date.UTC(year,m-1,1)).getUTCDay()+6)%7,last=new Date(Date.UTC(year,m,0)).getUTCDate();
+    let cells='<span class="radar-calendar-empty" aria-hidden="true"></span>'.repeat(first),total=0,days=0;
+    for(let day=1;day<=last;day++){
+      const date=selected+'-'+String(day).padStart(2,'0'),info=dates.get(date),today=date===data.today,risk=(info?.negative_count||0)>0;
+      const classes='radar-calendar-day'+(info?' has-records':'')+(info?.has_high_score?' has-selected':'')+(today?' is-today':'');
+      const content=(risk?'<span class="radar-calendar-risk" aria-hidden="true"></span>':'')+'<span>'+day+'</span>'+(info?'<small>'+info.count+'条</small>':'');
+      const label=year+'年'+m+'月'+day+'日，'+(info?info.count+'条已收录动态'+(risk?'，含风险预警':'')+(info.has_high_score?'，含高分精选':''):'暂无收录');
+      cells+=info?'<a class="'+classes+'" href="'+esc(routeLink('/today',{date,calendar:selected}))+'" aria-label="'+label+'"'+(today?' aria-current="date"':'')+'>'+content+'</a>':'<div class="'+classes+'" aria-label="'+label+'"'+(today?' aria-current="date"':'')+'>'+content+'</div>';
+      if(info){total+=info.count;days++;}
+    }
+    const back=selected!==data.today.slice(0,7)?'<a class="radar-calendar-current" href="#/calendar">回到本月</a>':'';
+    return '<section class="radar-calendar-view animate-fade-in"><div class="radar-calendar-heading">'+monthButton(prev,months.some(key=>key<selected),'‹')+'<div><h2>🗓️ 收录日历</h2><p>'+year+'年'+m+'月</p></div>'+monthButton(next,months.some(key=>key>selected),'›')+'</div>'+back+'<div class="radar-calendar-card"><div class="radar-calendar-weekdays" aria-hidden="true">'+['一','二','三','四','五','六','日'].map(d=>'<span>'+d+'</span>').join('')+'</div><div class="radar-calendar-grid" aria-label="'+year+'年'+m+'月已收录日期">'+cells+'</div><div class="radar-calendar-legend"><span><i class="radar-calendar-selected-key"></i>含高分精选</span><span><i class="radar-calendar-risk-key"></i>含风险预警</span></div></div><p class="radar-calendar-summary"><span>本月收录 <strong>'+days+'</strong> 天</span><span>本月收录动态 <strong>'+total+'</strong> 条</span></p></section>';
   };
   const weekly=Views.weekly;
   Views.weekly=function(data,weeks){
@@ -158,13 +177,15 @@
   function streamRow(r,open=false,inCompany=false,latest=false){
     if(inCompany)return timelineRow(r,open,latest);
     const key=rowKey(r),risk=r.kind==='risk'||/风险|负面/.test(r.event_type||''),{body,tags,title}=readingBody(r);
-    const score=Number.isFinite(r.score)?'<div class="radar-reading-score" aria-label="当期评分 '+esc(r.score)+'"><span class="text-2xl font-black leading-none tracking-tighter '+getScoreColor(r.score)+'">'+esc(r.score)+'</span></div>':'';
+    const facts=String(r.title||r.article_title||'查看原始记录').trim(),headline=timelineEventText(r).headline;
+    const excerpt=facts.startsWith(headline)?facts.slice(headline.length).replace(/^[\s。；;，,]+/,''):facts;
+    const score=Number.isFinite(r.score)?'<div class="radar-reading-score" aria-label="当期评分 '+esc(r.score)+'"><span class="radar-score-label">当期评分</span><span>'+esc(r.score)+'</span></div>':'';
     const heading=inCompany?'<h3 class="radar-record-date"><span>收录</span> <time datetime="'+esc(r.date)+'">'+esc(r.date)+'</time></h3>':'<h3><a href="'+esc(companyLink(r.company))+'">'+esc(A.canonical(r.canonical_name||r.company))+'</a></h3>';
     const recordedAt=inCompany?'':'<span class="radar-stream-meta">收录 <time datetime="'+esc(r.date)+'">'+esc(r.date)+'</time>'+ (r.discovery_status?'<span class="radar-discovery-label">'+(r.discovery_status==='first_seen'?'首次收录':'持续更新')+'</span>':'')+'</span>';
     const originals=observations(r);
-    return '<article class="radar-stream-item '+(risk?'radar-risk-item':'')+'" data-row="'+esc(key)+'">'+
+    return '<article class="radar-stream-item radar-dynamic-item '+(risk?'radar-risk-item':'')+'" data-row="'+esc(key)+'">'+
       '<div class="radar-reading-card-heading"><div class="radar-reading-identity">'+heading+'<div class="radar-source-row"><span class="radar-source-label">📰 '+esc(r.source||'来源见原文')+'</span>'+(inCompany?'':trackButton(r.company)+readingBadge(r.company))+'</div></div>'+score+'</div>'+tags+title+
-      '<details class="radar-event-details" data-event-details="'+esc(key)+'" '+(open?'open':'')+'><summary aria-label="展开'+esc(r.company)+'在'+esc(r.date)+'的全文与研判"><p class="radar-event-excerpt">'+esc(r.title||r.article_title||'查看原始记录')+'</p><span class="radar-reading-card-footer">'+recordedAt+'<span class="radar-expand-label">全文与研判 ↓</span></span></summary><div class="radar-event-body" tabindex="-1">'+(r.previewOnly?'<p class="radar-detail-loading" role="status">正在读取全文与研判…</p>':body)+'</div><div class="radar-reading-card-footer radar-collapse-footer">'+recordedAt+'<button type="button" class="radar-expand-label" data-collapse-record aria-label="收起'+esc(r.company)+'在'+esc(r.date)+'的全文与研判">收起全文 ↑</button></div></details>'+originals+'</article>';
+      '<details class="radar-event-details" data-event-details="'+esc(key)+'" '+(open?'open':'')+'><summary aria-label="展开'+esc(r.company)+'在'+esc(r.date)+'的全文与研判">'+(excerpt?'<p class="radar-event-excerpt">'+esc(excerpt)+'</p>':'')+'<span class="radar-reading-card-footer">'+recordedAt+'<span class="radar-expand-label">全文与研判 ↓</span></span></summary><div class="radar-event-body" tabindex="-1">'+(r.previewOnly?'<p class="radar-detail-loading" role="status">正在读取全文与研判…</p>':body)+'</div><div class="radar-reading-card-footer radar-collapse-footer">'+recordedAt+'<button type="button" class="radar-expand-label" data-collapse-record aria-label="收起'+esc(r.company)+'在'+esc(r.date)+'的全文与研判">收起全文 ↑</button></div></details>'+originals+'</article>';
   }
   async function hydrateRecord(article){
     const record=currentRows.find(r=>rowKey(r)===article.dataset.row),body=article.querySelector('.radar-event-body');
@@ -180,7 +201,8 @@
   }
   function toolbar(p,day){
     const custom=p.from||p.to,advanced=false;
-    return '<form id="radar-history-filter" class="radar-filter" role="search" aria-label="搜索全部企业和日期">'+
+    const calendar=/^\d{4}-(?:0[1-9]|1[0-2])$/.test(p.calendar||'')?'<a class="radar-calendar-return" href="'+esc(routeLink('/calendar',{month:p.calendar}))+'">← 返回'+p.calendar.slice(0,4)+'年'+Number(p.calendar.slice(5))+'月日历</a>':'';
+    return calendar+'<form id="radar-history-filter" class="radar-filter" role="search" aria-label="搜索全部企业和日期">'+
       '<div class="radar-page-heading"><h2>📰 企业动态</h2><div class="radar-period-picker"><label class="radar-sr-only" for="radar-scope">收录日期范围</label><select id="radar-scope"><option value="today"'+(p.search!=='all'?' selected':'')+'>'+esc(day===window.RadarData.manifest.today?'今日':day)+'</option><option value="week">近7天</option><option value="all"'+(p.search==='all'&&!custom?' selected':'')+'>全部日期</option><option value="custom"'+(custom?' selected':'')+'>自定义日期</option></select><span aria-hidden="true">▼</span></div></div>'+
       '<div class="radar-search-bar"><label class="radar-sr-only" for="radar-filter-input">搜索全部企业、赛道或事件</label><input id="radar-filter-input" type="search" placeholder="搜索企业、赛道或事件" value="'+esc(p.q||'')+'" autocomplete="off"><button type="button" data-toggle-filter aria-controls="radar-filter-more" aria-expanded="'+advanced+'">筛选</button></div>'+
       '<div id="radar-filter-more" '+(advanced?'':'hidden')+'><div class="radar-filter-caption"><strong>筛选动态</strong><button type="button" data-clear-filter>重置</button></div><label for="radar-company">企业（按主体筛选）</label><input id="radar-company" list="radar-companies" placeholder="全部企业，输入名称选择" value="'+esc(p.company||'')+'" autocomplete="off"><datalist id="radar-companies"></datalist>'+
@@ -274,7 +296,8 @@
     if(scope==='week'){const d=new Date(window.RadarData.manifest.today+'T00:00:00Z');f.to=d.toISOString().slice(0,10);d.setUTCDate(d.getUTCDate()-6);f.from=d.toISOString().slice(0,10);}
     if(changeURL){
       renderSequence++;
-      const p={search:'all'};for(const [k,v] of Object.entries(f))if(v)p[k]=v;
+      const origin=params(),p={search:'all'};if(/^\d{4}-(?:0[1-9]|1[0-2])$/.test(origin.calendar||''))p.calendar=origin.calendar;
+      for(const [k,v] of Object.entries(f))if(v)p[k]=v;
       history.replaceState(history.state,'',routeLink('/today',p));activeKey=location.hash;visibleCount=20;syncHeader();
     }
     field('radar-filter-context').textContent=[f.from===f.to&&f.from?f.from:(f.from||f.to?(f.from||'最早')+' 至 '+(f.to||'最新'):'全部日期'),f.company||'全部企业',f.region,f.type,f.sector].filter(Boolean).join(' · ');
@@ -352,7 +375,7 @@
     return p;
   };
   const nav=Router.updateNavActive;
-  Router.updateNavActive=function(){nav.call(this);const route=this.getRoute();if(route==='/company'){document.querySelector('[data-route="'+(/^\/(observations|topic)/.test(params().back||'')?'/observations':'/today')+'"]')?.classList.add('active');}if(route==='/topic'||route==='/weekly')document.querySelector('[data-route="/observations"]')?.classList.add('active');};
+  Router.updateNavActive=function(){nav.call(this);const route=this.getRoute();if(route==='/company'){document.querySelector('[data-route="'+(/^\/(observations|topic)/.test(params().back||'')?'/observations':'/today')+'"]')?.classList.add('active');}if(route==='/topic'||route==='/weekly')document.querySelector('[data-route="/observations"]')?.classList.add('active');document.querySelectorAll?.('.nav-item').forEach(item=>{if(item.classList.contains('active'))item.setAttribute('aria-current','page');else item.removeAttribute('aria-current');});};
   document.addEventListener('click',e=>{
     if(e.target.closest('[data-retry-page]'))renderPage();
     const compact=e.target.closest('[data-company-card]');if(compact)Router.navigate(companyLink(compact.dataset.companyCard).slice(1));
