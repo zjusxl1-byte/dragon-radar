@@ -86,16 +86,20 @@
     const limit=query||role==='local_potential'?items.length:3;
     return items.slice(0,limit).map(companyCard).join('')+(items.length>limit?'<details class="radar-observation-more" data-observation-expand="'+role+'-reading" '+(expanded(role+'-reading')?'open':'')+'><summary>展开其余 '+(items.length-limit)+' 家解读</summary>'+items.slice(limit).map(companyCard).join('')+'</details>':'');
   }
-  function leadPage(items,p){
-    const pages=Math.max(1,Math.ceil(items.length/4)),requested=Number(p.lead_page||1);
-    const page=Math.min(pages,Math.max(1,Number.isSafeInteger(requested)?requested:1)),start=(page-1)*4;
-    return {page,pages,start,end:Math.min(start+4,items.length)};
+  function leadCount(items,p){
+    if(nameKey(p.q)||p.lead_count==='all')return items.length;
+    // Old paged return links still reveal every company reached in that view.
+    const requested=Number(p.lead_count??(p.lead_page?Number(p.lead_page)*4:12));
+    return Math.min(items.length,Math.max(12,Number.isSafeInteger(requested)?requested:12));
+  }
+  function leadBrowse(items,count){
+    const next=Math.min(12,items.length-count);
+    return next?'<button type="button" data-observation-lead-more aria-controls="radar-observation-lead-items">继续看 '+next+' 家 ↓</button><button type="button" data-observation-lead-all aria-controls="radar-observation-lead-items">显示全部 '+items.length+' 家</button>':'<p>已显示全部 '+items.length+' 家</p>';
   }
   function leadList(items,p){
     if(!items.length)return '';
-    const {page,pages,start,end}=leadPage(items,p);
-    const pager=pages>1?'<nav class="radar-observation-lead-pages" aria-label="进展线索翻页"><button type="button" data-observation-lead-page="'+(page-1)+'"'+(page===1?' disabled':'')+'>← 上一页</button><label><span class="radar-sr-only">选择线索页码，共 '+pages+' 页</span><select data-observation-lead-select>'+Array.from({length:pages},(_,i)=>'<option value="'+(i+1)+'"'+(page===i+1?' selected':'')+'>第 '+(i+1)+' / '+pages+' 页</option>').join('')+'</select></label><button type="button" data-observation-lead-page="'+(page+1)+'"'+(page===pages?' disabled':'')+'>下一页 →</button></nav>':'';
-    return '<section class="radar-observation-leads" aria-labelledby="radar-observation-lead-title"><div class="radar-observation-leads-heading"><h4 id="radar-observation-lead-title" tabindex="-1">进展线索 <small>尚未解读 · '+items.length+'</small></h4><span role="status" aria-live="polite" aria-atomic="true">'+(start+1)+'–'+end+' / '+items.length+'</span></div>'+items.slice(start,end).map(leadCard).join('')+pager+'</section>';
+    const count=leadCount(items,p);
+    return '<section class="radar-observation-leads" data-shown="'+count+'" aria-labelledby="radar-observation-lead-title"><div class="radar-observation-leads-heading"><h4 id="radar-observation-lead-title" tabindex="-1">进展线索 <small>尚未解读 · '+items.length+'</small></h4><span id="radar-observation-lead-count" role="status" aria-live="polite" aria-atomic="true" aria-label="已显示 '+count+' 家，共 '+items.length+' 家">'+count+' / '+items.length+'</span></div><div id="radar-observation-lead-items">'+items.slice(0,count).map(leadCard).join('')+'</div><div class="radar-observation-lead-browse">'+leadBrowse(items,count)+'</div></section>';
   }
   function topicCard(topic){
     return '<a class="radar-observation-card radar-topic-card'+(unseen(topic)?' radar-new-research':'')+'" href="'+esc(link('/topic',{id:topic.topic_id,back:location.hash.slice(1)}))+'"><p class="radar-observation-sector">'+esc(topic.sector)+'<span class="radar-topic-state">'+esc(labels[topic.status]||'持续观察')+'</span></p><h3>'+esc(topic.question)+'</h3><p class="radar-observation-thesis">'+esc(topic.thesis.text)+'</p><div class="radar-observation-footer"><span>'+topic.companies.length+' 家企业 · 判断第 '+Number(topic.revision||1)+' 版'+(topic.updated_at?' · 更新 '+esc(shortDate(H.formatDate(topic.updated_at))):'')+'</span><span class="radar-observation-action">查看观察 →</span></div></a>';
@@ -168,29 +172,32 @@
     const item=data.topics.find(t=>t.topic_id===params().id);if(!item)return null;
     return {title:item.question+'｜寻龙雷达',text:item.thesis.text+'\n材料截至 '+item.as_of,url:location.href.split('#')[0]+link('/topic',{id:item.topic_id})};
   }
-  function showLeadPage(requested){
+  function showMoreLeads(all=false){
     if(!data||Router.getRoute()!=='/observations'||params().view==='topics')return;
     const p=params(),items=data.companies.filter(publishedCompany).filter(c=>c.role==='local_potential'&&!hasReading(c)&&matches(c,p.q||''));
-    const previous=document.getElementById('radar-observation-results'),footer=document.querySelector('.radar-observation-list-footer');
-    if(!items.length||!previous||!footer)return;
-    const {page}=leadPage(items,{lead_page:requested}),next={...p};
-    if(page===1)delete next.lead_page;else next.lead_page=String(page);
-    // Replace the current URL without remounting or fetching the directory.
-    // The reading controller records this URL for the normal company/back flow.
+    const section=document.querySelector('.radar-observation-leads'),list=document.getElementById('radar-observation-lead-items'),counter=document.getElementById('radar-observation-lead-count'),browse=section?.querySelector('.radar-observation-lead-browse');
+    if(!items.length||!list||!counter||!browse)return;
+    const shown=Number(section.getAttribute('data-shown')),count=all?items.length:Math.min(items.length,shown+12);
+    if(!Number.isSafeInteger(shown)||shown<0||count<=shown)return;
+    const scroll=window.scrollY||0,next={...p,lead_count:all?'all':String(count)};delete next.lead_page;
+    // Append in place: existing rows, reading cards and scroll position survive.
     window.RadarReading.replaceRoute(link('/observations',next));
-    previous.insertAdjacentHTML('beforebegin',listing(data,next));previous.remove();footer.remove();
-    const leads=document.querySelector('.radar-observation-leads');
-    leads?.scrollIntoView({block:'start',behavior:'instant'});leads?.querySelector('h4')?.focus({preventScroll:true});
+    list.insertAdjacentHTML('beforeend',items.slice(shown,count).map(leadCard).join(''));
+    section.setAttribute('data-shown',String(count));counter.textContent=count+' / '+items.length;counter.setAttribute('aria-label','已显示 '+count+' 家，共 '+items.length+' 家');browse.innerHTML=leadBrowse(items,count);
+    document.querySelectorAll('#radar-observation-results a[href^="#/company?"]').forEach(anchor=>{
+      const [route,search]=anchor.getAttribute('href').split('?'),query=new URLSearchParams(search);query.set('back',location.hash.slice(1));anchor.setAttribute('href',route+'?'+query);
+    });
+    list.children[shown]?.focus({preventScroll:true});window.scrollTo({top:scroll,behavior:'instant'});
   }
   document.addEventListener('submit',event=>{if(event.target.id==='radar-observation-search'){event.preventDefault();const query=document.getElementById('radar-observation-input').value.trim();Router.navigate(link('/observations',{...(params().view==='topics'?{view:'topics'}:{}),...(query?{q:query}:{})}).slice(1));}});
   document.addEventListener('click',event=>{
-    const leadButton=event.target.closest('[data-observation-lead-page]');if(leadButton){if(!leadButton.disabled)showLeadPage(leadButton.getAttribute('data-observation-lead-page'));return;}
+    if(event.target.closest('[data-observation-lead-more]')){showMoreLeads();return;}
+    if(event.target.closest('[data-observation-lead-all]')){showMoreLeads(true);return;}
     if(event.target.closest('[data-topic-sources]')){const sources=document.querySelector('.radar-topic-view .radar-ai-sources');if(sources){sources.open=true;sources.scrollIntoView({block:'start',behavior:'instant'});sources.querySelector('summary')?.focus({preventScroll:true});}return;}
     if(event.target.closest('[data-observation-leads]')){const leads=document.querySelector('.radar-observation-leads');if(leads){leads.scrollIntoView({block:'start',behavior:'instant'});leads.querySelector('h4')?.focus({preventScroll:true});}return;}
     if(event.target.closest('[data-observation-refresh]')&&nextManifest){location.reload();return;}
     if(event.target.closest('[data-observation-more]')&&data){visible+=20;const box=document.querySelector('.radar-observation-view');const previous=document.getElementById('radar-observation-results');const footer=document.querySelector('.radar-observation-list-footer');if(box&&previous&&footer){previous.insertAdjacentHTML('beforebegin',listing(data,params()));previous.remove();footer.remove();}}
   });
-  document.addEventListener('change',event=>{if(event.target.matches?.('[data-observation-lead-select]'))showLeadPage(event.target.value);});
   document.addEventListener('visibilitychange',()=>watchUpdates(true));
   document.addEventListener('toggle',event=>{const key=event.target.getAttribute?.('data-observation-expand');if(key){try{sessionStorage.setItem('radar-observation-open-'+key,event.target.open?'1':'0');}catch{}}},true);
   window.addEventListener('hashchange',()=>{visible=20;watchUpdates(true);showUpdate();});
