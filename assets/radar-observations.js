@@ -79,27 +79,32 @@
     return '<a class="radar-observation-card radar-company-observation" data-role="'+esc(company.role||'unresolved')+'" aria-label="阅读'+esc(company.company)+'的企业解读" href="'+esc(companyHref(company.company,location.hash.slice(1),true))+'"><div class="radar-observation-card-title"><h3 title="'+esc(company.company)+'">'+esc(company.display_name||company.company)+'</h3><p class="radar-observation-sector"><span class="radar-observation-field">'+esc(sector)+'</span>'+region+(company.is_new_discovery?'<span class="radar-new-discovery">近期发现</span>':'')+'</p></div><p class="radar-observation-thesis">'+esc(progressText(company,'thesis'))+'</p>'+(explanation?'<p class="radar-observation-explanation">'+esc(explanation)+'</p>':'')+'<div class="radar-observation-footer"><span>'+ (company.reading_generated_at?'解读 '+dateMarkup(company.reading_generated_at)+' · ':'')+'材料 '+dateMarkup(company.as_of)+(company.updating?' · 待更新':'')+'</span><span class="radar-observation-action">完整解读 →</span></div></a>';
   }
   function leadCard(company){
-    return '<a class="radar-observation-lead" aria-label="查看'+esc(company.company)+'的已收录进展" href="'+esc(companyHref(company.company,location.hash.slice(1),false))+'"><div class="radar-observation-lead-heading"><h4 title="'+esc(company.company)+'">'+esc(company.display_name||company.company)+'</h4><span class="radar-observation-field">'+esc(company.sector_label||company.sector||'企业进展')+'</span></div><p>'+esc(progressText(company,'progress'))+'</p><div class="radar-observation-lead-footer"><span>收录 '+dateMarkup(company.as_of)+'</span><span class="radar-observation-action">查看进展 →</span></div></a>';
+    return '<a class="radar-observation-lead" aria-label="查看'+esc(company.company)+'的已收录进展" href="'+esc(companyHref(company.company,location.hash.slice(1),false))+'"><div class="radar-observation-lead-heading"><h4 title="'+esc(company.company)+'">'+esc(company.display_name||company.company)+'</h4><span class="radar-observation-field">'+esc(company.sector_label||company.sector||'企业进展')+'</span></div><p>'+esc(progressText(company,'progress'))+'</p></a>';
   }
   function expanded(key){try{return sessionStorage.getItem('radar-observation-open-'+key)==='1';}catch{return false;}}
   function readingStack(items,role,query){
     const limit=query||role==='local_potential'?items.length:3;
     return items.slice(0,limit).map(companyCard).join('')+(items.length>limit?'<details class="radar-observation-more" data-observation-expand="'+role+'-reading" '+(expanded(role+'-reading')?'open':'')+'><summary>展开其余 '+(items.length-limit)+' 家解读</summary>'+items.slice(limit).map(companyCard).join('')+'</details>':'');
   }
-  function leadCount(items,p){
-    if(nameKey(p.q)||p.lead_count==='all')return items.length;
-    // Old paged return links still reveal every company reached in that view.
-    const requested=Number(p.lead_count??(p.lead_page?Number(p.lead_page)*4:12));
-    return Math.min(items.length,Math.max(12,Number.isSafeInteger(requested)?requested:12));
-  }
-  function leadBrowse(items,count){
-    const next=Math.min(12,items.length-count);
-    return next?'<button type="button" data-observation-lead-more aria-controls="radar-observation-lead-items">继续看 '+next+' 家 ↓</button><button type="button" data-observation-lead-all aria-controls="radar-observation-lead-items">显示全部 '+items.length+' 家</button>':'<p>已显示全部 '+items.length+' 家</p>';
-  }
-  function leadList(items,p){
+  const leadTiers=[['key','重点观察','重点'],['watch','值得关注','关注'],['follow','持续跟进','跟进'],['other','其他线索','其他']];
+  const leadTier=company=>leadTiers.some(([key])=>key===company.attention?.tier)?company.attention.tier:'other';
+  const leadHref=p=>link('/observations',{view:'leads',...(p.q?{q:p.q}:{})});
+  function leadPreview(items,p){
     if(!items.length)return '';
-    const count=leadCount(items,p);
-    return '<section class="radar-observation-leads" data-shown="'+count+'" aria-labelledby="radar-observation-lead-title"><div class="radar-observation-leads-heading"><h4 id="radar-observation-lead-title" tabindex="-1">进展线索 <small>尚未解读 · '+items.length+'</small></h4><span id="radar-observation-lead-count" role="status" aria-live="polite" aria-atomic="true" aria-label="已显示 '+count+' 家，共 '+items.length+' 家">'+count+' / '+items.length+'</span></div><div id="radar-observation-lead-items">'+items.slice(0,count).map(leadCard).join('')+'</div><div class="radar-observation-lead-browse">'+leadBrowse(items,count)+'</div></section>';
+    // The main page keeps its reading hierarchy; the full directory is one view.
+    const shown=nameKey(p.q)?items:items.slice(0,3);
+    return '<section class="radar-observation-leads radar-lead-preview" aria-labelledby="radar-observation-lead-title"><div class="radar-observation-leads-heading"><h4 id="radar-observation-lead-title">进展线索 <small>尚未解读 · '+items.length+'</small></h4><a class="radar-text-link" href="'+esc(leadHref(p))+'">全部 '+items.length+' 家 →</a></div>'+shown.map(leadCard).join('')+'</section>';
+  }
+  function leadDirectory(value,p){
+    const all=value.companies.filter(publishedCompany).filter(c=>c.role==='local_potential'&&!hasReading(c));
+    // Reuse the site's shared sector families; overlapping fields stay searchable.
+    const families=new Map();all.forEach(c=>H.sectors(c).forEach(field=>families.set(field,(families.get(field)||0)+1)));
+    const field=families.has(p.sector)?p.sector:'',items=all.filter(c=>matches(c,p.q||'')&&(!field||H.sectors(c).includes(field)));
+    const groups=leadTiers.map(([key,label,short])=>({key,label,short,items:items.filter(c=>leadTier(c)===key)})).filter(g=>g.items.length);
+    const options='<option value="">全部领域</option>'+[...families].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'zh-CN')).map(([name,count])=>'<option value="'+esc(name)+'"'+(name===field?' selected':'')+'>'+esc(name)+' · '+count+'</option>').join('');
+    const nav=groups.length?'<nav class="radar-lead-index" aria-label="按关注优先级定位">'+groups.map(g=>'<button type="button" data-lead-tier="'+g.key+'">'+g.short+' <small>'+g.items.length+'</small></button>').join('')+'</nav>':'';
+    const body=groups.length?'<div class="radar-lead-directory-list">'+groups.map(g=>'<section class="radar-lead-group" id="radar-lead-'+g.key+'" data-tier="'+g.key+'"><div class="radar-lead-group-heading"><h3 tabindex="-1">'+g.label+' <small>'+g.items.length+'</small></h3><span>按关注优先级</span></div>'+g.items.map(leadCard).join('')+'</section>').join('')+'</div>':'<div class="radar-empty"><p>'+(all.length?'没有符合条件的线索企业。':'目前的杭州潜力企业均已有解读。')+'</p><a class="radar-text-link" href="'+(all.length?'#/observations?view=leads':'#/observations')+'">'+(all.length?'查看全部线索 →':'返回已有解读 →')+'</a></div>';
+    return '<section class="radar-observation-view radar-lead-directory animate-fade-in"><div class="radar-page-heading"><h2>进展线索 <small>'+(field||nameKey(p.q)?items.length+' / '+all.length:all.length)+' 家 · 尚未解读</small></h2><a class="radar-text-link radar-back-button" href="#/observations">← 返回观察</a></div><p class="radar-lead-caption radar-sr-only" role="status" aria-live="polite">杭州潜力 · 尚未解读'+(field||nameKey(p.q)?' · 找到 '+items.length+' 家':'')+'</p>'+updateNotice()+'<div class="radar-lead-toolbar"><form id="radar-observation-search" class="radar-filter" role="search" aria-label="搜索进展线索"><div class="radar-search-bar"><label class="radar-sr-only" for="radar-observation-input">搜索线索企业、英文名或领域</label><input type="search" id="radar-observation-input" value="'+esc(p.q||'')+'" placeholder="搜索企业、领域" enterkeyhint="search"><label class="radar-sr-only" for="radar-lead-sector">筛选线索领域</label><select id="radar-lead-sector">'+options+'</select><button type="submit">搜索</button></div></form>'+nav+'</div><div id="radar-observation-results">'+body+'</div><p class="radar-lead-directory-end">'+(items.length?'已显示 '+items.length+' 家线索':'')+'</p></section>';
   }
   function topicCard(topic){
     return '<a class="radar-observation-card radar-topic-card'+(unseen(topic)?' radar-new-research':'')+'" href="'+esc(link('/topic',{id:topic.topic_id,back:location.hash.slice(1)}))+'"><p class="radar-observation-sector">'+esc(topic.sector)+'<span class="radar-topic-state">'+esc(labels[topic.status]||'持续观察')+'</span></p><h3>'+esc(topic.question)+'</h3><p class="radar-observation-thesis">'+esc(topic.thesis.text)+'</p><div class="radar-observation-footer"><span>'+topic.companies.length+' 家企业 · 判断第 '+Number(topic.revision||1)+' 版'+(topic.updated_at?' · 更新 '+esc(shortDate(H.formatDate(topic.updated_at))):'')+'</span><span class="radar-observation-action">查看观察 →</span></div></a>';
@@ -115,14 +120,16 @@
     const shown=items.slice(0,visible);
     const cards=topics?shown.map(topicCard).join(''):roles.map(([role,label,caption])=>{
       const group=items.filter(c=>(c.role||'unresolved')===role),readings=group.filter(hasReading),leads=group.filter(c=>!hasReading(c));
-      const localLinks=role==='local_potential'?'<div class="radar-observation-group-links">'+(readings.length?'<h4 class="radar-observation-subheading">已有解读 <small>'+readings.length+'</small></h4>':'')+(leads.length?'<button class="radar-observation-lead-jump" type="button" data-observation-leads aria-label="查看 '+leads.length+' 家尚未解读企业">查看线索 <small>'+leads.length+'</small> →</button>':'')+'</div>':'';
-      return group.length?'<section class="radar-observation-group" data-group="'+role+'"><div class="radar-observation-group-heading"><h3>'+(role==='local_potential'?locationIcon:'')+label+' <small>'+group.length+'</small></h3>'+localLinks+'</div>'+(readings.length?'<div class="radar-observation-readings">'+readingStack(readings,role,query)+'</div>':'')+leadList(leads,p)+'</section>':'';
+      const localLinks=role==='local_potential'?'<div class="radar-observation-group-links">'+(readings.length?'<h4 class="radar-observation-subheading">已有解读 <small>'+readings.length+'</small></h4>':'')+(leads.length?'<a class="radar-observation-lead-jump" href="'+esc(leadHref(p))+'" aria-label="查看 '+leads.length+' 家尚未解读企业的线索名录">线索名录 <small>'+leads.length+'</small> →</a>':'')+'</div>':'';
+      return group.length?'<section class="radar-observation-group" data-group="'+role+'"><div class="radar-observation-group-heading"><h3>'+(role==='local_potential'?locationIcon:'')+label+' <small>'+group.length+'</small></h3>'+localLinks+'</div>'+(readings.length?'<div class="radar-observation-readings">'+readingStack(readings,role,query)+'</div>':'')+leadPreview(leads,p)+'</section>':'';
     }).join('');
     return '<div id="radar-observation-results">'+(cards||'<p class="radar-empty">'+(query?'没有符合关键词的'+(topics?'专题。':'企业。'):topics?'暂未形成专题判断。':'暂未形成企业观察。')+'</p>')+'</div><div class="radar-observation-list-footer"><span role="status">'+items.length+' '+(topics?'个专题':'家企业 · '+items.filter(hasReading).length+' 家已有解读')+'</span>'+(topics&&items.length>visible?'<button class="radar-more" type="button" data-observation-more>再显示20个</button>':'')+'<a href="#/weekly?back=%2Fobservations">收录分布 →</a></div>';
   }
   function hub(value,p){
     value={...value,companies:value.companies.filter(publishedCompany)};
     const topics=p.view==='topics',count=value.topics.filter(t=>t.status!=='archived').length;
+    // Existing paged/continued URLs now open the full directory without losing access.
+    if(!topics&&(p.view==='leads'||p.lead_page!==undefined||p.lead_count!==undefined))return leadDirectory(value,p);
     return '<section class="radar-observation-view animate-fade-in"><div class="radar-page-heading"><h2>观察</h2>'+agentStatus(value)+'</div>'+researchSummary(value)+updateNotice()+'<div class="radar-observation-toolbar"><nav class="radar-observation-tabs" aria-label="观察内容"><a href="#/observations" '+(!topics?'aria-current="page"':'')+'>企业 <small>'+value.companies.length+'</small></a><a href="#/observations?view=topics" '+(topics?'aria-current="page"':'')+'>专题 <small>'+count+'</small></a></nav><form id="radar-observation-search" class="radar-filter" role="search" aria-label="搜索观察"><label class="radar-sr-only" for="radar-observation-input">'+(topics?'搜索专题、企业或领域':'搜索企业、英文名或领域')+'</label><div class="radar-search-bar"><input type="search" id="radar-observation-input" value="'+esc(p.q||'')+'" placeholder="'+(topics?'搜索专题、企业或领域':'搜索企业、领域')+'"><button type="submit">搜索</button></div></form></div>'+listing(value,p)+'</section>';
   }
   function related(name){
@@ -165,36 +172,22 @@
   }
   function sharePayload(){
     if(Router.getRoute()==='/observations'){
-      const topics=params().view==='topics';
-      return {title:(topics?'专题观察':'企业观察')+'｜寻龙雷达',text:topics?'从企业进展看产业变化':'杭州潜力企业、标杆与外部对标',url:location.href.split('#')[0]+link('/observations',topics?{view:'topics'}:{})};
+      const p=params(),topics=p.view==='topics',leads=!topics&&(p.view==='leads'||p.lead_page!==undefined||p.lead_count!==undefined);
+      return {title:(topics?'专题观察':leads?'进展线索':'企业观察')+'｜寻龙雷达',text:topics?'从企业进展看产业变化':leads?'杭州潜力企业的已收录进展':'杭州潜力企业、标杆与外部对标',url:location.href.split('#')[0]+link('/observations',topics?{view:'topics'}:leads?{view:'leads'}:{})};
     }
     if(Router.getRoute()!=='/topic'||!data)return null;
     const item=data.topics.find(t=>t.topic_id===params().id);if(!item)return null;
     return {title:item.question+'｜寻龙雷达',text:item.thesis.text+'\n材料截至 '+item.as_of,url:location.href.split('#')[0]+link('/topic',{id:item.topic_id})};
   }
-  function showMoreLeads(all=false){
-    if(!data||Router.getRoute()!=='/observations'||params().view==='topics')return;
-    const p=params(),items=data.companies.filter(publishedCompany).filter(c=>c.role==='local_potential'&&!hasReading(c)&&matches(c,p.q||''));
-    const section=document.querySelector('.radar-observation-leads'),list=document.getElementById('radar-observation-lead-items'),counter=document.getElementById('radar-observation-lead-count'),browse=section?.querySelector('.radar-observation-lead-browse');
-    if(!items.length||!list||!counter||!browse)return;
-    const shown=Number(section.getAttribute('data-shown')),count=all?items.length:Math.min(items.length,shown+12);
-    if(!Number.isSafeInteger(shown)||shown<0||count<=shown)return;
-    const scroll=window.scrollY||0,next={...p,lead_count:all?'all':String(count)};delete next.lead_page;
-    // Append in place: existing rows, reading cards and scroll position survive.
-    window.RadarReading.replaceRoute(link('/observations',next));
-    list.insertAdjacentHTML('beforeend',items.slice(shown,count).map(leadCard).join(''));
-    section.setAttribute('data-shown',String(count));counter.textContent=count+' / '+items.length;counter.setAttribute('aria-label','已显示 '+count+' 家，共 '+items.length+' 家');browse.innerHTML=leadBrowse(items,count);
-    document.querySelectorAll('#radar-observation-results a[href^="#/company?"]').forEach(anchor=>{
-      const [route,search]=anchor.getAttribute('href').split('?'),query=new URLSearchParams(search);query.set('back',location.hash.slice(1));anchor.setAttribute('href',route+'?'+query);
-    });
-    list.children[shown]?.focus({preventScroll:true});window.scrollTo({top:scroll,behavior:'instant'});
+  function searchObservations(){
+    const p=params(),leads=!!document.getElementById('radar-lead-sector'),q=document.getElementById('radar-observation-input').value.trim(),sector=document.getElementById('radar-lead-sector')?.value||'';
+    Router.navigate(link('/observations',{...(leads?{view:'leads'}:p.view==='topics'?{view:'topics'}:{}),...(q?{q}:{}),...(sector?{sector}:{})}).slice(1));
   }
-  document.addEventListener('submit',event=>{if(event.target.id==='radar-observation-search'){event.preventDefault();const query=document.getElementById('radar-observation-input').value.trim();Router.navigate(link('/observations',{...(params().view==='topics'?{view:'topics'}:{}),...(query?{q:query}:{})}).slice(1));}});
+  document.addEventListener('submit',event=>{if(event.target.id==='radar-observation-search'){event.preventDefault();searchObservations();}});
+  document.addEventListener('change',event=>{if(event.target.id==='radar-lead-sector')searchObservations();});
   document.addEventListener('click',event=>{
-    if(event.target.closest('[data-observation-lead-more]')){showMoreLeads();return;}
-    if(event.target.closest('[data-observation-lead-all]')){showMoreLeads(true);return;}
+    const tier=event.target.closest('[data-lead-tier]');if(tier){const group=document.getElementById('radar-lead-'+tier.getAttribute('data-lead-tier'));if(group){group.scrollIntoView({block:'start',behavior:'instant'});group.querySelector('h3')?.focus({preventScroll:true});}return;}
     if(event.target.closest('[data-topic-sources]')){const sources=document.querySelector('.radar-topic-view .radar-ai-sources');if(sources){sources.open=true;sources.scrollIntoView({block:'start',behavior:'instant'});sources.querySelector('summary')?.focus({preventScroll:true});}return;}
-    if(event.target.closest('[data-observation-leads]')){const leads=document.querySelector('.radar-observation-leads');if(leads){leads.scrollIntoView({block:'start',behavior:'instant'});leads.querySelector('h4')?.focus({preventScroll:true});}return;}
     if(event.target.closest('[data-observation-refresh]')&&nextManifest){location.reload();return;}
     if(event.target.closest('[data-observation-more]')&&data){visible+=20;const box=document.querySelector('.radar-observation-view');const previous=document.getElementById('radar-observation-results');const footer=document.querySelector('.radar-observation-list-footer');if(box&&previous&&footer){previous.insertAdjacentHTML('beforebegin',listing(data,params()));previous.remove();footer.remove();}}
   });
