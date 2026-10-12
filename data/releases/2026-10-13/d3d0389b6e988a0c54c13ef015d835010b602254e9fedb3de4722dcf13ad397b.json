@@ -1,0 +1,2698 @@
+{
+  "date": "2026-10-13",
+  "targets": [
+    {
+      "company_raw_name": "星动纪元",
+      "identity_mentions": [
+        {
+          "name": "VPP2",
+          "relation": "product",
+          "evidence": "星动纪元世界动作模型（WAM）VPP2（Video Prediction Policy ）"
+        }
+      ],
+      "title": "突围GPT6！星动纪元VPP2登顶RoboDojo，开源最强WAM | 元璟Family",
+      "company": "星动纪元",
+      "score": 50,
+      "sector": "具身智能与机器人基础模型",
+      "financing": "",
+      "source": "元璟资本",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "星动纪元",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-bbc41366a5a7cf784f1e",
+      "company_canonical_name": "星动纪元",
+      "identity_status": "confirmed",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/9VwiHz0g3u0isoX3eaf41w",
+      "article_title": "突围GPT6！星动纪元VPP2登顶RoboDojo，开源最强WAM | 元璟Family",
+      "event_desc": "据文章披露，星动纪元世界动作模型VPP2已开源，在RoboDojo评测中取得32.26%的平均成功率、39.26分的平均得分，并在泛化、精细操作和记忆三个维度排名第一。模型基于Wan2.1-I2V-14B，通过统一操作数据坐标系、分阶段视频预测训练、一致性蒸馏及动作专家建模实现视频预测与动作生成。在真实ALOHA平台测试中平均成功率为58.5%；接入VLM子任务规划后，五个选定任务组的平均成功率由27.6%提升至57.6%。文章另披露，公司与中国邮政、顺丰合作，在全国5个省市、10余个物流中心常态化运营，但未明确这些部署是否使用VPP2。",
+      "insight": "VPP2通过保留视频模型表征、后接动作专家及单步生成，尝试兼顾跨场景泛化与机器人闭环响应，开源有助于外部开发者验证和适配。公司已有物流部署场景，后续商业价值重点看VPP2在这些场景中的实际应用、连续作业成功率、人工接管率与单任务成本。",
+      "event_headline": "星动纪元开源VPP2世界动作模型并公布机器人评测成绩",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "VPP2开源、统一操作坐标和动作专家训练有具体正文与评测依据，值得作具身模型工程化对标；不是只因榜单第一入选。物流部署属于既有公司业务，未证明使用VPP2，保留区别。accepted原文于10月12日发布，窗口有效。",
+      "event_headline_source": "22378cc86d89305372769232592c112a5ec1163991b3460855fc4e6d44980e21",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "7de2f2647b219c779defe791d252da3a841f64b393077b68e4d124b50557fa75",
+        "input_row_sha256": "325a80310aa6a8a1edba50c87f608a43ec70bc1c0cfeaefbb34ea731127e674a",
+        "reason": "VPP2开源、统一操作坐标和动作专家训练有具体正文与评测依据，值得作具身模型工程化对标；不是只因榜单第一入选。物流部署属于既有公司业务，未证明使用VPP2，保留区别。accepted原文于10月12日发布，窗口有效。",
+        "scope": {
+          "technology_evidence": "VPP2基于Wan视频底座，分阶段预测、蒸馏与动作DiT建模；ALOHA平均成功率58.5%。",
+          "value_reason": "将视频泛化能力接入动作生成并开源，可比较真实操作和闭环响应路线，不能把仿真成绩当量产交付。"
+        },
+        "stage": {
+          "status": "开源及研究评测完成",
+          "reason": "VPP2基于Wan视频底座，分阶段预测、蒸馏与动作DiT建模；ALOHA平均成功率58.5%。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870",
+            "accepted_history:f125517f33ad7b44",
+            "accepted_history:58d1dcf02cc70777",
+            "accepted_history:82c4988335ec27bc",
+            "accepted_history:adf5a75e0bc1b19b",
+            "accepted_history:87d00d8952897e97"
+          ],
+          "prior_decisions": [],
+          "change_reason": "历史4月灵巧操作、5月Era0/RoboChallenge和各轮融资均非本次VPP2/RoboDojo开源，属于另一模型事件。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:92766d57bc2c956a"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "量坤科技",
+      "title": "清华校园来了一群投资人",
+      "company": "量坤科技",
+      "score": 45,
+      "sector": "量子计算与科学计算",
+      "financing": "",
+      "source": "投资界",
+      "location": "经营地：北京市（注册/总部待核）",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "经营地：北京市（注册/总部待核）",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-276bc9d2290a160cbaac904f"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "量坤科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-276bc9d2290a160cbaac904f",
+            "source_url": "https://fieldquantum.tech/contact",
+            "checked_at": "2026-10-12T18:25:08.521053+00:00",
+            "subject": "量坤科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "address": "北京市海淀区北四环西路9号银谷大厦916室"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-e0806e0bc4213b56f71a",
+      "company_canonical_name": "量坤科技",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/8RjKKVHqOkh6MpU-q2uvyQ",
+      "article_title": "清华校园来了一群投资人",
+      "event_desc": "量坤科技在AI for Science专场路演中介绍融合量子计算、人工智能与高性能计算的科学计算基础设施，面向分子模拟等任务协调不同算力。公司客户主要集中在新能源和半导体领域，已实现项目交付。",
+      "insight": "新能源和半导体客户的项目交付，为混合算力方案提供了实际应用线索。后续值得关注不同算力在交付中的实际贡献，以及分子模拟精度、运行时间和单次计算成本的改善幅度。",
+      "event_headline": "量坤科技披露混合算力方案，已向新能源和半导体客户交付项目",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "量坤正文明确新能源和半导体客户项目已交付，混合量子、AI、HPC计算并非空路演口号，保留科学计算服务线索；不认定本次融资完成。10月12日accepted发布时间有效。",
+      "event_headline_source": "70c757ef0a1d10eb9ce2ce0f4243a89fbf3d0391308338c62a7c1e3ab801b79d",
+      "location_status": "business_confirmed_subject_pending",
+      "location_basis": [
+        {
+          "evidence_id": "geo-276bc9d2290a160cbaac904f",
+          "source_url": "https://fieldquantum.tech/contact",
+          "checked_at": "2026-10-12T18:25:08.521053+00:00",
+          "subject": "量坤科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "address": "北京市海淀区北四环西路9号银谷大厦916室"
+          }
+        }
+      ],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "fa0196cb21213d94feacf7c895e6b8b4570cf0f1cab973b6942fd204ecb4f3df",
+        "input_row_sha256": "f1c1676881d587e1e25c6d7045945cddb143cd26827e79fb7854f9b9995b4c10",
+        "reason": "量坤正文明确新能源和半导体客户项目已交付，混合量子、AI、HPC计算并非空路演口号，保留科学计算服务线索；不认定本次融资完成。10月12日accepted发布时间有效。",
+        "scope": {
+          "technology_evidence": "融合量子计算、人工智能与高性能计算，为分子模拟等任务协调算力，并已有项目交付。",
+          "value_reason": "为材料研发精度、运行时间及计算成本提供可核的客户应用路线。"
+        },
+        "stage": {
+          "status": "项目已交付；路演展示",
+          "reason": "融合量子计算、人工智能与高性能计算，为分子模拟等任务协调算力，并已有项目交付。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "稳定主体及本轮公司候选检索未找到相同混合算力项目交付记录；不是宣称全网首次，也不把路演地点当总部。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:b1d8852b81b3720d"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "新忆科技",
+      "title": "清华校园来了一群投资人",
+      "company": "新忆科技",
+      "score": 70,
+      "sector": "新型存储器与AI推理芯片",
+      "financing": "",
+      "source": "投资界",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "新忆科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-a0fe0204f818e545738f",
+      "company_canonical_name": "新忆科技",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/8RjKKVHqOkh6MpU-q2uvyQ",
+      "article_title": "清华校园来了一群投资人",
+      "event_desc": "新忆科技在路演中介绍，其新型阻变存储器（RRAM）技术已进入量产应用，已在显示触控驱动领域为品牌客户供应RRAM IP。公司通过验证芯片测试存算方案能效，目前正推进面向神经网络和大语言模型的推理芯片开发。",
+      "insight": "显示触控驱动领域的RRAM IP供货构成现有商业化基础，推理芯片开发则尝试将存储技术延伸至AI计算。关键观察点是验证芯片的能效结果能否转化为可量产产品，以及良率、模型适配和客户导入进度。",
+      "event_headline": "新忆科技披露RRAM量产应用与IP供货，推进AI推理芯片开发",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "新忆的RRAM量产应用和显示触控客户IP供货有独立企业事实，AI推理芯片仍在开发。保留存储到存算产品延伸线索，不将验证芯片误写量产AI芯片；原文10月12日发布。",
+      "event_headline_source": "0be475a3c1da8fc35d815b5807e57c134be5c2b96c924fe8dc930011d5ba1cdf",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "b819f1ca039a681705394e86d9f6560ff4e90cb2a0cb53e01cb468ceecd58edf",
+        "input_row_sha256": "a520dc039fc946ba962d776135be5b43d2d6f1d402f1f6f5a1069ffc774f9c88",
+        "reason": "新忆的RRAM量产应用和显示触控客户IP供货有独立企业事实，AI推理芯片仍在开发。保留存储到存算产品延伸线索，不将验证芯片误写量产AI芯片；原文10月12日发布。",
+        "scope": {
+          "technology_evidence": "RRAM已进入量产应用并向品牌客户供应IP，验证芯片测试能效、推进神经网络和大模型推理芯片。",
+          "value_reason": "关键存储IP商业基础和低功耗推理路线相连接，值得跟踪能效向客户产品的转化。"
+        },
+        "stage": {
+          "status": "RRAM IP已供货；推理芯片研发中",
+          "reason": "RRAM已进入量产应用并向品牌客户供应IP，验证芯片测试能效、推进神经网络和大模型推理芯片。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本轮稳定ID及名称候选历史没有同一RRAM供货/推理开发事件；未确认全称前不推定其他公司的历史。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:b1d8852b81b3720d"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "和光智成",
+      "title": "清华校园来了一群投资人",
+      "company": "和光智成",
+      "score": 35,
+      "sector": "AI材料研发与自主实验室",
+      "financing": "",
+      "source": "投资界",
+      "location": "地点待核",
+      "article_location": "北京昌平（已投用自主实验室所在地，不代表注册地或总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "和光智成",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-0fd4db54cdbf3907f3df",
+      "company_canonical_name": "和光智成",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/8RjKKVHqOkh6MpU-q2uvyQ",
+      "article_title": "清华校园来了一群投资人",
+      "event_desc": "和光智成将材料智能体、自主实验室与化学数据建设结合，由AI提出分子及合成方案，经真实实验验证后将数据反馈给模型。公司已在北京昌平投入使用千余平方米的自主实验室，通过承接委外研发，以及为客户部署模型和自主实验室，解决材料研发问题。",
+      "insight": "真实实验反馈使材料模型能够围绕工业客户要求迭代，委外研发与部署服务提供了明确的商业化路径。后续应关注研发项目交付周期、材料成本与性能达标率，以及实验室利用率和客户复购。",
+      "event_headline": "和光智成披露昌平自主实验室投用，承接材料委外研发",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "和光智成已有千余平方米自主实验室及委外研发、模型部署服务，材料方案由真实实验反馈，具备工程化事实，不将商业模式解释为已披露收入。北京昌平只作实验室经营地；新闻10月12日有效。",
+      "event_headline_source": "929969bbcbc3f2606b7ce8dd299164a65f2cda1e26095ac7bdef74e8eb54bbd2",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "北京昌平（已投用自主实验室所在地，不代表注册地或总部）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "61be0961a2b799541c05979f0e3edc16620fef9938492f71660d1cfe9db8ba7d",
+        "input_row_sha256": "28361e1b0f087587000e52e8834b2d6d54143b65fc158b615c34baa5e25916ab",
+        "reason": "和光智成已有千余平方米自主实验室及委外研发、模型部署服务，材料方案由真实实验反馈，具备工程化事实，不将商业模式解释为已披露收入。北京昌平只作实验室经营地；新闻10月12日有效。",
+        "scope": {
+          "technology_evidence": "材料智能体提出分子及合成方案，实验验证反馈；昌平自主实验室投用并承接客户研发。",
+          "value_reason": "真实实验闭环连接工业客户的成本、交付和性能要求，可观察材料研发服务效率。"
+        },
+        "stage": {
+          "status": "实验室投用及研发服务",
+          "reason": "材料智能体提出分子及合成方案，实验验证反馈；昌平自主实验室投用并承接客户研发。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "稳定主体历史检索没有同一实验室投用或服务记录，暂无旧排除，路演不是新签约。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:b1d8852b81b3720d"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "深度自主",
+      "title": "清华校园来了一群投资人",
+      "company": "深度自主",
+      "score": 35,
+      "sector": "自主科学发现与实验室智能化",
+      "financing": "",
+      "source": "投资界",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "深度自主",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-84a7c83879137ddaf8a2",
+      "company_canonical_name": "深度自主",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/8RjKKVHqOkh6MpU-q2uvyQ",
+      "article_title": "清华校园来了一群投资人",
+      "event_desc": "深度自主面向科学超级智能，探索由AI与真实实验反馈共同驱动的自主科学发现。创始人许治平介绍，团队尝试在淀粉测定实验中让系统分析失败原因、提出新假设，并生成新的实验方案进行验证，希望让模型能够调用仪器、执行实验并根据结果决定下一步。",
+      "insight": "以失败实验驱动假设更新，产品方向从固定流程自动化延伸到科学决策。商业价值取决于闭环实验的可重复性、人工介入比例，以及在具体科研任务中减少无效实验的能力。",
+      "event_headline": "深度自主披露淀粉测定实验中的AI失败分析与方案迭代探索",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "深度自主明确是创业公司，淀粉测定失败分析、假设生成及实验方案验证是具体探索，正面日报可发现技术线索，不要求已量产或收入；仅表述尝试，不声称全面自主运行。10月12日原文有效。",
+      "event_headline_source": "64494164566b3bc0cc2e43dc809d03f95c405916d899b13b192511ea90fa1109",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "a475a1c0b1c8e4ee065c899c70f68b9a7f9bb0ec41026945044643ae4c32c748",
+        "input_row_sha256": "dd3ee81e8e45dd01736fa68a7956196fd79553613e064f3615d1901d23216ed7",
+        "reason": "深度自主明确是创业公司，淀粉测定失败分析、假设生成及实验方案验证是具体探索，正面日报可发现技术线索，不要求已量产或收入；仅表述尝试，不声称全面自主运行。10月12日原文有效。",
+        "scope": {
+          "technology_evidence": "淀粉测定实验中尝试让系统解释失败、提出假设并生成新方案验证。",
+          "value_reason": "把实验自动化推进到失败反馈与科学决策闭环，具有研发效率路线观察价值。"
+        },
+        "stage": {
+          "status": "自主科学发现试验探索",
+          "reason": "淀粉测定实验中尝试让系统解释失败、提出假设并生成新方案验证。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本轮名称/稳定ID没有同一淀粉试验探索历史，缺工商全称不以其他同名主体代替。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:b1d8852b81b3720d"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "数全基因",
+      "title": "清华校园来了一群投资人",
+      "company": "数全基因",
+      "score": 50,
+      "sector": "AI制药服务与血浆RNA分析",
+      "financing": "",
+      "source": "投资界",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "数全基因",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-fccc94e3fb4df2677b56",
+      "company_canonical_name": "数全基因",
+      "identity_status": "unresolved",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/8RjKKVHqOkh6MpU-q2uvyQ",
+      "article_title": "清华校园来了一群投资人",
+      "event_desc": "数全基因聚焦AI制药服务，希望通过血浆RNA捕捉疾病状态变化，为患者分层、疗效监测及药物研发提供辅助判断。公司已与十多家医院开展近20项临床合作和科研项目，在临床研究中积累数据，并向药物试验与药企服务延伸。",
+      "insight": "多医院临床合作有助于积累患者级动态数据，为患者分层和药企研发服务形成差异化基础。后续应关注检测结果与临床终点的关联强度、跨医院数据一致性，以及药企付费项目的转化率。",
+      "event_headline": "数全基因披露与十多家医院开展近20项临床合作和科研项目",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "数全基因有十多家医院、近20项临床合作和科研项目，血浆RNA用于疾病动态判断，具备真实应用线索；不将科研合作写作获批诊断产品或药企收入。10月12日accepted新闻有效。",
+      "event_headline_source": "3fe9a7a84da8f3984f3dcadd2264f8a1fb40a21785dd03fd9a158b8cb7045920",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "4b67be65234b4c9b8a4e334fa6c2ffa72d1c9775aba60c5844fd4ca614940206",
+        "input_row_sha256": "f7cb0153039c3a54c0b593b7fd5b4c8d9687cb26ee3aa0c7329144b1d6641617",
+        "reason": "数全基因有十多家医院、近20项临床合作和科研项目，血浆RNA用于疾病动态判断，具备真实应用线索；不将科研合作写作获批诊断产品或药企收入。10月12日accepted新闻有效。",
+        "scope": {
+          "technology_evidence": "血浆RNA疾病状态分析，十多家医院近20项临床和科研合作积累患者数据。",
+          "value_reason": "患者级动态数据可支撑药物研发、患者分层和疗效监测，应观察跨医院可重复性。"
+        },
+        "stage": {
+          "status": "临床科研合作已开展",
+          "reason": "血浆RNA疾病状态分析，十多家医院近20项临床和科研合作积累患者数据。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "稳定主体检索没有同一血浆RNA临床合作事件，既有合作的实际启动日未知，不写成路演当日新签。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:b1d8852b81b3720d"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "煜晟智元",
+      "title": "清华校园来了一群投资人",
+      "company": "煜晟智元",
+      "score": 60,
+      "sector": "AI药物研发与虚拟类器官",
+      "financing": "",
+      "source": "投资界",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "煜晟智元",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-37aa1a65ca81f03564fb",
+      "company_canonical_name": "煜晟智元",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/8RjKKVHqOkh6MpU-q2uvyQ",
+      "article_title": "清华校园来了一群投资人",
+      "event_desc": "煜晟智元以高仿真虚拟类器官世界模型为核心，结合真实类器官、患者来源样本数据与小动物免疫模型，持续校准模型中的免疫微环境。创始人叶宇轩在路演中展示了由类器官数据训练的虚拟心脏类器官模型。团队希望借助自研单分子数字免疫检测技术，捕捉微量样本中的免疫标志物变化，为疗效与免疫安全性预测提供依据。",
+      "insight": "真实类器官与免疫检测数据用于校准虚拟模型，尝试提高药物反应预测的生物学真实性。投资关注点是模型对未见样本的预测表现、免疫安全性验证结果，以及获取患者样本和开展实验的单位成本。",
+      "event_headline": "煜晟智元展示虚拟心脏类器官模型，探索疗效与免疫安全性预测",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "煜晟智元在原文六家初创企业中有独立主体和虚拟心脏类器官模型展示，真实类器官数据校准机制具体。作为技术线索保留，疗效/安全性预测仍是目标，非临床验证通过；新闻10月12日有效。",
+      "event_headline_source": "ecc61f5445edd11fd5cda1efd74fba05d29c5a2d675efb165348336271fa9ecf",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "d27fb3ab3e40ae831a9c65aab2788b1ad5692a38e36606a0a46957d7e136169d",
+        "input_row_sha256": "fe1996c241635b67d0c9ecf0d6011e2a03d7b26a3a3f1c65a2efed48a09110d5",
+        "reason": "煜晟智元在原文六家初创企业中有独立主体和虚拟心脏类器官模型展示，真实类器官数据校准机制具体。作为技术线索保留，疗效/安全性预测仍是目标，非临床验证通过；新闻10月12日有效。",
+        "scope": {
+          "technology_evidence": "以真实类器官、患者样本和免疫模型校准虚拟类器官，并展示虚拟心脏模型。",
+          "value_reason": "提供AI药研模拟与真实生物反馈融合路线，价值在未见样本预测验证而非在校身份。"
+        },
+        "stage": {
+          "status": "模型展示及研发探索",
+          "reason": "以真实类器官、患者样本和免疫模型校准虚拟类器官，并展示虚拟心脏模型。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本轮稳定主体历史无同一类器官展示记录，学校地址不证明企业地点或工商主体。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:b1d8852b81b3720d"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "字节",
+      "identity_mentions": [
+        {
+          "name": "字节世界模型",
+          "relation": "product",
+          "evidence": "背后正是字节一直在默默研发的世界模型。"
+        }
+      ],
+      "title": "AI从「造图」卷到「造世界」，这次真有点科幻了。。。",
+      "company": "字节",
+      "score": 80,
+      "sector": "人工智能／世界模型／空间智能",
+      "financing": "",
+      "source": "量子位",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "字节",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-b1c5e73e1471e806c625",
+      "company_canonical_name": "字节",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Wiils3L-7Poe-F7aAfeR4w",
+      "article_title": "AI从「造图」卷到「造世界」，这次真有点科幻了。。。",
+      "event_desc": "字节在抖音集团《2026 美好奇妙夜》科技节目中展示尚未正式发布的世界模型，演示文本生成三维场景、自由探索、实时交互、物体生成与编辑，以及跨场景连通。节目还展示了自动驾驶复杂路况模拟和机器人虚拟家务操作。",
+      "insight": "展示将生成内容延伸为可探索、可编辑的三维环境，并呈现自动驾驶和机器人仿真的应用路径。其商业化潜力取决于交互延迟、场景一致性，以及虚拟训练对真实任务成功率的提升幅度。",
+      "event_headline": "字节首次展示未发布世界模型，演示三维交互与虚拟训练",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "字节世界模型有三维生成、实时交互、可编辑空间及物理AI模拟演示，属于具体研发对标事实，不是节目宣传本身。保留未正式发布状态；字节简称未全局合并，独立稳定ID沿用。10月12日原文有效。",
+      "event_headline_source": "697defadc5e6cb862fb848975be0849d1bb66f5f68a268a04582ae5eb5967293",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "c0021145de3bc818c0cff8333c5e2ce1610c419e4004de0dca144423cfbf8532",
+        "input_row_sha256": "6ca814aba85be89c3958b66838caefedea77f916e2655b52ebb5be7143a3ff5c",
+        "reason": "字节世界模型有三维生成、实时交互、可编辑空间及物理AI模拟演示，属于具体研发对标事实，不是节目宣传本身。保留未正式发布状态；字节简称未全局合并，独立稳定ID沿用。10月12日原文有效。",
+        "scope": {
+          "technology_evidence": "现场展示三维场景生成、物体交互编辑、跨场景连通，以及车辆/机器人虚拟训练演示。",
+          "value_reason": "可交互空间建模为物理AI数据与试错提供技术路线；未披露真实客户部署或降本幅度。"
+        },
+        "stage": {
+          "status": "未正式发布模型的现场演示",
+          "reason": "现场展示三维场景生成、物体交互编辑、跨场景连通，以及车辆/机器人虚拟训练演示。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "当前字节临时主体历史无同一世界模型演示；不借未确认简称把字节跳动各产品历史粗并，亦不称全网首次。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:c7138f2992a0fc00"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "华为",
+      "identity_mentions": [
+        {
+          "name": "Memento 3",
+          "relation": "product",
+          "evidence": "华为诺亚方舟实验室联合UCL等团队拿出了一个名叫Memento 3的AI智能体系统"
+        }
+      ],
+      "title": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
+      "company": "华为",
+      "score": 60,
+      "sector": "人工智能／智能体与世界模型",
+      "financing": "",
+      "source": "量子位",
+      "location": "广东省 / 深圳市",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-3a4c9ae28ffec2813559bade"
+        ],
+        "subject_evidence_ids": [
+          "geo-3a4c9ae28ffec2813559bade"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "华为",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-3a4c9ae28ffec2813559bade"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-3a4c9ae28ffec2813559bade",
+            "source_url": "https://www.huawei.com/cn/contact-us",
+            "checked_at": "2026-10-12T03:39:57.997902+00:00",
+            "subject": "华为",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "address": "深圳市龙岗区坂田华为基地"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-82eaaba81d9dcc54deab",
+      "company_canonical_name": "华为",
+      "identity_status": "confirmed",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/xNkPdSbkGlPqozAqYW-lOA",
+      "article_title": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
+      "event_desc": "华为诺亚方舟实验室联合UCL等团队研发Memento 3智能体系统，以Claude Opus 5为底模，在不更新模型权重、不针对游戏微调的情况下，通过迭代规则手册和可执行Python世界模型，完成ARC-AGI-3公开集25款游戏、183个关卡，以7518次操作获得100分RHAE成绩，操作次数较人类基准减少约56%。在Atari Pong实验中，系统形成控制策略后停止调用大模型，在三次不同开局中均取得21：0成绩。",
+      "insight": "Memento 3将探索所得规则固化为可验证、可执行的代码，使冻结参数的大模型能够持续修正策略，并在策略成熟后脱离逐步模型推理执行。其产业价值在于为智能体任务效率与推理调用优化提供技术路径，后续需观察真实业务任务成功率、规则变化下的适应能力及包含探索阶段在内的总推理成本。",
+      "event_headline": "华为联合研发Memento 3，以代码世界模型完成游戏评测",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "华为诺亚方舟团队参与Memento 3研发，规则手册和可执行世界模型有具体方法及游戏集实验，具有智能体技术对标价值。按媒体所述实验结果表达，不认定真实业务部署；10月12日新闻有效。",
+      "event_headline_source": "a674b95cc7ba8bff9ae9fc3d34ed3aa0a56abcebff5394ecffd186ce8e0592c3",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-3a4c9ae28ffec2813559bade",
+          "source_url": "https://www.huawei.com/cn/contact-us",
+          "checked_at": "2026-10-12T03:39:57.997902+00:00",
+          "subject": "华为",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "深圳市",
+            "address": "深圳市龙岗区坂田华为基地"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "c37c486e538d8184e008c3e8cabb274cdb9cfed2a7f2e35cdbc6d8a067ce99de",
+        "input_row_sha256": "ab5cb6c489e70b0509faa74fb979fe148802ea96c937aa9911ffd39723f779b5",
+        "reason": "华为诺亚方舟团队参与Memento 3研发，规则手册和可执行世界模型有具体方法及游戏集实验，具有智能体技术对标价值。按媒体所述实验结果表达，不认定真实业务部署；10月12日新闻有效。",
+        "scope": {
+          "technology_evidence": "Code as Model迭代规则手册与Python世界模型，冻结底模权重，完成25款游戏183关；Pong策略可独立执行。",
+          "value_reason": "外部可验证模型减少逐步推理调用并支持策略纠错，值得观察总探索成本及任务迁移。"
+        },
+        "stage": {
+          "status": "联合研究实验完成",
+          "reason": "Code as Model迭代规则手册与Python世界模型，冻结底模权重，完成25款游戏183关；Pong策略可独立执行。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870",
+            "accepted_history:dcbc0d3ad40fceb9",
+            "accepted_history:9cc3abaf5465dba7",
+            "accepted_history:6da8d449cb36ea2e",
+            "accepted_history:03ba16f9842a933f",
+            "accepted_history:92be5a26b95a3976",
+            "accepted_history:da0943f5372b111c",
+            "accepted_history:2ad1d378449de219",
+            "prior_decision:7a3dd28ea3fe025e",
+            "prior_decision:c94804e1ff53b6fc",
+            "prior_decision:2551f93e336ce235"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:7a3dd28ea3fe025e",
+              "comparison": "different_event",
+              "reason": "已收录DeltaBox、昇腾、专利协议、AgentOS、芯片份额和手机产品均是不同技术事件；10月12日nova调价旧排除只针对价格变化，Memento有独立研究证据，不沿用公司黑名单。"
+            },
+            {
+              "evidence_id": "prior_decision:c94804e1ff53b6fc",
+              "comparison": "different_event",
+              "reason": "已收录DeltaBox、昇腾、专利协议、AgentOS、芯片份额和手机产品均是不同技术事件；10月12日nova调价旧排除只针对价格变化，Memento有独立研究证据，不沿用公司黑名单。"
+            },
+            {
+              "evidence_id": "prior_decision:2551f93e336ce235",
+              "comparison": "different_event",
+              "reason": "已收录DeltaBox、昇腾、专利协议、AgentOS、芯片份额和手机产品均是不同技术事件；10月12日nova调价旧排除只针对价格变化，Memento有独立研究证据，不沿用公司黑名单。"
+            }
+          ],
+          "change_reason": "已收录DeltaBox、昇腾、专利协议、AgentOS、芯片份额和手机产品均是不同技术事件；10月12日nova调价旧排除只针对价格变化，Memento有独立研究证据，不沿用公司黑名单。",
+          "new_evidence_ids": [
+            "article:b6192287b7ad1807"
+          ]
+        },
+        "evidence_ids": [
+          "article:b6192287b7ad1807"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "台州东部数控",
+      "title": "台州新（代）市长上任后，迎来杭州企业家考察团",
+      "company": "台州东部数控",
+      "score": 60,
+      "sector": "高端数控机床与机器人制造装备",
+      "financing": "",
+      "source": "涌金楼",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "台州东部数控",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-0eab600bd11d73cfea0f",
+      "company_canonical_name": "台州东部数控",
+      "identity_status": "unresolved",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/Iq5SdqrxpFagTywJPYKrJA",
+      "article_title": "台州新（代）市长上任后，迎来杭州企业家考察团",
+      "event_desc": "文章回顾，台州东部数控自2023年起与杭州宇树科技开展深度合作，为其定制高精度机床，专门加工人形机器人的关节、齿轮等微小型精密零件。",
+      "insight": "面向机器人微小型关节、齿轮的定制加工装备，使东部数控直接参与人形机器人精密制造环节。其商业化潜力值得结合加工精度、良率、客户验收及同类客户复购情况进一步评估。",
+      "event_headline": "台州东部数控自2023年起为宇树定制精密零件加工机床",
+      "event_signal": "context",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "东部数控定制高精度机床加工宇树人形关节、齿轮有明确产品和客户角色，保留精密制造供应链线索，不因考察访问入选。合作自2023年起，未报道本次新订单；10月12日新闻仍有效。",
+      "event_headline_source": "1403a6b838d8019ad43c562ed658a02b1c8dc674327533505ad2bcbefbc31802",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "c77cf9577d1d7439b916e019bd7883d0ac992f84a05094437a9fcc4de3d05ef8",
+        "input_row_sha256": "96491d46df742dbbe9d35cb94a0667cebdba4474221c37f7d8d8e99454f34641",
+        "reason": "东部数控定制高精度机床加工宇树人形关节、齿轮有明确产品和客户角色，保留精密制造供应链线索，不因考察访问入选。合作自2023年起，未报道本次新订单；10月12日新闻仍有效。",
+        "scope": {
+          "technology_evidence": "为宇树定制机床，加工人形机器人关节、齿轮等微小型精密零件。",
+          "value_reason": "提供机器人精密加工装备的实际客户联系，可观察加工精度、客户验收和复购。"
+        },
+        "stage": {
+          "status": "历史客户合作披露",
+          "reason": "为宇树定制机床，加工人形机器人关节、齿轮等微小型精密零件。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本轮稳定ID/候选名检索没有同一机床合作记录，旧合作可作本项目有价值发现，不写成10月10日新合作。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:f11338c174db6e77"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "无问芯穹",
+      "title": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
+      "company": "无问芯穹",
+      "score": 70,
+      "sector": "AI原生基础设施／异构算力调度／大模型推理服务",
+      "financing": "已完成C轮融资23亿元，累计融资43亿元。文章列举了公司历次投资方，包括杭州高新金投、联想、腾讯、百度、红杉中国、启明创投等，但未明确本轮投资方构成、估值及具体资金用途。",
+      "source": "量子位",
+      "location": "上海市 / 上海市",
+      "article_location": "上海市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 上海市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-e3d27864c15ad9055eb8cefe"
+        ],
+        "subject_evidence_ids": [
+          "geo-e3d27864c15ad9055eb8cefe"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "无问芯穹",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-e3d27864c15ad9055eb8cefe"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-e3d27864c15ad9055eb8cefe",
+            "source_url": "https://www.infini-ai.com/",
+            "checked_at": "2026-10-12T03:40:17.200323+00:00",
+            "subject": "无问芯穹",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "address": "上海市徐汇区龙台路180号模速空间"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-670e6f33835f0f45f7f9",
+      "company_canonical_name": "无问芯穹",
+      "identity_status": "confirmed",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/MfLg3zHeYGdlmuuNxVaP7g",
+      "article_title": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
+      "event_desc": "无问芯穹已完成23亿元C轮融资，累计融资43亿元。公司通过软件编排汇聚异构算力，提供算力调度、大模型服务和行业解决方案；据文中披露，平台已适配16种芯片，服务37000P算力，大模型服务平台日均Token使用量半年增长超过40倍，95%以上推理任务来自Agent。另据文章转述彭博社援引知情人士报道，公司近几个月已以保密形式向港交所递交IPO申请。",
+      "insight": "无问芯穹通过异构芯片适配、跨域调度和推理优化，将分散算力转化为可直接调用的模型服务，商业价值在于降低客户硬件绑定及部署成本。Agent推理需求增长为平台扩张提供支撑，后续值得跟踪付费客户留存、单位Token毛利及算力采购结算与客户回款的匹配情况。",
+      "event_headline": "无问芯穹完成23亿元C轮融资，累计融资达43亿元",
+      "event_signal": "major",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "无问芯穹完成23亿元C轮并披露16芯片适配、异构调度及平台用量，融资结合明确AI Infra业务具备产业价值。上海总部不妨碍正面对标；保密IPO消息仅为知情人士报道，不写成已获批准。10月12日新闻有效。",
+      "event_headline_source": "fb894041d99808c89937d22a1030b97f5e5d915f0fed56de26bc5ac5bf0f4630",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-e3d27864c15ad9055eb8cefe",
+          "source_url": "https://www.infini-ai.com/",
+          "checked_at": "2026-10-12T03:40:17.200323+00:00",
+          "subject": "无问芯穹",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "address": "上海市徐汇区龙台路180号模速空间"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "87b308cc6c1b2011309cd41271defb0ac5ebfe0880ce9b9fa00cfa54b847a13d",
+        "input_row_sha256": "cac43a65b4575843fba54fa50e711ea521d83c1f885208d540070cd81975a2be",
+        "reason": "无问芯穹完成23亿元C轮并披露16芯片适配、异构调度及平台用量，融资结合明确AI Infra业务具备产业价值。上海总部不妨碍正面对标；保密IPO消息仅为知情人士报道，不写成已获批准。10月12日新闻有效。",
+        "scope": {
+          "technology_evidence": "通过软件编排异构算力，适配16种芯片，服务37000P，提供模型推理和行业方案。",
+          "value_reason": "独立平台降低硬件绑定和推理部署成本，融资支持规模扩张；业务质量看付费留存与单位Token毛利。"
+        },
+        "stage": {
+          "status": "C轮融资完成；IPO申请为转述",
+          "reason": "通过软件编排异构算力，适配16种芯片，服务37000P，提供模型推理和行业方案。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870",
+            "accepted_history:bf2c1b3580838d4a"
+          ],
+          "prior_decisions": [],
+          "change_reason": "10月12日历史为与基元律动联合发布Agent-Native模型，不是本次C轮融资及算力平台经营披露，保留另一事件。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:1bbdbd9c8212a96f"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "波士顿动力",
+      "identity_mentions": [
+        {
+          "name": "Atlas",
+          "relation": "product",
+          "evidence": "Atlas（波士顿动力的人形机器人）"
+        },
+        {
+          "name": "Spot",
+          "relation": "product",
+          "evidence": "波士顿动力公司四足机器人Spot"
+        },
+        {
+          "name": "Stretch",
+          "relation": "product",
+          "evidence": "后来，Spot开始承担工业巡检任务，Stretch进入物流仓库搬运箱子，波士顿动力逐渐有了购买和使用它们的客户。"
+        }
+      ],
+      "title": "波士顿动力，告别传奇？",
+      "company": "波士顿动力",
+      "score": 60,
+      "sector": "具身智能与工业人形机器人",
+      "financing": "",
+      "source": "创业邦",
+      "location": "US / Waltham",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Waltham",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-f5f1bcb3bc2c3cd5d7f631fe"
+        ],
+        "subject_evidence_ids": [
+          "geo-f5f1bcb3bc2c3cd5d7f631fe"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "波士顿动力",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Massachusetts",
+          "city": "Waltham",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-f5f1bcb3bc2c3cd5d7f631fe"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-f5f1bcb3bc2c3cd5d7f631fe",
+            "source_url": "https://bostondynamics.com/news/boston-dynamics-expands-massachusetts-footprint-with-new-323000-square-foot-facility-in-waltham",
+            "checked_at": "2026-10-12T18:26:51.795650+00:00",
+            "subject": "波士顿动力",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Massachusetts",
+              "city": "Waltham"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-836ad36b506a174595c3",
+      "company_canonical_name": "波士顿动力",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/N620LYrBVmWpdahEn69wYA",
+      "article_title": "波士顿动力，告别传奇？",
+      "event_desc": "波士顿动力10月公布Atlas新一代四指机械手设计，面向零件抓取、工具使用及仿真训练。公司今年9月在现代美国佐治亚州工厂启用机器人元工厂应用中心，Atlas正在学习按装配顺序备料和放置汽车零部件，计划2028年开始部署、2030年扩展至零部件装配。Google DeepMind参与机器人基础模型研发，英伟达提供计算和仿真支持，现代提供生产数据、零部件和供应链支持。罗希特·普拉萨德近日正式出任公司CEO。",
+      "insight": "Atlas四指机械手围绕零件抓取和工具操作设计，并通过现代工厂开展训练，体现其从运动能力展示转向具体制造工序验证。商业化关键在于连续作业成功率、节拍、故障恢复时间与维护成本，以及能否将现代场景中的能力复制到其他工业客户。",
+      "event_headline": "波士顿动力公布Atlas四指机械手，推进汽车工厂训练",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "Atlas四指机械手和现代应用中心训练有产品/制造工序实质，不按CEO任命单独入选。2028部署和2030装配仍为计划，现代工厂是客户项目地，已补官方美国总部证据。10月12日新闻有效。",
+      "event_headline_source": "aed30dd684ee541f184aab1a313afd0b2f57dfe7093baad72b2f3591f0a4e12b",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-f5f1bcb3bc2c3cd5d7f631fe",
+          "source_url": "https://bostondynamics.com/news/boston-dynamics-expands-massachusetts-footprint-with-new-323000-square-foot-facility-in-waltham",
+          "checked_at": "2026-10-12T18:26:51.795650+00:00",
+          "subject": "波士顿动力",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "Massachusetts",
+            "city": "Waltham"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "c82259388e4cbe4f9accaba8d2ded0c44b02b9caaa4d6b096f2fada687626b55",
+        "input_row_sha256": "093f3e03efa3240d232fc3c76fb0fa010caa3359bfd6996569db088a1c741f7b",
+        "reason": "Atlas四指机械手和现代应用中心训练有产品/制造工序实质，不按CEO任命单独入选。2028部署和2030装配仍为计划，现代工厂是客户项目地，已补官方美国总部证据。10月12日新闻有效。",
+        "scope": {
+          "technology_evidence": "四指机械手面向零件抓取和工具使用，Atlas在现代工厂应用中心训练备料与放置。",
+          "value_reason": "从运动展示转向装配工序验证，为工业人形可靠性、节拍及维护成本提供对标。"
+        },
+        "stage": {
+          "status": "机械手设计公布、工厂训练；部署为计划",
+          "reason": "四指机械手面向零件抓取和工具使用，Atlas在现代工厂应用中心训练备料与放置。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "当前稳定主体历史未找到同一四指机械手及应用中心事件，保留研发与训练事实，不把公司成立久当排除条件。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:13e37dc394b4b8ca"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "宇树科技",
+      "title": "光合创投合伙人朱嘉：科技投资的快决断与慢等待",
+      "company": "宇树科技",
+      "score": 80,
+      "sector": "具身智能与机器人",
+      "financing": "文章称光合创投于2024年年中投资宇树科技，当时估值35亿元人民币；2025年6月融资时估值达到127亿元人民币。未披露融资金额及资金用途。",
+      "source": "创业邦",
+      "location": "浙江省 / 杭州市",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "subject_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宇树科技股份有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-13a3a18a9bf559ad8bfbeaac"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+            "source_url": "https://www.unitree.com/cn/contact",
+            "checked_at": "2026-10-12T18:25:09.025885+00:00",
+            "subject": "宇树科技股份有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-35826112ed957325dfd4",
+      "company_canonical_name": "宇树科技股份有限公司",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/hbqMBWrxJC_Uy9Fyl-7JLQ",
+      "article_title": "光合创投合伙人朱嘉：科技投资的快决断与慢等待",
+      "event_desc": "据光合创投合伙人朱嘉回顾，多家头部科技公司的具身智能研发团队采购宇树机器人本体，用于测试软件、算法和模型。宇树针对研发场景优化关节设计，减少意外碰撞故障导致机器人失效的情况，并提供软件平台，方便客户开发具身大脑模型。",
+      "insight": "机器人本体的可靠性优化与模型开发软件平台结合，有助于降低具身研发团队的硬件适配和实验中断成本，使宇树从硬件供应商延伸为研发平台提供方。商业价值还取决于研发客户复购、软件平台使用规模及其向实际作业场景的转化。",
+      "event_headline": "宇树科技据投资人回顾优化研发硬件并提供模型开发平台",
+      "event_signal": "context",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "宇树面向具身模型客户的关节可靠性优化和开发软件平台有具体披露，保留客户研发基础设施线索，不因上市或成熟排除。采购是回顾，不造新增订单；杭州总部已由官网补证，10月12日新闻有效。",
+      "event_headline_source": "67bc76bdfd5ad5a66433cf42eefd0bf1c0429605100e99c09affde28bb96b6a9",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+          "source_url": "https://www.unitree.com/cn/contact",
+          "checked_at": "2026-10-12T18:25:09.025885+00:00",
+          "subject": "宇树科技股份有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "d3b3baa66f6f58052ed27e0b1e0465c22fe59ea783570d1bc47e2d766490ad7c",
+        "input_row_sha256": "7ffe5f250b1adacd65d3cf1d852218be349b29dba7cb3034caafa2031b2b2a20",
+        "reason": "宇树面向具身模型客户的关节可靠性优化和开发软件平台有具体披露，保留客户研发基础设施线索，不因上市或成熟排除。采购是回顾，不造新增订单；杭州总部已由官网补证，10月12日新闻有效。",
+        "scope": {
+          "technology_evidence": "研发客户采购机器人本体，关节设计减少碰撞失效，提供方便开发具身大脑的软件平台。",
+          "value_reason": "将本体鲁棒性和软件开发环境结合，降低客户试验中断及硬件适配成本。"
+        },
+        "stage": {
+          "status": "投资人回顾客户采购与研发平台优化",
+          "reason": "研发客户采购机器人本体，关节设计减少碰撞失效，提供方便开发具身大脑的软件平台。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870",
+            "accepted_history:e04c219f981dcb33",
+            "accepted_history:581d98b075fdbac2",
+            "accepted_history:6c5dd95992e6a569",
+            "accepted_history:aa7ed4d1213d3138",
+            "accepted_history:a0800eb66f63fa6f",
+            "accepted_history:5e57c53dffe721e4",
+            "accepted_history:fcf7fa438de5721c",
+            "accepted_history:19afb9a5f76a9a87",
+            "accepted_history:86098b6c858da1dd",
+            "accepted_history:fedbba31c39e34f7",
+            "accepted_history:c13b0bce5338e34a",
+            "accepted_history:d4ee6f6bdfdd6c38",
+            "accepted_history:4e653e21a89e21a8",
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:1b675f2aef61b5fb",
+            "accepted_history:e5f539a1505ea4ce",
+            "accepted_history:721cabb6862eed6f",
+            "accepted_history:ed9a9fac1991d749",
+            "accepted_history:9f1775a103441203",
+            "accepted_history:e010772d19805e99",
+            "accepted_history:15d039c73dd7a90c",
+            "accepted_history:cc448fb1986f191a",
+            "accepted_history:a9601bf5150693fb"
+          ],
+          "prior_decisions": [],
+          "change_reason": "3月及8月投资回顾已披露头部客户与量产基础，6月GR00T参考平台和10月广州部署为其他节点；本条增量是关节碰撞失效优化和面向研发客户的软件平台机制，旧客户采购不重复计为新增订单。",
+          "new_evidence_ids": [
+            "article:7687f546bf28e897"
+          ]
+        },
+        "evidence_ids": [
+          "article:7687f546bf28e897"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "浙江悦和科技有限公司（简称“悦和科技”）",
+      "identity_mentions": [
+        {
+          "name": "悦和科技",
+          "relation": "same_entity",
+          "evidence": "浙江悦和科技有限公司（简称“悦和科技”）"
+        },
+        {
+          "name": "ECS系列无源无线测温芯片",
+          "relation": "product",
+          "evidence": "浙江悦和科技有限公司（简称“悦和科技”）全新上线ECS系列无源无线测温芯片"
+        }
+      ],
+      "title": "硬核突破！临平造“中国芯”全新上线！",
+      "company": "浙江悦和科技有限公司",
+      "score": 70,
+      "sector": "工业设备监测与无源无线传感芯片",
+      "financing": "",
+      "source": "临平发布",
+      "location": "经营地：浙江省 / 杭州市（注册/总部待核）",
+      "article_location": "临平算力小镇（经营地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "经营地：浙江省 / 杭州市（注册/总部待核）",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-1f2ee747321d991f3fa3bc0c"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "浙江悦和科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-1f2ee747321d991f3fa3bc0c",
+            "source_url": "https://ectrl.oss-cn-shenzhen.aliyuncs.com/cms/websit/guanyuwomen/index.html",
+            "checked_at": "2026-10-12T18:25:09.288605+00:00",
+            "subject": "浙江悦和科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市余杭区余杭街道文一西路1818-2号人工智能小镇12号楼506"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-8734036938571080388e",
+      "company_canonical_name": "浙江悦和科技有限公司",
+      "identity_status": "unresolved",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/SUG8z8nIKJ7sPg8RVwz5Jg",
+      "article_title": "硬核突破！临平造“中国芯”全新上线！",
+      "event_desc": "悦和科技全新上线ECS系列无源无线测温芯片，测温范围为-40℃至+180℃，测量精度为±1℃。芯片依靠读写器发射的射频能量工作，可直接贴装在旋转部件表面，文中披露信号接收距离为12至15米。团队历经近两年技术迭代，通过优化芯片设计和封装工艺，实现上述精度指标的稳定量产。公司无源无线测温系统已在电力、轴承、轨道交通、水轮发电机等领域应用，并批量应用到国家电网、南方电网、正泰集团等企业。",
+      "insight": "射频供能与贴装式测温机制减少了旋转设备布线限制，宽温域和±1℃精度有助于覆盖高温故障监测场景。既有系统批量应用提供了商业化基础，后续值得跟踪ECS系列自身的客户导入、出货规模与高温长期可靠性。",
+      "event_headline": "悦和科技推出ECS测温芯片，实现宽温域高精度稳定量产",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "悦和ECS宽温域无源无线芯片有具体指标、射频供能机制和稳定量产，工业监测系统已有客户应用，保留关键器件与产品进展。系统既有应用不全归为新ECS客户，已核杭州经营地、总部仍待核；10月12日新闻有效。",
+      "event_headline_source": "3d70d25b03d64701dbdea5d3824bc5f292bdad0f22a73d0dab5d8b5e9f1008ff",
+      "location_status": "business_confirmed_subject_pending",
+      "location_basis": [
+        {
+          "evidence_id": "geo-1f2ee747321d991f3fa3bc0c",
+          "source_url": "https://ectrl.oss-cn-shenzhen.aliyuncs.com/cms/websit/guanyuwomen/index.html",
+          "checked_at": "2026-10-12T18:25:09.288605+00:00",
+          "subject": "浙江悦和科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "杭州市余杭区余杭街道文一西路1818-2号人工智能小镇12号楼506"
+          }
+        }
+      ],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "de5837ad0d675f6ccdc85454d182862cd71a16d3f2e079703cbb45e5abc3b4aa",
+        "input_row_sha256": "010bebcb776b80d7204fb74e9a49ce6cd9a3627d44600c7ab3669a8ba11c51b2",
+        "reason": "悦和ECS宽温域无源无线芯片有具体指标、射频供能机制和稳定量产，工业监测系统已有客户应用，保留关键器件与产品进展。系统既有应用不全归为新ECS客户，已核杭州经营地、总部仍待核；10月12日新闻有效。",
+        "scope": {
+          "technology_evidence": "ECS测温-40至180℃、±1℃，射频供能，贴装旋转部件，设计和封装优化实现稳定量产。",
+          "value_reason": "解决旋转设备布线和高温内部热点监测限制，具备电力与工业故障预防应用价值。"
+        },
+        "stage": {
+          "status": "新芯片上线并实现稳定量产",
+          "reason": "ECS测温-40至180℃、±1℃，射频供能，贴装旋转部件，设计和封装优化实现稳定量产。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本轮稳定主体没有同一ECS上线历史，旧官网150℃产品属于既有系列背景，不将其与180℃新系列混同。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:d8d676f7f6505213"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "DeepSeek",
+      "title": "梁文锋的500亿，投向一座北方小城",
+      "company": "DeepSeek",
+      "score": 70,
+      "sector": "人工智能大模型及AI算力基础设施",
+      "financing": "文章称首轮融资规模500亿元人民币，投后估值约520亿美元；随后启动第二轮融资，原计划募资500亿元人民币、目标估值5000亿元人民币，并称近期即将完成的新一轮融资金额接近1000亿元人民币、估值超过700亿美元。第二轮在文中仍为待完成状态，融资信息未列明投资方或公司公告。",
+      "source": "36 氪",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_status": "confirmed",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/Fp4_7AgMDJvtPIszM1CrVQ",
+      "article_title": "梁文锋的500亿，投向一座北方小城",
+      "event_desc": "文章称DeepSeek于6月16日完成500亿元首轮融资，投后估值约520亿美元。另据文中转述的彭博社知情人士消息，DeepSeek计划在乌兰察布建设约1GW的AI数据中心，采用自建与外部租赁并行模式，部分算力预计于2027年底至2028年初上线。文章未提供融资资金用途的公司披露。",
+      "insight": "自建与外部租赁并行，可能让DeepSeek在扩充训练和推理算力的同时保留分期交付弹性。文中券商对1GW数据中心的综合投资估算为1600亿至1700亿元，观察重点是实际资金投入、自建与租赁比例及分期上线规模，而不是用已报道的首轮融资额推定全部建设资金已落实。",
+      "event_headline": "DeepSeek据报道完成500亿元首轮融资",
+      "event_signal": "major",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "DeepSeek乌兰察布1GW算力建设方案及自建/租赁安排是具体AI基础设施规划线索，保留计划状态和彭博知情人士来源。首轮融资此前已收录，不重复当新融资；融资时点口径有差异，不能把钱确定归于机房。10月12日新闻有效。",
+      "event_headline_source": "cf9461c960bdddd19d83bfcb99c0ab778e69f673dae15bfc8e7c9155d9439834",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "0477166ab4596067220aa141999fc1495d6f7380a028411445ea1256861662df",
+        "input_row_sha256": "2ced6cd7e51885507808a3710883616dc9a3cdf0744852a98b16c9ae65c5d9be",
+        "reason": "DeepSeek乌兰察布1GW算力建设方案及自建/租赁安排是具体AI基础设施规划线索，保留计划状态和彭博知情人士来源。首轮融资此前已收录，不重复当新融资；融资时点口径有差异，不能把钱确定归于机房。10月12日新闻有效。",
+        "scope": {
+          "technology_evidence": "报道称计划在乌兰察布建设约1GW AI数据中心，自建和租赁并行，部分算力预计2027末至2028初上线。",
+          "value_reason": "从模型/Agent软件节点延伸到大规模算力控制，关注分期资本开支和交付节奏；地点仅项目地不改杭州主体。"
+        },
+        "stage": {
+          "status": "融资背景回顾；数据中心为媒体转述计划",
+          "reason": "报道称计划在乌兰察布建设约1GW AI数据中心，自建和租赁并行，部分算力预计2027末至2028初上线。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870",
+            "accepted_history:553fc38f671c7af8",
+            "accepted_history:652599e78ac02448",
+            "accepted_history:a9914165e8f669d6",
+            "accepted_history:115aa043c3a0d34c",
+            "accepted_history:1b38ae9436891b28",
+            "accepted_history:96bb280561a2e737",
+            "accepted_history:4d0ff6faa1431143",
+            "accepted_history:c4999798456e3ea7",
+            "accepted_history:dd902924f16a8cd7",
+            "accepted_history:39cd2705933b1c58",
+            "accepted_history:c754d913b4aea42b",
+            "accepted_history:3c2fa55416291329",
+            "accepted_history:89b9175eec3a6ce7",
+            "accepted_history:24a5738e77ff3c74",
+            "accepted_history:46723b9e62e59e40",
+            "accepted_history:df48d5d0a8e57a7f",
+            "accepted_history:0ce074f776a7df00",
+            "accepted_history:450a9e200a518780",
+            "accepted_history:fee5adc7eeea25f4",
+            "accepted_history:a11c70966626e98d",
+            "accepted_history:acb664257ffa04b4",
+            "prior_decision:eb039cfd8aedceee",
+            "prior_decision:1615af08ab103075",
+            "prior_decision:b1dc62a56ac9b5f3"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:eb039cfd8aedceee",
+              "comparison": "different_event",
+              "reason": "既有8月首轮融资、9月二轮融资/IPO和DSec/Harness记录覆盖资本及软件节点，但未有这份乌兰察布1GW、自建租赁及上线窗口的具体建设方案；融资背景重复，仅保留算力规划增量。"
+            },
+            {
+              "evidence_id": "prior_decision:1615af08ab103075",
+              "comparison": "different_event",
+              "reason": "既有8月首轮融资、9月二轮融资/IPO和DSec/Harness记录覆盖资本及软件节点，但未有这份乌兰察布1GW、自建租赁及上线窗口的具体建设方案；融资背景重复，仅保留算力规划增量。"
+            },
+            {
+              "evidence_id": "prior_decision:b1dc62a56ac9b5f3",
+              "comparison": "different_event",
+              "reason": "既有8月首轮融资、9月二轮融资/IPO和DSec/Harness记录覆盖资本及软件节点，但未有这份乌兰察布1GW、自建租赁及上线窗口的具体建设方案；融资背景重复，仅保留算力规划增量。"
+            }
+          ],
+          "change_reason": "既有8月首轮融资、9月二轮融资/IPO和DSec/Harness记录覆盖资本及软件节点，但未有这份乌兰察布1GW、自建租赁及上线窗口的具体建设方案；融资背景重复，仅保留算力规划增量。",
+          "new_evidence_ids": [
+            "article:e2ac4f4b1e1d2df6"
+          ]
+        },
+        "evidence_ids": [
+          "article:e2ac4f4b1e1d2df6"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "博洛科自动化（杭州）有限公司",
+      "identity_mentions": [
+        {
+          "name": "博洛科自动化（杭州）有限公司",
+          "relation": "subsidiary",
+          "evidence": "来自美国科罗拉多州的仓储机器人企业Block One Automation正式进入中国，在杭州拱墅设立全资子公司 —— 博洛科自动化（杭州）有限公司。"
+        }
+      ],
+      "title": "美国超强机器人公司落户杭州",
+      "company": "博洛科自动化（杭州）有限公司",
+      "score": 25,
+      "sector": "仓储机器人与物流自动化",
+      "financing": "",
+      "source": "湖畔自留田",
+      "location": "地点待核",
+      "article_location": "中国浙江省杭州市拱墅区（原文明确为子公司设立地；母公司来自美国科罗拉多州，不与子公司地点合并）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "博洛科自动化(杭州)有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-3c00a72d2160d3f357c4",
+      "company_canonical_name": "博洛科自动化(杭州)有限公司",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/CYcv2RS6MV1SqJlJWrecEA",
+      "article_title": "美国超强机器人公司落户杭州",
+      "event_desc": "美国仓储机器人企业Block One Automation在杭州拱墅设立全资子公司博洛科自动化（杭州）有限公司，正式进入中国。母公司提供Pallet Factory™无人托盘工厂系统，整合仓储执行、自动搬运及柔性混码，在美国Del Papa项目中实现夜间全自动混箱拼托出库。",
+      "insight": "母公司的垛型规划与多设备协同方案针对饮料分销多规格、小批量混箱拼托需求，已有客户项目证明夜间自动作业的应用价值。杭州子公司的设立构成中国市场进入节点，后续值得跟踪本地订单落地、交付周期及运维服务能力。",
+      "event_headline": "博洛科自动化在杭州拱墅设立，母公司进入中国市场",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "博洛科杭州子公司设立是具体中国市场进入节点，关联母公司的Pallet Factory产品机制和Del Papa应用有正文，不只空落户。严格区分子公司组织事实与美国母公司项目，不将海外交付计作杭州子公司业绩。10月12日新闻有效。",
+      "event_headline_source": "2f0ed411b137244cb1e6d34d4810d6466817441b537011590a78b0ff607f0559",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "中国浙江省杭州市拱墅区（原文明确为子公司设立地；母公司来自美国科罗拉多州，不与子公司地点合并）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "e891db52779245307aa2b2551950ac1d7335460bfc36d82fa4840cc8c7093558",
+        "input_row_sha256": "86aea6ba5860eda935d66f33e6b2a114faf82f7f148ae67f3a7838ed489e09b7",
+        "reason": "博洛科杭州子公司设立是具体中国市场进入节点，关联母公司的Pallet Factory产品机制和Del Papa应用有正文，不只空落户。严格区分子公司组织事实与美国母公司项目，不将海外交付计作杭州子公司业绩。10月12日新闻有效。",
+        "scope": {
+          "technology_evidence": "母公司系统以WES垛型规划协调叉车、AMR与机械臂混箱拼托；杭州全资子公司已设立。",
+          "value_reason": "成熟混托机器人路线进入中国提供仓储分销应用线索，本地商业价值待实际订单和交付验证。"
+        },
+        "stage": {
+          "status": "中国子公司设立；母公司既有项目",
+          "reason": "母公司系统以WES垛型规划协调叉车、AMR与机械臂混箱拼托；杭州全资子公司已设立。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本轮该稳定子公司主体没有同一设立事项，9月28日只有月日线索不补年份，母公司不同主体业绩不用于制造子公司重复节点。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:bbabb618234dc5a2"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "明月镜片",
+      "title": "一副AI眼镜，难倒“眼镜之都”的小店主",
+      "company": "明月镜片",
+      "score": 50,
+      "sector": "智能眼镜光学配套",
+      "financing": "",
+      "source": "创业邦",
+      "location": "地点待核",
+      "article_location": "江苏丹阳；原文明确为本地企业，未区分注册地与总部地",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "明月镜片",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-009112663b4a36b2db48",
+      "company_canonical_name": "明月镜片",
+      "identity_status": "unresolved",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/79Lik0zkVY1Hv5Yj4sq-1A",
+      "article_title": "一副AI眼镜，难倒“眼镜之都”的小店主",
+      "event_desc": "2025年6月，明月镜片成为小米AI眼镜官方独家光学合作伙伴，提供定制镜片，并通过小米有品及全国400余家合作门店提供验光、定制和适配服务。截至2025年9月30日，公司累计合作的小米AI眼镜业务收入为651万元，智能眼镜镜片毛利率为78.6%。",
+      "insight": "明月镜片将传统验配能力与AI眼镜具体机型适配结合，已形成收入和较高毛利的产品业务。后续应关注客户及机型集中度、研发适配投入，以及终端销量能否支撑业务规模扩大。",
+      "event_headline": "2025年回顾：明月镜片为小米AI眼镜提供独家光学配套",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-11",
+        "event_date": null,
+        "observed_date": "2026-10-11",
+        "review_required": true
+      },
+      "published_date": "2026-10-11",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "明月为小米AI眼镜提供定制镜片和400余店验配服务，收入/毛利对应具体AI硬件配套业务而非公司整体营收，具备关键光学适配商业化事实。2025年合作按历史披露表达，10月11日新闻在窗口。",
+      "event_headline_source": "2cc20dff76ac98f2caef3d014cfda09bd5211e58ee56950f787993ec2b6f0a7b",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "江苏丹阳；原文明确为本地企业，未区分注册地与总部地",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "4ede061563d298dd8321518e3863cb41c2b7658336292087dbe85ee378659d67",
+        "input_row_sha256": "c43932df6c36d64e80de996e49f47a34d4998680dc8baa697787f5db6884b9fa",
+        "reason": "明月为小米AI眼镜提供定制镜片和400余店验配服务，收入/毛利对应具体AI硬件配套业务而非公司整体营收，具备关键光学适配商业化事实。2025年合作按历史披露表达，10月11日新闻在窗口。",
+        "scope": {
+          "technology_evidence": "AI眼镜定制处方镜片、验光适配服务，相关业务收入651万元、镜片毛利78.6%为原文历史口径。",
+          "value_reason": "解决智能眼镜近视用户的光学及佩戴适配，能以对应机型业务规模和客户复购检验转化。"
+        },
+        "stage": {
+          "status": "历史光学供货及对应业务收入披露",
+          "reason": "AI眼镜定制处方镜片、验光适配服务，相关业务收入651万元、镜片毛利78.6%为原文历史口径。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "稳定主体/名称候选历史未找到同一小米AI镜片合作披露，不能因2025事件年龄排除；不把报道日改成合作日。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:2a7e958199e7473f"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "小米",
+      "title": "一副AI眼镜，难倒“眼镜之都”的小店主",
+      "company": "小米",
+      "score": 50,
+      "sector": "AI可穿戴设备",
+      "financing": "",
+      "source": "创业邦",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "小米",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-522d3edeb64a7ca45f5e",
+      "company_canonical_name": "小米",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/79Lik0zkVY1Hv5Yj4sq-1A",
+      "article_title": "一副AI眼镜，难倒“眼镜之都”的小店主",
+      "event_desc": "2025年6月，小米发布AI眼镜，并宣布明月镜片为官方独家光学合作伙伴。配套定制镜片及验配服务通过小米有品和全国400余家合作门店提供。",
+      "insight": "引入专业镜片企业和验配门店，有助于解决近视用户的产品适配与服务触达问题。评估该产品商业化质量，应关注处方镜片配套率、佩戴体验及产品退货率。",
+      "event_headline": "2025年回顾：小米发布AI眼镜并引入独家光学伙伴",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-11",
+        "event_date": null,
+        "observed_date": "2026-10-11",
+        "review_required": true
+      },
+      "published_date": "2026-10-11",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "小米为AI眼镜发布方，明月为独家光学提供方，两者各有实质角色。镜片与终端验配配套是具体硬件商业化安排，不从知名度取资格；2025年发布为历史事件，10月11日新闻有效。",
+      "event_headline_source": "c15512560d22a00f40e998dd30e29223844e188244fb2692bbb873d48795047b",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "c7a6eead3cbb925e1b172ad773e6a828e1625adfd0f85f60a5b5641df432fe7f",
+        "input_row_sha256": "5cf22f432666c41bac35454b4e01d7593df8fa06839f1e1a63dcab334016543e",
+        "reason": "小米为AI眼镜发布方，明月为独家光学提供方，两者各有实质角色。镜片与终端验配配套是具体硬件商业化安排，不从知名度取资格；2025年发布为历史事件，10月11日新闻有效。",
+        "scope": {
+          "technology_evidence": "小米AI眼镜产品与明月定制镜片、全国验配网络配套服务。",
+          "value_reason": "处方镜片与整机光学结构相配合，改善近视人群产品适配与渠道触达，非仅一般消费营收。"
+        },
+        "stage": {
+          "status": "历史AI眼镜发布及光学服务配套",
+          "reason": "小米AI眼镜产品与明月定制镜片、全国验配网络配套服务。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870",
+            "accepted_history:7d2a403cd82361aa"
+          ],
+          "prior_decisions": [],
+          "change_reason": "候选历史为小米17 Ultra价格调整，与AI眼镜产品及光学合作是不同事件，不把旧价格裁决当公司黑名单；未确认别名的其他集团历史仍不猜并。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:2a7e958199e7473f"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "江苏西米科技",
+      "title": "一副AI眼镜，难倒“眼镜之都”的小店主",
+      "company": "江苏西米科技",
+      "score": 35,
+      "sector": "智能眼镜及AI硬件",
+      "financing": "",
+      "source": "创业邦",
+      "location": "地点待核",
+      "article_location": "丹阳：落地及产品试点经营地点；深圳：原文所述来源地，未证明注册地或总部地",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "江苏西米科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-f37308a3adc9c025384f",
+      "company_canonical_name": "江苏西米科技",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/79Lik0zkVY1Hv5Yj4sq-1A",
+      "article_title": "一副AI眼镜，难倒“眼镜之都”的小店主",
+      "event_desc": "文章称江苏西米科技来自深圳，落地丹阳后在眼镜城设置了10个产品试点，使产品研发直接接触终端消费者。",
+      "insight": "在眼镜产业集群内布设终端试点，可以将验配反馈更直接地用于产品迭代。值得跟踪试点用户留存、佩戴适配问题及反馈转化为量产改进的效率。",
+      "event_headline": "江苏西米科技落地丹阳，在眼镜城设置十个产品试点",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-11",
+        "event_date": null,
+        "observed_date": "2026-10-11",
+        "review_required": true
+      },
+      "published_date": "2026-10-11",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "西米落地后在眼镜城设置10个产品试点，有具体研发接触消费者的行动，保留智能眼镜工程验证线索；不是只因签约或深圳/丹阳地域入选。不推定总部迁移，未披露订单、销量；10月11日新闻有效。",
+      "event_headline_source": "76f77259f5d10bb7c88079ae8209bd82601cf907836ab323649e7fe7628a2054",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "丹阳：落地及产品试点经营地点；深圳：原文所述来源地，未证明注册地或总部地",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "a6d1d2e2770b8bb5fbe91d02978fc6a4d7416d5350dae7d1e24354324055a05b",
+        "input_row_sha256": "113d2ca1439c8c315632e7a736d697fafa2c19caa3278466d7f3f7766446313e",
+        "reason": "西米落地后在眼镜城设置10个产品试点，有具体研发接触消费者的行动，保留智能眼镜工程验证线索；不是只因签约或深圳/丹阳地域入选。不推定总部迁移，未披露订单、销量；10月11日新闻有效。",
+        "scope": {
+          "technology_evidence": "在AI眼镜产业场景中设置10个产品试点，使产品研发直接接触终端消费者和验配反馈。",
+          "value_reason": "缩短光学样品及用户反馈回路，提供硬件适配迭代的实际试点路径。"
+        },
+        "stage": {
+          "status": "终端试点已设置",
+          "reason": "在AI眼镜产业场景中设置10个产品试点，使产品研发直接接触终端消费者和验配反馈。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本轮稳定主体历史未见同一10试点事件，未给出精确建立日，保留已开展阶段但不补造时间。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:2a7e958199e7473f"
+        ]
+      }
+    }
+  ],
+  "negatives": [],
+  "excluded_count": {
+    "wechat": 41,
+    "web_search": 8,
+    "total": 49
+  },
+  "_analysis_pending": [
+    {
+      "url": "https://mp.weixin.qq.com/s/LwdCVSvU2Mhb6tjtid5MXA",
+      "title": "33亿、10亿、6亿，国庆至今六家融资超5亿，AI与量子挑大梁 | 烯牛周报",
+      "account": "烯牛数据",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "transport_timeout_or_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.01
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/ZS5ZAoYbw855ptHAgMmaEg",
+      "title": "马斯克向印度超级富豪“道歉”：我太眼拙了，没认出您的真实身份；46岁数学博士AI炒股年赚超640亿；尊界公布踏板升级时间丨邦早报",
+      "account": "创业邦",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "transport_timeout_or_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.01
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.01
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/9i9AjgXVe87oIQ1xGQB-Aw",
+      "title": "8点1氪：尊界公布踏板升级时间；大闸蟹全线崩盘？中小规格跌至5元一只；世卫组织：俄不明原因肺炎事件，无持续传播证据",
+      "account": "36 氪",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "transport_timeout_or_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.01
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.01
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/zo1WtF87R4Z8Hoqka4iGNg",
+      "title": "比特幻境完成数亿元天使轮融资；智元机器人上半年出货量超8600台｜36氪出海·要闻回顾",
+      "account": "36 氪",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "transport_timeout_or_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.01
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.01
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/8E8RxKKIcXKRKdHK7dXBwA",
+      "title": "小米汽车副总裁李肖爽回顾澎程座椅滑轨拉矿卡挑战，重申“安全高于一切”；韩国现代汽车在印度累计销量有望突破1000万辆丨汽车交通日报",
+      "account": "创业邦",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "transport_timeout_or_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 77.41
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/yPct_8bJZJJ1fsW3_il0NA",
+      "title": "Meta禁止TikTok投放广告；电影《欢迎来龙餐馆》申报奥斯卡最佳国际影片；快手可灵AI据悉筹备香港IPO，拟募资至少10亿美元丨Going Global",
+      "account": "创业邦",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 99.1
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/S1kgYLSL4QVnX2SwWQyecA",
+      "title": "杭州两家大消费，双双位居全球排名前列",
+      "account": "湖畔自留田",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 82.98
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 5.68
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 1.04
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/K5z4_5n5IacuGgWdD0ZX3Q",
+      "title": "超20万㎡！杭州这座大型公园，预计年底开园",
+      "account": "杭州发布",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_408",
+            "elapsed_seconds": 116.66
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 2.01
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 3.46
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/FAnzVrz1z41dUqpOAM6zSw",
+      "title": "8点1氪：特朗普买入Meta股票；山姆宣布拟限制亲友卡绑定；豆包开通水、电、燃气等生活缴费功能",
+      "account": "36 氪",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 75.18
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 6.91
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 1.64
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/yEQ8z0l85_C4SPlQbsp8Eg",
+      "title": "懂车帝测试尊界V800主视频多平台不可见；余承东朋友圈转发尊界踏板事件声明；比亚迪副总裁：暂不进入美国乘用车市场丨汽车交通日报",
+      "account": "创业邦",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 25.69
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 6.8
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 6.18
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/Z2I4Zg_5q8VqHxDK6xsnQw",
+      "title": "下月起，加油将有新变化！",
+      "account": "临平发布",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 89.56
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 7.28
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 6.16
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/_L3kLh7wrPt6vLdOvJU1GA",
+      "title": "黄仁勋女婿火速晋升，曾是职业滑雪运动员；用豆包可以付水、电、燃气费？回应来了；英伟达市值一夜蒸发超万亿元丨邦早报",
+      "account": "创业邦",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 67.34
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 6.98
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 6.33
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
+      "title": "4项目官宣新融资，拥抱机器智能时代｜元璟9月科技播报",
+      "account": "元璟资本",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 9.28
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 3.19
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 1.55
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/J4XlknlLCG_sV6ze5UhKDA",
+      "title": "钱塘江边的建筑，会写诗~",
+      "account": "滨江发布",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_408",
+            "elapsed_seconds": 158.6
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 0.7
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/5h5lFxPAMXW21lM5mfSaSg",
+      "title": "黄仁勋被曝正为女儿女婿接手公司做铺垫；安踏成为彪马第一大股东；《欢迎来龙餐馆》将申报奥斯卡最佳国际影片；郭台铭靠AI赚翻了丨邦早报",
+      "account": "创业邦",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 5.58
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 3.63
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 5.0
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/GtCBAq3V7h-JE07J-Zas7w",
+      "title": "这类不起眼的材料，正在成为AI光模块的新瓶颈",
+      "account": "半导体行业观察",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 8.98
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 3.8
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 5.09
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/t68ZV9_pOyVWm_mYuBq6mg",
+      "title": "浙大系科学企业家榜单｜银杏谷生态28家企业上榜，获投资浙大系科学企业家项目数量TOP1",
+      "account": "银杏谷资本",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 8.81
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 3.09
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 5.67
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/_OVTcgGGi61e9zH1QKNM1w",
+      "title": "佳能纳米压印光刻，迈向量产！",
+      "account": "半导体行业观察",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "http_408",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_408",
+            "elapsed_seconds": 127.21
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 1.79
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_408",
+            "elapsed_seconds": 72.53
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/iNF6pPefyv4J9orlqc_vbg",
+      "title": "微信：切勿使用这种头像及昵称，或被封号",
+      "account": "杭州发布",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "http_408",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_408",
+            "elapsed_seconds": 132.37
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 6.45
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_408",
+            "elapsed_seconds": 94.13
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/GkQlHhAGfYo2GYL5jbPtXw",
+      "title": "今年流行小天才",
+      "account": "投资界",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "local_text_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_408",
+            "elapsed_seconds": 86.28
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 0.8
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "http_500",
+            "elapsed_seconds": 0.74
+          }
+        ]
+      }
+    },
+    {
+      "source_kind": "web",
+      "url": "https://zhuanlan.zhihu.com/p/2075545898852077747",
+      "source_url": "https://zhuanlan.zhihu.com/p/2075545898852077747",
+      "title": "超9亿美元！小鹏机器人融资刷纪录，何小鹏的豪赌刚刚开始",
+      "status": "analysis_review_wait",
+      "selection_recommendation": "review",
+      "reason": "既有正文确有鹏行融资及股权结构报道，但发布时间缺失；capture返回403。与凤凰及腾讯报道金额/融资主体相关仍须按同事件历史核验，不猜该URL发布时间；留待续审。",
+      "source_evidence_id": "web_pending_input:b15f285c4498a9e7"
+    },
+    {
+      "source_kind": "web",
+      "url": "https://www.westlakeomics.com/news/disannianxihuoumizaidenghangzhouzhundujiaoshouqiyebangdan",
+      "source_url": "https://www.westlakeomics.com/news/disannianxihuoumizaidenghangzhouzhundujiaoshouqiyebangdan",
+      "title": "第三年！西湖欧米再登「杭州准独角兽企业」榜单 - Westlake Omics ｜ 西湖欧米（杭州）生物科技有限公司",
+      "status": "analysis_review_wait",
+      "selection_recommendation": "review",
+      "reason": "既有正文证明蛋白质组技术业务并回顾2024准独角兽榜单；原发布时间缺失、capture返回404。2024榜单事件日不能替代新闻日，留待原站归档/metadata及同事件历史补核。",
+      "source_evidence_id": "web_pending_input:b15f285c4498a9e7"
+    }
+  ],
+  "_analysis_status": "partial_retry_wait",
+  "quality_review": {
+    "schema_version": "dragon-overnight-review.v2",
+    "status": "partial_review",
+    "reviewer": "overnight-current-model-agent / full-text per-event review",
+    "reviewed_candidates": 21,
+    "semantic_reviewed_candidates": 32,
+    "watch_candidates": 11,
+    "pending_candidates": 11,
+    "source_pending_count": 22,
+    "source_pending_counts": {
+      "_analysis_pending": 22,
+      "_pending_fact_identity": 0
+    }
+  }
+}
