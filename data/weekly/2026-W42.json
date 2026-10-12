@@ -5,12 +5,12 @@
   "start_date": "2026-10-12",
   "end_date": "2026-10-18",
   "summary": {
-    "total_companies": 105,
-    "financing_events": 14,
+    "total_companies": 124,
+    "financing_events": 16,
     "ipo_events": 1,
-    "milestone_events": 22,
+    "milestone_events": 30,
     "negative_events": 7,
-    "active_days": 1
+    "active_days": 2
   },
   "top10": [
     {
@@ -122,6 +122,245 @@
       },
       "selection_recommendation": "keep",
       "selection_reason": "主体与本文实际事件角色一致；标准化型谱与模块化定制有助于复用研发及供应链能力，多谱段高分相机可支撑农业估产、生态监测等定量遥感应用。按正文保留融资的实际阶段，不把公司自述、计划或媒体转述当作已实现。历史对照见本轮两份history证据，未保留已找到的同一事件重复项。"
+    },
+    {
+      "company_raw_name": "字节",
+      "identity_mentions": [
+        {
+          "name": "字节世界模型",
+          "relation": "product",
+          "evidence": "背后正是字节一直在默默研发的世界模型。"
+        }
+      ],
+      "title": "AI从「造图」卷到「造世界」，这次真有点科幻了。。。",
+      "company": "字节",
+      "score": 80,
+      "sector": "人工智能／世界模型／空间智能",
+      "financing": "",
+      "source": "量子位",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "字节",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-b1c5e73e1471e806c625",
+      "company_canonical_name": "字节",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Wiils3L-7Poe-F7aAfeR4w",
+      "article_title": "AI从「造图」卷到「造世界」，这次真有点科幻了。。。",
+      "event_desc": "字节在抖音集团《2026 美好奇妙夜》科技节目中展示尚未正式发布的世界模型，演示文本生成三维场景、自由探索、实时交互、物体生成与编辑，以及跨场景连通。节目还展示了自动驾驶复杂路况模拟和机器人虚拟家务操作。",
+      "insight": "展示将生成内容延伸为可探索、可编辑的三维环境，并呈现自动驾驶和机器人仿真的应用路径。其商业化潜力取决于交互延迟、场景一致性，以及虚拟训练对真实任务成功率的提升幅度。",
+      "event_headline": "字节首次展示未发布世界模型，演示三维交互与虚拟训练",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "字节世界模型有三维生成、实时交互、可编辑空间及物理AI模拟演示，属于具体研发对标事实，不是节目宣传本身。保留未正式发布状态；字节简称未全局合并，独立稳定ID沿用。10月12日原文有效。",
+      "event_headline_source": "697defadc5e6cb862fb848975be0849d1bb66f5f68a268a04582ae5eb5967293",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "c0021145de3bc818c0cff8333c5e2ce1610c419e4004de0dca144423cfbf8532",
+        "input_row_sha256": "6ca814aba85be89c3958b66838caefedea77f916e2655b52ebb5be7143a3ff5c",
+        "reason": "字节世界模型有三维生成、实时交互、可编辑空间及物理AI模拟演示，属于具体研发对标事实，不是节目宣传本身。保留未正式发布状态；字节简称未全局合并，独立稳定ID沿用。10月12日原文有效。",
+        "scope": {
+          "technology_evidence": "现场展示三维场景生成、物体交互编辑、跨场景连通，以及车辆/机器人虚拟训练演示。",
+          "value_reason": "可交互空间建模为物理AI数据与试错提供技术路线；未披露真实客户部署或降本幅度。"
+        },
+        "stage": {
+          "status": "未正式发布模型的现场演示",
+          "reason": "现场展示三维场景生成、物体交互编辑、跨场景连通，以及车辆/机器人虚拟训练演示。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870"
+          ],
+          "prior_decisions": [],
+          "change_reason": "当前字节临时主体历史无同一世界模型演示；不借未确认简称把字节跳动各产品历史粗并，亦不称全网首次。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:c7138f2992a0fc00"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "宇树科技",
+      "title": "光合创投合伙人朱嘉：科技投资的快决断与慢等待",
+      "company": "宇树科技",
+      "score": 80,
+      "sector": "具身智能与机器人",
+      "financing": "文章称光合创投于2024年年中投资宇树科技，当时估值35亿元人民币；2025年6月融资时估值达到127亿元人民币。未披露融资金额及资金用途。",
+      "source": "创业邦",
+      "location": "浙江省 / 杭州市",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "subject_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宇树科技股份有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-13a3a18a9bf559ad8bfbeaac"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+            "source_url": "https://www.unitree.com/cn/contact",
+            "checked_at": "2026-10-12T18:25:09.025885+00:00",
+            "subject": "宇树科技股份有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-35826112ed957325dfd4",
+      "company_canonical_name": "宇树科技股份有限公司",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/hbqMBWrxJC_Uy9Fyl-7JLQ",
+      "article_title": "光合创投合伙人朱嘉：科技投资的快决断与慢等待",
+      "event_desc": "据光合创投合伙人朱嘉回顾，多家头部科技公司的具身智能研发团队采购宇树机器人本体，用于测试软件、算法和模型。宇树针对研发场景优化关节设计，减少意外碰撞故障导致机器人失效的情况，并提供软件平台，方便客户开发具身大脑模型。",
+      "insight": "机器人本体的可靠性优化与模型开发软件平台结合，有助于降低具身研发团队的硬件适配和实验中断成本，使宇树从硬件供应商延伸为研发平台提供方。商业价值还取决于研发客户复购、软件平台使用规模及其向实际作业场景的转化。",
+      "event_headline": "宇树科技据投资人回顾优化研发硬件并提供模型开发平台",
+      "event_signal": "context",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "宇树面向具身模型客户的关节可靠性优化和开发软件平台有具体披露，保留客户研发基础设施线索，不因上市或成熟排除。采购是回顾，不造新增订单；杭州总部已由官网补证，10月12日新闻有效。",
+      "event_headline_source": "67bc76bdfd5ad5a66433cf42eefd0bf1c0429605100e99c09affde28bb96b6a9",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+          "source_url": "https://www.unitree.com/cn/contact",
+          "checked_at": "2026-10-12T18:25:09.025885+00:00",
+          "subject": "宇树科技股份有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "d3b3baa66f6f58052ed27e0b1e0465c22fe59ea783570d1bc47e2d766490ad7c",
+        "input_row_sha256": "7ffe5f250b1adacd65d3cf1d852218be349b29dba7cb3034caafa2031b2b2a20",
+        "reason": "宇树面向具身模型客户的关节可靠性优化和开发软件平台有具体披露，保留客户研发基础设施线索，不因上市或成熟排除。采购是回顾，不造新增订单；杭州总部已由官网补证，10月12日新闻有效。",
+        "scope": {
+          "technology_evidence": "研发客户采购机器人本体，关节设计减少碰撞失效，提供方便开发具身大脑的软件平台。",
+          "value_reason": "将本体鲁棒性和软件开发环境结合，降低客户试验中断及硬件适配成本。"
+        },
+        "stage": {
+          "status": "投资人回顾客户采购与研发平台优化",
+          "reason": "研发客户采购机器人本体，关节设计减少碰撞失效，提供方便开发具身大脑的软件平台。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870",
+            "accepted_history:e04c219f981dcb33",
+            "accepted_history:581d98b075fdbac2",
+            "accepted_history:6c5dd95992e6a569",
+            "accepted_history:aa7ed4d1213d3138",
+            "accepted_history:a0800eb66f63fa6f",
+            "accepted_history:5e57c53dffe721e4",
+            "accepted_history:fcf7fa438de5721c",
+            "accepted_history:19afb9a5f76a9a87",
+            "accepted_history:86098b6c858da1dd",
+            "accepted_history:fedbba31c39e34f7",
+            "accepted_history:c13b0bce5338e34a",
+            "accepted_history:d4ee6f6bdfdd6c38",
+            "accepted_history:4e653e21a89e21a8",
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:1b675f2aef61b5fb",
+            "accepted_history:e5f539a1505ea4ce",
+            "accepted_history:721cabb6862eed6f",
+            "accepted_history:ed9a9fac1991d749",
+            "accepted_history:9f1775a103441203",
+            "accepted_history:e010772d19805e99",
+            "accepted_history:15d039c73dd7a90c",
+            "accepted_history:cc448fb1986f191a",
+            "accepted_history:a9601bf5150693fb"
+          ],
+          "prior_decisions": [],
+          "change_reason": "3月及8月投资回顾已披露头部客户与量产基础，6月GR00T参考平台和10月广州部署为其他节点；本条增量是关节碰撞失效优化和面向研发客户的软件平台机制，旧客户采购不重复计为新增订单。",
+          "new_evidence_ids": [
+            "article:7687f546bf28e897"
+          ]
+        },
+        "evidence_ids": [
+          "article:7687f546bf28e897"
+        ]
+      }
     },
     {
       "company_raw_name": "苏州科阳半导体有限公司",
@@ -428,101 +667,6 @@
       "event_identity": {
         "canonical_id": "2026年5月，库兰织梦完成数千万元Pre-A轮融资，彼时公司估值达到2亿元。团队目前主攻AI内容共创平台Funloom AI，《崇祯模拟器》是吴同在该平台跑通的第一款爆款。"
       }
-    },
-    {
-      "company_raw_name": "TrueShort",
-      "brand_name": "",
-      "sector": "AI短电影与订阅内容平台",
-      "location": "未核实",
-      "event_type": "融资",
-      "event_desc": "文章报道：完成1200万美元融资，定位AI20-30分钟竖屏电影与订阅，周更1-3分钟集数成本约1000-3000美元。",
-      "insight": "短电影切集与订阅收费将内容生产和持续用户收入连接起来。单位经济性主要取决于付费留存、获客成本和持续更新所需的制作支出。",
-      "event_headline": "TrueShort融资1200万美元，以订阅模式运营竖屏AI电影",
-      "event_signal": "major",
-      "event_date": null,
-      "company": "TrueShort",
-      "title": "AI电影开始赚钱：一周回本，分账800万",
-      "article_title": "AI电影开始赚钱：一周回本，分账800万",
-      "link": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
-      "source": "铅笔道",
-      "published_date": "2026-10-08",
-      "publication_basis": "accepted源保留的原始发布时间",
-      "financing": "融资1200万美元；原文未披露轮次、投资方、估值及资金用途。",
-      "score": 70,
-      "is_national_star": true,
-      "review_evidence": {
-        "article_index": 56,
-        "original_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/official-client-production/assets/9c/9c7ee9036751dad084ee0600d26c2245dde843745522789f59c3697cdac059f4/1250165ae2292fdd2f53de50ac168b047a5e2e466712a2490acd5e065a2f9b9a/article-with-images.md",
-        "source_body_sha256": "d9fbcad143ebb83b1ed8cfa5a388f461d91bb65cbc71224baa6bad5c7956709b",
-        "published_at": "2026-10-08T00:03:00Z",
-        "source_manifest": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/official-client-production/assets/9c/9c7ee9036751dad084ee0600d26c2245dde843745522789f59c3697cdac059f4/1250165ae2292fdd2f53de50ac168b047a5e2e466712a2490acd5e065a2f9b9a/manifest.json"
-      },
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "event_date": null,
-        "observed_date": "2026-10-08",
-        "description": "报道日期不冒充事件日期，计划、测试和媒体转述按正文边界保留",
-        "review_required": true
-      },
-      "quality_review": {
-        "keep": true,
-        "reason": "主体与本文实际事件角色一致；短电影切集与订阅收费将内容生产和持续用户收入连接起来。按正文保留融资的实际阶段，不把公司自述、计划或媒体转述当作已实现。历史对照见本轮两份history证据，未保留已找到的同一事件重复项。",
-        "reviewer": "overnight-current-model-agent",
-        "scope_reviewed": true,
-        "news_publication_reviewed": true,
-        "history_reviewed": true
-      },
-      "selection_recommendation": "keep",
-      "selection_reason": "主体与本文实际事件角色一致；短电影切集与订阅收费将内容生产和持续用户收入连接起来。按正文保留融资的实际阶段，不把公司自述、计划或媒体转述当作已实现。历史对照见本轮两份history证据，未保留已找到的同一事件重复项。",
-      "event_identity": {
-        "canonical_id": "美国创业公司TrueShort今年融资1200万美元，制作20至30分钟竖屏AI电影，再切分为1至3分钟的小集，每周更新。报道称，单集制作成本约1000至3000美元，用户通过App按周或按年订阅。"
-      }
-    },
-    {
-      "company_raw_name": "博纳影业",
-      "brand_name": "",
-      "sector": "AI影视制作与院线发行",
-      "location": "未核实",
-      "event_type": "资质获批",
-      "event_desc": "博纳影业联合峨影集团出品的《三星堆：未来往事》取得国家电影局公映许可证，并定档10月23日。文章称其为国内首部利用AI技术制作并取得该许可证的院线电影。博纳此前于2024年制作13集AI短剧《三星堆·未来启示录》，全网累计播放达到1.6亿次。",
-      "insight": "先用短剧测试题材、再推进院线长片，提供了降低内容开发试错成本的路径。公映许可打开院线发行条件，实际回报仍取决于制作宣发成本和观众付费表现。",
-      "event_headline": "博纳影业联合出品AI院线电影获公映许可，定档10月23日",
-      "event_signal": "major",
-      "event_date": null,
-      "company": "博纳影业",
-      "title": "AI电影开始赚钱：一周回本，分账800万",
-      "article_title": "AI电影开始赚钱：一周回本，分账800万",
-      "link": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
-      "source": "铅笔道",
-      "published_date": "2026-10-08",
-      "publication_basis": "accepted源保留的原始发布时间",
-      "financing": "",
-      "score": 60,
-      "is_national_star": false,
-      "review_evidence": {
-        "article_index": 56,
-        "original_path": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/official-client-production/assets/9c/9c7ee9036751dad084ee0600d26c2245dde843745522789f59c3697cdac059f4/1250165ae2292fdd2f53de50ac168b047a5e2e466712a2490acd5e065a2f9b9a/article-with-images.md",
-        "source_body_sha256": "d9fbcad143ebb83b1ed8cfa5a388f461d91bb65cbc71224baa6bad5c7956709b",
-        "published_at": "2026-10-08T00:03:00Z",
-        "source_manifest": "/Users/leoz/Documents/Codex/gbrain-openclaw/staging/wechat-local/official-client-production/assets/9c/9c7ee9036751dad084ee0600d26c2245dde843745522789f59c3697cdac059f4/1250165ae2292fdd2f53de50ac168b047a5e2e466712a2490acd5e065a2f9b9a/manifest.json"
-      },
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "event_date": null,
-        "observed_date": "2026-10-08",
-        "description": "报道日期不冒充事件日期，计划、测试和媒体转述按正文边界保留",
-        "review_required": true
-      },
-      "quality_review": {
-        "keep": true,
-        "reason": "主体与本文实际事件角色一致；先用短剧测试题材、再推进院线长片，提供了降低内容开发试错成本的路径。按正文保留资质获批的实际阶段，不把公司自述、计划或媒体转述当作已实现。历史对照见本轮两份history证据，未保留已找到的同一事件重复项。",
-        "reviewer": "overnight-current-model-agent",
-        "scope_reviewed": true,
-        "news_publication_reviewed": true,
-        "history_reviewed": true
-      },
-      "selection_recommendation": "keep",
-      "selection_reason": "主体与本文实际事件角色一致；先用短剧测试题材、再推进院线长片，提供了降低内容开发试错成本的路径。按正文保留资质获批的实际阶段，不把公司自述、计划或媒体转述当作已实现。历史对照见本轮两份history证据，未保留已找到的同一事件重复项。"
     }
   ],
   "negatives": [
@@ -949,13 +1093,36 @@
     "存储半导体与电子制造": 1,
     "大模型与网络安全": 1,
     "机器人关节与智能制造": 1,
-    "半导体／AI算力IC载板": 1
+    "半导体／AI算力IC载板": 1,
+    "具身智能与机器人基础模型": 1,
+    "量子计算与科学计算": 1,
+    "新型存储器与AI推理芯片": 1,
+    "AI材料研发与自主实验室": 1,
+    "自主科学发现与实验室智能化": 1,
+    "AI制药服务与血浆RNA分析": 1,
+    "AI药物研发与虚拟类器官": 1,
+    "人工智能／世界模型／空间智能": 1,
+    "人工智能／智能体与世界模型": 1,
+    "高端数控机床与机器人制造装备": 1,
+    "AI原生基础设施／异构算力调度／大模型推理服务": 1,
+    "具身智能与工业人形机器人": 1,
+    "具身智能与机器人": 1,
+    "工业设备监测与无源无线传感芯片": 1,
+    "人工智能大模型及AI算力基础设施": 1,
+    "仓储机器人与物流自动化": 1,
+    "智能眼镜光学配套": 1,
+    "AI可穿戴设备": 1,
+    "智能眼镜及AI硬件": 1
   },
   "daily_details": {
     "2026-10-12": {
       "count": 105,
       "negatives": 7
+    },
+    "2026-10-13": {
+      "count": 19,
+      "negatives": 0
     }
   },
-  "created": "2026-10-12 02:58:39"
+  "created": "2026-10-13 02:43:39"
 }
