@@ -37,8 +37,11 @@
     if(!/^\d{4}-\d{2}-\d{2}$/.test(day))return Promise.reject(Error('日期格式不正确'));
     const p=params(),version=(Router.getRoute()==='/today'&&p.date===day&&p.v)||window.RadarData.manifest?.daily_versions?.[day];
     if(!version)return reuseRequest(dataRequests,'day:'+day,()=>originalLoad(day));
-    if(!/^[a-f0-9]{64}$/.test(version))return Promise.reject(Error('版本链接不正确'));
-    return reuseRequest(dataRequests,'day:'+day+':'+version,()=>fetch('./data/releases/'+day+'/'+version+'.json').then(r=>{if(!r.ok)throw Error('该期内容暂时无法读取，请稍后重试');return r.json();}));
+    if(typeof version!=='string'||!/^[a-f0-9]{64}$/.test(version))return Promise.reject(Error('版本链接不正确'));
+    // Old shares retain their source version; public snapshots may omit metadata.
+    const snapshot=window.RadarData.manifest?.snapshot_versions?.[day]?.[version]??version;
+    if(typeof snapshot!=='string'||!/^[a-f0-9]{64}$/.test(snapshot))return Promise.reject(Error('版本链接不正确'));
+    return reuseRequest(dataRequests,'day:'+day+':'+snapshot,()=>fetch('./data/releases/'+day+'/'+snapshot+'.json').then(r=>{if(!r.ok)throw Error('该期内容暂时无法读取，请稍后重试');return r.json();}));
   };
   const originalWeeklyLoad=loadWeeklyData,originalBriefingLoad=loadBriefingData;
   loadWeeklyData=week=>reuseRequest(dataRequests,'week:'+week,()=>originalWeeklyLoad(week));
