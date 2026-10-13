@@ -302,14 +302,16 @@
       "sector": "AI材料研发与自主实验室",
       "financing": "",
       "source": "投资界",
-      "location": "地点待核",
+      "location": "北京·昌平（实验室）",
       "article_location": "北京昌平（已投用自主实验室所在地，不代表注册地或总部）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "display_location": "北京·昌平（实验室）",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-691b0052c11e9be512cd8172"
+        ],
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
@@ -320,7 +322,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-691b0052c11e9be512cd8172",
+            "source_url": "https://mp.weixin.qq.com/s/8RjKKVHqOkh6MpU-q2uvyQ",
+            "checked_at": "2026-10-13T02:56:55.302055+00:00",
+            "subject": "和光智成",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "昌平区"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "北京·昌平（实验室）",
+          "detail": "原文明确和光智成已投用的自主实验室位于北京昌平，作为该企业实验室经营地呈现。注册地、总部地仍待独立证据确认。",
+          "evidence_ids": [
+            "geo-691b0052c11e9be512cd8172"
+          ]
+        }
       },
       "company_entity_id": "dr-u-0fd4db54cdbf3907f3df",
       "company_canonical_name": "和光智成",
@@ -345,16 +369,24 @@
       "selection_recommendation": "keep",
       "selection_reason": "和光智成已有千余平方米自主实验室及委外研发、模型部署服务，材料方案由真实实验反馈，具备工程化事实，不将商业模式解释为已披露收入。北京昌平只作实验室经营地；新闻10月12日有效。",
       "event_headline_source": "929969bbcbc3f2606b7ce8dd299164a65f2cda1e26095ac7bdef74e8eb54bbd2",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "location_candidates": [
+      "location_status": "business_confirmed_subject_pending",
+      "location_basis": [
         {
-          "value": "北京昌平（已投用自主实验室所在地，不代表注册地或总部）",
-          "status": "article_candidate_only",
-          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+          "evidence_id": "geo-691b0052c11e9be512cd8172",
+          "source_url": "https://mp.weixin.qq.com/s/8RjKKVHqOkh6MpU-q2uvyQ",
+          "checked_at": "2026-10-13T02:56:55.302055+00:00",
+          "subject": "和光智成",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "昌平区"
+          }
         }
       ],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
@@ -380,7 +412,8 @@
           "new_evidence_ids": []
         },
         "evidence_ids": [
-          "article:b1d8852b81b3720d"
+          "article:b1d8852b81b3720d",
+          "supplemental_review:dc038f3950467799"
         ]
       }
     },
@@ -1524,7 +1557,7 @@
       "company": "DeepSeek",
       "score": 70,
       "sector": "人工智能大模型及AI算力基础设施",
-      "financing": "文章称首轮融资规模500亿元人民币，投后估值约520亿美元；随后启动第二轮融资，原计划募资500亿元人民币、目标估值5000亿元人民币，并称近期即将完成的新一轮融资金额接近1000亿元人民币、估值超过700亿美元。第二轮在文中仍为待完成状态，融资信息未列明投资方或公司公告。",
+      "financing": "历史背景：文章称6月16日完成500亿元人民币首轮融资，投后估值约520亿美元；该融资此前已收录。本文未提供资金用途的公司披露，不据此确认本次数据中心建设资金已落实。本条事件是7月媒体报道的算力规划回顾。",
       "source": "36 氪",
       "location": "地点待核",
       "article_location": "",
@@ -1549,17 +1582,17 @@
       "company_entity_id": "dr-u-1407b719acc8f55195ab",
       "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
       "identity_status": "confirmed",
-      "event_type": "融资",
+      "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Fp4_7AgMDJvtPIszM1CrVQ",
       "article_title": "梁文锋的500亿，投向一座北方小城",
-      "event_desc": "文章称DeepSeek于6月16日完成500亿元首轮融资，投后估值约520亿美元。另据文中转述的彭博社知情人士消息，DeepSeek计划在乌兰察布建设约1GW的AI数据中心，采用自建与外部租赁并行模式，部分算力预计于2027年底至2028年初上线。文章未提供融资资金用途的公司披露。",
+      "event_desc": "原文回顾7月彭博社援引知情人士的报道：DeepSeek计划在内蒙古乌兰察布建设约1GW的AI数据中心，采取自建和外部租赁并行的模式，部分算力预计于2027年底至2028年初陆续上线。该方案仍为媒体转述的计划，未见公司正式建设进度披露。文章所述6月16日500亿元首轮融资仅为历史背景，本条不作为新融资事件，也不据此认定建设资金已经落实。",
       "insight": "自建与外部租赁并行，可能让DeepSeek在扩充训练和推理算力的同时保留分期交付弹性。文中券商对1GW数据中心的综合投资估算为1600亿至1700亿元，观察重点是实际资金投入、自建与租赁比例及分期上线规模，而不是用已报道的首轮融资额推定全部建设资金已落实。",
-      "event_headline": "DeepSeek据报道完成500亿元首轮融资",
+      "event_headline": "7月报道回顾：DeepSeek拟建乌兰察布1GW AI数据中心",
       "event_signal": "major",
       "is_national_star": true,
       "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-12",
+        "status": "historical_report_review",
+        "description": "原文明确为7月彭博社规划报道的回顾；建设事项仍为计划，精确事件日未载明；本次报道日为2026-10-12。",
         "event_date": null,
         "observed_date": "2026-10-12",
         "review_required": true
@@ -1567,8 +1600,11 @@
       "published_date": "2026-10-12",
       "publication_basis": "采集源保留的发布时间",
       "selection_recommendation": "keep",
-      "selection_reason": "DeepSeek乌兰察布1GW算力建设方案及自建/租赁安排是具体AI基础设施规划线索，保留计划状态和彭博知情人士来源。首轮融资此前已收录，不重复当新融资；融资时点口径有差异，不能把钱确定归于机房。10月12日新闻有效。",
-      "event_headline_source": "cf9461c960bdddd19d83bfcb99c0ab778e69f673dae15bfc8e7c9155d9439834",
+      "selection_reason": "DeepSeek乌兰察布1GW算力建设方案及自建、租赁安排作为具体AI基础设施规划线索保留。已收存原文明确这是7月彭博社报道回顾，阶段为计划；6月首轮融资此前已收录，仅保留历史背景，不重复认定新融资或建设资金落实，项目地点不改变主体总部归属。",
+      "event_headline_source": "fbcd49f7c161d51a67cdedd4aed3693387dad6e032fa55db1f2c4a2040fb5691",
+      "event_identity": {
+        "canonical_id": "文章称DeepSeek于6月16日完成500亿元首轮融资，投后估值约520亿美元。另据文中转述的彭博社知情人士消息，DeepSeek计划在乌兰察布建设约1GW的AI数据中心，采用自建与外部租赁并行模式，部分算力预计于2027年底至2028年初上线。文章未提供融资资金用途的公司披露。"
+      },
       "location_status": "unknown",
       "location_basis": [],
       "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
@@ -1578,14 +1614,14 @@
         "reviewer": "overnight-current-model-agent / full-text per-event review",
         "candidate_id": "0477166ab4596067220aa141999fc1495d6f7380a028411445ea1256861662df",
         "input_row_sha256": "2ced6cd7e51885507808a3710883616dc9a3cdf0744852a98b16c9ae65c5d9be",
-        "reason": "DeepSeek乌兰察布1GW算力建设方案及自建/租赁安排是具体AI基础设施规划线索，保留计划状态和彭博知情人士来源。首轮融资此前已收录，不重复当新融资；融资时点口径有差异，不能把钱确定归于机房。10月12日新闻有效。",
+        "reason": "DeepSeek乌兰察布1GW算力建设方案及自建、租赁安排作为具体AI基础设施规划线索保留。已收存原文明确这是7月彭博社报道回顾，阶段为计划；6月首轮融资此前已收录，仅保留历史背景，不重复认定新融资或建设资金落实，项目地点不改变主体总部归属。",
         "scope": {
           "technology_evidence": "报道称计划在乌兰察布建设约1GW AI数据中心，自建和租赁并行，部分算力预计2027末至2028初上线。",
           "value_reason": "从模型/Agent软件节点延伸到大规模算力控制，关注分期资本开支和交付节奏；地点仅项目地不改杭州主体。"
         },
         "stage": {
-          "status": "融资背景回顾；数据中心为媒体转述计划",
-          "reason": "报道称计划在乌兰察布建设约1GW AI数据中心，自建和租赁并行，部分算力预计2027末至2028初上线。"
+          "status": "计划",
+          "reason": "已收存原文回顾7月彭博社援引知情人士的1GW规划；采用自建和租赁并行，部分算力预计2027年底至2028年初上线，不是建设完成或当前新融资。"
         },
         "history": {
           "result": "new_progress",
@@ -1639,7 +1675,8 @@
           ]
         },
         "evidence_ids": [
-          "article:e2ac4f4b1e1d2df6"
+          "article:e2ac4f4b1e1d2df6",
+          "supplemental_review:dc038f3950467799"
         ]
       }
     },
@@ -1658,14 +1695,16 @@
       "sector": "仓储机器人与物流自动化",
       "financing": "",
       "source": "湖畔自留田",
-      "location": "地点待核",
+      "location": "杭州·拱墅",
       "article_location": "中国浙江省杭州市拱墅区（原文明确为子公司设立地；母公司来自美国科罗拉多州，不与子公司地点合并）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "display_location": "杭州·拱墅",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-4475fb2f0f4b971e491050a7"
+        ],
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
@@ -1676,7 +1715,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4475fb2f0f4b971e491050a7",
+            "source_url": "https://mp.weixin.qq.com/s/CYcv2RS6MV1SqJlJWrecEA",
+            "checked_at": "2026-10-13T02:56:55.302055+00:00",
+            "subject": "博洛科自动化(杭州)有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "拱墅区"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "杭州·拱墅",
+          "detail": "此地点仅对应博洛科自动化（杭州）有限公司这一杭州子公司的设立、落地事实。美国科罗拉多州属于其母公司来源地，母公司项目业绩另行区分；注册地或总部地不凭这篇报道认定。",
+          "evidence_ids": [
+            "geo-4475fb2f0f4b971e491050a7"
+          ]
+        }
       },
       "company_entity_id": "dr-u-3c00a72d2160d3f357c4",
       "company_canonical_name": "博洛科自动化(杭州)有限公司",
@@ -1701,16 +1762,24 @@
       "selection_recommendation": "keep",
       "selection_reason": "博洛科杭州子公司设立是具体中国市场进入节点，关联母公司的Pallet Factory产品机制和Del Papa应用有正文，不只空落户。严格区分子公司组织事实与美国母公司项目，不将海外交付计作杭州子公司业绩。10月12日新闻有效。",
       "event_headline_source": "2f0ed411b137244cb1e6d34d4810d6466817441b537011590a78b0ff607f0559",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "location_candidates": [
+      "location_status": "business_confirmed_subject_pending",
+      "location_basis": [
         {
-          "value": "中国浙江省杭州市拱墅区（原文明确为子公司设立地；母公司来自美国科罗拉多州，不与子公司地点合并）",
-          "status": "article_candidate_only",
-          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+          "evidence_id": "geo-4475fb2f0f4b971e491050a7",
+          "source_url": "https://mp.weixin.qq.com/s/CYcv2RS6MV1SqJlJWrecEA",
+          "checked_at": "2026-10-13T02:56:55.302055+00:00",
+          "subject": "博洛科自动化(杭州)有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "拱墅区"
+          }
         }
       ],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
@@ -1736,7 +1805,8 @@
           "new_evidence_ids": []
         },
         "evidence_ids": [
-          "article:bbabb618234dc5a2"
+          "article:bbabb618234dc5a2",
+          "supplemental_review:dc038f3950467799"
         ]
       }
     },
@@ -1748,12 +1818,12 @@
       "sector": "智能眼镜光学配套",
       "financing": "",
       "source": "创业邦",
-      "location": "地点待核",
+      "location": "报道属地：丹阳",
       "article_location": "江苏丹阳；原文明确为本地企业，未区分注册地与总部地",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
+        "display_location": "报道属地：丹阳",
         "located_status": "unknown",
         "display_basis": [],
         "subject_evidence_ids": [],
@@ -1766,7 +1836,28 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7910139ca1c225752845f940",
+            "source_url": "https://mp.weixin.qq.com/s/79Lik0zkVY1Hv5Yj4sq-1A",
+            "checked_at": "2026-10-13T02:56:55.302055+00:00",
+            "subject": "明月镜片",
+            "role": "mention",
+            "subject_relation": "mention",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "丹阳市"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "报道属地：丹阳",
+          "detail": "文章围绕丹阳眼镜产业展开，并在该语境称明月镜片为“本地龙头”。此处仅呈现报道属地和原文上下文，不能据此认定明月镜片的注册地或总部地。",
+          "evidence_ids": [
+            "geo-7910139ca1c225752845f940"
+          ]
+        }
       },
       "company_entity_id": "dr-u-009112663b4a36b2db48",
       "company_canonical_name": "明月镜片",
@@ -1792,7 +1883,21 @@
       "selection_reason": "明月为小米AI眼镜提供定制镜片和400余店验配服务，收入/毛利对应具体AI硬件配套业务而非公司整体营收，具备关键光学适配商业化事实。2025年合作按历史披露表达，10月11日新闻在窗口。",
       "event_headline_source": "2cc20dff76ac98f2caef3d014cfda09bd5211e58ee56950f787993ec2b6f0a7b",
       "location_status": "unknown",
-      "location_basis": [],
+      "location_basis": [
+        {
+          "evidence_id": "geo-7910139ca1c225752845f940",
+          "source_url": "https://mp.weixin.qq.com/s/79Lik0zkVY1Hv5Yj4sq-1A",
+          "checked_at": "2026-10-13T02:56:55.302055+00:00",
+          "subject": "明月镜片",
+          "role": "mention",
+          "subject_relation": "mention",
+          "place": {
+            "country": "CN",
+            "province": "江苏省",
+            "city": "丹阳市"
+          }
+        }
+      ],
       "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
       "location_candidates": [
         {
@@ -1826,7 +1931,8 @@
           "new_evidence_ids": []
         },
         "evidence_ids": [
-          "article:2a7e958199e7473f"
+          "article:2a7e958199e7473f",
+          "supplemental_review:dc038f3950467799"
         ]
       }
     },
@@ -1922,12 +2028,12 @@
       "sector": "智能眼镜及AI硬件",
       "financing": "",
       "source": "创业邦",
-      "location": "地点待核",
+      "location": "江苏·丹阳（落地项目）",
       "article_location": "丹阳：落地及产品试点经营地点；深圳：原文所述来源地，未证明注册地或总部地",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
+        "display_location": "江苏·丹阳（落地项目）",
         "located_status": "unknown",
         "display_basis": [],
         "subject_evidence_ids": [],
@@ -1940,7 +2046,28 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-64be417b5a273231a124b0fd",
+            "source_url": "https://mp.weixin.qq.com/s/79Lik0zkVY1Hv5Yj4sq-1A",
+            "checked_at": "2026-10-13T02:56:55.302055+00:00",
+            "subject": "江苏西米科技",
+            "role": "project",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "丹阳市"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "江苏·丹阳（落地项目）",
+          "detail": "原文所述江苏西米科技来自深圳，落地丹阳后在眼镜城设置10个产品试点。丹阳作为本条落地、试点项目地点呈现；该事实不证明总部从深圳迁至丹阳，注册地和总部地仍待独立证据确认。",
+          "evidence_ids": [
+            "geo-64be417b5a273231a124b0fd"
+          ]
+        }
       },
       "company_entity_id": "dr-u-f37308a3adc9c025384f",
       "company_canonical_name": "江苏西米科技",
@@ -1966,7 +2093,21 @@
       "selection_reason": "西米落地后在眼镜城设置10个产品试点，有具体研发接触消费者的行动，保留智能眼镜工程验证线索；不是只因签约或深圳/丹阳地域入选。不推定总部迁移，未披露订单、销量；10月11日新闻有效。",
       "event_headline_source": "76f77259f5d10bb7c88079ae8209bd82601cf907836ab323649e7fe7628a2054",
       "location_status": "unknown",
-      "location_basis": [],
+      "location_basis": [
+        {
+          "evidence_id": "geo-64be417b5a273231a124b0fd",
+          "source_url": "https://mp.weixin.qq.com/s/79Lik0zkVY1Hv5Yj4sq-1A",
+          "checked_at": "2026-10-13T02:56:55.302055+00:00",
+          "subject": "江苏西米科技",
+          "role": "project",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "江苏省",
+            "city": "丹阳市"
+          }
+        }
+      ],
       "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
       "location_candidates": [
         {
@@ -2000,7 +2141,8 @@
           "new_evidence_ids": []
         },
         "evidence_ids": [
-          "article:2a7e958199e7473f"
+          "article:2a7e958199e7473f",
+          "supplemental_review:dc038f3950467799"
         ]
       }
     }
