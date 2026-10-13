@@ -423,5 +423,69 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "自然意志": [
+    {
+      "date": "2026-10-14",
+      "title": "自然意志于2026年10月发布50B级物理世界通用基础模型Natura-1，使用百万小时人类第一视角数据进行预训练，融合语言理解、视觉信息与动作生成。正文展示了陌生物体操作、零样本指令遵循、灵巧手操作及失败后主动重试等测试表现；经过任务适配后，模型可处理更复杂的长程任务。公司计划邀请外部人员现场测试，并以复杂长程任务的整套完成率检验模型能力。",
+      "article_title": "一家成立九个月的公司，让机器人走出「排练过的世界」",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/kl446aDL7Se-c9nnb9Xf8A",
+      "sector": "具身智能／机器人基础模型",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "自然意志",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "自然意志",
+      "company_entity_id": "dr-u-0400c79c01b521284c94",
+      "company_raw_name": "自然意志",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "自然意志",
+          "relation": "same_entity",
+          "evidence": "这家公司名叫自然意志。"
+        },
+        {
+          "name": "Natura-1",
+          "relation": "product",
+          "evidence": "直到2026年10月，这个团队才第一次带着产品走到台前，发布了50B级物理世界通用基础模型Natura-1。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "参数规模、数据规模及团队演示支持技术线索，但尚缺独立性能对比、稳定任务成功率和产业交付证据，不能据此确立全国标杆地位。",
+        "evidence_ids": [
+          "article:1316fcef054a42b4"
+        ]
+      },
+      "published_date": "2026-10-13",
+      "insight": "自然意志以人类第一视角数据扩展操作经验，并通过灵巧手和零样本指令遵循尝试减少逐任务编程与驻场调试，商业价值在于提高同一模型跨场景复用的能力。后续应重点观察陌生环境下长程任务完成率、连续运行稳定性及单场景适配成本，判断数据与算力投入能否转化为可复制交付。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "自然意志发布50B级Natura-1物理世界基础模型",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
