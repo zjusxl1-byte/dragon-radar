@@ -607,13 +607,15 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/CYcv2RS6MV1SqJlJWrecEA",
       "sector": "仓储机器人与物流自动化",
-      "location": "地点待核",
+      "location": "杭州·拱墅",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "display_location": "杭州·拱墅",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-4475fb2f0f4b971e491050a7"
+        ],
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
@@ -624,7 +626,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4475fb2f0f4b971e491050a7",
+            "source_url": "https://mp.weixin.qq.com/s/CYcv2RS6MV1SqJlJWrecEA",
+            "checked_at": "2026-10-13T02:56:55.302055+00:00",
+            "subject": "博洛科自动化(杭州)有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "拱墅区"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "杭州·拱墅",
+          "detail": "此地点仅对应博洛科自动化（杭州）有限公司这一杭州子公司的设立、落地事实。美国科罗拉多州属于其母公司来源地，母公司项目业绩另行区分；注册地或总部地不凭这篇报道认定。",
+          "evidence_ids": [
+            "geo-4475fb2f0f4b971e491050a7"
+          ]
+        }
       },
       "source": "湖畔自留田",
       "kind": "event",
