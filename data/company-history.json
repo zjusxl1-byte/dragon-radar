@@ -44161,7 +44161,7 @@
       "canonical_name": "新忆科技",
       "company_entity_id": "dr-u-a0fe0204f818e545738f",
       "company_raw_name": "新忆科技",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 70,
       "is_national_star": true,
       "published_date": "2026-10-12",
@@ -44337,7 +44337,7 @@
       "canonical_name": "煜晟智元",
       "company_entity_id": "dr-u-37aa1a65ca81f03564fb",
       "company_raw_name": "煜晟智元",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 60,
       "is_national_star": false,
       "published_date": "2026-10-12",
@@ -44432,7 +44432,7 @@
       "canonical_name": "台州东部数控",
       "company_entity_id": "dr-u-0eab600bd11d73cfea0f",
       "company_raw_name": "台州东部数控",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 60,
       "is_national_star": false,
       "published_date": "2026-10-12",
@@ -44501,7 +44501,7 @@
       "canonical_name": "波士顿动力",
       "company_entity_id": "dr-u-836ad36b506a174595c3",
       "company_raw_name": "波士顿动力",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "identity_mentions": [
         {
           "name": "Atlas",
@@ -44538,18 +44538,18 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/SUG8z8nIKJ7sPg8RVwz5Jg",
       "sector": "工业设备监测与无源无线传感芯片",
-      "location": "经营地：浙江省 / 杭州市（注册/总部待核）",
+      "location": "浙江省 / 杭州市 / 临平区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：浙江省 / 杭州市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 临平区",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-1f2ee747321d991f3fa3bc0c"
+          "geo-e8631c4898ee85c5962943ab"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "浙江悦和科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -44559,9 +44559,9 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-1f2ee747321d991f3fa3bc0c",
-            "source_url": "https://ectrl.oss-cn-shenzhen.aliyuncs.com/cms/websit/guanyuwomen/index.html",
-            "checked_at": "2026-10-12T18:25:09.288605+00:00",
+            "evidence_id": "geo-e8631c4898ee85c5962943ab",
+            "source_url": "https://mp.weixin.qq.com/s/SUG8z8nIKJ7sPg8RVwz5Jg",
+            "checked_at": "2026-10-12T10:46:56+00:00",
             "subject": "浙江悦和科技有限公司",
             "role": "business",
             "subject_relation": "same_subject",
@@ -44569,17 +44569,29 @@
               "country": "CN",
               "province": "浙江省",
               "city": "杭州市",
-              "address": "杭州市余杭区余杭街道文一西路1818-2号人工智能小镇12号楼506"
+              "district": "临平区",
+              "address": "算力小镇"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "临平区",
+          "evidence_ids": [
+            "geo-e8631c4898ee85c5962943ab"
+          ]
+        }
       },
       "source": "临平发布",
       "kind": "event",
       "canonical_name": "浙江悦和科技有限公司",
       "company_entity_id": "dr-u-8734036938571080388e",
       "company_raw_name": "浙江悦和科技有限公司（简称“悦和科技”）",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "identity_mentions": [
         {
           "name": "悦和科技",
@@ -44593,7 +44605,7 @@
         }
       ],
       "score": 70,
-      "is_national_star": true,
+      "is_national_star": false,
       "published_date": "2026-10-12",
       "insight": "射频供能与贴装式测温机制减少了旋转设备布线限制，宽温域和±1℃精度有助于覆盖高温故障监测场景。既有系统批量应用提供了商业化基础，后续值得跟踪ECS系列自身的客户导入、出货规模与高温长期可靠性。",
       "financing": "",
