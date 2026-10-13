@@ -2,6 +2,16 @@
 (function () {
   'use strict';
   function region(row) {
+    const structured=row.geography;
+    if(structured&&typeof structured==='object'&&!Array.isArray(structured)){
+      // Region is a display/filter label; alert eligibility is reviewed separately.
+      if(structured.geography_status==='confirmed'){
+        if(structured.classification==='foreign')return '海外';
+        if(structured.classification==='hangzhou')return '杭州';
+        if(structured.classification==='domestic_non_hangzhou')return '国内其他';
+      }
+      return '待核实';
+    }
     const geography=String(row.geography||''), place=String(row.location||'');
     if(/海外/.test(geography)||/美国|英国|德国|法国|日本|韩国|新加坡|加拿大|以色列|硅谷|旧金山|荷兰|瑞士|芬兰|瑞典|澳大利亚|印度|意大利|比利时|挪威|丹麦|西班牙|奥地利|俄罗斯|阿联酋|纽约|伦敦|东京|首尔/.test(place))return '海外';
     if(/杭州/.test(geography+' '+place))return '杭州';
