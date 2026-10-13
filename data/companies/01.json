@@ -672,6 +672,79 @@
       "event_headline": "微软数据中心据报道拟获三里岛重启反应堆专供电力",
       "event_signal": "context",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "据文章报道，微软发布第三代Maia AI加速器Maia 300，计划于2027年投产。披露设计采用台积电N2P计算芯片、多芯片架构及软件定义本地访问数据流，配备八个HBM4堆栈，每个加速器提供288GB容量和18TB/s内存带宽；计划每机架部署96个加速器，最大扩展至12,288个加速器。上述为报道披露的设计与计划，并非已量产部署成果。",
+      "article_title": "微软发布2nm芯片，加速抛弃英伟达！",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/BGApMOVyoWlISW19DF2nfg",
+      "sector": "人工智能推理芯片与云计算基础设施",
+      "location": "经营地：US / Redmond（注册/总部待核）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "经营地：US / Redmond（注册/总部待核）",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-285d79e62d3f1ae5f005a8b0"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "微软",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-285d79e62d3f1ae5f005a8b0",
+            "source_url": "https://www.microsoft.com/en-us/investor/contact-information",
+            "checked_at": "2026-10-12T03:53:37.942351+00:00",
+            "subject": "微软",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Washington",
+              "city": "Redmond"
+            }
+          }
+        ]
+      },
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "微软",
+      "company_entity_id": "dr-u-12b0c8b376b8375e5f35",
+      "company_raw_name": "微软",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Maia 300",
+          "relation": "product",
+          "evidence": "微软发布 Maia 300 AI 芯片"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持具体推理芯片与系统方案观察，但性能比较口径不一致，且没有外部测试或Maia 300实际部署成果，不据企业知名度自动授予本轮全国标杆标签。",
+        "evidence_ids": [
+          "article:099d0cd559d4a756"
+        ]
+      },
+      "published_date": "2026-10-12",
+      "insight": "微软将推理芯片、内存、互连和液冷机架协同设计，重点提升电力受限条件下的Token交付效率，具有云端推理基础设施对标价值。商业效果的关键指标是实际模型负载下的单位Token成本、机架利用率，以及2027年投产后的部署规模。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "据报道，微软发布Maia 300加速器，计划2027年投产",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ]
 }
