@@ -1398,19 +1398,19 @@
       "sector": "工业设备监测与无源无线传感芯片",
       "financing": "",
       "source": "临平发布",
-      "location": "经营地：浙江省 / 杭州市（注册/总部待核）",
+      "location": "浙江省 / 杭州市 / 临平区",
       "article_location": "临平算力小镇（经营地）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：浙江省 / 杭州市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 临平区",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-1f2ee747321d991f3fa3bc0c"
+          "geo-e8631c4898ee85c5962943ab"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "浙江悦和科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1420,9 +1420,9 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-1f2ee747321d991f3fa3bc0c",
-            "source_url": "https://ectrl.oss-cn-shenzhen.aliyuncs.com/cms/websit/guanyuwomen/index.html",
-            "checked_at": "2026-10-12T18:25:09.288605+00:00",
+            "evidence_id": "geo-e8631c4898ee85c5962943ab",
+            "source_url": "https://mp.weixin.qq.com/s/SUG8z8nIKJ7sPg8RVwz5Jg",
+            "checked_at": "2026-10-12T10:46:56+00:00",
             "subject": "浙江悦和科技有限公司",
             "role": "business",
             "subject_relation": "same_subject",
@@ -1430,10 +1430,22 @@
               "country": "CN",
               "province": "浙江省",
               "city": "杭州市",
-              "address": "杭州市余杭区余杭街道文一西路1818-2号人工智能小镇12号楼506"
+              "district": "临平区",
+              "address": "算力小镇"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "临平区",
+          "evidence_ids": [
+            "geo-e8631c4898ee85c5962943ab"
+          ]
+        }
       },
       "company_entity_id": "dr-u-8734036938571080388e",
       "company_canonical_name": "浙江悦和科技有限公司",
@@ -1445,7 +1457,7 @@
       "insight": "射频供能与贴装式测温机制减少了旋转设备布线限制，宽温域和±1℃精度有助于覆盖高温故障监测场景。既有系统批量应用提供了商业化基础，后续值得跟踪ECS系列自身的客户导入、出货规模与高温长期可靠性。",
       "event_headline": "悦和科技推出ECS测温芯片，实现宽温域高精度稳定量产",
       "event_signal": "material",
-      "is_national_star": true,
+      "is_national_star": false,
       "event_time_evidence": {
         "status": "date_unknown_recent_report",
         "description": "事件日期未明确；报道日为 2026-10-12",
@@ -1456,14 +1468,14 @@
       "published_date": "2026-10-12",
       "publication_basis": "采集源保留的发布时间",
       "selection_recommendation": "keep",
-      "selection_reason": "悦和ECS宽温域无源无线芯片有具体指标、射频供能机制和稳定量产，工业监测系统已有客户应用，保留关键器件与产品进展。系统既有应用不全归为新ECS客户，已核杭州经营地、总部仍待核；10月12日新闻有效。",
+      "selection_reason": "悦和ECS宽温域无源无线芯片有具体指标、射频供能机制和稳定量产，保留关键器件与产品进展。临平发布“上新了！临平”栏目、标题“临平造”及正文“位于算力小镇的浙江悦和科技”明确为临平企业，无外地主体或分支反证，正面发现确认杭州临平；不以注册/总部证明作为前置要求，不授全国标杆标签。既有系统应用不全归为新ECS客户；10月12日新闻有效。",
       "event_headline_source": "3d70d25b03d64701dbdea5d3824bc5f292bdad0f22a73d0dab5d8b5e9f1008ff",
-      "location_status": "business_confirmed_subject_pending",
+      "location_status": "discovery_confirmed",
       "location_basis": [
         {
-          "evidence_id": "geo-1f2ee747321d991f3fa3bc0c",
-          "source_url": "https://ectrl.oss-cn-shenzhen.aliyuncs.com/cms/websit/guanyuwomen/index.html",
-          "checked_at": "2026-10-12T18:25:09.288605+00:00",
+          "evidence_id": "geo-e8631c4898ee85c5962943ab",
+          "source_url": "https://mp.weixin.qq.com/s/SUG8z8nIKJ7sPg8RVwz5Jg",
+          "checked_at": "2026-10-12T10:46:56+00:00",
           "subject": "浙江悦和科技有限公司",
           "role": "business",
           "subject_relation": "same_subject",
@@ -1471,18 +1483,19 @@
             "country": "CN",
             "province": "浙江省",
             "city": "杭州市",
-            "address": "杭州市余杭区余杭街道文一西路1818-2号人工智能小镇12号楼506"
+            "district": "临平区",
+            "address": "算力小镇"
           }
         }
       ],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_next_action": null,
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
         "reviewer": "overnight-current-model-agent / full-text per-event review",
         "candidate_id": "de5837ad0d675f6ccdc85454d182862cd71a16d3f2e079703cbb45e5abc3b4aa",
         "input_row_sha256": "010bebcb776b80d7204fb74e9a49ce6cd9a3627d44600c7ab3669a8ba11c51b2",
-        "reason": "悦和ECS宽温域无源无线芯片有具体指标、射频供能机制和稳定量产，工业监测系统已有客户应用，保留关键器件与产品进展。系统既有应用不全归为新ECS客户，已核杭州经营地、总部仍待核；10月12日新闻有效。",
+        "reason": "悦和ECS宽温域无源无线芯片有具体指标、射频供能机制和稳定量产，保留关键器件与产品进展。临平发布“上新了！临平”栏目、标题“临平造”及正文“位于算力小镇的浙江悦和科技”明确为临平企业，无外地主体或分支反证，正面发现确认杭州临平；不以注册/总部证明作为前置要求，不授全国标杆标签。既有系统应用不全归为新ECS客户；10月12日新闻有效。",
         "scope": {
           "technology_evidence": "ECS测温-40至180℃、±1℃，射频供能，贴装旋转部件，设计和封装优化实现稳定量产。",
           "value_reason": "解决旋转设备布线和高温内部热点监测限制，具备电力与工业故障预防应用价值。"
