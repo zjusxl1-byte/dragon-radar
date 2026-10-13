@@ -275,6 +275,65 @@
       "event_headline": "面壁智能联合发布MiniCPM-o 4.5技术报告并开源流式框架",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "面壁智能与OpenBMB正式开源MiniCPM-V 4.7，包含35B-A3B和实际参数1.3B的两个版本。35B-A3B采用MoE架构，每次推理激活约3B参数；据文章披露，在iPhone 17 Pro Max上约占用3GB内存，解码速度可超过每秒13个token。模型通过前瞻专家调度、逐层混合精度量化、视觉压缩及草稿模型加速降低端侧推理开销，并提供自回放微调方法。支持iOS、安卓和鸿蒙部署，发布当天完成瑞芯微、后摩、Intel、AMD和Arm等芯片平台适配。",
+      "article_title": "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/-3bucYVQ2WINwj7RZuXOQw",
+      "sector": "人工智能／端侧多模态大模型",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "面壁智能",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "面壁智能",
+      "company_entity_id": "dr-u-3309b3b14807f39a709f",
+      "company_raw_name": "面壁智能",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "MiniCPM-V 4.7",
+          "relation": "product",
+          "evidence": "它就是面壁智能和OpenBMB刚刚正式开源的MiniCPM-V 4.7。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条具备明确的端侧技术对标价值，但单篇报道中的测试成绩、演示和系列下载量尚不足以独立确认全国标杆资格。历史is_national_star未附明确benchmark_review依据，不能自动复用为已审标杆裁决；不据此删除历史标签。",
+        "evidence_ids": [
+          "article:1ed1980aafd6e3c1",
+          "accepted_history:ac64ba82d4a26cb6",
+          "accepted_history:0fdca236b10fd76f"
+        ]
+      },
+      "published_date": "2026-10-13",
+      "insight": "前瞻专家预取与计算、读盘并行，在保留原有专家路由的同时降低内存和带宽压力，有利于手机及其他终端部署离线多模态能力。多平台适配与低成本微调扩大了开发者采用空间，商业转化仍需观察终端厂商实际装机量、付费客户及部署收入。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "面壁智能开源MiniCPM-V 4.7，支持低内存端侧多模态推理",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "知存科技": [
