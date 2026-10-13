@@ -728,7 +728,7 @@
       "canonical_name": "扩散智能DiffuSpace",
       "company_entity_id": "dr-u-695e746a40eecf009efb",
       "company_raw_name": "扩散智能DiffuSpace",
-      "identity_status": "confirmed",
+      "identity_status": "unresolved",
       "identity_mentions": [
         {
           "name": "DiffuSpace",
@@ -760,13 +760,15 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/8RjKKVHqOkh6MpU-q2uvyQ",
       "sector": "AI材料研发与自主实验室",
-      "location": "地点待核",
+      "location": "北京·昌平（实验室）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "display_location": "北京·昌平（实验室）",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-691b0052c11e9be512cd8172"
+        ],
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
@@ -777,7 +779,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-691b0052c11e9be512cd8172",
+            "source_url": "https://mp.weixin.qq.com/s/8RjKKVHqOkh6MpU-q2uvyQ",
+            "checked_at": "2026-10-13T02:56:55.302055+00:00",
+            "subject": "和光智成",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "昌平区"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "北京·昌平（实验室）",
+          "detail": "原文明确和光智成已投用的自主实验室位于北京昌平，作为该企业实验室经营地呈现。注册地、总部地仍待独立证据确认。",
+          "evidence_ids": [
+            "geo-691b0052c11e9be512cd8172"
+          ]
+        }
       },
       "source": "投资界",
       "kind": "event",
