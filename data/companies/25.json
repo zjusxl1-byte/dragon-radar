@@ -527,7 +527,7 @@
       "canonical_name": "新忆科技",
       "company_entity_id": "dr-u-a0fe0204f818e545738f",
       "company_raw_name": "新忆科技",
-      "identity_status": "confirmed",
+      "identity_status": "unresolved",
       "score": 70,
       "is_national_star": true,
       "published_date": "2026-10-12",
@@ -547,11 +547,11 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/79Lik0zkVY1Hv5Yj4sq-1A",
       "sector": "智能眼镜光学配套",
-      "location": "地点待核",
+      "location": "报道属地：丹阳",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
+        "display_location": "报道属地：丹阳",
         "located_status": "unknown",
         "display_basis": [],
         "subject_evidence_ids": [],
@@ -564,7 +564,28 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7910139ca1c225752845f940",
+            "source_url": "https://mp.weixin.qq.com/s/79Lik0zkVY1Hv5Yj4sq-1A",
+            "checked_at": "2026-10-13T02:56:55.302055+00:00",
+            "subject": "明月镜片",
+            "role": "mention",
+            "subject_relation": "mention",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "丹阳市"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "报道属地：丹阳",
+          "detail": "文章围绕丹阳眼镜产业展开，并在该语境称明月镜片为“本地龙头”。此处仅呈现报道属地和原文上下文，不能据此认定明月镜片的注册地或总部地。",
+          "evidence_ids": [
+            "geo-7910139ca1c225752845f940"
+          ]
+        }
       },
       "source": "创业邦",
       "kind": "event",
