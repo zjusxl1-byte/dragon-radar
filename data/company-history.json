@@ -8708,6 +8708,68 @@
       "event_headline": "台积电开发面板级封装，规划2026年建实验线、2028年底量产",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "文章介绍，台积电采用CoWoS-L封装技术，将局部硅桥接嵌入重分布层（RDL）中介层中，并率先应用于英伟达Blackwell平台。正文未披露该应用的具体发生日期或本次新增量产进展。",
+      "article_title": "桥接技术，引领下一代大尺寸封装",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/W0cP0BcmvjGbjLeobvebEA",
+      "sector": "半导体先进封装",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "台积电",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "台积电",
+      "company_entity_id": "dr-u-7ad9114a6ee73402a554",
+      "company_raw_name": "台积电 (TSMC)",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "TSMC",
+          "relation": "same_entity",
+          "evidence": "台积电 (TSMC)"
+        },
+        {
+          "name": "CoWoS-L",
+          "relation": "product",
+          "evidence": "台积电 (TSMC) 则采用了其芯片封装在基板上的局部 (CoWoS-L) 封装技术"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文建立了具体封装路线及客户应用的对标价值，但未提供明确已审全国标杆资格依据。历史is_national_star字段不能替代独立资格审核，本次不据此批量改写历史标签。",
+        "evidence_ids": [
+          "article:5a126a0d5bab62a5"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "CoWoS-L通过局部硅桥接承担高密度互连，为大型AI芯片封装提供不同于整片硅中介层的技术路径。Blackwell平台应用体现其客户落地价值，后续可关注大尺寸封装良率、产能及单位封装成本。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "台积电CoWoS-L局部硅桥接已用于Blackwell平台",
+      "event_signal": "context",
+      "discovery_status": "update"
     }
   ],
   "杭州铜师傅": [
@@ -12191,6 +12253,64 @@
       "event_headline": "斜跃智能首轮获元璟与理想汽车投资，近期将完成工商变更",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "斜跃智能于2026年2月由陈伟与张骁联合创立，成立7个月完成两轮融资，2026年9月官宣数亿元天使+轮融资，投资方包括理想汽车。公司面向家庭场景研发具身基础模型，提出将交互与行动一体化建模的Duplex Reasoning（全双工推理），近期已内部演示第一阶段成果，预计2026年底至2027年初推出第一版模型；计划2027年使用轮式双臂、夹爪形态的通用本体开展研发与场景验证，面向家庭的独立产品目标时间为2028年前后。",
+      "article_title": "对话斜跃智能陈伟：具身智能很热，技术还很早 | 元璟family",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/RqRdTfAM4tROiy_WUqmKZQ",
+      "sector": "具身智能／家庭服务机器人／具身基础模型",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "斜跃智能",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "元璟资本",
+      "kind": "event",
+      "canonical_name": "斜跃智能",
+      "company_entity_id": "dr-u-fba6bdd504fa7aff0b1e",
+      "company_raw_name": "斜跃智能（Zigleap AI）",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "Zigleap AI",
+          "relation": "same_entity",
+          "evidence": "今年2月，他和理想汽车第二产品线前总裁张骁联合创立斜跃智能（Zigleap AI），一家以家庭为第一落地场景的具身基础模型公司。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本轮证据支持资本成长与早期研发进展，未建立全国行业领先或可验证规模化应用依据。历史is_national_star=true没有随附明确标杆审核依据，本次不以其免审，也不在patch中批量删除历史标签。",
+        "evidence_ids": [
+          "article:89052c67965bbd03",
+          "accepted_history:9c5c0eab15d2881b"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "斜跃将可打断交互与动作执行纳入具身模型训练，并已内部演示阶段成果；商超、酒店和餐饮场景验证计划于2027年展开。其规模化关键在于跨设备的数据质量、本体一致性与任务成功率，高质量数据业务和少数场景验证能否形成持续收入值得跟踪。",
+      "financing": "成立7个月完成两轮融资；2026年9月官宣数亿元天使+轮融资，投资方包括理想汽车。正文未披露精确金额、完整投资方名单、估值及资金用途。",
+      "event_date": "",
+      "event_headline": "斜跃智能9月完成数亿元天使+轮融资，推进全双工具身模型",
+      "event_signal": "major",
+      "discovery_status": "update"
     }
   ],
   "杭州宇航梦园农业科技有限公司": [
@@ -15137,6 +15257,86 @@
       "event_headline": "特斯拉2026年8月国内辅助驾驶域控芯片份额为12.3%",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "原文称，特斯拉于10月14日宣布，超过300辆Cybercab已在美国得州奥斯汀投入运营，服务上线30天后规模增长至8倍，并计划下一站在达拉斯投入运营。该车型由AI驱动，无需方向盘、踏板和后视镜。原文未明确该公告日期的年份。",
+      "article_title": "小鹏正式宣布：开始对外卖技术；曝特斯拉机器人即将量产丨汽车交通日报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/-EKSUCizNHTA01ebJx715Q",
+      "sector": "自动驾驶与智能汽车",
+      "location": "US",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-39d56e451ceb738d3ce2798e"
+        ],
+        "subject_evidence_ids": [
+          "geo-39d56e451ceb738d3ce2798e"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "特斯拉",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Texas",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-39d56e451ceb738d3ce2798e"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-39d56e451ceb738d3ce2798e",
+            "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
+            "checked_at": "2026-10-12T04:00:14.248816+00:00",
+            "subject": "特斯拉",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Texas"
+            }
+          }
+        ]
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "特斯拉",
+      "company_entity_id": "dr-u-ddadc7e89f7cd629cbd7",
+      "company_raw_name": "特斯拉",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "Cybercab",
+          "relation": "product",
+          "evidence": "超300辆特斯拉赛博无人驾驶电动车Cybercab已在美国得州奥斯汀投入运营"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本包可支持该海外企业的自动驾驶运营对标线索，但没有明确已审benchmark_review或独立比较材料证明本次所涉业务的标杆地位；历史is_national_star标记不代替资格核验，本裁决不批量撤销历史标签。",
+        "evidence_ids": [
+          "article:10fc56cb16751d59"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "运营车队扩容及跨城市部署计划，使Cybercab成为自动驾驶商业化的具体对标线索。其商业模式的可复制性，需关注付费订单密度、单车利用率、远程协助频率及单位里程运营成本。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "特斯拉称Cybercab运营规模扩大，拟进入达拉斯",
+      "event_signal": "major",
+      "discovery_status": "update"
     }
   ],
   "阿里ATH事业群": [
@@ -15317,6 +15517,56 @@
       "event_headline": "IBM披露Spyre加速器设计，回顾2025年量产芯片上市",
       "event_signal": "context",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "据文章报道，IBM计划于2027年第一季度推出用于7埃纳米堆叠技术的早期研发工艺设计套件（PDK），供芯片设计公司、EDA供应商及设备供应商等开展评估。该架构将n型和p型器件上下堆叠；首版PDK预计包含逻辑功能示例标准单元库和示例SRAM设计，用于早期布局布线、密度及功耗性能研究。",
+      "article_title": "0.7nm芯片，新里程碑，全球首创！",
+      "event_type": "技术研发计划",
+      "link": "https://mp.weixin.qq.com/s/FUj3wpMTIQAtSO3hssIKWQ",
+      "sector": "半导体／先进制程／芯片设计工具",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "IBM",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "IBM",
+      "company_entity_id": "dr-u-916a98f0fa2a39af1a73",
+      "company_raw_name": "IBM",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条可支持先进器件与设计生态的技术对标，但未建立独立全国标杆资格；全球首创及性能宣传存在待核问题，不能据此授予标签。",
+        "evidence_ids": [
+          "article:fc4ea11399e2e822"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "早期PDK可将垂直堆叠器件研究推进至芯片设计与EDA适配环节，为相关工具及制造设备企业提供协同开发入口。后续产业化价值主要取决于模型完备性、热耦合与寄生参数控制，以及制造良率和合作方实际采用情况。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "IBM计划于2027年一季度推出7埃纳米堆叠早期PDK",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "曦智科技": [
@@ -23627,6 +23877,64 @@
       "event_headline": "Bolt Graphics首批Zeus测试芯片流片成功，计划2027年Q4量产",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Bolt Graphics宣布，Zeus GPU测试芯片已完成首轮测试。该测试芯片面积为6平方毫米，采用台积电12纳米工艺，包含用于执行麦克斯韦方程组的固定功能硬件模块。创始人称，其性能和功耗表现超出预期。正式产品预计于2027年底或2028年初投产，计划采用台积电5纳米工艺、芯片组架构及集成RISC-V CPU，面向高性能计算、物理仿真、数字孪生和图形渲染。",
+      "article_title": "一家GPU初创，取得重要进展",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/G6jciiFESFhUhyTom5STPw",
+      "sector": "GPU芯片与高性能计算",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Bolt Graphics",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "Bolt Graphics",
+      "company_entity_id": "dr-u-ec3d3eb7286e186435e1",
+      "company_raw_name": "Bolt Graphics",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Zeus",
+          "relation": "product",
+          "evidence": "Bolt Graphics 今日宣布，其专为高性能计算 (HPC)、数字孪生和视频渲染工作负载设计的 GPU Zeus 已完成首轮测试。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有正文支持差异化研发进展，但未建立可独立核验的行业领先地位、客户交付或规模化应用依据。历史is_national_star标记没有附明确标杆审核依据，不能代替本次独立资格判断。",
+        "evidence_ids": [
+          "article:403d62ed9d7d1994",
+          "accepted_history:a321cc5f99312e8b"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "将电磁仿真算法固化为专用硬件，为Zeus在半导体及光子器件设计等工作负载上建立差异化提供了技术路径；选择N5工艺和LPDDR5则体现其成本与供应可得性取向。商业价值仍取决于正式芯片的实测加速比、系统能效及客户软件迁移成本，目前披露的客户接触处于洽谈阶段。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Bolt Graphics完成Zeus电磁仿真测试芯片首轮测试",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "视启未来": [
@@ -41894,6 +42202,74 @@
       "event_headline": "谷歌面临英国Play抽成集体诉讼，潜在赔偿12亿英镑尚未判决",
       "event_signal": "major",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "据文章报道，谷歌已开始向全球开发者、企业及付费订阅用户陆续开放Gemini 4 Argon，重点增强多模态理解、编程及长流程任务执行能力。谷歌披露，该模型在ADK代码优化中提出的两项改动经工程师审核合并，使长会话内存准备开销降低约40%、包导入耗时降低21%；另展示了从视频理解、仿真代码生成到Apollo人形机器人执行的流程。首发API价格为每百万输入token 2美元、输出token 10美元，文章称优惠截至11月30日，12月1日起分别恢复至4美元和20美元。",
+      "article_title": "刚刚，Gemini 4终于来了：谷歌重回御三家，API限时半价",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/VtMqTlWICT79a11jo7W1QA",
+      "sector": "人工智能／多模态大模型／智能体",
+      "location": "经营地：US / Mountain View（注册/总部待核）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "经营地：US / Mountain View（注册/总部待核）",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-60dcbce5d7024df7e8210d45"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "谷歌",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-60dcbce5d7024df7e8210d45",
+            "source_url": "https://policies.google.com/terms?hl=en",
+            "checked_at": "2026-10-12T03:53:52.842268+00:00",
+            "subject": "谷歌",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Mountain View",
+              "address": "1600 Amphitheatre Parkway, Mountain View, California 94043, USA"
+            }
+          }
+        ]
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "谷歌",
+      "company_entity_id": "dr-u-6e7e64cf66f76a043f8d",
+      "company_raw_name": "谷歌",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持全球技术产品对标线索，但未提供独立的全国标杆资格裁决；模型自测、媒体排名及美国经营地址不能自动授予全国标杆标签。事件仍可保留。",
+        "evidence_ids": [
+          "article:54ec94309dfbc3c7",
+          "geo-60dcbce5d7024df7e8210d45"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "将代码修改、测试与工具调用串成长流程，有助于模型从辅助问答进入工程任务交付，文中经审核合并的优化比单纯榜单成绩更具应用参考价值。首发折扣降低试用成本，商业竞争力仍取决于恢复原价后的单任务成本、完成率及人工复核投入。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "谷歌开放Gemini 4 Argon，强化编程与长流程任务执行",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "微软": [
@@ -46200,10 +46576,10 @@
       },
       "source": "创业邦",
       "kind": "event",
-      "canonical_name": "赛力斯集团",
-      "company_entity_id": "dr-u-6618bd19640e92cb9734",
+      "canonical_name": "赛力斯",
+      "company_entity_id": "dr-u-7f6333102da9e8bda2a5",
       "company_raw_name": "赛力斯集团",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 40,
       "is_national_star": false,
       "benchmark_review": {
@@ -46220,7 +46596,7 @@
       "event_date": "",
       "event_headline": "赛力斯集团与宁德时代签署长期战略合作协议",
       "event_signal": "material",
-      "discovery_status": "first_seen"
+      "discovery_status": "update"
     }
   ],
   "佳能": [
@@ -46323,6 +46699,909 @@
       "financing": "",
       "event_date": "",
       "event_headline": "保时捷宣布开发中置发动机超跑平台，拟打造高于911的车型系列",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "阿斯麦": [
+    {
+      "date": "2026-10-15",
+      "title": "阿斯麦发布第三季度财报，净销售额为116.6亿欧元，净利润为49.6亿欧元，毛利率为57.5%。公司表示，人工智能驱动的芯片光刻设备需求旺盛，预计2027年和2028年无法完全满足客户需求，正在研究进一步扩大产能的途径。公司将2026年全年净销售额预期下限从430亿欧元上调至440亿欧元，上限维持450亿欧元；预计第四季度销售额为142亿至152亿欧元。首席执行官表示，2028年有大量订单涌入，部分客户希望提前下达2029年甚至2030年的订单。",
+      "article_title": "直线拉升！刚刚，超级大反转！光刻机巨头，发生了什么？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/gk9jML1HUFnVp9B-IJQHUA",
+      "sector": "半导体设备",
+      "location": "NL / Veldhoven",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "NL / Veldhoven",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-1bf6e238d13cd63512be37bb"
+        ],
+        "subject_evidence_ids": [
+          "geo-1bf6e238d13cd63512be37bb"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿斯麦",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "NL",
+          "city": "Veldhoven",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-1bf6e238d13cd63512be37bb"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-1bf6e238d13cd63512be37bb",
+            "source_url": "https://www.asml.com/en/company/about-asml/locations",
+            "checked_at": "2026-10-14T18:36:47.835784+00:00",
+            "subject": "阿斯麦",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "NL",
+              "city": "Veldhoven"
+            }
+          }
+        ]
+      },
+      "source": "浙商杂志",
+      "kind": "event",
+      "canonical_name": "阿斯麦",
+      "company_entity_id": "dr-u-26b1a8a41a750933718d",
+      "company_raw_name": "阿斯麦",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文支持全球光刻设备产业观察，官网证明主体总部在荷兰；不能据此授予全国企业标杆标签。全球产业对标价值与全国标杆资格分别判断。",
+        "evidence_ids": [
+          "article:c3e8177c291cfb80",
+          "geo-1bf6e238d13cd63512be37bb"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "阿斯麦披露人工智能驱动的光刻设备需求已延伸至多年交付周期，显示先进芯片制造需求正在向关键设备采购传导。扩产能否转化为交付增长，值得持续跟踪其产能提升进度、关键部件供应及订单交付周期。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "阿斯麦称光刻设备需求旺盛，正研究进一步扩产",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "OPay": [
+    {
+      "date": "2026-10-15",
+      "title": "OPay于文中所述10月9日向美国证券交易委员会递交F-1文件，计划在纽约证券交易所上市，发行ADS的数量、价格区间及募资额尚未确定。南非标准银行集团旗下Stanbic Africa Holdings已签署认购协议，拟通过与IPO同时进行的私募配售认购最高2亿美元股份，对应IPO完成后最多4.99%的持股。",
+      "article_title": "中国老板，打造非洲第一的“电子钱包”，要IPO了",
+      "event_type": "IPO",
+      "link": "https://mp.weixin.qq.com/s/5cN0vhD0uqIEHVbeTjF92g",
+      "sector": "金融科技／数字支付与信贷",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "OPay",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "OPay",
+      "company_entity_id": "dr-u-35b00ceedd49b4a4b677",
+      "company_raw_name": "OPay",
+      "identity_status": "unresolved",
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文援引招股书所载市场份额与用户指标，支持海外数字支付商业化对标观察，但中国创始人和中国投资方不构成全国标杆主体资格；当前没有明确已审全国标杆依据。",
+        "evidence_ids": [
+          "article:622f324e8c4fa284"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "OPay通过钱包、线下代理商及商户收单网络获取交易和用户，再向信贷服务变现，贷款融资服务在2026年上半年已贡献50.6%的收入。同期预期信用损失准备达1.184亿美元，高于9087万美元净利润，叠加2025年88.1%的收入来自尼日利亚，贷款资产质量和单一市场集中度是其上市估值的关键变量。",
+      "financing": "2019年完成5000万美元融资及1.2亿美元B轮融资；2021年完成软银愿景基金二期领投的4亿美元C轮融资，投后估值20亿美元。本次IPO募资额尚未确定；媒体报道目标估值40亿美元。Stanbic Africa Holdings拟认购最高2亿美元的IPO同步私募配售股份，尚未完成。",
+      "event_date": "",
+      "event_headline": "OPay已递交赴美上市申请，拟引入标准银行战略投资",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "据报道，OPay已获董事会和股东批准，计划在纽约上市完成后寻求在尼日利亚证券交易所进行第二上市。文章还披露截至所述6月底，累计投放POS终端约130万台，其中约80万台活跃使用；2026年上半年，自营贷款融资服务占收入50.6%。",
+      "article_title": "非洲支付之王IPO：年入36亿，估值285亿",
+      "event_type": "IPO",
+      "link": "https://mp.weixin.qq.com/s/KrF2nNP-kiOVNXlF6PzejQ",
+      "sector": "金融科技／数字支付与数字信贷",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "OPay",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "铅笔道",
+      "kind": "event",
+      "canonical_name": "OPay",
+      "company_entity_id": "dr-u-35b00ceedd49b4a4b677",
+      "company_raw_name": "OPay",
+      "identity_status": "unresolved",
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文具备海外数字金融产业对标价值，并引用金融App用户规模排名，但未提供全国标杆资格的已审依据；海外行业地位和本次IPO申请不自动赋予全国标杆标签。",
+        "evidence_ids": [
+          "article:328072536dd85446"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "第二上市安排为尼日利亚本地投资者参与提供潜在入口，使OPay的国际资本路径更贴近其主要经营市场。POS网络的商业化质量可重点跟踪活跃终端留存、单终端交易量和收单收入，观察线下商户触达能否转化为持续支付服务需求。",
+      "financing": "本次IPO目标估值约40亿美元、拟募资约5亿美元，均为市场消息，尚未完成。历史融资包括2019年7月5000万美元融资、同年1.2亿美元B轮融资，以及2021年8月软银愿景基金二期领投的4亿美元融资，后者估值20亿美元。文章另称Stanbic Africa Holdings计划以最多2亿美元入股。",
+      "event_date": "",
+      "event_headline": "据报道，OPay计划纽约上市后寻求尼日利亚第二上市",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "中科时代": [
+    {
+      "date": "2026-10-15",
+      "title": "中科时代以自主研发的MetaOS双域操作系统和工智机整合计算、控制及机器视觉功能。据运营副总裁韦福忠介绍，公司已与国内排名前五的风机厂商中的四家开展业务，企业测算其方案总拥有成本较传统方案低30%—50%；阶段性测试显示，变桨控制优化使风机切出风速及满功率发电小时数分别提高约10%。公司参与的光伏硅片分选设备项目采用SX21系列工智机，实现80根运动轴控制、2毫秒控制周期，项目测算相关硬件成本降低约40%。半导体设备合作已持续近两年，仍需按设备定制开发；丝网印刷领域已获得小批量订单。",
+      "article_title": "押注“算控一体”，中科时代瞄准工控国产替代—— 专访中科时代运营副总裁韦福忠",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/W7J15msrifVr07_NnJ5KUw",
+      "sector": "工业自动化与工业智能计算",
+      "location": "经营地：广东省 / 深圳市（注册/总部待核）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "经营地：广东省 / 深圳市（注册/总部待核）",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-51db82be58f05fb312dd5c36"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "中科时代",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-51db82be58f05fb312dd5c36",
+            "source_url": "https://www.sinsegye.com.cn/about-us",
+            "checked_at": "2026-10-14T18:36:51.249341+00:00",
+            "subject": "中科时代",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "address": "广东省深圳市南山区粤海街道学府路百度国际大厦西塔楼26层2601-1室"
+            }
+          }
+        ]
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "中科时代",
+      "company_entity_id": "dr-u-7f318955e1ebdeff43ca",
+      "company_raw_name": "中科时代",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "MetaOS",
+          "relation": "product",
+          "evidence": "中科时代的选择，是基于PC-based路线，将自主研发的MetaOS双域操作系统作为技术底座。"
+        },
+        {
+          "name": "MetaFacture",
+          "relation": "product",
+          "evidence": "中科时代还开发了MetaFacture自动化编程平台"
+        },
+        {
+          "name": "SP8000系列机器人控制产品",
+          "relation": "product",
+          "evidence": "中科时代开发了SP8000系列机器人控制产品，尝试将相关功能整合到统一平台。"
+        }
+      ],
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体产品架构和客户应用支持产业观察，但客户覆盖来自企业自述，尚无充分独立证据确认全国领先地位或全国标杆资格。",
+        "evidence_ids": [
+          "article:1405b28ead0ca379"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "双域操作系统将实时控制与视觉、数据计算整合在统一平台，结合风电客户验证及光伏多轴控制案例，体现了国产工控替代的产品与商业价值。规模化关键在于把定制工艺沉淀为可复用模块，值得跟踪标准产品收入占比、客户复购及单项目调试成本。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "中科时代披露工智机风电客户应用及光伏多轴控制成果",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "东华链条集团": [
+    {
+      "date": "2026-10-15",
+      "title": "东华链条计划在第140届广交会上首发最新研发的高端滚子链产品及高精尖配套，产品有望应用于人形机器人灵巧手等具身智能场景；同时展示传动、输送、曳引/提升等九大产品线。企业目前可生产3万多个品种、10万多种规格的链条产品，50%以上产品销往海外，覆盖120余个国家和地区。",
+      "article_title": "临平“智造天团”来了！明天，广州见！",
+      "event_type": "产品首发计划",
+      "link": "https://mp.weixin.qq.com/s/CpOx75OpctLNUtpzoZqj7Q",
+      "sector": "机械传动及机器人关键零部件",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "东华链条集团",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "临平发布",
+      "kind": "event",
+      "canonical_name": "东华链条集团",
+      "company_entity_id": "dr-u-166f47b21f985c789910",
+      "company_raw_name": "东华链条集团",
+      "identity_status": "unresolved",
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "政府报道支持临平本地企业及产品升级线索，但产品规格、出口覆盖和潜在机器人用途不足以建立全国标杆资格。",
+        "evidence_ids": [
+          "article:b154b997c8c4cc27"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "东华链条拟将链传动产品拓展至机器人灵巧手，体现传统机械零部件向具身智能应用延伸的机会。后续值得关注微型化产品的传动精度、寿命及机器人客户验证与订单转化。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "东华链条拟首发高端滚子链，探索机器人灵巧手应用",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "泰姆电气": [
+    {
+      "date": "2026-10-15",
+      "title": "泰姆电气计划在第140届广交会展示一站式电气全屋配套产品，覆盖工业配电、家用电气、新能源配套和家居照明等场景。全套家用照明解决方案将首次亮相展会，并搭配WiFi智能家用解决方案，实现家居用电智能管控、远程操控和安全监测；面向中东市场定制开发的TPN配电箱也将亮相。",
+      "article_title": "临平“智造天团”来了！明天，广州见！",
+      "event_type": "产品方案展示计划",
+      "link": "https://mp.weixin.qq.com/s/CpOx75OpctLNUtpzoZqj7Q",
+      "sector": "低压电气及智能家居用电",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "泰姆电气",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "临平发布",
+      "kind": "event",
+      "canonical_name": "泰姆电气",
+      "company_entity_id": "dr-u-6b4e27bb92c0bc658a5b",
+      "company_raw_name": "泰姆电气",
+      "identity_status": "unresolved",
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文足以支持具体产品方案及市场定制线索，但未提供全国行业地位、领先性能或独立客户验证依据，不能授予全国标杆标签。",
+        "evidence_ids": [
+          "article:b154b997c8c4cc27"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "泰姆电气将低压配电、照明和WiFi控制整合为全屋方案，有助于从单件产品供应转向场景化配套销售。商业化表现可重点跟踪整套方案订单占比、海外市场认证覆盖及定制项目毛利率。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "泰姆电气拟首次展出全套家用照明及WiFi智能方案",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "蔚来": [
+    {
+      "date": "2026-10-15",
+      "title": "据2026年10月14日报道，蔚来ES9在当年6至8月销售21380辆，三个月月均约7127辆。文章另称蔚来上半年交付19万辆、收入518亿元，并提及天行底盘；未披露新的底盘技术发布，也未证明特定底盘配置与销量之间的因果关系。",
+      "article_title": "50万的国产车遍地跑",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/3TXsJlx_RWrDAeUUGSb7rA",
+      "sector": "新能源汽车",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "蔚来",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "蔚来",
+      "company_entity_id": "dr-u-759845673e2a08509a69",
+      "company_raw_name": "蔚来",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "ES8",
+          "relation": "product",
+          "evidence": "蔚来今年上半年只交付了19万辆，收入518亿。长安卖了119万辆车，收入只有656亿，原因就是ES8和ES9定价高。"
+        },
+        {
+          "name": "ES9",
+          "relation": "product",
+          "evidence": "50万级的蔚来ES9月销近万辆"
+        },
+        {
+          "name": "天行底盘",
+          "relation": "product",
+          "evidence": "蔚来的天行底盘"
+        }
+      ],
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条提供车型销量和高端市场比较，但不足以独立建立企业层面的全国标杆资格；不影响该商业化线索保留。",
+        "evidence_ids": [
+          "article:3de3efad36d45c14"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "ES9的销量表现体现了蔚来高端新能源产品的商业化能力，底盘配置和整车体验是其竞争机制的一部分。后续值得跟踪高端车型销量持续性、成交均价及整车毛利率，判断销量增长能否转化为盈利改善。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "据报道，蔚来ES9于2026年6至8月销售21380辆",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "阶跃终端": [
+    {
+      "date": "2026-10-15",
+      "title": "阶跃终端发布STEPX Neo先行版，售价3999元，搭载智能体原生操作系统Step AOS和个人智能体阶跃Amoo。系统支持循环执行、自主工具调用、Skill及MCP工具调用，并通过A2A、MCP等协议连接第三方服务。配套开发工具Step Studio支持开发应用、Agent和Skill并推送至手机。购买用户可享连续12个月、每月百亿Token使用额度。文章称系统提供上云数据脱敏、工具调用留痕、高风险操作二次确认和误删恢复功能。",
+      "article_title": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/VsUVApOBLOTa0Tfjiax4JQ",
+      "sector": "AI智能终端与个人智能体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "阶跃终端",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "阶跃终端",
+      "company_entity_id": "dr-u-cb7124bb7e591ac648d9",
+      "company_raw_name": "阶跃终端",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "STEPX Neo",
+          "relation": "product",
+          "evidence": "期待已久的阶跃终端大模型原生智能体手机STEPX Neo，终于正式亮相。"
+        },
+        {
+          "name": "Step AOS",
+          "relation": "product",
+          "evidence": "具体而言，阶跃终端在Step AOS里搭了一套可信、可见、可控、可逆的安全底座："
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "发布与样机体验证明具体产品路线，但未提供独立行业地位、规模应用或技术领先性依据，尚不能建立全国标杆资格。",
+        "evidence_ids": [
+          "article:6615f0aad9bff795"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "系统级工具调用与开发连接器使产品区别于单纯叠加聊天助手的手机，商业价值取决于第三方服务接入深度及长链路任务完成率。硬件与年度Token额度捆绑销售，后续需关注活跃用户推理成本、付费续订率及开发者生态留存。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "阶跃终端发布STEPX Neo手机及原生智能体系统",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "云蝶科技": [
+    {
+      "date": "2026-10-15",
+      "title": "云蝶科技宣布完成数亿元B+轮系列融资，由StellarS Capital、亚洲联合基建、长浙投资、图灵量子等机构和个人联合投资。资金将用于具身智能技术迭代和真实场景的规模化落地。公司计划提升机器人稳定性与部署效率，完善持续运营能力，并扩大RoboForge对不同任务与本体的适配。",
+      "article_title": "OpenAI投资人，投了一位广州博士",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/q6pRiMm3Y3xpTBqHy1_A9A",
+      "sector": "具身智能与服务机器人",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "云蝶科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "云蝶科技",
+      "company_entity_id": "dr-u-98066263d9444738f933",
+      "company_raw_name": "广州云蝶科技",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本轮融资和具身产品路线支持事件关注，但投资人背景、整体客户数量及未拆分业务的盈利描述不足以建立已核实的全国领先地位或可复制规模优势。",
+        "evidence_ids": [
+          "article:1b6e40ece419f573"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "通过环境系统协同与任务型机器人交付，云蝶科技将竞争重点放在岗位任务完成率和持续服务能力，现场数据反馈有机会提高技能复用率及部署效率。规模化价值需关注具身业务收入占比、人工接管率、单项目部署成本和RaaS回款周期，文章披露的整体客户规模与持续盈利尚未拆分到具身业务。",
+      "financing": "数亿元B+轮系列融资；投资方包括StellarS Capital、亚洲联合基建（00711.HK）、长浙投资、图灵量子等机构和个人；资金用于具身智能技术迭代和真实场景的规模化落地。",
+      "event_date": "",
+      "event_headline": "云蝶科技完成数亿元B+轮系列融资，推进具身智能规模化落地",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "模式星河（北京）科技有限公司": [
+    {
+      "date": "2026-10-15",
+      "title": "据文章转述彭博社报道，阿里将领投Unipat的3亿美元融资，腾讯、红杉中国等拟参与，估值达到25亿美元。公司聚焦AI训练与基准测试，已发布BabyVision、UniScientist、Terminal-X及Vibe-Coding Arena，覆盖视觉推理、科研能力和编程智能体评测。",
+      "article_title": "阿里腾讯，投一位实习生",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/Lchfu0-ndCHK_-4AoE0v8g",
+      "sector": "人工智能训练数据与模型评测",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "模式星河(北京)科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "模式星河(北京)科技有限公司",
+      "company_entity_id": "dr-u-46fd3206e7960c34a020",
+      "company_raw_name": "Unipat",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "模式星河（北京）科技有限公司",
+          "relation": "same_entity",
+          "evidence": "直到2025年12月，创业项目浮出水面——Unipat正式成立。天眼查显示，公司名称为模式星河（北京）科技有限公司，聚焦AI训练与基准测试。"
+        },
+        {
+          "name": "BabyVision",
+          "relation": "product",
+          "evidence": "今年1月，UniPat发布BabyVision，检验模型的基础视觉推理能力"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "已发布评测成果支持技术业务真实性线索，但尚无足够的独立行业地位或商业化证据；拟融资估值、创始人履历及未经证实的营收不能单独授予标杆资格。",
+        "evidence_ids": [
+          "article:ea2533a4fa360b6b"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "Unipat以训练数据和评测基准连接模型研发与实际任务表现，覆盖视觉、科研和编程等能力，具备向多家模型厂商提供基础服务的商业空间。商业化质量需关注付费客户集中度、数据复购率及评测业务向持续收入的转化。",
+      "financing": "据彭博社报道，本轮拟融资3亿美元，阿里将领投，腾讯、红杉中国等拟参与，估值25亿美元；正文未明确融资交割完成或资金用途。",
+      "event_date": "",
+      "event_headline": "Unipat据报道拟获阿里领投3亿美元融资",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "LibTV": [
+    {
+      "date": "2026-10-15",
+      "title": "LibTV与抖音未来导演扶持计划达成合作，计划联合扶持AI综艺创作。LibTV负责提供算力、创作工具和宣发资源，合作方提供流量、项目入口及平台宣发支持。创作者@十万个挑战称，节目图片素材与视频生成基本在LibTV完成，平台支持团队进度查看和资产复用；其约5分钟节目生成成本为2000—5000元，制作周期约一周，LibTV的算力支持已为团队节省部分制作开支。",
+      "article_title": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/lIJdqycICFUps3PQy6x15Q",
+      "sector": "生成式AI／AI视频创作",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "LibTV",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "LibTV",
+      "company_entity_id": "dr-u-88952307729a6d15e615",
+      "company_raw_name": "LibTV",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "LibTV",
+          "relation": "product",
+          "evidence": "据其介绍，目前节目所需的图片素材、视频生成，基本都在AI视频生成平台LibTV上完成。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "已证明具体工具应用与合作，但未建立行业领先地位、规模化付费采用或独立全国标杆依据；创作者流量和节目商单报价不能归为平台经营业绩。",
+        "evidence_ids": [
+          "article:4e27cb43965586ec"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "LibTV将视频生成、团队协作与资产复用结合，并通过分发平台合作连接创作和传播环节，有助于提高系列内容的持续生产能力。商业化观察重点是算力补贴后的付费留存、创作者持续更新率，以及单集生成成本对应的平台毛利。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "LibTV与抖音未来导演扶持计划合作扶持AI综艺创作",
+      "event_signal": "material",
+      "discovery_status": "update"
+    }
+  ],
+  "hillclimb": [
+    {
+      "date": "2026-10-15",
+      "title": "hillclimb推出DeepRSI基准并公布评测结果。该基准包含15项真实机器学习研究任务，覆盖训练方案优化、GPU内核加速、估计器精度提升和向量搜索等方向。模型在无网络环境下使用统一Pi Agent框架进行48小时自主研究，通过公开与私有验证器评估，再以Bradley-Terry模型形成Elo排名。本次评测涵盖5组模型配置，每个模型运行两次。",
+      "article_title": "Jeff Dean投的RSI出成果了：Kimi K3自我进化排国产第一",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/ScwrHKmybM_AOlFhqwu4ow",
+      "sector": "人工智能／AI Agent自主科研",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "hillclimb",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "hillclimb",
+      "company_entity_id": "dr-u-4ee90abd6058d10e027d",
+      "company_raw_name": "hillclimb",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "DeepRSI",
+          "relation": "product",
+          "evidence": "DeepRSI背后的AI初创公司hillclimb，也蛮值得一提。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "早期基准发布具有产业观察价值，但小样本评测、知名投资人和YC经历不足以证明本主体的行业领先地位或成熟对标资格。",
+        "evidence_ids": [
+          "article:f7b0c71f3b9afb51"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "hillclimb将长时程科研任务、实验反馈和私有验收机制结合，可为前沿AI实验室提供自主科研Agent的训练与评测基础设施。其商业化关键在于合作实验室能否持续采购训练数据和强化学习环境，以及基准成绩能否转化为客户实际研究效率提升。",
+      "financing": "文章称投资人包括Jeff Dean、Paul Graham、Amjad Masad，以及来自OpenAI、Anthropic、DeepMind和xAI的天使投资人；未披露融资轮次、金额或估值。",
+      "event_date": "",
+      "event_headline": "hillclimb发布DeepRSI基准，评测48小时AI自主科研能力",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "忆元科技有限公司": [
+    {
+      "date": "2026-10-15",
+      "title": "忆元科技有限公司展示了一款图像识别技术，原文称其可与浙江宇视科技有限公司的技术模块无缝对接。物联网产业社区服务专员协调双方，在接到需求后10天内促成对接会，双方围绕模块集成技术方案深入交流，为后续产业链配套探索合作机会。",
+      "article_title": "这也管、那也管，这个社区管的也太“宽”了",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/b2kQRDQwEKMmLqy4PmGblw",
+      "sector": "计算机视觉",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "忆元科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "忆元科技有限公司",
+      "company_entity_id": "dr-u-566d53268b32f006efc5",
+      "company_raw_name": "忆元科技有限公司",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "证据仅支持具体技术展示与早期合作交流，未建立独立的行业领先地位、规模化应用或可供全国标杆认定的依据。",
+        "evidence_ids": [
+          "article:040cc6c2bc4f60b5"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "忆元科技的图像识别技术具有与合作方技术模块集成的应用路径，对接会为进入产业链配套提供了机会。商业化进展可重点跟踪集成测试结果、客户采用情况及后续采购规模。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "忆元科技与宇视科技开展图像识别模块集成洽谈",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "破晓智能": [
+    {
+      "date": "2026-10-15",
+      "title": "破晓智能联合天珑移动发布SeePhys Hub全身全模态数据采集系统。系统通过四目头环、双腕手环和腰腿部三个动作追踪器，融合视觉、IMU及UWB信号恢复全身姿态，可选配触觉手套采集接触压力；配套平台支持数据解析、清洗、动作切分、语义标注及动作重定向。破晓智能负责产品设计与算法，天珑移动提供成本控制、供应链及质量保障经验。团队计划于2027年推出全模态世界模型，并优先在工业、餐饮零售场景开展应用验证。",
+      "article_title": "国内最年轻AI教授创业：要让世界模型走向全身全模态",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/wywp0pCuPKHcgQWjgzPnHQ",
+      "sector": "具身智能／机器人训练数据／全模态世界模型",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "破晓智能",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "破晓智能",
+      "company_entity_id": "dr-u-a2dab6c6e81b119f6883",
+      "company_raw_name": "破晓智能（PHANES AI）",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "PHANES AI",
+          "relation": "same_entity",
+          "evidence": "破晓智能（PHANES AI）创始人杨朔"
+        },
+        {
+          "name": "SeePhys Hub",
+          "relation": "product",
+          "evidence": "10月14日，破晓智能联合天珑移动，发布全身全模态数据采集系统SeePhys Hub"
+        }
+      ],
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持产品方案及研发积累，但未建立经验证的行业领先性能、规模客户采用或其他独立标杆依据；创始人履历和团队学历不能替代企业行业地位。",
+        "evidence_ids": [
+          "article:f6a8d921013d60a2"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "破晓智能以轻量可穿戴设备补足第一视角数据中的全身运动与接触信息，并将硬件、算法和数据处理打包，形成面向具身模型团队及数据采集运营商的产品入口。商业价值取决于每小时有效数据成本、姿态恢复精度、触觉噪声控制，以及数据用于机器人训练后的任务成功率提升。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "破晓智能联合天珑移动发布全身全模态数据采集系统",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "美光科技": [
+    {
+      "date": "2026-10-15",
+      "title": "文章援引美光科技季度业绩披露称，2026年6月24日，公司已与16家客户签署战略客户协议（SCA），预计收到220亿美元预付款；到9月30日披露季度业绩时，签约客户增至26家，相关预付款金额升至预计320亿美元。",
+      "article_title": "芯片缺货蔓延，重创消费电子",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/2oYfOdJ9c9FwrehSWl3oxQ",
+      "sector": "半导体存储",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "美光科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "美光科技",
+      "company_entity_id": "dr-u-06a05f03151a4aed9f94",
+      "company_raw_name": "美光科技",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "协议数据支持关键存储供应链商业化观察，但本证据包未提供明确已审标杆依据或独立行业地位证据，不能仅凭签约规模授予全国标杆资格。",
+        "evidence_ids": [
+          "article:d9e9f55d75791d69"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "战略客户协议扩大了美光科技长期采购承诺的覆盖面，预计预付款可为研发和扩产提供资金支持。后续值得跟踪预付款实际到账、协议交付进度及新增产能兑现情况。",
+      "financing": "",
+      "event_date": "2026-09-30",
+      "event_headline": "美光科技SCA客户增至26家，预计预付款升至320亿美元",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
