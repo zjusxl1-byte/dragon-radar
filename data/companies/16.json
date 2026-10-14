@@ -249,6 +249,68 @@
       "event_headline": "台积电开发面板级封装，规划2026年建实验线、2028年底量产",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "文章介绍，台积电采用CoWoS-L封装技术，将局部硅桥接嵌入重分布层（RDL）中介层中，并率先应用于英伟达Blackwell平台。正文未披露该应用的具体发生日期或本次新增量产进展。",
+      "article_title": "桥接技术，引领下一代大尺寸封装",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/W0cP0BcmvjGbjLeobvebEA",
+      "sector": "半导体先进封装",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "台积电",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "台积电",
+      "company_entity_id": "dr-u-7ad9114a6ee73402a554",
+      "company_raw_name": "台积电 (TSMC)",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "TSMC",
+          "relation": "same_entity",
+          "evidence": "台积电 (TSMC)"
+        },
+        {
+          "name": "CoWoS-L",
+          "relation": "product",
+          "evidence": "台积电 (TSMC) 则采用了其芯片封装在基板上的局部 (CoWoS-L) 封装技术"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文建立了具体封装路线及客户应用的对标价值，但未提供明确已审全国标杆资格依据。历史is_national_star字段不能替代独立资格审核，本次不据此批量改写历史标签。",
+        "evidence_ids": [
+          "article:5a126a0d5bab62a5"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "CoWoS-L通过局部硅桥接承担高密度互连，为大型AI芯片封装提供不同于整片硅中介层的技术路径。Blackwell平台应用体现其客户落地价值，后续可关注大尺寸封装良率、产能及单位封装成本。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "台积电CoWoS-L局部硅桥接已用于Blackwell平台",
+      "event_signal": "context",
+      "discovery_status": "update"
     }
   ],
   "赛昉科技（SiFive）": [
@@ -768,6 +830,82 @@
       "financing": "",
       "event_date": "",
       "event_headline": "艾科脉PFA设备在宁波市第二医院完成手术临床应用",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "阿斯麦": [
+    {
+      "date": "2026-10-15",
+      "title": "阿斯麦发布第三季度财报，净销售额为116.6亿欧元，净利润为49.6亿欧元，毛利率为57.5%。公司表示，人工智能驱动的芯片光刻设备需求旺盛，预计2027年和2028年无法完全满足客户需求，正在研究进一步扩大产能的途径。公司将2026年全年净销售额预期下限从430亿欧元上调至440亿欧元，上限维持450亿欧元；预计第四季度销售额为142亿至152亿欧元。首席执行官表示，2028年有大量订单涌入，部分客户希望提前下达2029年甚至2030年的订单。",
+      "article_title": "直线拉升！刚刚，超级大反转！光刻机巨头，发生了什么？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/gk9jML1HUFnVp9B-IJQHUA",
+      "sector": "半导体设备",
+      "location": "NL / Veldhoven",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "NL / Veldhoven",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-1bf6e238d13cd63512be37bb"
+        ],
+        "subject_evidence_ids": [
+          "geo-1bf6e238d13cd63512be37bb"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿斯麦",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "NL",
+          "city": "Veldhoven",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-1bf6e238d13cd63512be37bb"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-1bf6e238d13cd63512be37bb",
+            "source_url": "https://www.asml.com/en/company/about-asml/locations",
+            "checked_at": "2026-10-14T18:36:47.835784+00:00",
+            "subject": "阿斯麦",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "NL",
+              "city": "Veldhoven"
+            }
+          }
+        ]
+      },
+      "source": "浙商杂志",
+      "kind": "event",
+      "canonical_name": "阿斯麦",
+      "company_entity_id": "dr-u-26b1a8a41a750933718d",
+      "company_raw_name": "阿斯麦",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文支持全球光刻设备产业观察，官网证明主体总部在荷兰；不能据此授予全国企业标杆标签。全球产业对标价值与全国标杆资格分别判断。",
+        "evidence_ids": [
+          "article:c3e8177c291cfb80",
+          "geo-1bf6e238d13cd63512be37bb"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "阿斯麦披露人工智能驱动的光刻设备需求已延伸至多年交付周期，显示先进芯片制造需求正在向关键设备采购传导。扩产能否转化为交付增长，值得持续跟踪其产能提升进度、关键部件供应及订单交付周期。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "阿斯麦称光刻设备需求旺盛，正研究进一步扩产",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
