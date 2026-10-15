@@ -175,6 +175,58 @@
       "event_headline": "IBM计划于2027年一季度推出7埃纳米堆叠早期PDK",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "IBM研究院利用协调代理与四个并行工作代理优化Relay-BP量子纠错解码器，通过正确性检查和高级综合反馈迭代设计。在各100个假设的搜索预算下，全开放模型配置推理成本约26美元，高级综合估算速度较基准提升52倍，并找到三种配置中面积最小的设计；全专有模型配置推理成本约299美元，估算速度提升204倍。开放模型通过llm-d在本地运行。各配置均仅评估一次搜索运行。",
+      "article_title": "大幅降低芯片设计成本，IBM带来了新方法",
+      "event_type": "AI辅助硬件设计研究演示",
+      "link": "https://mp.weixin.qq.com/s/7HtBu6BkoUqu2-7vQiAg3g",
+      "sector": "AI辅助芯片设计与量子纠错硬件",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "IBM",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "IBM",
+      "company_entity_id": "dr-u-916a98f0fa2a39af1a73",
+      "company_raw_name": "IBM",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持具体研究方法和成本性能权衡的技术对标，但单次搜索与综合估算不足以独立建立主体标杆资格；旧Spyre条目的is_national_star不替代资格证据，既有PDK事件的明确审核也未建立该资格。本次不修改历史标签。",
+        "evidence_ids": [
+          "article:23b214494d960b13",
+          "accepted_history:24f187ba116f2a09",
+          "accepted_history:8bc87a365c74d053"
+        ]
+      },
+      "published_date": "2026-10-15",
+      "insight": "IBM展示的新增能力是让AI代理依据正确性检查和硬件综合反馈，反复调整存储组织与计算并行方式，而不止生成代码。开放模型配合可复用上下文的推理服务降低了探索的推理开销，但此次专有配置获得更高估算加速，表明低成本探索与最佳设计性能仍需分别权衡。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "IBM演示开放模型代理优化量子纠错硬件，降低搜索推理成本",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "Space Exploration Technologies Corp.（SpaceX）": [
@@ -700,6 +752,122 @@
       "financing": "文章称投资人包括Jeff Dean、Paul Graham、Amjad Masad，以及来自OpenAI、Anthropic、DeepMind和xAI的天使投资人；未披露融资轮次、金额或估值。",
       "event_date": "",
       "event_headline": "hillclimb发布DeepRSI基准，评测48小时AI自主科研能力",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "观行数智": [
+    {
+      "date": "2026-10-16",
+      "title": "据量子位报道，唐都钰创办的观行数智设计了主动式物理AI系统ProAgent，由StreamingJev持续读取环境事件流并判断是否需要介入，再由Response Model判断事件性质、规划回应和选择调用设备。团队建立自动化数据流程与ProactiveXBench评测体系，并称已在Reachy Mini机器人上进行60个导引、警示与互动案例验证；文章另称公司已与未具名具身公司合作接入具体设备。",
+      "article_title": "前华为小艺大模型负责人创业，押注“主动式物理AI”",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/otnj4n6wNot-bsJ8COaARg",
+      "sector": "物理AI／具身智能",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "观行数智",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "观行数智",
+      "company_entity_id": "dr-u-46ec82dba14a53989922",
+      "company_raw_name": "观行数智",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "ProAgent",
+          "relation": "product",
+          "evidence": "为此，观行数智设计了一套双模型协同架构，ProAgent。"
+        },
+        {
+          "name": "ProactiveXBench",
+          "relation": "product",
+          "evidence": "训练之外，观行数智还重新建立了一套评测体系ProactiveXBench，希望评估AI从发现需求到完成介入的完整轨迹。"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据为早期架构、未具名设备合作和团队自测，尚未建立经独立验证的行业地位、规模化应用或其他全国标杆依据；创始人履历和自建基准的局部指标优势不能自动授标。",
+        "evidence_ids": [
+          "article:35d4b834fa81a644"
+        ]
+      },
+      "published_date": "2026-10-15",
+      "insight": "观行数智把产品切入点放在机器人执行之前的“是否需要行动、何时行动”，通过轻量模型持续观察、响应模型按需处理的分工，尝试兼顾持续感知与计算开销。机器人上的60个案例验证使这一方向有了具体载体，下一步最有辨别力的是连续运行中误介入、漏介入和响应时机的表现，而不是单次指令执行能力。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "观行数智设计主动式物理AI系统，称已完成60个案例验证",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "行云科技": [
+    {
+      "date": "2026-10-16",
+      "title": "行云科技于2026年10月12日晚间披露战略合作框架协议进展公告，与杭州地方国资签署升级版框架合作协议。公司计划于2026年10月底前在杭州落地第二总部，下属企业计划在杭州布局AI服务器整机智造基地，预计2027年投产，规划具备自动化组装、硬件维修、性能检测、系统底层调优、机房集群组网及智能仓储功能。供应链合作同时段业务上限提升至30亿元、单年度累计上限150亿元；另设信用证专项额度，同时段最高20亿元、单年度累计上限100亿元。",
+      "article_title": "算力龙头第二总部计划迁入杭州",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/K5vYk_0rFuopz2PgZ16xlQ",
+      "sector": "AI算力基础设施、AI服务器制造及液冷配套",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "行云科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "湖畔自留田",
+      "kind": "event",
+      "canonical_name": "行云科技",
+      "company_entity_id": "dr-u-619cc85d2ee7323b3783",
+      "company_raw_name": "行云科技",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "框架协议与基地规划足以支持项目线索，但标题中的龙头称谓、上市身份及额度均不能独立证明行业领先地位，尚未建立全国标杆资格。",
+        "evidence_ids": [
+          "article:74e28e930e3cffd6"
+        ]
+      },
+      "published_date": "2026-10-15",
+      "insight": "此次合作把行云科技在杭州的布局从液冷及供应链协同扩展至服务器整机制造与集群配套：规划中的组装、检测、底层调优和组网功能，指向从硬件供给向整机及集群交付能力延伸。协议扩大采购协同空间，但能力变化的关键仍是智造基地能否按计划投产并形成实际交付。",
+      "financing": "",
+      "event_date": "2026-10-12",
+      "event_headline": "行云科技升级国资合作，拟在杭落地第二总部及服务器智造基地",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
