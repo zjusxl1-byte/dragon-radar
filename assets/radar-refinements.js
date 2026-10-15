@@ -7,6 +7,18 @@
   const routeLink=(route,q={})=>'#'+route+(Object.keys(q).length?'?'+new URLSearchParams(q):'');
   let historyPromise,historyRows,renderSequence=0,filterSequence=0,currentRows=[],visibleCount=20,activeKey='',filterTimer,pendingReadingRestore=null;
   const screenStates=new Map();
+  // An explicit reading link overrides a previously closed reader. Back/forward
+  // still restores the saved screen because it does not produce a link click.
+  document.addEventListener('click',event=>{
+    if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+    const anchor=event.target.closest('a[href]');
+    if(!anchor||window.RadarComponents?.handles(anchor))return;
+    const [path,query]=anchor.hash.slice(1).split('?');
+    if(path==='/company'&&new URLSearchParams(query).get('reading')==='1'){
+      const saved=screenStates.get(anchor.hash);if(saved)saved.aiOpen=true;
+    }
+  },true);
+
   const dataRequests=new Map(),companyRequests=new Map();
   function reuseRequest(cache,key,load){
     if(cache.has(key))return cache.get(key);
