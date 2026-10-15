@@ -95,8 +95,9 @@
     const shown=nameKey(p.q)?items:items.slice(0,3);
     return '<section class="radar-observation-leads radar-lead-preview" aria-labelledby="radar-observation-lead-title"><div class="radar-observation-leads-heading"><h4 id="radar-observation-lead-title">进展线索 <small>尚未解读 · '+items.length+'</small></h4><a class="radar-text-link" href="'+esc(leadHref(p))+'">全部 '+items.length+' 家 →</a></div>'+shown.map(leadCard).join('')+'</section>';
   }
+  function leadCandidates(value){return value.companies.filter(publishedCompany).filter(c=>c.role==='local_potential'&&!hasReading(c));}
   function leadDirectory(value,p){
-    const all=value.companies.filter(publishedCompany).filter(c=>c.role==='local_potential'&&!hasReading(c));
+    const all=leadCandidates(value);
     // Reuse the site's shared sector families; overlapping fields stay searchable.
     const families=new Map();all.forEach(c=>H.sectors(c).forEach(field=>families.set(field,(families.get(field)||0)+1)));
     const field=families.has(p.sector)?p.sector:'',items=all.filter(c=>matches(c,p.q||'')&&(!field||H.sectors(c).includes(field)));
@@ -194,5 +195,5 @@
   document.addEventListener('visibilitychange',()=>watchUpdates(true));
   document.addEventListener('toggle',event=>{const key=event.target.getAttribute?.('data-observation-expand');if(key){try{sessionStorage.setItem('radar-observation-open-'+key,event.target.open?'1':'0');}catch{}}},true);
   window.addEventListener('hashchange',()=>{visible=20;watchUpdates(true);showUpdate();});
-  window.RadarObservations={read,hub,topic,related,companyHref,sharePayload,companyCard,leadCard,topicCard,matches,loading,agentStatus,checkForUpdate};
+  window.RadarObservations={leadCandidates,displayName:name=>data?.companies.find(c=>H.canonical(c.company)===H.canonical(name))?.display_name||name,read,hub,topic,related,companyHref,sharePayload,companyCard,leadCard,topicCard,matches,loading,agentStatus,checkForUpdate};
 })();
