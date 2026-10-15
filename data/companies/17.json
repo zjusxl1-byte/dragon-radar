@@ -433,6 +433,78 @@
       "event_headline": "微路智能获国信中数领投的数千万元天使轮融资",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "微路智能成立于2026年7月，专注数据流驱动的AI推理芯片与子系统研发，自研GPNPU混合数据流推理架构，由FusionCore计算核心、ScaleNoC高带宽片上互联和TileFlow编译调度器构成。公司规划VLX-64端侧芯片与VLX-512边侧芯片，文章列示的FP4算力分别为64TFLOPS和512TFLOPS，VLX-64整机功耗约12W，拟以M.2加速卡、推理算力盒等形态适配AI PC、工控设备和机器人。其技术方案采用LPDDR承载权重与KV-Cache，面向MoE、MTP及VLA任务优化，并兼容TileLang、Triton、llama.cpp和GGUF生态。",
+      "article_title": "可能会是最懂AI Infra的端侧NPU芯⽚公司",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/pbJ1THY1wfGrjAWKDEA_IA",
+      "sector": "AI基础设施／端侧与边侧AI推理芯片",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "杭州微路智能科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "湖畔自留田",
+      "kind": "event",
+      "canonical_name": "杭州微路智能科技有限公司",
+      "company_entity_id": "dr-u-7b2226302a46dc2ff4c1",
+      "company_raw_name": "杭州微路智能科技有限公司（微路智能VELOXIS）",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "微路智能",
+          "relation": "same_entity",
+          "evidence": "杭州微路智能科技有限公司（微路智能VELOXIS）成立于2026年07月，是一家AI Infra的端侧NPU芯片企业，专注数据流驱动的AI推理芯片与子系统研发。"
+        },
+        {
+          "name": "VELOXIS",
+          "relation": "same_entity",
+          "evidence": "杭州微路智能科技有限公司（微路智能VELOXIS）成立于2026年07月，是一家AI Infra的端侧NPU芯片企业，专注数据流驱动的AI推理芯片与子系统研发。"
+        },
+        {
+          "name": "VLX‑64",
+          "relation": "product",
+          "evidence": "硬件层面，微路智能规划了两代芯片产品：VLX‑64面向端侧场景"
+        },
+        {
+          "name": "VLX‑512",
+          "relation": "product",
+          "evidence": "VLX‑512面向边侧市场，FP4算力512TFLOPS，服务工作站与边缘推理节点。"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "架构及产品规划具备跟踪价值，但尚缺芯片实测、可比较技术表现和产业交付依据，不能确立全国标杆资格。",
+        "evidence_ids": [
+          "article:ee6a25ee8e101503"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "微路智能以MoE稀疏激活、LPDDR和开源编译生态组合切入离线推理，商业价值在于兼顾端侧内存成本与模型迁移便利性。后续关键观察指标是芯片流片及样片进度、真实模型吞吐与功耗、机器人及工控客户的设计导入情况。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "微路智能研发混合数据流NPU，规划端侧与边侧两代芯片",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "杭州硅源量子科技有限责任公司": [
@@ -566,6 +638,65 @@
       "event_date": "",
       "event_headline": "东方空间据9月播报以引力一号执行一箭九星组网发射任务",
       "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Kepler Computing": [
+    {
+      "date": "2026-10-15",
+      "title": "据报道，Kepler Computing已与格罗方德展开合作，并建设小型自有晶圆厂，推进3D集成与铁电存储器的规模化制造，计划于2027年启动生产。公司披露，面向HBM替代应用的产品单位功耗带宽有望达到HBM的5至10倍，面向SRAM应用的另一类产品容量有望达到传统SRAM的至少10倍。公司称2027年的生产能力已全部分配，客户涉及AI数据中心和制造业，未披露具体产能及其他客户名称。",
+      "article_title": "英特尔前CEO：HBM，太糟糕了",
+      "event_type": "制造合作与生产计划",
+      "link": "https://mp.weixin.qq.com/s/2j8yRjCTrPjwTnnxz8BThA",
+      "sector": "半导体—AI存储器与3D集成",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Kepler Computing",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "Kepler Computing",
+      "company_entity_id": "dr-u-813b097a0bdacae484ac",
+      "company_raw_name": "Kepler Computing",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Kepler",
+          "relation": "same_entity",
+          "evidence": "美国初创公司Kepler Computing计划于2027年启动新型存储器的生产。该公司表示，通过结合自主3D集成技术与铁电存储器技术，其产品相较HBM的单位功耗带宽有望提升至5至10倍，另一类产品的容量则有望达到传统SRAM的至少10倍。\n\n\n\n\nKepler希望借此突破现有存储器架构的限制"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据足以支持具体技术及制造进展观察，但性能主要为公司目标，缺少独立实测、规模交付或限定范围内行业地位的证据，尚不建立全国标杆资格。",
+        "evidence_ids": [
+          "article:33d0d282bf8c2cc4"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "Kepler通过在既有晶体管上方集成存储器件，尝试同时改善AI存储密度与数据传输能效，为不完全依赖先进制程微缩的存储架构提供商业化路径。其制造合作和产能分配显示产业导入线索，后续关键指标是实际工作负载下的能效、量产良率、单位成本及客户交付规模。",
+      "financing": "英特尔资本是投资方之一；文章未披露融资轮次、金额或时间。",
+      "event_date": "",
+      "event_headline": "Kepler携手格罗方德，计划2027年启动新型存储器生产",
+      "event_signal": "material",
       "discovery_status": "first_seen"
     }
   ]
