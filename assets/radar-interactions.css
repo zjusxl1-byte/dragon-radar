@@ -1,0 +1,24 @@
+/* Inherit the original typography, palette, cards, icons and content density. */
+.radar-company-observation,.radar-observation-lead{touch-action:manipulation;-webkit-tap-highlight-color:transparent;transition:background-color 160ms ease,box-shadow 160ms ease}
+.radar-company-observation:active,.radar-company-observation.radar-opening{background:#fbfbff;box-shadow:0 2px 12px -4px #0651ed1c}
+.radar-observation-lead:active,.radar-observation-lead.radar-opening{background:#fafaff}
+.radar-track:active,.radar-ai-button:active,.radar-text-link:active{background:#eef0fb}
+.radar-title-flight{position:fixed;z-index:70;pointer-events:none;transform-origin:left top;color:#1f2937;line-height:1.45;overflow-wrap:anywhere}
+.radar-timeline-item::after{transition:background-color 200ms ease,box-shadow 200ms ease}
+.radar-timeline-item:not(.radar-risk-item)::after{background:#b9c1e5}
+.radar-timeline-item.radar-node-current:not(.radar-risk-item)::after{background:#667eea;box-shadow:0 0 0 4px #f0f2ff}
+.radar-node-current .radar-timeline-stamp>span:first-child{color:#6268b8}
+.radar-company-heading .radar-ai-paragraph h4{font-weight:650;color:#596475;letter-spacing:.025em}
+.radar-company-heading .radar-ai-point-label{display:block;margin:0 0 3px;font-size:13px;color:#374151}
+.radar-company-heading .radar-ai-points{gap:14px}
+.radar-company-heading .radar-ai-watch{border-left:0;padding:12px;background:#f5f6fc;border-radius:8px}
+.radar-ai-detail>summary{touch-action:manipulation}
+.radar-ai-detail>summary:after{transition:transform 200ms ease}
+.radar-ai-panel[data-phase=reading] .radar-ai-status,.radar-ai-panel[data-phase=checking] .radar-ai-status{color:#6268b8}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important}
+  .radar-company-observation,.radar-observation-lead,.radar-timeline-item::after,.radar-ai-detail>summary:after,.radar-ai-button>span{transition:none!important}
+  .animate-fade-in{animation:none!important}
+}
+
+.radar-company-loading .radar-ai-skeleton{margin:18px 0 10px;width:100%;max-width:100%}
