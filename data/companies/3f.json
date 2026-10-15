@@ -798,5 +798,126 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "蚂蚁": [
+    {
+      "date": "2026-10-16",
+      "title": "文章报道，蚂蚁百灵开源推出Ling-3.1-flash，支持跨网页、文档、表格和代码环境进行任务拆解、工具调用与结果检查，并已接入蚂蚁内部桌面协同Agent客户端“小虎”。模型总参数约560B，每个Token激活约25B，上下文窗口上限为1M，采用混合线性注意力与稀疏专家架构。通过混合精度量化，模型权重占用由约534GB降至292GB，在文中所述Hopper测试配置下，部署所需GPU由8卡降至4卡。当前版本尚不具备原生视觉理解能力。",
+      "article_title": "这个双十一，百灵新模型干起活来不烧心",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/9BpGsE1Sn7uO39mDKc4V-w",
+      "sector": "人工智能／大模型与智能体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "蚂蚁",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "蚂蚁",
+      "company_entity_id": "dr-u-7853225b8ee4cd6c6519",
+      "company_raw_name": "蚂蚁",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "蚂蚁百灵",
+          "relation": "product",
+          "evidence": "蚂蚁百灵新开源推出的Ling-3.1-flash"
+        },
+        {
+          "name": "Ling-3.1-flash",
+          "relation": "product",
+          "evidence": "蚂蚁百灵新开源推出的Ling-3.1-flash"
+        },
+        {
+          "name": "小虎",
+          "relation": "product",
+          "evidence": "Ling-3.1-flash已经被接进了蚂蚁内部的桌面协同Agent客户端「小虎」"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条证明模型产品和工程部署进展，但未提供足以独立建立企业行业标杆地位的已审证据；不能把宣传性评价或单项评测表现直接转换为全国标杆标签。",
+        "evidence_ids": [
+          "article:c610c3eaec9d3592"
+        ]
+      },
+      "published_date": "2026-10-15",
+      "insight": "百灵此次把多步骤任务能力与内部桌面执行环境衔接起来，使模型从生成回答进一步走向读取文件、调用程序和写入成果；混合注意力、稀疏专家和量化则针对长任务的计算与部署负担。文章实测仍出现长文本注意力偏移，且视觉任务需要外接模型，因此更值得检验的是分阶段、可检查的办公流程，而非直接假定一句指令即可稳定完成复杂任务。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "蚂蚁百灵开源Ling-3.1-flash并接入内部桌面助手",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "潜界科技": [
+    {
+      "date": "2026-10-16",
+      "title": "胡钰承离开字节后创办潜界科技，主攻具身智能基座模型。文章披露公司获得数亿元种子轮融资，投资方包括祥峰、高瓴、智元机器人、英诺等。",
+      "article_title": "田柯宇冲上热搜、石扬傅越联手...字节系创业潮，谁拿到了最多的钱？",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/N6nkiX0NPApOwntdSdnNUg",
+      "sector": "具身智能",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "潜界科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "烯牛数据",
+      "kind": "event",
+      "canonical_name": "潜界科技",
+      "company_entity_id": "dr-u-f218d8751b75196e9287",
+      "company_raw_name": "潜界科技",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "技术方向、融资规模和投资方身份只能支持发现价值，尚无模型性能、行业应用或领先地位的独立具体依据，不能授予全国标杆资格。",
+        "evidence_ids": [
+          "article:bfaffc54fa3a7cfb"
+        ]
+      },
+      "published_date": "2026-10-14",
+      "insight": "潜界科技选择机器人基础模型而非单一整机作为切入点，产业位置指向机器人智能能力的上游供给。智元机器人参与投资，使模型与真实机器人任务如何衔接成为有价值的研究问题，但文章未披露双方已有产品合作。",
+      "financing": "数亿元种子轮融资；投资方包括祥峰、高瓴、智元机器人、英诺等。",
+      "event_date": "",
+      "event_headline": "潜界科技获数亿元种子轮融资，主攻具身智能基座模型",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
   ]
 }
