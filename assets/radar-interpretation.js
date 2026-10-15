@@ -68,6 +68,32 @@
       if(!response.ok)throw Error('解读更新服务暂时不可用');return data;
     }));
   }
+  // Contextual reading retains the original API and material-version guards.
+  async function follow(name,entry,handlers){
+    if(!apiConfig())return;
+    let version=entry.source_version;
+    const active=handlers.current;
+    try{
+      for(let poll=0;poll<90&&active();poll++){
+        if(poll)await new Promise(resolve=>setTimeout(resolve,4000));if(!active())return;
+        const data=await check(name,version);if(!active())return;
+        if(data.status==='version_changed'){
+          const revision=data.metadata;
+          if(!revision||!Number.isSafeInteger(revision.source_epoch)||revision.source_epoch<(entry.source_epoch||0)||revision.reading_model!==entry.reading_model||revision.prompt_version!==entry.prompt_version){handlers.status('最新材料正在同步，稍后可重新查看。');return;}
+          version=data.source_version;Object.assign(entry,revision);entry.source_version=version;
+          if(data.reading){entry.cached_source_version=data.reading.source_version;cached.set(name,data.reading);handlers.reading(data.reading);}
+          else {for(const key of ['path','version','cached_source_version','cached_as_of'])delete entry[key];cached.delete(name);handlers.reading(null);}
+          handlers.status('已收录新信息，正在更新解读…');continue;
+        }
+        if(data.status==='disqualified'){delete manifest().company_interpretations[name];cached.delete(name);handlers.disqualified();return;}
+        if(data.reading){cached.set(name,data.reading);handlers.reading(data.reading);}
+        if(data.status==='ready'){handlers.status('已包含当前收录信息');return;}
+        if(data.status==='failed'){handlers.status('本次更新暂未完成，后续采集时会再次尝试。');return;}
+        handlers.status(data.status==='running'?'正在按时间梳理材料并生成解读…':'已提交解读请求，正在等待生成…');
+      }
+      if(active())handlers.status('解读仍在生成，可稍后重新打开。');
+    }catch(error){if(active())handlers.status((error.message||'暂时无法更新')+'，可重新打开重试。');}
+  }
   function current(name,run){return sequence===run&&document.getElementById('radar-ai-panel')&&!document.getElementById('radar-ai-panel').hidden&&document.querySelector('[data-ai-reading]')?.dataset.aiReading===name;}
   function status(text,phase='idle'){
     const field=document.getElementById('radar-ai-status'),box=document.getElementById('radar-ai-panel'),content=document.getElementById('radar-ai-content'),working=document.getElementById('radar-ai-working');
@@ -75,14 +101,15 @@
     if(box){box.dataset.phase=phase;box.setAttribute('aria-busy',String(phase!=='idle'));}
     if(working)working.hidden=phase==='idle'||!!content?.innerHTML;
   }
-  function paint(reading){const content=document.getElementById('radar-ai-content'),expanded=!!content.querySelector?.('[data-ai-details]')?.open;content.innerHTML=markup(reading,expanded);}
+  function paint(reading){const content=document.getElementById('radar-ai-content'),expanded=!!content.querySelector?.('[data-ai-details]')?.open;content.innerHTML=markup(reading,expanded);window.RadarInteractions?.reveal(content);window.RadarReading?.onReadingPaint();}
   async function open(name){
     const entry=metadata(name),box=document.getElementById('radar-ai-panel');if(!entry||!box)return;
-    const run=++sequence,button=document.querySelector('[data-ai-reading]');box.hidden=false;button?.setAttribute('aria-expanded','true');document.getElementById('radar-ai-content').textContent='';status('正在读取解读…','reading');
+    const run=++sequence,button=document.querySelector('[data-ai-reading]');window.RadarInteractions?.cancel(box);box.hidden=false;button?.setAttribute('aria-expanded','true');document.getElementById('radar-ai-content').textContent='';status('正在读取解读…','reading');
     let shown=false,version=entry.source_version;
     try{const reading=await staticReading(name,entry);if(!current(name,run))return;if(reading){paint(reading);shown=true;status(reading.source_version===version?'正在检查是否有新信息…':'已收录新信息，正在更新解读…','checking');}}
     catch{if(!current(name,run))return;}
     if(current(name,run))document.getElementById('radar-ai-content').focus({preventScroll:true});
+    if(!apiConfig()){if(current(name,run))status(shown?(cached.get(name)?.source_version===version?'已包含当前收录信息':'已显示上次解读；有新材料待更新。'):'解读暂时无法读取，请重新打开重试。');return;}
     try{
       for(let poll=0;poll<90&&current(name,run);poll++){
         if(poll)await new Promise(resolve=>setTimeout(resolve,4000));if(!current(name,run))return;
@@ -108,11 +135,11 @@
       if(current(name,run))status('解读仍在生成，可稍后重新打开。');
     }catch(error){if(current(name,run))status((shown?'已显示缓存解读；':'')+(error.message||'暂时无法更新')+'，可重新打开重试。');}
   }
-  function close(){sequence++;status('');const box=document.getElementById('radar-ai-panel');if(box)box.hidden=true;const button=document.querySelector('[data-ai-reading]');button?.setAttribute('aria-expanded','false');button?.focus({preventScroll:true});}
+  function close(){const run=++sequence;status('');const box=document.getElementById('radar-ai-panel');if(box){if(window.RadarInteractions)window.RadarInteractions.hidePanel(box,()=>{if(sequence===run)box.hidden=true;});else box.hidden=true;}const button=document.querySelector('[data-ai-reading]');button?.setAttribute('aria-expanded','false');button?.focus({preventScroll:true});}
   document.addEventListener('click',event=>{
     const button=event.target.closest('[data-ai-reading]');if(button){button.getAttribute('aria-expanded')==='true'?close():open(button.dataset.aiReading);}if(event.target.closest('[data-ai-close]'))close();
     const collapse=event.target.closest('[data-ai-detail-close]');if(collapse){const details=collapse.closest('[data-ai-details]');if(!details)return;details.open=false;const summary=details.querySelector('summary');if(summary.getBoundingClientRect().top<56)(details.closest?.('.radar-ai-content')||summary).scrollIntoView({block:'start',behavior:'auto'});summary.focus({preventScroll:true});}
   });
   window.addEventListener('hashchange',()=>{sequence++;});
-  window.RadarInterpretation={control,panel,markup,check,staticReading,open,close,hasReading,badge};
+  window.RadarInterpretation={follow,control,panel,markup,check,staticReading,open,close,hasReading,badge};
 })();
