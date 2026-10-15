@@ -39,7 +39,7 @@
       document.documentElement.style.overflow=s.overflow;document.body.classList.remove('radar-sheet-visible');
       window.scrollTo({top:s.scroll,behavior:'instant'});
       if(history.state?.radarSheet===token){
-        const finish=()=>{if(s.nextRoute)Router.navigate(s.nextRoute);else s.source?.isConnected&&s.source.focus({preventScroll:true});};
+        const finish=()=>{if(s.nextRoute){restoringHash=null;Router.navigate(s.nextRoute);}else s.source?.isConnected&&s.source.focus({preventScroll:true});};
         restoringHash=s.originalHash;
         window.addEventListener('popstate',finish,{once:true});history.back();
       }else if(s.nextRoute)Router.navigate(s.nextRoute);
