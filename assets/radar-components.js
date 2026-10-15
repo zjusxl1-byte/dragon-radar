@@ -81,6 +81,8 @@
     if(!reduced()&&pane.animate)pane.animate([{opacity:.35,transform:'translateY(6px)'},{opacity:1,transform:'translateY(0)'}],{duration:180,easing:'ease-out'});
   }
   function readingMarkup(s,reading){
+    if(!reading||reading.source_version===s.entry?.source_version)s.readingPane.querySelectorAll('[data-stale-reading-note]').forEach(node=>node.remove());
+    if(reading)s.eventsPane.querySelectorAll('[data-reader-cache-error]').forEach(node=>node.remove());
     s.readingPane.querySelector('.radar-ai-content').innerHTML=reading?I.markup(reading,true):'';
     if(reading){
         const date=document.createElement('p');date.className='radar-reader-date';date.textContent='材料截至 '+reading.as_of;
@@ -108,14 +110,14 @@
       const [recordResult,readingResult]=await Promise.allSettled([window.RadarReading.readCompany(name),entry?.path?I.staticReading(name,entry):Promise.resolve(null)]);
       if(session!==s||run!==s.run)return;
       const rows=recordResult.status==='fulfilled'?H.grouped(recordResult.value):null,reading=readingResult.status==='fulfilled'?readingResult.value:null;
-      s.hasReading=!!reading;
+      s.hasReading=!!reading;s.entry=entry;
       const segment=document.createElement('ion-segment');segment.mode='ios';segment.className='radar-reader-tabs';segment.setAttribute('aria-label','企业阅读内容');
       segment.innerHTML=(reading?'<ion-segment-button value="reading"><span>企业解读</span></ion-segment-button>':'')+'<ion-segment-button value="events"><span>进展 <small>'+(rows?rows.length:'')+'</small></span></ion-segment-button>';
       s.segment=segment;s.frame.querySelector('.radar-sheet-controls').append(segment);
       s.body.innerHTML='<section class="radar-sheet-reading radar-company-heading" id="radar-reader-reading" role="tabpanel" aria-label="企业解读"><div class="radar-ai-content">'+(reading?I.markup(reading,true):'')+'</div></section><section class="radar-sheet-events" id="radar-reader-events" role="tabpanel" aria-label="企业进展">'+(rows?historyMarkup(rows):'<p class="radar-sheet-empty" role="alert">企业进展暂时无法读取。<button type="button" data-reader-retry>重新读取</button></p>')+'</section>';
       s.readingPane=s.body.querySelector('.radar-sheet-reading');s.eventsPane=s.body.querySelector('.radar-sheet-events');
       readingMarkup(s,reading);
-      if(entry?.path&&!reading){const notice=document.createElement('p');notice.className='radar-sheet-cache-note';notice.setAttribute('role','alert');notice.innerHTML='企业解读暂时无法读取。<button type="button" data-reader-retry>重新读取</button>';s.eventsPane.prepend(notice);}
+      if(entry?.path&&!reading){const notice=document.createElement('p');notice.className='radar-sheet-cache-note';notice.setAttribute('role','alert');notice.setAttribute('data-reader-cache-error','');notice.innerHTML='企业解读暂时无法读取。<button type="button" data-reader-retry>重新读取</button>';s.eventsPane.prepend(notice);}
       segment.addEventListener('ionChange',event=>choosePane(s,event.detail.value));
       choosePane(s,s.pane|| (reading?'reading':'events'));
       if(entry&&(!reading||reading.source_version!==entry.source_version)&&I.follow){
@@ -132,7 +134,7 @@
           disqualified:()=>{readingMarkup(s,null);s.hasReading=false;choosePane(s,'events');notice.textContent='当前材料尚不足以形成有依据的企业解读。';s.eventsPane.prepend(notice);}
         });
       }
-      if(reading&&reading.source_version!==entry.source_version){const note=document.createElement('p');note.className='radar-sheet-cache-note';note.textContent='已有新材料；当前展示上次解读。';s.readingPane.prepend(note);}
+      if(reading&&reading.source_version!==entry.source_version){const note=document.createElement('p');note.className='radar-sheet-cache-note';note.setAttribute('data-stale-reading-note','');note.textContent='已有新材料；当前展示上次解读。';s.readingPane.prepend(note);}
       s.modal.dataset.company=name;s.modal.dataset.loaded='true';s.modal.removeAttribute('aria-busy');
     }catch(error){if(session===s&&run===s.run){s.modal.removeAttribute('aria-busy');s.body.innerHTML='<p class="radar-sheet-empty" role="alert">内容暂时无法读取。<button type="button" data-reader-retry>重新读取</button></p>';}}
   }
