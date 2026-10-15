@@ -1,0 +1,56 @@
+/* Native gesture components, themed with the established Radar tokens. */
+ion-modal.radar-sheet{position:fixed;inset:0;width:100%;height:100dvh;--height:calc(100% - 54px);--width:min(100%,560px);--border-radius:20px 20px 0 0;--background:#fff;--backdrop-opacity:.26;--box-shadow:0 -8px 32px #26355920;color:#374151;font-family:inherit}
+ion-modal.radar-sheet-small{--height:420px}
+ion-modal.radar-sheet::part(handle){width:34px;height:4px;background:#c8cbd7;top:9px}
+ion-modal.radar-sheet::part(content){overflow:hidden;border-radius:20px 20px 0 0}
+.radar-sheet .ion-page,.radar-sheet-frame{display:flex;flex-direction:column;width:100%;height:100%;overflow:hidden;box-sizing:border-box}
+.radar-sheet .ion-page{position:relative;min-height:0;contain:layout style}
+.radar-sheet-header{position:relative;flex:none;padding:23px 20px 12px;background:#fff;min-width:0}
+.radar-sheet-header>div{min-width:0;padding-right:52px}
+.radar-sheet-eyebrow{font-size:11px;color:#727b8f;line-height:18px;margin:0 0 3px}
+.radar-sheet-header h2{font-size:20px;line-height:1.4;font-weight:800;letter-spacing:-.02em;color:#1f2937;overflow-wrap:anywhere;margin:0}
+.radar-sheet-close{position:absolute;right:10px;top:22px;min-width:48px;min-height:44px;padding:6px;color:#6268b8;font-size:12px}
+.radar-sheet-meta{font-size:12px;line-height:1.65;color:#6b7280;margin:7px 0 0;overflow-wrap:anywhere;min-height:19px}
+.radar-sheet-controls{padding:0 16px;flex:none}
+.radar-reader-tabs{--background:transparent;border-bottom:1px solid #e9ecf4}
+.radar-reader-tabs ion-segment-button{--color:#6b7280;--color-checked:#596bd8;--indicator-color:#667eea;--indicator-height:2px;--background-checked:transparent;--padding-top:0;--padding-bottom:0;min-height:44px;font-size:13px;letter-spacing:0;font-family:inherit;font-weight:650;text-transform:none}
+.radar-reader-tabs small{margin-left:5px;font-size:11px;font-weight:450;color:#8b92a3}
+.radar-sheet-content{--background:#fff;flex:1;min-height:0}
+.radar-sheet-body{padding:16px 20px 24px;min-width:0}
+.radar-sheet-reading.radar-company-heading{padding:0;margin:0;border:0;border-radius:0;box-shadow:none;background:none}
+.radar-sheet-reading .radar-ai-verdict{font-size:15px;line-height:1.75;font-weight:650;margin:0 0 4px;color:#374151}
+.radar-sheet-reading .radar-ai-detail>summary{font-size:11px}
+.radar-sheet-reading .radar-ai-point-label{display:block;margin-bottom:3px}
+.radar-sheet-footer{display:flex;align-items:center;gap:10px;flex:none;padding:9px 16px max(10px,env(safe-area-inset-bottom));border-top:1px solid #edf0f6;background:#fff}
+.radar-sheet-footer>button{min-height:44px;min-width:54px;color:#6268b8;font-size:12px;font-weight:600;white-space:nowrap}
+.radar-sheet-footer>button:disabled{color:#b6bccb;cursor:default}
+.radar-sheet-footer>.radar-sheet-primary{flex:1;min-width:0;background:#667eea;color:#fff;border-radius:9px;font-size:13px;padding:8px 12px}
+.radar-sheet-footer>.radar-sheet-primary:active{background:#5769d1}
+.radar-sheet :focus-visible{outline:2px solid #667eea;outline-offset:2px;border-radius:5px}
+.radar-sheet [hidden]{display:none!important}
+.radar-sheet-loading{padding:8px 0;color:#6975ad;font-size:12px}
+.radar-sheet-loading .radar-ai-skeleton{width:100%;max-width:100%;margin-top:20px}
+.radar-sheet-empty{padding:20px 0;font-size:13px;line-height:1.8;color:#6b7280}.radar-sheet-empty button{color:#596bd8;min-height:44px}
+.radar-quick-history{list-style:none;border-left:1px solid #dce1fc;margin:3px 0 0 4px;padding-left:16px}
+.radar-quick-history>li{padding:0 0 17px;margin-bottom:16px;border-bottom:1px solid #edf0f6}
+.radar-quick-history>li:last-child{border:0;padding-bottom:0;margin-bottom:0}
+.radar-quick-time{display:flex;gap:8px;flex-wrap:wrap;color:#7b8495;font-size:11px;line-height:1.6;margin-bottom:6px}
+.radar-quick-time time{color:#6268b8;font-variant-numeric:tabular-nums}
+.radar-quick-history h3{font-size:14px;font-weight:650;line-height:1.75;margin:0;color:#374151;overflow-wrap:anywhere}
+.radar-quick-evidence{margin-top:5px;font-size:12px;line-height:1.75;color:#6b7280}
+.radar-quick-evidence summary{min-height:36px;display:flex;align-items:center;color:#6975ad;cursor:pointer;list-style:none}
+.radar-quick-evidence summary::-webkit-details-marker{display:none}.radar-quick-evidence p{margin:2px 0 8px;font-size:13px;line-height:1.75;overflow-wrap:anywhere}.radar-quick-evidence a{color:#596bd8;display:inline-flex;min-height:36px;align-items:center}
+.radar-sheet-cache-note{font-size:11px;color:#916631;margin:0 0 10px}
+.radar-open-facets{flex:none;width:112px;border-left:1px solid #edf0f6!important;font-size:12px!important;color:#6975ad!important;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.radar-open-facets[data-active=true]{background:#f2f4ff!important;color:#5263c9!important}
+.radar-facet-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.radar-facet-options button{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;text-align:left;padding:10px 12px;border:1px solid #e8ebf3;border-radius:9px;font-size:13px;color:#626b7d;background:#fff}
+.radar-facet-options button[aria-pressed=true]{border-color:#a9b2ec;color:#5263c9;background:#f3f5ff}
+.radar-facet-options small{font-size:11px;color:#9299a9;font-variant-numeric:tabular-nums}
+.radar-open-month{display:flex;align-items:center;justify-content:center;gap:7px;min-height:44px;font-size:14px;color:#626b7d;margin:auto}
+.radar-open-month small{font-size:10px;color:#6975ad;background:#eef0fb;padding:1px 5px;border-radius:4px}
+.radar-sheet-small .radar-sheet-body{padding-top:7px;padding-bottom:12px}
+.radar-month-wheel{height:196px;--background:#fff;--highlight-background:#f1f3ff;--highlight-border-radius:9px;--fade-background-rgb:255,255,255}
+.radar-month-wheel ion-picker-column-option{font-family:inherit;font-size:18px;color:#374151}
+@media(min-width:768px){ion-modal.radar-sheet{--height:min(85%,820px)}ion-modal.radar-sheet-small{--height:440px}}
+@media(max-width:359px){.radar-sheet-header{padding-left:16px;padding-right:16px}.radar-sheet-body{padding-left:16px;padding-right:16px}.radar-open-facets{width:94px}.radar-sheet-header h2{font-size:19px}}
