@@ -127,32 +127,6 @@
       "discovery_status": "update"
     }
   ],
-  "量旋科技（SpinQ）": [
-    {
-      "date": "2026-04-08",
-      "title": "量旋科技近日完成C+轮融资，金额达6亿元，若合并三个月前完成的C轮融资，公司在短短一个季度内累计融资近10亿元。本轮融资汇集了基石资本、国泰君安创新投、浙江财通资本、四川振兴集团、成都天创投等多元化投资机构，毅达资本、华强资本持续跟投。融资资金将用于芯片加工设备和测试设备的升级，支撑量子比特数提升，并布局新工艺，为未来更高比特数芯片做技术储备。",
-      "article_title": "3个月融资近10亿，深圳量子计算公司完成C+轮融资，并已规模化盈利丨早起看早期",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/JHsUJdKBvkzOv_Xdx3TKnA",
-      "sector": "量子计算",
-      "location": "深圳",
-      "geography": "",
-      "source": "36 氪",
-      "kind": "event",
-      "canonical_name": "量旋科技(SpinQ)",
-      "company_entity_id": "dr-u-1fe83637d5a3bb28cc67",
-      "company_raw_name": "量旋科技（SpinQ）",
-      "identity_status": "unresolved",
-      "score": 80,
-      "is_national_star": true,
-      "insight": "量旋科技作为国内少数实现规模化盈利的量子计算企业，具备全栈研发能力，商业化落地走在行业前列，海外市场表现突出，预计全年业绩翻倍增长，投资价值显著。",
-      "financing": "C+轮融资6亿元，三个月内累计融资近10亿元，投资方包括基石资本、国泰君安创新投、浙江财通资本、四川振兴集团、成都天创投、毅达资本、华强资本等",
-      "event_date": "",
-      "event_headline": "量旋科技完成6亿元C+轮融资，资金将用于芯片设备升级",
-      "event_signal": "major",
-      "discovery_status": "first_seen"
-    }
-  ],
   "电波微讯通信技术有限公司": [
     {
       "date": "2026-04-18",
@@ -604,6 +578,65 @@
       "event_date": "",
       "event_headline": "Rivian披露获得大众十年期10亿美元贷款，固定年利率6.03%",
       "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "智谱": [
+    {
+      "date": "2026-10-18",
+      "title": "智谱推出法律专用开源模型GLM-Legal，基于GLM-5.3-Flash开展法律语料中期训练，并在数万法律任务环境中进行强化学习，同步迭代Agent运行框架。据文章援引的Vals AI测评，其以19.2%的任务全通过率和86.23%的准确率，分别位列Harvey LAB与LegalBench开放权重模型榜首。官方演示涉及合同审查、证据关联和东南亚跨境隐私合规。智谱正邀请法律专业人士申请Beta试用，并计划将相关能力接入AutoClaw。",
+      "article_title": "智谱新模型，懂法方面全球第一了",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/RFbL6EoKvxKnx_0Wct-OpA",
+      "sector": "人工智能／法律科技",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "智谱",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "智谱",
+      "company_entity_id": "dr-u-8bcef51236d613cdd248",
+      "company_raw_name": "智谱",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "GLM-Legal",
+          "relation": "product",
+          "evidence": "就在这两天，智谱推出了一款新的法律专用开源模型——GLM-Legal。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持法律垂直模型的产品观察及限定榜单比较，尚不足以建立智谱整体行业地位与全国标杆资格；不影响该产品事件进入日报。",
+        "evidence_ids": [
+          "article:d43f57d93839865b"
+        ]
+      },
+      "published_date": "2026-10-17",
+      "insight": "智谱将法律模型的目标从回答法律问题推进到结合客户材料形成合同修改、证据分析和合规行动成果，专业训练与配套工作环境共同服务这一任务转变。官方演示和专业测评提供了能力线索，但Harvey LAB全条件通过率仍为19.2%，下一步值得研究的是专业人士试用中哪些任务已能稳定辅助、哪些环节仍需大量修订。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "智谱推出GLM-Legal法律模型，面向专业人士开放Beta申请",
+      "event_signal": "material",
       "discovery_status": "first_seen"
     }
   ]
