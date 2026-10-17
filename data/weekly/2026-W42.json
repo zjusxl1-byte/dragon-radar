@@ -5,12 +5,12 @@
   "start_date": "2026-10-12",
   "end_date": "2026-10-18",
   "summary": {
-    "total_companies": 214,
-    "financing_events": 33,
+    "total_companies": 238,
+    "financing_events": 36,
     "ipo_events": 7,
-    "milestone_events": 57,
-    "negative_events": 7,
-    "active_days": 6
+    "milestone_events": 62,
+    "negative_events": 8,
+    "active_days": 7
   },
   "top10": [
     {
@@ -969,6 +969,203 @@
       "selection_reason": "主体与本文实际事件角色一致；应用平台收费受到具体法律审查，可能影响抽成与合规成本。按正文保留负面的实际阶段，不把公司自述、计划或媒体转述当作已实现。历史对照见本轮两份history证据，未保留已找到的同一事件重复项。",
       "reason": "英国竞争上诉法庭审理消费者集体诉讼，指控Play商店30%抽成推高价格，可能涉及约2000万人、12亿英镑赔偿；谷歌否认反竞争，未有赔偿判决。",
       "date": "2026-10-12"
+    },
+    {
+      "company_raw_name": "DeepSeek",
+      "title": "宕机近5小时，DeepSeek发补偿，有人领到上千元；三部门联合调查尊界V800刹车踏板问题；Tim回应圆通总裁潘水苗出任影视飓风董事长丨邦早报",
+      "company": "DeepSeek",
+      "reason": "",
+      "source": "创业邦",
+      "location": "浙江省 / 杭州市",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_status": "confirmed",
+      "sector": "人工智能大模型服务",
+      "link": "https://mp.weixin.qq.com/s/IK_ssbEgp1b1yjh5SHR5fQ",
+      "article_title": "宕机近5小时，DeepSeek发补偿，有人领到上千元；三部门联合调查尊界V800刹车踏板问题；Tim回应圆通总裁潘水苗出任影视飓风董事长丨邦早报",
+      "event_desc": "正文称，10月15日DeepSeek针对当日API服务故障发布道歉通知，按用户10月8日至14日的实际API消费全额返还补偿，补偿金没有使用期限。此次故障持续近五小时。公司表示已启动服务稳定性排查和整改，将梳理并剥离单点依赖，未公布故障原因。",
+      "insight": "近五小时的API故障暴露了服务连续性风险，直接影响依赖接口运行的下游应用。公司提出剥离单点依赖，说明整改涉及服务依赖结构，但实际故障原因与整改效果尚未披露。",
+      "event_headline": "DeepSeek因API故障向用户返还一周消费",
+      "event_signal": "major",
+      "event_time_evidence": {
+        "status": "dated_from_publication_context",
+        "event_date": "2026-10-15",
+        "observed_date": "2026-10-16",
+        "description": "正文明确10月15日下午针对当日上午API故障发布通知；2026年份由2026-10-16原始发布时间及当日报道语境推定，并非事件段落逐字写明。精确故障起止时刻未知。",
+        "review_required": false
+      },
+      "published_date": "2026-10-16",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "补证改判：完整正文证明DeepSeek 10月15日API故障近五小时及按前周消费补偿，属已发生的模型服务连续性不利事实；保留未知故障原因，不把整改承诺当已解决。官方政策确认服务主体，政府明确该同主体总部在杭州，真实capture及地理apply已使预警资格成立，不能再依无来源深圳值搁置。融资、产品更新、用户输出测试与本次故障均为另一事件；历史归一化异常仍注明完整性不确定，不宣称首次，也不借故障改写旧watch。10月16日新闻在窗口内。",
+      "event_headline_source": "805f3c2ef55cfdc75200bb358fb9744afdbf76406b54b69938031201d89da6f4",
+      "event_date": "2026-10-15",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight Agent: full-source per-event continuation and targeted corrections",
+        "candidate_id": "cbe6909a343ad028f5eb48f0c7f78a6cdf5dce7dbe16bc01c661acc2ccf02238",
+        "input_row_sha256": "bca5a7cb1cd8ff86ec3f4ad18269d5b9c743cc20cb5b87403745df78df919708",
+        "reason": "补证改判：完整正文证明DeepSeek 10月15日API故障近五小时及按前周消费补偿，属已发生的模型服务连续性不利事实；保留未知故障原因，不把整改承诺当已解决。官方政策确认服务主体，政府明确该同主体总部在杭州，真实capture及地理apply已使预警资格成立，不能再依无来源深圳值搁置。融资、产品更新、用户输出测试与本次故障均为另一事件；历史归一化异常仍注明完整性不确定，不宣称首次，也不借故障改写旧watch。10月16日新闻在窗口内。",
+        "scope": {
+          "technology_evidence": "正文记载DeepSeek官方开放平台针对API故障道歉，故障持续近五小时；补偿以10月8日至14日实际API消费为基准全额返还且无使用期限。公司提出梳理并剥离单点依赖，未披露故障原因。",
+          "value_reason": "API中断直接影响模型调用服务连续性，是下游应用接入和容灾设计的实际约束。补偿及整改表态可用于观察服务保障机制，但不能证明具体下游损失、单点依赖已被确认为故障根因，或整改已经有效。"
+        },
+        "stage": {
+          "status": "已发生API故障及已发布补偿；稳定性整改已启动、效果未证实",
+          "reason": "正文明确10月15日针对当日故障发布通知，并记录用户晒出到账补偿；结合2026-10-16发布时间，可将事件日记为2026-10-15，年份依据报道语境推定。故障原因、精确起止时刻及整改完成时间未披露，首次收录时间未知。"
+        },
+        "history": {
+          "result": "uncertain",
+          "evidence_ids": [
+            "history_lookup:007aa56abaac5aeb",
+            "accepted_history:3c2fa55416291329",
+            "accepted_history:24a5738e77ff3c74",
+            "accepted_history:0ce074f776a7df00",
+            "accepted_history:fee5adc7eeea25f4",
+            "accepted_history:a11c70966626e98d",
+            "accepted_history:acb664257ffa04b4",
+            "accepted_history:891e4d7dba6c6fa3",
+            "prior_decision:eb039cfd8aedceee",
+            "prior_decision:1615af08ab103075",
+            "prior_decision:b1dc62a56ac9b5f3",
+            "prior_decision:f819bbdc17ee0dd2",
+            "prior_decision:bc6361c05673a7de",
+            "prior_decision:e4762b303f8d53bf",
+            "prior_decision:b13f1232e1b4e9fc",
+            "prior_decision:cee8b3a460f77934",
+            "prior_decision:ffec7539db669705"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:eb039cfd8aedceee",
+              "comparison": "different_event",
+              "reason": "旧裁决为Harness v0.2桌面产品更新，本次为10月15日API故障及补偿。"
+            },
+            {
+              "evidence_id": "prior_decision:1615af08ab103075",
+              "comparison": "different_event",
+              "reason": "旧裁决同为Harness桌面版事件，不构成本次API故障的批准或排除。"
+            },
+            {
+              "evidence_id": "prior_decision:b1dc62a56ac9b5f3",
+              "comparison": "different_event",
+              "reason": "旧事件为DSec工程细节、资源超卖及扩容计划，不能据此认定其与本次故障存在因果关系。"
+            },
+            {
+              "evidence_id": "prior_decision:f819bbdc17ee0dd2",
+              "comparison": "different_event",
+              "reason": "旧watch针对用户观察API生成输出差异、尚不能确认模型更新；本次有明确服务故障和补偿报道，不继承旧项证据不足的结论。"
+            },
+            {
+              "evidence_id": "prior_decision:bc6361c05673a7de",
+              "comparison": "different_event",
+              "reason": "旧watch为10月接口输出变化测试线索，非10月15日API中断，不据共用API名称判为同事件。"
+            },
+            {
+              "evidence_id": "prior_decision:e4762b303f8d53bf",
+              "comparison": "different_event",
+              "reason": "旧裁决保留乌兰察布数据中心规划，本次没有该项目建设或投运增量，也未证明故障与该规划有关。"
+            },
+            {
+              "evidence_id": "prior_decision:b13f1232e1b4e9fc",
+              "comparison": "different_event",
+              "reason": "旧watch针对数据中心芯片型号和报价测算的新增性，本次为独立服务故障，不能作企业级排除或借此改判旧项目。"
+            },
+            {
+              "evidence_id": "prior_decision:cee8b3a460f77934",
+              "comparison": "different_event",
+              "reason": "旧watch再次审理用户测试与未经确认的模型更新猜测；本次故障及补偿具备不同事实身份。"
+            },
+            {
+              "evidence_id": "prior_decision:ffec7539db669705",
+              "comparison": "different_event",
+              "reason": "旧watch针对至少800亿元拟融资与既有融资口径的关系，和API服务故障无同事件关系。"
+            }
+          ],
+          "change_reason": "所给4月至9月资本、模型和基础设施记录，以及10月Harness、DSec、数据中心规划、输出测试和拟融资裁决，均未显示此次故障及补偿已收录。此次按另一事件独立审核，不改判旧watch；但当前历史检索明确报告裁决归一化不匹配，不能宣称无遗漏去重或首次发现，需核对原裁决及故障同事件记录。",
+          "new_evidence_ids": [
+            "article:6dbafe04d79de8db"
+          ]
+        },
+        "evidence_ids": [
+          "article:6dbafe04d79de8db",
+          "identity_registry:2dcd4f408df25406",
+          "geography_registry:b93d03cf35486d17",
+          "history_lookup:007aa56abaac5aeb",
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "negative_eligibility": {
+          "eligible": true,
+          "status": "confirmed_hangzhou_subject",
+          "reason": "subject_registered_or_primary_hq_hangzhou_confirmed_by_reviewed_official_evidence",
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        }
+      },
+      "date": "2026-10-18"
     }
   ],
   "sector_distribution": {
@@ -996,7 +1193,7 @@
     "储能与AI数据中心能源基础设施": 1,
     "具身智能与服务机器人": 2,
     "物理AI数据基础设施与人机交互": 1,
-    "新能源汽车": 3,
+    "新能源汽车": 5,
     "新能源汽车充电基础设施": 2,
     "汽车制造与车载软件": 3,
     "AI游戏与内容共创平台": 1,
@@ -1162,7 +1359,29 @@
     "人工智能算力基础设施": 1,
     "人工智能／全模态实时交互": 1,
     "人工智能／决策模型": 1,
-    "脑机接口": 2
+    "脑机接口": 2,
+    "智能终端、移动互联网及储能": 1,
+    "人工智能大模型与编程智能体": 1,
+    "运动鞋履与智能制造": 1,
+    "人工智能／法律科技": 1,
+    "消费电子／折叠屏智能手机": 1,
+    "AI数据中心网络与加速器互联": 1,
+    "光子计算与人工智能专用计算": 1,
+    "休闲益智手游": 1,
+    "无人机与无人装备": 1,
+    "人工智能与数字内容创作": 1,
+    "新能源汽车与动力电池": 1,
+    "数据中心与定制芯片": 1,
+    "半导体设计与数据中心芯片": 1,
+    "脑机接口／神经接口芯片": 1,
+    "消费级3D打印": 1,
+    "人工智能／端侧大模型": 1,
+    "商用清洁机器人": 1,
+    "细胞治疗": 1,
+    "具身智能与机器人灵巧操作": 1,
+    "智能制造与运动控制": 1,
+    "电子制造装备": 1,
+    "半导体封装自动化与工业机器人": 1
   },
   "daily_details": {
     "2026-10-12": {
@@ -1188,7 +1407,11 @@
     "2026-10-17": {
       "count": 4,
       "negatives": 0
+    },
+    "2026-10-18": {
+      "count": 24,
+      "negatives": 1
     }
   },
-  "created": "2026-10-17 08:34:50"
+  "created": "2026-10-18 02:29:41"
 }
