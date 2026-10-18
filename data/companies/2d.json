@@ -1073,6 +1073,95 @@
       "event_headline": "阿里千问办公推出电商版，支持素材生成与经营分析",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "千问团队公布QwenGyre框架，通过动态切换GPU推理与训练角色、流式训练及分支轨迹处理，提高超长程智能体强化学习训练效率。据文中实验，在相同GPU预算下，Qwen 3.8 2.4T完成48步训练的耗时由Async方案的134.55小时降至75.42小时，Colocate方案耗时为91.47小时；采用QwenGyre训练后，模型在NL2RepoBench上的通过率由52.48%升至58.54%。团队表示框架将在优化后开源。",
+      "article_title": "千问Agent训练框架公开！不多加一张卡，训练效率提升78%",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/NWZO5fjT7UGTafOauRgNXw",
+      "sector": "人工智能／智能体训练基础设施",
+      "location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "subject_evidence_ids": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-96adb38b9ecaed1e412df1a7"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+            "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+            "checked_at": "2026-10-15T18:26:21.338217+00:00",
+            "subject": "阿里",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路969号"
+            }
+          }
+        ]
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "阿里",
+      "company_entity_id": "dr-u-1d99cc69a8ba22eb7d71",
+      "company_raw_name": "阿里",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "阿里",
+          "relation": "uncertain",
+          "evidence": "阿里的算力储备在国内公司中已经相对能打"
+        },
+        {
+          "name": "QwenGyre",
+          "relation": "product",
+          "evidence": "千问交出了一份新答卷——QwenGyre。"
+        }
+      ],
+      "score": 100,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条提供具体实验基线比较，足以支持训练基础设施观察，但尚无独立复现或行业地位证据建立该业务的全国标杆资格，不以阿里知名度授予标签。",
+        "evidence_ids": [
+          "article:b48b4d136c38f6ad"
+        ]
+      },
+      "published_date": "2026-10-16",
+      "insight": "QwenGyre把长程智能体执行任务时波动的推理需求，转化为可用于训练的算力窗口，减少慢任务拖累整个集群的等待。其产业价值不仅是加速单次实验，还在于让包含上下文压缩、子任务分支和超时产物的复杂工程经历能够进入训练，扩大千问可训练的任务范围。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "千问公布QwenGyre框架，缩短长程智能体训练耗时",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "传音控股": [
