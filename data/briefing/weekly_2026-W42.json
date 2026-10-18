@@ -1,0 +1,694 @@
+{
+  "summary": {
+    "report_id": "2026-W42",
+    "report_type": "weekly",
+    "start_date": "2026-10-12",
+    "end_date": "2026-10-18",
+    "total_companies": 212,
+    "financing_events": 39,
+    "milestone_events": 54,
+    "ai_insight": {
+      "hz_insight": "<b>本期简报精选寻龙雷达发掘杭州企业 4 家，涵盖 人工智能 4 家、机器人 1 家、网络安全 1 家 领域。</b>杭州线索的共同变化是从硬件、模型走向开发与使用环节：宇树补齐研发平台，DeepSeek联动执行工具，Rokid和亿格云分别推进应用生态与客户适配。",
+      "nat_insight": "<b>本期简报精选寻龙雷达发掘外市企业 1 家，涵盖 人工智能 1 家、集成电路 1 家 领域。</b>无问芯穹把异构芯片适配、算力调度与模型调用组织成服务，显示算力竞争不只在新建机房。杭州可对标软件编排和推理服务能力，优先比较实际任务成本与运行稳定性。"
+    },
+    "analysis_text": "<b>【整体态势】</b> 本周（10月12日-10月18日），寻龙雷达共扫描全国前沿科创动态 212 起，其中融资重组 39 起，重点领域进展 54 起。<br><br><b>【杭州观察】</b> 经清洗去重，本周全市共有 <b>4</b> 家最具培育价值的科创企业取得突出前沿进展。<br><br><b>【全国标杆】</b> 严苛跨省遴选，系统另捕捉到 <b>1</b> 家对本地产业演进具有重大对标与借鉴价值的全国性先锋企业，作为核心参考。"
+  },
+  "hangzhou_top": [
+    {
+      "company_raw_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_mentions": [
+        {
+          "name": "DeepSeek-V4.1-Flash-1017",
+          "relation": "product",
+          "evidence": "而DeepSeek这次给V4.1-Flash-1017准备的新活儿，名字也很懂网友——"
+        }
+      ],
+      "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "company": "杭州深度求索人工智能基础技术研究有限公司",
+      "score": 50,
+      "sector": "人工智能大模型与编程智能体",
+      "financing": "",
+      "source": "量子位",
+      "location": "浙江省 / 杭州市",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "reason": "同主体主要总部由政府正文明确指向杭州，官方隐私政策与稳定别名交叉确认主体；旧无来源深圳值不构成同角色冲突。",
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ],
+          "basis_roles": [
+            "hq"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/rnlMFZR6zyJmEimC5k9Oig",
+      "article_title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "event_desc": "据文章报道，DeepSeek发布V4.1-Flash-1017，网页端、APP及API同步更新。官方称，新模型针对DeepSeek Harness进行专项训练优化，在提升任务表现的同时缩短运行时间、减少输出及token费用；使用相关能力需将Harness升级至0.2.1-rc.1及以上版本。文章还介绍了基于自反馈强化学习的编程任务能力，并称DeepSeek已开放Search与Fetch接口，分别用于网页搜索和正文获取，每千次成功请求收费5元，失败、无结果或超时不收费，限时至11月1日免费。",
+      "insight": "这次更新将模型训练与智能体执行框架协同优化，着眼于让编程任务在较少运行时间和输出消耗下完成，而不只是提高测试得分。搜索与正文获取接口的开放，则补充了智能体从外部取资料再交给模型处理的工具链能力。",
+      "event_headline": "DeepSeek更新Flash模型并开放搜索与正文获取接口",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-17",
+        "event_date": null,
+        "observed_date": "2026-10-17",
+        "review_required": true
+      },
+      "published_date": "2026-10-17",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "定向复核：完整新闻及DeepSeek官方模型卡均证明V4.1-Flash-1017是模型更新，Harness优化与Search/Fetch接口为具体产品工具链事实。保持厂商测试主张，不外推普遍效率。新闻10月17日有效；旧10月12日用户输出猜测并非本次发布，不反向改判旧项。已逐项比对融资、DSec、Harness和算力旧裁决；历史归一化异常仍保留不确定，不宣称全局首次。此次另由政府同主体总部说明及官方主体政策补实杭州归属，深圳旧档案无来源，不继续写地点未知。",
+      "event_headline_source": "faf8c8ba8481e13ead63d70c4676284466cda6961afa1bed7e67e40289e59c10",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条足以支持模型和工具链进展，但主要为官方测试主张及演示，未提供可复核的同条件竞品比较来独立建立本次全国标杆资格。所给历史中的上游星标和一般能力评价不替代独立资格依据；本裁决不批量删除既有标签。",
+        "evidence_ids": [
+          "article:22abfa412fa5a94a"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight Agent: full-source per-event continuation and targeted corrections",
+        "candidate_id": "d0dac788d6e7065edc38d3df1a958bcc648833dc677e59bf21993ff63add8d5b",
+        "input_row_sha256": "cb04b2e6fcebc7647ad7dd18db5ee63e989a0fd4508f3d3cab4d9be401d2e8b8",
+        "reason": "定向复核：完整新闻及DeepSeek官方模型卡均证明V4.1-Flash-1017是模型更新，Harness优化与Search/Fetch接口为具体产品工具链事实。保持厂商测试主张，不外推普遍效率。新闻10月17日有效；旧10月12日用户输出猜测并非本次发布，不反向改判旧项。已逐项比对融资、DSec、Harness和算力旧裁决；历史归一化异常仍保留不确定，不宣称全局首次。此次另由政府同主体总部说明及官方主体政策补实杭州归属，深圳旧档案无来源，不继续写地点未知。",
+        "scope": {
+          "technology_evidence": "正文报道V4.1-Flash-1017已同步更新至网页端、APP及API；官方称针对Harness专项训练优化，相关能力要求Harness 0.2.1-rc.1及以上版本；Search用于网页搜索，Fetch用于获取正文并转为Markdown。",
+          "value_reason": "模型与执行框架联合优化，把智能体选型从单次回答质量推进到任务完成效果、时延和输出成本的综合比较；搜索与正文获取接口补齐外部信息获取链路。可优先比较真实编程任务的完成率、总耗时和总费用，不能由官方案例或低接口标价推导行业最优或客户收益已实现。"
+        },
+        "stage": {
+          "status": "据报道已发布及开放接口；性能改善为官方测试主张",
+          "reason": "正文明确新模型已上线，接口已可调用；免费至11月1日属于限时安排。结合新闻发布时间及正文当日发布叙事，事件日可按上下文记为2026-10-17，而非仅凭型号后缀定日；首次收录时间未提供。此前用户体验和指纹变化仅作背景，不作为10月12日更新已获确认的证据。"
+        },
+        "history": {
+          "result": "uncertain",
+          "evidence_ids": [
+            "history_lookup:007aa56abaac5aeb",
+            "accepted_history:3c2fa55416291329",
+            "accepted_history:24a5738e77ff3c74",
+            "accepted_history:fee5adc7eeea25f4",
+            "accepted_history:acb664257ffa04b4",
+            "prior_decision:eb039cfd8aedceee",
+            "prior_decision:1615af08ab103075",
+            "prior_decision:b1dc62a56ac9b5f3",
+            "prior_decision:f819bbdc17ee0dd2",
+            "prior_decision:bc6361c05673a7de",
+            "prior_decision:e4762b303f8d53bf",
+            "prior_decision:b13f1232e1b4e9fc",
+            "prior_decision:cee8b3a460f77934",
+            "prior_decision:ffec7539db669705"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:eb039cfd8aedceee",
+              "comparison": "different_event",
+              "reason": "旧事件为Harness v0.2桌面预览版，本条为具体模型快照发布、框架适配及搜索接口开放。"
+            },
+            {
+              "evidence_id": "prior_decision:1615af08ab103075",
+              "comparison": "different_event",
+              "reason": "同为此前桌面产品裁决，不覆盖本次模型与搜索工具进展。"
+            },
+            {
+              "evidence_id": "prior_decision:b1dc62a56ac9b5f3",
+              "comparison": "different_event",
+              "reason": "旧事件为DSec资源超卖、环境保存及扩容计划，不是本次模型产品发布。"
+            },
+            {
+              "evidence_id": "prior_decision:f819bbdc17ee0dd2",
+              "comparison": "new_progress",
+              "reason": "此前仅有用户报告API输出差异、官方未确认；当前正文新增明确型号、发布及端口更新报道，足以独立支持当前产品进展，但不证明旧测试发生时已部署同一快照。"
+            },
+            {
+              "evidence_id": "prior_decision:bc6361c05673a7de",
+              "comparison": "new_progress",
+              "reason": "原待核缺口是无法确认更新和稳定能力提升；本次有明确发布及官方性能主张，发布事实证据增强，普遍性能收益仍未独立验证。"
+            },
+            {
+              "evidence_id": "prior_decision:e4762b303f8d53bf",
+              "comparison": "different_event",
+              "reason": "旧裁决针对乌兰察布数据中心规划，当前不提供该项目建设或资金落实增量。"
+            },
+            {
+              "evidence_id": "prior_decision:b13f1232e1b4e9fc",
+              "comparison": "different_event",
+              "reason": "旧watch针对数据中心芯片型号及采购报价，本次模型发布不能解除这些待核事项。"
+            },
+            {
+              "evidence_id": "prior_decision:cee8b3a460f77934",
+              "comparison": "new_progress",
+              "reason": "该记录同属此前API变化观察待核；当前明确发布构成相关产品线新证据，不将旧观察追认成已证实的历史更新。"
+            },
+            {
+              "evidence_id": "prior_decision:ffec7539db669705",
+              "comparison": "different_event",
+              "reason": "旧watch涉及至少800亿元融资的轮次和口径，与本次模型及接口开放无同事件关系，融资待核结论保持不变。"
+            }
+          ],
+          "change_reason": "8月V4 Pro和视觉模型、9月Harness及DSec等为不同节点；本次明确型号发布及Search、Fetch开放，比10月用户观察增加了可识别的产品事实，因此可独立采信。历史读取存在historical_normalized_decision_mismatch，不能确认历史完整性或全局首次，不批量改写旧待核记录。",
+          "new_evidence_ids": [
+            "article:22abfa412fa5a94a"
+          ]
+        },
+        "evidence_ids": [
+          "article:22abfa412fa5a94a",
+          "identity_registry:2dcd4f408df25406",
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条足以支持模型和工具链进展，但主要为官方测试主张及演示，未提供可复核的同条件竞品比较来独立建立本次全国标杆资格。所给历史中的上游星标和一般能力评价不替代独立资格依据；本裁决不批量删除既有标签。",
+          "evidence_ids": [
+            "article:22abfa412fa5a94a"
+          ]
+        }
+      },
+      "company_db_id": 258,
+      "ai_reason": "DeepSeek将V4.1-Flash-1017训练与Harness执行框架协同优化，并开放搜索与正文获取接口，把模型能力接到取资料、执行和自检的任务链。对杭州编程及行业智能体供给，更重要的是同一任务能否减少耗时和消耗，而不只提高单项测试得分。",
+      "wx_summary": "发布1017模型快照，扩展智能体搜索工具链",
+      "standard_sectors": [
+        "人工智能"
+      ]
+    },
+    {
+      "company_raw_name": "宇树科技股份有限公司",
+      "title": "光合创投合伙人朱嘉：科技投资的快决断与慢等待",
+      "company": "宇树科技股份有限公司",
+      "score": 80,
+      "sector": "具身智能与机器人",
+      "financing": "文章称光合创投于2024年年中投资宇树科技，当时估值35亿元人民币；2025年6月融资时估值达到127亿元人民币。未披露融资金额及资金用途。",
+      "source": "创业邦",
+      "location": "浙江省 / 杭州市",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "subject_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宇树科技股份有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "reason": "同主体官网明确杭州总部。",
+          "evidence_ids": [
+            "geo-13a3a18a9bf559ad8bfbeaac"
+          ],
+          "basis_roles": [
+            "hq"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+            "source_url": "https://www.unitree.com/cn/contact",
+            "checked_at": "2026-10-12T18:25:09.025885+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-35826112ed957325dfd4",
+      "company_canonical_name": "宇树科技股份有限公司",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/hbqMBWrxJC_Uy9Fyl-7JLQ",
+      "article_title": "光合创投合伙人朱嘉：科技投资的快决断与慢等待",
+      "event_desc": "据光合创投合伙人朱嘉回顾，多家头部科技公司的具身智能研发团队采购宇树机器人本体，用于测试软件、算法和模型。宇树针对研发场景优化关节设计，减少意外碰撞故障导致机器人失效的情况，并提供软件平台，方便客户开发具身大脑模型。",
+      "insight": "机器人本体的可靠性优化与模型开发软件平台结合，有助于降低具身研发团队的硬件适配和实验中断成本，使宇树从硬件供应商延伸为研发平台提供方。商业价值还取决于研发客户复购、软件平台使用规模及其向实际作业场景的转化。",
+      "event_headline": "宇树科技据投资人回顾优化研发硬件并提供模型开发平台",
+      "event_signal": "context",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "宇树面向具身模型客户的关节可靠性优化和开发软件平台有具体披露，保留客户研发基础设施线索，不因上市或成熟排除。采购是回顾，不造新增订单；杭州总部已由官网补证，10月12日新闻有效。",
+      "event_headline_source": "67bc76bdfd5ad5a66433cf42eefd0bf1c0429605100e99c09affde28bb96b6a9",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+          "source_url": "https://www.unitree.com/cn/contact",
+          "checked_at": "2026-10-12T18:25:09.025885+00:00",
+          "subject": "宇树科技股份有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "d3b3baa66f6f58052ed27e0b1e0465c22fe59ea783570d1bc47e2d766490ad7c",
+        "input_row_sha256": "7ffe5f250b1adacd65d3cf1d852218be349b29dba7cb3034caafa2031b2b2a20",
+        "reason": "宇树面向具身模型客户的关节可靠性优化和开发软件平台有具体披露，保留客户研发基础设施线索，不因上市或成熟排除。采购是回顾，不造新增订单；杭州总部已由官网补证，10月12日新闻有效。",
+        "scope": {
+          "technology_evidence": "研发客户采购机器人本体，关节设计减少碰撞失效，提供方便开发具身大脑的软件平台。",
+          "value_reason": "将本体鲁棒性和软件开发环境结合，降低客户试验中断及硬件适配成本。"
+        },
+        "stage": {
+          "status": "投资人回顾客户采购与研发平台优化",
+          "reason": "研发客户采购机器人本体，关节设计减少碰撞失效，提供方便开发具身大脑的软件平台。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870",
+            "accepted_history:e04c219f981dcb33",
+            "accepted_history:581d98b075fdbac2",
+            "accepted_history:6c5dd95992e6a569",
+            "accepted_history:aa7ed4d1213d3138",
+            "accepted_history:a0800eb66f63fa6f",
+            "accepted_history:5e57c53dffe721e4",
+            "accepted_history:fcf7fa438de5721c",
+            "accepted_history:19afb9a5f76a9a87",
+            "accepted_history:86098b6c858da1dd",
+            "accepted_history:fedbba31c39e34f7",
+            "accepted_history:c13b0bce5338e34a",
+            "accepted_history:d4ee6f6bdfdd6c38",
+            "accepted_history:4e653e21a89e21a8",
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:1b675f2aef61b5fb",
+            "accepted_history:e5f539a1505ea4ce",
+            "accepted_history:721cabb6862eed6f",
+            "accepted_history:ed9a9fac1991d749",
+            "accepted_history:9f1775a103441203",
+            "accepted_history:e010772d19805e99",
+            "accepted_history:15d039c73dd7a90c",
+            "accepted_history:cc448fb1986f191a",
+            "accepted_history:a9601bf5150693fb"
+          ],
+          "prior_decisions": [],
+          "change_reason": "3月及8月投资回顾已披露头部客户与量产基础，6月GR00T参考平台和10月广州部署为其他节点；本条增量是关节碰撞失效优化和面向研发客户的软件平台机制，旧客户采购不重复计为新增订单。",
+          "new_evidence_ids": [
+            "article:7687f546bf28e897"
+          ]
+        },
+        "evidence_ids": [
+          "article:7687f546bf28e897"
+        ]
+      },
+      "company_db_id": 44,
+      "ai_reason": "宇树将关节抗碰撞设计与模型开发软件平台结合，价值在于减少具身研发试验的中断与硬件适配成本。研发团队反复使用同一底座，有助于积累开发工具和客户生态；后续看平台使用能否延伸到实际作业场景，而不只是增加本体采购。",
+      "wx_summary": "关节可靠性与软件平台支撑具身模型研发",
+      "standard_sectors": [
+        "人工智能",
+        "机器人"
+      ]
+    },
+    {
+      "company_raw_name": "Rokid",
+      "sector": "带显AI眼镜与光波导",
+      "location": "浙江省 / 杭州市",
+      "event_type": "技术进展",
+      "event_desc": "报道称Rokid覆盖70多个国家地区、海外增速超过300%、线下体验店超过2000家，并明确带显示光波导消费AI眼镜业务。增速统计期和口径未披露，不以榜单荣誉代替销量。",
+      "insight": "验配与线下体验网络可降低带显眼镜的试用障碍，全球渠道广度仍需转化为终端售出。应核对增速基期、渠道库存和产品激活量，覆盖国家与门店数不代表付费活跃用户。",
+      "event_headline": "Rokid扩展海外与线下AI眼镜渠道",
+      "event_signal": "material",
+      "company": "Rokid",
+      "title": "浙大系科学企业家榜单｜银杏谷生态28家企业上榜，获投资浙大系科学企业家项目数量TOP1",
+      "article_title": "浙大系科学企业家榜单｜银杏谷生态28家企业上榜，获投资浙大系科学企业家项目数量TOP1",
+      "link": "https://mp.weixin.qq.com/s/t68ZV9_pOyVWm_mYuBq6mg",
+      "source": "银杏谷资本",
+      "published_date": "2026-10-09",
+      "publication_basis": "accepted源保留的原始发布时间",
+      "financing": "",
+      "score": 35,
+      "is_national_star": false,
+      "review_evidence": {
+        "article_index": 49,
+        "source_body_sha256": "28333981ce182f6c0b26c264f3cd82535a6472ea47124ebe5ec1ba4e3db1037d",
+        "published_at": "2026-10-09T07:00:00Z"
+      },
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "event_date": null,
+        "observed_date": "2026-10-09",
+        "description": "报道日期不冒充事件日期，计划、测试和媒体转述按正文边界保留",
+        "review_required": true
+      },
+      "quality_review": {
+        "keep": true,
+        "reason": "主体与本文实际事件角色一致；验配与线下体验网络可降低带显眼镜的试用障碍，全球渠道广度仍需转化为终端售出。按正文保留技术进展的实际阶段，不把公司自述、计划或媒体转述当作已实现。历史对照见本轮两份history证据，未保留已找到的同一事件重复项。",
+        "reviewer": "overnight-current-model-agent",
+        "scope_reviewed": true,
+        "news_publication_reviewed": true,
+        "history_reviewed": true
+      },
+      "selection_recommendation": "keep",
+      "selection_reason": "主体与本文实际事件角色一致；验配与线下体验网络可降低带显眼镜的试用障碍，全球渠道广度仍需转化为终端售出。按正文保留技术进展的实际阶段，不把公司自述、计划或媒体转述当作已实现。历史对照见本轮两份history证据，未保留已找到的同一事件重复项。",
+      "company_entity_id": "dr-u-4fe71b2b41ec432c9fb8",
+      "company_canonical_name": "Rokid",
+      "identity_status": "unresolved",
+      "identity_candidates": [],
+      "company_db_id": null,
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "subject_evidence_ids": [
+          "geo-ab508bafad4439808af9c163"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Rokid",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "reason": "政府公开正文直接明确同一Rokid业务主要总部在杭州，武汉仅为区域业务及研发中心。",
+          "evidence_ids": [
+            "geo-ab508bafad4439808af9c163"
+          ],
+          "basis_roles": [
+            "hq"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-ab508bafad4439808af9c163",
+            "source_url": "https://www.wuhan.gov.cn/sy/whyw/202603/t20260327_2745462.shtml",
+            "checked_at": "2026-10-18T00:33:01.875323+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "ai_reason": "Rokid把带显光波导眼镜、AIUI Studio开发工具与跨国消费渠道相连接，为应用开发和用户触达提供配套条件。其培育价值在软硬协同生态，重点看工具带来的应用能否形成持续使用；报道未说明海外增速口径，不据此判断本期销量。",
+      "wx_summary": "AI眼镜跨国渠道延伸至开发工具生态",
+      "standard_sectors": [
+        "人工智能"
+      ]
+    },
+    {
+      "company_raw_name": "亿格云",
+      "sector": "企业AI与安全治理",
+      "location": "浙江省 / 杭州市",
+      "event_type": "客户部署",
+      "event_desc": "元璟9月科技播报：播报称办公安全已落地华为，未说明部署范围与合同金额。",
+      "insight": "落地客户较融资轮次更接近商业验证，但需要区分试点与常态采购。对亿格云应看终端覆盖、管理成本及续约，不把客户名称当作规模收入证明。",
+      "event_headline": "亿格云披露具体产品或产业部署节点",
+      "event_signal": "material",
+      "company": "亿格云",
+      "title": "4项目官宣新融资，拥抱机器智能时代｜元璟9月科技播报",
+      "article_title": "4项目官宣新融资，拥抱机器智能时代｜元璟9月科技播报",
+      "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
+      "source": "元璟资本",
+      "published_date": "2026-10-09",
+      "publication_basis": "accepted源保留的原始发布时间",
+      "financing": "",
+      "score": 35,
+      "is_national_star": false,
+      "review_evidence": {
+        "article_index": 50,
+        "source_body_sha256": "cd7d8df7da6a4570d1547b0d85374e75df4d1017cc1e09dd38cc01a718292ed5",
+        "published_at": "2026-10-09T05:25:00Z"
+      },
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "event_date": null,
+        "observed_date": "2026-10-09",
+        "description": "报道日期不冒充事件日期，计划、测试和媒体转述按正文边界保留",
+        "review_required": true
+      },
+      "quality_review": {
+        "keep": true,
+        "reason": "主体与本文实际事件角色一致；落地客户较融资轮次更接近商业验证，但需要区分试点与常态采购。按正文保留技术进展的实际阶段，不把公司自述、计划或媒体转述当作已实现。历史对照见本轮两份history证据，未保留已找到的同一事件重复项。",
+        "reviewer": "overnight-current-model-agent",
+        "scope_reviewed": true,
+        "news_publication_reviewed": true,
+        "history_reviewed": true
+      },
+      "selection_recommendation": "keep",
+      "selection_reason": "主体与本文实际事件角色一致；落地客户较融资轮次更接近商业验证，但需要区分试点与常态采购。按正文保留技术进展的实际阶段，不把公司自述、计划或媒体转述当作已实现。历史对照见本轮两份history证据，未保留已找到的同一事件重复项。",
+      "company_entity_id": "dr-u-d5857f6222f45275c8f9",
+      "company_canonical_name": "亿格云",
+      "identity_status": "unresolved",
+      "identity_candidates": [],
+      "company_db_id": null,
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "subject_evidence_ids": [
+          "geo-c0c47fcb2985c5048d374a10"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "亿格云",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "reason": "官网明确杭州亿格云科技有限公司及公司总部地址，与元璟办公安全/AI治理报道同产品，真实已有快照足够，不重复GET。",
+          "evidence_ids": [
+            "geo-c0c47fcb2985c5048d374a10"
+          ],
+          "basis_roles": [
+            "hq"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-c0c47fcb2985c5048d374a10",
+            "source_url": "https://www.eaglecloud.com/",
+            "checked_at": "2026-10-12T03:53:50.654311+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "余杭区仓前街道余杭塘路2301号海智中心4幢8楼"
+            }
+          }
+        ]
+      },
+      "ai_reason": "办公安全落地华为，为亿格云面向复杂组织的产品适配提供了具名客户实例。结合其由办公安全向人与AI Agent统一治理延伸的方向，成长空间在同类企业场景复制；本次部署范围未披露，不能据客户名称推定收入规模。",
+      "wx_summary": "办公安全落地华为，关注复杂组织适配",
+      "standard_sectors": [
+        "人工智能",
+        "网络安全"
+      ]
+    }
+  ],
+  "national_top": [
+    {
+      "company_raw_name": "无问芯穹",
+      "title": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
+      "company": "无问芯穹",
+      "score": 70,
+      "sector": "AI原生基础设施／异构算力调度／大模型推理服务",
+      "financing": "已完成C轮融资23亿元，累计融资43亿元。文章列举了公司历次投资方，包括杭州高新金投、联想、腾讯、百度、红杉中国、启明创投等，但未明确本轮投资方构成、估值及具体资金用途。",
+      "source": "量子位",
+      "location": "上海市 / 上海市",
+      "article_location": "上海市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 上海市",
+        "subject_evidence_ids": [
+          "geo-e3d27864c15ad9055eb8cefe"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "无问芯穹",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "reason": "无问芯穹官网明确上海总部，北京联系点是分支。",
+          "evidence_ids": [
+            "geo-e3d27864c15ad9055eb8cefe"
+          ],
+          "basis_roles": [
+            "hq"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-e3d27864c15ad9055eb8cefe",
+            "source_url": "https://www.infini-ai.com/",
+            "checked_at": "2026-10-12T03:40:17.200323+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "address": "上海市徐汇区龙台路180号模速空间"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-670e6f33835f0f45f7f9",
+      "company_canonical_name": "无问芯穹",
+      "identity_status": "confirmed",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/MfLg3zHeYGdlmuuNxVaP7g",
+      "article_title": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
+      "event_desc": "无问芯穹已完成23亿元C轮融资，累计融资43亿元。公司通过软件编排汇聚异构算力，提供算力调度、大模型服务和行业解决方案；据文中披露，平台已适配16种芯片，服务37000P算力，大模型服务平台日均Token使用量半年增长超过40倍，95%以上推理任务来自Agent。另据文章转述彭博社援引知情人士报道，公司近几个月已以保密形式向港交所递交IPO申请。",
+      "insight": "无问芯穹通过异构芯片适配、跨域调度和推理优化，将分散算力转化为可直接调用的模型服务，商业价值在于降低客户硬件绑定及部署成本。Agent推理需求增长为平台扩张提供支撑，后续值得跟踪付费客户留存、单位Token毛利及算力采购结算与客户回款的匹配情况。",
+      "event_headline": "无问芯穹完成23亿元C轮融资，累计融资达43亿元",
+      "event_signal": "major",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-12",
+        "event_date": null,
+        "observed_date": "2026-10-12",
+        "review_required": true
+      },
+      "published_date": "2026-10-12",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "无问芯穹完成23亿元C轮并披露16芯片适配、异构调度及平台用量，融资结合明确AI Infra业务具备产业价值。上海总部不妨碍正面对标；保密IPO消息仅为知情人士报道，不写成已获批准。10月12日新闻有效。",
+      "event_headline_source": "fb894041d99808c89937d22a1030b97f5e5d915f0fed56de26bc5ac5bf0f4630",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-e3d27864c15ad9055eb8cefe",
+          "source_url": "https://www.infini-ai.com/",
+          "checked_at": "2026-10-12T03:40:17.200323+00:00",
+          "subject": "无问芯穹",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "address": "上海市徐汇区龙台路180号模速空间"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight-current-model-agent / full-text per-event review",
+        "candidate_id": "87b308cc6c1b2011309cd41271defb0ac5ebfe0880ce9b9fa00cfa54b847a13d",
+        "input_row_sha256": "cac43a65b4575843fba54fa50e711ea521d83c1f885208d540070cd81975a2be",
+        "reason": "无问芯穹完成23亿元C轮并披露16芯片适配、异构调度及平台用量，融资结合明确AI Infra业务具备产业价值。上海总部不妨碍正面对标；保密IPO消息仅为知情人士报道，不写成已获批准。10月12日新闻有效。",
+        "scope": {
+          "technology_evidence": "通过软件编排异构算力，适配16种芯片，服务37000P，提供模型推理和行业方案。",
+          "value_reason": "独立平台降低硬件绑定和推理部署成本，融资支持规模扩张；业务质量看付费留存与单位Token毛利。"
+        },
+        "stage": {
+          "status": "C轮融资完成；IPO申请为转述",
+          "reason": "通过软件编排异构算力，适配16种芯片，服务37000P，提供模型推理和行业方案。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:303bb31f37f79870",
+            "accepted_history:bf2c1b3580838d4a"
+          ],
+          "prior_decisions": [],
+          "change_reason": "10月12日历史为与基元律动联合发布Agent-Native模型，不是本次C轮融资及算力平台经营披露，保留另一事件。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:1bbdbd9c8212a96f"
+        ]
+      },
+      "company_db_id": 465,
+      "ai_reason": "无问芯穹的23亿元C轮融资伴随16种芯片适配及模型服务负载披露，价值不止于融资：用软件编排连接分散异构算力和模型调用，为杭州算力服务企业提供降低硬件绑定、把芯片资源转为可调用服务的路径对标。优先比较实际负载下的单位任务成本和服务稳定性。",
+      "wx_summary": "23亿元C轮支持异构算力转为模型服务",
+      "standard_sectors": [
+        "人工智能",
+        "集成电路"
+      ]
+    }
+  ]
+}
