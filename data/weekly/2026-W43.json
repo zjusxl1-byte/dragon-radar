@@ -5,10 +5,10 @@
   "start_date": "2026-10-19",
   "end_date": "2026-10-25",
   "summary": {
-    "total_companies": 33,
-    "financing_events": 2,
+    "total_companies": 48,
+    "financing_events": 4,
     "ipo_events": 1,
-    "milestone_events": 10,
+    "milestone_events": 17,
     "negative_events": 0,
     "active_days": 1
   },
@@ -762,389 +762,20 @@
       }
     },
     {
-      "company_raw_name": "特斯拉",
+      "company_raw_name": "智谱",
       "identity_mentions": [
         {
-          "name": "Roadster",
-          "relation": "product",
-          "evidence": "特斯拉第二代 Roadster超跑亮相"
+          "name": "浙江智谱新篇",
+          "relation": "subsidiary",
+          "evidence": "智谱全资子公司浙江智谱新篇出资29%"
         }
       ],
-      "title": "特斯拉第二代Roadster超跑亮相，车企大佬热议 “会飞的跑车”",
-      "company": "特斯拉",
-      "score": 40,
-      "sector": "新能源汽车与车载推进系统",
-      "financing": "",
-      "source": "浙商杂志",
-      "location": "US",
-      "article_location": "美国得克萨斯州（复用已审同主体注册地证据，非本文披露）",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "US",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-39d56e451ceb738d3ce2798e"
-        ],
-        "subject_evidence_ids": [
-          "geo-39d56e451ceb738d3ce2798e"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "特斯拉",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "US",
-          "province": "Texas",
-          "basis_roles": [
-            "registered"
-          ],
-          "evidence_ids": [
-            "geo-39d56e451ceb738d3ce2798e"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-39d56e451ceb738d3ce2798e",
-            "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
-            "checked_at": "2026-10-12T04:00:14.248816+00:00",
-            "subject": "特斯拉",
-            "role": "registered",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "US",
-              "province": "Texas"
-            }
-          }
-        ]
-      },
-      "company_entity_id": "dr-u-ddadc7e89f7cd629cbd7",
-      "company_canonical_name": "特斯拉",
-      "identity_status": "confirmed",
-      "event_type": "重磅发布",
-      "link": "https://mp.weixin.qq.com/s/8FffXP0qUGD4_pJ3ru0Efw",
-      "article_title": "特斯拉第二代Roadster超跑亮相，车企大佬热议 “会飞的跑车”",
-      "event_desc": "文章称，特斯拉第二代Roadster于北京时间10月16日亮相，搭载与SpaceX联合开发、代号A71的冷气推进系统。其中Rocket火箭版采用单座布局，支持短时离地飞行，实行邀约制，未获准在公共道路行驶。文章援引马斯克表态称，Roadster计划于2028年开始生产。",
-      "insight": "报道所描述的变化，是把车载推进器从辅助地面加速扩展到短时离地和姿态控制，产品价值指向极限运动体验，而非已经建立的空中交通能力。关键区别在于这些动作是否来自实车演示，以及推进系统能支持怎样的持续时间和重复使用条件。",
-      "event_headline": "Roadster报道补充Rocket版推进配置及公共道路使用限制",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-17",
-        "event_date": null,
-        "observed_date": "2026-10-17",
-        "review_required": true
-      },
-      "published_date": "2026-10-17",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "特斯拉是Roadster发布主体，Roadster是产品；SpaceX仅按报道列为推进系统联合开发方，不合并主体或另增候选。第二代Roadster发布、短时腾空及2028年生产计划已于10月18日收录，本条不能再算首次发布。新增的是报道所述A71冷气推进系统、Rocket单座及邀约制安排，以及明确未获公共道路行驶许可的产品边界，可作为同事件技术与适用场景增量保留。评论者关于过氧化氢背包的解释属于个人推测，不能替代已确认技术原理。采集证据记录新闻发表于2026-10-17T02:13:00Z，符合7天窗口；不沿用上游关于发布时间及历史缺失的判断。",
-      "event_headline_source": "a772509d860a7082eb9ddb962aa007da22ef8f3228fd8176be2c9c18a83ef3cf",
-      "location_status": "subject_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-39d56e451ceb738d3ce2798e",
-          "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
-          "checked_at": "2026-10-12T04:00:14.248816+00:00",
-          "subject": "特斯拉",
-          "role": "registered",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "US",
-            "province": "Texas"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "沿用同事件已审未建立标杆资格的边界；本条新增配置与使用限制，没有补足独立性能验证或同类产品比较依据。",
-        "evidence_ids": [
-          "accepted_history:a8064de0179470f5",
-          "article:84ab00f5d0cc14a5"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "963489453eebea6056164cd48cdb3a7b34d25adbee42f56887168f7d87c44f01",
-        "input_row_sha256": "7f39e007ee928d6f47d741482bd335a6569d1c5195c3e842371bd67d93844838",
-        "reason": "特斯拉是Roadster发布主体，Roadster是产品；SpaceX仅按报道列为推进系统联合开发方，不合并主体或另增候选。第二代Roadster发布、短时腾空及2028年生产计划已于10月18日收录，本条不能再算首次发布。新增的是报道所述A71冷气推进系统、Rocket单座及邀约制安排，以及明确未获公共道路行驶许可的产品边界，可作为同事件技术与适用场景增量保留。评论者关于过氧化氢背包的解释属于个人推测，不能替代已确认技术原理。采集证据记录新闻发表于2026-10-17T02:13:00Z，符合7天窗口；不沿用上游关于发布时间及历史缺失的判断。",
-        "scope": {
-          "technology_evidence": "正文称Roadster搭载与SpaceX联合开发的A71冷气推进系统；援引官网称Rocket版为单座、邀约制，使用多模式吸附系统及环绕车身的冷气体推进器，支持短时离地和侧向旋转，未获准在公共道路行驶。",
-          "value_reason": "相较既有发布记录，新增系统配置及使用限制有助于区分推进器辅助车辆运动、短时飞行展示与可上路产品，避免把极限体验产品当作已具备通用交通能力的飞行汽车。其价值是产品架构和应用边界观察，不是量产、飞行认证或技术领先性已经获得验证。"
-        },
-        "stage": {
-          "status": "媒体报道的产品发布及配置披露，生产计划尚未实现",
-          "reason": "正文报道北京时间10月16日亮相，未单独明示该事件年份，完整事件日期保留未知；历史所述当地时间10月15日与北京时间10月16日不直接构成矛盾。2028年生产属于upcoming计划。推进系统及道路许可状态为媒体转述，未附本轮独立取得的官方页面或测试；赵德力的过氧化氢方案判断不作为已证实配置。"
-        },
-        "history": {
-          "result": "new_progress",
-          "evidence_ids": [
-            "history_lookup:8e7b6b38a8e31ca2",
-            "accepted_history:a8064de0179470f5",
-            "prior_decision:1421e98df4e67373",
-            "prior_decision:c11cdf65770aefe5",
-            "prior_decision:3834319df1d0daa5",
-            "prior_decision:4731a8723061cd8d"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:3834319df1d0daa5",
-              "comparison": "different_event",
-              "reason": "旧排除针对印度展厅销售表现及杭州负面预警属地资格，与Roadster产品配置无关，继续保留旧事件排除，不形成企业黑名单。"
-            },
-            {
-              "evidence_id": "prior_decision:4731a8723061cd8d",
-              "comparison": "different_event",
-              "reason": "旧排除针对欧洲辅助驾驶更名及审批延期，与本条产品发布不同，不撤销旧裁决，也不将本条道路许可限制另列杭州预警。"
-            },
-            {
-              "evidence_id": "prior_decision:1421e98df4e67373",
-              "comparison": "new_progress",
-              "reason": "属于同一次Roadster发布；旧裁决已涵盖演示、版本区分及2028年生产计划，本条补充推进系统名称、开发方、单座邀约制及明确的公共道路禁用状态。"
-            },
-            {
-              "evidence_id": "prior_decision:c11cdf65770aefe5",
-              "comparison": "new_progress",
-              "reason": "该记录仍针对同一Roadster发布，不能因换来源重新认定新事件；仅保留本条有原文支持的配置和适用边界增量。"
-            }
-          ],
-          "change_reason": "七项已收录历史中，AI5样品、韩国销量、两项Terafab规划、辅助驾驶芯片份额及Cybercab运营均属其他事件；10月18日Roadster记录为同事件。既有发布及生产时间表去重，新增配置披露沿原事件身份保留，不改变此前keep裁决。当前增量的首次收录时间未知。",
-          "new_evidence_ids": [
-            "article:84ab00f5d0cc14a5"
-          ]
-        },
-        "evidence_ids": [
-          "article:84ab00f5d0cc14a5",
-          "accepted_history:a8064de0179470f5",
-          "geo-39d56e451ceb738d3ce2798e",
-          "history_lookup:8e7b6b38a8e31ca2"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "沿用同事件已审未建立标杆资格的边界；本条新增配置与使用限制，没有补足独立性能验证或同类产品比较依据。",
-          "evidence_ids": [
-            "accepted_history:a8064de0179470f5",
-            "article:84ab00f5d0cc14a5"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "特斯拉",
-      "title": "是的，特斯拉真造了一辆「飞行汽车」！",
-      "company": "特斯拉",
-      "score": 40,
-      "sector": "新能源汽车与高性能电动跑车",
-      "financing": "",
-      "source": "36 氪",
-      "location": "US",
-      "article_location": "美国得克萨斯州（复用已审同主体注册地证据）",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "US",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-39d56e451ceb738d3ce2798e"
-        ],
-        "subject_evidence_ids": [
-          "geo-39d56e451ceb738d3ce2798e"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "特斯拉",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "US",
-          "province": "Texas",
-          "basis_roles": [
-            "registered"
-          ],
-          "evidence_ids": [
-            "geo-39d56e451ceb738d3ce2798e"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-39d56e451ceb738d3ce2798e",
-            "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
-            "checked_at": "2026-10-12T04:00:14.248816+00:00",
-            "subject": "特斯拉",
-            "role": "registered",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "US",
-              "province": "Texas"
-            }
-          }
-        ]
-      },
-      "company_entity_id": "dr-u-ddadc7e89f7cd629cbd7",
-      "company_canonical_name": "特斯拉",
-      "identity_status": "confirmed",
-      "event_type": "技术信息披露",
-      "link": "https://mp.weixin.qq.com/s/7LfwENQXqYJmd7w-kUVaRw",
-      "article_title": "是的，特斯拉真造了一辆「飞行汽车」！",
-      "event_desc": "文章称，特斯拉展示了配备风扇抽吸系统和冷气推进器的新一代Roadster，并进行了腾空、翻转和落地演示。报道列出Performance、Thrust和Rocket三个版本，其中Performance版不配推进器，Rocket版为单座且未获准上公路；量产计划为2028年。",
-      "insight": "报道所述的两条技术路径作用不同：风扇抽吸增加轮胎抓地能力，冷气推进器则额外提供推力和空中姿态控制。若演示获原始资料确认，其价值在于展示高性能汽车对航天部件与控制技术的集成，但非公路版的腾空能力不能归到公路版上。",
-      "event_headline": "特斯拉Roadster既有发布补充技术细节：风扇抽吸与冷气推进分工",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-16",
-        "event_date": null,
-        "observed_date": "2026-10-16",
-        "review_required": true
-      },
-      "published_date": "2026-10-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "特斯拉为Roadster产品主体，SpaceX为报道所述技术关联方及演示场地提供方，不另增企业。第二代Roadster发布、腾空演示、版本划分及2028年生产计划已于10月18日收录，不能重复作为新发布。本文新增风扇抽吸、多模式气动控制、高压气瓶及推进喷嘴配置等具体技术披露，能够解释地面抓地与空中姿态控制的不同实现路径，按同事件技术信息增量保留。报道发表于2026-10-16，符合七天窗口；仅按媒体报道采信，不将性能宣称当独立验证，也不把非公路版本能力归给Performance版。复用美国得州注册证据，不列杭州负面预警。",
-      "event_headline_source": "f58ac5955063fe855d7c44d522ab518235b9b209dc4538710d3184ca18858279",
-      "location_status": "subject_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-39d56e451ceb738d3ce2798e",
-          "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
-          "checked_at": "2026-10-12T04:00:14.248816+00:00",
-          "subject": "特斯拉",
-          "role": "registered",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "US",
-            "province": "Texas"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "已有同事件审核未建立标杆资格；新增内容仍为媒体转述，未补足独立性能验证或同类产品比较，不改变该结论。",
-        "evidence_ids": [
-          "accepted_history:a8064de0179470f5",
-          "article:580e28d318434d9c"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "d65074e34ecd3a0918162f8843ed31989f35011d7b352c880d30e744295f6d22",
-        "input_row_sha256": "d16325be82879e459d519c7559606932b562428cb853765dfced8ee8021839ea",
-        "reason": "特斯拉为Roadster产品主体，SpaceX为报道所述技术关联方及演示场地提供方，不另增企业。第二代Roadster发布、腾空演示、版本划分及2028年生产计划已于10月18日收录，不能重复作为新发布。本文新增风扇抽吸、多模式气动控制、高压气瓶及推进喷嘴配置等具体技术披露，能够解释地面抓地与空中姿态控制的不同实现路径，按同事件技术信息增量保留。报道发表于2026-10-16，符合七天窗口；仅按媒体报道采信，不将性能宣称当独立验证，也不把非公路版本能力归给Performance版。复用美国得州注册证据，不列杭州负面预警。",
-        "scope": {
-          "technology_evidence": "正文称Roadster采用风扇抽吸系统，低速抽吸增强牵引，高速调整风道及下压力；另称冷气推进系统使用碳纤维缠绕高压气瓶及10个喷嘴提供推进和姿态控制。Performance版无推进器，Rocket版为单座且未获准上公路。",
-          "value_reason": "相较已收录的发布和飞行功能概述，新增细节揭示主动气动、储气部件与姿态控制如何分工，可供杭州汽车及相关装备企业比较系统集成路径和应用边界；不能据此认定量产可靠性、赛道优势或商业需求已获验证。"
-        },
-        "stage": {
-          "status": "reported_technical_details_of_existing_demonstration_with_upcoming_production",
-          "reason": "本文是既有发布演示的技术展开，而非新的试验或量产节点。正文开头写当地时间10月16日，后文写发布会改至10月15日，完整事件日期不强填；2028年量产仍为计划，参数和技术配置为媒体转述。"
-        },
-        "history": {
-          "result": "new_progress",
-          "evidence_ids": [
-            "history_lookup:8e7b6b38a8e31ca2",
-            "accepted_history:cc06762d9d573113",
-            "accepted_history:306bbaef9db0a759",
-            "accepted_history:db2618cccbb90b0e",
-            "accepted_history:14525552814977ac",
-            "accepted_history:aab128f7aada4f8a",
-            "accepted_history:5a8914aab0b439e5",
-            "accepted_history:a8064de0179470f5",
-            "prior_decision:1421e98df4e67373",
-            "prior_decision:c11cdf65770aefe5",
-            "prior_decision:3834319df1d0daa5",
-            "prior_decision:4731a8723061cd8d"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:3834319df1d0daa5",
-              "comparison": "different_event",
-              "reason": "旧排除针对印度汽车销量及杭州预警属地资格，与Roadster技术披露不同，原排除不变。"
-            },
-            {
-              "evidence_id": "prior_decision:4731a8723061cd8d",
-              "comparison": "different_event",
-              "reason": "旧排除针对欧洲辅助驾驶更名及审批延期，与Roadster产品事件不同，不据此排除企业其他正面线索。"
-            },
-            {
-              "evidence_id": "prior_decision:c4ed56d9ef2162f7",
-              "comparison": "different_event",
-              "reason": "该裁决涉及Cybercab运营及扩城计划，不是Roadster发布。"
-            },
-            {
-              "evidence_id": "prior_decision:d942ca7c8d278ab6",
-              "comparison": "different_event",
-              "reason": "该裁决仍为Cybercab运营事件，与本条不同。"
-            },
-            {
-              "evidence_id": "prior_decision:70eb4f535d6dc896",
-              "comparison": "different_event",
-              "reason": "该裁决涉及Cybercab运营扩张，不是本条技术披露。"
-            },
-            {
-              "evidence_id": "prior_decision:374ef8af37c7c64e",
-              "comparison": "different_event",
-              "reason": "该裁决涉及Terafab芯片制造测试规划，产品及业务环节不同。"
-            },
-            {
-              "evidence_id": "prior_decision:1421e98df4e67373",
-              "comparison": "new_progress",
-              "reason": "属于同一Roadster发布事件；旧裁决已覆盖推进器、腾空、版本和生产计划，本文新增抽吸系统工作模式及储气、喷嘴配置，限于信息披露增量。"
-            },
-            {
-              "evidence_id": "prior_decision:c11cdf65770aefe5",
-              "comparison": "new_progress",
-              "reason": "该裁决与上一项对应同一Roadster事件，不能计为另一次发布；只保留本文新增的系统实现细节。"
-            }
-          ],
-          "change_reason": "AI5样品、韩国销量、Terafab共建规划、域控芯片份额、Cybercab运营及Terafab制造测试目标均为其他事件。accepted_history:a8064de0179470f5已收录本次Roadster发布；本文不以换来源重置事件身份，保留此前未载明的风扇抽吸模式、高压储气及喷嘴配置，不代表建设、交付或量产取得新进展。",
-          "new_evidence_ids": [
-            "article:580e28d318434d9c"
-          ]
-        },
-        "evidence_ids": [
-          "article:580e28d318434d9c",
-          "accepted_history:a8064de0179470f5",
-          "geo-39d56e451ceb738d3ce2798e",
-          "history_lookup:8e7b6b38a8e31ca2"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "已有同事件审核未建立标杆资格；新增内容仍为媒体转述，未补足独立性能验证或同类产品比较，不改变该结论。",
-          "evidence_ids": [
-            "accepted_history:a8064de0179470f5",
-            "article:580e28d318434d9c"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "库犸科技",
-      "identity_mentions": [
-        {
-          "name": "LUBA",
-          "relation": "product",
-          "evidence": "这家红杉、五源投资的公司把无人机RTK定位技术搬进草坪，首款产品LUBA在Kickstarter众筹首日就卖了100万美元"
-        }
-      ],
-      "title": "融资16亿，割草机器人开始倒下",
-      "company": "库犸科技",
-      "score": 40,
-      "sector": "割草机器人",
-      "financing": "文章称红杉、五源曾投资库犸科技，未披露轮次、金额及时间。",
-      "source": "铅笔道",
+      "title": "智谱又做LP了",
+      "company": "智谱",
+      "score": 50,
+      "sector": "人工智能、产业投资",
+      "financing": "本次为智谱通过全资子公司参与基金出资，并非智谱获得融资。基金注册资本10亿元，浙江智谱新篇出资占比29%；文章未披露实缴进度。",
+      "source": "投资界",
       "location": "地点待核",
       "article_location": "",
       "geography": {
@@ -1156,7 +787,7 @@
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "库犸科技",
+        "subject": "智谱",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
@@ -1165,16 +796,16 @@
         },
         "basis": []
       },
-      "company_entity_id": "dr-u-a59603db37d27fced6a2",
-      "company_canonical_name": "库犸科技",
+      "company_entity_id": "dr-u-8bcef51236d613cdd248",
+      "company_canonical_name": "智谱",
       "identity_status": "unresolved",
       "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/Iok-bjxx7C_fAwbJxWAs3w",
-      "article_title": "融资16亿，割草机器人开始倒下",
-      "event_desc": "据文章介绍，库犸科技将RTK定位技术应用于割草机器人，首款产品LUBA在Kickstarter众筹首日销售额达100万美元，众筹具体日期未披露。",
-      "insight": "库犸科技的产品路径是利用高精度定位减少用户预埋边界线的工作，降低机器人进入庭院的安装负担。众筹与电商表现提供了需求线索，但正文尚未给出可定位的新产品或新市场节点。",
-      "event_headline": "库犸科技历史回顾：LUBA以RTK定位切入无埋线割草",
-      "event_signal": "context",
+      "link": "https://mp.weixin.qq.com/s/GvJPUuLEIS4bsONMfVvD3w",
+      "article_title": "智谱又做LP了",
+      "event_desc": "浙江智谱将门认知智能创业投资合伙企业（有限合伙）已成立，文章披露其注册资本为10亿元，管理人为将门投资。智谱全资子公司浙江智谱新篇出资占比29%；杭州上城领航创业投资有限公司、杭州城投产业发展投资合伙企业（有限合伙）出资占比分别为30%。基金主要投向人工智能及上下游产业。",
+      "insight": "智谱通过全资子公司参与人工智能及上下游基金，新增了借助专业投资机构接触产业项目的渠道。基金管理人将门投资及部分出资方曾投资智谱，此次合作体现其从接受资本支持向参与产业资本供给延伸，但尚未披露具体被投项目及业务协同。",
+      "event_headline": "智谱通过全资子公司出资占比29%，参与设立人工智能基金",
+      "event_signal": "material",
       "is_national_star": false,
       "event_time_evidence": {
         "status": "date_unknown_recent_report",
@@ -1186,195 +817,437 @@
       "published_date": "2026-10-16",
       "publication_basis": "采集源保留的发布时间",
       "selection_recommendation": "keep",
-      "selection_reason": "完整正文直接把LUBA、RTK技术与首日众筹归于库犸，给出可核产品安装方式及付费需求事实。保留正面技术产品发现，地点未知不作排除；无对应统计期的全球第一和电商排名不作为判断依据并从摘要移除。",
-      "event_headline_source": "035fd050462ce9959e8367e4c305c90f15377336d87097f088b8c5748d8b8767",
-      "event_identity": {
-        "canonical_id": "文章介绍，库犸科技将无人机RTK定位技术应用于割草机器人，首款产品LUBA在Kickstarter众筹首日销售额达100万美元；文章还称其曾做到无埋线细分市场全球第一，并在亚马逊德国、法国和美国站取得Best Seller表现，未提供对应统计期间。"
-      },
+      "selection_reason": "正文明确智谱通过全资子公司浙江智谱新篇参与新设人工智能基金，子公司出资占比29%，将门投资为基金管理人；这是对外产业投资，不是智谱获得融资。基金设立、出资结构和人工智能及上下游投向共同构成具体产业资本布局线索，可观察模型企业如何参与早期项目供给，但不能认定资金已经实缴或业务协同已经形成。原始发布时间2026-10-16T07:59:00Z符合七日窗口，上游所称缺发布时间已不成立。可见历史仅涉及GLM-Legal产品发布，与本次基金事件不同。子公司落户上城及报道中的第二总部表述不等于母公司注册地或主要总部已经确认，地点未知不阻断正面日报线索。",
+      "event_headline_source": "03db51629d29b1a4cdcea35b0588bac5c791579ad8e99a85085608567497c7d5",
       "location_status": "unknown",
       "location_basis": [],
       "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "21ecd9f6a97ba76ce68dc741355aefddda96654c4aa3097cb1be9eef27b3e94d",
-        "input_row_sha256": "d80a7438512e64994484d376970984ad32ddd232b40c94a136fdfd8f67c10bcb",
-        "reason": "完整正文直接把LUBA、RTK技术与首日众筹归于库犸，给出可核产品安装方式及付费需求事实。保留正面技术产品发现，地点未知不作排除；无对应统计期的全球第一和电商排名不作为判断依据并从摘要移除。",
-        "scope": {
-          "technology_evidence": "正文称库犸科技将无人机RTK定位技术用于割草机器人，首款产品LUBA在Kickstarter众筹首日达100万美元，并提及无埋线细分市场及亚马逊多国站点排名。",
-          "value_reason": "将高精度定位用于免埋线庭院设备，减少边界安装工作；众筹是需求线索，不被写成量产收入或当前市场份额。"
-        },
-        "stage": {
-          "status": "reported_historical_product_and_crowdfunding_background",
-          "reason": "本文为产品技术路径及既往众筹、电商表现回顾，没有可定位的新发布、交付或融资完成节点。众筹日期和排名期间未知；红杉、五源投资仅为背景，不据此认定本次发生融资。"
-        },
-        "history": {
-          "result": "uncertain",
-          "evidence_ids": [
-            "history_lookup:8e7b6b38a8e31ca2",
-            "identity_registry:2dcd4f408df25406"
-          ],
-          "prior_decisions": [],
-          "change_reason": "输入在当前库犸科技候选主体下未返回已收录事件或既往裁决，且无检索错误；身份及别名未完成确认，尚不能排除以其他已确认名称收录过LUBA众筹和RTK产品事实。不能仅因缺少新产品日期拒绝有价值发现，也不能宣称首次收录。",
-          "new_evidence_ids": [
-            "article:11fba10dc7a57565"
-          ]
-        },
-        "evidence_ids": [
-          "article:11fba10dc7a57565",
-          "identity_registry:2dcd4f408df25406",
-          "geography_registry:b93d03cf35486d17",
-          "history_lookup:8e7b6b38a8e31ca2"
-        ]
-      }
-    },
-    {
-      "company_raw_name": "乐动机器人",
-      "title": "融资16亿，割草机器人开始倒下",
-      "company": "乐动机器人",
-      "score": 40,
-      "sector": "机器人视觉感知与割草机器人",
-      "financing": "元璟资本此前投入1.1亿元；IPO募资额未披露。",
-      "source": "铅笔道",
-      "location": "广东省 / 深圳市",
-      "article_location": "",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "广东省 / 深圳市",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-e0f1e249f98821e0009dfe83"
-        ],
-        "subject_evidence_ids": [
-          "geo-e0f1e249f98821e0009dfe83"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "乐动机器人",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "广东省",
-          "city": "深圳市",
-          "basis_roles": [
-            "hq"
-          ],
-          "evidence_ids": [
-            "geo-e0f1e249f98821e0009dfe83"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-e0f1e249f98821e0009dfe83",
-            "source_url": "https://www.ldrobot.com/about",
-            "checked_at": "2026-10-12T03:46:24.007161+00:00",
-            "subject": "乐动机器人",
-            "role": "hq",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "广东省",
-              "city": "深圳市",
-              "address": "深圳市南山区西丽街道深圳国际创新谷6栋A座16楼"
-            }
-          }
-        ]
-      },
-      "company_entity_id": "dr-u-f756042706c6eee19959",
-      "company_canonical_name": "乐动机器人",
-      "identity_status": "unresolved",
-      "event_type": "IPO",
-      "link": "https://mp.weixin.qq.com/s/Iok-bjxx7C_fAwbJxWAs3w",
-      "article_title": "融资16亿，割草机器人开始倒下",
-      "event_desc": "据2026年10月16日报道及其当年时间语境，乐动机器人于2026年5月11日登陆港交所。企业业务覆盖机器人视觉感知产品与割草机器人；上市首日股价上涨127.62%属于交易表现，不代表技术或盈利能力已获验证。",
-      "insight": "上市改变了乐动机器人的资本发展阶段，其业务同时覆盖机器人视觉感知和割草整机。首日股价表现反映交易热度，不能单独说明整机业务的竞争能力。",
-      "event_headline": "乐动机器人登陆港交所，首日股价上涨127.62%",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "contextual_date",
-        "description": "报道发布于2026-10-16，正文以“今年”概括上市事件，并明确5月11日上市、至10月回顾约五个月，据此定位为2026-05-11；不是以采集日期替代事件日期。",
-        "event_date": "2026-05-11",
-        "observed_date": "2026-10-16",
-        "review_required": false
-      },
-      "published_date": "2026-10-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "正文直接报道乐动机器人5月11日登陆港交所，并具体说明其机器人视觉感知与割草整机业务，IPO因此具有技术企业资本成长节点价值，而非仅凭股价涨幅采信。报道发布于2026-10-16，在7天窗口内；“今年”、5月上市及10月回顾的语境支持上市日期为2026-05-11。已审官网证据确认深圳总部，可作外地正面产业观察，不具杭州负面预警资格。历史收录为与三星电子、戴森合作的另一事件，不与本次IPO重复。保留日报线索，不自动取得周月领导简报或全国标杆资格。",
-      "event_headline_source": "8344d9e1cc00b09cdcb8b448d5ae283d77f55aa25dd7c08b4b3282c6e8af65b0",
-      "event_date": "2026-05-11",
-      "event_identity": {
-        "canonical_id": "文章称乐动机器人于5月11日登陆港交所，首日股价上涨127.62%，市值一度达到200亿港元，香港公开发售超购6707倍。正文未明确该上市日期的年份。"
-      },
-      "location_status": "subject_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-e0f1e249f98821e0009dfe83",
-          "source_url": "https://www.ldrobot.com/about",
-          "checked_at": "2026-10-12T03:46:24.007161+00:00",
-          "subject": "乐动机器人",
-          "role": "hq",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "CN",
-            "province": "广东省",
-            "city": "深圳市",
-            "address": "深圳市南山区西丽街道深圳国际创新谷6栋A座16楼"
-          }
-        }
-      ],
-      "location_next_action": null,
       "benchmark_review": {
         "status": "not_qualified",
         "eligible": false,
-        "reason": "正文提供DTOF激光雷达出货量全球第一的行业地位线索，但未提供该排名的独立统计来源与口径；IPO、客户名单及整机经营数据足以支持本次产业观察，尚不足以完成全国标杆资格核验。",
+        "reason": "基金出资结构和产业投向支持资本布局观察，不能独立证明智谱的行业领先地位或可复制的投资协同成效。",
         "evidence_ids": [
-          "article:11fba10dc7a57565"
+          "article:d263614e56722fc0"
         ]
       },
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
         "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "8becc15dae9881f192ea29988cc318fe8bd589ab22a8f6150708be60fac292f5",
-        "input_row_sha256": "de228b4afed3c6b8418bf3ac43e9b1ee61895f09fc73421fd02fe31f30d5d809",
-        "reason": "正文直接报道乐动机器人5月11日登陆港交所，并具体说明其机器人视觉感知与割草整机业务，IPO因此具有技术企业资本成长节点价值，而非仅凭股价涨幅采信。报道发布于2026-10-16，在7天窗口内；“今年”、5月上市及10月回顾的语境支持上市日期为2026-05-11。已审官网证据确认深圳总部，可作外地正面产业观察，不具杭州负面预警资格。历史收录为与三星电子、戴森合作的另一事件，不与本次IPO重复。保留日报线索，不自动取得周月领导简报或全国标杆资格。",
+        "candidate_id": "83b7236d2ae2c1eaef838656c876ac4478880347f034f85f7b16371ca9ced428",
+        "input_row_sha256": "ff84aa3554eb5824d7fc2bb036535f0dabf0550085b1ed56a00612be125ad059",
+        "reason": "正文明确智谱通过全资子公司浙江智谱新篇参与新设人工智能基金，子公司出资占比29%，将门投资为基金管理人；这是对外产业投资，不是智谱获得融资。基金设立、出资结构和人工智能及上下游投向共同构成具体产业资本布局线索，可观察模型企业如何参与早期项目供给，但不能认定资金已经实缴或业务协同已经形成。原始发布时间2026-10-16T07:59:00Z符合七日窗口，上游所称缺发布时间已不成立。可见历史仅涉及GLM-Legal产品发布，与本次基金事件不同。子公司落户上城及报道中的第二总部表述不等于母公司注册地或主要总部已经确认，地点未知不阻断正面日报线索。",
         "scope": {
-          "technology_evidence": "正文说明乐动机器人经营视觉感知产品，客户包括科沃斯、石头、小米和追觅，并披露其割草机器人于2024年量产及2025年的销量、业务收入和毛利率。",
-          "value_reason": "IPO为兼有感知部件和割草整机业务的企业提供明确资本成长节点，可用于观察零部件企业向整机品牌延伸的资本发展路径。正文同时披露整机业务增长与公司整体亏损，说明上市及交易热度不能替代商业化质量判断；未披露的募资用途不作推断。"
+          "technology_evidence": "正文披露浙江智谱将门认知智能创业投资合伙企业成立，注册资本10亿元，浙江智谱新篇为智谱全资子公司且出资占比29%；相关基金设立方案主要投向人工智能及上下游产业。",
+          "value_reason": "模型企业通过子公司与地方产业资本、专业管理机构共同设立基金，提供了技术企业参与产业项目发现和资本供给的具体组织路径。对杭州的观察价值在于模型企业与本地产业基金的合作结构，而非把基金规模视为智谱新增研发投入或已实现产业成果。"
         },
         "stage": {
-          "status": "completed_ipo_reported",
-          "reason": "媒体明确报道已经登陆港交所，并回顾上市后至10月的股价变化，属于已完成上市而非拟上市；按2026年报道的当年语境，上市日期为2026-05-11。股价表现仅作历史交易事实，不作为技术实力证明。"
+          "status": "据报道基金已成立，出资比例已披露，实缴和投资落地未知",
+          "reason": "原文称基金于今年9月成立，可结合2026年新闻语境记录为2026年9月，精确日期未知；未披露实缴进度、具体被投项目及协同成果。新闻发布于2026年10月16日，本事件首次收录时间未提供。"
         },
         "history": {
           "result": "new_event",
           "evidence_ids": [
-            "accepted_history:50ba8c5d30ab8aaa",
-            "history_lookup:8e7b6b38a8e31ca2"
+            "history_lookup:8e7b6b38a8e31ca2",
+            "accepted_history:afc12e5761998c5d",
+            "prior_decision:747973cf53e3b10e",
+            "prior_decision:792cb22ff124f2eb"
           ],
-          "prior_decisions": [],
-          "change_reason": "2026-10-12收录的是与三星电子、戴森合作深化家庭机器人布局，属于合作事件；本条为港交所IPO，事件行为和资本阶段均不同，不是合作事项的重复或完成进展。没有旧排除裁决需要改判。",
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:747973cf53e3b10e",
+              "comparison": "different_event",
+              "reason": "旧裁决针对GLM-Legal法律模型推出及Beta申请，不涉及此次基金设立或子公司出资。"
+            },
+            {
+              "evidence_id": "prior_decision:792cb22ff124f2eb",
+              "comparison": "different_event",
+              "reason": "该记录同为法律模型产品事件的裁决，与人工智能基金出资不是同一事件。"
+            }
+          ],
+          "change_reason": "本次基金设立及出资结构不同于可见历史中的法律模型发布；所给检索无读取错误，未见同笔基金事件记录，仅在提供的历史范围内判为另一事件，不宣称全库首次发现。",
           "new_evidence_ids": [
-            "article:11fba10dc7a57565"
+            "article:d263614e56722fc0"
           ]
         },
         "evidence_ids": [
-          "article:11fba10dc7a57565",
-          "geo-e0f1e249f98821e0009dfe83",
-          "accepted_history:50ba8c5d30ab8aaa",
+          "article:d263614e56722fc0",
+          "accepted_history:afc12e5761998c5d",
           "history_lookup:8e7b6b38a8e31ca2"
         ],
         "benchmark_review": {
           "status": "not_qualified",
           "eligible": false,
-          "reason": "正文提供DTOF激光雷达出货量全球第一的行业地位线索，但未提供该排名的独立统计来源与口径；IPO、客户名单及整机经营数据足以支持本次产业观察，尚不足以完成全国标杆资格核验。",
+          "reason": "基金出资结构和产业投向支持资本布局观察，不能独立证明智谱的行业领先地位或可复制的投资协同成效。",
           "evidence_ids": [
-            "article:11fba10dc7a57565"
+            "article:d263614e56722fc0"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "苏州华太电子技术股份有限公司",
+      "title": "4000W金刚石铜法兰功率放大器，苏州华太官宣！",
+      "company": "苏州华太电子技术股份有限公司",
+      "score": 50,
+      "sector": "半导体设备核心部件与射频功率半导体",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "苏州华太电子技术股份有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-1afacbfdcd424b96f063",
+      "company_canonical_name": "苏州华太电子技术股份有限公司",
+      "identity_status": "unresolved",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/lDKkqwz-ad6VAZsyLaG4Mg",
+      "article_title": "4000W金刚石铜法兰功率放大器，苏州华太官宣！",
+      "event_desc": "据文章报道，苏州华太电子技术股份有限公司在2026年欧洲微波周展出搭载金刚石铜法兰封装的HTX2G01P4K0HDC-T功率放大器，饱和连续波输出功率达4000W，工作频段覆盖0.4–110MHz，Class-AB模式下连续波效率超过80%，并披露耐压可达500V的RF LDMOS器件研发成果。其915MHz、1kW连续波功率放大器原型对比研究显示，金刚石铜法兰相较CPC法兰可使器件结温降低超过40摄氏度。文章称，公司依托自有材料产线与大功率封测基地实现金刚石铜封装规模化量产，相关APEX-PATM产品已进入国际头部半导体设备供应链。",
+      "insight": "此次进展把华太的能力从高功率器件设计延伸到散热材料、封装和量产：更有效地导出芯片热量，为提高单管输出、减少射频电源的多管合路需求提供了工程路径。915MHz原型的降温结果与4000W新品属于不同测试对象，前者支持散热机制，不能直接作为后者在客户设备中的降温幅度或系统收益。",
+      "event_headline": "华太电子展出4000W射频新品，实现金刚石铜封装量产",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-16",
+        "event_date": null,
+        "observed_date": "2026-10-16",
+        "review_required": true
+      },
+      "published_date": "2026-10-16",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "所给完整正文明确华太是4000W射频功率放大器的展出方、500V耐压RF LDMOS器件的研发方及金刚石铜封装量产主体，构成半导体装备关键器件、热管理和制造能力的具体进展。报道还称相关APEX-PATM产品进入头部设备供应链，但未披露客户名称、订单或验收材料，应保留报道归属，不能扩写为4000W新品已在特定光刻机完成验证。2026-10-16T06:59:00Z发布时间符合七日窗口；历史检索未返回同事件收录或旧裁决。地点仍未知，不从公司名称补认苏州，也不因地点未知拒绝正面产业线索。",
+      "event_headline_source": "a9f0447db0eaf5461fd8befeec5123d24ae539c5fa6494f33b5c27786560e05a",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条提供具体器件参数、原型试验和量产线索，但行业领先及头部供应链表述缺少可复核的同条件竞品比较、客户披露和规模交付依据，尚不足以独立建立全国标杆资格，不影响事件保留。",
+        "evidence_ids": [
+          "article:9cbb87b023273753"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
+        "candidate_id": "f7b5f7978af5f70af62284df08cc9d2837a5025e3624e1f01761f8691471856f",
+        "input_row_sha256": "a888e06f53c90b423df5f55ebae86f61508ad6347087929af64884500c4b6c32",
+        "reason": "所给完整正文明确华太是4000W射频功率放大器的展出方、500V耐压RF LDMOS器件的研发方及金刚石铜封装量产主体，构成半导体装备关键器件、热管理和制造能力的具体进展。报道还称相关APEX-PATM产品进入头部设备供应链，但未披露客户名称、订单或验收材料，应保留报道归属，不能扩写为4000W新品已在特定光刻机完成验证。2026-10-16T06:59:00Z发布时间符合七日窗口；历史检索未返回同事件收录或旧裁决。地点仍未知，不从公司名称补认苏州，也不因地点未知拒绝正面产业线索。",
+        "scope": {
+          "technology_evidence": "正文披露HTX2G01P4K0HDC-T采用金刚石铜法兰，饱和连续波输出4000W，覆盖0.4—110MHz，Class-AB连续波效率超过80%；另有500V耐压RF LDMOS研发成果、自有材料产线及大功率封测基地支撑的封装量产报道。915MHz、1kW原型对比试验报告结温降低超过40摄氏度。",
+          "value_reason": "将散热材料、封装制造与高功率器件设计结合，针对射频电源提高单管输出时的热约束提供了具体工程路径，可供杭州半导体装备及核心部件企业比较材料、封装与器件协同开发方案。915MHz原型试验支持散热机制，不能直接外推4000W新品的客户工况降温幅度、设备成本节约或产线收益。"
+        },
+        "stage": {
+          "status": "新品已展出；器件研发及封装量产为报道披露，客户应用细节未公开",
+          "reason": "正文明确在2026年欧洲微波周展出新品，并称金刚石铜封装已规模化量产、相关系列产品已用于头部客户；未给出独立量产审计、具体客户验收或4000W新品批量交付证据。展会及量产的精确发生日期未知，新闻发表于2026年10月16日，首次收录时间未提供。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:8e7b6b38a8e31ca2"
+          ],
+          "prior_decisions": [],
+          "change_reason": "输入中的同主体已收录历史及旧裁决均为空，检索无报错；在已提供范围内未见此次新品、器件研发及封装量产事件，不宣称全库首次发现。",
+          "new_evidence_ids": [
+            "article:9cbb87b023273753"
+          ]
+        },
+        "evidence_ids": [
+          "article:9cbb87b023273753",
+          "history_lookup:8e7b6b38a8e31ca2"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条提供具体器件参数、原型试验和量产线索，但行业领先及头部供应链表述缺少可复核的同条件竞品比较、客户披露和规模交付依据，尚不足以独立建立全国标杆资格，不影响事件保留。",
+          "evidence_ids": [
+            "article:9cbb87b023273753"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "TypeSafe AI",
+      "identity_mentions": [
+        {
+          "name": "Jev",
+          "relation": "product",
+          "evidence": "当天，TypeSafe AI发布首款模型Jev，同时宣布完成4000万美元种子轮融资，由美国风投DCVC领投。"
+        }
+      ],
+      "title": "上海女生的AI产品全网刷屏，估值500亿",
+      "company": "TypeSafe AI",
+      "score": 50,
+      "sector": "企业级人工智能／决策模型",
+      "financing": "本轮融资8.7亿美元，估值75亿美元，a16z领投、红杉资本跟投；此前宣布完成4000万美元种子轮融资，由DCVC领投，当时媒体报道估值约2亿美元。",
+      "source": "铅笔道",
+      "location": "地点待核",
+      "article_location": "硅谷（原文区域性描述，未明确注册地或主要总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "TypeSafe AI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-fc67129ea8fe8366137c",
+      "company_canonical_name": "TypeSafe AI",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/pZtuxRdOaINtYB8tlQ8tFA",
+      "article_title": "上海女生的AI产品全网刷屏，估值500亿",
+      "event_desc": "铅笔道报道，AI招聘平台Jack & Jill在首次测试后不到10天，将初筛环节全部换成TypeSafe AI的Jev。文中称，每筛选1000名候选人的调用成本由Gemini的0.755美元降至Jev的0.092美元，岗位初筛中位耗时由20.3秒缩短至10.3秒；具体测试条件未完整披露。文中另转述Vercel于10月15日披露，Jev上线前两周已有35.3%的平台付费团队使用过。8.7亿美元融资为此前已收录背景，不作为本次新增资本事件。",
+      "insight": "具名招聘客户把初筛流程切换至专用判断模型，说明模型分工已有具体业务落点：需要概率或分数的高频筛选，不必都通过长文本生成完成。报道中的成本、耗时对照尚未同时证明筛选质量不变；与原文所述竞品成绩接近相结合，杭州企业软件团队应优先在自己的流程中比较判断质量、误判代价和总调用成本，而非凭融资估值选择模型。",
+      "event_headline": "TypeSafe AI新增招聘初筛应用线索：Jack & Jill据报已切换至Jev",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-16",
+        "event_date": null,
+        "observed_date": "2026-10-16",
+        "review_required": true
+      },
+      "published_date": "2026-10-16",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "沿用TypeSafe AI已确认身份，Jev为其产品。8.7亿美元融资、a16z领投及75亿美元估值已于10月17日收录，不再作为新融资节点重复发布。但本篇新增招聘客户Jack & Jill将初筛全部切换至Jev的具体工作流及成本、耗时对照，并报道10月15日披露的平台采用数据，构成相较既有资本报道的实质商业应用增量。2026年10月16日原始发布时间已提供，符合窗口。保留时将主事件改为客户应用，不把客户测算节省额当作已实现收益，不补造本轮资金用途；创始人上海背景及硅谷描述不证明杭州属地。",
+      "event_headline_source": "23403d83dc9927fb857fa46bf6591c83af2410a9af3d1c4d1f899f2306d0f88b",
+      "event_identity": {
+        "canonical_id": "据文章报道，TypeSafe AI于10月9日宣布完成8.7亿美元融资，a16z领投、红杉资本跟投，估值75亿美元，a16z合伙人Martin Casado进入董事会。公司此前于9月15日发布面向企业软件判断任务的模型Jev，并宣布完成4000万美元种子轮融资。本轮资金用途未披露。"
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "硅谷（原文区域性描述，未明确注册地或主要总部）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "复用此前已审未建立标杆资格的结论。新增具名客户应用增强产品价值依据，但单个工作流及媒体转述的平台采用数据仍不足以建立独立行业标杆地位，原文评测还指出部分竞品差距不显著。",
+        "evidence_ids": [
+          "prior_decision:9f542fc52b39fa5f",
+          "article:811f94d1bb8e6c0b"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
+        "candidate_id": "d4fc2755bd33a968c472b9f89769d756ffc0be9464e3b44750c6299c452fbea6",
+        "input_row_sha256": "4ca83b8b83418e0b3b5c2e61ecf5c6a7040918a2b44e0dd668c0694011527b4c",
+        "reason": "沿用TypeSafe AI已确认身份，Jev为其产品。8.7亿美元融资、a16z领投及75亿美元估值已于10月17日收录，不再作为新融资节点重复发布。但本篇新增招聘客户Jack & Jill将初筛全部切换至Jev的具体工作流及成本、耗时对照，并报道10月15日披露的平台采用数据，构成相较既有资本报道的实质商业应用增量。2026年10月16日原始发布时间已提供，符合窗口。保留时将主事件改为客户应用，不把客户测算节省额当作已实现收益，不补造本轮资金用途；创始人上海背景及硅谷描述不证明杭州属地。",
+        "scope": {
+          "technology_evidence": "原文说明Jev以分数或概率承担边界明确的判断任务，并称Jack & Jill在首次测试后不到10天将初筛全部切换至Jev；报道给出每千名候选人的调用成本及岗位初筛中位耗时对照。",
+          "value_reason": "客户将生产流程从通用模型切换至专用判断模型，比融资金额更直接说明模型分工如何进入企业软件。原文同时呈现部分竞品成绩接近且差距未必显著，产业对标重点应是工作流中的判断质量、调用成本与集成留存，而不是据估值认定技术壁垒。"
+        },
+        "stage": {
+          "status": "据报道客户已切换初筛流程；融资为已收录背景",
+          "reason": "原文称Jack & Jill已完成初筛模型切换，性能和成本为报道口径，未来节省金额是测算而非已兑现收益。新闻发布时间为2026-10-16T04:11:00Z；融资宣布月日为10月9日，正文结合今年9月15日叙述，但本条无需据此补造精确交割日。客户切换日期及本候选首次收录时间未知。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:f8a875ee7f3c4807",
+            "accepted_history:facf0de1654b9c92",
+            "accepted_history:ea5686d00e74cbf4",
+            "prior_decision:139a23499032c34d",
+            "prior_decision:9f542fc52b39fa5f",
+            "prior_decision:4f6f9b5f823a2013",
+            "prior_decision:a101f1153bd1958f",
+            "history_lookup:8e7b6b38a8e31ca2"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:139a23499032c34d",
+              "comparison": "new_progress",
+              "reason": "融资完成、领投和估值属于同一已收录事件；当前新增具名招聘客户初筛切换及工作流成本、耗时证据，不撤销旧keep，仅保留应用增量。"
+            },
+            {
+              "evidence_id": "prior_decision:9f542fc52b39fa5f",
+              "comparison": "new_progress",
+              "reason": "旧裁决已包含融资及概率判断机制，但未包含Jack & Jill实际切换与具体任务对照；当前不是换URL重报融资。"
+            },
+            {
+              "evidence_id": "prior_decision:4f6f9b5f823a2013",
+              "comparison": "new_progress",
+              "reason": "旧裁决认可资本阶段推进，当前可保留的是新增客户应用，不再次将融资从洽谈到完成算作新进展。"
+            },
+            {
+              "evidence_id": "prior_decision:a101f1153bd1958f",
+              "comparison": "new_progress",
+              "reason": "旧裁决及洞察已讨论判断模型部署逻辑，当前补充具名客户生产流程切换证据，形成实质应用增量。"
+            }
+          ],
+          "change_reason": "9月23日为产品及开发者应用，10月7日为种子轮、融资洽谈及早期平台采用，10月17日已收录本轮8.7亿美元融资完成。当前融资部分去重，新增Jack & Jill初筛切换实例及后续平台采用数据，主事件转为客户应用，不改判或重置此前融资裁决。",
+          "new_evidence_ids": [
+            "article:811f94d1bb8e6c0b"
+          ]
+        },
+        "evidence_ids": [
+          "article:811f94d1bb8e6c0b",
+          "accepted_history:f8a875ee7f3c4807",
+          "accepted_history:facf0de1654b9c92",
+          "accepted_history:ea5686d00e74cbf4",
+          "prior_decision:139a23499032c34d",
+          "prior_decision:9f542fc52b39fa5f",
+          "prior_decision:4f6f9b5f823a2013",
+          "prior_decision:a101f1153bd1958f",
+          "history_lookup:8e7b6b38a8e31ca2"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "复用此前已审未建立标杆资格的结论。新增具名客户应用增强产品价值依据，但单个工作流及媒体转述的平台采用数据仍不足以建立独立行业标杆地位，原文评测还指出部分竞品差距不显著。",
+          "evidence_ids": [
+            "prior_decision:9f542fc52b39fa5f",
+            "article:811f94d1bb8e6c0b"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "长飞先进",
+      "title": "不止于车，长飞先进，将SiC进行到底",
+      "company": "长飞先进",
+      "score": 50,
+      "sector": "碳化硅功率半导体",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "芜湖、武汉：原文明示的生产基地所在地；未披露注册地或主要总部所在地。",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "长飞先进",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-c872c6fd9e92f398da55",
+      "company_canonical_name": "长飞先进",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/avj1r1C5_e4tWR8YmynC_A",
+      "article_title": "不止于车，长飞先进，将SiC进行到底",
+      "event_desc": "长飞先进于10月15日在湾芯展发布会上更新碳化硅产品线，发布面向车规主驱的SiC MOSFET系列芯片、DeepXE™嵌入式PCB功率模块，以及面向AI数据中心的PG4E单管系列和EZ2C/3C功率模块。据文中介绍，车规芯片已通过AEC-Q101标准下的全套可靠性测试，并完成3000小时强化寿命及环境试验验证；DeepXE™模块相较传统封装方案可降低杂散电感和开关损耗。公司同时发布高性能沟槽技术平台，并介绍正在投入Cascode JFET架构研发。",
+      "insight": "长飞先进正把SiC器件制造能力延伸为面向汽车主驱和AI供电的模块级产品能力：嵌入式封装着重缩短电流路径，扩散焊着重改善散热，两条路径分别回应高功率密度和连续运行需求。此次发布说明其产品布局已超出汽车市场，但尚不能据此判断非车业务的实际采用规模。",
+      "event_headline": "长飞先进发布车规SiC芯片及面向AI电源的功率模块",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-16",
+        "event_date": null,
+        "observed_date": "2026-10-16",
+        "review_required": true
+      },
+      "published_date": "2026-10-16",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确长飞先进为SiC研发制造及新品发布主体，提供车规芯片可靠性验证、嵌入式功率模块和AI电源产品的具体依据。采集证据载明2026年10月16日发布，符合最近7天窗口，不沿用上游缺发布时间的判断。所给历史与裁决均无匹配，不宣称全库首次。保留产品发布及技术布局线索，性能数字按公司经媒体介绍口径理解，不视为独立测试、客户定点或量产交付。原文主体关系清楚且未见冲突，registry未确认状态不私自改写；芜湖、武汉仅作为已报道生产基地，不推断注册地、总部或杭州主体资格。",
+      "event_headline_source": "fa78bf6d34b7c56c1e098e74c13fed44a169dee064dc2d153569f06ee90fad8e",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "芜湖、武汉：原文明示的生产基地所在地；未披露注册地或主要总部所在地。",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "新品、可靠性验证和封装方案足以支持事件价值；报道中的行业领先、产能及专利排名未形成独立可复核的行业地位证据，不据此自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:43b025d30b6284c4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
+        "candidate_id": "d477a507426bff7f7d218cdcfd95e8bd83ea727363b9c0a3e9245bf3f91956ca",
+        "input_row_sha256": "bcdc6bd6c90d0e6fc2d489323ff6866bfe672109caa9a42abcd7fa5930e300d2",
+        "reason": "原文明确长飞先进为SiC研发制造及新品发布主体，提供车规芯片可靠性验证、嵌入式功率模块和AI电源产品的具体依据。采集证据载明2026年10月16日发布，符合最近7天窗口，不沿用上游缺发布时间的判断。所给历史与裁决均无匹配，不宣称全库首次。保留产品发布及技术布局线索，性能数字按公司经媒体介绍口径理解，不视为独立测试、客户定点或量产交付。原文主体关系清楚且未见冲突，registry未确认状态不私自改写；芜湖、武汉仅作为已报道生产基地，不推断注册地、总部或杭州主体资格。",
+        "scope": {
+          "technology_evidence": "原文称公司10月15日发布高性能SiC MOSFET芯片及DeepXE嵌入式PCB功率模块，芯片已通过AEC-Q101全套可靠性测试并完成3000小时强化验证；另推出PG4E单管、EZ2C/3C模块及沟槽技术平台，Cascode JFET仍在研发。",
+          "value_reason": "PCB嵌入式互连针对寄生电感与开关损耗，扩散焊针对模块散热，体现SiC竞争从单芯片参数延伸到封装与系统适配。汽车主驱与AI供电的产品分化可供杭州功率器件、封装和电源企业对标，但是否形成非车业务增长仍需客户采用和交付证据。"
+        },
+        "stage": {
+          "status": "产品及平台已发布；可靠性和性能为报道口径；部分架构仍在研发",
+          "reason": "正文明确发布会月日为10月15日，未单独写明年份，不据此强填完整事件日期。AEC-Q101测试与3000小时验证不等于已获整车客户认证或量产订单；沟槽平台发布不等于所有器件已量产，Cascode JFET为研发。新闻发布时间为2026-10-16T02:28:00Z，本候选首次收录时间未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:8e7b6b38a8e31ca2"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本包所给该主体accepted_history和prior_decisions均为空，且未报告历史读取错误；在此次提供的检索范围内未见同事件。按独立新品发布事件保留，不把有限检索结果表述为公司或事件的全库首次发现。",
+          "new_evidence_ids": [
+            "article:43b025d30b6284c4"
+          ]
+        },
+        "evidence_ids": [
+          "article:43b025d30b6284c4",
+          "history_lookup:8e7b6b38a8e31ca2"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "新品、可靠性验证和封装方案足以支持事件价值；报道中的行业领先、产能及专利排名未形成独立可复核的行业地位证据，不据此自动授予全国标杆资格。",
+          "evidence_ids": [
+            "article:43b025d30b6284c4"
           ]
         }
       }
@@ -1398,6 +1271,20 @@
     "人工智能与网络安全": 1,
     "人工智能／智能体训练基础设施": 1,
     "人工智能／物理世界模型": 1,
+    "人工智能、产业投资": 1,
+    "半导体设备核心部件与射频功率半导体": 1,
+    "三维空间数据采集与重建、激光雷达、物理AI": 1,
+    "企业级人工智能／决策模型": 1,
+    "碳化硅功率半导体": 1,
+    "人工智能／个人智能体": 2,
+    "半导体设备／先进封装": 1,
+    "半导体键合设备": 1,
+    "半导体设备／混合键合": 1,
+    "混合键合设备": 1,
+    "半导体设备／三维集成": 1,
+    "半导体薄膜沉积与刻蚀设备": 1,
+    "脑机接口与智能康复器械": 1,
+    "消费级智能制造设备": 1,
     "算力芯片": 1,
     "人工智能芯片": 1,
     "具身智能": 3,
@@ -1412,9 +1299,9 @@
   },
   "daily_details": {
     "2026-10-19": {
-      "count": 33,
+      "count": 48,
       "negatives": 0
     }
   },
-  "created": "2026-10-19 02:32:00"
+  "created": "2026-10-19 08:39:47"
 }
