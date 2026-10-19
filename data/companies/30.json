@@ -514,6 +514,89 @@
       "event_headline": "英伟达扩大奔驰合作，整合驾驶计算、软件与安全系统",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "正文称，Wccftech于10月18日刊发英伟达Vera CPU团队专访。团队介绍，Vera采用单片式计算裸片、定制LPDDR5X内存子系统和第二代NVIDIA Scalable Coherency Fabric互连架构，旨在兼顾单线程性能、内存带宽与整体吞吐量。英伟达公布的核心间双向分割带宽为3.4 TB/s，并称约为其所比较的领先x86处理器的3倍。",
+      "article_title": "英伟达高管断言：CPU变了！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/MywpAmykK9hyK9Ppia-JVQ",
+      "sector": "数据中心CPU与AI计算基础设施",
+      "location": "US / Santa Clara",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Santa Clara",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "subject_evidence_ids": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "英伟达",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-4493064fe5737edf368c58ab"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4493064fe5737edf368c58ab",
+            "source_url": "https://nvidianews.nvidia.com/multimedia/santa-clara-headquarters",
+            "checked_at": "2026-10-16T00:31:54.065917+00:00",
+            "subject": "英伟达",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara"
+            }
+          }
+        ]
+      },
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "英伟达",
+      "company_entity_id": "dr-u-60094bcf5292c4909fad",
+      "company_raw_name": "英伟达",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Vera CPU",
+          "relation": "product",
+          "evidence": "英伟达推出的Vera CPU，正是针对这一变化进行设计的产品。"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条具体设计及厂商带宽口径足以支持产业观察，尚不能独立证明Vera在Agent实际负载中的领先效果。既有辅助驾驶装机排名属于另一产品领域，不自动赋予本次CPU事件标杆资格。",
+        "evidence_ids": [
+          "article:d0ded4930e8e9f17",
+          "accepted_history:d8d608fc5509366f"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "Vera的设计将竞争重点从核心数量扩展到CPU与GPU交替执行任务时的响应效率：如果串行步骤拖慢下一轮推理，增加CPU核心未必能缩短GPU等待时间。单线程处理、内存访问和片上通信因此需要协同优化，但文中互连带宽指标不能直接代表Agent应用的实际加速幅度。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "英伟达团队详解Vera CPU面向AI Agent的设计取舍",
+      "event_signal": "context",
+      "discovery_status": "update"
     }
   ],
   "模式星河（北京）科技有限公司": [
@@ -577,6 +660,50 @@
       "event_date": "",
       "event_headline": "Unipat据报道拟获阿里领投3亿美元融资",
       "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Valve": [
+    {
+      "date": "2026-10-20",
+      "title": "据报道，Valve向PCGamer确认正在为Steam Frame VR头显开发新头带，拟配备可热插拔电池及平衡模式辐射器音频单元，以改善续航和音频体验；新头带尚在开发。",
+      "article_title": "马斯克遭遇“踢馆”：一家公司发飞行汽车视频，并称领先11年；“彩电第一股“”康佳退市，4年累亏约203亿；智界将获独立造车资质丨邦早报",
+      "event_type": "产品研发",
+      "link": "https://mp.weixin.qq.com/s/38mgbPzvQ63QdaHnJyExIQ",
+      "sector": "虚拟现实设备",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Valve",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Valve",
+      "company_entity_id": "dr-u-c9af477d19b132dbcda4",
+      "company_raw_name": "Valve",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "published_date": "2026-10-18",
+      "insight": "Valve把头显续航改进放在可更换电池的配件上，使用户有望通过换电延长单次使用，而不必等待机身充电。音频同时向离耳式体验靠近，反映其对持续佩戴任务的产品取舍；效果仍待新头带实物表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "据报道，Valve正开发Steam Frame新头带，拟配热插拔电池",
+      "event_signal": "material",
       "discovery_status": "first_seen"
     }
   ]
