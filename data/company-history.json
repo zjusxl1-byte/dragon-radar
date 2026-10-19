@@ -824,6 +824,70 @@
       "event_headline": "VAST获近2亿美元融资并公布Project Eden世界模型路线",
       "event_signal": "major",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "VAST发布并开源EdenLive，开放模型权重、推理代码、技术报告和端到端Demo。该模型接收参考画面、目标首帧和提示词，依据参考布局与运动持续生成不同风格的画面，上游交互系统负责维护游戏逻辑和世界状态。据VAST公布的数据，5B模型在单张RTX 5090显卡、720P条件下生成速度超过24FPS，支持分钟级连续生成，端到端交互延迟为百毫秒级。展示场景包括游戏原型预览、动画预览、视频重渲染和具身视频数据增强。",
+      "article_title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/K7RFfECx_Igog5bbkVT1zg",
+      "sector": "生成式人工智能／实时生成式渲染",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "VAST",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "VAST",
+      "company_entity_id": "dr-u-375eca5944bc3c254740",
+      "company_raw_name": "VAST",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "EdenLive",
+          "relation": "product",
+          "evidence": "如今，EdenLive作为这条路线的阶段性成果发布，并开放模型权重和推理代码，同步公开技术报告与端到端Demo。"
+        },
+        {
+          "name": "Project Eden",
+          "relation": "product",
+          "evidence": "Project Eden是VAST长期推进的世界模型研究项目，EdenLive则是其中聚焦实时生成式渲染的阶段性成果。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持具体技术进展及历史融资，但没有提供明确已审标杆资格或足够的独立行业地位比较依据；历史is_national_star和宣传性领先表述不能替代本次独立资格审查。",
+        "evidence_ids": [
+          "article:3c93680afbdf5fc5",
+          "accepted_history:74597ea9892471f1",
+          "accepted_history:b520fb329f77f06f"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "EdenLive将VAST的3D与数据管线能力延伸至运行中场景的实时视觉生成：交互系统维护规则和状态，模型依据简化画面生成精细外观，使可玩的原型能够尝试不同美术表现。其当前更明确的价值在低频交互和创作预览，高频操作、多角色身份保持及长时视觉一致性的限制，意味着尚不宜将这些演示等同于通用游戏渲染能力。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "VAST开源EdenLive，将简化交互场景实时生成精细画面",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "帕西尼感知科技": [
@@ -10490,6 +10554,74 @@
       "event_headline": "流形空间完成数亿元Pre A+轮融资，资金将投入世界模型研发",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "据文章，流形空间提出WorldScape R²SI机器人递归自进化框架，并以46.58的宏观进度分数取得RoboDojo-Agent总榜第一。框架由负责执行的内层Robot Agent和负责跨轮次复盘的外层Recursion Agent组成，外层可修订任务技能，也可将执行记录组织为训练数据更新动作模型，更新通过测试后发布。在push_T任务中，技能修订后首次以596步在600步预算内取得原生满分，后续同一布局降至389步；技能冻结后，在三种随机布局中分别以222、312、256步取得原生满分。",
+      "article_title": "生态企业 | 登顶RoboDojo、超过GPT-6 Astra：［流形空间Manifold AI］推出R²SI",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Vd2OH4iM5MwoAXwG6SLALg",
+      "sector": "具身智能与世界模型",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Manifold AI（流形空间）",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "银杏谷资本",
+      "kind": "event",
+      "canonical_name": "Manifold AI（流形空间）",
+      "company_entity_id": "dr-u-6e87ca9f16086bf55257",
+      "company_raw_name": "Manifold AI（流形空间）",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "Manifold AI（流形空间）",
+          "relation": "same_entity",
+          "evidence": "Manifold AI（流形空间）成立于2025年5月"
+        },
+        {
+          "name": "WorldScape Policy",
+          "relation": "product",
+          "evidence": "基于 WorldScape 世界模型，Manifold AI研发了世界-动作模型 WorldScape Policy。"
+        },
+        {
+          "name": "WorldScape R²SI",
+          "relation": "product",
+          "evidence": "Manifold AI 提出了 WorldScape R²SI（Recursive Robot Self-Improvement，机器人递归自进化）框架"
+        }
+      ],
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体框架和试验足以支持技术线索，但全国标杆所需的独立行业地位依据尚未建立。现有排名、全面超越及首家等说法来自投资机构文章，缺少独立榜单与可比测试条件核验；历史is_national_star本身不是已完成资格审核的证据。",
+        "evidence_ids": [
+          "article:7b02cf225a90fbbd",
+          "accepted_history:83ec7d1625ad5892"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "这次进展将机器人能力改进从单次动作生成扩展到执行后的技能修订与模型更新：push_T案例中，外层先修正夹持、转向和释放方式，冻结后的技能再用于三种随机布局，展示了经验复用的具体路径。该案例不调用动作模型，因此其成绩主要体现技能与执行系统的改进，不能全部归因于世界动作模型本身。",
+      "financing": "企业简介称，公司成立半年多完成来自头部VC和华为的5轮投资；正文另称融资资金将用于新一代技术框架、多模态世界模型及相关基础设施平台建设，并推动具身智能场景落地与混合现实应用探索，未明确对应轮次、金额及完成日期。",
+      "event_date": "",
+      "event_headline": "流形空间推出R²SI框架，将机器人执行经验用于技能与模型更新",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "量旋科技": [
@@ -29781,6 +29913,48 @@
       "event_headline": "赛豆科技发布AIVA品牌，计划2026年内亮相首款量产车型",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "赛力斯参股的赛豆科技旗下AIVA品牌首款车型ME7亮相工信部新产品公告，采用纯电动力，轴距超3米。",
+      "article_title": "马斯克遭遇“踢馆”：一家公司发飞行汽车视频，并称领先11年；“彩电第一股“”康佳退市，4年累亏约203亿；智界将获独立造车资质丨邦早报",
+      "event_type": "产品发布",
+      "link": "https://mp.weixin.qq.com/s/38mgbPzvQ63QdaHnJyExIQ",
+      "sector": "新能源汽车",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "赛豆科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "赛豆科技",
+      "company_entity_id": "dr-u-835913282146e2e01858",
+      "company_raw_name": "赛豆科技",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "published_date": "2026-10-18",
+      "insight": "ME7进入产品公告，为赛豆科技从品牌筹备走向车型准入提供了具体节点。纯电动力及大型车身定位已经有对应车型，后续可据公告中的生产主体和产品配置核对其制造组织方式。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "赛豆科技旗下AIVA首款纯电车型ME7亮相工信部新产品公告",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "大捷智能科技（广东）有限公司": [
@@ -34871,6 +35045,81 @@
       "event_headline": "Anthropic据报道与美政府合作，扩大获验证机构的模型访问",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "据报道，代号“北极星项目”的600亿美元债务融资方案将支持Anthropic采购约1.5吉瓦的谷歌TPU芯片。知情人士称，黑石旗下基金将出资90亿美元购买其中债务，约占180亿美元次级贷款的一半，票面利率为10%，整体回报率更高；偿债来源为Anthropic为期五年的芯片租赁款，其余90亿美元拟在未来数月发售。黑石拒绝置评，Anthropic暂未回应。",
+      "article_title": "DeepSeek V4.1 Flash新版本发布，许愿式编程一键成真；微软推出“AI学生模拟器”丨AIGC日报",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/WqzAVz5UR-Pny9-2LeyVDA",
+      "sector": "人工智能算力基础设施",
+      "location": "US / San Francisco",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / San Francisco",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "subject_evidence_ids": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Anthropic",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-98b8e2309e1c91685311fb4f"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+            "source_url": "https://www.anthropic.com/privacy",
+            "checked_at": "2026-10-12T03:44:07.679932+00:00",
+            "subject": "Anthropic",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ]
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Anthropic",
+      "company_entity_id": "dr-u-c70eca6b0f88f44d81a4",
+      "company_raw_name": "Anthropic",
+      "identity_status": "confirmed",
+      "score": 70,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条足以支持具体算力融资方案的产业观察价值，但交易尚未确认，未提供独立可核的行业地位比较依据或已审标杆资格。不能凭方案规模、历史上游标签或企业知名度自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:4fab20b80db5e8e6"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "该方案把长期芯片租赁付款与外部债务融资连接起来，为大额算力采购提供资金组织路径。若按报道落地，Anthropic获得算力的同时将承担多年付款义务；两位数融资回报要求反映资金成本，但不足以单独证明公司已出现偿付困难。",
+      "financing": "据报道融资方案总规模600亿美元；其中180亿美元为次级贷款，黑石旗下基金拟购买90亿美元债务，票面利率10%、整体回报率更高。其余90亿美元拟后续发售，未披露全部融资已完成。",
+      "event_date": "",
+      "event_headline": "据报道Anthropic筹划600亿美元芯片融资，采购TPU算力",
+      "event_signal": "major",
+      "discovery_status": "update"
     }
   ],
   "杭州鲁尔物联科技有限公司": [
@@ -39285,6 +39534,64 @@
       "financing": "",
       "event_date": "",
       "event_headline": "小鹏汽车拟在巴黎发布G9L并开放欧洲智驾体验",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "小鹏汽车宣布，小鹏GX正大规模发运中东非市场。报道介绍，该车海外售价尚未公布，中东订单已突破3000辆；国内连续跻身30万元级以上大型SUV销量前三。",
+      "article_title": "消息称尚界Z9新车在品牌成立初期就同步开发：属目前定位最高产品，定价预计35-40万级；梅赛德斯推出高性能电动SUV丨汽车交通日报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/nGSrdSUewpj5MhmI10uS2w",
+      "sector": "新能源汽车",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "小鹏汽车",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "小鹏汽车",
+      "company_entity_id": "dr-u-d15ff95eec38ec81fef4",
+      "company_raw_name": "小鹏汽车",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "小鹏GX",
+          "relation": "product",
+          "evidence": "小鹏汽车官方宣布，小鹏GX大规模发运中东非市场"
+        }
+      ],
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条证明具体车型海外发运与订单线索，未建立行业领先地位或可供杭州对标的独立领先依据；沿用最近已审事件中标杆资格未建立的判断，不以更早的is_national_star标签代替核验。",
+        "evidence_ids": [
+          "article:a928aa40634d0d99",
+          "prior_decision:fc7032cbf04bcc40"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "GX从国内销售推进到面向中东非的批量发运，显示该车型海外供给与市场拓展进入实际执行阶段。中东订单与发运面向的区域口径不同，不能将3000余辆订单全部视为本次发运量。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "小鹏汽车宣布GX大规模发运中东非，中东订单超3000辆",
       "event_signal": "material",
       "discovery_status": "update"
     }
@@ -44283,6 +44590,79 @@
       "event_headline": "据报道，微软发布Maia 300加速器，计划2027年投产",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "微软研究院近日发布StudentSim研究系统，基于公开、去标识化的学习者记录，为每位学生训练个性化AI学生模拟器，模拟学生独立作答以及接受导师讲解后的反应变化，用于研究AI辅导工具的教学效果。",
+      "article_title": "DeepSeek V4.1 Flash新版本发布，许愿式编程一键成真；微软推出“AI学生模拟器”丨AIGC日报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/WqzAVz5UR-Pny9-2LeyVDA",
+      "sector": "人工智能教育",
+      "location": "经营地：US / Redmond（注册/总部待核）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "经营地：US / Redmond（注册/总部待核）",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-285d79e62d3f1ae5f005a8b0"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "微软",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-285d79e62d3f1ae5f005a8b0",
+            "source_url": "https://www.microsoft.com/en-us/investor/contact-information",
+            "checked_at": "2026-10-12T03:53:37.942351+00:00",
+            "subject": "微软",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Washington",
+              "city": "Redmond"
+            }
+          }
+        ]
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "微软",
+      "company_entity_id": "dr-u-12b0c8b376b8375e5f35",
+      "company_raw_name": "微软",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "StudentSim",
+          "relation": "product",
+          "evidence": "微软研究院近日发布研究系统StudentSim"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文支持具体研究方向，但没有提供模拟与真人结果的一致性验证、同条件方法比较或应用成果，尚不足以建立独立标杆资格；不影响日报研究线索保留。",
+        "evidence_ids": [
+          "article:4fab20b80db5e8e6"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "StudentSim将教学工具的评估对象从答案是否正确，扩展到不同学生接受讲解后的反应变化。其产业价值在于为教学策略提供模拟比较环境，但模拟结果能否对应真人学习进步，是决定这条路径实用性的关键。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "微软发布StudentSim，模拟学生接受讲解后的反应",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "应用材料": [
@@ -44545,6 +44925,89 @@
       "event_date": "",
       "event_headline": "英伟达扩大奔驰合作，整合驾驶计算、软件与安全系统",
       "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "正文称，Wccftech于10月18日刊发英伟达Vera CPU团队专访。团队介绍，Vera采用单片式计算裸片、定制LPDDR5X内存子系统和第二代NVIDIA Scalable Coherency Fabric互连架构，旨在兼顾单线程性能、内存带宽与整体吞吐量。英伟达公布的核心间双向分割带宽为3.4 TB/s，并称约为其所比较的领先x86处理器的3倍。",
+      "article_title": "英伟达高管断言：CPU变了！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/MywpAmykK9hyK9Ppia-JVQ",
+      "sector": "数据中心CPU与AI计算基础设施",
+      "location": "US / Santa Clara",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Santa Clara",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "subject_evidence_ids": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "英伟达",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-4493064fe5737edf368c58ab"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4493064fe5737edf368c58ab",
+            "source_url": "https://nvidianews.nvidia.com/multimedia/santa-clara-headquarters",
+            "checked_at": "2026-10-16T00:31:54.065917+00:00",
+            "subject": "英伟达",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara"
+            }
+          }
+        ]
+      },
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "英伟达",
+      "company_entity_id": "dr-u-60094bcf5292c4909fad",
+      "company_raw_name": "英伟达",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Vera CPU",
+          "relation": "product",
+          "evidence": "英伟达推出的Vera CPU，正是针对这一变化进行设计的产品。"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条具体设计及厂商带宽口径足以支持产业观察，尚不能独立证明Vera在Agent实际负载中的领先效果。既有辅助驾驶装机排名属于另一产品领域，不自动赋予本次CPU事件标杆资格。",
+        "evidence_ids": [
+          "article:d0ded4930e8e9f17",
+          "accepted_history:d8d608fc5509366f"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "Vera的设计将竞争重点从核心数量扩展到CPU与GPU交替执行任务时的响应效率：如果串行步骤拖慢下一轮推理，增加CPU核心未必能缩短GPU等待时间。单线程处理、内存访问和片上通信因此需要协同优化，但文中互连带宽指标不能直接代表Agent应用的实际加速幅度。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "英伟达团队详解Vera CPU面向AI Agent的设计取舍",
+      "event_signal": "context",
       "discovery_status": "update"
     }
   ],
@@ -51953,10 +52416,10 @@
       },
       "source": "量子位",
       "kind": "event",
-      "canonical_name": "智谱",
-      "company_entity_id": "dr-u-8bcef51236d613cdd248",
+      "canonical_name": "北京智谱华章科技股份有限公司",
+      "company_entity_id": "dr-u-a797dd8a29ef0fd70883",
       "company_raw_name": "智谱",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "identity_mentions": [
         {
           "name": "GLM-Legal",
@@ -51980,7 +52443,7 @@
       "event_date": "",
       "event_headline": "智谱推出GLM-Legal法律模型，面向专业人士开放Beta申请",
       "event_signal": "material",
-      "discovery_status": "first_seen"
+      "discovery_status": "update"
     },
     {
       "date": "2026-10-19",
@@ -52010,10 +52473,10 @@
       },
       "source": "创业邦",
       "kind": "event",
-      "canonical_name": "智谱",
-      "company_entity_id": "dr-u-8bcef51236d613cdd248",
+      "canonical_name": "北京智谱华章科技股份有限公司",
+      "company_entity_id": "dr-u-a797dd8a29ef0fd70883",
       "company_raw_name": "智谱",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "identity_mentions": [
         {
           "name": "GLM",
@@ -52068,10 +52531,10 @@
       },
       "source": "投资界",
       "kind": "event",
-      "canonical_name": "智谱",
-      "company_entity_id": "dr-u-8bcef51236d613cdd248",
+      "canonical_name": "北京智谱华章科技股份有限公司",
+      "company_entity_id": "dr-u-a797dd8a29ef0fd70883",
       "company_raw_name": "智谱",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "identity_mentions": [
         {
           "name": "浙江智谱新篇",
@@ -54318,6 +54781,1065 @@
       "financing": "",
       "event_date": "",
       "event_headline": "蚂蚁灵波展示拣药分拣及上下料，与隆盛唯睿等达成战略合作",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "FlipFlop拓原": [
+    {
+      "date": "2026-10-20",
+      "title": "据量子位报道，FlipFlop拓原已完成种子轮、天使轮融资，累计金额数亿元人民币，投资方包括源码、绿洲、中金等。公司瞄准中性原子量子计算；据参与投资的投资人介绍，公司从容错计算需求出发设计整机架构，将百逻辑比特系统作为重要研发目标，并希望逐步将AI引入实验设计、数据处理和设备控制。",
+      "article_title": "29岁Nature一作乔木，被曝创业量子计算",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/M_pjVXH2aQtdAirMtXUsFQ",
+      "sector": "量子计算",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "FlipFlop拓原",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "FlipFlop拓原",
+      "company_entity_id": "dr-u-8f8185774b7972937e3c",
+      "company_raw_name": "FlipFlop拓原",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资与团队研究经历支持发现价值，但未证明公司已交付的量子计算系统能力、行业领先地位或可验证应用效果，尚不足以确立全国标杆资格。",
+        "evidence_ids": [
+          "article:44531b2a2c8b8dca"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "拓原值得关注的变化，是具有中性原子实验研究经历的团队开始以创业公司形式推进量子计算整机研发，并获得两轮资本支持。其从容错需求倒推整机架构的路径，将研究重点从原子阵列实验延伸到可纠错的逻辑比特系统；百逻辑比特目前仍是研发目标。",
+      "financing": "据报道已完成种子轮、天使轮融资，累计数亿元人民币；投资方包括源码、绿洲、中金等，未披露各轮金额及资金用途。",
+      "event_date": "",
+      "event_headline": "据报道拓原完成种子轮及天使轮融资，累计数亿元",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Sakana AI": [
+    {
+      "date": "2026-10-20",
+      "title": "Sakana AI与加州大学伯克利分校联合提出MASS多智能体自监督框架，基于Qwen3.6-27B让同一模型分别承担执行、评估和优化角色，通过工作流搜索与监督微调交替迭代。据文章报道，两轮迭代后，模型在四个开放式研究基准上的单位输出Token得分提升至原来的1.2～1.6倍，自我评估准确率从73%升至93%；软件工程与终端任务基准成绩未同步改善，工作流搜索偶有性能骤降。",
+      "article_title": "Transformer作者团队，下场RSI",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/QbBsszAIJ1Uj4LJ49v8Zug",
+      "sector": "人工智能／多智能体与模型训练",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Sakana AI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "Sakana AI",
+      "company_entity_id": "dr-u-ac123e56b0168ec2848c",
+      "company_raw_name": "Sakana AI",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "MASS",
+          "relation": "product",
+          "evidence": "由Transformer奠基论文核心作者Llion Jones创办的 Sakana AI，联手UC Berkeley带来了一项递归自我改进（RSI）新成果：MASS（Multi-Agent Self-Supervision）。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "创始人学术履历和本次研究结果支持技术观察价值，但未独立建立本主体作为全国标杆的行业地位与资格，不能用论文作者声望或单项实验代替认定。",
+        "evidence_ids": [
+          "article:9c43a15f4c955dc1"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "这项研究展示了把多智能体协作经验训练进同一模型的路径：模型不仅完成任务，也更能评估结果和自主组织分工，减少对外置工作流提示的依赖。收益目前集中在开放式科研和数据分析，软件工程基准未同步改善，说明它尚不是跨任务通用的自我改进方法。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Sakana AI联合提出MASS框架，探索模型自我改进",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "上海马赫心科技有限公司": [
+    {
+      "date": "2026-10-20",
+      "title": "理想披露，马赫心科技签署首轮股权融资协议，拟获得16.25亿元认购资金，其中理想汽车通过全资附属公司认购10亿元，外部投资者合计认购6.25亿元。杭州经韬、蓝驰创投和华业天成分别认购2亿元，奇绩创坛认购2500万元。杭州经韬相关投资方另获最高5亿元追加认购权，可于2026年12月31日前按本轮相同价格一次性行使。融资款拟用于业务扩张、营运资金、收购转入资产、研发及采购等。马赫心科技成立于2026年8月12日，截至披露时尚未开展实质性商业运营，后续将逐步招聘人才并收购相关资产。",
+      "article_title": "经纬、蓝驰再投理想，这次押注的是芯片",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/y4nxWeFaV7r5iJVHKmbcDA",
+      "sector": "车规级AI芯片与端侧智能计算",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "上海马赫心科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "上海马赫心科技有限公司",
+      "company_entity_id": "dr-u-f263ba1472b25ae8ad42",
+      "company_raw_name": "上海马赫心科技有限公司",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "马赫心科技",
+          "relation": "same_entity",
+          "evidence": "上海马赫心科技有限公司（以下简称马赫心科技）"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资规模、母公司研发积累及既有项目量产不足以独立证明新主体的行业标杆地位；其资产团队承接、独立交付和外部客户经营能力尚未建立。",
+        "evidence_ids": [
+          "article:fc57272fdfdd9dc1"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "这次融资推动理想芯片业务从内部研发项目转向由独立主体承接资产、团队并引入外部股东的平台，既有汽车量产实践为其拓展客户提供了产品基础。面向机器人等外部客户时，关键变化在于能否将母公司内部的软硬协同能力转化为可迁移、可复用的工具链与支持体系，而非仅输出一颗芯片。",
+      "financing": "首轮股权融资协议拟认购总额16.25亿元：理想体系10亿元，外部投资者6.25亿元；投前估值150亿元，完成初始认购后投后估值约166.3亿元。另设最高5亿元追加认购权。蓝驰创投为本轮领投方之一，经纬创投通过关联投资载体参与。",
+      "event_date": "",
+      "event_headline": "马赫心科技签署首轮融资协议，拟获16.25亿元认购",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Apate.ai": [
+    {
+      "date": "2026-10-20",
+      "title": "澳大利亚创业公司Apate.ai宣布获得815万美元种子轮融资，由Lobby Capital领投。公司表示将继续开发产品、扩大国际业务，计划设立伦敦办公室并加强美国市场布局。其对话式AI通过高风险来电转接和蜜罐号码接触诈骗者，提取收款账号、加密货币钱包地址及恶意网址，为金融机构和电信企业提供诈骗情报。文章称，公司已与澳大利亚联邦银行、TPG Telecom建立商业合作，并与Mobileum结合网络分析平台，面向通信服务商提供相关能力。",
+      "article_title": "让AI假扮大爷大妈主动被骗，这家“奇葩”公司把骗子整不会了",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/7qz_oh7FnASawkBiZ__CKw",
+      "sector": "人工智能反诈与网络安全",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Apate.ai",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Apate.ai",
+      "company_entity_id": "dr-u-12ec182cdeda6d1bb422",
+      "company_raw_name": "Apate.ai",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Apate",
+          "relation": "same_entity",
+          "evidence": "Apate从对话中提取这些信息，通过旗下产品Apate Voice、Apate Text和Apate Insights交付给机构客户。"
+        },
+        {
+          "name": "Apate Voice",
+          "relation": "product",
+          "evidence": "Apate从对话中提取这些信息，通过旗下产品Apate Voice、Apate Text和Apate Insights交付给机构客户。"
+        },
+        {
+          "name": "Apate Text",
+          "relation": "product",
+          "evidence": "Apate从对话中提取这些信息，通过旗下产品Apate Voice、Apate Text和Apate Insights交付给机构客户。"
+        },
+        {
+          "name": "Apate Insights",
+          "relation": "product",
+          "evidence": "Apate从对话中提取这些信息，通过旗下产品Apate Voice、Apate Text和Apate Insights交付给机构客户。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "机构合作和技术应用足以支持正面发现，但尚不足以独立证明全国标杆资格；单项试点、自述规模和种子轮融资不能自动转化为行业领先认定。",
+        "evidence_ids": [
+          "article:19a4b2eb9d26b8b0"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "Apate的产品价值不只是消耗诈骗者时间，而是把对话变成机构可使用的诈骗情报：联邦银行已将这些信息近实时接入反诈控制系统，使虚拟受害者成为发现账号、网址和新话术的信息入口。与Mobileum结合则提供了借助既有通信供应商进入更多运营商的渠道，国际拓展计划已有具体产品和渠道支点。",
+      "financing": "文章称今年9月公布815万美元种子轮融资，由Lobby Capital领投；2025年曾获得250万澳元融资，由OIF Ventures领投、Investible参与。",
+      "event_date": "",
+      "event_headline": "Apate.ai获815万美元种子轮融资，计划拓展国际反诈业务",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "梅赛德斯-奔驰集团": [
+    {
+      "date": "2026-10-20",
+      "title": "梅赛德斯-奔驰集团发布首款由AMG品牌完全自主研发的电动SUV。入门版AMG GT SUV起售价113050欧元，于周二开启预售；两款更高配置版本计划于明年春季推出。报道列出的配置包括三台轴向磁通电机、800伏电池及最大1169匹马力输出；基础版续航最高668公里，顶配续航可达700公里，最顶级版本零百加速为2.5秒。",
+      "article_title": "消息称尚界Z9新车在品牌成立初期就同步开发：属目前定位最高产品，定价预计35-40万级；梅赛德斯推出高性能电动SUV丨汽车交通日报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/nGSrdSUewpj5MhmI10uS2w",
+      "sector": "高性能电动汽车",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "梅赛德斯-奔驰集团",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "梅赛德斯-奔驰集团",
+      "company_entity_id": "dr-u-5e63e300a52f06f6f750",
+      "company_raw_name": "梅赛德斯-奔驰集团",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "AMG",
+          "relation": "product",
+          "evidence": "梅赛德斯-奔驰集团发布首款由AMG品牌完全自主研发的电动SUV"
+        },
+        {
+          "name": "AMG GT SUV",
+          "relation": "product",
+          "evidence": "入门版AMG GT SUV起售价113050欧元"
+        }
+      ],
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本文足以支持产品发布和技术配置线索，未提供该主体可获全国标杆资格的独立行业比较依据；企业知名度、最大马力和产品售价不能自动授予资格。",
+        "evidence_ids": [
+          "article:a928aa40634d0d99"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "此次发布将AMG自主研发范围延伸到电动SUV整车，三电机和800伏电池构成其高性能产品方案。不同版本分别披露的续航与加速数据，体现了产品配置分层，不能拼成同一版本的性能组合。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "梅赛德斯-奔驰集团发布AMG自主研发电动SUV并开启预售",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "丰田汽车公司": [
+    {
+      "date": "2026-10-20",
+      "title": "丰田汽车公司计划在投资20亿美元建设的中国雷克萨斯工厂引入自主研发的一体化压铸设备生产电动汽车。上海工厂处于建设阶段，预计2027年投产。丰田表示，正在日本针对相关技术开展测试验证，该工厂将成为其首次正式应用超大型压铸设备的工厂；潜在合作供应商未披露。",
+      "article_title": "消息称尚界Z9新车在品牌成立初期就同步开发：属目前定位最高产品，定价预计35-40万级；梅赛德斯推出高性能电动SUV丨汽车交通日报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/nGSrdSUewpj5MhmI10uS2w",
+      "sector": "新能源汽车制造",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "丰田汽车公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "丰田汽车公司",
+      "company_entity_id": "dr-u-3e3b90596b861f44bdb8",
+      "company_raw_name": "丰田汽车公司",
+      "identity_status": "unresolved",
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前材料支持自研制造技术及拟应用计划，但未提供可独立核验的行业领先表现或明确已审标杆依据；计划中的首次应用也不能证明已形成领先量产能力。",
+        "evidence_ids": [
+          "article:a928aa40634d0d99"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "丰田计划把自研一体化压铸从日本测试验证推进到上海电动车工厂应用，值得观察的是制造技术由验证走向生产的路径。当前明确的是技术来源与拟应用场景，尚未披露实际生产节拍、良率或成本表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "丰田汽车公司拟在上海电动车工厂首次应用自研一体化压铸",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Ouraca": [
+    {
+      "date": "2026-10-20",
+      "title": "Ouraca在AI学习应用Aibrary和Agent学习社区BotLearn之外，开发桌面学习助手“点点”，已完成原型并邀请朋友试用。点点根据当前屏幕内容提供操作指导，并结合课程帮助用户学习AI工具、构建Agent和工作流。创始人称，Aibrary用户覆盖160多个国家和地区；BotLearn社区上线三周后入驻Agent超过1万个。目前BotLearn面向个人按课程收费，面向企业提供定制课程、岗位数字员工和培训方案。",
+      "article_title": "库克点赞的10人团队：用户覆盖160多个国家，想做AI时代的终身大学",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/L40_9D1kea68XYL7NAm7Ig",
+      "sector": "AI教育科技、终身学习与智能体应用",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Ouraca",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Ouraca",
+      "company_entity_id": "dr-u-561891229ac2f50b0f72",
+      "company_raw_name": "Ouraca",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Ouraca",
+          "relation": "same_entity",
+          "evidence": "他们创办Ouraca，先后探索AI读书、实操课程和Agent学习社区"
+        },
+        {
+          "name": "Aibrary",
+          "relation": "product",
+          "evidence": "我们先后推出Aibrary和BotLearn，就是按照这个思路推进。"
+        },
+        {
+          "name": "BotLearn",
+          "relation": "product",
+          "evidence": "我们先后推出Aibrary和BotLearn，就是按照这个思路推进。"
+        },
+        {
+          "name": "点点",
+          "relation": "product",
+          "evidence": "我想用“点点”来展示下。它是一个桌面学习助手，可以配合WorkBuddy、Trae等Agent工具使用，也可以用于剪映等软件。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "产品机制、创始人披露的用户覆盖及早期融资支持继续观察，但未建立独立可核验的行业领先地位或全国标杆资格。",
+        "evidence_ids": [
+          "article:ddb2b108db297bdb"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "Ouraca正把学习产品从“按用户背景组织知识”延伸到“在真实软件任务中指导操作”，点点的屏幕辅助和跨工具课程使学习入口更贴近工作现场。其差异化取决于能否把社区经验转化为可靠、可执行的任务指导，而不只是提供软件自身也能覆盖的按钮问答。",
+      "financing": "据创始人回顾，最初一轮融资约700万美元，初心资本、红杉资本、拾象及个人投资者参与；王翔为最早投资者之一。原文未给出融资完成的精确日期。",
+      "event_date": "",
+      "event_headline": "Ouraca试做桌面助手点点，将AI学习延伸至跨工具实操",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "海尔机器人": [
+    {
+      "date": "2026-10-20",
+      "title": "海尔机器人联合滨江企业沃虎科技打造滨江中心旗舰店，提供免费试穿体验。文中介绍的W3新品采用全碳纤维及钛合金材质，重1.75千克，搭载AI步态算法3.0与多维传感系统，适配12种日常场景，单腿最大助力16牛米，最高可降低37%的体能消耗，并为老年群体适配“小碎步”辅助模式。",
+      "article_title": "在滨江，养老“黑科技”buff叠满",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/S6q2HSj5zUNTsVn4lhgCkA",
+      "sector": "可穿戴机器人",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "海尔机器人",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "海尔机器人",
+      "company_entity_id": "dr-u-7f3b46226f059ca90463",
+      "company_raw_name": "海尔机器人",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本篇证明产品能力描述与体验门店应用，未提供该具体主体行业领先地位的独立证据，不能借集团知名度自动取得全国标杆资格。",
+        "evidence_ids": [
+          "article:a7d6584f3eb0d3d0"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "W3将步态感知与关节助力结合，并针对老年人的小步幅行走提供适配，产品用途从一般户外助力延伸到老年日常出行。线下免费试穿为用户判断穿戴适配性和助力感受提供了直接体验入口。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "海尔机器人联合沃虎科技打造滨江外骨骼体验门店",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "沃虎科技": [
+    {
+      "date": "2026-10-20",
+      "title": "滨江企业沃虎科技与海尔机器人共同打造海尔外骨骼机器人滨江中心旗舰店，门店位于西兴街道春风园区，市民可到店免费试穿体验。",
+      "article_title": "在滨江，养老“黑科技”buff叠满",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/S6q2HSj5zUNTsVn4lhgCkA",
+      "sector": "外骨骼机器人应用服务",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "沃虎科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "沃虎科技",
+      "company_entity_id": "dr-u-ef8bcd34d51d88fd11e4",
+      "company_raw_name": "沃虎科技",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "沃虎科技",
+          "relation": "same_entity",
+          "evidence": "该店由海尔机器人联合滨江企业沃虎科技共同打造。"
+        }
+      ],
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "共同建设本地体验门店不足以证明全国行业地位、核心技术或可复制的领先应用服务能力。",
+        "evidence_ids": [
+          "article:a7d6584f3eb0d3d0"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "沃虎科技在本次合作中承担外骨骼线下体验场景的共建角色，其值得研究的是如何连接助力机器人与本地老年用户，而不是将W3的技术指标归为自身研发成果。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "沃虎科技联合海尔机器人打造滨江外骨骼旗舰店",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "萤石": [
+    {
+      "date": "2026-10-20",
+      "title": "萤石养老智能体采用“前端小模型+云端大模型”分层协同架构。其自研跌倒检测算法融合4D阵列雷达，可监测跌倒、离床未归、心率异常等风险并告警，支持语音询问确认跌倒、通知家属与管理平台及双向语音对讲。产品还可生成专属数字人形象，RK3机器人支持服药提醒和天气查询。",
+      "article_title": "在滨江，养老“黑科技”buff叠满",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/S6q2HSj5zUNTsVn4lhgCkA",
+      "sector": "智慧养老与家庭服务机器人",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "萤石",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "萤石",
+      "company_entity_id": "dr-u-2cf6f1b7247330819344",
+      "company_raw_name": "萤石",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "萤石",
+          "relation": "same_entity",
+          "evidence": "萤石自研跌倒检测算法融合4D阵列雷达"
+        },
+        {
+          "name": "RK3机器人",
+          "relation": "product",
+          "evidence": "同时，RK3机器人还支持服药提醒、天气查询等智能服务。"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持具体产品技术路线与应用价值，但未提供行业领先地位、独立性能比较或规模应用依据，尚不足建立全国标杆资格。",
+        "evidence_ids": [
+          "article:a7d6584f3eb0d3d0"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "萤石将无感监测、语音确认和远程联系串成了养老响应链条，产品价值不只在识别异常，还在于让家属和管理平台能够接续处置。前端感知与云端交互的分工，是其将安全守护和情感陪伴整合到同一体系的技术路径。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "萤石养老智能体联动雷达监测、语音确认与家属告警",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "脉象健康": [
+    {
+      "date": "2026-10-20",
+      "title": "脉象健康推出MX系列中医智能终端设备，包括MX-I-β、MX-I-γ，具备舌诊、面诊、脉诊等多模态采集能力，结合自研中医AI云平台提供体质辨识、健康报告和个性化调理建议。设备针对老年群体优化字体和语音提示，支持老人自行操作或在社区工作人员协助下完成无创检测。",
+      "article_title": "在滨江，养老“黑科技”buff叠满",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/S6q2HSj5zUNTsVn4lhgCkA",
+      "sector": "中医智能设备与健康管理",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "脉象健康",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "脉象健康",
+      "company_entity_id": "dr-u-b7a7e12633f3fef4ff04",
+      "company_raw_name": "脉象健康",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "MX系列中医智能终端设备",
+          "relation": "product",
+          "evidence": "脉象健康推出了MX系列中医智能终端设备（如MX-I-β、MX-I-γ），将传统中医与现代AI技术结合。"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "多模态终端和自研平台能够支持产品关注价值，但缺少行业地位、独立性能比较及规模应用证据，尚不足认定全国标杆。",
+        "evidence_ids": [
+          "article:a7d6584f3eb0d3d0"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "脉象健康把舌、面、脉信息采集与云端分析整合到终端，使体质辨识和健康报告能够在老人自行操作或社区协助的条件下完成。适老化界面的意义是降低采集操作门槛，而非单纯增加展示功能。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "脉象健康推出MX系列中医智能终端并优化老年操作",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "安徽智界新能源汽车有限公司": [
+    {
+      "date": "2026-10-20",
+      "title": "工信部10月16日公示第412批《道路机动车辆生产企业及产品公告》，安徽智界新能源汽车有限公司列入拟发布新准入车辆生产企业清单，公示期至10月23日。10月17日，智界汽车内部人士称，公示结束获批后将取得独立造车资质，并确认未来计划独立上市。",
+      "article_title": "全球人形机器人收入前五全是中国企业；宇树科技展示中心在天津建成投用丨智能制造日报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/FKKj948LMswMykJC05-Y8Q",
+      "sector": "新能源汽车",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "安徽智界新能源汽车有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "安徽智界新能源汽车有限公司",
+      "company_entity_id": "dr-u-dd6c383baed9c6c64e36",
+      "company_raw_name": "安徽智界新能源汽车有限公司",
+      "identity_status": "unresolved",
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条证明准入程序进展，尚未建立该主体在整车技术、制造效率或市场竞争中的独立对标地位；上市计划不能替代标杆资格证据。",
+        "evidence_ids": [
+          "article:2f03cf918fb91a93"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "进入生产企业准入公示，意味着智界独立制造主体建设推进到监管程序环节。若后续获批，其变化将不仅是品牌运营，还涉及整车生产资格的独立承接；目前不能写成已经取得资质。",
+      "financing": "智界汽车内部人士确认未来计划独立上市，未披露上市时间、地点或融资规模。",
+      "event_date": "",
+      "event_headline": "安徽智界新能源汽车有限公司进入拟新准入车企公示名单",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "华羽先翔": [
+    {
+      "date": "2026-10-20",
+      "title": "据报道，白志亮带队研发的鸿鹄eVTOL预生产原型机在2026 Inclusion·外滩大会公开亮相。报道同时称，华羽先翔已实现全倾转过渡飞行，为全球第二家、中国首家实现该项飞行的eVTOL企业。",
+      "article_title": "全球人形机器人收入前五全是中国企业；宇树科技展示中心在天津建成投用丨智能制造日报",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/FKKj948LMswMykJC05-Y8Q",
+      "sector": "低空经济／电动航空",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "华羽先翔",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "华羽先翔",
+      "company_entity_id": "dr-u-da4d963839a416664a25",
+      "company_raw_name": "华羽先翔",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "全倾转过渡飞行构成潜在技术对标依据，但当前只有转述，尚未对齐试飞机型、条件及所称行业位次的比较口径，不据此直接授予全国标杆资格。",
+        "evidence_ids": [
+          "article:2f03cf918fb91a93"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "全倾转过渡飞行连接垂直起降与机翼巡航，是这类飞行器从悬停走向完整飞行任务的关键能力。报道披露的过渡飞行进展与预生产原型机亮相，使华羽先翔值得从整机工程化角度研究；下一步应对齐两项事实对应的机型与试飞条件，判断能力推进到了哪一代产品。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "华羽先翔鸿鹄预生产原型机亮相，披露全倾转飞行进展",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "吉利": [
+    {
+      "date": "2026-10-20",
+      "title": "10月10日，吉利首款新能源硬派SUV银河战舰700全球上市。发布会设置深水河道、极限陡坡等越野实景，展示产品应用场景。",
+      "article_title": "Geely Launches Galaxy Zhanjian 700 Globally 吉利银河战舰700全球上市",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/7kjEyJMWAa1EZlbOH3xI1A",
+      "sector": "新能源汽车",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "吉利",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "吉利",
+      "company_entity_id": "dr-u-87d7bfad176bce736a12",
+      "company_raw_name": "吉利",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "银河战舰700",
+          "relation": "product",
+          "evidence": "吉利首款新能源硬派SUV——银河战舰700全球上市"
+        }
+      ],
+      "score": 40,
+      "is_national_star": false,
+      "published_date": "2026-10-18",
+      "insight": "此次上市把吉利银河的新能源产品线延伸到强调涉水、爬坡等用途的硬派越野场景。现场设置对应实景，说明发布重点不仅是车型外观，也包括使用任务；但不能据此认定其已建立行业技术标准。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "吉利推出银河战舰700，拓展新能源硬派SUV产品线",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "虹软科技": [
+    {
+      "date": "2026-10-20",
+      "title": "虹软在2026骁龙峰会展示多项视觉AI技术，基于第六代骁龙8至尊版和第六代骁龙8超级至尊版移动平台，涉及多设备AI推理、人像智能拍摄，以及智能眼镜与智能手机协同计算。",
+      "article_title": "Geely Launches Galaxy Zhanjian 700 Globally 吉利银河战舰700全球上市",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/7kjEyJMWAa1EZlbOH3xI1A",
+      "sector": "视觉人工智能与智能终端",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "虹软科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "虹软科技",
+      "company_entity_id": "dr-u-47e61a10d8a04f9405d7",
+      "company_raw_name": "虹软科技",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本篇足以证明具体技术展示，但未提供行业领先地位、规模应用或可比性能证据，尚未建立全国标杆资格。",
+        "evidence_ids": [
+          "article:39fc0d4c95592e47"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "虹软此次展示的重点从单台手机的拍摄处理延伸到眼镜与手机之间的计算协作，使视觉AI能力覆盖跨设备使用场景。其产业意义在于算法需要同时适配移动芯片平台和设备间协同，而不只是增加单机摄影功能。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "虹软科技展示智能眼镜与手机协同计算及视觉AI技术",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "杭州信雅达科技": [
+    {
+      "date": "2026-10-20",
+      "title": "信雅达旗下全资子公司杭州信雅达科技参加在迪拜举行的Seamless Middle East 2026，展示最新智能支付终端系列产品及支付解决方案，覆盖智能支付终端和终端管理等能力。",
+      "article_title": "Geely Launches Galaxy Zhanjian 700 Globally 吉利银河战舰700全球上市",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/7kjEyJMWAa1EZlbOH3xI1A",
+      "sector": "金融科技与支付终端",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "杭州信雅达科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "杭州信雅达科技",
+      "company_entity_id": "dr-u-b37bddc6b51c326ec092",
+      "company_raw_name": "杭州信雅达科技",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "参展和产品展示支持日报进展线索，但未证明市场份额、规模部署、技术领先性或其他独立行业地位，不能据此授予全国标杆资格。",
+        "evidence_ids": [
+          "article:39fc0d4c95592e47"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "杭州信雅达科技展示的不只是收款硬件，还包括支付解决方案和终端管理，产品覆盖支付设备使用及管理两个环节。此次参展为其面向中东金融机构和支付伙伴展示这些能力提供了渠道，但原文尚未披露当地部署或签约。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "杭州信雅达科技在迪拜展示支付终端及终端管理能力",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Alef Aeronautics": [
+    {
+      "date": "2026-10-20",
+      "title": "据报道，Alef Aeronautics发布电动飞行汽车飞越特斯拉Cyber卡车及Roadster跑车的视频。公司称已收到超过3600辆、总价值10亿美元的预订单，计划2027年开始量产，首款车型预计起售价299999美元。报道另称，其飞行汽车于2023年获得美国联邦航空管理局特殊适航认证。",
+      "article_title": "马斯克遭遇“踢馆”：一家公司发飞行汽车视频，并称领先11年；“彩电第一股“”康佳退市，4年累亏约203亿；智界将获独立造车资质丨邦早报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/38mgbPzvQ63QdaHnJyExIQ",
+      "sector": "电动飞行汽车",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Alef Aeronautics",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Alef Aeronautics",
+      "company_entity_id": "dr-u-5b41277dd83240e3141d",
+      "company_raw_name": "Alef Aeronautics",
+      "identity_status": "unresolved",
+      "score": 25,
+      "is_national_star": false,
+      "published_date": "2026-10-18",
+      "insight": "飞行演示呈现了车辆的飞行能力，预订单则提供了潜在购买需求线索；下一项值得研究的变化，是公司如何从演示车型走向计划中的量产产品。“领先11年”是公司自述，不能据此判定其相对其他企业的技术领先幅度。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Alef Aeronautics发布飞行汽车演示视频，计划2027年量产",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "北京开运联合信息技术集团股份有限公司": [
+    {
+      "date": "2026-10-20",
+      "title": "开运联合等九方于10月17日共同发起OpenSpace开源太空生态与社区，并发布开源计算星座计划，首期规划2600颗卫星，包括1000颗通算、1000颗智算/超算、500颗边缘计算及100颗量子计算卫星。",
+      "article_title": "马斯克遭遇“踢馆”：一家公司发飞行汽车视频，并称领先11年；“彩电第一股“”康佳退市，4年累亏约203亿；智界将获独立造车资质丨邦早报",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/38mgbPzvQ63QdaHnJyExIQ",
+      "sector": "商业航天／在轨计算基础设施",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "北京开运联合信息技术集团股份有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "北京开运联合信息技术集团股份有限公司",
+      "company_entity_id": "dr-u-7fe289f624261c83845c",
+      "company_raw_name": "北京开运联合信息技术集团股份有限公司",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "published_date": "2026-10-18",
+      "insight": "开运联合以开源社区和星座规划组织在轨计算生态，提出把卫星作为太空服务器的基础设施路径。当前变化是生态及计划发布；研究价值在于后续如何把不同计算任务分配到星座并形成可用服务。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "开运联合共同发起开源太空社区，发布首期规划2600颗卫星的星座计划",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Valve": [
+    {
+      "date": "2026-10-20",
+      "title": "据报道，Valve向PCGamer确认正在为Steam Frame VR头显开发新头带，拟配备可热插拔电池及平衡模式辐射器音频单元，以改善续航和音频体验；新头带尚在开发。",
+      "article_title": "马斯克遭遇“踢馆”：一家公司发飞行汽车视频，并称领先11年；“彩电第一股“”康佳退市，4年累亏约203亿；智界将获独立造车资质丨邦早报",
+      "event_type": "产品研发",
+      "link": "https://mp.weixin.qq.com/s/38mgbPzvQ63QdaHnJyExIQ",
+      "sector": "虚拟现实设备",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Valve",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Valve",
+      "company_entity_id": "dr-u-c9af477d19b132dbcda4",
+      "company_raw_name": "Valve",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "published_date": "2026-10-18",
+      "insight": "Valve把头显续航改进放在可更换电池的配件上，使用户有望通过换电延长单次使用，而不必等待机身充电。音频同时向离耳式体验靠近，反映其对持续佩戴任务的产品取舍；效果仍待新头带实物表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "据报道，Valve正开发Steam Frame新头带，拟配热插拔电池",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
