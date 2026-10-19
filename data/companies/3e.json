@@ -152,6 +152,74 @@
       "event_headline": "流形空间完成数亿元Pre A+轮融资，资金将投入世界模型研发",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "据文章，流形空间提出WorldScape R²SI机器人递归自进化框架，并以46.58的宏观进度分数取得RoboDojo-Agent总榜第一。框架由负责执行的内层Robot Agent和负责跨轮次复盘的外层Recursion Agent组成，外层可修订任务技能，也可将执行记录组织为训练数据更新动作模型，更新通过测试后发布。在push_T任务中，技能修订后首次以596步在600步预算内取得原生满分，后续同一布局降至389步；技能冻结后，在三种随机布局中分别以222、312、256步取得原生满分。",
+      "article_title": "生态企业 | 登顶RoboDojo、超过GPT-6 Astra：［流形空间Manifold AI］推出R²SI",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Vd2OH4iM5MwoAXwG6SLALg",
+      "sector": "具身智能与世界模型",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Manifold AI（流形空间）",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "银杏谷资本",
+      "kind": "event",
+      "canonical_name": "Manifold AI（流形空间）",
+      "company_entity_id": "dr-u-6e87ca9f16086bf55257",
+      "company_raw_name": "Manifold AI（流形空间）",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "Manifold AI（流形空间）",
+          "relation": "same_entity",
+          "evidence": "Manifold AI（流形空间）成立于2025年5月"
+        },
+        {
+          "name": "WorldScape Policy",
+          "relation": "product",
+          "evidence": "基于 WorldScape 世界模型，Manifold AI研发了世界-动作模型 WorldScape Policy。"
+        },
+        {
+          "name": "WorldScape R²SI",
+          "relation": "product",
+          "evidence": "Manifold AI 提出了 WorldScape R²SI（Recursive Robot Self-Improvement，机器人递归自进化）框架"
+        }
+      ],
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体框架和试验足以支持技术线索，但全国标杆所需的独立行业地位依据尚未建立。现有排名、全面超越及首家等说法来自投资机构文章，缺少独立榜单与可比测试条件核验；历史is_national_star本身不是已完成资格审核的证据。",
+        "evidence_ids": [
+          "article:7b02cf225a90fbbd",
+          "accepted_history:83ec7d1625ad5892"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "这次进展将机器人能力改进从单次动作生成扩展到执行后的技能修订与模型更新：push_T案例中，外层先修正夹持、转向和释放方式，冻结后的技能再用于三种随机布局，展示了经验复用的具体路径。该案例不调用动作模型，因此其成绩主要体现技能与执行系统的改进，不能全部归因于世界动作模型本身。",
+      "financing": "企业简介称，公司成立半年多完成来自头部VC和华为的5轮投资；正文另称融资资金将用于新一代技术框架、多模态世界模型及相关基础设施平台建设，并推动具身智能场景落地与混合现实应用探索，未明确对应轮次、金额及完成日期。",
+      "event_date": "",
+      "event_headline": "流形空间推出R²SI框架，将机器人执行经验用于技能与模型更新",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "DeepSeek": [
