@@ -5,12 +5,12 @@
   "start_date": "2026-10-19",
   "end_date": "2026-10-25",
   "summary": {
-    "total_companies": 48,
-    "financing_events": 4,
+    "total_companies": 74,
+    "financing_events": 8,
     "ipo_events": 1,
-    "milestone_events": 17,
+    "milestone_events": 27,
     "negative_events": 0,
-    "active_days": 1
+    "active_days": 2
   },
   "top10": [
     {
@@ -177,6 +177,171 @@
           "reason": "本条提供具体实验基线比较，足以支持训练基础设施观察，但尚无独立复现或行业地位证据建立该业务的全国标杆资格，不以阿里知名度授予标签。",
           "evidence_ids": [
             "article:b48b4d136c38f6ad"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "Anthropic",
+      "title": "DeepSeek V4.1 Flash新版本发布，许愿式编程一键成真；微软推出“AI学生模拟器”丨AIGC日报",
+      "company": "Anthropic",
+      "score": 70,
+      "sector": "人工智能算力基础设施",
+      "financing": "据报道融资方案总规模600亿美元；其中180亿美元为次级贷款，黑石旗下基金拟购买90亿美元债务，票面利率10%、整体回报率更高。其余90亿美元拟后续发售，未披露全部融资已完成。",
+      "source": "创业邦",
+      "location": "US / San Francisco",
+      "article_location": "US / San Francisco",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / San Francisco",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "subject_evidence_ids": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Anthropic",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-98b8e2309e1c91685311fb4f"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+            "source_url": "https://www.anthropic.com/privacy",
+            "checked_at": "2026-10-12T03:44:07.679932+00:00",
+            "subject": "Anthropic",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-c70eca6b0f88f44d81a4",
+      "company_canonical_name": "Anthropic",
+      "identity_status": "confirmed",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/WqzAVz5UR-Pny9-2LeyVDA",
+      "article_title": "DeepSeek V4.1 Flash新版本发布，许愿式编程一键成真；微软推出“AI学生模拟器”丨AIGC日报",
+      "event_desc": "据报道，代号“北极星项目”的600亿美元债务融资方案将支持Anthropic采购约1.5吉瓦的谷歌TPU芯片。知情人士称，黑石旗下基金将出资90亿美元购买其中债务，约占180亿美元次级贷款的一半，票面利率为10%，整体回报率更高；偿债来源为Anthropic为期五年的芯片租赁款，其余90亿美元拟在未来数月发售。黑石拒绝置评，Anthropic暂未回应。",
+      "insight": "该方案把长期芯片租赁付款与外部债务融资连接起来，为大额算力采购提供资金组织路径。若按报道落地，Anthropic获得算力的同时将承担多年付款义务；两位数融资回报要求反映资金成本，但不足以单独证明公司已出现偿付困难。",
+      "event_headline": "据报道Anthropic筹划600亿美元芯片融资，采购TPU算力",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-18",
+        "event_date": null,
+        "observed_date": "2026-10-18",
+        "review_required": true
+      },
+      "published_date": "2026-10-18",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "Anthropic主体已确认，原文将其明确列为TPU算力需求及长期芯片租赁付款方，黑石旗下基金是拟参与债务投资的一方，谷歌是所述TPU研发方，不能混同角色。据报道的600亿美元融资方案、约1.5吉瓦算力规模及五年租赁付款安排，提供了算力采购与债务资金组织相连接的具体产业观察线索，可按媒体披露的拟议方案保留。交易方未确认，不写融资完成或算力已交付；10%票面利率与更高整体回报不能直接推出偿付困难。已审登记地址为美国旧金山，本条不具杭州负面预警资格。",
+      "event_headline_source": "e29f26a25d0b002c5d32bed7d6b1f34ac45e8dd7adcbd050d748f667a3593741",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+          "source_url": "https://www.anthropic.com/privacy",
+          "checked_at": "2026-10-12T03:44:07.679932+00:00",
+          "subject": "Anthropic",
+          "role": "registered",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "San Francisco"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条足以支持具体算力融资方案的产业观察价值，但交易尚未确认，未提供独立可核的行业地位比较依据或已审标杆资格。不能凭方案规模、历史上游标签或企业知名度自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:4fab20b80db5e8e6"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent; overnight current Agent full-body and directed review",
+        "candidate_id": "dfd9a977fd81183ce5feb7942f344e3fecb4ba41efb4361d6815d6c73da3a59b",
+        "input_row_sha256": "098a2a198f5fccbfc221c3967a0d65a118b27a81d6b11912c563b087b5f5b2c0",
+        "reason": "Anthropic主体已确认，原文将其明确列为TPU算力需求及长期芯片租赁付款方，黑石旗下基金是拟参与债务投资的一方，谷歌是所述TPU研发方，不能混同角色。据报道的600亿美元融资方案、约1.5吉瓦算力规模及五年租赁付款安排，提供了算力采购与债务资金组织相连接的具体产业观察线索，可按媒体披露的拟议方案保留。交易方未确认，不写融资完成或算力已交付；10%票面利率与更高整体回报不能直接推出偿付困难。已审登记地址为美国旧金山，本条不具杭州负面预警资格。",
+        "scope": {
+          "technology_evidence": "正文第6项称“北极星项目”债务融资方案规模600亿美元，将支持采购约1.5吉瓦谷歌TPU；黑石旗下基金拟购买90亿美元债务，相关次级贷款总额180亿美元，偿债来源为Anthropic五年芯片租赁款。",
+          "value_reason": "本事件展示大模型企业如何以长期算力租赁付款支撑外部融资。对杭州模型企业和算力项目的具体对标点是算力提前锁定、长期付款义务与融资成本之间的匹配，而非仅看融资总额；目前不能判断该结构已落地或经济性优于其他采购方式。"
+        },
+        "stage": {
+          "status": "reported_financing_plan_upcoming",
+          "reason": "关键条款来自知情人士，原文使用“将出资”和未来数月发售等措辞，黑石拒绝置评、Anthropic暂未回应。只能确认存在该方案的媒体报道，不能确认全部融资完成、债务已交割或芯片已交付。报道发布时间为2026-10-18T01:10:00Z，符合近7日窗口；交易具体日期和首次收录时间未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:3759faee6d2f4d53",
+            "accepted_history:5f63d1637094e575",
+            "accepted_history:c234511a046a6a3a",
+            "accepted_history:42dd026d10f0f7fe",
+            "accepted_history:43f467afac17279b",
+            "accepted_history:411b5d17b87a0b2b",
+            "prior_decision:98796d7b80204373",
+            "prior_decision:047d2adbaf681fa9",
+            "history_lookup:4c4c347500e3c7b1"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:98796d7b80204373",
+              "comparison": "different_event",
+              "reason": "此前待核对象是第三季度收入、调整后利润和现金流数据，其材料出处存在疑点；本次是具有独立交易名称、算力规模和债务条款的芯片融资方案，未用本条解除旧财务事件的待核状态。"
+            },
+            {
+              "evidence_id": "prior_decision:047d2adbaf681fa9",
+              "comparison": "different_event",
+              "reason": "该记录同样针对第三季度经营数据来源与口径，不是北极星芯片融资事件。旧待核裁决不构成企业整体排除，本次也不据此确认旧财务数字。"
+            }
+          ],
+          "change_reason": "8月17日记录为第二季度经营及IPO筹备，9月15日记录为IPO地点、融资目标及算力承诺，10月8日记录为IPO、客户结构和基建投入，均未给出本次北极星方案的债务分层、黑石参与条款和五年芯片租赁偿债安排。10月11日Haiku发布、10月12日使用政策和网络安全权限扩大是另外三项事件。本次保留独立融资线索，不重复收录IPO背景，也不改判此前经营数据待核事件；仅在提供的历史范围内未发现同一融资事件。",
+          "new_evidence_ids": [
+            "article:4fab20b80db5e8e6"
+          ]
+        },
+        "evidence_ids": [
+          "article:4fab20b80db5e8e6",
+          "identity_registry:2dcd4f408df25406",
+          "geo-98b8e2309e1c91685311fb4f",
+          "accepted_history:c234511a046a6a3a",
+          "prior_decision:98796d7b80204373",
+          "prior_decision:047d2adbaf681fa9",
+          "history_lookup:4c4c347500e3c7b1"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条足以支持具体算力融资方案的产业观察价值，但交易尚未确认，未提供独立可核的行业地位比较依据或已审标杆资格。不能凭方案规模、历史上游标签或企业知名度自动授予全国标杆资格。",
+          "evidence_ids": [
+            "article:4fab20b80db5e8e6"
           ]
         }
       }
@@ -390,6 +555,338 @@
           "reason": "融资及创始人研究经历支持创业发现价值，但尚无企业自身产品能力、客户采用或独立行业比较证据建立全国标杆资格。",
           "evidence_ids": [
             "article:7d1048a2c304ae4b"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "FlipFlop拓原",
+      "title": "29岁Nature一作乔木，被曝创业量子计算",
+      "company": "FlipFlop拓原",
+      "score": 60,
+      "sector": "量子计算",
+      "financing": "据报道已完成种子轮、天使轮融资，累计数亿元人民币；投资方包括源码、绿洲、中金等，未披露各轮金额及资金用途。",
+      "source": "量子位",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "FlipFlop拓原",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-8f8185774b7972937e3c",
+      "company_canonical_name": "FlipFlop拓原",
+      "identity_status": "unresolved",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/M_pjVXH2aQtdAirMtXUsFQ",
+      "article_title": "29岁Nature一作乔木，被曝创业量子计算",
+      "event_desc": "据量子位报道，FlipFlop拓原已完成种子轮、天使轮融资，累计金额数亿元人民币，投资方包括源码、绿洲、中金等。公司瞄准中性原子量子计算；据参与投资的投资人介绍，公司从容错计算需求出发设计整机架构，将百逻辑比特系统作为重要研发目标，并希望逐步将AI引入实验设计、数据处理和设备控制。",
+      "insight": "拓原值得关注的变化，是具有中性原子实验研究经历的团队开始以创业公司形式推进量子计算整机研发，并获得两轮资本支持。其从容错需求倒推整机架构的路径，将研究重点从原子阵列实验延伸到可纠错的逻辑比特系统；百逻辑比特目前仍是研发目标。",
+      "event_headline": "据报道拓原完成种子轮及天使轮融资，累计数亿元",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-18",
+        "event_date": null,
+        "observed_date": "2026-10-18",
+        "review_required": true
+      },
+      "published_date": "2026-10-18",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确将FlipFlop拓原称为创业公司，并报道其完成种子轮、天使轮融资，累计数亿元人民币；主体不是创始人的论文或此前任职企业。中性原子量子计算团队获得早期资本支持、转向整机架构研发，构成具体科技企业成长线索。2026年10月18日新闻发布时间已由本包提供，符合最近7天窗口，上游所称发布时间缺失不再成立。所供历史检索无匹配记录，但工商主体映射及别名覆盖未完成，不宣称首次发现。地点保持待核，不赋予杭州身份；正面线索不因地点未知或融资日期不详排除。",
+      "event_headline_source": "b49dbbab3a70ee181423183a55b7e2820429f3286409dcba43a088f46e075fa2",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资与团队研究经历支持发现价值，但未证明公司已交付的量子计算系统能力、行业领先地位或可验证应用效果，尚不足以确立全国标杆资格。",
+        "evidence_ids": [
+          "article:44531b2a2c8b8dca"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent; overnight current Agent full-body and directed review",
+        "candidate_id": "2b4854a8af882cc7b2fdab179eddfebaf89fef49dc283229d7837058ec66c0b9",
+        "input_row_sha256": "ea9238345649a32eee68e51e5a59d49d6ee9ea71630569475245c6a97ab78374",
+        "reason": "原文明确将FlipFlop拓原称为创业公司，并报道其完成种子轮、天使轮融资，累计数亿元人民币；主体不是创始人的论文或此前任职企业。中性原子量子计算团队获得早期资本支持、转向整机架构研发，构成具体科技企业成长线索。2026年10月18日新闻发布时间已由本包提供，符合最近7天窗口，上游所称发布时间缺失不再成立。所供历史检索无匹配记录，但工商主体映射及别名覆盖未完成，不宣称首次发现。地点保持待核，不赋予杭州身份；正面线索不因地点未知或融资日期不详排除。",
+        "scope": {
+          "technology_evidence": "正文报道公司面向中性原子量子计算开展创业，完成两轮融资；参与投资的投资人介绍其从容错计算需求出发设计整机架构，将百逻辑比特系统作为研发目标，并计划逐步引入AI辅助实验设计、数据处理和设备控制。",
+          "value_reason": "资金支持与明确的量子计算整机研发路线相结合，值得观察科研团队向工程化企业转化的路径。当前可关注其资本成长及技术路线选择，不能将百逻辑比特目标写成已经实现的系统能力，也不补造融资用途。"
+        },
+        "stage": {
+          "status": "媒体报道已完成融资；整机与百逻辑比特系统处于研发目标阶段",
+          "reason": "融资完成及累计金额来自媒体与接近公司的业内人士，未提供各轮独立公告或精确完成日期。正文对成立后融资所用时长存在一个多月与两个月两种表述，不据此推算融资日期。新闻发布时间为2026-10-18T12:30:00Z；实际融资日期及首次收录时间未知。"
+        },
+        "history": {
+          "result": "uncertain",
+          "evidence_ids": [
+            "history_lookup:4c4c347500e3c7b1",
+            "identity_registry:2dcd4f408df25406"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本包accepted_history与prior_decisions均为空，检索未报告错误，所供范围未见同一融资事件；但主体映射未完成且无已确认别名，不能把未匹配等同完整历史中首次出现。无旧裁决需要撤销。",
+          "new_evidence_ids": [
+            "article:44531b2a2c8b8dca"
+          ]
+        },
+        "evidence_ids": [
+          "article:44531b2a2c8b8dca",
+          "history_lookup:4c4c347500e3c7b1",
+          "identity_registry:2dcd4f408df25406"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "融资与团队研究经历支持发现价值，但未证明公司已交付的量子计算系统能力、行业领先地位或可验证应用效果，尚不足以确立全国标杆资格。",
+          "evidence_ids": [
+            "article:44531b2a2c8b8dca"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "Manifold AI（流形空间）",
+      "identity_mentions": [
+        {
+          "name": "Manifold AI（流形空间）",
+          "relation": "same_entity",
+          "evidence": "Manifold AI（流形空间）成立于2025年5月"
+        },
+        {
+          "name": "WorldScape Policy",
+          "relation": "product",
+          "evidence": "基于 WorldScape 世界模型，Manifold AI研发了世界-动作模型 WorldScape Policy。"
+        },
+        {
+          "name": "WorldScape R²SI",
+          "relation": "product",
+          "evidence": "Manifold AI 提出了 WorldScape R²SI（Recursive Robot Self-Improvement，机器人递归自进化）框架"
+        }
+      ],
+      "title": "生态企业 | 登顶RoboDojo、超过GPT-6 Astra：［流形空间Manifold AI］推出R²SI",
+      "company": "Manifold AI（流形空间）",
+      "score": 60,
+      "sector": "具身智能与世界模型",
+      "financing": "企业简介称，公司成立半年多完成来自头部VC和华为的5轮投资；正文另称融资资金将用于新一代技术框架、多模态世界模型及相关基础设施平台建设，并推动具身智能场景落地与混合现实应用探索，未明确对应轮次、金额及完成日期。",
+      "source": "银杏谷资本",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Manifold AI（流形空间）",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-6e87ca9f16086bf55257",
+      "company_canonical_name": "Manifold AI（流形空间）",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Vd2OH4iM5MwoAXwG6SLALg",
+      "article_title": "生态企业 | 登顶RoboDojo、超过GPT-6 Astra：［流形空间Manifold AI］推出R²SI",
+      "event_desc": "据文章，流形空间提出WorldScape R²SI机器人递归自进化框架，并以46.58的宏观进度分数取得RoboDojo-Agent总榜第一。框架由负责执行的内层Robot Agent和负责跨轮次复盘的外层Recursion Agent组成，外层可修订任务技能，也可将执行记录组织为训练数据更新动作模型，更新通过测试后发布。在push_T任务中，技能修订后首次以596步在600步预算内取得原生满分，后续同一布局降至389步；技能冻结后，在三种随机布局中分别以222、312、256步取得原生满分。",
+      "insight": "这次进展将机器人能力改进从单次动作生成扩展到执行后的技能修订与模型更新：push_T案例中，外层先修正夹持、转向和释放方式，冻结后的技能再用于三种随机布局，展示了经验复用的具体路径。该案例不调用动作模型，因此其成绩主要体现技能与执行系统的改进，不能全部归因于世界动作模型本身。",
+      "event_headline": "流形空间推出R²SI框架，将机器人执行经验用于技能与模型更新",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-18",
+        "event_date": null,
+        "observed_date": "2026-10-18",
+        "review_required": true
+      },
+      "published_date": "2026-10-18",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "继承流形空间已确认的稳定企业身份，正文明确其为WorldScape R²SI研发方，相关模型和框架是产品而非独立企业。投资机构文章披露双层Agent执行、复盘、技能修订及动作模型训练路径，并给出push_T预算内完成及冻结技能后随机布局测试结果，具有具体机器人系统研发价值。来源发布时间为2026年10月18日，符合最近7天窗口，推出及评测的确切事件日未知。历史收录是Pre A+融资及WorldScore相关事实，本次R²SI框架和RoboDojo任务结果为另一事件。保留为来源披露的阶段性技术线索，不将投资机构转述的榜首和超越表述认定为独立核验的通用能力结论，也不把融资背景和相关阅读作为本次新融资。地点未知不阻断正面收录。",
+      "event_headline_source": "b6d2bb95631e3330a90ed1567c79ddc7feece765a9c5ab7a031e926df752ffce",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体框架和试验足以支持技术线索，但全国标杆所需的独立行业地位依据尚未建立。现有排名、全面超越及首家等说法来自投资机构文章，缺少独立榜单与可比测试条件核验；历史is_national_star本身不是已完成资格审核的证据。",
+        "evidence_ids": [
+          "article:7b02cf225a90fbbd",
+          "accepted_history:83ec7d1625ad5892"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent; overnight current Agent full-body and directed review",
+        "candidate_id": "7a061703df9a6170855e70f46fbaf9a5d58ca4ed5a18cb69e4a9c890c304e1d1",
+        "input_row_sha256": "d28d47075652be58a27bf0b54462b07f63fc739e0f1ada7f8e35fd0b4789206c",
+        "reason": "继承流形空间已确认的稳定企业身份，正文明确其为WorldScape R²SI研发方，相关模型和框架是产品而非独立企业。投资机构文章披露双层Agent执行、复盘、技能修订及动作模型训练路径，并给出push_T预算内完成及冻结技能后随机布局测试结果，具有具体机器人系统研发价值。来源发布时间为2026年10月18日，符合最近7天窗口，推出及评测的确切事件日未知。历史收录是Pre A+融资及WorldScore相关事实，本次R²SI框架和RoboDojo任务结果为另一事件。保留为来源披露的阶段性技术线索，不将投资机构转述的榜首和超越表述认定为独立核验的通用能力结论，也不把融资背景和相关阅读作为本次新融资。地点未知不阻断正面收录。",
+        "scope": {
+          "technology_evidence": "正文描述内层Robot Agent执行任务、外层Recursion Agent跨轮次修订Skill，并可组织执行记录训练reactive model；push_T不调用该模型，技能修订后以596步在600步预算内取得原生满分，后续同布局389步，冻结后在三种随机布局分别以222、312、256步完成。",
+          "value_reason": "具体任务展示将执行失败诊断转化为可复用技能的路径，并区分技能更新与模型训练两条改进机制，为评估机器人减少重复试错、迁移操作经验提供技术线索；尚不能据此认定工业场景的可靠性、经济性或通用自主进化已经成立。"
+        },
+        "stage": {
+          "status": "框架已披露，来源报告基准评测与任务试验结果",
+          "reason": "正文给出框架结构和任务执行记录，支持研发及实验阶段进展；push_T成绩主要对应技能和执行系统改进，不是该案例动作模型训练的证明。RoboDojo总榜第一及46.58分按文章披露归属，未提供独立读取的原始榜单记录；本次框架的客户部署、量产和收入未获证明。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:83ec7d1625ad5892",
+            "history_lookup:4c4c347500e3c7b1"
+          ],
+          "prior_decisions": [],
+          "change_reason": "2026年4月5日已收录的是数亿元Pre A+融资、既有世界模型业务及WorldScore成绩；本条新增R²SI双层Agent机制和RoboDojo任务试验，非旧融资换来源重报。当前检索未提供同一R²SI事件的既往收录或排除裁决，不认定全局首次发现。",
+          "new_evidence_ids": [
+            "article:7b02cf225a90fbbd"
+          ]
+        },
+        "evidence_ids": [
+          "identity_registry:2dcd4f408df25406",
+          "article:7b02cf225a90fbbd",
+          "accepted_history:83ec7d1625ad5892",
+          "history_lookup:4c4c347500e3c7b1"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "具体框架和试验足以支持技术线索，但全国标杆所需的独立行业地位依据尚未建立。现有排名、全面超越及首家等说法来自投资机构文章，缺少独立榜单与可比测试条件核验；历史is_national_star本身不是已完成资格审核的证据。",
+          "evidence_ids": [
+            "article:7b02cf225a90fbbd",
+            "accepted_history:83ec7d1625ad5892"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "华羽先翔",
+      "title": "全球人形机器人收入前五全是中国企业；宇树科技展示中心在天津建成投用丨智能制造日报",
+      "company": "华羽先翔",
+      "score": 60,
+      "sector": "低空经济／电动航空",
+      "financing": "",
+      "source": "创业邦",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "华羽先翔",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-da4d963839a416664a25",
+      "company_canonical_name": "华羽先翔",
+      "identity_status": "unresolved",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/FKKj948LMswMykJC05-Y8Q",
+      "article_title": "全球人形机器人收入前五全是中国企业；宇树科技展示中心在天津建成投用丨智能制造日报",
+      "event_desc": "据报道，白志亮带队研发的鸿鹄eVTOL预生产原型机在2026 Inclusion·外滩大会公开亮相。报道同时称，华羽先翔已实现全倾转过渡飞行，为全球第二家、中国首家实现该项飞行的eVTOL企业。",
+      "insight": "全倾转过渡飞行连接垂直起降与机翼巡航，是这类飞行器从悬停走向完整飞行任务的关键能力。报道披露的过渡飞行进展与预生产原型机亮相，使华羽先翔值得从整机工程化角度研究；下一步应对齐两项事实对应的机型与试飞条件，判断能力推进到了哪一代产品。",
+      "event_headline": "华羽先翔鸿鹄预生产原型机亮相，披露全倾转飞行进展",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-18",
+        "event_date": null,
+        "observed_date": "2026-10-18",
+        "review_required": true
+      },
+      "published_date": "2026-10-18",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "定向改判：完整正文明确白志亮带领的华羽先翔与鸿鹄eVTOL预生产原型机、企业全倾转过渡飞行的关系，主体无冲突。展示与过渡飞行支持具体整机研发线索；不把可量产写成已量产，也不认定两项事实对应同一机型或试飞条件。10月18日新闻有效，所给历史无同事件。法律主体映射及地点未知不否定正面产品事实；不从学校或展会所在地推定属地。原watch没有其他实质缺口，予以纠正。",
+      "event_headline_source": "e2b9a208cc4eafa73b80d121a7815c83a658770bf494b44b9cd10838b55ed807",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "全倾转过渡飞行构成潜在技术对标依据，但当前只有转述，尚未对齐试飞机型、条件及所称行业位次的比较口径，不据此直接授予全国标杆资格。",
+        "evidence_ids": [
+          "article:2f03cf918fb91a93"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent; overnight current Agent full-body and directed review",
+        "candidate_id": "62ea983c9568c3010dd3bdf095b3b5e23d3b1f6a8b88a47f852e0ccb49d5499c",
+        "input_row_sha256": "43f49acc5807b6e355d73980740e1baf0b2304554f5aab9f75d977b92b75c656",
+        "reason": "定向改判：完整正文明确白志亮带领的华羽先翔与鸿鹄eVTOL预生产原型机、企业全倾转过渡飞行的关系，主体无冲突。展示与过渡飞行支持具体整机研发线索；不把可量产写成已量产，也不认定两项事实对应同一机型或试飞条件。10月18日新闻有效，所给历史无同事件。法律主体映射及地点未知不否定正面产品事实；不从学校或展会所在地推定属地。原watch没有其他实质缺口，予以纠正。",
+        "scope": {
+          "technology_evidence": "正文记载鸿鹄eVTOL预生产原型机在2026 Inclusion·外滩大会亮相，并称华羽先翔实现全倾转过渡飞行。",
+          "value_reason": "全倾转过渡飞行涉及垂直起降与巡航模式转换，是整机工程能力的重要观察点；与预生产原型机展示结合，可形成杭州低空航空企业研发及工程化路径的对照线索，但尚不能证明适航、量产或客户交付。"
+        },
+        "stage": {
+          "status": "预生产原型机公开展示；媒体报道已实现过渡飞行",
+          "reason": "报道使用“近日”，未给展示及过渡飞行的精确日期，也未明确两者对应同一机型。全球第二、中国首家的位次仅为报道说法，不视为独立认证。新闻发布于2026年10月18日，首次收录时间未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:4c4c347500e3c7b1"
+          ],
+          "prior_decisions": [],
+          "change_reason": "输入中该稳定主体没有已收录事件或既往裁决，且历史检索无错误；可用历史未见本次原型机展示及过渡飞行线索，不宣称首次实现技术突破或全库首次收录。",
+          "new_evidence_ids": [
+            "article:2f03cf918fb91a93"
+          ]
+        },
+        "evidence_ids": [
+          "article:2f03cf918fb91a93",
+          "identity_registry:2dcd4f408df25406",
+          "geography_registry:b93d03cf35486d17",
+          "history_lookup:4c4c347500e3c7b1"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "全倾转过渡飞行构成潜在技术对标依据，但当前只有转述，尚未对齐试飞机型、条件及所称行业位次的比较口径，不据此直接授予全国标杆资格。",
+          "evidence_ids": [
+            "article:2f03cf918fb91a93"
           ]
         }
       }
@@ -760,497 +1257,6 @@
           ]
         }
       }
-    },
-    {
-      "company_raw_name": "智谱",
-      "identity_mentions": [
-        {
-          "name": "浙江智谱新篇",
-          "relation": "subsidiary",
-          "evidence": "智谱全资子公司浙江智谱新篇出资29%"
-        }
-      ],
-      "title": "智谱又做LP了",
-      "company": "智谱",
-      "score": 50,
-      "sector": "人工智能、产业投资",
-      "financing": "本次为智谱通过全资子公司参与基金出资，并非智谱获得融资。基金注册资本10亿元，浙江智谱新篇出资占比29%；文章未披露实缴进度。",
-      "source": "投资界",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "智谱",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-8bcef51236d613cdd248",
-      "company_canonical_name": "智谱",
-      "identity_status": "unresolved",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/GvJPUuLEIS4bsONMfVvD3w",
-      "article_title": "智谱又做LP了",
-      "event_desc": "浙江智谱将门认知智能创业投资合伙企业（有限合伙）已成立，文章披露其注册资本为10亿元，管理人为将门投资。智谱全资子公司浙江智谱新篇出资占比29%；杭州上城领航创业投资有限公司、杭州城投产业发展投资合伙企业（有限合伙）出资占比分别为30%。基金主要投向人工智能及上下游产业。",
-      "insight": "智谱通过全资子公司参与人工智能及上下游基金，新增了借助专业投资机构接触产业项目的渠道。基金管理人将门投资及部分出资方曾投资智谱，此次合作体现其从接受资本支持向参与产业资本供给延伸，但尚未披露具体被投项目及业务协同。",
-      "event_headline": "智谱通过全资子公司出资占比29%，参与设立人工智能基金",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-16",
-        "event_date": null,
-        "observed_date": "2026-10-16",
-        "review_required": true
-      },
-      "published_date": "2026-10-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "正文明确智谱通过全资子公司浙江智谱新篇参与新设人工智能基金，子公司出资占比29%，将门投资为基金管理人；这是对外产业投资，不是智谱获得融资。基金设立、出资结构和人工智能及上下游投向共同构成具体产业资本布局线索，可观察模型企业如何参与早期项目供给，但不能认定资金已经实缴或业务协同已经形成。原始发布时间2026-10-16T07:59:00Z符合七日窗口，上游所称缺发布时间已不成立。可见历史仅涉及GLM-Legal产品发布，与本次基金事件不同。子公司落户上城及报道中的第二总部表述不等于母公司注册地或主要总部已经确认，地点未知不阻断正面日报线索。",
-      "event_headline_source": "03db51629d29b1a4cdcea35b0588bac5c791579ad8e99a85085608567497c7d5",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "基金出资结构和产业投向支持资本布局观察，不能独立证明智谱的行业领先地位或可复制的投资协同成效。",
-        "evidence_ids": [
-          "article:d263614e56722fc0"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "83b7236d2ae2c1eaef838656c876ac4478880347f034f85f7b16371ca9ced428",
-        "input_row_sha256": "ff84aa3554eb5824d7fc2bb036535f0dabf0550085b1ed56a00612be125ad059",
-        "reason": "正文明确智谱通过全资子公司浙江智谱新篇参与新设人工智能基金，子公司出资占比29%，将门投资为基金管理人；这是对外产业投资，不是智谱获得融资。基金设立、出资结构和人工智能及上下游投向共同构成具体产业资本布局线索，可观察模型企业如何参与早期项目供给，但不能认定资金已经实缴或业务协同已经形成。原始发布时间2026-10-16T07:59:00Z符合七日窗口，上游所称缺发布时间已不成立。可见历史仅涉及GLM-Legal产品发布，与本次基金事件不同。子公司落户上城及报道中的第二总部表述不等于母公司注册地或主要总部已经确认，地点未知不阻断正面日报线索。",
-        "scope": {
-          "technology_evidence": "正文披露浙江智谱将门认知智能创业投资合伙企业成立，注册资本10亿元，浙江智谱新篇为智谱全资子公司且出资占比29%；相关基金设立方案主要投向人工智能及上下游产业。",
-          "value_reason": "模型企业通过子公司与地方产业资本、专业管理机构共同设立基金，提供了技术企业参与产业项目发现和资本供给的具体组织路径。对杭州的观察价值在于模型企业与本地产业基金的合作结构，而非把基金规模视为智谱新增研发投入或已实现产业成果。"
-        },
-        "stage": {
-          "status": "据报道基金已成立，出资比例已披露，实缴和投资落地未知",
-          "reason": "原文称基金于今年9月成立，可结合2026年新闻语境记录为2026年9月，精确日期未知；未披露实缴进度、具体被投项目及协同成果。新闻发布于2026年10月16日，本事件首次收录时间未提供。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:8e7b6b38a8e31ca2",
-            "accepted_history:afc12e5761998c5d",
-            "prior_decision:747973cf53e3b10e",
-            "prior_decision:792cb22ff124f2eb"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:747973cf53e3b10e",
-              "comparison": "different_event",
-              "reason": "旧裁决针对GLM-Legal法律模型推出及Beta申请，不涉及此次基金设立或子公司出资。"
-            },
-            {
-              "evidence_id": "prior_decision:792cb22ff124f2eb",
-              "comparison": "different_event",
-              "reason": "该记录同为法律模型产品事件的裁决，与人工智能基金出资不是同一事件。"
-            }
-          ],
-          "change_reason": "本次基金设立及出资结构不同于可见历史中的法律模型发布；所给检索无读取错误，未见同笔基金事件记录，仅在提供的历史范围内判为另一事件，不宣称全库首次发现。",
-          "new_evidence_ids": [
-            "article:d263614e56722fc0"
-          ]
-        },
-        "evidence_ids": [
-          "article:d263614e56722fc0",
-          "accepted_history:afc12e5761998c5d",
-          "history_lookup:8e7b6b38a8e31ca2"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "基金出资结构和产业投向支持资本布局观察，不能独立证明智谱的行业领先地位或可复制的投资协同成效。",
-          "evidence_ids": [
-            "article:d263614e56722fc0"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "苏州华太电子技术股份有限公司",
-      "title": "4000W金刚石铜法兰功率放大器，苏州华太官宣！",
-      "company": "苏州华太电子技术股份有限公司",
-      "score": 50,
-      "sector": "半导体设备核心部件与射频功率半导体",
-      "financing": "",
-      "source": "半导体行业观察",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "苏州华太电子技术股份有限公司",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-1afacbfdcd424b96f063",
-      "company_canonical_name": "苏州华太电子技术股份有限公司",
-      "identity_status": "unresolved",
-      "event_type": "技术突破",
-      "link": "https://mp.weixin.qq.com/s/lDKkqwz-ad6VAZsyLaG4Mg",
-      "article_title": "4000W金刚石铜法兰功率放大器，苏州华太官宣！",
-      "event_desc": "据文章报道，苏州华太电子技术股份有限公司在2026年欧洲微波周展出搭载金刚石铜法兰封装的HTX2G01P4K0HDC-T功率放大器，饱和连续波输出功率达4000W，工作频段覆盖0.4–110MHz，Class-AB模式下连续波效率超过80%，并披露耐压可达500V的RF LDMOS器件研发成果。其915MHz、1kW连续波功率放大器原型对比研究显示，金刚石铜法兰相较CPC法兰可使器件结温降低超过40摄氏度。文章称，公司依托自有材料产线与大功率封测基地实现金刚石铜封装规模化量产，相关APEX-PATM产品已进入国际头部半导体设备供应链。",
-      "insight": "此次进展把华太的能力从高功率器件设计延伸到散热材料、封装和量产：更有效地导出芯片热量，为提高单管输出、减少射频电源的多管合路需求提供了工程路径。915MHz原型的降温结果与4000W新品属于不同测试对象，前者支持散热机制，不能直接作为后者在客户设备中的降温幅度或系统收益。",
-      "event_headline": "华太电子展出4000W射频新品，实现金刚石铜封装量产",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-16",
-        "event_date": null,
-        "observed_date": "2026-10-16",
-        "review_required": true
-      },
-      "published_date": "2026-10-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "所给完整正文明确华太是4000W射频功率放大器的展出方、500V耐压RF LDMOS器件的研发方及金刚石铜封装量产主体，构成半导体装备关键器件、热管理和制造能力的具体进展。报道还称相关APEX-PATM产品进入头部设备供应链，但未披露客户名称、订单或验收材料，应保留报道归属，不能扩写为4000W新品已在特定光刻机完成验证。2026-10-16T06:59:00Z发布时间符合七日窗口；历史检索未返回同事件收录或旧裁决。地点仍未知，不从公司名称补认苏州，也不因地点未知拒绝正面产业线索。",
-      "event_headline_source": "a9f0447db0eaf5461fd8befeec5123d24ae539c5fa6494f33b5c27786560e05a",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本条提供具体器件参数、原型试验和量产线索，但行业领先及头部供应链表述缺少可复核的同条件竞品比较、客户披露和规模交付依据，尚不足以独立建立全国标杆资格，不影响事件保留。",
-        "evidence_ids": [
-          "article:9cbb87b023273753"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "f7b5f7978af5f70af62284df08cc9d2837a5025e3624e1f01761f8691471856f",
-        "input_row_sha256": "a888e06f53c90b423df5f55ebae86f61508ad6347087929af64884500c4b6c32",
-        "reason": "所给完整正文明确华太是4000W射频功率放大器的展出方、500V耐压RF LDMOS器件的研发方及金刚石铜封装量产主体，构成半导体装备关键器件、热管理和制造能力的具体进展。报道还称相关APEX-PATM产品进入头部设备供应链，但未披露客户名称、订单或验收材料，应保留报道归属，不能扩写为4000W新品已在特定光刻机完成验证。2026-10-16T06:59:00Z发布时间符合七日窗口；历史检索未返回同事件收录或旧裁决。地点仍未知，不从公司名称补认苏州，也不因地点未知拒绝正面产业线索。",
-        "scope": {
-          "technology_evidence": "正文披露HTX2G01P4K0HDC-T采用金刚石铜法兰，饱和连续波输出4000W，覆盖0.4—110MHz，Class-AB连续波效率超过80%；另有500V耐压RF LDMOS研发成果、自有材料产线及大功率封测基地支撑的封装量产报道。915MHz、1kW原型对比试验报告结温降低超过40摄氏度。",
-          "value_reason": "将散热材料、封装制造与高功率器件设计结合，针对射频电源提高单管输出时的热约束提供了具体工程路径，可供杭州半导体装备及核心部件企业比较材料、封装与器件协同开发方案。915MHz原型试验支持散热机制，不能直接外推4000W新品的客户工况降温幅度、设备成本节约或产线收益。"
-        },
-        "stage": {
-          "status": "新品已展出；器件研发及封装量产为报道披露，客户应用细节未公开",
-          "reason": "正文明确在2026年欧洲微波周展出新品，并称金刚石铜封装已规模化量产、相关系列产品已用于头部客户；未给出独立量产审计、具体客户验收或4000W新品批量交付证据。展会及量产的精确发生日期未知，新闻发表于2026年10月16日，首次收录时间未提供。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:8e7b6b38a8e31ca2"
-          ],
-          "prior_decisions": [],
-          "change_reason": "输入中的同主体已收录历史及旧裁决均为空，检索无报错；在已提供范围内未见此次新品、器件研发及封装量产事件，不宣称全库首次发现。",
-          "new_evidence_ids": [
-            "article:9cbb87b023273753"
-          ]
-        },
-        "evidence_ids": [
-          "article:9cbb87b023273753",
-          "history_lookup:8e7b6b38a8e31ca2"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "本条提供具体器件参数、原型试验和量产线索，但行业领先及头部供应链表述缺少可复核的同条件竞品比较、客户披露和规模交付依据，尚不足以独立建立全国标杆资格，不影响事件保留。",
-          "evidence_ids": [
-            "article:9cbb87b023273753"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "TypeSafe AI",
-      "identity_mentions": [
-        {
-          "name": "Jev",
-          "relation": "product",
-          "evidence": "当天，TypeSafe AI发布首款模型Jev，同时宣布完成4000万美元种子轮融资，由美国风投DCVC领投。"
-        }
-      ],
-      "title": "上海女生的AI产品全网刷屏，估值500亿",
-      "company": "TypeSafe AI",
-      "score": 50,
-      "sector": "企业级人工智能／决策模型",
-      "financing": "本轮融资8.7亿美元，估值75亿美元，a16z领投、红杉资本跟投；此前宣布完成4000万美元种子轮融资，由DCVC领投，当时媒体报道估值约2亿美元。",
-      "source": "铅笔道",
-      "location": "地点待核",
-      "article_location": "硅谷（原文区域性描述，未明确注册地或主要总部）",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "TypeSafe AI",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-fc67129ea8fe8366137c",
-      "company_canonical_name": "TypeSafe AI",
-      "identity_status": "confirmed",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/pZtuxRdOaINtYB8tlQ8tFA",
-      "article_title": "上海女生的AI产品全网刷屏，估值500亿",
-      "event_desc": "铅笔道报道，AI招聘平台Jack & Jill在首次测试后不到10天，将初筛环节全部换成TypeSafe AI的Jev。文中称，每筛选1000名候选人的调用成本由Gemini的0.755美元降至Jev的0.092美元，岗位初筛中位耗时由20.3秒缩短至10.3秒；具体测试条件未完整披露。文中另转述Vercel于10月15日披露，Jev上线前两周已有35.3%的平台付费团队使用过。8.7亿美元融资为此前已收录背景，不作为本次新增资本事件。",
-      "insight": "具名招聘客户把初筛流程切换至专用判断模型，说明模型分工已有具体业务落点：需要概率或分数的高频筛选，不必都通过长文本生成完成。报道中的成本、耗时对照尚未同时证明筛选质量不变；与原文所述竞品成绩接近相结合，杭州企业软件团队应优先在自己的流程中比较判断质量、误判代价和总调用成本，而非凭融资估值选择模型。",
-      "event_headline": "TypeSafe AI新增招聘初筛应用线索：Jack & Jill据报已切换至Jev",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-16",
-        "event_date": null,
-        "observed_date": "2026-10-16",
-        "review_required": true
-      },
-      "published_date": "2026-10-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "沿用TypeSafe AI已确认身份，Jev为其产品。8.7亿美元融资、a16z领投及75亿美元估值已于10月17日收录，不再作为新融资节点重复发布。但本篇新增招聘客户Jack & Jill将初筛全部切换至Jev的具体工作流及成本、耗时对照，并报道10月15日披露的平台采用数据，构成相较既有资本报道的实质商业应用增量。2026年10月16日原始发布时间已提供，符合窗口。保留时将主事件改为客户应用，不把客户测算节省额当作已实现收益，不补造本轮资金用途；创始人上海背景及硅谷描述不证明杭州属地。",
-      "event_headline_source": "23403d83dc9927fb857fa46bf6591c83af2410a9af3d1c4d1f899f2306d0f88b",
-      "event_identity": {
-        "canonical_id": "据文章报道，TypeSafe AI于10月9日宣布完成8.7亿美元融资，a16z领投、红杉资本跟投，估值75亿美元，a16z合伙人Martin Casado进入董事会。公司此前于9月15日发布面向企业软件判断任务的模型Jev，并宣布完成4000万美元种子轮融资。本轮资金用途未披露。"
-      },
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "location_candidates": [
-        {
-          "value": "硅谷（原文区域性描述，未明确注册地或主要总部）",
-          "status": "article_candidate_only",
-          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
-        }
-      ],
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "复用此前已审未建立标杆资格的结论。新增具名客户应用增强产品价值依据，但单个工作流及媒体转述的平台采用数据仍不足以建立独立行业标杆地位，原文评测还指出部分竞品差距不显著。",
-        "evidence_ids": [
-          "prior_decision:9f542fc52b39fa5f",
-          "article:811f94d1bb8e6c0b"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "d4fc2755bd33a968c472b9f89769d756ffc0be9464e3b44750c6299c452fbea6",
-        "input_row_sha256": "4ca83b8b83418e0b3b5c2e61ecf5c6a7040918a2b44e0dd668c0694011527b4c",
-        "reason": "沿用TypeSafe AI已确认身份，Jev为其产品。8.7亿美元融资、a16z领投及75亿美元估值已于10月17日收录，不再作为新融资节点重复发布。但本篇新增招聘客户Jack & Jill将初筛全部切换至Jev的具体工作流及成本、耗时对照，并报道10月15日披露的平台采用数据，构成相较既有资本报道的实质商业应用增量。2026年10月16日原始发布时间已提供，符合窗口。保留时将主事件改为客户应用，不把客户测算节省额当作已实现收益，不补造本轮资金用途；创始人上海背景及硅谷描述不证明杭州属地。",
-        "scope": {
-          "technology_evidence": "原文说明Jev以分数或概率承担边界明确的判断任务，并称Jack & Jill在首次测试后不到10天将初筛全部切换至Jev；报道给出每千名候选人的调用成本及岗位初筛中位耗时对照。",
-          "value_reason": "客户将生产流程从通用模型切换至专用判断模型，比融资金额更直接说明模型分工如何进入企业软件。原文同时呈现部分竞品成绩接近且差距未必显著，产业对标重点应是工作流中的判断质量、调用成本与集成留存，而不是据估值认定技术壁垒。"
-        },
-        "stage": {
-          "status": "据报道客户已切换初筛流程；融资为已收录背景",
-          "reason": "原文称Jack & Jill已完成初筛模型切换，性能和成本为报道口径，未来节省金额是测算而非已兑现收益。新闻发布时间为2026-10-16T04:11:00Z；融资宣布月日为10月9日，正文结合今年9月15日叙述，但本条无需据此补造精确交割日。客户切换日期及本候选首次收录时间未知。"
-        },
-        "history": {
-          "result": "new_progress",
-          "evidence_ids": [
-            "accepted_history:f8a875ee7f3c4807",
-            "accepted_history:facf0de1654b9c92",
-            "accepted_history:ea5686d00e74cbf4",
-            "prior_decision:139a23499032c34d",
-            "prior_decision:9f542fc52b39fa5f",
-            "prior_decision:4f6f9b5f823a2013",
-            "prior_decision:a101f1153bd1958f",
-            "history_lookup:8e7b6b38a8e31ca2"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:139a23499032c34d",
-              "comparison": "new_progress",
-              "reason": "融资完成、领投和估值属于同一已收录事件；当前新增具名招聘客户初筛切换及工作流成本、耗时证据，不撤销旧keep，仅保留应用增量。"
-            },
-            {
-              "evidence_id": "prior_decision:9f542fc52b39fa5f",
-              "comparison": "new_progress",
-              "reason": "旧裁决已包含融资及概率判断机制，但未包含Jack & Jill实际切换与具体任务对照；当前不是换URL重报融资。"
-            },
-            {
-              "evidence_id": "prior_decision:4f6f9b5f823a2013",
-              "comparison": "new_progress",
-              "reason": "旧裁决认可资本阶段推进，当前可保留的是新增客户应用，不再次将融资从洽谈到完成算作新进展。"
-            },
-            {
-              "evidence_id": "prior_decision:a101f1153bd1958f",
-              "comparison": "new_progress",
-              "reason": "旧裁决及洞察已讨论判断模型部署逻辑，当前补充具名客户生产流程切换证据，形成实质应用增量。"
-            }
-          ],
-          "change_reason": "9月23日为产品及开发者应用，10月7日为种子轮、融资洽谈及早期平台采用，10月17日已收录本轮8.7亿美元融资完成。当前融资部分去重，新增Jack & Jill初筛切换实例及后续平台采用数据，主事件转为客户应用，不改判或重置此前融资裁决。",
-          "new_evidence_ids": [
-            "article:811f94d1bb8e6c0b"
-          ]
-        },
-        "evidence_ids": [
-          "article:811f94d1bb8e6c0b",
-          "accepted_history:f8a875ee7f3c4807",
-          "accepted_history:facf0de1654b9c92",
-          "accepted_history:ea5686d00e74cbf4",
-          "prior_decision:139a23499032c34d",
-          "prior_decision:9f542fc52b39fa5f",
-          "prior_decision:4f6f9b5f823a2013",
-          "prior_decision:a101f1153bd1958f",
-          "history_lookup:8e7b6b38a8e31ca2"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "复用此前已审未建立标杆资格的结论。新增具名客户应用增强产品价值依据，但单个工作流及媒体转述的平台采用数据仍不足以建立独立行业标杆地位，原文评测还指出部分竞品差距不显著。",
-          "evidence_ids": [
-            "prior_decision:9f542fc52b39fa5f",
-            "article:811f94d1bb8e6c0b"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "长飞先进",
-      "title": "不止于车，长飞先进，将SiC进行到底",
-      "company": "长飞先进",
-      "score": 50,
-      "sector": "碳化硅功率半导体",
-      "financing": "",
-      "source": "半导体行业观察",
-      "location": "地点待核",
-      "article_location": "芜湖、武汉：原文明示的生产基地所在地；未披露注册地或主要总部所在地。",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "长飞先进",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-c872c6fd9e92f398da55",
-      "company_canonical_name": "长飞先进",
-      "identity_status": "unresolved",
-      "event_type": "重磅发布",
-      "link": "https://mp.weixin.qq.com/s/avj1r1C5_e4tWR8YmynC_A",
-      "article_title": "不止于车，长飞先进，将SiC进行到底",
-      "event_desc": "长飞先进于10月15日在湾芯展发布会上更新碳化硅产品线，发布面向车规主驱的SiC MOSFET系列芯片、DeepXE™嵌入式PCB功率模块，以及面向AI数据中心的PG4E单管系列和EZ2C/3C功率模块。据文中介绍，车规芯片已通过AEC-Q101标准下的全套可靠性测试，并完成3000小时强化寿命及环境试验验证；DeepXE™模块相较传统封装方案可降低杂散电感和开关损耗。公司同时发布高性能沟槽技术平台，并介绍正在投入Cascode JFET架构研发。",
-      "insight": "长飞先进正把SiC器件制造能力延伸为面向汽车主驱和AI供电的模块级产品能力：嵌入式封装着重缩短电流路径，扩散焊着重改善散热，两条路径分别回应高功率密度和连续运行需求。此次发布说明其产品布局已超出汽车市场，但尚不能据此判断非车业务的实际采用规模。",
-      "event_headline": "长飞先进发布车规SiC芯片及面向AI电源的功率模块",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-16",
-        "event_date": null,
-        "observed_date": "2026-10-16",
-        "review_required": true
-      },
-      "published_date": "2026-10-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "原文明确长飞先进为SiC研发制造及新品发布主体，提供车规芯片可靠性验证、嵌入式功率模块和AI电源产品的具体依据。采集证据载明2026年10月16日发布，符合最近7天窗口，不沿用上游缺发布时间的判断。所给历史与裁决均无匹配，不宣称全库首次。保留产品发布及技术布局线索，性能数字按公司经媒体介绍口径理解，不视为独立测试、客户定点或量产交付。原文主体关系清楚且未见冲突，registry未确认状态不私自改写；芜湖、武汉仅作为已报道生产基地，不推断注册地、总部或杭州主体资格。",
-      "event_headline_source": "fa78bf6d34b7c56c1e098e74c13fed44a169dee064dc2d153569f06ee90fad8e",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "location_candidates": [
-        {
-          "value": "芜湖、武汉：原文明示的生产基地所在地；未披露注册地或主要总部所在地。",
-          "status": "article_candidate_only",
-          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
-        }
-      ],
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "新品、可靠性验证和封装方案足以支持事件价值；报道中的行业领先、产能及专利排名未形成独立可复核的行业地位证据，不据此自动授予全国标杆资格。",
-        "evidence_ids": [
-          "article:43b025d30b6284c4"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "d477a507426bff7f7d218cdcfd95e8bd83ea727363b9c0a3e9245bf3f91956ca",
-        "input_row_sha256": "bcdc6bd6c90d0e6fc2d489323ff6866bfe672109caa9a42abcd7fa5930e300d2",
-        "reason": "原文明确长飞先进为SiC研发制造及新品发布主体，提供车规芯片可靠性验证、嵌入式功率模块和AI电源产品的具体依据。采集证据载明2026年10月16日发布，符合最近7天窗口，不沿用上游缺发布时间的判断。所给历史与裁决均无匹配，不宣称全库首次。保留产品发布及技术布局线索，性能数字按公司经媒体介绍口径理解，不视为独立测试、客户定点或量产交付。原文主体关系清楚且未见冲突，registry未确认状态不私自改写；芜湖、武汉仅作为已报道生产基地，不推断注册地、总部或杭州主体资格。",
-        "scope": {
-          "technology_evidence": "原文称公司10月15日发布高性能SiC MOSFET芯片及DeepXE嵌入式PCB功率模块，芯片已通过AEC-Q101全套可靠性测试并完成3000小时强化验证；另推出PG4E单管、EZ2C/3C模块及沟槽技术平台，Cascode JFET仍在研发。",
-          "value_reason": "PCB嵌入式互连针对寄生电感与开关损耗，扩散焊针对模块散热，体现SiC竞争从单芯片参数延伸到封装与系统适配。汽车主驱与AI供电的产品分化可供杭州功率器件、封装和电源企业对标，但是否形成非车业务增长仍需客户采用和交付证据。"
-        },
-        "stage": {
-          "status": "产品及平台已发布；可靠性和性能为报道口径；部分架构仍在研发",
-          "reason": "正文明确发布会月日为10月15日，未单独写明年份，不据此强填完整事件日期。AEC-Q101测试与3000小时验证不等于已获整车客户认证或量产订单；沟槽平台发布不等于所有器件已量产，Cascode JFET为研发。新闻发布时间为2026-10-16T02:28:00Z，本候选首次收录时间未知。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:8e7b6b38a8e31ca2"
-          ],
-          "prior_decisions": [],
-          "change_reason": "本包所给该主体accepted_history和prior_decisions均为空，且未报告历史读取错误；在此次提供的检索范围内未见同事件。按独立新品发布事件保留，不把有限检索结果表述为公司或事件的全库首次发现。",
-          "new_evidence_ids": [
-            "article:43b025d30b6284c4"
-          ]
-        },
-        "evidence_ids": [
-          "article:43b025d30b6284c4",
-          "history_lookup:8e7b6b38a8e31ca2"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "新品、可靠性验证和封装方案足以支持事件价值；报道中的行业领先、产能及专利排名未形成独立可复核的行业地位证据，不据此自动授予全国标杆资格。",
-          "evidence_ids": [
-            "article:43b025d30b6284c4"
-          ]
-        }
-      }
     }
   ],
   "negatives": [],
@@ -1295,13 +1301,40 @@
     "汽车零部件制造": 1,
     "工业视觉与移动机器人": 1,
     "工业无损检测": 1,
-    "工业机器人": 1
+    "工业机器人": 1,
+    "量子计算": 1,
+    "数据中心CPU与AI计算基础设施": 1,
+    "人工智能／多智能体与模型训练": 1,
+    "车规级AI芯片与端侧智能计算": 1,
+    "人工智能反诈与网络安全": 1,
+    "生成式人工智能／实时生成式渲染": 1,
+    "高性能电动汽车": 1,
+    "新能源汽车制造": 1,
+    "新能源汽车": 4,
+    "具身智能与世界模型": 1,
+    "AI教育科技、终身学习与智能体应用": 1,
+    "可穿戴机器人": 1,
+    "外骨骼机器人应用服务": 1,
+    "智慧养老与家庭服务机器人": 1,
+    "中医智能设备与健康管理": 1,
+    "低空经济／电动航空": 1,
+    "人工智能教育": 1,
+    "人工智能算力基础设施": 1,
+    "视觉人工智能与智能终端": 1,
+    "金融科技与支付终端": 1,
+    "电动飞行汽车": 1,
+    "商业航天／在轨计算基础设施": 1,
+    "虚拟现实设备": 1
   },
   "daily_details": {
     "2026-10-19": {
       "count": 48,
       "negatives": 0
+    },
+    "2026-10-20": {
+      "count": 26,
+      "negatives": 0
     }
   },
-  "created": "2026-10-19 08:39:47"
+  "created": "2026-10-20 02:28:37"
 }
