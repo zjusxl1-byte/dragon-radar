@@ -47,6 +47,70 @@
       "event_headline": "VAST获近2亿美元融资并公布Project Eden世界模型路线",
       "event_signal": "major",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "VAST发布并开源EdenLive，开放模型权重、推理代码、技术报告和端到端Demo。该模型接收参考画面、目标首帧和提示词，依据参考布局与运动持续生成不同风格的画面，上游交互系统负责维护游戏逻辑和世界状态。据VAST公布的数据，5B模型在单张RTX 5090显卡、720P条件下生成速度超过24FPS，支持分钟级连续生成，端到端交互延迟为百毫秒级。展示场景包括游戏原型预览、动画预览、视频重渲染和具身视频数据增强。",
+      "article_title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/K7RFfECx_Igog5bbkVT1zg",
+      "sector": "生成式人工智能／实时生成式渲染",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "VAST",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "VAST",
+      "company_entity_id": "dr-u-375eca5944bc3c254740",
+      "company_raw_name": "VAST",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "EdenLive",
+          "relation": "product",
+          "evidence": "如今，EdenLive作为这条路线的阶段性成果发布，并开放模型权重和推理代码，同步公开技术报告与端到端Demo。"
+        },
+        {
+          "name": "Project Eden",
+          "relation": "product",
+          "evidence": "Project Eden是VAST长期推进的世界模型研究项目，EdenLive则是其中聚焦实时生成式渲染的阶段性成果。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持具体技术进展及历史融资，但没有提供明确已审标杆资格或足够的独立行业地位比较依据；历史is_national_star和宣传性领先表述不能替代本次独立资格审查。",
+        "evidence_ids": [
+          "article:3c93680afbdf5fc5",
+          "accepted_history:74597ea9892471f1",
+          "accepted_history:b520fb329f77f06f"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "EdenLive将VAST的3D与数据管线能力延伸至运行中场景的实时视觉生成：交互系统维护规则和状态，模型依据简化画面生成精细外观，使可玩的原型能够尝试不同美术表现。其当前更明确的价值在低频交互和创作预览，高频操作、多角色身份保持及长时视觉一致性的限制，意味着尚不宜将这些演示等同于通用游戏渲染能力。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "VAST开源EdenLive，将简化交互场景实时生成精细画面",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "杭州精算家": [
@@ -829,6 +893,81 @@
       "event_date": "",
       "event_headline": "Anthropic据报道与美政府合作，扩大获验证机构的模型访问",
       "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "据报道，代号“北极星项目”的600亿美元债务融资方案将支持Anthropic采购约1.5吉瓦的谷歌TPU芯片。知情人士称，黑石旗下基金将出资90亿美元购买其中债务，约占180亿美元次级贷款的一半，票面利率为10%，整体回报率更高；偿债来源为Anthropic为期五年的芯片租赁款，其余90亿美元拟在未来数月发售。黑石拒绝置评，Anthropic暂未回应。",
+      "article_title": "DeepSeek V4.1 Flash新版本发布，许愿式编程一键成真；微软推出“AI学生模拟器”丨AIGC日报",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/WqzAVz5UR-Pny9-2LeyVDA",
+      "sector": "人工智能算力基础设施",
+      "location": "US / San Francisco",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / San Francisco",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "subject_evidence_ids": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Anthropic",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-98b8e2309e1c91685311fb4f"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+            "source_url": "https://www.anthropic.com/privacy",
+            "checked_at": "2026-10-12T03:44:07.679932+00:00",
+            "subject": "Anthropic",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ]
+      },
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Anthropic",
+      "company_entity_id": "dr-u-c70eca6b0f88f44d81a4",
+      "company_raw_name": "Anthropic",
+      "identity_status": "confirmed",
+      "score": 70,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条足以支持具体算力融资方案的产业观察价值，但交易尚未确认，未提供独立可核的行业地位比较依据或已审标杆资格。不能凭方案规模、历史上游标签或企业知名度自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:4fab20b80db5e8e6"
+        ]
+      },
+      "published_date": "2026-10-18",
+      "insight": "该方案把长期芯片租赁付款与外部债务融资连接起来，为大额算力采购提供资金组织路径。若按报道落地，Anthropic获得算力的同时将承担多年付款义务；两位数融资回报要求反映资金成本，但不足以单独证明公司已出现偿付困难。",
+      "financing": "据报道融资方案总规模600亿美元；其中180亿美元为次级贷款，黑石旗下基金拟购买90亿美元债务，票面利率10%、整体回报率更高。其余90亿美元拟后续发售，未披露全部融资已完成。",
+      "event_date": "",
+      "event_headline": "据报道Anthropic筹划600亿美元芯片融资，采购TPU算力",
+      "event_signal": "major",
       "discovery_status": "update"
     }
   ],
