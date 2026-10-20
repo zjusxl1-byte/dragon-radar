@@ -81474,16 +81474,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/b_YBOGbov2zeBRHm18PCQw",
       "sector": "新能源汽车",
-      "location": "地点待核",
+      "location": "US / Irvine",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Irvine",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-10ce798df49689e609a406fd"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Rivian",
         "subject_locality": {
           "status": "unknown",
@@ -81491,7 +81493,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-10ce798df49689e609a406fd",
+            "source_url": "https://data.sec.gov/submissions/CIK0001874178.json",
+            "checked_at": "2026-10-20T01:57:38.632198+00:00",
+            "subject": "Rivian",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Irvine",
+              "address": "14600 MYFORD ROAD, IRVINE, CA 92618"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Irvine",
+          "evidence_ids": [
+            "geo-10ce798df49689e609a406fd"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "创业邦",
@@ -82186,16 +82213,18 @@
       "event_type": "制作试验",
       "link": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
       "sector": "AI视频生成与影视制作",
-      "location": "地点待核",
+      "location": "US / San Francisco",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / San Francisco",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-91a3d32d427da1750ef6253f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Higgsfield",
         "subject_locality": {
           "status": "unknown",
@@ -82203,7 +82232,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-91a3d32d427da1750ef6253f",
+            "source_url": "https://higgsfield.ai/terms-of-use-agreement",
+            "checked_at": "2026-10-20T01:52:52.881072+00:00",
+            "subject": "Higgsfield",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco",
+              "address": "535 Mission St, 14th Floor, San Francisco, CA 94105, United States"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-91a3d32d427da1750ef6253f"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "铅笔道",
@@ -88361,16 +88415,18 @@
       "event_type": "产品首发计划",
       "link": "https://mp.weixin.qq.com/s/CpOx75OpctLNUtpzoZqj7Q",
       "sector": "机械传动及机器人关键零部件",
-      "location": "地点线索：临平区",
+      "location": "浙江省 / 杭州市 / 临平区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 临平区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fbec1ff169b958112b41ec07"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "东华链条集团",
         "subject_locality": {
           "status": "unknown",
@@ -88378,7 +88434,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-fbec1ff169b958112b41ec07",
+            "source_url": "https://mp.weixin.qq.com/s/CpOx75OpctLNUtpzoZqj7Q",
+            "checked_at": "2026-10-14T11:16:20+00:00",
+            "subject": "东华链条集团",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "临平区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "临平区",
+          "evidence_ids": [
+            "geo-fbec1ff169b958112b41ec07"
+          ]
+        }
       },
       "article_location": "临平区",
       "source": "临平发布",
@@ -89511,16 +89593,18 @@
       "event_type": "融资历史披露",
       "link": "https://mp.weixin.qq.com/s/GagjIz3QIwA9HM-u21dzkg",
       "sector": "机器人AI／通用机器人模型",
-      "location": "地点待核",
+      "location": "US / San Francisco",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / San Francisco",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8fbf2d0f78f65d7bfaa6e8b5"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Physical Intelligence",
         "subject_locality": {
           "status": "unknown",
@@ -89528,7 +89612,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-8fbf2d0f78f65d7bfaa6e8b5",
+            "source_url": "https://www.pi.website/join-us",
+            "checked_at": "2026-10-20T01:58:54.121756+00:00",
+            "subject": "Physical Intelligence",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco",
+              "district": "Mission District"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-8fbf2d0f78f65d7bfaa6e8b5"
+          ]
+        }
       },
       "article_location": "",
       "source": "铅笔道",
