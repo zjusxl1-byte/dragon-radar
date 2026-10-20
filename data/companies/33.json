@@ -1495,31 +1495,28 @@
       "event_type": "融资",
       "link": "https://www.163.com/dy/article/L90BQ6E70550B1DU.html",
       "sector": "半导体／AI算力IC载板",
-      "location": "经营地：安徽省 / 广德市 / 广德经济开发区（注册/总部待核）",
+      "location": "安徽省 / 宣城市 / 广德市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：安徽省 / 广德市 / 广德经济开发区（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "安徽省 / 宣城市 / 广德市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-e1620f4156f3761cb3a81190"
+          "geo-cf2ddce8e0b4ccb990bf15d9"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "芯聚德科技（安徽）有限责任公司",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-e1620f4156f3761cb3a81190",
+            "evidence_id": "geo-cf2ddce8e0b4ccb990bf15d9",
             "source_url": "https://www.163.com/dy/article/L90BQ6E70550B1DU.html",
             "checked_at": "2026-10-12T03:53:56.879800+00:00",
             "subject": "芯聚德科技（安徽）有限责任公司",
@@ -1528,11 +1525,21 @@
             "place": {
               "country": "CN",
               "province": "安徽省",
-              "city": "广德市",
-              "address": "广德经济开发区"
+              "city": "宣城市",
+              "district": "广德市"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "安徽省",
+          "city": "宣城市",
+          "evidence_ids": [
+            "geo-cf2ddce8e0b4ccb990bf15d9"
+          ]
+        }
       },
       "article_location": "未披露",
       "source": "www.163.com",

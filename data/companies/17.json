@@ -1059,18 +1059,18 @@
       "event_type": "技术进展",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "商业航天运载",
-      "location": "经营地：山东省 / 烟台市（注册/总部待核）",
+      "location": "山东省烟台市海阳市经济开发区南京街30号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：山东省 / 烟台市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "山东省烟台市海阳市经济开发区南京街30号",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-a9433812f34f81470ce60a63"
+          "geo-d0ff36fce76f21c8599d8ddc"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "东方空间",
         "subject_locality": {
           "status": "unknown",
@@ -1080,7 +1080,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-a9433812f34f81470ce60a63",
+            "evidence_id": "geo-d0ff36fce76f21c8599d8ddc",
             "source_url": "https://www.orienspace.com/aboutPage",
             "checked_at": "2026-10-12T03:46:27.635304+00:00",
             "subject": "东方空间",
@@ -1089,10 +1089,21 @@
             "place": {
               "country": "CN",
               "province": "山东省",
-              "city": "烟台市"
+              "city": "烟台市",
+              "address": "山东省烟台市海阳市经济开发区南京街30号"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "山东省",
+          "city": "烟台市",
+          "evidence_ids": [
+            "geo-d0ff36fce76f21c8599d8ddc"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "元璟资本",

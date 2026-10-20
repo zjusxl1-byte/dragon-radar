@@ -1669,31 +1669,28 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/GkQlHhAGfYo2GYL5jbPtXw",
       "sector": "双足机器人",
-      "location": "经营地：上海市 / 浦东新区环桥路1001号1号楼15F（注册/总部待核）",
+      "location": "上海市浦东新区环桥路 1001 号 1 号楼 15F",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：上海市 / 浦东新区环桥路1001号1号楼15F（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市浦东新区环桥路 1001 号 1 号楼 15F",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-f53cff3ab322106a1b47d339"
+          "geo-3c05f9239514c9070097321c"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "RoboParty",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-f53cff3ab322106a1b47d339",
+            "evidence_id": "geo-3c05f9239514c9070097321c",
             "source_url": "https://roboparty.com/assets/index.B4vRtv3q.js",
             "checked_at": "2026-10-12T04:08:42.772701+00:00",
             "subject": "RoboParty",
@@ -1703,10 +1700,20 @@
               "country": "CN",
               "province": "上海市",
               "city": "上海市",
-              "address": "浦东新区环桥路1001号1号楼15F"
+              "address": "上海市浦东新区环桥路 1001 号 1 号楼 15F"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-3c05f9239514c9070097321c"
+          ]
+        }
       },
       "article_location": "上海（报道创业地）",
       "source": "投资界",

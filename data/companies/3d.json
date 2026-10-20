@@ -844,18 +844,18 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "AI科学计算与生物医药",
-      "location": "经营地：北京市（注册/总部待核）",
+      "location": "北京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：北京市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-4fa06a12071c110fc4bee886"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "深势科技",
         "subject_locality": {
           "status": "unknown",
@@ -877,7 +877,17 @@
               "city": "北京市"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-4fa06a12071c110fc4bee886"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "元璟资本",
@@ -905,31 +915,28 @@
       "event_type": "规模生产",
       "link": "https://mp.weixin.qq.com/s/GtCBAq3V7h-JE07J-Zas7w",
       "sector": "光通信陶瓷材料与封装",
-      "location": "经营地：福建省 / 晋江市 / 五里工业区灵石路2号（注册/总部待核）",
+      "location": "福建省 / 晋江市 / No.2,Lingshi Road,Wuli Industry zone,Jinjiang City,Fujian Province,China",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：福建省 / 晋江市 / 五里工业区灵石路2号（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "福建省 / 晋江市 / No.2,Lingshi Road,Wuli Industry zone,Jinjiang City,Fujian Province,China",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-93b30a0be6403f71962df5a3"
+          "geo-0eeac4ce089759605a8ec105"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "福建华清电子",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-93b30a0be6403f71962df5a3",
+            "evidence_id": "geo-0eeac4ce089759605a8ec105",
             "source_url": "https://www.huaqingcn.com/about-us",
             "checked_at": "2026-10-12T03:44:23.946854+00:00",
             "subject": "福建华清电子",
@@ -939,10 +946,20 @@
               "country": "CN",
               "province": "福建省",
               "city": "晋江市",
-              "address": "五里工业区灵石路2号"
+              "address": "No.2,Lingshi Road,Wuli Industry zone,Jinjiang City,Fujian Province,China"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "福建省",
+          "city": "晋江市",
+          "evidence_ids": [
+            "geo-0eeac4ce089759605a8ec105"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "半导体行业观察",

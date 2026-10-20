@@ -1302,31 +1302,28 @@
       "event_type": "客户验证",
       "link": "https://mp.weixin.qq.com/s/GtCBAq3V7h-JE07J-Zas7w",
       "sector": "光通信陶瓷材料与封装",
-      "location": "经营地：山东省 / 东营市 / 东营经济技术开发区辽河路24号（注册/总部待核）",
+      "location": "东营市 / 山东省东营经济技术开发区辽河路24号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：山东省 / 东营市 / 东营经济技术开发区辽河路24号（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "东营市 / 山东省东营经济技术开发区辽河路24号",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-41654471523a06b6c46e3d80"
+          "geo-71a3ba6c4206805ae66586d3"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "国瓷材料",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-41654471523a06b6c46e3d80",
+            "evidence_id": "geo-71a3ba6c4206805ae66586d3",
             "source_url": "https://www.sinocera.cn/contact.html",
             "checked_at": "2026-10-12T03:44:25.527588+00:00",
             "subject": "国瓷材料",
@@ -1336,10 +1333,20 @@
               "country": "CN",
               "province": "山东省",
               "city": "东营市",
-              "address": "东营经济技术开发区辽河路24号"
+              "address": "山东省东营经济技术开发区辽河路24号"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "山东省",
+          "city": "东营市",
+          "evidence_ids": [
+            "geo-71a3ba6c4206805ae66586d3"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "半导体行业观察",

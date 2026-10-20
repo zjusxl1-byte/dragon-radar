@@ -845,31 +845,28 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
       "sector": "在线视频与AI影视发行",
-      "location": "经营地：北京市朝阳区工人体育场北路21号又里广场爱奇艺青年中心3层（注册/总部待核）",
+      "location": "北京市 / 3/F, IQIYI YOUTH CENTER YOOLEE PLAZA, NO. 21, NORTH ROAD OF WORKERS STADIUM, CHAOYANG DISTRICT BEIJING",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：北京市朝阳区工人体育场北路21号又里广场爱奇艺青年中心3层（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 3/F, IQIYI YOUTH CENTER YOOLEE PLAZA, NO. 21, NORTH ROAD OF WORKERS STADIUM, CHAOYANG DISTRICT BEIJING",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-86df66d3590bf8aec04eca71"
+          "geo-8fbce81d3437aee462c801fd"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "爱奇艺",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-86df66d3590bf8aec04eca71",
+            "evidence_id": "geo-8fbce81d3437aee462c801fd",
             "source_url": "https://data.sec.gov/submissions/CIK0001722608.json",
             "checked_at": "2026-10-12T03:46:27.680231+00:00",
             "subject": "爱奇艺",
@@ -879,10 +876,20 @@
               "country": "CN",
               "province": "北京市",
               "city": "北京市",
-              "address": "北京市朝阳区工人体育场北路21号又里广场爱奇艺青年中心3层"
+              "address": "3/F, IQIYI YOUTH CENTER YOOLEE PLAZA, NO. 21, NORTH ROAD OF WORKERS STADIUM, CHAOYANG DISTRICT BEIJING"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-8fbce81d3437aee462c801fd"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "铅笔道",

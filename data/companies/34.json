@@ -1070,18 +1070,18 @@
       "event_type": "业绩披露",
       "link": "https://mp.weixin.qq.com/s/5h5lFxPAMXW21lM5mfSaSg",
       "sector": "电子制造与AI算力硬件",
-      "location": "经营地：TW / New Taipei City（注册/总部待核）",
+      "location": "TW / No.2, Ziyou St., Tucheng Dist., New Taipei City 236, Taiwan",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：TW / New Taipei City（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "TW / No.2, Ziyou St., Tucheng Dist., New Taipei City 236, Taiwan",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-27028e12b4ad02076cc71490"
+          "geo-0995aa2d396f6a66086d9756"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "鸿海集团",
         "subject_locality": {
           "status": "unknown",
@@ -1091,7 +1091,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-27028e12b4ad02076cc71490",
+            "evidence_id": "geo-0995aa2d396f6a66086d9756",
             "source_url": "https://www.honhai.com/en-us/about/group-profile",
             "checked_at": "2026-10-12T03:44:06.325562+00:00",
             "subject": "鸿海集团",
@@ -1099,10 +1099,20 @@
             "subject_relation": "same_subject",
             "place": {
               "country": "TW",
-              "city": "New Taipei City"
+              "city": "New Taipei City",
+              "address": "No.2, Ziyou St., Tucheng Dist., New Taipei City 236, Taiwan"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "TW",
+          "city": "New Taipei City",
+          "evidence_ids": [
+            "geo-0995aa2d396f6a66086d9756"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "创业邦",

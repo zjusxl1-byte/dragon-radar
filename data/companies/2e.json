@@ -1222,18 +1222,18 @@
       "event_type": "融资",
       "link": "https://www.iyiou.com/news/202610101142961",
       "sector": "机器人关节与智能制造",
-      "location": "经营地：江苏省 / 无锡市（注册/总部待核）",
+      "location": "江苏省无锡市滨湖区立业路2号B栋",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：江苏省 / 无锡市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省无锡市滨湖区立业路2号B栋",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-f8bda87c2ad6b36ce86288f6"
+          "geo-4eed9f51b95f566f2988a20a"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "无锡巨蟹智能驱动科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1243,7 +1243,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-f8bda87c2ad6b36ce86288f6",
+            "evidence_id": "geo-4eed9f51b95f566f2988a20a",
             "source_url": "https://www.juxiedrive.com/Contact.html",
             "checked_at": "2026-10-12T03:55:52.132120+00:00",
             "subject": "无锡巨蟹智能驱动科技有限公司",
@@ -1252,10 +1252,21 @@
             "place": {
               "country": "CN",
               "province": "江苏省",
-              "city": "无锡市"
+              "city": "无锡市",
+              "address": "江苏省无锡市滨湖区立业路2号B栋"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "无锡市",
+          "evidence_ids": [
+            "geo-4eed9f51b95f566f2988a20a"
+          ]
+        }
       },
       "article_location": "无锡（原文明示法定企业主体）",
       "source": "www.iyiou.com",

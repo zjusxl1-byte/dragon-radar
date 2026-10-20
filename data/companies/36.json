@@ -1714,18 +1714,18 @@
       "event_type": "负面",
       "link": "https://mp.weixin.qq.com/s/ocVJWxQP17bd8vITpE33Ag",
       "sector": "汽车制造与销售",
-      "location": "经营地：US / Georgia / One Mercedes-Benz Drive, Sandy Springs, GA 30328（注册/总部待核）",
+      "location": "US / Georgia / One Mercedes-Benz Drive, Sandy Springs, GA 30328",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / Georgia / One Mercedes-Benz Drive, Sandy Springs, GA 30328（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Georgia / One Mercedes-Benz Drive, Sandy Springs, GA 30328",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-2dddb1b2f29207d144811515"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "梅赛德斯-奔驰美国公司",
         "subject_locality": {
           "status": "unknown",
@@ -1748,7 +1748,17 @@
               "address": "One Mercedes-Benz Drive, Sandy Springs, GA 30328"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Georgia",
+          "city": "Sandy Springs",
+          "evidence_ids": [
+            "geo-2dddb1b2f29207d144811515"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "创业邦",
