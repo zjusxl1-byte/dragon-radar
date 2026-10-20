@@ -337,6 +337,61 @@
       "event_headline": "月之暗面推出Kimi Work，拟调动300个Agent预测世界杯",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "据报道，月之暗面的Kimi团队将层间注意力方案改为分块注意力残差：把模型的多个层分成8组，先汇总组内信息，再在组间读取信息，以降低存储和设备间通信开销。杨植麟同意推迟K3开训，为新架构留出验证时间。文章称，该技术随后成为已发布的2.8万亿参数K3的重要架构之一。",
+      "article_title": "中国 AI 的年轻掌权者们",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/t2tdUQ6sjsIDsbUJSjca-A",
+      "sector": "人工智能大模型",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "月之暗面",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "月之暗面",
+      "company_entity_id": "dr-u-481243d2f2a235c100b3",
+      "company_raw_name": "月之暗面",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "月之暗面",
+          "relation": "same_entity",
+          "evidence": "33 岁的杨植麟创办了月之暗面"
+        },
+        {
+          "name": "K3",
+          "relation": "product",
+          "evidence": "他们希望把一项叫 Attention Residuals 的新技术，放进 Kimi 正在研发的下一代旗舰大模型 K3。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "这项变化的价值在于把层间按需读取信息的算法设计，改造成可用于大规模模型训练的工程方案。分块设计降低了完整方案的存储与通信负担，并被纳入K3，体现了团队将架构研究推进到旗舰模型应用的能力。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "月之暗面2026年将分块注意力残差纳入K3架构",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "卧龙电驱": [
@@ -425,6 +480,58 @@
       "event_headline": "灵伴科技智能眼镜在杭州半马试验直播及裁判取证等应用",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "良渚博物院使用来自余杭企业灵伴科技的智能眼镜进行导览，支持自动识别展柜文物、手势操控互动及语音深度解读。",
+      "article_title": "不止VR与AI！五千年文明有了全新打开方式",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/U4U94p2ZNVha51teiwYGnQ",
+      "sector": "智能眼镜与智慧文博",
+      "location": "地点线索：杭州余杭（原文明确称“余杭企业”，未区分注册地、总部地或经营地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "灵伴科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "杭州余杭（原文明确称“余杭企业”，未区分注册地、总部地或经营地）",
+      "source": "余杭发布",
+      "kind": "event",
+      "canonical_name": "灵伴科技",
+      "company_entity_id": "dr-u-af3a1c671a87dc90d961",
+      "company_raw_name": "灵伴科技",
+      "identity_status": "confirmed",
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本次博物院导览和历史赛事应用证明具体场景使用，未提供足以独立建立全国行业领先地位的市场、技术比较或规模化成果证据；不影响本地正面线索保留。",
+        "evidence_ids": [
+          "article:1a262b309ad889d0",
+          "accepted_history:cd2419a7146facbd"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "这项应用展示了灵伴科技将文物识别、手势交互和语音讲解结合成现场导览工具的能力：游客可以围绕眼前展品获取解读，而不只是依赖固定展签。其值得研究的产品价值，是智能眼镜如何衔接观展动作与文物信息，形成适合博物馆使用的交互方式。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "灵伴科技智能眼镜在良渚博物院提供互动导览",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "杭州胡庆余堂集团有限公司": [
@@ -1424,6 +1531,141 @@
       "financing": "",
       "event_date": "",
       "event_headline": "库卡半导体搬运方案结合洁净机器人、统一调度与虚拟调试",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "BFREE": [
+    {
+      "date": "2026-10-21",
+      "title": "2026年5月，尼日利亚金融科技企业BFREE宣布完成新一轮成长融资，由AfricInvest旗下基金领投，文章未披露本轮金额。公司以自动化工具、借款人行为数据和人工智能开展债务沟通及还款协商，并已拓展至购买银行和金融机构的不良贷款。公司披露，其管理超过1000万个借款人账户，涉及超过35笔不良债权交易。",
+      "article_title": "我在非洲催收网贷：底薪200，靠打电话骂人",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/oqM66d-O-anrJn4Zr_hh_A",
+      "sector": "金融科技／债务管理与不良资产处置",
+      "location": "地点线索：尼日利亚",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "BFREE",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "尼日利亚",
+      "source": "铅笔道",
+      "kind": "event",
+      "canonical_name": "BFREE",
+      "company_entity_id": "dr-u-a43cb21187c41fcfec69",
+      "company_raw_name": "BFREE",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "BFREE",
+          "relation": "same_entity",
+          "evidence": "例如尼日利亚金融科技企业BFREE。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "自动化比例、账户数量和交易笔数提供业务规模线索，但未提供独立行业比较、回收表现或技术优势验证，尚不能建立全国或全球行业标杆资格。",
+        "evidence_ids": [
+          "article:3b13a9a4a9422e1d"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "BFREE从替金融机构催收延伸至直接购买不良债权，产业角色由服务商转向兼具资产持有风险的处置方。既有账户数据和催收经验可为回收判断提供基础，但收购业务能否盈利，还取决于买入价格、实际回收额及处置成本。",
+      "financing": "2026年5月宣布完成成长融资，由AfricInvest旗下基金领投，本轮金额未披露；2024年完成295万美元融资，原文折合人民币约1970万元。",
+      "event_date": "",
+      "event_headline": "BFREE于2026年5月宣布成长融资，业务延伸至不良债权收购",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Conway Research": [
+    {
+      "date": "2026-10-21",
+      "title": "据文章报道，Conway Research获得a16z领投，Khosla Ventures、Hummingbird Ventures、SV Angel等机构及多名个人投资者参与的融资，金额、估值及资金用途未披露。其首款个人AI助理Underdog处于邀请制测试阶段，当前主要支持Mac和Windows，支持在用户电脑上运行模型；Linux、iOS和Android版本正在推进。",
+      "article_title": "00后另类小天才，把AI助理塞进用户电脑，被资本抢疯了",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/UtryLOkpPRpuZKzoZG5XqQ",
+      "sector": "端侧人工智能与个人AI智能体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Conway Research",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Conway Research",
+      "company_entity_id": "dr-u-1bfcc4a6c430f0660771",
+      "company_raw_name": "Conway Research",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Conway",
+          "relation": "same_entity",
+          "evidence": "这家名为Conway Research的AI初创公司，最近获得硅谷风投a16z领投，Khosla Ventures、Hummingbird Ventures、SV Angel等机构跟投。"
+        },
+        {
+          "name": "Underdog",
+          "relation": "product",
+          "evidence": "同年，Sigil Wen创办Conway Research，并推出首款个人AI助理Underdog。"
+        },
+        {
+          "name": "Woof",
+          "relation": "product",
+          "evidence": "除了27B模型，Conway还推出了Woof，一款4B参数的轻量模型，模型权重约2.4GB。"
+        },
+        {
+          "name": "Husky",
+          "relation": "product",
+          "evidence": "模型之外，公司还开发了Husky推理引擎。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资阵容、产品测试和公司自述性能支持技术路线观察，但尚未建立独立行业领先地位、规模应用或可验证的全国标杆资格。",
+        "evidence_ids": [
+          "article:ce01fcb1681764f0"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "Conway将个人AI助理的竞争延伸到消费级电脑上的运行效率：以模型适配和专用推理引擎支撑本地产品，尝试减少敏感文件处理对云端推理的依赖。当前值得观察的是这套软硬件适配能否在普通用户设备上保留可靠的工具调用能力，而非将特定测试条件下的速度优势直接视为完整任务体验的优势。",
+      "financing": "a16z领投，Khosla Ventures、Hummingbird Ventures、SV Angel等机构跟投；个人投资者包括Stripe联合创始人Patrick Collison、Vercel创始人Guillermo Rauch、OpenAI研究员Noam Brown等。融资轮次、金额、估值及用途未披露。",
+      "event_date": "",
+      "event_headline": "Conway Research获a16z领投，个人AI助理处于邀请测试阶段",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
