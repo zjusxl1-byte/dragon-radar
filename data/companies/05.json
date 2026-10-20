@@ -560,7 +560,7 @@
       "canonical_name": "记忆张量",
       "company_entity_id": "dr-u-313155294223aafb21fa",
       "company_raw_name": "记忆张量",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 70,
       "is_national_star": true,
       "insight": "AI记忆赛道正成为资本关注焦点，记忆张量凭借系统层与模型层协同的技术路线，有望在Agent时代成为关键基础设施。产业资本与专业投资机构的联合押注，表明长期智能能力正从概念走向产业化落地。",
@@ -569,6 +569,56 @@
       "event_headline": "记忆张量完成亿元Pre-A轮融资，华为哈勃等共同投资",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "记忆张量开源发布MemT 1.0系列，包括总参数36B、激活参数3B的Nano和总参数288B、激活参数17B的Flash。系列模型在选定的Transformer模块中增加并行记忆分支，将经验编码为可更新的动态矩阵状态，通过训练学习写入、更新与读取。在500项SWE-bench Verified任务、每项独立运行三次的评估中，Nano平均成功率为69.73%，无经验基线为66.07%，文本经验组为69.13%；三次全部成功的任务比例分别为62.80%、54.00%和61.80%。",
+      "article_title": "RSI三块关键拼图，MemT 1.0从模型层补上「记忆」",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/DTdaGUk8o0dwkx1wxnnbYw",
+      "sector": "人工智能／大模型原生记忆",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "记忆张量",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "记忆张量",
+      "company_entity_id": "dr-u-313155294223aafb21fa",
+      "company_raw_name": "记忆张量",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "MemT 1.0",
+          "relation": "product",
+          "evidence": "记忆张量在这方面的探索，则给出了一份截然不同的答卷——记忆原生。\n\n何为记忆原生？就是将经验的保留、更新和调用，做成模型可以学习的能力。\n\n当记忆在模型中生根发芽，便构成了记忆原生模型。\n\n其最新开源发布的MemT 1.0系列，就给出了一条颇为具体的路径："
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-20",
+      "insight": "这次发布把经验复用从外部文本检索推进到模型内部可训练的读写机制：在文中代码任务评估中，原生记忆的成功率和重复执行可靠性接近文本经验方案，说明内部状态能够承接程序性经验。其产业价值在于为长期运行的AI工作流提供另一种记忆承载方式，但现有结果尚不能说明它全面优于外部记忆或已实现递归自我改进。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "记忆张量开源MemT 1.0，将经验读写引入模型内部",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "杭州星海图人工智能科技有限公司": [
