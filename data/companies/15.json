@@ -1455,24 +1455,45 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/nGSrdSUewpj5MhmI10uS2w",
       "sector": "新能源汽车制造",
-      "location": "地点待核",
+      "location": "JP",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "JP",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-dd647a80cf5bf45d18c6f084"
+        ],
+        "subject_evidence_ids": [
+          "geo-dd647a80cf5bf45d18c6f084"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "丰田汽车公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "JP",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-dd647a80cf5bf45d18c6f084"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-dd647a80cf5bf45d18c6f084",
+            "source_url": "https://global.toyota/en/company/profile/overview/index.html",
+            "checked_at": "2026-10-20T01:37:47.099371+00:00",
+            "subject": "丰田汽车公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "JP"
+            }
+          }
+        ]
       },
       "article_location": "",
       "source": "创业邦",
