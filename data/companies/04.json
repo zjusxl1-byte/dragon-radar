@@ -917,18 +917,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/8RjKKVHqOkh6MpU-q2uvyQ",
       "sector": "量子计算与科学计算",
-      "location": "经营地：北京市海淀区北四环西路9号银谷大厦916室（注册/总部待核）",
+      "location": "北京市海淀区北四环西路9号银谷大厦916室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：北京市海淀区北四环西路9号银谷大厦916室（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市海淀区北四环西路9号银谷大厦916室",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-276bc9d2290a160cbaac904f"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "量坤科技",
         "subject_locality": {
           "status": "unknown",
@@ -951,7 +951,17 @@
               "address": "北京市海淀区北四环西路9号银谷大厦916室"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-276bc9d2290a160cbaac904f"
+          ]
+        }
       },
       "article_location": "",
       "source": "投资界",
