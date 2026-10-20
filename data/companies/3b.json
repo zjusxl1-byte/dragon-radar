@@ -577,11 +577,11 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/SBKS0kgEzp6UwAzK-WsSkw",
       "sector": "芯片/RISC-V",
-      "location": "北京市 / 北京市",
+      "location": "北京市",
       "geography": {
         "geography_status": "confirmed",
         "classification": "domestic_non_hangzhou",
-        "display_location": "北京市 / 北京市",
+        "display_location": "北京市",
         "located_status": "subject_confirmed",
         "display_basis": [
           "geo-7ef41d3eb2995cf0928b9d9a"
@@ -646,11 +646,11 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/86CnAdZan8IROTC8oj9eSg",
       "sector": "半导体／RISC-V芯片／车载与边缘AI计算",
-      "location": "北京市 / 北京市",
+      "location": "北京市",
       "geography": {
         "geography_status": "confirmed",
         "classification": "domestic_non_hangzhou",
-        "display_location": "北京市 / 北京市",
+        "display_location": "北京市",
         "located_status": "subject_confirmed",
         "display_basis": [
           "geo-7ef41d3eb2995cf0928b9d9a"
@@ -733,16 +733,18 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/86CnAdZan8IROTC8oj9eSg",
       "sector": "RISC-V芯片与AI NAS",
-      "location": "品牌运营公司总部：北京市（主体属地待核）",
+      "location": "北京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "品牌运营公司总部：北京市（主体属地待核）",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-2e5e30dde7b57306c1dc49c5"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "极空间",
         "subject_locality": {
           "status": "unknown",
@@ -752,12 +754,12 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-60f1b07b2e4fb69a77c4819f",
+            "evidence_id": "geo-2e5e30dde7b57306c1dc49c5",
             "source_url": "https://www.zspace.cn/about/",
             "checked_at": "2026-10-12T03:55:49.142776+00:00",
             "subject": "极空间",
-            "role": "hq",
-            "subject_relation": "parent",
+            "role": "business",
+            "subject_relation": "same_subject",
             "place": {
               "country": "CN",
               "province": "北京市",
@@ -765,11 +767,14 @@
             }
           }
         ],
-        "presentation": {
-          "label": "品牌运营公司总部：北京市（主体属地待核）",
-          "detail": "极空间官网列所属公司北京天顶星智能信息技术有限公司及总部北京；这是品牌运营公司角色，不新增全局别名或将品牌并为法人。",
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
           "evidence_ids": [
-            "geo-60f1b07b2e4fb69a77c4819f"
+            "geo-2e5e30dde7b57306c1dc49c5"
           ]
         }
       },
@@ -799,11 +804,11 @@
       "event_type": "业绩预告",
       "link": "https://mp.weixin.qq.com/s/FAnzVrz1z41dUqpOAM6zSw",
       "sector": "高性能玻纤材料",
-      "location": "浙江省 / 桐乡市",
+      "location": "浙江省桐乡市凤凰湖大道318号",
       "geography": {
         "geography_status": "confirmed",
         "classification": "domestic_non_hangzhou",
-        "display_location": "浙江省 / 桐乡市",
+        "display_location": "浙江省桐乡市凤凰湖大道318号",
         "located_status": "subject_confirmed",
         "display_basis": [
           "geo-74e2f438b5accb2b766cc8e1"
@@ -915,11 +920,11 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/FKKj948LMswMykJC05-Y8Q",
       "sector": "低空经济／电动航空",
-      "location": "湖南省 / 长沙市",
+      "location": "湖南省 / 长沙市 / 湖南湘江新区",
       "geography": {
         "geography_status": "confirmed",
         "classification": "domestic_non_hangzhou",
-        "display_location": "湖南省 / 长沙市",
+        "display_location": "湖南省 / 长沙市 / 湖南湘江新区",
         "located_status": "subject_confirmed",
         "display_basis": [
           "geo-9f11ff8913d6b790541470ab"

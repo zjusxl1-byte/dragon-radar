@@ -923,25 +923,22 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/CngTmchtb32p53RdrFzhDQ",
       "sector": "AI算力基础设施",
-      "location": "经营地：US / Seattle（注册/总部待核）",
+      "location": "US / Washington / 410 Terry Avenue North, Seattle, WA 98109",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / Seattle（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Washington / 410 Terry Avenue North, Seattle, WA 98109",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-39890f67458e2076302bb0f8"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "亚马逊",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
@@ -960,7 +957,15 @@
               "address": "410 Terry Avenue North, Seattle, WA 98109"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-39890f67458e2076302bb0f8"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -988,11 +993,11 @@
       "event_type": "技术进展",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "AI算力平台与模型研发",
-      "location": "上海市 / 上海市",
+      "location": "上海市徐汇区龙台路180号模速空间",
       "geography": {
         "geography_status": "confirmed",
         "classification": "domestic_non_hangzhou",
-        "display_location": "上海市 / 上海市",
+        "display_location": "上海市徐汇区龙台路180号模速空间",
         "located_status": "subject_confirmed",
         "display_basis": [
           "geo-e3d27864c15ad9055eb8cefe"
@@ -1060,11 +1065,11 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/MfLg3zHeYGdlmuuNxVaP7g",
       "sector": "AI原生基础设施／异构算力调度／大模型推理服务",
-      "location": "上海市 / 上海市",
+      "location": "上海市徐汇区龙台路180号模速空间",
       "geography": {
         "geography_status": "confirmed",
         "classification": "domestic_non_hangzhou",
-        "display_location": "上海市 / 上海市",
+        "display_location": "上海市徐汇区龙台路180号模速空间",
         "located_status": "subject_confirmed",
         "display_basis": [
           "geo-e3d27864c15ad9055eb8cefe"

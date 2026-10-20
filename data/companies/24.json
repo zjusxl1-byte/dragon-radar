@@ -981,11 +981,11 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Sl4Xm2acXYUHZAfZ6zuT4w",
       "sector": "新能源汽车/动力电池",
-      "location": "广东省 / 深圳市",
+      "location": "广东省 / 深圳市 / 大鹏新区葵涌街道延安路一号",
       "geography": {
         "geography_status": "confirmed",
         "classification": "domestic_non_hangzhou",
-        "display_location": "广东省 / 深圳市",
+        "display_location": "广东省 / 深圳市 / 大鹏新区葵涌街道延安路一号",
         "located_status": "subject_confirmed",
         "display_basis": [
           "geo-235acafec04041f2fc724ca1"
@@ -1050,11 +1050,11 @@
       "event_type": "技术进展",
       "link": "https://mp.weixin.qq.com/s/yEQ8z0l85_C4SPlQbsp8Eg",
       "sector": "新能源汽车与电池制造",
-      "location": "广东省 / 深圳市",
+      "location": "广东省 / 深圳市 / 大鹏新区葵涌街道延安路一号",
       "geography": {
         "geography_status": "confirmed",
         "classification": "domestic_non_hangzhou",
-        "display_location": "广东省 / 深圳市",
+        "display_location": "广东省 / 深圳市 / 大鹏新区葵涌街道延安路一号",
         "located_status": "subject_confirmed",
         "display_basis": [
           "geo-235acafec04041f2fc724ca1"
@@ -1119,11 +1119,11 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/LYX5fGhyQpSuEuV6qNAqqg",
       "sector": "新能源汽车与动力电池",
-      "location": "广东省 / 深圳市",
+      "location": "广东省 / 深圳市 / 大鹏新区葵涌街道延安路一号",
       "geography": {
         "geography_status": "confirmed",
         "classification": "domestic_non_hangzhou",
-        "display_location": "广东省 / 深圳市",
+        "display_location": "广东省 / 深圳市 / 大鹏新区葵涌街道延安路一号",
         "located_status": "subject_confirmed",
         "display_basis": [
           "geo-235acafec04041f2fc724ca1"
@@ -1198,11 +1198,11 @@
       "event_type": "商业交付",
       "link": "https://mp.weixin.qq.com/s/tqNz34ZmCzbAhobilQZe5w",
       "sector": "航天运输",
-      "location": "US / Falls Church",
+      "location": "US / Virginia / Falls Church",
       "geography": {
         "geography_status": "confirmed",
         "classification": "foreign",
-        "display_location": "US / Falls Church",
+        "display_location": "US / Virginia / Falls Church",
         "located_status": "subject_confirmed",
         "display_basis": [
           "geo-461e822d27a738992246d150"
@@ -1275,11 +1275,11 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/Xhkwa_A3mJJUdOGQU11qCA",
       "sector": "越野车辆及电动二轮车制造",
-      "location": "经营地：浙江省 / 金华市（注册/总部待核）",
+      "location": "经营地：浙江省 / 金华市 / 武义县金岩山工业区金恒二路12-14号（注册/总部待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "经营地：浙江省 / 金华市（注册/总部待核）",
+        "display_location": "经营地：浙江省 / 金华市 / 武义县金岩山工业区金恒二路12-14号（注册/总部待核）",
         "located_status": "business_confirmed_subject_pending",
         "display_basis": [
           "geo-3ee738243fd82cff4483b5b9",
@@ -1361,19 +1361,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
       "sector": "生成式视频与影视技术",
-      "location": "多地经营：纽约等7地（主要归属待核）",
+      "location": "US / New York",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "多地经营：纽约等7地（主要归属待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / New York",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-b1aebe1d18064f6f71c954a7",
-          "geo-e3e79ad501a94731a1492e51"
+          "geo-b1aebe1d18064f6f71c954a7"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Runway",
         "subject_locality": {
           "status": "unknown",
@@ -1393,24 +1392,12 @@
               "country": "US",
               "city": "New York"
             }
-          },
-          {
-            "evidence_id": "geo-e3e79ad501a94731a1492e51",
-            "source_url": "https://runway.com/about",
-            "checked_at": "2026-10-12T03:59:30.313757+00:00",
-            "subject": "Runway",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "US",
-              "province": "New York",
-              "city": "New York"
-            }
           }
         ],
-        "presentation": {
-          "label": "多地经营：纽约等7地（主要归属待核）",
-          "detail": "同主体办公室包括纽约、旧金山、西雅图、伦敦、巴黎、特拉维夫和东京；不机械以首项定义普通城市属地。",
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
           "evidence_ids": [
             "geo-b1aebe1d18064f6f71c954a7"
           ]
@@ -1515,11 +1502,11 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/RCO9cmOljbXNT4AAkyo39w",
       "sector": "半导体晶圆代工",
-      "location": "US / Malta",
+      "location": "US / New York / Malta",
       "geography": {
         "geography_status": "confirmed",
         "classification": "foreign",
-        "display_location": "US / Malta",
+        "display_location": "US / New York / Malta",
         "located_status": "subject_confirmed",
         "display_basis": [
           "geo-87b32a41a094eda7b954bf2b"
