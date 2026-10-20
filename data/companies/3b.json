@@ -799,41 +799,47 @@
       "event_type": "业绩预告",
       "link": "https://mp.weixin.qq.com/s/FAnzVrz1z41dUqpOAM6zSw",
       "sector": "高性能玻纤材料",
-      "location": "经营地：浙江省 / 桐乡市（注册/总部待核）",
+      "location": "浙江省 / 桐乡市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：浙江省 / 桐乡市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 桐乡市",
+        "located_status": "subject_confirmed",
         "display_basis": [
-          "geo-bf285bfd4c6c8fad024d8bb1"
+          "geo-74e2f438b5accb2b766cc8e1"
         ],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject_evidence_ids": [
+          "geo-74e2f438b5accb2b766cc8e1"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "中国巨石",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "桐乡市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-74e2f438b5accb2b766cc8e1"
+          ]
         },
         "basis": [
           {
-            "evidence_id": "geo-bf285bfd4c6c8fad024d8bb1",
-            "source_url": "https://www.jushi.com/about",
-            "checked_at": "2026-10-12T03:44:22.242468+00:00",
+            "evidence_id": "geo-74e2f438b5accb2b766cc8e1",
+            "source_url": "https://www.jushi.com/headquarters",
+            "checked_at": "2026-10-20T01:53:20.166421+00:00",
             "subject": "中国巨石",
-            "role": "business",
+            "role": "hq",
             "subject_relation": "same_subject",
             "place": {
               "country": "CN",
               "province": "浙江省",
               "city": "桐乡市",
-              "address": "桐乡市梧桐街道凤凰湖大道318号"
+              "address": "浙江省桐乡市凤凰湖大道318号"
             }
           }
         ]

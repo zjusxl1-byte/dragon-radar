@@ -1732,18 +1732,18 @@
       "event_type": "产品部署",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "无人配送",
-      "location": "经营地：广东省 / 深圳市（注册/总部待核）",
+      "location": "广东省 / 深圳市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：广东省 / 深圳市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-857120faf788c807e0ecac79"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "佑驾创新",
         "subject_locality": {
           "status": "unknown",
@@ -1765,7 +1765,17 @@
               "city": "深圳市"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-857120faf788c807e0ecac79"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "元璟资本",

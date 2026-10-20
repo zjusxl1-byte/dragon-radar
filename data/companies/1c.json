@@ -1480,24 +1480,50 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/h3D6qVxXTbJD8eDM04NbPQ",
       "sector": "汽车制造与智能制造",
-      "location": "地点待核",
+      "location": "吉林省 / 长春市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "吉林省 / 长春市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-577cfa41d5e0131a513981f6"
+        ],
+        "subject_evidence_ids": [
+          "geo-577cfa41d5e0131a513981f6"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "一汽-大众汽车有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "吉林省",
+          "city": "长春市",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-577cfa41d5e0131a513981f6"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-577cfa41d5e0131a513981f6",
+            "source_url": "https://www.audi.cn/zh/legal.html",
+            "checked_at": "2026-10-20T01:53:20.254707+00:00",
+            "subject": "一汽-大众汽车有限公司",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "吉林省",
+              "city": "长春市",
+              "address": "吉林省长春市安庆路5号"
+            }
+          }
+        ]
       },
       "article_location": "",
       "source": "创业邦",

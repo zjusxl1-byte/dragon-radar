@@ -1502,13 +1502,15 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/CMLJZJo3a8s3OmaafXL71w",
       "sector": "人工智能Agent框架与云端服务",
-      "location": "地点待核",
+      "location": "法律联系地：Austin（实体经营/总部待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "display_location": "法律联系地：Austin（实体经营/总部待核）",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-5ce6d46e1e37caedc012079d"
+        ],
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
@@ -1519,7 +1521,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-5ce6d46e1e37caedc012079d",
+            "source_url": "https://shop.nousresearch.com/policies/privacy-policy",
+            "checked_at": "2026-10-20T01:50:24.560308+00:00",
+            "subject": "Nous Research",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Texas",
+              "city": "Austin",
+              "address": "600 Congress Avenue, Fl 14, Austin TX 78701"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "法律联系地：Austin（实体经营/总部待核）",
+          "detail": "官方商店隐私政策公司通信地址；不能单凭此断定Hermes研发团队总部。",
+          "evidence_ids": [
+            "geo-5ce6d46e1e37caedc012079d"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "创业邦",

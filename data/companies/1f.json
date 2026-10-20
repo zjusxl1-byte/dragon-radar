@@ -1204,38 +1204,47 @@
       "event_type": "负面",
       "link": "https://mp.weixin.qq.com/s/FAnzVrz1z41dUqpOAM6zSw",
       "sector": "企业信息与数据服务",
-      "location": "经营地：江苏省 / 苏州市（注册/总部待核）",
+      "location": "江苏省 / 苏州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：江苏省 / 苏州市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 苏州市",
+        "located_status": "subject_confirmed",
         "display_basis": [
-          "geo-d6810601ae393627ee2419b6"
+          "geo-8937a56124a681debcbb311e"
         ],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject_evidence_ids": [
+          "geo-8937a56124a681debcbb311e"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "企查查科技股份有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8937a56124a681debcbb311e"
+          ]
         },
         "basis": [
           {
-            "evidence_id": "geo-d6810601ae393627ee2419b6",
-            "source_url": "https://www.qcc.com/",
-            "checked_at": "2026-10-12T03:40:17.538527+00:00",
+            "evidence_id": "geo-8937a56124a681debcbb311e",
+            "source_url": "https://pro.qcc.com/about_us",
+            "checked_at": "2026-10-20T01:53:45.520337+00:00",
             "subject": "企查查科技股份有限公司",
-            "role": "business",
+            "role": "hq",
             "subject_relation": "same_subject",
             "place": {
               "country": "CN",
               "province": "江苏省",
               "city": "苏州市",
-              "address": "江苏省苏州市工业园区汇智街8号"
+              "address": "江苏省苏州市工业园区汇智街8号企查查大厦"
             }
           }
         ]

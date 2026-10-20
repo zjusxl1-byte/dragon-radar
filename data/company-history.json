@@ -77576,16 +77576,18 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/CngTmchtb32p53RdrFzhDQ",
       "sector": "核电与数据中心能源供应",
-      "location": "地点待核",
+      "location": "US / Houston",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Houston",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e76d514fd5de6b4ebcfbed58"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Talen Energy",
         "subject_locality": {
           "status": "unknown",
@@ -77593,7 +77595,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e76d514fd5de6b4ebcfbed58",
+            "source_url": "https://data.sec.gov/submissions/CIK0001622536.json",
+            "checked_at": "2026-10-20T01:53:21.525519+00:00",
+            "subject": "Talen Energy",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Texas",
+              "city": "Houston",
+              "address": "2929 ALLEN PKWY, SUITE 2200, HOUSTON, TX 77019"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Texas",
+          "city": "Houston",
+          "evidence_ids": [
+            "geo-e76d514fd5de6b4ebcfbed58"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -78116,24 +78143,50 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/h3D6qVxXTbJD8eDM04NbPQ",
       "sector": "汽车制造与智能制造",
-      "location": "地点待核",
+      "location": "吉林省 / 长春市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "吉林省 / 长春市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-577cfa41d5e0131a513981f6"
+        ],
+        "subject_evidence_ids": [
+          "geo-577cfa41d5e0131a513981f6"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "一汽-大众汽车有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "吉林省",
+          "city": "长春市",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-577cfa41d5e0131a513981f6"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-577cfa41d5e0131a513981f6",
+            "source_url": "https://www.audi.cn/zh/legal.html",
+            "checked_at": "2026-10-20T01:53:20.254707+00:00",
+            "subject": "一汽-大众汽车有限公司",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "吉林省",
+              "city": "长春市",
+              "address": "吉林省长春市安庆路5号"
+            }
+          }
+        ]
       },
       "article_location": "",
       "source": "创业邦",
@@ -80772,13 +80825,15 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/CMLJZJo3a8s3OmaafXL71w",
       "sector": "人工智能Agent框架与云端服务",
-      "location": "地点待核",
+      "location": "法律联系地：Austin（实体经营/总部待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "display_location": "法律联系地：Austin（实体经营/总部待核）",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-5ce6d46e1e37caedc012079d"
+        ],
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
@@ -80789,7 +80844,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-5ce6d46e1e37caedc012079d",
+            "source_url": "https://shop.nousresearch.com/policies/privacy-policy",
+            "checked_at": "2026-10-20T01:50:24.560308+00:00",
+            "subject": "Nous Research",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Texas",
+              "city": "Austin",
+              "address": "600 Congress Avenue, Fl 14, Austin TX 78701"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "法律联系地：Austin（实体经营/总部待核）",
+          "detail": "官方商店隐私政策公司通信地址；不能单凭此断定Hermes研发团队总部。",
+          "evidence_ids": [
+            "geo-5ce6d46e1e37caedc012079d"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "创业邦",
@@ -82232,16 +82309,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
       "sector": "AI短电影与订阅内容平台",
-      "location": "地点待核",
+      "location": "US",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-25ff362cf44821f1cadb3f37"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "TrueShort",
         "subject_locality": {
           "status": "unknown",
@@ -82249,7 +82328,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-25ff362cf44821f1cadb3f37",
+            "source_url": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
+            "checked_at": "2026-10-08T23:01:17+00:00",
+            "subject": "TrueShort",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "",
+          "city": "",
+          "evidence_ids": [
+            "geo-25ff362cf44821f1cadb3f37"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "铅笔道",
@@ -82870,41 +82971,47 @@
       "event_type": "业绩预告",
       "link": "https://mp.weixin.qq.com/s/FAnzVrz1z41dUqpOAM6zSw",
       "sector": "高性能玻纤材料",
-      "location": "经营地：浙江省 / 桐乡市（注册/总部待核）",
+      "location": "浙江省 / 桐乡市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：浙江省 / 桐乡市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 桐乡市",
+        "located_status": "subject_confirmed",
         "display_basis": [
-          "geo-bf285bfd4c6c8fad024d8bb1"
+          "geo-74e2f438b5accb2b766cc8e1"
         ],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject_evidence_ids": [
+          "geo-74e2f438b5accb2b766cc8e1"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "中国巨石",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "桐乡市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-74e2f438b5accb2b766cc8e1"
+          ]
         },
         "basis": [
           {
-            "evidence_id": "geo-bf285bfd4c6c8fad024d8bb1",
-            "source_url": "https://www.jushi.com/about",
-            "checked_at": "2026-10-12T03:44:22.242468+00:00",
+            "evidence_id": "geo-74e2f438b5accb2b766cc8e1",
+            "source_url": "https://www.jushi.com/headquarters",
+            "checked_at": "2026-10-20T01:53:20.166421+00:00",
             "subject": "中国巨石",
-            "role": "business",
+            "role": "hq",
             "subject_relation": "same_subject",
             "place": {
               "country": "CN",
               "province": "浙江省",
               "city": "桐乡市",
-              "address": "桐乡市梧桐街道凤凰湖大道318号"
+              "address": "浙江省桐乡市凤凰湖大道318号"
             }
           }
         ]
@@ -83629,18 +83736,18 @@
       "event_type": "产品部署",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "无人配送",
-      "location": "经营地：广东省 / 深圳市（注册/总部待核）",
+      "location": "广东省 / 深圳市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：广东省 / 深圳市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-857120faf788c807e0ecac79"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "佑驾创新",
         "subject_locality": {
           "status": "unknown",
@@ -83662,7 +83769,17 @@
               "city": "深圳市"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-857120faf788c807e0ecac79"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "元璟资本",
@@ -84588,18 +84705,18 @@
       "event_type": "批量供货",
       "link": "https://mp.weixin.qq.com/s/GtCBAq3V7h-JE07J-Zas7w",
       "sector": "光通信陶瓷材料与封装",
-      "location": "经营地：河北省 / 石家庄市（注册/总部待核）",
+      "location": "河北省 / 石家庄市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：河北省 / 石家庄市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "河北省 / 石家庄市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-7afde6c21e4b17c5ea0d170e"
+          "geo-fcedbc4fddb320bce60a4924"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "中瓷电子",
         "subject_locality": {
           "status": "unknown",
@@ -84609,7 +84726,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-7afde6c21e4b17c5ea0d170e",
+            "evidence_id": "geo-fcedbc4fddb320bce60a4924",
             "source_url": "https://www.sinopack.com.cn/",
             "checked_at": "2026-10-12T03:44:03.272878+00:00",
             "subject": "中瓷电子",
@@ -84618,10 +84735,21 @@
             "place": {
               "country": "CN",
               "province": "河北省",
-              "city": "石家庄市"
+              "city": "石家庄市",
+              "address": "位于河北省石家庄市鹿泉经济开发区昌盛大街21号信息产业园"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "河北省",
+          "city": "石家庄市",
+          "evidence_ids": [
+            "geo-fcedbc4fddb320bce60a4924"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "半导体行业观察",
@@ -85871,38 +85999,47 @@
       "event_type": "负面",
       "link": "https://mp.weixin.qq.com/s/FAnzVrz1z41dUqpOAM6zSw",
       "sector": "企业信息与数据服务",
-      "location": "经营地：江苏省 / 苏州市（注册/总部待核）",
+      "location": "江苏省 / 苏州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：江苏省 / 苏州市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 苏州市",
+        "located_status": "subject_confirmed",
         "display_basis": [
-          "geo-d6810601ae393627ee2419b6"
+          "geo-8937a56124a681debcbb311e"
         ],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject_evidence_ids": [
+          "geo-8937a56124a681debcbb311e"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "企查查科技股份有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8937a56124a681debcbb311e"
+          ]
         },
         "basis": [
           {
-            "evidence_id": "geo-d6810601ae393627ee2419b6",
-            "source_url": "https://www.qcc.com/",
-            "checked_at": "2026-10-12T03:40:17.538527+00:00",
+            "evidence_id": "geo-8937a56124a681debcbb311e",
+            "source_url": "https://pro.qcc.com/about_us",
+            "checked_at": "2026-10-20T01:53:45.520337+00:00",
             "subject": "企查查科技股份有限公司",
-            "role": "business",
+            "role": "hq",
             "subject_relation": "same_subject",
             "place": {
               "country": "CN",
               "province": "江苏省",
               "city": "苏州市",
-              "address": "江苏省苏州市工业园区汇智街8号"
+              "address": "江苏省苏州市工业园区汇智街8号企查查大厦"
             }
           }
         ]
@@ -88468,18 +88605,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/q6pRiMm3Y3xpTBqHy1_A9A",
       "sector": "具身智能与服务机器人",
-      "location": "经营地：广东省 / 广州市（注册/总部待核）",
+      "location": "广东省 / 广州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：广东省 / 广州市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 广州市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-942b0cd5d3b6bd6750897c1f"
+          "geo-ebe3fd1e991ab0650361b94e"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "云蝶科技",
         "subject_locality": {
           "status": "unknown",
@@ -88489,7 +88626,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-942b0cd5d3b6bd6750897c1f",
+            "evidence_id": "geo-ebe3fd1e991ab0650361b94e",
             "source_url": "https://www.cloudbutterfly.com.cn/contact",
             "checked_at": "2026-10-15T18:26:21.476016+00:00",
             "subject": "云蝶科技",
@@ -88499,10 +88636,20 @@
               "country": "CN",
               "province": "广东省",
               "city": "广州市",
-              "address": "海珠区华新科创岛D区5栋3楼"
+              "address": "地址：广州市海珠区华新科创岛D区5栋3楼"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "广州市",
+          "evidence_ids": [
+            "geo-ebe3fd1e991ab0650361b94e"
+          ]
+        }
       },
       "article_location": "广州（原文明示创办地，未明确注册地或主要总部）",
       "source": "投资界",

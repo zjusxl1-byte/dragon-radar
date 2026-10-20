@@ -1024,18 +1024,18 @@
       "event_type": "批量供货",
       "link": "https://mp.weixin.qq.com/s/GtCBAq3V7h-JE07J-Zas7w",
       "sector": "光通信陶瓷材料与封装",
-      "location": "经营地：河北省 / 石家庄市（注册/总部待核）",
+      "location": "河北省 / 石家庄市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：河北省 / 石家庄市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "河北省 / 石家庄市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-7afde6c21e4b17c5ea0d170e"
+          "geo-fcedbc4fddb320bce60a4924"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "中瓷电子",
         "subject_locality": {
           "status": "unknown",
@@ -1045,7 +1045,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-7afde6c21e4b17c5ea0d170e",
+            "evidence_id": "geo-fcedbc4fddb320bce60a4924",
             "source_url": "https://www.sinopack.com.cn/",
             "checked_at": "2026-10-12T03:44:03.272878+00:00",
             "subject": "中瓷电子",
@@ -1054,10 +1054,21 @@
             "place": {
               "country": "CN",
               "province": "河北省",
-              "city": "石家庄市"
+              "city": "石家庄市",
+              "address": "位于河北省石家庄市鹿泉经济开发区昌盛大街21号信息产业园"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "河北省",
+          "city": "石家庄市",
+          "evidence_ids": [
+            "geo-fcedbc4fddb320bce60a4924"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "半导体行业观察",

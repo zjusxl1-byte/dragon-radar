@@ -1229,18 +1229,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/q6pRiMm3Y3xpTBqHy1_A9A",
       "sector": "具身智能与服务机器人",
-      "location": "经营地：广东省 / 广州市（注册/总部待核）",
+      "location": "广东省 / 广州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：广东省 / 广州市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 广州市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-942b0cd5d3b6bd6750897c1f"
+          "geo-ebe3fd1e991ab0650361b94e"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "云蝶科技",
         "subject_locality": {
           "status": "unknown",
@@ -1250,7 +1250,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-942b0cd5d3b6bd6750897c1f",
+            "evidence_id": "geo-ebe3fd1e991ab0650361b94e",
             "source_url": "https://www.cloudbutterfly.com.cn/contact",
             "checked_at": "2026-10-15T18:26:21.476016+00:00",
             "subject": "云蝶科技",
@@ -1260,10 +1260,20 @@
               "country": "CN",
               "province": "广东省",
               "city": "广州市",
-              "address": "海珠区华新科创岛D区5栋3楼"
+              "address": "地址：广州市海珠区华新科创岛D区5栋3楼"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "广州市",
+          "evidence_ids": [
+            "geo-ebe3fd1e991ab0650361b94e"
+          ]
+        }
       },
       "article_location": "广州（原文明示创办地，未明确注册地或主要总部）",
       "source": "投资界",
