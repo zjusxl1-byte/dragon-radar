@@ -1548,5 +1548,58 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "通衍灵智": [
+    {
+      "date": "2026-10-21",
+      "title": "通衍灵智采用共享基础模型与轻量化个性化参数相结合的架构，通过Personal LoRA适配个人、项目和企业的专业偏好及行为模式。公司表示，递归自我改进（RSI）核心技术路线与产品架构已明确，相关模块正在工程化，完整自动化闭环仍在研发。其Paged LoRA阶段性测试使用Qwen2.5-72B-Instruct和8张NVIDIA H800 GPU，在两种方案的LoRA显存预算均为5.79GB的条件下，相较传统Flat模式，在LoRA请求占比为1%至30%的测试负载下取得响应延迟和长尾表现优势；请求占比达到50%时，频繁参数换入换出仍导致性能退化。公司同时研发训推并行技术，以优化个性化参数增量训练与在线服务的资源分配。",
+      "article_title": "通研院孵化的团队，也盯上了RSI",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Xni5hfbEfMqBu7ELyhkM-g",
+      "sector": "人工智能／个性化模型与持续学习基础设施",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "通衍灵智",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "通衍灵智",
+      "company_entity_id": "dr-u-bc24291512f2e7255195",
+      "company_raw_name": "通衍灵智",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持早期研发与条件性测试进展，未提供独立行业领先地位、生产验证或规模客户应用依据；研究院资源关联本身不构成全国标杆资格。",
+        "evidence_ids": [
+          "article:ee11fcff63a5cd35"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "通衍灵智尝试把团队反复形成的工程规范和判断习惯训练进轻量化参数，补充知识检索与外部记忆，而非为每个客户重训完整大模型。分页显存管理的阶段性测试触及多套专属参数共享算力的成本问题，但高请求占比下的性能退化说明，其规模化服务能力仍取决于参数调度优化和持续学习闭环的工程落地。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "通衍灵智推进个性化模型持续学习工程化并披露显存管理测试",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
