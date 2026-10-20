@@ -1463,24 +1463,48 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/7qz_oh7FnASawkBiZ__CKw",
       "sector": "人工智能反诈与网络安全",
-      "location": "地点线索：澳大利亚；原文未明确注册地、总部或现有办公城市",
+      "location": "US",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-6bea46ca7c11e42bb8299c7a"
+        ],
+        "subject_evidence_ids": [
+          "geo-6bea46ca7c11e42bb8299c7a"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Apate.ai",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Delaware",
+          "city": "",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-6bea46ca7c11e42bb8299c7a"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-6bea46ca7c11e42bb8299c7a",
+            "source_url": "https://www.apate.ai/post/apate-ai-raises-us-8-15m-taking-its-autonomous-fleet-of-ai-agents-to-a-global-fight-against-scammers-and-reincorporates-in-the-united-states",
+            "checked_at": "2026-10-20T01:40:05.394472+00:00",
+            "subject": "Apate.ai",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Delaware"
+            }
+          }
+        ]
       },
       "article_location": "澳大利亚；原文未明确注册地、总部或现有办公城市",
       "source": "创业邦",
@@ -1538,24 +1562,48 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/L40_9D1kea68XYL7NAm7Ig",
       "sector": "AI教育科技、终身学习与智能体应用",
-      "location": "地点待核",
+      "location": "US",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-af5f2cfbdb41a41889c2e715"
+        ],
+        "subject_evidence_ids": [
+          "geo-af5f2cfbdb41a41889c2e715"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Ouraca",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Delaware",
+          "city": "",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-af5f2cfbdb41a41889c2e715"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-af5f2cfbdb41a41889c2e715",
+            "source_url": "https://www.aibrary.ai/privacy",
+            "checked_at": "2026-10-20T01:41:26.780787+00:00",
+            "subject": "Ouraca",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Delaware"
+            }
+          }
+        ]
       },
       "article_location": "",
       "source": "创业邦",

@@ -1030,24 +1030,50 @@
       "event_type": "产品研发",
       "link": "https://mp.weixin.qq.com/s/38mgbPzvQ63QdaHnJyExIQ",
       "sector": "虚拟现实设备",
-      "location": "地点待核",
+      "location": "US / Bellevue",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Bellevue",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8f3365d853258136468e1ba3"
+        ],
+        "subject_evidence_ids": [
+          "geo-8f3365d853258136468e1ba3"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Valve",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Washington",
+          "city": "Bellevue",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-8f3365d853258136468e1ba3"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-8f3365d853258136468e1ba3",
+            "source_url": "https://store.steampowered.com/subscriber_agreement/",
+            "checked_at": "2026-10-20T01:41:21.506341+00:00",
+            "subject": "Valve",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Washington",
+              "city": "Bellevue",
+              "address": "10400 NE 4th St., Bellevue, WA 98004"
+            }
+          }
+        ]
       },
       "article_location": "",
       "source": "创业邦",
