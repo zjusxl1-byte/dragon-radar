@@ -79,7 +79,20 @@
   }
   function currentDaily(data,options={}){
     const result={...data};
-    for(const key of ['targets','negatives'])if(Array.isArray(data[key]))result[key]=data[key].map(row=>currentRow(row,options));
+    const {snapshot=false,day,sourceVersion}=options,manifest=window.RadarData?.manifest||{};
+    const metadata=manifest.daily_reading_metadata?.[day];
+    const bound=!snapshot&&typeof sourceVersion==='string'&&/^[a-f0-9]{64}$/.test(sourceVersion)
+      &&sourceVersion===metadata?.source_version&&sourceVersion===manifest.daily_versions?.[day];
+    const fields=new Set(['company_entity_id','identity_status','company_canonical_name','event_headline','event_signal']);
+    for(const key of ['targets','negatives'])if(Array.isArray(data[key]))result[key]=data[key].map((row,index)=>{
+      const revised={...row},patch=bound&&!row._radarSnapshot&&metadata[key]?.[index];
+      if(patch&&typeof patch==='object'&&!Array.isArray(patch))for(const [field,value] of Object.entries(patch)){
+        if(!fields.has(field))continue;
+        if(value===null)delete revised[field];
+        else if(typeof value==='string'&&(field!=='event_signal'||['major','material','context'].includes(value)))revised[field]=value;
+      }
+      return currentRow(revised,options);
+    });
     return result;
   }
   function risk(row){return row.kind==='risk'||/风险|负面/.test(row.event_type||'');}
@@ -93,7 +106,7 @@
   }
   function eventKey(row){
     const identity=row.event_key||row.source_event_id||row.event_id||row.id||row.event_identity?.canonical_id||'';
-    return JSON.stringify([row.company_entity_id||canonical(row.company_name||row.company||''),identity,
+    return JSON.stringify([row.company_entity_id||row.company_name||row.company||'',identity,
       row.link||'',row.event_desc||row.reason||row.title||'',row.event_date||row.event_time_evidence?.event_date||'',risk(row)?'risk':'event']);
   }
   function compareDaily(a,b){

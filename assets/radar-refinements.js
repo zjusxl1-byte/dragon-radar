@@ -49,7 +49,7 @@
     if(!/^\d{4}-\d{2}-\d{2}$/.test(day))return Promise.reject(Error('日期格式不正确'));
     const p=params(),explicit=options.snapshot===false?'':(Router.getRoute()==='/today'&&p.date===day&&p.v),
       version=explicit||window.RadarData.manifest?.daily_versions?.[day];
-    const project=data=>A.currentDaily(data,{snapshot:!!explicit});
+    const project=data=>A.currentDaily(data,{snapshot:!!explicit,day,sourceVersion:options.sourceVersion??version});
     if(!version)return reuseRequest(dataRequests,'day:'+day,()=>originalLoad(day)).then(project);
     if(typeof version!=='string'||!/^[a-f0-9]{64}$/.test(version))return Promise.reject(Error('版本链接不正确'));
     // Old shares retain their source version; public snapshots may omit metadata.

@@ -1082,7 +1082,7 @@
                 manifestData.briefings = briefingsData;
                 window.RadarData.manifest = manifestData;
                     
-                    return loadDailyData(manifestData.today, {snapshot: false}).then(function(dailyData) {
+                    return loadDailyData(manifestData.today, {snapshot: false, day: manifestData.today, sourceVersion: manifestData.daily_versions && manifestData.daily_versions[manifestData.today]}).then(function(dailyData) {
                         var targets = dailyData.targets || [];
                         var negatives = dailyData.negatives || [];
                         
@@ -1161,10 +1161,10 @@
         document.addEventListener('DOMContentLoaded', initApp);
     </script>
     <script src="./assets/radar-share.js?v=20261015-editorial-release-r3"></script>
-    <script src="./assets/radar-history.js?v=20261020-geography-order-r1"></script>
+    <script src="./assets/radar-history.js?v=20261020-geography-order-r2"></script>
     <script src="./assets/radar-interpretation.js?v=20261015-editorial-release-r3"></script>
     <script src="./assets/radar-observations.js?v=20261015-editorial-release-r3"></script>
-    <script src="./assets/radar-refinements.js?v=20261020-geography-order-r1"></script>
+    <script src="./assets/radar-refinements.js?v=20261020-geography-order-r2"></script>
 <script src="./assets/radar-interactions.js"></script>
 <script src="./assets/radar-components.js"></script>
 <script src="./assets/radar-editorial.js"></script>
