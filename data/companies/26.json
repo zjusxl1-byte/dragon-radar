@@ -472,16 +472,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/u_aZR5EdsBV8KX0Xko9cyg",
       "sector": "半导体/功率模块",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市 / 滨江区 / 东信大道66号4号楼422室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区 / 东信大道66号4号楼422室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-95dce833ef230c8da07a52e0"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州泰昕微电子有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -489,7 +491,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-95dce833ef230c8da07a52e0",
+            "source_url": "https://www.cnipa.gov.cn/art/2020/3/20/art_164_58551.html",
+            "checked_at": "2026-10-20T02:32:26.812761+00:00",
+            "subject": "杭州泰昕微电子有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "东信大道66号4号楼422室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-95dce833ef230c8da07a52e0"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "湖畔自留田",

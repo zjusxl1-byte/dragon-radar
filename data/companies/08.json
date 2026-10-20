@@ -1141,16 +1141,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/9KMci7dzCnUXzSpUQDmsmA",
       "sector": "半导体设计、端边侧人工智能芯片",
-      "location": "地点待核",
+      "location": "福建省 / 厦门市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "福建省 / 厦门市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3927f880e1789f199b99dfb6"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "星宸科技",
         "subject_locality": {
           "status": "unknown",
@@ -1158,7 +1160,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3927f880e1789f199b99dfb6",
+            "source_url": "https://www.stcn.com/article/detail/1169766.html",
+            "checked_at": "2026-10-20T02:31:27.133843+00:00",
+            "subject": "星宸科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "福建省",
+              "city": "厦门市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "福建省",
+          "city": "厦门市",
+          "evidence_ids": [
+            "geo-3927f880e1789f199b99dfb6"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",

@@ -1694,31 +1694,28 @@
       "event_type": "临床应用",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "心脏电生理医疗器械",
-      "location": "经营地：江苏省 / 苏州市 / 工业园区苏虹西路9号6栋西侧201室（注册/总部待核）",
+      "location": "江苏省 / 苏州市 / 苏州工业园区 / 苏虹西路9号6栋西侧201室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：江苏省 / 苏州市 / 工业园区苏虹西路9号6栋西侧201室（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 苏州市 / 苏州工业园区 / 苏虹西路9号6栋西侧201室",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-c170f8ecd19d293cf6f3215b"
+          "geo-45ddfdf8a80eaf0da2696fff"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "艾科脉",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-c170f8ecd19d293cf6f3215b",
+            "evidence_id": "geo-45ddfdf8a80eaf0da2696fff",
             "source_url": "https://accupulse.com/cn/",
             "checked_at": "2026-10-12T04:04:23.869675+00:00",
             "subject": "艾科脉",
@@ -1728,10 +1725,22 @@
               "country": "CN",
               "province": "江苏省",
               "city": "苏州市",
-              "address": "工业园区苏虹西路9号6栋西侧201室"
+              "district": "苏州工业园区",
+              "address": "苏虹西路9号6栋西侧201室"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "district": "苏州工业园区",
+          "evidence_ids": [
+            "geo-45ddfdf8a80eaf0da2696fff"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "元璟资本",

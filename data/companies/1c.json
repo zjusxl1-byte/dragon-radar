@@ -1806,16 +1806,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "GPU算力",
-      "location": "地点待核",
+      "location": "经营地：深圳市 / 南山区 / 高新南九道39号B座2204",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "经营地：深圳市 / 南山区 / 高新南九道39号B座2204",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c76a8bf78d4e7f0376456b80"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "天数智芯",
         "subject_locality": {
           "status": "unknown",
@@ -1823,7 +1825,41 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c76a8bf78d4e7f0376456b80",
+            "source_url": "https://www.iluvatar.com/concactus",
+            "checked_at": "2026-10-20T02:35:45.284574+00:00",
+            "subject": "天数智芯",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "南山区",
+              "address": "广东省深圳市南山区高新南九道39号深圳清华大学研究院新大楼B座2204"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "南山区",
+          "evidence_ids": [
+            "geo-c76a8bf78d4e7f0376456b80"
+          ]
+        },
+        "presentation": {
+          "label": "经营地：深圳市 / 南山区 / 高新南九道39号B座2204",
+          "detail": "官网明确经营办公室；南京、西安、北京也有公司地址，不表示主要总部在深圳。",
+          "evidence_ids": [
+            "geo-c76a8bf78d4e7f0376456b80"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",

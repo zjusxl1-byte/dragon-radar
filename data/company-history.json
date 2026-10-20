@@ -9955,16 +9955,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/u_aZR5EdsBV8KX0Xko9cyg",
       "sector": "半导体/功率模块",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市 / 滨江区 / 东信大道66号4号楼422室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区 / 东信大道66号4号楼422室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-95dce833ef230c8da07a52e0"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州泰昕微电子有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -9972,7 +9974,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-95dce833ef230c8da07a52e0",
+            "source_url": "https://www.cnipa.gov.cn/art/2020/3/20/art_164_58551.html",
+            "checked_at": "2026-10-20T02:32:26.812761+00:00",
+            "subject": "杭州泰昕微电子有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "东信大道66号4号楼422室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-95dce833ef230c8da07a52e0"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "湖畔自留田",
@@ -36488,16 +36517,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/pnpnuBGp5KAk57-1u9_d6g",
       "sector": "内容社区、社交电商",
-      "location": "地点线索：上海",
+      "location": "上海市 / 黄浦区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 黄浦区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-b8724c9d3f38f44d2e3a6574"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "小红书",
         "subject_locality": {
           "status": "unknown",
@@ -36505,7 +36536,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-b8724c9d3f38f44d2e3a6574",
+            "source_url": "https://www.shanghai.gov.cn/nw15343/20250717/c879c4944dd3453898443965bac73982.html",
+            "checked_at": "2026-10-20T02:35:14.901053+00:00",
+            "subject": "小红书",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "黄浦区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "黄浦区",
+          "evidence_ids": [
+            "geo-b8724c9d3f38f44d2e3a6574"
+          ]
+        }
       },
       "article_location": "上海",
       "source": "投资界",
@@ -52127,16 +52184,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/zn_aAddIi3SsccMowCVjHg",
       "sector": "人工智能大模型",
-      "location": "地点待核",
+      "location": "上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-416bcac9cf835dce3416ae8f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "阶跃星辰",
         "subject_locality": {
           "status": "unknown",
@@ -52144,7 +52203,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-416bcac9cf835dce3416ae8f",
+            "source_url": "https://www.shanghai.gov.cn/nw4411/20250702/e67154a281444f4bb7ab7a332e67a4d0.html",
+            "checked_at": "2026-10-20T02:35:08.430260+00:00",
+            "subject": "阶跃星辰",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-416bcac9cf835dce3416ae8f"
+          ]
+        }
       },
       "article_location": "",
       "source": "量子位",
@@ -79783,27 +79866,46 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/h3D6qVxXTbJD8eDM04NbPQ",
       "sector": "商业航天与卫星通信",
-      "location": "地点待核",
+      "location": "US",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-7971bb458295361b0d7aab04"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "蓝色起源",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7971bb458295361b0d7aab04",
+            "source_url": "https://www.news.cn/world/20250116/f70d4409784344a8833923e62853f6b6/c.html",
+            "checked_at": "2026-10-20T02:32:27.248424+00:00",
+            "subject": "蓝色起源",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-7971bb458295361b0d7aab04"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -80902,16 +81004,18 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/WA8CQqfGDTIGQaLOLgbIbw",
       "sector": "半导体先进封装设备",
-      "location": "地点待核",
+      "location": "US",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a9411660f72b967e3c5b11be"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "应用材料",
         "subject_locality": {
           "status": "unknown",
@@ -80919,7 +81023,27 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-a9411660f72b967e3c5b11be",
+            "source_url": "https://www.stcn.com/article/detail/3411949.html",
+            "checked_at": "2026-10-20T02:33:20.328537+00:00",
+            "subject": "应用材料",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-a9411660f72b967e3c5b11be"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "半导体行业观察",
@@ -84280,16 +84404,18 @@
       "event_type": "资质获批",
       "link": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
       "sector": "AI影视制作与院线发行",
-      "location": "地点待核",
+      "location": "北京市 / 朝阳区 / 工人体育馆东路乙2号博纳大厦11层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 朝阳区 / 工人体育馆东路乙2号博纳大厦11层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-cc8a66f38050363c71617e35"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "博纳影业",
         "subject_locality": {
           "status": "unknown",
@@ -84297,7 +84423,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-cc8a66f38050363c71617e35",
+            "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpInfo/stockid/001330.phtml",
+            "checked_at": "2026-10-20T02:28:36.566565+00:00",
+            "subject": "博纳影业",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "朝阳区",
+              "address": "工人体育馆东路乙2号博纳大厦11层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "朝阳区",
+          "evidence_ids": [
+            "geo-cc8a66f38050363c71617e35"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "铅笔道",
@@ -84397,16 +84550,18 @@
       "event_type": "技术进展",
       "link": "https://mp.weixin.qq.com/s/Xhkwa_A3mJJUdOGQU11qCA",
       "sector": "摩托车发动机与车辆制造",
-      "location": "地点待核",
+      "location": "重庆市 / 两江新区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "重庆市 / 两江新区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-caa4496c375eb9303b6db045"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "张雪机车",
         "subject_locality": {
           "status": "unknown",
@@ -84414,7 +84569,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-caa4496c375eb9303b6db045",
+            "source_url": "https://cq.news.cn/20260331/693e90499e4f41dabfeee1abbdae18eb/c.html",
+            "checked_at": "2026-10-20T02:35:06.421144+00:00",
+            "subject": "张雪机车",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "重庆市",
+              "city": "重庆市",
+              "district": "两江新区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "重庆市",
+          "city": "重庆市",
+          "district": "两江新区",
+          "evidence_ids": [
+            "geo-caa4496c375eb9303b6db045"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "创业邦",
@@ -85906,31 +86087,28 @@
       "event_type": "临床应用",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "心脏电生理医疗器械",
-      "location": "经营地：江苏省 / 苏州市 / 工业园区苏虹西路9号6栋西侧201室（注册/总部待核）",
+      "location": "江苏省 / 苏州市 / 苏州工业园区 / 苏虹西路9号6栋西侧201室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：江苏省 / 苏州市 / 工业园区苏虹西路9号6栋西侧201室（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 苏州市 / 苏州工业园区 / 苏虹西路9号6栋西侧201室",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-c170f8ecd19d293cf6f3215b"
+          "geo-45ddfdf8a80eaf0da2696fff"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "艾科脉",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-c170f8ecd19d293cf6f3215b",
+            "evidence_id": "geo-45ddfdf8a80eaf0da2696fff",
             "source_url": "https://accupulse.com/cn/",
             "checked_at": "2026-10-12T04:04:23.869675+00:00",
             "subject": "艾科脉",
@@ -85940,10 +86118,22 @@
               "country": "CN",
               "province": "江苏省",
               "city": "苏州市",
-              "address": "工业园区苏虹西路9号6栋西侧201室"
+              "district": "苏州工业园区",
+              "address": "苏虹西路9号6栋西侧201室"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "district": "苏州工业园区",
+          "evidence_ids": [
+            "geo-45ddfdf8a80eaf0da2696fff"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "元璟资本",
@@ -86041,16 +86231,18 @@
       "event_type": "产品展示",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "家庭AI与物联网",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市 / 西湖区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-0af4d5506093e739364982a7"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "涂鸦智能",
         "subject_locality": {
           "status": "unknown",
@@ -86058,7 +86250,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0af4d5506093e739364982a7",
+            "source_url": "https://www.hangzhou.gov.cn/art/2021/3/19/art_1229243363_59031461.html",
+            "checked_at": "2026-10-20T02:31:15.123752+00:00",
+            "subject": "涂鸦智能",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-0af4d5506093e739364982a7"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "元璟资本",
@@ -86131,16 +86349,18 @@
       "event_type": "产品发布",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "电动越野车辆",
-      "location": "地点待核",
+      "location": "重庆市 / 大渡口区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "重庆市 / 大渡口区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-944d2e5cc0c234b5507a1112"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "虬龙科技",
         "subject_locality": {
           "status": "unknown",
@@ -86148,7 +86368,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-944d2e5cc0c234b5507a1112",
+            "source_url": "https://www.cq.gov.cn/ywdt/zwhd/qxdt/202310/t20231017_12436273.html",
+            "checked_at": "2026-10-20T02:35:07.039656+00:00",
+            "subject": "虬龙科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "重庆市",
+              "city": "重庆市",
+              "district": "大渡口区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "重庆市",
+          "city": "重庆市",
+          "district": "大渡口区",
+          "evidence_ids": [
+            "geo-944d2e5cc0c234b5507a1112"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "元璟资本",
@@ -88155,16 +88401,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Wiils3L-7Poe-F7aAfeR4w",
       "sector": "人工智能／世界模型／空间智能",
-      "location": "地点待核",
+      "location": "北京市 / 海淀区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-86aee77f8177b32f9cff08ba"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "字节",
         "subject_locality": {
           "status": "unknown",
@@ -88172,7 +88420,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-86aee77f8177b32f9cff08ba",
+            "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
+            "checked_at": "2026-10-20T02:29:16.687727+00:00",
+            "subject": "字节",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-86aee77f8177b32f9cff08ba"
+          ]
+        }
       },
       "article_location": "",
       "source": "量子位",
@@ -91201,16 +91475,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/9KMci7dzCnUXzSpUQDmsmA",
       "sector": "半导体设计、端边侧人工智能芯片",
-      "location": "地点待核",
+      "location": "福建省 / 厦门市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "福建省 / 厦门市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3927f880e1789f199b99dfb6"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "星宸科技",
         "subject_locality": {
           "status": "unknown",
@@ -91218,7 +91494,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3927f880e1789f199b99dfb6",
+            "source_url": "https://www.stcn.com/article/detail/1169766.html",
+            "checked_at": "2026-10-20T02:31:27.133843+00:00",
+            "subject": "星宸科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "福建省",
+              "city": "厦门市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "福建省",
+          "city": "厦门市",
+          "evidence_ids": [
+            "geo-3927f880e1789f199b99dfb6"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
@@ -91826,16 +92126,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/2fpaup7BZkN9BPXo2B2BZQ",
       "sector": "光伏产业链",
-      "location": "地点待核",
+      "location": "四川省成都市高新区天府大道中段588号通威国际中心",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "四川省成都市高新区天府大道中段588号通威国际中心",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-6964a58095f09ad35390c71f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "通威",
         "subject_locality": {
           "status": "unknown",
@@ -91843,7 +92145,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-6964a58095f09ad35390c71f",
+            "source_url": "https://www.tongwei.com/contact.html",
+            "checked_at": "2026-10-20T02:32:49.675850+00:00",
+            "subject": "通威",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "四川省",
+              "city": "成都市",
+              "address": "四川省成都市高新区天府大道中段588号通威国际中心"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "四川省",
+          "city": "成都市",
+          "evidence_ids": [
+            "geo-6964a58095f09ad35390c71f"
+          ]
+        }
       },
       "article_location": "",
       "source": "浙商杂志",
@@ -91961,16 +92288,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/cfrjw-MVweUokaLX8D5tLg",
       "sector": "新能源汽车与固态电池",
-      "location": "地点待核",
+      "location": "安徽省 / 芜湖市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "安徽省 / 芜湖市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c709f0411011e972f1898091"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "奇瑞汽车",
         "subject_locality": {
           "status": "unknown",
@@ -91978,7 +92307,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c709f0411011e972f1898091",
+            "source_url": "https://www.news.cn/auto/20250403/13d495dcd43b487cbcdcf1a019a95c2c/c.html",
+            "checked_at": "2026-10-20T02:29:16.183089+00:00",
+            "subject": "奇瑞汽车",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "安徽省",
+              "city": "芜湖市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "安徽省",
+          "city": "芜湖市",
+          "evidence_ids": [
+            "geo-c709f0411011e972f1898091"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -93299,16 +93652,18 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/gTvUryoa3rjdKYW_e0sZEA",
       "sector": "人工智能算力基础设施",
-      "location": "地点待核",
+      "location": "KR",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "KR",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-942e1319829074a5a9c59e27"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "NeoAI Cloud",
         "subject_locality": {
           "status": "unknown",
@@ -93316,7 +93671,27 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-942e1319829074a5a9c59e27",
+            "source_url": "https://www.translinkcapital.com/portfolio/neoai-clould",
+            "checked_at": "2026-10-20T02:33:40.023331+00:00",
+            "subject": "NeoAI Cloud",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "KR"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "KR",
+          "evidence_ids": [
+            "geo-942e1319829074a5a9c59e27"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -93492,16 +93867,18 @@
       "event_type": "临床进展",
       "link": "https://news.pedaily.cn/202610/570325.shtml",
       "sector": "脑机接口",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-cf44f80e706c6877d1d91498"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "微灵医疗",
         "subject_locality": {
           "status": "unknown",
@@ -93509,7 +93886,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-cf44f80e706c6877d1d91498",
+            "source_url": "https://finance.sina.com.cn/wm/2024-11-23/doc-incwzezy7156260.shtml",
+            "checked_at": "2026-10-20T02:31:14.900455+00:00",
+            "subject": "微灵医疗",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-cf44f80e706c6877d1d91498"
+          ]
+        }
       },
       "article_location": "地点待核",
       "source": "投资界（36氪授权转载）",
@@ -94525,16 +94926,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/ATpBdK2MVKVQ33S8gn8lKw",
       "sector": "人工智能／端侧大模型",
-      "location": "地点待核",
+      "location": "北京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-95b8728b6fab9c37e600df72"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "北京面壁智能科技股份有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -94542,7 +94945,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-95b8728b6fab9c37e600df72",
+            "source_url": "https://www.ncsti.gov.cn/kjdt/kjrd/rgzn_kjrd/202412/t20241212_189064.html",
+            "checked_at": "2026-10-20T02:35:44.939709+00:00",
+            "subject": "北京面壁智能科技股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-95b8728b6fab9c37e600df72"
+          ]
+        }
       },
       "article_location": "",
       "source": "湖畔自留田",
@@ -94702,16 +95129,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/4bmt6y641yJx0ZO5bDSoPg",
       "sector": "具身智能与机器人灵巧操作",
-      "location": "地点待核",
+      "location": "江苏省 / 南京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 南京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-9cfa384a2ab645f54e059b68"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "中科硅纪",
         "subject_locality": {
           "status": "unknown",
@@ -94719,7 +95148,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-9cfa384a2ab645f54e059b68",
+            "source_url": "https://eu.36kr.com/zh/p/3582198041312137",
+            "checked_at": "2026-10-20T02:34:17.518952+00:00",
+            "subject": "中科硅纪",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "南京市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "南京市",
+          "evidence_ids": [
+            "geo-9cfa384a2ab645f54e059b68"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -94755,16 +95208,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/4bmt6y641yJx0ZO5bDSoPg",
       "sector": "智能制造与运动控制",
-      "location": "地点待核",
+      "location": "江苏省 / 苏州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 苏州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-73df36b9d900f65c1f6c1ee8"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "纵苇科技",
         "subject_locality": {
           "status": "unknown",
@@ -94772,7 +95227,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-73df36b9d900f65c1f6c1ee8",
+            "source_url": "https://www.xhby.net/content/s68c15dc2e4b063f4f54f7989.html",
+            "checked_at": "2026-10-20T02:33:20.667059+00:00",
+            "subject": "纵苇科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "evidence_ids": [
+            "geo-73df36b9d900f65c1f6c1ee8"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -94861,16 +95340,18 @@
       "event_type": "融资",
       "link": "https://finance.ifeng.com/c/8xACSxrNh8L",
       "sector": "半导体封装自动化与工业机器人",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市宝安区福海街道新和社区红牌工业园华丰智谷福海科技产业园A栋A108",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市宝安区福海街道新和社区红牌工业园华丰智谷福海科技产业园A栋A108",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-54f6ac0581ab3179ce6426b1"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "牛耳商用机器人",
         "subject_locality": {
           "status": "unknown",
@@ -94878,7 +95359,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-54f6ac0581ab3179ce6426b1",
+            "source_url": "https://permit.mee.gov.cn/register/library/registerShow.vm?enterid=d52fc470-b1be-4d03-aab6-f899459872df",
+            "checked_at": "2026-10-20T02:31:39.692225+00:00",
+            "subject": "牛耳商用机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "宝安区",
+              "address": "深圳市宝安区福海街道新和社区红牌工业园华丰智谷福海科技产业园A栋A108"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "宝安区",
+          "evidence_ids": [
+            "geo-54f6ac0581ab3179ce6426b1"
+          ]
+        }
       },
       "article_location": "",
       "source": "finance.ifeng.com",
@@ -94914,16 +95422,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/6VPgTd37WYZMZlN4jhna3w",
       "sector": "AI制药／AI驱动药物发现",
-      "location": "地点待核",
+      "location": "上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-57c8e1bca15b2e33ba20a793"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Anew Labs（新生实验室）",
         "subject_locality": {
           "status": "unknown",
@@ -94931,7 +95441,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-57c8e1bca15b2e33ba20a793",
+            "source_url": "https://anewbt.com/",
+            "checked_at": "2026-10-20T02:32:31.818030+00:00",
+            "subject": "Anew Labs（新生实验室）",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-57c8e1bca15b2e33ba20a793"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",
@@ -94974,16 +95508,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Iok-bjxx7C_fAwbJxWAs3w",
       "sector": "割草机器人",
-      "location": "地点待核",
+      "location": "北京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-26a3fb7ced71d2f3c86961aa"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "九号",
         "subject_locality": {
           "status": "unknown",
@@ -94991,7 +95527,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-26a3fb7ced71d2f3c86961aa",
+            "source_url": "https://ninebot.com/explore/about-us.html",
+            "checked_at": "2026-10-20T02:34:16.701080+00:00",
+            "subject": "九号",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-26a3fb7ced71d2f3c86961aa"
+          ]
+        }
       },
       "article_location": "",
       "source": "铅笔道",
@@ -95081,16 +95641,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Iok-bjxx7C_fAwbJxWAs3w",
       "sector": "户外作业机器人",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市龙华区民治街道民新社区深国际数字谷L栋",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市龙华区民治街道民新社区深国际数字谷L栋",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-131df9916b97a7b48774933e"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "汉阳科技",
         "subject_locality": {
           "status": "unknown",
@@ -95098,7 +95660,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-131df9916b97a7b48774933e",
+            "source_url": "https://www.hanyangtech.cn/about",
+            "checked_at": "2026-10-20T02:36:16.118344+00:00",
+            "subject": "汉阳科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "龙华区",
+              "address": "深圳市龙华区民治街道民新社区深国际数字谷L栋"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "龙华区",
+          "evidence_ids": [
+            "geo-131df9916b97a7b48774933e"
+          ]
+        }
       },
       "article_location": "",
       "source": "铅笔道",
@@ -95576,16 +96165,18 @@
       "event_type": "对外投资",
       "link": "https://mp.weixin.qq.com/s/TAMIr_n7MXluR1bKjTvnLg",
       "sector": "半导体设备／先进封装",
-      "location": "地点待核",
+      "location": "上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-9368926a59ee150ae1685da5"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "中微公司",
         "subject_locality": {
           "status": "unknown",
@@ -95593,7 +96184,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-9368926a59ee150ae1685da5",
+            "source_url": "https://www.amec-inc.com/index/Lists/index/catid/2.html",
+            "checked_at": "2026-10-20T02:33:32.231164+00:00",
+            "subject": "中微公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-9368926a59ee150ae1685da5"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
@@ -95636,16 +96251,18 @@
       "event_type": "并购",
       "link": "https://mp.weixin.qq.com/s/TAMIr_n7MXluR1bKjTvnLg",
       "sector": "半导体设备／混合键合",
-      "location": "地点待核",
+      "location": "北京市北京经济技术开发区文昌大道8号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市北京经济技术开发区文昌大道8号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-41f3c87c25d522f8a9da5cae"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "北方华创科技集团股份有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -95653,7 +96270,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-41f3c87c25d522f8a9da5cae",
+            "source_url": "https://www.naura.com/other/contact.html",
+            "checked_at": "2026-10-20T02:34:55.530341+00:00",
+            "subject": "北方华创科技集团股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "address": "北京市北京经济技术开发区文昌大道8号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-41f3c87c25d522f8a9da5cae"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
@@ -95891,16 +96533,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "算力芯片",
-      "location": "活动地：上海市（企业属地待核）",
+      "location": "经营地：上海市 / 张江",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "活动地：上海市（企业属地待核）",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "经营地：上海市 / 张江",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-ed433796b914ffe72f1f42a5"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "东方算芯",
         "subject_locality": {
           "status": "unknown",
@@ -95910,24 +96554,35 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-4274eaded0bd82f64a3df2ae",
-            "source_url": "https://www.cls.cn/detail/2506466",
-            "checked_at": "2026-10-18T18:03:52.969252+00:00",
+            "evidence_id": "geo-ed433796b914ffe72f1f42a5",
+            "source_url": "https://www.csdn.net/article/2026-07-21/163078656",
+            "checked_at": "2026-10-20T02:35:14.884583+00:00",
             "subject": "东方算芯",
-            "role": "mention",
+            "role": "business",
             "subject_relation": "same_subject",
             "place": {
               "country": "CN",
               "province": "上海市",
-              "city": "上海市"
+              "city": "上海市",
+              "address": "上海张江"
             }
           }
         ],
-        "presentation": {
-          "label": "活动地：上海市（企业属地待核）",
-          "detail": "在上海工博会展示产品；不是企业办公室证据。",
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
           "evidence_ids": [
-            "geo-4274eaded0bd82f64a3df2ae"
+            "geo-ed433796b914ffe72f1f42a5"
+          ]
+        },
+        "presentation": {
+          "label": "经营地：上海市 / 张江",
+          "detail": "新公司介绍直接证明张江经营归属；旧上海工博会活动事实保留为mention，不作总部资格。",
+          "evidence_ids": [
+            "geo-ed433796b914ffe72f1f42a5"
           ]
         }
       },
@@ -95998,16 +96653,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "GPU算力",
-      "location": "地点待核",
+      "location": "经营地：深圳市 / 南山区 / 高新南九道39号B座2204",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "经营地：深圳市 / 南山区 / 高新南九道39号B座2204",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c76a8bf78d4e7f0376456b80"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "天数智芯",
         "subject_locality": {
           "status": "unknown",
@@ -96015,7 +96672,41 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c76a8bf78d4e7f0376456b80",
+            "source_url": "https://www.iluvatar.com/concactus",
+            "checked_at": "2026-10-20T02:35:45.284574+00:00",
+            "subject": "天数智芯",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "南山区",
+              "address": "广东省深圳市南山区高新南九道39号深圳清华大学研究院新大楼B座2204"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "南山区",
+          "evidence_ids": [
+            "geo-c76a8bf78d4e7f0376456b80"
+          ]
+        },
+        "presentation": {
+          "label": "经营地：深圳市 / 南山区 / 高新南九道39号B座2204",
+          "detail": "官网明确经营办公室；南京、西安、北京也有公司地址，不表示主要总部在深圳。",
+          "evidence_ids": [
+            "geo-c76a8bf78d4e7f0376456b80"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",
@@ -96197,16 +96888,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "工业视觉与移动机器人",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市丹枫路399号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市丹枫路399号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-7f5f4199ad2a1b81ecfd83ac"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "海康机器人",
         "subject_locality": {
           "status": "unknown",
@@ -96214,7 +96907,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7f5f4199ad2a1b81ecfd83ac",
+            "source_url": "https://www.hikrobotics.com/cn/contactus/",
+            "checked_at": "2026-10-20T02:36:34.863073+00:00",
+            "subject": "海康机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市丹枫路399号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-7f5f4199ad2a1b81ecfd83ac"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",
@@ -96514,16 +97232,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/y4nxWeFaV7r5iJVHKmbcDA",
       "sector": "车规级AI芯片与端侧智能计算",
-      "location": "地点待核",
+      "location": "上海市 / 中国（上海）自由贸易试验区银冬路20弄3号10层1004室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 中国（上海）自由贸易试验区银冬路20弄3号10层1004室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-17946e40375a128cbbef08ca"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "上海马赫心科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -96531,7 +97251,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-17946e40375a128cbbef08ca",
+            "source_url": "https://www.163.com/dy/article/L46AC5G70519QIKK.html",
+            "checked_at": "2026-10-20T02:33:31.692680+00:00",
+            "subject": "上海马赫心科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "address": "中国（上海）自由贸易试验区银冬路20弄3号10层1004室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-17946e40375a128cbbef08ca"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

@@ -1760,16 +1760,18 @@
       "event_type": "融资",
       "link": "https://finance.ifeng.com/c/8xACSxrNh8L",
       "sector": "半导体封装自动化与工业机器人",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市宝安区福海街道新和社区红牌工业园华丰智谷福海科技产业园A栋A108",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市宝安区福海街道新和社区红牌工业园华丰智谷福海科技产业园A栋A108",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-54f6ac0581ab3179ce6426b1"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "牛耳商用机器人",
         "subject_locality": {
           "status": "unknown",
@@ -1777,7 +1779,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-54f6ac0581ab3179ce6426b1",
+            "source_url": "https://permit.mee.gov.cn/register/library/registerShow.vm?enterid=d52fc470-b1be-4d03-aab6-f899459872df",
+            "checked_at": "2026-10-20T02:31:39.692225+00:00",
+            "subject": "牛耳商用机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "宝安区",
+              "address": "深圳市宝安区福海街道新和社区红牌工业园华丰智谷福海科技产业园A栋A108"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "宝安区",
+          "evidence_ids": [
+            "geo-54f6ac0581ab3179ce6426b1"
+          ]
+        }
       },
       "article_location": "",
       "source": "finance.ifeng.com",

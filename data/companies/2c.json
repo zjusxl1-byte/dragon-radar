@@ -1994,16 +1994,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "工业视觉与移动机器人",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市丹枫路399号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市丹枫路399号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-7f5f4199ad2a1b81ecfd83ac"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "海康机器人",
         "subject_locality": {
           "status": "unknown",
@@ -2011,7 +2013,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7f5f4199ad2a1b81ecfd83ac",
+            "source_url": "https://www.hikrobotics.com/cn/contactus/",
+            "checked_at": "2026-10-20T02:36:34.863073+00:00",
+            "subject": "海康机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市丹枫路399号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-7f5f4199ad2a1b81ecfd83ac"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",

@@ -1419,16 +1419,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/4bmt6y641yJx0ZO5bDSoPg",
       "sector": "具身智能与机器人灵巧操作",
-      "location": "地点待核",
+      "location": "江苏省 / 南京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 南京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-9cfa384a2ab645f54e059b68"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "中科硅纪",
         "subject_locality": {
           "status": "unknown",
@@ -1436,7 +1438,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-9cfa384a2ab645f54e059b68",
+            "source_url": "https://eu.36kr.com/zh/p/3582198041312137",
+            "checked_at": "2026-10-20T02:34:17.518952+00:00",
+            "subject": "中科硅纪",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "南京市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "南京市",
+          "evidence_ids": [
+            "geo-9cfa384a2ab645f54e059b68"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

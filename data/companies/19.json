@@ -735,16 +735,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Iok-bjxx7C_fAwbJxWAs3w",
       "sector": "户外作业机器人",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市龙华区民治街道民新社区深国际数字谷L栋",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市龙华区民治街道民新社区深国际数字谷L栋",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-131df9916b97a7b48774933e"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "汉阳科技",
         "subject_locality": {
           "status": "unknown",
@@ -752,7 +754,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-131df9916b97a7b48774933e",
+            "source_url": "https://www.hanyangtech.cn/about",
+            "checked_at": "2026-10-20T02:36:16.118344+00:00",
+            "subject": "汉阳科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "龙华区",
+              "address": "深圳市龙华区民治街道民新社区深国际数字谷L栋"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "龙华区",
+          "evidence_ids": [
+            "geo-131df9916b97a7b48774933e"
+          ]
+        }
       },
       "article_location": "",
       "source": "铅笔道",
@@ -795,16 +824,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/y4nxWeFaV7r5iJVHKmbcDA",
       "sector": "车规级AI芯片与端侧智能计算",
-      "location": "地点待核",
+      "location": "上海市 / 中国（上海）自由贸易试验区银冬路20弄3号10层1004室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 中国（上海）自由贸易试验区银冬路20弄3号10层1004室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-17946e40375a128cbbef08ca"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "上海马赫心科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -812,7 +843,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-17946e40375a128cbbef08ca",
+            "source_url": "https://www.163.com/dy/article/L46AC5G70519QIKK.html",
+            "checked_at": "2026-10-20T02:33:31.692680+00:00",
+            "subject": "上海马赫心科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "address": "中国（上海）自由贸易试验区银冬路20弄3号10层1004室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-17946e40375a128cbbef08ca"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

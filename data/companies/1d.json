@@ -885,16 +885,18 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/WA8CQqfGDTIGQaLOLgbIbw",
       "sector": "半导体先进封装设备",
-      "location": "地点待核",
+      "location": "US",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a9411660f72b967e3c5b11be"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "应用材料",
         "subject_locality": {
           "status": "unknown",
@@ -902,7 +904,27 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-a9411660f72b967e3c5b11be",
+            "source_url": "https://www.stcn.com/article/detail/3411949.html",
+            "checked_at": "2026-10-20T02:33:20.328537+00:00",
+            "subject": "应用材料",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-a9411660f72b967e3c5b11be"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "半导体行业观察",

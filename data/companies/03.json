@@ -1566,16 +1566,18 @@
       "event_type": "临床进展",
       "link": "https://news.pedaily.cn/202610/570325.shtml",
       "sector": "脑机接口",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-cf44f80e706c6877d1d91498"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "微灵医疗",
         "subject_locality": {
           "status": "unknown",
@@ -1583,7 +1585,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-cf44f80e706c6877d1d91498",
+            "source_url": "https://finance.sina.com.cn/wm/2024-11-23/doc-incwzezy7156260.shtml",
+            "checked_at": "2026-10-20T02:31:14.900455+00:00",
+            "subject": "微灵医疗",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-cf44f80e706c6877d1d91498"
+          ]
+        }
       },
       "article_location": "地点待核",
       "source": "投资界（36氪授权转载）",
@@ -1610,16 +1636,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/6VPgTd37WYZMZlN4jhna3w",
       "sector": "AI制药／AI驱动药物发现",
-      "location": "地点待核",
+      "location": "上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-57c8e1bca15b2e33ba20a793"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Anew Labs（新生实验室）",
         "subject_locality": {
           "status": "unknown",
@@ -1627,7 +1655,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-57c8e1bca15b2e33ba20a793",
+            "source_url": "https://anewbt.com/",
+            "checked_at": "2026-10-20T02:32:31.818030+00:00",
+            "subject": "Anew Labs（新生实验室）",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-57c8e1bca15b2e33ba20a793"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",

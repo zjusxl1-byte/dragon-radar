@@ -1669,16 +1669,18 @@
       "event_type": "技术进展",
       "link": "https://mp.weixin.qq.com/s/Xhkwa_A3mJJUdOGQU11qCA",
       "sector": "摩托车发动机与车辆制造",
-      "location": "地点待核",
+      "location": "重庆市 / 两江新区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "重庆市 / 两江新区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-caa4496c375eb9303b6db045"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "张雪机车",
         "subject_locality": {
           "status": "unknown",
@@ -1686,7 +1688,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-caa4496c375eb9303b6db045",
+            "source_url": "https://cq.news.cn/20260331/693e90499e4f41dabfeee1abbdae18eb/c.html",
+            "checked_at": "2026-10-20T02:35:06.421144+00:00",
+            "subject": "张雪机车",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "重庆市",
+              "city": "重庆市",
+              "district": "两江新区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "重庆市",
+          "city": "重庆市",
+          "district": "两江新区",
+          "evidence_ids": [
+            "geo-caa4496c375eb9303b6db045"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "创业邦",

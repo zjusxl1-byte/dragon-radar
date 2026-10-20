@@ -1261,16 +1261,18 @@
       "event_type": "产品展示",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "家庭AI与物联网",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市 / 西湖区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-0af4d5506093e739364982a7"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "涂鸦智能",
         "subject_locality": {
           "status": "unknown",
@@ -1278,7 +1280,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0af4d5506093e739364982a7",
+            "source_url": "https://www.hangzhou.gov.cn/art/2021/3/19/art_1229243363_59031461.html",
+            "checked_at": "2026-10-20T02:31:15.123752+00:00",
+            "subject": "涂鸦智能",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-0af4d5506093e739364982a7"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "元璟资本",
@@ -1438,16 +1466,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/2fpaup7BZkN9BPXo2B2BZQ",
       "sector": "光伏产业链",
-      "location": "地点待核",
+      "location": "四川省成都市高新区天府大道中段588号通威国际中心",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "四川省成都市高新区天府大道中段588号通威国际中心",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-6964a58095f09ad35390c71f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "通威",
         "subject_locality": {
           "status": "unknown",
@@ -1455,7 +1485,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-6964a58095f09ad35390c71f",
+            "source_url": "https://www.tongwei.com/contact.html",
+            "checked_at": "2026-10-20T02:32:49.675850+00:00",
+            "subject": "通威",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "四川省",
+              "city": "成都市",
+              "address": "四川省成都市高新区天府大道中段588号通威国际中心"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "四川省",
+          "city": "成都市",
+          "evidence_ids": [
+            "geo-6964a58095f09ad35390c71f"
+          ]
+        }
       },
       "article_location": "",
       "source": "浙商杂志",

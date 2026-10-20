@@ -1045,27 +1045,46 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/h3D6qVxXTbJD8eDM04NbPQ",
       "sector": "商业航天与卫星通信",
-      "location": "地点待核",
+      "location": "US",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-7971bb458295361b0d7aab04"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "蓝色起源",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7971bb458295361b0d7aab04",
+            "source_url": "https://www.news.cn/world/20250116/f70d4409784344a8833923e62853f6b6/c.html",
+            "checked_at": "2026-10-20T02:32:27.248424+00:00",
+            "subject": "蓝色起源",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-7971bb458295361b0d7aab04"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

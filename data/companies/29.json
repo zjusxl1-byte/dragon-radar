@@ -1101,16 +1101,18 @@
       "event_type": "并购",
       "link": "https://mp.weixin.qq.com/s/TAMIr_n7MXluR1bKjTvnLg",
       "sector": "半导体设备／混合键合",
-      "location": "地点待核",
+      "location": "北京市北京经济技术开发区文昌大道8号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市北京经济技术开发区文昌大道8号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-41f3c87c25d522f8a9da5cae"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "北方华创科技集团股份有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1118,7 +1120,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-41f3c87c25d522f8a9da5cae",
+            "source_url": "https://www.naura.com/other/contact.html",
+            "checked_at": "2026-10-20T02:34:55.530341+00:00",
+            "subject": "北方华创科技集团股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "address": "北京市北京经济技术开发区文昌大道8号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-41f3c87c25d522f8a9da5cae"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
