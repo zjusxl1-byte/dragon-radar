@@ -1780,16 +1780,18 @@
       "event_type": "重大投资",
       "link": "https://mp.weixin.qq.com/s/5s2Cz4-bEaObfnXXvPww-g",
       "sector": "半导体存储",
-      "location": "长鑫存储总部：合肥（与本条主体关系待核）",
+      "location": "安徽省 / 合肥市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "长鑫存储总部：合肥（与本条主体关系待核）",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "安徽省 / 合肥市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d9d3ab5d336c3fdecbe0dca5"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "长鑫科技",
         "subject_locality": {
           "status": "unknown",
@@ -1799,12 +1801,12 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-595f85aa0f16cec2881592c1",
+            "evidence_id": "geo-d9d3ab5d336c3fdecbe0dca5",
             "source_url": "https://www.cxmt.com/about.html",
             "checked_at": "2026-10-12T03:55:49.613489+00:00",
             "subject": "长鑫科技",
-            "role": "hq",
-            "subject_relation": "uncertain",
+            "role": "business",
+            "subject_relation": "same_subject",
             "place": {
               "country": "CN",
               "province": "安徽省",
@@ -1812,11 +1814,14 @@
             }
           }
         ],
-        "presentation": {
-          "label": "长鑫存储总部：合肥（与本条主体关系待核）",
-          "detail": "官网明确长鑫存储总部合肥，页脚为长鑫科技集团；品牌、集团及本条公告承担主体关系未解，不当作同主体总部，不把北京项目当总部。",
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "安徽省",
+          "city": "合肥市",
           "evidence_ids": [
-            "geo-595f85aa0f16cec2881592c1"
+            "geo-d9d3ab5d336c3fdecbe0dca5"
           ]
         }
       },

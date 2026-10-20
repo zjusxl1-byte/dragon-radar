@@ -17828,7 +17828,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "e2a1e8facc890b3f5b2084027c358319ada6315c15b68eb56684781f154162d6",
+  "history_version": "be321cdb267694b5c265a33774739bdef06d63e5e2bb0bee8080568902be7c12",
   "company_history_buckets": {
     "00": "ccd26f333760bd0736af67ed096f8a778e3e31d1983d5dd6c84387fae8c11ce9",
     "01": "f6159a97f93e315e6fcf009484478739a2fefecd0e920eb70613270edf5e2d14",
@@ -17857,8 +17857,8 @@
     "18": "e9cabf6aa4b209de1759c33fa5f78b808fe5146a080ba27661cf9b6bb478b04f",
     "19": "077f153545e2b91843af72bfdd275f3e142cbe7ab6a033e36ebedbbfe71718a7",
     "1a": "f8e072f50efee257827c0d1c2c91551caf7c9784d65030722f30c0df54ffc00d",
-    "1b": "cc85f85d4312656ba0d812a4ec80f353daf4b72102cb424b3c1bede23b4e6153",
-    "1c": "75be228e4ef3a7c934b40d13506630b44dacb95fe3d5edebe6004b769afeb495",
+    "1b": "948216fdfccca35d9be561e95498ead9fb840a1be3751cef97fe58680b3c4e37",
+    "1c": "e42de6d699362dc989e73606a2d6d72cbe350a4072533bb72d8f22d2e5a9dcae",
     "1d": "59036127011ef3e9be4da6cfc885e9e234ec79bff82613cc0160d5397dce27f2",
     "1e": "63caf3f7530de41124d8175dd9dbbfc42186423bc8fb89427ea3d72b44476243",
     "1f": "66d3a3205e62b64f0cd343cf85c325ed99b505884e00ef80c042397725e00342",
@@ -17895,7 +17895,7 @@
     "3e": "3ba98766cebea03922a40e699df476601b996b7c50f5b13448207c56e2075246",
     "3f": "e1cee01760abac0eefb90f33ddd1990e57bf827b08877dc436f419584d892542"
   },
-  "history_search_version": "9108c2c987f0954f9511cc0d6cfe31db01f2972eadcc634196adc02a7e2be84a",
+  "history_search_version": "cf1b7340810b997c410eb759cd10b833a1087b2fa46f4045a996c612b9c6eebf",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
@@ -20090,7 +20090,7 @@
       "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785": "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785"
     }
   },
-  "geography_version": "1ec650f6ea84bd0c7c9c4d7f250547d8e88a6ae37201d258ca9d026e0cd04c5a",
+  "geography_version": "52b99cedadfcfd4237d2a8d043d96afac4b6340dc08fd621b890132748834655",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -21825,14 +21825,16 @@
       "located_status": "unknown"
     },
     "dr-u-206f2b1d9c2ddcaaa37d": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "长鑫存储总部：合肥（与本条主体关系待核）",
-      "located_status": "unknown",
-      "display_basis": [],
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "安徽省 / 合肥市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-d9d3ab5d336c3fdecbe0dca5"
+      ],
       "subject_evidence_ids": [],
-      "needs_review": true,
-      "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "needs_review": false,
+      "next_action": null,
       "subject": "长鑫科技",
       "subject_locality": {
         "status": "unknown",
@@ -21842,12 +21844,12 @@
       },
       "basis": [
         {
-          "evidence_id": "geo-595f85aa0f16cec2881592c1",
+          "evidence_id": "geo-d9d3ab5d336c3fdecbe0dca5",
           "source_url": "https://www.cxmt.com/about.html",
           "checked_at": "2026-10-12T03:55:49.613489+00:00",
           "subject": "长鑫科技",
-          "role": "hq",
-          "subject_relation": "uncertain",
+          "role": "business",
+          "subject_relation": "same_subject",
           "place": {
             "country": "CN",
             "province": "安徽省",
@@ -21855,11 +21857,14 @@
           }
         }
       ],
-      "presentation": {
-        "label": "长鑫存储总部：合肥（与本条主体关系待核）",
-        "detail": "官网明确长鑫存储总部合肥，页脚为长鑫科技集团；品牌、集团及本条公告承担主体关系未解，不当作同主体总部，不把北京项目当总部。",
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "安徽省",
+        "city": "合肥市",
         "evidence_ids": [
-          "geo-595f85aa0f16cec2881592c1"
+          "geo-d9d3ab5d336c3fdecbe0dca5"
         ]
       }
     },
@@ -32604,16 +32609,16 @@
       "located_status": "unknown"
     },
     "dr-u-bf05361c58c7fa6dc219": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "多地办公：北京、杭州等（主要总部待核）",
-      "located_status": "business_confirmed_subject_pending",
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市海淀区丰豪东路9号院IC-Park2A楼",
+      "located_status": "discovery_confirmed",
       "display_basis": [
-        "geo-4a95c34e8e09de6c6d4a65ff"
+        "geo-27efa196db812c1b26404bdf"
       ],
       "subject_evidence_ids": [],
-      "needs_review": true,
-      "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "needs_review": false,
+      "next_action": null,
       "subject": "地平线",
       "subject_locality": {
         "status": "unknown",
@@ -32623,7 +32628,7 @@
       },
       "basis": [
         {
-          "evidence_id": "geo-4a95c34e8e09de6c6d4a65ff",
+          "evidence_id": "geo-27efa196db812c1b26404bdf",
           "source_url": "https://www.horizon.auto/about",
           "checked_at": "2026-10-12T03:55:49.994602+00:00",
           "subject": "地平线",
@@ -32632,29 +32637,21 @@
           "place": {
             "country": "CN",
             "province": "北京市",
-            "city": "北京市"
-          }
-        },
-        {
-          "evidence_id": "geo-b1367b9afdeb08abfd699c35",
-          "source_url": "https://www.horizon.auto/about",
-          "checked_at": "2026-10-12T03:55:49.994602+00:00",
-          "subject": "地平线",
-          "role": "business",
-          "subject_relation": "branch",
-          "place": {
-            "country": "CN",
-            "province": "浙江省",
-            "city": "杭州市"
+            "city": "北京市",
+            "district": "海淀区",
+            "address": "北京市海淀区丰豪东路9号院IC-Park2A楼"
           }
         }
       ],
-      "presentation": {
-        "label": "多地办公：北京、杭州等（主要总部待核）",
-        "detail": "杭州滨江为官网列示办公地址之一；不是由此确认注册地、主要总部或杭州负面资格。",
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
         "evidence_ids": [
-          "geo-4a95c34e8e09de6c6d4a65ff",
-          "geo-b1367b9afdeb08abfd699c35"
+          "geo-27efa196db812c1b26404bdf"
         ]
       }
     },
