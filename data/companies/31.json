@@ -824,6 +824,70 @@
       "event_headline": "三星三季度预告营业利润约107.4万亿韩元，同比约八倍",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "据文章转述《首尔经济日报》援引业内人士的报道，三星电子已决定接受英伟达要求，在定制高带宽内存NVHBM项目中采用台积电3nm工艺制造基础芯片，存储核心芯片则采用第六代DRAM制程。NVHBM将英伟达定制的内存控制器集成至基础芯片。三星仍计划对标准HBM及其他客户的定制产品延续内部一体化生产，并正在评估利用自家晶圆代工厂生产NVHBM基础芯片的可能性。相关公司尚未公开确认具体合作细节，实际量产与产能分配安排未披露。",
+      "article_title": "三星“被迫”投片台积电",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/mWzDcsk4ZiHrG0LBGs2h3Q",
+      "sector": "半导体／高带宽内存",
+      "location": "KR",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "KR",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-c394ea289ffdcdb463af2a18"
+        ],
+        "subject_evidence_ids": [
+          "geo-c394ea289ffdcdb463af2a18"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "三星电子",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "KR",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-c394ea289ffdcdb463af2a18"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-c394ea289ffdcdb463af2a18",
+            "source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_Interim_Report.pdf",
+            "checked_at": "2026-10-20T01:39:45.455510+00:00",
+            "subject": "三星电子",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "KR"
+            }
+          }
+        ]
+      },
+      "article_location": "韩国",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "三星电子",
+      "company_entity_id": "dr-u-255a4dc2b19440690a03",
+      "company_raw_name": "三星电子",
+      "identity_status": "confirmed",
+      "score": 70,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "这项安排体现出三星在英伟达定制HBM项目中，从内部一体化制造转向按客户架构组织跨厂协作：内存控制器进入基础芯片后，先进逻辑制造与DRAM的配合成为产品设计的重要环节。调整目前限于特定客户项目，不能据此判断三星全面退出HBM基础芯片自制。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "据报道三星电子决定在NVHBM项目采用台积电3nm工艺",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "智现未来": [
@@ -2203,6 +2267,59 @@
       "event_date": "",
       "event_headline": "Sakana AI联合提出MASS框架，探索模型自我改进",
       "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Waymo": [
+    {
+      "date": "2026-10-21",
+      "title": "据Semafor报道，Waymo新近获得50亿美元融资，计划利用该笔资金在明年年底前将自动驾驶车队从当前4000台扩大至2万台，今年年底目标为8000台。其业务现覆盖美国15座城市，并计划拓展至多伦多、圣迭戈、坦帕和圣安东尼奥。",
+      "article_title": "张雪机车，首款电摩要来了；曝大众曾考虑在中国市场联手比亚迪，对比亚迪成本优势惊讶丨汽车交通日报",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/ooh6YRXdmgjFmxMk0IgA-w",
+      "sector": "自动驾驶出行",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Waymo",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Waymo",
+      "company_entity_id": "dr-u-7931b6d10b3c8a5fd045",
+      "company_raw_name": "Waymo",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资、车队和运营覆盖为本次商业化观察提供依据，但未提供独立行业比较或明确已审标杆依据，不能由规模报道自动授予标杆标签。",
+        "evidence_ids": [
+          "article:42b8be891acae835"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "Waymo把新增融资与车队扩张直接关联，增长路径是将已有跨城运营业务扩大为更密集的车辆供给。扩张能否推进，关键在车辆部署及各城市运营落地，而不只是融资规模。",
+      "financing": "据Semafor报道，新近获得50亿美元融资，计划用于扩大自动驾驶车队；原文未披露融资轮次、投资方及估值。",
+      "event_date": "",
+      "event_headline": "Waymo据报道获50亿美元融资，拟将自动驾驶车队扩至2万台",
+      "event_signal": "major",
       "discovery_status": "first_seen"
     }
   ]
