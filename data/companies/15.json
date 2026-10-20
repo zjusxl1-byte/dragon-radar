@@ -1525,11 +1525,11 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "算力芯片",
-      "location": "地点待核",
+      "location": "活动地：上海市（企业属地待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
+        "display_location": "活动地：上海市（企业属地待核）",
         "located_status": "unknown",
         "display_basis": [],
         "subject_evidence_ids": [],
@@ -1542,7 +1542,28 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4274eaded0bd82f64a3df2ae",
+            "source_url": "https://www.cls.cn/detail/2506466",
+            "checked_at": "2026-10-18T18:03:52.969252+00:00",
+            "subject": "东方算芯",
+            "role": "mention",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "活动地：上海市（企业属地待核）",
+          "detail": "在上海工博会展示产品；不是企业办公室证据。",
+          "evidence_ids": [
+            "geo-4274eaded0bd82f64a3df2ae"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",

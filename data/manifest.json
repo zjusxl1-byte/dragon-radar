@@ -17828,7 +17828,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "d40b27ff060b25e2d874a057d77b85c7088211a8d2251a8afa587edaff18f1dc",
+  "history_version": "e2a1e8facc890b3f5b2084027c358319ada6315c15b68eb56684781f154162d6",
   "company_history_buckets": {
     "00": "ccd26f333760bd0736af67ed096f8a778e3e31d1983d5dd6c84387fae8c11ce9",
     "01": "f6159a97f93e315e6fcf009484478739a2fefecd0e920eb70613270edf5e2d14",
@@ -17848,10 +17848,10 @@
     "0f": "b000ff08014890179168414b187550e83a549056deafe632bf0566ef134bdfa7",
     "10": "c8e7a313a02690b01f0bc98bb9a0f7e8dd7c3dc69c4c0ca10fb70b4e16af3dfe",
     "11": "9a480e0877dbdd213961f859521af9c87d528ea08322a09ac71b3b0ad246e033",
-    "12": "aafed47f6357b582fcc5ac13559fa5190636884d873bbafa75ecf34763feb131",
+    "12": "f2369c2ed99bbdc9efd205c732b32484d33872d60a67ed1bebe76a6ed8cfd5d7",
     "13": "2314b9114fe2f29eea5b72e0af81653bdb74e4ae11e547902ea3ac1aee33f7c7",
     "14": "58962ad95d81dc767796dc34b13db0e473d6d598c2cca76bdae05962e3d602a7",
-    "15": "6760cada092b82b9d2d5c942b3352f319c62235166b99351e73e648a318a02fa",
+    "15": "2d6fd1218b3bfaf46a85c32d18038e8ca63ad8b17ea6db2208e5ee0528e54d4f",
     "16": "885e0b9a134b535dad696ccd379c54295b30a7365635873b91cc8e0b121e7ef0",
     "17": "7afa16f5dee658994e08f8be28774a47ff4668f384b8cd0c9950eb169e97a6a7",
     "18": "e9cabf6aa4b209de1759c33fa5f78b808fe5146a080ba27661cf9b6bb478b04f",
@@ -17892,10 +17892,10 @@
     "3b": "5a294db4c96a768eff0f24e22c68a3620fcda16948a2ebc61640d684b372ee9a",
     "3c": "3088679dc73f4669e288393d8d865677c6b9160568eded62084c71a85b66a0d3",
     "3d": "1dea212d117042dbb075deb78dc989df90de0d38b299e5e561af0279ed6bae81",
-    "3e": "f87fbcb18b3970efe2d56a47fc0d6422ed86acdb9758d66676041c8f58855dc3",
+    "3e": "3ba98766cebea03922a40e699df476601b996b7c50f5b13448207c56e2075246",
     "3f": "e1cee01760abac0eefb90f33ddd1990e57bf827b08877dc436f419584d892542"
   },
-  "history_search_version": "b81d0cc3dbae222788113ef5868580d52e6fb31eb73a2f9cc943f0781d7df860",
+  "history_search_version": "9108c2c987f0954f9511cc0d6cfe31db01f2972eadcc634196adc02a7e2be84a",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
@@ -20090,7 +20090,7 @@
       "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785": "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785"
     }
   },
-  "geography_version": "aa6545493549bf3189efa6cd7fc1538e342ad5564823ec0b91d7da2f73f6d582",
+  "geography_version": "eebc976adf511cf62e2d3ddb3b932284606293bb69d3acea6399453797ba3005",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -27594,8 +27594,41 @@
     "dr-u-70e707437ab84e6fbcb3": {
       "geography_status": "unknown",
       "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "display_location": "活动地：上海市（企业属地待核）",
+      "located_status": "unknown",
+      "display_basis": [],
+      "subject_evidence_ids": [],
+      "needs_review": true,
+      "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "subject": "东方算芯",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-4274eaded0bd82f64a3df2ae",
+          "source_url": "https://www.cls.cn/detail/2506466",
+          "checked_at": "2026-10-18T18:03:52.969252+00:00",
+          "subject": "东方算芯",
+          "role": "mention",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市"
+          }
+        }
+      ],
+      "presentation": {
+        "label": "活动地：上海市（企业属地待核）",
+        "detail": "在上海工博会展示产品；不是企业办公室证据。",
+        "evidence_ids": [
+          "geo-4274eaded0bd82f64a3df2ae"
+        ]
+      }
     },
     "dr-u-70f7d4e2e44a926b6a58": {
       "geography_status": "unknown",
@@ -29032,8 +29065,41 @@
     "dr-u-863f4d5983b4fe8ff3ea": {
       "geography_status": "unknown",
       "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "display_location": "活动地：上海市（企业属地待核）",
+      "located_status": "unknown",
+      "display_basis": [],
+      "subject_evidence_ids": [],
+      "needs_review": true,
+      "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "subject": "中科第五纪",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-1999810301204f5ca2f6ee3b",
+          "source_url": "https://www.cls.cn/detail/2506466",
+          "checked_at": "2026-10-18T18:03:52.969252+00:00",
+          "subject": "中科第五纪",
+          "role": "mention",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市"
+          }
+        }
+      ],
+      "presentation": {
+        "label": "活动地：上海市（企业属地待核）",
+        "detail": "在上海工博会展示产品；不是企业办公室证据。",
+        "evidence_ids": [
+          "geo-1999810301204f5ca2f6ee3b"
+        ]
+      }
     },
     "dr-u-86b7b29d698963ef9b19": {
       "geography_status": "unknown",
@@ -33154,10 +33220,48 @@
       "located_status": "unknown"
     },
     "dr-u-c872c6fd9e92f398da55": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "安徽省 / 芜湖市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-fa8e68f65f8db6cbac7c05e2"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "长飞先进",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-fa8e68f65f8db6cbac7c05e2",
+          "source_url": "https://mp.weixin.qq.com/s/avj1r1C5_e4tWR8YmynC_A",
+          "checked_at": "2026-10-16T22:31:09+00:00",
+          "subject": "长飞先进",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "安徽省",
+            "city": "芜湖市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "安徽省",
+        "city": "芜湖市",
+        "evidence_ids": [
+          "geo-fa8e68f65f8db6cbac7c05e2"
+        ]
+      }
     },
     "dr-u-c90188493ea9ee387ceb": {
       "geography_status": "unknown",

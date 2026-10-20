@@ -93766,16 +93766,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/avj1r1C5_e4tWR8YmynC_A",
       "sector": "碳化硅功率半导体",
-      "location": "地点线索：芜湖、武汉：原文明示的生产基地所在地；未披露注册地或主要总部所在地。",
+      "location": "安徽省 / 芜湖市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "安徽省 / 芜湖市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fa8e68f65f8db6cbac7c05e2"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "长飞先进",
         "subject_locality": {
           "status": "unknown",
@@ -93783,7 +93785,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-fa8e68f65f8db6cbac7c05e2",
+            "source_url": "https://mp.weixin.qq.com/s/avj1r1C5_e4tWR8YmynC_A",
+            "checked_at": "2026-10-16T22:31:09+00:00",
+            "subject": "长飞先进",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "安徽省",
+              "city": "芜湖市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "安徽省",
+          "city": "芜湖市",
+          "evidence_ids": [
+            "geo-fa8e68f65f8db6cbac7c05e2"
+          ]
+        }
       },
       "article_location": "芜湖、武汉：原文明示的生产基地所在地；未披露注册地或主要总部所在地。",
       "source": "半导体行业观察",
@@ -94194,11 +94220,11 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "算力芯片",
-      "location": "地点待核",
+      "location": "活动地：上海市（企业属地待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
+        "display_location": "活动地：上海市（企业属地待核）",
         "located_status": "unknown",
         "display_basis": [],
         "subject_evidence_ids": [],
@@ -94211,7 +94237,28 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4274eaded0bd82f64a3df2ae",
+            "source_url": "https://www.cls.cn/detail/2506466",
+            "checked_at": "2026-10-18T18:03:52.969252+00:00",
+            "subject": "东方算芯",
+            "role": "mention",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "活动地：上海市（企业属地待核）",
+          "detail": "在上海工博会展示产品；不是企业办公室证据。",
+          "evidence_ids": [
+            "geo-4274eaded0bd82f64a3df2ae"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",
@@ -94326,11 +94373,11 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "具身智能",
-      "location": "地点待核",
+      "location": "活动地：上海市（企业属地待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
+        "display_location": "活动地：上海市（企业属地待核）",
         "located_status": "unknown",
         "display_basis": [],
         "subject_evidence_ids": [],
@@ -94343,7 +94390,28 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-1999810301204f5ca2f6ee3b",
+            "source_url": "https://www.cls.cn/detail/2506466",
+            "checked_at": "2026-10-18T18:03:52.969252+00:00",
+            "subject": "中科第五纪",
+            "role": "mention",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "活动地：上海市（企业属地待核）",
+          "detail": "在上海工博会展示产品；不是企业办公室证据。",
+          "evidence_ids": [
+            "geo-1999810301204f5ca2f6ee3b"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",
