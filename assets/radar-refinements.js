@@ -45,15 +45,18 @@
       .then(records=>records.filter(r=>A.canonical(r.company)===canonical));
   }
   const originalLoad=loadDailyData;
-  loadDailyData=function(day){
+  loadDailyData=function(day,options={}){
     if(!/^\d{4}-\d{2}-\d{2}$/.test(day))return Promise.reject(Error('日期格式不正确'));
-    const p=params(),version=(Router.getRoute()==='/today'&&p.date===day&&p.v)||window.RadarData.manifest?.daily_versions?.[day];
-    if(!version)return reuseRequest(dataRequests,'day:'+day,()=>originalLoad(day));
+    const p=params(),explicit=options.snapshot===false?'':(Router.getRoute()==='/today'&&p.date===day&&p.v),
+      version=explicit||window.RadarData.manifest?.daily_versions?.[day];
+    const project=data=>A.currentDaily(data,{snapshot:!!explicit});
+    if(!version)return reuseRequest(dataRequests,'day:'+day,()=>originalLoad(day)).then(project);
     if(typeof version!=='string'||!/^[a-f0-9]{64}$/.test(version))return Promise.reject(Error('版本链接不正确'));
     // Old shares retain their source version; public snapshots may omit metadata.
     const snapshot=window.RadarData.manifest?.snapshot_versions?.[day]?.[version]??version;
     if(typeof snapshot!=='string'||!/^[a-f0-9]{64}$/.test(snapshot))return Promise.reject(Error('版本链接不正确'));
-    return reuseRequest(dataRequests,'day:'+day+':'+snapshot,()=>fetch('./data/releases/'+day+'/'+snapshot+'.json').then(r=>{if(!r.ok)throw Error('该期内容暂时无法读取，请稍后重试');return r.json();}));
+    // Cache raw snapshots; current views and fixed shares derive separate copies.
+    return reuseRequest(dataRequests,'day:'+day+':'+snapshot,()=>fetch('./data/releases/'+day+'/'+snapshot+'.json').then(r=>{if(!r.ok)throw Error('该期内容暂时无法读取，请稍后重试');return r.json();})).then(project);
   };
   const originalWeeklyLoad=loadWeeklyData,originalBriefingLoad=loadBriefingData;
   loadWeeklyData=week=>reuseRequest(dataRequests,'week:'+week,()=>originalWeeklyLoad(week));
@@ -135,10 +138,9 @@
     return html;
   };
   function dailyRows(data,day){
-    return [['targets','event'],['negatives','risk']].flatMap(([key,kind])=>(Array.isArray(data[key])?data[key]:[]).map(t=>({...t,company:t.company_name||t.company,date:day,kind,title:t.event_desc||t.reason||t.title||'',article_title:t.event_description||t.article_title||t.title||'',insight:t.insight||t.summary||'',event_date:t.event_date||t.event_time_evidence?.event_date||'',canonical_name:A.canonical(t.company_name||t.company),discovery_status:window.RadarData.manifest.company_first_seen?.[A.canonical(t.company_name||t.company)]?(window.RadarData.manifest.company_first_seen[A.canonical(t.company_name||t.company)]===day?'first_seen':'update'):'',region:A.region(t)})))
-      .sort((a,b)=>(a.kind==='risk'?-1:0)-(b.kind==='risk'?-1:0)||(b.score||0)-(a.score||0));
+    return A.orderDaily([['targets','event'],['negatives','risk']].flatMap(([key,kind])=>(Array.isArray(data[key])?data[key]:[]).map(t=>({...t,company:t.company_name||t.company,date:day,kind,title:t.event_desc||t.reason||t.title||'',article_title:t.event_description||t.article_title||t.title||'',insight:t.insight||t.summary||'',event_date:t.event_date||t.event_time_evidence?.event_date||'',canonical_name:A.canonical(t.company_name||t.company),discovery_status:window.RadarData.manifest.company_first_seen?.[A.canonical(t.company_name||t.company)]?(window.RadarData.manifest.company_first_seen[A.canonical(t.company_name||t.company)]===day?'first_seen':'update'):'',region:A.region(t)}))));
   }
-  function eventLink(r){const q={date:r.date,target:A.anchor(r)};const p=params();const version=(p.date===r.date&&p.v)||window.RadarData.manifest.daily_versions?.[r.date];if(version)q.v=version;return routeLink('/today',q);}
+  function eventLink(r){const q={date:r.date,target:A.anchor(r)};const p=params();if(p.date===r.date&&p.v)q.v=p.v;return routeLink('/today',q);}
   function fullCard(r){
     const item={...r,company:r.company,event_desc:r.title,article_title:r.article_title,insight:r.insight};
     // Existing renderers interpolate strings. Escape content and restrict outgoing URLs here.

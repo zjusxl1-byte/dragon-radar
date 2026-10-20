@@ -287,6 +287,7 @@
             var reason = item.reason || '';
             var sector = item.sector || '未知赛道';
             var location = item.location || '';
+            if (!item._radarEscaped) location = String(location).replace(/[&<>"']/g, function(c) { return {'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]; });
             var link = item.link || '';
             var articleTitle = item.event_description || item.article_title || item.title || '';
             var eventDesc = item.event_desc || '';
@@ -367,6 +368,7 @@
             var eventStyle = getEventTagStyle(eventType);
             var sector = company.sector || '未知赛道';
             var location = company.location || '';
+            if (!company._radarEscaped) location = String(location).replace(/[&<>"']/g, function(c) { return {'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]; });
             var source = company.source || '未知信源';
             var articleTitle = company.event_description || company.article_title || company.title || '';
             var eventDesc = company.event_desc || '';
@@ -535,7 +537,7 @@
         var Views = {
             home: function(data) {
                 var todaySummary = data.summary.today;
-                var top3 = todaySummary.top3 || [];
+                var top3 = window.RadarHistory.orderDaily(todaySummary.top3 || []);
                 var updates = data.recent_updates || [];
                 var negCount = todaySummary.negative_count || 0;
                 var todayNegatives = todaySummary.today_negatives || []; 
@@ -577,9 +579,8 @@
             
             today: function(data, date) {
                 var targetDate = date || data.today;
-                var companies = data.targets || [];
-                var negatives = data.negatives || []; 
-                companies.sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
+                var companies = window.RadarHistory.orderDaily(data.targets || []);
+                var negatives = window.RadarHistory.orderDaily(data.negatives || []);
                 
                 var html = '<div class="animate-fade-in">' +
                     '<div class="flex items-center justify-between mb-5 px-1">' +
@@ -1081,7 +1082,7 @@
                 manifestData.briefings = briefingsData;
                 window.RadarData.manifest = manifestData;
                     
-                    return loadDailyData(manifestData.today).then(function(dailyData) {
+                    return loadDailyData(manifestData.today, {snapshot: false}).then(function(dailyData) {
                         var targets = dailyData.targets || [];
                         var negatives = dailyData.negatives || [];
                         
@@ -1094,7 +1095,8 @@
                                 if(targets[i].event_type === '融资' || targets[i].event_type === 'IPO') finCount++;
                                 if(milestoneTypes.indexOf(targets[i].event_type) !== -1) milestoneCountLocal++;
                             }
-                            var sorted = targets.slice().sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
+                            var sorted = window.RadarHistory.orderDaily(targets);
+                            var maxScore = Math.max.apply(null, [0].concat(targets.map(function(t) { return Number.isFinite(t.score) ? t.score : 0; })));
                             
                             window.RadarData.manifest.summary.today = Object.assign({}, manifestData.summary.today, {
                                 date: manifestData.today,
@@ -1111,7 +1113,7 @@
                                 if (window.RadarData.manifest.recent_updates[0].title.indexOf('0') !== -1) {
                                     window.RadarData.manifest.recent_updates[0] = {
                                         title: '截获 ' + targets.length + ' 份高潜情报',
-                                        highlight: sorted.length > 0 ? '最高分标的: ' + sorted[0].company : (negatives.length > 0 ? '警告：今日检出 ' + negatives.length + ' 处风险' : '')
+                                        highlight: sorted.length > 0 ? '重点动态: ' + sorted[0].company : (negatives.length > 0 ? '警告：今日检出 ' + negatives.length + ' 处风险' : '')
                                     };
                                 }
                             }
@@ -1127,15 +1129,15 @@
                             
                             if (targetDateObj) {
                                 targetDateObj.count = targets.length;
-                                targetDateObj.has_high_score = sorted[0] && sorted[0].score >= 80;
-                                targetDateObj.max_score = sorted[0] ? sorted[0].score : 0;
+                                targetDateObj.has_high_score = maxScore >= 80;
+                                targetDateObj.max_score = maxScore;
                                 targetDateObj.negative_count = negatives.length; 
                             } else {
                                 window.RadarData.manifest.available_dates.push({
                                     date: manifestData.today,
                                     count: targets.length,
-                                    has_high_score: sorted[0] && sorted[0].score >= 80,
-                                    max_score: sorted[0] ? sorted[0].score : 0,
+                                    has_high_score: maxScore >= 80,
+                                    max_score: maxScore,
                                     negative_count: negatives.length, 
                                     week_id: manifestData.current_week || ''
                                 });
@@ -1159,10 +1161,10 @@
         document.addEventListener('DOMContentLoaded', initApp);
     </script>
     <script src="./assets/radar-share.js?v=20261015-editorial-release-r3"></script>
-    <script src="./assets/radar-history.js?v=20261015-editorial-release-r3"></script>
+    <script src="./assets/radar-history.js?v=20261020-geography-order-r1"></script>
     <script src="./assets/radar-interpretation.js?v=20261015-editorial-release-r3"></script>
     <script src="./assets/radar-observations.js?v=20261015-editorial-release-r3"></script>
-    <script src="./assets/radar-refinements.js?v=20261015-editorial-release-r3"></script>
+    <script src="./assets/radar-refinements.js?v=20261020-geography-order-r1"></script>
 <script src="./assets/radar-interactions.js"></script>
 <script src="./assets/radar-components.js"></script>
 <script src="./assets/radar-editorial.js"></script>
