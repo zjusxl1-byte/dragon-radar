@@ -55402,13 +55402,15 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/S6q2HSj5zUNTsVn4lhgCkA",
       "sector": "中医智能设备与健康管理",
-      "location": "地点待核",
+      "location": "经营地：浙江省 / 杭州市（注册/总部待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "display_location": "经营地：浙江省 / 杭州市（注册/总部待核）",
+        "located_status": "business_confirmed_subject_pending",
+        "display_basis": [
+          "geo-ea8bdf7b5f21e3f7c36ce57a"
+        ],
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
@@ -55419,7 +55421,22 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-ea8bdf7b5f21e3f7c36ce57a",
+            "source_url": "https://www.hhtz.gov.cn/art/2022/6/7/art_1229641578_59043444.html",
+            "checked_at": "2026-10-20T00:33:10.922608+00:00",
+            "subject": "脉象健康",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区"
+            }
+          }
+        ]
       },
       "source": "滨江发布",
       "kind": "event",
@@ -55616,24 +55633,51 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/7kjEyJMWAa1EZlbOH3xI1A",
       "sector": "视觉人工智能与智能终端",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-a21e83bd709a680cc716a333"
+        ],
+        "subject_evidence_ids": [
+          "geo-a21e83bd709a680cc716a333"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "虹软科技",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-a21e83bd709a680cc716a333"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-a21e83bd709a680cc716a333",
+            "source_url": "https://www.arcsoft.com.cn/corporate/about.html",
+            "checked_at": "2026-10-20T00:33:10.891686+00:00",
+            "subject": "虹软科技",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "杭州市滨江区滨兴路392号"
+            }
+          }
+        ]
       },
       "source": "滨江发布",
       "kind": "event",
