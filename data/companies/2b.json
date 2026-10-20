@@ -1074,18 +1074,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/CYcv2RS6MV1SqJlJWrecEA",
       "sector": "仓储机器人与物流自动化",
-      "location": "杭州·拱墅",
+      "location": "杭州·拱墅（杭州子公司）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "杭州·拱墅",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "杭州·拱墅（杭州子公司）",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-4475fb2f0f4b971e491050a7"
+          "geo-18bdfb5b04a7877d83af7c36"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "博洛科自动化(杭州)有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1095,7 +1095,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-4475fb2f0f4b971e491050a7",
+            "evidence_id": "geo-18bdfb5b04a7877d83af7c36",
             "source_url": "https://mp.weixin.qq.com/s/CYcv2RS6MV1SqJlJWrecEA",
             "checked_at": "2026-10-13T02:56:55.302055+00:00",
             "subject": "博洛科自动化(杭州)有限公司",
@@ -1109,11 +1109,22 @@
             }
           }
         ],
-        "presentation": {
-          "label": "杭州·拱墅",
-          "detail": "此地点仅对应博洛科自动化（杭州）有限公司这一杭州子公司的设立、落地事实。美国科罗拉多州属于其母公司来源地，母公司项目业绩另行区分；注册地或总部地不凭这篇报道认定。",
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "拱墅区",
           "evidence_ids": [
-            "geo-4475fb2f0f4b971e491050a7"
+            "geo-18bdfb5b04a7877d83af7c36"
+          ]
+        },
+        "presentation": {
+          "label": "杭州·拱墅（杭州子公司）",
+          "detail": "本主体为博洛科自动化（杭州）有限公司；美国母公司及其项目另行区分，注册/总部待核。",
+          "evidence_ids": [
+            "geo-18bdfb5b04a7877d83af7c36"
           ]
         }
       },

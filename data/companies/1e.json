@@ -883,25 +883,22 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/Enb1jejWOeFociNc9qha2Q",
       "sector": "量子传感与探测上游半导体激光芯片",
-      "location": "经营地：浙江省 / 杭州市（注册/总部待核）",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：浙江省 / 杭州市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-f9c842c076e8d24b5eb2211f"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "昆元量子",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
@@ -920,7 +917,17 @@
               "address": "杭州未来科技城"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-f9c842c076e8d24b5eb2211f"
+          ]
+        }
       },
       "article_location": "杭州未来科技城",
       "source": "湖畔自留田",
