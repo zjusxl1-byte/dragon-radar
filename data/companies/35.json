@@ -409,16 +409,18 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/lHgvAgoEAug0HYA8ggBNhw",
       "sector": "半导体/芯片",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 宁波市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 宁波市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-7f9ca5cee1b3c4412eb08c58"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "爱芯元智",
         "subject_locality": {
           "status": "unknown",
@@ -426,7 +428,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7f9ca5cee1b3c4412eb08c58",
+            "source_url": "https://china.legalbusinessonline.com/deals/ai%E6%8E%A8%E7%90%86%E8%8A%AF%E7%89%87%E5%85%AC%E5%8F%B8%E7%88%B1%E8%8A%AF%E5%85%83%E6%99%BA%E9%A6%99%E6%B8%AFipo%EF%BC%8C%E5%8B%9F%E8%B5%84%E8%BF%9130%E4%BA%BF%E6%B8%AF%E5%85%83%EF%BC%88zhen%EF%BC%89",
+            "checked_at": "2026-10-20T02:23:23.662142+00:00",
+            "subject": "爱芯元智",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "宁波市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "宁波市",
+          "evidence_ids": [
+            "geo-7f9ca5cee1b3c4412eb08c58"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "涌金楼",
@@ -451,16 +477,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "人工智能芯片",
-      "location": "地点待核",
+      "location": "浙江省 / 宁波市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 宁波市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-7f9ca5cee1b3c4412eb08c58"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "爱芯元智",
         "subject_locality": {
           "status": "unknown",
@@ -468,7 +496,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7f9ca5cee1b3c4412eb08c58",
+            "source_url": "https://china.legalbusinessonline.com/deals/ai%E6%8E%A8%E7%90%86%E8%8A%AF%E7%89%87%E5%85%AC%E5%8F%B8%E7%88%B1%E8%8A%AF%E5%85%83%E6%99%BA%E9%A6%99%E6%B8%AFipo%EF%BC%8C%E5%8B%9F%E8%B5%84%E8%BF%9130%E4%BA%BF%E6%B8%AF%E5%85%83%EF%BC%88zhen%EF%BC%89",
+            "checked_at": "2026-10-20T02:23:23.662142+00:00",
+            "subject": "爱芯元智",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "宁波市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "宁波市",
+          "evidence_ids": [
+            "geo-7f9ca5cee1b3c4412eb08c58"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",

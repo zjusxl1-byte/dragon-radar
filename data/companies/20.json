@@ -221,16 +221,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/UT8yLNcWzSN3TUXeJe9qVg",
       "sector": "具身智能",
-      "location": "地点待核",
+      "location": "杭州市（企业档案所在地）；苏州市（创新研发）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "杭州市（企业档案所在地）；苏州市（创新研发）",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d58c75e00a4938e6cdd4bc91"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "至简动力",
         "subject_locality": {
           "status": "unknown",
@@ -238,7 +240,52 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0ad93c9bc0f06e54cf4f1629",
+            "source_url": "https://finance.sina.com.cn/stock/relnews/hk/2026-03-09/doc-inhqkhiq9924349.shtml",
+            "checked_at": "2026-10-20T02:22:55.247359+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市"
+            }
+          },
+          {
+            "evidence_id": "geo-d58c75e00a4938e6cdd4bc91",
+            "source_url": "https://www.taibo.cn/company/121644",
+            "checked_at": "2026-10-20T02:21:22.989610+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        },
+        "presentation": {
+          "label": "杭州市（企业档案所在地）；苏州市（创新研发）",
+          "detail": "两份媒体来源对应同一至简动力品牌；另有北京上海布局，杭州档案与苏州中心并不互斥，不表示唯一总部或各地法人合并。",
+          "evidence_ids": [
+            "geo-0ad93c9bc0f06e54cf4f1629",
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        }
       },
       "article_location": "",
       "source": "晚点 LatePost",
@@ -263,16 +310,18 @@
       "event_type": "资质获批",
       "link": "https://mp.weixin.qq.com/s/3TPYUY1TqRi3Pfoifct_7g",
       "sector": "具身智能",
-      "location": "地点线索：杭州",
+      "location": "杭州市（企业档案所在地）；苏州市（创新研发）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "杭州市（企业档案所在地）；苏州市（创新研发）",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d58c75e00a4938e6cdd4bc91"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "至简动力",
         "subject_locality": {
           "status": "unknown",
@@ -280,7 +329,52 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0ad93c9bc0f06e54cf4f1629",
+            "source_url": "https://finance.sina.com.cn/stock/relnews/hk/2026-03-09/doc-inhqkhiq9924349.shtml",
+            "checked_at": "2026-10-20T02:22:55.247359+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市"
+            }
+          },
+          {
+            "evidence_id": "geo-d58c75e00a4938e6cdd4bc91",
+            "source_url": "https://www.taibo.cn/company/121644",
+            "checked_at": "2026-10-20T02:21:22.989610+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        },
+        "presentation": {
+          "label": "杭州市（企业档案所在地）；苏州市（创新研发）",
+          "detail": "两份媒体来源对应同一至简动力品牌；另有北京上海布局，杭州档案与苏州中心并不互斥，不表示唯一总部或各地法人合并。",
+          "evidence_ids": [
+            "geo-0ad93c9bc0f06e54cf4f1629",
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "元璟资本",
@@ -305,16 +399,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/l3qut_eqznYR-qBRbALFgQ",
       "sector": "人工智能/机器人",
-      "location": "地点线索：余杭",
+      "location": "杭州市（企业档案所在地）；苏州市（创新研发）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "杭州市（企业档案所在地）；苏州市（创新研发）",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d58c75e00a4938e6cdd4bc91"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "至简动力",
         "subject_locality": {
           "status": "unknown",
@@ -322,7 +418,52 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0ad93c9bc0f06e54cf4f1629",
+            "source_url": "https://finance.sina.com.cn/stock/relnews/hk/2026-03-09/doc-inhqkhiq9924349.shtml",
+            "checked_at": "2026-10-20T02:22:55.247359+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市"
+            }
+          },
+          {
+            "evidence_id": "geo-d58c75e00a4938e6cdd4bc91",
+            "source_url": "https://www.taibo.cn/company/121644",
+            "checked_at": "2026-10-20T02:21:22.989610+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        },
+        "presentation": {
+          "label": "杭州市（企业档案所在地）；苏州市（创新研发）",
+          "detail": "两份媒体来源对应同一至简动力品牌；另有北京上海布局，杭州档案与苏州中心并不互斥，不表示唯一总部或各地法人合并。",
+          "evidence_ids": [
+            "geo-0ad93c9bc0f06e54cf4f1629",
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        }
       },
       "article_location": "余杭",
       "source": "湖畔自留田",
@@ -347,16 +488,18 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/QkASULVptCbq4v0oz3zrbA",
       "sector": "具身智能",
-      "location": "地点待核",
+      "location": "杭州市（企业档案所在地）；苏州市（创新研发）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "杭州市（企业档案所在地）；苏州市（创新研发）",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d58c75e00a4938e6cdd4bc91"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "至简动力",
         "subject_locality": {
           "status": "unknown",
@@ -364,7 +507,52 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0ad93c9bc0f06e54cf4f1629",
+            "source_url": "https://finance.sina.com.cn/stock/relnews/hk/2026-03-09/doc-inhqkhiq9924349.shtml",
+            "checked_at": "2026-10-20T02:22:55.247359+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市"
+            }
+          },
+          {
+            "evidence_id": "geo-d58c75e00a4938e6cdd4bc91",
+            "source_url": "https://www.taibo.cn/company/121644",
+            "checked_at": "2026-10-20T02:21:22.989610+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        },
+        "presentation": {
+          "label": "杭州市（企业档案所在地）；苏州市（创新研发）",
+          "detail": "两份媒体来源对应同一至简动力品牌；另有北京上海布局，杭州档案与苏州中心并不互斥，不表示唯一总部或各地法人合并。",
+          "evidence_ids": [
+            "geo-0ad93c9bc0f06e54cf4f1629",
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        }
       },
       "article_location": "",
       "source": "量子位",
@@ -389,16 +577,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/G3-NDLb4RSrv6V2JlOl25A",
       "sector": "具身智能机器人",
-      "location": "地点线索：苏州",
+      "location": "杭州市（企业档案所在地）；苏州市（创新研发）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "杭州市（企业档案所在地）；苏州市（创新研发）",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d58c75e00a4938e6cdd4bc91"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "至简动力",
         "subject_locality": {
           "status": "unknown",
@@ -406,7 +596,52 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0ad93c9bc0f06e54cf4f1629",
+            "source_url": "https://finance.sina.com.cn/stock/relnews/hk/2026-03-09/doc-inhqkhiq9924349.shtml",
+            "checked_at": "2026-10-20T02:22:55.247359+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市"
+            }
+          },
+          {
+            "evidence_id": "geo-d58c75e00a4938e6cdd4bc91",
+            "source_url": "https://www.taibo.cn/company/121644",
+            "checked_at": "2026-10-20T02:21:22.989610+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        },
+        "presentation": {
+          "label": "杭州市（企业档案所在地）；苏州市（创新研发）",
+          "detail": "两份媒体来源对应同一至简动力品牌；另有北京上海布局，杭州档案与苏州中心并不互斥，不表示唯一总部或各地法人合并。",
+          "evidence_ids": [
+            "geo-0ad93c9bc0f06e54cf4f1629",
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        }
       },
       "article_location": "苏州",
       "source": "量子位",
@@ -431,16 +666,18 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/hLfia1k6xAxxI8Q9-HEq-A",
       "sector": "具身智能与工业机器人",
-      "location": "地点待核",
+      "location": "杭州市（企业档案所在地）；苏州市（创新研发）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "杭州市（企业档案所在地）；苏州市（创新研发）",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d58c75e00a4938e6cdd4bc91"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "至简动力",
         "subject_locality": {
           "status": "unknown",
@@ -448,7 +685,52 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0ad93c9bc0f06e54cf4f1629",
+            "source_url": "https://finance.sina.com.cn/stock/relnews/hk/2026-03-09/doc-inhqkhiq9924349.shtml",
+            "checked_at": "2026-10-20T02:22:55.247359+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市"
+            }
+          },
+          {
+            "evidence_id": "geo-d58c75e00a4938e6cdd4bc91",
+            "source_url": "https://www.taibo.cn/company/121644",
+            "checked_at": "2026-10-20T02:21:22.989610+00:00",
+            "subject": "至简动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        },
+        "presentation": {
+          "label": "杭州市（企业档案所在地）；苏州市（创新研发）",
+          "detail": "两份媒体来源对应同一至简动力品牌；另有北京上海布局，杭州档案与苏州中心并不互斥，不表示唯一总部或各地法人合并。",
+          "evidence_ids": [
+            "geo-0ad93c9bc0f06e54cf4f1629",
+            "geo-d58c75e00a4938e6cdd4bc91"
+          ]
+        }
       },
       "article_location": "",
       "source": "元璟资本",
