@@ -1661,5 +1661,65 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "岩芯矩阵": [
+    {
+      "date": "2026-10-21",
+      "title": "岩山科技旗下岩芯矩阵联合港科大、CMU等高校发布并开源EdgeRock-4B，提供模型权重和推理代码，支持文本、图像推理，文章称可商用。模型基于Qwen3.5-4B改造，通过循环状态、局部窗口和记忆岩锚机制保存历史信息，注意力KV缓存固定为72 MiB，批量运行时每条序列全部历史状态固定为97.76 MiB。据文中测试，在32K输入、32K输出、单张Hopper 80GB GPU及各模型实测最快批大小条件下，EdgeRock-4B以512路并发达到12124 tokens/s输出吞吐，源模型以64批大小达到1889 tokens/s；AIME 2024—2026平均一次通过率为82.9%。",
+      "article_title": "内存还会跌吗？KV Cache砍掉99%，单卡吞吐飙6倍，港科大、CMU联手岩山科技开源新模型",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/XlGTNPhtP88uAL5srNtoxQ",
+      "sector": "人工智能／大模型推理",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "岩芯矩阵",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "岩芯矩阵",
+      "company_entity_id": "dr-u-941bf759eb5e0b85bbfb",
+      "company_raw_name": "岩芯矩阵",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "EdgeRock-4B",
+          "relation": "product",
+          "evidence": "这就是岩山科技旗下岩芯矩阵联合港科大、CMU等高校刚刚发布并开源的EdgeRock-4B。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "单次模型开源及报道中的基准测试支持产品进展和技术对比价值，但未建立岩芯矩阵整体行业地位或持续产业化表现；高校合作和局部测试优势不能自动赋予企业全国标杆资格。",
+        "evidence_ids": [
+          "article:06f9bbdda274de3c"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "岩芯矩阵此次展示的能力，是通过改造已有模型，在固定历史内存下保留较强推理能力：缓存不再随上下文增长，使同一张显卡能够容纳更多并发序列，形成文中长输入、长输出测试的吞吐优势。这为长时间运行的智能体提供了更可预测的内存需求，但机器人端侧应用仍是文章提出的方向，并非已披露的部署成果。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "岩芯矩阵联合高校开源EdgeRock-4B，固定长推理历史内存",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
