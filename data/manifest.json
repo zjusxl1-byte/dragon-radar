@@ -17828,7 +17828,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "8b1f430d4639cc9e96424fa663858998cf02b8c5bd1035bb6034571a46d9537d",
+  "history_version": "d40b27ff060b25e2d874a057d77b85c7088211a8d2251a8afa587edaff18f1dc",
   "company_history_buckets": {
     "00": "ccd26f333760bd0736af67ed096f8a778e3e31d1983d5dd6c84387fae8c11ce9",
     "01": "f6159a97f93e315e6fcf009484478739a2fefecd0e920eb70613270edf5e2d14",
@@ -17877,7 +17877,7 @@
     "2c": "fe4296f6ae61a6bebe11eb738b3747a4ffbdeaf51b8e10e0c75c6e3aa53adc13",
     "2d": "1129227298a1515c11263f4eb8dfbc5af2d55c92fec4f405f9de9ff0c42115e8",
     "2e": "75db70e9f06cfab2c972c686218451c12fb573d6093cd2ba4f6ab19648825b58",
-    "2f": "b5901644d970e2366b92c9c6aa8c967838be2ec040dc6cecb238c581af0b3cbc",
+    "2f": "02b0bb38f9308a57d0900d79e712ed4716f92e1a06e140f704bbdd71130a3a19",
     "30": "012b4662baedaeade05142396001541f9b11659650d83e003973dd36c988ac25",
     "31": "9bc1ad0dc000481e731a2b1c06b1db6d2ff3cdf259c3bb709c284d54f11c4f2d",
     "32": "7810ba460d890435b6ce9d16b1f4a8e3fc298f2c2e403091ede5c61103ba5537",
@@ -17895,7 +17895,7 @@
     "3e": "f87fbcb18b3970efe2d56a47fc0d6422ed86acdb9758d66676041c8f58855dc3",
     "3f": "e1cee01760abac0eefb90f33ddd1990e57bf827b08877dc436f419584d892542"
   },
-  "history_search_version": "14db49e22b8031d2e374402b957b1ac2f8817dbf94658e33d7701073ffe29385",
+  "history_search_version": "b81d0cc3dbae222788113ef5868580d52e6fb31eb73a2f9cc943f0781d7df860",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
@@ -20090,7 +20090,7 @@
       "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785": "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785"
     }
   },
-  "geography_version": "baed50220e7b006b4089b6bf6741e8d2662bddfb011b78861187e428974423ed",
+  "geography_version": "aa6545493549bf3189efa6cd7fc1538e342ad5564823ec0b91d7da2f73f6d582",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -27983,10 +27983,44 @@
       "located_status": "unknown"
     },
     "dr-u-7915f12457326280a2ab": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "SE",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-7fbe438c32eff8c1ca7ff587"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "Husqvarna",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-7fbe438c32eff8c1ca7ff587",
+          "source_url": "https://mp.weixin.qq.com/s/Iok-bjxx7C_fAwbJxWAs3w",
+          "checked_at": "2026-10-16T22:46:43+00:00",
+          "subject": "Husqvarna",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "SE"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "SE",
+        "evidence_ids": [
+          "geo-7fbe438c32eff8c1ca7ff587"
+        ]
+      }
     },
     "dr-u-7941a19fb4c11918da99": {
       "geography_status": "unknown",
