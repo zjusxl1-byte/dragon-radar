@@ -757,31 +757,28 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/_IYrWfBihommkw6HA5zMKQ",
       "sector": "人工智能／通用AI智能体",
-      "location": "经营地：北京市 / 海淀区（注册/总部待核）",
+      "location": "北京市 / 海淀区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：北京市 / 海淀区（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-7ca7b23c813c0d88d64ba6e2"
+          "geo-b573cc3e5090045d262c7f77"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "北京蝴蝶效应科技有限公司",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-7ca7b23c813c0d88d64ba6e2",
+            "evidence_id": "geo-b573cc3e5090045d262c7f77",
             "source_url": "https://mp.weixin.qq.com/s/_IYrWfBihommkw6HA5zMKQ",
             "checked_at": "2026-10-08T23:01:37Z",
             "subject": "北京蝴蝶效应科技有限公司",
@@ -791,10 +788,20 @@
               "country": "CN",
               "province": "北京市",
               "city": "北京市",
-              "address": "海淀区"
+              "district": "海淀区"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-b573cc3e5090045d262c7f77"
+          ]
+        }
       },
       "article_location": "北京（披露的国内招聘与团队）；海外主体关系待核",
       "source": "投资界",

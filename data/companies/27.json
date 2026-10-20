@@ -1183,18 +1183,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/V8VFrVYLbu7wT-niTwnw5A",
       "sector": "实时多模态AI与视频交互",
-      "location": "经营地：US / California / San Francisco（注册/总部待核）",
+      "location": "US / California / San Francisco",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / California / San Francisco（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-b99656e97ae87fbcb560ab47"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Tavus",
         "subject_locality": {
           "status": "unknown",
@@ -1216,7 +1216,17 @@
               "city": "San Francisco"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-b99656e97ae87fbcb560ab47"
+          ]
+        }
       },
       "article_location": "美国旧金山",
       "source": "创业邦",

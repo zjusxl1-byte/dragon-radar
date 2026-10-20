@@ -883,25 +883,22 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/s7A5emWcCXgezr5traIMjw",
       "sector": "海洋具身智能与水下作业机器人",
-      "location": "经营地：陕西省 / 西安市（注册/总部待核）",
+      "location": "陕西省 / 西安市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：陕西省 / 西安市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "陕西省 / 西安市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-661b54f208bed62f3e7ff86c"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "卫澜深海",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
@@ -919,7 +916,17 @@
               "city": "西安市"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "陕西省",
+          "city": "西安市",
+          "evidence_ids": [
+            "geo-661b54f208bed62f3e7ff86c"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",

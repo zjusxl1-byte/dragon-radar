@@ -1275,26 +1275,23 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/Xhkwa_A3mJJUdOGQU11qCA",
       "sector": "越野车辆及电动二轮车制造",
-      "location": "经营地：浙江省 / 金华市 / 武义县金岩山工业区金恒二路12-14号（注册/总部待核）",
+      "location": "浙江省 / 金华市 / No. 12-14, Jinheng 2nd Road, Jinyan Mountain Industrial Zone, Wuyi County, Jinhua City, Zhejiang Province",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：浙江省 / 金华市 / 武义县金岩山工业区金恒二路12-14号（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 金华市 / No. 12-14, Jinheng 2nd Road, Jinyan Mountain Industrial Zone, Wuyi County, Jinhua City, Zhejiang Province",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-3ee738243fd82cff4483b5b9",
-          "geo-e69e1ded4c2ccfc1770d3511"
+          "geo-d2d88271bd81e599ac01db5d"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "浙江阿波罗运动科技股份有限公司",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
@@ -1313,7 +1310,7 @@
             }
           },
           {
-            "evidence_id": "geo-e69e1ded4c2ccfc1770d3511",
+            "evidence_id": "geo-d2d88271bd81e599ac01db5d",
             "source_url": "https://www.apollovehicle.com/contact-us/",
             "checked_at": "2026-10-12T03:44:24.100340+00:00",
             "subject": "浙江阿波罗运动科技股份有限公司",
@@ -1323,10 +1320,21 @@
               "country": "CN",
               "province": "浙江省",
               "city": "金华市",
-              "address": "武义县金岩山工业区金恒二路12-14号"
+              "address": "No. 12-14, Jinheng 2nd Road, Jinyan Mountain Industrial Zone, Wuyi County, Jinhua City, Zhejiang Province"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "金华市",
+          "evidence_ids": [
+            "geo-3ee738243fd82cff4483b5b9",
+            "geo-d2d88271bd81e599ac01db5d"
+          ]
+        }
       },
       "article_location": "浙江金华",
       "source": "创业邦",

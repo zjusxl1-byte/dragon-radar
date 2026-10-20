@@ -1587,18 +1587,18 @@
       "event_type": "并购",
       "link": "https://mp.weixin.qq.com/s/uNB4ImQqFzkJSIKpiYTJbQ",
       "sector": "医疗器械核心材料与精密制造",
-      "location": "经营地：江苏省 / 江阴市（注册/总部待核）",
+      "location": "江苏省 / 江阴市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：江苏省 / 江阴市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 江阴市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-8c7308b098f5dc230a68e973"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "江阴佩尔科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1620,7 +1620,17 @@
               "city": "江阴市"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "江阴市",
+          "evidence_ids": [
+            "geo-8c7308b098f5dc230a68e973"
+          ]
+        }
       },
       "article_location": "江苏省江阴市",
       "source": "投资界",
@@ -1660,31 +1670,28 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/OerwtvlDN3wtB99mH6ZrwQ",
       "sector": "商业航天／高分辨率光学遥感载荷",
-      "location": "经营地：北京市 / 亦庄（注册/总部待核）",
+      "location": "北京市 / 亦庄",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：北京市 / 亦庄（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 亦庄",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-f1b99933d15a116913343e5e"
+          "geo-9397773948ca3732586718b0"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "北京重眸科技有限公司",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-f1b99933d15a116913343e5e",
+            "evidence_id": "geo-9397773948ca3732586718b0",
             "source_url": "https://mp.weixin.qq.com/s/OerwtvlDN3wtB99mH6ZrwQ",
             "checked_at": "2026-10-10T23:01:34Z",
             "subject": "北京重眸科技有限公司",
@@ -1694,10 +1701,20 @@
               "country": "CN",
               "province": "北京市",
               "city": "北京市",
-              "address": "亦庄"
+              "district": "亦庄"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-9397773948ca3732586718b0"
+          ]
+        }
       },
       "article_location": "北京亦庄（运营产线）",
       "source": "36 氪",

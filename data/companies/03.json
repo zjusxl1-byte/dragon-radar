@@ -1129,31 +1129,28 @@
       "event_type": "并购",
       "link": "https://mp.weixin.qq.com/s/tqNz34ZmCzbAhobilQZe5w",
       "sector": "半导体封装与测试",
-      "location": "经营地：江苏省 / 苏州市 / 相城区漕湖街道方桥路568号（注册/总部待核）",
+      "location": "江苏省苏州市相城区漕湖街道方桥路568号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：江苏省 / 苏州市 / 相城区漕湖街道方桥路568号（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省苏州市相城区漕湖街道方桥路568号",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-8b2b2aed67372674f578e7ad"
+          "geo-3c216800361f96d42ca8529c"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "苏州科阳半导体有限公司",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-8b2b2aed67372674f578e7ad",
+            "evidence_id": "geo-3c216800361f96d42ca8529c",
             "source_url": "https://www.keyangsemi.com/aboutkeyang",
             "checked_at": "2026-10-12T03:44:20.497836+00:00",
             "subject": "苏州科阳半导体有限公司",
@@ -1163,10 +1160,20 @@
               "country": "CN",
               "province": "江苏省",
               "city": "苏州市",
-              "address": "相城区漕湖街道方桥路568号"
+              "address": "江苏省苏州市相城区漕湖街道方桥路568号"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "evidence_ids": [
+            "geo-3c216800361f96d42ca8529c"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "创业邦",

@@ -639,18 +639,18 @@
       "event_type": "产品经营",
       "link": "https://mp.weixin.qq.com/s/VJbqur2vnE0lnCP3Ywq_gg",
       "sector": "文字剧情游戏",
-      "location": "经营地：四川省 / 成都市（注册/总部待核）",
+      "location": "四川省 / 成都市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：四川省 / 成都市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "四川省 / 成都市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-693e320c7af9aa9e2ba8afbf"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "四川瞳电游",
         "subject_locality": {
           "status": "unknown",
@@ -672,7 +672,17 @@
               "city": "成都市"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "四川省",
+          "city": "成都市",
+          "evidence_ids": [
+            "geo-693e320c7af9aa9e2ba8afbf"
+          ]
+        }
       },
       "article_location": "四川",
       "source": "创业邦",

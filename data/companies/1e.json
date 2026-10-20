@@ -1007,18 +1007,18 @@
       "event_type": "负面",
       "link": "https://mp.weixin.qq.com/s/CngTmchtb32p53RdrFzhDQ",
       "sector": "数据中心基础设施投资",
-      "location": "经营地：US / 345 Park Avenue, New York, NY 10154（注册/总部待核）",
+      "location": "US / New York / 345 PARK AVENUE, NEW YORK, NY 10154",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / 345 Park Avenue, New York, NY 10154（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / New York / 345 PARK AVENUE, NEW YORK, NY 10154",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-67b847f445d33fa1e71f958b"
+          "geo-6b6788da6dcbad282bed87f2"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "黑石集团",
         "subject_locality": {
           "status": "unknown",
@@ -1028,7 +1028,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-67b847f445d33fa1e71f958b",
+            "evidence_id": "geo-6b6788da6dcbad282bed87f2",
             "source_url": "https://data.sec.gov/submissions/CIK0001393818.json",
             "checked_at": "2026-10-12T03:46:27.945024+00:00",
             "subject": "黑石集团",
@@ -1038,10 +1038,20 @@
               "country": "US",
               "province": "New York",
               "city": "New York",
-              "address": "345 Park Avenue, New York, NY 10154"
+              "address": "345 PARK AVENUE, NEW YORK, NY 10154"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "New York",
+          "city": "New York",
+          "evidence_ids": [
+            "geo-6b6788da6dcbad282bed87f2"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
