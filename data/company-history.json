@@ -1451,7 +1451,7 @@
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "艾图量变智能机器人(杭州)有限公司",
+        "subject": "艾图量变",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
@@ -1463,10 +1463,10 @@
       "article_location": "杭州临平区",
       "source": "湖畔自留田",
       "kind": "event",
-      "canonical_name": "艾图量变智能机器人(杭州)有限公司",
-      "company_entity_id": "dr-u-da96593a3325064be3b0",
+      "canonical_name": "艾图量变",
+      "company_entity_id": "dr-u-20a67993cf490a0acbde",
       "company_raw_name": "艾图量变智能机器人（杭州）有限公司",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 125,
       "insight": "此次合作标志着杭州在机器人及具身智能产业整合上迈出关键一步。临平区正通过吸引上市公司第二总部与前沿科技企业合资落地，快速构建从核心零部件、AI算法到整机应用的机器人产业生态，有望成为长三角智能制造与具身智能融合发展的重要节点。",
       "financing": "新成立合资公司，未披露融资金额。股东之一自变量机器人成立两年完成10轮融资，累计超30亿元。",
@@ -2096,7 +2096,7 @@
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "帕西尼",
+        "subject": "帕西尼感知科技",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
@@ -2108,10 +2108,10 @@
       "article_location": "",
       "source": "36 氪",
       "kind": "event",
-      "canonical_name": "帕西尼",
-      "company_entity_id": "dr-u-0a3bc8730d5d42cbe856",
+      "canonical_name": "帕西尼感知科技",
+      "company_entity_id": "dr-u-3967d5c541fce1d9eba0",
       "company_raw_name": "帕西尼",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 70,
       "is_national_star": true,
       "insight": "帕西尼在具身智能领域获得高额融资，估值领先，显示资本对AI与物理世界交互技术的看好。其与国内外产业巨头的合作有助于技术落地和商业化，但需关注技术壁垒和市场竞争。",
@@ -5572,6 +5572,61 @@
       "financing": "投前估值飙至300亿美元，半年猛增6倍",
       "event_date": "",
       "event_headline": "月之暗面推出Kimi Work，拟调动300个Agent预测世界杯",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "据报道，月之暗面的Kimi团队将层间注意力方案改为分块注意力残差：把模型的多个层分成8组，先汇总组内信息，再在组间读取信息，以降低存储和设备间通信开销。杨植麟同意推迟K3开训，为新架构留出验证时间。文章称，该技术随后成为已发布的2.8万亿参数K3的重要架构之一。",
+      "article_title": "中国 AI 的年轻掌权者们",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/t2tdUQ6sjsIDsbUJSjca-A",
+      "sector": "人工智能大模型",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "月之暗面",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "月之暗面",
+      "company_entity_id": "dr-u-481243d2f2a235c100b3",
+      "company_raw_name": "月之暗面",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "月之暗面",
+          "relation": "same_entity",
+          "evidence": "33 岁的杨植麟创办了月之暗面"
+        },
+        {
+          "name": "K3",
+          "relation": "product",
+          "evidence": "他们希望把一项叫 Attention Residuals 的新技术，放进 Kimi 正在研发的下一代旗舰大模型 K3。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "这项变化的价值在于把层间按需读取信息的算法设计，改造成可用于大规模模型训练的工程方案。分块设计降低了完整方案的存储与通信负担，并被纳入K3，体现了团队将架构研究推进到旗舰模型应用的能力。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "月之暗面2026年将分块注意力残差纳入K3架构",
       "event_signal": "material",
       "discovery_status": "update"
     }
@@ -11612,6 +11667,7 @@
         "display_location": "北京市 / 海淀区",
         "located_status": "discovery_confirmed",
         "display_basis": [
+          "geo-eeb80ea6f0e8952ff8f4183b",
           "geo-0bdd2570513f06e17fbf1244"
         ],
         "subject_evidence_ids": [],
@@ -11626,9 +11682,23 @@
         },
         "basis": [
           {
+            "evidence_id": "geo-eeb80ea6f0e8952ff8f4183b",
+            "source_url": "https://www.stcn.com/article/detail/3732485.html",
+            "checked_at": "2026-10-20T18:21:47.689511+00:00",
+            "subject": "字节跳动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          },
+          {
             "evidence_id": "geo-0bdd2570513f06e17fbf1244",
             "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
-            "checked_at": "2026-10-20T01:41:55.447516+00:00",
+            "checked_at": "2026-10-20T02:29:16.687727+00:00",
             "subject": "字节跳动",
             "role": "business",
             "subject_relation": "same_subject",
@@ -11648,6 +11718,7 @@
           "city": "北京市",
           "district": "海淀区",
           "evidence_ids": [
+            "geo-eeb80ea6f0e8952ff8f4183b",
             "geo-0bdd2570513f06e17fbf1244"
           ]
         }
@@ -11682,6 +11753,7 @@
         "display_location": "北京市 / 海淀区",
         "located_status": "discovery_confirmed",
         "display_basis": [
+          "geo-eeb80ea6f0e8952ff8f4183b",
           "geo-0bdd2570513f06e17fbf1244"
         ],
         "subject_evidence_ids": [],
@@ -11696,9 +11768,23 @@
         },
         "basis": [
           {
+            "evidence_id": "geo-eeb80ea6f0e8952ff8f4183b",
+            "source_url": "https://www.stcn.com/article/detail/3732485.html",
+            "checked_at": "2026-10-20T18:21:47.689511+00:00",
+            "subject": "字节跳动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          },
+          {
             "evidence_id": "geo-0bdd2570513f06e17fbf1244",
             "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
-            "checked_at": "2026-10-20T01:41:55.447516+00:00",
+            "checked_at": "2026-10-20T02:29:16.687727+00:00",
             "subject": "字节跳动",
             "role": "business",
             "subject_relation": "same_subject",
@@ -11718,6 +11804,7 @@
           "city": "北京市",
           "district": "海淀区",
           "evidence_ids": [
+            "geo-eeb80ea6f0e8952ff8f4183b",
             "geo-0bdd2570513f06e17fbf1244"
           ]
         }
@@ -11752,6 +11839,7 @@
         "display_location": "北京市 / 海淀区",
         "located_status": "discovery_confirmed",
         "display_basis": [
+          "geo-eeb80ea6f0e8952ff8f4183b",
           "geo-0bdd2570513f06e17fbf1244"
         ],
         "subject_evidence_ids": [],
@@ -11766,9 +11854,23 @@
         },
         "basis": [
           {
+            "evidence_id": "geo-eeb80ea6f0e8952ff8f4183b",
+            "source_url": "https://www.stcn.com/article/detail/3732485.html",
+            "checked_at": "2026-10-20T18:21:47.689511+00:00",
+            "subject": "字节跳动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          },
+          {
             "evidence_id": "geo-0bdd2570513f06e17fbf1244",
             "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
-            "checked_at": "2026-10-20T01:41:55.447516+00:00",
+            "checked_at": "2026-10-20T02:29:16.687727+00:00",
             "subject": "字节跳动",
             "role": "business",
             "subject_relation": "same_subject",
@@ -11788,6 +11890,7 @@
           "city": "北京市",
           "district": "海淀区",
           "evidence_ids": [
+            "geo-eeb80ea6f0e8952ff8f4183b",
             "geo-0bdd2570513f06e17fbf1244"
           ]
         }
@@ -11835,6 +11938,7 @@
         "display_location": "北京市 / 海淀区",
         "located_status": "discovery_confirmed",
         "display_basis": [
+          "geo-eeb80ea6f0e8952ff8f4183b",
           "geo-0bdd2570513f06e17fbf1244"
         ],
         "subject_evidence_ids": [],
@@ -11849,9 +11953,23 @@
         },
         "basis": [
           {
+            "evidence_id": "geo-eeb80ea6f0e8952ff8f4183b",
+            "source_url": "https://www.stcn.com/article/detail/3732485.html",
+            "checked_at": "2026-10-20T18:21:47.689511+00:00",
+            "subject": "字节跳动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          },
+          {
             "evidence_id": "geo-0bdd2570513f06e17fbf1244",
             "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
-            "checked_at": "2026-10-20T01:41:55.447516+00:00",
+            "checked_at": "2026-10-20T02:29:16.687727+00:00",
             "subject": "字节跳动",
             "role": "business",
             "subject_relation": "same_subject",
@@ -11871,6 +11989,7 @@
           "city": "北京市",
           "district": "海淀区",
           "evidence_ids": [
+            "geo-eeb80ea6f0e8952ff8f4183b",
             "geo-0bdd2570513f06e17fbf1244"
           ]
         }
@@ -11906,6 +12025,7 @@
         "display_location": "北京市 / 海淀区",
         "located_status": "discovery_confirmed",
         "display_basis": [
+          "geo-eeb80ea6f0e8952ff8f4183b",
           "geo-0bdd2570513f06e17fbf1244"
         ],
         "subject_evidence_ids": [],
@@ -11920,9 +12040,23 @@
         },
         "basis": [
           {
+            "evidence_id": "geo-eeb80ea6f0e8952ff8f4183b",
+            "source_url": "https://www.stcn.com/article/detail/3732485.html",
+            "checked_at": "2026-10-20T18:21:47.689511+00:00",
+            "subject": "字节跳动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          },
+          {
             "evidence_id": "geo-0bdd2570513f06e17fbf1244",
             "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
-            "checked_at": "2026-10-20T01:41:55.447516+00:00",
+            "checked_at": "2026-10-20T02:29:16.687727+00:00",
             "subject": "字节跳动",
             "role": "business",
             "subject_relation": "same_subject",
@@ -11942,6 +12076,7 @@
           "city": "北京市",
           "district": "海淀区",
           "evidence_ids": [
+            "geo-eeb80ea6f0e8952ff8f4183b",
             "geo-0bdd2570513f06e17fbf1244"
           ]
         }
@@ -15950,6 +16085,58 @@
       "event_headline": "灵伴科技智能眼镜在杭州半马试验直播及裁判取证等应用",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "良渚博物院使用来自余杭企业灵伴科技的智能眼镜进行导览，支持自动识别展柜文物、手势操控互动及语音深度解读。",
+      "article_title": "不止VR与AI！五千年文明有了全新打开方式",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/U4U94p2ZNVha51teiwYGnQ",
+      "sector": "智能眼镜与智慧文博",
+      "location": "地点线索：杭州余杭（原文明确称“余杭企业”，未区分注册地、总部地或经营地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "灵伴科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "杭州余杭（原文明确称“余杭企业”，未区分注册地、总部地或经营地）",
+      "source": "余杭发布",
+      "kind": "event",
+      "canonical_name": "灵伴科技",
+      "company_entity_id": "dr-u-af3a1c671a87dc90d961",
+      "company_raw_name": "灵伴科技",
+      "identity_status": "confirmed",
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本次博物院导览和历史赛事应用证明具体场景使用，未提供足以独立建立全国行业领先地位的市场、技术比较或规模化成果证据；不影响本地正面线索保留。",
+        "evidence_ids": [
+          "article:1a262b309ad889d0",
+          "accepted_history:cd2419a7146facbd"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "这项应用展示了灵伴科技将文物识别、手势交互和语音讲解结合成现场导览工具的能力：游客可以围绕眼前展品获取解读，而不只是依赖固定展签。其值得研究的产品价值，是智能眼镜如何衔接观展动作与文物信息，形成适合博物馆使用的交互方式。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "灵伴科技智能眼镜在良渚博物院提供互动导览",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "Rebellions": [
@@ -20819,6 +21006,70 @@
       "event_headline": "三星三季度预告营业利润约107.4万亿韩元，同比约八倍",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "据文章转述《首尔经济日报》援引业内人士的报道，三星电子已决定接受英伟达要求，在定制高带宽内存NVHBM项目中采用台积电3nm工艺制造基础芯片，存储核心芯片则采用第六代DRAM制程。NVHBM将英伟达定制的内存控制器集成至基础芯片。三星仍计划对标准HBM及其他客户的定制产品延续内部一体化生产，并正在评估利用自家晶圆代工厂生产NVHBM基础芯片的可能性。相关公司尚未公开确认具体合作细节，实际量产与产能分配安排未披露。",
+      "article_title": "三星“被迫”投片台积电",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/mWzDcsk4ZiHrG0LBGs2h3Q",
+      "sector": "半导体／高带宽内存",
+      "location": "KR",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "KR",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-c394ea289ffdcdb463af2a18"
+        ],
+        "subject_evidence_ids": [
+          "geo-c394ea289ffdcdb463af2a18"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "三星电子",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "KR",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-c394ea289ffdcdb463af2a18"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-c394ea289ffdcdb463af2a18",
+            "source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_Interim_Report.pdf",
+            "checked_at": "2026-10-20T01:39:45.455510+00:00",
+            "subject": "三星电子",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "KR"
+            }
+          }
+        ]
+      },
+      "article_location": "韩国",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "三星电子",
+      "company_entity_id": "dr-u-255a4dc2b19440690a03",
+      "company_raw_name": "三星电子",
+      "identity_status": "confirmed",
+      "score": 70,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "这项安排体现出三星在英伟达定制HBM项目中，从内部一体化制造转向按客户架构组织跨厂协作：内存控制器进入基础芯片后，先进逻辑制造与DRAM的配合成为产品设计的重要环节。调整目前限于特定客户项目，不能据此判断三星全面退出HBM基础芯片自制。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "据报道三星电子决定在NVHBM项目采用台积电3nm工艺",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "杭州叠境科技有限公司": [
@@ -21737,6 +21988,64 @@
       "event_headline": "阿里巴巴开源千问3.5系列，覆盖全尺寸与全模态",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "阿里巴巴达摩院在2026年10月19日举行的RISC-V中国峰会上发布车规增强处理器玄铁E908A，面向安全岛、域控制器和车载网关，并公布车规产品路线图，预计于2027年底推出高性能车规CPU C950A。同时，达摩院披露玄铁C950在多核互联和智能体工作负载方面的优化进展，据其披露，C950在四类智能体工作负载测试中较部分主流传统架构处理器取得10%以上的性能优势。",
+      "article_title": "迈过高性能门槛，达摩院玄铁RISC-V开始打量产硬仗",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/3OMiPJJZDiDdPTJjQm0ZrA",
+      "sector": "半导体／RISC-V处理器IP",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "阿里巴巴",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "阿里巴巴",
+      "company_entity_id": "dr-u-47c1e53c427aafb4556b",
+      "company_raw_name": "阿里巴巴",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "玄铁E908A",
+          "relation": "product",
+          "evidence": "本届峰会上，达摩院正式发布了面向车载场景的车规增强处理器玄铁E908A。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": true,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "独立依据是原文披露玄铁产品线已支撑超过60亿颗芯片交付、200余款量产芯片并服务400余家厂商，以及其在RISE和RISC-V软件生态中的具体参与，足以支持处理器IP产品化与生态建设对标。上述累计规模仅适用于既有产品线，不代表本次新产品成熟度。",
+        "evidence_ids": [
+          "article:e482760c63052476"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "玄铁正把产品能力从单核性能拓展到多核协同、智能体任务执行和车载实时计算：前两者针对服务器中的通信与软件适配瓶颈，E908A则为车载控制环节增加了产品入口。既有产品线的累计芯片交付不能直接代表这些高端新产品已经量产落地，下一步值得研究的是具体芯片客户如何采用这些能力。",
+      "financing": "",
+      "event_date": "2026-10-19",
+      "event_headline": "阿里巴巴达摩院发布玄铁E908A并公布车规路线图",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "清泰科（杭州）新能源技术有限责任公司": [
@@ -22297,6 +22606,95 @@
       "financing": "",
       "event_date": "2026-10-15",
       "event_headline": "DeepSeek就近五小时API故障致歉，按此前一周消费全额补偿",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "DeepSeek宣布开源内部推理框架DeepInfer及生产级Token编解码组件deepseek-recipe。文章称，DeepInfer已用于DeepSeek V4.1 Flash的大规模推理服务，兼容英伟达GPU与华为昇腾NPU，支持专家负载均衡、推测解码和滑动窗口缓存重建；技术报告披露，动态验证长度相较固定验证5个Token的方案使线上吞吐量进一步提升6%。deepseek-recipe负责API请求编码、模型输出解析及不同接口的协议适配。",
+      "article_title": "刚刚，DeepSeek开源自家推理框架！",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/w-e7bdkr2_bTGnGCiExO9A",
+      "sector": "人工智能基础设施 / 大模型推理",
+      "location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "article_location": "浙江省 / 杭州市",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_raw_name": "DeepSeek",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "DeepInfer",
+          "relation": "product",
+          "evidence": "DeepSeek宣布，将其内部推理框架DeepInfer「开源」。"
+        },
+        {
+          "name": "deepseek-recipe",
+          "relation": "product",
+          "evidence": "DeepSeek还同步开源了生产级Token编解码组件deepseek-recipe。"
+        }
+      ],
+      "score": 100,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "可复用既有已审模型事件尚未建立独立标杆资格的边界。本次开源及公司生产数据增强产业观察价值，但缺少已捕获的同条件竞品比较和第三方部署验证，不能据开源、杭州身份或内部吞吐规模自动授予全国标杆标签。",
+        "evidence_ids": [
+          "article:582e794fb8a2e605",
+          "prior_decision:57fb9024d657db8d"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "此次开放的不只是模型运行引擎，还包括请求编码、工具调用解析等接口处理逻辑，使第三方部署者能够同时复用推理优化机制与官方API的处理方式。两者互补，有助于减少自行部署时计算执行与应用接入之间的适配工作；文中线上性能来自DeepSeek自身部署，不能直接视为其他硬件和负载下的运行表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "DeepSeek开源生产推理框架与API编解码组件",
       "event_signal": "material",
       "discovery_status": "update"
     }
@@ -26276,6 +26674,65 @@
       "financing": "",
       "event_date": "",
       "event_headline": "MiniMax推出M3开源模型，支持百万上下文、多模态与编程",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "据报道，MiniMax推出M3.1 Flash模型，采用稀疏注意力架构，支持代码工程、跨软件服务工作流、金融工具调用和电脑操作等任务。文章披露其ALE得分29.6%、OSWorld V2得分61.7，输出速度最快达200+ Token/秒；每百万Token输入、输出及缓存读取价格分别为1元、4元和0.1元。",
+      "article_title": "国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/U9LetHV9_L0GO9snOXnHPQ",
+      "sector": "人工智能／大语言模型与智能体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "MiniMax",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "MiniMax",
+      "company_entity_id": "dr-u-e1517be14d06cdb72af7",
+      "company_raw_name": "MiniMax",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "M3.1 Flash",
+          "relation": "product",
+          "evidence": "MiniMax M3.1 Flash则在跨SaaS企业工作流、金融工具链调用等综合Agent维度上有所强化。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条具备产品观察价值，但报道中的国模第一及竞品排名缺少已捕获的完整评测条件和独立复核材料，尚不足以单独确立主体全国标杆资格；历史星标不替代资格依据。",
+        "evidence_ids": [
+          "article:f7bc57d3e1e7c55d",
+          "accepted_history:c31b843bbd720616"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "这次发布值得关注的是，MiniMax将代码、工具调用和桌面操作能力与较低的API单价、更快的输出速度放在同一产品中，为需要反复调用模型的智能体工作流提供了新的供给选择。实际价值取决于具体任务的完成率和调用次数，不能仅凭输出速度推定整个业务流程同比例提速。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "MiniMax发布M3.1 Flash，强化智能体任务能力",
       "event_signal": "material",
       "discovery_status": "update"
     }
@@ -60978,7 +61435,7 @@
       "canonical_name": "记忆张量",
       "company_entity_id": "dr-u-313155294223aafb21fa",
       "company_raw_name": "记忆张量",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 70,
       "is_national_star": true,
       "insight": "AI记忆赛道正成为资本关注焦点，记忆张量凭借系统层与模型层协同的技术路线，有望在Agent时代成为关键基础设施。产业资本与专业投资机构的联合押注，表明长期智能能力正从概念走向产业化落地。",
@@ -60987,6 +61444,56 @@
       "event_headline": "记忆张量完成亿元Pre-A轮融资，华为哈勃等共同投资",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "记忆张量开源发布MemT 1.0系列，包括总参数36B、激活参数3B的Nano和总参数288B、激活参数17B的Flash。系列模型在选定的Transformer模块中增加并行记忆分支，将经验编码为可更新的动态矩阵状态，通过训练学习写入、更新与读取。在500项SWE-bench Verified任务、每项独立运行三次的评估中，Nano平均成功率为69.73%，无经验基线为66.07%，文本经验组为69.13%；三次全部成功的任务比例分别为62.80%、54.00%和61.80%。",
+      "article_title": "RSI三块关键拼图，MemT 1.0从模型层补上「记忆」",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/DTdaGUk8o0dwkx1wxnnbYw",
+      "sector": "人工智能／大模型原生记忆",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "记忆张量",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "记忆张量",
+      "company_entity_id": "dr-u-313155294223aafb21fa",
+      "company_raw_name": "记忆张量",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "MemT 1.0",
+          "relation": "product",
+          "evidence": "记忆张量在这方面的探索，则给出了一份截然不同的答卷——记忆原生。\n\n何为记忆原生？就是将经验的保留、更新和调用，做成模型可以学习的能力。\n\n当记忆在模型中生根发芽，便构成了记忆原生模型。\n\n其最新开源发布的MemT 1.0系列，就给出了一条颇为具体的路径："
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-20",
+      "insight": "这次发布把经验复用从外部文本检索推进到模型内部可训练的读写机制：在文中代码任务评估中，原生记忆的成功率和重复执行可靠性接近文本经验方案，说明内部状态能够承接程序性经验。其产业价值在于为长期运行的AI工作流提供另一种记忆承载方式，但现有结果尚不能说明它全面优于外部记忆或已实现递归自我改进。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "记忆张量开源MemT 1.0，将经验读写引入模型内部",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "艾聆科技": [
@@ -63845,6 +64352,86 @@
       "financing": "据报道融资方案总规模600亿美元；其中180亿美元为次级贷款，黑石旗下基金拟购买90亿美元债务，票面利率10%、整体回报率更高。其余90亿美元拟后续发售，未披露全部融资已完成。",
       "event_date": "",
       "event_headline": "据报道Anthropic筹划600亿美元芯片融资，采购TPU算力",
+      "event_signal": "major",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "据投资界援引《金融时报》等报道，Anthropic推进约600亿美元的Project North Star芯片融资方案，用于Google TPU采购和租赁。约420亿美元为优先级债务，由博通提供剩余价值担保；另有180亿美元次级债务，黑石承诺参与90亿美元。报道未披露全部融资完成。",
+      "article_title": "黑石放贷",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/q6WInu7-S-vreHWMCeaglQ",
+      "sector": "人工智能与算力基础设施",
+      "location": "US / California / San Francisco",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "subject_evidence_ids": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Anthropic",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-98b8e2309e1c91685311fb4f"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+            "source_url": "https://www.anthropic.com/privacy",
+            "checked_at": "2026-10-12T03:44:07.679932+00:00",
+            "subject": "Anthropic",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ]
+      },
+      "article_location": "美国加利福尼亚州旧金山（复用已审同主体注册地证据）",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "Anthropic",
+      "company_entity_id": "dr-u-c70eca6b0f88f44d81a4",
+      "company_raw_name": "Anthropic",
+      "identity_status": "confirmed",
+      "score": 70,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "复用同事件已审未建立标杆资格的结论。本次增加融资结构条款，但没有新增独立行业地位比较证据，不凭企业知名度、融资规模或上游标签授予全国标杆资格。",
+        "evidence_ids": [
+          "accepted_history:eea21c465ab6b207",
+          "article:775ac4ea661a7b06"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "event_identity": {
+        "canonical_id": "据文章援引《金融时报》报道，Anthropic正在推进代号Project North Star的约600亿美元芯片融资计划，用于采购和租赁Google TPU。融资包括约420亿美元优先级债务及180亿美元次级债务，前者由博通提供剩余价值担保。黑石已承诺向次级债务部分投资90亿美元，相关次级债票面利率为10%；文章未披露融资整体完成。"
+      },
+      "insight": "Project North Star将模型公司的算力采购需求转化为分层信贷资产：博通对优先债提供剩余价值担保，降低贷款人处置芯片资产时的不确定性；次级债承担更后顺位风险。这种结构有助于为专用算力设备筹集长期资金，融资落地仍取决于债务认购与担保条款的执行。",
+      "financing": "拟融资约600亿美元，其中优先级债务约420亿美元，由博通提供剩余价值担保；次级债务约180亿美元，黑石承诺投资其中90亿美元，票面利率为10%。",
+      "event_date": "",
+      "event_headline": "Anthropic据报道推进约600亿美元芯片融资方案",
       "event_signal": "major",
       "discovery_status": "update"
     }
@@ -68645,16 +69232,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/vmr1BfMWK66sxPhJ-a-uLQ",
       "sector": "AI智能体",
-      "location": "地点线索：旧金山",
+      "location": "US / California / San Francisco",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8aab661ff9729ebf28b13b71"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Instinct",
         "subject_locality": {
           "status": "unknown",
@@ -68662,7 +69251,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-8aab661ff9729ebf28b13b71",
+            "source_url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns",
+            "checked_at": "2026-10-20T18:21:48.752631+00:00",
+            "subject": "Instinct",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-8aab661ff9729ebf28b13b71"
+          ]
+        }
       },
       "article_location": "旧金山",
       "source": "铅笔道",
@@ -72657,6 +73270,7 @@
         "display_location": "北京市 / 海淀区",
         "located_status": "discovery_confirmed",
         "display_basis": [
+          "geo-eeb80ea6f0e8952ff8f4183b",
           "geo-0bdd2570513f06e17fbf1244"
         ],
         "subject_evidence_ids": [],
@@ -72671,9 +73285,23 @@
         },
         "basis": [
           {
+            "evidence_id": "geo-eeb80ea6f0e8952ff8f4183b",
+            "source_url": "https://www.stcn.com/article/detail/3732485.html",
+            "checked_at": "2026-10-20T18:21:47.689511+00:00",
+            "subject": "字节跳动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          },
+          {
             "evidence_id": "geo-0bdd2570513f06e17fbf1244",
             "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
-            "checked_at": "2026-10-20T01:41:55.447516+00:00",
+            "checked_at": "2026-10-20T02:29:16.687727+00:00",
             "subject": "字节跳动",
             "role": "business",
             "subject_relation": "same_subject",
@@ -72693,6 +73321,7 @@
           "city": "北京市",
           "district": "海淀区",
           "evidence_ids": [
+            "geo-eeb80ea6f0e8952ff8f4183b",
             "geo-0bdd2570513f06e17fbf1244"
           ]
         }
@@ -73296,16 +73925,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/NoIAYlvfMuOBKqzjxI_4tQ",
       "sector": "AI Agent/个人AI Agent",
-      "location": "地点线索：境外（注册地待核实）",
+      "location": "US / California / San Francisco",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8aab661ff9729ebf28b13b71"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Instinct",
         "subject_locality": {
           "status": "unknown",
@@ -73313,7 +73944,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-8aab661ff9729ebf28b13b71",
+            "source_url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns",
+            "checked_at": "2026-10-20T18:21:48.752631+00:00",
+            "subject": "Instinct",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-8aab661ff9729ebf28b13b71"
+          ]
+        }
       },
       "article_location": "境外（注册地待核实）",
       "source": "创业邦",
@@ -74663,6 +75318,7 @@
         "display_location": "北京市 / 海淀区",
         "located_status": "discovery_confirmed",
         "display_basis": [
+          "geo-eeb80ea6f0e8952ff8f4183b",
           "geo-0bdd2570513f06e17fbf1244"
         ],
         "subject_evidence_ids": [],
@@ -74677,9 +75333,23 @@
         },
         "basis": [
           {
+            "evidence_id": "geo-eeb80ea6f0e8952ff8f4183b",
+            "source_url": "https://www.stcn.com/article/detail/3732485.html",
+            "checked_at": "2026-10-20T18:21:47.689511+00:00",
+            "subject": "字节跳动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          },
+          {
             "evidence_id": "geo-0bdd2570513f06e17fbf1244",
             "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
-            "checked_at": "2026-10-20T01:41:55.447516+00:00",
+            "checked_at": "2026-10-20T02:29:16.687727+00:00",
             "subject": "字节跳动",
             "role": "business",
             "subject_relation": "same_subject",
@@ -74699,6 +75369,7 @@
           "city": "北京市",
           "district": "海淀区",
           "evidence_ids": [
+            "geo-eeb80ea6f0e8952ff8f4183b",
             "geo-0bdd2570513f06e17fbf1244"
           ]
         }
@@ -77929,16 +78600,18 @@
       "event_type": "商业化进展",
       "link": "https://mp.weixin.qq.com/s/5mBfINmyA3IZ45-C505f4g",
       "sector": "个人AI智能体",
-      "location": "地点线索：海外（注册地待核实）",
+      "location": "US / California / San Francisco",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8aab661ff9729ebf28b13b71"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Instinct",
         "subject_locality": {
           "status": "unknown",
@@ -77946,7 +78619,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-8aab661ff9729ebf28b13b71",
+            "source_url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns",
+            "checked_at": "2026-10-20T18:21:48.752631+00:00",
+            "subject": "Instinct",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-8aab661ff9729ebf28b13b71"
+          ]
+        }
       },
       "article_location": "海外（注册地待核实）",
       "source": "投资界",
@@ -78982,6 +79679,74 @@
       "financing": "",
       "event_date": "",
       "event_headline": "Meta发布Wonder系列模型，强化跨对话记忆与持续执行",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Meta正在Facebook推出AI驱动的自定义工具，用户可在“你的算法”功能中以自然语言补充偏好，大语言模型负责识别自由输入中的意图与上下文。",
+      "article_title": "OpenAI自曝“模型偷钱”；苹果AI国内落地敲定，12月正式上线；17岁AI天才少年离职月之暗面，曾参与Kimi模型研发丨AI周报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/FUYwy-9s1tctDgIO7NtTcw",
+      "sector": "推荐系统与生成式人工智能",
+      "location": "US / California / 1 Meta Way, Menlo Park, CA 94025",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / 1 Meta Way, Menlo Park, CA 94025",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-74faadd1a99eddef49797655"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Meta",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-74faadd1a99eddef49797655",
+            "source_url": "https://data.sec.gov/submissions/CIK0001326801.json",
+            "checked_at": "2026-10-12T03:46:26.733000+00:00",
+            "subject": "Meta",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Menlo Park",
+              "address": "1 Meta Way, Menlo Park, CA 94025"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-74faadd1a99eddef49797655"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Meta",
+      "company_entity_id": "dr-u-ea3bd73e2b506e005272",
+      "company_raw_name": "Meta",
+      "identity_status": "confirmed",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-18",
+      "insight": "新功能让推荐系统不仅依赖点击等隐式反馈，也接收用户直接表达的内容偏好。模型在这里承担意图解析作用，变化是用户调节推荐结果的交互方式。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Meta在Facebook推出自然语言信息流定制功能",
       "event_signal": "material",
       "discovery_status": "update"
     }
@@ -80811,6 +81576,83 @@
       "financing": "",
       "event_date": "",
       "event_headline": "谷歌开放Gemini 4 Argon，强化编程与长流程任务执行",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "据文章报道，谷歌团队开源Harness²，支持OpenCode与Codex，通过任务级和改进级双层递归优化系统提示词、工具链及技能库，无需修改模型权重。文章报告，在WorkBuddy-Bench上，单步改进后的GLM-5在OpenCode下综合得分由64.2升至75.7，在Codex下由64.4升至75.3；将JobBench积累的改进经验迁移至WorkBuddy-Bench后，在不增加额外探测预算的情况下，代码、网页和办公三项得分进一步提升。",
+      "article_title": "谷歌开源RSI新成果！华人浓度爆表",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/kOITEJCs1QRW7nfZbs3Wnw",
+      "sector": "人工智能／智能体开发工具",
+      "location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3a340af67840603b02e5d106"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "谷歌",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-3a340af67840603b02e5d106",
+            "source_url": "https://policies.google.com/terms?hl=en",
+            "checked_at": "2026-10-12T03:53:52.842268+00:00",
+            "subject": "谷歌",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Mountain View",
+              "address": "1600 Amphitheatre Parkway, Mountain View, California 94043, USA"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Mountain View",
+          "evidence_ids": [
+            "geo-3a340af67840603b02e5d106"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "谷歌",
+      "company_entity_id": "dr-u-6e7e64cf66f76a043f8d",
+      "company_raw_name": "谷歌",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Harness²",
+          "relation": "product",
+          "evidence": "谷歌团队这次提出来的Harness²，就是专门冲着这两个死穴开刀的。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "这项进展将智能体能力优化从更换底座模型扩展到运行框架本身：同一模型通过调整提示词和工具组织方式，在文中办公工作流基准上取得更高得分。跨任务保留的是改进经验而非整套修改后的规则，为减少任务专属修补对后续任务的干扰提供了具体路径，但基准提升尚不能直接推及真实业务中的可靠性。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "谷歌开源Harness²，以双层递归优化智能体运行框架",
       "event_signal": "material",
       "discovery_status": "update"
     }
@@ -82871,6 +83713,75 @@
       "event_headline": "英特尔封装路线观察：9微米混合键合已用于产品，EMIB-T拟2027年量产",
       "event_signal": "context",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "英特尔在OCP 2026期间介绍硅光子制造、激光器集成及系统互连布局。公司表示，具备大规模提供300毫米磷化铟硅光子制造平台的能力，计划支持近封装光学（NPO）和共封装光学（CPO），同时支持外部光源行业标准。公司预计相关光子系统的单位比特能耗有望降至5皮焦耳以下。",
+      "article_title": "英特尔硅光，最新分享",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/vKmIgeIo7XifyeZqv42ojA",
+      "sector": "硅光子与AI数据中心光互连",
+      "location": "US / 2200 Mission College Boulevard, Santa Clara, California 95054-1549",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 2200 Mission College Boulevard, Santa Clara, California 95054-1549",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-d77090cee53e8c866b17457c"
+        ],
+        "subject_evidence_ids": [
+          "geo-d77090cee53e8c866b17457c"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "英特尔",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-d77090cee53e8c866b17457c"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-d77090cee53e8c866b17457c",
+            "source_url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/intc-20251227.htm",
+            "checked_at": "2026-10-20T01:38:45.043985+00:00",
+            "subject": "英特尔",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara",
+              "address": "2200 Mission College Boulevard, Santa Clara, California 95054-1549"
+            }
+          }
+        ]
+      },
+      "article_location": "美国加利福尼亚州圣克拉拉（主要总部；复用已审同主体地点证据）",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "英特尔",
+      "company_entity_id": "dr-u-a517b1e8d2bf70a63530",
+      "company_raw_name": "英特尔",
+      "identity_status": "confirmed",
+      "score": 35,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "英特尔此次展示的重点是把晶圆制造、提供光信号的激光器集成与系统互连设计衔接起来，争取承担AI光互连的制造和集成平台角色。集成光源有望减少对独立外部光源维护的依赖，而同时支持外部光源标准，表明其布局兼容不同系统集成路线，并非只押注单一光源方案。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "英特尔展示硅光制造与光源集成能力，布局AI光互连",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "SK集团": [
@@ -84698,6 +85609,86 @@
       "event_headline": "张雪机车2026年经营回顾：门店从3月245家增至9月394家",
       "event_signal": "context",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "张雪机车创始人张雪表示，首款电摩将于明年上市，产品主打轻量化、强动力和高能效，并提出利用现有新能源汽车充电基础设施的设想。",
+      "article_title": "张雪机车，首款电摩要来了；曝大众曾考虑在中国市场联手比亚迪，对比亚迪成本优势惊讶丨汽车交通日报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/ooh6YRXdmgjFmxMk0IgA-w",
+      "sector": "电动摩托车",
+      "location": "重庆市 / 两江新区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "重庆市 / 两江新区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-caa4496c375eb9303b6db045"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "张雪机车",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-caa4496c375eb9303b6db045",
+            "source_url": "https://cq.news.cn/20260331/693e90499e4f41dabfeee1abbdae18eb/c.html",
+            "checked_at": "2026-10-20T02:35:06.421144+00:00",
+            "subject": "张雪机车",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "重庆市",
+              "city": "重庆市",
+              "district": "两江新区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "重庆市",
+          "city": "重庆市",
+          "district": "两江新区",
+          "evidence_ids": [
+            "geo-caa4496c375eb9303b6db045"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "张雪机车",
+      "company_entity_id": "dr-u-c40e58d08c72e63b342b",
+      "company_raw_name": "张雪机车",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本次电摩证据仅为产品规划，目标进入全球头部阵营不等于已具备相应行业地位；所给历史也不足以独立建立全国标杆资格。",
+        "evidence_ids": [
+          "article:42b8be891acae835",
+          "accepted_history:bbf7e07bdb4c4f90"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "张雪机车披露了进入电摩市场的产品方向，将轻量化、动力和能效作为竞争维度。借用汽车充电网络是其产品设想的一部分，能否形成实际使用便利，取决于车辆充电接口、协议及补能性能。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "张雪机车计划明年推出首款电摩，瞄准轻量化与高能效",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "华友钴业": [
@@ -92008,6 +92999,83 @@
       "event_headline": "千问公布QwenGyre框架，缩短长程智能体训练耗时",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "10月11日，千问AI平台宣布Qwen-Image-2.1 Pro和Turbo API上线，支持开发者接入图像生成与编辑能力，无需自行部署模型和管理推理环境；Qwen-Image-2.1-Turbo权重同步开放。",
+      "article_title": "OpenAI自曝“模型偷钱”；苹果AI国内落地敲定，12月正式上线；17岁AI天才少年离职月之暗面，曾参与Kimi模型研发丨AI周报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/FUYwy-9s1tctDgIO7NtTcw",
+      "sector": "图像生成与编辑",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "subject_evidence_ids": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-96adb38b9ecaed1e412df1a7"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+            "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+            "checked_at": "2026-10-15T18:26:21.338217+00:00",
+            "subject": "阿里",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路969号"
+            }
+          }
+        ]
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "阿里",
+      "company_entity_id": "dr-u-1d99cc69a8ba22eb7d71",
+      "company_raw_name": "阿里",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Qwen",
+          "relation": "product",
+          "evidence": "阿里旗下通义万相和Qwen"
+        }
+      ],
+      "score": 65,
+      "is_national_star": false,
+      "published_date": "2026-10-18",
+      "insight": "API与开放权重提供了两种接入方式：前者免去模型部署和推理环境管理，后者为自行部署留下空间。产品因此可进入设计、电商和内容生产工作流，而非只在单一交互界面使用。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "阿里Qwen图像模型上线API并开放Turbo权重",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "如身机器人": [
@@ -96562,6 +97630,69 @@
       "event_headline": "Today AI个人助理双版本上线，模型训练已有早期实验版本",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "据2026年10月20日报道，Today AI产品经理Suki表示，不少用户已授权助手访问飞书、健康、日历等数据，为持续理解用户及主动服务提供信息来源。报道未披露授权数量、接入时间或主动服务效果验证。",
+      "article_title": "新入口和旧城墙之下，「中国版Muse」有多远？",
+      "event_type": "产品数据授权使用披露",
+      "link": "https://mp.weixin.qq.com/s/lT8xx2whYyXESzjQt8Dgjg",
+      "sector": "人工智能／个人智能体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Today AI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "Today AI",
+      "company_entity_id": "dr-u-3a61f02cb94a58e613d9",
+      "company_raw_name": "Today AI",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Today AI",
+          "relation": "product",
+          "evidence": "今年再次创业，推出主打持续记忆和主动服务的Today AI。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体产品设计及团队自述的用户授权支持正面产品线索，但没有独立行业地位、可比效果或规模化商业成果依据，尚未建立全国标杆资格。",
+        "evidence_ids": [
+          "article:0f90cee8f6ef253a",
+          "accepted_history:fe63fed27bf4ca6c",
+          "prior_decision:85f1184d98819b06"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "event_identity": {
+        "canonical_id": "文章称，原豆包PC端产品负责人齐俊元再次创业，推出Today AI，主打持续记忆和主动服务。产品经理Suki表示，不少用户已授权助手访问飞书、健康、日历等数据，为助手理解用户提供信息来源。"
+      },
+      "insight": "飞书、健康和日历等授权数据，为个人助手在微信之外获取持续上下文提供了具体入口。能否形成产品差异，取决于这些信息是否真正改善主动帮助的时机和有效性；已有授权不等于跨平台自动执行或商业模式已验证。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Today AI披露用户已授权助手访问飞书等数据",
+      "event_signal": "context",
+      "discovery_status": "update"
     }
   ],
   "中微公司": [
@@ -98875,6 +100006,93 @@
       "event_headline": "吉利推出银河战舰700，拓展新能源硬派SUV产品线",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "吉利旗下原生开发的Robotaxi（Eva Cab）首台工程样车下线，曹操出行深度参与产品定义和研发。报道所述2027年量产与商业化运营计划针对曹操出行定制版。",
+      "article_title": "张雪机车，首款电摩要来了；曝大众曾考虑在中国市场联手比亚迪，对比亚迪成本优势惊讶丨汽车交通日报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/ooh6YRXdmgjFmxMk0IgA-w",
+      "sector": "自动驾驶整车",
+      "location": "浙江省 / 杭州市 / 滨江区 / 江陵路1760号",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区 / 江陵路1760号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-110b845e67acfb22a884b77a"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "吉利",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-110b845e67acfb22a884b77a",
+            "source_url": "https://zgh.com/contact/",
+            "checked_at": "2026-10-20T02:21:23.440123+00:00",
+            "subject": "吉利",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "江陵路1760号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-110b845e67acfb22a884b77a"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "吉利",
+      "company_entity_id": "dr-u-87d7bfad176bce736a12",
+      "company_raw_name": "吉利",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Eva Cab",
+          "relation": "product",
+          "evidence": "该车型为吉利旗下原生开发的Robotaxi（Eva Cab）"
+        }
+      ],
+      "score": 100,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "工程样车及运营方参与研发足以支持事件价值，但所给证据未独立建立吉利在原生Robotaxi领域的行业领先地位；报道中的“首款”不直接转为全国标杆资格。",
+        "evidence_ids": [
+          "article:42b8be891acae835"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "Eva Cab以原生开发Robotaxi的路径进入工程样车阶段，体现了围绕自动驾驶出租车用途开发整车的方向。曹操出行参与产品定义，为车辆研发引入运营端需求，但原文尚未披露具体车辆设计及自动驾驶性能。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "吉利旗下Eva Cab首台工程样车下线，采用原生Robotaxi开发路径",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "虹软科技": [
@@ -99233,6 +100451,1503 @@
       "event_date": "",
       "event_headline": "据报道，Valve正开发Steam Frame新头带，拟配热插拔电池",
       "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "BFREE": [
+    {
+      "date": "2026-10-21",
+      "title": "2026年5月，尼日利亚金融科技企业BFREE宣布完成新一轮成长融资，由AfricInvest旗下基金领投，文章未披露本轮金额。公司以自动化工具、借款人行为数据和人工智能开展债务沟通及还款协商，并已拓展至购买银行和金融机构的不良贷款。公司披露，其管理超过1000万个借款人账户，涉及超过35笔不良债权交易。",
+      "article_title": "我在非洲催收网贷：底薪200，靠打电话骂人",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/oqM66d-O-anrJn4Zr_hh_A",
+      "sector": "金融科技／债务管理与不良资产处置",
+      "location": "地点线索：尼日利亚",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "BFREE",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "尼日利亚",
+      "source": "铅笔道",
+      "kind": "event",
+      "canonical_name": "BFREE",
+      "company_entity_id": "dr-u-a43cb21187c41fcfec69",
+      "company_raw_name": "BFREE",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "BFREE",
+          "relation": "same_entity",
+          "evidence": "例如尼日利亚金融科技企业BFREE。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "自动化比例、账户数量和交易笔数提供业务规模线索，但未提供独立行业比较、回收表现或技术优势验证，尚不能建立全国或全球行业标杆资格。",
+        "evidence_ids": [
+          "article:3b13a9a4a9422e1d"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "BFREE从替金融机构催收延伸至直接购买不良债权，产业角色由服务商转向兼具资产持有风险的处置方。既有账户数据和催收经验可为回收判断提供基础，但收购业务能否盈利，还取决于买入价格、实际回收额及处置成本。",
+      "financing": "2026年5月宣布完成成长融资，由AfricInvest旗下基金领投，本轮金额未披露；2024年完成295万美元融资，原文折合人民币约1970万元。",
+      "event_date": "",
+      "event_headline": "BFREE于2026年5月宣布成长融资，业务延伸至不良债权收购",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Conway Research": [
+    {
+      "date": "2026-10-21",
+      "title": "据文章报道，Conway Research获得a16z领投，Khosla Ventures、Hummingbird Ventures、SV Angel等机构及多名个人投资者参与的融资，金额、估值及资金用途未披露。其首款个人AI助理Underdog处于邀请制测试阶段，当前主要支持Mac和Windows，支持在用户电脑上运行模型；Linux、iOS和Android版本正在推进。",
+      "article_title": "00后另类小天才，把AI助理塞进用户电脑，被资本抢疯了",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/UtryLOkpPRpuZKzoZG5XqQ",
+      "sector": "端侧人工智能与个人AI智能体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Conway Research",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Conway Research",
+      "company_entity_id": "dr-u-1bfcc4a6c430f0660771",
+      "company_raw_name": "Conway Research",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Conway",
+          "relation": "same_entity",
+          "evidence": "这家名为Conway Research的AI初创公司，最近获得硅谷风投a16z领投，Khosla Ventures、Hummingbird Ventures、SV Angel等机构跟投。"
+        },
+        {
+          "name": "Underdog",
+          "relation": "product",
+          "evidence": "同年，Sigil Wen创办Conway Research，并推出首款个人AI助理Underdog。"
+        },
+        {
+          "name": "Woof",
+          "relation": "product",
+          "evidence": "除了27B模型，Conway还推出了Woof，一款4B参数的轻量模型，模型权重约2.4GB。"
+        },
+        {
+          "name": "Husky",
+          "relation": "product",
+          "evidence": "模型之外，公司还开发了Husky推理引擎。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资阵容、产品测试和公司自述性能支持技术路线观察，但尚未建立独立行业领先地位、规模应用或可验证的全国标杆资格。",
+        "evidence_ids": [
+          "article:ce01fcb1681764f0"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "Conway将个人AI助理的竞争延伸到消费级电脑上的运行效率：以模型适配和专用推理引擎支撑本地产品，尝试减少敏感文件处理对云端推理的依赖。当前值得观察的是这套软硬件适配能否在普通用户设备上保留可靠的工具调用能力，而非将特定测试条件下的速度优势直接视为完整任务体验的优势。",
+      "financing": "a16z领投，Khosla Ventures、Hummingbird Ventures、SV Angel等机构跟投；个人投资者包括Stripe联合创始人Patrick Collison、Vercel创始人Guillermo Rauch、OpenAI研究员Noam Brown等。融资轮次、金额、估值及用途未披露。",
+      "event_date": "",
+      "event_headline": "Conway Research获a16z领投，个人AI助理处于邀请测试阶段",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "曹操出行": [
+    {
+      "date": "2026-10-21",
+      "title": "曹操出行宣布，其深度参与产品定义和研发的吉利旗下原生开发Robotaxi首台工程样车下线。曹操出行定制版计划于2027年量产、推出并投入商业化运营，目标到2030年累计投放10万辆。",
+      "article_title": "张雪机车，首款电摩要来了；曝大众曾考虑在中国市场联手比亚迪，对比亚迪成本优势惊讶丨汽车交通日报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/ooh6YRXdmgjFmxMk0IgA-w",
+      "sector": "自动驾驶出行",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "曹操出行",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "曹操出行",
+      "company_entity_id": "dr-u-9feed89a9a43625d68c6",
+      "company_raw_name": "曹操出行",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Eva Cab",
+          "relation": "uncertain",
+          "evidence": "该车型为吉利旗下原生开发的Robotaxi（Eva Cab），曹操出行深度参与了产品定义和研发。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "参与研发和工程样车下线足以支持产品进展，但行业首创表述针对车型且未获独立比较验证，不能直接转化为曹操出行的全国标杆资格；规划投放数量也不是既有规模。",
+        "evidence_ids": [
+          "article:42b8be891acae835"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "曹操出行的角色不只是在运营端接入车辆，还前移至产品定义和研发，使出行运营需求能够进入整车开发。工程样车下线为这一路径提供了实物节点，但2027年的量产和运营仍是计划。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "曹操出行参与研发的Robotaxi样车下线，定制版拟2027年量产",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "奇瑞": [
+    {
+      "date": "2026-10-21",
+      "title": "奇瑞在2026奇瑞全球创新大会上展示CheryMind垂域基础大模型，称其面向物理AI。奇瑞披露，超过6万名员工每天使用该模型，覆盖200多个业务场景、打通400多个企业系统，覆盖700TB企业知识及200PB工程数据。",
+      "article_title": "张雪机车，首款电摩要来了；曝大众曾考虑在中国市场联手比亚迪，对比亚迪成本优势惊讶丨汽车交通日报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/ooh6YRXdmgjFmxMk0IgA-w",
+      "sector": "汽车工业人工智能",
+      "location": "安徽省 / 芜湖市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "安徽省 / 芜湖市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-ba95fcfa485ed49dc76b3abb"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "奇瑞",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-ba95fcfa485ed49dc76b3abb",
+            "source_url": "https://www.eefocus.com/tag/%E5%A5%87%E7%91%9E",
+            "checked_at": "2026-10-20T18:24:37.992806+00:00",
+            "subject": "奇瑞",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "安徽省",
+              "city": "芜湖市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "安徽省",
+          "city": "芜湖市",
+          "evidence_ids": [
+            "geo-ba95fcfa485ed49dc76b3abb"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "奇瑞",
+      "company_entity_id": "dr-u-0ce898abc91403c4b95a",
+      "company_raw_name": "奇瑞",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "CheryMind",
+          "relation": "product",
+          "evidence": "奇瑞CheryMind垂域基础大模型亮相"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "公司自述的部署规模支持本次应用事件，但未提供可比性能、任务成效或独立行业地位证据，不足以确立全国标杆资格。",
+        "evidence_ids": [
+          "article:42b8be891acae835"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "奇瑞披露的重点不仅是推出模型，还包括员工使用和跨系统接入，显示其正将大模型嵌入企业业务。覆盖规模说明部署广度，但是否改善研发或生产任务，仍需用具体场景的任务结果判断。",
+      "financing": "",
+      "event_date": "2026-10-20",
+      "event_headline": "奇瑞展示CheryMind大模型，披露已接入400多个企业系统",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Waymo": [
+    {
+      "date": "2026-10-21",
+      "title": "据Semafor报道，Waymo新近获得50亿美元融资，计划利用该笔资金在明年年底前将自动驾驶车队从当前4000台扩大至2万台，今年年底目标为8000台。其业务现覆盖美国15座城市，并计划拓展至多伦多、圣迭戈、坦帕和圣安东尼奥。",
+      "article_title": "张雪机车，首款电摩要来了；曝大众曾考虑在中国市场联手比亚迪，对比亚迪成本优势惊讶丨汽车交通日报",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/ooh6YRXdmgjFmxMk0IgA-w",
+      "sector": "自动驾驶出行",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Waymo",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Waymo",
+      "company_entity_id": "dr-u-7931b6d10b3c8a5fd045",
+      "company_raw_name": "Waymo",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资、车队和运营覆盖为本次商业化观察提供依据，但未提供独立行业比较或明确已审标杆依据，不能由规模报道自动授予标杆标签。",
+        "evidence_ids": [
+          "article:42b8be891acae835"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "Waymo把新增融资与车队扩张直接关联，增长路径是将已有跨城运营业务扩大为更密集的车辆供给。扩张能否推进，关键在车辆部署及各城市运营落地，而不只是融资规模。",
+      "financing": "据Semafor报道，新近获得50亿美元融资，计划用于扩大自动驾驶车队；原文未披露融资轮次、投资方及估值。",
+      "event_date": "",
+      "event_headline": "Waymo据报道获50亿美元融资，拟将自动驾驶车队扩至2万台",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "始新生物": [
+    {
+      "date": "2026-10-21",
+      "title": "文章回顾，浙江大学医学院博士生王荣在良渚实验室孵化支持下，在余杭创办始新生物，研发出文中所称的“全球首个外敷型全尺寸血管闭合器”。",
+      "article_title": "余杭和浙大第四次握手，有何特别？",
+      "event_type": "研发成果回顾",
+      "link": "https://mp.weixin.qq.com/s/CP7_Qy3jwtcNF6wrJkJ71Q",
+      "sector": "医疗器械",
+      "location": "地点线索：杭州市余杭区（原文明示创业落地地点）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "始新生物",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "杭州市余杭区（原文明示创业落地地点）",
+      "source": "余杭发布",
+      "kind": "event",
+      "canonical_name": "始新生物",
+      "company_entity_id": "dr-u-2e111c6b863587f86c5e",
+      "company_raw_name": "始新生物",
+      "identity_status": "unresolved",
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体器械成果足以支持企业发现，但“全球首个”尚无独立技术比较、临床或市场证据，不能据此建立全国标杆资格。",
+        "evidence_ids": [
+          "article:bc480216100671e5"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "始新生物值得关注的具体成果，是将血管闭合需求转化为外敷型器械产品；良渚实验室对创始人的孵化支持，使这家公司成为余杭医学科研成果走向企业产品的具体案例。下一步可围绕适用血管范围和使用场景，研究这一产品相对现有闭合方式的差异。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "始新生物成果回顾：研发外敷型全尺寸血管闭合器",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "海菲曼": [
+    {
+      "date": "2026-10-21",
+      "title": "据文章，海菲曼于2026年上半年与华硕合作开发“ROG臻世”电竞耳机，向华硕ROG供应核心发声单元，尝试进入电竞渠道。文章还介绍了海菲曼在平板耳机纳米振膜及喜马拉雅R2R DAC芯片方面的自研产品布局。",
+      "article_title": "「不务正业」的江浙沪70后男人，狂赚老外2个亿",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/TCaglOn53k31_acNWLwupA",
+      "sector": "高保真音频设备与声学核心部件",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "海菲曼",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "海菲曼",
+      "company_entity_id": "dr-u-9476c2dd56c67db9a57b",
+      "company_raw_name": "海菲曼",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "海菲曼",
+          "relation": "same_entity",
+          "evidence": "这家公司叫海菲曼。"
+        },
+        {
+          "name": "HIFIMAN",
+          "relation": "product",
+          "evidence": "2007年创立耳机品牌注册HIFIMAN。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体部件供应和自研产品足以支持本事件价值，但报道中的高价、毛利及市场份额叙述不足以独立确立全国声学产业标杆地位，所给材料也无已审标杆依据可复用。",
+        "evidence_ids": [
+          "article:7df270db22f5196c"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "向华硕ROG供应核心发声单元，使海菲曼的声学部件开始进入其他品牌的电竞产品，而不只服务自有高保真耳机。这为其核心部件能力增加了新的应用路径，但现有材料尚不能判断该合作的供货规模及后续延续性。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "海菲曼2026年上半年向华硕ROG供应耳机核心发声单元",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "深空之序": [
+    {
+      "date": "2026-10-21",
+      "title": "据报道，叶军创办的深空之序成立约三个月，已获得千万元融资，领投方为广州四三九九信息科技有限公司，并已有两家付费客户。公司现有十几人，正在打磨面向外贸和跨境电商的AI工作平台，采用充值加按具体任务或结果付费的收费方式。",
+      "article_title": "前钉钉总裁叶军，离职一年后创业了，赌大厂做不了也不屑做的「缝隙」",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/TQrwQecsKkqCNZdUVk7KNw",
+      "sector": "企业级AI Agent／外贸与跨境电商软件",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "深空之序",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "深空之序",
+      "company_entity_id": "dr-u-2d41679fcb29f986cf3a",
+      "company_raw_name": "深空之序",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "千万元融资、两家付费客户和创始人履历支持早期跟踪价值，但尚未证明公司具备全国行业地位、可复制交付能力或可供成熟产业对标的经营规模。",
+        "evidence_ids": [
+          "article:7def2542a28e45df"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "深空之序切入的不是通用办公入口，而是外贸企业跨渠道、跨系统的业务流程：若能连接分散的客户沟通和订单信息，询盘回复等智能体就能获得更完整的业务上下文。两家付费客户提供了早期落地入口，但订单依赖创始人既有信任，其产品化路径的关键是现场交付形成的流程模块能否被其他企业复用。",
+      "financing": "已获得千万元融资，广州四三九九信息科技有限公司领投；具体轮次、精确金额及其他投资方未披露。",
+      "event_date": "",
+      "event_headline": "深空之序获千万元融资，打磨外贸AI工作平台",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "通衍灵智": [
+    {
+      "date": "2026-10-21",
+      "title": "通衍灵智采用共享基础模型与轻量化个性化参数相结合的架构，通过Personal LoRA适配个人、项目和企业的专业偏好及行为模式。公司表示，递归自我改进（RSI）核心技术路线与产品架构已明确，相关模块正在工程化，完整自动化闭环仍在研发。其Paged LoRA阶段性测试使用Qwen2.5-72B-Instruct和8张NVIDIA H800 GPU，在两种方案的LoRA显存预算均为5.79GB的条件下，相较传统Flat模式，在LoRA请求占比为1%至30%的测试负载下取得响应延迟和长尾表现优势；请求占比达到50%时，频繁参数换入换出仍导致性能退化。公司同时研发训推并行技术，以优化个性化参数增量训练与在线服务的资源分配。",
+      "article_title": "通研院孵化的团队，也盯上了RSI",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Xni5hfbEfMqBu7ELyhkM-g",
+      "sector": "人工智能／个性化模型与持续学习基础设施",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "通衍灵智",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "通衍灵智",
+      "company_entity_id": "dr-u-bc24291512f2e7255195",
+      "company_raw_name": "通衍灵智",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持早期研发与条件性测试进展，未提供独立行业领先地位、生产验证或规模客户应用依据；研究院资源关联本身不构成全国标杆资格。",
+        "evidence_ids": [
+          "article:ee11fcff63a5cd35"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "通衍灵智尝试把团队反复形成的工程规范和判断习惯训练进轻量化参数，补充知识检索与外部记忆，而非为每个客户重训完整大模型。分页显存管理的阶段性测试触及多套专属参数共享算力的成本问题，但高请求占比下的性能退化说明，其规模化服务能力仍取决于参数调度优化和持续学习闭环的工程落地。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "通衍灵智推进个性化模型持续学习工程化并披露显存管理测试",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "岩芯矩阵": [
+    {
+      "date": "2026-10-21",
+      "title": "岩山科技旗下岩芯矩阵联合港科大、CMU等高校发布并开源EdgeRock-4B，提供模型权重和推理代码，支持文本、图像推理，文章称可商用。模型基于Qwen3.5-4B改造，通过循环状态、局部窗口和记忆岩锚机制保存历史信息，注意力KV缓存固定为72 MiB，批量运行时每条序列全部历史状态固定为97.76 MiB。据文中测试，在32K输入、32K输出、单张Hopper 80GB GPU及各模型实测最快批大小条件下，EdgeRock-4B以512路并发达到12124 tokens/s输出吞吐，源模型以64批大小达到1889 tokens/s；AIME 2024—2026平均一次通过率为82.9%。",
+      "article_title": "内存还会跌吗？KV Cache砍掉99%，单卡吞吐飙6倍，港科大、CMU联手岩山科技开源新模型",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/XlGTNPhtP88uAL5srNtoxQ",
+      "sector": "人工智能／大模型推理",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "岩芯矩阵",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "岩芯矩阵",
+      "company_entity_id": "dr-u-941bf759eb5e0b85bbfb",
+      "company_raw_name": "岩芯矩阵",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "EdgeRock-4B",
+          "relation": "product",
+          "evidence": "这就是岩山科技旗下岩芯矩阵联合港科大、CMU等高校刚刚发布并开源的EdgeRock-4B。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "单次模型开源及报道中的基准测试支持产品进展和技术对比价值，但未建立岩芯矩阵整体行业地位或持续产业化表现；高校合作和局部测试优势不能自动赋予企业全国标杆资格。",
+        "evidence_ids": [
+          "article:06f9bbdda274de3c"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "岩芯矩阵此次展示的能力，是通过改造已有模型，在固定历史内存下保留较强推理能力：缓存不再随上下文增长，使同一张显卡能够容纳更多并发序列，形成文中长输入、长输出测试的吞吐优势。这为长时间运行的智能体提供了更可预测的内存需求，但机器人端侧应用仍是文章提出的方向，并非已披露的部署成果。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "岩芯矩阵联合高校开源EdgeRock-4B，固定长推理历史内存",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "上海马赫心科技": [
+    {
+      "date": "2026-10-21",
+      "title": "据晚点报道，理想汽车芯片子公司上海马赫心科技完成16.25亿元首轮股权融资，其中理想出资10亿元、外部投资者出资6.25亿元，资金将用于后续芯片研发和商业化。杭州经韬另获追加5亿元投资权益，报道未证明该权益已行使。公司正研发第二代马赫智驾芯片，并探索芯片外供及汽车以外的应用。",
+      "article_title": "理想芯片公司完成 16.25 亿元融资，投后估值 171 亿元",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/s_CPaCintV4U6dh7-KEWHw",
+      "sector": "汽车芯片与智能驾驶",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "上海马赫心科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "上海马赫心科技",
+      "company_entity_id": "dr-u-74aa39a53b4fbad23e74",
+      "company_raw_name": "上海马赫心科技",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "event_identity": {
+        "canonical_id": "理想汽车芯片子公司上海马赫心科技完成16.25亿元首轮股权融资，其中理想汽车出资10亿元，外部投资者合计出资6.25亿元。融资后理想汽车持股74.01%。外部投资机构包括杭州经韬、蓝驰创投、华业天成资本、奇绩创坛；杭州经韬另获追加5亿元投资的权益，计入追加投资后估值达171亿元。公司安排20%股权用于人才激励，融资资金将用于后续芯片研发和商业化落地。据报道，理想希望通过马赫心科技实现芯片技术对外供应，并拓展汽车以外的业务机会，目前正在研发第二代马赫智驾芯片。"
+      },
+      "insight": "此次融资让理想的芯片业务在母公司继续控股的同时引入外部资本，为后续研发及商业化提供资金支持，其发展路径开始从车企内部自研走向面向外部客户的供应业务。能否形成这项新能力，关键在于其他厂商的适配和实际采用；汽车以外的拓展目前仍是业务方向，而非已落地成果。",
+      "financing": "据报道完成16.25亿元首轮股权融资；其中理想10亿元、外部6.25亿元。另有最高5亿元追加认购权，未确认为已行使。",
+      "event_date": "",
+      "event_headline": "马赫心科技据报道完成16.25亿元首轮股权融资",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "戴尔科技集团": [
+    {
+      "date": "2026-10-21",
+      "title": "据文中介绍，戴尔于今年6月发布新款XPS 13，叠加国补及优惠后到手价六千多元。产品重量约1公斤、厚度12.7毫米，采用CNC一体成型铝合金机身，配备52Whr电池及2.5K触控屏，屏幕覆盖100% DCI-P3色域、峰值亮度500尼特；受访高管称流媒体持续播放最长可达17小时。戴尔将该产品定位于不需要高算力配置、但重视便携、屏幕和工艺的年轻用户，同时保留面向专业人群的高配机型。",
+      "article_title": "年轻人第一次认真选电脑，戴尔想跟他们聊点不一样的",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/FRb_oEjLv2Vo7_R70yWONw",
+      "sector": "消费电子／个人电脑",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "戴尔科技集团",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "戴尔科技集团",
+      "company_entity_id": "dr-u-35b4c8d3b0c288b0272e",
+      "company_raw_name": "戴尔科技集团",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "XPS",
+          "relation": "product",
+          "evidence": "过去很多年里，XPS 一直是戴尔招牌式的存在"
+        },
+        {
+          "name": "XPS 13",
+          "relation": "product",
+          "evidence": "戴尔今年 6 月发布了新的 XPS 13"
+        }
+      ],
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本文支持具体产品设计与定位观察，但品牌历史、旗舰定位及受访高管评价不足以独立建立本主体作为全国产业标杆的资格。",
+        "evidence_ids": [
+          "article:1560ccde41f1af69"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "戴尔此次产品线扩展的重点，是让不需要高算力配置的用户也能选择XPS的轻薄机身、屏幕和工艺，竞争取向由单项性能转向日常移动使用的综合体验。六千多元的入手价包含补贴及优惠，不能据此认定其已实现制造成本突破。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "戴尔拓宽XPS产品线，以轻薄机身和更低入手价面向年轻用户",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "民生药业": [
+    {
+      "date": "2026-10-21",
+      "title": "民生医药董事长竺福江在百年庆祝活动上披露，民生药业在印尼投资建设的药厂已正式开工。原文未披露该项目的投资金额、产品品种、产能及投产时间。",
+      "article_title": "不止宝塔糖与21金维他，这家药厂昨天迎来百岁生日",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/3MFLfA-4lu_iksVhtAMbTQ",
+      "sector": "生物医药／药品制造",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "民生药业",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "浙商杂志",
+      "kind": "event",
+      "canonical_name": "民生药业",
+      "company_entity_id": "dr-u-0eae3a15ae88b21d4318",
+      "company_raw_name": "民生药业",
+      "identity_status": "unresolved",
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "百年历史、研发投入表述及印尼药厂开工支持企业经营与制造布局观察，但不足以独立建立当前全国技术领先地位或全国标杆资格。",
+        "evidence_ids": [
+          "article:732313aa15858df6"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "印尼药厂开工表明民生药业的海外布局已进入当地制造设施建设阶段，新增产业信号是生产布局的实际推进，而非周年庆典或出海愿景。后续研究应先明确该厂生产什么、服务哪些市场，以判断其在企业海外供给体系中的作用。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "民生药业在印尼投资建设的药厂正式开工",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "无锡众星微系统技术有限公司": [
+    {
+      "date": "2026-10-21",
+      "title": "众星微在发布会上宣布12款芯片实现量产，累计出货超过80万颗，并推出PCIe 6.0交换芯片、800G多协议AI网卡及多模RAID芯片三款新品。PCIe 6.0交换芯片最多支持144条通道，并支持CXL内存扩展与池化；800G多协议AI网卡支持800G线速转发；多模RAID芯片支持SAS、SATA及PCIe 5.0三模连接，内置硬件加密引擎。文章称，公司产品已进入浪潮、联想、新华三、中兴通讯等企业的产品与解决方案，运营商行业客户已部署其存储卡超过10万片，稳定运行超过18个月。",
+      "article_title": "全栈自研！国产高端互连芯片，稳了!",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/qqs3x-KGkpDDLxutauNOmQ",
+      "sector": "高性能互连芯片与算力基础设施",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "无锡众星微系统技术有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "无锡众星微系统技术有限公司",
+      "company_entity_id": "dr-u-28848dbf58295a15ec1e",
+      "company_raw_name": "众星微",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "量产、出货和客户部署足以支持本次产品进展采信，但全国行业地位尚缺独立依据。报道的“中国博通”等宣传称谓及有限条件下的性能比较，不能直接确立全国标杆资格。",
+        "evidence_ids": [
+          "article:27a0bf7b87bfcd0c"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "已披露的量产出货与运营商存储卡部署表明，众星微已有进入客户系统的产品基础，而非仅展示芯片设计能力。此次新品进一步覆盖计算设备连接、AI集群通信和存储连接三个环节，拓宽了国产互连方案的产品覆盖，但既有存储卡部署不能直接代表三款新品的应用成熟度。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "众星微披露12款芯片量产成果，发布三款高性能互连新品",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "相干科技": [
+    {
+      "date": "2026-10-21",
+      "title": "相干科技已实现百比特规模量子芯片，文中披露芯片寿命超过100微秒、单比特门平均保真度超过99.9%、两比特门保真度突破99.5%。其测控电子学方案已在100量子比特以上处理器上完成系统级验证。公司披露，测控业务收入由2024年的300多万元增至2025年的3100万元；计划于2026年完成百比特整机交付，并正在建设自主芯片产线和千比特规模量子算力云平台。",
+      "article_title": "从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调用服务",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/g_NF1iS47SFIq-9__TOpyA",
+      "sector": "量子计算／超导量子计算",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "相干科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "相干科技",
+      "company_entity_id": "dr-u-9112ff49f18be2b7b298",
+      "company_raw_name": "相干科技",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "芯片参数、系统验证和测控客户交付支持产业线索价值，但尚无独立行业比较、领先地位或已审标杆依据，不能仅凭百比特规模和收入增长授予全国标杆标签。",
+        "evidence_ids": [
+          "article:e6544d610d3c0aaf"
+        ]
+      },
+      "published_date": "2026-10-19",
+      "insight": "相干科技已通过测控系统和低温线路建立产品收入及交付经验，并把能力延伸至百比特芯片和整机集成，发展路径是先供应关键部件，再提供完整量子计算系统。云平台建设意在降低用户购买整机和编写量子线路的门槛，但当前已披露的实质进展仍集中在硬件与系统工程，应用端以验证和探索为主。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "相干科技实现百比特芯片，计划2026年交付百比特整机",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Nscale": [
+    {
+      "date": "2026-10-21",
+      "title": "据报道，Nscale已向美国SEC公开递交IPO招股书，寻求最高约350亿美元估值。截至2026年8月31日，公司约2.5万颗GPU已投入运营，已运营及签约GPU合计约46.1万颗，拥有5个已运营数据中心项目和12个签约项目，已运营及签约电力容量约1.37GW。公司于2026年8月与Anthropic签署GPU服务协议，合同付款总额最高约446亿美元。报道同时披露，微软已退出双方位于英国劳顿的数据中心项目，该项目此前因电力供应受限延期。",
+      "article_title": "最快千亿IPO",
+      "event_type": "IPO",
+      "link": "https://mp.weixin.qq.com/s/ydl0ggMNnEHI52X3jRk7Og",
+      "sector": "AI算力基础设施与GPU云服务",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Nscale",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "Nscale",
+      "company_entity_id": "dr-u-eb6cf0bb179ca6ed796f",
+      "company_raw_name": "Nscale",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "Nscale的IPO进程呈现了一条AI基础设施扩张路径：先整合电力和GPU资源，再以长期客户合同支持设备融资，向模型公司及大型云厂商提供算力。已运营规模与签约规模仍有明显差距，而劳顿项目因供电受限延期并失去微软参与，说明获得客户合同之后，电力接入与建设交付仍是扩张的关键约束。",
+      "financing": "2026年3月完成20亿美元C轮融资，投后估值146亿美元；据报道，英伟达已投入约31亿美元，另有10亿美元承诺。公司于2026年2月获得14亿美元GPU贷款，5月为挪威项目取得最高7.9亿美元融资，9月宣布33.6亿美元可转换贷款票据融资。上述金额涉及不同融资安排，不作合计。",
+      "event_date": "",
+      "event_headline": "Nscale已递交IPO招股书，寻求最高约350亿美元估值",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "岐微生物": [
+    {
+      "date": "2026-10-21",
+      "title": "岐微生物源自中药药方的眼科小分子药物QA102已完成美国二期临床，1.1类创新中药QA108已进入中国三期临床尾声。公司计划参加CHIPS大会，寻找全球合作伙伴，推进海外开发及商业化。",
+      "article_title": "医疗投资人集体去横琴",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/U7NbppTN4E4Fs0sU7eIafw",
+      "sector": "创新药研发",
+      "location": "地点线索：横琴，原文称公司“扎根横琴”，未明确注册地或总部地址。",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "岐微生物",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "横琴，原文称公司“扎根横琴”，未明确注册地或总部地址。",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "岐微生物",
+      "company_entity_id": "dr-u-a0ef16271f33b07b2339",
+      "company_raw_name": "岐微生物",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "岐微生物已有管线完成美国二期临床，另一管线接近完成中国三期临床，国际合作诉求已有具体临床资产承接。其下一步值得研究的是拟合作管线及权益范围，而非仅看参会本身。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "岐微生物QA102完成美国二期临床，拟寻全球合作伙伴",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "璞睿创智": [
+    {
+      "date": "2026-10-21",
+      "title": "璞睿创智搭建E2E临床试验平台，让数据自动流转并由AI完成部分重复工作。公司披露，截至2026年6月已服务近300家中外药企、完成近600个临床及真实世界研究项目。该业务于2021年在杭州创办，后在横琴注册实体、组建十余人团队，面向海外药企开展服务。",
+      "article_title": "医疗投资人集体去横琴",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/U7NbppTN4E4Fs0sU7eIafw",
+      "sector": "AI临床试验与医药研发服务",
+      "location": "地点线索：杭州为2021年创办地；横琴为文中所述新设实体注册地及团队经营地。原文未明确璞睿创智当前注册地或主要总部。",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "璞睿创智",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "杭州为2021年创办地；横琴为文中所述新设实体注册地及团队经营地。原文未明确璞睿创智当前注册地或主要总部。",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "璞睿创智",
+      "company_entity_id": "dr-u-33faab5d57c65b4871b9",
+      "company_raw_name": "璞睿创智",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "event_identity": {
+        "canonical_id": "璞睿创智已在横琴注册实体，组建十余人团队，面向海外药企开展临床试验相关服务。公司搭建E2E全链路平台，使临床数据自动流转，并由AI承担部分重复工作。据公司披露，截至2026年6月，已服务近300家中外药企，完成近600个临床及真实世界研究项目，全球前十大药企中有7家与其合作。"
+      },
+      "insight": "璞睿创智把临床数据流转和部分重复工作纳入同一平台，已有跨药企、跨项目的服务基础；横琴团队使其进一步具备面向海外药企开展服务的本地承接力量。客户覆盖说明服务已被实际采用，但平台具体改善了哪些临床工作环节，仍需结合项目实例判断。",
+      "financing": "2026年6月完成近亿元A1轮融资首关，由中金资本旗下基金领投，住友亚洲资本、苏州高新融晟等机构参与；此前获得启明创投、艾昆纬等机构投资。",
+      "event_date": "",
+      "event_headline": "璞睿创智披露截至2026年6月已服务近300家药企",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "真健康": [
+    {
+      "date": "2026-10-21",
+      "title": "真健康于2026年6月在港交所上市，主营经皮穿刺手术及消融手术机器人。公司于2023年8月将总部落在横琴，三个月后获得横琴引导基金1亿元股权投资。",
+      "article_title": "医疗投资人集体去横琴",
+      "event_type": "IPO",
+      "link": "https://mp.weixin.qq.com/s/U7NbppTN4E4Fs0sU7eIafw",
+      "sector": "手术机器人",
+      "location": "地点线索：横琴，原文明示公司于2023年8月将总部落在横琴。",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "真健康",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "横琴，原文明示公司于2023年8月将总部落在横琴。",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "真健康",
+      "company_entity_id": "dr-u-b42a60ae49f59231db9b",
+      "company_raw_name": "真健康",
+      "identity_status": "unresolved",
+      "score": 40,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "真健康围绕穿刺和消融这类具体手术任务开发机器人，上市是其资本成长阶段的重要变化。理解其产业位置，应进一步比较机器人在这些任务中的定位与操作能力，而不能仅凭上市节点判断临床采用程度。",
+      "financing": "2023年总部落地横琴三个月后，横琴引导基金完成对公司1亿元股权投资。",
+      "event_date": "",
+      "event_headline": "真健康2026年6月港交所上市，主营穿刺及消融手术机器人",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "联邦生物科技（珠海横琴）有限公司": [
+    {
+      "date": "2026-10-21",
+      "title": "2025年，联邦制药旗下联邦生物科技（珠海横琴）有限公司与诺和诺德达成独家许可协议，将在研药物UBT251的大中华区以外权益授予诺和诺德。协议约定首付款2亿美元、最高18亿美元的潜在里程碑付款及后续销售分成。",
+      "article_title": "医疗投资人集体去横琴",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/U7NbppTN4E4Fs0sU7eIafw",
+      "sector": "创新药研发与对外授权",
+      "location": "广东省 / 珠海市 / 横琴粤澳深度合作区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 珠海市 / 横琴粤澳深度合作区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a2f0ee3ef3be82b4d49ead43"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "联邦生物科技(珠海横琴)有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-a2f0ee3ef3be82b4d49ead43",
+            "source_url": "https://bydrug.pharmcube.com/news/detail/9195913025bb6695aea9dade73c6a589",
+            "checked_at": "2026-10-20T18:21:47.517777+00:00",
+            "subject": "联邦生物科技(珠海横琴)有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "珠海市",
+              "district": "横琴粤澳深度合作区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "珠海市",
+          "district": "横琴粤澳深度合作区",
+          "evidence_ids": [
+            "geo-a2f0ee3ef3be82b4d49ead43"
+          ]
+        }
+      },
+      "article_location": "横琴，原文将该公司交易明确表述为横琴企业的交易及来自横琴的创新药资产；未单独披露注册地址或主要总部。",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "联邦生物科技(珠海横琴)有限公司",
+      "company_entity_id": "dr-u-0f86bc1c9724ce6aea3f",
+      "company_raw_name": "联邦生物科技（珠海横琴）有限公司",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "UBT251",
+          "relation": "product",
+          "evidence": "去年，联邦制药旗下联邦生物科技（珠海横琴）有限公司与诺和诺德达成独家许可协议，将在研药物UBT251的大中华区以外权益授予后者。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "这笔协议使UBT251形成按地域划分的开发合作安排，诺和诺德取得大中华区以外权益，原研发方通过首付款、潜在里程碑付款与销售分成参与后续价值实现。它为理解中国创新药进入跨国药企开发体系提供了具体案例。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "联邦生物科技回顾2025年UBT251海外独家授权协议",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "库力索法": [
+    {
+      "date": "2026-10-21",
+      "title": "据CEO Raj Talluri专访披露，库力索法已扩展ProMEM产品系列，面向堆叠存储器的解决方案吞吐量最高可提升20%；公司正在推进ATP MEM PLUS平台上的垂直引线技术，以提高互连密度并支持LPDDR堆叠芯片封装。Talluri还表示，公司无助焊剂热压键合技术已实现商业化并经过大规模量产验证，相关技术正在芯粒、HBM和共封装光学等应用中获得关注。",
+      "article_title": "成立75年的设备巨头：豪赌先进封装",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Wv-eCEj57WgWRA1FQMVbzQ",
+      "sector": "半导体封装与互连设备",
+      "location": "地点线索：总部：新加坡、美国宾夕法尼亚州福特华盛顿",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "库力索法",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "总部：新加坡、美国宾夕法尼亚州福特华盛顿",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "库力索法",
+      "company_entity_id": "dr-u-9ef9aa2d51210b010941",
+      "company_raw_name": "库力索法（Kulicke & Soffa，K&S）",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Kulicke & Soffa",
+          "relation": "same_entity",
+          "evidence": "库力索法（Kulicke & Soffa，K&S）"
+        },
+        {
+          "name": "K&S",
+          "relation": "same_entity",
+          "evidence": "库力索法（Kulicke & Soffa，K&S）"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "库力索法的产品扩展体现了两条并行路径：通过引线键合升级服务堆叠存储器，同时以热压键合切入更复杂的芯片集成，而非用先进封装整体替代传统业务。既有客户协作和工艺支持经验有助于其参与新工艺导入，但文中未明确无助焊剂技术的量产验证对应哪些应用，不能将其扩大为HBM或共封装光学均已量产采用。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "库力索法披露堆叠存储器产品扩展及无助焊剂键合进展",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "戴尔科技": [
+    {
+      "date": "2026-10-21",
+      "title": "据文中转述《华尔街日报》的报道，戴尔目前拥有约950亿美元未交付订单，主要涉及高性能AI服务器系统，存储芯片供应不足是交付的主要瓶颈。公司根据客户订单安排生产，并利用客户付款与供应商付款之间的时间差减少营运资金占用。迈克尔·戴尔预计2027年相关供应情况可能进一步恶化。",
+      "article_title": "马斯克吐槽内存厂商：漫天要价！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/uq5_cLXt7INEEq9YboOoyA",
+      "sector": "AI服务器与高性能计算基础设施",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "戴尔科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "戴尔科技",
+      "company_entity_id": "dr-u-8c0e20dff7962b065348",
+      "company_raw_name": "戴尔科技",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "戴尔的订单显示其已承接较大规模的AI服务器需求，但交付节奏受到存储芯片供给制约。按需生产和付款时间差能够缓冲库存与资金压力，却不能直接解决关键部件短缺，值得研究其订单排产如何适应供应约束。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "戴尔据报道持有约950亿美元未交付订单",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "康宁": [
+    {
+      "date": "2026-10-21",
+      "title": "文中转述《华尔街日报》称，康宁正通过与英伟达、亚马逊和Meta等企业合作，让客户参与支持光纤产能扩张，以降低独自承担新增制造能力投资的风险。",
+      "article_title": "马斯克吐槽内存厂商：漫天要价！",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/uq5_cLXt7INEEq9YboOoyA",
+      "sector": "光通信与数据中心基础设施",
+      "location": "US / New York / Corning",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / New York / Corning",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-4b36f3a30a6ec1f8057db934"
+        ],
+        "subject_evidence_ids": [
+          "geo-4b36f3a30a6ec1f8057db934"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "康宁",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "New York",
+          "city": "Corning",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-4b36f3a30a6ec1f8057db934"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4b36f3a30a6ec1f8057db934",
+            "source_url": "https://corningjobs.corning.com/go/%E5%8C%97%E7%BE%8E%E5%9C%B0%E5%8C%BA/7687600",
+            "checked_at": "2026-10-20T18:22:38.263061+00:00",
+            "subject": "康宁",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "New York",
+              "city": "Corning"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "New York",
+          "city": "Corning",
+          "evidence_ids": [
+            "geo-4b36f3a30a6ec1f8057db934"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "康宁",
+      "company_entity_id": "dr-u-18eb7b8b98b2cde5e404",
+      "company_raw_name": "康宁",
+      "identity_status": "unresolved",
+      "score": 15,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "康宁的合作把下游客户引入光纤扩产支持环节，使新增制造能力的投入不再完全由供应商独自承担。其产业意义在于需求方参与产能建设，而不只是采购产品；具体如何分担投入和需求波动，取决于合作条款。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "康宁据报道与客户合作支持光纤产能扩张",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "金域医学": [
+    {
+      "date": "2026-10-21",
+      "title": "10月10日，广州医科大学附属第一医院国家呼吸医学中心联合金域医学发布DeepGEM2.0肺癌病理基因多模态大模型。文中称其最快可在1分钟内预测12个肺癌基因靶点，并采用“AI初筛+特定基因靶向验证”模式，有望将检测费用降至数百元。",
+      "article_title": "OpenAI自曝“模型偷钱”；苹果AI国内落地敲定，12月正式上线；17岁AI天才少年离职月之暗面，曾参与Kimi模型研发丨AI周报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/FUYwy-9s1tctDgIO7NtTcw",
+      "sector": "医疗人工智能与病理检测",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "金域医学",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "金域医学",
+      "company_entity_id": "dr-u-ef529d46ea63df00d13f",
+      "company_raw_name": "金域医学",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-18",
+      "insight": "该方案把AI预测放在靶向验证之前，产品价值在于帮助选择后续检测路径，而非直接取消基因验证。能否用于不同患者和医疗机构，关键在于预测准确性及适用范围。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "金域医学联合发布DeepGEM2.0肺癌基因预测模型",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "xAI": [
+    {
+      "date": "2026-10-21",
+      "title": "xAI于当地时间10月14日发布Grok Voice 3.0，通过语音代理API开放，价格为每分钟0.08美元。公司称Grok Voice已用于特斯拉车辆及星链客服，后者每天处理约2万通多语言来电，约70%无需人工介入。",
+      "article_title": "OpenAI自曝“模型偷钱”；苹果AI国内落地敲定，12月正式上线；17岁AI天才少年离职月之暗面，曾参与Kimi模型研发丨AI周报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/FUYwy-9s1tctDgIO7NtTcw",
+      "sector": "语音人工智能",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "xAI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "xAI",
+      "company_entity_id": "dr-u-6fcba5d96a4fadfdd630",
+      "company_raw_name": "xAI",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-18",
+      "insight": "开放API让语音模型可以被外部应用直接调用，车载交互与多语言客服则提供了具体应用场景。星链客服指标描述的是Grok Voice既有应用，不能自动归因于刚发布的3.0版本。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "xAI发布Grok Voice 3.0并开放语音代理接口",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Huxe": [
+    {
+      "date": "2026-10-21",
+      "title": "据苹果在欧盟案件数据库中的披露，苹果已达成协议，拟向Huxe AI部分员工发出录用邀约，并取得Huxe知识产权的非独占许可。文章另称Huxe于5月21日宣布关停业务、下架应用并删除用户数据。",
+      "article_title": "OpenAI自曝“模型偷钱”；苹果AI国内落地敲定，12月正式上线；17岁AI天才少年离职月之暗面，曾参与Kimi模型研发丨AI周报",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/FUYwy-9s1tctDgIO7NtTcw",
+      "sector": "个性化音频与人工智能",
+      "location": "US / California / 1731 Technology Drive, Ste 685, San Jose, CA 95110",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / 1731 Technology Drive, Ste 685, San Jose, CA 95110",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-32df0d7a12e23bc483957c6b"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Huxe",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-32df0d7a12e23bc483957c6b",
+            "source_url": "https://www.huxe.com/terms",
+            "checked_at": "2026-10-20T18:21:48.808192+00:00",
+            "subject": "Huxe",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Jose",
+              "address": "1731 Technology Drive, Ste 685, San Jose, CA 95110"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Jose",
+          "evidence_ids": [
+            "geo-32df0d7a12e23bc483957c6b"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Huxe",
+      "company_entity_id": "dr-u-09ceec70aa3d8c2e74d6",
+      "company_raw_name": "Huxe",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-18",
+      "insight": "这项安排的对象是部分员工和非独占技术许可，不是已披露的整家公司股权收购。结合此前关停信息，技术与团队可能以不同于独立应用运营的方式延续。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Huxe部分团队拟加入苹果，相关技术达成许可安排",
+      "event_signal": "major",
       "discovery_status": "first_seen"
     }
   ]
