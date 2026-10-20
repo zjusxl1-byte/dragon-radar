@@ -855,6 +855,95 @@
       "event_headline": "DeepSeek就近五小时API故障致歉，按此前一周消费全额补偿",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "DeepSeek宣布开源内部推理框架DeepInfer及生产级Token编解码组件deepseek-recipe。文章称，DeepInfer已用于DeepSeek V4.1 Flash的大规模推理服务，兼容英伟达GPU与华为昇腾NPU，支持专家负载均衡、推测解码和滑动窗口缓存重建；技术报告披露，动态验证长度相较固定验证5个Token的方案使线上吞吐量进一步提升6%。deepseek-recipe负责API请求编码、模型输出解析及不同接口的协议适配。",
+      "article_title": "刚刚，DeepSeek开源自家推理框架！",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/w-e7bdkr2_bTGnGCiExO9A",
+      "sector": "人工智能基础设施 / 大模型推理",
+      "location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "article_location": "浙江省 / 杭州市",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_raw_name": "DeepSeek",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "DeepInfer",
+          "relation": "product",
+          "evidence": "DeepSeek宣布，将其内部推理框架DeepInfer「开源」。"
+        },
+        {
+          "name": "deepseek-recipe",
+          "relation": "product",
+          "evidence": "DeepSeek还同步开源了生产级Token编解码组件deepseek-recipe。"
+        }
+      ],
+      "score": 100,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "可复用既有已审模型事件尚未建立独立标杆资格的边界。本次开源及公司生产数据增强产业观察价值，但缺少已捕获的同条件竞品比较和第三方部署验证，不能据开源、杭州身份或内部吞吐规模自动授予全国标杆标签。",
+        "evidence_ids": [
+          "article:582e794fb8a2e605",
+          "prior_decision:57fb9024d657db8d"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "此次开放的不只是模型运行引擎，还包括请求编码、工具调用解析等接口处理逻辑，使第三方部署者能够同时复用推理优化机制与官方API的处理方式。两者互补，有助于减少自行部署时计算执行与应用接入之间的适配工作；文中线上性能来自DeepSeek自身部署，不能直接视为其他硬件和负载下的运行表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "DeepSeek开源生产推理框架与API编解码组件",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "杭州鸣鸿微电子科技有限公司": [
@@ -3170,6 +3259,86 @@
       "event_date": "",
       "event_headline": "中科第五纪发布纪元灵脑与纪灵-S1立柱式机器人",
       "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "联邦生物科技（珠海横琴）有限公司": [
+    {
+      "date": "2026-10-21",
+      "title": "2025年，联邦制药旗下联邦生物科技（珠海横琴）有限公司与诺和诺德达成独家许可协议，将在研药物UBT251的大中华区以外权益授予诺和诺德。协议约定首付款2亿美元、最高18亿美元的潜在里程碑付款及后续销售分成。",
+      "article_title": "医疗投资人集体去横琴",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/U7NbppTN4E4Fs0sU7eIafw",
+      "sector": "创新药研发与对外授权",
+      "location": "广东省 / 珠海市 / 横琴粤澳深度合作区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 珠海市 / 横琴粤澳深度合作区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a2f0ee3ef3be82b4d49ead43"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "联邦生物科技(珠海横琴)有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-a2f0ee3ef3be82b4d49ead43",
+            "source_url": "https://bydrug.pharmcube.com/news/detail/9195913025bb6695aea9dade73c6a589",
+            "checked_at": "2026-10-20T18:21:47.517777+00:00",
+            "subject": "联邦生物科技(珠海横琴)有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "珠海市",
+              "district": "横琴粤澳深度合作区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "珠海市",
+          "district": "横琴粤澳深度合作区",
+          "evidence_ids": [
+            "geo-a2f0ee3ef3be82b4d49ead43"
+          ]
+        }
+      },
+      "article_location": "横琴，原文将该公司交易明确表述为横琴企业的交易及来自横琴的创新药资产；未单独披露注册地址或主要总部。",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "联邦生物科技(珠海横琴)有限公司",
+      "company_entity_id": "dr-u-0f86bc1c9724ce6aea3f",
+      "company_raw_name": "联邦生物科技（珠海横琴）有限公司",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "UBT251",
+          "relation": "product",
+          "evidence": "去年，联邦制药旗下联邦生物科技（珠海横琴）有限公司与诺和诺德达成独家许可协议，将在研药物UBT251的大中华区以外权益授予后者。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "这笔协议使UBT251形成按地域划分的开发合作安排，诺和诺德取得大中华区以外权益，原研发方通过首付款、潜在里程碑付款与销售分成参与后续价值实现。它为理解中国创新药进入跨国药企开发体系提供了具体案例。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "联邦生物科技回顾2025年UBT251海外独家授权协议",
+      "event_signal": "major",
       "discovery_status": "first_seen"
     }
   ]
