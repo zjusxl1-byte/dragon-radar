@@ -1694,11 +1694,11 @@
       "event_type": "临床应用",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "心脏电生理医疗器械",
-      "location": "江苏省 / 苏州市 / 苏州工业园区 / 苏虹西路9号6栋西侧201室",
+      "location": "经营地：苏州市苏州工业园区苏虹西路9号6栋西侧201室；杭州滨江为共建项目地",
       "geography": {
         "geography_status": "confirmed",
         "classification": "domestic_non_hangzhou",
-        "display_location": "江苏省 / 苏州市 / 苏州工业园区 / 苏虹西路9号6栋西侧201室",
+        "display_location": "经营地：苏州市苏州工业园区苏虹西路9号6栋西侧201室；杭州滨江为共建项目地",
         "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-45ddfdf8a80eaf0da2696fff"
@@ -1728,6 +1728,34 @@
               "district": "苏州工业园区",
               "address": "苏虹西路9号6栋西侧201室"
             }
+          },
+          {
+            "evidence_id": "geo-c170f8ecd19d293cf6f3215b",
+            "source_url": "https://accupulse.com/cn/",
+            "checked_at": "2026-10-12T04:04:23.869675+00:00",
+            "subject": "艾科脉",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市",
+              "address": "工业园区苏虹西路9号6栋西侧201室"
+            }
+          },
+          {
+            "evidence_id": "geo-9371450960a8bce4e376b49e",
+            "source_url": "https://accupulse.com/cn/",
+            "checked_at": "2026-10-12T04:04:23.869675+00:00",
+            "subject": "艾科脉",
+            "role": "project",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "滨江区浙医二院经血管植入器械研究院"
+            }
           }
         ],
         "discovery_locality": {
@@ -1739,6 +1767,15 @@
           "district": "苏州工业园区",
           "evidence_ids": [
             "geo-45ddfdf8a80eaf0da2696fff"
+          ]
+        },
+        "presentation": {
+          "label": "经营地：苏州市苏州工业园区苏虹西路9号6栋西侧201室；杭州滨江为共建项目地",
+          "detail": "官网联系地址：苏州工业园区苏虹西路9号6栋西侧201室。另据2026-01-21揭牌正文，杭州滨江区浙医二院经血管植入器械研究院与艾科脉等共建人工智能创新中心，属于项目地，不据此确认企业杭州属地或预警资格。旧标签“苏州市”“杭州市”分别恢复在原经营及项目事实。",
+          "evidence_ids": [
+            "geo-45ddfdf8a80eaf0da2696fff",
+            "geo-9371450960a8bce4e376b49e",
+            "geo-c170f8ecd19d293cf6f3215b"
           ]
         }
       },
