@@ -1185,18 +1185,18 @@
       "event_type": "负面",
       "link": "https://mp.weixin.qq.com/s/2Kzi31YhM0H4xKphcLxuug",
       "sector": "PC系统集成",
-      "location": "经营地：US / Lemoyne（注册/总部待核）",
+      "location": "US / Lemoyne",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / Lemoyne（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Lemoyne",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-5aa3239f7734f48999ed8b1c"
+          "geo-7ec6aaf96fbbd2178d318cc9"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Stince Built",
         "subject_locality": {
           "status": "unknown",
@@ -1206,9 +1206,9 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-5aa3239f7734f48999ed8b1c",
+            "evidence_id": "geo-7ec6aaf96fbbd2178d318cc9",
             "source_url": "https://stincebuilt.com/",
-            "checked_at": "2026-10-12T03:44:13.744614+00:00",
+            "checked_at": "2026-10-20T01:51:05.582867+00:00",
             "subject": "Stince Built",
             "role": "business",
             "subject_relation": "same_subject",
@@ -1218,7 +1218,17 @@
               "city": "Lemoyne"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Pennsylvania",
+          "city": "Lemoyne",
+          "evidence_ids": [
+            "geo-7ec6aaf96fbbd2178d318cc9"
+          ]
+        }
       },
       "article_location": "美国",
       "source": "半导体行业观察",

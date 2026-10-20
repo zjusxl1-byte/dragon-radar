@@ -917,16 +917,18 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/38QNFnQZX7b67rlHW4-Wvw",
       "sector": "人形机器人/具身智能",
-      "location": "地点线索：深圳",
+      "location": "广东省 / 深圳市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8c4b72e03447a2260ddb786b"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "乐聚机器人",
         "subject_locality": {
           "status": "unknown",
@@ -934,7 +936,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-8c4b72e03447a2260ddb786b",
+            "source_url": "https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4638938.html",
+            "checked_at": "2026-10-20T01:50:43.569947+00:00",
+            "subject": "乐聚机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-8c4b72e03447a2260ddb786b"
+          ]
+        }
       },
       "article_location": "深圳",
       "source": "投资界",
@@ -959,16 +985,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "人形机器人",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8c4b72e03447a2260ddb786b"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "乐聚机器人",
         "subject_locality": {
           "status": "unknown",
@@ -976,7 +1004,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-8c4b72e03447a2260ddb786b",
+            "source_url": "https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4638938.html",
+            "checked_at": "2026-10-20T01:50:43.569947+00:00",
+            "subject": "乐聚机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-8c4b72e03447a2260ddb786b"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",

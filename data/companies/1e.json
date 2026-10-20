@@ -1114,24 +1114,48 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/yEQ8z0l85_C4SPlQbsp8Eg",
       "sector": "高端汽车",
-      "location": "地点待核",
+      "location": "DE / Stuttgart",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / Stuttgart",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-d3752eb2ff2a9c1ce521634a"
+        ],
+        "subject_evidence_ids": [
+          "geo-d3752eb2ff2a9c1ce521634a"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "保时捷",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "Stuttgart",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-d3752eb2ff2a9c1ce521634a"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d3752eb2ff2a9c1ce521634a",
+            "source_url": "https://newsroom.porsche.com/en/company/porsche-zuffenhausen-stuttgart-headquarter-12121.html",
+            "checked_at": "2026-10-20T01:51:37.852328+00:00",
+            "subject": "保时捷",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "Stuttgart",
+              "district": "Zuffenhausen"
+            }
+          }
+        ]
       },
       "article_location": "",
       "source": "创业邦",
@@ -1168,24 +1192,48 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/LYX5fGhyQpSuEuV6qNAqqg",
       "sector": "高性能汽车与智能座舱",
-      "location": "地点待核",
+      "location": "DE / Stuttgart",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / Stuttgart",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-d3752eb2ff2a9c1ce521634a"
+        ],
+        "subject_evidence_ids": [
+          "geo-d3752eb2ff2a9c1ce521634a"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "保时捷",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "Stuttgart",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-d3752eb2ff2a9c1ce521634a"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d3752eb2ff2a9c1ce521634a",
+            "source_url": "https://newsroom.porsche.com/en/company/porsche-zuffenhausen-stuttgart-headquarter-12121.html",
+            "checked_at": "2026-10-20T01:51:37.852328+00:00",
+            "subject": "保时捷",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "Stuttgart",
+              "district": "Zuffenhausen"
+            }
+          }
+        ]
       },
       "article_location": "",
       "source": "创业邦",

@@ -1296,33 +1296,30 @@
       "event_type": "拟融资",
       "link": "https://mp.weixin.qq.com/s/5h5lFxPAMXW21lM5mfSaSg",
       "sector": "GPU云计算",
-      "location": "经营地：US / San Jose（注册/总部待核）",
+      "location": "US / San Jose",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / San Jose（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / San Jose",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-c6c2ad196d06465365baf06f"
+          "geo-d2dd9a81aef99fabf5c47ff3"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Lambda",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-c6c2ad196d06465365baf06f",
+            "evidence_id": "geo-d2dd9a81aef99fabf5c47ff3",
             "source_url": "https://lambda.ai/legal/terms-of-service",
-            "checked_at": "2026-10-12T03:40:21.809116+00:00",
+            "checked_at": "2026-10-20T01:50:58.839054+00:00",
             "subject": "Lambda",
             "role": "business",
             "subject_relation": "same_subject",
@@ -1330,10 +1327,20 @@
               "country": "US",
               "province": "California",
               "city": "San Jose",
-              "address": "2510 Zanker Rd., San Jose, CA 95131"
+              "address": "2510 Zanker Rd. San Jose, CA 95131"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Jose",
+          "evidence_ids": [
+            "geo-d2dd9a81aef99fabf5c47ff3"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "创业邦",

@@ -950,16 +950,18 @@
       "event_type": "技术进展",
       "link": "https://mp.weixin.qq.com/s/Yin_-8n6ZYCtIKnaT39c1Q",
       "sector": "人工智能扩散语言模型",
-      "location": "地点待核",
+      "location": "US",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f8842c401efc1ea56e91e55e"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Inception Labs",
         "subject_locality": {
           "status": "unknown",
@@ -967,7 +969,27 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-f8842c401efc1ea56e91e55e",
+            "source_url": "https://mp.weixin.qq.com/s/Yin_-8n6ZYCtIKnaT39c1Q",
+            "checked_at": "2026-10-09T22:31:29+00:00",
+            "subject": "Inception Labs",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-f8842c401efc1ea56e91e55e"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "创业邦",
