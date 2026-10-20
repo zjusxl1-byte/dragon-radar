@@ -1582,16 +1582,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/6_nhFmrbcmPOEBjijaW0mQ",
       "sector": "AI推理芯片与AI云计算",
-      "location": "地点待核",
+      "location": "US / California",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-2e3cd3a14fdf49846d386e75"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Groq",
         "subject_locality": {
           "status": "unknown",
@@ -1599,7 +1601,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-2e3cd3a14fdf49846d386e75",
+            "source_url": "https://www.cls.cn/detail/2239632",
+            "checked_at": "2026-10-20T02:20:14.354459+00:00",
+            "subject": "Groq",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "evidence_ids": [
+            "geo-2e3cd3a14fdf49846d386e75"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",

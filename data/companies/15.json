@@ -1111,16 +1111,18 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/KbhHB4huDPVbwX-R0O1lpQ",
       "sector": "生成式AI与游戏开发工具",
-      "location": "地点待核",
+      "location": "US / California / 116 New Montgomery St, Suite 200, San Francisco, CA 94105",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / 116 New Montgomery St, Suite 200, San Francisco, CA 94105",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-79f9e57c609d606afbae72cd"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Unity",
         "subject_locality": {
           "status": "unknown",
@@ -1128,7 +1130,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-79f9e57c609d606afbae72cd",
+            "source_url": "https://unity.com/addresses",
+            "checked_at": "2026-10-20T02:20:15.238183+00:00",
+            "subject": "Unity",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco",
+              "address": "116 New Montgomery St, Suite 200, San Francisco, CA 94105"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-79f9e57c609d606afbae72cd"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "量子位",

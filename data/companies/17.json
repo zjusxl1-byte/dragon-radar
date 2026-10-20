@@ -1352,16 +1352,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/nGSrdSUewpj5MhmI10uS2w",
       "sector": "高性能电动汽车",
-      "location": "地点待核",
+      "location": "DE / Stuttgart",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / Stuttgart",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e54f72de5dccbc38d29650b8"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "梅赛德斯-奔驰集团",
         "subject_locality": {
           "status": "unknown",
@@ -1369,7 +1371,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e54f72de5dccbc38d29650b8",
+            "source_url": "https://www.news.cn/world/20241125/2115f8a5c5414ec88ae53d9b5ca2507f/c.html",
+            "checked_at": "2026-10-20T02:21:22.858590+00:00",
+            "subject": "梅赛德斯-奔驰集团",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "Stuttgart"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "Stuttgart",
+          "evidence_ids": [
+            "geo-e54f72de5dccbc38d29650b8"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
