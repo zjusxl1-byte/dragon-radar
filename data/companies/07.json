@@ -800,16 +800,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/PAcxgVMmNyNHf0u4N15sew",
       "sector": "AI智算互联芯片与RDMA智能网卡",
-      "location": "地点待核",
+      "location": "四川省 / 成都市 / 成都高新区新川创新科技园新加坡创新中心",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "四川省 / 成都市 / 成都高新区新川创新科技园新加坡创新中心",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-9b214be8c236c4583210968a"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "成都恒瀚微电子有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -817,7 +819,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-9b214be8c236c4583210968a",
+            "source_url": "https://www.guandian.cn/m/show/571069",
+            "checked_at": "2026-10-20T02:29:50.750785+00:00",
+            "subject": "成都恒瀚微电子有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "四川省",
+              "city": "成都市",
+              "address": "成都高新区新川创新科技园新加坡创新中心"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "四川省",
+          "city": "成都市",
+          "evidence_ids": [
+            "geo-9b214be8c236c4583210968a"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

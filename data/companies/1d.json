@@ -1000,27 +1000,53 @@
       "event_type": "业绩披露",
       "link": "https://mp.weixin.qq.com/s/5h5lFxPAMXW21lM5mfSaSg",
       "sector": "AI服务器与电子制造",
-      "location": "地点待核",
+      "location": "广东省深圳市南山区荣超联合总部大厦52层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省深圳市南山区荣超联合总部大厦52层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-aa9e18f662680418beedac8f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "工业富联",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-aa9e18f662680418beedac8f",
+            "source_url": "https://panel.fii-foxconn.com/m/footerdibu/778.html",
+            "checked_at": "2026-10-20T02:29:28.057268+00:00",
+            "subject": "工业富联",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "南山区",
+              "address": "广东省深圳市南山区荣超联合总部大厦52层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "南山区",
+          "evidence_ids": [
+            "geo-aa9e18f662680418beedac8f"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "创业邦",
