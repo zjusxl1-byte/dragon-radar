@@ -1048,16 +1048,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/-SiH42v3gg9tp60mXz7ldw",
       "sector": "无人机与无人装备",
-      "location": "地点线索：现总部：北京；拟迁总部：杭州；规划基地及无人机产线：杭州。文章另称杭州博鹰长空科技有限公司于2026年7月在杭州成立，但未证明其与北京博鹰通航科技有…",
+      "location": "北京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-cf4c5266ca8ceb6b28d88dc9"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "北京博鹰通航科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1065,7 +1067,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-cf4c5266ca8ceb6b28d88dc9",
+            "source_url": "https://mp.weixin.qq.com/s/-SiH42v3gg9tp60mXz7ldw",
+            "checked_at": "2026-10-17T13:30:58+00:00",
+            "subject": "北京博鹰通航科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-cf4c5266ca8ceb6b28d88dc9"
+          ]
+        }
       },
       "article_location": "现总部：北京；拟迁总部：杭州；规划基地及无人机产线：杭州。文章另称杭州博鹰长空科技有限公司于2026年7月在杭州成立，但未证明其与北京博鹰通航科技有限公司为同一主体。",
       "source": "湖畔自留田",

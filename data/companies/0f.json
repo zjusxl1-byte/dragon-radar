@@ -1529,16 +1529,18 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/aBnN_3Pc_64JmPI6mgxe5A",
       "sector": "运动鞋履与智能制造",
-      "location": "地点线索：瑞士苏黎世西区（全球总部）",
+      "location": "CH / Zurich",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "CH / Zurich",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-0bf068080d8b05b9bfa82dfd"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "昂跑",
         "subject_locality": {
           "status": "unknown",
@@ -1546,7 +1548,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0bf068080d8b05b9bfa82dfd",
+            "source_url": "https://mp.weixin.qq.com/s/aBnN_3Pc_64JmPI6mgxe5A",
+            "checked_at": "2026-10-17T14:01:21+00:00",
+            "subject": "昂跑",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CH",
+              "city": "Zurich"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "CH",
+          "city": "Zurich",
+          "evidence_ids": [
+            "geo-0bf068080d8b05b9bfa82dfd"
+          ]
+        }
       },
       "article_location": "瑞士苏黎世西区（全球总部）",
       "source": "36 氪",
@@ -1582,16 +1606,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/-GCDGIn6g0j1_Aj2cr01rw",
       "sector": "休闲益智手游",
-      "location": "地点线索：土耳其",
+      "location": "TR",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "TR",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-39f12fba257e460e253f3e17"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Flow Games",
         "subject_locality": {
           "status": "unknown",
@@ -1599,7 +1625,27 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-39f12fba257e460e253f3e17",
+            "source_url": "https://mp.weixin.qq.com/s/-GCDGIn6g0j1_Aj2cr01rw",
+            "checked_at": "2026-10-17T13:16:15+00:00",
+            "subject": "Flow Games",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "TR"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "TR",
+          "evidence_ids": [
+            "geo-39f12fba257e460e253f3e17"
+          ]
+        }
       },
       "article_location": "土耳其",
       "source": "创业邦",
