@@ -1820,16 +1820,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/W8ZSfyY7SKIvMHkSyTzxjg",
       "sector": "具身智能机器人运动控制及关节模组",
-      "location": "地点待核",
+      "location": "浙江省杭州市富阳区富闲路222号C幢6层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市富阳区富闲路222号C幢6层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a1cf9210aa4b405d7193b423"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "和晖机器人",
         "subject_locality": {
           "status": "unknown",
@@ -1837,7 +1839,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-a1cf9210aa4b405d7193b423",
+            "source_url": "https://www.unisunbot.com/About.html",
+            "checked_at": "2026-10-20T02:28:15.148922+00:00",
+            "subject": "和晖机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "富阳区",
+              "address": "浙江省杭州市富阳区富闲路222号C幢6层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "富阳区",
+          "evidence_ids": [
+            "geo-a1cf9210aa4b405d7193b423"
+          ]
+        }
       },
       "article_location": "",
       "source": "银杏谷资本",

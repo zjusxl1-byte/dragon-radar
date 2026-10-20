@@ -1762,16 +1762,18 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/Iq5SdqrxpFagTywJPYKrJA",
       "sector": "高端数控机床与机器人制造装备",
-      "location": "地点待核",
+      "location": "浙江省台州市温岭市石塘镇上马工业区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省台州市温岭市石塘镇上马工业区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-2d9ab432ca7387c7045d0546"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "台州东部数控",
         "subject_locality": {
           "status": "unknown",
@@ -1779,7 +1781,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-2d9ab432ca7387c7045d0546",
+            "source_url": "https://www.dongbuskgroup.com/",
+            "checked_at": "2026-10-20T02:27:43.049482+00:00",
+            "subject": "台州东部数控",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "台州市",
+              "district": "温岭市",
+              "address": "浙江省台州市温岭市石塘镇上马工业区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "台州市",
+          "district": "温岭市",
+          "evidence_ids": [
+            "geo-2d9ab432ca7387c7045d0546"
+          ]
+        }
       },
       "article_location": "",
       "source": "涌金楼",

@@ -757,16 +757,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/W621428fRT5M9AjN650gYA",
       "sector": "具身智能 / 机器人AI模型",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e0aaaa8ad71fce1f9a74655a"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Winverse AI",
         "subject_locality": {
           "status": "unknown",
@@ -774,7 +776,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e0aaaa8ad71fce1f9a74655a",
+            "source_url": "https://t.cj.sina.com.cn/articles/view/1887344341/707e96d504001wn9u",
+            "checked_at": "2026-10-20T02:28:25.510990+00:00",
+            "subject": "Winverse AI",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-e0aaaa8ad71fce1f9a74655a"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

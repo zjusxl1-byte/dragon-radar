@@ -1939,16 +1939,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/GkQlHhAGfYo2GYL5jbPtXw",
       "sector": "人工智能研发",
-      "location": "地点待核",
+      "location": "上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-34e6b56818efe5b06b38475a"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Pragmatik Labs",
         "subject_locality": {
           "status": "unknown",
@@ -1956,7 +1958,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-34e6b56818efe5b06b38475a",
+            "source_url": "https://www.ithome.com/0/988/555.htm",
+            "checked_at": "2026-10-20T02:26:53.769435+00:00",
+            "subject": "Pragmatik Labs",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-34e6b56818efe5b06b38475a"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "投资界",
