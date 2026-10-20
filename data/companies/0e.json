@@ -795,31 +795,28 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/EJfBIj0nfwpjB3tpONoy0g",
       "sector": "消费级具身智能 / AI潮玩机器人",
-      "location": "经营地：浙江省 / 杭州市（注册/总部待核）",
+      "location": "浙江省 / 杭州市 / 余杭区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：浙江省 / 杭州市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-1e0a9c2372918b831a77ce64"
+          "geo-92156ff70a0e370d36dcb362"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "镭萌科技",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-1e0a9c2372918b831a77ce64",
+            "evidence_id": "geo-92156ff70a0e370d36dcb362",
             "source_url": "https://view.inews.qq.com/a/20260909A0FCM400",
             "checked_at": "2026-10-12T04:06:26.689068+00:00",
             "subject": "镭萌科技",
@@ -829,10 +826,21 @@
               "country": "CN",
               "province": "浙江省",
               "city": "杭州市",
-              "address": "余杭区"
+              "district": "余杭区"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-92156ff70a0e370d36dcb362"
+          ]
+        }
       },
       "article_location": "",
       "source": "杭州发布",

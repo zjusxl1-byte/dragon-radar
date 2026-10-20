@@ -1498,24 +1498,49 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/RCO9cmOljbXNT4AAkyo39w",
       "sector": "半导体晶圆代工",
-      "location": "地点线索：美国纽约州马耳他（现有厂区及拟建晶圆厂项目地）；美国佛蒙特州伯灵顿（现有厂区）",
+      "location": "US / Malta",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Malta",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-87b32a41a094eda7b954bf2b"
+        ],
+        "subject_evidence_ids": [
+          "geo-87b32a41a094eda7b954bf2b"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "GlobalFoundries",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "New York",
+          "city": "Malta",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-87b32a41a094eda7b954bf2b"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-87b32a41a094eda7b954bf2b",
+            "source_url": "https://gf.com/manufacturing/malta/",
+            "checked_at": "2026-10-20T01:46:16.523179+00:00",
+            "subject": "GlobalFoundries",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "New York",
+              "city": "Malta"
+            }
+          }
+        ]
       },
       "article_location": "美国纽约州马耳他（现有厂区及拟建晶圆厂项目地）；美国佛蒙特州伯灵顿（现有厂区）",
       "source": "半导体行业观察",
