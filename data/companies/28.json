@@ -2868,16 +2868,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/LYX5fGhyQpSuEuV6qNAqqg",
       "sector": "自动驾驶出行服务",
-      "location": "地点待核",
+      "location": "北京市 / 海淀区 / 上地十街10号百度大厦",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区 / 上地十街10号百度大厦",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8e68576ea39ba577aacd8cb4"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "百度",
         "subject_locality": {
           "status": "unknown",
@@ -2885,7 +2887,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-8e68576ea39ba577aacd8cb4",
+            "source_url": "https://home.baidu.com/home/index/contact_us",
+            "checked_at": "2026-10-20T02:39:18.938225+00:00",
+            "subject": "百度",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "上地十街10号百度大厦"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-8e68576ea39ba577aacd8cb4"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

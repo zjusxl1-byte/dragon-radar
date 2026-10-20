@@ -1299,16 +1299,18 @@
       "event_type": "产品推出准备及研究应用线索",
       "link": "https://mp.weixin.qq.com/s/7XcTxx0R8itkU-4mTG737g",
       "sector": "光子计算与人工智能专用计算",
-      "location": "地点待核",
+      "location": "US / New Jersey / 5 Marine View Plaza, Suite 214, Hoboken, NJ 07030",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / New Jersey / 5 Marine View Plaza, Suite 214, Hoboken, NJ 07030",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-9944882f9f16e46f5c063d1c"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "量子计算公司(QCI)",
         "subject_locality": {
           "status": "unknown",
@@ -1316,7 +1318,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-9944882f9f16e46f5c063d1c",
+            "source_url": "https://quantumcomputinginc.com/contact",
+            "checked_at": "2026-10-20T02:39:20.243266+00:00",
+            "subject": "量子计算公司(QCI)",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "New Jersey",
+              "city": "Hoboken",
+              "address": "5 Marine View Plaza, Suite 214, Hoboken, NJ 07030"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "New Jersey",
+          "city": "Hoboken",
+          "evidence_ids": [
+            "geo-9944882f9f16e46f5c063d1c"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",

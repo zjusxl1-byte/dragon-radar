@@ -875,16 +875,18 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/LYX5fGhyQpSuEuV6qNAqqg",
       "sector": "智能汽车与自动驾驶",
-      "location": "地点待核",
+      "location": "DE / Stuttgart",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / Stuttgart",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-5967273e51ee3fa0ad2ca5e3"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "梅赛德斯-奔驰",
         "subject_locality": {
           "status": "unknown",
@@ -892,7 +894,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-5967273e51ee3fa0ad2ca5e3",
+            "source_url": "https://www.news.cn/world/20241125/2115f8a5c5414ec88ae53d9b5ca2507f/c.html",
+            "checked_at": "2026-10-20T02:21:22.858590+00:00",
+            "subject": "梅赛德斯-奔驰",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "Stuttgart"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "Stuttgart",
+          "evidence_ids": [
+            "geo-5967273e51ee3fa0ad2ca5e3"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

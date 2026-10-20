@@ -1361,16 +1361,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "汽车零部件制造",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市 / 萧山区 / 萧山经济技术开发区桥南区块兆丰路6号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 萧山区 / 萧山经济技术开发区桥南区块兆丰路6号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-dacc7403d0c638d7093c5bcb"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "兆丰机电",
         "subject_locality": {
           "status": "unknown",
@@ -1378,7 +1380,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-dacc7403d0c638d7093c5bcb",
+            "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpInfo/stockid/300695.phtml",
+            "checked_at": "2026-10-20T02:40:33.825199+00:00",
+            "subject": "兆丰机电",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "萧山区",
+              "address": "萧山经济技术开发区桥南区块兆丰路6号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "萧山区",
+          "evidence_ids": [
+            "geo-dacc7403d0c638d7093c5bcb"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",
