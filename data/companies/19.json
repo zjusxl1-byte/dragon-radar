@@ -558,24 +558,59 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/5cN0vhD0uqIEHVbeTjF92g",
       "sector": "金融科技／数字支付与信贷",
-      "location": "地点线索：注册地：开曼；总部：新加坡；业务收入来源地包括尼日利亚、印尼和埃及。",
+      "location": "SG / Singapore",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "SG / Singapore",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-ef704498d3a122f2821c1283"
+        ],
+        "subject_evidence_ids": [
+          "geo-a081a72db7ef686a6cfae2cb"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "OPay",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "KY",
+          "province": "",
+          "city": "",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-a081a72db7ef686a6cfae2cb"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-ef704498d3a122f2821c1283",
+            "source_url": "https://data.sec.gov/submissions/CIK0002103076.json",
+            "checked_at": "2026-10-20T01:47:05.858699+00:00",
+            "subject": "OPay",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "SG",
+              "city": "Singapore",
+              "address": "30 RAFFLES PLACE #21-01, SINGAPORE 048622"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "SG",
+          "province": "",
+          "city": "Singapore",
+          "evidence_ids": [
+            "geo-ef704498d3a122f2821c1283"
+          ]
+        }
       },
       "article_location": "注册地：开曼；总部：新加坡；业务收入来源地包括尼日利亚、印尼和埃及。",
       "source": "创业邦",
@@ -609,24 +644,59 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/KrF2nNP-kiOVNXlF6PzejQ",
       "sector": "金融科技／数字支付与数字信贷",
-      "location": "地点线索：尼日利亚：原文明示的起步市场及主要经营市场，未披露注册地或主要总部。",
+      "location": "SG / Singapore",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "SG / Singapore",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-ef704498d3a122f2821c1283"
+        ],
+        "subject_evidence_ids": [
+          "geo-a081a72db7ef686a6cfae2cb"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "OPay",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "KY",
+          "province": "",
+          "city": "",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-a081a72db7ef686a6cfae2cb"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-ef704498d3a122f2821c1283",
+            "source_url": "https://data.sec.gov/submissions/CIK0002103076.json",
+            "checked_at": "2026-10-20T01:47:05.858699+00:00",
+            "subject": "OPay",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "SG",
+              "city": "Singapore",
+              "address": "30 RAFFLES PLACE #21-01, SINGAPORE 048622"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "SG",
+          "province": "",
+          "city": "Singapore",
+          "evidence_ids": [
+            "geo-ef704498d3a122f2821c1283"
+          ]
+        }
       },
       "article_location": "尼日利亚：原文明示的起步市场及主要经营市场，未披露注册地或主要总部。",
       "source": "铅笔道",
