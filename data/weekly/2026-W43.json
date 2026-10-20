@@ -5,12 +5,12 @@
   "start_date": "2026-10-19",
   "end_date": "2026-10-25",
   "summary": {
-    "total_companies": 74,
-    "financing_events": 8,
-    "ipo_events": 1,
-    "milestone_events": 27,
+    "total_companies": 115,
+    "financing_events": 14,
+    "ipo_events": 3,
+    "milestone_events": 46,
     "negative_events": 0,
-    "active_days": 2
+    "active_days": 3
   },
   "top10": [
     {
@@ -182,6 +182,439 @@
       }
     },
     {
+      "company_raw_name": "DeepSeek",
+      "identity_mentions": [
+        {
+          "name": "DeepInfer",
+          "relation": "product",
+          "evidence": "DeepSeek宣布，将其内部推理框架DeepInfer「开源」。"
+        },
+        {
+          "name": "deepseek-recipe",
+          "relation": "product",
+          "evidence": "DeepSeek还同步开源了生产级Token编解码组件deepseek-recipe。"
+        }
+      ],
+      "title": "刚刚，DeepSeek开源自家推理框架！",
+      "company": "DeepSeek",
+      "score": 100,
+      "sector": "人工智能基础设施 / 大模型推理",
+      "financing": "",
+      "source": "量子位",
+      "location": "浙江省 / 杭州市",
+      "article_location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/w-e7bdkr2_bTGnGCiExO9A",
+      "article_title": "刚刚，DeepSeek开源自家推理框架！",
+      "event_desc": "DeepSeek宣布开源内部推理框架DeepInfer及生产级Token编解码组件deepseek-recipe。文章称，DeepInfer已用于DeepSeek V4.1 Flash的大规模推理服务，兼容英伟达GPU与华为昇腾NPU，支持专家负载均衡、推测解码和滑动窗口缓存重建；技术报告披露，动态验证长度相较固定验证5个Token的方案使线上吞吐量进一步提升6%。deepseek-recipe负责API请求编码、模型输出解析及不同接口的协议适配。",
+      "insight": "此次开放的不只是模型运行引擎，还包括请求编码、工具调用解析等接口处理逻辑，使第三方部署者能够同时复用推理优化机制与官方API的处理方式。两者互补，有助于减少自行部署时计算执行与应用接入之间的适配工作；文中线上性能来自DeepSeek自身部署，不能直接视为其他硬件和负载下的运行表现。",
+      "event_headline": "DeepSeek开源生产推理框架与API编解码组件",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-20",
+        "event_date": null,
+        "observed_date": "2026-10-20",
+        "review_required": true
+      },
+      "published_date": "2026-10-20",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "所供全文明确DeepSeek开源DeepInfer和deepseek-recipe，两者是同一企业的互补软件组件，不新增企业。稳定主体及已确认别名可继承，政府同主体总部正文支持杭州归属，无须因旧无来源深圳字段退回地点未知。生产推理框架及API编解码逻辑的公开，是不同于V4.1-Flash-1017模型发布、Search/Fetch开放、DSec和Harness更新的新事实，不能套用同版本转载的旧排除裁决。原始发布时间2026-10-20T11:23:00Z满足七日窗口。历史检索存在historical_normalized_decision_mismatch，因此完整新增性保留uncertain，但不否定当前全文支持的开源进展；本次不修改任何旧待核或排除结论。",
+      "event_headline_source": "1327bf0176343a17d25ff5a4250fc226611358a0735a11b8e92b2e0ff618d7a1",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "可复用既有已审模型事件尚未建立独立标杆资格的边界。本次开源及公司生产数据增强产业观察价值，但缺少已捕获的同条件竞品比较和第三方部署验证，不能据开源、杭州身份或内部吞吐规模自动授予全国标杆标签。",
+        "evidence_ids": [
+          "article:582e794fb8a2e605",
+          "prior_decision:57fb9024d657db8d"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight Agent · 全文逐事件定向复核",
+        "candidate_id": "bd155e47077b0333f7013fda3f90af86e72c14e32c02f910c6e3531b7c854c72",
+        "input_row_sha256": "68bff697d7d4b6a078f2b1933868bba2366838ca2fbb4080c321c9247035bad2",
+        "reason": "所供全文明确DeepSeek开源DeepInfer和deepseek-recipe，两者是同一企业的互补软件组件，不新增企业。稳定主体及已确认别名可继承，政府同主体总部正文支持杭州归属，无须因旧无来源深圳字段退回地点未知。生产推理框架及API编解码逻辑的公开，是不同于V4.1-Flash-1017模型发布、Search/Fetch开放、DSec和Harness更新的新事实，不能套用同版本转载的旧排除裁决。原始发布时间2026-10-20T11:23:00Z满足七日窗口。历史检索存在historical_normalized_decision_mismatch，因此完整新增性保留uncertain，但不否定当前全文支持的开源进展；本次不修改任何旧待核或排除结论。",
+        "scope": {
+          "technology_evidence": "正文报道DeepInfer已用于V4.1 Flash大规模推理服务，公开版本支持该模型，兼容英伟达GPU与华为昇腾NPU，并提供专家负载均衡、推测解码和滑动窗口缓存重建机制；同步公开的deepseek-recipe处理API请求编码、工具调用及输出解析和协议适配。动态验证长度带来额外6%吞吐提升是文中转述的公司线上技术报告结果。",
+          "value_reason": "本次新增价值在于第三方部署者可以同时复用计算执行优化与官方接口处理逻辑，减少模型运行、工具调用和应用接入之间的适配断层。对杭州模型部署、推理基础设施及智能体企业，优先验证目标硬件兼容性、接口一致性和真实负载表现；不能将DeepSeek自身集群数据直接外推为第三方部署收益，也不能据此认定此前API故障已解决。"
+        },
+        "stage": {
+          "status": "据报道已开源，推理框架已用于内部生产；性能为公司报告主张",
+          "reason": "正文明确宣布开源并给出两个官方仓库链接，且称DeepInfer已投入内部大规模服务，非未来计划。本轮提供的是报道全文，不是已独立读取的仓库内容；不补造许可证、完整模型覆盖或跨硬件实测结果。新闻日为2026-10-20，精确开源事件日未明确，首次收录时间未知。"
+        },
+        "history": {
+          "result": "uncertain",
+          "evidence_ids": [
+            "history_lookup:a7498ad7555a53f5",
+            "accepted_history:0059924beb11e32d",
+            "accepted_history:0ce074f776a7df00",
+            "accepted_history:fee5adc7eeea25f4",
+            "accepted_history:a11c70966626e98d",
+            "accepted_history:acb664257ffa04b4",
+            "accepted_history:bc73adccffd6ce79",
+            "prior_decision:eb039cfd8aedceee",
+            "prior_decision:1615af08ab103075",
+            "prior_decision:b1dc62a56ac9b5f3",
+            "prior_decision:f819bbdc17ee0dd2",
+            "prior_decision:bc6361c05673a7de",
+            "prior_decision:8cfeb09ee9b172af",
+            "prior_decision:a897e773152eb732",
+            "prior_decision:32fffa5346c94646",
+            "prior_decision:e4762b303f8d53bf",
+            "prior_decision:b13f1232e1b4e9fc",
+            "prior_decision:cee8b3a460f77934",
+            "prior_decision:ffec7539db669705",
+            "prior_decision:57fb9024d657db8d",
+            "prior_decision:45ea26fb925b103f",
+            "prior_decision:c6611f3e33126b7b",
+            "prior_decision:80ae9a27f89f46e1"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:eb039cfd8aedceee",
+              "comparison": "different_event",
+              "reason": "旧项为Harness v0.2桌面预览版及账号、插件和后台任务，本次为生产推理框架与API编解码组件开源。"
+            },
+            {
+              "evidence_id": "prior_decision:1615af08ab103075",
+              "comparison": "different_event",
+              "reason": "同为Harness桌面产品裁决，不覆盖DeepInfer或deepseek-recipe的公开。"
+            },
+            {
+              "evidence_id": "prior_decision:b1dc62a56ac9b5f3",
+              "comparison": "different_event",
+              "reason": "旧项是DSec训练环境资源超卖、增量保存及扩容计划，与模型生产推理和API处理组件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:f819bbdc17ee0dd2",
+              "comparison": "different_event",
+              "reason": "旧待核针对用户观察API输出变化及未经确认的模型更新，本次开源不证明旧测试的版本或稳定性能提升。"
+            },
+            {
+              "evidence_id": "prior_decision:bc6361c05673a7de",
+              "comparison": "different_event",
+              "reason": "旧待核是API输出对照测试证据不足；组件公开不能解除其重复测试缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:8cfeb09ee9b172af",
+              "comparison": "different_event",
+              "reason": "旧项为V4.1-Flash-1017模型更新及Search/Fetch接口开放；本次公开底层推理引擎和请求编解码逻辑，并非再次报道模型发布。"
+            },
+            {
+              "evidence_id": "prior_decision:a897e773152eb732",
+              "comparison": "different_event",
+              "reason": "旧待核为10月15日API故障及当时杭州属地证据不足，本次没有故障原因或整改完成证据，不改动其后续补证结论。"
+            },
+            {
+              "evidence_id": "prior_decision:32fffa5346c94646",
+              "comparison": "different_event",
+              "reason": "该旧排除针对同一V4.1-Flash-1017模型更新的重复报道。本次是两个基础软件组件开源，具有独立事实身份，不继承重复排除，也不撤销旧排除。"
+            },
+            {
+              "evidence_id": "prior_decision:e4762b303f8d53bf",
+              "comparison": "different_event",
+              "reason": "旧项为乌兰察布1GW数据中心规划及融资背景，本次软件开源不提供建设、采购或资金落实增量。"
+            },
+            {
+              "evidence_id": "prior_decision:b13f1232e1b4e9fc",
+              "comparison": "different_event",
+              "reason": "旧待核针对数据中心芯片型号和报价测算；兼容昇腾NPU不能证明采购950DT、签约或实际投资额。"
+            },
+            {
+              "evidence_id": "prior_decision:cee8b3a460f77934",
+              "comparison": "different_event",
+              "reason": "旧项仍为未经确认的API输出变化，本次开源不能反向确认10月12日已发生特定模型更新。"
+            },
+            {
+              "evidence_id": "prior_decision:ffec7539db669705",
+              "comparison": "different_event",
+              "reason": "旧待核涉及至少800亿元拟融资的轮次和金额口径，本次没有融资交割或口径澄清证据。"
+            },
+            {
+              "evidence_id": "prior_decision:57fb9024d657db8d",
+              "comparison": "different_event",
+              "reason": "旧补证裁决采信模型快照与搜索工具链发布；模型所用生产推理框架及API编解码组件的公开是新的发布对象。"
+            },
+            {
+              "evidence_id": "prior_decision:45ea26fb925b103f",
+              "comparison": "different_event",
+              "reason": "旧项为API故障取得杭州主体证据后的预警采信；本次性能报告不构成故障恢复或整改有效的证据。"
+            },
+            {
+              "evidence_id": "prior_decision:c6611f3e33126b7b",
+              "comparison": "different_event",
+              "reason": "旧待核为拟领投Winverse AI及跨主体同笔融资去重，本次无投资协议、交割或具身研发组织增量。"
+            },
+            {
+              "evidence_id": "prior_decision:80ae9a27f89f46e1",
+              "comparison": "different_event",
+              "reason": "该旧排除同样针对V4.1-Flash-1017重复发布报道；本次DeepInfer与deepseek-recipe开源未被其覆盖，不能按企业或共用模型名称一并排除。"
+            }
+          ],
+          "change_reason": "可见4月至9月历史覆盖资本、模型、视觉能力和训练沙盒，10月记录覆盖Harness、算力规划、模型更新、接口工具、故障及拟投资；未显示本次两个组件开源已收录。本次新增证据明确公开对象和用途，足以区别旧模型转载排除，但历史归一化错误使完整去重结论仍不确定，不宣称全局首次或改写旧事件裁决。",
+          "new_evidence_ids": [
+            "article:582e794fb8a2e605"
+          ]
+        },
+        "evidence_ids": [
+          "article:582e794fb8a2e605",
+          "identity_registry:2dcd4f408df25406",
+          "geo-8d153ebc1f63d3a87bb41366",
+          "history_lookup:a7498ad7555a53f5"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "可复用既有已审模型事件尚未建立独立标杆资格的边界。本次开源及公司生产数据增强产业观察价值，但缺少已捕获的同条件竞品比较和第三方部署验证，不能据开源、杭州身份或内部吞吐规模自动授予全国标杆标签。",
+          "evidence_ids": [
+            "article:582e794fb8a2e605",
+            "prior_decision:57fb9024d657db8d"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "吉利",
+      "identity_mentions": [
+        {
+          "name": "Eva Cab",
+          "relation": "product",
+          "evidence": "该车型为吉利旗下原生开发的Robotaxi（Eva Cab）"
+        }
+      ],
+      "title": "张雪机车，首款电摩要来了；曝大众曾考虑在中国市场联手比亚迪，对比亚迪成本优势惊讶丨汽车交通日报",
+      "company": "吉利",
+      "score": 100,
+      "sector": "自动驾驶整车",
+      "financing": "",
+      "source": "创业邦",
+      "location": "浙江省 / 杭州市 / 滨江区 / 江陵路1760号",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区 / 江陵路1760号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-110b845e67acfb22a884b77a"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "吉利",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-110b845e67acfb22a884b77a",
+            "source_url": "https://zgh.com/contact/",
+            "checked_at": "2026-10-20T02:21:23.440123+00:00",
+            "subject": "吉利",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "江陵路1760号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-110b845e67acfb22a884b77a"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-87d7bfad176bce736a12",
+      "company_canonical_name": "吉利",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/ooh6YRXdmgjFmxMk0IgA-w",
+      "article_title": "张雪机车，首款电摩要来了；曝大众曾考虑在中国市场联手比亚迪，对比亚迪成本优势惊讶丨汽车交通日报",
+      "event_desc": "吉利旗下原生开发的Robotaxi（Eva Cab）首台工程样车下线，曹操出行深度参与产品定义和研发。报道所述2027年量产与商业化运营计划针对曹操出行定制版。",
+      "insight": "Eva Cab以原生开发Robotaxi的路径进入工程样车阶段，体现了围绕自动驾驶出租车用途开发整车的方向。曹操出行参与产品定义，为车辆研发引入运营端需求，但原文尚未披露具体车辆设计及自动驾驶性能。",
+      "event_headline": "吉利旗下Eva Cab首台工程样车下线，采用原生Robotaxi开发路径",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-20",
+        "event_date": null,
+        "observed_date": "2026-10-20",
+        "review_required": true
+      },
+      "published_date": "2026-10-20",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确Eva Cab为吉利旗下原生开发的Robotaxi，并报道首台工程样车下线，足以支持具体整车开发进展。吉利按原文企业口径保留，Eva Cab是产品，曹操出行是参与产品定义和研发的另一主体，不推定具体制造法人或合并双方身份。工程样车为面向运营用途的专用整车开发提供观察节点，但不代表量产、商业运营或自动驾驶性能已经验证。报道发布于2026-10-20，符合近7日窗口；2027年量产和商业运营仅为曹操出行定制版计划。历史银河战舰700上市及其先watch后keep裁决均为另一产品事件，不构成本条重复或既往排除。地点证据支持杭州滨江普通经营关联，不升级为注册或总部资格。",
+      "event_headline_source": "8aa55adc80c0324b17bfcb5967efa97f6a33bcc2edeb4d8fe8b9d9f05aa396bd",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-110b845e67acfb22a884b77a",
+          "source_url": "https://zgh.com/contact/",
+          "checked_at": "2026-10-20T02:21:23.440123+00:00",
+          "subject": "吉利",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "滨江区",
+            "address": "江陵路1760号"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "工程样车及运营方参与研发足以支持事件价值，但所给证据未独立建立吉利在原生Robotaxi领域的行业领先地位；报道中的“首款”不直接转为全国标杆资格。",
+        "evidence_ids": [
+          "article:42b8be891acae835"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight Agent · 全文逐事件定向复核",
+        "candidate_id": "13426d5ae08cef805e7a695361ef8728d40ee5ee75b4f5a5d5232bdbc0bbd88d",
+        "input_row_sha256": "ed2ac405fc6e3b954ebe5f722eb89b56d3b71b31b2cbfbffe43d0a2747c347a8",
+        "reason": "原文明确Eva Cab为吉利旗下原生开发的Robotaxi，并报道首台工程样车下线，足以支持具体整车开发进展。吉利按原文企业口径保留，Eva Cab是产品，曹操出行是参与产品定义和研发的另一主体，不推定具体制造法人或合并双方身份。工程样车为面向运营用途的专用整车开发提供观察节点，但不代表量产、商业运营或自动驾驶性能已经验证。报道发布于2026-10-20，符合近7日窗口；2027年量产和商业运营仅为曹操出行定制版计划。历史银河战舰700上市及其先watch后keep裁决均为另一产品事件，不构成本条重复或既往排除。地点证据支持杭州滨江普通经营关联，不升级为注册或总部资格。",
+        "scope": {
+          "technology_evidence": "正文第2条报道吉利旗下Eva Cab首台工程样车已下线，曹操出行深度参与产品定义和研发，定制版计划2027年量产并投入商业化运营。",
+          "value_reason": "原生Robotaxi进入工程样车阶段，说明围绕自动驾驶出租车用途的整车开发形成实物节点；运营方参与研发为观察车辆开发如何响应运营需求提供线索，不能据此认定已具备规模交付能力。"
+        },
+        "stage": {
+          "status": "reported_engineering_prototype_completed_with_upcoming_custom_variant",
+          "reason": "10月20日为曹操出行宣布日期，样车实际下线日期未明确。已发生事实是工程样车下线；2027年定制版量产与商业运营、2030年累计投放目标均为未来规划。“中国首款”为报道表述，未提供独立比较验证。"
+        },
+        "history": {
+          "result": "uncertain",
+          "evidence_ids": [
+            "history_lookup:a7498ad7555a53f5",
+            "accepted_history:c92083f14b6c92b2",
+            "prior_decision:af8f73ced2a0a3fe",
+            "prior_decision:0dfc634af047c598"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:af8f73ced2a0a3fe",
+              "comparison": "different_event",
+              "reason": "此前watch针对银河战舰700上市及其主体、地点核实，不涉及Eva Cab工程样车；不能把另一车型的待核裁决延伸为吉利所有事件的限制。"
+            },
+            {
+              "evidence_id": "prior_decision:0dfc634af047c598",
+              "comparison": "different_event",
+              "reason": "后续keep仍针对银河战舰700上市，与本条Robotaxi工程样车的产品和开发节点不同，不是本条已收录证明。"
+            }
+          ],
+          "change_reason": "所给已收录及既往裁决均为另一事件，本条不是对其改判。未见Eva Cab同事件记录，但稳定法人映射及确认别名覆盖不足，因此不宣称首次发现或确定无重复；若与曹操出行条目共同汇总，应关联同一工程样车事件，不能重复计为两个独立进展。",
+          "new_evidence_ids": [
+            "article:42b8be891acae835"
+          ]
+        },
+        "evidence_ids": [
+          "article:42b8be891acae835",
+          "identity_registry:2dcd4f408df25406",
+          "geo-110b845e67acfb22a884b77a",
+          "history_lookup:a7498ad7555a53f5",
+          "accepted_history:c92083f14b6c92b2",
+          "prior_decision:af8f73ced2a0a3fe",
+          "prior_decision:0dfc634af047c598"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "工程样车及运营方参与研发足以支持事件价值，但所给证据未独立建立吉利在原生Robotaxi领域的行业领先地位；报道中的“首款”不直接转为全国标杆资格。",
+          "evidence_ids": [
+            "article:42b8be891acae835"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "Anthropic",
       "title": "DeepSeek V4.1 Flash新版本发布，许愿式编程一键成真；微软推出“AI学生模拟器”丨AIGC日报",
       "company": "Anthropic",
@@ -344,6 +777,454 @@
             "article:4fab20b80db5e8e6"
           ]
         }
+      }
+    },
+    {
+      "company_raw_name": "Anthropic",
+      "title": "黑石放贷",
+      "company": "Anthropic",
+      "score": 70,
+      "sector": "人工智能与算力基础设施",
+      "financing": "拟融资约600亿美元，其中优先级债务约420亿美元，由博通提供剩余价值担保；次级债务约180亿美元，黑石承诺投资其中90亿美元，票面利率为10%。",
+      "source": "投资界",
+      "location": "US / California / San Francisco",
+      "article_location": "美国加利福尼亚州旧金山（复用已审同主体注册地证据）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "subject_evidence_ids": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Anthropic",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-98b8e2309e1c91685311fb4f"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+            "source_url": "https://www.anthropic.com/privacy",
+            "checked_at": "2026-10-12T03:44:07.679932+00:00",
+            "subject": "Anthropic",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-c70eca6b0f88f44d81a4",
+      "company_canonical_name": "Anthropic",
+      "identity_status": "confirmed",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/q6WInu7-S-vreHWMCeaglQ",
+      "article_title": "黑石放贷",
+      "event_desc": "据投资界援引《金融时报》等报道，Anthropic推进约600亿美元的Project North Star芯片融资方案，用于Google TPU采购和租赁。约420亿美元为优先级债务，由博通提供剩余价值担保；另有180亿美元次级债务，黑石承诺参与90亿美元。报道未披露全部融资完成。",
+      "insight": "Project North Star将模型公司的算力采购需求转化为分层信贷资产：博通对优先债提供剩余价值担保，降低贷款人处置芯片资产时的不确定性；次级债承担更后顺位风险。这种结构有助于为专用算力设备筹集长期资金，融资落地仍取决于债务认购与担保条款的执行。",
+      "event_headline": "Anthropic北极星融资方案补充条款：优先级债务由博通提供剩余价值担保",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-20",
+        "event_date": null,
+        "observed_date": "2026-10-20",
+        "review_required": true
+      },
+      "published_date": "2026-10-20",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文将Anthropic列为Google TPU采购及租赁融资需求方，黑石为据报道已承诺参与次级债务的投资方，博通为优先级债务的剩余价值担保提供方，角色不能混同。600亿美元北极星方案、180亿美元次级债、黑石90亿美元参与和10%票息已于10月20日收录，换来源及“已承诺”措辞不构成独立新事件；本次明确补充约420亿美元优先级债务及博通剩余价值担保，属于同一事件的实质结构增量，可按原事件身份保留。其价值在于说明算力资产剩余价值如何被用于债务分层与风险分配，而非重复报道融资规模。报道发布于2026年10月20日，符合窗口；仍属媒体披露的推进中方案，不能认定融资完成、算力交付或融资成本已下降。该主体已审为美国企业，不列杭州负面预警；第三季度经营数据旧待核裁决不因本条而解除。",
+      "event_headline_source": "994281fb935b1fce29726079e8203f3704232d163c88dc9005a92ef92e3ccfd2",
+      "event_identity": {
+        "canonical_id": "据文章援引《金融时报》报道，Anthropic正在推进代号Project North Star的约600亿美元芯片融资计划，用于采购和租赁Google TPU。融资包括约420亿美元优先级债务及180亿美元次级债务，前者由博通提供剩余价值担保。黑石已承诺向次级债务部分投资90亿美元，相关次级债票面利率为10%；文章未披露融资整体完成。"
+      },
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+          "source_url": "https://www.anthropic.com/privacy",
+          "checked_at": "2026-10-12T03:44:07.679932+00:00",
+          "subject": "Anthropic",
+          "role": "registered",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "San Francisco"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "复用同事件已审未建立标杆资格的结论。本次增加融资结构条款，但没有新增独立行业地位比较证据，不凭企业知名度、融资规模或上游标签授予全国标杆资格。",
+        "evidence_ids": [
+          "accepted_history:eea21c465ab6b207",
+          "article:775ac4ea661a7b06"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight Agent · 全文逐事件定向复核",
+        "candidate_id": "a985d0925cd831f30a4890fb522974a282aab47f0770aec39d2516f46987595f",
+        "input_row_sha256": "bb8dcdb4ddee5d49eaa88a243fe3707ed7059d27dbf2b0a1392ed58be916a467",
+        "reason": "原文将Anthropic列为Google TPU采购及租赁融资需求方，黑石为据报道已承诺参与次级债务的投资方，博通为优先级债务的剩余价值担保提供方，角色不能混同。600亿美元北极星方案、180亿美元次级债、黑石90亿美元参与和10%票息已于10月20日收录，换来源及“已承诺”措辞不构成独立新事件；本次明确补充约420亿美元优先级债务及博通剩余价值担保，属于同一事件的实质结构增量，可按原事件身份保留。其价值在于说明算力资产剩余价值如何被用于债务分层与风险分配，而非重复报道融资规模。报道发布于2026年10月20日，符合窗口；仍属媒体披露的推进中方案，不能认定融资完成、算力交付或融资成本已下降。该主体已审为美国企业，不列杭州负面预警；第三季度经营数据旧待核裁决不因本条而解除。",
+        "scope": {
+          "technology_evidence": "正文称Project North Star约600亿美元芯片融资用于Google TPU采购和租赁，其中约420亿美元为优先级债务，“由博通提供剩余价值担保”，另有180亿美元次级债务，黑石据报道承诺投资90亿美元。",
+          "value_reason": "相较已收录的融资总额与长期租赁安排，本次新增的优先级规模和剩余价值担保揭示了具体风险分配机制，可供杭州算力项目比较资产价值支持、债务层级与长期付款安排。尚不能判断担保覆盖范围、执行条件或该结构是否降低整体资金成本。"
+        },
+        "stage": {
+          "status": "reported_financing_plan_upcoming",
+          "reason": "正文使用“正在推进”并援引《金融时报》披露投资承诺，未给出全额融资交割或芯片交付证据。“上市后”信用评级与成本下降为黑石预期，不是既成事实。新闻发布时间为2026-10-20T07:24:00Z；交易具体日期未知。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:3759faee6d2f4d53",
+            "accepted_history:5f63d1637094e575",
+            "accepted_history:c234511a046a6a3a",
+            "accepted_history:42dd026d10f0f7fe",
+            "accepted_history:43f467afac17279b",
+            "accepted_history:411b5d17b87a0b2b",
+            "accepted_history:eea21c465ab6b207",
+            "prior_decision:98796d7b80204373",
+            "prior_decision:f4c677f50813f832",
+            "prior_decision:047d2adbaf681fa9",
+            "prior_decision:87e274f907756173",
+            "history_lookup:a7498ad7555a53f5"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:98796d7b80204373",
+              "comparison": "different_event",
+              "reason": "该待核裁决针对第三季度经营数字的来源矛盾及调整后指标口径。本条融资结构新增证据不澄清这些财务问题，维持旧事项待核，不重复采信文中第三季度数字。"
+            },
+            {
+              "evidence_id": "prior_decision:f4c677f50813f832",
+              "comparison": "new_progress",
+              "reason": "同一北极星芯片融资方案；此前已采信总规模、次级债、黑石参与及租赁付款安排，本次补充约420亿美元优先级债务与博通剩余价值担保，不重置事件身份或首次收录时间。"
+            },
+            {
+              "evidence_id": "prior_decision:047d2adbaf681fa9",
+              "comparison": "different_event",
+              "reason": "同为第三季度经营数据待核记录，与本条芯片融资结构不同；新文章重复相关营收数字不构成对原始来源及指标定义的补证。"
+            },
+            {
+              "evidence_id": "prior_decision:87e274f907756173",
+              "comparison": "new_progress",
+              "reason": "这是同一融资事件的另一份既有采信回执，不是第二次独立融资。本次仅保留新增优先级规模及博通担保条款，原有方案阶段与未完成边界不变。"
+            }
+          ],
+          "change_reason": "8月17日记录为二季度经营及IPO筹备，9月15日为IPO地点和募资目标，10月8日为IPO、客户结构与基础设施投入，均不等于本条融资结构；10月11日模型发布、10月12日使用政策与安全测试权限是另外事件。10月20日accepted_history:eea21c465ab6b207已收录北极星方案，因此600亿美元规模、180亿美元次级债、黑石90亿美元及10%票息均非新增。article:775ac4ea661a7b06新增约420亿美元优先级债务和博通剩余价值担保，足以作为同事件结构增量保留，不以新URL或报道措辞更新判新。现有历史仅证明10月20日已有收录，不证明那是实际首次收录。",
+          "new_evidence_ids": [
+            "article:775ac4ea661a7b06"
+          ]
+        },
+        "evidence_ids": [
+          "article:775ac4ea661a7b06",
+          "accepted_history:eea21c465ab6b207",
+          "prior_decision:f4c677f50813f832",
+          "prior_decision:87e274f907756173",
+          "prior_decision:98796d7b80204373",
+          "prior_decision:047d2adbaf681fa9",
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "复用同事件已审未建立标杆资格的结论。本次增加融资结构条款，但没有新增独立行业地位比较证据，不凭企业知名度、融资规模或上游标签授予全国标杆资格。",
+          "evidence_ids": [
+            "accepted_history:eea21c465ab6b207",
+            "article:775ac4ea661a7b06"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "三星电子",
+      "title": "三星“被迫”投片台积电",
+      "company": "三星电子",
+      "score": 70,
+      "sector": "半导体／高带宽内存",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "KR",
+      "article_location": "韩国",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "KR",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-c394ea289ffdcdb463af2a18"
+        ],
+        "subject_evidence_ids": [
+          "geo-c394ea289ffdcdb463af2a18"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "三星电子",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "KR",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-c394ea289ffdcdb463af2a18"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-c394ea289ffdcdb463af2a18",
+            "source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_Interim_Report.pdf",
+            "checked_at": "2026-10-20T01:39:45.455510+00:00",
+            "subject": "三星电子",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "KR"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-255a4dc2b19440690a03",
+      "company_canonical_name": "三星电子",
+      "identity_status": "confirmed",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/mWzDcsk4ZiHrG0LBGs2h3Q",
+      "article_title": "三星“被迫”投片台积电",
+      "event_desc": "据文章转述《首尔经济日报》援引业内人士的报道，三星电子已决定接受英伟达要求，在定制高带宽内存NVHBM项目中采用台积电3nm工艺制造基础芯片，存储核心芯片则采用第六代DRAM制程。NVHBM将英伟达定制的内存控制器集成至基础芯片。三星仍计划对标准HBM及其他客户的定制产品延续内部一体化生产，并正在评估利用自家晶圆代工厂生产NVHBM基础芯片的可能性。相关公司尚未公开确认具体合作细节，实际量产与产能分配安排未披露。",
+      "insight": "这项安排体现出三星在英伟达定制HBM项目中，从内部一体化制造转向按客户架构组织跨厂协作：内存控制器进入基础芯片后，先进逻辑制造与DRAM的配合成为产品设计的重要环节。调整目前限于特定客户项目，不能据此判断三星全面退出HBM基础芯片自制。",
+      "event_headline": "据报道三星电子决定在NVHBM项目采用台积电3nm工艺",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-19",
+        "event_date": null,
+        "observed_date": "2026-10-19",
+        "review_required": true
+      },
+      "published_date": "2026-10-19",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "全文保留首尔经济日报归因，仅采信该媒体披露的特定方案，不认定正式合同、实际产能或全部订单转移。不能把竞争关系调整写成外地企业经营危机并塞入杭州预警。",
+      "event_headline_source": "cf5fff40629209aeecfd2773357a8c878162733ccedf3e24aa8c641db52ea6cb",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-c394ea289ffdcdb463af2a18",
+          "source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_Interim_Report.pdf",
+          "checked_at": "2026-10-20T01:39:45.455510+00:00",
+          "subject": "三星电子",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "KR"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight Agent · 全文逐事件定向复核",
+        "candidate_id": "97268c0373805e646558df2fde25ddf17fa155ad934b84ee282ba920380784a0",
+        "input_row_sha256": "ee17b4a5992fb7bae057be3b91d2b517566507a8aa1d18c346f6a7ff97ba8cc1",
+        "reason": "全文保留首尔经济日报归因，仅采信该媒体披露的特定方案，不认定正式合同、实际产能或全部订单转移。不能把竞争关系调整写成外地企业经营危机并塞入杭州预警。",
+        "scope": {
+          "technology_evidence": "报道三星拟在NVHBM基础芯片采用台积电3nm，并将定制控制器下沉基础芯片。",
+          "value_reason": "定制HBM的逻辑与DRAM分工、供应商一致性和验证流程变化，是具体关键部件供给线索。"
+        },
+        "stage": {
+          "status": "媒体援引业内人士的制造安排；未公开确认量产",
+          "reason": "三星其他HBM维持内部一体化、并评估自家替代方案，不等于所有HBM均外包或合作已量产。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:a7498ad7555a53f5",
+            "accepted_history:7dd37aafb0855965",
+            "accepted_history:e6ebb623a7f5180f",
+            "accepted_history:1ba7de6c08a11b12",
+            "accepted_history:806ec3be217b9572",
+            "accepted_history:3a46b9afc7208e75",
+            "accepted_history:67dbfa9aaff277ef",
+            "accepted_history:c31339994b15e004",
+            "accepted_history:e3138fd5af50e0c8"
+          ],
+          "prior_decisions": [],
+          "change_reason": "历史HBM样品、园区规划、财务预告及AMD合作均非英伟达NVHBM基础芯片分工；展会watch不被改判。",
+          "new_evidence_ids": [
+            "article:a15eacfb10058846"
+          ]
+        },
+        "evidence_ids": [
+          "article:a15eacfb10058846",
+          "history_lookup:a7498ad7555a53f5"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "阿里",
+      "identity_mentions": [
+        {
+          "name": "Qwen",
+          "relation": "product",
+          "evidence": "阿里旗下通义万相和Qwen"
+        }
+      ],
+      "title": "OpenAI自曝“模型偷钱”；苹果AI国内落地敲定，12月正式上线；17岁AI天才少年离职月之暗面，曾参与Kimi模型研发丨AI周报",
+      "company": "阿里",
+      "score": 65,
+      "sector": "图像生成与编辑",
+      "financing": "",
+      "source": "创业邦",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "subject_evidence_ids": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-96adb38b9ecaed1e412df1a7"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+            "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+            "checked_at": "2026-10-15T18:26:21.338217+00:00",
+            "subject": "阿里",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路969号"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1d99cc69a8ba22eb7d71",
+      "company_canonical_name": "阿里",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/FUYwy-9s1tctDgIO7NtTcw",
+      "article_title": "OpenAI自曝“模型偷钱”；苹果AI国内落地敲定，12月正式上线；17岁AI天才少年离职月之暗面，曾参与Kimi模型研发丨AI周报",
+      "event_desc": "10月11日，千问AI平台宣布Qwen-Image-2.1 Pro和Turbo API上线，支持开发者接入图像生成与编辑能力，无需自行部署模型和管理推理环境；Qwen-Image-2.1-Turbo权重同步开放。",
+      "insight": "API与开放权重提供了两种接入方式：前者免去模型部署和推理环境管理，后者为自行部署留下空间。产品因此可进入设计、电商和内容生产工作流，而非只在单一交互界面使用。",
+      "event_headline": "阿里Qwen图像模型上线API并开放Turbo权重",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-18",
+        "event_date": null,
+        "observed_date": "2026-10-18",
+        "review_required": true
+      },
+      "published_date": "2026-10-18",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "全文明确阿里旗下千问AI平台的模型/API事件，使用原观察主体不增改别名或认定杭州。新闻10月18日回顾10月11日事实，按发布日而非事件年龄采信。",
+      "event_headline_source": "e22a4d3ec27cf29f939db930e6394f54428889d7e6af95f69dceb8ae5feddd8a",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+          "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+          "checked_at": "2026-10-15T18:26:21.338217+00:00",
+          "subject": "阿里",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "文一西路969号"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight Agent · 全文逐事件定向复核",
+        "candidate_id": "e2c03f38f01c36781dda31c72cfca488a53083f8c77c1fda9bfadb6a4166ff0c",
+        "input_row_sha256": "acfb18ccf35362c3e6ce72aade127e4f3876908d2f120e176cbe4e72921d212b",
+        "reason": "全文明确阿里旗下千问AI平台的模型/API事件，使用原观察主体不增改别名或认定杭州。新闻10月18日回顾10月11日事实，按发布日而非事件年龄采信。",
+        "scope": {
+          "technology_evidence": "Qwen-Image-2.1 Pro及Turbo API已上线，Turbo权重开放，支持图像生成编辑接入。",
+          "value_reason": "开发者获得托管API与可部署权重两种供给方式，构成具体AI产品和开发者商业化入口变化。"
+        },
+        "stage": {
+          "status": "据报道API已开放、权重已开放",
+          "reason": "无需自管推理是托管服务特征，不推导客户节约金额或已达使用规模。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:a7498ad7555a53f5",
+            "accepted_history:dd9016827904a7f3",
+            "accepted_history:2f9b285ab8842b7e"
+          ],
+          "prior_decisions": [],
+          "change_reason": "阿里历史千问办公电商版与QwenGyre训练框架均非此图像模型API；同轮阿里苹果计划也不是该产品，不按公司名粗并。",
+          "new_evidence_ids": [
+            "article:40994204901d8e6a"
+          ]
+        },
+        "evidence_ids": [
+          "article:40994204901d8e6a",
+          "history_lookup:a7498ad7555a53f5"
+        ]
       }
     },
     {
@@ -662,601 +1543,6 @@
           ]
         }
       }
-    },
-    {
-      "company_raw_name": "Manifold AI（流形空间）",
-      "identity_mentions": [
-        {
-          "name": "Manifold AI（流形空间）",
-          "relation": "same_entity",
-          "evidence": "Manifold AI（流形空间）成立于2025年5月"
-        },
-        {
-          "name": "WorldScape Policy",
-          "relation": "product",
-          "evidence": "基于 WorldScape 世界模型，Manifold AI研发了世界-动作模型 WorldScape Policy。"
-        },
-        {
-          "name": "WorldScape R²SI",
-          "relation": "product",
-          "evidence": "Manifold AI 提出了 WorldScape R²SI（Recursive Robot Self-Improvement，机器人递归自进化）框架"
-        }
-      ],
-      "title": "生态企业 | 登顶RoboDojo、超过GPT-6 Astra：［流形空间Manifold AI］推出R²SI",
-      "company": "Manifold AI（流形空间）",
-      "score": 60,
-      "sector": "具身智能与世界模型",
-      "financing": "企业简介称，公司成立半年多完成来自头部VC和华为的5轮投资；正文另称融资资金将用于新一代技术框架、多模态世界模型及相关基础设施平台建设，并推动具身智能场景落地与混合现实应用探索，未明确对应轮次、金额及完成日期。",
-      "source": "银杏谷资本",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "Manifold AI（流形空间）",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-6e87ca9f16086bf55257",
-      "company_canonical_name": "Manifold AI（流形空间）",
-      "identity_status": "confirmed",
-      "event_type": "重磅发布",
-      "link": "https://mp.weixin.qq.com/s/Vd2OH4iM5MwoAXwG6SLALg",
-      "article_title": "生态企业 | 登顶RoboDojo、超过GPT-6 Astra：［流形空间Manifold AI］推出R²SI",
-      "event_desc": "据文章，流形空间提出WorldScape R²SI机器人递归自进化框架，并以46.58的宏观进度分数取得RoboDojo-Agent总榜第一。框架由负责执行的内层Robot Agent和负责跨轮次复盘的外层Recursion Agent组成，外层可修订任务技能，也可将执行记录组织为训练数据更新动作模型，更新通过测试后发布。在push_T任务中，技能修订后首次以596步在600步预算内取得原生满分，后续同一布局降至389步；技能冻结后，在三种随机布局中分别以222、312、256步取得原生满分。",
-      "insight": "这次进展将机器人能力改进从单次动作生成扩展到执行后的技能修订与模型更新：push_T案例中，外层先修正夹持、转向和释放方式，冻结后的技能再用于三种随机布局，展示了经验复用的具体路径。该案例不调用动作模型，因此其成绩主要体现技能与执行系统的改进，不能全部归因于世界动作模型本身。",
-      "event_headline": "流形空间推出R²SI框架，将机器人执行经验用于技能与模型更新",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-18",
-        "event_date": null,
-        "observed_date": "2026-10-18",
-        "review_required": true
-      },
-      "published_date": "2026-10-18",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "继承流形空间已确认的稳定企业身份，正文明确其为WorldScape R²SI研发方，相关模型和框架是产品而非独立企业。投资机构文章披露双层Agent执行、复盘、技能修订及动作模型训练路径，并给出push_T预算内完成及冻结技能后随机布局测试结果，具有具体机器人系统研发价值。来源发布时间为2026年10月18日，符合最近7天窗口，推出及评测的确切事件日未知。历史收录是Pre A+融资及WorldScore相关事实，本次R²SI框架和RoboDojo任务结果为另一事件。保留为来源披露的阶段性技术线索，不将投资机构转述的榜首和超越表述认定为独立核验的通用能力结论，也不把融资背景和相关阅读作为本次新融资。地点未知不阻断正面收录。",
-      "event_headline_source": "b6d2bb95631e3330a90ed1567c79ddc7feece765a9c5ab7a031e926df752ffce",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "具体框架和试验足以支持技术线索，但全国标杆所需的独立行业地位依据尚未建立。现有排名、全面超越及首家等说法来自投资机构文章，缺少独立榜单与可比测试条件核验；历史is_national_star本身不是已完成资格审核的证据。",
-        "evidence_ids": [
-          "article:7b02cf225a90fbbd",
-          "accepted_history:83ec7d1625ad5892"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "quality_inspector Agent; overnight current Agent full-body and directed review",
-        "candidate_id": "7a061703df9a6170855e70f46fbaf9a5d58ca4ed5a18cb69e4a9c890c304e1d1",
-        "input_row_sha256": "d28d47075652be58a27bf0b54462b07f63fc739e0f1ada7f8e35fd0b4789206c",
-        "reason": "继承流形空间已确认的稳定企业身份，正文明确其为WorldScape R²SI研发方，相关模型和框架是产品而非独立企业。投资机构文章披露双层Agent执行、复盘、技能修订及动作模型训练路径，并给出push_T预算内完成及冻结技能后随机布局测试结果，具有具体机器人系统研发价值。来源发布时间为2026年10月18日，符合最近7天窗口，推出及评测的确切事件日未知。历史收录是Pre A+融资及WorldScore相关事实，本次R²SI框架和RoboDojo任务结果为另一事件。保留为来源披露的阶段性技术线索，不将投资机构转述的榜首和超越表述认定为独立核验的通用能力结论，也不把融资背景和相关阅读作为本次新融资。地点未知不阻断正面收录。",
-        "scope": {
-          "technology_evidence": "正文描述内层Robot Agent执行任务、外层Recursion Agent跨轮次修订Skill，并可组织执行记录训练reactive model；push_T不调用该模型，技能修订后以596步在600步预算内取得原生满分，后续同布局389步，冻结后在三种随机布局分别以222、312、256步完成。",
-          "value_reason": "具体任务展示将执行失败诊断转化为可复用技能的路径，并区分技能更新与模型训练两条改进机制，为评估机器人减少重复试错、迁移操作经验提供技术线索；尚不能据此认定工业场景的可靠性、经济性或通用自主进化已经成立。"
-        },
-        "stage": {
-          "status": "框架已披露，来源报告基准评测与任务试验结果",
-          "reason": "正文给出框架结构和任务执行记录，支持研发及实验阶段进展；push_T成绩主要对应技能和执行系统改进，不是该案例动作模型训练的证明。RoboDojo总榜第一及46.58分按文章披露归属，未提供独立读取的原始榜单记录；本次框架的客户部署、量产和收入未获证明。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "accepted_history:83ec7d1625ad5892",
-            "history_lookup:4c4c347500e3c7b1"
-          ],
-          "prior_decisions": [],
-          "change_reason": "2026年4月5日已收录的是数亿元Pre A+融资、既有世界模型业务及WorldScore成绩；本条新增R²SI双层Agent机制和RoboDojo任务试验，非旧融资换来源重报。当前检索未提供同一R²SI事件的既往收录或排除裁决，不认定全局首次发现。",
-          "new_evidence_ids": [
-            "article:7b02cf225a90fbbd"
-          ]
-        },
-        "evidence_ids": [
-          "identity_registry:2dcd4f408df25406",
-          "article:7b02cf225a90fbbd",
-          "accepted_history:83ec7d1625ad5892",
-          "history_lookup:4c4c347500e3c7b1"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "具体框架和试验足以支持技术线索，但全国标杆所需的独立行业地位依据尚未建立。现有排名、全面超越及首家等说法来自投资机构文章，缺少独立榜单与可比测试条件核验；历史is_national_star本身不是已完成资格审核的证据。",
-          "evidence_ids": [
-            "article:7b02cf225a90fbbd",
-            "accepted_history:83ec7d1625ad5892"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "华羽先翔",
-      "title": "全球人形机器人收入前五全是中国企业；宇树科技展示中心在天津建成投用丨智能制造日报",
-      "company": "华羽先翔",
-      "score": 60,
-      "sector": "低空经济／电动航空",
-      "financing": "",
-      "source": "创业邦",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "华羽先翔",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-da4d963839a416664a25",
-      "company_canonical_name": "华羽先翔",
-      "identity_status": "unresolved",
-      "event_type": "技术突破",
-      "link": "https://mp.weixin.qq.com/s/FKKj948LMswMykJC05-Y8Q",
-      "article_title": "全球人形机器人收入前五全是中国企业；宇树科技展示中心在天津建成投用丨智能制造日报",
-      "event_desc": "据报道，白志亮带队研发的鸿鹄eVTOL预生产原型机在2026 Inclusion·外滩大会公开亮相。报道同时称，华羽先翔已实现全倾转过渡飞行，为全球第二家、中国首家实现该项飞行的eVTOL企业。",
-      "insight": "全倾转过渡飞行连接垂直起降与机翼巡航，是这类飞行器从悬停走向完整飞行任务的关键能力。报道披露的过渡飞行进展与预生产原型机亮相，使华羽先翔值得从整机工程化角度研究；下一步应对齐两项事实对应的机型与试飞条件，判断能力推进到了哪一代产品。",
-      "event_headline": "华羽先翔鸿鹄预生产原型机亮相，披露全倾转飞行进展",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-18",
-        "event_date": null,
-        "observed_date": "2026-10-18",
-        "review_required": true
-      },
-      "published_date": "2026-10-18",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "定向改判：完整正文明确白志亮带领的华羽先翔与鸿鹄eVTOL预生产原型机、企业全倾转过渡飞行的关系，主体无冲突。展示与过渡飞行支持具体整机研发线索；不把可量产写成已量产，也不认定两项事实对应同一机型或试飞条件。10月18日新闻有效，所给历史无同事件。法律主体映射及地点未知不否定正面产品事实；不从学校或展会所在地推定属地。原watch没有其他实质缺口，予以纠正。",
-      "event_headline_source": "e2b9a208cc4eafa73b80d121a7815c83a658770bf494b44b9cd10838b55ed807",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "全倾转过渡飞行构成潜在技术对标依据，但当前只有转述，尚未对齐试飞机型、条件及所称行业位次的比较口径，不据此直接授予全国标杆资格。",
-        "evidence_ids": [
-          "article:2f03cf918fb91a93"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "quality_inspector Agent; overnight current Agent full-body and directed review",
-        "candidate_id": "62ea983c9568c3010dd3bdf095b3b5e23d3b1f6a8b88a47f852e0ccb49d5499c",
-        "input_row_sha256": "43f49acc5807b6e355d73980740e1baf0b2304554f5aab9f75d977b92b75c656",
-        "reason": "定向改判：完整正文明确白志亮带领的华羽先翔与鸿鹄eVTOL预生产原型机、企业全倾转过渡飞行的关系，主体无冲突。展示与过渡飞行支持具体整机研发线索；不把可量产写成已量产，也不认定两项事实对应同一机型或试飞条件。10月18日新闻有效，所给历史无同事件。法律主体映射及地点未知不否定正面产品事实；不从学校或展会所在地推定属地。原watch没有其他实质缺口，予以纠正。",
-        "scope": {
-          "technology_evidence": "正文记载鸿鹄eVTOL预生产原型机在2026 Inclusion·外滩大会亮相，并称华羽先翔实现全倾转过渡飞行。",
-          "value_reason": "全倾转过渡飞行涉及垂直起降与巡航模式转换，是整机工程能力的重要观察点；与预生产原型机展示结合，可形成杭州低空航空企业研发及工程化路径的对照线索，但尚不能证明适航、量产或客户交付。"
-        },
-        "stage": {
-          "status": "预生产原型机公开展示；媒体报道已实现过渡飞行",
-          "reason": "报道使用“近日”，未给展示及过渡飞行的精确日期，也未明确两者对应同一机型。全球第二、中国首家的位次仅为报道说法，不视为独立认证。新闻发布于2026年10月18日，首次收录时间未知。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:4c4c347500e3c7b1"
-          ],
-          "prior_decisions": [],
-          "change_reason": "输入中该稳定主体没有已收录事件或既往裁决，且历史检索无错误；可用历史未见本次原型机展示及过渡飞行线索，不宣称首次实现技术突破或全库首次收录。",
-          "new_evidence_ids": [
-            "article:2f03cf918fb91a93"
-          ]
-        },
-        "evidence_ids": [
-          "article:2f03cf918fb91a93",
-          "identity_registry:2dcd4f408df25406",
-          "geography_registry:b93d03cf35486d17",
-          "history_lookup:4c4c347500e3c7b1"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "全倾转过渡飞行构成潜在技术对标依据，但当前只有转述，尚未对齐试飞机型、条件及所称行业位次的比较口径，不据此直接授予全国标杆资格。",
-          "evidence_ids": [
-            "article:2f03cf918fb91a93"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "台积电",
-      "title": "日本3nm，即将投产！",
-      "company": "台积电",
-      "score": 50,
-      "sector": "半导体制造／晶圆代工",
-      "financing": "",
-      "source": "半导体行业观察",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "台积电",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-7ad9114a6ee73402a554",
-      "company_canonical_name": "台积电",
-      "identity_status": "unresolved",
-      "event_type": "资质获批",
-      "link": "https://mp.weixin.qq.com/s/Z2jSGksQG-hXHoN9DAAKBA",
-      "article_title": "日本3nm，即将投产！",
-      "event_desc": "日本经济产业省已批准台积电熊本二厂生产3纳米半导体的第一阶段计划，并将该厂列为补助对象。该厂仍在建设中，预计于2028年12月投产。报道所述调整方案将二厂由原计划生产6纳米、12纳米等工艺转向3纳米工艺，月规划产能由48,000片调整为6,000片，最终产能视日本政府补助金额而定。熊本一厂的调整计划也已获批，将停止生产12至16纳米工艺半导体，转为月产45,000片的22至28纳米工艺半导体。",
-      "insight": "熊本二厂的变化是生产定位从原规划的6纳米、12纳米等工艺转向3纳米先进制程，而非扩大晶圆产量；监管批准使这一调整进入获批建设阶段。结合一厂转向22至28纳米工艺的安排，两座工厂的制程分工进一步拉开，但日本当地的3纳米制造能力仍待二厂建成投产。",
-      "event_headline": "台积电熊本二厂3纳米生产计划获批，预计2028年底投产",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-18",
-        "event_date": null,
-        "observed_date": "2026-10-18",
-        "review_required": true
-      },
-      "published_date": "2026-10-18",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "正文明确台积电为熊本工厂生产计划调整的企业方，日本经产省为审批及补助认定方。实质事实是熊本二厂3纳米第一阶段计划获批并列为补助对象，同时一厂调整计划获批，不是标题暗示的即将实现投产。与4月台湾方面批准JASM投资变更相比，本条新增日本主管部门审批及补助阶段信息，具有先进制造跨区域落地的观察价值。文章发表于2026-10-18T03:21:00Z，符合窗口。registry尚未完成身份解析，但正文未呈现主体冲突，不擅改身份；熊本仅记录为项目地，集团注册地及总部地继续待核，不据此授予杭州或全国标杆资格。",
-      "event_headline_source": "46b8936566bf58c15eef8c9d49a7ee29c1aa48a79cbe5b2853c1a9c3cea8b4ed",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本条证明具体项目审批及制造布局价值，没有新增独立行业地位比较依据；不以3纳米标签、历史高分或is_national_star自动授予标杆资格。",
-        "evidence_ids": [
-          "article:845aa407be54c596",
-          "accepted_history:c09f86f091084d8b"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "3ec795313daebf08fe9fb1ed629e1528987aaf86f03c9443adb86916fb6f3e99",
-        "input_row_sha256": "cef0e9d5d5b84efa62939f00e9cc884d47e0a088fe31e72dc25de8b13cef5400",
-        "reason": "正文明确台积电为熊本工厂生产计划调整的企业方，日本经产省为审批及补助认定方。实质事实是熊本二厂3纳米第一阶段计划获批并列为补助对象，同时一厂调整计划获批，不是标题暗示的即将实现投产。与4月台湾方面批准JASM投资变更相比，本条新增日本主管部门审批及补助阶段信息，具有先进制造跨区域落地的观察价值。文章发表于2026-10-18T03:21:00Z，符合窗口。registry尚未完成身份解析，但正文未呈现主体冲突，不擅改身份；熊本仅记录为项目地，集团注册地及总部地继续待核，不据此授予杭州或全国标杆资格。",
-        "scope": {
-          "technology_evidence": "正文报道熊本二厂3纳米第一阶段生产计划获日本经产省批准并列为补助对象，工厂仍在建设，预计2028年12月投产；一厂获批调整为22至28纳米生产。二厂最终产能取决于后续补助。",
-          "value_reason": "新增审批节点说明先进制程海外布局从投资方所在地区的投资审议，推进到项目所在地的生产计划及补助安排，可用于比较政策支持与制造落地之间的衔接。两厂工艺分工调整比晶圆数量增减更能说明项目定位；不能把跨制程的规划片数下降直接解释为经营恶化或等比例供给损失。"
-        },
-        "stage": {
-          "status": "媒体报道的计划获批及在建项目，投产仍属upcoming",
-          "reason": "正文称经产省已批准第一阶段计划、二厂仍在建设，预计2028年12月投产；补助预算拟纳入2027年度概算要求，不等于补助已经拨付。审批完整发生日期及本条首次收录时间未知。转向3纳米和6000片月规划产能在文中被追溯至今年2月，不冒充本次新作出的调整；AI需求驱动属于文中外界解释。"
-        },
-        "history": {
-          "result": "new_progress",
-          "evidence_ids": [
-            "history_lookup:8e7b6b38a8e31ca2",
-            "accepted_history:35af08e13e28a66f",
-            "accepted_history:1bd1471abdfdc638",
-            "accepted_history:f390008cb8d8056a",
-            "accepted_history:f37c0ae3abc435dc",
-            "accepted_history:3e5931ca735e1210",
-            "accepted_history:c09f86f091084d8b",
-            "accepted_history:762a3ac8e3608c09"
-          ],
-          "prior_decisions": [],
-          "change_reason": "4月2日同名候选历史涉及日本JASM项目3纳米投资变更获台湾方面批准，与本条相关项目相衔接，但审批机关和审批事项不同；新增日本经产省第一阶段批准、补助对象认定及一厂调整获批。旧记录月产1.5万片，本条称第一阶段6000片且最终产能视补助而定，不能未经原始文件核对就认定为同口径下调。4月两项A14及亚1纳米计划、CoPoS规划，以及10月CoWoS-L应用、N2与台南扩产、CoWoS年度目标均非本次日本审批。所供此前裁决也均针对这些其他事件，没有本事件的旧exclude；早期历史仅为同名候选匹配，不升级为已确认法定主体关系。",
-          "new_evidence_ids": [
-            "article:845aa407be54c596"
-          ]
-        },
-        "evidence_ids": [
-          "article:845aa407be54c596",
-          "accepted_history:35af08e13e28a66f",
-          "history_lookup:8e7b6b38a8e31ca2",
-          "identity_registry:2dcd4f408df25406",
-          "geography_registry:b93d03cf35486d17"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "本条证明具体项目审批及制造布局价值，没有新增独立行业地位比较依据；不以3纳米标签、历史高分或is_national_star自动授予标杆资格。",
-          "evidence_ids": [
-            "article:845aa407be54c596",
-            "accepted_history:c09f86f091084d8b"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "梅赛德斯-奔驰",
-      "title": "萝卜快跑将于下周在香港开放公众试乘；保时捷Mission S在纽约全球首发丨汽车交通日报",
-      "company": "梅赛德斯-奔驰",
-      "score": 50,
-      "sector": "智能汽车与自动驾驶",
-      "financing": "",
-      "source": "创业邦",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "梅赛德斯-奔驰",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-ffabd18a0e4a49b71d3e",
-      "company_canonical_name": "梅赛德斯-奔驰",
-      "identity_status": "unresolved",
-      "event_type": "战略合作",
-      "link": "https://mp.weixin.qq.com/s/LYX5fGhyQpSuEuV6qNAqqg",
-      "article_title": "萝卜快跑将于下周在香港开放公众试乘；保时捷Mission S在纽约全球首发丨汽车交通日报",
-      "event_desc": "梅赛德斯-奔驰与英伟达宣布扩大合作，拟整合奔驰汽车工程技术、MB.OS操作系统与英伟达计算、传感器、驾驶软件及安全系统，开发下一代驾驶辅助与自动驾驶系统，并深化相关技术在工程仿真和MO360数字化生产体系中的应用。",
-      "insight": "奔驰此次合作同时覆盖车辆驾驶功能和汽车研发制造，意味着双方整合不再局限于车载计算。原文明确将城市辅助驾驶、主动安全和自动泊车列为推进方向，L4级自动驾驶则仍是后续准备目标。",
-      "event_headline": "奔驰扩大与英伟达合作，推进驾驶系统与数字化生产",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-16",
-        "event_date": null,
-        "observed_date": "2026-10-16",
-        "review_required": true
-      },
-      "published_date": "2026-10-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "原文明确奔驰负责汽车工程、MB.OS及MO360整合，与英伟达为独立合作主体。沿临时稳定ID保留正面技术合作，不因名录和地点待核而否定；L4仍是未来目标。",
-      "event_headline_source": "e7a06e68729bf7aab09ec1d464e276a4600d338fcd9fe018a8c000036239e85f",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "dcd2c4b826e5524ee87f1581cfcbb9b3e8cc8ce4a8cd8262c3c55933eff17c43",
-        "input_row_sha256": "1557f51d4c9be94807991cb90d40c6d6e7a1e001af218229e88a900a15b16652",
-        "reason": "原文明确奔驰负责汽车工程、MB.OS及MO360整合，与英伟达为独立合作主体。沿临时稳定ID保留正面技术合作，不因名录和地点待核而否定；L4仍是未来目标。",
-        "scope": {
-          "technology_evidence": "奔驰拟将汽车工程技术和MB.OS与英伟达计算、传感器、驾驶软件及安全系统整合，并深化工程仿真和MO360数字化生产应用。",
-          "value_reason": "驾驶系统、工程仿真和数字化生产具有具体合作环节，不等同已实现L4运营。"
-        },
-        "stage": {
-          "status": "reported_cooperation_expansion_with_upcoming_development",
-          "reason": "已报道的是宣布扩大合作；系统开发、制造应用深化及L4准备均为后续方向，不等于交付、量产或获准L4运营。正文仅写10月16日，完整事件日期不强填。"
-        },
-        "history": {
-          "result": "uncertain",
-          "evidence_ids": [
-            "history_lookup:8e7b6b38a8e31ca2",
-            "identity_registry:2dcd4f408df25406"
-          ],
-          "prior_decisions": [],
-          "change_reason": "本包未返回该候选主体的已收录历史或既往裁决，检索无报错，但法律主体及别名尚未确认，不能将空结果表述为确定首次收录。与本批英伟达候选属于同一合作事件，后续须共享事件身份，不另计第二项合作。",
-          "new_evidence_ids": [
-            "article:dd0719bd93ff57c9"
-          ]
-        },
-        "evidence_ids": [
-          "article:dd0719bd93ff57c9",
-          "identity_registry:2dcd4f408df25406",
-          "geography_registry:b93d03cf35486d17",
-          "history_lookup:8e7b6b38a8e31ca2"
-        ]
-      }
-    },
-    {
-      "company_raw_name": "英伟达",
-      "title": "萝卜快跑将于下周在香港开放公众试乘；保时捷Mission S在纽约全球首发丨汽车交通日报",
-      "company": "英伟达",
-      "score": 50,
-      "sector": "汽车计算平台与自动驾驶",
-      "financing": "",
-      "source": "创业邦",
-      "location": "US / Santa Clara",
-      "article_location": "",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "US / Santa Clara",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-4493064fe5737edf368c58ab"
-        ],
-        "subject_evidence_ids": [
-          "geo-4493064fe5737edf368c58ab"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "英伟达",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "US",
-          "province": "California",
-          "city": "Santa Clara",
-          "basis_roles": [
-            "hq"
-          ],
-          "evidence_ids": [
-            "geo-4493064fe5737edf368c58ab"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-4493064fe5737edf368c58ab",
-            "source_url": "https://nvidianews.nvidia.com/multimedia/santa-clara-headquarters",
-            "checked_at": "2026-10-16T00:31:54.065917+00:00",
-            "subject": "英伟达",
-            "role": "hq",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "US",
-              "province": "California",
-              "city": "Santa Clara"
-            }
-          }
-        ]
-      },
-      "company_entity_id": "dr-u-60094bcf5292c4909fad",
-      "company_canonical_name": "英伟达",
-      "identity_status": "unresolved",
-      "event_type": "战略合作",
-      "link": "https://mp.weixin.qq.com/s/LYX5fGhyQpSuEuV6qNAqqg",
-      "article_title": "萝卜快跑将于下周在香港开放公众试乘；保时捷Mission S在纽约全球首发丨汽车交通日报",
-      "event_desc": "英伟达与梅赛德斯-奔驰宣布扩大战略合作，将以Hyperion计算与传感器架构、Alpamayo全栈驾驶软件和Halos安全系统参与下一代驾驶系统开发，并深化其技术在奔驰汽车工程仿真和数字化生产中的应用。",
-      "insight": "英伟达在这项合作中的角色覆盖计算、感知架构、驾驶软件和安全系统，而非单独供应计算芯片。与奔驰工程仿真及生产体系的结合，体现其汽车业务向研发制造环节延伸的合作路径。",
-      "event_headline": "英伟达扩大奔驰合作，整合驾驶计算、软件与安全系统",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-16",
-        "event_date": null,
-        "observed_date": "2026-10-16",
-        "review_required": true
-      },
-      "published_date": "2026-10-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "合作原文明确Hyperion、Alpamayo和Halos的供给角色，已有圣克拉拉总部证据。名录未完成不是正文主体冲突，沿稳定ID保留本次合作，不合并奔驰，不受旧消费显卡负面排除连带限制。",
-      "event_headline_source": "f367c478ed937456e88e6fe206719ad43e4f8ab452edc8c7af5e3631646121a6",
-      "location_status": "subject_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-4493064fe5737edf368c58ab",
-          "source_url": "https://nvidianews.nvidia.com/multimedia/santa-clara-headquarters",
-          "checked_at": "2026-10-16T00:31:54.065917+00:00",
-          "subject": "英伟达",
-          "role": "hq",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "US",
-            "province": "California",
-            "city": "Santa Clara"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本次技术分工支持产业观察，但主体映射尚未完成，且本包没有独立证明该合作方案领先性或实际应用效果的材料；历史装机排名不自动授予本次合作标杆资格。",
-        "evidence_ids": [
-          "article:dd0719bd93ff57c9",
-          "accepted_history:d8d608fc5509366f"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "eda0977030aae8b6836d008647b22d0626d7f2087ca9ff6508929c37fda59df2",
-        "input_row_sha256": "774bca9d26e66413b2371f7c82f1a6513cc80635d0511225d4df99499246379d",
-        "reason": "合作原文明确Hyperion、Alpamayo和Halos的供给角色，已有圣克拉拉总部证据。名录未完成不是正文主体冲突，沿稳定ID保留本次合作，不合并奔驰，不受旧消费显卡负面排除连带限制。",
-        "scope": {
-          "technology_evidence": "正文列出英伟达Hyperion计算与传感器架构、Alpamayo全栈驾驶软件及Halos安全系统，拟参与奔驰下一代驾驶系统开发，并深化工程仿真和数字化生产应用。",
-          "value_reason": "提供计算感知、驾驶软件、安全和制造工具的明确技术组合，属于具体汽车业务进展。"
-        },
-        "stage": {
-          "status": "reported_cooperation_expansion_with_upcoming_integration",
-          "reason": "合作扩大为已报道公告，技术整合与功能开发属于后续实施；L4仅为准备方向，非已交付或获准运营。新闻发布时间已提供，正文公告月日不擅自补为完整事件日期。"
-        },
-        "history": {
-          "result": "uncertain",
-          "evidence_ids": [
-            "history_lookup:8e7b6b38a8e31ca2",
-            "accepted_history:feb1cb2c3de73331",
-            "accepted_history:d8d608fc5509366f",
-            "prior_decision:43f732435bf3ebe9",
-            "prior_decision:456d1942caca30cb",
-            "identity_registry:2dcd4f408df25406"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:43f732435bf3ebe9",
-              "comparison": "different_event",
-              "reason": "旧待核针对RTX5090系列拟停产及GB202供给调整传闻，本条为奔驰驾驶与制造技术合作，产品、对手方和事实不同。"
-            },
-            {
-              "evidence_id": "prior_decision:456d1942caca30cb",
-              "comparison": "different_event",
-              "reason": "旧排除针对外部主体停产传闻的杭州预警资格；本条正面合作不撤销该排除，也不因旧排除形成企业黑名单。"
-            }
-          ],
-          "change_reason": "所供d-Matrix合作涉及NVLink Fusion、Raptor XPU与MGX机架，装机历史涉及国内辅助驾驶芯片份额，均非本次奔驰合作；旧停产裁决亦属其他事件。所供范围未见同合作历史，但registry身份未决，历史主体覆盖仍待确认，不宣称首次发现。本条与奔驰候选共享同一合作事件，分别保留真实角色，不重复计算事件数。",
-          "new_evidence_ids": [
-            "article:dd0719bd93ff57c9"
-          ]
-        },
-        "evidence_ids": [
-          "article:dd0719bd93ff57c9",
-          "identity_registry:2dcd4f408df25406",
-          "geo-4493064fe5737edf368c58ab",
-          "accepted_history:feb1cb2c3de73331",
-          "accepted_history:d8d608fc5509366f",
-          "prior_decision:456d1942caca30cb",
-          "history_lookup:8e7b6b38a8e31ca2"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "本次技术分工支持产业观察，但主体映射尚未完成，且本包没有独立证明该合作方案领先性或实际应用效果的材料；历史装机排名不自动授予本次合作标杆资格。",
-          "evidence_ids": [
-            "article:dd0719bd93ff57c9",
-            "accepted_history:d8d608fc5509366f"
-          ]
-        }
-      }
     }
   ],
   "negatives": [],
@@ -1282,7 +1568,7 @@
     "三维空间数据采集与重建、激光雷达、物理AI": 1,
     "企业级人工智能／决策模型": 1,
     "碳化硅功率半导体": 1,
-    "人工智能／个人智能体": 2,
+    "人工智能／个人智能体": 3,
     "半导体设备／先进封装": 1,
     "半导体键合设备": 1,
     "半导体设备／混合键合": 1,
@@ -1324,7 +1610,46 @@
     "金融科技与支付终端": 1,
     "电动飞行汽车": 1,
     "商业航天／在轨计算基础设施": 1,
-    "虚拟现实设备": 1
+    "虚拟现实设备": 1,
+    "人工智能／大语言模型与智能体": 1,
+    "金融科技／债务管理与不良资产处置": 1,
+    "人工智能基础设施 / 大模型推理": 1,
+    "端侧人工智能与个人AI智能体": 1,
+    "电动摩托车": 1,
+    "自动驾驶出行": 2,
+    "自动驾驶整车": 1,
+    "汽车工业人工智能": 1,
+    "医疗器械": 1,
+    "人工智能与算力基础设施": 1,
+    "人工智能／大模型原生记忆": 1,
+    "半导体／RISC-V处理器IP": 1,
+    "高保真音频设备与声学核心部件": 1,
+    "企业级AI Agent／外贸与跨境电商软件": 1,
+    "人工智能／个性化模型与持续学习基础设施": 1,
+    "人工智能／大模型推理": 1,
+    "汽车芯片与智能驾驶": 1,
+    "消费电子／个人电脑": 1,
+    "智能眼镜与智慧文博": 1,
+    "生物医药／药品制造": 1,
+    "高性能互连芯片与算力基础设施": 1,
+    "量子计算／超导量子计算": 1,
+    "AI算力基础设施与GPU云服务": 1,
+    "人工智能大模型": 1,
+    "人工智能／智能体开发工具": 1,
+    "创新药研发": 1,
+    "AI临床试验与医药研发服务": 1,
+    "手术机器人": 1,
+    "创新药研发与对外授权": 1,
+    "硅光子与AI数据中心光互连": 1,
+    "半导体／高带宽内存": 1,
+    "半导体封装与互连设备": 1,
+    "AI服务器与高性能计算基础设施": 1,
+    "光通信与数据中心基础设施": 1,
+    "医疗人工智能与病理检测": 1,
+    "语音人工智能": 1,
+    "推荐系统与生成式人工智能": 1,
+    "图像生成与编辑": 1,
+    "个性化音频与人工智能": 1
   },
   "daily_details": {
     "2026-10-19": {
@@ -1334,7 +1659,11 @@
     "2026-10-20": {
       "count": 26,
       "negatives": 0
+    },
+    "2026-10-21": {
+      "count": 41,
+      "negatives": 0
     }
   },
-  "created": "2026-10-20 08:35:59"
+  "created": "2026-10-21 02:49:30"
 }
