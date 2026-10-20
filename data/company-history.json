@@ -90237,16 +90237,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/95iyZtU62mlpGp0k2ZWgsg",
       "sector": "工业安全索具与柔性吊装用品制造",
-      "location": "地点线索：德清乾元镇（经营及生产地）",
+      "location": "浙江省 / 湖州市 / 德清县 / 乾元镇",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 湖州市 / 德清县 / 乾元镇",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-ecaf6bd9ffc7e9ef7ad45be5"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "艾可森(浙江)新材料有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -90254,7 +90256,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-ecaf6bd9ffc7e9ef7ad45be5",
+            "source_url": "https://mp.weixin.qq.com/s/95iyZtU62mlpGp0k2ZWgsg",
+            "checked_at": "2026-10-14T00:46:17+00:00",
+            "subject": "艾可森(浙江)新材料有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "湖州市",
+              "district": "德清县",
+              "address": "乾元镇"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "湖州市",
+          "district": "德清县",
+          "evidence_ids": [
+            "geo-ecaf6bd9ffc7e9ef7ad45be5"
+          ]
+        }
       },
       "article_location": "德清乾元镇（经营及生产地）",
       "source": "浙商杂志",

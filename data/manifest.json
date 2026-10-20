@@ -17828,7 +17828,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "6f04d5921a689e7d6ce11bfc227164ce1ae2714b4b10f9d3293ab33a367377c3",
+  "history_version": "63719440bd91dd8b0667c25a9e2977e41684b77616b637479a298292921cd89a",
   "company_history_buckets": {
     "00": "f8c719cff93a349aa7f8cc5625615b9c8886393b93b689dae6568c2e4190a119",
     "01": "f6159a97f93e315e6fcf009484478739a2fefecd0e920eb70613270edf5e2d14",
@@ -17882,7 +17882,7 @@
     "31": "9bc1ad0dc000481e731a2b1c06b1db6d2ff3cdf259c3bb709c284d54f11c4f2d",
     "32": "7810ba460d890435b6ce9d16b1f4a8e3fc298f2c2e403091ede5c61103ba5537",
     "33": "b75543df482a895868372a5c8c245e85638fac5c4d721c6997de687eb366528b",
-    "34": "18695ebd8ed50c5af6960382c2c9da592bbea02bb28f466e85a637d1033b36a5",
+    "34": "58eebc6e9f96f0f32f5be6113f320f5b46ef751e0f6b72fbee8a21a34cd85c89",
     "35": "9eaf212fb670978fc918f6eb199d5963f0386b0bdafea02c1fd864dbed945b71",
     "36": "5ce7431c281fd4e2da05f833ab38cbdde431e578f77a6505a68b2cb594872346",
     "37": "7537cc120520cb27987e3e602fd5838ac468982d6c8bb8083c288498cc32dbf8",
@@ -17895,7 +17895,7 @@
     "3e": "f87fbcb18b3970efe2d56a47fc0d6422ed86acdb9758d66676041c8f58855dc3",
     "3f": "e1cee01760abac0eefb90f33ddd1990e57bf827b08877dc436f419584d892542"
   },
-  "history_search_version": "8889e7533cb20be68e50ec4e780b28a07070ef9aa721e13d48e472b165612744",
+  "history_search_version": "0652d0e5104bd1a625cd68844f6bf8b531fca7a6fedf60f1a6daa2792bdf1ffb",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
@@ -20090,7 +20090,7 @@
       "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785": "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785"
     }
   },
-  "geography_version": "02bf3f0e87c852e3dd336d5ddaffa666c2ce7897b7cfb1ab3d9fd55f0ab08f84",
+  "geography_version": "1d40a226ce045c60b7aad693bb85bd280690593596706aea8a292429fdca1836",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -24879,10 +24879,51 @@
       "located_status": "unknown"
     },
     "dr-u-4a0c396d823e47c540fc": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "浙江省 / 湖州市 / 德清县 / 乾元镇",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-ecaf6bd9ffc7e9ef7ad45be5"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "艾可森(浙江)新材料有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-ecaf6bd9ffc7e9ef7ad45be5",
+          "source_url": "https://mp.weixin.qq.com/s/95iyZtU62mlpGp0k2ZWgsg",
+          "checked_at": "2026-10-14T00:46:17+00:00",
+          "subject": "艾可森(浙江)新材料有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "湖州市",
+            "district": "德清县",
+            "address": "乾元镇"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "湖州市",
+        "district": "德清县",
+        "evidence_ids": [
+          "geo-ecaf6bd9ffc7e9ef7ad45be5"
+        ]
+      }
     },
     "dr-u-4abf78636e7597776bb5": {
       "geography_status": "unknown",
