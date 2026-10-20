@@ -1222,16 +1222,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/wN6A_C7hDEYVp8cgqCOpRA",
       "sector": "核技术应用与高端医疗装备",
-      "location": "地点线索：安徽省合肥市（正文将公司明确定位为合肥综合性国家科学中心创新平台及成果转化企业；未具体披露注册地、总部或经营地址）",
+      "location": "安徽省 / 合肥市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "安徽省 / 合肥市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-7fcbd194e63048f3d81af3dc"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "合肥中科离子医学技术装备有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1239,7 +1241,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7fcbd194e63048f3d81af3dc",
+            "source_url": "https://mp.weixin.qq.com/s/wN6A_C7hDEYVp8cgqCOpRA",
+            "checked_at": "2026-10-15T13:31:05+00:00",
+            "subject": "合肥中科离子医学技术装备有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "安徽省",
+              "city": "合肥市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "安徽省",
+          "city": "合肥市",
+          "evidence_ids": [
+            "geo-7fcbd194e63048f3d81af3dc"
+          ]
+        }
       },
       "article_location": "安徽省合肥市（正文将公司明确定位为合肥综合性国家科学中心创新平台及成果转化企业；未具体披露注册地、总部或经营地址）",
       "source": "银杏谷资本",

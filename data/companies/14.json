@@ -1437,19 +1437,18 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/K5vYk_0rFuopz2PgZ16xlQ",
       "sector": "AI算力基础设施、AI服务器制造及液冷配套",
-      "location": "经营地：湖南省长沙市开福区中山路176号一楼56号；广东省深圳市南山区梦海大道5289中粮前海创新中心东塔40层（注册/总部待核）",
+      "location": "广东省深圳市南山区梦海大道5289中粮前海创新中心东塔40层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：湖南省长沙市开福区中山路176号一楼56号；广东省深圳市南山区梦海大道5289中粮前海创新中心东塔40层（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省深圳市南山区梦海大道5289中粮前海创新中心东塔40层",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-5dc331d90704926c2002f32d",
           "geo-d140b2d861641483989042e5"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "行云科技",
         "subject_locality": {
           "status": "unknown",
@@ -1458,20 +1457,6 @@
           "evidence_ids": []
         },
         "basis": [
-          {
-            "evidence_id": "geo-5dc331d90704926c2002f32d",
-            "source_url": "https://www.xingyuntech.com.cn/about",
-            "checked_at": "2026-10-19T18:16:13.396650+00:00",
-            "subject": "行云科技",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "湖南省",
-              "city": "长沙市",
-              "address": "湖南省长沙市开福区中山路176号一楼56号"
-            }
-          },
           {
             "evidence_id": "geo-d140b2d861641483989042e5",
             "source_url": "https://www.xingyuntech.com.cn/about",
@@ -1486,7 +1471,17 @@
               "address": "广东省深圳市南山区梦海大道5289中粮前海创新中心东塔40层"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-d140b2d861641483989042e5"
+          ]
+        }
       },
       "article_location": "",
       "source": "湖畔自留田",
