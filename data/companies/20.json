@@ -2623,16 +2623,18 @@
       "event_type": "产品客户测试",
       "link": "https://mp.weixin.qq.com/s/b7jYoaHsiVT8tLtad2Qrjg",
       "sector": "脑机接口／神经接口芯片",
-      "location": "地点线索：海南（标题明确称海南公司，未说明注册地、总部或具体经营城市）",
+      "location": "媒体档案所载注册地址：三亚市 / 崖州区 / 大学路7号1号楼D206-26",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "媒体档案所载注册地址：三亚市 / 崖州区 / 大学路7号1号楼D206-26",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-88a648a8e5d145c0c5663693"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "神芯科技",
         "subject_locality": {
           "status": "unknown",
@@ -2640,7 +2642,41 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-88a648a8e5d145c0c5663693",
+            "source_url": "https://m.pedaily.cn/vc/company/818489.html",
+            "checked_at": "2026-10-20T02:36:55.973051+00:00",
+            "subject": "神芯科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "海南省",
+              "city": "三亚市",
+              "district": "崖州区",
+              "address": "海南省三亚市崖州区大学路7号海南大学生物医学工程学院大楼1号楼D206-26"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "海南省",
+          "city": "三亚市",
+          "district": "崖州区",
+          "evidence_ids": [
+            "geo-88a648a8e5d145c0c5663693"
+          ]
+        },
+        "presentation": {
+          "label": "媒体档案所载注册地址：三亚市 / 崖州区 / 大学路7号1号楼D206-26",
+          "detail": "投资界公司档案转述地址，保留全部细节；普通三亚确认，不表示已实访经营办公室或独立登记核验。",
+          "evidence_ids": [
+            "geo-88a648a8e5d145c0c5663693"
+          ]
+        }
       },
       "article_location": "海南（标题明确称海南公司，未说明注册地、总部或具体经营城市）",
       "source": "创业邦",

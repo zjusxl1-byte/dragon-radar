@@ -1350,16 +1350,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "工业机器人",
-      "location": "地点待核",
+      "location": "上海市青浦区徐民路777号，上海美的全球创新园区1号楼8F",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市青浦区徐民路777号，上海美的全球创新园区1号楼8F",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d6707574a192aa53bfd4d733"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "库卡机器人",
         "subject_locality": {
           "status": "unknown",
@@ -1367,7 +1369,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d6707574a192aa53bfd4d733",
+            "source_url": "https://www.kukacenter.com/about",
+            "checked_at": "2026-10-20T02:35:15.210872+00:00",
+            "subject": "库卡机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "青浦区",
+              "address": "上海市青浦区徐民路777号，上海美的全球创新园区1号楼8F"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "青浦区",
+          "evidence_ids": [
+            "geo-d6707574a192aa53bfd4d733"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",

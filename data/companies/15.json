@@ -1450,16 +1450,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/2F-erFZ7QT6fDAhhRmy5dA",
       "sector": "消费级3D打印",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-232cf6e95461cb6583043c75"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "拓竹科技",
         "subject_locality": {
           "status": "unknown",
@@ -1467,7 +1469,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-232cf6e95461cb6583043c75",
+            "source_url": "https://fgw.sz.gov.cn/ztzl/qtztzl/szscjmyjjfzzhfwpt/hwtz/sjal/content/post_12339412.html",
+            "checked_at": "2026-10-20T02:38:23.967845+00:00",
+            "subject": "拓竹科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-232cf6e95461cb6583043c75"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

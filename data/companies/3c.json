@@ -1707,16 +1707,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/gTvUryoa3rjdKYW_e0sZEA",
       "sector": "车载通信与卫星导航",
-      "location": "地点待核",
+      "location": "重庆市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "重庆市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-6f49f4b114fef611e17b90b8"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "北斗智联科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1724,7 +1726,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-6f49f4b114fef611e17b90b8",
+            "source_url": "https://www.bicv.com/about/gsjj/",
+            "checked_at": "2026-10-20T02:37:02.668582+00:00",
+            "subject": "北斗智联科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "重庆市",
+              "city": "重庆市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "重庆市",
+          "city": "重庆市",
+          "evidence_ids": [
+            "geo-6f49f4b114fef611e17b90b8"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

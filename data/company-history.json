@@ -79679,16 +79679,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/h3D6qVxXTbJD8eDM04NbPQ",
       "sector": "算力基础设施",
-      "location": "地点待核",
+      "location": "US",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d3c7c81345d804a37d567154"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "甲骨文",
         "subject_locality": {
           "status": "unknown",
@@ -79696,7 +79698,27 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d3c7c81345d804a37d567154",
+            "source_url": "https://www.news.cn/20250722/7cbf277fc4724e60b56c031d95114bd0/c.html",
+            "checked_at": "2026-10-20T02:37:00.533180+00:00",
+            "subject": "甲骨文",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-d3c7c81345d804a37d567154"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -93547,16 +93569,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/N6nkiX0NPApOwntdSdnNUg",
       "sector": "AI制药与药物发现",
-      "location": "地点待核",
+      "location": "上海市 / 杨浦区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 杨浦区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-352553b9e89b1d318670702f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "新生探途",
         "subject_locality": {
           "status": "unknown",
@@ -93564,7 +93588,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-352553b9e89b1d318670702f",
+            "source_url": "https://k.sina.com.cn/article_1641561812_61d83ed400101egzi.html?from=tech&subch=otech",
+            "checked_at": "2026-10-20T02:37:37.649684+00:00",
+            "subject": "新生探途",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "杨浦区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "杨浦区",
+          "evidence_ids": [
+            "geo-352553b9e89b1d318670702f"
+          ]
+        }
       },
       "article_location": "",
       "source": "烯牛数据",
@@ -93607,16 +93657,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/gTvUryoa3rjdKYW_e0sZEA",
       "sector": "车载通信与卫星导航",
-      "location": "地点待核",
+      "location": "重庆市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "重庆市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-6f49f4b114fef611e17b90b8"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "北斗智联科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -93624,7 +93676,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-6f49f4b114fef611e17b90b8",
+            "source_url": "https://www.bicv.com/about/gsjj/",
+            "checked_at": "2026-10-20T02:37:02.668582+00:00",
+            "subject": "北斗智联科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "重庆市",
+              "city": "重庆市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "重庆市",
+          "city": "重庆市",
+          "evidence_ids": [
+            "geo-6f49f4b114fef611e17b90b8"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -94803,16 +94879,18 @@
       "event_type": "产品客户测试",
       "link": "https://mp.weixin.qq.com/s/b7jYoaHsiVT8tLtad2Qrjg",
       "sector": "脑机接口／神经接口芯片",
-      "location": "地点线索：海南（标题明确称海南公司，未说明注册地、总部或具体经营城市）",
+      "location": "媒体档案所载注册地址：三亚市 / 崖州区 / 大学路7号1号楼D206-26",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "媒体档案所载注册地址：三亚市 / 崖州区 / 大学路7号1号楼D206-26",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-88a648a8e5d145c0c5663693"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "神芯科技",
         "subject_locality": {
           "status": "unknown",
@@ -94820,7 +94898,41 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-88a648a8e5d145c0c5663693",
+            "source_url": "https://m.pedaily.cn/vc/company/818489.html",
+            "checked_at": "2026-10-20T02:36:55.973051+00:00",
+            "subject": "神芯科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "海南省",
+              "city": "三亚市",
+              "district": "崖州区",
+              "address": "海南省三亚市崖州区大学路7号海南大学生物医学工程学院大楼1号楼D206-26"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "海南省",
+          "city": "三亚市",
+          "district": "崖州区",
+          "evidence_ids": [
+            "geo-88a648a8e5d145c0c5663693"
+          ]
+        },
+        "presentation": {
+          "label": "媒体档案所载注册地址：三亚市 / 崖州区 / 大学路7号1号楼D206-26",
+          "detail": "投资界公司档案转述地址，保留全部细节；普通三亚确认，不表示已实访经营办公室或独立登记核验。",
+          "evidence_ids": [
+            "geo-88a648a8e5d145c0c5663693"
+          ]
+        }
       },
       "article_location": "海南（标题明确称海南公司，未说明注册地、总部或具体经营城市）",
       "source": "创业邦",
@@ -94873,16 +94985,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/2F-erFZ7QT6fDAhhRmy5dA",
       "sector": "消费级3D打印",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-232cf6e95461cb6583043c75"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "拓竹科技",
         "subject_locality": {
           "status": "unknown",
@@ -94890,7 +95004,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-232cf6e95461cb6583043c75",
+            "source_url": "https://fgw.sz.gov.cn/ztzl/qtztzl/szscjmyjjfzzhfwpt/hwtz/sjal/content/post_12339412.html",
+            "checked_at": "2026-10-20T02:38:23.967845+00:00",
+            "subject": "拓竹科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-232cf6e95461cb6583043c75"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -96799,16 +96937,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "机器人视觉",
-      "location": "地点待核",
+      "location": "河北省 / 雄安新区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "河北省 / 雄安新区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-356be7f9a726aedb8500a49c"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "梅卡曼德",
         "subject_locality": {
           "status": "unknown",
@@ -96816,7 +96956,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-356be7f9a726aedb8500a49c",
+            "source_url": "https://www.hebei.gov.cn/columns/580d0301-2e0b-4152-9dd1-7d7f4e0f4980/202411/29/560917ea-80ed-4713-b943-8ff76b487b69.html",
+            "checked_at": "2026-10-20T02:39:14.543258+00:00",
+            "subject": "梅卡曼德",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "河北省",
+              "city": "雄安新区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "河北省",
+          "city": "雄安新区",
+          "evidence_ids": [
+            "geo-356be7f9a726aedb8500a49c"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",
@@ -97007,16 +97171,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "工业机器人",
-      "location": "地点待核",
+      "location": "上海市青浦区徐民路777号，上海美的全球创新园区1号楼8F",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市青浦区徐民路777号，上海美的全球创新园区1号楼8F",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d6707574a192aa53bfd4d733"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "库卡机器人",
         "subject_locality": {
           "status": "unknown",
@@ -97024,7 +97190,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d6707574a192aa53bfd4d733",
+            "source_url": "https://www.kukacenter.com/about",
+            "checked_at": "2026-10-20T02:35:15.210872+00:00",
+            "subject": "库卡机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "青浦区",
+              "address": "上海市青浦区徐民路777号，上海美的全球创新园区1号楼8F"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "青浦区",
+          "evidence_ids": [
+            "geo-d6707574a192aa53bfd4d733"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",
@@ -97050,16 +97243,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "具身智能",
-      "location": "地点待核",
+      "location": "上海市 / 浦东新区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 浦东新区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-44688eb631ce7f7ae49caff5"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "蚂蚁灵波",
         "subject_locality": {
           "status": "unknown",
@@ -97067,7 +97262,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-44688eb631ce7f7ae49caff5",
+            "source_url": "https://www.zidonghua.com.cn/news/brand/69019.html",
+            "checked_at": "2026-10-20T02:40:34.668260+00:00",
+            "subject": "蚂蚁灵波",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-44688eb631ce7f7ae49caff5"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",
