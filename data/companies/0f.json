@@ -1454,24 +1454,51 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/S6q2HSj5zUNTsVn4lhgCkA",
       "sector": "智慧养老与家庭服务机器人",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-848e790da629763fa74cf493"
+        ],
+        "subject_evidence_ids": [
+          "geo-848e790da629763fa74cf493"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "萤石",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-848e790da629763fa74cf493"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-848e790da629763fa74cf493",
+            "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688475&id=12461806",
+            "checked_at": "2026-10-20T01:33:22.770007+00:00",
+            "subject": "萤石",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "浙江省杭州市滨江区西兴街道启智东街188号"
+            }
+          }
+        ]
       },
       "article_location": "",
       "source": "滨江发布",

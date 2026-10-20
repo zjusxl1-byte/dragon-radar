@@ -49,6 +49,294 @@
       "negative_count": 0,
       "top3": [
         {
+          "company_raw_name": "沃虎科技",
+          "identity_mentions": [
+            {
+              "name": "沃虎科技",
+              "relation": "same_entity",
+              "evidence": "该店由海尔机器人联合滨江企业沃虎科技共同打造。"
+            }
+          ],
+          "title": "在滨江，养老“黑科技”buff叠满",
+          "company": "沃虎科技",
+          "score": 40,
+          "sector": "外骨骼机器人应用服务",
+          "financing": "",
+          "source": "滨江发布",
+          "location": "浙江省 / 杭州市",
+          "article_location": "杭州市滨江区（正文明确称滨江企业）",
+          "geography": {
+            "geography_status": "confirmed",
+            "classification": "hangzhou",
+            "display_location": "浙江省 / 杭州市",
+            "located_status": "discovery_confirmed",
+            "display_basis": [
+              "geo-27edc2b7ea8d0899a76ece0b"
+            ],
+            "subject_evidence_ids": [],
+            "needs_review": false,
+            "next_action": null,
+            "subject": "沃虎科技",
+            "subject_locality": {
+              "status": "unknown",
+              "classification": "unknown",
+              "basis_roles": [],
+              "evidence_ids": []
+            },
+            "basis": [
+              {
+                "evidence_id": "geo-27edc2b7ea8d0899a76ece0b",
+                "source_url": "https://mp.weixin.qq.com/s/S6q2HSj5zUNTsVn4lhgCkA",
+                "checked_at": "2026-10-18T22:31:05+00:00",
+                "subject": "沃虎科技",
+                "role": "business",
+                "subject_relation": "same_subject",
+                "place": {
+                  "country": "CN",
+                  "province": "浙江省",
+                  "city": "杭州市",
+                  "district": "滨江区"
+                }
+              }
+            ],
+            "discovery_locality": {
+              "status": "confirmed",
+              "classification": "hangzhou",
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "evidence_ids": [
+                "geo-27edc2b7ea8d0899a76ece0b"
+              ]
+            }
+          },
+          "company_entity_id": "dr-u-ef8bcd34d51d88fd11e4",
+          "company_canonical_name": "沃虎科技",
+          "identity_status": "unresolved",
+          "event_type": "战略合作",
+          "link": "https://mp.weixin.qq.com/s/S6q2HSj5zUNTsVn4lhgCkA",
+          "article_title": "在滨江，养老“黑科技”buff叠满",
+          "event_desc": "滨江企业沃虎科技与海尔机器人共同打造海尔外骨骼机器人滨江中心旗舰店，门店位于西兴街道春风园区，市民可到店免费试穿体验。",
+          "insight": "沃虎科技在本次合作中承担外骨骼线下体验场景的共建角色，其值得研究的是如何连接助力机器人与本地老年用户，而不是将W3的技术指标归为自身研发成果。",
+          "event_headline": "沃虎科技联合海尔机器人打造滨江外骨骼旗舰店",
+          "event_signal": "material",
+          "is_national_star": false,
+          "event_time_evidence": {
+            "status": "date_unknown_recent_report",
+            "description": "事件日期未明确；报道日为 2026-10-18",
+            "event_date": null,
+            "observed_date": "2026-10-18",
+            "review_required": true
+          },
+          "published_date": "2026-10-18",
+          "publication_basis": "采集源保留的发布时间",
+          "selection_recommendation": "keep",
+          "selection_reason": "官方全文直接称沃虎科技为滨江企业，并明确其与海尔机器人共同打造外骨骼旗舰店，主体不是仅被提名；可按正面发现口径确认其滨江企业归属，不应继续笼统展示地点待核。其已证实角色仅为科技产品体验场景共建方，W3算法、材料与助力指标不能归为沃虎自主研发。实际试穿入口连接外骨骼产品与本地使用者，具有应用服务发现价值，但尚不足以认定技术壁垒或高成长性。2026-10-18发布符合窗口，具体建店日期未知。历史未返回匹配项；与海尔机器人条目为同一事件的不同主体记录，保留关系而不重复统计。滨江企业表述不补造注册地、总部地址，也不自动取得负面预警资格。",
+          "event_headline_source": "a6b218ad7e6b7a4c37379d4f27a847006b5da2c0fc76235ad4d5639f55d5b483",
+          "location_basis": [],
+          "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+          "location_status": "unknown",
+          "location_candidates": [
+            {
+              "value": "杭州市滨江区（正文明确称滨江企业）",
+              "status": "article_candidate_only",
+              "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+            }
+          ],
+          "benchmark_review": {
+            "status": "not_qualified",
+            "eligible": false,
+            "reason": "共同建设本地体验门店不足以证明全国行业地位、核心技术或可复制的领先应用服务能力。",
+            "evidence_ids": [
+              "article:a7d6584f3eb0d3d0"
+            ]
+          },
+          "quality_review": {
+            "schema_version": "dragon-overnight-review.v2",
+            "decision": "keep",
+            "reviewer": "quality_inspector Agent; overnight current Agent full-body and directed review",
+            "candidate_id": "4538342772b0058304e00f9be85d25628503d206445b52991d02ca114e46e836",
+            "input_row_sha256": "7a90d585ff43d5c34fbb3a6a3f0ea64e1196760fdc8ef5dd4c6cb1d8b44bb481",
+            "reason": "官方全文直接称沃虎科技为滨江企业，并明确其与海尔机器人共同打造外骨骼旗舰店，主体不是仅被提名；可按正面发现口径确认其滨江企业归属，不应继续笼统展示地点待核。其已证实角色仅为科技产品体验场景共建方，W3算法、材料与助力指标不能归为沃虎自主研发。实际试穿入口连接外骨骼产品与本地使用者，具有应用服务发现价值，但尚不足以认定技术壁垒或高成长性。2026-10-18发布符合窗口，具体建店日期未知。历史未返回匹配项；与海尔机器人条目为同一事件的不同主体记录，保留关系而不重复统计。滨江企业表述不补造注册地、总部地址，也不自动取得负面预警资格。",
+            "scope": {
+              "technology_evidence": "原文明确“该店由海尔机器人联合滨江企业沃虎科技共同打造”，门店展示具有步态感知和老年助行功能的外骨骼，并提供免费试穿。",
+              "value_reason": "沃虎科技的可采信价值在科技产品落地体验环节：共建场景使本地用户能够实际判断穿戴适配与助力感受。现有证据支持应用服务线索，不支持把其描述为外骨骼研发商，也不证明销售转化或持续服务能力。"
+            },
+            "stage": {
+              "status": "共同打造的门店已提供体验服务",
+              "reason": "原文给出西兴街道春风园区地址并说明市民可到店免费试穿，支持现有体验服务，不支持推定签约日期、独家代理权或销售业绩。"
+            },
+            "history": {
+              "result": "new_event",
+              "evidence_ids": [
+                "history_lookup:4c4c347500e3c7b1"
+              ],
+              "prior_decisions": [],
+              "change_reason": "accepted_history和prior_decisions均为空，历史检索未报错，没有既有同事件或排除裁决可供改判；本批海尔机器人条目是相同合作事件，沃虎记录保留其独立共建角色，不新增一次事件计数。",
+              "new_evidence_ids": [
+                "article:a7d6584f3eb0d3d0"
+              ]
+            },
+            "evidence_ids": [
+              "article:a7d6584f3eb0d3d0",
+              "history_lookup:4c4c347500e3c7b1"
+            ],
+            "benchmark_review": {
+              "status": "not_qualified",
+              "eligible": false,
+              "reason": "共同建设本地体验门店不足以证明全国行业地位、核心技术或可复制的领先应用服务能力。",
+              "evidence_ids": [
+                "article:a7d6584f3eb0d3d0"
+              ]
+            }
+          },
+          "identity_candidates": [],
+          "company_db_id": null
+        },
+        {
+          "company_raw_name": "萤石",
+          "identity_mentions": [
+            {
+              "name": "萤石",
+              "relation": "same_entity",
+              "evidence": "萤石自研跌倒检测算法融合4D阵列雷达"
+            },
+            {
+              "name": "RK3机器人",
+              "relation": "product",
+              "evidence": "同时，RK3机器人还支持服药提醒、天气查询等智能服务。"
+            }
+          ],
+          "title": "在滨江，养老“黑科技”buff叠满",
+          "company": "萤石",
+          "score": 35,
+          "sector": "智慧养老与家庭服务机器人",
+          "financing": "",
+          "source": "滨江发布",
+          "location": "浙江省 / 杭州市",
+          "article_location": "",
+          "geography": {
+            "geography_status": "confirmed",
+            "classification": "hangzhou",
+            "display_location": "浙江省 / 杭州市",
+            "located_status": "subject_confirmed",
+            "display_basis": [
+              "geo-848e790da629763fa74cf493"
+            ],
+            "subject_evidence_ids": [
+              "geo-848e790da629763fa74cf493"
+            ],
+            "needs_review": false,
+            "next_action": null,
+            "subject": "萤石",
+            "subject_locality": {
+              "status": "confirmed",
+              "classification": "hangzhou",
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "basis_roles": [
+                "registered"
+              ],
+              "evidence_ids": [
+                "geo-848e790da629763fa74cf493"
+              ]
+            },
+            "basis": [
+              {
+                "evidence_id": "geo-848e790da629763fa74cf493",
+                "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688475&id=12461806",
+                "checked_at": "2026-10-20T01:33:22.770007+00:00",
+                "subject": "萤石",
+                "role": "registered",
+                "subject_relation": "same_subject",
+                "place": {
+                  "country": "CN",
+                  "province": "浙江省",
+                  "city": "杭州市",
+                  "district": "滨江区",
+                  "address": "浙江省杭州市滨江区西兴街道启智东街188号"
+                }
+              }
+            ]
+          },
+          "company_entity_id": "dr-u-2cf6f1b7247330819344",
+          "company_canonical_name": "萤石",
+          "identity_status": "unresolved",
+          "event_type": "其他",
+          "link": "https://mp.weixin.qq.com/s/S6q2HSj5zUNTsVn4lhgCkA",
+          "article_title": "在滨江，养老“黑科技”buff叠满",
+          "event_desc": "萤石养老智能体采用“前端小模型+云端大模型”分层协同架构。其自研跌倒检测算法融合4D阵列雷达，可监测跌倒、离床未归、心率异常等风险并告警，支持语音询问确认跌倒、通知家属与管理平台及双向语音对讲。产品还可生成专属数字人形象，RK3机器人支持服药提醒和天气查询。",
+          "insight": "萤石将无感监测、语音确认和远程联系串成了养老响应链条，产品价值不只在识别异常，还在于让家属和管理平台能够接续处置。前端感知与云端交互的分工，是其将安全守护和情感陪伴整合到同一体系的技术路径。",
+          "event_headline": "萤石养老智能体联动雷达监测、语音确认与家属告警",
+          "event_signal": "material",
+          "is_national_star": false,
+          "event_time_evidence": {
+            "status": "date_unknown_recent_report",
+            "description": "事件日期未明确；报道日为 2026-10-18",
+            "event_date": null,
+            "observed_date": "2026-10-18",
+            "review_required": true
+          },
+          "published_date": "2026-10-18",
+          "publication_basis": "采集源保留的发布时间",
+          "selection_recommendation": "keep",
+          "selection_reason": "已供全文将自研跌倒检测算法和养老智能体能力明确归于萤石，RK3是相关产品而非另一企业，足以按原文名称保留正面产品线索；不据此补定法人、母子公司关系或杭州注册及总部归属。前端感知、语音确认与家属及平台告警具有具体养老应用价值。采集发布时间为2026-10-18，符合近7天窗口；产品形成和部署日期未知，不写成本次新发布或新增落地。所供历史检索无匹配收录或旧裁决，不构成重复证据，也不据此宣称首次披露。企业成熟与否、未披露收入和缺少精确事件日均不否定这条日报线索。",
+          "event_headline_source": "3ef3ce6881aa2417c1792bc6affd44ed8e73508ed35bbb02ba9946503a67f216",
+          "location_status": "unknown",
+          "location_basis": [],
+          "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+          "benchmark_review": {
+            "status": "not_qualified",
+            "eligible": false,
+            "reason": "本条支持具体产品技术路线与应用价值，但未提供行业领先地位、独立性能比较或规模应用依据，尚不足建立全国标杆资格。",
+            "evidence_ids": [
+              "article:a7d6584f3eb0d3d0"
+            ]
+          },
+          "quality_review": {
+            "schema_version": "dragon-overnight-review.v2",
+            "decision": "keep",
+            "reviewer": "quality_inspector Agent; overnight current Agent full-body and directed review",
+            "candidate_id": "12fb7c8c0ad6072160dd62ec80b9ddd5d0d9e7f693ae2b9a2761288f4b1ab85b",
+            "input_row_sha256": "ebc617b4c8dde0940d92f739626f9b4b719b2746b616be94b0afd5ee6518c4b7",
+            "reason": "已供全文将自研跌倒检测算法和养老智能体能力明确归于萤石，RK3是相关产品而非另一企业，足以按原文名称保留正面产品线索；不据此补定法人、母子公司关系或杭州注册及总部归属。前端感知、语音确认与家属及平台告警具有具体养老应用价值。采集发布时间为2026-10-18，符合近7天窗口；产品形成和部署日期未知，不写成本次新发布或新增落地。所供历史检索无匹配收录或旧裁决，不构成重复证据，也不据此宣称首次披露。企业成熟与否、未披露收入和缺少精确事件日均不否定这条日报线索。",
+            "scope": {
+              "technology_evidence": "正文明确前端小模型与云端大模型协同架构、自研跌倒检测算法融合4D阵列雷达，以及语音询问确认、家属和管理平台告警、双向语音对讲等产品功能。",
+              "value_reason": "其关注点是将异常感知、交互确认和远程处置接口组合成养老服务链条，可供杭州养老硬件及服务集成研究参考；正文未证明识别准确率、误报改善或规模化部署成效。"
+            },
+            "stage": {
+              "status": "已披露产品能力，非已证实的新发布或规模交付",
+              "reason": "原文以现有功能描述养老智能体及RK3机器人，未提供发布节点、客户订单、交付数量或具体部署案例。"
+            },
+            "history": {
+              "result": "new_event",
+              "evidence_ids": [
+                "history_lookup:4c4c347500e3c7b1"
+              ],
+              "prior_decisions": [],
+              "change_reason": "输入的accepted_history和prior_decisions均为空，现有检索记录未返回同事件或旧排除裁决，按本轮新增产品线索接纳；这不证明产品刚推出或此前从未披露。",
+              "new_evidence_ids": [
+                "article:a7d6584f3eb0d3d0"
+              ]
+            },
+            "evidence_ids": [
+              "article:a7d6584f3eb0d3d0",
+              "history_lookup:4c4c347500e3c7b1"
+            ],
+            "benchmark_review": {
+              "status": "not_qualified",
+              "eligible": false,
+              "reason": "本条支持具体产品技术路线与应用价值，但未提供行业领先地位、独立性能比较或规模应用依据，尚不足建立全国标杆资格。",
+              "evidence_ids": [
+                "article:a7d6584f3eb0d3d0"
+              ]
+            }
+          },
+          "identity_candidates": [],
+          "company_db_id": null
+        },
+        {
           "company_raw_name": "虹软科技",
           "title": "Geely Launches Galaxy Zhanjian 700 Globally 吉利银河战舰700全球上市",
           "company": "虹软科技",
@@ -188,217 +476,6 @@
               "reason": "本篇足以证明具体技术展示，但未提供行业领先地位、规模应用或可比性能证据，尚未建立全国标杆资格。",
               "evidence_ids": [
                 "article:39fc0d4c95592e47"
-              ]
-            }
-          },
-          "identity_candidates": [],
-          "company_db_id": null
-        },
-        {
-          "company_raw_name": "FlipFlop拓原",
-          "title": "29岁Nature一作乔木，被曝创业量子计算",
-          "company": "FlipFlop拓原",
-          "score": 60,
-          "sector": "量子计算",
-          "financing": "据报道已完成种子轮、天使轮融资，累计数亿元人民币；投资方包括源码、绿洲、中金等，未披露各轮金额及资金用途。",
-          "source": "量子位",
-          "location": "地点待核",
-          "article_location": "",
-          "geography": {
-            "geography_status": "unknown",
-            "classification": "unknown",
-            "display_location": "地点待核",
-            "located_status": "unknown",
-            "display_basis": [],
-            "subject_evidence_ids": [],
-            "needs_review": true,
-            "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-            "subject": "FlipFlop拓原",
-            "subject_locality": {
-              "status": "unknown",
-              "classification": "unknown",
-              "basis_roles": [],
-              "evidence_ids": []
-            },
-            "basis": []
-          },
-          "company_entity_id": "dr-u-8f8185774b7972937e3c",
-          "company_canonical_name": "FlipFlop拓原",
-          "identity_status": "unresolved",
-          "event_type": "融资",
-          "link": "https://mp.weixin.qq.com/s/M_pjVXH2aQtdAirMtXUsFQ",
-          "article_title": "29岁Nature一作乔木，被曝创业量子计算",
-          "event_desc": "据量子位报道，FlipFlop拓原已完成种子轮、天使轮融资，累计金额数亿元人民币，投资方包括源码、绿洲、中金等。公司瞄准中性原子量子计算；据参与投资的投资人介绍，公司从容错计算需求出发设计整机架构，将百逻辑比特系统作为重要研发目标，并希望逐步将AI引入实验设计、数据处理和设备控制。",
-          "insight": "拓原值得关注的变化，是具有中性原子实验研究经历的团队开始以创业公司形式推进量子计算整机研发，并获得两轮资本支持。其从容错需求倒推整机架构的路径，将研究重点从原子阵列实验延伸到可纠错的逻辑比特系统；百逻辑比特目前仍是研发目标。",
-          "event_headline": "据报道拓原完成种子轮及天使轮融资，累计数亿元",
-          "event_signal": "major",
-          "is_national_star": false,
-          "event_time_evidence": {
-            "status": "date_unknown_recent_report",
-            "description": "事件日期未明确；报道日为 2026-10-18",
-            "event_date": null,
-            "observed_date": "2026-10-18",
-            "review_required": true
-          },
-          "published_date": "2026-10-18",
-          "publication_basis": "采集源保留的发布时间",
-          "selection_recommendation": "keep",
-          "selection_reason": "原文明确将FlipFlop拓原称为创业公司，并报道其完成种子轮、天使轮融资，累计数亿元人民币；主体不是创始人的论文或此前任职企业。中性原子量子计算团队获得早期资本支持、转向整机架构研发，构成具体科技企业成长线索。2026年10月18日新闻发布时间已由本包提供，符合最近7天窗口，上游所称发布时间缺失不再成立。所供历史检索无匹配记录，但工商主体映射及别名覆盖未完成，不宣称首次发现。地点保持待核，不赋予杭州身份；正面线索不因地点未知或融资日期不详排除。",
-          "event_headline_source": "b49dbbab3a70ee181423183a55b7e2820429f3286409dcba43a088f46e075fa2",
-          "location_status": "unknown",
-          "location_basis": [],
-          "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-          "benchmark_review": {
-            "status": "not_qualified",
-            "eligible": false,
-            "reason": "融资与团队研究经历支持发现价值，但未证明公司已交付的量子计算系统能力、行业领先地位或可验证应用效果，尚不足以确立全国标杆资格。",
-            "evidence_ids": [
-              "article:44531b2a2c8b8dca"
-            ]
-          },
-          "quality_review": {
-            "schema_version": "dragon-overnight-review.v2",
-            "decision": "keep",
-            "reviewer": "quality_inspector Agent; overnight current Agent full-body and directed review",
-            "candidate_id": "2b4854a8af882cc7b2fdab179eddfebaf89fef49dc283229d7837058ec66c0b9",
-            "input_row_sha256": "ea9238345649a32eee68e51e5a59d49d6ee9ea71630569475245c6a97ab78374",
-            "reason": "原文明确将FlipFlop拓原称为创业公司，并报道其完成种子轮、天使轮融资，累计数亿元人民币；主体不是创始人的论文或此前任职企业。中性原子量子计算团队获得早期资本支持、转向整机架构研发，构成具体科技企业成长线索。2026年10月18日新闻发布时间已由本包提供，符合最近7天窗口，上游所称发布时间缺失不再成立。所供历史检索无匹配记录，但工商主体映射及别名覆盖未完成，不宣称首次发现。地点保持待核，不赋予杭州身份；正面线索不因地点未知或融资日期不详排除。",
-            "scope": {
-              "technology_evidence": "正文报道公司面向中性原子量子计算开展创业，完成两轮融资；参与投资的投资人介绍其从容错计算需求出发设计整机架构，将百逻辑比特系统作为研发目标，并计划逐步引入AI辅助实验设计、数据处理和设备控制。",
-              "value_reason": "资金支持与明确的量子计算整机研发路线相结合，值得观察科研团队向工程化企业转化的路径。当前可关注其资本成长及技术路线选择，不能将百逻辑比特目标写成已经实现的系统能力，也不补造融资用途。"
-            },
-            "stage": {
-              "status": "媒体报道已完成融资；整机与百逻辑比特系统处于研发目标阶段",
-              "reason": "融资完成及累计金额来自媒体与接近公司的业内人士，未提供各轮独立公告或精确完成日期。正文对成立后融资所用时长存在一个多月与两个月两种表述，不据此推算融资日期。新闻发布时间为2026-10-18T12:30:00Z；实际融资日期及首次收录时间未知。"
-            },
-            "history": {
-              "result": "uncertain",
-              "evidence_ids": [
-                "history_lookup:4c4c347500e3c7b1",
-                "identity_registry:2dcd4f408df25406"
-              ],
-              "prior_decisions": [],
-              "change_reason": "本包accepted_history与prior_decisions均为空，检索未报告错误，所供范围未见同一融资事件；但主体映射未完成且无已确认别名，不能把未匹配等同完整历史中首次出现。无旧裁决需要撤销。",
-              "new_evidence_ids": [
-                "article:44531b2a2c8b8dca"
-              ]
-            },
-            "evidence_ids": [
-              "article:44531b2a2c8b8dca",
-              "history_lookup:4c4c347500e3c7b1",
-              "identity_registry:2dcd4f408df25406"
-            ],
-            "benchmark_review": {
-              "status": "not_qualified",
-              "eligible": false,
-              "reason": "融资与团队研究经历支持发现价值，但未证明公司已交付的量子计算系统能力、行业领先地位或可验证应用效果，尚不足以确立全国标杆资格。",
-              "evidence_ids": [
-                "article:44531b2a2c8b8dca"
-              ]
-            }
-          },
-          "company_db_id": 495
-        },
-        {
-          "company_raw_name": "华羽先翔",
-          "title": "全球人形机器人收入前五全是中国企业；宇树科技展示中心在天津建成投用丨智能制造日报",
-          "company": "华羽先翔",
-          "score": 60,
-          "sector": "低空经济／电动航空",
-          "financing": "",
-          "source": "创业邦",
-          "location": "地点待核",
-          "article_location": "",
-          "geography": {
-            "geography_status": "unknown",
-            "classification": "unknown",
-            "display_location": "地点待核",
-            "located_status": "unknown",
-            "display_basis": [],
-            "subject_evidence_ids": [],
-            "needs_review": true,
-            "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-            "subject": "华羽先翔",
-            "subject_locality": {
-              "status": "unknown",
-              "classification": "unknown",
-              "basis_roles": [],
-              "evidence_ids": []
-            },
-            "basis": []
-          },
-          "company_entity_id": "dr-u-da4d963839a416664a25",
-          "company_canonical_name": "华羽先翔",
-          "identity_status": "unresolved",
-          "event_type": "技术突破",
-          "link": "https://mp.weixin.qq.com/s/FKKj948LMswMykJC05-Y8Q",
-          "article_title": "全球人形机器人收入前五全是中国企业；宇树科技展示中心在天津建成投用丨智能制造日报",
-          "event_desc": "据报道，白志亮带队研发的鸿鹄eVTOL预生产原型机在2026 Inclusion·外滩大会公开亮相。报道同时称，华羽先翔已实现全倾转过渡飞行，为全球第二家、中国首家实现该项飞行的eVTOL企业。",
-          "insight": "全倾转过渡飞行连接垂直起降与机翼巡航，是这类飞行器从悬停走向完整飞行任务的关键能力。报道披露的过渡飞行进展与预生产原型机亮相，使华羽先翔值得从整机工程化角度研究；下一步应对齐两项事实对应的机型与试飞条件，判断能力推进到了哪一代产品。",
-          "event_headline": "华羽先翔鸿鹄预生产原型机亮相，披露全倾转飞行进展",
-          "event_signal": "major",
-          "is_national_star": false,
-          "event_time_evidence": {
-            "status": "date_unknown_recent_report",
-            "description": "事件日期未明确；报道日为 2026-10-18",
-            "event_date": null,
-            "observed_date": "2026-10-18",
-            "review_required": true
-          },
-          "published_date": "2026-10-18",
-          "publication_basis": "采集源保留的发布时间",
-          "selection_recommendation": "keep",
-          "selection_reason": "定向改判：完整正文明确白志亮带领的华羽先翔与鸿鹄eVTOL预生产原型机、企业全倾转过渡飞行的关系，主体无冲突。展示与过渡飞行支持具体整机研发线索；不把可量产写成已量产，也不认定两项事实对应同一机型或试飞条件。10月18日新闻有效，所给历史无同事件。法律主体映射及地点未知不否定正面产品事实；不从学校或展会所在地推定属地。原watch没有其他实质缺口，予以纠正。",
-          "event_headline_source": "e2b9a208cc4eafa73b80d121a7815c83a658770bf494b44b9cd10838b55ed807",
-          "location_status": "unknown",
-          "location_basis": [],
-          "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-          "benchmark_review": {
-            "status": "not_qualified",
-            "eligible": false,
-            "reason": "全倾转过渡飞行构成潜在技术对标依据，但当前只有转述，尚未对齐试飞机型、条件及所称行业位次的比较口径，不据此直接授予全国标杆资格。",
-            "evidence_ids": [
-              "article:2f03cf918fb91a93"
-            ]
-          },
-          "quality_review": {
-            "schema_version": "dragon-overnight-review.v2",
-            "decision": "keep",
-            "reviewer": "quality_inspector Agent; overnight current Agent full-body and directed review",
-            "candidate_id": "62ea983c9568c3010dd3bdf095b3b5e23d3b1f6a8b88a47f852e0ccb49d5499c",
-            "input_row_sha256": "43f49acc5807b6e355d73980740e1baf0b2304554f5aab9f75d977b92b75c656",
-            "reason": "定向改判：完整正文明确白志亮带领的华羽先翔与鸿鹄eVTOL预生产原型机、企业全倾转过渡飞行的关系，主体无冲突。展示与过渡飞行支持具体整机研发线索；不把可量产写成已量产，也不认定两项事实对应同一机型或试飞条件。10月18日新闻有效，所给历史无同事件。法律主体映射及地点未知不否定正面产品事实；不从学校或展会所在地推定属地。原watch没有其他实质缺口，予以纠正。",
-            "scope": {
-              "technology_evidence": "正文记载鸿鹄eVTOL预生产原型机在2026 Inclusion·外滩大会亮相，并称华羽先翔实现全倾转过渡飞行。",
-              "value_reason": "全倾转过渡飞行涉及垂直起降与巡航模式转换，是整机工程能力的重要观察点；与预生产原型机展示结合，可形成杭州低空航空企业研发及工程化路径的对照线索，但尚不能证明适航、量产或客户交付。"
-            },
-            "stage": {
-              "status": "预生产原型机公开展示；媒体报道已实现过渡飞行",
-              "reason": "报道使用“近日”，未给展示及过渡飞行的精确日期，也未明确两者对应同一机型。全球第二、中国首家的位次仅为报道说法，不视为独立认证。新闻发布于2026年10月18日，首次收录时间未知。"
-            },
-            "history": {
-              "result": "new_event",
-              "evidence_ids": [
-                "history_lookup:4c4c347500e3c7b1"
-              ],
-              "prior_decisions": [],
-              "change_reason": "输入中该稳定主体没有已收录事件或既往裁决，且历史检索无错误；可用历史未见本次原型机展示及过渡飞行线索，不宣称首次实现技术突破或全库首次收录。",
-              "new_evidence_ids": [
-                "article:2f03cf918fb91a93"
-              ]
-            },
-            "evidence_ids": [
-              "article:2f03cf918fb91a93",
-              "identity_registry:2dcd4f408df25406",
-              "geography_registry:b93d03cf35486d17",
-              "history_lookup:4c4c347500e3c7b1"
-            ],
-            "benchmark_review": {
-              "status": "not_qualified",
-              "eligible": false,
-              "reason": "全倾转过渡飞行构成潜在技术对标依据，但当前只有转述，尚未对齐试飞机型、条件及所称行业位次的比较口径，不据此直接授予全国标杆资格。",
-              "evidence_ids": [
-                "article:2f03cf918fb91a93"
               ]
             }
           },
@@ -17751,10 +17828,10 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "8c3c574c2cedeb1f165195060b0fbb6362edff2f3fe5c6ffc1ab80e3c0c68b18",
+  "history_version": "804a360f03968f35883ae4f5b3f3716b7bd6ab31efa8a2d0242ef99022489cb1",
   "company_history_buckets": {
     "00": "595e7cac49e301635bfe604ca52b1ad4c75d3fc7c7ab3743dec3cbbf499c4807",
-    "01": "954dafabdb37cacb0abfa2cf5dae187500b67ccb68d744fac707fe3e78bfdae3",
+    "01": "eb1a73f1ee941f46c3d3a9e95e3f5fcbc84a8974aad56f8e5b30ce57449605d6",
     "02": "b2e9e5712abe2838e954c907bd98a26ab3d4a60330bc6a8e11503f4e1d2e1147",
     "03": "f27382f9a4b11788f218c8163b7fbc3bae112a8e2796502c8d6d9d6fd61b4b10",
     "04": "ee72791bb74e2c32881f6b47af95c9bf2508423f0a70d30740b5cf8ae4c643c9",
@@ -17768,7 +17845,7 @@
     "0c": "2c61911a7737e6ae6c82f73ab9e5f4d36f9467cbceff7acde4a70315bdc2e75f",
     "0d": "d34e60b09fb45e5da2ab015adaa5f2e29294b67d52980af47701851ce3ae5a3a",
     "0e": "73ad33459a44504435273e9dcf52d88b758d93850d8ddbf214b4495d45372bef",
-    "0f": "307289512292b6d53ba401d39774315f2ba6c9d59f685b331600f6fb89be6f4d",
+    "0f": "ffebd930d33656507a5151d64d4fcc504347e26ae9b79e7eefd83572e850fcaa",
     "10": "0c75a93cc977099cdfb28e92b070987355d2d4da43246dc72acc4a9fc5607c2a",
     "11": "eb58ff517ab34e048cadd2cab96c7d97e9a932c52b1fb915b60da3eca4882285",
     "12": "aafed47f6357b582fcc5ac13559fa5190636884d873bbafa75ecf34763feb131",
@@ -17777,7 +17854,7 @@
     "15": "6cf4a35c9df42863452cc1c065937de4a53dc016ea4b86d457c57f53196dd647",
     "16": "2ac10109b12a488e4f7c51b18720b7f227a9dab8f168432db35ef5f7c5f05dcd",
     "17": "3767dc75bf3f38cdfff3e2b1f81060ce3aacf62a8c5445b1c3803c0b13c9c2f3",
-    "18": "51f507c7562c9b9781f20826e77870ef8a6fcd253812a3b27cb90d01ed7a5f48",
+    "18": "fa6a0464e3d3c8c323b83633df8e160e86a0220ee82b1e48d20c7ed3bcfc491a",
     "19": "0d40fc0635bcb80426e27d25d616bfd65fcaa1c45a8ea7b5ab9ae50640baf16d",
     "1a": "f8e072f50efee257827c0d1c2c91551caf7c9784d65030722f30c0df54ffc00d",
     "1b": "5f8ed4d7c05ae9b4b3051bd69246f48383e690d14c38db4ad074815278594873",
@@ -17791,7 +17868,7 @@
     "23": "18dd4c9acad6edd03b5aba809917fe85c68476ffd78739cdb42f98ef56620d42",
     "24": "66f456cbf3e49df826225576bce1e805c066f537d1246966670c1cf23f365795",
     "25": "f8456844abc5c0f82907097659e02fa44b08fba8c0e3f627ff4569a622adbcb3",
-    "26": "44ed4b0c9346b9561f103d373d2de13f193996e32dec8583b57214eef540cc89",
+    "26": "9aca9c2802b9a02f9eb8c7c44155aa93ccde49801696c48ca574fc81cf23cf96",
     "27": "5398e019925eb968037f37c8d818577f1f414399b7501f1630b80c3e07c8ac18",
     "28": "8aa44b8861aba5f3e8d8b96af7606bbbcaac1801e992ab4b456355251fb1fea7",
     "29": "03f61cced8f349acba00287ccdbc6c08e34baa3615d60c765fbaef29f100ffc6",
@@ -17811,14 +17888,14 @@
     "37": "4d0c926222a47ce37ba63b1627a2dbcef87a17f368d46f2f7bc5e01a7d7b69cd",
     "38": "ceb6e38c04115302487bd6355ab625b5158be0e6e62ac3e3fc23e5b1f6d5179c",
     "39": "d00a9371b019702cd42f26b074c8999630f95999cc83a96ba9e59373df580f08",
-    "3a": "72ebc76f6c54918db2db0c9c8f93900e3d26e0d448e9b3ff26c2bc231949a9d4",
+    "3a": "a8b481639635c4da9c1e9b389d6a45fc2929a1160cbaffd476c5f95b32c7e7bf",
     "3b": "ca0880399440d1a641c363ea50dfcf16e519b12953e4326ddd82af55870cb223",
     "3c": "670ae357c6e63a2dc34bec4937b58ff473a65806526bdfd74371d481e8bc9e66",
     "3d": "67c5892ba8af639856df5db1d6128f77d4df7fc12ba8753bead7343c6c684242",
     "3e": "08165edc452616a3b5e487f4e2b010625365f1342ed205e0118069558f40fbc2",
     "3f": "fc34c53e4801b094a0087107ec0b4b62d784d7cc5f153d2440b306f02c6ea5bf"
   },
-  "history_search_version": "99fed5453387f29e9ea0a704b7618bd6b5dbd0b016905a615f57a681fcd07a9a",
+  "history_search_version": "a055b1a0250c929a522d6b4e486b755939833ebc30a1496bf8bbb19c9b5ee27b",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
@@ -20013,7 +20090,7 @@
       "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785": "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785"
     }
   },
-  "geography_version": "393650ac2129d9e9fa43a7c9cf1f8321263046610de004fe0e14e850a12ec283",
+  "geography_version": "c9dc1c5d131b4086100d02f648172192586c7057818702a6421ab91fa07f0b87",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -20903,7 +20980,8 @@
       "display_location": "经营地：US / Redmond（注册/总部待核）",
       "located_status": "business_confirmed_subject_pending",
       "display_basis": [
-        "geo-285d79e62d3f1ae5f005a8b0"
+        "geo-285d79e62d3f1ae5f005a8b0",
+        "geo-defe79c3cdac3e4ef409c03f"
       ],
       "subject_evidence_ids": [],
       "needs_review": true,
@@ -20927,6 +21005,20 @@
             "country": "US",
             "province": "Washington",
             "city": "Redmond"
+          }
+        },
+        {
+          "evidence_id": "geo-defe79c3cdac3e4ef409c03f",
+          "source_url": "https://news.microsoft.com/facts-about-microsoft",
+          "checked_at": "2026-10-20T01:34:36.319719+00:00",
+          "subject": "微软",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "Washington",
+            "city": "Redmond",
+            "address": "One Microsoft Way, Redmond, WA 98052-7329"
           }
         }
       ]
@@ -22278,10 +22370,49 @@
       "located_status": "unknown"
     },
     "dr-u-2cf6f1b7247330819344": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "subject_confirmed",
+      "display_basis": [
+        "geo-848e790da629763fa74cf493"
+      ],
+      "subject_evidence_ids": [
+        "geo-848e790da629763fa74cf493"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "萤石",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "basis_roles": [
+          "registered"
+        ],
+        "evidence_ids": [
+          "geo-848e790da629763fa74cf493"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-848e790da629763fa74cf493",
+          "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688475&id=12461806",
+          "checked_at": "2026-10-20T01:33:22.770007+00:00",
+          "subject": "萤石",
+          "role": "registered",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "滨江区",
+            "address": "浙江省杭州市滨江区西兴街道启智东街188号"
+          }
+        }
+      ]
     },
     "dr-u-2cf797510f7e4324233d": {
       "geography_status": "unknown",
@@ -29632,10 +29763,47 @@
       "located_status": "unknown"
     },
     "dr-u-b37bddc6b51c326ec092": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "subject_confirmed",
+      "display_basis": [
+        "geo-e9a35deed21df99dad1438a3"
+      ],
+      "subject_evidence_ids": [
+        "geo-e9a35deed21df99dad1438a3"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "杭州信雅达科技",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "basis_roles": [
+          "registered"
+        ],
+        "evidence_ids": [
+          "geo-e9a35deed21df99dad1438a3"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-e9a35deed21df99dad1438a3",
+          "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600571&id=11365233",
+          "checked_at": "2026-10-20T01:34:35.057675+00:00",
+          "subject": "杭州信雅达科技",
+          "role": "registered",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ]
     },
     "dr-u-b387abd24bf428fa0881": {
       "geography_status": "unknown",
@@ -32363,16 +32531,16 @@
       "located_status": "unknown"
     },
     "dr-u-eaf87eb8fe1f87016746": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "经营地：浙江省 / 杭州市（注册/总部待核）",
-      "located_status": "business_confirmed_subject_pending",
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "discovery_confirmed",
       "display_basis": [
         "geo-5af897128f09302b1b9a8545"
       ],
       "subject_evidence_ids": [],
-      "needs_review": true,
-      "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "needs_review": false,
+      "next_action": null,
       "subject": "强脑科技",
       "subject_locality": {
         "status": "unknown",
@@ -32396,7 +32564,17 @@
             "address": "浙江省杭州市余杭区人工智能小镇1幢2层"
           }
         }
-      ]
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "evidence_ids": [
+          "geo-5af897128f09302b1b9a8545"
+        ]
+      }
     },
     "dr-u-eb22d032f8b7a77b90b8": {
       "geography_status": "unknown",
@@ -32652,10 +32830,49 @@
       "located_status": "unknown"
     },
     "dr-u-ef8bcd34d51d88fd11e4": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-27edc2b7ea8d0899a76ece0b"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "沃虎科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-27edc2b7ea8d0899a76ece0b",
+          "source_url": "https://mp.weixin.qq.com/s/S6q2HSj5zUNTsVn4lhgCkA",
+          "checked_at": "2026-10-18T22:31:05+00:00",
+          "subject": "沃虎科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "滨江区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "evidence_ids": [
+          "geo-27edc2b7ea8d0899a76ece0b"
+        ]
+      }
     },
     "dr-u-efcebf61573081308377": {
       "geography_status": "unknown",

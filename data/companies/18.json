@@ -1432,24 +1432,49 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/7kjEyJMWAa1EZlbOH3xI1A",
       "sector": "金融科技与支付终端",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-e9a35deed21df99dad1438a3"
+        ],
+        "subject_evidence_ids": [
+          "geo-e9a35deed21df99dad1438a3"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州信雅达科技",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-e9a35deed21df99dad1438a3"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e9a35deed21df99dad1438a3",
+            "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600571&id=11365233",
+            "checked_at": "2026-10-20T01:34:35.057675+00:00",
+            "subject": "杭州信雅达科技",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
       },
       "article_location": "",
       "source": "滨江发布",
