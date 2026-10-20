@@ -1518,16 +1518,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/jlSutIKaWnCrKIK4zxYWPA",
       "sector": "新能源汽车与动力电池",
-      "location": "地点待核",
+      "location": "DE / Munich",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / Munich",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fec5b67ed5e5ab111967e448"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "宝马集团",
         "subject_locality": {
           "status": "unknown",
@@ -1535,7 +1537,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-fec5b67ed5e5ab111967e448",
+            "source_url": "https://www.news.cn/world/20250228/61367582596947688234e98451527f25/c.html",
+            "checked_at": "2026-10-20T02:37:03.122212+00:00",
+            "subject": "宝马集团",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "Munich"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "Munich",
+          "evidence_ids": [
+            "geo-fec5b67ed5e5ab111967e448"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

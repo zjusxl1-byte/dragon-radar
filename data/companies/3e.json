@@ -3102,16 +3102,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "具身智能",
-      "location": "活动地：上海市（企业属地待核）",
+      "location": "经营地：北京市 / 海淀区 / 卫星大厦509",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "活动地：上海市（企业属地待核）",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "经营地：北京市 / 海淀区 / 卫星大厦509",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d0990a1b10b542ec13d21356"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "中科第五纪",
         "subject_locality": {
           "status": "unknown",
@@ -3121,24 +3123,37 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-1999810301204f5ca2f6ee3b",
-            "source_url": "https://www.cls.cn/detail/2506466",
-            "checked_at": "2026-10-18T18:03:52.969252+00:00",
+            "evidence_id": "geo-d0990a1b10b542ec13d21356",
+            "source_url": "https://www.robotsj.cn/brand/1588.html",
+            "checked_at": "2026-10-20T02:39:19.836897+00:00",
             "subject": "中科第五纪",
-            "role": "mention",
+            "role": "business",
             "subject_relation": "same_subject",
             "place": {
               "country": "CN",
-              "province": "上海市",
-              "city": "上海市"
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "卫星大厦509"
             }
           }
         ],
-        "presentation": {
-          "label": "活动地：上海市（企业属地待核）",
-          "detail": "在上海工博会展示产品；不是企业办公室证据。",
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
           "evidence_ids": [
-            "geo-1999810301204f5ca2f6ee3b"
+            "geo-d0990a1b10b542ec13d21356"
+          ]
+        },
+        "presentation": {
+          "label": "经营地：北京市 / 海淀区 / 卫星大厦509",
+          "detail": "品牌档案明确北京公司地址；旧上海工博会活动事实仍为mention，不作经营或严格总部证据。",
+          "evidence_ids": [
+            "geo-d0990a1b10b542ec13d21356"
           ]
         }
       },

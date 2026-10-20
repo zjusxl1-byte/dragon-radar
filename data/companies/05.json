@@ -977,16 +977,18 @@
       "event_type": "其他",
       "link": "https://www.cls.cn/detail/2506466",
       "sector": "工业无损检测",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市 / 滨江区 / 阡陌路555号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区 / 阡陌路555号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c6ea797e8256e7d12b7f76e4"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "海康威视",
         "subject_locality": {
           "status": "unknown",
@@ -994,7 +996,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c6ea797e8256e7d12b7f76e4",
+            "source_url": "https://www.hikvision.com/cn/Contact/Contact-information-of-headquarters/",
+            "checked_at": "2026-10-20T02:40:32.349165+00:00",
+            "subject": "海康威视",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "阡陌路555号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-c6ea797e8256e7d12b7f76e4"
+          ]
+        }
       },
       "article_location": "",
       "source": "科创板日报",

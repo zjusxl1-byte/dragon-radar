@@ -1617,16 +1617,18 @@
       "event_type": "并购",
       "link": "https://mp.weixin.qq.com/s/TAMIr_n7MXluR1bKjTvnLg",
       "sector": "半导体设备／三维集成",
-      "location": "地点待核",
+      "location": "辽宁省 / 沈阳市 / 浑南区 / 水家900号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "辽宁省 / 沈阳市 / 浑南区 / 水家900号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-84f6272b7a6657224497bbaf"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "拓荆科技",
         "subject_locality": {
           "status": "unknown",
@@ -1634,7 +1636,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-84f6272b7a6657224497bbaf",
+            "source_url": "https://www.piotech.cn/index.php/Lx/lx",
+            "checked_at": "2026-10-20T02:37:02.062942+00:00",
+            "subject": "拓荆科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "辽宁省",
+              "city": "沈阳市",
+              "district": "浑南区",
+              "address": "水家900号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "辽宁省",
+          "city": "沈阳市",
+          "district": "浑南区",
+          "evidence_ids": [
+            "geo-84f6272b7a6657224497bbaf"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
