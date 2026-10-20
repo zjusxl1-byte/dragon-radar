@@ -2061,24 +2061,50 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/QbBsszAIJ1Uj4LJ49v8Zug",
       "sector": "人工智能／多智能体与模型训练",
-      "location": "地点线索：东京（原文明确的公司成立地，未明确注册地或主要总部）",
+      "location": "JP / Tokyo",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "JP / Tokyo",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-0e0a6c7095b1b9c2ef3df4f3"
+        ],
+        "subject_evidence_ids": [
+          "geo-0e0a6c7095b1b9c2ef3df4f3"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Sakana AI",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "JP",
+          "province": "東京都",
+          "city": "Tokyo",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-0e0a6c7095b1b9c2ef3df4f3"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0e0a6c7095b1b9c2ef3df4f3",
+            "source_url": "https://sakana.ai/company-info/",
+            "checked_at": "2026-10-20T01:41:05.897896+00:00",
+            "subject": "Sakana AI",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "JP",
+              "province": "東京都",
+              "city": "Tokyo",
+              "address": "Azabudai Hills Mori JP Tower 22F, 1-3-1 Azabudai, Minato-ku, Tokyo, 106-0041 JAPAN"
+            }
+          }
+        ]
       },
       "article_location": "东京（原文明确的公司成立地，未明确注册地或主要总部）",
       "source": "量子位",
