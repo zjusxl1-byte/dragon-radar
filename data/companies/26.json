@@ -1861,18 +1861,18 @@
       "event_type": "产品发布",
       "link": "https://mp.weixin.qq.com/s/HyqdWs9POWjgcr-SCXjTCg",
       "sector": "AI运维软件",
-      "location": "经营地：浙江省 / 杭州市（注册/总部待核）",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：浙江省 / 杭州市（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-d0152742d921055061c16473"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "贝联珠贯",
         "subject_locality": {
           "status": "unknown",
@@ -1894,7 +1894,17 @@
               "city": "杭州市"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-d0152742d921055061c16473"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "元璟资本",

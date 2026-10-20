@@ -1029,38 +1029,46 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/2oYfOdJ9c9FwrehSWl3oxQ",
       "sector": "半导体存储",
-      "location": "经营地：US / Boise（注册/总部待核）",
+      "location": "US / Boise",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / Boise（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Boise",
+        "located_status": "subject_confirmed",
         "display_basis": [
-          "geo-7887c07e6e11e936b001245d"
+          "geo-59019ff83742039112408e61"
         ],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject_evidence_ids": [
+          "geo-59019ff83742039112408e61"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "美光科技",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Idaho",
+          "city": "Boise",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-59019ff83742039112408e61"
+          ]
         },
         "basis": [
           {
-            "evidence_id": "geo-7887c07e6e11e936b001245d",
-            "source_url": "https://www.micron.com/about/locations",
-            "checked_at": "2026-10-15T18:26:22.730682+00:00",
+            "evidence_id": "geo-59019ff83742039112408e61",
+            "source_url": "https://www.micron.com/about/blog/company/sustainability/restoring-boise-river-means-big-things-global-sustainability",
+            "checked_at": "2026-10-20T01:43:29.113920+00:00",
             "subject": "美光科技",
-            "role": "business",
+            "role": "hq",
             "subject_relation": "same_subject",
             "place": {
               "country": "US",
               "province": "Idaho",
-              "city": "Boise",
-              "address": "8000 S Federal Way, Boise, Idaho 83716"
+              "city": "Boise"
             }
           }
         ]

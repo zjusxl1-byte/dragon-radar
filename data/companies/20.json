@@ -1794,32 +1794,41 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/6_nhFmrbcmPOEBjijaW0mQ",
       "sector": "AI服务器与推理基础设施",
-      "location": "经营地：US / Round Rock（注册/总部待核）",
+      "location": "US / Round Rock",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / Round Rock（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Round Rock",
+        "located_status": "subject_confirmed",
         "display_basis": [
-          "geo-634690c57f1abea2391c5d94"
+          "geo-850f8d872aca9d02dcc12009"
         ],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject_evidence_ids": [
+          "geo-850f8d872aca9d02dcc12009"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "戴尔",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Texas",
+          "city": "Round Rock",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-850f8d872aca9d02dcc12009"
+          ]
         },
         "basis": [
           {
-            "evidence_id": "geo-634690c57f1abea2391c5d94",
-            "source_url": "https://investors.delltechnologies.com/company-information/company-profile",
-            "checked_at": "2026-10-12T03:53:35.670342+00:00",
+            "evidence_id": "geo-850f8d872aca9d02dcc12009",
+            "source_url": "https://investors.delltechnologies.com/company-information/faq",
+            "checked_at": "2026-10-20T01:43:28.202440+00:00",
             "subject": "戴尔",
-            "role": "business",
+            "role": "hq",
             "subject_relation": "same_subject",
             "place": {
               "country": "US",
