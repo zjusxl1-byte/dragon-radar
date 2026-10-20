@@ -88672,18 +88672,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/W7J15msrifVr07_NnJ5KUw",
       "sector": "工业自动化与工业智能计算",
-      "location": "经营地：广东省深圳市南山区粤海街道学府路百度国际大厦西塔楼26层2601-1室（注册/总部待核）",
+      "location": "广东省深圳市南山区粤海街道学府路百度国际大厦西塔楼26层2601-1室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：广东省深圳市南山区粤海街道学府路百度国际大厦西塔楼26层2601-1室（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省深圳市南山区粤海街道学府路百度国际大厦西塔楼26层2601-1室",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-51db82be58f05fb312dd5c36"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "中科时代",
         "subject_locality": {
           "status": "unknown",
@@ -88706,7 +88706,17 @@
               "address": "广东省深圳市南山区粤海街道学府路百度国际大厦西塔楼26层2601-1室"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-51db82be58f05fb312dd5c36"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -88840,16 +88850,18 @@
       "event_type": "产品方案展示计划",
       "link": "https://mp.weixin.qq.com/s/CpOx75OpctLNUtpzoZqj7Q",
       "sector": "低压电气及智能家居用电",
-      "location": "地点线索：临平区",
+      "location": "浙江省 / 杭州市 / 临平区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 临平区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-45ae0ddaac66285fa05adc9e"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "泰姆电气",
         "subject_locality": {
           "status": "unknown",
@@ -88857,7 +88869,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-45ae0ddaac66285fa05adc9e",
+            "source_url": "https://mp.weixin.qq.com/s/CpOx75OpctLNUtpzoZqj7Q",
+            "checked_at": "2026-10-14T11:16:20+00:00",
+            "subject": "泰姆电气",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "临平区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "临平区",
+          "evidence_ids": [
+            "geo-45ae0ddaac66285fa05adc9e"
+          ]
+        }
       },
       "article_location": "临平区",
       "source": "临平发布",
@@ -88893,16 +88931,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/3TXsJlx_RWrDAeUUGSb7rA",
       "sector": "新能源汽车",
-      "location": "地点待核",
+      "location": "上海市 / 嘉定区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 嘉定区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-77792b51d737eb7c6d9893ad"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "蔚来",
         "subject_locality": {
           "status": "unknown",
@@ -88910,7 +88950,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-77792b51d737eb7c6d9893ad",
+            "source_url": "https://www.nio.cn/policies/privacy-policy",
+            "checked_at": "2026-10-13T00:33:43.395537+00:00",
+            "subject": "蔚来",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "嘉定区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "嘉定区",
+          "evidence_ids": [
+            "geo-77792b51d737eb7c6d9893ad"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",
@@ -89296,16 +89362,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/b2kQRDQwEKMmLqy4PmGblw",
       "sector": "计算机视觉",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市 / 滨江区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-2508561f94b6c83b481d28dc"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "忆元科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -89313,7 +89381,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-2508561f94b6c83b481d28dc",
+            "source_url": "https://mp.weixin.qq.com/s/b2kQRDQwEKMmLqy4PmGblw",
+            "checked_at": "2026-10-14T10:31:55+00:00",
+            "subject": "忆元科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-2508561f94b6c83b481d28dc"
+          ]
+        }
       },
       "article_location": "",
       "source": "滨江发布",

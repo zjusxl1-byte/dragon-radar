@@ -1921,18 +1921,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/W7J15msrifVr07_NnJ5KUw",
       "sector": "工业自动化与工业智能计算",
-      "location": "经营地：广东省深圳市南山区粤海街道学府路百度国际大厦西塔楼26层2601-1室（注册/总部待核）",
+      "location": "广东省深圳市南山区粤海街道学府路百度国际大厦西塔楼26层2601-1室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：广东省深圳市南山区粤海街道学府路百度国际大厦西塔楼26层2601-1室（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省深圳市南山区粤海街道学府路百度国际大厦西塔楼26层2601-1室",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-51db82be58f05fb312dd5c36"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "中科时代",
         "subject_locality": {
           "status": "unknown",
@@ -1955,7 +1955,17 @@
               "address": "广东省深圳市南山区粤海街道学府路百度国际大厦西塔楼26层2601-1室"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-51db82be58f05fb312dd5c36"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
