@@ -1636,24 +1636,49 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/4hDMRzPLDwOsqadj-kfyOQ",
       "sector": "智能电助力自行车与轻型出行",
-      "location": "地点线索：德国柏林（总部）",
+      "location": "DE / Berlin",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / Berlin",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-1c6ec6120092ff28b266c343"
+        ],
+        "subject_evidence_ids": [
+          "geo-1c6ec6120092ff28b266c343"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Lemmo",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "province": "",
+          "city": "Berlin",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-1c6ec6120092ff28b266c343"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-1c6ec6120092ff28b266c343",
+            "source_url": "https://www.lemmofuture.com/pages/about-us-new#Imprint",
+            "checked_at": "2026-10-20T01:51:57.530000+00:00",
+            "subject": "Lemmo",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "Berlin",
+              "address": "c / o Excellent Business Center, Europaplatz 2, 10557 Berlin"
+            }
+          }
+        ]
       },
       "article_location": "德国柏林（总部）",
       "source": "36 氪",

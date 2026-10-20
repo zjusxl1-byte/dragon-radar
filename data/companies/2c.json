@@ -95,16 +95,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/ZKSo6NynC2-KashAJ6kpYg",
       "sector": "激光雷达",
-      "location": "地点待核",
+      "location": "上海市 / 上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3d93bd9302636ba406c670b7"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "禾赛科技",
         "subject_locality": {
           "status": "unknown",
@@ -112,7 +114,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3d93bd9302636ba406c670b7",
+            "source_url": "https://www.jiading.gov.cn/xinwen/mtkjd/content_925002",
+            "checked_at": "2026-10-20T01:50:00.017263+00:00",
+            "subject": "禾赛科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "嘉定区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-3d93bd9302636ba406c670b7"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -137,16 +164,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/KDzs2GnQHDw1z-znIPUH5A",
       "sector": "三维空间数据采集与重建、激光雷达、物理AI",
-      "location": "地点待核",
+      "location": "上海市 / 上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3d93bd9302636ba406c670b7"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "禾赛科技",
         "subject_locality": {
           "status": "unknown",
@@ -154,7 +183,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3d93bd9302636ba406c670b7",
+            "source_url": "https://www.jiading.gov.cn/xinwen/mtkjd/content_925002",
+            "checked_at": "2026-10-20T01:50:00.017263+00:00",
+            "subject": "禾赛科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "嘉定区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-3d93bd9302636ba406c670b7"
+          ]
+        }
       },
       "article_location": "",
       "source": "量子位",
@@ -1448,11 +1502,11 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/UCMRyju9K-WuJdIcYfGL_Q",
       "sector": "生成式AI应用／智能摄影",
-      "location": "经营地：US / San Mateo（注册/总部待核）",
+      "location": "通信联系地：San Mateo（实体经营/总部待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "经营地：US / San Mateo（注册/总部待核）",
+        "display_location": "通信联系地：San Mateo（实体经营/总部待核）",
         "located_status": "business_confirmed_subject_pending",
         "display_basis": [
           "geo-3d044c56b76d853458920587"
@@ -1464,9 +1518,6 @@
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
@@ -1485,7 +1536,14 @@
               "address": "204B 2nd Ave #318, San Mateo, CA 94401"
             }
           }
-        ]
+        ],
+        "presentation": {
+          "label": "通信联系地：San Mateo（实体经营/总部待核）",
+          "detail": "官方法律通信地址，不等于已确认实体办公室或主要总部。",
+          "evidence_ids": [
+            "geo-3d044c56b76d853458920587"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

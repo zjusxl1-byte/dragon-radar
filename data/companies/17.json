@@ -1120,18 +1120,18 @@
       "event_type": "制造合作与生产计划",
       "link": "https://mp.weixin.qq.com/s/2j8yRjCTrPjwTnnxz8BThA",
       "sector": "半导体—AI存储器与3D集成",
-      "location": "经营地：US / San Jose（注册/总部待核）",
+      "location": "US / San Jose",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / San Jose（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / San Jose",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-81adb09d979185e2fe8a1d05"
+          "geo-ff77bd9951738c4d75f3be63"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Kepler Computing",
         "subject_locality": {
           "status": "unknown",
@@ -1141,7 +1141,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-81adb09d979185e2fe8a1d05",
+            "evidence_id": "geo-ff77bd9951738c4d75f3be63",
             "source_url": "https://keplercompute.com",
             "checked_at": "2026-10-15T18:28:01.573414+00:00",
             "subject": "Kepler Computing",
@@ -1151,10 +1151,20 @@
               "country": "US",
               "province": "California",
               "city": "San Jose",
-              "address": "617 River Oaks Parkway, San Jose, CA 95134"
+              "address": "617 River Oaks Parkway · San Jose, CA 95134"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Jose",
+          "evidence_ids": [
+            "geo-ff77bd9951738c4d75f3be63"
+          ]
+        }
       },
       "article_location": "美国加利福尼亚州圣何塞（总部）",
       "source": "半导体行业观察",

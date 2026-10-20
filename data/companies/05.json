@@ -825,18 +825,19 @@
       "event_type": "负面",
       "link": "https://mp.weixin.qq.com/s/FAnzVrz1z41dUqpOAM6zSw",
       "sector": "企业云与网络安全",
-      "location": "经营地：JP / Tokyo（注册/总部待核）",
+      "location": "日本经营：东京、大阪（主要总部待核）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：JP / Tokyo（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "日本经营：东京、大阪（主要总部待核）",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-d4cca32106e1caf796214115"
+          "geo-5829d4afb0d70a086b304fa8",
+          "geo-fa882244a0c0f5257a4e39eb"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "IDC Frontier",
         "subject_locality": {
           "status": "unknown",
@@ -846,7 +847,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-d4cca32106e1caf796214115",
+            "evidence_id": "geo-5829d4afb0d70a086b304fa8",
             "source_url": "https://www.idcf.jp/company/about/company_profile/",
             "checked_at": "2026-10-12T03:46:30.761733+00:00",
             "subject": "IDC Frontier",
@@ -854,11 +855,42 @@
             "subject_relation": "same_subject",
             "place": {
               "country": "JP",
-              "city": "Tokyo",
-              "address": "東京都千代田区内幸町二丁目1番6号 日比谷パークフロント"
+              "city": "Tokyo"
+            }
+          },
+          {
+            "evidence_id": "geo-fa882244a0c0f5257a4e39eb",
+            "source_url": "https://www.idcf.jp/company/about/company_profile/",
+            "checked_at": "2026-10-12T03:46:30.761733+00:00",
+            "subject": "IDC Frontier",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "JP",
+              "city": "Osaka",
+              "address": "大阪市中央区安土町一丁目8番15号　野村不動産大阪ビル"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "JP",
+          "province": "",
+          "city": "",
+          "evidence_ids": [
+            "geo-5829d4afb0d70a086b304fa8",
+            "geo-fa882244a0c0f5257a4e39eb"
+          ]
+        },
+        "presentation": {
+          "label": "日本经营：东京、大阪（主要总部待核）",
+          "detail": "两个均为IDC Frontier同主体办公室，普通属地只确认国家，不把第一办公室当总部。",
+          "evidence_ids": [
+            "geo-5829d4afb0d70a086b304fa8",
+            "geo-fa882244a0c0f5257a4e39eb"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "36 氪",

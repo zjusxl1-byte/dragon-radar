@@ -1204,25 +1204,22 @@
       "event_type": "企业发现",
       "link": "https://mp.weixin.qq.com/s/5h5lFxPAMXW21lM5mfSaSg",
       "sector": "工业机器人与强化学习",
-      "location": "经营地：US / San Francisco（注册/总部待核）",
+      "location": "US / San Francisco",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / San Francisco（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / San Francisco",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-a45694256da6f5a7724fca28"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Intelligent Machines",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
@@ -1240,7 +1237,17 @@
               "city": "San Francisco"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-a45694256da6f5a7724fca28"
+          ]
+        }
       },
       "article_location": "旧金山（报道所在地）",
       "source": "创业邦",

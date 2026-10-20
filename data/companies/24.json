@@ -1361,13 +1361,14 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
       "sector": "生成式视频与影视技术",
-      "location": "经营地：US / New York（注册/总部待核）",
+      "location": "多地经营：纽约等7地（主要归属待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "经营地：US / New York（注册/总部待核）",
+        "display_location": "多地经营：纽约等7地（主要归属待核）",
         "located_status": "business_confirmed_subject_pending",
         "display_basis": [
+          "geo-b1aebe1d18064f6f71c954a7",
           "geo-e3e79ad501a94731a1492e51"
         ],
         "subject_evidence_ids": [],
@@ -1377,13 +1378,22 @@
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
+          {
+            "evidence_id": "geo-b1aebe1d18064f6f71c954a7",
+            "source_url": "https://runway.com/about",
+            "checked_at": "2026-10-12T03:59:30.313757+00:00",
+            "subject": "Runway",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "city": "New York"
+            }
+          },
           {
             "evidence_id": "geo-e3e79ad501a94731a1492e51",
             "source_url": "https://runway.com/about",
@@ -1397,7 +1407,14 @@
               "city": "New York"
             }
           }
-        ]
+        ],
+        "presentation": {
+          "label": "多地经营：纽约等7地（主要归属待核）",
+          "detail": "同主体办公室包括纽约、旧金山、西雅图、伦敦、巴黎、特拉维夫和东京；不机械以首项定义普通城市属地。",
+          "evidence_ids": [
+            "geo-b1aebe1d18064f6f71c954a7"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "铅笔道",

@@ -1613,31 +1613,28 @@
       "event_type": "业务拓展",
       "link": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
       "sector": "AI影视制作与内容发行",
-      "location": "经营地：US / Los Angeles（注册/总部待核）",
+      "location": "US / Los Angeles",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / Los Angeles（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Los Angeles",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-93fb04acb6182ee0f708b574"
+          "geo-de1712da85a1a352dec32dd2"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Magic Engine Studios",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-93fb04acb6182ee0f708b574",
+            "evidence_id": "geo-de1712da85a1a352dec32dd2",
             "source_url": "https://www.themagicengine.com/contact",
             "checked_at": "2026-10-12T03:59:13.150407+00:00",
             "subject": "Magic Engine Studios",
@@ -1646,10 +1643,21 @@
             "place": {
               "country": "US",
               "province": "California",
-              "city": "Los Angeles"
+              "city": "Los Angeles",
+              "address": "Los Angeles, CA 90069"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Los Angeles",
+          "evidence_ids": [
+            "geo-de1712da85a1a352dec32dd2"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "铅笔道",

@@ -15792,16 +15792,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/ZKSo6NynC2-KashAJ6kpYg",
       "sector": "激光雷达",
-      "location": "地点待核",
+      "location": "上海市 / 上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3d93bd9302636ba406c670b7"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "禾赛科技",
         "subject_locality": {
           "status": "unknown",
@@ -15809,7 +15811,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3d93bd9302636ba406c670b7",
+            "source_url": "https://www.jiading.gov.cn/xinwen/mtkjd/content_925002",
+            "checked_at": "2026-10-20T01:50:00.017263+00:00",
+            "subject": "禾赛科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "嘉定区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-3d93bd9302636ba406c670b7"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -15834,16 +15861,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/KDzs2GnQHDw1z-znIPUH5A",
       "sector": "三维空间数据采集与重建、激光雷达、物理AI",
-      "location": "地点待核",
+      "location": "上海市 / 上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3d93bd9302636ba406c670b7"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "禾赛科技",
         "subject_locality": {
           "status": "unknown",
@@ -15851,7 +15880,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3d93bd9302636ba406c670b7",
+            "source_url": "https://www.jiading.gov.cn/xinwen/mtkjd/content_925002",
+            "checked_at": "2026-10-20T01:50:00.017263+00:00",
+            "subject": "禾赛科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "嘉定区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-3d93bd9302636ba406c670b7"
+          ]
+        }
       },
       "article_location": "",
       "source": "量子位",
@@ -78393,11 +78447,11 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/UCMRyju9K-WuJdIcYfGL_Q",
       "sector": "生成式AI应用／智能摄影",
-      "location": "经营地：US / San Mateo（注册/总部待核）",
+      "location": "通信联系地：San Mateo（实体经营/总部待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "经营地：US / San Mateo（注册/总部待核）",
+        "display_location": "通信联系地：San Mateo（实体经营/总部待核）",
         "located_status": "business_confirmed_subject_pending",
         "display_basis": [
           "geo-3d044c56b76d853458920587"
@@ -78409,9 +78463,6 @@
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
@@ -78430,7 +78481,14 @@
               "address": "204B 2nd Ave #318, San Mateo, CA 94401"
             }
           }
-        ]
+        ],
+        "presentation": {
+          "label": "通信联系地：San Mateo（实体经营/总部待核）",
+          "detail": "官方法律通信地址，不等于已确认实体办公室或主要总部。",
+          "evidence_ids": [
+            "geo-3d044c56b76d853458920587"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -82099,31 +82157,28 @@
       "event_type": "业务拓展",
       "link": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
       "sector": "AI影视制作与内容发行",
-      "location": "经营地：US / Los Angeles（注册/总部待核）",
+      "location": "US / Los Angeles",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / Los Angeles（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Los Angeles",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-93fb04acb6182ee0f708b574"
+          "geo-de1712da85a1a352dec32dd2"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Magic Engine Studios",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
           {
-            "evidence_id": "geo-93fb04acb6182ee0f708b574",
+            "evidence_id": "geo-de1712da85a1a352dec32dd2",
             "source_url": "https://www.themagicengine.com/contact",
             "checked_at": "2026-10-12T03:59:13.150407+00:00",
             "subject": "Magic Engine Studios",
@@ -82132,10 +82187,21 @@
             "place": {
               "country": "US",
               "province": "California",
-              "city": "Los Angeles"
+              "city": "Los Angeles",
+              "address": "Los Angeles, CA 90069"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Los Angeles",
+          "evidence_ids": [
+            "geo-de1712da85a1a352dec32dd2"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "铅笔道",
@@ -82214,13 +82280,14 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/lIDvtK1dp-LvnCgNXdnvig",
       "sector": "生成式视频与影视技术",
-      "location": "经营地：US / New York（注册/总部待核）",
+      "location": "多地经营：纽约等7地（主要归属待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "经营地：US / New York（注册/总部待核）",
+        "display_location": "多地经营：纽约等7地（主要归属待核）",
         "located_status": "business_confirmed_subject_pending",
         "display_basis": [
+          "geo-b1aebe1d18064f6f71c954a7",
           "geo-e3e79ad501a94731a1492e51"
         ],
         "subject_evidence_ids": [],
@@ -82230,13 +82297,22 @@
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
         "basis": [
+          {
+            "evidence_id": "geo-b1aebe1d18064f6f71c954a7",
+            "source_url": "https://runway.com/about",
+            "checked_at": "2026-10-12T03:59:30.313757+00:00",
+            "subject": "Runway",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "city": "New York"
+            }
+          },
           {
             "evidence_id": "geo-e3e79ad501a94731a1492e51",
             "source_url": "https://runway.com/about",
@@ -82250,7 +82326,14 @@
               "city": "New York"
             }
           }
-        ]
+        ],
+        "presentation": {
+          "label": "多地经营：纽约等7地（主要归属待核）",
+          "detail": "同主体办公室包括纽约、旧金山、西雅图、伦敦、巴黎、特拉维夫和东京；不机械以首项定义普通城市属地。",
+          "evidence_ids": [
+            "geo-b1aebe1d18064f6f71c954a7"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "铅笔道",
@@ -85084,25 +85167,22 @@
       "event_type": "企业发现",
       "link": "https://mp.weixin.qq.com/s/5h5lFxPAMXW21lM5mfSaSg",
       "sector": "工业机器人与强化学习",
-      "location": "经营地：US / San Francisco（注册/总部待核）",
+      "location": "US / San Francisco",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / San Francisco（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / San Francisco",
+        "located_status": "discovery_confirmed",
         "display_basis": [
           "geo-a45694256da6f5a7724fca28"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Intelligent Machines",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
-          "country": "",
-          "province": "",
-          "city": "",
           "basis_roles": [],
           "evidence_ids": []
         },
@@ -85120,7 +85200,17 @@
               "city": "San Francisco"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-a45694256da6f5a7724fca28"
+          ]
+        }
       },
       "article_location": "旧金山（报道所在地）",
       "source": "创业邦",
@@ -85688,18 +85778,19 @@
       "event_type": "负面",
       "link": "https://mp.weixin.qq.com/s/FAnzVrz1z41dUqpOAM6zSw",
       "sector": "企业云与网络安全",
-      "location": "经营地：JP / Tokyo（注册/总部待核）",
+      "location": "日本经营：东京、大阪（主要总部待核）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：JP / Tokyo（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "日本经营：东京、大阪（主要总部待核）",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-d4cca32106e1caf796214115"
+          "geo-5829d4afb0d70a086b304fa8",
+          "geo-fa882244a0c0f5257a4e39eb"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "IDC Frontier",
         "subject_locality": {
           "status": "unknown",
@@ -85709,7 +85800,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-d4cca32106e1caf796214115",
+            "evidence_id": "geo-5829d4afb0d70a086b304fa8",
             "source_url": "https://www.idcf.jp/company/about/company_profile/",
             "checked_at": "2026-10-12T03:46:30.761733+00:00",
             "subject": "IDC Frontier",
@@ -85717,11 +85808,42 @@
             "subject_relation": "same_subject",
             "place": {
               "country": "JP",
-              "city": "Tokyo",
-              "address": "東京都千代田区内幸町二丁目1番6号 日比谷パークフロント"
+              "city": "Tokyo"
+            }
+          },
+          {
+            "evidence_id": "geo-fa882244a0c0f5257a4e39eb",
+            "source_url": "https://www.idcf.jp/company/about/company_profile/",
+            "checked_at": "2026-10-12T03:46:30.761733+00:00",
+            "subject": "IDC Frontier",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "JP",
+              "city": "Osaka",
+              "address": "大阪市中央区安土町一丁目8番15号　野村不動産大阪ビル"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "JP",
+          "province": "",
+          "city": "",
+          "evidence_ids": [
+            "geo-5829d4afb0d70a086b304fa8",
+            "geo-fa882244a0c0f5257a4e39eb"
+          ]
+        },
+        "presentation": {
+          "label": "日本经营：东京、大阪（主要总部待核）",
+          "detail": "两个均为IDC Frontier同主体办公室，普通属地只确认国家，不把第一办公室当总部。",
+          "evidence_ids": [
+            "geo-5829d4afb0d70a086b304fa8",
+            "geo-fa882244a0c0f5257a4e39eb"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "36 氪",
@@ -88842,18 +88964,18 @@
       "event_type": "制造合作与生产计划",
       "link": "https://mp.weixin.qq.com/s/2j8yRjCTrPjwTnnxz8BThA",
       "sector": "半导体—AI存储器与3D集成",
-      "location": "经营地：US / San Jose（注册/总部待核）",
+      "location": "US / San Jose",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：US / San Jose（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / San Jose",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-81adb09d979185e2fe8a1d05"
+          "geo-ff77bd9951738c4d75f3be63"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Kepler Computing",
         "subject_locality": {
           "status": "unknown",
@@ -88863,7 +88985,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-81adb09d979185e2fe8a1d05",
+            "evidence_id": "geo-ff77bd9951738c4d75f3be63",
             "source_url": "https://keplercompute.com",
             "checked_at": "2026-10-15T18:28:01.573414+00:00",
             "subject": "Kepler Computing",
@@ -88873,10 +88995,20 @@
               "country": "US",
               "province": "California",
               "city": "San Jose",
-              "address": "617 River Oaks Parkway, San Jose, CA 95134"
+              "address": "617 River Oaks Parkway · San Jose, CA 95134"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Jose",
+          "evidence_ids": [
+            "geo-ff77bd9951738c4d75f3be63"
+          ]
+        }
       },
       "article_location": "美国加利福尼亚州圣何塞（总部）",
       "source": "半导体行业观察",
@@ -90419,24 +90551,49 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/4hDMRzPLDwOsqadj-kfyOQ",
       "sector": "智能电助力自行车与轻型出行",
-      "location": "地点线索：德国柏林（总部）",
+      "location": "DE / Berlin",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / Berlin",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-1c6ec6120092ff28b266c343"
+        ],
+        "subject_evidence_ids": [
+          "geo-1c6ec6120092ff28b266c343"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Lemmo",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "province": "",
+          "city": "Berlin",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-1c6ec6120092ff28b266c343"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-1c6ec6120092ff28b266c343",
+            "source_url": "https://www.lemmofuture.com/pages/about-us-new#Imprint",
+            "checked_at": "2026-10-20T01:51:57.530000+00:00",
+            "subject": "Lemmo",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "Berlin",
+              "address": "c / o Excellent Business Center, Europaplatz 2, 10557 Berlin"
+            }
+          }
+        ]
       },
       "article_location": "德国柏林（总部）",
       "source": "36 氪",
