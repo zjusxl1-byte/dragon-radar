@@ -17828,7 +17828,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "4c1ad15e2f92cb3b986730d11107d18284f8382022821da26ee11029dad957ab",
+  "history_version": "9e5ace141f31fae65df7eed805bb22421e8e3399de5c1c185a9a2c0bfb84cc4c",
   "company_history_buckets": {
     "00": "f8c719cff93a349aa7f8cc5625615b9c8886393b93b689dae6568c2e4190a119",
     "01": "f6159a97f93e315e6fcf009484478739a2fefecd0e920eb70613270edf5e2d14",
@@ -17843,7 +17843,7 @@
     "0a": "cef647b764a332d9d4c2355e82adc4798b69cf9fb19fc6a2c5e94f5e75c9b448",
     "0b": "cc3b8341a094394fcfc44f4699cce391562a7957d022107f3a309d841678563f",
     "0c": "3caaf0334fc25079bf44fcbf916dede570a315088e8592347f0202117f79c74a",
-    "0d": "d34e60b09fb45e5da2ab015adaa5f2e29294b67d52980af47701851ce3ae5a3a",
+    "0d": "911854a6ba244ce5100411c250297b0e4f0e7046f8de04bed1c27ff35d2a4b4b",
     "0e": "c4997279329f2a66258960ab805d8bd75d2aa4f66dd2299adbc9bde6cd46bd3e",
     "0f": "037237b2dbef20eee2d0bdea0293b6fff6b2bd071daf58010a3b9ca7565edcbc",
     "10": "c8e7a313a02690b01f0bc98bb9a0f7e8dd7c3dc69c4c0ca10fb70b4e16af3dfe",
@@ -17887,7 +17887,7 @@
     "36": "5ce7431c281fd4e2da05f833ab38cbdde431e578f77a6505a68b2cb594872346",
     "37": "7537cc120520cb27987e3e602fd5838ac468982d6c8bb8083c288498cc32dbf8",
     "38": "ddb1e5ead4580907471b836784129945d0c168f8665e7bd4edb49ff3809c3608",
-    "39": "4d136e0d13c45e99e5c3644eacce8abbafe6228cfde7cd15807d646182f124e4",
+    "39": "29a7885732d637034a07f0111163211ccd821705fa80239e651587e1be97bd51",
     "3a": "c72a469714f6405f9d3f2f90caa6d5d507d8d7be5992bff7ed921d09046a81f2",
     "3b": "5a294db4c96a768eff0f24e22c68a3620fcda16948a2ebc61640d684b372ee9a",
     "3c": "3088679dc73f4669e288393d8d865677c6b9160568eded62084c71a85b66a0d3",
@@ -17895,7 +17895,7 @@
     "3e": "f87fbcb18b3970efe2d56a47fc0d6422ed86acdb9758d66676041c8f58855dc3",
     "3f": "d8429e966fc86c8291c1e3f0f1f183798aeb0fa0aaecb873792bcdf480c5cce0"
   },
-  "history_search_version": "6897319e08b237f77a149589901cc152e7e10d3cb55a0b24b55434c3e4dffbe6",
+  "history_search_version": "1bb775bff5acfe22371e9b66308e5922f2de77ac1e6342418b9700e9667aa808",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
@@ -20090,7 +20090,7 @@
       "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785": "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785"
     }
   },
-  "geography_version": "79aaec9556705b3eff4d21035a05c64a12028a0cfa61ff8833232ec2b52b7579",
+  "geography_version": "436fd122bba007f62af81b9e8e2f604883b765bf194aa71837134f17bcbfeddb",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -31853,10 +31853,51 @@
       ]
     },
     "dr-u-baf1c6b9db60653f6147": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "浙江省 / 宁波市 / 宁海县 / 656 North Taoyuan Road, Ninghai, Zhejiang, 315600 P.R.China",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-0cb94d31ffe64a3838c50379"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "如意",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-0cb94d31ffe64a3838c50379",
+          "source_url": "https://www.xilin.com",
+          "checked_at": "2026-10-13T18:43:50.843071+00:00",
+          "subject": "如意",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "宁波市",
+            "district": "宁海县",
+            "address": "656 North Taoyuan Road, Ninghai, Zhejiang, 315600 P.R.China"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "宁波市",
+        "district": "宁海县",
+        "evidence_ids": [
+          "geo-0cb94d31ffe64a3838c50379"
+        ]
+      }
     },
     "dr-u-bb592403091cc51d80f0": {
       "geography_status": "unknown",
@@ -32349,16 +32390,16 @@
       "located_status": "unknown"
     },
     "dr-u-c4d3a5224cad202eac92": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "经营地：上海市 / 杨浦区大连路950号9楼（注册/总部待核）",
-      "located_status": "business_confirmed_subject_pending",
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市杨浦区大连路950号9楼",
+      "located_status": "discovery_confirmed",
       "display_basis": [
-        "geo-fcc82005ae6e27ab8f0c8a71"
+        "geo-05a0037d3adf8af39c4d8bd7"
       ],
       "subject_evidence_ids": [],
-      "needs_review": true,
-      "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "needs_review": false,
+      "next_action": null,
       "subject": "优派科技(中国)有限公司",
       "subject_locality": {
         "status": "unknown",
@@ -32368,7 +32409,7 @@
       },
       "basis": [
         {
-          "evidence_id": "geo-fcc82005ae6e27ab8f0c8a71",
+          "evidence_id": "geo-05a0037d3adf8af39c4d8bd7",
           "source_url": "https://www.viewsonic.com.cn/contact",
           "checked_at": "2026-10-13T18:43:48.523198+00:00",
           "subject": "优派科技(中国)有限公司",
@@ -32378,10 +32419,20 @@
             "country": "CN",
             "province": "上海市",
             "city": "上海市",
-            "address": "杨浦区大连路950号9楼"
+            "address": "上海市杨浦区大连路950号9楼"
           }
         }
-      ]
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "evidence_ids": [
+          "geo-05a0037d3adf8af39c4d8bd7"
+        ]
+      }
     },
     "dr-u-c5124ae55c218c03e3d4": {
       "geography_status": "unknown",

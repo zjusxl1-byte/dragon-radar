@@ -1104,18 +1104,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/i-V7jEIfLo6R2xFXnnxT7w",
       "sector": "电竞显示器与显示设备",
-      "location": "经营地：上海市 / 杨浦区大连路950号9楼（注册/总部待核）",
+      "location": "上海市杨浦区大连路950号9楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "经营地：上海市 / 杨浦区大连路950号9楼（注册/总部待核）",
-        "located_status": "business_confirmed_subject_pending",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市杨浦区大连路950号9楼",
+        "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-fcc82005ae6e27ab8f0c8a71"
+          "geo-05a0037d3adf8af39c4d8bd7"
         ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "优派科技(中国)有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1125,7 +1125,7 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-fcc82005ae6e27ab8f0c8a71",
+            "evidence_id": "geo-05a0037d3adf8af39c4d8bd7",
             "source_url": "https://www.viewsonic.com.cn/contact",
             "checked_at": "2026-10-13T18:43:48.523198+00:00",
             "subject": "优派科技(中国)有限公司",
@@ -1135,10 +1135,20 @@
               "country": "CN",
               "province": "上海市",
               "city": "上海市",
-              "address": "杨浦区大连路950号9楼"
+              "address": "上海市杨浦区大连路950号9楼"
             }
           }
-        ]
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-05a0037d3adf8af39c4d8bd7"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",
