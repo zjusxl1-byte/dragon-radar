@@ -1459,6 +1459,83 @@
       "event_headline": "谷歌开放Gemini 4 Argon，强化编程与长流程任务执行",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "据文章报道，谷歌团队开源Harness²，支持OpenCode与Codex，通过任务级和改进级双层递归优化系统提示词、工具链及技能库，无需修改模型权重。文章报告，在WorkBuddy-Bench上，单步改进后的GLM-5在OpenCode下综合得分由64.2升至75.7，在Codex下由64.4升至75.3；将JobBench积累的改进经验迁移至WorkBuddy-Bench后，在不增加额外探测预算的情况下，代码、网页和办公三项得分进一步提升。",
+      "article_title": "谷歌开源RSI新成果！华人浓度爆表",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/kOITEJCs1QRW7nfZbs3Wnw",
+      "sector": "人工智能／智能体开发工具",
+      "location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3a340af67840603b02e5d106"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "谷歌",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-3a340af67840603b02e5d106",
+            "source_url": "https://policies.google.com/terms?hl=en",
+            "checked_at": "2026-10-12T03:53:52.842268+00:00",
+            "subject": "谷歌",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Mountain View",
+              "address": "1600 Amphitheatre Parkway, Mountain View, California 94043, USA"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Mountain View",
+          "evidence_ids": [
+            "geo-3a340af67840603b02e5d106"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "谷歌",
+      "company_entity_id": "dr-u-6e7e64cf66f76a043f8d",
+      "company_raw_name": "谷歌",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Harness²",
+          "relation": "product",
+          "evidence": "谷歌团队这次提出来的Harness²，就是专门冲着这两个死穴开刀的。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-19",
+      "insight": "这项进展将智能体能力优化从更换底座模型扩展到运行框架本身：同一模型通过调整提示词和工具组织方式，在文中办公工作流基准上取得更高得分。跨任务保留的是改进经验而非整套修改后的规则，为减少任务专属修补对后续任务的干扰提供了具体路径，但基准提升尚不能直接推及真实业务中的可靠性。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "谷歌开源Harness²，以双层递归优化智能体运行框架",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "无限工坊": [
