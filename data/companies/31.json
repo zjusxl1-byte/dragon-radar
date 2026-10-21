@@ -2278,16 +2278,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/ooh6YRXdmgjFmxMk0IgA-w",
       "sector": "自动驾驶出行",
-      "location": "地点待核",
+      "location": "US / 1600 Amphitheatre Parkway, Mountain View, California, 94043",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 1600 Amphitheatre Parkway, Mountain View, California, 94043",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-dffb60d81b80daa25a14dabb"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Waymo",
         "subject_locality": {
           "status": "unknown",
@@ -2295,7 +2297,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-dffb60d81b80daa25a14dabb",
+            "source_url": "https://www.globaldata.com/company-profile/waymo-llc/locations/",
+            "checked_at": "2026-10-21T18:15:54.682765+00:00",
+            "subject": "Waymo",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Mountain View",
+              "address": "1600 Amphitheatre Parkway, Mountain View, California, 94043"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Mountain View",
+          "evidence_ids": [
+            "geo-dffb60d81b80daa25a14dabb"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -2321,6 +2348,84 @@
       "event_headline": "Waymo据报道获50亿美元融资，拟将自动驾驶车队扩至2万台",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "文章称，Waymo在2026年基于Genie3构建自动驾驶世界模型，用于生成现实中难以大量采集的长尾场景和安全关键场景。",
+      "article_title": "芯片的老传统，被AI颠覆！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/iyTf8BK-YPh1Z4Y9ZACgBA",
+      "sector": "自动驾驶与仿真",
+      "location": "US / 1600 Amphitheatre Parkway, Mountain View, California, 94043",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 1600 Amphitheatre Parkway, Mountain View, California, 94043",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-dffb60d81b80daa25a14dabb"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Waymo",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-dffb60d81b80daa25a14dabb",
+            "source_url": "https://www.globaldata.com/company-profile/waymo-llc/locations/",
+            "checked_at": "2026-10-21T18:15:54.682765+00:00",
+            "subject": "Waymo",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Mountain View",
+              "address": "1600 Amphitheatre Parkway, Mountain View, California, 94043"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Mountain View",
+          "evidence_ids": [
+            "geo-dffb60d81b80daa25a14dabb"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "Waymo",
+      "company_entity_id": "dr-u-7931b6d10b3c8a5fd045",
+      "company_raw_name": "Waymo",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "材料支持具体仿真应用观察，但没有场景有效性、道路表现或独立同行比较证据，尚不足以建立本次全国标杆资格。",
+        "evidence_ids": [
+          "article:a86e2baa269ab557"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "世界模型在这里承担稀缺驾驶场景生成器的角色：长尾与安全关键情境难以在真实道路上反复采集，生成环境可为策略提供更有针对性的测试样本。对这一应用有辨别力的评价，是生成场景能否保留关键道路关系，并使不同策略在同类危险情境下的表现可比较。",
+      "financing": "",
+      "event_date": "2026",
+      "event_headline": "Waymo据报道于2026年基于Genie3构建自动驾驶世界模型",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ]
 }
