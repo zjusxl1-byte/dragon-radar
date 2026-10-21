@@ -1092,6 +1092,83 @@
       "event_headline": "Meta在Facebook推出自然语言信息流定制功能",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "文章介绍Meta的V-JEPA2采用12亿参数，以超过100万小时视频进行自监督预训练，再使用62小时机器人数据实现机械臂操控。",
+      "article_title": "芯片的老传统，被AI颠覆！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/iyTf8BK-YPh1Z4Y9ZACgBA",
+      "sector": "世界模型与具身智能",
+      "location": "US / California / 1 Meta Way, Menlo Park, CA 94025",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / 1 Meta Way, Menlo Park, CA 94025",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-74faadd1a99eddef49797655"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Meta",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-74faadd1a99eddef49797655",
+            "source_url": "https://data.sec.gov/submissions/CIK0001326801.json",
+            "checked_at": "2026-10-12T03:46:26.733000+00:00",
+            "subject": "Meta",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Menlo Park",
+              "address": "1 Meta Way, Menlo Park, CA 94025"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-74faadd1a99eddef49797655"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "Meta",
+      "company_entity_id": "dr-u-ea3bd73e2b506e005272",
+      "company_raw_name": "Meta",
+      "identity_status": "confirmed",
+      "score": 45,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本篇支持具体研究路线观察，但缺少可比实验条件、稳定性能及产业采用证据，不足以独立建立全国标杆资格；既有Wonder事件的独立标杆审查亦未授予资格。",
+        "evidence_ids": [
+          "article:a86e2baa269ab557",
+          "prior_decision:03f5d206eb8347a1"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "V-JEPA2先用视频学习环境表征，再用机器人数据连接动作控制，与直接生成像素环境的路线形成不同的数据利用方式。它值得具身团队研究的是：视觉经验能否迁移到不同物体、动作与任务，减少每个任务重新采集真机数据的负担；比较应围绕同任务的控制效果，而不是画面生成质量。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Meta的V-JEPA2结合视频预训练与机器人数据实现操控",
+      "event_signal": "context",
+      "discovery_status": "update"
     }
   ],
   "中瓷电子": [
