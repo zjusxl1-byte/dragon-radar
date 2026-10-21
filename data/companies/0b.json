@@ -1660,24 +1660,62 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/qqs3x-KGkpDDLxutauNOmQ",
       "sector": "高性能互连芯片与算力基础设施",
-      "location": "地点待核",
+      "location": "江苏省 / 无锡市新吴区菱湖大道111号无锡软件园天鹅座C座6层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 无锡市新吴区菱湖大道111号无锡软件园天鹅座C座6层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-781973624bb2c7cde46a2cc5"
+        ],
+        "subject_evidence_ids": [
+          "geo-781973624bb2c7cde46a2cc5"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "无锡众星微系统技术有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "无锡市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-781973624bb2c7cde46a2cc5"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-781973624bb2c7cde46a2cc5",
+            "source_url": "https://www.starsmicrosystem.com/",
+            "checked_at": "2026-10-21T00:31:24.079422+00:00",
+            "subject": "无锡众星微系统技术有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "无锡市",
+              "district": "新吴区",
+              "address": "无锡市新吴区菱湖大道111号无锡软件园天鹅座C座6层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "无锡市",
+          "district": "新吴区",
+          "evidence_ids": [
+            "geo-781973624bb2c7cde46a2cc5"
+          ]
+        }
       },
       "article_location": "",
       "source": "量子位",

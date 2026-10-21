@@ -4646,7 +4646,7 @@
     "2026-10-20": "43dc55c1d86d7c7334d187ce13f8c9ad74d3b1d8905ea50e436d19005acec785",
     "2026-10-21": "7481b3d4aee6dfa98322385a3c89a1afeb107b73ba64d326b8877e083c5b54bf"
   },
-  "geography_version": "5db9bcc73d56a2d5a3e058ab77640cf8462d2a510d0a5272d625691f9bbc048e",
+  "geography_version": "d613fa9e314bedff052ebb7a6a74670f905003bbf63debcf053a1c91bf1f9fb2",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -7468,10 +7468,60 @@
       "located_status": "unknown"
     },
     "dr-u-28848dbf58295a15ec1e": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "江苏省 / 无锡市新吴区菱湖大道111号无锡软件园天鹅座C座6层",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-781973624bb2c7cde46a2cc5"
+      ],
+      "subject_evidence_ids": [
+        "geo-781973624bb2c7cde46a2cc5"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "无锡众星微系统技术有限公司",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "江苏省",
+        "city": "无锡市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-781973624bb2c7cde46a2cc5"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-781973624bb2c7cde46a2cc5",
+          "source_url": "https://www.starsmicrosystem.com/",
+          "checked_at": "2026-10-21T00:31:24.079422+00:00",
+          "subject": "无锡众星微系统技术有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "江苏省",
+            "city": "无锡市",
+            "district": "新吴区",
+            "address": "无锡市新吴区菱湖大道111号无锡软件园天鹅座C座6层"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "江苏省",
+        "city": "无锡市",
+        "district": "新吴区",
+        "evidence_ids": [
+          "geo-781973624bb2c7cde46a2cc5"
+        ]
+      }
     },
     "dr-u-289a99e74fd42c90c7c7": {
       "geography_status": "unknown",
@@ -7922,10 +7972,49 @@
       "located_status": "unknown"
     },
     "dr-u-2d41679fcb29f986cf3a": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 候潮东路（临时办公室，未提供门牌）",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-846a393e28458acdf793291b"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "深空之序",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-846a393e28458acdf793291b",
+          "source_url": "https://juejin.cn/post/7697087660391415818",
+          "checked_at": "2026-10-21T00:31:24.093997+00:00",
+          "subject": "深空之序",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "候潮东路（临时办公室，未提供门牌）"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "evidence_ids": [
+          "geo-846a393e28458acdf793291b"
+        ]
+      }
     },
     "dr-u-2d4f1ed00fb73dc792ee": {
       "geography_status": "unknown",
@@ -8253,10 +8342,51 @@
       "located_status": "unknown"
     },
     "dr-u-313155294223aafb21fa": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市徐汇区乐山路33号上海交通大学科技园",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-1a99e864b39a1a1e0ab428d0"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "记忆张量",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-1a99e864b39a1a1e0ab428d0",
+          "source_url": "https://www.memtensor.cn/",
+          "checked_at": "2026-10-21T00:31:24.388450+00:00",
+          "subject": "记忆张量",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "徐汇区",
+            "address": "上海市徐汇区乐山路33号上海交通大学科技园"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "district": "徐汇区",
+        "evidence_ids": [
+          "geo-1a99e864b39a1a1e0ab428d0"
+        ]
+      }
     },
     "dr-u-31a51de13f18689a3a87": {
       "geography_status": "unknown",
@@ -47661,22 +47791,22 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "7d40925a434750a75638ac6671b5308622399ebb5132091ab98543cc08bf0466",
+  "history_version": "0e369afd182a595ebf5151016bc02d044e1ec66d54205a7e24ce5515c363982d",
   "company_history_buckets": {
     "00": "b157b4027ccdb0e250f6708161847fa4821d95b52027131d78a109524a536eb9",
     "01": "491cbe5a168b69192d041b01907d3258f94b33d560b304ecf2902e87597fccfd",
     "02": "46d86cfc83c34cef523b2a502db41326e57d989792a6c4616a70c7282325d97a",
     "03": "635548646a0f3997aada7465a05e3f4710db9f8f78db2aacf266f3abfcc878a0",
     "04": "c5e326034c920936228fbed2b4c48a206b5c95481041abd7d673dc2d9b7fea0b",
-    "05": "6e1fc23932e860cc54e182a8ddef60fd7f471d8b5213197a36e8937819fa6543",
+    "05": "f8011682f17b8e91ef8e5d5178bcf2f591df6172da62880cb8eff8491ab0af76",
     "06": "766a8fe85609319aca94a02a12acfe6ded225b140d047ee6f90e81314d83a30e",
     "07": "6b46d505233b9fefe474dabd1c04376a5c200c1925df930c398091ce36550d42",
     "08": "2a11d4b60bf4d3942445132f2efc5e1c22e739833c6b6e52791a51c7d67dae71",
     "09": "b3df1c3b4750f6edb59be6c5f498454974ee0aa58d5abdd834c651633bce8e06",
     "0a": "cef647b764a332d9d4c2355e82adc4798b69cf9fb19fc6a2c5e94f5e75c9b448",
-    "0b": "3e783a7fe685857a68441edb71ba8a1852517af20c774bf53445b9571c85062c",
+    "0b": "fc7f18ab5591a46ac78c327a7363898888d1f8ae29024acaa27b9c510e8e3d44",
     "0c": "a0049e0e8af8371c690101cf61c2601e5b70695184110f976833e2ff9fc4e1dd",
-    "0d": "ff72eaf164732423ce8caa41e415977815de0dc6e149af065d038d6dc1fcd780",
+    "0d": "cd43b8850c4d7fbe4fe6ca93f83ad3833074146cdaf574c7bc2fd7e2bb9a6ecb",
     "0e": "c4997279329f2a66258960ab805d8bd75d2aa4f66dd2299adbc9bde6cd46bd3e",
     "0f": "b000ff08014890179168414b187550e83a549056deafe632bf0566ef134bdfa7",
     "10": "c8e7a313a02690b01f0bc98bb9a0f7e8dd7c3dc69c4c0ca10fb70b4e16af3dfe",
@@ -47728,7 +47858,7 @@
     "3e": "ea955ee68f9e6a137534bbed97362ba4462d3fdb0925de23d2c1790e9643c5e8",
     "3f": "150a681a7b00c6b91dc85f9b855f5de0837beb976d43bc2ba806b0b34f4518cb"
   },
-  "history_search_version": "c84298b43648541a3acab254a571f7ccc71f36b7bc6775ec5b9e7bceac34b2d1",
+  "history_search_version": "3512d4e922507c4cda1290bee09a7d7aff14708d3ffe1ab3840a644d89d6f3b5",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
