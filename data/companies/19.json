@@ -902,5 +902,85 @@
       "event_signal": "major",
       "discovery_status": "first_seen"
     }
+  ],
+  "Google": [
+    {
+      "date": "2026-10-22",
+      "title": "据文章报道，Google以1000万美元报价在Spirit破产数据资产竞价中胜出，拟购买其邮件、聊天记录、文档及代码，用于改进产品和训练AI模型。交易范围已排除乘客数据库，其余材料拟由Tonic.ai进行去标识化处理。交易仍待法院审理，员工隐私问题受到工会质疑。",
+      "article_title": "同事.skill不够用了，谷歌出价7000万「蒸馏」一家破产公司",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/PKIyqLUs-cV_NLv7Bn1h5Q",
+      "sector": "人工智能／企业智能体",
+      "location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-29710c9669df4bc3ab8c6a16"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Google",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-29710c9669df4bc3ab8c6a16",
+            "source_url": "https://policies.google.com/terms?hl=en",
+            "checked_at": "2026-10-12T03:53:52.842268+00:00",
+            "subject": "Google",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Mountain View",
+              "address": "1600 Amphitheatre Parkway, Mountain View, California 94043, USA"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Mountain View",
+          "evidence_ids": [
+            "geo-29710c9669df4bc3ab8c6a16"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "Google",
+      "company_entity_id": "dr-u-bbdefa2950f49882f295",
+      "company_raw_name": "Google",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "拟议训练数据采购说明具体投入方向，但未提供由此形成的模型效果、客户应用或稳定行业领先依据，不能以公司知名度或报价自动授予标杆资格。",
+        "evidence_ids": [
+          "article:e6a6e04dec56432f"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "这笔拟议收购显示，企业内部的协作过程正在成为AI训练数据的采购对象：邮件、聊天与文档之间的任务流转，有机会提供公开网页较少呈现的分工和交接样本。其能否转化为可用的智能体训练材料，取决于去标识化后能保留多少任务关联，以及交易最终获准的数据范围。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Google拟以1000万美元收购Spirit办公数据用于AI训练",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
