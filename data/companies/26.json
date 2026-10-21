@@ -2006,16 +2006,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/s_CPaCintV4U6dh7-KEWHw",
       "sector": "汽车芯片与智能驾驶",
-      "location": "地点待核",
+      "location": "上海市 / 浦东新区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 浦东新区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3654ded0bdcd90a5cf0b5f98"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "上海马赫心科技",
         "subject_locality": {
           "status": "unknown",
@@ -2023,7 +2025,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3654ded0bdcd90a5cf0b5f98",
+            "source_url": "https://www.chinastarmarket.cn/detail/2507014",
+            "checked_at": "2026-10-21T18:14:15.002880+00:00",
+            "subject": "上海马赫心科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-3654ded0bdcd90a5cf0b5f98"
+          ]
+        }
       },
       "article_location": "",
       "source": "晚点 LatePost",
