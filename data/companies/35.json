@@ -1536,6 +1536,84 @@
       "event_headline": "谷歌开源Harness²，以双层递归优化智能体运行框架",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "文章介绍谷歌将Ironwood定位为首款为推理设计的TPU，同时支持训练与推理，并称其Pod级算力可服务大规模训练。",
+      "article_title": "芯片的老传统，被AI颠覆！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/iyTf8BK-YPh1Z4Y9ZACgBA",
+      "sector": "人工智能芯片与算力基础设施",
+      "location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3a340af67840603b02e5d106"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "谷歌",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-3a340af67840603b02e5d106",
+            "source_url": "https://policies.google.com/terms?hl=en",
+            "checked_at": "2026-10-12T03:53:52.842268+00:00",
+            "subject": "谷歌",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Mountain View",
+              "address": "1600 Amphitheatre Parkway, Mountain View, California 94043, USA"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Mountain View",
+          "evidence_ids": [
+            "geo-3a340af67840603b02e5d106"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "谷歌",
+      "company_entity_id": "dr-u-6e7e64cf66f76a043f8d",
+      "company_raw_name": "谷歌",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体产品定位足以支持日常产业观察，但本包未提供独立负载测试、资源利用效果或同行比较，尚不足以建立全国标杆资格。",
+        "evidence_ids": [
+          "article:a86e2baa269ab557"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "Ironwood以推理为设计重点，同时保留训练能力，提供了专用化与资源复用之间的产品参照：芯片不只服务一次请求，还要适配训练、推理任务在同一基础设施中的调度。判断这种设计的价值，应看两类负载的时段、内存与互联需求能否互补，避免空闲算力与繁忙瓶颈同时出现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "谷歌Ironwood以推理为设计重点并兼顾训练负载",
+      "event_signal": "context",
+      "discovery_status": "update"
     }
   ],
   "无限工坊": [
