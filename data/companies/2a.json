@@ -220,6 +220,86 @@
       "event_headline": "d-Matrix据报道将获英伟达投资，金额未披露",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "据文中转述的CEO Sid Sheth采访，d-Matrix的Raptor采用逻辑计算裸片与定制DRAM裸片，通过晶圆上芯片（CoW）技术进行三维堆叠集成。逻辑裸片由台积电制造，DRAM裸片由力积电制造。该方案保留SRAM计算架构，引入更大容量的DRAM，并以扩大计算与存储之间的垂直连接面积来优化数据访问带宽，面向低延迟AI推理负载。",
+      "article_title": "英伟达也要入局3D DRAM？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/vmdbUWOGRhAploAL2eW7_Q",
+      "sector": "AI推理芯片与先进封装",
+      "location": "US / California / Santa Clara",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / Santa Clara",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-3ae6b9a4119f980ff7de20cc"
+        ],
+        "subject_evidence_ids": [
+          "geo-3ae6b9a4119f980ff7de20cc"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "d-Matrix",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-3ae6b9a4119f980ff7de20cc"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-3ae6b9a4119f980ff7de20cc",
+            "source_url": "https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/",
+            "checked_at": "2026-10-12T03:46:25.794726+00:00",
+            "subject": "d-Matrix",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara"
+            }
+          }
+        ]
+      },
+      "article_location": "美国加利福尼亚州圣克拉拉（主要总部，复用已审同主体地点证据）",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "d-Matrix",
+      "company_entity_id": "dr-u-41922380275ba26e163e",
+      "company_raw_name": "d-Matrix",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "Corsair",
+          "relation": "product",
+          "evidence": "公司最初推出的Corsair采用SRAM作为计算架构的一部分。"
+        },
+        {
+          "name": "Raptor",
+          "relation": "product",
+          "evidence": "按照他的介绍，Raptor采用两个不同的裸片：一个是逻辑计算裸片，另一个是DRAM裸片。"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "published_date": "2026-10-21",
+      "insight": "d-Matrix的路线不是简单用DRAM替换SRAM，而是在保留原有计算架构的同时，通过垂直堆叠扩展容量和数据连接面积，试图缓解交互式推理的内存瓶颈。其产业对标价值在于针对低延迟负载探索不同于GPU配合HBM的架构取舍，而非已证明全面优于HBM。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "d-Matrix披露面向低延迟推理的存算三维堆叠方案",
+      "event_signal": "context",
+      "discovery_status": "update"
     }
   ],
   "Taalas": [
