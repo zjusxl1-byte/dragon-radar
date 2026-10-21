@@ -784,7 +784,7 @@
       "canonical_name": "英伟达",
       "company_entity_id": "dr-u-60094bcf5292c4909fad",
       "company_raw_name": "英伟达",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 35,
       "is_national_star": false,
       "published_date": "2026-10-10",
@@ -953,6 +953,83 @@
       "financing": "",
       "event_date": "",
       "event_headline": "英伟达团队详解Vera CPU面向AI Agent的设计取舍",
+      "event_signal": "context",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "文章称，英伟达Rubin GPU设计覆盖持续训练、后训练和推理；Rubin CPX集成4组NVENC/NVDEC硬件视频编码与解码单元，以支持视频生成类负载。",
+      "article_title": "芯片的老传统，被AI颠覆！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/iyTf8BK-YPh1Z4Y9ZACgBA",
+      "sector": "人工智能芯片与多模态算力",
+      "location": "US / California / Santa Clara",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / Santa Clara",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "subject_evidence_ids": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "英伟达",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-4493064fe5737edf368c58ab"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4493064fe5737edf368c58ab",
+            "source_url": "https://nvidianews.nvidia.com/multimedia/santa-clara-headquarters",
+            "checked_at": "2026-10-16T00:31:54.065917+00:00",
+            "subject": "英伟达",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara"
+            }
+          }
+        ]
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "英伟达",
+      "company_entity_id": "dr-u-60094bcf5292c4909fad",
+      "company_raw_name": "英伟达",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本包支持具体产品设计观察，但缺少Rubin CPX独立性能与实际应用效果证据；旧辅助驾驶装机排名属于另一产品领域，不能转授本条全国标杆资格。",
+        "evidence_ids": [
+          "article:a86e2baa269ab557",
+          "accepted_history:d8d608fc5509366f"
+        ]
+      },
+      "published_date": "2026-10-20",
+      "insight": "Rubin CPX将视频编解码单元与模型计算放在同一产品设计中，提示多模态算力要按整条数据流水线评估：视频输入、特征处理与输出都可能约束模型运转。对相关芯片的对标重点因此不只是算术吞吐，还包括编解码、显存和计算之间是否匹配，硬件单元能否被实际视频负载利用。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "英伟达Rubin CPX据文集成硬件视频编解码单元",
       "event_signal": "context",
       "discovery_status": "update"
     }
