@@ -1270,24 +1270,62 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/ooh6YRXdmgjFmxMk0IgA-w",
       "sector": "自动驾驶出行",
-      "location": "地点待核",
+      "location": "浙江省杭州市滨江区江陵路1760号1号楼602室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市滨江区江陵路1760号1号楼602室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3c0808f2cf0d65d20dbcfb02"
+        ],
+        "subject_evidence_ids": [
+          "geo-3c0808f2cf0d65d20dbcfb02"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "曹操出行",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-3c0808f2cf0d65d20dbcfb02"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3c0808f2cf0d65d20dbcfb02",
+            "source_url": "https://www.caocao.com.cn/legal/privacy",
+            "checked_at": "2026-10-22T00:33:09.427973+00:00",
+            "subject": "曹操出行",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "浙江省杭州市滨江区江陵路1760号1号楼602室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-3c0808f2cf0d65d20dbcfb02"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

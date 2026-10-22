@@ -1854,24 +1854,56 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Wv-eCEj57WgWRA1FQMVbzQ",
       "sector": "半导体封装与互连设备",
-      "location": "地点线索：总部：新加坡、美国宾夕法尼亚州福特华盛顿",
+      "location": "SG / Singapore",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "SG / Singapore",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-609db58d070abedaa5c1f403"
+        ],
+        "subject_evidence_ids": [
+          "geo-609db58d070abedaa5c1f403"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "库力索法",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "SG",
+          "city": "Singapore",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-609db58d070abedaa5c1f403"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-609db58d070abedaa5c1f403",
+            "source_url": "https://investor.kns.com/2014-02-20-Kulicke-Soffa-Creates-Connections-and-Redefines-Solutions-at-the-Grand-Opening-of-Its-Corporate-Headquarters",
+            "checked_at": "2026-10-22T00:32:23.245252+00:00",
+            "subject": "库力索法",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "SG",
+              "city": "Singapore"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "SG",
+          "city": "Singapore",
+          "evidence_ids": [
+            "geo-609db58d070abedaa5c1f403"
+          ]
+        }
       },
       "article_location": "总部：新加坡、美国宾夕法尼亚州福特华盛顿",
       "source": "半导体行业观察",

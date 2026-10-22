@@ -1212,16 +1212,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/U7NbppTN4E4Fs0sU7eIafw",
       "sector": "创新药研发",
-      "location": "地点线索：横琴，原文称公司“扎根横琴”，未明确注册地或总部地址。",
+      "location": "广东省 / 珠海市 / 横琴粤澳合作中医药科技产业园",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 珠海市 / 横琴粤澳合作中医药科技产业园",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-b152e7770688894ef3d1131a"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "岐微生物",
         "subject_locality": {
           "status": "unknown",
@@ -1229,7 +1231,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-b152e7770688894ef3d1131a",
+            "source_url": "https://wap.hljnews.cn/template/12997/7005954370651136.html",
+            "checked_at": "2026-10-22T00:32:21.917743+00:00",
+            "subject": "岐微生物",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "珠海市",
+              "district": "横琴",
+              "address": "横琴粤澳合作中医药科技产业园"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "珠海市",
+          "district": "横琴",
+          "evidence_ids": [
+            "geo-b152e7770688894ef3d1131a"
+          ]
+        }
       },
       "article_location": "横琴，原文称公司“扎根横琴”，未明确注册地或总部地址。",
       "source": "投资界",

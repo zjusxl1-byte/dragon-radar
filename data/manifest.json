@@ -4610,7 +4610,7 @@
     "2026-10-21": "7481b3d4aee6dfa98322385a3c89a1afeb107b73ba64d326b8877e083c5b54bf",
     "2026-10-22": "c8b969907befa4ccddf21ace0598f0dc4154191e9c20553489345520c58d9518"
   },
-  "geography_version": "dd71bf662d65dccdd4a4079f30c06cda795bb681b959d22f08d2640a0276320a",
+  "geography_version": "4908b7e579bc93f0fe1d31e90e6c1ad671ecd96f48a72ad94daa80be39bb2ffe",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -16709,10 +16709,51 @@
       "located_status": "unknown"
     },
     "dr-u-9476c2dd56c67db9a57b": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "江苏省昆山市巴城镇迎宾西路2001号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-dd97e11ab8010e58fffed31b"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "海菲曼",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-dd97e11ab8010e58fffed31b",
+          "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=920183&id=12084979",
+          "checked_at": "2026-10-22T00:32:22.052622+00:00",
+          "subject": "海菲曼",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "江苏省",
+            "city": "昆山市",
+            "district": "巴城镇",
+            "address": "江苏省昆山市巴城镇迎宾西路2001号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "江苏省",
+        "city": "昆山市",
+        "district": "巴城镇",
+        "evidence_ids": [
+          "geo-dd97e11ab8010e58fffed31b"
+        ]
+      }
     },
     "dr-u-948393f5fad4254888d7": {
       "geography_status": "unknown",
@@ -17457,10 +17498,54 @@
       "located_status": "unknown"
     },
     "dr-u-9ef9aa2d51210b010941": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "SG / Singapore",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-609db58d070abedaa5c1f403"
+      ],
+      "subject_evidence_ids": [
+        "geo-609db58d070abedaa5c1f403"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "库力索法",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "SG",
+        "city": "Singapore",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-609db58d070abedaa5c1f403"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-609db58d070abedaa5c1f403",
+          "source_url": "https://investor.kns.com/2014-02-20-Kulicke-Soffa-Creates-Connections-and-Redefines-Solutions-at-the-Grand-Opening-of-Its-Corporate-Headquarters",
+          "checked_at": "2026-10-22T00:32:23.245252+00:00",
+          "subject": "库力索法",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "SG",
+            "city": "Singapore"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "SG",
+        "city": "Singapore",
+        "evidence_ids": [
+          "geo-609db58d070abedaa5c1f403"
+        ]
+      }
     },
     "dr-u-9f082894747ded2ed19f": {
       "geography_status": "unknown",
@@ -17558,10 +17643,60 @@
       "located_status": "unknown"
     },
     "dr-u-9feed89a9a43625d68c6": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省杭州市滨江区江陵路1760号1号楼602室",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-3c0808f2cf0d65d20dbcfb02"
+      ],
+      "subject_evidence_ids": [
+        "geo-3c0808f2cf0d65d20dbcfb02"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "曹操出行",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "basis_roles": [
+          "registered"
+        ],
+        "evidence_ids": [
+          "geo-3c0808f2cf0d65d20dbcfb02"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-3c0808f2cf0d65d20dbcfb02",
+          "source_url": "https://www.caocao.com.cn/legal/privacy",
+          "checked_at": "2026-10-22T00:33:09.427973+00:00",
+          "subject": "曹操出行",
+          "role": "registered",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "滨江区",
+            "address": "浙江省杭州市滨江区江陵路1760号1号楼602室"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "滨江区",
+        "evidence_ids": [
+          "geo-3c0808f2cf0d65d20dbcfb02"
+        ]
+      }
     },
     "dr-u-9ffa4928f3529376bafb": {
       "geography_status": "unknown",
@@ -17669,10 +17804,51 @@
       "located_status": "unknown"
     },
     "dr-u-a0ef16271f33b07b2339": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "广东省 / 珠海市 / 横琴粤澳合作中医药科技产业园",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-b152e7770688894ef3d1131a"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "岐微生物",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-b152e7770688894ef3d1131a",
+          "source_url": "https://wap.hljnews.cn/template/12997/7005954370651136.html",
+          "checked_at": "2026-10-22T00:32:21.917743+00:00",
+          "subject": "岐微生物",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "珠海市",
+            "district": "横琴",
+            "address": "横琴粤澳合作中医药科技产业园"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "珠海市",
+        "district": "横琴",
+        "evidence_ids": [
+          "geo-b152e7770688894ef3d1131a"
+        ]
+      }
     },
     "dr-u-a0fe0204f818e545738f": {
       "geography_status": "unknown",
@@ -17943,10 +18119,47 @@
       }
     },
     "dr-u-a43cb21187c41fcfec69": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "NG / Block C Motorways Office Complex Opp Seven Up Bottling Company, Ikeja, Lagos",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-166e70e4344d3c52ea5bf64e"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "BFREE",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-166e70e4344d3c52ea5bf64e",
+          "source_url": "https://bfree.io/contact-us",
+          "checked_at": "2026-10-22T00:32:23.614191+00:00",
+          "subject": "BFREE",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "NG",
+            "city": "Lagos",
+            "address": "Block C Motorways Office Complex Opp Seven Up Bottling Company, Ikeja, Lagos"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "NG",
+        "city": "Lagos",
+        "evidence_ids": [
+          "geo-166e70e4344d3c52ea5bf64e"
+        ]
+      }
     },
     "dr-u-a4777d35ffa5656e6542": {
       "geography_status": "unknown",
@@ -19401,10 +19614,59 @@
       "located_status": "unknown"
     },
     "dr-u-b42a60ae49f59231db9b": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "广东省 / 珠海市 / 横琴",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-68e589d8ce84b18ae065c385"
+      ],
+      "subject_evidence_ids": [
+        "geo-68e589d8ce84b18ae065c385"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "真健康",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "珠海市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-68e589d8ce84b18ae065c385"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-68e589d8ce84b18ae065c385",
+          "source_url": "https://www.hengqin.gov.cn/macao_zh_hans/hzqgl/dtyw/dtxx/content/post_3920445.html",
+          "checked_at": "2026-10-22T00:33:09.495738+00:00",
+          "subject": "真健康",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "珠海市",
+            "district": "横琴"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "珠海市",
+        "district": "横琴",
+        "evidence_ids": [
+          "geo-68e589d8ce84b18ae065c385"
+        ]
+      }
     },
     "dr-u-b4c80bff0e52bae7a0f5": {
       "geography_status": "confirmed",
@@ -22486,10 +22748,51 @@
       "located_status": "unknown"
     },
     "dr-u-e1517be14d06cdb72af7": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市 / 徐汇区 / Guiqing Road, Xuhui District, Shanghai, China",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-1494ad6ef9a420ab8cf6e3ce"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "MiniMax",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-1494ad6ef9a420ab8cf6e3ce",
+          "source_url": "https://ir.minimax.io/investor-resources/ir-contacts",
+          "checked_at": "2026-10-22T00:32:24.470788+00:00",
+          "subject": "MiniMax",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "徐汇区",
+            "address": "Guiqing Road, Xuhui District, Shanghai, China"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "district": "徐汇区",
+        "evidence_ids": [
+          "geo-1494ad6ef9a420ab8cf6e3ce"
+        ]
+      }
     },
     "dr-u-e16fc821f34228d11d6c": {
       "geography_status": "unknown",
@@ -48249,17 +48552,17 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "e3079e4abd1c5238140908234a63a02eed60a81a4b81d1af72064c0ff0e5ed2f",
+  "history_version": "c807affbe6d0a21b8a843766b336568a340790314312787fca168620731029de",
   "company_history_buckets": {
     "00": "b157b4027ccdb0e250f6708161847fa4821d95b52027131d78a109524a536eb9",
-    "01": "491cbe5a168b69192d041b01907d3258f94b33d560b304ecf2902e87597fccfd",
+    "01": "0a5436ae3f71137ad48f1a7829bb79a5ec8e8897b88991d96eb7fb351f8e6d7a",
     "02": "46d86cfc83c34cef523b2a502db41326e57d989792a6c4616a70c7282325d97a",
     "03": "635548646a0f3997aada7465a05e3f4710db9f8f78db2aacf266f3abfcc878a0",
     "04": "c5e326034c920936228fbed2b4c48a206b5c95481041abd7d673dc2d9b7fea0b",
     "05": "f8011682f17b8e91ef8e5d5178bcf2f591df6172da62880cb8eff8491ab0af76",
-    "06": "766a8fe85609319aca94a02a12acfe6ded225b140d047ee6f90e81314d83a30e",
+    "06": "efe7b7e84fe386341780b3e533efae2e57e93ce526345299201f280226bfbf9b",
     "07": "6b46d505233b9fefe474dabd1c04376a5c200c1925df930c398091ce36550d42",
-    "08": "2a11d4b60bf4d3942445132f2efc5e1c22e739833c6b6e52791a51c7d67dae71",
+    "08": "f7c9de00698c764be853943f959a4a63e931a559595dfa9ce7c8962cf1c2864b",
     "09": "720694cb10d471a785db8643dbad0cf5ef7b19167a8095437c687d53133783e5",
     "0a": "cef647b764a332d9d4c2355e82adc4798b69cf9fb19fc6a2c5e94f5e75c9b448",
     "0b": "fc7f18ab5591a46ac78c327a7363898888d1f8ae29024acaa27b9c510e8e3d44",
@@ -48268,7 +48571,7 @@
     "0e": "c4997279329f2a66258960ab805d8bd75d2aa4f66dd2299adbc9bde6cd46bd3e",
     "0f": "b000ff08014890179168414b187550e83a549056deafe632bf0566ef134bdfa7",
     "10": "c8e7a313a02690b01f0bc98bb9a0f7e8dd7c3dc69c4c0ca10fb70b4e16af3dfe",
-    "11": "27af8e2d1861c0df25be6d086c9137d99fff38cd4335307b801b8f84291324f2",
+    "11": "e26d35d004868e3f086c55ea3336b9dc7befafd778706c774f9d2b23517c1601",
     "12": "2dc6c643fc3258d7841e9aec324bd36ee827cd5b54d662ee0f6a55152d76cfdc",
     "13": "0e51e4265fa4fb356e12d9c919002dbbe96c12c0efb5cd9d7625795d8aa1d49d",
     "14": "87bf36e1e02e818317ef7f67c33f82561ee429a3b51f8d626b833397608c6bd4",
@@ -48278,7 +48581,7 @@
     "18": "c342aa231989b3d5cfb35dc9c5cecb9118aa88dd4399c404688703349706ff4b",
     "19": "e57f505f9867277a4be3d2946f5f8767b845c6d3bc418be2aee1363c4e344fa8",
     "1a": "35dcac71a1e069d1ec79ac1f61118401d3bf762b894a1de9059c18b7d086c50a",
-    "1b": "fc24586fe748bd41cddd0344c955a61e432b1beb90f099c818cd45af30162e9a",
+    "1b": "d4105804f05f2d950074e737e2d4c052cec7a7b0e17013b4941da947e823d1a2",
     "1c": "e4edc96956fbee5a51044a3e4865a0c65d13fd83586ab0db6565310d133b810b",
     "1d": "c8158bab173c622139551751c760f69473f1afa5508708e99462c844db68c54e",
     "1e": "a998f4c25e7537a73f8861d9a070ee87d16217ba9db0200abbc1041a30bdb473",
@@ -48296,8 +48599,8 @@
     "2a": "e17ee2c548e0a9a818f7e0218c772bca8344bb101cde625f0f39d5571df8e884",
     "2b": "7241864cff35d77dc7e7d8ddb0779453996d3576ae032119319cb19db6b79bfe",
     "2c": "56dc1f5898553c3c23d052caa74fb6b16a3177c8db956b1b8bd9b49020126dac",
-    "2d": "397e6fe3fe8c0c1c863626cbf8afb8537add1caa3e21e47e8c5d61cb8157a7b9",
-    "2e": "754de3a6f4ccc32eacc303f51beb2ddbda1655afcc8c7c95aaa9f471c90e6555",
+    "2d": "b62f13839bd18df0526abf769434f40e9d8a3f3902aa0fcb5124b3a582a7bacb",
+    "2e": "202ec8a523341839b8dd122bb0bbc8abf6bc73a66aa1e8b951fc2ec137878dcc",
     "2f": "92b2a3366d4adb7fb37b6e4dedde3f55dfc40946a49635986f8da7fa1ec29547",
     "30": "c743bdf58ec7216dee629876d7f93e5386d6c8533942eccae59038afb9af3635",
     "31": "ed1fbbe63648ce380e6c7bb259847cab83393c509ea6416c10b0559a1de883cf",
@@ -48316,7 +48619,7 @@
     "3e": "ea955ee68f9e6a137534bbed97362ba4462d3fdb0925de23d2c1790e9643c5e8",
     "3f": "150a681a7b00c6b91dc85f9b855f5de0837beb976d43bc2ba806b0b34f4518cb"
   },
-  "history_search_version": "5f4718f17eba26a8009003ae624678fd51fcead18f1bcc09e6aac2ebc4a0c8d8",
+  "history_search_version": "1fc5e20282e45730ca76b5bcf60382af0a9683abbacfc40b20057741bab71db7",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",

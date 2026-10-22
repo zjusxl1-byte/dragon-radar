@@ -1833,16 +1833,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/oqM66d-O-anrJn4Zr_hh_A",
       "sector": "金融科技／债务管理与不良资产处置",
-      "location": "地点线索：尼日利亚",
+      "location": "NG / Block C Motorways Office Complex Opp Seven Up Bottling Company, Ikeja, Lagos",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "NG / Block C Motorways Office Complex Opp Seven Up Bottling Company, Ikeja, Lagos",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-166e70e4344d3c52ea5bf64e"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "BFREE",
         "subject_locality": {
           "status": "unknown",
@@ -1850,7 +1852,30 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-166e70e4344d3c52ea5bf64e",
+            "source_url": "https://bfree.io/contact-us",
+            "checked_at": "2026-10-22T00:32:23.614191+00:00",
+            "subject": "BFREE",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "NG",
+              "city": "Lagos",
+              "address": "Block C Motorways Office Complex Opp Seven Up Bottling Company, Ikeja, Lagos"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "NG",
+          "city": "Lagos",
+          "evidence_ids": [
+            "geo-166e70e4344d3c52ea5bf64e"
+          ]
+        }
       },
       "article_location": "尼日利亚",
       "source": "铅笔道",
