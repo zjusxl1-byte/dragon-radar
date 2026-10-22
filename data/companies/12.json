@@ -1536,6 +1536,79 @@
       "event_headline": "据报道，OpenAI所公布数学证明的方法获专家重新解读",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "据文章报道，安全公司Calif使用OpenAI的GPT-5.6 Sol发现PHP关键漏洞，Wiz也独立发现并报告相关漏洞。OpenAI在过去两个月牵头协调PHP维护者、Wiz及Cloudflare等准备补丁和缓解措施，相关修复版本已发布。Wiz的研究同时使用了多个AI工具，不能将全部发现与修复成果归于OpenAI。",
+      "article_title": "PHP大暴雷，全球程序员熬夜加班！超级漏洞还是ChatGPT发现的",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/dwkqM_jcsW3L9_GzLruROA",
+      "sector": "人工智能与网络安全",
+      "location": "US",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-94ce9cff8088e9a375b2bc71"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "OpenAI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-94ce9cff8088e9a375b2bc71",
+            "source_url": "https://www.news.cn/world/20260401/5ec1e5b7aeca431aa45f15b14d749381/c.html",
+            "checked_at": "2026-10-20T02:18:43.852910+00:00",
+            "subject": "OpenAI",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-94ce9cff8088e9a375b2bc71"
+          ]
+        }
+      },
+      "article_location": "美国（复用已审同主体经营地证据，非本文披露）",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "OpenAI",
+      "company_entity_id": "dr-u-7d3194f79e645c42e439",
+      "company_raw_name": "OpenAI",
+      "identity_status": "confirmed",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持具体AI安全应用对标，但未提供独立行业地位比较、可比测试或市场采用证据，不能由一次案例及历史星标自动建立全国标杆资格。",
+        "evidence_ids": [
+          "article:856e11e8e6b3bcb9"
+        ]
+      },
+      "published_date": "2026-10-22",
+      "insight": "此次进展展示了OpenAI模型参与底层软件漏洞发现的能力，以及企业协调维护者完成修复的作用：安全价值不仅来自找到漏洞，还来自让补丁及时到达使用者。Wiz同时使用多种模型，说明这是多工具协同的实际案例，尚不能据此判断OpenAI模型相对其他模型的优势。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "OpenAI模型助力发现PHP漏洞并牵头协调修复",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "启元（Q1；法人全称待核实）": [
@@ -1719,6 +1792,98 @@
       "event_date": "",
       "event_headline": "岩芯矩阵联合高校开源EdgeRock-4B，固定长推理历史内存",
       "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Mynt": [
+    {
+      "date": "2026-10-23",
+      "title": "据文章，Mynt于2026年10月20日登陆菲律宾证券交易所，包含超额配售安排的IPO规模约9.67亿美元，上市估值约70亿美元。基础发行中约106亿菲律宾比索来自新股发行，约424亿比索来自老股出售。旗下GCash拥有4150万月活跃用户；2026年上半年，信贷科技业务收入同比增长38.8%，占经调整收入的41.8%。",
+      "article_title": "蚂蚁，投出一个470亿IPO",
+      "event_type": "IPO",
+      "link": "https://mp.weixin.qq.com/s/g-mDGs9dBoUrkBvA_ViI5w",
+      "sector": "金融科技／数字支付与数字信贷",
+      "location": "PH",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "PH",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-91a2dd1fbb1bedfbd0fce8e2"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Mynt",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-91a2dd1fbb1bedfbd0fce8e2",
+            "source_url": "https://mp.weixin.qq.com/s/g-mDGs9dBoUrkBvA_ViI5w",
+            "checked_at": "2026-10-21T23:31:53+00:00",
+            "subject": "Mynt",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "PH"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "PH",
+          "evidence_ids": [
+            "geo-91a2dd1fbb1bedfbd0fce8e2"
+          ]
+        }
+      },
+      "article_location": "菲律宾（经营市场；原文未明确注册地或主要总部所在地）",
+      "source": "铅笔道",
+      "kind": "event",
+      "canonical_name": "Mynt",
+      "company_entity_id": "dr-u-f4d02755654e3eaddeac",
+      "company_raw_name": "Mynt",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "GCash",
+          "relation": "product",
+          "evidence": "“菲律宾支付宝”GCash的母公司Mynt正式登陆菲律宾证券交易所。"
+        },
+        {
+          "name": "G-Xchange",
+          "relation": "subsidiary",
+          "evidence": "Mynt旗下最重要的两家公司，一家是运营电子钱包的G-Xchange，另一家则是负责信贷业务的Fuse Financing。"
+        },
+        {
+          "name": "Fuse Financing",
+          "relation": "subsidiary",
+          "evidence": "Mynt旗下最重要的两家公司，一家是运营电子钱包的G-Xchange，另一家则是负责信贷业务的Fuse Financing。"
+        }
+      ],
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文提供菲律宾支付市场的规模和经营路径线索，但主体身份及地点尚待确认，亦未建立全国标杆的独立已审资格；不因IPO规模或蚂蚁持股自动授标。",
+        "evidence_ids": [
+          "article:945fd601ea1ad59e"
+        ]
+      },
+      "published_date": "2026-10-21",
+      "insight": "Mynt的上市对应其从电子钱包向综合金融平台发展的资本节点：GCash已有的支付用户关系为信贷服务提供客户入口，而信贷收入占比上升说明其收入结构正在变化。支付业务经调整收入下降、信贷收入增长并行，后续研究应辨别增长来自客户覆盖扩大还是授信扩张，并结合资产质量判断这种转型的可持续性。",
+      "financing": "本次IPO规模约9.67亿美元，包含超额配售安排；上市估值约70亿美元。基础发行规模约530亿菲律宾比索，其中新股发行约106亿比索、老股出售约424亿比索。蚂蚁关联企业Advanced New Technologies（Singapore）Holding参与售股，另一关联实体Ant International Technologies持有的21.44%上市前股份未参与此次出售。",
+      "event_date": "2026-10-20",
+      "event_headline": "Mynt完成菲律宾IPO，上市估值约70亿美元",
+      "event_signal": "major",
       "discovery_status": "first_seen"
     }
   ]
