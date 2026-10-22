@@ -1408,24 +1408,59 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/FUYwy-9s1tctDgIO7NtTcw",
       "sector": "医疗人工智能与病理检测",
-      "location": "地点待核",
+      "location": "广东省 / 广州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 广州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-2bc5574fb9aafeaeeed89fe1"
+        ],
+        "subject_evidence_ids": [
+          "geo-2bc5574fb9aafeaeeed89fe1"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "金域医学",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "广州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-2bc5574fb9aafeaeeed89fe1"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-2bc5574fb9aafeaeeed89fe1",
+            "source_url": "https://m.kingmed.com.cn/wap/news_x/w_3402.html",
+            "checked_at": "2026-10-22T18:06:23.874649+00:00",
+            "subject": "金域医学",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "广州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "广州市",
+          "evidence_ids": [
+            "geo-2bc5574fb9aafeaeeed89fe1"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
