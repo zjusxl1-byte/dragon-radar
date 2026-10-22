@@ -577,24 +577,61 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/8BBmNnLzynVump3zaIaINg",
       "sector": "AI云/企业智能体出海",
-      "location": "地点线索：未披露（待核实）",
+      "location": "浙江省 / 杭州市 / 西湖区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-0e7cdc3090aa438fc7fb3c50"
+        ],
+        "subject_evidence_ids": [
+          "geo-0e7cdc3090aa438fc7fb3c50"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "阿里云",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-0e7cdc3090aa438fc7fb3c50"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0e7cdc3090aa438fc7fb3c50",
+            "source_url": "https://www.hzzx.gov.cn/cshz/content/2025-07/24/content_9046072.htm",
+            "checked_at": "2026-10-22T18:04:23.536122+00:00",
+            "subject": "阿里云",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-0e7cdc3090aa438fc7fb3c50"
+          ]
+        }
       },
       "article_location": "未披露（待核实）",
       "source": "36 氪",
