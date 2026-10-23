@@ -1265,16 +1265,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/Lchfu0-ndCHK_-4AoE0v8g",
       "sector": "人工智能训练数据与模型评测",
-      "location": "地点待核",
+      "location": "北京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d6ac8bec468dedad7e80b9aa"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "模式星河（北京）科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1282,7 +1284,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d6ac8bec468dedad7e80b9aa",
+            "source_url": "https://dealroom.co/news/150873-chinas-unipat-hits-1b-valuation-on-just-30m-in-orders",
+            "checked_at": "2026-10-23T18:06:31.709584+00:00",
+            "subject": "模式星河（北京）科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-d6ac8bec468dedad7e80b9aa"
+          ]
+        }
       },
       "article_location": "",
       "source": "投资界",
