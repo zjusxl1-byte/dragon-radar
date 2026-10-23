@@ -10,9 +10,10 @@
   function badge(name,back='/today'){
     if(!hasReading(name))return '';
     const canonical=window.RadarHistory.canonical(name),query=new URLSearchParams({name:canonical,reading:'1',back});
+    if(metadata(canonical)?.has_article)return '<a class="radar-reading-badge" href="#/topic?'+esc(new URLSearchParams({company:canonical,back}).toString())+'" aria-label="阅读'+esc(canonical)+'的企业解读"><span>解读</span></a>';
     return '<a class="radar-reading-badge" href="#/company?'+esc(query.toString())+'" aria-label="阅读'+esc(canonical)+'的企业解读"><span>解读</span></a>';
   }
-  function control(name){return metadata(name)?'<button class="radar-ai-button" type="button" data-ai-reading="'+esc(name)+'" aria-expanded="false" aria-controls="radar-ai-panel">AI 解读 <span aria-hidden="true">⌄</span></button>':'';}
+  function control(name){if(metadata(name)?.has_article)return '<a class="radar-ai-button" href="#/topic?'+esc(new URLSearchParams({company:window.RadarHistory.canonical(name),back:location.hash.slice(1)}).toString())+'">阅读企业观察 →</a>';return metadata(name)?'<button class="radar-ai-button" type="button" data-ai-reading="'+esc(name)+'" aria-expanded="false" aria-controls="radar-ai-panel">AI 解读 <span aria-hidden="true">⌄</span></button>':'';}
   function panel(name){return metadata(name)?'<section class="radar-ai-panel" id="radar-ai-panel" aria-label="企业 AI 解读" hidden><div class="radar-ai-working" id="radar-ai-working" aria-hidden="true" hidden><span class="radar-ai-orbit"><i></i><i></i><i></i></span><div class="radar-ai-skeleton"><span></span><span></span><span></span></div></div><div class="radar-ai-content" id="radar-ai-content" tabindex="-1"></div><p class="radar-ai-status" id="radar-ai-status" role="status" aria-live="polite"></p></section>':'';}
   function markup(reading,expanded=false){
     if(!reading||!Array.isArray(reading.sources))throw Error('解读暂时无法读取');
