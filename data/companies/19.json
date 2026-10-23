@@ -513,24 +513,62 @@
       "event_type": "业绩披露",
       "link": "https://mp.weixin.qq.com/s/FAnzVrz1z41dUqpOAM6zSw",
       "sector": "电子制造与系统封装",
-      "location": "地点待核",
+      "location": "上海市浦东新区盛夏路169号B栋5楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市浦东新区盛夏路169号B栋5楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-992cf91812ef1295c49dcbe4"
+        ],
+        "subject_evidence_ids": [
+          "geo-b79b3c0736c4114543baf7be"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "环旭电子",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-b79b3c0736c4114543baf7be"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-992cf91812ef1295c49dcbe4",
+            "source_url": "https://www.usiglobal.com/storage/report/FifxNMkB7LAyLyaZH1pRoh7jlhOq4Z2bCKpU6459.pdf",
+            "checked_at": "2026-10-23T18:05:39.265205+00:00",
+            "subject": "环旭电子",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区",
+              "address": "上海市浦东新区盛夏路169号B栋5楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-992cf91812ef1295c49dcbe4"
+          ]
+        }
       },
       "article_location": "未核实",
       "source": "36 氪",
