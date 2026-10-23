@@ -1249,16 +1249,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/4bmt6y641yJx0ZO5bDSoPg",
       "sector": "电子制造装备",
-      "location": "地点待核",
+      "location": "浙江省 / 宁波市镇海区蛟川街道东生路289号2号厂房",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 宁波市镇海区蛟川街道东生路289号2号厂房",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-54c21da512ee74e3b98aaef8"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "亦唐科技",
         "subject_locality": {
           "status": "unknown",
@@ -1266,7 +1268,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-54c21da512ee74e3b98aaef8",
+            "source_url": "https://www.nepconasia.com/zh-cn/news-center/zhxx/2025/6-29/8.html",
+            "checked_at": "2026-10-23T18:06:00.054533+00:00",
+            "subject": "亦唐科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "宁波市",
+              "district": "镇海区",
+              "address": "宁波市镇海区蛟川街道东生路289号2号厂房"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "宁波市",
+          "district": "镇海区",
+          "evidence_ids": [
+            "geo-54c21da512ee74e3b98aaef8"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
