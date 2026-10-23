@@ -5,12 +5,12 @@
   "start_date": "2026-10-19",
   "end_date": "2026-10-25",
   "summary": {
-    "total_companies": 137,
-    "financing_events": 15,
+    "total_companies": 147,
+    "financing_events": 18,
     "ipo_events": 4,
     "milestone_events": 54,
-    "negative_events": 0,
-    "active_days": 5
+    "negative_events": 1,
+    "active_days": 6
   },
   "top10": [
     {
@@ -1648,7 +1648,211 @@
       }
     }
   ],
-  "negatives": [],
+  "negatives": [
+    {
+      "company": "DeepSeek",
+      "event_type": "服务异常",
+      "event_date": "",
+      "event_desc": "腾讯云WorkBuddy及CodeBuddy团队10月16日公布DeepSeek模型服务异常补偿方案，全额返还受影响用户10月8日至14日使用DeepSeek消耗的积分，并向国内版全量用户赠送500积分；此前DeepSeek已就服务故障致歉并公布补偿。",
+      "insight": "服务故障的影响已传导至上层开发工具，补偿覆盖了特定期间的调用。对模型服务企业而言，关键经营环节是接口可用性与依赖方恢复，不宜把积分返还推算成收入损失。",
+      "link": "https://mp.weixin.qq.com/s/HYYq0PB4yzPO6Y40VGCEig",
+      "source": "创业邦",
+      "published_date": "2026-10-17",
+      "score": 0,
+      "sector": "AI模型服务",
+      "title": "三只羊在抖音恢复经营；苹果首款折叠屏手机预约火爆等丨邦早报",
+      "event_signal": "context",
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "company_raw_name": "DeepSeek",
+      "identity_status": "confirmed",
+      "company_db_id": 258,
+      "event_headline": "故障补偿传导至上层开发工具",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "location": "浙江省 / 杭州市",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本事件足以说明具体技术产品或资本节点，但本轮材料未独立建立该主体全国行业标杆地位；正面事件资格不依赖标杆标签。",
+        "evidence_ids": [
+          "article:23da0e9410cd76e9"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight main Agent — accepted正文逐事件续审",
+        "candidate_id": "4b670aee59f10e92bca9930f8c85bb4348b7225f2aa562985f8bcfe043224443",
+        "input_row_sha256": "59ec007c521f127b35d7ea8d3c693a1003ae559e64145b69d09fe0e292ed6342",
+        "reason": "复用已审政府杭州总部及稳定DeepSeek主体，满足独立负面地域轴。10月18日已有API故障与DeepSeek自身补偿，不能重复当新故障；当前新增的是腾讯WorkBuddy、CodeBuddy针对10月8至14日调用公布积分返还及全量用户额外补偿，呈现具名上层产品受影响的实质增量。旧10月21日重复故障排除仍成立，不借新URL推翻；本条只保留依赖链影响增量。历史归一化异常保留uncertain，不声称完整去重。",
+        "scope": {
+          "technology_evidence": "DeepSeek模型服务故障已使腾讯WorkBuddy、CodeBuddy用户获得特定期间积分返还，影响具体AI开发工具调用环节。",
+          "value_reason": "在既有API故障之外补充具名依赖产品受影响及补偿证据，有助识别模型服务连续性风险的传导环节，不推算损失金额。"
+        },
+        "stage": {
+          "status": "服务故障已发生，上层工具已公布补偿",
+          "reason": "DeepSeek模型服务故障已使腾讯WorkBuddy、CodeBuddy用户获得特定期间积分返还，影响具体AI开发工具调用环节。"
+        },
+        "history": {
+          "result": "uncertain",
+          "evidence_ids": [
+            "history_lookup:f50aa78b6f52a494",
+            "accepted_history:553fc38f671c7af8",
+            "accepted_history:652599e78ac02448",
+            "accepted_history:a9914165e8f669d6",
+            "accepted_history:115aa043c3a0d34c",
+            "accepted_history:1b38ae9436891b28",
+            "accepted_history:96bb280561a2e737",
+            "accepted_history:4d0ff6faa1431143",
+            "accepted_history:c4999798456e3ea7",
+            "accepted_history:dd902924f16a8cd7",
+            "accepted_history:39cd2705933b1c58",
+            "accepted_history:c754d913b4aea42b",
+            "accepted_history:3c2fa55416291329",
+            "accepted_history:89b9175eec3a6ce7",
+            "accepted_history:24a5738e77ff3c74",
+            "accepted_history:46723b9e62e59e40",
+            "accepted_history:df48d5d0a8e57a7f",
+            "accepted_history:0ce074f776a7df00",
+            "accepted_history:450a9e200a518780",
+            "accepted_history:fee5adc7eeea25f4",
+            "accepted_history:a11c70966626e98d",
+            "accepted_history:acb664257ffa04b4",
+            "accepted_history:891e4d7dba6c6fa3",
+            "accepted_history:0059924beb11e32d",
+            "accepted_history:bc73adccffd6ce79",
+            "accepted_history:85a2a890a7b60d46",
+            "prior_decision:eb039cfd8aedceee",
+            "prior_decision:1615af08ab103075",
+            "prior_decision:b1dc62a56ac9b5f3",
+            "prior_decision:f819bbdc17ee0dd2",
+            "prior_decision:bc6361c05673a7de",
+            "prior_decision:8cfeb09ee9b172af",
+            "prior_decision:a897e773152eb732",
+            "prior_decision:32fffa5346c94646",
+            "prior_decision:c38644cdf44cae91",
+            "prior_decision:77ddf8465c2f3036",
+            "prior_decision:e4762b303f8d53bf",
+            "prior_decision:b13f1232e1b4e9fc",
+            "prior_decision:cee8b3a460f77934",
+            "prior_decision:ffec7539db669705",
+            "prior_decision:57fb9024d657db8d",
+            "prior_decision:45ea26fb925b103f",
+            "prior_decision:c6611f3e33126b7b",
+            "prior_decision:80ae9a27f89f46e1",
+            "prior_decision:4aa55ed3d77695df",
+            "prior_decision:32e66738fb3c21d7",
+            "prior_decision:e1d1e61ae0a707e5"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:32fffa5346c94646",
+              "comparison": "different_event",
+              "reason": "V4.1模型更新的重复裁决不是本次服务故障及具名依赖工具补偿事件。"
+            },
+            {
+              "evidence_id": "prior_decision:80ae9a27f89f46e1",
+              "comparison": "different_event",
+              "reason": "V4.1模型更新的重复裁决不适用于服务故障传导环节。"
+            },
+            {
+              "evidence_id": "prior_decision:32e66738fb3c21d7",
+              "comparison": "new_progress",
+              "reason": "旧稿只重复DeepSeek自身道歉及补偿到账，本稿给出腾讯WorkBuddy、CodeBuddy具体用户补偿，保留影响环节增量而不再算新故障。"
+            }
+          ],
+          "change_reason": "旧故障发生与API补偿已收录；本篇新增腾讯具名工具和其用户补偿，区别此前仅重复DeepSeek道歉/到账的排除。历史不完整异常保留。",
+          "new_evidence_ids": [
+            "article:23da0e9410cd76e9"
+          ]
+        },
+        "evidence_ids": [
+          "article:23da0e9410cd76e9",
+          "history_lookup:f50aa78b6f52a494"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本事件足以说明具体技术产品或资本节点，但本轮材料未独立建立该主体全国行业标杆地位；正面事件资格不依赖标杆标签。",
+          "evidence_ids": [
+            "article:23da0e9410cd76e9"
+          ]
+        },
+        "negative_eligibility": {
+          "eligible": true,
+          "status": "confirmed_hangzhou_subject",
+          "reason": "subject_registered_or_primary_hq_hangzhou_confirmed_by_reviewed_official_evidence",
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        }
+      },
+      "selection_recommendation": "keep",
+      "selection_reason": "复用已审政府杭州总部及稳定DeepSeek主体，满足独立负面地域轴。10月18日已有API故障与DeepSeek自身补偿，不能重复当新故障；当前新增的是腾讯WorkBuddy、CodeBuddy针对10月8至14日调用公布积分返还及全量用户额外补偿，呈现具名上层产品受影响的实质增量。旧10月21日重复故障排除仍成立，不借新URL推翻；本条只保留依赖链影响增量。历史归一化异常保留uncertain，不声称完整去重。",
+      "date": "2026-10-24"
+    }
+  ],
   "sector_distribution": {
     "新能源汽车与车载推进系统": 2,
     "半导体制造／晶圆代工": 1,
@@ -1686,7 +1890,7 @@
     "半导体": 1,
     "GPU算力": 1,
     "机器人视觉": 1,
-    "人形机器人": 1,
+    "人形机器人": 2,
     "汽车零部件制造": 1,
     "工业视觉与移动机器人": 1,
     "工业无损检测": 1,
@@ -1772,7 +1976,16 @@
     "生物医药": 1,
     "金融科技／数字支付与数字信贷": 1,
     "智能厨电与垂直领域人工智能": 1,
-    "新能源汽车动力电池": 1
+    "新能源汽车动力电池": 1,
+    "低空飞行": 1,
+    "机器视觉": 1,
+    "机器人": 1,
+    "物理AI芯片": 1,
+    "空间音频": 1,
+    "智能体基础设施": 1,
+    "新型显示": 1,
+    "机器人世界模型": 1,
+    "AI基础设施": 1
   },
   "daily_details": {
     "2026-10-19": {
@@ -1794,7 +2007,11 @@
     "2026-10-23": {
       "count": 11,
       "negatives": 0
+    },
+    "2026-10-24": {
+      "count": 10,
+      "negatives": 1
     }
   },
-  "created": "2026-10-23 02:29:31"
+  "created": "2026-10-24 02:27:23"
 }
