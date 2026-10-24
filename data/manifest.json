@@ -51644,8 +51644,9 @@
       "source_epoch": 1792869847116,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
+      "has_article": true,
       "path": "data/interpretations/d97093a12f9ccafc2fa0.json",
-      "version": "fe7472bf08a992ff90c59b7d103577f8f9608607c66661c58e663407032b9161",
+      "version": "becccb5827e7b38e263cccc2cf3df62396658b5217235cd14bcab162079c6340",
       "cached_as_of": "2026-10-25",
       "cached_source_version": "730a17a34c5a478e90f344aef2fe4b218ad740b28443ea9c24d95fe4f1d0406d"
     },
@@ -52631,11 +52632,11 @@
   },
   "observations": {
     "path": "data/observations.json",
-    "version": "773f3f5802fc0bc900890be0b082a8013e6815948e2feb115f8b0272a2132963",
+    "version": "79929e37a78baf89adc7708b9435e6a6b7d06ee06a95cbb4fd1ba7dea1b2da35",
     "company_count": 311,
     "reading_count": 107,
     "lead_count": 204,
-    "topic_count": 9
+    "topic_count": 10
   },
   "company_observations": {
     "智元机器人": [
@@ -52708,6 +52709,13 @@
         "title": "原子钟重复供货的两条路径：光源进入设计，整机匹配任务"
       }
     ],
+    "思流之光科技（杭州）有限责任公司": [
+      {
+        "id": "obs-650aaea2e6f5cc4c",
+        "question": "企业Agent的交付瓶颈是否转向业务接入与权限控制？",
+        "title": "企业Agent交付将按业务接入与变更控制分化"
+      }
+    ],
     "神踪科技": [
       {
         "id": "obs-745b7a6fd47b1eb1",
@@ -52778,11 +52786,10 @@
         "title": "企业Agent交付将按业务接入与变更控制分化"
       }
     ],
-    "思流之光科技（杭州）有限责任公司": [
+    "杭州低空产业发展有限公司": [
       {
-        "id": "obs-650aaea2e6f5cc4c",
-        "question": "企业Agent的交付瓶颈是否转向业务接入与权限控制？",
-        "title": "企业Agent交付将按业务接入与变更控制分化"
+        "id": "obs-b2134cda028e2ad5",
+        "question": "杭州无人机配送怎样接入日常消费？"
       }
     ]
   },
