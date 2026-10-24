@@ -5,12 +5,12 @@
   "start_date": "2026-10-19",
   "end_date": "2026-10-25",
   "summary": {
-    "total_companies": 149,
-    "financing_events": 20,
+    "total_companies": 177,
+    "financing_events": 29,
     "ipo_events": 4,
-    "milestone_events": 54,
+    "milestone_events": 61,
     "negative_events": 1,
-    "active_days": 6
+    "active_days": 7
   },
   "top10": [
     {
@@ -610,6 +610,417 @@
           "reason": "工程样车及运营方参与研发足以支持事件价值，但所给证据未独立建立吉利在原生Robotaxi领域的行业领先地位；报道中的“首款”不直接转为全国标杆资格。",
           "evidence_ids": [
             "article:42b8be891acae835"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "杭州微路智能科技有限公司",
+      "selection_recommendation": "keep",
+      "selection_reason": "已取得的报道节选明确杭州微路智能科技有限公司为融资主体，完成数千万元天使+轮融资，杭州中赢创投为出资方；公司提供端侧AI推理计算IP、片上互连及定制设计服务。本轮相对9月天使轮构成新的资本成长节点，值得继续研究其芯片设计与本地推理产品路线。2026-10-21发布时间处于最近7天内，融资完成日未知。历史架构及产品规划披露不是本轮融资，不重复认定为企业首次发现。节选另明确称公司注册于杭州钱塘区，可按报道展示，但不冒充已完成官方登记核验；现有注册/总部档案未确认不阻断正面发现。VLX-64仍为规划产品，不能写成已交付或已验证支持500亿参数模型。",
+      "is_negative": false,
+      "title": "微路智能获数千万元天使+轮融资 聚焦端侧AI芯片",
+      "company": "杭州微路智能科技有限公司",
+      "score": 100,
+      "sector": "端侧AI芯片与推理计算IP",
+      "financing": "据报道，公司完成数千万元天使+轮融资，由杭州中赢创投出资；此前于2026年9月完成数千万元天使轮融资，由国信中数(铜陵)科创基金领投。本轮具体完成日期未披露。",
+      "source": "www.zhitongcaijing.com",
+      "location": "浙江省 / 杭州市",
+      "article_location": "杭州市钱塘区（原文明确注册地）",
+      "event_type": "融资",
+      "link": "https://www.zhitongcaijing.com/content/detail/1510123.html",
+      "article_title": "微路智能获数千万元天使+轮融资 聚焦端侧AI芯片",
+      "published_date": "2026-10-21",
+      "publication_basis": "采集源保留的发布时间",
+      "event_date": null,
+      "event_desc": "杭州微路智能科技有限公司完成数千万元天使+轮融资，由杭州中赢创投出资。公司专注端侧GPNPU（通用神经网络处理器）架构，提供AI推理计算IP、片上互连与定制设计服务，首代产品规划为面向500亿参数以内模型本地推理的VLX-64加速卡。",
+      "event_headline": "微路智能在9月天使轮后再完成数千万元天使+轮融资",
+      "event_signal": "material",
+      "event_headline_source": "7dbf8865874cc76c929f86e159c8ce352eb9e70590337a03e6ccd56fd9b7378e",
+      "insight": "微路智能值得关注的不是已实现多少模型参数的运行，而是同时布局底层计算设计和加速卡产品：计算IP是可供芯片设计采用的计算模块，片上互连负责芯片内部数据传输，加速卡则面向本地推理部署。两类业务分别对应芯片设计客户和部署客户，产品验证与支持要求不同。连续融资是这家早期企业的资本进展，下一步研究应辨明首代加速卡与自有架构的实际关系，以及优先服务哪类客户。针对其500亿参数以内模型的规划，最有辨别力的补证是明确模型、量化精度和上下文长度下的样卡测试，观察内存容量与带宽能否支撑目标推理任务，而不是仅比较参数规模。",
+      "is_national_star": false,
+      "company_entity_id": "dr-u-7b2226302a46dc2ff4c1",
+      "company_canonical_name": "杭州微路智能科技有限公司",
+      "identity_status": "unresolved",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d211cddf933805cd7e72d79d"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州微路智能科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-d211cddf933805cd7e72d79d",
+            "source_url": "https://mp.weixin.qq.com/s/pbJ1THY1wfGrjAWKDEA_IA",
+            "checked_at": "2026-10-14T00:16:19+00:00",
+            "subject": "杭州微路智能科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-d211cddf933805cd7e72d79d"
+          ]
+        }
+      },
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-d211cddf933805cd7e72d79d",
+          "source_url": "https://mp.weixin.qq.com/s/pbJ1THY1wfGrjAWKDEA_IA",
+          "checked_at": "2026-10-14T00:16:19+00:00",
+          "subject": "杭州微路智能科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "沿用已有未建立全国标杆资格的判断。本次新增融资未提供芯片实测、可比较技术表现、行业领先地位或产业交付依据。",
+        "evidence_ids": [
+          "prior_decision:4468b53f7dcbc6d3",
+          "web_acquired_text:64cc613a7e4736d7"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent + overnight Agent explicit per-event continuation",
+        "candidate_id": "0a2753e38297f29e84802ac15ea1b738c0314ef3683e3f370a61cf0efd8a92dc",
+        "input_row_sha256": "ca2c526e4a8c410843aa16e8a9002af2279d3863d6ce039d8143b46875f8b0c8",
+        "reason": "已取得的报道节选明确杭州微路智能科技有限公司为融资主体，完成数千万元天使+轮融资，杭州中赢创投为出资方；公司提供端侧AI推理计算IP、片上互连及定制设计服务。本轮相对9月天使轮构成新的资本成长节点，值得继续研究其芯片设计与本地推理产品路线。2026-10-21发布时间处于最近7天内，融资完成日未知。历史架构及产品规划披露不是本轮融资，不重复认定为企业首次发现。节选另明确称公司注册于杭州钱塘区，可按报道展示，但不冒充已完成官方登记核验；现有注册/总部档案未确认不阻断正面发现。VLX-64仍为规划产品，不能写成已交付或已验证支持500亿参数模型。",
+        "scope": {
+          "technology_evidence": "报道节选披露公司专注端侧GPNPU架构，提供AI推理计算IP、片上互连及定制设计服务，首代VLX-64加速卡规划面向500亿参数以内模型本地推理。",
+          "value_reason": "在已有端侧推理架构与产品规划基础上，新增一轮明确投资方的早期融资，构成研发企业资本成长的实质进展。研究重点是融资之后能否推进样片及客户验证，而非将融资直接解释为技术性能或商业交付已经兑现；本轮资金用途未披露，不补造。"
+        },
+        "stage": {
+          "status": "reported_financing_completed_product_planned",
+          "reason": "原文称天使+轮融资已经完成，具体完成日期未披露；VLX-64明确为首代产品规划，未提供流片、样卡实测或交付事实。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:f213ee3e072b8e50",
+            "accepted_history:ba44e6e95052a679",
+            "prior_decision:4468b53f7dcbc6d3",
+            "history_lookup:4b0a8e62b88be752"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:4468b53f7dcbc6d3",
+              "comparison": "different_event",
+              "reason": "此前keep针对GPNPU架构及两代芯片产品规划披露，不是本次天使+轮融资；本次不改变该技术披露裁决，也不把旧产品规划作为新增成果。"
+            }
+          ],
+          "change_reason": "2026-09-17历史为国信中数领投的数千万元天使轮；本次原文明确另有杭州中赢创投出资的数千万元天使+轮，并将前一轮列为此前融资，足以区分为新的融资进展。2026-10-15技术披露保留为另一事件，不重复发布其既有技术信息。",
+          "new_evidence_ids": [
+            "web_acquired_text:64cc613a7e4736d7"
+          ]
+        },
+        "evidence_ids": [
+          "web_acquired_text:64cc613a7e4736d7",
+          "geo-d211cddf933805cd7e72d79d",
+          "accepted_history:f213ee3e072b8e50",
+          "accepted_history:ba44e6e95052a679",
+          "prior_decision:4468b53f7dcbc6d3",
+          "history_lookup:4b0a8e62b88be752"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "沿用已有未建立全国标杆资格的判断。本次新增融资未提供芯片实测、可比较技术表现、行业领先地位或产业交付依据。",
+          "evidence_ids": [
+            "prior_decision:4468b53f7dcbc6d3",
+            "web_acquired_text:64cc613a7e4736d7"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "格物通智",
+      "selection_recommendation": "keep",
+      "selection_reason": "已取得的报道节选明确格物通智为近亿元天使轮融资主体，并披露其触觉—视觉多模态数据、物理反演世界模型及灵巧操作研发路线。正文直接说明企业落地杭州，结合已有经营归属证据足以支持正面发现，不依赖投资方地名确认属地。与匹克投资的战略合作及鞋履制造订单叙述提供了具体产业验证入口，值得研究柔性材料操作能否形成可复用能力。2026-10-21为本来源发布时间，但系转载首发报道，原始首发日仍需核实；本事件同时有2026-10-19报道支持最近7天内已公开，未凭转载日期重置窗口。订单未披露金额、工序、验收及交付状态，不能据此认定量产收入或亚毫米级精度已经实现。与本批腾讯报道合并为同一轮融资及相关产业合作记录，不重复计数，不宣称企业首次发现。",
+      "is_negative": false,
+      "title": "前华为车BU世界模型基模负责人创业,杭州具身大脑公司获近亿元融资|硬氪首发",
+      "company": "格物通智",
+      "score": 100,
+      "sector": "具身智能／机器人灵巧操作",
+      "financing": "已完成近亿元天使轮融资，投资方包括匹克投资、鸿富资产、杭州资本、杭州人才集团、某省级具身产投及多家头部上市公司；枫承资本担任独家私募股权融资顾问。资金将主要用于物理反演世界模型预训练与技术迭代、硬件与本体构建、人才引进，以及场景概念验证和真实数据采集。",
+      "source": "www.gyxww.cn",
+      "location": "浙江省 / 杭州市",
+      "article_location": "杭州，具体区县未披露",
+      "event_type": "融资",
+      "link": "https://www.gyxww.cn/ArTicle/details/93763914.sHTML",
+      "article_title": "前华为车BU世界模型基模负责人创业,杭州具身大脑公司获近亿元融资|硬氪首发",
+      "published_date": "2026-10-21",
+      "publication_basis": "采集源保留的发布时间",
+      "event_date": null,
+      "event_desc": "格物通智已完成近亿元天使轮融资，资金拟用于物理反演世界模型预训练、硬件与本体构建及产业场景验证。公司与匹克投资签署鞋履制造战略合作协议，并称在企业初期取得规模化订单，面向柔性制造、柔性材料及亚毫米级精度要求推进技术落地。",
+      "event_headline": "格物通智完成近亿元天使轮融资，推进鞋履制造应用",
+      "event_signal": "major",
+      "event_headline_source": "0929a5d69f4d522455bd08931a5433c383c471b2a8b0656bb0e4cfecfb77213c",
+      "insight": "格物通智选择从鞋履制造切入，值得关注的是机器人如何处理会变形的材料，而不只是完成固定轨迹动作。其提出以触觉和视觉数据构建物理反演世界模型，让机器人理解操作中的物理变化，再通过持续作业积累经验、适配具体场景。产业方同时参与投资和合作，为这一路线提供了接触真实工艺与采集操作数据的入口，但合作本身尚不能说明自进化能力已经实现。下一步可围绕合作中的具体工序，了解材料变化时的操作成功率、精度保持情况及人工干预频次，辨别其能力来自固定工序调试，还是能够随作业经验改善。",
+      "is_national_star": false,
+      "company_entity_id": "dr-u-2b6865270713f883e5a3",
+      "company_canonical_name": "格物通智",
+      "identity_status": "unresolved",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-6c87eafc5d02ffa10fc9958a"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "格物通智",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-6c87eafc5d02ffa10fc9958a",
+            "source_url": "https://www.36kr.com/p/4025325566054529",
+            "checked_at": "2026-10-24T18:08:29.119950+00:00",
+            "subject": "格物通智",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-6c87eafc5d02ffa10fc9958a"
+          ]
+        }
+      },
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-6c87eafc5d02ffa10fc9958a",
+          "source_url": "https://www.36kr.com/p/4025325566054529",
+          "checked_at": "2026-10-24T18:08:29.119950+00:00",
+          "subject": "格物通智",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "location_candidates": [
+        {
+          "value": "杭州，具体区县未披露",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "event_identity": {
+        "canonical_id": "格物通智已完成近亿元天使轮融资，拟将资金用于具身智能模型训练、硬件与本体构建及产业场景验证。报道同时称，其已与匹克投资签订战略合作协议，并在企业初期获得鞋履制造场景的规模化订单，面向柔性制造、柔性材料和亚毫米级精度要求推进技术落地。"
+      },
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "早期融资、产业合作和未披露履约细节的订单能够支持跟踪价值，但尚无独立技术比较、可复核任务表现、规模交付或行业地位依据，不能建立全国标杆资格；创始人的原任职经历不等同于本企业已具备相应能力。",
+        "evidence_ids": [
+          "web_acquired_text:bc9508b62d2ae511"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent + overnight Agent explicit per-event continuation",
+        "candidate_id": "82f11fc8ce51e970c7deb3f0b78eaacd75905de150d082523d25ce349470d712",
+        "input_row_sha256": "68ca326df3e086ddfe7fdd6736e55b1e0a37fa9dd203d3d1fcbfaafe4cac2fcc",
+        "reason": "已取得的报道节选明确格物通智为近亿元天使轮融资主体，并披露其触觉—视觉多模态数据、物理反演世界模型及灵巧操作研发路线。正文直接说明企业落地杭州，结合已有经营归属证据足以支持正面发现，不依赖投资方地名确认属地。与匹克投资的战略合作及鞋履制造订单叙述提供了具体产业验证入口，值得研究柔性材料操作能否形成可复用能力。2026-10-21为本来源发布时间，但系转载首发报道，原始首发日仍需核实；本事件同时有2026-10-19报道支持最近7天内已公开，未凭转载日期重置窗口。订单未披露金额、工序、验收及交付状态，不能据此认定量产收入或亚毫米级精度已经实现。与本批腾讯报道合并为同一轮融资及相关产业合作记录，不重复计数，不宣称企业首次发现。",
+        "scope": {
+          "technology_evidence": "原文描述以触觉、视觉为主的多模态数据闭环研发物理反演世界模型与PSI物理自进化体系，面向机器人灵巧操作；披露与匹克投资签订战略合作协议，并称企业初期取得鞋履制造规模化订单。",
+          "value_reason": "融资和产业方合作共同提供模型、本体研发与真实鞋履工艺验证的连接点。柔性材料操作相比固定轨迹演示更能检验感知、动作和场景适配能力，具有杭州具身智能企业培育价值。优先补充具体工序、合同执行阶段、操作成功率及人工干预数据，以区分固定工序调试与可复用能力；不能将合作关系直接视为自进化技术已获验证。"
+        },
+        "stage": {
+          "status": "reported_financing_completed_cooperation_signed_orders_reported_rd_ongoing",
+          "reason": "融资按报道已完成、战略合作按报道已签约；规模化订单仅按报道取得记录，履约与验收未知。世界模型、自进化能力为企业技术路线描述，亚毫米级精度为鞋履制造要求，均非已证明的实测结果。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:4b0a8e62b88be752",
+            "web_acquired_text:fc0796ec704ad935"
+          ],
+          "prior_decisions": [],
+          "change_reason": "提供的历史检索未返回该主体既往已收录事件或旧排除裁决，不据此宣称首次发现。同批候选29ab979db1bcc00a134af3feb1d3e402fc273ef58176a32103c56d29a88405e8为同一轮融资，本条作为信息较完整的合并主记录保留；新增披露为技术路线、战略合作及鞋履制造订单叙述，不将其当作另一轮融资，也不证明这些事实发生于10月21日。",
+          "new_evidence_ids": [
+            "web_acquired_text:bc9508b62d2ae511"
+          ]
+        },
+        "evidence_ids": [
+          "web_acquired_text:bc9508b62d2ae511",
+          "web_acquired_text:fc0796ec704ad935",
+          "geo-6c87eafc5d02ffa10fc9958a",
+          "history_lookup:4b0a8e62b88be752"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "早期融资、产业合作和未披露履约细节的订单能够支持跟踪价值，但尚无独立技术比较、可复核任务表现、规模交付或行业地位依据，不能建立全国标杆资格；创始人的原任职经历不等同于本企业已具备相应能力。",
+          "evidence_ids": [
+            "web_acquired_text:bc9508b62d2ae511"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "杭州低空产业发展有限公司",
+      "selection_recommendation": "keep",
+      "selection_reason": "所提供报道文本直接援引杭州低空产业发展有限公司负责人，披露吴山广场咖啡飞送已接入城市低空即时配送系统、开通具体点位航线并开放小程序下单，足以支持实际应用进展。两岸小咖是商业运营合作伙伴，不将其机器人咖啡能力归于该公司。相比历史低空闪送及基础设施建设，本条新增站点商业复用和咖啡配送场景，保留为正面日报线索。杭州业务场景有原文依据，注册地及总部仍未确认，不凭企业名称或无来源档案补定。原文发布于2026-10-23，符合七天窗口；具体事件日期未知。",
+      "is_negative": false,
+      "title": "咖啡“从天而降”!杭州解锁低空消费新场景",
+      "company": "杭州低空产业发展有限公司",
+      "score": 95,
+      "sector": "低空经济／无人机即时配送",
+      "financing": "原文未披露融资信息",
+      "source": "hznews.hangzhou.com.cn",
+      "location": "地点待核",
+      "article_location": "杭州（本次业务场景位于吴山广场等点位）",
+      "event_type": "其他",
+      "link": "https://hznews.hangzhou.com.cn/jingji/content/2026-10/23/content_9350007.htm",
+      "article_title": "咖啡“从天而降”!杭州解锁低空消费新场景",
+      "published_date": "2026-10-23",
+      "publication_basis": "采集源保留的发布时间",
+      "event_date": null,
+      "event_desc": "据杭州低空产业发展有限公司副总经理介绍，吴山广场起降点无人机咖啡外送服务已接入城市低空即时配送系统，并开通武林医院、清泰门、申花等点位航线，市民可通过闪送小程序下单。该站点引入杭州两岸小咖智能科技有限公司作为商业运营合作伙伴，以二层承担无人机起降、一层经营咖啡的方式复用场地。报道援引其介绍称，相比路面运送，配送时效将提升20%至30%。",
+      "event_headline": "杭州低空产业公司披露吴山广场咖啡飞送接入城市配送系统",
+      "event_signal": "material",
+      "event_headline_source": "dd9beeef839d60b346175fab1387861dc25f245d301211492f681aef85a048ba",
+      "insight": "值得关注的变化不是无人机能送咖啡，而是固定起降点、消费商户、城市配送系统和小程序下单入口形成了可使用的服务链。上下分层让咖啡经营与飞行保障共用站点，为配送网络增加日常消费入口；但场地复用是否带来运营改善，仍取决于航线可服务订单量与实际完成情况。下一步可围绕已开通航线了解可配送范围、天气导致的取消情况，以及包含制作和取件等待在内的实际送达时间，判断便利来自稳定服务还是少量体验订单。",
+      "is_national_star": false,
+      "company_entity_id": "dr-u-cd1efd54b995a5fd0d00",
+      "company_canonical_name": "杭州低空产业发展有限公司",
+      "identity_status": "confirmed",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "杭州低空产业发展有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "杭州（本次业务场景位于吴山广场等点位）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持城市低空基础设施与配送场景进展，但不足以证明全国行业领先地位或经比较确认的标杆能力；本地场景特色不自动构成全国标杆资格。",
+        "evidence_ids": [
+          "web_acquired_text:86c9290f40df0f8a",
+          "accepted_history:0b98c52dbc6e08ea"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent + overnight Agent explicit per-event continuation",
+        "candidate_id": "767b55a55e2962f8fe278e76e15ba73fb8b902d4cfd1468b51b3df07523f7f6c",
+        "input_row_sha256": "22e6813d507fbd0f2ad9583e3e779f62a987fd3f859623aa4507ab1dc1fd89d5",
+        "reason": "所提供报道文本直接援引杭州低空产业发展有限公司负责人，披露吴山广场咖啡飞送已接入城市低空即时配送系统、开通具体点位航线并开放小程序下单，足以支持实际应用进展。两岸小咖是商业运营合作伙伴，不将其机器人咖啡能力归于该公司。相比历史低空闪送及基础设施建设，本条新增站点商业复用和咖啡配送场景，保留为正面日报线索。杭州业务场景有原文依据，注册地及总部仍未确认，不凭企业名称或无来源档案补定。原文发布于2026-10-23，符合七天窗口；具体事件日期未知。",
+        "scope": {
+          "technology_evidence": "无人机咖啡外送服务已接入城市低空即时配送系统，开通武林医院、清泰门、申花等点位航线，支持闪送小程序下单；吴山广场站点以楼层分工复用飞行保障与咖啡经营空间。",
+          "value_reason": "新增事实将既有低空配送基础设施与日常消费入口衔接，可观察站点商业复用能否支持配送网络持续运营。原文尚未证明订单规模、盈利改善或成本下降，不能将这些推测写为成果。"
+        },
+        "stage": {
+          "status": "服务已接入、航线已开通；运营效果尚未独立验证",
+          "reason": "报道使用“已同步接入”“并开通”等完成表述；时效提升20%至30%为负责人介绍的预期口径，不是已核实的实测结果。新闻发布于2026-10-23，事件仅称“日前”，不补造确切日期。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:14f2cdc937b7396c",
+            "accepted_history:0b98c52dbc6e08ea",
+            "history_lookup:4b0a8e62b88be752"
+          ],
+          "prior_decisions": [],
+          "change_reason": "2026-04-03历史为玉湖至申花航线常态化运营，2026-05-07历史为公共起降设施和管理平台建设，并非本次吴山广场咖啡飞送事件。本条新增吴山广场站点引入商业伙伴、咖啡配送系统接入及具体航线信息，属于既有网络的场景拓展，不是首次开展无人机配送，也不是仅换来源重复报道。输入未提供此前排除裁决。",
+          "new_evidence_ids": [
+            "web_acquired_text:86c9290f40df0f8a"
+          ]
+        },
+        "evidence_ids": [
+          "web_acquired_text:86c9290f40df0f8a",
+          "accepted_history:14f2cdc937b7396c",
+          "accepted_history:0b98c52dbc6e08ea"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "现有证据支持城市低空基础设施与配送场景进展，但不足以证明全国行业领先地位或经比较确认的标杆能力；本地场景特色不自动构成全国标杆资格。",
+          "evidence_ids": [
+            "web_acquired_text:86c9290f40df0f8a",
+            "accepted_history:0b98c52dbc6e08ea"
           ]
         }
       }
@@ -1237,415 +1648,6 @@
           ]
         }
       }
-    },
-    {
-      "company_raw_name": "轻舟智航",
-      "identity_mentions": [
-        {
-          "name": "轻舟乘风辅助驾驶系统",
-          "relation": "product",
-          "evidence": "规模化背后，是轻舟智航持续扩大的量产基盘。2026年，轻舟乘风辅助驾驶系统累计搭载量已突破100万台，合作车企超过10家，覆盖超过45款量产车型。"
-        }
-      ],
-      "title": "集中兑现，全面爆发：城市NOA进入「轻舟时刻」",
-      "company": "轻舟智航",
-      "score": 70,
-      "sector": "汽车智能驾驶",
-      "financing": "",
-      "source": "36 氪",
-      "location": "北京市海淀区学清嘉创大厦C座11层",
-      "article_location": "",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "北京市海淀区学清嘉创大厦C座11层",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-b8bb97d28c4e975162e39ab0"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "轻舟智航",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-b8bb97d28c4e975162e39ab0",
-            "source_url": "https://www.qcraft.ai/",
-            "checked_at": "2026-10-20T01:43:38.117400+00:00",
-            "subject": "轻舟智航",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "北京市",
-              "city": "北京市",
-              "address": "北京市海淀区学清嘉创大厦C座11层"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "北京市",
-          "city": "北京市",
-          "evidence_ids": [
-            "geo-b8bb97d28c4e975162e39ab0"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-45d4e09fc97bcfd7b905",
-      "company_canonical_name": "轻舟智航",
-      "identity_status": "unresolved",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/Zcx3S8DaOduUo0JOX2vjPw",
-      "article_title": "集中兑现，全面爆发：城市NOA进入「轻舟时刻」",
-      "event_desc": "据文章披露，2026年7月至10月，采用轻舟智航单征程6M城市NOA辅助驾驶方案的9款合作车型陆续上市、开启预售或公布上市计划，主要覆盖10万至20万元价格带，方案使用128TOPS算力。文章另披露，轻舟乘风辅助驾驶系统累计搭载量突破100万台，合作车企超过10家，覆盖超过45款量产车型；上述累计数据为系统整体口径。",
-      "insight": "轻舟智航的进展在于将城市NOA方案拓展至10万至20万元价位的多类车型，体现了面向主流车型的平台适配与量产落地能力。单芯片软硬件协同为有限算力下部署城市辅助驾驶提供了路径，但9款车型包含已上市、预售和计划上市，不能全部视为已完成量产交付。",
-      "event_headline": "轻舟智航单征程6M城市NOA方案迎来9款车型分阶段落地",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-20",
-        "event_date": null,
-        "observed_date": "2026-10-20",
-        "review_required": true
-      },
-      "published_date": "2026-10-20",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "原文明示轻舟智航为单征程6M城市NOA辅助驾驶方案提供方，轻舟乘风为其产品，合作车企及车型不并入公司主体。新闻2026年10月20日发布，满足最近7天窗口。相较3月融资、5月车展展示和10月已收录的广州物流车运行，本条新增7月至10月9款合作车型分阶段推进的产品商业化事实，具有主流价位车型适配和供应商量产拓展价值。百万台累计搭载量5月已收录，不能重新包装成新增里程碑；9款车型含上市、预售和计划上市，不能统称已量产交付。官网证据只确认北京经营地址，不推定注册地或总部，也不据此认定杭州主体。",
-      "event_headline_source": "02e19612d6aef5daa8ff03b0049edd4e98720a0725ab9b94fde79632d4b6db16",
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-b8bb97d28c4e975162e39ab0",
-          "source_url": "https://www.qcraft.ai/",
-          "checked_at": "2026-10-20T01:43:38.117400+00:00",
-          "subject": "轻舟智航",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "CN",
-            "province": "北京市",
-            "city": "北京市",
-            "address": "北京市海淀区学清嘉创大厦C座11层"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "多车型适配提供具体对标内容，但现有材料主要为报道中的企业规模及性能陈述，未建立独立可复核的全国行业地位比较；历史标签不等同于有依据的benchmark_review，本次不新增全国标杆资格。",
-        "evidence_ids": [
-          "article:db5755f6737cbfa4",
-          "accepted_history:31ba04804859dd51"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight current Agent directed semantic review",
-        "candidate_id": "5fc8cafd5d40d318a1ecc982d1d3032ab57c4cbc501393b4df87413dafe41119",
-        "input_row_sha256": "1a5fa0ceacec7d7a2d3642ffa1c9610398b3f022890b204179de88aa50f13597",
-        "reason": "原文明示轻舟智航为单征程6M城市NOA辅助驾驶方案提供方，轻舟乘风为其产品，合作车企及车型不并入公司主体。新闻2026年10月20日发布，满足最近7天窗口。相较3月融资、5月车展展示和10月已收录的广州物流车运行，本条新增7月至10月9款合作车型分阶段推进的产品商业化事实，具有主流价位车型适配和供应商量产拓展价值。百万台累计搭载量5月已收录，不能重新包装成新增里程碑；9款车型含上市、预售和计划上市，不能统称已量产交付。官网证据只确认北京经营地址，不推定注册地或总部，也不据此认定杭州主体。",
-        "scope": {
-          "technology_evidence": "采用128TOPS单征程6M方案的9款合作车型在7月至10月陆续上市、开启预售或公布上市计划，主要覆盖10万至20万元价格带，并跨越不同品牌、车型及动力形式。",
-          "value_reason": "有限算力方案进入多类主流价位车型，提供了观察城市NOA平台复用、整车适配及商业化扩展的具体窗口，可供杭州汽车智能化产业比较供应商产品化路径；不把宣传中的体验等效、成本优势或安全改善当成已独立验证的结论。"
-        },
-        "stage": {
-          "status": "mixed_vehicle_launch_presale_and_upcoming_launch",
-          "reason": "9款车型处于不同阶段，部分已上市，部分预售或仅有上市计划；文章未给出逐款交付量。累计百万台为轻舟乘风系统整体口径，不是本次9款车型或单征程6M城市NOA方案的装车数量。"
-        },
-        "history": {
-          "result": "new_progress",
-          "evidence_ids": [
-            "accepted_history:08108ce7f911725f",
-            "accepted_history:31ba04804859dd51",
-            "accepted_history:25ede93fbb772ad5",
-            "history_lookup:205e337dd71337dd"
-          ],
-          "prior_decisions": [],
-          "change_reason": "3月记录为融资事件，5月记录为车展产品展示并已含百万台搭载量，10月12日记录为广州物流车运行，均不能代替本次城市NOA合作车型推进事实。本条实质增量为7月至10月单征程6M方案在9款车型中的分阶段推进；不重复收录百万台旧指标，也不以广州物流车的再次提及作为新增理由。历史is_national_star字段未附独立标杆裁决依据，本次不据其自动授标签，也不修改历史记录。",
-          "new_evidence_ids": [
-            "article:db5755f6737cbfa4"
-          ]
-        },
-        "evidence_ids": [
-          "article:db5755f6737cbfa4",
-          "geo-b8bb97d28c4e975162e39ab0",
-          "accepted_history:08108ce7f911725f",
-          "accepted_history:31ba04804859dd51",
-          "accepted_history:25ede93fbb772ad5",
-          "history_lookup:205e337dd71337dd"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "多车型适配提供具体对标内容，但现有材料主要为报道中的企业规模及性能陈述，未建立独立可复核的全国行业地位比较；历史标签不等同于有依据的benchmark_review，本次不新增全国标杆资格。",
-          "evidence_ids": [
-            "article:db5755f6737cbfa4",
-            "accepted_history:31ba04804859dd51"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "阿里",
-      "identity_mentions": [
-        {
-          "name": "Qwen",
-          "relation": "product",
-          "evidence": "阿里旗下通义万相和Qwen"
-        }
-      ],
-      "title": "OpenAI自曝“模型偷钱”；苹果AI国内落地敲定，12月正式上线；17岁AI天才少年离职月之暗面，曾参与Kimi模型研发丨AI周报",
-      "company": "阿里",
-      "score": 65,
-      "sector": "图像生成与编辑",
-      "financing": "",
-      "source": "创业邦",
-      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
-      "article_location": "",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "hangzhou",
-        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-96adb38b9ecaed1e412df1a7"
-        ],
-        "subject_evidence_ids": [
-          "geo-96adb38b9ecaed1e412df1a7"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "阿里",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "hangzhou",
-          "country": "CN",
-          "province": "浙江省",
-          "city": "杭州市",
-          "basis_roles": [
-            "hq"
-          ],
-          "evidence_ids": [
-            "geo-96adb38b9ecaed1e412df1a7"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
-            "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
-            "checked_at": "2026-10-15T18:26:21.338217+00:00",
-            "subject": "阿里",
-            "role": "hq",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "浙江省",
-              "city": "杭州市",
-              "district": "余杭区",
-              "address": "文一西路969号"
-            }
-          }
-        ]
-      },
-      "company_entity_id": "dr-u-1d99cc69a8ba22eb7d71",
-      "company_canonical_name": "阿里",
-      "identity_status": "unresolved",
-      "event_type": "重磅发布",
-      "link": "https://mp.weixin.qq.com/s/FUYwy-9s1tctDgIO7NtTcw",
-      "article_title": "OpenAI自曝“模型偷钱”；苹果AI国内落地敲定，12月正式上线；17岁AI天才少年离职月之暗面，曾参与Kimi模型研发丨AI周报",
-      "event_desc": "10月11日，千问AI平台宣布Qwen-Image-2.1 Pro和Turbo API上线，支持开发者接入图像生成与编辑能力，无需自行部署模型和管理推理环境；Qwen-Image-2.1-Turbo权重同步开放。",
-      "insight": "API与开放权重提供了两种接入方式：前者免去模型部署和推理环境管理，后者为自行部署留下空间。产品因此可进入设计、电商和内容生产工作流，而非只在单一交互界面使用。",
-      "event_headline": "阿里Qwen图像模型上线API并开放Turbo权重",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-18",
-        "event_date": null,
-        "observed_date": "2026-10-18",
-        "review_required": true
-      },
-      "published_date": "2026-10-18",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "全文明确阿里旗下千问AI平台的模型/API事件，使用原观察主体不增改别名或认定杭州。新闻10月18日回顾10月11日事实，按发布日而非事件年龄采信。",
-      "event_headline_source": "e22a4d3ec27cf29f939db930e6394f54428889d7e6af95f69dceb8ae5feddd8a",
-      "location_status": "subject_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
-          "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
-          "checked_at": "2026-10-15T18:26:21.338217+00:00",
-          "subject": "阿里",
-          "role": "hq",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "CN",
-            "province": "浙江省",
-            "city": "杭州市",
-            "district": "余杭区",
-            "address": "文一西路969号"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent · 全文逐事件定向复核",
-        "candidate_id": "e2c03f38f01c36781dda31c72cfca488a53083f8c77c1fda9bfadb6a4166ff0c",
-        "input_row_sha256": "acfb18ccf35362c3e6ce72aade127e4f3876908d2f120e176cbe4e72921d212b",
-        "reason": "全文明确阿里旗下千问AI平台的模型/API事件，使用原观察主体不增改别名或认定杭州。新闻10月18日回顾10月11日事实，按发布日而非事件年龄采信。",
-        "scope": {
-          "technology_evidence": "Qwen-Image-2.1 Pro及Turbo API已上线，Turbo权重开放，支持图像生成编辑接入。",
-          "value_reason": "开发者获得托管API与可部署权重两种供给方式，构成具体AI产品和开发者商业化入口变化。"
-        },
-        "stage": {
-          "status": "据报道API已开放、权重已开放",
-          "reason": "无需自管推理是托管服务特征，不推导客户节约金额或已达使用规模。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:a7498ad7555a53f5",
-            "accepted_history:dd9016827904a7f3",
-            "accepted_history:2f9b285ab8842b7e"
-          ],
-          "prior_decisions": [],
-          "change_reason": "阿里历史千问办公电商版与QwenGyre训练框架均非此图像模型API；同轮阿里苹果计划也不是该产品，不按公司名粗并。",
-          "new_evidence_ids": [
-            "article:40994204901d8e6a"
-          ]
-        },
-        "evidence_ids": [
-          "article:40994204901d8e6a",
-          "history_lookup:a7498ad7555a53f5"
-        ]
-      }
-    },
-    {
-      "company_raw_name": "Anew Labs（新生实验室）",
-      "identity_mentions": [
-        {
-          "name": "新生实验室",
-          "relation": "same_entity",
-          "evidence": "近日，AI制药公司Anew Labs（新生实验室）完成首轮独立融资"
-        }
-      ],
-      "title": "字节跳动，又创造了一个100亿",
-      "company": "Anew Labs（新生实验室）",
-      "score": 60,
-      "sector": "AI制药／AI驱动药物发现",
-      "financing": "首轮独立融资2.9亿美元，原文折合人民币20亿元；投后估值15亿美元，原文折合人民币约100亿元。投资方包括红杉中国、IDG资本、高瓴创投、五源资本、高榕创投、春华创投、中国生物制药等。融资后字节跳动持股56%。",
-      "source": "36 氪",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "Anew Labs(新生实验室)",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-2f5dcc15141986709ea4",
-      "company_canonical_name": "Anew Labs(新生实验室)",
-      "identity_status": "unresolved",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/6VPgTd37WYZMZlN4jhna3w",
-      "article_title": "字节跳动，又创造了一个100亿",
-      "event_desc": "据文章报道，新生实验室于今年6月从字节跳动AI制药业务分拆，近日完成2.9亿美元首轮独立融资，投后估值15亿美元。投资方包括红杉中国、IDG资本、高瓴创投、五源资本、高榕创投、春华创投及中国生物制药等。融资完成后，字节跳动持股56%，保持控股地位。文章未披露具体融资用途。",
-      "insight": "新生实验室从字节内部研究团队转为引入外部资本的独立运营公司，同时保留字节控股关系，变化首先体现在AI药物发现业务的组织与融资路径。其后续值得研究的是结构预测、蛋白设计能力如何接入实验和药物管线，而非直接将原团队的模型测试优势等同于新公司的临床成果。",
-      "event_headline": "新生实验室完成2.9亿美元首轮独立融资，字节仍控股",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-16",
-        "event_date": null,
-        "observed_date": "2026-10-16",
-        "review_required": true
-      },
-      "published_date": "2026-10-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "正文直接将Anew Labs与新生实验室对应，明确其为2.9亿美元首轮独立融资的主体，投后估值15亿美元、字节跳动融资后持股56%；字节是控股方，不是本条融资主体。结合其从AI药物发现业务分拆的背景，这是具体资本成长及独立运营节点，不要求同时出现技术突破、临床收入或资金用途。文章发表于2026-10-16T13:30:00Z，符合窗口，所供历史检索无匹配记录。registry身份解析及可信地点证据仍未完成，但正文主体指向清楚且无冲突，不据此否定正面融资线索，也不擅填法定主体、属地或杭州资格。",
-      "event_headline_source": "f1bec71a543fb08cf80cf83491d28c5ec1921300a5bc8d22ed23ccbf274ccc58",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "融资规模及巨头孵化背景支持资本成长观察，但未建立新生实验室自身可归属的技术比较优势、药物验证成果或行业地位。原团队模型测试声称及报道的最大融资称号不能替代独立标杆依据。",
-        "evidence_ids": [
-          "article:1853a7cd39fad5a4"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
-        "candidate_id": "54f395b3246f18ab598bab41676b450eea2db1f0bc8ce96b33095ad62dc46bba",
-        "input_row_sha256": "c74f4fd2e55b669322830b9a59667eb07d8d1d1515afb4510bccc83017201a83",
-        "reason": "正文直接将Anew Labs与新生实验室对应，明确其为2.9亿美元首轮独立融资的主体，投后估值15亿美元、字节跳动融资后持股56%；字节是控股方，不是本条融资主体。结合其从AI药物发现业务分拆的背景，这是具体资本成长及独立运营节点，不要求同时出现技术突破、临床收入或资金用途。文章发表于2026-10-16T13:30:00Z，符合窗口，所供历史检索无匹配记录。registry身份解析及可信地点证据仍未完成，但正文主体指向清楚且无冲突，不据此否定正面融资线索，也不擅填法定主体、属地或杭州资格。",
-        "scope": {
-          "technology_evidence": "正文称新生实验室是从字节跳动AI制药业务分拆的公司，前身为Seed旗下AI4S药物发现团队，近日完成2.9亿美元首轮独立融资，并引入财务及医药产业投资方。",
-          "value_reason": "该节点展示科技巨头内部AI药物发现业务通过独立公司引入外部资本、同时保留母公司控制权的组织与融资路径，可供杭州AI制药企业培育比较。应区分融资能力、模型能力与药物验证能力；此次融资不证明临床有效性，也不能把原团队全部模型和管线自动归属新公司。"
-        },
-        "stage": {
-          "status": "媒体报道融资已完成，药物研发成果归属及后续用途未充分披露",
-          "reason": "正文使用完成首轮独立融资的已发生措辞，精确交割日期未知；今年6月分拆是报道提供的背景，不强填具体日期。资金用途未披露，不补造。模型优越性来自团队自述或测试描述，IL-17项目为原字节团队披露的临床前背景，不能写成新生实验室已获临床验证。Geodesic Intelligence是文中另述的创业公司，不与新生实验室合并。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:8e7b6b38a8e31ca2"
-          ],
-          "prior_decisions": [],
-          "change_reason": "本包accepted_history和prior_decisions均为空，历史检索未报告错误，所供范围内未见本轮融资的同事件收录或旧排除。按独立融资事件保留，不宣称全库首次发现；前身团队模型成果、成员另行创业及其他AI制药公司的融资均不作为本事件历史或增量。",
-          "new_evidence_ids": [
-            "article:1853a7cd39fad5a4"
-          ]
-        },
-        "evidence_ids": [
-          "article:1853a7cd39fad5a4",
-          "history_lookup:8e7b6b38a8e31ca2",
-          "identity_registry:2dcd4f408df25406",
-          "geography_registry:b93d03cf35486d17"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "融资规模及巨头孵化背景支持资本成长观察，但未建立新生实验室自身可归属的技术比较优势、药物验证成果或行业地位。原团队模型测试声称及报道的最大融资称号不能替代独立标杆依据。",
-          "evidence_ids": [
-            "article:1853a7cd39fad5a4"
-          ]
-        }
-      }
     }
   ],
   "negatives": [
@@ -1987,7 +1989,35 @@
     "机器人世界模型": 1,
     "新材料": 1,
     "行动科技": 1,
-    "AI基础设施": 1
+    "AI基础设施": 1,
+    "端侧AI芯片与推理计算IP": 1,
+    "具身智能／机器人灵巧操作": 1,
+    "具身智能／机器人控制模型": 1,
+    "具身智能／通用机器人平台": 1,
+    "低空经济／无人机即时配送": 1,
+    "半导体—高阶IC封装基板": 1,
+    "具身智能／重工业智能机器人（A级）": 1,
+    "脑机接口／植入式神经接口": 1,
+    "脑机接口": 1,
+    "脑机接口／非侵入式可穿戴脑机接口": 1,
+    "量子计算—超导量子芯片集成与封装": 1,
+    "商业航天／卫星通信／卫星物联网": 1,
+    "人工智能／大模型训练与智能体安全": 1,
+    "人工智能／企业智能体与多模态交互": 1,
+    "半导体／AI存算一体芯片": 1,
+    "低空经济／无人机物流基础设施": 1,
+    "硅光子芯片代工": 1,
+    "光通信激光器与光源模块": 1,
+    "高速光通信与薄膜铌酸锂光子芯片": 1,
+    "半导体衬底与光子材料平台": 1,
+    "AI数据中心网络与光互连": 1,
+    "新能源汽车及动力电池": 1,
+    "人工智能算力芯片及基础软件": 1,
+    "电子仪表与智能制造": 1,
+    "化纤制造与工业智能检测": 1,
+    "特种管材与先进制造": 1,
+    "具身智能与机器人": 1,
+    "半导体封装载板": 1
   },
   "daily_details": {
     "2026-10-19": {
@@ -2013,7 +2043,11 @@
     "2026-10-24": {
       "count": 12,
       "negatives": 1
+    },
+    "2026-10-25": {
+      "count": 28,
+      "negatives": 0
     }
   },
-  "created": "2026-10-24 08:37:15"
+  "created": "2026-10-25 02:51:13"
 }
