@@ -1917,16 +1917,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/HYYq0PB4yzPO6Y40VGCEig",
       "sector": "机器人",
-      "location": "地点待核",
+      "location": "江苏省 / 苏州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 苏州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c3234c58a8176291e55852b0"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "法奥机器人",
         "subject_locality": {
           "status": "unknown",
@@ -1934,7 +1936,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c3234c58a8176291e55852b0",
+            "source_url": "https://robodk.com/cn/blog/%E6%B3%95%E5%A5%A5%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BB%8B%E7%BB%8D/",
+            "checked_at": "2026-10-24T00:34:11.294293+00:00",
+            "subject": "法奥机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "evidence_ids": [
+            "geo-c3234c58a8176291e55852b0"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
