@@ -1418,5 +1418,75 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "NVIDIA": [
+    {
+      "date": "2026-10-25",
+      "title": "原文称，NVIDIA的Spectrum-X CPO交换机已于“今年夏天”投入量产，并采用Lumentum的外置激光光源模块。",
+      "article_title": "硅光，大放异彩",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/PgCMkEiVkSKA5Wy65a1BVQ",
+      "sector": "AI数据中心网络与光互连",
+      "location": "US / California / Santa Clara",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / Santa Clara",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "subject_evidence_ids": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "英伟达",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-4493064fe5737edf368c58ab"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4493064fe5737edf368c58ab",
+            "source_url": "https://nvidianews.nvidia.com/multimedia/santa-clara-headquarters",
+            "checked_at": "2026-10-16T00:31:54.065917+00:00",
+            "subject": "英伟达",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara"
+            }
+          }
+        ]
+      },
+      "article_location": "美国加利福尼亚州圣克拉拉",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "英伟达",
+      "company_entity_id": "dr-u-60094bcf5292c4909fad",
+      "company_raw_name": "NVIDIA",
+      "identity_status": "confirmed",
+      "score": 70,
+      "is_national_star": false,
+      "published_date": "2026-10-24",
+      "insight": "原文所述交换机量产，使CPO在这一产品中从架构路线进入制造交付阶段；采用外置激光光源，也说明其供光依赖独立光源模块。该事实可作为杭州光互连企业研究产品配套需求的对标，但不足以推算具体采购规模。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "NVIDIA的Spectrum-X CPO交换机据报道已于夏季量产",
+      "event_signal": "major",
+      "discovery_status": "update"
+    }
   ]
 }
