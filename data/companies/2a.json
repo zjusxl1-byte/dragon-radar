@@ -1562,16 +1562,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/PgCMkEiVkSKA5Wy65a1BVQ",
       "sector": "高速光通信与薄膜铌酸锂光子芯片",
-      "location": "地点待核",
+      "location": "US / 675 Massachusetts Avenue, Suite 301, Cambridge, MA 02139",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 675 Massachusetts Avenue, Suite 301, Cambridge, MA 02139",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-67efbf39b388a89232badff2"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "HyperLight",
         "subject_locality": {
           "status": "unknown",
@@ -1579,7 +1581,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-67efbf39b388a89232badff2",
+            "source_url": "https://hyperlightcorp.com/public/contact",
+            "checked_at": "2026-10-25T00:31:20.902007+00:00",
+            "subject": "HyperLight",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Massachusetts",
+              "city": "Cambridge",
+              "address": "675 Massachusetts Avenue, Suite 301, Cambridge, MA 02139"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Massachusetts",
+          "city": "Cambridge",
+          "evidence_ids": [
+            "geo-67efbf39b388a89232badff2"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",

@@ -4926,7 +4926,7 @@
     "2026-10-24": "249bcdd7c982148f5e390fe252f27ff2530a985d6a900300087501ccc905e805",
     "2026-10-25": "f25fec996ae319ece6e8789603939bec64c8b4fd8b5ba73ddf5fdcbd7f2a8590"
   },
-  "geography_version": "38f39d088f045661b9d479341e79d70fcbcb761c80f67275ef53ab5f2d29e3a6",
+  "geography_version": "18b315a319e70f7b82697d5ff510e8a7d3c0b5a8b72f8f0be6052550af17e04a",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -5132,10 +5132,51 @@
       "located_status": "unknown"
     },
     "dr-u-02c7b6b77fab3e209b12": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "浙江省湖州市吴兴区中兴大道1899号（久立工业园区南门）",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-881891a64d203582972b6568"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "浙江久立特材科技股份有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-881891a64d203582972b6568",
+          "source_url": "https://www.jiuli.com/about/about/",
+          "checked_at": "2026-10-25T00:31:19.446273+00:00",
+          "subject": "浙江久立特材科技股份有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "湖州市",
+            "district": "吴兴区",
+            "address": "浙江省湖州市吴兴区中兴大道1899号（久立工业园区南门）"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "湖州市",
+        "district": "吴兴区",
+        "evidence_ids": [
+          "geo-881891a64d203582972b6568"
+        ]
+      }
     },
     "dr-u-02d7502cbfd5b584e11f": {
       "geography_status": "unknown",
@@ -7003,10 +7044,55 @@
       "located_status": "unknown"
     },
     "dr-u-1c6e2648c3fa2d41744a": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "FR / Parc Technologique des Fontaines, Chemin des Franques, 38190 Bernin",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-2aaf1027b86d82c6380b7984"
+      ],
+      "subject_evidence_ids": [
+        "geo-2aaf1027b86d82c6380b7984"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "Soitec",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "FR",
+        "city": "Bernin",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-2aaf1027b86d82c6380b7984"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-2aaf1027b86d82c6380b7984",
+          "source_url": "https://www.soitec.com/fr/contact",
+          "checked_at": "2026-10-25T00:31:22.097735+00:00",
+          "subject": "Soitec",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "FR",
+            "city": "Bernin",
+            "address": "Parc Technologique des Fontaines, Chemin des Franques, 38190 Bernin"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "FR",
+        "city": "Bernin",
+        "evidence_ids": [
+          "geo-2aaf1027b86d82c6380b7984"
+        ]
+      }
     },
     "dr-u-1c790d17268216596909": {
       "geography_status": "unknown",
@@ -7921,10 +8007,49 @@
       "located_status": "unknown"
     },
     "dr-u-270aeb7a66852d4e761f": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "US / 675 Massachusetts Avenue, Suite 301, Cambridge, MA 02139",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-67efbf39b388a89232badff2"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "HyperLight",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-67efbf39b388a89232badff2",
+          "source_url": "https://hyperlightcorp.com/public/contact",
+          "checked_at": "2026-10-25T00:31:20.902007+00:00",
+          "subject": "HyperLight",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "Massachusetts",
+            "city": "Cambridge",
+            "address": "675 Massachusetts Avenue, Suite 301, Cambridge, MA 02139"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "US",
+        "province": "Massachusetts",
+        "city": "Cambridge",
+        "evidence_ids": [
+          "geo-67efbf39b388a89232badff2"
+        ]
+      }
     },
     "dr-u-2713ab08bf6eaebe9f55": {
       "geography_status": "unknown",
@@ -8682,10 +8807,51 @@
       "located_status": "unknown"
     },
     "dr-u-2e0a80ab88493f4d20c6": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省杭州市余杭区仁和街道奉欣路98号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-5cb986b8152c960141f41164"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "浙江瑞银电子有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-5cb986b8152c960141f41164",
+          "source_url": "https://www.realliniot.com/contactUs.html",
+          "checked_at": "2026-10-25T00:31:19.662690+00:00",
+          "subject": "浙江瑞银电子有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "浙江省杭州市余杭区仁和街道奉欣路98号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "余杭区",
+        "evidence_ids": [
+          "geo-5cb986b8152c960141f41164"
+        ]
+      }
     },
     "dr-u-2e111c6b863587f86c5e": {
       "geography_status": "unknown",
@@ -11365,10 +11531,51 @@
       }
     },
     "dr-u-48c416664e9de0d7466d": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市普陀区祁连山南路2891弄100号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-86d96f85361ae7a71f3c32ff"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "上海海每康智能医疗科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-86d96f85361ae7a71f3c32ff",
+          "source_url": "https://hmkcare.com/",
+          "checked_at": "2026-10-25T00:31:19.616437+00:00",
+          "subject": "上海海每康智能医疗科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "普陀区",
+            "address": "上海市普陀区祁连山南路2891弄100号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "district": "普陀区",
+        "evidence_ids": [
+          "geo-86d96f85361ae7a71f3c32ff"
+        ]
+      }
     },
     "dr-u-48c4cab6f62e68556af3": {
       "geography_status": "unknown",
@@ -11648,10 +11855,58 @@
       }
     },
     "dr-u-4b30c353ffffd912a780": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "浙江省桐乡市洲泉工业园区德胜路888号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-271b0b5ab5e4146158e1abea"
+      ],
+      "subject_evidence_ids": [
+        "geo-271b0b5ab5e4146158e1abea"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "新凤鸣集团股份有限公司",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "桐乡市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-271b0b5ab5e4146158e1abea"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-271b0b5ab5e4146158e1abea",
+          "source_url": "https://www.xinfengming.com/cn/contact",
+          "checked_at": "2026-10-25T00:31:19.518521+00:00",
+          "subject": "新凤鸣集团股份有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "桐乡市",
+            "address": "浙江省桐乡市洲泉工业园区德胜路888号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "桐乡市",
+        "evidence_ids": [
+          "geo-271b0b5ab5e4146158e1abea"
+        ]
+      }
     },
     "dr-u-4b439f9b42f97a49e67c": {
       "geography_status": "unknown",
@@ -24943,19 +25198,43 @@
       "display_location": "浙江省杭州市余杭区人工智能小镇1幢2层",
       "located_status": "discovery_confirmed",
       "display_basis": [
+        "geo-659699f68e86dd9a4521ab18",
         "geo-5af897128f09302b1b9a8545"
       ],
-      "subject_evidence_ids": [],
+      "subject_evidence_ids": [
+        "geo-659699f68e86dd9a4521ab18"
+      ],
       "needs_review": false,
       "next_action": null,
       "subject": "强脑科技",
       "subject_locality": {
-        "status": "unknown",
-        "classification": "unknown",
-        "basis_roles": [],
-        "evidence_ids": []
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-659699f68e86dd9a4521ab18"
+        ]
       },
       "basis": [
+        {
+          "evidence_id": "geo-659699f68e86dd9a4521ab18",
+          "source_url": "https://tzcj.hangzhou.gov.cn/art/2024/8/13/art_1621408_58893869.html",
+          "checked_at": "2026-10-25T00:32:21.137084+00:00",
+          "subject": "强脑科技",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区"
+          }
+        },
         {
           "evidence_id": "geo-5af897128f09302b1b9a8545",
           "source_url": "https://www.brainco.cn/zh-CN/contact",
@@ -24978,7 +25257,9 @@
         "country": "CN",
         "province": "浙江省",
         "city": "杭州市",
+        "district": "余杭区",
         "evidence_ids": [
+          "geo-659699f68e86dd9a4521ab18",
           "geo-5af897128f09302b1b9a8545"
         ]
       }
@@ -50282,14 +50563,14 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "ed739515e0e7a6a7495df7d0e6da63a5ad23d7ba92e4d54fd31b4108d740f639",
+  "history_version": "4662a6d8294c99a57f8883ba1b929d5a76269b695c4b82d0ac38dd0e4211c6e3",
   "company_history_buckets": {
-    "00": "927c0d294a9c13043144337d61e43683c83517e46e5fe8179a0375eb89a7ff42",
-    "01": "6b26c4e11ba3c81d892f464f33cb4222971c66017ed8f8ba970e5575494940da",
+    "00": "8e0daedec8c80b097d1f816ea89ef7fec81a937c6f25e2ba4ac62368743ceb59",
+    "01": "41a4bc18f5875dd3e00b9aa90a999c526a2c2b1ed2b378c30664c08cbafe74a4",
     "02": "8c67a380a0b6c8725b3f206c86c2ac5c4acad754d668fd2b52c43730dc659f4b",
     "03": "d4e92cf72cacaf8000b78b93572bd0fba56a2ea22e8b8660bf666955716010df",
     "04": "d5dc6d6631ca79b17e38f3ec0b3f0676126ec53ad1ee5788edfbf6e292ecfdbe",
-    "05": "d1a27090b1bede284338c0912c2d44699436d3aa7e404f29fe807c13de567b83",
+    "05": "930e1273c90ef6b96bc5bc9d6c640968fd6b92ca95292edf70aec8367646cdfe",
     "06": "efe7b7e84fe386341780b3e533efae2e57e93ce526345299201f280226bfbf9b",
     "07": "6b46d505233b9fefe474dabd1c04376a5c200c1925df930c398091ce36550d42",
     "08": "f7c9de00698c764be853943f959a4a63e931a559595dfa9ce7c8962cf1c2864b",
@@ -50322,13 +50603,13 @@
     "23": "e2bbd8f8bb412043e5890090a87d048513900617a6f3ed76ce1c1a8331140047",
     "24": "4fff08e0422a8a0fd49650f18cc74b6f1db9ceef72d301a339935d7e3a9767f8",
     "25": "26e45ffd40e0c8c86a7de002d226321727fe0ffb3af801377fa609759951566a",
-    "26": "7cb09393c83aae3e73da4a2c8965ddae63f65f95e5756a44504ffafa99b3d77d",
+    "26": "87ab1bf6a4b7caa47dd5940ef685f64d596399a204f2fc97197519f0739a1820",
     "27": "ff7435ca65e02e80e727e5f092142ca12cf13e327a3fc19ae3a615b3f253c90c",
     "28": "628cc39d73c290704f17eac04181e3c0170b02b3c3557ff383132b7e8636fa30",
     "29": "aa4b395344604b44ac0aa533e45e5b7e9f90ca607e5799254cc9be6dea1d2f44",
-    "2a": "9ec407bd23c21f036fcf3263f76842a1abd5eb8e2a2a1ab5e15224e257c10cb7",
+    "2a": "6ee2f154ea73b5ffd6bf5cdf3200c86fa01c646ae6fbd1991e218f2f0318e45a",
     "2b": "7241864cff35d77dc7e7d8ddb0779453996d3576ae032119319cb19db6b79bfe",
-    "2c": "a1f40d0f13cafbeaee1459c4a5272f8b7457272877cef8ca2143660d04b82b8d",
+    "2c": "90837b736aa488a8576e84fa6f0c731e574d35a111df96fd55858203bd3c4697",
     "2d": "300da3275bfb140da31eb2762e7a8590ddb86e8cacda34cf6b6cddd2123959fb",
     "2e": "202ec8a523341839b8dd122bb0bbc8abf6bc73a66aa1e8b951fc2ec137878dcc",
     "2f": "92b2a3366d4adb7fb37b6e4dedde3f55dfc40946a49635986f8da7fa1ec29547",
@@ -50342,14 +50623,14 @@
     "37": "a014b9f508ac5d07b9bae2b6564c983b5e7ab8c7111c5163892b046c51e15c6c",
     "38": "ddb1e5ead4580907471b836784129945d0c168f8665e7bd4edb49ff3809c3608",
     "39": "7451121ec90856a5cedbef60be31a00db9729ed213188c168eda083ee3c947ec",
-    "3a": "2602542c873b8c37189f1db5301c581868605b15ddf9e3c2a14d006a0abd82dd",
+    "3a": "af45611ab95d3fe78b916703b6fe53828d80f69ca1824a98654d15067e886418",
     "3b": "dbd6fad699ff14764bf7b3805e0c436db9bd56dc32aafd59289ceac0ac13dbd0",
     "3c": "445f23f38031dd75759c996afc2c436dc08bcd94a1d25d7ea5bc0695376f9c8d",
     "3d": "5eda4d1e3791d0a561a1b763ad69ed6923b63b4d2ca4be1ab085ebd62f0813d1",
     "3e": "2cdec5fb18444af94447f18369bed4d8019dbe2836c88e7814159eccd27da390",
     "3f": "bef16d5062b5939ffbcffe5921bbfeb649dc4fad24eee36f9f1f1eba327c09eb"
   },
-  "history_search_version": "36f87dbfc7f0c6bf9ca569707064456b83b6a7d409c35658e2112cd7388b2109",
+  "history_search_version": "15119228c970fb2cbe5766b757e9eb5c76ffc355e8fb10bb608288984f1e3041",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",

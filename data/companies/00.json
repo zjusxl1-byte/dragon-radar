@@ -1946,16 +1946,18 @@
       "event_type": "融资",
       "link": "https://bydrug.pharmcube.com/news/detail/3c824d8ee6bdea9915dcbda5a60b0bc7",
       "sector": "脑机接口／植入式神经接口",
-      "location": "地点待核",
+      "location": "上海市普陀区祁连山南路2891弄100号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市普陀区祁连山南路2891弄100号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-86d96f85361ae7a71f3c32ff"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "上海海每康智能医疗科技",
         "subject_locality": {
           "status": "unknown",
@@ -1963,7 +1965,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-86d96f85361ae7a71f3c32ff",
+            "source_url": "https://hmkcare.com/",
+            "checked_at": "2026-10-25T00:31:19.616437+00:00",
+            "subject": "上海海每康智能医疗科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "普陀区",
+              "address": "上海市普陀区祁连山南路2891弄100号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "普陀区",
+          "evidence_ids": [
+            "geo-86d96f85361ae7a71f3c32ff"
+          ]
+        }
       },
       "article_location": "待核实",
       "source": "bydrug.pharmcube.com",

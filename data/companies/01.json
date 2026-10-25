@@ -1680,16 +1680,18 @@
       "event_type": "并购",
       "link": "https://mp.weixin.qq.com/s/z22F3Zyg1DDbbOy0Kp9liA",
       "sector": "特种管材与先进制造",
-      "location": "地点线索：浙江",
+      "location": "浙江省湖州市吴兴区中兴大道1899号（久立工业园区南门）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省湖州市吴兴区中兴大道1899号（久立工业园区南门）",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-881891a64d203582972b6568"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "浙江久立特材科技股份有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1697,7 +1699,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-881891a64d203582972b6568",
+            "source_url": "https://www.jiuli.com/about/about/",
+            "checked_at": "2026-10-25T00:31:19.446273+00:00",
+            "subject": "浙江久立特材科技股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "湖州市",
+              "district": "吴兴区",
+              "address": "浙江省湖州市吴兴区中兴大道1899号（久立工业园区南门）"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "湖州市",
+          "district": "吴兴区",
+          "evidence_ids": [
+            "geo-881891a64d203582972b6568"
+          ]
+        }
       },
       "article_location": "浙江",
       "source": "涌金楼",

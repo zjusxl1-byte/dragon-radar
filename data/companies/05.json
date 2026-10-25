@@ -1205,24 +1205,57 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/PgCMkEiVkSKA5Wy65a1BVQ",
       "sector": "半导体衬底与光子材料平台",
-      "location": "地点待核",
+      "location": "FR / Parc Technologique des Fontaines, Chemin des Franques, 38190 Bernin",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "FR / Parc Technologique des Fontaines, Chemin des Franques, 38190 Bernin",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-2aaf1027b86d82c6380b7984"
+        ],
+        "subject_evidence_ids": [
+          "geo-2aaf1027b86d82c6380b7984"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Soitec",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "FR",
+          "city": "Bernin",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-2aaf1027b86d82c6380b7984"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-2aaf1027b86d82c6380b7984",
+            "source_url": "https://www.soitec.com/fr/contact",
+            "checked_at": "2026-10-25T00:31:22.097735+00:00",
+            "subject": "Soitec",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "FR",
+              "city": "Bernin",
+              "address": "Parc Technologique des Fontaines, Chemin des Franques, 38190 Bernin"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "FR",
+          "city": "Bernin",
+          "evidence_ids": [
+            "geo-2aaf1027b86d82c6380b7984"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
