@@ -1878,16 +1878,18 @@
       "event_type": "融资",
       "link": "https://feng.ifeng.com/c/8xNa0TtQd0G",
       "sector": "具身智能／机器人控制模型",
-      "location": "地点线索：美国旧金山（总部）",
+      "location": "US / California / San Francisco",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3ae1089f3807085c76307bd7"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Dream Labs",
         "subject_locality": {
           "status": "unknown",
@@ -1895,7 +1897,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3ae1089f3807085c76307bd7",
+            "source_url": "https://www.zhitongcaijing.com/content/detail/1509405.html",
+            "checked_at": "2026-10-25T18:15:38.770265+00:00",
+            "subject": "Dream Labs",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-3ae1089f3807085c76307bd7"
+          ]
+        }
       },
       "article_location": "美国旧金山（总部）",
       "source": "feng.ifeng.com",
