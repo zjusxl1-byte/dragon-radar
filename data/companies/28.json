@@ -3114,5 +3114,80 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "Flapping Airplanes": [
+    {
+      "date": "2026-10-26",
+      "title": "据文章报道，Flapping Airplanes宣布完成10亿美元A轮融资，由Index Ventures和Lux Capital联合领投，红杉资本、GV、Kleiner Perkins等参投，投后估值60亿美元。公司正在探索提高模型数据利用效率的训练方法，并开发Megakernel GPU计算框架，尚未推出正式产品，也没有规模化收入。文章未披露本轮资金的具体用途。",
+      "article_title": "三个00后，A轮拿了67亿",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/N9WLysl3Sj1RQCEFM1Imng",
+      "sector": "人工智能基础模型与GPU计算优化",
+      "location": "US",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-1fdde24df84ac4ada5df4342"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Flapping Airplanes",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-1fdde24df84ac4ada5df4342",
+            "source_url": "https://mp.weixin.qq.com/s/N9WLysl3Sj1RQCEFM1Imng",
+            "checked_at": "2026-10-24T22:30:59+00:00",
+            "subject": "Flapping Airplanes",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-1fdde24df84ac4ada5df4342"
+          ]
+        }
+      },
+      "article_location": "美国；原文未明确注册地、总部或具体经营城市",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Flapping Airplanes",
+      "company_entity_id": "dr-u-c9bd40e58364720b1a3b",
+      "company_raw_name": "Flapping Airplanes",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "大额融资与研发方向足以支持正面日报线索，但尚无公司产品、独立性能验证、客户采用或行业地位证据，不能仅凭估值、投资方及创始人既往成果授予全国标杆资格。",
+        "evidence_ids": [
+          "article:1e4273076567c125"
+        ]
+      },
+      "published_date": "2026-10-24",
+      "insight": "此次融资使一家尚未推出正式产品的AI研究公司获得大额资本支持，其值得对标之处是同时探索“减少模型学习所需数据”和“提高GPU实际利用率”两条效率路径：前者改变学习所需的信息投入，后者减少计算执行中的资源闲置。两条路径针对不同瓶颈，后续应分别观察训练方法的能力表现和Megakernel的实测效率，不能将创始人既往框架的性能直接视为公司新技术的成果。",
+      "financing": "本轮A轮融资10亿美元，投后估值60亿美元，Index Ventures和Lux Capital联合领投，红杉资本、GV、Kleiner Perkins等参投。文章另披露，公司于2026年1月完成1.8亿美元种子轮融资，当时估值15亿美元。",
+      "event_date": "",
+      "event_headline": "Flapping Airplanes完成10亿美元A轮融资",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
   ]
 }
