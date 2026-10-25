@@ -1124,16 +1124,18 @@
       "event_type": "负面",
       "link": "https://mp.weixin.qq.com/s/KM0_hV1ifERaujJGY7Krug",
       "sector": "半导体/AI芯片",
-      "location": "地点线索：北京（既有企业信息；注册地址待核实）",
+      "location": "北京市海淀区知春路七号致真大厦D座5、11、13、16、21层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市海淀区知春路七号致真大厦D座5、11、13、16、21层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-4368d5d0a1b9765f4207d785"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "中科寒武纪科技股份有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1141,7 +1143,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4368d5d0a1b9765f4207d785",
+            "source_url": "https://cambricon.com/index.php?a=lists&catid=7",
+            "checked_at": "2026-10-25T18:16:26.648642+00:00",
+            "subject": "中科寒武纪科技股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "北京市海淀区知春路七号致真大厦D座5、11、13、16、21层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-4368d5d0a1b9765f4207d785"
+          ]
+        }
       },
       "article_location": "北京（既有企业信息；注册地址待核实）",
       "source": "半导体行业观察",
@@ -1167,16 +1196,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/5fIssfGHU_MjpGebeTQixw",
       "sector": "人工智能算力芯片及基础软件",
-      "location": "地点待核",
+      "location": "北京市海淀区知春路七号致真大厦D座5、11、13、16、21层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市海淀区知春路七号致真大厦D座5、11、13、16、21层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-4368d5d0a1b9765f4207d785"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "中科寒武纪科技股份有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1184,7 +1215,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4368d5d0a1b9765f4207d785",
+            "source_url": "https://cambricon.com/index.php?a=lists&catid=7",
+            "checked_at": "2026-10-25T18:16:26.648642+00:00",
+            "subject": "中科寒武纪科技股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "北京市海淀区知春路七号致真大厦D座5、11、13、16、21层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-4368d5d0a1b9765f4207d785"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
