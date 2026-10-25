@@ -1625,5 +1625,98 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "Cognition": [
+    {
+      "date": "2026-10-26",
+      "title": "据文章报道，Cognition于2026年9月宣布完成超过20亿美元E轮融资，估值480亿美元，Andreessen Horowitz和Accel领投。公司推出的AI程序员Devin可读取项目、修改代码并运行测试；文章称，其发布18个月后已进入数千家公司，数十万次代码修改被正式采用。Cognition还于2025年夏天收购Windsurf。",
+      "article_title": "30岁，他登顶最年轻富豪",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/m7r0r8oITVjiL8k7HrzJtA",
+      "sector": "人工智能／AI编程智能体",
+      "location": "US / California / San Francisco / South Park",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco / South Park",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-0951503c96b1e6de398a7c20"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Cognition",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-0951503c96b1e6de398a7c20",
+            "source_url": "https://sfstandard.com/2026/03/24/grind-sf-startup-racing-build-ai-software-engineer/",
+            "checked_at": "2026-10-25T18:16:28.646596+00:00",
+            "subject": "Cognition",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco",
+              "district": "South Park"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "district": "South Park",
+          "evidence_ids": [
+            "geo-0951503c96b1e6de398a7c20"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "Cognition",
+      "company_entity_id": "dr-u-ac32f27ba7a1346f43c0",
+      "company_raw_name": "Cognition",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Devin",
+          "relation": "product",
+          "evidence": "他牵头创办AI编程公司Cognition，推出AI程序员Devin。"
+        },
+        {
+          "name": "Windsurf",
+          "relation": "subsidiary",
+          "evidence": "2025年夏天，竞争对手Windsurf突遭变局：创始人和部分核心成员被Google挖走，余下团队前途未卜。Cognition只用了一个周末便敲定收购，将其纳入麾下。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资规模和报道中的采用数量支持产业观察，但输入缺乏可比较的任务成功率、交付质量及行业地位独立证据，尚不足以建立全国标杆资格；不影响日报事件保留。",
+        "evidence_ids": [
+          "article:f16bf17f425467f2"
+        ]
+      },
+      "published_date": "2026-10-25",
+      "insight": "Cognition值得研究的变化，是AI编程从提供代码建议走向承接开发任务：Devin将读取项目、修改代码和运行测试串联起来，文中所述大量修改被正式采用，为这种任务式产品的实际使用提供了依据。大模型厂商也在推出编程智能体，其差异化应具体看项目上下文处理、工具调用和结果验证如何协同，而不能仅用融资估值判断。",
+      "financing": "据报道，2026年9月宣布E轮融资超过20亿美元，估值480亿美元；Andreessen Horowitz和Accel领投，Founders Fund、General Catalyst和Avenir继续参与，Benchmark、Bessemer、Kleiner Perkins、Greylock和Lightspeed等机构加入。",
+      "event_date": "",
+      "event_headline": "Cognition据报道完成超20亿美元E轮融资",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
   ]
 }
