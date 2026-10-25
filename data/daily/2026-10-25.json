@@ -953,6 +953,141 @@
       }
     },
     {
+      "company_raw_name": "ASI",
+      "selection_recommendation": "keep",
+      "selection_reason": "原待核因ASI简称、技术业务和地点未证而暂停。本轮已完整读取ASI官网10月20日融资公告，金额3.25亿美元、估值30亿美元及Spark Capital领投与10月21日凤凰原报道吻合，确认同一融资主体；公司提供面向空管、电网及物流的物理资产预测与调度AI，波士顿总部亦有官网直接证据。技术业务与真实C轮资本成长相联系，具备全球正面日报产业对标价值，不依赖融资额授标杆。此次将原watch改为keep是补足同事件主体和业务证据，而非新增一次融资或宣称首次发现；不进入杭州负面。",
+      "is_negative": false,
+      "title": "AI创企ASI融资3.25亿美元,估值30亿美元_大风号_凤凰网",
+      "company": "ASI",
+      "score": 50,
+      "sector": "人工智能",
+      "financing": "3.25亿美元C轮融资，估值30亿美元；Spark Capital领投，Citadel Securities关联机构、Meritech Capital、Craft Ventures、Energy Impact Partners和a16z等参与。",
+      "source": "feng.ifeng.com",
+      "location": "地点待核",
+      "article_location": "未披露",
+      "event_type": "融资",
+      "link": "https://feng.ifeng.com/c/8xOc37ZtSMw",
+      "article_title": "AI创企ASI融资3.25亿美元,估值30亿美元_大风号_凤凰网",
+      "published_date": "2026-10-21",
+      "publication_basis": "采集源保留的发布时间",
+      "event_date": "2026-10-20",
+      "event_desc": "ASI于2026年10月20日宣布完成3.25亿美元C轮融资，估值30亿美元，由Spark Capital领投。其AI系统面向空中交通、电网与物流等物理资产运营，通过前向仿真、监测和优化辅助预测与调度；资金拟用于扩展能源、物流和战术边缘部署及波士顿研发工程团队。",
+      "event_headline": "ASI完成3.25亿美元融资，估值达30亿美元",
+      "event_signal": "major",
+      "event_headline_source": "78e2979f2744f2a32c19b1bf92e4bfce689caad7600543dac306e7a8ed640ded",
+      "insight": "ASI的参照价值在于把AI接进需要连续决策的运营系统：空管、电网与物流都要在资产、时间和约束相互影响时比较行动后果，前向仿真与优化让系统不只展示当前状态，还能辅助提前调度。本轮资金拟把这一路径扩到更多能源、物流和边缘环境。杭州相关企业可比较的不是融资规模，而是模型怎样嵌入现有调度流程、由谁执行建议及在真实运行中如何处理约束变化；不同场景的接口和决策责任将决定这类能力能否跨行业复用。",
+      "is_national_star": false,
+      "company_entity_id": "dr-u-eda19aa5dfb1070a54f7",
+      "company_canonical_name": "ASI",
+      "identity_status": "unresolved",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "ASI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "未披露",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "event_time_evidence": {
+        "status": "explicit_event_date",
+        "event_date": "2026-10-20",
+        "observed_date": "2026-10-21",
+        "description": "公司公告明示2026-10-20为融资宣布日，凤凰原报道发布日为10月21日，首次发现不作全库断言。",
+        "evidence_ids": [
+          "agent_captured_txt:b628e5b1006012b7",
+          "agent_captured_txt:1136059a47a34f93"
+        ],
+        "review_required": false
+      },
+      "event_identity": {
+        "canonical_id": "据报道，ASI于当地时间2026年10月20日宣布完成3.25亿美元融资，公司估值达30亿美元，本轮由Spark Capital领投。"
+      },
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本轮官方公告可支持产品方向、部署和资本成长，但未进行同口径行业领先性比较，不借融资额自动授全国标杆徽章。",
+        "evidence_ids": [
+          "agent_captured_txt:b628e5b1006012b7",
+          "agent_captured_txt:1136059a47a34f93"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent + overnight Agent explicit per-event continuation",
+        "candidate_id": "f68cb05ca46c00e3d1bae71c06104d0af69bc73f0b422a0eb471d9c7f8e72b53",
+        "input_row_sha256": "b990d90f585589641ae3d232e1c8bf42148e37be0629a1f5c19c2a9a5bc5a3bc",
+        "reason": "原待核因ASI简称、技术业务和地点未证而暂停。本轮已完整读取ASI官网10月20日融资公告，金额3.25亿美元、估值30亿美元及Spark Capital领投与10月21日凤凰原报道吻合，确认同一融资主体；公司提供面向空管、电网及物流的物理资产预测与调度AI，波士顿总部亦有官网直接证据。技术业务与真实C轮资本成长相联系，具备全球正面日报产业对标价值，不依赖融资额授标杆。此次将原watch改为keep是补足同事件主体和业务证据，而非新增一次融资或宣称首次发现；不进入杭州负面。",
+        "scope": {
+          "technology_evidence": "官网公告说明通过连续前向仿真、多维监测及优化，对物理运行作小时、天、周尺度预测，用于航空、电网与物流运营决策；并列民航客户及电网合作。",
+          "value_reason": "与通用聊天模型不同，ASI围绕高约束、多资产系统做预测和调度，C轮资金明确拟扩展能源、物流及战术边缘部署和工程团队。对杭州低空交通及能源软件的参照在任务建模与运营系统集成路径，而不是将美国合同金额外推成本地需求或技术性能。"
+        },
+        "stage": {
+          "status": "series_c_announced_completed_deployment_expansion_planned",
+          "reason": "公司于2026年10月20日公告已取得C轮融资，扩展部署与研发团队为资金计划；FAA和军方合同仅按公司披露保留，不把合同额算收入。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:4b0a8e62b88be752",
+            "prior_decision:8db33370897f4233",
+            "agent_captured_txt:b628e5b1006012b7",
+            "agent_captured_txt:1136059a47a34f93"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:8db33370897f4233",
+              "comparison": "same_event",
+              "reason": "原回执对应同一条10月20日融资，watch缘于主体简称及技术业务缺证；本次官方公告与企业页补足同事件缺口，未新增另一融资。"
+            }
+          ],
+          "change_reason": "原检索未见其他已公开的ASI融资事件，本次重读原watch并取得公司完整融资公告与总部页，新增信息是C轮、具体技术业务和扩展计划及主体地点；补足原未公开候选，不重置旧裁决。",
+          "new_evidence_ids": [
+            "agent_captured_txt:b628e5b1006012b7",
+            "agent_captured_txt:1136059a47a34f93"
+          ]
+        },
+        "evidence_ids": [
+          "web_acquired_text:07b6e17ecd2ac6fd",
+          "identity_registry:2dcd4f408df25406",
+          "geography_registry:b93d03cf35486d17",
+          "history_lookup:4b0a8e62b88be752",
+          "agent_captured_txt:b628e5b1006012b7",
+          "agent_captured_txt:1136059a47a34f93",
+          "prior_decision:8db33370897f4233"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本轮官方公告可支持产品方向、部署和资本成长，但未进行同口径行业领先性比较，不借融资额自动授全国标杆徽章。",
+          "evidence_ids": [
+            "agent_captured_txt:b628e5b1006012b7",
+            "agent_captured_txt:1136059a47a34f93"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "上海海每康智能医疗科技",
       "selection_recommendation": "keep",
       "selection_reason": "已读真实ByDrug页面，10月19日明确上海海每康为融资接受方、数千万元Pre-A轮、策源基金及植入式神经接口研发用途。名称未完成名录与地点未核不是主体矛盾，沿临时稳定ID保留正面技术融资，不推杭州归属。",
@@ -3343,10 +3478,10 @@
     "schema_version": "dragon-overnight-review.v2",
     "status": "partial_review",
     "reviewer": "quality_inspector Agent + overnight Agent explicit per-event continuation",
-    "reviewed_candidates": 39,
+    "reviewed_candidates": 40,
     "semantic_reviewed_candidates": 45,
-    "watch_candidates": 6,
-    "pending_candidates": 6,
+    "watch_candidates": 5,
+    "pending_candidates": 5,
     "source_pending_count": 9,
     "source_pending_counts": {
       "_analysis_pending": 9,
