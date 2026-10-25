@@ -60,7 +60,7 @@
   }
   function readingMinutes(article){return Math.max(2,Math.ceil(([article.deck,...article.sections.flatMap(s=>s.paragraphs)].reduce((n,p)=>n+p.text.length,0))/400));}
   function renderArticle(x,topic,p,value){
-    const article=x.article||legacyArticle(x,topic);if(!article)return '<div class="journal-empty">企业进展可在档案中阅读。<a href="'+esc(href('/company',{name:x.company,back:'/observations'}))+'">先查看企业进展 →</a></div>';
+    const article=x.article;if(!article)return '<div class="journal-empty"><p>研究正文正在更新。</p><a href="'+esc(href('/observations',topic?{view:'topics'}:{}))+'">返回'+(topic?'产业专题':'企业观察')+' →</a></div>';
     const sources=x.article_sources||x.sources||[],sourceIndex=new Map(sources.map((s,i)=>[s.id,i+1]));
     const references=block=>'<sup class="journal-refs">'+(block.evidence_ids||[]).map(id=>sourceIndex.has(id)?'<a href="#journal-source-'+sourceIndex.get(id)+'" data-journal-source="'+sourceIndex.get(id)+'" aria-label="查看依据 '+sourceIndex.get(id)+'">'+sourceIndex.get(id)+'</a>':'').join('')+'</sup>';
     const sectionId=i=>'journal-section-'+i;
