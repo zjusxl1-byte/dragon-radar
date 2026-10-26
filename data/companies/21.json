@@ -1169,16 +1169,18 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/38mgbPzvQ63QdaHnJyExIQ",
       "sector": "商业航天／在轨计算基础设施",
-      "location": "地点待核",
+      "location": "北京市 / 朝阳区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 朝阳区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c0401871e7445eff7d758e9f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "北京开运联合信息技术集团股份有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1186,7 +1188,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c0401871e7445eff7d758e9f",
+            "source_url": "https://www.taibo.cn/company/1648",
+            "checked_at": "2026-10-26T18:06:42.784363+00:00",
+            "subject": "北京开运联合信息技术集团股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "朝阳区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "朝阳区",
+          "evidence_ids": [
+            "geo-c0401871e7445eff7d758e9f"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -1202,6 +1230,124 @@
       "financing": "",
       "event_date": "",
       "event_headline": "开运联合共同发起开源太空社区，发布首期规划2600颗卫星的星座计划",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "声网": [
+    {
+      "date": "2026-10-27",
+      "title": "文章称，声网于2026年10月推出Call Agent与实时AI开发工具包，并介绍了以全双工交互为核心的对话式AI引擎及开发套件。其Agora Conversational Model将语音感知、对话响应和语音表达组合，支持持续聆听、流式推理、工具调用及结合上下文的语音生成。文中列举的应用包括珞博智能AI玩具芙崽、美团Keeta与满帮货运的AI客服。",
+      "article_title": "当AI比人还会说话，声网在铺一条看不见的路",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Qn5j3NcNhUUpI8qfP_Ie8Q",
+      "sector": "实时音视频基础设施与语音智能体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "声网",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "声网",
+      "company_entity_id": "dr-u-6dd47ccb5ac7ea4b6189",
+      "company_raw_name": "声网",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有全文足以支持产品发布及具体技术路线；全球网络规模、海外主体合作和既有客户案例未充分厘清主体与可比口径，尚不足独立确立本主体全国标杆资格。",
+        "evidence_ids": [
+          "article:338cbaf4b01ab2a0"
+        ]
+      },
+      "published_date": "2026-10-26",
+      "insight": "声网正在把实时音视频传输能力向语音智能体的交互与开发层延伸：新工具与对话式AI引擎共同处理持续聆听、打断、工具调用和语音表达，让开发者不必只围绕单一语音模型搭建应用。其产业价值在于连接模型与具体业务系统，但不同模块能否在复杂任务中稳定协同，仍是判断这条产品路线实际优势的关键。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "声网推出Call Agent与实时AI开发工具包，拓展语音智能体产品线",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "熵旋芯智": [
+    {
+      "date": "2026-10-27",
+      "title": "熵旋芯智提出首代MRAM存内计算架构MITA，并将基于MRAM的处理单元命名为MPU。该架构面向MoE专家内部的权重密集型线性运算，使适配后的权重驻留于MRAM阵列，在阵列内完成相应矩阵运算，以专用FFN加速模块与GPU协同执行推理。公司正构建模型适配、编译、映射、仿真与执行工具链，计划于2027年推进MPW验证及客户送样，以2028年量产为目标，并将单位Token推理成本降低90%作为长期技术与商业目标。",
+      "article_title": "从GPU、LPU到“MPU”：熵旋芯智以MITA架构重算AI推理成本",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/fARf--TM2oJJgWdTuU3eOQ",
+      "sector": "AI推理芯片／MRAM存内计算",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "熵旋芯智",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "熵旋芯智",
+      "company_entity_id": "dr-u-3044b1ef039903cb9d0e",
+      "company_raw_name": "熵旋芯智",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "MITA",
+          "relation": "product",
+          "evidence": "熵旋芯智提出首代MRAM存内计算架构MITA（MRAM In-Memory Tensor Architecture），并将基于MRAM的处理单元命名为MPU（MRAM-based Processing Unit）。"
+        },
+        {
+          "name": "MPU",
+          "relation": "product",
+          "evidence": "熵旋芯智提出首代MRAM存内计算架构MITA（MRAM In-Memory Tensor Architecture），并将基于MRAM的处理单元命名为MPU（MRAM-based Processing Unit）。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "架构介绍与研发规划足以支持技术线索，但尚无经验证的产品性能、交付或行业地位依据，不能据此建立标杆资格。",
+        "evidence_ids": [
+          "article:51ee522c113b5cd9"
+        ]
+      },
+      "published_date": "2026-10-26",
+      "insight": "熵旋芯智选择成为GPU推理系统中的专家计算加速模块，而非替代整套GPU系统：将适配的专家权重留在MRAM阵列内参与运算，旨在减少低批量逐Token生成时的重复权重搬运。其系统价值取决于权重驻留带来的节省能否覆盖阵列读出、精度保障及GPU协同通信的额外开销，关键观察应是相同模型与服务条件下的端到端收益。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "熵旋芯智提出MITA架构，面向MoE专家计算加速",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
