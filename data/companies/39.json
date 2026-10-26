@@ -1331,16 +1331,18 @@
       "event_type": "制造准入公示",
       "link": "https://mp.weixin.qq.com/s/FKKj948LMswMykJC05-Y8Q",
       "sector": "新能源汽车",
-      "location": "地点待核",
+      "location": "安徽省 / 芜湖市 / 经济技术开发区皖江大道8号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "安徽省 / 芜湖市 / 经济技术开发区皖江大道8号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-5064c113dd3f18bbf32ede54"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "安徽智界新能源汽车有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1348,7 +1350,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-5064c113dd3f18bbf32ede54",
+            "source_url": "https://www.yoojia.com/article/10200770412964815652.html",
+            "checked_at": "2026-10-26T18:05:14.880516+00:00",
+            "subject": "安徽智界新能源汽车有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "安徽省",
+              "city": "芜湖市",
+              "address": "经济技术开发区皖江大道8号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "安徽省",
+          "city": "芜湖市",
+          "evidence_ids": [
+            "geo-5064c113dd3f18bbf32ede54"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
