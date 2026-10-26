@@ -1712,24 +1712,57 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/PgCMkEiVkSKA5Wy65a1BVQ",
       "sector": "硅光子芯片代工",
-      "location": "地点待核",
+      "location": "IL / Migdal Haemek / Ramat Gavriel Industrial Park, 20 Shaul Amor Avenue, P.O. Box 619, 2310502",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "IL / Migdal Haemek / Ramat Gavriel Industrial Park, 20 Shaul Amor Avenue, P.O. Box 619, 2310502",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-28680da0c465bc9c3bff1306"
+        ],
+        "subject_evidence_ids": [
+          "geo-28680da0c465bc9c3bff1306"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Tower Semiconductor",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "IL",
+          "city": "Migdal Haemek",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-28680da0c465bc9c3bff1306"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-28680da0c465bc9c3bff1306",
+            "source_url": "https://towersemi.com/contact/facilities/",
+            "checked_at": "2026-10-26T00:31:43.908289+00:00",
+            "subject": "Tower Semiconductor",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "IL",
+              "city": "Migdal Haemek",
+              "address": "Ramat Gavriel Industrial Park, 20 Shaul Amor Avenue, P.O. Box 619, 2310502"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "IL",
+          "city": "Migdal Haemek",
+          "evidence_ids": [
+            "geo-28680da0c465bc9c3bff1306"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",

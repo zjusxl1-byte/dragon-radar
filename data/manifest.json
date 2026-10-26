@@ -4226,7 +4226,7 @@
     "2026-10-25": "f92b1f19836c81ef756c3ff1f6a133d243be1eb1a511852c3e1e857541509667",
     "2026-10-26": "80ccb03f915f511b64a29337226c3a4e0a2879c3e4459de53e21545ddab1cf8d"
   },
-  "geography_version": "b64966294ac5001863fd1c7cd2b35abedd11ce1e0f182a4da1fbb95996b8f9cc",
+  "geography_version": "ac89150eb0b87ba0df17fb7490f4a1151b8c52c09e206ebc5319111c8bf9a1a0",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -23706,10 +23706,55 @@
       }
     },
     "dr-u-dd3fc6b4a9c029868abb": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "IL / Migdal Haemek / Ramat Gavriel Industrial Park, 20 Shaul Amor Avenue, P.O. Box 619, 2310502",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-28680da0c465bc9c3bff1306"
+      ],
+      "subject_evidence_ids": [
+        "geo-28680da0c465bc9c3bff1306"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "Tower Semiconductor",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "IL",
+        "city": "Migdal Haemek",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-28680da0c465bc9c3bff1306"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-28680da0c465bc9c3bff1306",
+          "source_url": "https://towersemi.com/contact/facilities/",
+          "checked_at": "2026-10-26T00:31:43.908289+00:00",
+          "subject": "Tower Semiconductor",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "IL",
+            "city": "Migdal Haemek",
+            "address": "Ramat Gavriel Industrial Park, 20 Shaul Amor Avenue, P.O. Box 619, 2310502"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "IL",
+        "city": "Migdal Haemek",
+        "evidence_ids": [
+          "geo-28680da0c465bc9c3bff1306"
+        ]
+      }
     },
     "dr-u-dd6c383baed9c6c64e36": {
       "geography_status": "unknown",
@@ -25263,10 +25308,60 @@
       "located_status": "unknown"
     },
     "dr-u-ed71c3420dbf50a96a81": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市 / 浦东新区 / 康桥镇环桥路1001号B2智元大楼",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-5b176d0cf5093e4f280a430a"
+      ],
+      "subject_evidence_ids": [
+        "geo-9a7f517daebe538764007d8b"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "智元机器人",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-9a7f517daebe538764007d8b"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-5b176d0cf5093e4f280a430a",
+          "source_url": "https://www.agibot.com.cn/",
+          "checked_at": "2026-10-26T00:32:11.541314+00:00",
+          "subject": "智元机器人",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "浦东新区",
+            "address": "康桥镇环桥路1001号B2智元大楼"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "evidence_ids": [
+          "geo-5b176d0cf5093e4f280a430a"
+        ]
+      }
     },
     "dr-u-ed91be1e3b62128f3936": {
       "geography_status": "unknown",
@@ -50325,7 +50420,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "ed0c7cc67a65f77eee6bff0a03bd21ecd56a0c36fa312f010a417a6c2f47c63f",
+  "history_version": "9b3c9a8f946180e8fb6749e220097d1fe2aa0843bbb7f6b49b8cd66dd0ed1db4",
   "company_history_buckets": {
     "00": "8e0daedec8c80b097d1f816ea89ef7fec81a937c6f25e2ba4ac62368743ceb59",
     "01": "41a4bc18f5875dd3e00b9aa90a999c526a2c2b1ed2b378c30664c08cbafe74a4",
@@ -50361,8 +50456,8 @@
     "1f": "9c2dd5803082263cbd4b4f611a13e2b1bfca1da365f830f6f81b73f60d541de5",
     "20": "9c7f5e731f37d827f810f4eaa032f41a67c056f217dfa8423640f1b393204ded",
     "21": "b478530626606be4aa5961029b1fdbbf3ad77a2754222a9af2c809510a590491",
-    "22": "ee153a4654d2ad55fe295084356d85a4793af7684bd42540c4daff286639cb76",
-    "23": "e2bbd8f8bb412043e5890090a87d048513900617a6f3ed76ce1c1a8331140047",
+    "22": "34f00d62f57459b06ce552d6579d024d7f22f59d87997e9177c97a21f15d87ec",
+    "23": "a42df9bc70d2080cf49c3e40d16b00f639c2b7d2fa0931f185dfb31b5ed4f066",
     "24": "0eb8eebc8b2d01a6a744f6cdd57e5e3354fa81734083fe8c1614585aebc1e553",
     "25": "26e45ffd40e0c8c86a7de002d226321727fe0ffb3af801377fa609759951566a",
     "26": "87ab1bf6a4b7caa47dd5940ef685f64d596399a204f2fc97197519f0739a1820",
@@ -50392,7 +50487,7 @@
     "3e": "2cdec5fb18444af94447f18369bed4d8019dbe2836c88e7814159eccd27da390",
     "3f": "bef16d5062b5939ffbcffe5921bbfeb649dc4fad24eee36f9f1f1eba327c09eb"
   },
-  "history_search_version": "fbf08ca6d004e6a6c653ac05d2eb3d6f6b4e01d501b5d74bead7bf5893ec7768",
+  "history_search_version": "687aa3030b7ab75f6c6493b1dfd8b5d7f6421b393656969a7ec2f74c15be7d79",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
