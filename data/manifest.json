@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-26T02:33:51+08:00",
+  "generated_at": "2026-10-26T08:37:32+08:00",
   "today": "2026-10-26",
   "current_week": "2026-W44",
   "available_weeks": [
@@ -43,7 +43,7 @@
   "summary": {
     "today": {
       "date": "2026-10-26",
-      "total_companies": 7,
+      "total_companies": 8,
       "financing_count": 2,
       "ipo_count": 0,
       "milestone_count": 2,
@@ -206,8 +206,7 @@
               ]
             }
           },
-          "identity_candidates": [],
-          "company_db_id": null
+          "company_db_id": 513
         },
         {
           "company_raw_name": "Flapping Airplanes",
@@ -347,8 +346,7 @@
               ]
             }
           },
-          "identity_candidates": [],
-          "company_db_id": null
+          "company_db_id": 514
         },
         {
           "company_raw_name": "三星",
@@ -512,14 +510,14 @@
           "company_db_id": null
         }
       ],
-      "record_count": 7,
-      "company_count": 7,
-      "first_seen_count": 3,
+      "record_count": 8,
+      "company_count": 8,
+      "first_seen_count": 4,
       "updated_company_count": 4
     },
     "week": {
       "week_id": "2026-W44",
-      "total_companies": 7,
+      "total_companies": 8,
       "total_days": 1,
       "financing_count": 2,
       "ipo_count": 0,
@@ -528,7 +526,7 @@
       "top_sectors": [
         {
           "sector": "半导体先进逻辑制造",
-          "count": 3
+          "count": 4
         },
         {
           "sector": "生成式人工智能／AI视频创作",
@@ -543,21 +541,21 @@
         "生成式人工智能／AI视频创作": 1,
         "人工智能／AI编程智能体": 1,
         "摩托车与动力系统": 1,
-        "半导体先进逻辑制造": 3,
+        "半导体先进逻辑制造": 4,
         "人工智能基础模型与GPU计算优化": 1
       },
-      "record_count": 7,
-      "company_count": 7
+      "record_count": 8,
+      "company_count": 8
     }
   },
   "available_dates": [
     {
       "date": "2026-10-26",
-      "count": 7,
+      "count": 8,
       "has_high_score": false,
       "max_score": 70,
       "week_id": "2026-W44",
-      "company_count": 7,
+      "company_count": 8,
       "negative_count": 0
     },
     {
@@ -3780,6 +3778,192 @@
       "date": "2026-10-26"
     },
     {
+      "company_raw_name": "IBM研究院",
+      "identity_mentions": [
+        {
+          "name": "IBM Research",
+          "relation": "same_entity",
+          "evidence": "IBM研究院（IBM Research）"
+        }
+      ],
+      "title": "1nm后的晶体管，四强争霸！",
+      "company": "IBM研究院",
+      "score": 35,
+      "sector": "半导体先进逻辑制造",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "US / New York / 257 Fuller Rd, Albany, NY 12203",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / New York / 257 Fuller Rd, Albany, NY 12203",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fc01c41b422ff23b14e12297"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "IBM研究院",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-fc01c41b422ff23b14e12297",
+            "source_url": "https://research.ibm.com/labs/albany",
+            "checked_at": "2026-10-26T00:32:09.146901+00:00",
+            "subject": "IBM研究院",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "New York",
+              "city": "Albany",
+              "address": "257 Fuller Rd, Albany, NY 12203"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "New York",
+          "city": "Albany",
+          "evidence_ids": [
+            "geo-fc01c41b422ff23b14e12297"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-cefb967814a84f634579",
+      "company_canonical_name": "IBM研究院",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Bl1zkKU4knHK_L5dLqJ94w",
+      "article_title": "1nm后的晶体管，四强争霸！",
+      "event_desc": "文章介绍IBM研究院的Nanostack顺序集成路线：各层晶体管先在独立晶圆完成高温步骤，再经键合集成，采用交错布局增加接触通道。IBM于2026年6月25日的官方说明确认晶圆级键合、对准和背面供电等技术，并将相对2纳米技术的50%速度提升、70%能耗降低表述为初始预测。该技术仍处于研究与产业采用准备阶段。",
+      "insight": "IBM研究院选择先分别完成各层高温制造再键合，针对的是上层加工可能损伤底层器件的热预算问题；交错布局则为下层接触和布线留出通道。这条路线把部分难点从连续加工转移到键合与对准，提供了不同于单片集成的工程取舍，而非已经证明性能全面领先。",
+      "event_headline": "IBM研究院介绍先分层制造再键合的Nanostack路线",
+      "event_signal": "context",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-25",
+        "event_date": null,
+        "observed_date": "2026-10-25",
+        "review_required": true
+      },
+      "published_date": "2026-10-25",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "复读半导体行业观察全文及IBM官方Nanostack说明，确认IBM研究院为顺序集成、晶圆键合和交错接触路线的研究承担组织，不要求把研究部门冒认为独立工商法人。官方Albany实验室介绍列明半导体研发活动、相关负责人及美国地址，本轮已审普通经营归属成立，原地点缺口已补齐。原报道2026-10-25发布在七日窗口；6月已有官方技术解释，不包装成10月新突破。其对热预算、晶圆对准和下层接触的工程取舍，对杭州键合、互连及先进制造研发有具体参照价值；该稳定主体历史未见已刊Nanostack同事件，先前watch均逐份比较后因新证据改判。作为外部正面研究路线保留，不赋全国标杆或杭州负面资格。",
+      "event_headline_source": "3e96c61d3152143085bc8b6d89746a656897f1001fed3e457fdc122b4a75a14a",
+      "event_identity": {
+        "canonical_id": "文章介绍IBM研究院的Nanostack技术路线：上下层晶体管先在独立晶圆上完成高温工艺，再通过键合集成，并采用交错布局增加前侧和背侧直接接触点。文章转述IBM预测，相较当前2纳米级工艺，该技术可带来约50%的性能提升、70%的能效改善及40%的面积缩减；IBM预计从其最新研究成果发布起，商业化约需六年。文中未给出该成果的精确发布日期。"
+      },
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-fc01c41b422ff23b14e12297",
+          "source_url": "https://research.ibm.com/labs/albany",
+          "checked_at": "2026-10-26T00:32:09.146901+00:00",
+          "subject": "IBM研究院",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "New York",
+            "city": "Albany",
+            "address": "257 Fuller Rd, Albany, NY 12203"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条确认具体研究技术路线及普通美国经营归属；不以企业知名度或单项预测独立授予全国标杆标签，外部研究事件本身可以保留。",
+        "evidence_ids": [
+          "article:d04f7eedca0e95c3",
+          "official_technology_source:3952ddc953885825"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent + overnight-current-model directed review",
+        "candidate_id": "37c02b5a546943065edb9be7540dcdcba72204de340c2c576c61893bd7e706b5",
+        "input_row_sha256": "09ff63252e8b62132890bd67c41cbfdff2cff25181901f27f689cd766b32cf7b",
+        "reason": "复读半导体行业观察全文及IBM官方Nanostack说明，确认IBM研究院为顺序集成、晶圆键合和交错接触路线的研究承担组织，不要求把研究部门冒认为独立工商法人。官方Albany实验室介绍列明半导体研发活动、相关负责人及美国地址，本轮已审普通经营归属成立，原地点缺口已补齐。原报道2026-10-25发布在七日窗口；6月已有官方技术解释，不包装成10月新突破。其对热预算、晶圆对准和下层接触的工程取舍，对杭州键合、互连及先进制造研发有具体参照价值；该稳定主体历史未见已刊Nanostack同事件，先前watch均逐份比较后因新证据改判。作为外部正面研究路线保留，不赋全国标杆或杭州负面资格。",
+        "scope": {
+          "technology_evidence": "原媒体全文和IBM官方技术说明均确认n/p器件顺序堆叠、晶圆级键合及交错布局；官方明确对准、平整度、互连与背面供电是集成难点，性能及能耗为初始预测。",
+          "value_reason": "这条路线用分层工艺缓解底层器件的热预算约束，集成难度转移至晶圆键合、精确对准和多层接触；可用于比较杭州相关设备及工艺研究的技术环节，不把预测指标横排为量产优势。"
+        },
+        "stage": {
+          "status": "已有研究路线与初始性能预测，尚非量产交付",
+          "reason": "原报道2026-10-25发布符合采集窗口；IBM官方2026-06-25已有同名技术说明，不能把转载日写成突破日。官方说明仍列出热传导键合层、3D计量与EDA等后续工作；不以约六年预测推算确定商业化日期。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:7d8c5a53ad8d94da",
+            "prior_decision:a9b6480491ab8927",
+            "prior_decision:2a3931902862946a",
+            "prior_decision:0616fd511e5c515a"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:a9b6480491ab8927",
+              "comparison": "same_event",
+              "reason": "同一Nanostack事件，原watch基于地点和组织关系缺证；本轮官方技术及实验室资料补足普通归属，不是换URL抹去旧裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:2a3931902862946a",
+              "comparison": "same_event",
+              "reason": "同一Nanostack事件，原watch基于地点和组织关系缺证；本轮官方技术及实验室资料补足普通归属，不是换URL抹去旧裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:0616fd511e5c515a",
+              "comparison": "same_event",
+              "reason": "同一Nanostack事件，原watch基于地点和组织关系缺证；本轮官方技术及实验室资料补足普通归属，不是换URL抹去旧裁决。"
+            }
+          ],
+          "change_reason": "原检索无已刊Nanostack事件，本轮历史无读取错误；此前三次watch是同事件待核，不是拒绝。官方原文和Albany设施/团队补证使普通外部研究路线可刊；保留研究部门本身，不并入IBM法人。2024年三星联合阶梯结构另属一项成果。",
+          "new_evidence_ids": [
+            "article:d04f7eedca0e95c3",
+            "official_technology_source:3952ddc953885825",
+            "official_organization_source:c4a126e6da12dc6b"
+          ]
+        },
+        "evidence_ids": [
+          "article:d04f7eedca0e95c3",
+          "history_lookup:7d8c5a53ad8d94da",
+          "identity_registry:2dcd4f408df25406",
+          "geo-fc01c41b422ff23b14e12297",
+          "geography_registry:b93d03cf35486d17",
+          "prior_decision:a9b6480491ab8927",
+          "prior_decision:2a3931902862946a",
+          "prior_decision:0616fd511e5c515a",
+          "official_technology_source:3952ddc953885825",
+          "official_organization_source:c4a126e6da12dc6b"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条确认具体研究技术路线及普通美国经营归属；不以企业知名度或单项预测独立授予全国标杆标签，外部研究事件本身可以保留。",
+          "evidence_ids": [
+            "article:d04f7eedca0e95c3",
+            "official_technology_source:3952ddc953885825"
+          ]
+        }
+      },
+      "date": "2026-10-26"
+    },
+    {
       "company_raw_name": "张雪机车",
       "title": "张雪驾驶改装摩托车MX450，成功刷新吉尼斯世界纪录；张雪：今天在故乡圆梦，也是想让这片土地被世界看见",
       "company": "张雪机车",
@@ -3982,8 +4166,8 @@
   "recent_updates": [
     {
       "date": "2026-10-26",
-      "title": "今日收录 7 条",
-      "highlight": "首次收录 3 家 · 持续更新 4 家"
+      "title": "今日收录 8 条",
+      "highlight": "首次收录 4 家 · 持续更新 4 家"
     }
   ],
   "daily_versions": {
@@ -4224,9 +4408,9 @@
     "2026-10-23": "29cc7473eee6dd87ec5c051d14abd21eb59a3e04b627f74ba7c010ecf7fa4811",
     "2026-10-24": "249bcdd7c982148f5e390fe252f27ff2530a985d6a900300087501ccc905e805",
     "2026-10-25": "f92b1f19836c81ef756c3ff1f6a133d243be1eb1a511852c3e1e857541509667",
-    "2026-10-26": "80ccb03f915f511b64a29337226c3a4e0a2879c3e4459de53e21545ddab1cf8d"
+    "2026-10-26": "f192ddc4bb6600fdb290fa04a56567b848919c70c51bee93d54ff9e8618dc2c8"
   },
-  "geography_version": "ac89150eb0b87ba0df17fb7490f4a1151b8c52c09e206ebc5319111c8bf9a1a0",
+  "geography_version": "9b00fa0c63270724bf2c4f4f8b0091b5d0f988d7caba8af58519e732ff4e90e0",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -22485,6 +22669,51 @@
       "display_location": "地点待核",
       "located_status": "unknown"
     },
+    "dr-u-cefb967814a84f634579": {
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "US / New York / 257 Fuller Rd, Albany, NY 12203",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-fc01c41b422ff23b14e12297"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "IBM研究院",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-fc01c41b422ff23b14e12297",
+          "source_url": "https://research.ibm.com/labs/albany",
+          "checked_at": "2026-10-26T00:32:09.146901+00:00",
+          "subject": "IBM研究院",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "New York",
+            "city": "Albany",
+            "address": "257 Fuller Rd, Albany, NY 12203"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "US",
+        "province": "New York",
+        "city": "Albany",
+        "evidence_ids": [
+          "geo-fc01c41b422ff23b14e12297"
+        ]
+      }
+    },
     "dr-u-cf00e1068af7f164929a": {
       "geography_status": "unknown",
       "classification": "unknown",
@@ -36314,10 +36543,13 @@
       "negatives": {}
     },
     "2026-10-26": {
-      "source_version": "80ccb03f915f511b64a29337226c3a4e0a2879c3e4459de53e21545ddab1cf8d",
+      "source_version": "f192ddc4bb6600fdb290fa04a56567b848919c70c51bee93d54ff9e8618dc2c8",
       "targets": {
         "2": {
           "event_headline": "张雪机车创始人据报道驾驶改装MX450刷新水上行驶距离纪录"
+        },
+        "6": {
+          "event_headline": null
         }
       },
       "negatives": {}
@@ -37854,6 +38086,7 @@
     "浙江久立特材科技股份有限公司": "2026-10-25",
     "Cognition": "2026-10-26",
     "三星": "2026-10-26",
+    "IBM研究院": "2026-10-26",
     "Flapping Airplanes": "2026-10-26"
   },
   "monthly_counts": {
@@ -37886,8 +38119,8 @@
       "events": 125
     },
     "2026-10": {
-      "companies": 492,
-      "events": 633
+      "companies": 493,
+      "events": 634
     }
   },
   "weekly_counts": {
@@ -38028,8 +38261,8 @@
       "events": 178
     },
     "2026-W44": {
-      "companies": 7,
-      "events": 7
+      "companies": 8,
+      "events": 8
     }
   },
   "reading_entities": [
@@ -40845,6 +41078,16 @@
       "name": "张雪机车",
       "aliases": [],
       "source": "https://m.12371.gov.cn/content/2026-03/30/content_508746.html"
+    },
+    {
+      "id": "dr-u-ac32f27ba7a1346f43c0",
+      "name": "Cognition",
+      "aliases": []
+    },
+    {
+      "id": "dr-u-c9bd40e58364720b1a3b",
+      "name": "Flapping Airplanes",
+      "aliases": []
     },
     {
       "id": "dr-u-b074349155c579b5ad34",
@@ -47517,97 +47760,19 @@
       "identity_status": "unresolved"
     },
     {
-      "id": "dr-u-ac32f27ba7a1346f43c0",
-      "name": "Cognition",
-      "aliases": [],
-      "identity_status": "unresolved"
-    },
-    {
       "id": "dr-u-5fdd673ed1fcff1de84b",
       "name": "三星",
       "aliases": [],
       "identity_status": "unresolved"
     },
     {
-      "id": "dr-u-c9bd40e58364720b1a3b",
-      "name": "Flapping Airplanes",
+      "id": "dr-u-cefb967814a84f634579",
+      "name": "IBM研究院",
       "aliases": [],
       "identity_status": "unresolved"
     }
   ],
   "company_briefings": {
-    "奇偶乾元（杭州）电子商务有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      }
-    ],
-    "思谋科技SmartMore": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      }
-    ],
-    "至简动力Simplexity Robotics": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W11"
-      }
-    ],
-    "湖州丽天智能科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      }
-    ],
-    "莱芒生物": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      }
-    ],
-    "强脑科技": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      },
-      {
-        "type": "monthly",
-        "id": "2026-M03"
-      },
-      {
-        "type": "monthly",
-        "id": "2026-M04"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W10"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W15"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W17"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W20"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W26"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W30"
-      }
-    ],
     "杭州辽翔科技技术有限公司": [
       {
         "type": "monthly",
@@ -47622,86 +47787,16 @@
         "id": "2026-W13"
       }
     ],
-    "棋行科技（杭州）有限公司": [
+    "湖州丽天智能科技有限公司": [
       {
         "type": "monthly",
         "id": "2026-03"
       }
     ],
-    "VAST": [
+    "莱芒生物": [
       {
         "type": "monthly",
         "id": "2026-03"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W11"
-      }
-    ],
-    "杭州极佳视界机器人有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W12"
-      }
-    ],
-    "帕西尼感知科技": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      },
-      {
-        "type": "monthly",
-        "id": "2026-M03"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W11"
-      }
-    ],
-    "光轮智能": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W11"
-      }
-    ],
-    "正泰集团": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      }
-    ],
-    "它石智航": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      },
-      {
-        "type": "monthly",
-        "id": "2026-M03"
-      },
-      {
-        "type": "monthly",
-        "id": "2026-M07"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W13"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W16"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W30"
       }
     ],
     "宇树科技股份有限公司": [
@@ -47746,6 +47841,100 @@
         "id": "2026-W27"
       }
     ],
+    "浙江小马易行科技有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      }
+    ],
+    "艾图量变": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W10"
+      }
+    ],
+    "至简动力Simplexity Robotics": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W11"
+      }
+    ],
+    "正泰集团": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      }
+    ],
+    "杭州极佳视界机器人有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W12"
+      }
+    ],
+    "强脑科技": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      },
+      {
+        "type": "monthly",
+        "id": "2026-M03"
+      },
+      {
+        "type": "monthly",
+        "id": "2026-M04"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W10"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W15"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W17"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W20"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W26"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W30"
+      }
+    ],
+    "帕西尼感知科技": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      },
+      {
+        "type": "monthly",
+        "id": "2026-M03"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W11"
+      }
+    ],
     "华芯程（杭州）科技有限公司": [
       {
         "type": "monthly",
@@ -47760,10 +47949,24 @@
         "id": "2026-W11"
       }
     ],
-    "浙江小马易行科技有限公司": [
+    "VAST": [
       {
         "type": "monthly",
         "id": "2026-03"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W11"
+      }
+    ],
+    "光轮智能": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W11"
       }
     ],
     "银河通用": [
@@ -47776,6 +47979,50 @@
         "id": "2026-W11"
       }
     ],
+    "思谋科技SmartMore": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      }
+    ],
+    "它石智航": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      },
+      {
+        "type": "monthly",
+        "id": "2026-M03"
+      },
+      {
+        "type": "monthly",
+        "id": "2026-M07"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W13"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W16"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W30"
+      }
+    ],
+    "棋行科技（杭州）有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      }
+    ],
+    "奇偶乾元（杭州）电子商务有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-03"
+      }
+    ],
     "诺因智能": [
       {
         "type": "monthly",
@@ -47786,24 +48033,24 @@
         "id": "2026-W11"
       }
     ],
-    "艾图量变": [
-      {
-        "type": "monthly",
-        "id": "2026-03"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W10"
-      }
-    ],
-    "新烛时代": [
+    "杭州睿微讯科电子技术有限责任公司": [
       {
         "type": "monthly",
         "id": "2026-M03"
       },
       {
         "type": "weekly",
-        "id": "2026-W13"
+        "id": "2026-W12"
+      }
+    ],
+    "迦智科技": [
+      {
+        "type": "monthly",
+        "id": "2026-M03"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W11"
       }
     ],
     "浙江光未新材料有限公司": [
@@ -47816,14 +48063,24 @@
         "id": "2026-W13"
       }
     ],
-    "杭州睿微讯科电子技术有限责任公司": [
+    "原集微": [
       {
         "type": "monthly",
         "id": "2026-M03"
       },
       {
         "type": "weekly",
-        "id": "2026-W12"
+        "id": "2026-W13"
+      }
+    ],
+    "新烛时代": [
+      {
+        "type": "monthly",
+        "id": "2026-M03"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W13"
       }
     ],
     "云深处科技": [
@@ -47844,64 +48101,28 @@
         "id": "2026-W20"
       }
     ],
-    "迦智科技": [
+    "浙江索孚航空科技有限公司": [
       {
         "type": "monthly",
-        "id": "2026-M03"
+        "id": "2026-M04"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W15"
+      }
+    ],
+    "灵初智能": [
+      {
+        "type": "monthly",
+        "id": "2026-M04"
       },
       {
         "type": "weekly",
         "id": "2026-W11"
-      }
-    ],
-    "原集微": [
-      {
-        "type": "monthly",
-        "id": "2026-M03"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W13"
-      }
-    ],
-    "神络医疗": [
-      {
-        "type": "monthly",
-        "id": "2026-M04"
       },
       {
         "type": "weekly",
         "id": "2026-W15"
-      }
-    ],
-    "千寻智能(杭州)科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M04"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W15"
-      }
-    ],
-    "知存科技": [
-      {
-        "type": "monthly",
-        "id": "2026-M04"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W16"
-      }
-    ],
-    "杭州程天科技发展有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M04"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W16"
       }
     ],
     "极佳视界": [
@@ -47936,6 +48157,26 @@
         "id": "2026-W17"
       }
     ],
+    "千寻智能(杭州)科技有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M04"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W15"
+      }
+    ],
+    "神络医疗": [
+      {
+        "type": "monthly",
+        "id": "2026-M04"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W15"
+      }
+    ],
     "杭州智启光合科技有限公司": [
       {
         "type": "monthly",
@@ -47944,60 +48185,6 @@
       {
         "type": "weekly",
         "id": "2026-W15"
-      }
-    ],
-    "恩和科技": [
-      {
-        "type": "monthly",
-        "id": "2026-M04"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W16"
-      }
-    ],
-    "灵初智能": [
-      {
-        "type": "monthly",
-        "id": "2026-M04"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W11"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W15"
-      }
-    ],
-    "智现未来": [
-      {
-        "type": "monthly",
-        "id": "2026-M04"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W15"
-      }
-    ],
-    "浙江索孚航空科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M04"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W15"
-      }
-    ],
-    "微分智飞（杭州）科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M04"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W14"
       }
     ],
     "高烯科技": [
@@ -48010,7 +48197,57 @@
         "id": "2026-W16"
       }
     ],
-    "杭州盖亚机器人有限公司": [
+    "知存科技": [
+      {
+        "type": "monthly",
+        "id": "2026-M04"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W16"
+      }
+    ],
+    "恩和科技": [
+      {
+        "type": "monthly",
+        "id": "2026-M04"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W16"
+      }
+    ],
+    "智现未来": [
+      {
+        "type": "monthly",
+        "id": "2026-M04"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W15"
+      }
+    ],
+    "杭州程天科技发展有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M04"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W16"
+      }
+    ],
+    "微分智飞（杭州）科技有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M04"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W14"
+      }
+    ],
+    "杭州灵明光子科技有限公司": [
       {
         "type": "monthly",
         "id": "2026-M05"
@@ -48020,30 +48257,14 @@
         "id": "2026-W19"
       }
     ],
-    "地卫二": [
+    "杭州肇观智能科技有限公司": [
       {
         "type": "monthly",
         "id": "2026-M05"
       },
       {
         "type": "weekly",
-        "id": "2026-W21"
-      }
-    ],
-    "沃兰特航空": [
-      {
-        "type": "monthly",
-        "id": "2026-M05"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W18"
-      }
-    ],
-    "摩尔线程": [
-      {
-        "type": "monthly",
-        "id": "2026-M05"
+        "id": "2026-W19"
       },
       {
         "type": "weekly",
@@ -48068,7 +48289,7 @@
         "id": "2026-W25"
       }
     ],
-    "杭州灵明光子科技有限公司": [
+    "杭州德适生物科技股份有限公司": [
       {
         "type": "monthly",
         "id": "2026-M05"
@@ -48076,6 +48297,24 @@
       {
         "type": "weekly",
         "id": "2026-W19"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W22"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W29"
+      }
+    ],
+    "摩尔线程": [
+      {
+        "type": "monthly",
+        "id": "2026-M05"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W21"
       }
     ],
     "联影智能": [
@@ -48088,7 +48327,69 @@
         "id": "2026-W18"
       }
     ],
-    "瑞意旭联": [
+    "时的科技": [
+      {
+        "type": "monthly",
+        "id": "2026-M05"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W22"
+      }
+    ],
+    "富加镓业": [
+      {
+        "type": "monthly",
+        "id": "2026-M05"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W20"
+      }
+    ],
+    "杭州暖芯迦电子科技有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M05"
+      },
+      {
+        "type": "monthly",
+        "id": "2026-M06"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W19"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W26"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W39"
+      }
+    ],
+    "沃兰特航空": [
+      {
+        "type": "monthly",
+        "id": "2026-M05"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W18"
+      }
+    ],
+    "自变量机器人": [
+      {
+        "type": "monthly",
+        "id": "2026-M05"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W22"
+      }
+    ],
+    "地卫二": [
       {
         "type": "monthly",
         "id": "2026-M05"
@@ -48136,6 +48437,56 @@
         "id": "2026-W39"
       }
     ],
+    "杭州盖亚机器人有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M05"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W19"
+      }
+    ],
+    "杭州刻质半导体有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M05"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W22"
+      }
+    ],
+    "瑞意旭联": [
+      {
+        "type": "monthly",
+        "id": "2026-M05"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W21"
+      }
+    ],
+    "具微科技": [
+      {
+        "type": "monthly",
+        "id": "2026-M05"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W21"
+      }
+    ],
+    "中科山海微(杭州)半导体技术有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M05"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W20"
+      }
+    ],
     "星动纪元": [
       {
         "type": "monthly",
@@ -48158,121 +48509,131 @@
         "id": "2026-W30"
       }
     ],
-    "中科山海微(杭州)半导体技术有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M05"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W20"
-      }
-    ],
-    "杭州刻质半导体有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M05"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W22"
-      }
-    ],
-    "富加镓业": [
-      {
-        "type": "monthly",
-        "id": "2026-M05"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W20"
-      }
-    ],
-    "杭州肇观智能科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M05"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W19"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W21"
-      }
-    ],
-    "时的科技": [
-      {
-        "type": "monthly",
-        "id": "2026-M05"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W22"
-      }
-    ],
-    "杭州德适生物科技股份有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M05"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W19"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W22"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W29"
-      }
-    ],
-    "自变量机器人": [
-      {
-        "type": "monthly",
-        "id": "2026-M05"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W22"
-      }
-    ],
-    "杭州暖芯迦电子科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M05"
-      },
+    "Nextie(明日新程)": [
       {
         "type": "monthly",
         "id": "2026-M06"
       },
       {
         "type": "weekly",
-        "id": "2026-W19"
+        "id": "2026-W24"
+      }
+    ],
+    "阶跃星辰": [
+      {
+        "type": "monthly",
+        "id": "2026-M06"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W23"
+      }
+    ],
+    "追梦空天科技": [
+      {
+        "type": "monthly",
+        "id": "2026-M06"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W24"
+      }
+    ],
+    "本源量子": [
+      {
+        "type": "monthly",
+        "id": "2026-M06"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W24"
+      }
+    ],
+    "太初(杭州)集成电路有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M06"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W23"
+      }
+    ],
+    "上海燧原科技股份有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M06"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W25"
+      }
+    ],
+    "杭州力文所生物科技有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M06"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W24"
+      }
+    ],
+    "眸深智能": [
+      {
+        "type": "monthly",
+        "id": "2026-M06"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W23"
+      }
+    ],
+    "星源智": [
+      {
+        "type": "monthly",
+        "id": "2026-M06"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W23"
+      }
+    ],
+    "杭州求是未来技术有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M06"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W25"
       },
       {
         "type": "weekly",
         "id": "2026-W26"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W39"
       }
     ],
-    "具微科技": [
+    "康讯半导体": [
       {
         "type": "monthly",
-        "id": "2026-M05"
+        "id": "2026-M06"
       },
       {
         "type": "weekly",
-        "id": "2026-W21"
+        "id": "2026-W25"
       }
     ],
     "杭州零磁医疗设备有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M06"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W23"
+      }
+    ],
+    "璞璘科技": [
       {
         "type": "monthly",
         "id": "2026-M06"
@@ -48300,54 +48661,14 @@
         "id": "2026-W23"
       }
     ],
-    "太初(杭州)集成电路有限公司": [
+    "CACES凯瑟斯技术(杭州)有限公司": [
       {
         "type": "monthly",
         "id": "2026-M06"
       },
       {
         "type": "weekly",
-        "id": "2026-W23"
-      }
-    ],
-    "阶跃星辰": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W23"
-      }
-    ],
-    "追梦空天科技": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W24"
-      }
-    ],
-    "璞璘科技": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W23"
-      }
-    ],
-    "本源量子": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W24"
+        "id": "2026-W26"
       }
     ],
     "千寻智能": [
@@ -48360,80 +48681,6 @@
         "id": "2026-W23"
       }
     ],
-    "CACES凯瑟斯技术(杭州)有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W26"
-      }
-    ],
-    "杭州力文所生物科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W24"
-      }
-    ],
-    "康讯半导体": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W25"
-      }
-    ],
-    "眸深智能": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W23"
-      }
-    ],
-    "Nextie(明日新程)": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W24"
-      }
-    ],
-    "上海燧原科技股份有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W25"
-      }
-    ],
-    "杭州求是未来技术有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W25"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W26"
-      }
-    ],
     "浙江天目涡轮动力科技有限公司": [
       {
         "type": "monthly",
@@ -48444,27 +48691,7 @@
         "id": "2026-W24"
       }
     ],
-    "星源智": [
-      {
-        "type": "monthly",
-        "id": "2026-M06"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W23"
-      }
-    ],
-    "博雷顿": [
-      {
-        "type": "monthly",
-        "id": "2026-M07"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W27"
-      }
-    ],
-    "杭州和伍系统科技有限公司": [
+    "中茵微电子(北京)股份有限公司": [
       {
         "type": "monthly",
         "id": "2026-M07"
@@ -48484,36 +48711,14 @@
         "id": "2026-W29"
       }
     ],
-    "盐城后摩智能科技有限公司": [
+    "杭州和伍系统科技有限公司": [
       {
         "type": "monthly",
         "id": "2026-M07"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W29"
-      }
-    ],
-    "杭州逻辑比特科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M07"
-      },
-      {
-        "type": "monthly",
-        "id": "2026-M08"
       },
       {
         "type": "weekly",
         "id": "2026-W28"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W29"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W33"
       }
     ],
     "杭州爱仕特半导体有限责任公司": [
@@ -48526,7 +48731,7 @@
         "id": "2026-W28"
       }
     ],
-    "奥趋光电技术(杭州)有限公司": [
+    "盐城后摩智能科技有限公司": [
       {
         "type": "monthly",
         "id": "2026-M07"
@@ -48568,14 +48773,14 @@
         "id": "2026-W28"
       }
     ],
-    "中茵微电子(北京)股份有限公司": [
+    "奥趋光电技术(杭州)有限公司": [
       {
         "type": "monthly",
         "id": "2026-M07"
       },
       {
         "type": "weekly",
-        "id": "2026-W28"
+        "id": "2026-W29"
       }
     ],
     "杭州曦诺未来科技有限公司": [
@@ -48594,6 +48799,68 @@
       {
         "type": "weekly",
         "id": "2026-W38"
+      }
+    ],
+    "杭州宇泛智能科技股份有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M07"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W30"
+      }
+    ],
+    "博雷顿": [
+      {
+        "type": "monthly",
+        "id": "2026-M07"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W27"
+      }
+    ],
+    "两仪万象(北京)科技有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M07"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W30"
+      }
+    ],
+    "杭州逻辑比特科技有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M07"
+      },
+      {
+        "type": "monthly",
+        "id": "2026-M08"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W28"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W29"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W33"
+      }
+    ],
+    "创视半导体(杭州)有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M07"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W27"
       }
     ],
     "光本位科技(上海)有限公司": [
@@ -48616,34 +48883,54 @@
         "id": "2026-W30"
       }
     ],
-    "创视半导体(杭州)有限公司": [
+    "北京银河通用机器人有限公司": [
       {
         "type": "monthly",
-        "id": "2026-M07"
+        "id": "2026-M08"
       },
       {
         "type": "weekly",
-        "id": "2026-W27"
+        "id": "2026-W35"
       }
     ],
-    "两仪万象(北京)科技有限公司": [
+    "优必选科技股份有限公司": [
       {
         "type": "monthly",
-        "id": "2026-M07"
+        "id": "2026-M08"
       },
       {
         "type": "weekly",
-        "id": "2026-W30"
+        "id": "2026-W35"
       }
     ],
-    "杭州宇泛智能科技股份有限公司": [
+    "杭州诺维智启量子科技有限公司": [
       {
         "type": "monthly",
-        "id": "2026-M07"
+        "id": "2026-M08"
       },
       {
         "type": "weekly",
-        "id": "2026-W30"
+        "id": "2026-W34"
+      }
+    ],
+    "杭州星辰基石半导体有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M08"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W33"
+      }
+    ],
+    "杭州星海图人工智能科技有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M08"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W35"
       }
     ],
     "西湖闻芯科技(杭州)有限公司": [
@@ -48656,7 +48943,7 @@
         "id": "2026-W31"
       }
     ],
-    "杭州四维太空智能科技有限公司": [
+    "浙江时空道宇科技有限公司": [
       {
         "type": "monthly",
         "id": "2026-M08"
@@ -48666,27 +48953,7 @@
         "id": "2026-W35"
       }
     ],
-    "杭州至简动力科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M08"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W34"
-      }
-    ],
-    "月之暗面": [
-      {
-        "type": "monthly",
-        "id": "2026-M08"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W34"
-      }
-    ],
-    "北京银河通用机器人有限公司": [
+    "杭州四维太空智能科技有限公司": [
       {
         "type": "monthly",
         "id": "2026-M08"
@@ -48706,7 +48973,27 @@
         "id": "2026-W33"
       }
     ],
-    "杭州诺维智启量子科技有限公司": [
+    "杭州行芯科技有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M08"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W34"
+      }
+    ],
+    "浙江智邦锂电新材料有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M08"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W31"
+      }
+    ],
+    "杭州至简动力科技有限公司": [
       {
         "type": "monthly",
         "id": "2026-M08"
@@ -48726,16 +49013,6 @@
         "id": "2026-W35"
       }
     ],
-    "浙江时空道宇科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M08"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W35"
-      }
-    ],
     "酷飞(浙江)飞行器技术有限公司": [
       {
         "type": "monthly",
@@ -48744,6 +49021,16 @@
       {
         "type": "weekly",
         "id": "2026-W33"
+      }
+    ],
+    "杭州富加镓业科技有限公司": [
+      {
+        "type": "monthly",
+        "id": "2026-M08"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W35"
       }
     ],
     "深圳诺因智能有限公司": [
@@ -48766,37 +49053,7 @@
         "id": "2026-W33"
       }
     ],
-    "优必选科技股份有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M08"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W35"
-      }
-    ],
-    "浙江智邦锂电新材料有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M08"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W31"
-      }
-    ],
-    "杭州星辰基石半导体有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M08"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W33"
-      }
-    ],
-    "杭州行芯科技有限公司": [
+    "月之暗面": [
       {
         "type": "monthly",
         "id": "2026-M08"
@@ -48804,26 +49061,6 @@
       {
         "type": "weekly",
         "id": "2026-W34"
-      }
-    ],
-    "杭州星海图人工智能科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M08"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W35"
-      }
-    ],
-    "杭州富加镓业科技有限公司": [
-      {
-        "type": "monthly",
-        "id": "2026-M08"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W35"
       }
     ],
     "奥立安新能源科技（杭州）有限公司": [
@@ -48844,19 +49081,7 @@
         "id": "2026-W11"
       }
     ],
-    "诺仕机器人（NOUSBOT）": [
-      {
-        "type": "weekly",
-        "id": "2026-W11"
-      }
-    ],
-    "魔芯（杭州）科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W11"
-      }
-    ],
-    "光宇元芯（杭州）光电有限责任公司": [
+    "浙江福莱新材料股份有限公司": [
       {
         "type": "weekly",
         "id": "2026-W11"
@@ -48872,10 +49097,28 @@
         "id": "2026-W15"
       }
     ],
-    "浙江福莱新材料股份有限公司": [
+    "光宇元芯（杭州）光电有限责任公司": [
       {
         "type": "weekly",
         "id": "2026-W11"
+      }
+    ],
+    "魔芯（杭州）科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W11"
+      }
+    ],
+    "诺仕机器人（NOUSBOT）": [
+      {
+        "type": "weekly",
+        "id": "2026-W11"
+      }
+    ],
+    "苏州博思得电气有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W12"
       }
     ],
     "上海乾径科技有限公司": [
@@ -48884,7 +49127,43 @@
         "id": "2026-W12"
       }
     ],
-    "苏州博思得电气有限公司": [
+    "杭州昆元量子科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W12"
+      }
+    ],
+    "索格智算": [
+      {
+        "type": "weekly",
+        "id": "2026-W12"
+      }
+    ],
+    "杭州创锐光谱科技集团有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W12"
+      }
+    ],
+    "杭州聚海恒创科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W12"
+      }
+    ],
+    "杭州千湖具身科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W12"
+      }
+    ],
+    "杭州淮瓷科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W12"
+      }
+    ],
+    "箭元科技": [
       {
         "type": "weekly",
         "id": "2026-W12"
@@ -48900,73 +49179,7 @@
         "id": "2026-W13"
       }
     ],
-    "杭州昆元量子科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W12"
-      }
-    ],
-    "杭州聚海恒创科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W12"
-      }
-    ],
-    "杭州创锐光谱科技集团有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W12"
-      }
-    ],
-    "箭元科技": [
-      {
-        "type": "weekly",
-        "id": "2026-W12"
-      }
-    ],
-    "索格智算": [
-      {
-        "type": "weekly",
-        "id": "2026-W12"
-      }
-    ],
-    "杭州淮瓷科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W12"
-      }
-    ],
-    "杭州千湖具身科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W12"
-      }
-    ],
-    "杭州深通恒睿智能科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W13"
-      }
-    ],
-    "星际荣耀": [
-      {
-        "type": "weekly",
-        "id": "2026-W13"
-      }
-    ],
-    "钛虎机器人科技（杭州）有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W13"
-      }
-    ],
     "食气生化": [
-      {
-        "type": "weekly",
-        "id": "2026-W13"
-      }
-    ],
-    "浙江金仪盛世生物工程有限公司": [
       {
         "type": "weekly",
         "id": "2026-W13"
@@ -48978,13 +49191,31 @@
         "id": "2026-W13"
       }
     ],
+    "杭州本导生物医药科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W13"
+      }
+    ],
     "杭州卡涞复合材料科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W13"
       }
     ],
-    "杭州本导生物医药科技有限公司": [
+    "钛虎机器人科技（杭州）有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W13"
+      }
+    ],
+    "杭州深通恒睿智能科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W13"
+      }
+    ],
+    "星际荣耀": [
       {
         "type": "weekly",
         "id": "2026-W13"
@@ -49002,43 +49233,25 @@
         "id": "2026-W13"
       }
     ],
+    "浙江金仪盛世生物工程有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W13"
+      }
+    ],
     "Art3D团队": [
       {
         "type": "weekly",
         "id": "2026-W14"
       }
     ],
-    "浙江传芯晶体材料有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W14"
-      }
-    ],
-    "杭州竞未机器人科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W14"
-      }
-    ],
-    "杭州吉熙半导体科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W14"
-      }
-    ],
-    "杭州美赛生物医药科技有限公司": [
+    "杭州谱睿源智能制造有限公司": [
       {
         "type": "weekly",
         "id": "2026-W14"
       }
     ],
     "论芯科技": [
-      {
-        "type": "weekly",
-        "id": "2026-W14"
-      }
-    ],
-    "杭州墨赛核科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W14"
@@ -49056,12 +49269,6 @@
         "id": "2026-W14"
       }
     ],
-    "杭州谱睿源智能制造有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W14"
-      }
-    ],
     "杭州慧维智能医疗科技有限公司": [
       {
         "type": "weekly",
@@ -49074,10 +49281,74 @@
         "id": "2026-W14"
       }
     ],
+    "杭州墨赛核科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W14"
+      }
+    ],
+    "杭州吉熙半导体科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W14"
+      }
+    ],
+    "浙江传芯晶体材料有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W14"
+      }
+    ],
+    "杭州美赛生物医药科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W14"
+      }
+    ],
+    "杭州竞未机器人科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W14"
+      }
+    ],
     "杭州晶微检测设备有限公司": [
       {
         "type": "weekly",
         "id": "2026-W14"
+      }
+    ],
+    "量旋科技": [
+      {
+        "type": "weekly",
+        "id": "2026-W15"
+      },
+      {
+        "type": "weekly",
+        "id": "2026-W27"
+      }
+    ],
+    "杭州墨耶科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W15"
+      }
+    ],
+    "明视脑机": [
+      {
+        "type": "weekly",
+        "id": "2026-W15"
+      }
+    ],
+    "清泰科(杭州)新能源技术有限责任公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W15"
+      }
+    ],
+    "原力灵机": [
+      {
+        "type": "weekly",
+        "id": "2026-W15"
       }
     ],
     "杭州芝诺未来技术有限责任公司": [
@@ -49090,13 +49361,19 @@
         "id": "2026-W38"
       }
     ],
+    "赛富乐斯": [
+      {
+        "type": "weekly",
+        "id": "2026-W15"
+      }
+    ],
     "杭州鸣鸿微电子科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W15"
       }
     ],
-    "原力灵机": [
+    "杭州衡宇秦杨科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W15"
@@ -49118,53 +49395,37 @@
         "id": "2026-W15"
       }
     ],
-    "量旋科技": [
+    "迈巴制药(杭州)有限公司": [
       {
         "type": "weekly",
-        "id": "2026-W15"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W27"
+        "id": "2026-W16"
       }
     ],
-    "清泰科(杭州)新能源技术有限责任公司": [
+    "动微视觉": [
       {
         "type": "weekly",
-        "id": "2026-W15"
+        "id": "2026-W16"
       }
     ],
-    "明视脑机": [
-      {
-        "type": "weekly",
-        "id": "2026-W15"
-      }
-    ],
-    "杭州墨耶科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W15"
-      }
-    ],
-    "杭州衡宇秦杨科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W15"
-      }
-    ],
-    "赛富乐斯": [
-      {
-        "type": "weekly",
-        "id": "2026-W15"
-      }
-    ],
-    "杭州至千哩科技有限公司": [
+    "杭州黑石光电科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W16"
       }
     ],
     "西图之光(杭州)智能科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W16"
+      }
+    ],
+    "杭州贝丰科技股份有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W16"
+      }
+    ],
+    "奇异摩尔": [
       {
         "type": "weekly",
         "id": "2026-W16"
@@ -49186,61 +49447,25 @@
         "id": "2026-W16"
       }
     ],
-    "奇异摩尔": [
-      {
-        "type": "weekly",
-        "id": "2026-W16"
-      }
-    ],
-    "杭州黑石光电科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W16"
-      }
-    ],
     "电波微讯通信技术有限公司": [
       {
         "type": "weekly",
         "id": "2026-W16"
       }
     ],
-    "迈巴制药(杭州)有限公司": [
+    "杭州至千哩科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W16"
       }
     ],
-    "杭州贝丰科技股份有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W16"
-      }
-    ],
-    "动微视觉": [
-      {
-        "type": "weekly",
-        "id": "2026-W16"
-      }
-    ],
-    "原粒半导体": [
+    "智平方": [
       {
         "type": "weekly",
         "id": "2026-W17"
       }
     ],
-    "杭州似一科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W17"
-      }
-    ],
-    "杭州高烯科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W17"
-      }
-    ],
-    "杭州拉格朗日具身技术有限公司": [
+    "杭州惠利玛人工智能科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W17"
@@ -49258,7 +49483,37 @@
         "id": "2026-W17"
       }
     ],
-    "杭州惠利玛人工智能科技有限公司": [
+    "杭州拉格朗日具身技术有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W17"
+      }
+    ],
+    "杭州高烯科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W17"
+      }
+    ],
+    "原粒半导体": [
+      {
+        "type": "weekly",
+        "id": "2026-W17"
+      }
+    ],
+    "杭州似一科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W17"
+      }
+    ],
+    "杭州行云圭智能医疗科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W17"
+      }
+    ],
+    "杭州第二人生科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W17"
@@ -49276,25 +49531,23 @@
         "id": "2026-W17"
       }
     ],
-    "智平方": [
+    "浙江和晖机器人技术有限公司": [
       {
         "type": "weekly",
-        "id": "2026-W17"
+        "id": "2026-W18"
       }
     ],
-    "杭州第二人生科技有限公司": [
+    "图灵量子": [
       {
         "type": "weekly",
-        "id": "2026-W17"
-      }
-    ],
-    "杭州行云圭智能医疗科技有限公司": [
+        "id": "2026-W18"
+      },
       {
         "type": "weekly",
-        "id": "2026-W17"
+        "id": "2026-W22"
       }
     ],
-    "汉辉芯辰红外科技(杭州)有限公司": [
+    "生数科技": [
       {
         "type": "weekly",
         "id": "2026-W18"
@@ -49306,25 +49559,19 @@
         "id": "2026-W18"
       }
     ],
-    "杭州远山智行科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W18"
-      }
-    ],
-    "生数科技": [
-      {
-        "type": "weekly",
-        "id": "2026-W18"
-      }
-    ],
     "云尖信息": [
       {
         "type": "weekly",
         "id": "2026-W18"
       }
     ],
-    "杭州微纳核芯电子科技有限公司": [
+    "汉辉芯辰红外科技(杭州)有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W18"
+      }
+    ],
+    "杭州远山智行科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W18"
@@ -49342,35 +49589,25 @@
         "id": "2026-W18"
       }
     ],
-    "浙江和晖机器人技术有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W18"
-      }
-    ],
     "太希智能科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W18"
       }
     ],
-    "图灵量子": [
+    "杭州微纳核芯电子科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W18"
-      },
-      {
-        "type": "weekly",
-        "id": "2026-W22"
       }
     ],
-    "途见科技(北京)有限公司": [
+    "星环聚能": [
       {
         "type": "weekly",
         "id": "2026-W19"
       }
     ],
-    "西湖机器人科技(杭州)有限公司": [
+    "深圳纽菲斯新材料有限公司": [
       {
         "type": "weekly",
         "id": "2026-W19"
@@ -49388,13 +49625,13 @@
         "id": "2026-W19"
       }
     ],
-    "北京容芯致远科技有限公司": [
+    "西湖机器人科技(杭州)有限公司": [
       {
         "type": "weekly",
         "id": "2026-W19"
       }
     ],
-    "深圳纽菲斯新材料有限公司": [
+    "北京容芯致远科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W19"
@@ -49406,13 +49643,37 @@
         "id": "2026-W19"
       }
     ],
-    "星环聚能": [
+    "途见科技(北京)有限公司": [
       {
         "type": "weekly",
         "id": "2026-W19"
       }
     ],
     "蓝芯算力": [
+      {
+        "type": "weekly",
+        "id": "2026-W20"
+      }
+    ],
+    "芯驰科技": [
+      {
+        "type": "weekly",
+        "id": "2026-W20"
+      }
+    ],
+    "睿恩智能体(杭州)科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W20"
+      }
+    ],
+    "零次方机器人": [
+      {
+        "type": "weekly",
+        "id": "2026-W20"
+      }
+    ],
+    "杭州汐蓝人工智能科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W20"
@@ -49428,19 +49689,7 @@
         "id": "2026-W24"
       }
     ],
-    "杭州欧诺半导体设备有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W20"
-      }
-    ],
-    "零次方机器人": [
-      {
-        "type": "weekly",
-        "id": "2026-W20"
-      }
-    ],
-    "杭州寻酷科技有限公司": [
+    "耀速科技": [
       {
         "type": "weekly",
         "id": "2026-W20"
@@ -49452,13 +49701,13 @@
         "id": "2026-W20"
       }
     ],
-    "睿恩智能体(杭州)科技有限公司": [
+    "杭州欧诺半导体设备有限公司": [
       {
         "type": "weekly",
         "id": "2026-W20"
       }
     ],
-    "芯驰科技": [
+    "杭州寻酷科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W20"
@@ -49470,61 +49719,7 @@
         "id": "2026-W20"
       }
     ],
-    "杭州汐蓝人工智能科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W20"
-      }
-    ],
-    "耀速科技": [
-      {
-        "type": "weekly",
-        "id": "2026-W20"
-      }
-    ],
-    "上海开普勒机器人有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W21"
-      }
-    ],
-    "杭州五星铝业有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W21"
-      }
-    ],
-    "杭州京工电科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W21"
-      }
-    ],
-    "北京探微芯联科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W21"
-      }
-    ],
-    "视启未来": [
-      {
-        "type": "weekly",
-        "id": "2026-W21"
-      }
-    ],
     "上海矩量光启": [
-      {
-        "type": "weekly",
-        "id": "2026-W21"
-      }
-    ],
-    "杭州拓深科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W21"
-      }
-    ],
-    "杭州神机妙控科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W21"
@@ -49540,46 +49735,46 @@
         "id": "2026-W30"
       }
     ],
-    "杭州曦岭科技": [
+    "视启未来": [
       {
         "type": "weekly",
-        "id": "2026-W22"
+        "id": "2026-W21"
       }
     ],
-    "唯迈太技术(杭州)有限公司": [
+    "杭州京工电科技有限公司": [
       {
         "type": "weekly",
-        "id": "2026-W22"
+        "id": "2026-W21"
       }
     ],
-    "杭州星铄新材料科技有限公司": [
+    "杭州拓深科技有限公司": [
       {
         "type": "weekly",
-        "id": "2026-W22"
+        "id": "2026-W21"
       }
     ],
-    "超赢钻石": [
+    "北京探微芯联科技有限公司": [
       {
         "type": "weekly",
-        "id": "2026-W22"
+        "id": "2026-W21"
       }
     ],
-    "杭州邦顺制药股份有限公司": [
+    "杭州五星铝业有限公司": [
       {
         "type": "weekly",
-        "id": "2026-W22"
+        "id": "2026-W21"
       }
     ],
-    "杭州辉羲智能科技有限公司": [
+    "上海开普勒机器人有限公司": [
       {
         "type": "weekly",
-        "id": "2026-W22"
+        "id": "2026-W21"
       }
     ],
-    "易思维(杭州)科技股份有限公司": [
+    "杭州神机妙控科技有限公司": [
       {
         "type": "weekly",
-        "id": "2026-W22"
+        "id": "2026-W21"
       }
     ],
     "睿笛生物": [
@@ -49594,7 +49789,49 @@
         "id": "2026-W22"
       }
     ],
-    "皓阳生物": [
+    "杭州邦顺制药股份有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W22"
+      }
+    ],
+    "杭州曦岭科技": [
+      {
+        "type": "weekly",
+        "id": "2026-W22"
+      }
+    ],
+    "超赢钻石": [
+      {
+        "type": "weekly",
+        "id": "2026-W22"
+      }
+    ],
+    "易思维(杭州)科技股份有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W22"
+      }
+    ],
+    "杭州辉羲智能科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W22"
+      }
+    ],
+    "杭州星铄新材料科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W22"
+      }
+    ],
+    "唯迈太技术(杭州)有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W22"
+      }
+    ],
+    "元能芯科技(杭州)有限公司": [
       {
         "type": "weekly",
         "id": "2026-W23"
@@ -49606,13 +49843,7 @@
         "id": "2026-W23"
       }
     ],
-    "大晓机器人": [
-      {
-        "type": "weekly",
-        "id": "2026-W23"
-      }
-    ],
-    "元能芯科技(杭州)有限公司": [
+    "杭州端点科技": [
       {
         "type": "weekly",
         "id": "2026-W23"
@@ -49624,7 +49855,13 @@
         "id": "2026-W23"
       }
     ],
-    "杭州端点科技": [
+    "大晓机器人": [
+      {
+        "type": "weekly",
+        "id": "2026-W23"
+      }
+    ],
+    "皓阳生物": [
       {
         "type": "weekly",
         "id": "2026-W23"
@@ -49636,7 +49873,7 @@
         "id": "2026-W24"
       }
     ],
-    "杭州锐盈芯半导体科技有限公司": [
+    "杭州知存算力科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W24"
@@ -49648,13 +49885,19 @@
         "id": "2026-W24"
       }
     ],
+    "华超神控（BCI-Sonics）": [
+      {
+        "type": "weekly",
+        "id": "2026-W24"
+      }
+    ],
     "百奥几何": [
       {
         "type": "weekly",
         "id": "2026-W24"
       }
     ],
-    "华超神控（BCI-Sonics）": [
+    "杭州锐盈芯半导体科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W24"
@@ -49666,49 +49909,7 @@
         "id": "2026-W24"
       }
     ],
-    "杭州知存算力科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W24"
-      }
-    ],
-    "芯界光核": [
-      {
-        "type": "weekly",
-        "id": "2026-W25"
-      }
-    ],
-    "致殊智能科技(杭州)有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W25"
-      }
-    ],
-    "世航智能": [
-      {
-        "type": "weekly",
-        "id": "2026-W25"
-      }
-    ],
-    "灵机交互(深圳)科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W25"
-      }
-    ],
-    "星能玄光": [
-      {
-        "type": "weekly",
-        "id": "2026-W25"
-      }
-    ],
     "深圳市晌午不眠科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W25"
-      }
-    ],
-    "广州智用开物人工智能科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W25"
@@ -49720,43 +49921,43 @@
         "id": "2026-W25"
       }
     ],
-    "途灵未来(杭州)科技有限公司": [
+    "世航智能": [
       {
         "type": "weekly",
-        "id": "2026-W26"
+        "id": "2026-W25"
       }
     ],
-    "杭州始新生物医学科技有限公司": [
+    "星能玄光": [
       {
         "type": "weekly",
-        "id": "2026-W26"
+        "id": "2026-W25"
       }
     ],
-    "正行创新": [
+    "广州智用开物人工智能科技有限公司": [
       {
         "type": "weekly",
-        "id": "2026-W26"
+        "id": "2026-W25"
+      }
+    ],
+    "灵机交互(深圳)科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W25"
+      }
+    ],
+    "致殊智能科技(杭州)有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W25"
+      }
+    ],
+    "芯界光核": [
+      {
+        "type": "weekly",
+        "id": "2026-W25"
       }
     ],
     "时纳微电子(杭州)有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W26"
-      }
-    ],
-    "杭州清石机器人有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W26"
-      }
-    ],
-    "影眸科技": [
-      {
-        "type": "weekly",
-        "id": "2026-W26"
-      }
-    ],
-    "杭州上水微电子科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W26"
@@ -49768,13 +49969,55 @@
         "id": "2026-W26"
       }
     ],
+    "杭州始新生物医学科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W26"
+      }
+    ],
+    "途灵未来(杭州)科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W26"
+      }
+    ],
     "全民认证科技(杭州)有限公司": [
       {
         "type": "weekly",
         "id": "2026-W26"
       }
     ],
-    "道陟科技": [
+    "杭州上水微电子科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W26"
+      }
+    ],
+    "影眸科技": [
+      {
+        "type": "weekly",
+        "id": "2026-W26"
+      }
+    ],
+    "杭州清石机器人有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W26"
+      }
+    ],
+    "正行创新": [
+      {
+        "type": "weekly",
+        "id": "2026-W26"
+      }
+    ],
+    "杭州若贝特智能机器人有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W27"
+      }
+    ],
+    "杭州飞阔科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W27"
@@ -49792,13 +50035,7 @@
         "id": "2026-W27"
       }
     ],
-    "杭州飞阔科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W27"
-      }
-    ],
-    "杭州若贝特智能机器人有限公司": [
+    "道陟科技": [
       {
         "type": "weekly",
         "id": "2026-W27"
@@ -49816,37 +50053,7 @@
         "id": "2026-W27"
       }
     ],
-    "浙江山子有谦欧林披亚科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W28"
-      }
-    ],
-    "格式塔(成都)科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W28"
-      }
-    ],
     "北京微光启航科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W28"
-      }
-    ],
-    "杭州伏立芯科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W28"
-      }
-    ],
-    "贻如科技": [
-      {
-        "type": "weekly",
-        "id": "2026-W28"
-      }
-    ],
-    "杭州喜婆婆科技": [
       {
         "type": "weekly",
         "id": "2026-W28"
@@ -49858,19 +50065,7 @@
         "id": "2026-W28"
       }
     ],
-    "杭州脉流科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W28"
-      }
-    ],
-    "深圳果力智能科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W28"
-      }
-    ],
-    "磐虎智能科技(杭州)有限公司": [
+    "格式塔(成都)科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W28"
@@ -49882,10 +50077,46 @@
         "id": "2026-W28"
       }
     ],
-    "新映科技": [
+    "磐虎智能科技(杭州)有限公司": [
       {
         "type": "weekly",
-        "id": "2026-W29"
+        "id": "2026-W28"
+      }
+    ],
+    "杭州喜婆婆科技": [
+      {
+        "type": "weekly",
+        "id": "2026-W28"
+      }
+    ],
+    "贻如科技": [
+      {
+        "type": "weekly",
+        "id": "2026-W28"
+      }
+    ],
+    "杭州伏立芯科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W28"
+      }
+    ],
+    "杭州脉流科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W28"
+      }
+    ],
+    "浙江山子有谦欧林披亚科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W28"
+      }
+    ],
+    "深圳果力智能科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W28"
       }
     ],
     "浙江可胜技术有限公司": [
@@ -49894,7 +50125,13 @@
         "id": "2026-W29"
       }
     ],
-    "杭州蕙勒智能科技股份有限公司": [
+    "上海苏度科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W29"
+      }
+    ],
+    "奇塑科技": [
       {
         "type": "weekly",
         "id": "2026-W29"
@@ -49912,13 +50149,7 @@
         "id": "2026-W29"
       }
     ],
-    "竞界聚能(杭州)科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W29"
-      }
-    ],
-    "临界航天(北京)智能科技有限公司": [
+    "模感科技": [
       {
         "type": "weekly",
         "id": "2026-W29"
@@ -49930,25 +50161,31 @@
         "id": "2026-W29"
       }
     ],
-    "上海苏度科技有限公司": [
+    "临界航天(北京)智能科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W29"
       }
     ],
-    "模感科技": [
+    "竞界聚能(杭州)科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W29"
       }
     ],
-    "奇塑科技": [
+    "新映科技": [
       {
         "type": "weekly",
         "id": "2026-W29"
       }
     ],
-    "温州市奕行智能装备有限公司": [
+    "杭州蕙勒智能科技股份有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W29"
+      }
+    ],
+    "宁波史河机器人科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W30"
@@ -49960,7 +50197,7 @@
         "id": "2026-W30"
       }
     ],
-    "宁波史河机器人科技有限公司": [
+    "温州市奕行智能装备有限公司": [
       {
         "type": "weekly",
         "id": "2026-W30"
@@ -49988,7 +50225,7 @@
         "id": "2026-W37"
       }
     ],
-    "深圳市智谷天厨科技有限公司": [
+    "浙江亚笙半导体设备有限公司": [
       {
         "type": "weekly",
         "id": "2026-W31"
@@ -50000,13 +50237,7 @@
         "id": "2026-W31"
       }
     ],
-    "灵心巧手(杭州)科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W31"
-      }
-    ],
-    "南昌米能科技有限公司": [
+    "正复(杭州)科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W31"
@@ -50018,25 +50249,7 @@
         "id": "2026-W31"
       }
     ],
-    "浙江深储未来科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W31"
-      }
-    ],
-    "正复(杭州)科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W31"
-      }
-    ],
-    "浙江亚笙半导体设备有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W31"
-      }
-    ],
-    "亿维特航空科技有限公司": [
+    "南昌米能科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W31"
@@ -50048,10 +50261,40 @@
         "id": "2026-W31"
       }
     ],
+    "浙江深储未来科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W31"
+      }
+    ],
+    "灵心巧手(杭州)科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W31"
+      }
+    ],
+    "深圳市智谷天厨科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W31"
+      }
+    ],
+    "亿维特航空科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W31"
+      }
+    ],
     "说必可(杭州)科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W32"
+      }
+    ],
+    "杭州趋境科技有限责任公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W33"
       }
     ],
     "上海卜拉格科技有限公司": [
@@ -50066,12 +50309,6 @@
         "id": "2026-W33"
       }
     ],
-    "杭州趋境科技有限责任公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W33"
-      }
-    ],
     "九州星核(杭州)科技发展有限公司": [
       {
         "type": "weekly",
@@ -50079,12 +50316,6 @@
       }
     ],
     "灵童机器人(杭州)有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W34"
-      }
-    ],
-    "杭州鲁尔物联科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W34"
@@ -50112,6 +50343,12 @@
         "id": "2026-W34"
       }
     ],
+    "杭州鲁尔物联科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W34"
+      }
+    ],
     "奥视微(杭州)半导体有限公司": [
       {
         "type": "weekly",
@@ -50124,19 +50361,7 @@
         "id": "2026-W35"
       }
     ],
-    "上海智元新创技术有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W36"
-      }
-    ],
-    "深圳市联合影像有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W36"
-      }
-    ],
-    "杭州数智鲲鹏科技有限公司": [
+    "杭州海纳智冷科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W36"
@@ -50148,25 +50373,31 @@
         "id": "2026-W36"
       }
     ],
+    "杭州数智鲲鹏科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W36"
+      }
+    ],
+    "深圳市联合影像有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W36"
+      }
+    ],
+    "上海智元新创技术有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W36"
+      }
+    ],
     "浩博医药(AusperBio)": [
       {
         "type": "weekly",
         "id": "2026-W36"
       }
     ],
-    "杭州海纳智冷科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W36"
-      }
-    ],
-    "来未来科技(浙江)有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W37"
-      }
-    ],
-    "杭州影身智能技术有限公司": [
+    "云深处科技股份有限公司": [
       {
         "type": "weekly",
         "id": "2026-W37"
@@ -50178,13 +50409,7 @@
         "id": "2026-W37"
       }
     ],
-    "瑞芯微电子股份有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W37"
-      }
-    ],
-    "深朴智能": [
+    "瀚元启联(杭州)半导体有限公司": [
       {
         "type": "weekly",
         "id": "2026-W37"
@@ -50196,19 +50421,25 @@
         "id": "2026-W37"
       }
     ],
+    "杭州影身智能技术有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W37"
+      }
+    ],
+    "来未来科技(浙江)有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W37"
+      }
+    ],
     "氦星光联": [
       {
         "type": "weekly",
         "id": "2026-W37"
       }
     ],
-    "瀚元启联(杭州)半导体有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W37"
-      }
-    ],
-    "云深处科技股份有限公司": [
+    "深朴智能": [
       {
         "type": "weekly",
         "id": "2026-W37"
@@ -50220,49 +50451,13 @@
         "id": "2026-W37"
       }
     ],
-    "北京清微智能科技股份有限公司": [
+    "瑞芯微电子股份有限公司": [
       {
         "type": "weekly",
-        "id": "2026-W38"
+        "id": "2026-W37"
       }
     ],
     "浙江金羽新能源科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W38"
-      }
-    ],
-    "杭州迅蚁网络科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W38"
-      }
-    ],
-    "奕行智能(北京)科技股份有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W38"
-      }
-    ],
-    "杭州微路智能科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W38"
-      }
-    ],
-    "苏州星海图动力科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W38"
-      }
-    ],
-    "杭州微焓科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W38"
-      }
-    ],
-    "北京中科弧光量子软件技术有限公司": [
       {
         "type": "weekly",
         "id": "2026-W38"
@@ -50274,25 +50469,19 @@
         "id": "2026-W38"
       }
     ],
-    "杭州亿格云科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W38"
-      }
-    ],
-    "上海设序科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W38"
-      }
-    ],
-    "广州小马智行科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W38"
-      }
-    ],
     "曦望(Sunrise)": [
+      {
+        "type": "weekly",
+        "id": "2026-W38"
+      }
+    ],
+    "杭州迅蚁网络科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W38"
+      }
+    ],
+    "杭州亿格云科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W38"
@@ -50304,7 +50493,55 @@
         "id": "2026-W38"
       }
     ],
+    "北京清微智能科技股份有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W38"
+      }
+    ],
+    "广州小马智行科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W38"
+      }
+    ],
+    "苏州星海图动力科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W38"
+      }
+    ],
     "深圳康微视觉技术有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W38"
+      }
+    ],
+    "奕行智能(北京)科技股份有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W38"
+      }
+    ],
+    "杭州微焓科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W38"
+      }
+    ],
+    "上海设序科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W38"
+      }
+    ],
+    "杭州微路智能科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W38"
+      }
+    ],
+    "北京中科弧光量子软件技术有限公司": [
       {
         "type": "weekly",
         "id": "2026-W38"
@@ -50316,13 +50553,61 @@
         "id": "2026-W39"
       }
     ],
+    "杭州智诊科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W39"
+      }
+    ],
+    "杭州星物种机器人有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W39"
+      }
+    ],
+    "深圳市德明利技术股份有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W39"
+      }
+    ],
+    "杭州硅源量子科技有限责任公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W39"
+      }
+    ],
+    "杭州国科止水量子科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W39"
+      }
+    ],
+    "北京硅基流动科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W39"
+      }
+    ],
+    "杭州硅行智能科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W39"
+      }
+    ],
+    "浙江奥视未来科技有限公司": [
+      {
+        "type": "weekly",
+        "id": "2026-W39"
+      }
+    ],
     "杭州谱析光晶半导体科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W39"
       }
     ],
-    "杭州智诊科技有限公司": [
+    "万格智元(北京)智能科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W39"
@@ -50340,31 +50625,7 @@
         "id": "2026-W39"
       }
     ],
-    "杭州硅源量子科技有限责任公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W39"
-      }
-    ],
-    "北京行云集成电路有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W39"
-      }
-    ],
-    "杭州国科止水量子科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W39"
-      }
-    ],
-    "杭州星物种机器人有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W39"
-      }
-    ],
-    "万格智元(北京)智能科技有限公司": [
+    "杭州实在智能科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W39"
@@ -50376,43 +50637,19 @@
         "id": "2026-W39"
       }
     ],
-    "长鑫存储技术有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W39"
-      }
-    ],
-    "浙江奥视未来科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W39"
-      }
-    ],
-    "杭州实在智能科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W39"
-      }
-    ],
-    "北京硅基流动科技有限公司": [
-      {
-        "type": "weekly",
-        "id": "2026-W39"
-      }
-    ],
     "上海马赫智芯智能科技有限公司": [
       {
         "type": "weekly",
         "id": "2026-W39"
       }
     ],
-    "杭州硅行智能科技有限公司": [
+    "长鑫存储技术有限公司": [
       {
         "type": "weekly",
         "id": "2026-W39"
       }
     ],
-    "深圳市德明利技术股份有限公司": [
+    "北京行云集成电路有限公司": [
       {
         "type": "weekly",
         "id": "2026-W39"
@@ -50420,7 +50657,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "9b3c9a8f946180e8fb6749e220097d1fe2aa0843bbb7f6b49b8cd66dd0ed1db4",
+  "history_version": "16bcd5f977648dbbfc54132041820aeb69445ca36fbeef89ca74c15506eed8af",
   "company_history_buckets": {
     "00": "8e0daedec8c80b097d1f816ea89ef7fec81a937c6f25e2ba4ac62368743ceb59",
     "01": "41a4bc18f5875dd3e00b9aa90a999c526a2c2b1ed2b378c30664c08cbafe74a4",
@@ -50466,7 +50703,7 @@
     "29": "aa4b395344604b44ac0aa533e45e5b7e9f90ca607e5799254cc9be6dea1d2f44",
     "2a": "135fcd14365bc965bec1ae4f959398267d38015b95bf926aef32f444d4eacaab",
     "2b": "7241864cff35d77dc7e7d8ddb0779453996d3576ae032119319cb19db6b79bfe",
-    "2c": "b3c96b73b106225c978b75cad807a0239e8bcb6a5f011ba8d9ce428eb4be027f",
+    "2c": "8b5bd4f7853bbced2592a1d66c7309ab5fe1039e5b496da8712e6be1a89b90c7",
     "2d": "300da3275bfb140da31eb2762e7a8590ddb86e8cacda34cf6b6cddd2123959fb",
     "2e": "202ec8a523341839b8dd122bb0bbc8abf6bc73a66aa1e8b951fc2ec137878dcc",
     "2f": "92b2a3366d4adb7fb37b6e4dedde3f55dfc40946a49635986f8da7fa1ec29547",
@@ -50487,14 +50724,14 @@
     "3e": "2cdec5fb18444af94447f18369bed4d8019dbe2836c88e7814159eccd27da390",
     "3f": "bef16d5062b5939ffbcffe5921bbfeb649dc4fad24eee36f9f1f1eba327c09eb"
   },
-  "history_search_version": "687aa3030b7ab75f6c6493b1dfd8b5d7f6421b393656969a7ec2f74c15be7d79",
+  "history_search_version": "fd2da04da5eea1d604a7265ffc8a1111cb1fc84db81abceb75d22e6e7e45e215",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50508,7 +50745,7 @@
       "as_of": "2026-10-13",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50522,7 +50759,7 @@
       "as_of": "2026-10-20",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50536,7 +50773,7 @@
       "as_of": "2026-04-16",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50550,7 +50787,7 @@
       "as_of": "2026-04-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50564,7 +50801,7 @@
       "as_of": "2026-10-16",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50578,7 +50815,7 @@
       "as_of": "2026-10-08",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50592,7 +50829,7 @@
       "as_of": "2026-06-04",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50606,7 +50843,7 @@
       "as_of": "2026-10-23",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50620,7 +50857,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50634,7 +50871,7 @@
       "as_of": "2026-04-08",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50648,7 +50885,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50662,7 +50899,7 @@
       "as_of": "2026-10-01",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50676,7 +50913,7 @@
       "as_of": "2026-05-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50690,7 +50927,7 @@
       "as_of": "2026-10-24",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50704,7 +50941,7 @@
       "as_of": "2026-10-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50718,7 +50955,7 @@
       "as_of": "2026-10-14",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50732,7 +50969,7 @@
       "as_of": "2026-10-18",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50746,7 +50983,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50760,7 +50997,7 @@
       "as_of": "2026-07-23",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50774,7 +51011,7 @@
       "as_of": "2026-04-01",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50788,7 +51025,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50802,7 +51039,7 @@
       "as_of": "2026-05-01",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50816,7 +51053,7 @@
       "as_of": "2026-07-15",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50830,7 +51067,7 @@
       "as_of": "2026-05-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50844,7 +51081,7 @@
       "as_of": "2026-05-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50858,7 +51095,7 @@
       "as_of": "2026-07-11",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50872,7 +51109,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50886,7 +51123,7 @@
       "as_of": "2026-10-16",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50900,7 +51137,7 @@
       "as_of": "2026-10-26",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50914,7 +51151,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50928,7 +51165,7 @@
       "as_of": "2026-05-31",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50942,7 +51179,7 @@
       "as_of": "2026-10-14",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50956,7 +51193,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50970,7 +51207,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50984,7 +51221,7 @@
       "as_of": "2026-04-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -50998,7 +51235,7 @@
       "as_of": "2026-10-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51012,7 +51249,7 @@
       "as_of": "2026-10-20",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51026,7 +51263,7 @@
       "as_of": "2026-07-01",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51040,7 +51277,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51054,7 +51291,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51068,7 +51305,7 @@
       "as_of": "2026-10-24",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51082,7 +51319,7 @@
       "as_of": "2026-10-14",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51096,7 +51333,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51110,7 +51347,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51124,7 +51361,7 @@
       "as_of": "2026-10-14",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51138,7 +51375,7 @@
       "as_of": "2026-10-13",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51152,7 +51389,7 @@
       "as_of": "2026-10-11",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51166,7 +51403,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51180,7 +51417,7 @@
       "as_of": "2026-04-23",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51194,7 +51431,7 @@
       "as_of": "2026-05-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51208,7 +51445,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51222,7 +51459,7 @@
       "as_of": "2026-10-16",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51236,7 +51473,7 @@
       "as_of": "2026-10-03",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51250,7 +51487,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51264,7 +51501,7 @@
       "as_of": "2026-09-16",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51278,7 +51515,7 @@
       "as_of": "2026-05-27",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51292,7 +51529,7 @@
       "as_of": "2026-05-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51306,7 +51543,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51320,7 +51557,7 @@
       "as_of": "2026-09-05",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51334,7 +51571,7 @@
       "as_of": "2026-09-27",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51348,7 +51585,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51362,7 +51599,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51376,7 +51613,7 @@
       "as_of": "2026-06-01",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51390,7 +51627,7 @@
       "as_of": "2026-05-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51404,7 +51641,7 @@
       "as_of": "2026-10-03",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51418,7 +51655,7 @@
       "as_of": "2026-10-05",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51432,7 +51669,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51446,7 +51683,7 @@
       "as_of": "2026-10-15",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51460,7 +51697,7 @@
       "as_of": "2026-08-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51474,7 +51711,7 @@
       "as_of": "2026-10-14",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51488,7 +51725,7 @@
       "as_of": "2026-10-15",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51502,7 +51739,7 @@
       "as_of": "2026-10-13",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51516,7 +51753,7 @@
       "as_of": "2026-09-03",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51530,7 +51767,7 @@
       "as_of": "2026-08-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51544,7 +51781,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51558,7 +51795,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51572,7 +51809,7 @@
       "as_of": "2026-09-11",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51586,7 +51823,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51600,7 +51837,7 @@
       "as_of": "2026-10-03",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51614,7 +51851,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51628,7 +51865,7 @@
       "as_of": "2026-09-26",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51642,7 +51879,7 @@
       "as_of": "2026-10-08",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51656,7 +51893,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51670,7 +51907,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51684,7 +51921,7 @@
       "as_of": "2026-10-08",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51698,7 +51935,7 @@
       "as_of": "2026-10-23",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51712,7 +51949,7 @@
       "as_of": "2026-10-15",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51726,7 +51963,7 @@
       "as_of": "2026-10-03",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51740,7 +51977,7 @@
       "as_of": "2026-10-11",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51754,7 +51991,7 @@
       "as_of": "2026-10-20",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51768,7 +52005,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51782,7 +52019,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51796,7 +52033,7 @@
       "as_of": "2026-10-14",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51810,7 +52047,7 @@
       "as_of": "2026-10-24",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51824,7 +52061,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51838,7 +52075,7 @@
       "as_of": "2026-10-11",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51852,7 +52089,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51866,7 +52103,7 @@
       "as_of": "2026-10-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51880,7 +52117,7 @@
       "as_of": "2026-10-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51894,7 +52131,7 @@
       "as_of": "2026-10-20",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51908,7 +52145,7 @@
       "as_of": "2026-10-26",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51922,7 +52159,7 @@
       "as_of": "2026-10-26",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51936,7 +52173,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51950,7 +52187,7 @@
       "as_of": "2026-10-13",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51964,7 +52201,7 @@
       "as_of": "2026-10-15",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51978,7 +52215,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -51992,7 +52229,7 @@
       "as_of": "2026-10-24",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -52006,7 +52243,7 @@
       "as_of": "2026-10-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -52019,793 +52256,793 @@
   "company_reading_versions": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "宇树科技股份有限公司": {
       "source_version": "a2f47ecb5306d1a38870bb7d5f321856c595b450f07c23c794f2104e741d6d6e",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "VAST": {
       "source_version": "b25fb7953e25d55604104b0746312d78a097b6329fdaaefc0e33f34627e474de",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "帕西尼感知科技": {
       "source_version": "8ba4a3d7006f6919396b792017094d6b76af0775eafa6386c12be489f0dc2c45",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州至简动力科技有限公司": {
       "source_version": "334cd0d6bb10eeb892d5a6a349d1a6381fb61a32878b0f99e1d696d92aa47bea",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "灵初智能": {
       "source_version": "282961f954cdf5da5e71d63f7be7273cdb799ed0ab5a3fa3ee23c0aa75952750",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "光轮智能": {
       "source_version": "18f9a0b21f375c4df53c6053e855dc5c3920b8d004cdd2e0f0ec787ec0a2689f",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "爱诗科技": {
       "source_version": "3ae5eed52336270532297c69727161df42d29e78d046f13608f58412466016e1",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "银河通用": {
       "source_version": "a9830dffa5af6448839ebb4c97029df465ba01f805cebe53c13fdc4c2920e6ad",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "零一汽车": {
       "source_version": "1407968e83de478697b0a7c010d482bd45ff3d0c9483b4e937fc942f41bd8cb7",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州老板电器股份有限公司": {
       "source_version": "433722941ba56cfa2e3772fbf0b194d9e934113892e8bf8744782e15067da360",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "月之暗面": {
       "source_version": "302320b8ff2f517d94a10815cce93137601026984e8a5553ba16d3b747b41d54",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州竹马创新科技有限公司": {
       "source_version": "2b6f764b41347488e21ad3a47b7ab7b2a6d650e4112efd8d19e3d7e7c012a16c",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Violoop": {
       "source_version": "fd2a79afd2b9cb36f8742641ee91cdb7babfcbec15e668ff43cda6fc0a3c9d84",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "智元机器人": {
       "source_version": "955e8bf3c15049a12e517e536515cdd8d806b4c5de4073cb43a9ab650af0f9ae",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "地瓜机器人": {
       "source_version": "378eb7e70eccf4b8f039c1b3198c4b11b187c97e011f0b89b5186bc72a9b23fa",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州曦诺未来科技有限公司": {
       "source_version": "e73304cd0d9f08dd5adb0425d4f2d844a3f66cd06d4e2abd85980ca8646b6f16",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "芯瞳半导体技术（厦门）有限公司": {
       "source_version": "207689c90953dcf32b7fb7b6753350a4c5f50afe0f3a415229a3913dcdc252cb",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "云深处科技": {
       "source_version": "83af46df81b15b9e3bde4b85bff404d54eba5dbc50b3fbf1ae3fd8a17adf35fa",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "优必选科技": {
       "source_version": "ab1abd33c47fe1260619a320527996928aa3c8226d55283d076cb5dd45c7fc2f",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "轻舟智航": {
       "source_version": "8780cc4f195735f31191e0e87d660cd887ebb682de38741dbdca3422030b113a",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "至简动力": {
       "source_version": "96fa10b7f12d9430b638a1b15e8787b1f8f6a33fe344ecbd3dfa8bf650fe83d6",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "青禾晶元": {
       "source_version": "5ae42f0dbaa30a565ffb2ae1aa1fe560b4b9c4190d2c7047ab5c6705f3d24a28",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "字节跳动": {
       "source_version": "5fc6879065fb26ca09955f9ac8b6c196922577e900f4ea3a950ec56364c5241a",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "苹果公司": {
       "source_version": "f0004c299783ece8aa034ddee5d9964456b0b56431573160e06abd2a44e23239",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "它石智航": {
       "source_version": "af97e5daf47647e2c124934c1891310c649dfbf02269c11e1f52f53fdc334ad1",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "圣贝拉集团": {
       "source_version": "17af47b5793cbfe2022912c0bff97f1d6c861339d1a89863db32d107c88c6102",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "蓝芯算力": {
       "source_version": "bc586cbc887bc543b9d2829859ff1922f01a01a7f30917d1e4490a6d60a695aa",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "世航智能": {
       "source_version": "518b1625eaf7f216e05d5de75d1bec589d622763993cfe48d28f640921f1fb6f",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "零跑汽车": {
       "source_version": "1528778ac63e8c14b702c4441985d5e0bd01980f81fea94849b43b12324430f1",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "深度机智": {
       "source_version": "64da2d45563f13269000a5666cc16801b9be268caaafc0bc11cb381fba7c35cd",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "群核科技": {
       "source_version": "1b4cd9694364fe2ba82feb3c83a3d7fb0a7301f6dc408db492d46620142f8d93",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州德适生物科技股份有限公司": {
       "source_version": "898cb37c5742a6a7fa79a66bf51cd345b2a0bbda3c31ef32ce298b5e0c36a45a",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "极佳视界": {
       "source_version": "34faf22c11d502bb4b23d6d5cc0a01c172d20a777a67b832c11d77a9fc54ac7f",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "灵猴机器人": {
       "source_version": "03b879e5ec92cd962773c3d9f13c73e3298ba2c5070b5dc685bdef5a229d15d2",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "昆仑芯": {
       "source_version": "ffda04838f73d1503313276efe4ad9f4dab1a8cbac9cc9f1071a382166a3912c",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "中茵微电子(北京)股份有限公司": {
       "source_version": "4474832b11903050c354977673c3b6ecf4ccfb142686899c5f445e0834a93362",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "禾赛科技": {
       "source_version": "fb551dd5617c0007b7ee80eb2601193d456a5768f96dc193792da9958f7c979f",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "SK海力士": {
       "source_version": "d16d0750cfff244c9eb0b6eafdb00527339dea80738698a738bcca5786d374c5",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "台积电": {
       "source_version": "73cb563ccb712479e7392b66b7c091d159daa38fcd3fb23fdb7ef676c1e3a0d4",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "爱芯元智": {
       "source_version": "b014a36becb5cc0eaa37d48261ca8f97964b7b7b2d868084f6e4070726767fab",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "自变量机器人": {
       "source_version": "13eb4753e7b7bb641c9b8042550f2623e8e0960d0399a8b0edbc7cd57eb0f015",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "比特幻境": {
       "source_version": "fc4b41b7ea5e7d0bf54d69d6ff4977f0f07015cf655c9fd5d1c2c94561b9dfdf",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "SpaceX": {
       "source_version": "dbf4bb0699fd073ea7d7d1ce7d5572aea4bd1b71f0d3f77b557bf033afb4c9f0",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州低空产业发展有限公司": {
       "source_version": "a3a6e96a3650c65a71915cd94f3fa7feefcd2caf0a37009216f54db74d539f3e",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "盛合晶微半导体有限公司": {
       "source_version": "db35f8940462cfcb8ffb607996d6caab2a1b5d1a006db902a0b94d0f681abcb4",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "d-Matrix": {
       "source_version": "aeb8b320b42b665283c9b10b8e36e3f5d653341c1396a56b1b6480376ce53c7a",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Manifold AI（流形空间）": {
       "source_version": "bb47a0bcff37c8a0c08a9935b0b2c68fbc49bad70aed60b58e374ee81d4b7813",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "量旋科技": {
       "source_version": "bd5ad19b35f32587c814617cb92399e761ddb83b7cb5e051d804ed82bbcb154d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州芝诺未来技术有限责任公司": {
       "source_version": "d4bc5702449bda4672855c9b5d0fec2663a1bceedd11963ca41acc18fe330c42",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "三星电子": {
       "source_version": "51693ad522d6a77d822a296ae277b04ad85b8713d7c512b2a66a34dff5355a02",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Rapidus": {
       "source_version": "d8a7dba82f0041e5127d12e58e46c77d234de79dd6c40ff8018a63b71b1af55e",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "阿里巴巴": {
       "source_version": "02190a5d0be9758e6fb9a0f4d71d26700c8a6f602e9c5b5bebeb8fb465bbdc55",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州深度求索人工智能基础技术研究有限公司": {
       "source_version": "a3ea002d417c961e4b7a7463720d52faa53b62579288bdb1ee3761bc8ba5ad2f",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "面壁智能": {
       "source_version": "5cb44de5dc6a91a8817979c9a1311da93c1291f92ce3b3a7f91c68e5c4dc2f73",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "三星电机": {
       "source_version": "11ab15017fc7c7e7e041d5dd53ca9254e98feabd52fb5cbe759a8311f377c3a2",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "原力灵机": {
       "source_version": "bcef183e0ab64d4eeb4a0d6c451b44d2b9366872750fb46be39ee2e0a36b0110",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "小马智行": {
       "source_version": "ef9c25aa8c7626c2fec8ff8fcb1ad68cf183c874bd5b834d281a8fcf148535fa",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "斜跃智能": {
       "source_version": "c67ac0516fd969e0b98867d2db14f26b350b4f4ad928b5a7aedc24cfde423d66",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "星动纪元": {
       "source_version": "8f889fbac4cbb543e4233db2afbc1fdb81717e81ce5d0806481a2da02ff0a845",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "生数科技": {
       "source_version": "60a22f7325616964f769c43fd54e47ab9a906f710ca070b12786b940217983a0",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "MiniMax": {
       "source_version": "45c56419f1d1e4bc0b40aa0bd9be27673ba3ffb52f8b6940ab25c54c7d588a8d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "众擎机器人": {
       "source_version": "b817ed06cf8a8bb6f59b3cedb39953bbda594ea36b8ec6c81b92f396ab509d58",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Cerebras Systems": {
       "source_version": "66e7ac0861eae6362df6e93620454c5e84b85baeabd059a74cca01f1e21aff58",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "特斯拉": {
       "source_version": "60f8e9e0b3f50a0908f87d8d1e8955a7a979d40524ecc19232d56a34546f619d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "IBM": {
       "source_version": "f9cabb24323fb0750e7703f3adfc51edb156d2edcb72e41317759ecaf096ec74",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Cursor": {
       "source_version": "aab9718b54c3e8bd3e612d0eb8491d86e1c11f7196b9d9b9f50c82de6711f89d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "上海苏度科技有限公司": {
       "source_version": "6f68d036c970f5e2f33c76ec16bcacb32e8beb398b779690004b3581d34366d9",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "蚂蚁集团": {
       "source_version": "e385caf4cbc99f194be5f38e6943617dc12de96fad1227f9c54aea595f41a13c",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "曦望(Sunrise)": {
       "source_version": "90264204473f39589d627b9969d57037acd9d61baec404c4b00d6d07e04b6821",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "沃兰特航空": {
       "source_version": "cf203fa0ccd2b969b37ab57678af156b694e023ec7df7e2ebaff3b73829686d0",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "图灵量子": {
       "source_version": "3189b3598c229125d057bb61e0b6bd0ca534c594fa8a857eac2e5c69b729ac52",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Axiom Math": {
       "source_version": "fa2ac0c4d6baaeae73bf3d33950e5e35c4e2961a327abe700c0208ea1f7fa5ae",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Rokid": {
       "source_version": "e55facf0f440593f01d48e74ad1d5417658a4b6cf915bb527ed44272de50c5f4",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "上海垣信卫星科技有限公司": {
       "source_version": "b9ceceacd193869374691c875338edb7db3dfd32d1b676378ecf2486fc68c68a",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州暖芯迦电子科技有限公司": {
       "source_version": "f2c93ee6c548c39149bc7609d6ac42319fb0bcd201f66d039b97c824fb86203a",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "乐聚机器人": {
       "source_version": "c97ce92dc41ed0d83d038077ac404baf600a7165e6325d5b89fe8375acc2b864",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "宇石空间": {
       "source_version": "08e5d9b46e6df56c44d8d1945e7831e65a15fe5c2c5ea4d9b5e9327020397f08",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Vbot维他动力": {
       "source_version": "d685bc3757d8ac25ebeec002874e8efd0dc55aad92e1780982a7b3a5a7439416",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "眸深智能": {
       "source_version": "c7d9cb30a9700efe0306ab48f2efdccc5a9e85419e8caf2ce8d036ba60d700e4",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "光帆科技": {
       "source_version": "8bfc7109bab0ffcf420ef6743adcdbc8408810c93083a7469cdda2b26f2c58b1",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "具微科技": {
       "source_version": "b9f977734c1e8de6304a8931b8ea9cfbc2cc71f73fa68ea8b6dedddbb230db55",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "驭势科技(北京)股份有限公司": {
       "source_version": "158e5acd39b6c52f96cb23b68f6348195d3b161cfd3c911042967524f478f751",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "AMD": {
       "source_version": "24ae9b7443450a0368cce80218dad6af1be821c0f0ee4fa86c5cb723dd2a4513",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Bolt Graphics": {
       "source_version": "c3e6cc8e07c1c812d183d3ae3ef90cd1a2ce773269165cd1d502939f0f71ad15",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "浙江智邦锂电新材料有限公司": {
       "source_version": "80b72f27b88c607d10256293c042069a947409b036d979fe63a5e4e9bc2f2d1c",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "长鑫科技集团股份有限公司": {
       "source_version": "1b392944c584e3f669c7aafa9669aac7c1a8ad5f4b6da5a5a0d84cd2cd999f3e",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "星尘智能": {
       "source_version": "ec76f7571c1aa4de6d878c29a6bbc14d024a0ec792e218d0106c9809dfd8c3ea",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "千寻智能": {
       "source_version": "6761268d74ed99b2e744065b10a2158d2f746f39d3b42ef141037184ec9af658",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "粤芯半导体": {
       "source_version": "4282530eff00c89949bb889f288aa1eb97d2fbbab18201d8add6a3d125c764a6",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "华为": {
       "source_version": "254964dad2a8d2ea0791427511cd94f38deb47c52d116a6f340bdc1d98ab465e",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "上海燧原科技股份有限公司": {
       "source_version": "f2687bbbc418d74fecf0c5539e3b693957838b7103a389a65b580e263bb2cae4",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州求是未来技术有限公司": {
       "source_version": "22d94352686a0ac4ab3eea1aba2b1a99cba07ae83c706034f255743ebc2832b9",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州逻辑比特科技有限公司": {
       "source_version": "356c8d54eb7acd114b5a762b979307ba1097bffd9345f419d62887b285768b47",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "魔芯科技": {
       "source_version": "c2b3b38d8e362c9aba2783ea49f9d66e752203c76c2137561e4ec469c5a6d24e",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "记忆张量": {
       "source_version": "14b861beb345d3dbc3237e991192c41890170cee7fbcc9c29ab2c6b58d4723fc",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州佳量脑科学股份有限公司": {
       "source_version": "65807eed7d6e3f5efda4a3c78986bc1a32477da7200dc56a285d4a0e1b112f4a",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "深圳诺因智能有限公司": {
       "source_version": "fd08460327e4e176c6be9e193bfe244e213d097b478dddfe9871dfc1dbbd9c1c",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "北京智谱华章科技股份有限公司": {
       "source_version": "a4126a31c3ce3b746207c4ba1c57b0aa06d3cc6c2b8f1de7335fc8bf82cd3900",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "江波龙": {
       "source_version": "dff18b3162212717bd9304b154524bd1ad6436e07d8fc9b45140116869b7c5b0",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Anthropic": {
       "source_version": "77fe3d43652b3a34239ae2f16f722a8bea2c8318422891301a39102acf5883ef",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "浙江时空道宇科技有限公司": {
       "source_version": "5d2e6e5c39e68d5e842d59351e610f6868fbebb078da29af52aa31c198b96b4a",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州四维太空智能科技有限公司": {
       "source_version": "a894eb5eb19a14f13217fd06adf4632e774b8b2d74c41d433cb8c2f6acd6be40",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "上海智元新创技术有限公司": {
       "source_version": "cf607989ed2dc405c76ab48d8bd1680b384f7a4f559319747d976d92f1e9f496",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州影身智能技术有限公司": {
       "source_version": "3fb92afe41dfb5cf7323671a75843a3b23d48a6ef85d56073a7085b4b10eb446",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州微路智能科技有限公司": {
       "source_version": "55e547a591a5389ee639c504601a01adde974121deab340c952bdc58ab41c4bb",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "TypeSafe AI": {
       "source_version": "fd7bd16ee45dcef443ff6d82224795683fd4b29927b892e01d2c95047ecda3e5",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Instinct": {
       "source_version": "dc60829e39acfa47d68ba539384c79f82a3c71f941b374a104101b333b192f2d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "宁德时代": {
       "source_version": "0381e6245dc39bbf2342b5ba0ac8eb7eb9823b7e9c5e0d45a379bcd5b4a926a5",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Skild AI": {
       "source_version": "d0e117c0b04640415307fb22761d132a33fe1f35b0e666706364c6c9c56dc66d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "上海星环聚能科技有限公司": {
       "source_version": "02888cc393b8bfddf608e4c0eaac8ea586b4b0bf82d152ddfee0c7e3c2b2b97d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "奕斯伟计算": {
       "source_version": "95144d40c67155f1b482a667b8c38cbd2247460660cc29b5b852a802098ee855",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "小鹏汽车": {
       "source_version": "8be1f8e1ba7389d0937fe502d7b5e56c8d762b30366f6da8f599ce6e544adce8",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "比亚迪": {
       "source_version": "3aa648d2f1a40f02231c8b75bbe5351292ea0008f992c313d90358c396b54336",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "中科寒武纪科技股份有限公司": {
       "source_version": "730a17a34c5a478e90f344aef2fe4b218ad740b28443ea9c24d95fe4f1d0406d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "赛力斯": {
       "source_version": "16816a6c533f1e3924abba8c1a5d54f187f85cf8ecae6f2ca2db5bc059a63d13",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "腾讯": {
       "source_version": "86327df43445075fa63e6a7d51134fc90938bbad4df48ce6514477e348f6f796",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "英伟达": {
       "source_version": "326a803d69566d1e72970b18556348cedfccecff614f366c881cd6af3967229d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "广东高域科技有限公司": {
       "source_version": "3e61de2d622b191eeb12136c983e9c93b621fc82db52ea23505e61d5bf93a68d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "OpenAI": {
       "source_version": "b5f1406afe0f6e22b1efb79b73346e2ea383ba8b4338e11d9cbe6a1f341abfa2",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "博通": {
       "source_version": "1f0aa2fb10570223161ce3232409e244b631e73c98e07d355a4c48080d004e31",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Meta": {
       "source_version": "926c16fc48d4361c9ff74a0b394d3675ae7fdbdc65a6f7e67ddce4998d4f0833",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "谷歌": {
       "source_version": "2d1f4a85f855ba15babc99ef284c657ae6ccdc461659aee71d5612b23de5495d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "微软": {
       "source_version": "9f09daf37abb6585be583fd724834bfeab73818cfad78157a12f8e45750531e7",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "英特尔": {
       "source_version": "eb3c0d37f5b31739ac40a5853e21a1865e2cc65abdd3143b8febc9767d3806f3",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "张雪机车": {
       "source_version": "9488de0fabd1184c5b49d21e3b435b98e321b0ea68f174a8d0f930ab689f3947",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "乐动机器人": {
       "source_version": "888e7b8df7235746372af7f3a7d1510e4f633602c57494e0c91dc2c536e4504d",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "无问芯穹": {
       "source_version": "af5e212f4b35caa4c21470a89a326f4c10a204bb3b4e3e8fe1f40436833086ed",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "OPay": {
       "source_version": "6073b8e90505e09429dbf8eea30483472647058572ff934bcdd133de33fe6b2e",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "阿里": {
       "source_version": "a24478399a14984eeff99fc2237be6e33f4975d5ad6af6fa459fc18358dde563",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "苹果": {
       "source_version": "c3e5dbaa89e2680972932bf1ada6ef1ed65bc8fe2350ba8eb69cf6ebe670017f",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Waymo": {
       "source_version": "774cda28bc6316695b094e89c35c064c10a5d5ea2d2b3155653479ed3c3a7cea",
-      "source_epoch": 1792953200023,
+      "source_epoch": 1792975054632,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     }
@@ -52816,39 +53053,46 @@
   },
   "observations": {
     "path": "data/observations.json",
-    "version": "ef7b891c0547451394eda90176b0b13be4d435be98060abf066d01d63a0aaf96",
+    "version": "b67fd47df21cdefe8d232eb802d2939b4fca95090283d0a1b92a11876b3b1708",
     "company_count": 313,
     "reading_count": 109,
     "lead_count": 204,
     "topic_count": 11
   },
   "company_observations": {
-    "思流之光科技（杭州）有限责任公司": [
+    "北京智谱华章科技股份有限公司": [
       {
         "id": "obs-650aaea2e6f5cc4c",
         "question": "企业Agent的交付瓶颈是否转向业务接入与权限控制？",
         "title": "企业智能体交付将先分流：平台内直接用，跨系统重接业务"
       }
     ],
-    "昆元量子": [
+    "杭州曦诺未来科技有限公司": [
       {
-        "id": "obs-890bd72a10b0d101",
-        "question": "原子钟系统验证与量产线，离重复供货还差什么？",
-        "title": "原子钟走向重复供货，关键是把器件差异留在制造端"
+        "id": "obs-487c073ea2866b5a",
+        "question": "动捕、触觉与灵巧手，哪些已从验证走向重复供货？",
+        "title": "触觉、动捕与灵巧手的复购，将沿不同的客户流程形成"
       }
     ],
-    "杭州鲁尔物联科技有限公司": [
+    "兆丰机电": [
+      {
+        "id": "obs-9796cd2942ed553d",
+        "question": "机器人批量出货，是否意味着工厂可以持续替人？",
+        "title": "机器人进入工厂后，先改变的可能是值守方式"
+      }
+    ],
+    "零一万物": [
+      {
+        "id": "obs-650aaea2e6f5cc4c",
+        "question": "企业Agent的交付瓶颈是否转向业务接入与权限控制？",
+        "title": "企业智能体交付将先分流：平台内直接用，跨系统重接业务"
+      }
+    ],
+    "杭州宇谷科技股份有限公司": [
       {
         "id": "obs-1e7f6f9078b6871e",
         "question": "杭州安全预警模型，能否把识别优势转成处置闭环？",
         "title": "杭州安全预警的下一场竞争是让判断改变行动"
-      }
-    ],
-    "杭州低空产业发展有限公司": [
-      {
-        "id": "obs-b2134cda028e2ad5",
-        "question": "杭州无人机配送怎样接入日常消费？",
-        "title": "杭州无人机配送进入日常消费，靠的是接入普通订单"
       }
     ],
     "阿里": [
@@ -52858,7 +53102,105 @@
         "title": "DeepSeek与千问的共同方向，是让算力少等、任务不断"
       }
     ],
+    "杭州慧感智能科技有限公司": [
+      {
+        "id": "obs-487c073ea2866b5a",
+        "question": "动捕、触觉与灵巧手，哪些已从验证走向重复供货？",
+        "title": "触觉、动捕与灵巧手的复购，将沿不同的客户流程形成"
+      }
+    ],
+    "杭州影身智能技术有限公司": [
+      {
+        "id": "obs-9796cd2942ed553d",
+        "question": "机器人批量出货，是否意味着工厂可以持续替人？",
+        "title": "机器人进入工厂后，先改变的可能是值守方式"
+      }
+    ],
+    "浙江悦和科技有限公司": [
+      {
+        "id": "obs-08174181aaab3917",
+        "question": "无源测温芯片量产后，旋转设备监测的复制门槛在哪里？",
+        "title": "悦和无源测温量产后的复制门槛在动态读数与安装配置"
+      }
+    ],
+    "青瞳(杭州)机器人科技有限公司": [
+      {
+        "id": "obs-487c073ea2866b5a",
+        "question": "动捕、触觉与灵巧手，哪些已从验证走向重复供货？",
+        "title": "触觉、动捕与灵巧手的复购，将沿不同的客户流程形成"
+      }
+    ],
+    "昆元量子": [
+      {
+        "id": "obs-890bd72a10b0d101",
+        "question": "原子钟系统验证与量产线，离重复供货还差什么？",
+        "title": "原子钟走向重复供货，关键是把器件差异留在制造端"
+      }
+    ],
+    "CACES凯瑟斯技术(杭州)有限公司": [
+      {
+        "id": "obs-890bd72a10b0d101",
+        "question": "原子钟系统验证与量产线，离重复供货还差什么？",
+        "title": "原子钟走向重复供货，关键是把器件差异留在制造端"
+      }
+    ],
+    "思流之光科技（杭州）有限责任公司": [
+      {
+        "id": "obs-650aaea2e6f5cc4c",
+        "question": "企业Agent的交付瓶颈是否转向业务接入与权限控制？",
+        "title": "企业智能体交付将先分流：平台内直接用，跨系统重接业务"
+      }
+    ],
+    "至简动力": [
+      {
+        "id": "obs-9796cd2942ed553d",
+        "question": "机器人批量出货，是否意味着工厂可以持续替人？",
+        "title": "机器人进入工厂后，先改变的可能是值守方式"
+      }
+    ],
+    "神踪科技": [
+      {
+        "id": "obs-745b7a6fd47b1eb1",
+        "question": "便携睡眠监测进入社区，神踪怎样把筛查接到诊疗？",
+        "title": "神踪把睡眠监测搬进社区，诊疗衔接比设备下沉更重要"
+      }
+    ],
     "字节跳动": [
+      {
+        "id": "obs-650aaea2e6f5cc4c",
+        "question": "企业Agent的交付瓶颈是否转向业务接入与权限控制？",
+        "title": "企业智能体交付将先分流：平台内直接用，跨系统重接业务"
+      }
+    ],
+    "杭州低空产业发展有限公司": [
+      {
+        "id": "obs-b2134cda028e2ad5",
+        "question": "杭州无人机配送怎样接入日常消费？",
+        "title": "杭州无人机配送进入日常消费，靠的是接入普通订单"
+      }
+    ],
+    "杭州老板电器股份有限公司": [
+      {
+        "id": "obs-7f1a0f73a92c993a",
+        "question": "老板电器怎样把烹饪大模型接进真实业务？",
+        "title": "老板电器把烹饪大模型装进产品，差异取决于建议如何落到操作"
+      }
+    ],
+    "杭州鲁尔物联科技有限公司": [
+      {
+        "id": "obs-1e7f6f9078b6871e",
+        "question": "杭州安全预警模型，能否把识别优势转成处置闭环？",
+        "title": "杭州安全预警的下一场竞争是让判断改变行动"
+      }
+    ],
+    "阿里巴巴": [
+      {
+        "id": "obs-af2dea2e0c74c046",
+        "question": "玄铁怎样把单核性能变成智能体整程加速？",
+        "title": "玄铁整程加速的机会在工具执行与本地推理的衔接"
+      }
+    ],
+    "华为": [
       {
         "id": "obs-650aaea2e6f5cc4c",
         "question": "企业Agent的交付瓶颈是否转向业务接入与权限控制？",
@@ -52879,116 +53221,11 @@
         "title": "玄铁整程加速的机会在工具执行与本地推理的衔接"
       }
     ],
-    "杭州曦诺未来科技有限公司": [
-      {
-        "id": "obs-487c073ea2866b5a",
-        "question": "动捕、触觉与灵巧手，哪些已从验证走向重复供货？",
-        "title": "触觉、动捕与灵巧手的复购，将沿不同的客户流程形成"
-      }
-    ],
-    "浙江悦和科技有限公司": [
-      {
-        "id": "obs-08174181aaab3917",
-        "question": "无源测温芯片量产后，旋转设备监测的复制门槛在哪里？",
-        "title": "悦和无源测温量产后的复制门槛在动态读数与安装配置"
-      }
-    ],
-    "杭州老板电器股份有限公司": [
-      {
-        "id": "obs-7f1a0f73a92c993a",
-        "question": "老板电器怎样把烹饪大模型接进真实业务？",
-        "title": "老板电器把烹饪大模型装进产品，差异取决于建议如何落到操作"
-      }
-    ],
-    "青瞳(杭州)机器人科技有限公司": [
-      {
-        "id": "obs-487c073ea2866b5a",
-        "question": "动捕、触觉与灵巧手，哪些已从验证走向重复供货？",
-        "title": "触觉、动捕与灵巧手的复购，将沿不同的客户流程形成"
-      }
-    ],
-    "阿里巴巴": [
-      {
-        "id": "obs-af2dea2e0c74c046",
-        "question": "玄铁怎样把单核性能变成智能体整程加速？",
-        "title": "玄铁整程加速的机会在工具执行与本地推理的衔接"
-      }
-    ],
     "杭州深度求索人工智能基础技术研究有限公司": [
       {
         "id": "obs-3452704965ce28f2",
         "question": "DeepSeek和千问怎样减少智能体训练中的空等？",
         "title": "DeepSeek与千问的共同方向，是让算力少等、任务不断"
-      }
-    ],
-    "兆丰机电": [
-      {
-        "id": "obs-9796cd2942ed553d",
-        "question": "机器人批量出货，是否意味着工厂可以持续替人？",
-        "title": "机器人进入工厂后，先改变的可能是值守方式"
-      }
-    ],
-    "北京智谱华章科技股份有限公司": [
-      {
-        "id": "obs-650aaea2e6f5cc4c",
-        "question": "企业Agent的交付瓶颈是否转向业务接入与权限控制？",
-        "title": "企业智能体交付将先分流：平台内直接用，跨系统重接业务"
-      }
-    ],
-    "杭州慧感智能科技有限公司": [
-      {
-        "id": "obs-487c073ea2866b5a",
-        "question": "动捕、触觉与灵巧手，哪些已从验证走向重复供货？",
-        "title": "触觉、动捕与灵巧手的复购，将沿不同的客户流程形成"
-      }
-    ],
-    "CACES凯瑟斯技术(杭州)有限公司": [
-      {
-        "id": "obs-890bd72a10b0d101",
-        "question": "原子钟系统验证与量产线，离重复供货还差什么？",
-        "title": "原子钟走向重复供货，关键是把器件差异留在制造端"
-      }
-    ],
-    "杭州宇谷科技股份有限公司": [
-      {
-        "id": "obs-1e7f6f9078b6871e",
-        "question": "杭州安全预警模型，能否把识别优势转成处置闭环？",
-        "title": "杭州安全预警的下一场竞争是让判断改变行动"
-      }
-    ],
-    "杭州影身智能技术有限公司": [
-      {
-        "id": "obs-9796cd2942ed553d",
-        "question": "机器人批量出货，是否意味着工厂可以持续替人？",
-        "title": "机器人进入工厂后，先改变的可能是值守方式"
-      }
-    ],
-    "至简动力": [
-      {
-        "id": "obs-9796cd2942ed553d",
-        "question": "机器人批量出货，是否意味着工厂可以持续替人？",
-        "title": "机器人进入工厂后，先改变的可能是值守方式"
-      }
-    ],
-    "神踪科技": [
-      {
-        "id": "obs-745b7a6fd47b1eb1",
-        "question": "便携睡眠监测进入社区，神踪怎样把筛查接到诊疗？",
-        "title": "神踪把睡眠监测搬进社区，诊疗衔接比设备下沉更重要"
-      }
-    ],
-    "华为": [
-      {
-        "id": "obs-650aaea2e6f5cc4c",
-        "question": "企业Agent的交付瓶颈是否转向业务接入与权限控制？",
-        "title": "企业智能体交付将先分流：平台内直接用，跨系统重接业务"
-      }
-    ],
-    "零一万物": [
-      {
-        "id": "obs-650aaea2e6f5cc4c",
-        "question": "企业Agent的交付瓶颈是否转向业务接入与权限控制？",
-        "title": "企业智能体交付将先分流：平台内直接用，跨系统重接业务"
       }
     ]
   },
@@ -53083,7 +53320,8 @@
       "f92b1f19836c81ef756c3ff1f6a133d243be1eb1a511852c3e1e857541509667": "f92b1f19836c81ef756c3ff1f6a133d243be1eb1a511852c3e1e857541509667"
     },
     "2026-10-26": {
-      "80ccb03f915f511b64a29337226c3a4e0a2879c3e4459de53e21545ddab1cf8d": "80ccb03f915f511b64a29337226c3a4e0a2879c3e4459de53e21545ddab1cf8d"
+      "80ccb03f915f511b64a29337226c3a4e0a2879c3e4459de53e21545ddab1cf8d": "80ccb03f915f511b64a29337226c3a4e0a2879c3e4459de53e21545ddab1cf8d",
+      "f192ddc4bb6600fdb290fa04a56567b848919c70c51bee93d54ff9e8618dc2c8": "f192ddc4bb6600fdb290fa04a56567b848919c70c51bee93d54ff9e8618dc2c8"
     }
   }
 }
