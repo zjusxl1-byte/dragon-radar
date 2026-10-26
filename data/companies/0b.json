@@ -1293,16 +1293,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/IFsZGCeXJ80BlOCDKHtK4g",
       "sector": "汽车制造及制动安全部件",
-      "location": "地点待核",
+      "location": "安徽省 / 合肥市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "安徽省 / 合肥市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3c7d0c0b5c526bb99de0c8ec"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "江淮集团",
         "subject_locality": {
           "status": "unknown",
@@ -1310,7 +1312,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3c7d0c0b5c526bb99de0c8ec",
+            "source_url": "https://www.chinaspv.com.cn/company/52.html",
+            "checked_at": "2026-10-26T18:05:14.829668+00:00",
+            "subject": "江淮集团",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "安徽省",
+              "city": "合肥市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "安徽省",
+          "city": "合肥市",
+          "evidence_ids": [
+            "geo-3c7d0c0b5c526bb99de0c8ec"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
