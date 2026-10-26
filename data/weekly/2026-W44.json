@@ -5,7 +5,7 @@
   "start_date": "2026-10-26",
   "end_date": "2026-11-01",
   "summary": {
-    "total_companies": 7,
+    "total_companies": 8,
     "financing_events": 2,
     "ipo_events": 0,
     "milestone_events": 2,
@@ -1092,6 +1092,191 @@
       }
     },
     {
+      "company_raw_name": "IBM研究院",
+      "identity_mentions": [
+        {
+          "name": "IBM Research",
+          "relation": "same_entity",
+          "evidence": "IBM研究院（IBM Research）"
+        }
+      ],
+      "title": "1nm后的晶体管，四强争霸！",
+      "company": "IBM研究院",
+      "score": 35,
+      "sector": "半导体先进逻辑制造",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "US / New York / 257 Fuller Rd, Albany, NY 12203",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / New York / 257 Fuller Rd, Albany, NY 12203",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fc01c41b422ff23b14e12297"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "IBM研究院",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-fc01c41b422ff23b14e12297",
+            "source_url": "https://research.ibm.com/labs/albany",
+            "checked_at": "2026-10-26T00:32:09.146901+00:00",
+            "subject": "IBM研究院",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "New York",
+              "city": "Albany",
+              "address": "257 Fuller Rd, Albany, NY 12203"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "New York",
+          "city": "Albany",
+          "evidence_ids": [
+            "geo-fc01c41b422ff23b14e12297"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-cefb967814a84f634579",
+      "company_canonical_name": "IBM研究院",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Bl1zkKU4knHK_L5dLqJ94w",
+      "article_title": "1nm后的晶体管，四强争霸！",
+      "event_desc": "文章介绍IBM研究院的Nanostack顺序集成路线：各层晶体管先在独立晶圆完成高温步骤，再经键合集成，采用交错布局增加接触通道。IBM于2026年6月25日的官方说明确认晶圆级键合、对准和背面供电等技术，并将相对2纳米技术的50%速度提升、70%能耗降低表述为初始预测。该技术仍处于研究与产业采用准备阶段。",
+      "insight": "IBM研究院选择先分别完成各层高温制造再键合，针对的是上层加工可能损伤底层器件的热预算问题；交错布局则为下层接触和布线留出通道。这条路线把部分难点从连续加工转移到键合与对准，提供了不同于单片集成的工程取舍，而非已经证明性能全面领先。",
+      "event_headline": "IBM研究院介绍先分层制造再键合的Nanostack路线",
+      "event_signal": "context",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-25",
+        "event_date": null,
+        "observed_date": "2026-10-25",
+        "review_required": true
+      },
+      "published_date": "2026-10-25",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "复读半导体行业观察全文及IBM官方Nanostack说明，确认IBM研究院为顺序集成、晶圆键合和交错接触路线的研究承担组织，不要求把研究部门冒认为独立工商法人。官方Albany实验室介绍列明半导体研发活动、相关负责人及美国地址，本轮已审普通经营归属成立，原地点缺口已补齐。原报道2026-10-25发布在七日窗口；6月已有官方技术解释，不包装成10月新突破。其对热预算、晶圆对准和下层接触的工程取舍，对杭州键合、互连及先进制造研发有具体参照价值；该稳定主体历史未见已刊Nanostack同事件，先前watch均逐份比较后因新证据改判。作为外部正面研究路线保留，不赋全国标杆或杭州负面资格。",
+      "event_headline_source": "3e96c61d3152143085bc8b6d89746a656897f1001fed3e457fdc122b4a75a14a",
+      "event_identity": {
+        "canonical_id": "文章介绍IBM研究院的Nanostack技术路线：上下层晶体管先在独立晶圆上完成高温工艺，再通过键合集成，并采用交错布局增加前侧和背侧直接接触点。文章转述IBM预测，相较当前2纳米级工艺，该技术可带来约50%的性能提升、70%的能效改善及40%的面积缩减；IBM预计从其最新研究成果发布起，商业化约需六年。文中未给出该成果的精确发布日期。"
+      },
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-fc01c41b422ff23b14e12297",
+          "source_url": "https://research.ibm.com/labs/albany",
+          "checked_at": "2026-10-26T00:32:09.146901+00:00",
+          "subject": "IBM研究院",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "New York",
+            "city": "Albany",
+            "address": "257 Fuller Rd, Albany, NY 12203"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条确认具体研究技术路线及普通美国经营归属；不以企业知名度或单项预测独立授予全国标杆标签，外部研究事件本身可以保留。",
+        "evidence_ids": [
+          "article:d04f7eedca0e95c3",
+          "official_technology_source:3952ddc953885825"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent + overnight-current-model directed review",
+        "candidate_id": "37c02b5a546943065edb9be7540dcdcba72204de340c2c576c61893bd7e706b5",
+        "input_row_sha256": "09ff63252e8b62132890bd67c41cbfdff2cff25181901f27f689cd766b32cf7b",
+        "reason": "复读半导体行业观察全文及IBM官方Nanostack说明，确认IBM研究院为顺序集成、晶圆键合和交错接触路线的研究承担组织，不要求把研究部门冒认为独立工商法人。官方Albany实验室介绍列明半导体研发活动、相关负责人及美国地址，本轮已审普通经营归属成立，原地点缺口已补齐。原报道2026-10-25发布在七日窗口；6月已有官方技术解释，不包装成10月新突破。其对热预算、晶圆对准和下层接触的工程取舍，对杭州键合、互连及先进制造研发有具体参照价值；该稳定主体历史未见已刊Nanostack同事件，先前watch均逐份比较后因新证据改判。作为外部正面研究路线保留，不赋全国标杆或杭州负面资格。",
+        "scope": {
+          "technology_evidence": "原媒体全文和IBM官方技术说明均确认n/p器件顺序堆叠、晶圆级键合及交错布局；官方明确对准、平整度、互连与背面供电是集成难点，性能及能耗为初始预测。",
+          "value_reason": "这条路线用分层工艺缓解底层器件的热预算约束，集成难度转移至晶圆键合、精确对准和多层接触；可用于比较杭州相关设备及工艺研究的技术环节，不把预测指标横排为量产优势。"
+        },
+        "stage": {
+          "status": "已有研究路线与初始性能预测，尚非量产交付",
+          "reason": "原报道2026-10-25发布符合采集窗口；IBM官方2026-06-25已有同名技术说明，不能把转载日写成突破日。官方说明仍列出热传导键合层、3D计量与EDA等后续工作；不以约六年预测推算确定商业化日期。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:7d8c5a53ad8d94da",
+            "prior_decision:a9b6480491ab8927",
+            "prior_decision:2a3931902862946a",
+            "prior_decision:0616fd511e5c515a"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:a9b6480491ab8927",
+              "comparison": "same_event",
+              "reason": "同一Nanostack事件，原watch基于地点和组织关系缺证；本轮官方技术及实验室资料补足普通归属，不是换URL抹去旧裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:2a3931902862946a",
+              "comparison": "same_event",
+              "reason": "同一Nanostack事件，原watch基于地点和组织关系缺证；本轮官方技术及实验室资料补足普通归属，不是换URL抹去旧裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:0616fd511e5c515a",
+              "comparison": "same_event",
+              "reason": "同一Nanostack事件，原watch基于地点和组织关系缺证；本轮官方技术及实验室资料补足普通归属，不是换URL抹去旧裁决。"
+            }
+          ],
+          "change_reason": "原检索无已刊Nanostack事件，本轮历史无读取错误；此前三次watch是同事件待核，不是拒绝。官方原文和Albany设施/团队补证使普通外部研究路线可刊；保留研究部门本身，不并入IBM法人。2024年三星联合阶梯结构另属一项成果。",
+          "new_evidence_ids": [
+            "article:d04f7eedca0e95c3",
+            "official_technology_source:3952ddc953885825",
+            "official_organization_source:c4a126e6da12dc6b"
+          ]
+        },
+        "evidence_ids": [
+          "article:d04f7eedca0e95c3",
+          "history_lookup:7d8c5a53ad8d94da",
+          "identity_registry:2dcd4f408df25406",
+          "geo-fc01c41b422ff23b14e12297",
+          "geography_registry:b93d03cf35486d17",
+          "prior_decision:a9b6480491ab8927",
+          "prior_decision:2a3931902862946a",
+          "prior_decision:0616fd511e5c515a",
+          "official_technology_source:3952ddc953885825",
+          "official_organization_source:c4a126e6da12dc6b"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条确认具体研究技术路线及普通美国经营归属；不以企业知名度或单项预测独立授予全国标杆标签，外部研究事件本身可以保留。",
+          "evidence_ids": [
+            "article:d04f7eedca0e95c3",
+            "official_technology_source:3952ddc953885825"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "张雪机车",
       "title": "张雪驾驶改装摩托车MX450，成功刷新吉尼斯世界纪录；张雪：今天在故乡圆梦，也是想让这片土地被世界看见",
       "company": "张雪机车",
@@ -1294,14 +1479,14 @@
     "生成式人工智能／AI视频创作": 1,
     "人工智能／AI编程智能体": 1,
     "摩托车与动力系统": 1,
-    "半导体先进逻辑制造": 3,
+    "半导体先进逻辑制造": 4,
     "人工智能基础模型与GPU计算优化": 1
   },
   "daily_details": {
     "2026-10-26": {
-      "count": 7,
+      "count": 8,
       "negatives": 0
     }
   },
-  "created": "2026-10-26 02:33:51"
+  "created": "2026-10-26 08:37:32"
 }
