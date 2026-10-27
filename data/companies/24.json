@@ -809,11 +809,11 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/nNbXH3uUeT-5aFhbwIqf6w",
       "sector": "机器人/人工智能",
-      "location": "地点待核",
+      "location": "项目地：杭州市（企业属地待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
+        "display_location": "项目地：杭州市（企业属地待核）",
         "located_status": "unknown",
         "display_basis": [],
         "subject_evidence_ids": [],
@@ -826,7 +826,28 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-ee501545d9c307be59925b49",
+            "source_url": "https://mp.weixin.qq.com/s/r_hnn4sLeEAIj6EG2gbnqQ",
+            "checked_at": "2026-10-27T10:32:25+00:00",
+            "subject": "擎天租",
+            "role": "project",
+            "subject_relation": "mention",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "项目地：杭州市（企业属地待核）",
+          "detail": "擎天租操盘杭州东坡大剧院演出，项目不证明平台属地。",
+          "evidence_ids": [
+            "geo-ee501545d9c307be59925b49"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",
@@ -843,6 +864,79 @@
       "event_headline": "擎天租完成数亿元A轮及A+轮融资，全球网络首期落地13国",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "文章介绍，擎天租是2025年底由智元机器人和飞阔科技等联合成立的机器人租赁平台，目前覆盖50城、接入600余家服务商，可调度设备超过3000台，订单超过5500单。平台配置城市前置仓，为合作伙伴提供按需设备调度，并开展机器人演出、智慧街区和竞速赛等场景运营。",
+      "article_title": "机器人这门生意：租金跌九成，玩家却挤破头",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/r_hnn4sLeEAIj6EG2gbnqQ",
+      "sector": "机器人租赁平台与场景运营",
+      "location": "项目地：杭州市（企业属地待核）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "项目地：杭州市（企业属地待核）",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "擎天租",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-ee501545d9c307be59925b49",
+            "source_url": "https://mp.weixin.qq.com/s/r_hnn4sLeEAIj6EG2gbnqQ",
+            "checked_at": "2026-10-27T10:32:25+00:00",
+            "subject": "擎天租",
+            "role": "project",
+            "subject_relation": "mention",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "项目地：杭州市（企业属地待核）",
+          "detail": "擎天租操盘杭州东坡大剧院演出，项目不证明平台属地。",
+          "evidence_ids": [
+            "geo-ee501545d9c307be59925b49"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "涌金楼",
+      "kind": "event",
+      "canonical_name": "擎天租",
+      "company_entity_id": "dr-u-42ce80f6acd005d3644b",
+      "company_raw_name": "擎天租",
+      "identity_status": "unresolved",
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条披露运营规模但缺少行业比较和已审标杆依据；同名历史的is_national_star及融资估值不能替代主体核验与独立资格判断。",
+        "evidence_ids": [
+          "article:851c94c889be3999",
+          "accepted_history:f694196e2b36702d"
+        ]
+      },
+      "published_date": "2026-10-27",
+      "insight": "擎天租通过前置仓让服务商能够承接超出自有设备规模的订单，平台价值不只在撮合交易，也在组织设备供给。演出和街区活动则显示其参与创造租赁需求，但文中累计订单尚不能说明不同场景各自的持续需求。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "擎天租披露覆盖50城，以前置仓支持机器人按需调度",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "联华电子股份有限公司": [
@@ -1799,6 +1893,119 @@
       "event_date": "",
       "event_headline": "菲泽妥单抗在中国获批，天境承担商业化供药",
       "event_signal": "context",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "宁波均普智能制造股份有限公司": [
+    {
+      "date": "2026-10-28",
+      "title": "均普智能披露可租赁机器人超过30台，订单需求较去年增长近三成，已与宁波城市展览馆、水科院等本地政企客户建立长期合作。宁波城市展览馆先短期试租3天，均普智能随后为其定制开发自主导览、讲解功能，客户转为长期租赁。企业将租赁作为终端采购与整体解决方案交付的前期获客入口。",
+      "article_title": "机器人这门生意：租金跌九成，玩家却挤破头",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/r_hnn4sLeEAIj6EG2gbnqQ",
+      "sector": "具身智能与机器人解决方案",
+      "location": "地点线索：宁波市（正文支持本地经营语境，未明确注册地或总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "宁波均普智能制造股份有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "宁波市（正文支持本地经营语境，未明确注册地或总部）",
+      "source": "涌金楼",
+      "kind": "event",
+      "canonical_name": "宁波均普智能制造股份有限公司",
+      "company_entity_id": "dr-u-9f5456d4ce3d5fdb54ff",
+      "company_raw_name": "宁波均普智能制造股份有限公司",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "均普智能",
+          "relation": "same_entity",
+          "evidence": "均普智能具身智能事业部大客户经理尹子豪透露，目前企业可租赁机器人规模超30台，订单需求较去年增长近三成，已与宁波城市展览馆、水科院等本地政企客户建立起长期合作关系。"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体客户转化案例足以支持产业观察，但机器人数量和单一客户案例尚不足以证明全国领先地位或授予全国标杆资格。",
+        "evidence_ids": [
+          "article:851c94c889be3999"
+        ]
+      },
+      "published_date": "2026-10-27",
+      "insight": "展览馆从短期试租转向长期租赁，发生在均普智能增加自主导览和讲解功能之后，说明这一案例的价值从设备展示转向了具体接待工作。它提供了租赁承接功能适配的实例，但不能据此推定工业场景也已取得同样进展。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "均普智能定制自主导览功能，推动展览馆转向长期租赁",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Amazon": [
+    {
+      "date": "2026-10-28",
+      "title": "文章介绍，Amazon研究团队尝试用AI预测抗体性质。在一项模拟测试中，加入实验室测量偏移后，模型预测与实际数值的相关程度明显下降。团队在预测新抗体前，向模型提供同一实验室已测样本及结果，采用这一方法的版本在上述模拟测试中保持了原有的高相关水平。",
+      "article_title": "「很多研究工作已经没有意义」：清华科研圈聊如何用AI做科研",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/-5m84SFKMgZ9CDt4fum3wQ",
+      "sector": "AI制药与抗体研发",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Amazon",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "Amazon",
+      "company_entity_id": "dr-u-cbc62794911ff31b2864",
+      "company_raw_name": "Amazon",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本篇只证明一项模拟研究及其方法价值，没有建立该主体在抗体预测领域的行业地位、规模化应用或可复用商业交付依据；企业知名度不能代替独立标杆证据。",
+        "evidence_ids": [
+          "article:1c60d3d83d1c70e4"
+        ]
+      },
+      "published_date": "2026-10-26",
+      "insight": "这项研究把实验室测量条件纳入抗体性质预测：先提供同一实验室的已测样本，帮助模型适应当地测量特征，而非直接套用统一预测。模拟结果显示，这一路径有助于缓解测量偏移造成的预测失准，实际跨实验室效果仍是值得研究的关键问题。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Amazon抗体预测研究在模拟测试中缓解实验室测量偏移",
+      "event_signal": "material",
       "discovery_status": "first_seen"
     }
   ]
