@@ -1927,16 +1927,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/4jfxRxWbO0we2JDmson-zw",
       "sector": "金融科技／机器学习量化交易",
-      "location": "地点待核",
+      "location": "GB / R7, 14-18 Handyside Street, London, N1C 4DN",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "GB / R7, 14-18 Handyside Street, London, N1C 4DN",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-977d3829d6c66fdf80baed13"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "XTX Markets",
         "subject_locality": {
           "status": "unknown",
@@ -1944,7 +1946,30 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-977d3829d6c66fdf80baed13",
+            "source_url": "https://www.xtxmarkets.com/contact/",
+            "checked_at": "2026-10-27T18:20:22.519308+00:00",
+            "subject": "XTX Markets",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "GB",
+              "city": "London",
+              "address": "R7, 14-18 Handyside Street, London, N1C 4DN"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "GB",
+          "city": "London",
+          "evidence_ids": [
+            "geo-977d3829d6c66fdf80baed13"
+          ]
+        }
       },
       "article_location": "",
       "source": "铅笔道",
