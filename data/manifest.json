@@ -315,15 +315,27 @@
           "company_db_id": 516
         },
         {
-          "company_raw_name": "语用科技",
-          "title": "最火离职名单",
-          "company": "语用科技",
+          "company_raw_name": "熵旋芯智",
+          "identity_mentions": [
+            {
+              "name": "MITA",
+              "relation": "product",
+              "evidence": "熵旋芯智提出首代MRAM存内计算架构MITA（MRAM In-Memory Tensor Architecture），并将基于MRAM的处理单元命名为MPU（MRAM-based Processing Unit）。"
+            },
+            {
+              "name": "MPU",
+              "relation": "product",
+              "evidence": "熵旋芯智提出首代MRAM存内计算架构MITA（MRAM In-Memory Tensor Architecture），并将基于MRAM的处理单元命名为MPU（MRAM-based Processing Unit）。"
+            }
+          ],
+          "title": "从GPU、LPU到“MPU”：熵旋芯智以MITA架构重算AI推理成本",
+          "company": "熵旋芯智",
           "score": 50,
-          "sector": "人工智能",
-          "financing": "据文章，天使轮融资2.2亿美元，投后估值20亿美元；腾讯已完成入股。原文未明确红杉中国、高榕创投是否实际参与该轮投资。",
-          "source": "投资界",
-          "location": "地点线索：上海市",
-          "article_location": "上海市",
+          "sector": "AI推理芯片／MRAM存内计算",
+          "financing": "",
+          "source": "半导体行业观察",
+          "location": "地点待核",
+          "article_location": "",
           "geography": {
             "geography_status": "unknown",
             "classification": "unknown",
@@ -333,7 +345,7 @@
             "subject_evidence_ids": [],
             "needs_review": true,
             "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-            "subject": "语用科技",
+            "subject": "熵旋芯智",
             "subject_locality": {
               "status": "unknown",
               "classification": "unknown",
@@ -342,16 +354,16 @@
             },
             "basis": []
           },
-          "company_entity_id": "dr-u-0ad05ad5d57850ce09d0",
-          "company_canonical_name": "语用科技",
+          "company_entity_id": "dr-u-3044b1ef039903cb9d0e",
+          "company_canonical_name": "熵旋芯智",
           "identity_status": "unresolved",
-          "event_type": "融资",
-          "link": "https://mp.weixin.qq.com/s/MW4EedCQ6yArBry6t94MHQ",
-          "article_title": "最火离职名单",
-          "event_desc": "文章称，前阿里通义千问技术负责人林俊旸在上海创办语用科技，公司天使轮融资2.2亿美元，投后估值20亿美元。报道所述阶段，公司尚无产品和营收，工商注册刚满三个月；腾讯在官宣前一个月已完成入股。",
-          "insight": "语用科技在尚无产品和营收阶段获得大额天使轮融资，显示资本正在提前布局大模型技术团队的独立创业。其当前值得研究的是通义千问技术负责人转向创业后的产品选择，以及原有模型研发经验将解决哪类具体需求。",
-          "event_headline": "语用科技获2.2亿美元天使轮融资，尚无产品和营收",
-          "event_signal": "major",
+          "event_type": "重磅发布",
+          "link": "https://mp.weixin.qq.com/s/fARf--TM2oJJgWdTuU3eOQ",
+          "article_title": "从GPU、LPU到“MPU”：熵旋芯智以MITA架构重算AI推理成本",
+          "event_desc": "熵旋芯智提出首代MRAM存内计算架构MITA，并将基于MRAM的处理单元命名为MPU。该架构面向MoE专家内部的权重密集型线性运算，使适配后的权重驻留于MRAM阵列，在阵列内完成相应矩阵运算，以专用FFN加速模块与GPU协同执行推理。公司正构建模型适配、编译、映射、仿真与执行工具链，计划于2027年推进MPW验证及客户送样，以2028年量产为目标，并将单位Token推理成本降低90%作为长期技术与商业目标。",
+          "insight": "熵旋芯智选择成为GPU推理系统中的专家计算加速模块，而非替代整套GPU系统：将适配的专家权重留在MRAM阵列内参与运算，旨在减少低批量逐Token生成时的重复权重搬运。其系统价值取决于权重驻留带来的节省能否覆盖阵列读出、精度保障及GPU协同通信的额外开销，关键观察应是相同模型与服务条件下的端到端收益。",
+          "event_headline": "熵旋芯智提出MITA架构，面向MoE专家计算加速",
+          "event_signal": "material",
           "is_national_star": false,
           "event_time_evidence": {
             "status": "date_unknown_recent_report",
@@ -363,55 +375,47 @@
           "published_date": "2026-10-26",
           "publication_basis": "采集源保留的发布时间",
           "selection_recommendation": "keep",
-          "selection_reason": "完整正文明确林俊旸创办语用科技并取得天使轮2.2亿美元融资、投后估值20亿美元及腾讯入股，通义千问研发背景构成科技创业联系。资本成长节点可进入正面发现，不要求先有产品收入；10月26日新闻有效，无已见旧裁决。地点及登记全称仍待核，不将上海创业写成已审总部，不把红杉、高榕接触写成实际参投，不授标杆。",
-          "event_headline_source": "b7d688a24f7839b519f507c01f2c3b27d7533e6240ac112ffb0680316b499863",
+          "selection_reason": "全文的MRAM权重驻留、MoE专家加速和工具链研发已构成具体技术路线，2027年验证及2028年量产保持计划状态。复读历史无匹配、无主体冲突。新闻10月26日有效；旧watch仅因登记名和地点未核，这不单独阻断普通正面发现，故保留早期芯片路线，地点待核，不授杭州、标杆或负面资格。",
+          "event_headline_source": "54f8309b5c05f9b363c67578634282259f7266a233cf778d8147a8590543bb19",
           "location_status": "unknown",
           "location_basis": [],
           "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-          "location_candidates": [
-            {
-              "value": "上海市",
-              "status": "article_candidate_only",
-              "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
-            }
-          ],
           "benchmark_review": {
             "status": "not_qualified",
             "eligible": false,
-            "reason": "融资规模与创始人履历支持创业观察，但未建立该企业产品、技术应用或独立行业地位的具体对标资格。",
+            "reason": "架构介绍与研发规划足以支持技术线索，但尚无经验证的产品性能、交付或行业地位依据，不能据此建立标杆资格。",
             "evidence_ids": [
-              "article:64b59ea513625d73"
+              "article:51ee522c113b5cd9"
             ]
           },
           "quality_review": {
             "schema_version": "dragon-overnight-review.v2",
             "decision": "keep",
             "reviewer": "main overnight Agent：全文复读、逐项范围纠偏和证据补回",
-            "candidate_id": "11a59eae3e8e9e882660ddd2632db76ec444d7a62215c295d1667defe1348378",
-            "input_row_sha256": "a9f6f8bafccf6a745e8f2c19c975d11e6b262b51a70c3feb43c12329a2c33604",
-            "reason": "完整正文明确林俊旸创办语用科技并取得天使轮2.2亿美元融资、投后估值20亿美元及腾讯入股，通义千问研发背景构成科技创业联系。资本成长节点可进入正面发现，不要求先有产品收入；10月26日新闻有效，无已见旧裁决。地点及登记全称仍待核，不将上海创业写成已审总部，不把红杉、高榕接触写成实际参投，不授标杆。",
+            "candidate_id": "922dbca4fb200b96e91fa5d51d9f727cde71a230331d01f654131444a01b77fe",
+            "input_row_sha256": "a5efd6609b6d742c90cd885dfcfcebce0d2dcc8e949af43ffc9c6554d426881d",
+            "reason": "全文的MRAM权重驻留、MoE专家加速和工具链研发已构成具体技术路线，2027年验证及2028年量产保持计划状态。复读历史无匹配、无主体冲突。新闻10月26日有效；旧watch仅因登记名和地点未核，这不单独阻断普通正面发现，故保留早期芯片路线，地点待核，不授杭州、标杆或负面资格。",
             "scope": {
-              "technology_evidence": "正文称前阿里通义千问技术负责人林俊旸创办语用科技，披露天使轮融资金额、投后估值和腾讯入股；报道所述阶段尚无产品、营收。",
-              "value_reason": "该资本节点反映大模型研发人才向独立创业迁移，可用于识别杭州同类企业培育的团队与资本竞争参照；现有材料不能证明产品方向、技术优势或商业化能力。"
+              "technology_evidence": "原文介绍以MRAM阵列驻留适配后的专家权重，在阵列内执行矩阵运算，并以专用FFN加速模块与GPU协同；公司正建设模型适配、编译、映射、仿真及执行工具链。",
+              "value_reason": "提供了针对低批量Decode权重搬运瓶颈的早期芯片路线，值得作为杭州推理芯片培育与异构系统研发的技术线索；关键验证是精度、读出及通信开销计入后的端到端收益，而非架构名称或降本目标。"
             },
             "stage": {
-              "status": "媒体报道的创业及已获融资节点，产品商业化尚未形成",
-              "reason": "文章将融资及腾讯入股表述为既有事实，创业官宣时间仅称两月前，精确事件日期未知；2026-10-26T08:18:00Z为新闻发布时间，首次收录时间未知。"
+              "status": "architecture_proposed_toolchain_under_development_validation_upcoming",
+              "reason": "架构已提出，工具链正在构建；2027年MPW验证及客户送样、2028年量产均为计划，降低单位Token成本90%为长期目标。架构提出的具体日期未知，新闻发布时间为2026-10-26。"
             },
             "history": {
-              "result": "uncertain",
+              "result": "new_event",
               "evidence_ids": [
-                "history_lookup:1711ec3133e0cb48",
-                "identity_registry:2dcd4f408df25406"
+                "history_lookup:1711ec3133e0cb48"
               ],
               "prior_decisions": [],
-              "change_reason": "输入历史检索结果未列出同主体已收录或旧裁决，未见可直接判定重复的事件；但主体身份及别名映射尚未确认，不能据空结果宣称完整去重或首次发现。",
+              "change_reason": "输入的历史检索记录未返回该稳定主体的已收录事件或此前裁决，未发现可判重复的记录；仅限本次检索范围，不宣称全局首次发现。",
               "new_evidence_ids": [
-                "article:64b59ea513625d73"
+                "article:51ee522c113b5cd9"
               ]
             },
             "evidence_ids": [
-              "article:64b59ea513625d73",
+              "article:51ee522c113b5cd9",
               "identity_registry:2dcd4f408df25406",
               "geography_registry:b93d03cf35486d17",
               "history_lookup:1711ec3133e0cb48"
@@ -419,13 +423,14 @@
             "benchmark_review": {
               "status": "not_qualified",
               "eligible": false,
-              "reason": "融资规模与创始人履历支持创业观察，但未建立该企业产品、技术应用或独立行业地位的具体对标资格。",
+              "reason": "架构介绍与研发规划足以支持技术线索，但尚无经验证的产品性能、交付或行业地位依据，不能据此建立标杆资格。",
               "evidence_ids": [
-                "article:64b59ea513625d73"
+                "article:51ee522c113b5cd9"
               ]
             }
           },
-          "company_db_id": 517
+          "identity_candidates": [],
+          "company_db_id": null
         }
       ],
       "record_count": 19,
@@ -4418,7 +4423,7 @@
     "2026-10-26": "f192ddc4bb6600fdb290fa04a56567b848919c70c51bee93d54ff9e8618dc2c8",
     "2026-10-27": "166776d5e4b0767b61ba0fd5341c9e32deef368bb669f282e8e58a3ceded0bbe"
   },
-  "geography_version": "f4cac9c6a0133b56dbcb8d8191fe76cb37abcb74d564580a78cb4f5916f72799",
+  "geography_version": "704702a71d8992be4325dec5ff08402c6738f0d4b9fd0d65fd9b0b32ab537a20",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -5332,10 +5337,48 @@
       }
     },
     "dr-u-0ad05ad5d57850ce09d0": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-8aced1db6f03d59dd8126151"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "语用科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-8aced1db6f03d59dd8126151",
+          "source_url": "https://www.36kr.com/p/3935688781855872",
+          "checked_at": "2026-10-27T00:32:55.753823+00:00",
+          "subject": "语用科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "evidence_ids": [
+          "geo-8aced1db6f03d59dd8126151"
+        ]
+      }
     },
     "dr-u-0ad1814fc5dad8b17f5e": {
       "geography_status": "unknown",
@@ -50963,7 +51006,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "a23dcc9ce8ed5ba77c72f4ac110843d4fa7874f7e3803c2c0d9652d481cb5aee",
+  "history_version": "1e2eb512ae5fbf7b3e66f1aa060608d2e593d98c55e38b1024564ad48f82f2ae",
   "company_history_buckets": {
     "00": "8e0daedec8c80b097d1f816ea89ef7fec81a937c6f25e2ba4ac62368743ceb59",
     "01": "e385d9e17985830f4732a253116546ce60a58a75b9ba23862cc346ce3dc49584",
@@ -51007,7 +51050,7 @@
     "27": "e6a43487d264fec20b56af7f7d8492a39d66ee4df568d11457c9d5a13da01e41",
     "28": "4028149ff6f4a91fbcf50be7a304638d30837403abf30d10700a0ef8fba00086",
     "29": "aa4b395344604b44ac0aa533e45e5b7e9f90ca607e5799254cc9be6dea1d2f44",
-    "2a": "85e0b6fc7726218be8543972365aecd36da93c94a67c85b8996a6df82f2cc6d2",
+    "2a": "d80dd98a157e6dd17c5cbe7fca51e921017b0a1963d92660c413c4c53da2f5d5",
     "2b": "7241864cff35d77dc7e7d8ddb0779453996d3576ae032119319cb19db6b79bfe",
     "2c": "703d500cdd3e92f19551ab40845d63e8435bfa1b196a91e5518d52207d50f3ff",
     "2d": "300da3275bfb140da31eb2762e7a8590ddb86e8cacda34cf6b6cddd2123959fb",
@@ -51030,7 +51073,7 @@
     "3e": "2cdec5fb18444af94447f18369bed4d8019dbe2836c88e7814159eccd27da390",
     "3f": "58c15420530ccbe8dadee94189e64345d643e0879baadfe7c6a2380cb6ba0b04"
   },
-  "history_search_version": "e233219794ab237067c7116f0410fa379968d6a6bd36ab628c59f973f7bb3d0e",
+  "history_search_version": "27776c8404ef425e806e3f822ee4be287e4e8c86d06b474eff8e626e89118346",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
