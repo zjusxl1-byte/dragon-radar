@@ -5,12 +5,12 @@
   "start_date": "2026-10-26",
   "end_date": "2026-11-01",
   "summary": {
-    "total_companies": 28,
-    "financing_events": 12,
+    "total_companies": 48,
+    "financing_events": 16,
     "ipo_events": 0,
-    "milestone_events": 6,
+    "milestone_events": 11,
     "negative_events": 0,
-    "active_days": 2
+    "active_days": 3
   },
   "top10": [
     {
@@ -510,6 +510,326 @@
           "evidence_ids": [
             "article:52f30e73970a04b2",
             "accepted_history:961e35434c50ac5b"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "诺亦腾机器人",
+      "identity_mentions": [
+        {
+          "name": "诺亦腾机器人",
+          "relation": "same_entity",
+          "evidence": "诺亦腾机器人科技(北京)有限公司(下称“诺亦腾机器人”)"
+        }
+      ],
+      "selection_recommendation": "keep",
+      "selection_reason": "所供新闻节选明确全称与简称关系，诺亦腾机器人科技(北京)有限公司是融资接受方及机器人数据基础设施提供方，河南汇融基金是投资方。已完成的Pre-A+++轮融资与具身智能、人形机器人数据业务直接相连，支持将机器人研发的数据支撑环节纳入早期企业发现，而非只观察整机企业。原文明确总部位于北京海淀，足以支持本条正面发现的报道地点展示，但不替代官方注册或总部核验。2026-10-26发布时间符合采集窗口；未披露融资金额、用途和精确完成日，不作补造。当前历史检索无匹配项，可作为本轮未匹配的新事件保留，不宣称系统首次发现，也不采纳融资预测概率作为事实依据。",
+      "is_negative": false,
+      "title": "机器人,完成Pre-A+++轮融资医药新闻-ByDrug-一站式医药资源共享中心-医药魔方",
+      "company": "诺亦腾机器人科技(北京)有限公司",
+      "score": 60,
+      "sector": "人形机器人与具身智能数据基础设施",
+      "financing": "完成Pre-A+++轮融资，投资方为河南汇融基金；融资金额及资金用途未披露。",
+      "source": "bydrug.pharmcube.com",
+      "location": "地点待核",
+      "article_location": "北京市海淀区（总部）",
+      "event_type": "融资",
+      "link": "https://bydrug.pharmcube.com/news/detail/8871483d1cc5d8a5c62aa30f9d4d6177",
+      "article_title": "机器人,完成Pre-A+++轮融资医药新闻-ByDrug-一站式医药资源共享中心-医药魔方",
+      "published_date": "2026-10-26",
+      "publication_basis": "采集源保留的发布时间",
+      "event_date": null,
+      "event_desc": "据2026年10月26日发布的报道，诺亦腾机器人近日完成Pre-A+++轮融资，投资方为河南汇融基金。公司成立于2025年，面向具身智能与人形机器人产业提供数据基础设施。",
+      "event_headline": "诺亦腾机器人完成Pre-A+++轮融资，河南汇融基金投资",
+      "event_signal": "material",
+      "event_headline_source": "bbc3fffa23f04670be236076f3e0508d52fd0d35820a7c96a21124a9353e28cc",
+      "insight": "值得关注的是机器人产业中提供数据基础设施的企业获得融资，而非整机企业融资。这提示寻龙观察可延伸到支撑机器人研发的数据环节。后续研究应先明确其具体产品：为哪些客户提供数据采集、处理或其他服务，以及这些服务解决什么研发任务，再判断其价值来自专用设备、数据处理能力还是持续服务；不能仅凭“数据基础设施”定位推定已有数据壁垒。",
+      "is_national_star": false,
+      "company_entity_id": "dr-u-c7820e7cb1e34cc7992b",
+      "company_canonical_name": "诺亦腾机器人科技(北京)有限公司",
+      "identity_status": "unresolved",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "诺亦腾机器人科技(北京)有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "北京市海淀区（总部）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资与数据基础设施定位支持产业观察，但没有可复核产品性能、客户应用、规模交付或行业地位证据，尚不能建立全国标杆资格。",
+        "evidence_ids": [
+          "web_acquired_text:281a9e38c51848a4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight main Agent - per-event source, history and product-scope review",
+        "candidate_id": "bb1094121762b0a1d94ebe28f8ee98ed3cabf44114aeffa1195147108fb47bbc",
+        "input_row_sha256": "d0eb334df9eee42f6a5151aaf95d3e66a4a3eddb02356feaf08a5a713d4e8bf5",
+        "reason": "所供新闻节选明确全称与简称关系，诺亦腾机器人科技(北京)有限公司是融资接受方及机器人数据基础设施提供方，河南汇融基金是投资方。已完成的Pre-A+++轮融资与具身智能、人形机器人数据业务直接相连，支持将机器人研发的数据支撑环节纳入早期企业发现，而非只观察整机企业。原文明确总部位于北京海淀，足以支持本条正面发现的报道地点展示，但不替代官方注册或总部核验。2026-10-26发布时间符合采集窗口；未披露融资金额、用途和精确完成日，不作补造。当前历史检索无匹配项，可作为本轮未匹配的新事件保留，不宣称系统首次发现，也不采纳融资预测概率作为事实依据。",
+        "scope": {
+          "technology_evidence": "已取得节选称企业面向具身智能与人形机器人产业提供数据基础设施，并近日完成Pre-A+++轮融资，投资方为河南汇融基金。",
+          "value_reason": "资本成长节点发生在机器人研发的数据基础设施环节，为杭州相关产业研究提供整机之外的能力布局观察入口。现有证据支持研究其具体数据产品与客户任务，不支持认定已有数据壁垒、规模客户或行业领先地位。"
+        },
+        "stage": {
+          "status": "融资据报道已完成；具体数据产品及应用成熟度未披露",
+          "reason": "节选使用“完成Pre-A+++轮融资”；新闻发布于2026-10-26，融资实际完成日及首次收录时间未知。仅核读所供节选，未取得全文，未见资金用途或产品验证结果。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:86a8361d6e16d919"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本包该稳定主体的accepted_history及prior_decisions均为空，且未报本轮检索错误；当前检索范围内没有可对照的同事件记录。new_event仅表示本轮未匹配历史，不证明此前从未收录。",
+          "new_evidence_ids": [
+            "web_acquired_text:281a9e38c51848a4"
+          ]
+        },
+        "evidence_ids": [
+          "web_acquired_text:281a9e38c51848a4",
+          "history_lookup:86a8361d6e16d919"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "融资与数据基础设施定位支持产业观察，但没有可复核产品性能、客户应用、规模交付或行业地位证据，尚不能建立全国标杆资格。",
+          "evidence_ids": [
+            "web_acquired_text:281a9e38c51848a4"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "北京中科慧灵机器人技术有限公司",
+      "selection_recommendation": "keep",
+      "selection_reason": "钛媒体正文明确全称、已完成数亿元A++轮融资及人形机器人/具身智能研发业务，资本成长与具体技术业务相连。保留普通正面科技线索，主体名称之外没有可信城市证据，地点如实待核；本项没有互相矛盾的主体身份，缺注册或总部证明不构成普通发现的否决条件。与所附历史未见同事件匹配，不宣称首次发现。",
+      "is_negative": false,
+      "title": "中科慧灵完成数亿元A++轮融资",
+      "company": "北京中科慧灵机器人技术有限公司",
+      "score": 60,
+      "sector": "人形机器人、具身智能",
+      "financing": "已完成数亿元人民币A++轮融资，知来投资、涌铧投资、茂天投资、元禾辰坤、国科科智、鲁宁投资等机构联合投资。",
+      "source": "钛媒体",
+      "location": "地点待核",
+      "article_location": "待核实；原文仅在企业名称中包含“北京”，未独立说明注册地、总部或经营地。",
+      "event_type": "融资",
+      "link": "https://www.tmtpost.com/nictation/8181940.html",
+      "article_title": "中科慧灵完成数亿元A++轮融资",
+      "published_date": "2026-10-26",
+      "publication_basis": "采集源保留的发布时间",
+      "event_date": null,
+      "event_desc": "据钛媒体10月26日消息，北京中科慧灵机器人技术有限公司完成数亿元人民币A++轮融资，投资方包括知来投资、涌铧投资、茂天投资、元禾辰坤、国科科智、鲁宁投资等机构。",
+      "event_headline": "中科慧灵获多家机构联合投资，完成数亿元A++轮融资",
+      "event_signal": "material",
+      "event_headline_source": "83c069a14363a1cc45bf9e4e80a053f23d4a43d913eee49d05fe4f32a0d219cd",
+      "insight": "融资为人形机器人研发与产业化应用增加了资本支持，但现有报道没有区分整机、关键部件和控制系统。三者分别面临制造交付、单部件验证和跨本体适配的不同工作；辨明主力产品，才能判断资金会先变成哪一种可交付能力。",
+      "is_national_star": false,
+      "company_entity_id": "dr-u-90d56268c36b58c27800",
+      "company_canonical_name": "北京中科慧灵机器人技术有限公司",
+      "identity_status": "unresolved",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "北京中科慧灵机器人技术有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "待核实；原文仅在企业名称中包含“北京”，未独立说明注册地、总部或经营地。",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资规模和技术业务方向不足以证明行业地位；没有独立产品性能、应用验证、交付规模或可供杭州具体对标的领先能力证据。",
+        "evidence_ids": [
+          "web_acquired_text:34b0b7ed3b734a62"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight main Agent - per-event source, history and product-scope review",
+        "candidate_id": "2d72a3ebfd2ce6c288e8dbbff32a5a8c08949a470954d720f1a8b251c0cb6829",
+        "input_row_sha256": "68a9c997e3ae51690f4594e3920fb8774ea6749ee31642964b7ad807619c904a",
+        "reason": "钛媒体正文明确全称、已完成数亿元A++轮融资及人形机器人/具身智能研发业务，资本成长与具体技术业务相连。保留普通正面科技线索，主体名称之外没有可信城市证据，地点如实待核；本项没有互相矛盾的主体身份，缺注册或总部证明不构成普通发现的否决条件。与所附历史未见同事件匹配，不宣称首次发现。",
+        "scope": {
+          "technology_evidence": "已取得节选明确企业聚焦人形机器人与具身智能核心技术研发及产业化应用，并完成数亿元人民币A++轮融资，由知来投资、涌铧投资、茂天投资、元禾辰坤、国科科智、鲁宁投资等机构联合投资。",
+          "value_reason": "真实融资与明确的机器人技术业务相结合，构成观察企业资本成长和产业化能力建设的有效入口。但尚未披露具体产品、资金用途或客户成果，不能推导投资方已带来订单、供应链资源或技术突破。"
+        },
+        "stage": {
+          "status": "A++轮融资据报道已完成；具体产业化成果未披露，地点待补证",
+          "reason": "节选以“完成”描述融资，未提供融资用途、产品交付或量产成果。新闻发布时间为2026-10-26，符合采集窗口；精确融资完成日与首次收录时间未知。判断仅依据所供节选，不声称已核读全文。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:86a8361d6e16d919"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本包该稳定主体的accepted_history与prior_decisions均为空，当前检索未报错误，没有可比较的同事件旧记录。new_event仅表示本轮历史范围内无匹配，不证明系统首次发现；本轮待核原因是地点证据缺口，不是历史排除。",
+          "new_evidence_ids": [
+            "web_acquired_text:34b0b7ed3b734a62"
+          ]
+        },
+        "evidence_ids": [
+          "web_acquired_text:34b0b7ed3b734a62",
+          "geography_registry:b93d03cf35486d17",
+          "history_lookup:86a8361d6e16d919"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "融资规模和技术业务方向不足以证明行业地位；没有独立产品性能、应用验证、交付规模或可供杭州具体对标的领先能力证据。",
+          "evidence_ids": [
+            "web_acquired_text:34b0b7ed3b734a62"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "原力无限科技控股(浙江)有限公司",
+      "selection_recommendation": "keep",
+      "selection_reason": "已提供的正文段落而非仅AI摘要，明确原力无限科技控股(浙江)有限公司为近亿元A++轮融资及具身大脑研发主体，浙创投为领投方。融资与具身大脑技术、多形态机器人产品及拟开展的量产验证直接相连，构成有具体技术业务支撑的资本成长节点，保留为正面日报产业观察线索。2026-10-27新闻发布时间符合最近7天窗口，融资具体完成日及首次收录时间未知。所供历史检索未展示同事件记录，不宣称系统首次发现。正文未证明注册地、总部或经营地，不认定杭州或外地主体；地点补证不替代本次正面事件价值判断。仅审阅所供节选，不声称核读全文。",
+      "is_negative": false,
+      "title": "具身大脑企业原力无限完成近亿元A++轮融资-我的钢铁网",
+      "company": "原力无限科技控股(浙江)有限公司",
+      "score": 60,
+      "sector": "人形机器人、具身智能",
+      "financing": "完成近亿元A++轮融资，由浙创投领投；正文另称此前已完成近10亿元A轮及A+轮融资。本轮资金将用于具身大脑核心技术迭代、多形态机器人本体量产及场景落地验证。",
+      "source": "news.mysteel.com",
+      "location": "地点待核",
+      "article_location": "待核实；原文未披露主体注册地、总部或经营地",
+      "event_type": "融资",
+      "link": "https://news.mysteel.com/a/26102710/DCFD03776CD69364.html",
+      "article_title": "具身大脑企业原力无限完成近亿元A++轮融资-我的钢铁网",
+      "published_date": "2026-10-27",
+      "publication_basis": "采集源保留的发布时间",
+      "event_date": null,
+      "event_desc": "原力无限科技控股(浙江)有限公司近日完成浙创投领投的近亿元A++轮融资。公司成立于2023年，围绕第一人称原生数据、DataGrid全栈AI Infra与隐式世界模型研发具身大脑，产品布局覆盖全尺寸轮式人形机器人、通用人形机器人、小尺寸双足机器人及专用机器人。本轮融资将支持核心技术迭代、本体量产及场景落地验证。",
+      "event_headline": "原力无限完成近亿元A++轮融资，推进具身大脑与本体量产",
+      "event_signal": "material",
+      "event_headline_source": "c92c2e29ad6cf0f1bb5f2508d330aabb197de182b5c579a9508b136e6b8c2a8c",
+      "insight": "原力无限同时布局具身大脑与多种机器人本体，值得研究的是同一套学习与决策能力能否适配不同机器形态。其技术路线将机器人自身视角的数据、支撑训练和运行的AI基础设施，以及用于学习环境变化的隐式世界模型结合起来；若核心能力可以复用，就有机会减少不同本体分别开发的重复工作。本轮资金用途同时覆盖算法、量产和场景验证，说明企业正并行推进这三个环节。下一步应选取一个明确客户任务，核对不同本体的能力复用范围与各自适配工作量，辨别产品矩阵背后是共享平台还是多条独立开发路线。",
+      "is_national_star": false,
+      "company_entity_id": "dr-u-5260213ed457173ab9f2",
+      "company_canonical_name": "原力无限科技控股(浙江)有限公司",
+      "identity_status": "unresolved",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "原力无限科技控股(浙江)有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "待核实；原文未披露主体注册地、总部或经营地",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资、技术路线和产品布局支持观察价值，但未提供独立性能比较、跨本体验证、规模应用或行业地位依据，尚不能建立全国标杆资格。",
+        "evidence_ids": [
+          "web_acquired_text:c6b9f86dcf0f8fb8"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "overnight main Agent - per-event source, history and product-scope review",
+        "candidate_id": "76ecdcc00ed2a2b346853d850ca887d4e611a4b52ffd90b73e65471da8dae576",
+        "input_row_sha256": "72943da1f0f26c7d54930347ee0aead25e884021cdd30ee63d8b4b1aa981cab2",
+        "reason": "已提供的正文段落而非仅AI摘要，明确原力无限科技控股(浙江)有限公司为近亿元A++轮融资及具身大脑研发主体，浙创投为领投方。融资与具身大脑技术、多形态机器人产品及拟开展的量产验证直接相连，构成有具体技术业务支撑的资本成长节点，保留为正面日报产业观察线索。2026-10-27新闻发布时间符合最近7天窗口，融资具体完成日及首次收录时间未知。所供历史检索未展示同事件记录，不宣称系统首次发现。正文未证明注册地、总部或经营地，不认定杭州或外地主体；地点补证不替代本次正面事件价值判断。仅审阅所供节选，不声称核读全文。",
+        "scope": {
+          "technology_evidence": "正文披露企业围绕第一人称原生数据、DataGrid全栈AI Infra与隐式世界模型研发具身大脑，并布局全尺寸轮式人形、通用人形、小尺寸双足及专用机器人；本轮融资拟支持核心技术迭代、本体量产及场景落地验证。",
+          "value_reason": "此次融资为算法、本体制造和应用验证并行推进提供资本支持，值得研究具身大脑能否跨本体复用，以及相应制造和场景适配成本。应优先取得同一客户任务下不同本体的测试及适配资料，区分共享技术平台与多条独立研发路线；当前不能据产品布局认定跨本体能力已经验证或量产已经完成。"
+        },
+        "stage": {
+          "status": "融资据报道已完成；技术迭代、本体量产及场景验证为资金拟支持事项",
+          "reason": "正文使用“完成”描述融资、使用“将用于”描述资金用途，没有给出量产完成、客户交付或场景验证结果。新闻发布日为2026-10-27，融资实际完成日和首次收录时间未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:86a8361d6e16d919"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本包accepted_history及prior_decisions均为空，且未报告本轮历史读取错误；按本次检索返回范围作为未匹配到历史的融资事件处理，不把未匹配解释为已证明系统首次收录，也不把正文提及的既往A轮、A+轮当作本轮新增融资。",
+          "new_evidence_ids": [
+            "web_acquired_text:c6b9f86dcf0f8fb8"
+          ]
+        },
+        "evidence_ids": [
+          "web_acquired_text:c6b9f86dcf0f8fb8",
+          "history_lookup:86a8361d6e16d919"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "融资、技术路线和产品布局支持观察价值，但未提供独立性能比较、跨本体验证、规模应用或行业地位依据，尚不能建立全国标杆资格。",
+          "evidence_ids": [
+            "web_acquired_text:c6b9f86dcf0f8fb8"
           ]
         }
       }
@@ -1166,372 +1486,6 @@
           ]
         }
       }
-    },
-    {
-      "company_raw_name": "立妙达",
-      "selection_recommendation": "keep",
-      "selection_reason": "所供原文节选明确立妙达是B1、B2轮合计近5亿元融资的获得方，也是面向半导体、光模块百级洁净车间提供复合移动机器人及自动化方案的主体，美光是客户而非关联主体。已完成融资与具体装备业务、客户订单和交付能力建设相连，具备正面日报发现价值。复用已捕获的苏州经营及发现归属，不把媒体总部表述升级为严格总部核验，也不因注册及总部待核排除本条。新闻发布于2026-10-23，符合最近7天窗口；融资完成日未知。所供正文截断，仅采信已展示部分，不采纳无比较依据的行业领先评价。B3轮仍在签约推进，在手及意向订单不得等同确定订单或收入。输入未见同事件历史，但不宣称首次发现。",
-      "is_negative": false,
-      "title": "立妙达累计融资近5亿,洁净室AI机器人加速出海_腾讯新闻",
-      "company": "立妙达",
-      "score": 50,
-      "sector": "半导体与光模块洁净室机器人、智能装备",
-      "financing": "已完成B1、B2轮融资，两轮合计近5亿元；B3轮数亿元融资据报道获得多家机构超额认购，签约正在推进，尚未披露完成。",
-      "source": "news.qq.com",
-      "location": "江苏省 / 苏州市",
-      "article_location": "江苏苏州（总部）",
-      "event_type": "融资",
-      "link": "https://news.qq.com/rain/a/20261023A04F5X00",
-      "article_title": "立妙达累计融资近5亿,洁净室AI机器人加速出海_腾讯新闻",
-      "published_date": "2026-10-23",
-      "publication_basis": "采集源保留的发布时间",
-      "event_date": null,
-      "event_desc": "立妙达公布已完成B1、B2轮融资，合计近5亿元，B3轮数亿元融资签约正在推进。公司面向半导体、光模块百级洁净车间提供复合移动机器人及整体自动化方案。据报道，核心客户美光累计订单达数亿元，2026年在手及意向订单合计接近十亿元。融资资金计划用于智能装备制造基地、AI4S实验室、光模块设备及具身算法研发，并推进海外客户落地。",
-      "event_headline": "立妙达完成两轮近5亿元融资，拟扩建智能装备制造基地",
-      "event_signal": "major",
-      "event_headline_source": "2cabbe7817a33c9ec71d9b2a5f8336c87caf315598001b13c766ccee2407ef94",
-      "insight": "立妙达值得关注的变化，是在已有头部客户订单基础上，获得支持制造与交付扩张的新资金。其复合移动机器人把移动搬运与作业执行结合，再由AI调度系统协调物料搬运、上下料和检测，试图将洁净车间内分散的自动化环节串联起来。客户采用这类方案，关键不只是机器人能够移动，还在于它能否在洁净度约束下与生产设备稳定衔接。因此，相比单机功能，设备接口适配、连续运行稳定性及跨工序协同更能解释其方案价值。美光累计订单提供了具体客户采用线索，但尚不能据此判断多客户复制能力；下一步宜核实美光订单对应的产品与交付阶段，以及其他客户的部署情况，以区分单一大客户定制扩张与可复制方案成长两条路径。",
-      "is_national_star": false,
-      "company_entity_id": "dr-u-717b3c89034d66fc77e7",
-      "company_canonical_name": "立妙达",
-      "identity_status": "unresolved",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "江苏省 / 苏州市",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-eb634892fcd39b1ec897bb0a"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "立妙达",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-eb634892fcd39b1ec897bb0a",
-            "source_url": "https://news.qq.com/rain/a/20261023A04F5X00",
-            "checked_at": "2026-10-26T18:03:28.392461+00:00",
-            "subject": "立妙达",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "江苏省",
-              "city": "苏州市"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "江苏省",
-          "city": "苏州市",
-          "evidence_ids": [
-            "geo-eb634892fcd39b1ec897bb0a"
-          ]
-        }
-      },
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-eb634892fcd39b1ec897bb0a",
-          "source_url": "https://news.qq.com/rain/a/20261023A04F5X00",
-          "checked_at": "2026-10-26T18:03:28.392461+00:00",
-          "subject": "立妙达",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "CN",
-            "province": "江苏省",
-            "city": "苏州市"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "location_candidates": [
-        {
-          "value": "江苏苏州（总部）",
-          "status": "article_candidate_only",
-          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
-        }
-      ],
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "洁净室机器人方案、融资和美光订单支持产业观察，但未提供独立性能比较、跨客户部署结果或可核验行业地位依据，尚不足以授予全国标杆标签。",
-        "evidence_ids": [
-          "web_acquired_text:6d4085e71da30288"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "main overnight Agent：全文复读、逐项范围纠偏和证据补回",
-        "candidate_id": "a1300af1f622a792e3b64f25ab7a2b61af470692d908a79b579a88470fdf44bd",
-        "input_row_sha256": "b88e1808a2a30c2cb82c99be03f525f690a4d86bf41300009c083e1f1ac502ed",
-        "reason": "所供原文节选明确立妙达是B1、B2轮合计近5亿元融资的获得方，也是面向半导体、光模块百级洁净车间提供复合移动机器人及自动化方案的主体，美光是客户而非关联主体。已完成融资与具体装备业务、客户订单和交付能力建设相连，具备正面日报发现价值。复用已捕获的苏州经营及发现归属，不把媒体总部表述升级为严格总部核验，也不因注册及总部待核排除本条。新闻发布于2026-10-23，符合最近7天窗口；融资完成日未知。所供正文截断，仅采信已展示部分，不采纳无比较依据的行业领先评价。B3轮仍在签约推进，在手及意向订单不得等同确定订单或收入。输入未见同事件历史，但不宣称首次发现。",
-        "scope": {
-          "technology_evidence": "原文披露复合移动机器人通过AI调度系统，在百级洁净车间执行物料搬运、上下料和检测，服务半导体及光模块制造；并披露美光累计订单达数亿元。",
-          "value_reason": "新增资本与已有具体客户采用线索共同支持观察其由洁净室自动化方案向规模制造、交付扩张的路径。杭州可重点对照设备接口适配、洁净约束下连续运行和多工序协同能力；现有订单不能单独证明跨客户复制能力。"
-        },
-        "stage": {
-          "status": "B1、B2轮融资据报道已完成；B3轮签约推进中；扩产研发及海外拓展为计划",
-          "reason": "节选明确使用“已完成”描述前两轮融资，使用“签约工作正在有序推进”描述B3轮。制造基地、AI4S实验室及后续研发为资金投入安排，不能写成已建成或已交付。新闻发布时间为2026-10-23，事件具体完成日期未知。"
-        },
-        "history": {
-          "result": "uncertain",
-          "evidence_ids": [
-            "history_lookup:1711ec3133e0cb48",
-            "identity_registry:2dcd4f408df25406"
-          ],
-          "prior_decisions": [],
-          "change_reason": "本包accepted_history和prior_decisions均为空，未见可比较的同事件裁决；但身份registry仍为unresolved且无已确认别名，不能据空检索断言跨别名首次收录。当前原文足以支持该名称主体的融资及产品事实，历史覆盖不确定不抹去其发现价值。",
-          "new_evidence_ids": [
-            "web_acquired_text:6d4085e71da30288",
-            "geo-eb634892fcd39b1ec897bb0a"
-          ]
-        },
-        "evidence_ids": [
-          "web_acquired_text:6d4085e71da30288",
-          "geo-eb634892fcd39b1ec897bb0a",
-          "history_lookup:1711ec3133e0cb48",
-          "identity_registry:2dcd4f408df25406"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "洁净室机器人方案、融资和美光订单支持产业观察，但未提供独立性能比较、跨客户部署结果或可核验行业地位依据，尚不足以授予全国标杆标签。",
-          "evidence_ids": [
-            "web_acquired_text:6d4085e71da30288"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "声网",
-      "title": "当AI比人还会说话，声网在铺一条看不见的路",
-      "company": "声网",
-      "score": 50,
-      "sector": "实时音视频基础设施与语音智能体",
-      "financing": "",
-      "source": "36 氪",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "声网",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-6dd47ccb5ac7ea4b6189",
-      "company_canonical_name": "声网",
-      "identity_status": "unresolved",
-      "event_type": "重磅发布",
-      "link": "https://mp.weixin.qq.com/s/Qn5j3NcNhUUpI8qfP_Ie8Q",
-      "article_title": "当AI比人还会说话，声网在铺一条看不见的路",
-      "event_desc": "文章称，声网于2026年10月推出Call Agent与实时AI开发工具包，并介绍了以全双工交互为核心的对话式AI引擎及开发套件。其Agora Conversational Model将语音感知、对话响应和语音表达组合，支持持续聆听、流式推理、工具调用及结合上下文的语音生成。文中列举的应用包括珞博智能AI玩具芙崽、美团Keeta与满帮货运的AI客服。",
-      "insight": "声网正在把实时音视频传输能力向语音智能体的交互与开发层延伸：新工具与对话式AI引擎共同处理持续聆听、打断、工具调用和语音表达，让开发者不必只围绕单一语音模型搭建应用。其产业价值在于连接模型与具体业务系统，但不同模块能否在复杂任务中稳定协同，仍是判断这条产品路线实际优势的关键。",
-      "event_headline": "声网推出Call Agent与实时AI开发工具包，拓展语音智能体产品线",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-26",
-        "event_date": null,
-        "observed_date": "2026-10-26",
-        "review_required": true
-      },
-      "published_date": "2026-10-26",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "全文明确声网是Call Agent与实时AI开发工具包的提供方，并披露全双工对话系统的感知、响应、表达模块及开发工具，构成具体产品进展，而非仅有大会观点。所供来源发布时间为2026年10月26日，符合最近7天窗口；产品推出时间仅明确到2026年10月，不补造具体日期。列举的芙崽、Keeta及满帮客服属于整条产品线的应用例子，不能认定均已采用本月新产品，也不将客户或Agora海外主体自动并入声网法定主体。历史检索未返回同事件或旧裁决。主体地点未知不用于推定杭州或外地，不因成熟企业身份否定正面技术线索。",
-      "event_headline_source": "02ee6db8a5a9e51e87aee855635c5d2366bb9fd3f1d3fd384b5d2c2082055aa5",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "现有全文足以支持产品发布及具体技术路线；全球网络规模、海外主体合作和既有客户案例未充分厘清主体与可比口径，尚不足独立确立本主体全国标杆资格。",
-        "evidence_ids": [
-          "article:338cbaf4b01ab2a0"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "main overnight Agent：全文复读、逐项范围纠偏和证据补回",
-        "candidate_id": "d8bd968660943ed6f541ab489f5e0e6d82cb00f3d3a3d84cb5baf218060894da",
-        "input_row_sha256": "ddf63ba4fc7174f71df2df4e4f77496d0f68440e18a18c6a61b4c2f446fece55",
-        "reason": "全文明确声网是Call Agent与实时AI开发工具包的提供方，并披露全双工对话系统的感知、响应、表达模块及开发工具，构成具体产品进展，而非仅有大会观点。所供来源发布时间为2026年10月26日，符合最近7天窗口；产品推出时间仅明确到2026年10月，不补造具体日期。列举的芙崽、Keeta及满帮客服属于整条产品线的应用例子，不能认定均已采用本月新产品，也不将客户或Agora海外主体自动并入声网法定主体。历史检索未返回同事件或旧裁决。主体地点未知不用于推定杭州或外地，不因成熟企业身份否定正面技术线索。",
-        "scope": {
-          "technology_evidence": "原文披露2026年10月推出Call Agent与实时AI开发工具包；Agora Conversational Model组合VAD、回声消除、流式ASR、全双工对话响应、工具调用及Context TTS，并提供开发套件和SDK等工具。",
-          "value_reason": "产品将实时网络、语音感知、对话控制及业务工具调用整合，直接对应语音智能体持续聆听、打断及任务执行的工程难题，可为杭州相关应用和硬件企业提供基础设施路线参考；不把模块发布推定为复杂任务效果已经全面验证。"
-        },
-        "stage": {
-          "status": "产品已推出；性能与应用效果为报道披露",
-          "reason": "全文时间线明确今年10月推出Call Agent与实时AI开发工具包，支持发布阶段；产品线客户案例未逐项绑定新版本，延迟、打断等性能指标也未提供独立测试条件，不据此认定新产品已规模化交付或取得新增订单。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:1711ec3133e0cb48"
-          ],
-          "prior_decisions": [],
-          "change_reason": "所供accepted_history与prior_decisions均为空，检索记录未返回同事件；按当前检索范围保留本月产品发布，不宣称首次发现，也不把文中多年产品沿革全部算成本次新增。",
-          "new_evidence_ids": [
-            "article:338cbaf4b01ab2a0"
-          ]
-        },
-        "evidence_ids": [
-          "article:338cbaf4b01ab2a0",
-          "history_lookup:1711ec3133e0cb48"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "现有全文足以支持产品发布及具体技术路线；全球网络规模、海外主体合作和既有客户案例未充分厘清主体与可比口径，尚不足独立确立本主体全国标杆资格。",
-          "evidence_ids": [
-            "article:338cbaf4b01ab2a0"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "熵旋芯智",
-      "identity_mentions": [
-        {
-          "name": "MITA",
-          "relation": "product",
-          "evidence": "熵旋芯智提出首代MRAM存内计算架构MITA（MRAM In-Memory Tensor Architecture），并将基于MRAM的处理单元命名为MPU（MRAM-based Processing Unit）。"
-        },
-        {
-          "name": "MPU",
-          "relation": "product",
-          "evidence": "熵旋芯智提出首代MRAM存内计算架构MITA（MRAM In-Memory Tensor Architecture），并将基于MRAM的处理单元命名为MPU（MRAM-based Processing Unit）。"
-        }
-      ],
-      "title": "从GPU、LPU到“MPU”：熵旋芯智以MITA架构重算AI推理成本",
-      "company": "熵旋芯智",
-      "score": 50,
-      "sector": "AI推理芯片／MRAM存内计算",
-      "financing": "",
-      "source": "半导体行业观察",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "熵旋芯智",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-3044b1ef039903cb9d0e",
-      "company_canonical_name": "熵旋芯智",
-      "identity_status": "unresolved",
-      "event_type": "重磅发布",
-      "link": "https://mp.weixin.qq.com/s/fARf--TM2oJJgWdTuU3eOQ",
-      "article_title": "从GPU、LPU到“MPU”：熵旋芯智以MITA架构重算AI推理成本",
-      "event_desc": "熵旋芯智提出首代MRAM存内计算架构MITA，并将基于MRAM的处理单元命名为MPU。该架构面向MoE专家内部的权重密集型线性运算，使适配后的权重驻留于MRAM阵列，在阵列内完成相应矩阵运算，以专用FFN加速模块与GPU协同执行推理。公司正构建模型适配、编译、映射、仿真与执行工具链，计划于2027年推进MPW验证及客户送样，以2028年量产为目标，并将单位Token推理成本降低90%作为长期技术与商业目标。",
-      "insight": "熵旋芯智选择成为GPU推理系统中的专家计算加速模块，而非替代整套GPU系统：将适配的专家权重留在MRAM阵列内参与运算，旨在减少低批量逐Token生成时的重复权重搬运。其系统价值取决于权重驻留带来的节省能否覆盖阵列读出、精度保障及GPU协同通信的额外开销，关键观察应是相同模型与服务条件下的端到端收益。",
-      "event_headline": "熵旋芯智提出MITA架构，面向MoE专家计算加速",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-26",
-        "event_date": null,
-        "observed_date": "2026-10-26",
-        "review_required": true
-      },
-      "published_date": "2026-10-26",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "全文的MRAM权重驻留、MoE专家加速和工具链研发已构成具体技术路线，2027年验证及2028年量产保持计划状态。复读历史无匹配、无主体冲突。新闻10月26日有效；旧watch仅因登记名和地点未核，这不单独阻断普通正面发现，故保留早期芯片路线，地点待核，不授杭州、标杆或负面资格。",
-      "event_headline_source": "54f8309b5c05f9b363c67578634282259f7266a233cf778d8147a8590543bb19",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "架构介绍与研发规划足以支持技术线索，但尚无经验证的产品性能、交付或行业地位依据，不能据此建立标杆资格。",
-        "evidence_ids": [
-          "article:51ee522c113b5cd9"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "main overnight Agent：全文复读、逐项范围纠偏和证据补回",
-        "candidate_id": "922dbca4fb200b96e91fa5d51d9f727cde71a230331d01f654131444a01b77fe",
-        "input_row_sha256": "a5efd6609b6d742c90cd885dfcfcebce0d2dcc8e949af43ffc9c6554d426881d",
-        "reason": "全文的MRAM权重驻留、MoE专家加速和工具链研发已构成具体技术路线，2027年验证及2028年量产保持计划状态。复读历史无匹配、无主体冲突。新闻10月26日有效；旧watch仅因登记名和地点未核，这不单独阻断普通正面发现，故保留早期芯片路线，地点待核，不授杭州、标杆或负面资格。",
-        "scope": {
-          "technology_evidence": "原文介绍以MRAM阵列驻留适配后的专家权重，在阵列内执行矩阵运算，并以专用FFN加速模块与GPU协同；公司正建设模型适配、编译、映射、仿真及执行工具链。",
-          "value_reason": "提供了针对低批量Decode权重搬运瓶颈的早期芯片路线，值得作为杭州推理芯片培育与异构系统研发的技术线索；关键验证是精度、读出及通信开销计入后的端到端收益，而非架构名称或降本目标。"
-        },
-        "stage": {
-          "status": "architecture_proposed_toolchain_under_development_validation_upcoming",
-          "reason": "架构已提出，工具链正在构建；2027年MPW验证及客户送样、2028年量产均为计划，降低单位Token成本90%为长期目标。架构提出的具体日期未知，新闻发布时间为2026-10-26。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:1711ec3133e0cb48"
-          ],
-          "prior_decisions": [],
-          "change_reason": "输入的历史检索记录未返回该稳定主体的已收录事件或此前裁决，未发现可判重复的记录；仅限本次检索范围，不宣称全局首次发现。",
-          "new_evidence_ids": [
-            "article:51ee522c113b5cd9"
-          ]
-        },
-        "evidence_ids": [
-          "article:51ee522c113b5cd9",
-          "identity_registry:2dcd4f408df25406",
-          "geography_registry:b93d03cf35486d17",
-          "history_lookup:1711ec3133e0cb48"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "架构介绍与研发规划足以支持技术线索，但尚无经验证的产品性能、交付或行业地位依据，不能据此建立标杆资格。",
-          "evidence_ids": [
-            "article:51ee522c113b5cd9"
-          ]
-        }
-      }
     }
   ],
   "negatives": [],
@@ -1559,7 +1513,26 @@
     "脑机接口": 1,
     "生物脑机接口": 1,
     "脑机接口、柔性传感与智能算法": 1,
-    "神经调控与神经功能重建": 1
+    "神经调控与神经功能重建": 1,
+    "人形机器人与具身智能数据基础设施": 1,
+    "人形机器人、具身智能": 2,
+    "神经电子与植入式医疗器械": 1,
+    "桌面级激光加工与数字创作设备": 1,
+    "人工智能／个人AI助手与智能体": 1,
+    "半导体存储": 1,
+    "量子精密测量与传感": 1,
+    "机器人应用与租赁服务": 1,
+    "机器人租赁平台与场景运营": 1,
+    "具身智能与机器人解决方案": 1,
+    "机器人租赁与交付运维": 1,
+    "机器人体验教育与租赁服务": 1,
+    "功能服饰与保温材料应用": 1,
+    "AI制药与抗体研发": 1,
+    "母婴用品智能制造": 1,
+    "品牌电商服务与AI营销": 1,
+    "直播电商与供应链数字化": 1,
+    "医疗人工智能／医学影像辅助筛查": 1,
+    "产业数据服务与产业研究工具": 1
   },
   "daily_details": {
     "2026-10-26": {
@@ -1569,7 +1542,11 @@
     "2026-10-27": {
       "count": 20,
       "negatives": 0
+    },
+    "2026-10-28": {
+      "count": 20,
+      "negatives": 0
     }
   },
-  "created": "2026-10-27 08:40:07"
+  "created": "2026-10-28 02:45:47"
 }
