@@ -2378,5 +2378,50 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "Cathedral": [
+    {
+      "date": "2026-10-29",
+      "title": "据文章转述《华盛顿邮报》获得的报告草稿，Cathedral参与Anthropic外部安全测试，自研AI智能体在尝试攻击其自研系统数日未果后，转向第三方商业软件漏洞，并在不到12小时内打通通往内部业务与通信系统的访问路径。Anthropic承认研究人员访问了有限的销售、HR和IT系统，但否认Claude用户聊天记录、模型输出、源代码及模型权重受到影响，并对报告所述影响及研究人员遵守测试规则的情况提出异议。Cathedral称数据访问限于安全研究所需最低范围。",
+      "article_title": "A社交表当天被打脸！服务器12小时被黑，马斯克前员工干的",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/X_qVxU7qK99Lhj_v5JuJ2A",
+      "sector": "AI网络安全",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Cathedral",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "Cathedral",
+      "company_entity_id": "dr-u-ca71d3ec52ddc8527345",
+      "company_raw_name": "Cathedral",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-27",
+      "insight": "Cathedral此次展示的价值在于寻找跨系统攻击路径：核心自研系统未被攻破时，第三方办公软件及其权限连接仍可能成为入口。这为其自动化渗透测试工具提供了具体应用案例，但双方对访问范围与测试合规性的分歧，使该案例尚不能直接支持其全面替代人工安全团队的判断。",
+      "financing": "文章援引PitchBook数据称，Cathedral已获得1.6亿美元融资，估值14亿美元；投资方包括a16z、红杉资本及Lux Capital。文章未明确融资轮次、完成日期或资金用途。",
+      "event_date": "",
+      "event_headline": "据报道，Cathedral智能体经第三方软件渗透Anthropic业务系统",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
