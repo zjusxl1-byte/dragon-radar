@@ -1165,11 +1165,11 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/pN5o2T-be7AB7Je9tX7n-g",
       "sector": "医疗人工智能／医学影像辅助筛查",
-      "location": "地点待核",
+      "location": "医疗项目地：杭州市余杭区（机构主体属地待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
+        "display_location": "医疗项目地：杭州市余杭区（机构主体属地待核）",
         "located_status": "unknown",
         "display_basis": [],
         "subject_evidence_ids": [],
@@ -1182,7 +1182,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c6efeedc6680b60648e923f6",
+            "source_url": "https://mp.weixin.qq.com/s/pN5o2T-be7AB7Je9tX7n-g",
+            "checked_at": "2026-10-26T22:46:10+00:00",
+            "subject": "阿里巴巴达摩院",
+            "role": "project",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "医疗项目地：杭州市余杭区（机构主体属地待核）",
+          "detail": "余杭发布证明达摩院与区卫健局共建余杭筛查应用。该事实只定位医疗项目，不能从项目或母集团直接推定研究机构的主要总部或经营主体。",
+          "evidence_ids": [
+            "geo-c6efeedc6680b60648e923f6"
+          ]
+        }
       },
       "article_location": "",
       "source": "余杭发布",
@@ -1219,6 +1241,87 @@
       "event_date": "",
       "event_headline": "阿里巴巴达摩院参与的多癌种筛查路径披露落地成效",
       "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "智瀚星途（杭州）智能科技有限公司": [
+    {
+      "date": "2026-10-29",
+      "title": "据文章，智瀚星途在杭州清波街道的机器狗巡检由五百米道路试点拓展至南山路、河坊街两公里街区，由短期测试转为长期运营和政府采购服务。项目已运行近十个月，形成出发、巡检、异常识别、自主回充闭环，文中称常态化稼动率超过90%。企业还已向中亚客户交付产品和解决方案，新加坡项目正在落地，并计划于文章所称“今年”完成上百台具身智能机器人在真实场景上岗。",
+      "article_title": "10年智驾，她转身具身大脑",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/UcT9o1cUKbKfaHQ8NkRLlA",
+      "sector": "具身智能／机器人场景智能与巡检服务",
+      "location": "浙江省 / 杭州市 / 上城区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 上城区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-67a3cff0f4ae05243838da28"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "智瀚星途(杭州)智能科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-67a3cff0f4ae05243838da28",
+            "source_url": "https://mp.weixin.qq.com/s/UcT9o1cUKbKfaHQ8NkRLlA",
+            "checked_at": "2026-10-27T22:31:04+00:00",
+            "subject": "智瀚星途(杭州)智能科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "上城区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "上城区",
+          "evidence_ids": [
+            "geo-67a3cff0f4ae05243838da28"
+          ]
+        }
+      },
+      "article_location": "总部：杭州市上城区；巡检项目地：杭州清波街道南山路、河坊街。注册地未披露。",
+      "source": "湖畔自留田",
+      "kind": "event",
+      "canonical_name": "智瀚星途(杭州)智能科技有限公司",
+      "company_entity_id": "dr-u-32308d89919e0fb4662a",
+      "company_raw_name": "智瀚星途（杭州）智能科技有限公司",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "街区持续运营及海外交付报道支持企业进展，但未建立全国行业领先地位、可比规模或独立验证的技术优势，尚不足授予全国标杆资格。",
+        "evidence_ids": [
+          "article:5693ae6091bda047"
+        ]
+      },
+      "published_date": "2026-10-28",
+      "insight": "从短期试点转向长期政府采购服务，说明智瀚星途在该街区的交付对象已不只是机器人设备，而是包含自主巡检、回充和运维的持续作业服务。将安全关键功能放在端侧、将模型迭代放在云端，为开放街区运行提供了工程路径；这一项目体现的是城市巡检能力，不能直接外推为双臂操作或人形服务场景已经成熟。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "智瀚星途机器狗巡检从街道试点转向政府采购服务",
+      "event_signal": "major",
       "discovery_status": "first_seen"
     }
   ]
