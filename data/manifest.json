@@ -4490,7 +4490,7 @@
     "2026-10-27": "b67fc7a7b89dacc7f1ad8315d576b4ba74caa2a7ee5e5c45abe1e4fc6300181e",
     "2026-10-28": "2ee5f4c255cc5c85db1f3c9b0cf168d6de32f7d098b9d32bc36d76164a1962a2"
   },
-  "geography_version": "023e9c7dd0764f6cdcce3e100c72dad1e5c98f3568e8e8b8efb9c99d21da006e",
+  "geography_version": "b7dd99e3b8cfc3f5f6039238b0f21ded3451bc6ded4967d66d4b6b25f3834ea4",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -14434,10 +14434,60 @@
       }
     },
     "dr-u-6b6d421f9a1433cbf15c": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "广东省 / 深圳市宝安区石岩街道石龙社区颐和路2号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-4aef1bfe072bf0d938fa7ad9"
+      ],
+      "subject_evidence_ids": [
+        "geo-4aef1bfe072bf0d938fa7ad9"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "欣旺达",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "深圳市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-4aef1bfe072bf0d938fa7ad9"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-4aef1bfe072bf0d938fa7ad9",
+          "source_url": "https://www.sunwoda.com/contact.html",
+          "checked_at": "2026-10-28T00:31:54.449307+00:00",
+          "subject": "欣旺达",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "深圳市",
+            "district": "宝安区",
+            "address": "深圳市宝安区石岩街道石龙社区颐和路2号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "宝安区",
+        "evidence_ids": [
+          "geo-4aef1bfe072bf0d938fa7ad9"
+        ]
+      }
     },
     "dr-u-6b853838004d76333be1": {
       "geography_status": "unknown",
@@ -21297,10 +21347,50 @@
       "located_status": "unknown"
     },
     "dr-u-b38ce43cd405210ecead": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市 / 海淀区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-12a442bc904aa1420da2c4ae"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "趋境科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-12a442bc904aa1420da2c4ae",
+          "source_url": "https://www.taibo.cn/company/121811",
+          "checked_at": "2026-10-28T00:32:30.418368+00:00",
+          "subject": "趋境科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "evidence_ids": [
+          "geo-12a442bc904aa1420da2c4ae"
+        ]
+      }
     },
     "dr-u-b3a4aaa3a0f4dc77767d": {
       "geography_status": "unknown",
@@ -51620,7 +51710,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "249510e909f91bd4b74667a66d642717044e25e26adb1630b008670654c58706",
+  "history_version": "50ef1682fd4573c5d995c817334ceafd5e7ed9a8b6be9c09c23f1820c4ceb4bb",
   "company_history_buckets": {
     "00": "8e0daedec8c80b097d1f816ea89ef7fec81a937c6f25e2ba4ac62368743ceb59",
     "01": "e385d9e17985830f4732a253116546ce60a58a75b9ba23862cc346ce3dc49584",
@@ -51661,7 +51751,7 @@
     "24": "4a6537ba04969a4036773f0c7c9792d354e7405eff4274301d9ea6430c93526d",
     "25": "31cefc71caf1ef470c8b41dfc94385fa002d879816c7095bfc18ca56cb6925b8",
     "26": "87ab1bf6a4b7caa47dd5940ef685f64d596399a204f2fc97197519f0739a1820",
-    "27": "c464c36d851c93dfd90d70a8117d5c4f8e8165058fab72ff2572fa8557fe9731",
+    "27": "e50e62256b76805f59ec1279607d3bff66b9479c9ff9f7f3576bdb8d3fe586f0",
     "28": "bbfc8eecf5936073a8b70393aa0b3d3133e7a47dca90d9eb6051425b3ec7705d",
     "29": "aa4b395344604b44ac0aa533e45e5b7e9f90ca607e5799254cc9be6dea1d2f44",
     "2a": "d80dd98a157e6dd17c5cbe7fca51e921017b0a1963d92660c413c4c53da2f5d5",
@@ -51687,7 +51777,7 @@
     "3e": "2cdec5fb18444af94447f18369bed4d8019dbe2836c88e7814159eccd27da390",
     "3f": "58c15420530ccbe8dadee94189e64345d643e0879baadfe7c6a2380cb6ba0b04"
   },
-  "history_search_version": "bfeaf449643d7de5c32daac328337e1faad098df55fa3eb129026dbed8af7db4",
+  "history_search_version": "d19433da2a7de391c9f6ed707e4221519746e4e210b63430b447b8b7f036bdb3",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
