@@ -1960,16 +1960,18 @@
       "event_type": "科技企业成立",
       "link": "https://mp.weixin.qq.com/s/oMeoCoflmfw8sfKtLZPe2w",
       "sector": "量子精密测量与传感",
-      "location": "地点线索：浙江省杭州市余杭区",
+      "location": "浙江省 / 杭州市 / 余杭区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f09ce50cf361ac0f97bbf820"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州天目光衢量子科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1977,7 +1979,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-f09ce50cf361ac0f97bbf820",
+            "source_url": "https://mp.weixin.qq.com/s/oMeoCoflmfw8sfKtLZPe2w",
+            "checked_at": "2026-10-26T22:31:29+00:00",
+            "subject": "杭州天目光衢量子科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-f09ce50cf361ac0f97bbf820"
+          ]
+        }
       },
       "article_location": "浙江省杭州市余杭区",
       "source": "湖畔自留田",
@@ -2005,6 +2033,51 @@
       "event_date": "2026-10-20",
       "event_headline": "天目光衢量子据报道于2026年10月在杭州余杭成立",
       "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "兑吧集团": [
+    {
+      "date": "2026-10-29",
+      "title": "兑吧2026年上半年AI短剧收入为2.23亿元，占集团总收入的51.2%。10月14日，公司披露，根据未经审核的内部账目，AI短剧业务预计已连续三个月实现单月盈利。公司覆盖剧本、制作与发行，通过自建发行系统向抖音、快手、视频号等渠道分发作品，并披露自研编剧Agent将编剧效率提高了5—8倍。集团上半年整体仍亏损2533万元。",
+      "article_title": "价格跌96%，AI漫剧老板：行业已死",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/zjJYtYTvjkE1Lzo5FzmE5g",
+      "sector": "AI短剧与数字内容发行",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "兑吧集团",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "铅笔道",
+      "kind": "event",
+      "canonical_name": "兑吧集团",
+      "company_entity_id": "dr-u-9c9881c92e8fd2b0e32e",
+      "company_raw_name": "兑吧集团",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "published_date": "2026-10-27",
+      "insight": "兑吧的变化不只是利用AI提高制作效率，而是将剧本、制作和发行连接起来，把业务延伸至内容触达用户及商业化的环节。既有广告投放和数据分析经验为这一路径提供了基础，但目前收入构成尚未细分，不能将预计单月盈利单独归因于AI降本或发行能力。",
+      "financing": "",
+      "event_date": "2026-10-14",
+      "event_headline": "兑吧披露AI短剧业务预计连续三个月实现单月盈利",
+      "event_signal": "major",
       "discovery_status": "first_seen"
     }
   ]
