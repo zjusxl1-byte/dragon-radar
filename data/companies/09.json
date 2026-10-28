@@ -1649,5 +1649,62 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "智元": [
+    {
+      "date": "2026-10-29",
+      "title": "智元发布具身Agent框架Genie Master，连接上层任务推理与底层机器人动作执行。据文中介绍，搭载该框架的精灵G2已在真实便利店开展任务实测，通过回溯挂货失败记录，采用腕部相机补充近距离视角，再完成挂货，并将有效方法保存为后续可调用的经验。框架通过具身执行协议EEP提供能力调用、执行引导、物理反馈和任务接续接口；Harness RSI通过提示词、记忆和执行规则积累经验，Policy RSI利用自主执行、人工接管示范和异常恢复等数据训练动作策略。智元另计划于11月2日开展6台精灵G2参与的24小时便利店直播。",
+      "article_title": "Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/0zmdVjp8qrnfYTKwR5QfsQ",
+      "sector": "具身智能与机器人",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "智元",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "智元",
+      "company_entity_id": "dr-u-620e30b380b5c91e16a2",
+      "company_raw_name": "智元",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Genie Master",
+          "relation": "product",
+          "evidence": "背后是智元最新发布的具身Agent框架Genie Master。"
+        },
+        {
+          "name": "精灵G2",
+          "relation": "product",
+          "evidence": "在Genie Master的加持下，智元精灵G2机器人在真实便利店环境执行任务的过程中，已经可以不依赖人工示范与调试，自主分析失败原因、调整策略、沉淀经验，实现“无人在环”的持续自我改进。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-27",
+      "insight": "这次进展将智元的能力展示从完成预设任务推进到部署后的问题诊断与经验复用：挂货案例中，系统通过改变观察位置解决遮挡，而不是只重复原动作。经验规则更新与动作模型训练是两条不同路径；前者已有具体案例，后者能否带来跨任务、跨门店的稳定提升，仍需对应实测结果。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "智元发布Genie Master，在便利店实测失败诊断与经验复用",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
