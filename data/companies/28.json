@@ -2858,6 +2858,92 @@
       "event_headline": "Physical Intelligence融资回顾：2025年11月获6亿美元",
       "event_signal": "context",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "据报道，Physical Intelligence正洽谈至少10亿美元融资，预计投后估值约200亿美元，Avenir和Lux Capital考虑领投。公司研发旨在适配不同机器人、完成不同任务的通用AI模型。",
+      "article_title": "0营收估值200亿美元,具身版OpenAI又融10亿美元 - 量子位",
+      "event_type": "融资",
+      "link": "https://www.qbitai.com/2026/10/506042.html",
+      "sector": "具身智能／机器人通用AI模型",
+      "location": "US / California / San Francisco / Mission District",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco / Mission District",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8fbf2d0f78f65d7bfaa6e8b5"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Physical Intelligence",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8fbf2d0f78f65d7bfaa6e8b5",
+            "source_url": "https://www.pi.website/join-us",
+            "checked_at": "2026-10-20T01:58:54.121756+00:00",
+            "subject": "Physical Intelligence",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco",
+              "district": "Mission District"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-8fbf2d0f78f65d7bfaa6e8b5"
+          ]
+        }
+      },
+      "article_location": "美国加利福尼亚州旧金山（已审经营地）",
+      "source": "www.qbitai.com",
+      "kind": "event",
+      "canonical_name": "Physical Intelligence",
+      "company_entity_id": "dr-u-ee9fd5c9894d1ae21334",
+      "company_raw_name": "Physical Intelligence（简称PI）",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "PI",
+          "relation": "same_entity",
+          "evidence": "美国机器人AI公司Physical\nIntelligence(简称PI)"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "复用既有未建立标杆资格的判断。本次新增融资谈判与估值信息，没有提供跨本体部署表现、客户应用或可复核行业地位，不能以资本规模或OpenAI类比授予标杆资格。",
+        "evidence_ids": [
+          "prior_decision:eee78f2be78e9857",
+          "web_acquired_text:823625f141889016"
+        ]
+      },
+      "published_date": "2026-10-28",
+      "insight": "PI值得对标的是机器人能力的供给方式：不自行量产整机，而是研发可服务不同机器人和任务的通用AI模型。如果同一模型能够跨设备复用，机器人厂商就有机会减少为每种设备、每项任务分别开发控制能力的重复工作。融资洽谈反映资本对这条路径的关注，但不能替代跨机器人适配能力的验证。寻龙下一步可围绕同一任务比较其在不同机器人上的成功率、新设备所需适配数据和调试工作量，判断通用能力究竟能复用多少，而非用估值代替技术判断。",
+      "financing": "据文章援引彭博社报道，Physical Intelligence正洽谈至少10亿美元的新一轮融资，预计投后估值约200亿美元；现有投资方Avenir和Lux Capital考虑领投，交易尚未完成。评分不计已完成融资加分。",
+      "event_date": "",
+      "event_headline": "Physical Intelligence据报道洽谈至少10亿美元融资",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "百度": [
@@ -3302,6 +3388,71 @@
       "financing": "",
       "event_date": "",
       "event_headline": "CXMT据报道推出4F²架构，量产情况未披露",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "逐际动力": [
+    {
+      "date": "2026-10-29",
+      "title": "逐际动力于10月22日更新FluxVLA Engine第二版技术报告，新增在线强化学习后训练实验，并扩展仿真评测与真机部署覆盖。在分别从同一SmolVLA模仿学习检查点出发的任务专用后训练实验中，LIBERO-10和RoboTwin Clean十项任务的平均成功率分别从66.2%升至76.2%、从45.9%升至61.3%。报告还展示了ALOHA、双臂Franka、Rebot及自研人形机器人LimX Oli上的部署链路。",
+      "article_title": "工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+      "event_type": "开源工程底座技术报告更新",
+      "link": "https://mp.weixin.qq.com/s/RKoD-j4LfFEG-CmpWrjmLQ",
+      "sector": "具身智能／机器人研发基础设施",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "逐际动力",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "逐际动力",
+      "company_entity_id": "dr-u-6420f768dc429c7cfa94",
+      "company_raw_name": "逐际动力",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "FluxVLA Engine",
+          "relation": "product",
+          "evidence": "近期，逐际动力更新了其开源工程底座FluxVLA Engine的第二版技术报告。"
+        },
+        {
+          "name": "LimX Oli",
+          "relation": "product",
+          "evidence": "逐际动力自研的全尺寸人形机器人LimX Oli"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "材料支持工程底座迭代及具体实验，但未提供独立市场地位、行业采用规模或可比竞争优势证据，尚不足以建立全国标杆资格。",
+        "evidence_ids": [
+          "article:b11a0d88fb6e24bb"
+        ]
+      },
+      "published_date": "2026-10-28",
+      "insight": "逐际动力此次更新把开源底座的能力从训练、评测和部署进一步延伸至在线交互后训练，使研发团队能在复用数据与模型接口的同时开展策略改进。多本体部署展示了工程接口的复用价值，但LimX Oli搬运任务全部四阶段完成比例为33.33%，也说明链路贯通与复杂任务可靠完成仍是不同层次的能力。",
+      "financing": "",
+      "event_date": "2026-10-22",
+      "event_headline": "逐际动力更新FluxVLA Engine报告，扩展后训练与真机部署",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
