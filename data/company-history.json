@@ -4334,7 +4334,7 @@
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "湖州丽天智能科技有限公司",
+        "subject": "丽天智能",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
@@ -4346,10 +4346,10 @@
       "article_location": "湖州",
       "source": "元璟资本",
       "kind": "event",
-      "canonical_name": "湖州丽天智能科技有限公司",
-      "company_entity_id": "dr-u-87ea0db44da62f1538f3",
+      "canonical_name": "丽天智能",
+      "company_entity_id": "dr-u-f4b3df6e4d7ed7a821f2",
       "company_raw_name": "湖州丽天智能科技有限公司",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 80,
       "is_national_star": true,
       "insight": "丽天智能在光伏安装机器人赛道已建立全球领导地位，技术成熟且商业化落地迅速，覆盖多国市场，融资将加速其全球渗透和产品矩阵深化，受益于AI算力需求和碳中和趋势，增长潜力显著。",
@@ -37140,7 +37140,7 @@
       "canonical_name": "杭州微纳核芯电子科技有限公司",
       "company_entity_id": "dr-u-6535648b340d6536dfda",
       "company_raw_name": "杭州微纳核芯电子科技有限公司",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 110,
       "is_national_star": false,
       "insight": "微纳核芯在存算一体架构上的原创性突破有望解决AI芯片能效瓶颈，牵头制定RISC-V标准则强化了生态话语权，具备从IP授权到芯片落地的潜力，值得关注其商业化进展。",
@@ -48640,32 +48640,69 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/d6Px7BfLwuwN9loncdbGWw",
       "sector": "半导体芯片",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市 / 萧山区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "微纳核芯",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 萧山区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c44fb19b7ba338b3b5db2c23"
+        ],
+        "subject_evidence_ids": [
+          "geo-23115f403c7190156176bd16"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州微纳核芯电子科技有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-23115f403c7190156176bd16"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c44fb19b7ba338b3b5db2c23",
+            "source_url": "https://www.zhitongcaijing.com/content/detail/1514178.html",
+            "checked_at": "2026-10-29T18:09:33.879250+00:00",
+            "subject": "杭州微纳核芯电子科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "萧山区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "萧山区",
+          "evidence_ids": [
+            "geo-c44fb19b7ba338b3b5db2c23"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "半导体行业观察",
       "kind": "event",
-      "canonical_name": "微纳核芯",
-      "company_entity_id": "dr-u-a5e5f031b6f878cf00ae",
+      "canonical_name": "杭州微纳核芯电子科技有限公司",
+      "company_entity_id": "dr-u-6535648b340d6536dfda",
       "company_raw_name": "微纳核芯",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 110,
       "is_national_star": false,
       "insight": "存算一体架构是解决大模型推理能效瓶颈的关键路径，微纳核芯早期卡位，有望在国产AI芯片赛道形成技术壁垒；杭州数字生态为其提供应用场景，耐心资本助力长期研发。",
@@ -48673,7 +48710,7 @@
       "event_date": "",
       "event_headline": "微纳核芯2026年5月亮相杭州新八骏，展示存算一体方向",
       "event_signal": "context",
-      "discovery_status": "first_seen"
+      "discovery_status": "update"
     },
     {
       "date": "2026-06-19",
@@ -48682,32 +48719,69 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/XgvORRJ6z25r4YATUtY2fw",
       "sector": "AI芯片/存算一体",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市 / 萧山区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "微纳核芯",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 萧山区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c44fb19b7ba338b3b5db2c23"
+        ],
+        "subject_evidence_ids": [
+          "geo-23115f403c7190156176bd16"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州微纳核芯电子科技有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-23115f403c7190156176bd16"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c44fb19b7ba338b3b5db2c23",
+            "source_url": "https://www.zhitongcaijing.com/content/detail/1514178.html",
+            "checked_at": "2026-10-29T18:09:33.879250+00:00",
+            "subject": "杭州微纳核芯电子科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "萧山区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "萧山区",
+          "evidence_ids": [
+            "geo-c44fb19b7ba338b3b5db2c23"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "半导体行业观察",
       "kind": "event",
-      "canonical_name": "微纳核芯",
-      "company_entity_id": "dr-u-a5e5f031b6f878cf00ae",
+      "canonical_name": "杭州微纳核芯电子科技有限公司",
+      "company_entity_id": "dr-u-6535648b340d6536dfda",
       "company_raw_name": "微纳核芯",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 110,
       "is_national_star": false,
       "insight": "微纳核芯获得全链条产业资本加持，表明存算一体技术路线在端侧AI推理场景获得产业链上下游认可。牵头RISC-V存算一体标准制定，有望从技术领先走向生态主导，但需关注从仿真验证到量产交付的落地挑战。",
@@ -114989,7 +115063,7 @@
       "event_date": "",
       "event_headline": "丽天智能据披露获评第八批国家级专精特新“小巨人”企业",
       "event_signal": "context",
-      "discovery_status": "first_seen"
+      "discovery_status": "update"
     }
   ],
   "浙江科聪控制": [
