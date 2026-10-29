@@ -2044,24 +2044,62 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/zjJYtYTvjkE1Lzo5FzmE5g",
       "sector": "AI短剧与数字内容发行",
-      "location": "地点待核",
+      "location": "浙江省杭州市西湖区三墩镇苏振路 100 号紫金港云谷中心 6 号楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市西湖区三墩镇苏振路 100 号紫金港云谷中心 6 号楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-14b0e81ec30aefbc0f7c3294"
+        ],
+        "subject_evidence_ids": [
+          "geo-2c47604d555f83724e393efa"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "兑吧集团",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-2c47604d555f83724e393efa"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-14b0e81ec30aefbc0f7c3294",
+            "source_url": "https://www.duiba.cn/",
+            "checked_at": "2026-10-29T18:07:53.673290+00:00",
+            "subject": "兑吧集团",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "浙江省杭州市西湖区三墩镇苏振路 100 号紫金港云谷中心 6 号楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-14b0e81ec30aefbc0f7c3294"
+          ]
+        }
       },
       "article_location": "",
       "source": "铅笔道",
@@ -2077,6 +2115,63 @@
       "financing": "",
       "event_date": "2026-10-14",
       "event_headline": "兑吧披露AI短剧业务预计连续三个月实现单月盈利",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "铭芯启睿": [
+    {
+      "date": "2026-10-30",
+      "title": "据文章报道，铭芯启睿的泰山一号已成功流片，正在推进测试验证。该芯片采用28nm CMOS工艺平台及1T4R单元结构，单芯片容量为1Gb；文中披露访问延时小于20ns，并集成片上硬件纠错电路。公司已在嵌入式RRAM存储IP方向拥有客户和产品，应用包括显示驱动芯片及与华澜微合作的SSD控制器，主要涉及28nm、40nm工艺节点。公司同时推进基于SRAM、DRAM的第一代LPU研发，预计2027年底流片；后续计划探索将RRAM用于模型权重存储及部分推理计算。",
+      "article_title": "MemSilicon押注RRAM，跨越22年的技术征程",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/BE2_VyYXGhj6RoJwXHxXAQ",
+      "sector": "半导体／新型非易失存储／AI推理芯片",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "铭芯启睿",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "铭芯启睿",
+      "company_entity_id": "dr-u-544a5f04a8bcce072d90",
+      "company_raw_name": "铭芯启睿（MemSilicon）",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "MemSilicon",
+          "relation": "same_entity",
+          "evidence": "铭芯启睿（MemSilicon）的科研团队将目光投向了 RRAM（电阻式随机存取存储器）"
+        },
+        {
+          "name": "泰山一号",
+          "relation": "product",
+          "evidence": "至于两周前成功流片的泰山一号，是基于1TnR技术路线的首代高密度、大容量RRAM独立芯片，正在推进测试验证"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-29",
+      "insight": "铭芯启睿正从嵌入式存储模块向Gb级独立存储芯片拓展：已有显示驱动和SSD控制器应用提供了工艺集成与客户协作基础，泰山一号则进一步触及大容量阵列的读写、纠错与可靠性问题。其近期落点仍是存储产品，第一代LPU计划采用SRAM和DRAM，RRAM承担模型权重存储及计算属于后续路线，不能将此次流片直接视为AI推理方案已经落地。",
+      "financing": "文章称，公司2024年孵化成立后迅速完成前两轮融资；数月前卢涛加入同期，公司宣布获得十六家新老股东参与的超4亿元A轮融资。原文未提供该轮融资的精确日期。",
+      "event_date": "",
+      "event_headline": "铭芯启睿1Gb电阻式存储芯片泰山一号流片，进入测试验证",
       "event_signal": "major",
       "discovery_status": "first_seen"
     }
