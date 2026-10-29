@@ -2082,16 +2082,18 @@
       "event_type": "其他",
       "link": "https://nb.ifeng.com/c/8xatDKE9bQM",
       "sector": "AI传感与健康可穿戴",
-      "location": "地点线索：杭州，具体区县未披露",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-bdc023c7abead7a1b0149502"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "光华创芯智能科技(杭州)有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -2099,7 +2101,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-bdc023c7abead7a1b0149502",
+            "source_url": "https://nb.ifeng.com/c/8xatDKE9bQM",
+            "checked_at": "2026-10-29T00:32:09.771118+00:00",
+            "subject": "光华创芯智能科技(杭州)有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-bdc023c7abead7a1b0149502"
+          ]
+        }
       },
       "article_location": "杭州，具体区县未披露",
       "source": "nb.ifeng.com",

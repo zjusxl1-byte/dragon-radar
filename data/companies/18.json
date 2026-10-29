@@ -1789,24 +1789,62 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Hr1w2ztqM-0U-CC95Aot6A",
       "sector": "人工智能加速芯片与智算系统",
-      "location": "地点待核",
+      "location": "上海市 / 浦东新区 / 金秋路158号张润大厦1号楼3楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 浦东新区 / 金秋路158号张润大厦1号楼3楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-287b16134098f0dc27420390"
+        ],
+        "subject_evidence_ids": [
+          "geo-287b16134098f0dc27420390"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "燧原",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-287b16134098f0dc27420390"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-287b16134098f0dc27420390",
+            "source_url": "https://www.enflame-tech.com/aboutus",
+            "checked_at": "2026-10-29T00:32:47.931722+00:00",
+            "subject": "燧原",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区",
+              "address": "金秋路158号张润大厦1号楼3楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-287b16134098f0dc27420390"
+          ]
+        }
       },
       "article_location": "",
       "source": "晚点 LatePost",

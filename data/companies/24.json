@@ -1990,24 +1990,56 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/-5m84SFKMgZ9CDt4fum3wQ",
       "sector": "AI制药与抗体研发",
-      "location": "地点待核",
+      "location": "US / Seattle",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Seattle",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-00978c3476c9c440e60c0eab"
+        ],
+        "subject_evidence_ids": [
+          "geo-00978c3476c9c440e60c0eab"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Amazon",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "city": "Seattle",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-00978c3476c9c440e60c0eab"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-00978c3476c9c440e60c0eab",
+            "source_url": "https://www.aboutamazon.com/news/amazon-offices/amazon-headquarters-seattle-photo-tour",
+            "checked_at": "2026-10-29T00:34:38.516801+00:00",
+            "subject": "Amazon",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "city": "Seattle"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "city": "Seattle",
+          "evidence_ids": [
+            "geo-00978c3476c9c440e60c0eab"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",

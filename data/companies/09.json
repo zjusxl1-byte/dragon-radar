@@ -1658,24 +1658,62 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/0zmdVjp8qrnfYTKwR5QfsQ",
       "sector": "具身智能与机器人",
-      "location": "地点待核",
+      "location": "上海市 / 浦东新区 / 康桥镇环桥路1001号B2智元大楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 浦东新区 / 康桥镇环桥路1001号B2智元大楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-59a2f26ee25f7794a4a62c35"
+        ],
+        "subject_evidence_ids": [
+          "geo-3585c57ab3dcde71c2c99414"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "智元",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-3585c57ab3dcde71c2c99414"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-59a2f26ee25f7794a4a62c35",
+            "source_url": "https://www.agibot.com.cn/",
+            "checked_at": "2026-10-26T00:32:11.541314+00:00",
+            "subject": "智元",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区",
+              "address": "康桥镇环桥路1001号B2智元大楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-59a2f26ee25f7794a4a62c35"
+          ]
+        }
       },
       "article_location": "",
       "source": "量子位",
