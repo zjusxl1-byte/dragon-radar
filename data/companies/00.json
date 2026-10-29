@@ -1390,6 +1390,163 @@
       "event_headline": "博通据报道正为OpenAI定制芯片项目安排逾500亿美元融资",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "据报道，博通与美国银行、黑石、花旗及摩根士丹利达成630亿美元融资安排，通过新设特殊目的载体采购博通XPU人工智能加速器及网络解决方案，并租赁给Anthropic。设备预计2027年开始交付；参与银行计划最早于2027年第一季度发行约210亿美元债券。",
+      "article_title": "博通630亿美元AI芯片融资敲定,银行拟2027年发债_凤凰网",
+      "event_type": "芯片采购融资安排",
+      "link": "https://news.ifeng.com/c/8xaoStNefYr",
+      "sector": "人工智能芯片及网络解决方案",
+      "location": "US / California / Palo Alto / 3421 HILLVIEW AVENUE, PALO ALTO, CA 94304",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / Palo Alto / 3421 HILLVIEW AVENUE, PALO ALTO, CA 94304",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-1d3b51cefa3fa8532eb9c215"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "博通",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-1d3b51cefa3fa8532eb9c215",
+            "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+            "checked_at": "2026-10-20T01:46:44.337251+00:00",
+            "subject": "博通",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Palo Alto",
+              "address": "3421 HILLVIEW AVENUE, PALO ALTO, CA 94304"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Palo Alto",
+          "evidence_ids": [
+            "geo-1d3b51cefa3fa8532eb9c215"
+          ]
+        }
+      },
+      "article_location": "原文未提供博通主体所在地",
+      "source": "news.ifeng.com",
+      "kind": "event",
+      "canonical_name": "博通",
+      "company_entity_id": "dr-u-33dbfdc3b4b67b9dab90",
+      "company_raw_name": "博通",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Broadcom",
+          "relation": "same_entity",
+          "evidence": "博通(Broadcom,下称“博通”)"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前融资结构及历史芯片出货提供具体产业比较线索，但本次所给证据不足以独立核验行业地位；全球最大等报道表述缺乏完整比较依据。历史is_national_star标记本身不是已完成的标杆资格论证，本次不据此授予标签，也不批量改写历史标记。",
+        "evidence_ids": [
+          "web_acquired_text:4d1144cef019db35",
+          "accepted_history:9e64059872cbaeff",
+          "accepted_history:b13d893dbdda271e"
+        ]
+      },
+      "published_date": "2026-10-28",
+      "insight": "博通把芯片及网络设备供给与租赁融资结合，使Anthropic能够通过支付租金使用算力设备，而不必在采购时自行承担全部设备支出。这意味着争取大型AI客户不仅取决于芯片能力，也取决于能否组织采购资金。博通提供本金回收差额补足支持，又使其承担的责任超出设备供应本身：后续应重点辨明担保覆盖范围、设备交付与租金起算条件，以及Anthropic租金支付不足时博通的具体补足义务。",
+      "financing": "据报道，博通于2026年10月26日宣布达成总规模630亿美元的融资安排：新设特殊目的载体借款并采购博通设备，再租赁给Anthropic，租金用于偿债，博通提供本金回收差额补足支持。参与银行拟最早于2027年第一季度发行约210亿美元债券，规模和时间视市场情况而定。该金额不是博通自身获得的股权融资。",
+      "event_date": "2026-10-26",
+      "event_headline": "博通据报道达成630亿美元芯片采购融资安排，设备预计2027年交付",
+      "event_signal": "major",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "据文中援引的日经亚洲报道，博通与日本凸版印刷在新加坡成立合资企业，以扩大先进封装基板供应。",
+      "article_title": "冰火两重天的PCB",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/liOIIK7NR1XDYqhuiy9LuA",
+      "sector": "半导体与先进封装",
+      "location": "US / California / Palo Alto / 3421 HILLVIEW AVENUE, PALO ALTO, CA 94304",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / Palo Alto / 3421 HILLVIEW AVENUE, PALO ALTO, CA 94304",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-1d3b51cefa3fa8532eb9c215"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "博通",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-1d3b51cefa3fa8532eb9c215",
+            "source_url": "https://data.sec.gov/submissions/CIK0001730168.json",
+            "checked_at": "2026-10-20T01:46:44.337251+00:00",
+            "subject": "博通",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Palo Alto",
+              "address": "3421 HILLVIEW AVENUE, PALO ALTO, CA 94304"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Palo Alto",
+          "evidence_ids": [
+            "geo-1d3b51cefa3fa8532eb9c215"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "博通",
+      "company_entity_id": "dr-u-33dbfdc3b4b67b9dab90",
+      "company_raw_name": "博通",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-10-29",
+      "insight": "博通通过合资方式参与先进封装基板供应，合作由采购关系进一步延伸至供给建设。这类基板承担芯片与外部电路之间的连接，其供给能力是高性能芯片实现交付的重要配套。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "博通与凸版印刷在新加坡成立合资企业，扩大基板供应",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "丰田": [
