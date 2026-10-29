@@ -467,24 +467,61 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/cEuyu9P7IVAQLaBrSxKlZw",
       "sector": "人工智能/集成电路",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市 / 萧山区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 萧山区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c44fb19b7ba338b3b5db2c23"
+        ],
+        "subject_evidence_ids": [
+          "geo-23115f403c7190156176bd16"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州微纳核芯电子科技有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-23115f403c7190156176bd16"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c44fb19b7ba338b3b5db2c23",
+            "source_url": "https://www.zhitongcaijing.com/content/detail/1514178.html",
+            "checked_at": "2026-10-29T18:09:33.879250+00:00",
+            "subject": "杭州微纳核芯电子科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "萧山区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "萧山区",
+          "evidence_ids": [
+            "geo-c44fb19b7ba338b3b5db2c23"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "微链智库",
@@ -501,6 +538,93 @@
       "event_headline": "微纳核芯展示3D-CIM技术，牵头研制RISC-V存算一体标准",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "微纳核芯完成超10亿元C2轮融资，由建投投资领投，多家机构参与，部分老股东继续加码。资金主要用于三维存算一体AI芯片迭代、流片与客户送测、板卡及服务器开发、软件工具链完善和供应链备货等。LP-CIM™和PCIe-CIM™系列共三颗芯片已完成投片，相关芯片预计于2027年初正式开展客户送测，并根据客户验证和产品认证进展逐步启动批量供货。端侧部分合作项目已进入联合调试阶段，云侧正在推进方案评估和场景化POC测试。",
+      "article_title": "微纳核芯三维存算一体AI芯片加速迈入产品化阶段",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/-S8-lReHOGnLUcchqyScLw",
+      "sector": "人工智能芯片／三维存算一体／大模型推理",
+      "location": "浙江省 / 杭州市 / 萧山区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 萧山区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c44fb19b7ba338b3b5db2c23"
+        ],
+        "subject_evidence_ids": [
+          "geo-23115f403c7190156176bd16"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州微纳核芯电子科技有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-23115f403c7190156176bd16"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-c44fb19b7ba338b3b5db2c23",
+            "source_url": "https://www.zhitongcaijing.com/content/detail/1514178.html",
+            "checked_at": "2026-10-29T18:09:33.879250+00:00",
+            "subject": "杭州微纳核芯电子科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "萧山区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "萧山区",
+          "evidence_ids": [
+            "geo-c44fb19b7ba338b3b5db2c23"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "杭州微纳核芯电子科技有限公司",
+      "company_entity_id": "dr-u-6535648b340d6536dfda",
+      "company_raw_name": "微纳核芯",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "微纳核芯",
+          "relation": "same_entity",
+          "evidence": "杭州微纳核芯电子科技有限公司（以下简称“微纳核芯”）"
+        }
+      ],
+      "score": 100,
+      "is_national_star": false,
+      "published_date": "2026-10-28",
+      "insight": "此次融资与三颗芯片完成投片，使微纳核芯的推进重心从架构验证进一步转向芯片工程化、软件适配和客户验证：其存算一体与三维近存设计试图减少大模型推理中的数据搬运，工具链则承担把这种架构接入客户模型的任务。当前值得研究的分歧是，已有流片芯片的局部密度和能效优势能否转化为整机真实负载下的收益，2027年初计划开展的客户送测将提供更直接的判断依据。",
+      "financing": "完成超10亿元C2轮融资，建投投资领投，杭州资本、凯泰资本、晓池资本、烟台财金、盛堃投资、国投泰康、领阳基金等机构共同投资，多家老股东继续加码。原文称，叠加此前C1轮融资，两个月内累计融资超20亿元，半年内累计融资规模达到30亿元。",
+      "event_date": "",
+      "event_headline": "微纳核芯完成超10亿元C2轮融资，推进三颗芯片工程化",
+      "event_signal": "major",
+      "discovery_status": "update"
     }
   ],
   "杭州生强医疗科技有限公司": [
