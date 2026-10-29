@@ -2090,24 +2090,62 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/Hr1w2ztqM-0U-CC95Aot6A",
       "sector": "GPU与人工智能计算",
-      "location": "地点待核",
+      "location": "上海市浦东新区海科路999弄8栋",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市浦东新区海科路999弄8栋",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d9f22e90eb2213cf1ea75f38"
+        ],
+        "subject_evidence_ids": [
+          "geo-d9f22e90eb2213cf1ea75f38"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "沐曦",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-d9f22e90eb2213cf1ea75f38"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d9f22e90eb2213cf1ea75f38",
+            "source_url": "https://www.metax-tech.com/contact.html",
+            "checked_at": "2026-10-29T18:08:16.319897+00:00",
+            "subject": "沐曦",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区",
+              "address": "上海市浦东新区海科路999弄8栋"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-d9f22e90eb2213cf1ea75f38"
+          ]
+        }
       },
       "article_location": "",
       "source": "晚点 LatePost",
