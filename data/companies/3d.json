@@ -269,16 +269,18 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/KiHQPHNIdUKSQI4Fw9LOww",
       "sector": "AI制药/药物递送",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市滨江区滨康路101号海威中心6号楼2F",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市滨江区滨康路101号海威中心6号楼2F",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f823dde5d55f658e9a26e8ff"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "剂泰科技",
         "subject_locality": {
           "status": "unknown",
@@ -286,7 +288,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-f823dde5d55f658e9a26e8ff",
+            "source_url": "https://www.metispharma.com/contact.html",
+            "checked_at": "2026-10-29T18:08:53.714682+00:00",
+            "subject": "剂泰科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "杭州市滨江区滨康路101号海威中心6号楼2F"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-f823dde5d55f658e9a26e8ff"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "创业邦",
@@ -303,6 +332,87 @@
       "event_headline": "剂泰科技发布聆讯后招股书，拟以18C身份赴港上市",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "据中财网2026年10月29日报道，剂泰科技与礼来达成超10亿美元合作，聚焦LNP递送技术突破；文中未披露合作签署日期及具体条款。",
+      "article_title": "科技兴商政策落地 医药AI与脑机接口迎产业化拐点- CFi.CN 中财网",
+      "event_type": "其他",
+      "link": "https://stock.cfi.cn/p20261029004934.html",
+      "sector": "AI制药与药物递送",
+      "location": "浙江省 / 杭州市滨江区滨康路101号海威中心6号楼2F",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市滨江区滨康路101号海威中心6号楼2F",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f823dde5d55f658e9a26e8ff"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "剂泰科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-f823dde5d55f658e9a26e8ff",
+            "source_url": "https://www.metispharma.com/contact.html",
+            "checked_at": "2026-10-29T18:08:53.714682+00:00",
+            "subject": "剂泰科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "杭州市滨江区滨康路101号海威中心6号楼2F"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-f823dde5d55f658e9a26e8ff"
+          ]
+        }
+      },
+      "article_location": "未披露",
+      "source": "stock.cfi.cn",
+      "kind": "event",
+      "canonical_name": "剂泰科技",
+      "company_entity_id": "dr-u-2dd380afef8da7fdc735",
+      "company_raw_name": "剂泰科技",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "单篇报道中的药企合作及未拆分总金额足以支持商业化线索，但不足以证明行业领先地位；历史平台宣传也不能替代可核验的对标表现。",
+        "evidence_ids": [
+          "web_acquired_text:2ba447c02d34e399",
+          "accepted_history:dac281cc2592806f"
+        ]
+      },
+      "published_date": "2026-10-29",
+      "insight": "LNP即脂质纳米颗粒，其作用是包载药物并帮助药物进入目标细胞，是连接药物分子与体内作用效果的递送环节。此次合作值得关注的变化，是剂泰科技的递送技术获得大型药企合作机会，而不是政策表态本身。后续研究应围绕礼来选择了哪些递送任务展开：合作覆盖的药物类型、目标组织及双方研发分工，能帮助辨别这是单项研发合作，还是可服务多条药物管线的平台能力；目前披露尚不足以作出后一判断。",
+      "financing": "未披露融资；文中超10亿美元为合作金额表述。",
+      "event_date": "",
+      "event_headline": "剂泰科技据报道与礼来达成超10亿美元递送技术合作",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "自变量机器人（X Square Robot）": [
