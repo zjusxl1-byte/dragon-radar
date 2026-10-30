@@ -981,16 +981,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/S8LG8o8BRfdbd7McQ81HdA",
       "sector": "递归自我改进/AI研发",
-      "location": "地点线索：未披露（待核实）",
+      "location": "北京市 / 海淀区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a47795a228ee7c498da8e427"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "超衍智能",
         "subject_locality": {
           "status": "unknown",
@@ -998,7 +1000,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-a47795a228ee7c498da8e427",
+            "source_url": "https://finance.eastmoney.com/a/202609163876424746.html",
+            "checked_at": "2026-10-30T18:09:52.933113+00:00",
+            "subject": "超衍智能",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-a47795a228ee7c498da8e427"
+          ]
+        }
       },
       "article_location": "未披露（待核实）",
       "source": "投资界",
@@ -1019,6 +1045,87 @@
       "event_headline": "超衍智能据报道完成近4亿元天使轮及天使+轮融资",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "据2026年10月30日报道，陈勇超表示，超衍智能Apex-35B-V1.0已在科研场景取得初步进展，可参与机器人仿真实验、生成训练数据、优化机器人模型及开展流体力学仿真；更强的自主探索和提出新方法能力仍为后续目标。",
+      "article_title": "海淀企业又发大模型,这次AI自主参与模型构建--_腾讯新闻",
+      "event_type": "其他",
+      "link": "https://news.qq.com/rain/a/20261030A06PQI00",
+      "sector": "人工智能／科研大模型",
+      "location": "北京市 / 海淀区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a47795a228ee7c498da8e427"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "超衍智能",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-a47795a228ee7c498da8e427",
+            "source_url": "https://finance.eastmoney.com/a/202609163876424746.html",
+            "checked_at": "2026-10-30T18:09:52.933113+00:00",
+            "subject": "超衍智能",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-a47795a228ee7c498da8e427"
+          ]
+        }
+      },
+      "article_location": "北京海淀（依据新闻标题的企业归属表述，未明确注册地或主要总部）",
+      "source": "news.qq.com",
+      "kind": "event",
+      "canonical_name": "超衍智能",
+      "company_entity_id": "dr-u-d817dfb0312f7af04bd7",
+      "company_raw_name": "超衍智能",
+      "identity_status": "confirmed",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体模型及科研任务支持发现价值，但缺少独立效果评测、真实用户部署或行业比较，尚未建立全国标杆资格。",
+        "evidence_ids": [
+          "web_acquired_text:293cab27734c28ff",
+          "accepted_history:3507e36830df6d46"
+        ]
+      },
+      "published_date": "2026-10-30",
+      "event_identity": {
+        "canonical_id": "超衍智能介绍Apex-35B-V1.0在科研场景中的初步进展：在机器人领域可参与仿真实验、生成训练数据及优化机器人模型，也可开展流体力学仿真等任务。企业表示，下一步目标是提升模型自主探索和解决科研问题的能力。报道同时披露，公司创立于2026年6月，已宣布完成累计近4亿元天使轮及天使+轮融资。"
+      },
+      "insight": "超衍智能值得观察的变化，是大模型开始参与科研工作中的实验与数据环节，而不只是回答科研问题。机器人仿真和训练数据生成若能有效衔接，可形成从模拟实验到数据产出、再到模型优化的研发路径。现有材料支持其已开展相关任务，但这些任务是否构成模型自主推进的完整流程仍不明确。最有辨别力的下一步，是取得一个机器人科研案例，查看模型实际承担哪些步骤、何处需要研究人员介入，以及生成数据如何用于后续训练；这能区分科研辅助工具与具有自主探索能力的系统。",
+      "financing": "已宣布完成累计近4亿元人民币的天使轮及天使+轮融资，投资方包括IDG资本、星连资本、晶泰科技、中关村科学城基金等机构；各轮金额及完成日期未披露。",
+      "event_date": "",
+      "event_headline": "超衍智能称Apex-35B已初步参与机器人及流体力学仿真",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "博特莫蒂（杭州）智能科技有限公司": [
