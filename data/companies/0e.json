@@ -1035,16 +1035,18 @@
       "event_type": "资质获批",
       "link": "https://mp.weixin.qq.com/s/mSjsxkPszp0r3LTr4ubvrQ",
       "sector": "移动机器人控制系统",
-      "location": "地点待核",
+      "location": "浙江省杭州市滨江区兴耀科技园3幢",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市滨江区兴耀科技园3幢",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c966f7e7d29a5e590db3063c"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "浙江科聪控制",
         "subject_locality": {
           "status": "unknown",
@@ -1052,7 +1054,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c966f7e7d29a5e590db3063c",
+            "source_url": "https://www.kcrobots.com/home/aboutus/contact.html",
+            "checked_at": "2026-10-30T00:32:53.066695+00:00",
+            "subject": "浙江科聪控制",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "浙江省杭州市滨江区兴耀科技园3幢"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-c966f7e7d29a5e590db3063c"
+          ]
+        }
       },
       "article_location": "",
       "source": "元璟资本",
