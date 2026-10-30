@@ -1475,16 +1475,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/ruMAsBIMx6mGSk5Gzb31-A",
       "sector": "工业人工智能／工业大模型与智能体",
-      "location": "地点待核",
+      "location": "上海市浦东新区育仁路188弄1号16、17层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市浦东新区育仁路188弄1号16、17层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-99d94303a3d46c6036e1a47f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "上海羚数智能科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1492,7 +1494,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-99d94303a3d46c6036e1a47f",
+            "source_url": "https://www.leadigital.cn/news.html",
+            "checked_at": "2026-10-30T00:31:45.695646+00:00",
+            "subject": "上海羚数智能科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区",
+              "address": "上海市浦东新区育仁路188弄1号16、17层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-99d94303a3d46c6036e1a47f"
+          ]
+        }
       },
       "article_location": "",
       "source": "银杏谷资本",
