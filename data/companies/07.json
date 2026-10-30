@@ -1107,5 +1107,65 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "Dyna Robotics": [
+    {
+      "date": "2026-10-31",
+      "title": "据文章报道，美国具身智能公司Dyna Robotics于8月发布Dyna-2模型，使用100万小时人类第一视角数据。文章称，其实验在预训练数据由100小时逐步增加到1000小时、1万小时和10万小时时，观察到模型预测能力改善。",
+      "article_title": "具身数据生意，为何卖不动了",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Ra5zGUmaTbehJ92_dJIRwg",
+      "sector": "具身智能基础模型",
+      "location": "地点线索：美国（原文明确的国家归属，未细分注册地或总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Dyna Robotics",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "美国（原文明确的国家归属，未细分注册地或总部）",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Dyna Robotics",
+      "company_entity_id": "dr-u-156573cea8025b1d4b4e",
+      "company_raw_name": "Dyna Robotics",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Dyna-2",
+          "relation": "product",
+          "evidence": "美国具身智能公司Dyna Robotics，8月发布的Dyna-2模型"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "报道支持海外技术产品观察，但未提供可比较的性能指标、独立评测、行业地位或规模化应用证据，尚不足以建立标杆资格。",
+        "evidence_ids": [
+          "article:5fb3d18d1041a9fd"
+        ]
+      },
+      "published_date": "2026-10-30",
+      "insight": "Dyna-2的研究价值在于把数据规模变化与模型预测表现联系起来，为判断第一视角数据是否值得持续扩采提供实验入口。文中列举的分档实验止于10万小时，不能直接据此认定百万小时以上仍有同样收益。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Dyna Robotics据报道发布Dyna-2，探索第一视角数据扩展收益",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
