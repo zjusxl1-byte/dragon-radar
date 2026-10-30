@@ -4324,16 +4324,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/12xVn-pI3rJZf43YPZ1wcA",
       "sector": "新能源/光伏能源智能机器人",
-      "location": "地点线索：湖州",
+      "location": "浙江省湖州市湖州南太湖新区康山街道大漾路759号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省湖州市湖州南太湖新区康山街道大漾路759号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-36028e1a8a64968f82ffb571"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "丽天智能",
         "subject_locality": {
           "status": "unknown",
@@ -4341,7 +4343,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-36028e1a8a64968f82ffb571",
+            "source_url": "https://www.leapting.com/about?value=1",
+            "checked_at": "2026-10-30T00:32:53.676407+00:00",
+            "subject": "丽天智能",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "湖州市",
+              "address": "浙江省湖州市湖州南太湖新区康山街道大漾路759号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "湖州市",
+          "evidence_ids": [
+            "geo-36028e1a8a64968f82ffb571"
+          ]
+        }
       },
       "article_location": "湖州",
       "source": "元璟资本",
@@ -71288,24 +71315,62 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/pMTCEo49mi_66yrRXpnBPQ",
       "sector": "企业AI治理基础设施/AI安全",
-      "location": "地点待核",
+      "location": "浙江省杭州市余杭区仓前街道余杭塘路2301号海智中心4幢8楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市余杭区仓前街道余杭塘路2301号海智中心4幢8楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3996d4a2e18827fb50e436d3"
+        ],
+        "subject_evidence_ids": [
+          "geo-3996d4a2e18827fb50e436d3"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州亿格云科技有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-3996d4a2e18827fb50e436d3"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3996d4a2e18827fb50e436d3",
+            "source_url": "https://www.eaglecloud.com",
+            "checked_at": "2026-10-30T00:31:45.779048+00:00",
+            "subject": "杭州亿格云科技有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "浙江省杭州市余杭区仓前街道余杭塘路2301号海智中心4幢8楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-3996d4a2e18827fb50e436d3"
+          ]
+        }
       },
       "article_location": "",
       "source": "元璟资本",
@@ -71330,24 +71395,62 @@
       "event_type": "资质获批",
       "link": "https://mp.weixin.qq.com/s/mSjsxkPszp0r3LTr4ubvrQ",
       "sector": "企业安全与AI安全治理",
-      "location": "地点待核",
+      "location": "浙江省杭州市余杭区仓前街道余杭塘路2301号海智中心4幢8楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市余杭区仓前街道余杭塘路2301号海智中心4幢8楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3996d4a2e18827fb50e436d3"
+        ],
+        "subject_evidence_ids": [
+          "geo-3996d4a2e18827fb50e436d3"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州亿格云科技有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-3996d4a2e18827fb50e436d3"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3996d4a2e18827fb50e436d3",
+            "source_url": "https://www.eaglecloud.com",
+            "checked_at": "2026-10-30T00:31:45.779048+00:00",
+            "subject": "杭州亿格云科技有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "浙江省杭州市余杭区仓前街道余杭塘路2301号海智中心4幢8楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-3996d4a2e18827fb50e436d3"
+          ]
+        }
       },
       "article_location": "",
       "source": "元璟资本",
@@ -80394,16 +80497,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/2vb6lNiyKdQIM7eQFgWcrQ",
       "sector": "半导体（功率半导体制造与封测）",
-      "location": "地点线索：泰国北榄府",
+      "location": "DE / Am Campeon 1-15, 85579 Neubiberg, Germany",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / Am Campeon 1-15, 85579 Neubiberg, Germany",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e8c0253b8255532ff1c13d11"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "英飞凌科技股份公司",
         "subject_locality": {
           "status": "unknown",
@@ -80411,7 +80516,30 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e8c0253b8255532ff1c13d11",
+            "source_url": "https://www.infineon.com/cms/en/about-infineon/press/contacts/",
+            "checked_at": "2026-10-30T00:32:57.400498+00:00",
+            "subject": "英飞凌科技股份公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "Neubiberg",
+              "address": "Am Campeon 1-15, 85579 Neubiberg, Germany"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "Neubiberg",
+          "evidence_ids": [
+            "geo-e8c0253b8255532ff1c13d11"
+          ]
+        }
       },
       "article_location": "泰国北榄府",
       "source": "半导体行业观察",
@@ -80437,16 +80565,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/YEjhDALCcjRPQZMi803mBQ",
       "sector": "半导体／氮化镓功率器件",
-      "location": "地点待核",
+      "location": "DE / Am Campeon 1-15, 85579 Neubiberg, Germany",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / Am Campeon 1-15, 85579 Neubiberg, Germany",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e8c0253b8255532ff1c13d11"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "英飞凌科技股份公司",
         "subject_locality": {
           "status": "unknown",
@@ -80454,7 +80584,30 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e8c0253b8255532ff1c13d11",
+            "source_url": "https://www.infineon.com/cms/en/about-infineon/press/contacts/",
+            "checked_at": "2026-10-30T00:32:57.400498+00:00",
+            "subject": "英飞凌科技股份公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "Neubiberg",
+              "address": "Am Campeon 1-15, 85579 Neubiberg, Germany"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "Neubiberg",
+          "evidence_ids": [
+            "geo-e8c0253b8255532ff1c13d11"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
@@ -86673,14 +86826,14 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/CngTmchtb32p53RdrFzhDQ",
       "sector": "AI算力基础设施",
-      "location": "US / Washington / One Microsoft Way, Redmond, WA 98052-7329",
+      "location": "US / One Microsoft Way, Redmond, Washington 98052, USA",
       "geography": {
         "geography_status": "confirmed",
         "classification": "foreign",
-        "display_location": "US / Washington / One Microsoft Way, Redmond, WA 98052-7329",
+        "display_location": "US / One Microsoft Way, Redmond, Washington 98052, USA",
         "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-defe79c3cdac3e4ef409c03f"
+          "geo-1b10c946b5f43e2d0fa0f8c3"
         ],
         "subject_evidence_ids": [],
         "needs_review": false,
@@ -86694,9 +86847,9 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-defe79c3cdac3e4ef409c03f",
-            "source_url": "https://news.microsoft.com/facts-about-microsoft",
-            "checked_at": "2026-10-20T01:34:36.319719+00:00",
+            "evidence_id": "geo-1b10c946b5f43e2d0fa0f8c3",
+            "source_url": "https://privacy.microsoft.com/en-us/privacystatement",
+            "checked_at": "2026-10-30T00:33:52.408703+00:00",
             "subject": "微软",
             "role": "business",
             "subject_relation": "same_subject",
@@ -86704,7 +86857,7 @@
               "country": "US",
               "province": "Washington",
               "city": "Redmond",
-              "address": "One Microsoft Way, Redmond, WA 98052-7329"
+              "address": "One Microsoft Way, Redmond, Washington 98052, USA"
             }
           }
         ],
@@ -86715,7 +86868,7 @@
           "province": "Washington",
           "city": "Redmond",
           "evidence_ids": [
-            "geo-defe79c3cdac3e4ef409c03f"
+            "geo-1b10c946b5f43e2d0fa0f8c3"
           ]
         }
       },
@@ -86743,14 +86896,14 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/BGApMOVyoWlISW19DF2nfg",
       "sector": "人工智能推理芯片与云计算基础设施",
-      "location": "US / Washington / One Microsoft Way, Redmond, WA 98052-7329",
+      "location": "US / One Microsoft Way, Redmond, Washington 98052, USA",
       "geography": {
         "geography_status": "confirmed",
         "classification": "foreign",
-        "display_location": "US / Washington / One Microsoft Way, Redmond, WA 98052-7329",
+        "display_location": "US / One Microsoft Way, Redmond, Washington 98052, USA",
         "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-defe79c3cdac3e4ef409c03f"
+          "geo-1b10c946b5f43e2d0fa0f8c3"
         ],
         "subject_evidence_ids": [],
         "needs_review": false,
@@ -86764,9 +86917,9 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-defe79c3cdac3e4ef409c03f",
-            "source_url": "https://news.microsoft.com/facts-about-microsoft",
-            "checked_at": "2026-10-20T01:34:36.319719+00:00",
+            "evidence_id": "geo-1b10c946b5f43e2d0fa0f8c3",
+            "source_url": "https://privacy.microsoft.com/en-us/privacystatement",
+            "checked_at": "2026-10-30T00:33:52.408703+00:00",
             "subject": "微软",
             "role": "business",
             "subject_relation": "same_subject",
@@ -86774,7 +86927,7 @@
               "country": "US",
               "province": "Washington",
               "city": "Redmond",
-              "address": "One Microsoft Way, Redmond, WA 98052-7329"
+              "address": "One Microsoft Way, Redmond, Washington 98052, USA"
             }
           }
         ],
@@ -86785,7 +86938,7 @@
           "province": "Washington",
           "city": "Redmond",
           "evidence_ids": [
-            "geo-defe79c3cdac3e4ef409c03f"
+            "geo-1b10c946b5f43e2d0fa0f8c3"
           ]
         }
       },
@@ -86831,14 +86984,14 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/WqzAVz5UR-Pny9-2LeyVDA",
       "sector": "人工智能教育",
-      "location": "US / Washington / One Microsoft Way, Redmond, WA 98052-7329",
+      "location": "US / One Microsoft Way, Redmond, Washington 98052, USA",
       "geography": {
         "geography_status": "confirmed",
         "classification": "foreign",
-        "display_location": "US / Washington / One Microsoft Way, Redmond, WA 98052-7329",
+        "display_location": "US / One Microsoft Way, Redmond, Washington 98052, USA",
         "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-defe79c3cdac3e4ef409c03f"
+          "geo-1b10c946b5f43e2d0fa0f8c3"
         ],
         "subject_evidence_ids": [],
         "needs_review": false,
@@ -86852,9 +87005,9 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-defe79c3cdac3e4ef409c03f",
-            "source_url": "https://news.microsoft.com/facts-about-microsoft",
-            "checked_at": "2026-10-20T01:34:36.319719+00:00",
+            "evidence_id": "geo-1b10c946b5f43e2d0fa0f8c3",
+            "source_url": "https://privacy.microsoft.com/en-us/privacystatement",
+            "checked_at": "2026-10-30T00:33:52.408703+00:00",
             "subject": "微软",
             "role": "business",
             "subject_relation": "same_subject",
@@ -86862,7 +87015,7 @@
               "country": "US",
               "province": "Washington",
               "city": "Redmond",
-              "address": "One Microsoft Way, Redmond, WA 98052-7329"
+              "address": "One Microsoft Way, Redmond, Washington 98052, USA"
             }
           }
         ],
@@ -86873,7 +87026,7 @@
           "province": "Washington",
           "city": "Redmond",
           "evidence_ids": [
-            "geo-defe79c3cdac3e4ef409c03f"
+            "geo-1b10c946b5f43e2d0fa0f8c3"
           ]
         }
       },
@@ -114836,16 +114989,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/2EIR7WiikHTSaacMhCM2gA",
       "sector": "智能驾驶",
-      "location": "地点待核",
+      "location": "中国江苏省苏州市青龙港路59号Momenta大厦",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "中国江苏省苏州市青龙港路59号Momenta大厦",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-97b8ce1de85dbe09423ac028"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "momenta",
         "subject_locality": {
           "status": "unknown",
@@ -114853,7 +115008,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-97b8ce1de85dbe09423ac028",
+            "source_url": "https://www.momenta.ai",
+            "checked_at": "2026-10-30T00:31:47.782022+00:00",
+            "subject": "momenta",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市",
+              "address": "中国江苏省苏州市青龙港路59号Momenta大厦"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "evidence_ids": [
+            "geo-97b8ce1de85dbe09423ac028"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -114975,16 +115155,18 @@
       "event_type": "国家级专精特新资质认定",
       "link": "https://mp.weixin.qq.com/s/mSjsxkPszp0r3LTr4ubvrQ",
       "sector": "光伏智能机器人",
-      "location": "地点待核",
+      "location": "浙江省湖州市湖州南太湖新区康山街道大漾路759号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省湖州市湖州南太湖新区康山街道大漾路759号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-36028e1a8a64968f82ffb571"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "丽天智能",
         "subject_locality": {
           "status": "unknown",
@@ -114992,7 +115174,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-36028e1a8a64968f82ffb571",
+            "source_url": "https://www.leapting.com/about?value=1",
+            "checked_at": "2026-10-30T00:32:53.676407+00:00",
+            "subject": "丽天智能",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "湖州市",
+              "address": "浙江省湖州市湖州南太湖新区康山街道大漾路759号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "湖州市",
+          "evidence_ids": [
+            "geo-36028e1a8a64968f82ffb571"
+          ]
+        }
       },
       "article_location": "",
       "source": "元璟资本",
@@ -115031,16 +115238,18 @@
       "event_type": "资质获批",
       "link": "https://mp.weixin.qq.com/s/mSjsxkPszp0r3LTr4ubvrQ",
       "sector": "移动机器人控制系统",
-      "location": "地点待核",
+      "location": "浙江省杭州市滨江区兴耀科技园3幢",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市滨江区兴耀科技园3幢",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c966f7e7d29a5e590db3063c"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "浙江科聪控制",
         "subject_locality": {
           "status": "unknown",
@@ -115048,7 +115257,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c966f7e7d29a5e590db3063c",
+            "source_url": "https://www.kcrobots.com/home/aboutus/contact.html",
+            "checked_at": "2026-10-30T00:32:53.066695+00:00",
+            "subject": "浙江科聪控制",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "浙江省杭州市滨江区兴耀科技园3幢"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-c966f7e7d29a5e590db3063c"
+          ]
+        }
       },
       "article_location": "",
       "source": "元璟资本",
@@ -116144,16 +116380,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/ruMAsBIMx6mGSk5Gzb31-A",
       "sector": "工业人工智能／工业大模型与智能体",
-      "location": "地点待核",
+      "location": "上海市浦东新区育仁路188弄1号16、17层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市浦东新区育仁路188弄1号16、17层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-99d94303a3d46c6036e1a47f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "上海羚数智能科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -116161,7 +116399,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-99d94303a3d46c6036e1a47f",
+            "source_url": "https://www.leadigital.cn/news.html",
+            "checked_at": "2026-10-30T00:31:45.695646+00:00",
+            "subject": "上海羚数智能科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区",
+              "address": "上海市浦东新区育仁路188弄1号16、17层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-99d94303a3d46c6036e1a47f"
+          ]
+        }
       },
       "article_location": "",
       "source": "银杏谷资本",
@@ -116490,16 +116755,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/9-5CfP9IkFJ5S3tuAPbV3Q",
       "sector": "高端科学仪器／微纳加工设备",
-      "location": "地点线索：杭州（本次新设公司所在地；不据此认定金竟科技总部迁入杭州）",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d56c57c92f9ba0c42bf4d704"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "金竟(杭州)科技有限责任公司",
         "subject_locality": {
           "status": "unknown",
@@ -116507,7 +116774,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d56c57c92f9ba0c42bf4d704",
+            "source_url": "https://mp.weixin.qq.com/s/9-5CfP9IkFJ5S3tuAPbV3Q",
+            "checked_at": "2026-10-28T22:31:48+00:00",
+            "subject": "金竟(杭州)科技有限责任公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-d56c57c92f9ba0c42bf4d704"
+          ]
+        }
       },
       "article_location": "杭州（本次新设公司所在地；不据此认定金竟科技总部迁入杭州）",
       "source": "湖畔自留田",
