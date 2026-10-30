@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-30T02:54:56+08:00",
+  "generated_at": "2026-10-30T08:39:22+08:00",
   "today": "2026-10-30",
   "current_week": "2026-W44",
   "available_weeks": [
@@ -4881,9 +4881,9 @@
     "2026-10-27": "b67fc7a7b89dacc7f1ad8315d576b4ba74caa2a7ee5e5c45abe1e4fc6300181e",
     "2026-10-28": "bc45e7be13eb463ccf35a9259d323df5729ae75f82c635394681ea5e2c82b8fd",
     "2026-10-29": "89ed2382c8dfd2f693697c0cfc8be3ef3709662c974bcfa7944be10040653d0c",
-    "2026-10-30": "c74c09f62ad2eb46d27e4399372523f81a2a0386c5385f26d7b0cdd261942474"
+    "2026-10-30": "e4cf45c4d4e110a99e5a16b4c9927a674e80e5cfc8dda45f6ab7534a58e73e32"
   },
-  "geography_version": "b6f064ff93b94cd6c852ca8521533a6a3856eee58e59f2917c037990eda3c1e4",
+  "geography_version": "a36a965c700c40935285769963d1cf232524dac90f5eb02ae3c1ad3d9f2c1786",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -6501,10 +6501,10 @@
     "dr-u-12b0c8b376b8375e5f35": {
       "geography_status": "confirmed",
       "classification": "foreign",
-      "display_location": "US / Washington / One Microsoft Way, Redmond, WA 98052-7329",
+      "display_location": "US / One Microsoft Way, Redmond, Washington 98052, USA",
       "located_status": "discovery_confirmed",
       "display_basis": [
-        "geo-defe79c3cdac3e4ef409c03f"
+        "geo-1b10c946b5f43e2d0fa0f8c3"
       ],
       "subject_evidence_ids": [],
       "needs_review": false,
@@ -6518,9 +6518,9 @@
       },
       "basis": [
         {
-          "evidence_id": "geo-defe79c3cdac3e4ef409c03f",
-          "source_url": "https://news.microsoft.com/facts-about-microsoft",
-          "checked_at": "2026-10-20T01:34:36.319719+00:00",
+          "evidence_id": "geo-1b10c946b5f43e2d0fa0f8c3",
+          "source_url": "https://privacy.microsoft.com/en-us/privacystatement",
+          "checked_at": "2026-10-30T00:33:52.408703+00:00",
           "subject": "微软",
           "role": "business",
           "subject_relation": "same_subject",
@@ -6528,7 +6528,7 @@
             "country": "US",
             "province": "Washington",
             "city": "Redmond",
-            "address": "One Microsoft Way, Redmond, WA 98052-7329"
+            "address": "One Microsoft Way, Redmond, Washington 98052, USA"
           }
         }
       ],
@@ -6539,7 +6539,7 @@
         "province": "Washington",
         "city": "Redmond",
         "evidence_ids": [
-          "geo-defe79c3cdac3e4ef409c03f"
+          "geo-1b10c946b5f43e2d0fa0f8c3"
         ]
       }
     },
@@ -10440,10 +10440,51 @@
       "located_status": "unknown"
     },
     "dr-u-395dd9109586a684cd96": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市浦东新区育仁路188弄1号16、17层",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-99d94303a3d46c6036e1a47f"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "上海羚数智能科技有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-99d94303a3d46c6036e1a47f",
+          "source_url": "https://www.leadigital.cn/news.html",
+          "checked_at": "2026-10-30T00:31:45.695646+00:00",
+          "subject": "上海羚数智能科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "浦东新区",
+            "address": "上海市浦东新区育仁路188弄1号16、17层"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "evidence_ids": [
+          "geo-99d94303a3d46c6036e1a47f"
+        ]
+      }
     },
     "dr-u-3967d5c541fce1d9eba0": {
       "geography_status": "unknown",
@@ -12666,10 +12707,48 @@
       "located_status": "unknown"
     },
     "dr-u-4e6a8bf8e82fedf96967": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-d56c57c92f9ba0c42bf4d704"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "金竟(杭州)科技有限责任公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-d56c57c92f9ba0c42bf4d704",
+          "source_url": "https://mp.weixin.qq.com/s/9-5CfP9IkFJ5S3tuAPbV3Q",
+          "checked_at": "2026-10-28T22:31:48+00:00",
+          "subject": "金竟(杭州)科技有限责任公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "evidence_ids": [
+          "geo-d56c57c92f9ba0c42bf4d704"
+        ]
+      }
     },
     "dr-u-4e9ed634e74ba4d3acc3": {
       "geography_status": "unknown",
@@ -25822,10 +25901,60 @@
       "located_status": "unknown"
     },
     "dr-u-da45de61971d08036b15": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省杭州市余杭区仓前街道余杭塘路2301号海智中心4幢8楼",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-3996d4a2e18827fb50e436d3"
+      ],
+      "subject_evidence_ids": [
+        "geo-3996d4a2e18827fb50e436d3"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "杭州亿格云科技有限公司",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-3996d4a2e18827fb50e436d3"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-3996d4a2e18827fb50e436d3",
+          "source_url": "https://www.eaglecloud.com",
+          "checked_at": "2026-10-30T00:31:45.779048+00:00",
+          "subject": "杭州亿格云科技有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "浙江省杭州市余杭区仓前街道余杭塘路2301号海智中心4幢8楼"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "余杭区",
+        "evidence_ids": [
+          "geo-3996d4a2e18827fb50e436d3"
+        ]
+      }
     },
     "dr-u-da4d963839a416664a25": {
       "geography_status": "confirmed",
@@ -26332,10 +26461,51 @@
       ]
     },
     "dr-u-ddfc181f848a68940b75": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省杭州市滨江区兴耀科技园3幢",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-c966f7e7d29a5e590db3063c"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "浙江科聪控制",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-c966f7e7d29a5e590db3063c",
+          "source_url": "https://www.kcrobots.com/home/aboutus/contact.html",
+          "checked_at": "2026-10-30T00:32:53.066695+00:00",
+          "subject": "浙江科聪控制",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "滨江区",
+            "address": "浙江省杭州市滨江区兴耀科技园3幢"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "滨江区",
+        "evidence_ids": [
+          "geo-c966f7e7d29a5e590db3063c"
+        ]
+      }
     },
     "dr-u-dea05aaa74d6e1700693": {
       "geography_status": "confirmed",
@@ -27413,10 +27583,49 @@
       "located_status": "unknown"
     },
     "dr-u-e9e7e9c121f5e4089efb": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "中国江苏省苏州市青龙港路59号Momenta大厦",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-97b8ce1de85dbe09423ac028"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "momenta",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-97b8ce1de85dbe09423ac028",
+          "source_url": "https://www.momenta.ai",
+          "checked_at": "2026-10-30T00:31:47.782022+00:00",
+          "subject": "momenta",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "江苏省",
+            "city": "苏州市",
+            "address": "中国江苏省苏州市青龙港路59号Momenta大厦"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "江苏省",
+        "city": "苏州市",
+        "evidence_ids": [
+          "geo-97b8ce1de85dbe09423ac028"
+        ]
+      }
     },
     "dr-u-e9f0f2a30e6ec0e10157": {
       "geography_status": "unknown",
@@ -28523,10 +28732,49 @@
       "located_status": "unknown"
     },
     "dr-u-f4b3df6e4d7ed7a821f2": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "浙江省湖州市湖州南太湖新区康山街道大漾路759号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-36028e1a8a64968f82ffb571"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "丽天智能",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-36028e1a8a64968f82ffb571",
+          "source_url": "https://www.leapting.com/about?value=1",
+          "checked_at": "2026-10-30T00:32:53.676407+00:00",
+          "subject": "丽天智能",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "湖州市",
+            "address": "浙江省湖州市湖州南太湖新区康山街道大漾路759号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "湖州市",
+        "evidence_ids": [
+          "geo-36028e1a8a64968f82ffb571"
+        ]
+      }
     },
     "dr-u-f4d02755654e3eaddeac": {
       "geography_status": "confirmed",
@@ -28799,10 +29047,47 @@
       }
     },
     "dr-u-f78909229469491ff70a": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "DE / Am Campeon 1-15, 85579 Neubiberg, Germany",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-e8c0253b8255532ff1c13d11"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "英飞凌科技股份公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-e8c0253b8255532ff1c13d11",
+          "source_url": "https://www.infineon.com/cms/en/about-infineon/press/contacts/",
+          "checked_at": "2026-10-30T00:32:57.400498+00:00",
+          "subject": "英飞凌科技股份公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "DE",
+            "city": "Neubiberg",
+            "address": "Am Campeon 1-15, 85579 Neubiberg, Germany"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "DE",
+        "city": "Neubiberg",
+        "evidence_ids": [
+          "geo-e8c0253b8255532ff1c13d11"
+        ]
+      }
     },
     "dr-u-f7a3c2cef889d8f61e34": {
       "geography_status": "confirmed",
@@ -39061,7 +39346,7 @@
       "negatives": {}
     },
     "2026-10-30": {
-      "source_version": "c74c09f62ad2eb46d27e4399372523f81a2a0386c5385f26d7b0cdd261942474",
+      "source_version": "e4cf45c4d4e110a99e5a16b4c9927a674e80e5cfc8dda45f6ab7534a58e73e32",
       "targets": {
         "0": {
           "event_headline": "杭州低空联合闪送、迅蚁落地商圈无人机即时配送场景"
@@ -53621,24 +53906,24 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "a6dad52be5f70e8bd20af6af2e8b94aeaf08dbd4638e6619c21d4c9074f5ab3f",
+  "history_version": "cefd3f440c5b4e6c387fbed9323e24f77d8bde220cc315164105077777234208",
   "company_history_buckets": {
     "00": "4ab260e553cf410a449668dc78723b07cf59fc819d2c455b2999efbfa15a94ea",
-    "01": "e385d9e17985830f4732a253116546ce60a58a75b9ba23862cc346ce3dc49584",
+    "01": "efa1fb831ff07f4a62c5944072c1a358d72c5d304d12b9bd6cc015f97bf1a42f",
     "02": "a7a0b0ca11ba46427ed970c700ac1ff8e387e9b71594bc69ed06076fd73f29ff",
     "03": "65e331cf5d4cd19d567edab6c80400fb743bcb87a0a374fcc6c9fc42c43d6943",
     "04": "e58ef2076cd831b241f190f37cb282d95f7dada4895726819c7dcb622a367183",
     "05": "8ca006bf38296967d655812f3ac581d6c4d45bd2213b6b24c80ddf790c667321",
     "06": "ada2ef9c6e62876524d39bdab0b2b64ea4e54a57312a2d52a4b6aba7a6f6d810",
     "07": "6bdec30e173205837f7a5fa4f86b448c6d423980c42dd0b8541a73d993f09c7d",
-    "08": "c3953afa956bd4eaa1495d5b2906de806ec1b54d362579def1d1bb6a9237a755",
+    "08": "6082996442d4637d7cdc47259c881e0c5970ed2cc0e756aaa423c0c50cef32ac",
     "09": "386183c83767e2afb1c677eea29a51d48dce412d608c5623ce8b175566656d5e",
     "0a": "6d2d016a870fb484ef07f7fd712f0e9248ef82554417db05faafd1c24f4c73ec",
     "0b": "7993dda2e7f380e5304ee774b2ebc5fc4d556606ed021b889b78511839aa1fa8",
     "0c": "32f9b789e82b9e17d0e75dfa4097dd821410e4d839a25b8a539133093b84624c",
     "0d": "718f5343f7b5b335a858c4d95751c15f9fc03817acf78200eeaadc463928061d",
-    "0e": "777db2576b85b19f64f3b3bb53f8b14fecb6366adffb1c257b9f096c4bde46dc",
-    "0f": "fe2558427f3242d024a49a7461a63efc78f739430400a9f45f3b9f4b44e451b1",
+    "0e": "38533ee27d754a21c1f7cac3f683d7c3d4a5c583fe76de3215e36ddcbf686428",
+    "0f": "54180769145f3e77848149c37a9a834a3181cc9ecadfb037403e2a4fce7bfd4a",
     "10": "3f378f406a75613134ae5b0552964e1e8763b6763e8655434408cea725c87e1f",
     "11": "a4e4faa29e82248f0cc0f009d4832b614e4e014374e634b73b4cca9cce1b12d8",
     "12": "616146b3e38c94b98b050e2dd259588286f4605a3cbc0e8ede5b9ac0a4579fcd",
@@ -53656,11 +53941,11 @@
     "1e": "b96c475d3ec05a42705481a4718ca0f4336dd841ae6099d670534a4f65ad81df",
     "1f": "9c2dd5803082263cbd4b4f611a13e2b1bfca1da365f830f6f81b73f60d541de5",
     "20": "1e9c86a9c618ddc04fa687d9256f39abce67d37fba820e614f6503c4dc0fd5ed",
-    "21": "090776d62f74c64dd3199d5ddf9930bd4bc612cad3a3195a2e8419d637ca3cae",
+    "21": "86e8ece56755a9f714aab6acc0e895769ed98816b68a878b1606555d2abc1140",
     "22": "3b836cd34da6f6454f1557215f47d744db252dcd22ae6668fd39ee7ccc0f21d4",
     "23": "a42df9bc70d2080cf49c3e40d16b00f639c2b7d2fa0931f185dfb31b5ed4f066",
     "24": "fe4ae1b0c779b96be3f03285a6b1e200d208b33bb35ae9973639de0c934a0bf9",
-    "25": "c2eab964b86d8e9cca66b2fd757a6bc18a689c5a7a9aa2b28bda101fd0086d5c",
+    "25": "4f76b0dc27909b78b7cc5a9554b94710417b6ce1ecff6bb93e21435e854d572a",
     "26": "87ab1bf6a4b7caa47dd5940ef685f64d596399a204f2fc97197519f0739a1820",
     "27": "ef9e725691f05dd8eade02033cba5ee28a1cfffef90e3a7cf471802b2e4dee46",
     "28": "ef241d2ee307279de07a7bf210743b683473ed83b8cb26ef4eb69c506e23778f",
@@ -53677,9 +53962,9 @@
     "33": "b75543df482a895868372a5c8c245e85638fac5c4d721c6997de687eb366528b",
     "34": "4e86edea8e7ad860635debd186c75b63e499337b0803aa7536b056994d7779ff",
     "35": "e4a21152a48cd89c4c268322f9b8ef0d426167990fd7b8df8714b287a99483f6",
-    "36": "8fa6b6f95378589994e9c090a51d89b4e5590805de93051cbbeec6daae7831b3",
+    "36": "8100c6bb40157c7a67bea9e2146a8b2f53a29847f7ebc581139cad37643a7e04",
     "37": "920da535c721aaac39ec229c9ed643d20567fccaf276d09b8e64f6ee2eddb8cf",
-    "38": "6ea46dbf21a45a8ee99517e76aebb04f91b0213966b5c5d190a901b0677986ec",
+    "38": "3331e3638ed6d66d66b66fc7c801b85bfaf686ac945c4aca4fab4376a0e238b7",
     "39": "eca3fc8e5dd16b7c0ccaf55beb19b1556c65f4a2ec82c1c179cdafb915be382a",
     "3a": "60e58051504c508ccd95e39ec20e4e84e584b3e5a706e9a230a1e5d310417007",
     "3b": "dbd6fad699ff14764bf7b3805e0c436db9bd56dc32aafd59289ceac0ac13dbd0",
@@ -53688,14 +53973,14 @@
     "3e": "95fb6071b3bf20a1cc9378f18b660dd3d3156448f74c197eaf0058543b66c9ec",
     "3f": "09fdbfc0305e9e48bb2172c35b4231b956fd3b864f5cee51bb8ebfa5dad4f019"
   },
-  "history_search_version": "d147d55e2b51f7430bfc9ca547010aaa5080ca26dd32352f5f59d66dd8e7dca2",
+  "history_search_version": "ef41c7e324a7a6af1c65ab0ac2e6f0030eb66a626064bc80fe0b382a5dc1af85",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53709,7 +53994,7 @@
       "as_of": "2026-10-13",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53723,7 +54008,7 @@
       "as_of": "2026-10-20",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53737,7 +54022,7 @@
       "as_of": "2026-04-16",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53751,7 +54036,7 @@
       "as_of": "2026-04-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53765,7 +54050,7 @@
       "as_of": "2026-10-16",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53779,7 +54064,7 @@
       "as_of": "2026-10-08",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53793,7 +54078,7 @@
       "as_of": "2026-06-04",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53807,7 +54092,7 @@
       "as_of": "2026-10-23",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53821,7 +54106,7 @@
       "as_of": "2026-10-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53835,7 +54120,7 @@
       "as_of": "2026-04-08",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53849,7 +54134,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53863,7 +54148,7 @@
       "as_of": "2026-10-30",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53877,7 +54162,7 @@
       "as_of": "2026-05-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53891,7 +54176,7 @@
       "as_of": "2026-10-24",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53905,7 +54190,7 @@
       "as_of": "2026-10-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53919,7 +54204,7 @@
       "as_of": "2026-10-14",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53933,7 +54218,7 @@
       "as_of": "2026-10-18",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53947,7 +54232,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53961,7 +54246,7 @@
       "as_of": "2026-07-23",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53975,7 +54260,7 @@
       "as_of": "2026-04-01",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -53989,7 +54274,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54003,7 +54288,7 @@
       "as_of": "2026-05-01",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54017,7 +54302,7 @@
       "as_of": "2026-07-15",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54031,7 +54316,7 @@
       "as_of": "2026-05-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54045,7 +54330,7 @@
       "as_of": "2026-05-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54059,7 +54344,7 @@
       "as_of": "2026-07-11",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54073,7 +54358,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54087,7 +54372,7 @@
       "as_of": "2026-10-30",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54101,7 +54386,7 @@
       "as_of": "2026-10-26",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54115,7 +54400,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54129,7 +54414,7 @@
       "as_of": "2026-05-31",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54143,7 +54428,7 @@
       "as_of": "2026-10-14",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54157,7 +54442,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54171,7 +54456,7 @@
       "as_of": "2026-10-30",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54185,7 +54470,7 @@
       "as_of": "2026-04-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54199,7 +54484,7 @@
       "as_of": "2026-10-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54213,7 +54498,7 @@
       "as_of": "2026-10-20",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54227,7 +54512,7 @@
       "as_of": "2026-07-01",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54241,7 +54526,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54255,7 +54540,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54269,7 +54554,7 @@
       "as_of": "2026-10-24",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54283,7 +54568,7 @@
       "as_of": "2026-10-18",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54297,7 +54582,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54311,7 +54596,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54325,7 +54610,7 @@
       "as_of": "2026-10-14",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54339,7 +54624,7 @@
       "as_of": "2026-10-13",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54353,7 +54638,7 @@
       "as_of": "2026-10-11",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54367,7 +54652,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54381,7 +54666,7 @@
       "as_of": "2026-04-23",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54395,7 +54680,7 @@
       "as_of": "2026-05-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54409,7 +54694,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54423,7 +54708,7 @@
       "as_of": "2026-10-16",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54437,7 +54722,7 @@
       "as_of": "2026-10-30",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54451,7 +54736,7 @@
       "as_of": "2026-10-03",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54465,7 +54750,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54479,7 +54764,7 @@
       "as_of": "2026-09-16",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54493,7 +54778,7 @@
       "as_of": "2026-10-30",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54507,7 +54792,7 @@
       "as_of": "2026-05-27",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54521,7 +54806,7 @@
       "as_of": "2026-05-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54535,7 +54820,7 @@
       "as_of": "2026-10-26",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54549,7 +54834,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54563,7 +54848,7 @@
       "as_of": "2026-09-05",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54577,7 +54862,7 @@
       "as_of": "2026-09-27",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54591,7 +54876,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54605,7 +54890,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54619,7 +54904,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54633,7 +54918,7 @@
       "as_of": "2026-06-01",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54647,7 +54932,7 @@
       "as_of": "2026-05-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54661,7 +54946,7 @@
       "as_of": "2026-10-03",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54675,7 +54960,7 @@
       "as_of": "2026-10-05",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54689,7 +54974,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54703,7 +54988,7 @@
       "as_of": "2026-10-15",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54717,7 +55002,7 @@
       "as_of": "2026-08-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54731,7 +55016,7 @@
       "as_of": "2026-10-30",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54745,7 +55030,7 @@
       "as_of": "2026-10-14",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54759,7 +55044,7 @@
       "as_of": "2026-10-15",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54773,7 +55058,7 @@
       "as_of": "2026-10-13",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54787,7 +55072,7 @@
       "as_of": "2026-09-03",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54801,7 +55086,7 @@
       "as_of": "2026-08-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54815,7 +55100,7 @@
       "as_of": "2026-10-12",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54829,7 +55114,7 @@
       "as_of": "2026-10-27",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54843,7 +55128,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54857,7 +55142,7 @@
       "as_of": "2026-09-11",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54871,7 +55156,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54885,7 +55170,7 @@
       "as_of": "2026-10-03",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54899,7 +55184,7 @@
       "as_of": "2026-10-28",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54913,7 +55198,7 @@
       "as_of": "2026-09-26",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54927,7 +55212,7 @@
       "as_of": "2026-10-08",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54941,7 +55226,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54955,7 +55240,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54969,7 +55254,7 @@
       "as_of": "2026-10-08",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54983,7 +55268,7 @@
       "as_of": "2026-10-23",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -54997,7 +55282,7 @@
       "as_of": "2026-10-15",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55011,7 +55296,7 @@
       "as_of": "2026-10-03",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55025,7 +55310,7 @@
       "as_of": "2026-10-11",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55039,7 +55324,7 @@
       "as_of": "2026-10-20",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55053,7 +55338,7 @@
       "as_of": "2026-10-19",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55067,7 +55352,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55081,7 +55366,7 @@
       "as_of": "2026-10-14",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55095,7 +55380,7 @@
       "as_of": "2026-10-24",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55109,7 +55394,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55123,7 +55408,7 @@
       "as_of": "2026-10-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55137,7 +55422,7 @@
       "as_of": "2026-10-11",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55151,7 +55436,7 @@
       "as_of": "2026-10-25",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55165,7 +55450,7 @@
       "as_of": "2026-10-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55179,7 +55464,7 @@
       "as_of": "2026-10-30",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55193,7 +55478,7 @@
       "as_of": "2026-10-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55207,7 +55492,7 @@
       "as_of": "2026-10-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55221,7 +55506,7 @@
       "as_of": "2026-10-20",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55235,7 +55520,7 @@
       "as_of": "2026-10-26",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55249,7 +55534,7 @@
       "as_of": "2026-10-26",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55263,7 +55548,7 @@
       "as_of": "2026-10-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55277,7 +55562,7 @@
       "as_of": "2026-10-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55291,7 +55576,7 @@
       "as_of": "2026-10-27",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55305,7 +55590,7 @@
       "as_of": "2026-10-15",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55319,7 +55604,7 @@
       "as_of": "2026-10-21",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55333,7 +55618,7 @@
       "as_of": "2026-10-29",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55347,7 +55632,7 @@
       "as_of": "2026-10-28",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55361,7 +55646,7 @@
       "as_of": "2026-10-22",
       "can_generate": true,
       "status": "ready",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
       "has_article": true,
@@ -55374,853 +55659,853 @@
   "company_reading_versions": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "宇树科技股份有限公司": {
       "source_version": "a2f47ecb5306d1a38870bb7d5f321856c595b450f07c23c794f2104e741d6d6e",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "VAST": {
       "source_version": "b25fb7953e25d55604104b0746312d78a097b6329fdaaefc0e33f34627e474de",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "帕西尼感知科技": {
       "source_version": "8ba4a3d7006f6919396b792017094d6b76af0775eafa6386c12be489f0dc2c45",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州至简动力科技有限公司": {
       "source_version": "334cd0d6bb10eeb892d5a6a349d1a6381fb61a32878b0f99e1d696d92aa47bea",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "灵初智能": {
       "source_version": "282961f954cdf5da5e71d63f7be7273cdb799ed0ab5a3fa3ee23c0aa75952750",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "光轮智能": {
       "source_version": "18f9a0b21f375c4df53c6053e855dc5c3920b8d004cdd2e0f0ec787ec0a2689f",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "爱诗科技": {
       "source_version": "3ae5eed52336270532297c69727161df42d29e78d046f13608f58412466016e1",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "银河通用": {
       "source_version": "a9830dffa5af6448839ebb4c97029df465ba01f805cebe53c13fdc4c2920e6ad",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "零一汽车": {
       "source_version": "1407968e83de478697b0a7c010d482bd45ff3d0c9483b4e937fc942f41bd8cb7",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州老板电器股份有限公司": {
       "source_version": "433722941ba56cfa2e3772fbf0b194d9e934113892e8bf8744782e15067da360",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "月之暗面": {
       "source_version": "82ceb88b00ffc663599cbf6aa360c07105ef6913fd2200da713c25d297e83fe6",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州竹马创新科技有限公司": {
       "source_version": "2b6f764b41347488e21ad3a47b7ab7b2a6d650e4112efd8d19e3d7e7c012a16c",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Violoop": {
       "source_version": "fd2a79afd2b9cb36f8742641ee91cdb7babfcbec15e668ff43cda6fc0a3c9d84",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "智元机器人": {
       "source_version": "955e8bf3c15049a12e517e536515cdd8d806b4c5de4073cb43a9ab650af0f9ae",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "地瓜机器人": {
       "source_version": "378eb7e70eccf4b8f039c1b3198c4b11b187c97e011f0b89b5186bc72a9b23fa",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州曦诺未来科技有限公司": {
       "source_version": "82f0d6b93e544edd8af79edf90438dcc2f116c6087b760f40e348a0cbac4e4d9",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "芯瞳半导体技术（厦门）有限公司": {
       "source_version": "207689c90953dcf32b7fb7b6753350a4c5f50afe0f3a415229a3913dcdc252cb",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "云深处科技": {
       "source_version": "83af46df81b15b9e3bde4b85bff404d54eba5dbc50b3fbf1ae3fd8a17adf35fa",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "优必选科技": {
       "source_version": "ab1abd33c47fe1260619a320527996928aa3c8226d55283d076cb5dd45c7fc2f",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "轻舟智航": {
       "source_version": "8780cc4f195735f31191e0e87d660cd887ebb682de38741dbdca3422030b113a",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "至简动力": {
       "source_version": "96fa10b7f12d9430b638a1b15e8787b1f8f6a33fe344ecbd3dfa8bf650fe83d6",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "青禾晶元": {
       "source_version": "5ae42f0dbaa30a565ffb2ae1aa1fe560b4b9c4190d2c7047ab5c6705f3d24a28",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "字节跳动": {
       "source_version": "5fc6879065fb26ca09955f9ac8b6c196922577e900f4ea3a950ec56364c5241a",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "苹果公司": {
       "source_version": "f0004c299783ece8aa034ddee5d9964456b0b56431573160e06abd2a44e23239",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "它石智航": {
       "source_version": "af97e5daf47647e2c124934c1891310c649dfbf02269c11e1f52f53fdc334ad1",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "圣贝拉集团": {
       "source_version": "17af47b5793cbfe2022912c0bff97f1d6c861339d1a89863db32d107c88c6102",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "蓝芯算力": {
       "source_version": "bc586cbc887bc543b9d2829859ff1922f01a01a7f30917d1e4490a6d60a695aa",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "世航智能": {
       "source_version": "518b1625eaf7f216e05d5de75d1bec589d622763993cfe48d28f640921f1fb6f",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "零跑汽车": {
       "source_version": "1528778ac63e8c14b702c4441985d5e0bd01980f81fea94849b43b12324430f1",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "深度机智": {
       "source_version": "64da2d45563f13269000a5666cc16801b9be268caaafc0bc11cb381fba7c35cd",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "群核科技": {
       "source_version": "1b4cd9694364fe2ba82feb3c83a3d7fb0a7301f6dc408db492d46620142f8d93",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州德适生物科技股份有限公司": {
       "source_version": "898cb37c5742a6a7fa79a66bf51cd345b2a0bbda3c31ef32ce298b5e0c36a45a",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "极佳视界": {
       "source_version": "34faf22c11d502bb4b23d6d5cc0a01c172d20a777a67b832c11d77a9fc54ac7f",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "灵猴机器人": {
       "source_version": "03b879e5ec92cd962773c3d9f13c73e3298ba2c5070b5dc685bdef5a229d15d2",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "昆仑芯": {
       "source_version": "ffda04838f73d1503313276efe4ad9f4dab1a8cbac9cc9f1071a382166a3912c",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "中茵微电子(北京)股份有限公司": {
       "source_version": "4474832b11903050c354977673c3b6ecf4ccfb142686899c5f445e0834a93362",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "禾赛科技": {
       "source_version": "fb551dd5617c0007b7ee80eb2601193d456a5768f96dc193792da9958f7c979f",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "SK海力士": {
       "source_version": "7a9033192dde6c7482663f754d6e5e34d62a514adc64adb50c1ca549eb416f8e",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "台积电": {
       "source_version": "73cb563ccb712479e7392b66b7c091d159daa38fcd3fb23fdb7ef676c1e3a0d4",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "爱芯元智": {
       "source_version": "b014a36becb5cc0eaa37d48261ca8f97964b7b7b2d868084f6e4070726767fab",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "自变量机器人": {
       "source_version": "13eb4753e7b7bb641c9b8042550f2623e8e0960d0399a8b0edbc7cd57eb0f015",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "比特幻境": {
       "source_version": "fc4b41b7ea5e7d0bf54d69d6ff4977f0f07015cf655c9fd5d1c2c94561b9dfdf",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "SpaceX": {
       "source_version": "dbf4bb0699fd073ea7d7d1ce7d5572aea4bd1b71f0d3f77b557bf033afb4c9f0",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州低空产业发展有限公司": {
       "source_version": "5a0f139bac7f92cf515eb999695c6767d01d885bf6058d7b5b05b390084ef681",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "盛合晶微半导体有限公司": {
       "source_version": "db35f8940462cfcb8ffb607996d6caab2a1b5d1a006db902a0b94d0f681abcb4",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "d-Matrix": {
       "source_version": "aeb8b320b42b665283c9b10b8e36e3f5d653341c1396a56b1b6480376ce53c7a",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Manifold AI（流形空间）": {
       "source_version": "bb47a0bcff37c8a0c08a9935b0b2c68fbc49bad70aed60b58e374ee81d4b7813",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "量旋科技": {
       "source_version": "bd5ad19b35f32587c814617cb92399e761ddb83b7cb5e051d804ed82bbcb154d",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州芝诺未来技术有限责任公司": {
       "source_version": "d4bc5702449bda4672855c9b5d0fec2663a1bceedd11963ca41acc18fe330c42",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "三星电子": {
       "source_version": "51693ad522d6a77d822a296ae277b04ad85b8713d7c512b2a66a34dff5355a02",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Rapidus": {
       "source_version": "d8a7dba82f0041e5127d12e58e46c77d234de79dd6c40ff8018a63b71b1af55e",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "阿里巴巴": {
       "source_version": "02190a5d0be9758e6fb9a0f4d71d26700c8a6f602e9c5b5bebeb8fb465bbdc55",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州深度求索人工智能基础技术研究有限公司": {
       "source_version": "a3ea002d417c961e4b7a7463720d52faa53b62579288bdb1ee3761bc8ba5ad2f",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "北京面壁智能科技股份有限公司": {
       "source_version": "a7e75cbe3960f042024745418f5298ad78b5ec826ae0beaf2ba89f9245956bee",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "三星电机": {
       "source_version": "11ab15017fc7c7e7e041d5dd53ca9254e98feabd52fb5cbe759a8311f377c3a2",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "原力灵机": {
       "source_version": "bcef183e0ab64d4eeb4a0d6c451b44d2b9366872750fb46be39ee2e0a36b0110",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "小马智行": {
       "source_version": "ef9c25aa8c7626c2fec8ff8fcb1ad68cf183c874bd5b834d281a8fcf148535fa",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "斜跃智能": {
       "source_version": "c67ac0516fd969e0b98867d2db14f26b350b4f4ad928b5a7aedc24cfde423d66",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "星动纪元": {
       "source_version": "8f889fbac4cbb543e4233db2afbc1fdb81717e81ce5d0806481a2da02ff0a845",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "生数科技": {
       "source_version": "60a22f7325616964f769c43fd54e47ab9a906f710ca070b12786b940217983a0",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "MiniMax": {
       "source_version": "45c56419f1d1e4bc0b40aa0bd9be27673ba3ffb52f8b6940ab25c54c7d588a8d",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "众擎机器人": {
       "source_version": "b817ed06cf8a8bb6f59b3cedb39953bbda594ea36b8ec6c81b92f396ab509d58",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Cerebras Systems": {
       "source_version": "66e7ac0861eae6362df6e93620454c5e84b85baeabd059a74cca01f1e21aff58",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "特斯拉": {
       "source_version": "60f8e9e0b3f50a0908f87d8d1e8955a7a979d40524ecc19232d56a34546f619d",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "IBM": {
       "source_version": "f9cabb24323fb0750e7703f3adfc51edb156d2edcb72e41317759ecaf096ec74",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Cursor": {
       "source_version": "aab9718b54c3e8bd3e612d0eb8491d86e1c11f7196b9d9b9f50c82de6711f89d",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "剂泰科技": {
       "source_version": "b30ec970c36a78a9f4e22240b7c265d5d700c9e16dd6814c545338927a7ede34",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "上海苏度科技有限公司": {
       "source_version": "6f68d036c970f5e2f33c76ec16bcacb32e8beb398b779690004b3581d34366d9",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "蚂蚁集团": {
       "source_version": "e385caf4cbc99f194be5f38e6943617dc12de96fad1227f9c54aea595f41a13c",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "曦望(Sunrise)": {
       "source_version": "90264204473f39589d627b9969d57037acd9d61baec404c4b00d6d07e04b6821",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州微纳核芯电子科技有限公司": {
       "source_version": "4199c84e8a5a360e629444dfd0cb884613906d58277c715456e36527eae40ff6",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "沃兰特航空": {
       "source_version": "cf203fa0ccd2b969b37ab57678af156b694e023ec7df7e2ebaff3b73829686d0",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "图灵量子": {
       "source_version": "3189b3598c229125d057bb61e0b6bd0ca534c594fa8a857eac2e5c69b729ac52",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Axiom Math": {
       "source_version": "fa2ac0c4d6baaeae73bf3d33950e5e35c4e2961a327abe700c0208ea1f7fa5ae",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Cognition": {
       "source_version": "0eaeed8c87ea758d4230c2ca7d47dbbf92e3e88fdd54f9bfb22ddfd325fa699b",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Rokid": {
       "source_version": "e55facf0f440593f01d48e74ad1d5417658a4b6cf915bb527ed44272de50c5f4",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "上海垣信卫星科技有限公司": {
       "source_version": "b9ceceacd193869374691c875338edb7db3dfd32d1b676378ecf2486fc68c68a",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州暖芯迦电子科技有限公司": {
       "source_version": "f2c93ee6c548c39149bc7609d6ac42319fb0bcd201f66d039b97c824fb86203a",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "乐聚机器人": {
       "source_version": "c97ce92dc41ed0d83d038077ac404baf600a7165e6325d5b89fe8375acc2b864",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "宇石空间": {
       "source_version": "08e5d9b46e6df56c44d8d1945e7831e65a15fe5c2c5ea4d9b5e9327020397f08",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Vbot维他动力": {
       "source_version": "d685bc3757d8ac25ebeec002874e8efd0dc55aad92e1780982a7b3a5a7439416",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "深圳乐动机器人股份有限公司": {
       "source_version": "329b89d3d21ed29d78c9379245e00a3a9e34e806bc298d8a8218df4e14b41f00",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "眸深智能": {
       "source_version": "c7d9cb30a9700efe0306ab48f2efdccc5a9e85419e8caf2ce8d036ba60d700e4",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "光帆科技": {
       "source_version": "8bfc7109bab0ffcf420ef6743adcdbc8408810c93083a7469cdda2b26f2c58b1",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "具微科技": {
       "source_version": "b9f977734c1e8de6304a8931b8ea9cfbc2cc71f73fa68ea8b6dedddbb230db55",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "驭势科技(北京)股份有限公司": {
       "source_version": "158e5acd39b6c52f96cb23b68f6348195d3b161cfd3c911042967524f478f751",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "AMD": {
       "source_version": "24ae9b7443450a0368cce80218dad6af1be821c0f0ee4fa86c5cb723dd2a4513",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Bolt Graphics": {
       "source_version": "c3e6cc8e07c1c812d183d3ae3ef90cd1a2ce773269165cd1d502939f0f71ad15",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "浙江智邦锂电新材料有限公司": {
       "source_version": "80b72f27b88c607d10256293c042069a947409b036d979fe63a5e4e9bc2f2d1c",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "长鑫科技集团股份有限公司": {
       "source_version": "1b392944c584e3f669c7aafa9669aac7c1a8ad5f4b6da5a5a0d84cd2cd999f3e",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "零一万物": {
       "source_version": "7caa91ef69bdefa6f190c15e09f18d3df2c6fef39ec7694c2cf5c9c45068f6c4",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "星尘智能": {
       "source_version": "ec76f7571c1aa4de6d878c29a6bbc14d024a0ec792e218d0106c9809dfd8c3ea",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "千寻智能": {
       "source_version": "6761268d74ed99b2e744065b10a2158d2f746f39d3b42ef141037184ec9af658",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "粤芯半导体": {
       "source_version": "4282530eff00c89949bb889f288aa1eb97d2fbbab18201d8add6a3d125c764a6",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "华为": {
       "source_version": "254964dad2a8d2ea0791427511cd94f38deb47c52d116a6f340bdc1d98ab465e",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "上海燧原科技股份有限公司": {
       "source_version": "f2687bbbc418d74fecf0c5539e3b693957838b7103a389a65b580e263bb2cae4",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州求是未来技术有限公司": {
       "source_version": "22d94352686a0ac4ab3eea1aba2b1a99cba07ae83c706034f255743ebc2832b9",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州逻辑比特科技有限公司": {
       "source_version": "356c8d54eb7acd114b5a762b979307ba1097bffd9345f419d62887b285768b47",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "魔芯科技": {
       "source_version": "c2b3b38d8e362c9aba2783ea49f9d66e752203c76c2137561e4ec469c5a6d24e",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "趋境科技": {
       "source_version": "6000c396c2927ff6141d555cd19fe91da640cc4fe00c6b4db93ecc1b100f6104",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "记忆张量": {
       "source_version": "14b861beb345d3dbc3237e991192c41890170cee7fbcc9c29ab2c6b58d4723fc",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州佳量脑科学股份有限公司": {
       "source_version": "65807eed7d6e3f5efda4a3c78986bc1a32477da7200dc56a285d4a0e1b112f4a",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "深圳诺因智能有限公司": {
       "source_version": "fd08460327e4e176c6be9e193bfe244e213d097b478dddfe9871dfc1dbbd9c1c",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "北京智谱华章科技股份有限公司": {
       "source_version": "a4126a31c3ce3b746207c4ba1c57b0aa06d3cc6c2b8f1de7335fc8bf82cd3900",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "江波龙": {
       "source_version": "dff18b3162212717bd9304b154524bd1ad6436e07d8fc9b45140116869b7c5b0",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Anthropic": {
       "source_version": "4863744e55fe80974b8cef2c646bc4bc61555c7941150b841f3939c1b5a2ba05",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "浙江时空道宇科技有限公司": {
       "source_version": "5d2e6e5c39e68d5e842d59351e610f6868fbebb078da29af52aa31c198b96b4a",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州四维太空智能科技有限公司": {
       "source_version": "a894eb5eb19a14f13217fd06adf4632e774b8b2d74c41d433cb8c2f6acd6be40",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "上海智元新创技术有限公司": {
       "source_version": "cf607989ed2dc405c76ab48d8bd1680b384f7a4f559319747d976d92f1e9f496",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州影身智能技术有限公司": {
       "source_version": "3fb92afe41dfb5cf7323671a75843a3b23d48a6ef85d56073a7085b4b10eb446",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "杭州微路智能科技有限公司": {
       "source_version": "55e547a591a5389ee639c504601a01adde974121deab340c952bdc58ab41c4bb",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "TypeSafe AI": {
       "source_version": "fd7bd16ee45dcef443ff6d82224795683fd4b29927b892e01d2c95047ecda3e5",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Instinct": {
       "source_version": "dc60829e39acfa47d68ba539384c79f82a3c71f941b374a104101b333b192f2d",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "宁德时代": {
       "source_version": "0381e6245dc39bbf2342b5ba0ac8eb7eb9823b7e9c5e0d45a379bcd5b4a926a5",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Skild AI": {
       "source_version": "d0e117c0b04640415307fb22761d132a33fe1f35b0e666706364c6c9c56dc66d",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "上海星环聚能科技有限公司": {
       "source_version": "02888cc393b8bfddf608e4c0eaac8ea586b4b0bf82d152ddfee0c7e3c2b2b97d",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "奕斯伟计算": {
       "source_version": "95144d40c67155f1b482a667b8c38cbd2247460660cc29b5b852a802098ee855",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "小鹏汽车": {
       "source_version": "8be1f8e1ba7389d0937fe502d7b5e56c8d762b30366f6da8f599ce6e544adce8",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "比亚迪股份有限公司": {
       "source_version": "66c1d60318073a65c8f9402adb5ade3be6df4b5fdb2c41020252558849afae9a",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "中科寒武纪科技股份有限公司": {
       "source_version": "730a17a34c5a478e90f344aef2fe4b218ad740b28443ea9c24d95fe4f1d0406d",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "赛力斯": {
       "source_version": "16816a6c533f1e3924abba8c1a5d54f187f85cf8ecae6f2ca2db5bc059a63d13",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "腾讯": {
       "source_version": "86327df43445075fa63e6a7d51134fc90938bbad4df48ce6514477e348f6f796",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "英伟达": {
       "source_version": "326a803d69566d1e72970b18556348cedfccecff614f366c881cd6af3967229d",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "英飞凌科技股份公司": {
       "source_version": "fb24fccc0badd4b0dbe909dee09d52aebedd1f83911b0d76ab813e26da85a012",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "广东高域科技有限公司": {
       "source_version": "3e61de2d622b191eeb12136c983e9c93b621fc82db52ea23505e61d5bf93a68d",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "OpenAI": {
       "source_version": "b5f1406afe0f6e22b1efb79b73346e2ea383ba8b4338e11d9cbe6a1f341abfa2",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Utopai Studios": {
       "source_version": "580f21767ce8dd9d433caf29da16a040dd81c12f3f73596283be96fffac5123a",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "博通": {
       "source_version": "d08e0549b1c4fddd71d8591f0bcb4c1a450645561aebd1b7d1cf66b91bc980e0",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Meta": {
       "source_version": "926c16fc48d4361c9ff74a0b394d3675ae7fdbdc65a6f7e67ddce4998d4f0833",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "谷歌": {
       "source_version": "2d1f4a85f855ba15babc99ef284c657ae6ccdc461659aee71d5612b23de5495d",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "微软": {
       "source_version": "9f09daf37abb6585be583fd724834bfeab73818cfad78157a12f8e45750531e7",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "英特尔": {
       "source_version": "eb3c0d37f5b31739ac40a5853e21a1865e2cc65abdd3143b8febc9767d3806f3",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "张雪机车": {
       "source_version": "9488de0fabd1184c5b49d21e3b435b98e321b0ea68f174a8d0f930ab689f3947",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "无问芯穹": {
       "source_version": "afc10510e8f4c643e718257a03ad67f15ac569fdda369930e8010de5f6bf7ff5",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "字节": {
       "source_version": "96cf9ab92601638a0fea6fa285565a571d835e5e0fba45938764d2c3475752e6",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "小米": {
       "source_version": "fcff2ae8426a39609c0cf6792d91ea2f04a4729451bcde34c0962d8b995e0a63",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "OPay": {
       "source_version": "6073b8e90505e09429dbf8eea30483472647058572ff934bcdd133de33fe6b2e",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "阿里": {
       "source_version": "a24478399a14984eeff99fc2237be6e33f4975d5ad6af6fa459fc18358dde563",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "苹果": {
       "source_version": "7ff413f48d2744c8e704ca00ae06b8ed032ba24201373c8ad330434d3eaab7e7",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Today AI": {
       "source_version": "e5cafc215462de393e9469ae895bb81d43ba59ca3c2282b91a458c6a12c1879f",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "Waymo": {
       "source_version": "774cda28bc6316695b094e89c35c064c10a5d5ea2d2b3155653479ed3c3a7cea",
-      "source_epoch": 1793300115223,
+      "source_epoch": 1793320749575,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     }
@@ -56231,7 +56516,7 @@
   },
   "observations": {
     "path": "data/observations.json",
-    "version": "3e31fbc80e02073b2edd103f2b466eb40138b461301b0e07bb9643c791dec232",
+    "version": "bd8d6a3571e4d82c1fd0976aa653da762ac5430818420e4e47ac5ec4363cef76",
     "company_count": 321,
     "reading_count": 120,
     "lead_count": 201,
@@ -56542,7 +56827,8 @@
     },
     "2026-10-30": {
       "e6bcb12ec980c4b075756700db568fe42b1b0806b573e0c9fa15a6fa8da33e80": "e6bcb12ec980c4b075756700db568fe42b1b0806b573e0c9fa15a6fa8da33e80",
-      "c74c09f62ad2eb46d27e4399372523f81a2a0386c5385f26d7b0cdd261942474": "c74c09f62ad2eb46d27e4399372523f81a2a0386c5385f26d7b0cdd261942474"
+      "c74c09f62ad2eb46d27e4399372523f81a2a0386c5385f26d7b0cdd261942474": "c74c09f62ad2eb46d27e4399372523f81a2a0386c5385f26d7b0cdd261942474",
+      "e4cf45c4d4e110a99e5a16b4c9927a674e80e5cfc8dda45f6ab7534a58e73e32": "e4cf45c4d4e110a99e5a16b4c9927a674e80e5cfc8dda45f6ab7534a58e73e32"
     }
   }
 }
