@@ -56009,8 +56009,9 @@
       "source_epoch": 1793388120234,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
+      "has_article": true,
       "path": "data/interpretations/88785e948abbbc26992b.json",
-      "version": "b0e043f349c090dc5d865fb5e31519122d43a79042499e37e4a4cfa3f837928e",
+      "version": "0f1b03398d6d0e37ca24facafcb37701be0b24d74353a6623e3f0d42f2fcca09",
       "cached_as_of": "2026-10-31",
       "cached_source_version": "59a3a4c377498e65453afffaaee44d9de90758edd23372aa7a63c08a42bdc002"
     },
@@ -57206,11 +57207,11 @@
   },
   "observations": {
     "path": "data/observations.json",
-    "version": "713ee0188368a4f521a4edfb3c19535903b0d668ee6d9e0207a2274dafcc691a",
+    "version": "3cac51197cc5e6130ba4e0f695391282fa77d4620af3c5779461f12038d63c6d",
     "company_count": 324,
     "reading_count": 123,
     "lead_count": 201,
-    "topic_count": 13
+    "topic_count": 14
   },
   "company_observations": {
     "思流之光科技（杭州）有限责任公司": [
@@ -57227,11 +57228,10 @@
         "title": "原子钟走向重复供货，关键是把器件差异留在制造端"
       }
     ],
-    "杭州鲁尔物联科技有限公司": [
+    "阿里": [
       {
-        "id": "obs-1e7f6f9078b6871e",
-        "question": "杭州安全预警模型，能否把识别优势转成处置闭环？",
-        "title": "杭州安全预警的下一场竞争是让判断改变行动"
+        "id": "obs-3452704965ce28f2",
+        "question": "DeepSeek和千问怎样减少智能体训练中的空等？"
       }
     ],
     "杭州低空产业发展有限公司": [
@@ -57241,11 +57241,11 @@
         "title": "杭州无人机配送接入日常消费，先从商圈订单的中段运输切入"
       }
     ],
-    "阿里": [
+    "杭州鲁尔物联科技有限公司": [
       {
-        "id": "obs-3452704965ce28f2",
-        "question": "DeepSeek和千问怎样减少智能体训练中的空等？",
-        "title": "DeepSeek与千问的共同方向，是让算力少等、任务不断"
+        "id": "obs-1e7f6f9078b6871e",
+        "question": "杭州安全预警模型，能否把识别优势转成处置闭环？",
+        "title": "杭州安全预警的下一场竞争是让判断改变行动"
       }
     ],
     "中国移动": [
@@ -57318,6 +57318,12 @@
         "title": "从清波巡检到展馆导览，机器人长用靠任务适配与服务承接"
       }
     ],
+    "拓元智慧": [
+      {
+        "id": "obs-b3ec3607ebe1e90b",
+        "question": "至简与拓元如何把未来场景用于当前动作？"
+      }
+    ],
     "宁波均普智能制造股份有限公司": [
       {
         "id": "obs-a96285acba4c3245",
@@ -57335,8 +57341,7 @@
     "杭州深度求索人工智能基础技术研究有限公司": [
       {
         "id": "obs-3452704965ce28f2",
-        "question": "DeepSeek和千问怎样减少智能体训练中的空等？",
-        "title": "DeepSeek与千问的共同方向，是让算力少等、任务不断"
+        "question": "DeepSeek和千问怎样减少智能体训练中的空等？"
       }
     ],
     "兆丰机电": [
@@ -57386,6 +57391,10 @@
         "id": "obs-9796cd2942ed553d",
         "question": "机器人批量出货，是否意味着工厂可以持续替人？",
         "title": "机器人进入工厂后，先改变的可能是值守方式"
+      },
+      {
+        "id": "obs-b3ec3607ebe1e90b",
+        "question": "至简与拓元如何把未来场景用于当前动作？"
       }
     ],
     "神踪科技": [
