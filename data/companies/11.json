@@ -1283,5 +1283,85 @@
       "event_signal": "major",
       "discovery_status": "first_seen"
     }
+  ],
+  "七腾机器人": [
+    {
+      "date": "2026-11-01",
+      "title": "七腾机器人在西北某储气库项目中部署防爆机器人，沿预设路线定期巡检，监测温度异常和气体泄漏风险。文章称，公司于“今年9月”公开“元域智巡”平台，集成工业多模态大模型SevnceBrain，支持现场理解、异常识别和语音指令交互，并与机器人运动控制系统协同。平台通过采集现场数据、搭建三维场景，在虚拟环境中预演巡检方案、调试算法和测试风险，再部署至真实现场并回流运行数据。",
+      "article_title": "机器人到底该先干什么？「特种四小虎」刷新了答案",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/eZU5dJFlJnzEukfA9YixFQ",
+      "sector": "防爆巡检机器人",
+      "location": "重庆市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "重庆市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-376d18d8e82a4ec6cd0899c0"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "七腾机器人",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-376d18d8e82a4ec6cd0899c0",
+            "source_url": "https://www.cq.gov.cn/ywdt/jrcq/202605/t20260524_15698896_app.html",
+            "checked_at": "2026-10-31T18:19:23.790608+00:00",
+            "subject": "七腾机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "重庆市",
+              "city": "重庆市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "重庆市",
+          "city": "重庆市",
+          "evidence_ids": [
+            "geo-376d18d8e82a4ec6cd0899c0"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "七腾机器人",
+      "company_entity_id": "dr-u-3c3a5b62f2a615fc4f6f",
+      "company_raw_name": "七腾机器人",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "危险环境应用和仿真部署机制足以支持产品进展线索，但客户名单及平台功能不能独立证明全国领先地位，尚无充分行业比较或领先性证据。",
+        "evidence_ids": [
+          "article:5df393b822b263cf",
+          "geo-376d18d8e82a4ec6cd0899c0"
+        ]
+      },
+      "published_date": "2026-10-30",
+      "insight": "七腾的应用价值首先来自在易燃易爆场所保持巡检频次，同时减少人员进入危险区域。元域智巡进一步瞄准跨工厂部署的适配工作，把部分方案调试移到虚拟现场；其推广价值取决于这种前置调试能否实际减少现场配置和返工。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "七腾机器人公开元域智巡平台，将部分巡检调试前移至仿真",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
