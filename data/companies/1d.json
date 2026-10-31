@@ -1187,24 +1187,50 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/Gef3VAGCYuFsjsMJIjNcaA",
       "sector": "硅光芯片与光互连",
-      "location": "地点待核",
+      "location": "US / California / 695 River Oaks Parkway, San Jose, CA 95134",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / 695 River Oaks Parkway, San Jose, CA 95134",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-26046bdd5abe4a044a7d60ee"
+        ],
+        "subject_evidence_ids": [
+          "geo-26046bdd5abe4a044a7d60ee"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Ayar Labs",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Jose",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-26046bdd5abe4a044a7d60ee"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-26046bdd5abe4a044a7d60ee",
+            "source_url": "https://ayarlabs.com/contact/",
+            "checked_at": "2026-10-31T00:31:50.228663+00:00",
+            "subject": "Ayar Labs",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Jose",
+              "address": "695 River Oaks Parkway, San Jose, CA 95134"
+            }
+          }
+        ]
       },
       "article_location": "",
       "source": "半导体行业观察",

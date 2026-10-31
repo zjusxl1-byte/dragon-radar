@@ -2994,16 +2994,19 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/6ZyVuVJXnykKdj54vmPd4w",
       "sector": "智慧交通、智能制造及空天地一体化",
-      "location": "地点线索：杭州滨江具身智能机器人小镇（产业基地项目地）",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e5b80d7ca78575ed0832a39c",
+          "geo-4e40e6af063f71be7a880c37"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "众合科技",
         "subject_locality": {
           "status": "unknown",
@@ -3011,7 +3014,49 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e5b80d7ca78575ed0832a39c",
+            "source_url": "https://www.unittec.com/news-detail.aspx?k1=3&k2=17&id=776",
+            "checked_at": "2026-10-31T00:31:47.287452+00:00",
+            "subject": "众合科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "江汉路1785号网新双城国际4号楼10楼"
+            }
+          },
+          {
+            "evidence_id": "geo-4e40e6af063f71be7a880c37",
+            "source_url": "https://www.unittec.com/news-detail.aspx?k1=3&k2=17&id=776",
+            "checked_at": "2026-10-31T00:31:47.287452+00:00",
+            "subject": "众合科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "临安区",
+              "address": "青山湖街道胜联路888号众合科技青山湖科技园"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-e5b80d7ca78575ed0832a39c",
+            "geo-4e40e6af063f71be7a880c37"
+          ]
+        }
       },
       "article_location": "杭州滨江具身智能机器人小镇（产业基地项目地）",
       "source": "滨江发布",

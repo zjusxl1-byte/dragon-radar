@@ -2008,16 +2008,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/liOIIK7NR1XDYqhuiy9LuA",
       "sector": "PCB制造",
-      "location": "地点待核",
+      "location": "台湾省 / 桃园市 / 大园区 / 三石里三和路28巷6号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "台湾省 / 桃园市 / 大园区 / 三石里三和路28巷6号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-bb883f5ab961cc30797ae7bf"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "臻鼎科技",
         "subject_locality": {
           "status": "unknown",
@@ -2025,7 +2027,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-bb883f5ab961cc30797ae7bf",
+            "source_url": "https://www.zdtco.com/tw/about/group",
+            "checked_at": "2026-10-31T00:33:22.765392+00:00",
+            "subject": "臻鼎科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "台湾省",
+              "city": "桃园市",
+              "district": "大园区",
+              "address": "三石里三和路28巷6号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "台湾省",
+          "city": "桃园市",
+          "district": "大园区",
+          "evidence_ids": [
+            "geo-bb883f5ab961cc30797ae7bf"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
@@ -2053,24 +2082,50 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/4wZz9A47aDTtZ9d4aVj77Q",
       "sector": "半导体设备与硅光子",
-      "location": "地点待核",
+      "location": "US / New York / 1 Terminal Drive, Plainview, NY 11803",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / New York / 1 Terminal Drive, Plainview, NY 11803",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-eae6799bdf8b7c81d28987f6"
+        ],
+        "subject_evidence_ids": [
+          "geo-eae6799bdf8b7c81d28987f6"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Veeco Instruments Inc.",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "New York",
+          "city": "Plainview",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-eae6799bdf8b7c81d28987f6"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-eae6799bdf8b7c81d28987f6",
+            "source_url": "https://www.veeco.com/contact-us/",
+            "checked_at": "2026-10-31T00:32:49.943113+00:00",
+            "subject": "Veeco Instruments Inc.",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "New York",
+              "city": "Plainview",
+              "address": "1 Terminal Drive, Plainview, NY 11803"
+            }
+          }
+        ]
       },
       "article_location": "",
       "source": "半导体行业观察",

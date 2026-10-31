@@ -467,81 +467,128 @@
           "company_db_id": 258
         },
         {
-          "company_raw_name": "Ayar Labs",
-          "title": "光芯片，迎来拐点！",
-          "company": "Ayar Labs",
+          "company_raw_name": "德适科技",
+          "identity_mentions": [
+            {
+              "name": "DIAGENS",
+              "relation": "same_entity",
+              "evidence": "临平企业德适科技（DIAGENS）"
+            },
+            {
+              "name": "iMedImage®",
+              "relation": "product",
+              "evidence": "基于iMedImage®，德适科技已经把医疗影像AI的能力边界拓展至多种影像模态。"
+            }
+          ],
+          "title": "不用写代码也能造AI？临平这家企业出圈了，助力团队斩获全国大奖！",
+          "company": "德适科技",
           "score": 50,
-          "sector": "硅光芯片与光互连",
-          "financing": "2026年获得的融资扩大至6.5亿美元；轮次未披露。资金主要用于产品开发、制造体系和规模化生产准备，战略投资者包括AMD、英特尔和英伟达等。",
-          "source": "半导体行业观察",
-          "location": "地点待核",
-          "article_location": "",
+          "sector": "医疗人工智能／医学影像",
+          "financing": "",
+          "source": "临平发布",
+          "location": "浙江省 / 杭州市 / 临平区",
+          "article_location": "临平",
           "geography": {
-            "geography_status": "unknown",
-            "classification": "unknown",
-            "display_location": "地点待核",
-            "located_status": "unknown",
-            "display_basis": [],
+            "geography_status": "confirmed",
+            "classification": "hangzhou",
+            "display_location": "浙江省 / 杭州市 / 临平区",
+            "located_status": "discovery_confirmed",
+            "display_basis": [
+              "geo-2378b66c98b25205ae40504b"
+            ],
             "subject_evidence_ids": [],
-            "needs_review": true,
-            "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-            "subject": "Ayar Labs",
+            "needs_review": false,
+            "next_action": null,
+            "subject": "德适科技",
             "subject_locality": {
               "status": "unknown",
               "classification": "unknown",
               "basis_roles": [],
               "evidence_ids": []
             },
-            "basis": []
+            "basis": [
+              {
+                "evidence_id": "geo-2378b66c98b25205ae40504b",
+                "source_url": "https://mp.weixin.qq.com/s/DwBMTg3z2Am1E_RVSYlLMw",
+                "checked_at": "2026-10-30T10:46:16+00:00",
+                "subject": "德适科技",
+                "role": "business",
+                "subject_relation": "same_subject",
+                "place": {
+                  "country": "CN",
+                  "province": "浙江省",
+                  "city": "杭州市",
+                  "district": "临平区"
+                }
+              }
+            ],
+            "discovery_locality": {
+              "status": "confirmed",
+              "classification": "hangzhou",
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "临平区",
+              "evidence_ids": [
+                "geo-2378b66c98b25205ae40504b"
+              ]
+            }
           },
-          "company_entity_id": "dr-u-22389189b08cb05c186a",
-          "company_canonical_name": "Ayar Labs",
+          "company_entity_id": "dr-u-2e2c88480808745827f5",
+          "company_canonical_name": "德适科技",
           "identity_status": "unresolved",
-          "event_type": "融资",
-          "link": "https://mp.weixin.qq.com/s/Gef3VAGCYuFsjsMJIjNcaA",
-          "article_title": "光芯片，迎来拐点！",
-          "event_desc": "据文章，Ayar Labs于2026年9月宣布，将2026年获得的融资扩大至6.5亿美元，主要用于产品开发、制造体系建设和规模化生产准备，战略投资者包括AMD、英特尔和英伟达等企业。",
-          "insight": "这笔融资为Ayar Labs把产品开发与制造准备同步推进提供了资金基础，关注点由器件能力延伸到可制造、可供货的产品体系。文中披露的是规模生产准备方向，而非已经完成的量产交付。",
-          "event_headline": "Ayar Labs年内融资扩大至6.5亿美元，推进制造准备",
-          "event_signal": "major",
+          "event_type": "产品应用",
+          "link": "https://mp.weixin.qq.com/s/DwBMTg3z2Am1E_RVSYlLMw",
+          "article_title": "不用写代码也能造AI？临平这家企业出圈了，助力团队斩获全国大奖！",
+          "event_desc": "广西中医药大学第二附属医院肾癌CT诊断团队、广西医科大学第一附属医院乳腺癌X光诊断团队，依托德适科技自研医疗影像基座模型及配套研发平台开发模型，分别获得全国医保影像AI识图大赛对应赛道一等奖、二等奖。原文介绍，该平台封装数据处理、算法调优和系统部署等技术环节，使临床医生无需编写代码即可参与专科AI模型开发。按照赛事成果转化安排，优秀模型将分批接入广西医保影像云平台，具体接入名单和时间未披露。",
+          "insight": "此次进展的价值在于，德适科技的影像AI底座已支持两支医院团队围绕不同疾病和影像类型开发获奖模型，显示其作用不止是提供单病种工具，也包括承接临床团队的模型研发。平台将数据处理、算法调优和部署环节封装，使医生能够更集中地定义诊断需求；后续最值得观察的是这两类模型接入基层影像平台后的实际辅助诊断表现。",
+          "event_headline": "德适科技医疗影像AI平台支持两支医院团队开发获奖模型",
+          "event_signal": "material",
           "is_national_star": false,
           "event_time_evidence": {
-            "status": "historical",
-            "description": "正文明确融资扩大宣布于2026年9月，具体日未知；新闻发布时间为2026年10月30日，不以新闻日替代事件日。",
+            "status": "date_unknown_recent_report",
+            "description": "事件日期未明确；报道日为 2026-10-30",
             "event_date": null,
             "observed_date": "2026-10-30",
-            "review_required": false
+            "review_required": true
           },
           "published_date": "2026-10-30",
           "publication_basis": "采集源保留的发布时间",
           "selection_recommendation": "keep",
-          "selection_reason": "Ayar Labs被全文明确为硅光企业及九月融资扩展的主体，6.5亿美元为扩大后的2026年已获融资口径，不当作单轮新增金额；产品、制造体系和规模生产准备是所述用途，投资者不当成客户。10月30日新闻在窗口内，历史无匹配、无读取错误和身份冲突，支持技术业务相关的资本成长发现。企业地点仍待核，不凭投资方或模型知识补地，也不以缺注册/总部否定事件。",
-          "event_headline_source": "230dee82f53600e69aa7a2a225804d0148a572c0252e17c2c5635930cace1eee",
+          "selection_reason": "临平发布正文直接称“临平企业德适科技（DIAGENS）”，足以支持本条正面发现的临平企业归属及报道名称对应关系，不据此补认工商主体、注册地或总部。德适科技是医疗影像基座及研发平台提供方，两个奖项分别属于两支医院团队。跨肾癌CT和乳腺癌X光任务的实际模型开发，提供平台承接临床研发的具体应用依据，不能简化为企业获奖宣传。原始发布时间为2026-10-30T09:42:00Z，符合最近7天窗口；原待核理由中的发布时间缺失已被补齐。所给历史检索无匹配记录，可作为正面日报线索保留，不宣称全库首次发现，也不把赛事转化安排写成这两个模型已经接入广西平台。",
+          "event_headline_source": "ec253277e23f2276b443c3cd72f21a4528d0c6d2e76dabe68f3838b621ed85df",
           "location_status": "unknown",
           "location_basis": [],
           "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+          "location_candidates": [
+            {
+              "value": "临平",
+              "status": "article_candidate_only",
+              "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+            }
+          ],
           "benchmark_review": {
             "status": "not_qualified",
             "eligible": false,
-            "reason": "融资规模、用途及战略投资者只证明资本支持与产业联系，尚不足以建立可核验的行业地位、产品竞争优势或对杭州的独立标杆资格。",
+            "reason": "医院应用案例支持平台研发价值，但赛事奖项归属医院团队，且未提供可比性能、行业地位或市场份额依据，不据此建立全国标杆资格。",
             "evidence_ids": [
-              "article:6058fe3d4b7ca393"
+              "article:ae687e92eea41b37"
             ]
           },
           "quality_review": {
             "schema_version": "dragon-overnight-review.v2",
             "decision": "keep",
             "reviewer": "quality_inspector Agent + 贾维斯逐事件定向复核",
-            "candidate_id": "c57d563ec79748a9d0fc59631d0226232cb61af3aecfab700154273de4aa38a8",
-            "input_row_sha256": "fd0d37682dfa1ab6e1e309ddaceabeba4df93b47201af0ec0be4fa74b244a5c3",
-            "reason": "Ayar Labs被全文明确为硅光企业及九月融资扩展的主体，6.5亿美元为扩大后的2026年已获融资口径，不当作单轮新增金额；产品、制造体系和规模生产准备是所述用途，投资者不当成客户。10月30日新闻在窗口内，历史无匹配、无读取错误和身份冲突，支持技术业务相关的资本成长发现。企业地点仍待核，不凭投资方或模型知识补地，也不以缺注册/总部否定事件。",
+            "candidate_id": "893905e6a705c65e7ca4c8a55d1307ce0fe806f71337de70c711c3671def8b07",
+            "input_row_sha256": "d5fa55ee191dca38005c4d7e620b77db79a255a10a14e3c5a0f0a57aea3d18e1",
+            "reason": "临平发布正文直接称“临平企业德适科技（DIAGENS）”，足以支持本条正面发现的临平企业归属及报道名称对应关系，不据此补认工商主体、注册地或总部。德适科技是医疗影像基座及研发平台提供方，两个奖项分别属于两支医院团队。跨肾癌CT和乳腺癌X光任务的实际模型开发，提供平台承接临床研发的具体应用依据，不能简化为企业获奖宣传。原始发布时间为2026-10-30T09:42:00Z，符合最近7天窗口；原待核理由中的发布时间缺失已被补齐。所给历史检索无匹配记录，可作为正面日报线索保留，不宣称全库首次发现，也不把赛事转化安排写成这两个模型已经接入广西平台。",
             "scope": {
-              "technology_evidence": "正文明确Ayar Labs为硅光创业公司，并将融资用途直接连接产品开发、制造体系及规模化生产准备；列明AMD、英特尔和英伟达等战略投资者。",
-              "value_reason": "融资将技术开发与制造准备连接起来，为评估光互连创业企业能否从研发走向可制造、可供货体系提供资本支持信号；价值在资本成长与生产准备，不需要补造技术突破或已实现收入。"
+              "technology_evidence": "两支医院团队依托德适科技自研医疗影像基座模型及配套研发平台完成肾癌CT、乳腺癌X光模型开发，分别获得对应赛道一等奖、二等奖；平台封装数据处理、算法调优和系统部署环节。",
+              "value_reason": "同一技术平台支持不同疾病和影像模态的临床团队开发模型，显示其产品价值不仅是单病种识别工具，还包括降低临床需求转成模型的研发门槛。杭州医疗AI培育可据此考察平台复用能力及医院协作方式；赛事获奖尚不能证明临床有效性或规模交付。"
             },
             "stage": {
-              "status": "据报道已宣布年内融资扩大；资金用途指向后续开发与制造准备",
-              "reason": "原文仅明确宣布发生于2026年9月，具体日期未知；未说明单轮新增金额、轮次或全部资金到账情况，也未证明量产准备完成或已经交付。"
+              "status": "已完成模型开发并获赛事奖项，平台接入尚未确认",
+              "reason": "原文称决赛“日前”举行并明确获奖结果，精确事件日期未知。优秀模型将分批接入广西医保影像云平台属于后续安排，未披露这两项模型的接入名单和时间。"
             },
             "history": {
               "result": "new_event",
@@ -549,26 +596,26 @@
                 "history_lookup:55d4071b92274393"
               ],
               "prior_decisions": [],
-              "change_reason": "Ayar Labs被全文明确为硅光企业及九月融资扩展的主体，6.5亿美元为扩大后的2026年已获融资口径，不当作单轮新增金额；产品、制造体系和规模生产准备是所述用途，投资者不当成客户。10月30日新闻在窗口内，历史无匹配、无读取错误和身份冲突，支持技术业务相关的资本成长发现。企业地点仍待核，不凭投资方或模型知识补地，也不以缺注册/总部否定事件。",
+              "change_reason": "本包同主体已收录及既往裁决均为空，所给检索范围未见同一医院模型开发获奖事件；不将无匹配扩大为全库首次收录。上游待核所称发布时间缺失，已由本包原始发布记录消除。",
               "new_evidence_ids": [
-                "article:6058fe3d4b7ca393"
+                "article:ae687e92eea41b37"
               ]
             },
             "evidence_ids": [
-              "article:6058fe3d4b7ca393",
-              "geography_registry:b93d03cf35486d17",
+              "article:ae687e92eea41b37",
               "history_lookup:55d4071b92274393"
             ],
             "benchmark_review": {
               "status": "not_qualified",
               "eligible": false,
-              "reason": "融资规模、用途及战略投资者只证明资本支持与产业联系，尚不足以建立可核验的行业地位、产品竞争优势或对杭州的独立标杆资格。",
+              "reason": "医院应用案例支持平台研发价值，但赛事奖项归属医院团队，且未提供可比性能、行业地位或市场份额依据，不据此建立全国标杆资格。",
               "evidence_ids": [
-                "article:6058fe3d4b7ca393"
+                "article:ae687e92eea41b37"
               ]
             }
           },
-          "company_db_id": 535
+          "identity_candidates": [],
+          "company_db_id": null
         }
       ],
       "record_count": 43,
@@ -4887,7 +4934,7 @@
     "2026-10-30": "e4cf45c4d4e110a99e5a16b4c9927a674e80e5cfc8dda45f6ab7534a58e73e32",
     "2026-10-31": "763fd0d61dca4c3f510c74d5b422064eecc4c662c52238317aef354df9cb7a24"
   },
-  "geography_version": "ea67d55e95826f5c3ea66574901a4583f879b54a83bcf8f4bdaad3af0bf0c341",
+  "geography_version": "5bb8d40906295f25f4c7857dac1577173d3873e375e76342460d32038ec1f446",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -5971,10 +6018,67 @@
       "located_status": "unknown"
     },
     "dr-u-0b6d6e9a952517188822": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-e5b80d7ca78575ed0832a39c",
+        "geo-4e40e6af063f71be7a880c37"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "众合科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-e5b80d7ca78575ed0832a39c",
+          "source_url": "https://www.unittec.com/news-detail.aspx?k1=3&k2=17&id=776",
+          "checked_at": "2026-10-31T00:31:47.287452+00:00",
+          "subject": "众合科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "滨江区",
+            "address": "江汉路1785号网新双城国际4号楼10楼"
+          }
+        },
+        {
+          "evidence_id": "geo-4e40e6af063f71be7a880c37",
+          "source_url": "https://www.unittec.com/news-detail.aspx?k1=3&k2=17&id=776",
+          "checked_at": "2026-10-31T00:31:47.287452+00:00",
+          "subject": "众合科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "临安区",
+            "address": "青山湖街道胜联路888号众合科技青山湖科技园"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "evidence_ids": [
+          "geo-e5b80d7ca78575ed0832a39c",
+          "geo-4e40e6af063f71be7a880c37"
+        ]
+      }
     },
     "dr-u-0b79cf2de0ee6b8ee227": {
       "geography_status": "confirmed",
@@ -6883,10 +6987,46 @@
       "located_status": "unknown"
     },
     "dr-u-156573cea8025b1d4b4e": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "US / California",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-917438851cc96f5c5548d033"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "Dyna Robotics",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-917438851cc96f5c5548d033",
+          "source_url": "https://m.pedaily.cn/news/547611",
+          "checked_at": "2026-10-31T00:31:48.027744+00:00",
+          "subject": "Dyna Robotics",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "address": "美国硅谷"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "US",
+        "evidence_ids": [
+          "geo-917438851cc96f5c5548d033"
+        ]
+      }
     },
     "dr-u-15ea2fa417bd85979eda": {
       "geography_status": "unknown",
@@ -7795,10 +7935,48 @@
       "located_status": "unknown"
     },
     "dr-u-22389189b08cb05c186a": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "US / California / 695 River Oaks Parkway, San Jose, CA 95134",
+      "located_status": "subject_confirmed",
+      "display_basis": [
+        "geo-26046bdd5abe4a044a7d60ee"
+      ],
+      "subject_evidence_ids": [
+        "geo-26046bdd5abe4a044a7d60ee"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "Ayar Labs",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "US",
+        "province": "California",
+        "city": "San Jose",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-26046bdd5abe4a044a7d60ee"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-26046bdd5abe4a044a7d60ee",
+          "source_url": "https://ayarlabs.com/contact/",
+          "checked_at": "2026-10-31T00:31:50.228663+00:00",
+          "subject": "Ayar Labs",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "San Jose",
+            "address": "695 River Oaks Parkway, San Jose, CA 95134"
+          }
+        }
+      ]
     },
     "dr-u-2256848e2d62977ac5af": {
       "geography_status": "unknown",
@@ -9457,10 +9635,50 @@
       "located_status": "unknown"
     },
     "dr-u-2e2c88480808745827f5": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 临平区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-2378b66c98b25205ae40504b"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "德适科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-2378b66c98b25205ae40504b",
+          "source_url": "https://mp.weixin.qq.com/s/DwBMTg3z2Am1E_RVSYlLMw",
+          "checked_at": "2026-10-30T10:46:16+00:00",
+          "subject": "德适科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "临平区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "临平区",
+        "evidence_ids": [
+          "geo-2378b66c98b25205ae40504b"
+        ]
+      }
     },
     "dr-u-2e5671057240fb8001bb": {
       "geography_status": "confirmed",
@@ -10994,10 +11212,51 @@
       "located_status": "unknown"
     },
     "dr-u-3d0a91c6bcbaa9dd677c": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 上城区 / 闸弄口街道",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-1f3843e831ff92180fa30fd8"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "闪动",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-1f3843e831ff92180fa30fd8",
+          "source_url": "https://mp.weixin.qq.com/s/u1AiOkLJ5GoDNv2FrJapJw",
+          "checked_at": "2026-10-29T22:31:14+00:00",
+          "subject": "闪动",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "上城区",
+            "address": "闸弄口街道"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "上城区",
+        "evidence_ids": [
+          "geo-1f3843e831ff92180fa30fd8"
+        ]
+      }
     },
     "dr-u-3d21ef6914f0760dcf6f": {
       "geography_status": "confirmed",
@@ -14284,27 +14543,36 @@
       "geography_status": "confirmed",
       "classification": "foreign",
       "display_location": "US / California / One Apple Park Way, Cupertino, CA 95014",
-      "located_status": "discovery_confirmed",
+      "located_status": "subject_confirmed",
       "display_basis": [
-        "geo-5d825e8670cf7d645566ad8d"
+        "geo-77b4f841fafaf18be61de43b"
       ],
-      "subject_evidence_ids": [],
+      "subject_evidence_ids": [
+        "geo-77b4f841fafaf18be61de43b"
+      ],
       "needs_review": false,
       "next_action": null,
       "subject": "苹果公司",
       "subject_locality": {
-        "status": "unknown",
-        "classification": "unknown",
-        "basis_roles": [],
-        "evidence_ids": []
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "US",
+        "province": "California",
+        "city": "Cupertino",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-77b4f841fafaf18be61de43b"
+        ]
       },
       "basis": [
         {
-          "evidence_id": "geo-5d825e8670cf7d645566ad8d",
+          "evidence_id": "geo-77b4f841fafaf18be61de43b",
           "source_url": "https://www.apple.com/contact/",
-          "checked_at": "2026-10-12T03:44:00.151907+00:00",
+          "checked_at": "2026-10-31T00:31:47.678471+00:00",
           "subject": "苹果公司",
-          "role": "business",
+          "role": "hq",
           "subject_relation": "same_subject",
           "place": {
             "country": "US",
@@ -14313,17 +14581,7 @@
             "address": "One Apple Park Way, Cupertino, CA 95014"
           }
         }
-      ],
-      "discovery_locality": {
-        "status": "confirmed",
-        "classification": "foreign",
-        "country": "US",
-        "province": "California",
-        "city": "Cupertino",
-        "evidence_ids": [
-          "geo-5d825e8670cf7d645566ad8d"
-        ]
-      }
+      ]
     },
     "dr-u-5fdd673ed1fcff1de84b": {
       "geography_status": "confirmed",
@@ -25051,10 +25309,48 @@
       "located_status": "unknown"
     },
     "dr-u-cac3b03a862cf2296837": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "US / New York / 1 Terminal Drive, Plainview, NY 11803",
+      "located_status": "subject_confirmed",
+      "display_basis": [
+        "geo-eae6799bdf8b7c81d28987f6"
+      ],
+      "subject_evidence_ids": [
+        "geo-eae6799bdf8b7c81d28987f6"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "Veeco Instruments Inc.",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "US",
+        "province": "New York",
+        "city": "Plainview",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-eae6799bdf8b7c81d28987f6"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-eae6799bdf8b7c81d28987f6",
+          "source_url": "https://www.veeco.com/contact-us/",
+          "checked_at": "2026-10-31T00:32:49.943113+00:00",
+          "subject": "Veeco Instruments Inc.",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "New York",
+            "city": "Plainview",
+            "address": "1 Terminal Drive, Plainview, NY 11803"
+          }
+        }
+      ]
     },
     "dr-u-cacc46dd9648c7da3c63": {
       "geography_status": "unknown",
@@ -26047,10 +26343,49 @@
       }
     },
     "dr-u-d77f0cfe12ec8404d75b": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "台湾省 / 新竹县 / 新埔镇内立里大鲁阁路17号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-6731818449e6d92742505491"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "联茂电子",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-6731818449e6d92742505491",
+          "source_url": "https://www.iteqcorp.com/about-cn/worldwide/?lang=zh-hans",
+          "checked_at": "2026-10-31T00:32:49.634135+00:00",
+          "subject": "联茂电子",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "台湾省",
+            "city": "新竹县",
+            "address": "新埔镇内立里大鲁阁路17号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "台湾省",
+        "city": "新竹县",
+        "evidence_ids": [
+          "geo-6731818449e6d92742505491"
+        ]
+      }
     },
     "dr-u-d7bd8c046038642ea250": {
       "geography_status": "unknown",
@@ -26312,10 +26647,51 @@
       "located_status": "unknown"
     },
     "dr-u-da1960db46dd791d58a2": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "台湾省 / 桃园市 / 大园区 / 三石里三和路28巷6号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-bb883f5ab961cc30797ae7bf"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "臻鼎科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-bb883f5ab961cc30797ae7bf",
+          "source_url": "https://www.zdtco.com/tw/about/group",
+          "checked_at": "2026-10-31T00:33:22.765392+00:00",
+          "subject": "臻鼎科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "台湾省",
+            "city": "桃园市",
+            "district": "大园区",
+            "address": "三石里三和路28巷6号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "台湾省",
+        "city": "桃园市",
+        "district": "大园区",
+        "evidence_ids": [
+          "geo-bb883f5ab961cc30797ae7bf"
+        ]
+      }
     },
     "dr-u-da2f0f03bc3a24f599ed": {
       "geography_status": "unknown",
@@ -54538,16 +54914,16 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "866c6e391dcbdca47fcdafdb942d0d16a59d20e21471b99dc4915d68a73f3437",
+  "history_version": "d325836c57be2946cfdf17a35b81efe4ec6947b56744c0326362084fde6afe11",
   "company_history_buckets": {
     "00": "1f5aa7c7f793139f189155c58225674cd002dde6c70870223a817483f356167e",
     "01": "69be9f66332416e05e3896febb6cf78debc3beda045479a130f85bd7e807f11a",
-    "02": "a7a0b0ca11ba46427ed970c700ac1ff8e387e9b71594bc69ed06076fd73f29ff",
+    "02": "23ca43ad29aa53e35ab9f3ec0b97048aeba4b804920d47e2ec167320c7b7df30",
     "03": "e25d0ef00d239cb950fe99286ec0a40416bcc251528157cb49c8f845213358f2",
     "04": "8f81caac0a2dc9f2ad9d75fd0c5529509e6563bb3fdbc1e4ae3441b8b1ac377b",
     "05": "8ca006bf38296967d655812f3ac581d6c4d45bd2213b6b24c80ddf790c667321",
     "06": "ada2ef9c6e62876524d39bdab0b2b64ea4e54a57312a2d52a4b6aba7a6f6d810",
-    "07": "123e3d3598adc4ba72eca3486dbdf669c3a4f32121aab1da21fe09d37cd3c504",
+    "07": "c2ef0e49c438e8a5800595b4f351cc127e398ef9581b2edcb3c0f2730719b877",
     "08": "6082996442d4637d7cdc47259c881e0c5970ed2cc0e756aaa423c0c50cef32ac",
     "09": "c089c56c3e9bc149620409a6c6066fe0bb4e7550a648a312cad87e130a2ecc1a",
     "0a": "6d2d016a870fb484ef07f7fd712f0e9248ef82554417db05faafd1c24f4c73ec",
@@ -54555,7 +54931,7 @@
     "0c": "7c7ef94f1731294f8cf9dc2927a7ffc64167158848601546fdc40bd9b5d1f71d",
     "0d": "718f5343f7b5b335a858c4d95751c15f9fc03817acf78200eeaadc463928061d",
     "0e": "c3c84cd52285ce2a3c28de83efdd1335ad7cedf111eaf22163dfcc6f7ed37003",
-    "0f": "7b98745a697b180a00f3ed9b29b70627c01dd8db9412fce158fec518af7cdb76",
+    "0f": "229a432a3afc4a4c23772516291b0be4a1ab561506c29f6787d0787642e44d28",
     "10": "3f378f406a75613134ae5b0552964e1e8763b6763e8655434408cea725c87e1f",
     "11": "a4e4faa29e82248f0cc0f009d4832b614e4e014374e634b73b4cca9cce1b12d8",
     "12": "a3abab61cd47aa2b296408253c8ac50f8400b35656a8cbdb2a8a1a76ba59959c",
@@ -54569,10 +54945,10 @@
     "1a": "7019ca2de51619c6c12960f1844debec9545f00cad51a3f4fdc46c88c97b5f00",
     "1b": "bc9b332a91a5403bea6b382bfa462cc79a34877433721362c52592322e6236ea",
     "1c": "fc8a106afa98642e510e7f048f05cae08a4166cbf2fd1c72eb895275b0253ae3",
-    "1d": "d486bd51938f1d09f181c6e4267c24571f009fe56067cb8ba59f6f2da2fa2454",
+    "1d": "42ad5f23563f9f8c681b76fdf7d9050dd3445585524874e1db929baace9209c6",
     "1e": "b96c475d3ec05a42705481a4718ca0f4336dd841ae6099d670534a4f65ad81df",
     "1f": "9c2dd5803082263cbd4b4f611a13e2b1bfca1da365f830f6f81b73f60d541de5",
-    "20": "1bfd9f17d1c766718ec6c3f583e9586207466508722dad3df8fb482a9676ee63",
+    "20": "465aab831f40536fdeb5004e4b77b8ffb65d9bb53299cc8d9c2397d0b7f7c72a",
     "21": "068e7498ca75a0e39dbc135a14aa083c93d1ac1bd4ca18d982595ba1c5967e9c",
     "22": "424ba455cd7c1ea855a8a81ca616b7da23c9c7a90c099d0b9164402ea34852d5",
     "23": "c1dd114d0099e5742ae28faebe0547518c3b1e75965dc333ec4485e954784f81",
@@ -54581,7 +54957,7 @@
     "26": "87ab1bf6a4b7caa47dd5940ef685f64d596399a204f2fc97197519f0739a1820",
     "27": "ef9e725691f05dd8eade02033cba5ee28a1cfffef90e3a7cf471802b2e4dee46",
     "28": "ef241d2ee307279de07a7bf210743b683473ed83b8cb26ef4eb69c506e23778f",
-    "29": "60bba029f5f6378787ce0029dffa5e536f0a457e295f0b6e79404c592b7a0303",
+    "29": "5b9261c77d910c95910102d1eefa4d833e116cf613727226b954feab93995d7a",
     "2a": "d80dd98a157e6dd17c5cbe7fca51e921017b0a1963d92660c413c4c53da2f5d5",
     "2b": "d1739688e259c835b199ae9cfcbfc027fac4668f0c8ac4d8ffcb348fd514ff00",
     "2c": "00d82ab12076010d1a8c0d7e3781882d8ce9e448285ee6fcac6f0715951c0690",
@@ -54598,14 +54974,14 @@
     "37": "45b7e6000e8a16606ec27a73f025e52d3928c64bd3c28eb3064fb48a7952808b",
     "38": "3331e3638ed6d66d66b66fc7c801b85bfaf686ac945c4aca4fab4376a0e238b7",
     "39": "eca3fc8e5dd16b7c0ccaf55beb19b1556c65f4a2ec82c1c179cdafb915be382a",
-    "3a": "2f3dc0d9e4479057d1e34e2525803e1e7ceb93eca00de3f0657348e856acc2f6",
+    "3a": "d2970650dc82b29c54ee86b066e3e3d15a42522d6cfbcaa15285a20f07e6d4d7",
     "3b": "dbd6fad699ff14764bf7b3805e0c436db9bd56dc32aafd59289ceac0ac13dbd0",
     "3c": "0405b5531c1ed1967946ee15d3ed7ef83d969e44ac51c8b5fe322e03e6f02d71",
     "3d": "90d4cadb72e255ba299b0aa7fa143a49b83d1797640702b9d05696e0a08110f2",
-    "3e": "09ee8c1278082b17ee3aeb08ca7e3133e834ff2ed94bd80b14fa65b505f86a07",
+    "3e": "e7e48ab1e5364d4840fc8765565574ebb5aab9b139586dba420b1ca72552e8f5",
     "3f": "09fdbfc0305e9e48bb2172c35b4231b956fd3b864f5cee51bb8ebfa5dad4f019"
   },
-  "history_search_version": "0dbbb2b28a70a4619dcdfb63035ed7bf108bc282f635480b7cdab178a72f5b31",
+  "history_search_version": "867adffefc642c88ed45b868240257724d10c1459b080e6d1cb5c3230a432a5a",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",

@@ -1339,16 +1339,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/liOIIK7NR1XDYqhuiy9LuA",
       "sector": "PCB上游材料",
-      "location": "地点待核",
+      "location": "台湾省 / 新竹县 / 新埔镇内立里大鲁阁路17号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "台湾省 / 新竹县 / 新埔镇内立里大鲁阁路17号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-6731818449e6d92742505491"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "联茂电子",
         "subject_locality": {
           "status": "unknown",
@@ -1356,7 +1358,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-6731818449e6d92742505491",
+            "source_url": "https://www.iteqcorp.com/about-cn/worldwide/?lang=zh-hans",
+            "checked_at": "2026-10-31T00:32:49.634135+00:00",
+            "subject": "联茂电子",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "台湾省",
+              "city": "新竹县",
+              "address": "新埔镇内立里大鲁阁路17号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "台湾省",
+          "city": "新竹县",
+          "evidence_ids": [
+            "geo-6731818449e6d92742505491"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",

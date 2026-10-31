@@ -3581,16 +3581,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/u1AiOkLJ5GoDNv2FrJapJw",
       "sector": "运动科技与体育数字化服务",
-      "location": "地点线索：运营总部及办公地：杭州市上城区闸弄口街道；原文未披露工商注册地。",
+      "location": "浙江省 / 杭州市 / 上城区 / 闸弄口街道",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 上城区 / 闸弄口街道",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-1f3843e831ff92180fa30fd8"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "闪动",
         "subject_locality": {
           "status": "unknown",
@@ -3598,7 +3600,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-1f3843e831ff92180fa30fd8",
+            "source_url": "https://mp.weixin.qq.com/s/u1AiOkLJ5GoDNv2FrJapJw",
+            "checked_at": "2026-10-29T22:31:14+00:00",
+            "subject": "闪动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "上城区",
+              "address": "闸弄口街道"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "上城区",
+          "evidence_ids": [
+            "geo-1f3843e831ff92180fa30fd8"
+          ]
+        }
       },
       "article_location": "运营总部及办公地：杭州市上城区闸弄口街道；原文未披露工商注册地。",
       "source": "涌金楼",
