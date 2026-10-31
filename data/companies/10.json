@@ -247,16 +247,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/97pvv0Xjt01xwCY1hjqT8w",
       "sector": "AI硬件、睡眠健康、大健康",
-      "location": "地点待核",
+      "location": "北京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d4cfad6259c76bb5fd477916"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "今日宜休",
         "subject_locality": {
           "status": "unknown",
@@ -264,7 +266,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d4cfad6259c76bb5fd477916",
+            "source_url": "https://www.stcn.com/article/detail/3601818.html",
+            "checked_at": "2026-10-31T18:19:24.227194+00:00",
+            "subject": "今日宜休",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-d4cfad6259c76bb5fd477916"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",
@@ -281,6 +307,101 @@
       "event_headline": "今日宜休累计融资上亿元，计划2至3年内推出相关硬件",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "王腾创立的今日宜休在首场发布会上推出智能健康戒指ISHO Ring与智能温控床笠ISHO iFlow，均设标准版和Pro版。戒指集成生理与环境光传感器，支持端侧模型处理生理信号，标准版售价1799元，Pro版2199元。文章后文称戒指已开启预定，11月11日起陆续发货，与前文“现已正式开售”的表述存在差异。iFlow通过水循环和半导体温控实现双人独立分区调温，并配备无感心率、呼吸与体动监测；标准版售价9999元，Pro版12999元起，已开启预定，预计12月起陆续交付。自研生理信号大模型将监测数据转化为精力评分和作息建议。",
+      "article_title": "王腾离职小米后，最新交卷「AI睡眠」",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/_Tfrl2gQhpnl_FzkOkjTYA",
+      "sector": "智能穿戴与睡眠健康科技",
+      "location": "北京市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d4cfad6259c76bb5fd477916"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "今日宜休",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-d4cfad6259c76bb5fd477916",
+            "source_url": "https://www.stcn.com/article/detail/3601818.html",
+            "checked_at": "2026-10-31T18:19:24.227194+00:00",
+            "subject": "今日宜休",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-d4cfad6259c76bb5fd477916"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "今日宜休",
+      "company_entity_id": "dr-u-141cf506ecad67b9ed43",
+      "company_raw_name": "今日宜休",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "今日宜休",
+          "relation": "same_entity",
+          "evidence": "王腾创立的今日宜休换了个解法，直接转向主动干预。"
+        },
+        {
+          "name": "ISHO Ring",
+          "relation": "product",
+          "evidence": "在首场发布会上，今日宜休正式端出了两款硬件，包括智能健康戒指ISHO Ring，以及能自动调节温度的水暖床笠iFlow。"
+        },
+        {
+          "name": "ISHO iFlow",
+          "relation": "product",
+          "evidence": "今日宜休端出的ISHO iFlow智能温控系统，正是负责在物理层面落地这套干预的载体。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "历史is_national_star为标签而非独立资格论证；本次新品和公司公布的对比测试不足以建立全国行业标杆地位。本裁决不批量改写历史标签。",
+        "evidence_ids": [
+          "accepted_history:18cc068619aec8d7",
+          "article:83c329dcfd46f51d"
+        ]
+      },
+      "published_date": "2026-10-30",
+      "insight": "今日宜休把产品从睡眠数据记录延伸到床面温度控制：戒指和床笠分别承担感知与物理调节，使作息建议之外多了可执行的环境干预手段。双人独立分区对应伴侣冷热偏好不同的具体需求，但动态调温能否稳定改善睡眠，仍需实际使用或对照测试结果回答。",
+      "financing": "文章称高瓴创投、云九资本、智元机器人和喜临门已注资，未披露融资轮次、金额及具体时间。",
+      "event_date": "",
+      "event_headline": "今日宜休发布智能戒指与温控床笠，布局睡眠监测和主动调温",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "杭州科漫智能科技有限公司": [
