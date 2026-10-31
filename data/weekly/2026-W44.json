@@ -5,12 +5,12 @@
   "start_date": "2026-10-26",
   "end_date": "2026-11-01",
   "summary": {
-    "total_companies": 150,
-    "financing_events": 35,
+    "total_companies": 171,
+    "financing_events": 41,
     "ipo_events": 2,
-    "milestone_events": 43,
+    "milestone_events": 49,
     "negative_events": 0,
-    "active_days": 6
+    "active_days": 7
   },
   "top10": [
     {
@@ -927,6 +927,317 @@
       }
     },
     {
+      "company_raw_name": "DeepSeek",
+      "identity_mentions": [
+        {
+          "name": "V4.1 Flash",
+          "relation": "product",
+          "evidence": "技术效率的提升为这种平衡创造了条件，9 月发布 V4.1 Flash 时，DeepSeek 明确将 API 降价与新架构带来的成本下降联系起来。"
+        }
+      ],
+      "title": "给智能定价：DeepSeek、Kimi 和中国 AI 公司的不同选择",
+      "company": "DeepSeek",
+      "score": 100,
+      "sector": "人工智能大模型与推理服务",
+      "financing": "",
+      "source": "晚点 LatePost",
+      "location": "浙江省 / 杭州市",
+      "article_location": "浙江省杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_status": "confirmed",
+      "event_type": "技术更新",
+      "link": "https://mp.weixin.qq.com/s/t2bB_Mlc4BJYLGgXf5D4Ag",
+      "article_title": "给智能定价：DeepSeek、Kimi 和中国 AI 公司的不同选择",
+      "event_desc": "晚点LatePost回顾称，DeepSeek在2026年9月发布V4.1 Flash时表示，新架构将KV Cache对高带宽显存的需求降至上一代四分之一、对SSD的需求降至八分之一，随后下调缓存命中与输出token价格。文章另称，8月引入的峰谷定价在9月降价后继续保留，闲时调用价格为高峰时段的一半。",
+      "insight": "DeepSeek的缓存压缩与峰谷定价分别作用于单位推理资源和设备利用率：前者为API降价提供空间，后者把部分调用引向闲时。对杭州模型服务企业的参照价值，是把资源效率、任务总成本与调用时段一并研究，而不是只比较token单价；第三方能否复制其成本结构，取决于真实负载下的推理优化。",
+      "event_headline": "报道补充DeepSeek缓存资源压缩与API峰谷定价机制",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-30",
+        "event_date": null,
+        "observed_date": "2026-10-30",
+        "review_required": true
+      },
+      "published_date": "2026-10-30",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "继承DeepSeek已确认别名、稳定企业主体及政府杭州总部证据。正文具体补充V4.1 Flash架构降低KV Cache显存与SSD需求、相应API降价及峰谷定价安排，具有技术资源效率如何传导到服务定价的产业价值，不是仅凭大模型身份或一般价格新闻采信。原始新闻发布时间2026-10-30T15:51:00Z已提供，满足七天窗口；9月事件不因发生较早被排除。既有历史已覆盖API调价、V4.1-Flash-1017发布及DeepInfer开源，不能再次报为模型首发。本篇所述显存需求降至上一代四分之一、SSD需求降至八分之一及闲时半价机制未在可见旧事件中具体覆盖，仅保留这些机制信息的增量。资源改善为正文转述的公司主张，不视为独立实测或普遍部署收益。当前历史检索错误列表为空，不把旧裁决中的归一化异常冒充本轮错误，也不宣称全局首次。此前模型转载、故障回顾的排除和融资、具身传闻待核均不因此改判。 定向文字修复：去除公开事实摘要中的内部收录说明，保留9月资源需求与8月峰谷机制的来源、时期和原始比例。 定向文字修复：已复读完整晚点正文，恢复缓存资源、成本和定价机制主线，将“报道新增辨别信息”等审阅口吻移出正文；不引入毛利推算。",
+      "event_headline_source": "627aed0c7b7a361fab22a99eaa1a952b9128ae9b9a2b288c8b44be0abf257567",
+      "event_identity": {
+        "canonical_id": "据文章报道，DeepSeek于9月发布V4.1 Flash，新架构将KV Cache对高带宽显存的需求降至上一代的四分之一，对SSD的需求降至八分之一，随后下调缓存命中和输出token价格，并保留8月引入的峰谷定价机制，闲时调用价格为高峰时段的一半。"
+      },
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "复用既有模型和推理框架事件尚未建立独立标杆资格的边界。本篇提供公司资源效率主张及商业机制分析，但没有同条件第三方部署验证或竞争优势比较，不足以改变资格结论，不影响本条增量保留。",
+        "evidence_ids": [
+          "article:a901e2d36a06d890",
+          "prior_decision:57fb9024d657db8d",
+          "prior_decision:4aa55ed3d77695df"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent + overnight targeted semantic/editorial review",
+        "candidate_id": "86f760bed8c72450ecc59ea258ed3743086b15aa76119678322c3004e17de5b6",
+        "input_row_sha256": "32b4d764ac9ebf08b724b9b740fe73f3e4b1166330cdc8250f613882ef5d01d8",
+        "reason": "继承DeepSeek已确认别名、稳定企业主体及政府杭州总部证据。正文具体补充V4.1 Flash架构降低KV Cache显存与SSD需求、相应API降价及峰谷定价安排，具有技术资源效率如何传导到服务定价的产业价值，不是仅凭大模型身份或一般价格新闻采信。原始新闻发布时间2026-10-30T15:51:00Z已提供，满足七天窗口；9月事件不因发生较早被排除。既有历史已覆盖API调价、V4.1-Flash-1017发布及DeepInfer开源，不能再次报为模型首发。本篇所述显存需求降至上一代四分之一、SSD需求降至八分之一及闲时半价机制未在可见旧事件中具体覆盖，仅保留这些机制信息的增量。资源改善为正文转述的公司主张，不视为独立实测或普遍部署收益。当前历史检索错误列表为空，不把旧裁决中的归一化异常冒充本轮错误，也不宣称全局首次。此前模型转载、故障回顾的排除和融资、具身传闻待核均不因此改判。 定向文字修复：去除公开事实摘要中的内部收录说明，保留9月资源需求与8月峰谷机制的来源、时期和原始比例。 定向文字修复：已复读完整晚点正文，恢复缓存资源、成本和定价机制主线，将“报道新增辨别信息”等审阅口吻移出正文；不引入毛利推算。",
+        "scope": {
+          "technology_evidence": "正文称9月发布V4.1 Flash时，公司表示新架构将KV Cache对高带宽显存的需求降至上一代四分之一、对SSD的需求降至八分之一，随后下调缓存命中与输出token价格；8月引入闲时调用价格为高峰一半的峰谷定价，9月降价后继续保留。",
+          "value_reason": "缓存资源压缩和峰谷定价分别作用于推理资源需求及调用时段分布，提供了区分工程效率驱动降价与单纯补贴获客的具体观察依据。杭州模型服务及部署企业应优先比较目标负载下的资源占用、任务总成本和调度弹性，而非只比token标价；文中未证明第三方能复制官方成本或盈利水平。"
+        },
+        "stage": {
+          "status": "既有模型及定价安排的机制补充报道；资源改善为公司主张",
+          "reason": "正文回顾9月模型发布和降价、8月引入且9月保留的峰谷定价，不是10月30日新发布。模型及降价事件时间可确认至2026年9月，峰谷定价引入至2026年8月，精确日期未知；新闻发布于2026-10-30，首次收录精确时间未提供。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:ab35174737471b6e",
+            "accepted_history:1b38ae9436891b28",
+            "accepted_history:dd902924f16a8cd7",
+            "accepted_history:450a9e200a518780",
+            "accepted_history:0059924beb11e32d",
+            "accepted_history:85a2a890a7b60d46",
+            "prior_decision:32fffa5346c94646",
+            "prior_decision:80ae9a27f89f46e1",
+            "prior_decision:32e66738fb3c21d7"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:eb039cfd8aedceee",
+              "comparison": "different_event",
+              "reason": "旧项为Harness桌面预览版，当前为缓存资源效率及API定价机制。"
+            },
+            {
+              "evidence_id": "prior_decision:1615af08ab103075",
+              "comparison": "different_event",
+              "reason": "同为Harness桌面功能裁决，不覆盖本篇缓存资源比例和峰谷定价细节。"
+            },
+            {
+              "evidence_id": "prior_decision:b1dc62a56ac9b5f3",
+              "comparison": "different_event",
+              "reason": "旧项为DSec训练沙盒资源超卖和扩容计划，不能与推理缓存资源压缩混为一事。"
+            },
+            {
+              "evidence_id": "prior_decision:f819bbdc17ee0dd2",
+              "comparison": "different_event",
+              "reason": "旧待核针对用户API输出变化测试，当前资源需求及定价报道不能证明旧测试的版本归属或能力提升。"
+            },
+            {
+              "evidence_id": "prior_decision:bc6361c05673a7de",
+              "comparison": "different_event",
+              "reason": "旧待核缺少受控重复测试；本篇不补足该缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:8cfeb09ee9b172af",
+              "comparison": "new_progress",
+              "reason": "旧项覆盖10月模型快照、Harness优化及Search/Fetch开放；本篇补充9月架构的具体缓存资源比例和定价安排，不重报该快照发布。"
+            },
+            {
+              "evidence_id": "prior_decision:a897e773152eb732",
+              "comparison": "different_event",
+              "reason": "旧项为API故障早期待核；本篇不提供故障原因或整改结果，其后补证采信保持不变。"
+            },
+            {
+              "evidence_id": "prior_decision:32fffa5346c94646",
+              "comparison": "new_progress",
+              "reason": "旧排除针对V4.1-Flash-1017发布及完整项目编程的重复报道。本篇新增缓存显存和SSD需求比例、峰谷价格机制，不复活旧重复项，仅保留机制增量。"
+            },
+            {
+              "evidence_id": "prior_decision:c38644cdf44cae91",
+              "comparison": "new_progress",
+              "reason": "旧项为DeepInfer及编解码组件开源，涉及推理工程但未覆盖本篇具体缓存资源比例和峰谷定价；开源事实不再重复。"
+            },
+            {
+              "evidence_id": "prior_decision:77ddf8465c2f3036",
+              "comparison": "new_progress",
+              "reason": "同一组件开源裁决未记录本篇资源压缩与价格调整的具体联系，只补充该信息，不新增一次开源事件。"
+            },
+            {
+              "evidence_id": "prior_decision:b64ef1f3c11914f8",
+              "comparison": "different_event",
+              "reason": "旧项为对外开放登记及海外授权手续，非推理资源及API定价。"
+            },
+            {
+              "evidence_id": "prior_decision:5a53ce1fecb3521a",
+              "comparison": "different_event",
+              "reason": "旧待核为具身模型研发传闻，本篇不能确认具身研发已启动。"
+            },
+            {
+              "evidence_id": "prior_decision:0ef7955f91d699c6",
+              "comparison": "different_event",
+              "reason": "旧待核涉及第二轮融资交割及横店认购份额，本篇不能证明交割或资金到账。"
+            },
+            {
+              "evidence_id": "prior_decision:46776f9106043202",
+              "comparison": "different_event",
+              "reason": "旧项为乌兰察布数据中心规划；本篇资源效率报道不证明项目建设、采购或资金落实。"
+            },
+            {
+              "evidence_id": "prior_decision:e4762b303f8d53bf",
+              "comparison": "different_event",
+              "reason": "同为算力建设规划裁决，与本篇软件架构及定价机制不同。"
+            },
+            {
+              "evidence_id": "prior_decision:b13f1232e1b4e9fc",
+              "comparison": "different_event",
+              "reason": "旧待核针对数据中心芯片型号及采购报价，本篇没有采购或建设补证。"
+            },
+            {
+              "evidence_id": "prior_decision:cee8b3a460f77934",
+              "comparison": "different_event",
+              "reason": "旧待核仍为未经确认的API输出变化，本篇不能反向确认10月12日模型更新。"
+            },
+            {
+              "evidence_id": "prior_decision:ffec7539db669705",
+              "comparison": "different_event",
+              "reason": "旧待核为拟融资轮次与金额口径，本篇不提供资本交易增量。"
+            },
+            {
+              "evidence_id": "prior_decision:57fb9024d657db8d",
+              "comparison": "new_progress",
+              "reason": "旧补证采信模型快照及工具链发布；本篇新增缓存显存、SSD需求比例及峰谷定价细节，非再次认定模型首发。"
+            },
+            {
+              "evidence_id": "prior_decision:45ea26fb925b103f",
+              "comparison": "different_event",
+              "reason": "旧项为已确认杭州主体的API故障预警，效率改善和降价不证明故障已解决。"
+            },
+            {
+              "evidence_id": "prior_decision:c6611f3e33126b7b",
+              "comparison": "different_event",
+              "reason": "旧待核为拟领投Winverse及跨主体同笔融资去重，本篇不提供投资落地或独立研发节点。"
+            },
+            {
+              "evidence_id": "prior_decision:80ae9a27f89f46e1",
+              "comparison": "new_progress",
+              "reason": "旧排除同样针对模型快照重复发布，本篇机制信息不在其已覆盖内容中；原转载排除继续有效。"
+            },
+            {
+              "evidence_id": "prior_decision:4aa55ed3d77695df",
+              "comparison": "new_progress",
+              "reason": "旧开源事件提供推理优化背景，但未覆盖本篇资源需求比例和闲时半价机制，仅保留这些补充。"
+            },
+            {
+              "evidence_id": "prior_decision:32e66738fb3c21d7",
+              "comparison": "different_event",
+              "reason": "旧排除为同次API故障及补偿的重复回顾，本篇不是故障报道，不撤销旧去重或既有预警。"
+            },
+            {
+              "evidence_id": "prior_decision:e1d1e61ae0a707e5",
+              "comparison": "different_event",
+              "reason": "旧待核为自建具身团队或对外投资考虑，本篇没有团队、产品或交易补证。"
+            },
+            {
+              "evidence_id": "prior_decision:48d4e864b7d42942",
+              "comparison": "different_event",
+              "reason": "旧项为登记、开源及海外授权实施手续，不与本篇API定价按开源或模型共词合并。"
+            },
+            {
+              "evidence_id": "prior_decision:93f8e0bc2b8f91a0",
+              "comparison": "different_event",
+              "reason": "旧具身研发传闻待核不因本篇推理效率报道而解除。"
+            },
+            {
+              "evidence_id": "prior_decision:7e394b4f7f40d077",
+              "comparison": "different_event",
+              "reason": "旧融资交割及资方份额待核，与缓存资源及价格机制不同，保持原结论。"
+            }
+          ],
+          "change_reason": "5月历史主要记录缓存命中价格下调，9月历史记录API调价与收入，10月模型快照及推理框架历史记录产品和工程能力；当前全文具体增加缓存显存需求为上一代四分之一、SSD需求为八分之一，以及闲时半价在9月降价后保留的信息。仅将这些内容作为既有产品商业化机制的新增披露，不把分析文章日期当产品发布日期，不推翻模型转载排除或其他事件待核。",
+          "new_evidence_ids": [
+            "article:a901e2d36a06d890"
+          ]
+        },
+        "evidence_ids": [
+          "article:a901e2d36a06d890",
+          "identity_registry:2dcd4f408df25406",
+          "geo-8d153ebc1f63d3a87bb41366",
+          "history_lookup:ab35174737471b6e",
+          "accepted_history:0059924beb11e32d",
+          "accepted_history:85a2a890a7b60d46",
+          "prior_decision:32fffa5346c94646",
+          "prior_decision:80ae9a27f89f46e1",
+          "prior_decision:32e66738fb3c21d7"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "复用既有模型和推理框架事件尚未建立独立标杆资格的边界。本篇提供公司资源效率主张及商业机制分析，但没有同条件第三方部署验证或竞争优势比较，不足以改变资格结论，不影响本条增量保留。",
+          "evidence_ids": [
+            "article:a901e2d36a06d890",
+            "prior_decision:57fb9024d657db8d",
+            "prior_decision:4aa55ed3d77695df"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "杭州低空产业发展有限公司",
       "selection_recommendation": "keep",
       "selection_reason": "所供正文明确杭州低空产业发展有限公司牵头打造低空飞友圈，两家商业综合体加入，其负责人介绍云驿服务范围；同时记载城北万象低空云驿启用及商场间配送飞行，支持该公司参与配送网络商业场景拓展，不只是出席授牌。不能进一步认定其是本次飞行的承运法人或无人机制造商。相比既有玉湖至申花航线、余杭公共起降场及吴山咖啡配送，本次新增城北万象商业节点启用和商业综合体接入，具有具体应用增量，保留为杭州正面日报线索。新闻发布于2026-10-28，正文10月27日对应2026-10-27；系统首次收录时间未知。所供文本不是完整全文。历史检索存在制品缺失或变化，不能宣称完整去重，但不妨碍基于已展示历史识别本次不同节点的进展。",
@@ -1467,244 +1778,6 @@
           ]
         }
       }
-    },
-    {
-      "company_raw_name": "台积电",
-      "identity_mentions": [
-        {
-          "name": "TSMC",
-          "relation": "same_entity",
-          "evidence": "台积电（TSMC）"
-        }
-      ],
-      "title": "1nm后的晶体管，四强争霸！",
-      "company": "台积电",
-      "score": 70,
-      "sector": "半导体先进逻辑制造",
-      "financing": "",
-      "source": "半导体行业观察",
-      "location": "TW / 新竹市 / 新竹科学园区力行六路8号",
-      "article_location": "",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "TW / 新竹市 / 新竹科学园区力行六路8号",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-28a1d8bb9a543314b90c8131"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "台积电",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-28a1d8bb9a543314b90c8131",
-            "source_url": "https://www.sipa.gov.tw/home.jsp?serno=201002010011&mserno=201002010011&menudata=chinesemenu&contlink=ap%2Fmanufacturers_1_3_view.jsp&level2=Y&dataserno=A0098&stype=C&qsipa=01",
-            "checked_at": "2026-10-20T02:23:25.943729+00:00",
-            "subject": "台积电",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "TW",
-              "city": "新竹市",
-              "address": "新竹科学园区力行六路8号"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "TW",
-          "city": "新竹市",
-          "evidence_ids": [
-            "geo-28a1d8bb9a543314b90c8131"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-7ad9114a6ee73402a554",
-      "company_canonical_name": "台积电",
-      "identity_status": "unresolved",
-      "event_type": "技术突破",
-      "link": "https://mp.weixin.qq.com/s/Bl1zkKU4knHK_L5dLqJ94w",
-      "article_title": "1nm后的晶体管，四强争霸！",
-      "event_desc": "文章回顾，台积电在2024年IEDM展示其所称的首个功能完整CFET反相器，采用单片集成工艺，栅极间距为48纳米。文章称器件在最高1.2伏电压下呈现均衡的电压传输特性，n型和p型器件的亚阈值摆幅均在74—76 mV/decade范围内。",
-      "insight": "台积电的这项成果把上下堆叠的晶体管接成能够完成逻辑翻转的反相器，比单独展示器件更进一步回答了两类晶体管能否协同工作的问题。电压传输和开关特性是这一判断的依据。这一2024年的研究节点提供了电路级验证参照：后续技术演进不仅要压缩单个器件占地，还要让互补器件在堆叠后稳定协同。",
-      "event_headline": "台积电2024年CFET反相器成果获回顾",
-      "event_signal": "context",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-25",
-        "event_date": null,
-        "observed_date": "2026-10-25",
-        "review_required": true
-      },
-      "published_date": "2026-10-25",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "完整正文明确台积电为2024年IEDM单片集成CFET反相器的研发展示方，提供48纳米栅极间距、最高1.2伏电压及74—76 mV/decade亚阈值摆幅等电路事实，足以形成既有技术发现与产业对标线索。文章2026-10-25发布符合七天窗口，不能因成果发生于2024年而剔除，也不能包装为2026年新突破。所给八条收录历史及全部旧裁决分别涉及制程规划、项目审批、封装应用和扩产，未见同一CFET反相器事件。复用政府名录所证新竹经营地，仅用于正面发现展示，不将其改成已核注册地或总部。",
-      "event_headline_source": "f5e8d1c35d7c8bb54b1310d5edfdfe245a5a88b37e98c7f9f045b2b31e633bc3",
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-28a1d8bb9a543314b90c8131",
-          "source_url": "https://www.sipa.gov.tw/home.jsp?serno=201002010011&mserno=201002010011&menudata=chinesemenu&contlink=ap%2Fmanufacturers_1_3_view.jsp&level2=Y&dataserno=A0098&stype=C&qsipa=01",
-          "checked_at": "2026-10-20T02:23:25.943729+00:00",
-          "subject": "台积电",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "TW",
-            "city": "新竹市",
-            "address": "新竹科学园区力行六路8号"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "已审历史未建立独立全国标杆资格，本条增加的是具体研究电路对标依据，未补足资格证据；不以旧is_national_star、评分或企业规模授标。",
-        "evidence_ids": [
-          "prior_decision:bf5fd0072d3302fa",
-          "article:d04f7eedca0e95c3"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "quality_inspector Agent + overnight-current-model directed review",
-        "candidate_id": "7e9e2a95323f1b99fc82250f9d44cdb2ea5f9a7c56f080be7bf2540a63b4d5f5",
-        "input_row_sha256": "8459019038b326727c2477d0a73f398c07e4ababdbd395ebb9f988ecf7fb1690",
-        "reason": "完整正文明确台积电为2024年IEDM单片集成CFET反相器的研发展示方，提供48纳米栅极间距、最高1.2伏电压及74—76 mV/decade亚阈值摆幅等电路事实，足以形成既有技术发现与产业对标线索。文章2026-10-25发布符合七天窗口，不能因成果发生于2024年而剔除，也不能包装为2026年新突破。所给八条收录历史及全部旧裁决分别涉及制程规划、项目审批、封装应用和扩产，未见同一CFET反相器事件。复用政府名录所证新竹经营地，仅用于正面发现展示，不将其改成已核注册地或总部。",
-        "scope": {
-          "technology_evidence": "正文“进展报告：IEDM 2024”段称台积电展示其所称首个功能完整CFET反相器，采用单片集成、48纳米栅极间距，在最高1.2伏下呈现均衡电压传输特性，n型和p型器件亚阈值摆幅为74—76 mV/decade。",
-          "value_reason": "相较孤立堆叠器件，反相器展示提供上下层互补晶体管能够协同完成逻辑功能的具体电学依据，可作为杭州先进器件与工艺研究的功能验证对照。该成果不能证明量产良率、经济性或商业交付，也不能与CoWoS封装应用混为同一技术进展。"
-        },
-        "stage": {
-          "status": "2024年研究电路成果的近期回顾",
-          "reason": "正文明确成果属于2024年IEDM，精确发生日未给；2026-10-25T01:24:00Z是本篇新闻发布时间，不是成果发布日。本条首次收录时间未知，不将可运作研究电路写成量产。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:cdbd90060695895b",
-            "accepted_history:35af08e13e28a66f",
-            "accepted_history:1bd1471abdfdc638",
-            "accepted_history:f390008cb8d8056a",
-            "accepted_history:f37c0ae3abc435dc",
-            "accepted_history:3e5931ca735e1210",
-            "accepted_history:c09f86f091084d8b",
-            "accepted_history:762a3ac8e3608c09",
-            "accepted_history:2097b6ffd0db583b",
-            "prior_decision:110a76ec798da8e7",
-            "prior_decision:31dbb6f1d45de0f2",
-            "prior_decision:05593dd306c9b99e",
-            "prior_decision:c6ca88ed79d3c51c",
-            "prior_decision:bf5fd0072d3302fa",
-            "prior_decision:3467afbf9853c9a9",
-            "prior_decision:1d1ee16928db4d86",
-            "prior_decision:6b2051552241ed4c",
-            "prior_decision:6be8c4c6b0f8d55d",
-            "prior_decision:11cb752ba3c49674"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:110a76ec798da8e7",
-              "comparison": "different_event",
-              "reason": "此前watch针对CoWoS-L局部硅桥接用于Blackwell的封装应用及地点缺口，不是2024年CFET反相器。"
-            },
-            {
-              "evidence_id": "prior_decision:31dbb6f1d45de0f2",
-              "comparison": "different_event",
-              "reason": "旧keep针对N2产能规划、台南新增3纳米工厂及设备转换，不包含本条研究电路。"
-            },
-            {
-              "evidence_id": "prior_decision:05593dd306c9b99e",
-              "comparison": "different_event",
-              "reason": "旧keep针对2026年CoWoS产能增长逾60%的目标，与CFET器件研发不同。"
-            },
-            {
-              "evidence_id": "prior_decision:c6ca88ed79d3c51c",
-              "comparison": "different_event",
-              "reason": "旧keep针对熊本工厂生产计划获日本主管部门批准及补助对象认定，不是CFET反相器。"
-            },
-            {
-              "evidence_id": "prior_decision:bf5fd0072d3302fa",
-              "comparison": "different_event",
-              "reason": "此改判keep仍针对CoWoS-L的Blackwell应用，不能自动批准或去重本条CFET研究。"
-            },
-            {
-              "evidence_id": "prior_decision:3467afbf9853c9a9",
-              "comparison": "different_event",
-              "reason": "此记录重复N2及台南3纳米扩产裁决，与2024年研究反相器不同。"
-            },
-            {
-              "evidence_id": "prior_decision:1d1ee16928db4d86",
-              "comparison": "different_event",
-              "reason": "此记录仍为CoWoS年度扩产目标裁决，不是本条CFET功能电路。"
-            },
-            {
-              "evidence_id": "prior_decision:6b2051552241ed4c",
-              "comparison": "different_event",
-              "reason": "此记录仍为N2及台南3纳米制造供给披露，不涉及本条2024年CFET反相器。"
-            },
-            {
-              "evidence_id": "prior_decision:6be8c4c6b0f8d55d",
-              "comparison": "different_event",
-              "reason": "此记录仍为CoWoS产能增长目标，与单片集成CFET研究没有同事件关系。"
-            },
-            {
-              "evidence_id": "prior_decision:11cb752ba3c49674",
-              "comparison": "different_event",
-              "reason": "此记录仍为熊本工厂审批事件，不构成本条研究成果的历史裁决。"
-            }
-          ],
-          "change_reason": "4月2日为JASM投资变更；4月18日和19日为A14及亚1纳米工艺规划；4月28日为CoPoS、CoWoP封装规划；10月15日为CoWoS-L客户应用；10月16日两项分别为N2与台南扩产披露、CoWoS年度目标；10月19日为熊本审批。八项均未记录2024年48纳米CFET反相器及其电学表现，旧裁决亦均针对这些其他事件。本条是在所给历史范围内不同的技术事件，不代表成果最近发生或全库首次收录。",
-          "new_evidence_ids": [
-            "article:d04f7eedca0e95c3"
-          ]
-        },
-        "evidence_ids": [
-          "article:d04f7eedca0e95c3",
-          "geo-28a1d8bb9a543314b90c8131",
-          "history_lookup:cdbd90060695895b",
-          "accepted_history:35af08e13e28a66f",
-          "accepted_history:1bd1471abdfdc638",
-          "accepted_history:f390008cb8d8056a",
-          "accepted_history:f37c0ae3abc435dc",
-          "accepted_history:3e5931ca735e1210",
-          "accepted_history:c09f86f091084d8b",
-          "accepted_history:762a3ac8e3608c09",
-          "accepted_history:2097b6ffd0db583b",
-          "prior_decision:110a76ec798da8e7",
-          "prior_decision:31dbb6f1d45de0f2",
-          "prior_decision:05593dd306c9b99e",
-          "prior_decision:c6ca88ed79d3c51c",
-          "prior_decision:bf5fd0072d3302fa",
-          "prior_decision:3467afbf9853c9a9",
-          "prior_decision:1d1ee16928db4d86",
-          "prior_decision:6b2051552241ed4c",
-          "prior_decision:6be8c4c6b0f8d55d",
-          "prior_decision:11cb752ba3c49674"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "已审历史未建立独立全国标杆资格，本条增加的是具体研究电路对标依据，未补足资格证据；不以旧is_national_star、评分或企业规模授标。",
-          "evidence_ids": [
-            "prior_decision:bf5fd0072d3302fa",
-            "article:d04f7eedca0e95c3"
-          ]
-        }
-      }
     }
   ],
   "negatives": [],
@@ -1827,7 +1900,7 @@
     "智能家居与安防": 1,
     "网络通信设备": 1,
     "非金属智能切割装备、工业人工智能": 1,
-    "具身智能／机器人基础模型": 1,
+    "具身智能／机器人基础模型": 2,
     "半导体先进制程与晶圆代工": 1,
     "半导体／三维集成电路设计自动化与先进封装": 1,
     "半导体／AI推理芯片": 1,
@@ -1844,7 +1917,27 @@
     "数据中心网络与共封装光学": 1,
     "AI计算光互连": 1,
     "硅光芯片与光互连": 1,
-    "半导体测试设备": 1
+    "半导体测试设备": 1,
+    "AI驱动的机器人装配与制造服务": 1,
+    "AI健康咨询": 1,
+    "半导体／智能手机芯片": 1,
+    "AI企业服务／研发管理与财税合规": 1,
+    "动力电池与换电能源服务": 1,
+    "企业级人工智能／智能体开发平台": 1,
+    "智能穿戴与睡眠健康科技": 1,
+    "工业巡检机器人": 1,
+    "防爆巡检机器人": 1,
+    "高空作业与船舶维保机器人": 1,
+    "水下机器人与水下设施检测": 1,
+    "人工智能／企业级模型服务": 1,
+    "光电子芯片／光互连": 1,
+    "电子游戏／高规格单机游戏": 1,
+    "人工智能大模型与推理服务": 1,
+    "AI智能眼镜与可穿戴人机交互": 1,
+    "先进金属材料与增材制造": 1,
+    "人工智能基础设施与具身智能": 1,
+    "智能影像设备与消费级无人机": 1,
+    "神经接口与智能假肢": 1
   },
   "daily_details": {
     "2026-10-26": {
@@ -1870,7 +1963,11 @@
     "2026-10-31": {
       "count": 43,
       "negatives": 0
+    },
+    "2026-11-01": {
+      "count": 21,
+      "negatives": 0
     }
   },
-  "created": "2026-10-31 03:03:08"
+  "created": "2026-11-01 02:48:46"
 }
