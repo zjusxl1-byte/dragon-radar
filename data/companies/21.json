@@ -1525,24 +1525,59 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Gef3VAGCYuFsjsMJIjNcaA",
       "sector": "硅光代工与光调制器",
-      "location": "地点线索：新加坡（正文明确的晶圆厂经营地，不代表注册地或总部）",
+      "location": "台湾省 / 新竹市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "台湾省 / 新竹市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-103e1632c41f9e44f0730a09"
+        ],
+        "subject_evidence_ids": [
+          "geo-103e1632c41f9e44f0730a09"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "联电",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "台湾省",
+          "city": "新竹市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-103e1632c41f9e44f0730a09"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-103e1632c41f9e44f0730a09",
+            "source_url": "https://www.prnewswire.com/news-releases/umc-and-ap-memory-collaborate-to-enable-advanced-power-delivery-solutions-for-ai-and-hpc-systems-302916408.html",
+            "checked_at": "2026-10-31T18:20:54.888030+00:00",
+            "subject": "联电",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "台湾省",
+              "city": "新竹市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "台湾省",
+          "city": "新竹市",
+          "evidence_ids": [
+            "geo-103e1632c41f9e44f0730a09"
+          ]
+        }
       },
       "article_location": "新加坡（正文明确的晶圆厂经营地，不代表注册地或总部）",
       "source": "半导体行业观察",
