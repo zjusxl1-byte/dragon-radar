@@ -135,16 +135,19 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/eGfJv_BVvdlipbbMV_cp-A",
       "sector": "工业自动化/机器人",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-181602a7901b789c2cf574c1",
+          "geo-ece7d930f277fb57ae05341f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "云深处科技",
         "subject_locality": {
           "status": "unknown",
@@ -152,7 +155,49 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-181602a7901b789c2cf574c1",
+            "source_url": "https://www.deeprobotics.cn/about.html",
+            "checked_at": "2026-10-31T18:20:20.042923+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "紫金梦想广场"
+            }
+          },
+          {
+            "evidence_id": "geo-ece7d930f277fb57ae05341f",
+            "source_url": "https://kj.hangzhou.gov.cn/art/2024/8/9/art_1228922128_58927349.html",
+            "checked_at": "2026-10-31T18:21:30.456989+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-181602a7901b789c2cf574c1",
+            "geo-ece7d930f277fb57ae05341f"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "杭州发布",
@@ -177,16 +222,19 @@
       "event_type": "资质获批",
       "link": "https://mp.weixin.qq.com/s/LCgMBkuFzA2oGSIKaaiU7Q",
       "sector": "具身智能",
-      "location": "地点线索：西湖区",
+      "location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-181602a7901b789c2cf574c1",
+          "geo-ece7d930f277fb57ae05341f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "云深处科技",
         "subject_locality": {
           "status": "unknown",
@@ -194,7 +242,49 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-181602a7901b789c2cf574c1",
+            "source_url": "https://www.deeprobotics.cn/about.html",
+            "checked_at": "2026-10-31T18:20:20.042923+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "紫金梦想广场"
+            }
+          },
+          {
+            "evidence_id": "geo-ece7d930f277fb57ae05341f",
+            "source_url": "https://kj.hangzhou.gov.cn/art/2024/8/9/art_1228922128_58927349.html",
+            "checked_at": "2026-10-31T18:21:30.456989+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-181602a7901b789c2cf574c1",
+            "geo-ece7d930f277fb57ae05341f"
+          ]
+        }
       },
       "article_location": "西湖区",
       "source": "微链智库",
@@ -692,16 +782,19 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/qo7clQYTkz2yxwGQga7TFQ",
       "sector": "机器人",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-181602a7901b789c2cf574c1",
+          "geo-ece7d930f277fb57ae05341f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "云深处科技",
         "subject_locality": {
           "status": "unknown",
@@ -709,7 +802,49 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-181602a7901b789c2cf574c1",
+            "source_url": "https://www.deeprobotics.cn/about.html",
+            "checked_at": "2026-10-31T18:20:20.042923+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "紫金梦想广场"
+            }
+          },
+          {
+            "evidence_id": "geo-ece7d930f277fb57ae05341f",
+            "source_url": "https://kj.hangzhou.gov.cn/art/2024/8/9/art_1228922128_58927349.html",
+            "checked_at": "2026-10-31T18:21:30.456989+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-181602a7901b789c2cf574c1",
+            "geo-ece7d930f277fb57ae05341f"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "36 氪",
@@ -734,16 +869,19 @@
       "event_type": "资质获批",
       "link": "https://mp.weixin.qq.com/s/KeWAeQg3zBSawk5ZYAKoBA",
       "sector": "具身智能/机器人",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-181602a7901b789c2cf574c1",
+          "geo-ece7d930f277fb57ae05341f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "云深处科技",
         "subject_locality": {
           "status": "unknown",
@@ -751,7 +889,49 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-181602a7901b789c2cf574c1",
+            "source_url": "https://www.deeprobotics.cn/about.html",
+            "checked_at": "2026-10-31T18:20:20.042923+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "紫金梦想广场"
+            }
+          },
+          {
+            "evidence_id": "geo-ece7d930f277fb57ae05341f",
+            "source_url": "https://kj.hangzhou.gov.cn/art/2024/8/9/art_1228922128_58927349.html",
+            "checked_at": "2026-10-31T18:21:30.456989+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-181602a7901b789c2cf574c1",
+            "geo-ece7d930f277fb57ae05341f"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "浙商杂志",
@@ -908,16 +1088,19 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/lU-QkAxtmbhMv1InjuyWZg",
       "sector": "机器人",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-181602a7901b789c2cf574c1",
+          "geo-ece7d930f277fb57ae05341f"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "云深处科技",
         "subject_locality": {
           "status": "unknown",
@@ -925,7 +1108,49 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-181602a7901b789c2cf574c1",
+            "source_url": "https://www.deeprobotics.cn/about.html",
+            "checked_at": "2026-10-31T18:20:20.042923+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "紫金梦想广场"
+            }
+          },
+          {
+            "evidence_id": "geo-ece7d930f277fb57ae05341f",
+            "source_url": "https://kj.hangzhou.gov.cn/art/2024/8/9/art_1228922128_58927349.html",
+            "checked_at": "2026-10-31T18:21:30.456989+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-181602a7901b789c2cf574c1",
+            "geo-ece7d930f277fb57ae05341f"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "铅笔道",
@@ -941,6 +1166,104 @@
       "event_date": "",
       "event_headline": "云深处递交科创板招股书，披露2025年营收3.37亿元且已盈利",
       "event_signal": "major",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "云深处与合作伙伴为新加坡能源集团交付电力隧道巡检项目，机器人通过摄像头和热成像设备检查异常、记录并回传结果，承担部分日常巡检。文章援引公司招股材料介绍，DeepVLA1.0具身导航系统引入视觉语言模型，支持理解自然语言指令并结合路标、方向描述规划长距离路线。公司近期公开的联合研究将语言指令与力反馈结合，已开展插接、擦拭等实机任务测试，仍处于研究验证阶段。",
+      "article_title": "机器人到底该先干什么？「特种四小虎」刷新了答案",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/eZU5dJFlJnzEukfA9YixFQ",
+      "sector": "工业巡检机器人",
+      "location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 紫金梦想广场",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-181602a7901b789c2cf574c1",
+          "geo-ece7d930f277fb57ae05341f"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "云深处科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-181602a7901b789c2cf574c1",
+            "source_url": "https://www.deeprobotics.cn/about.html",
+            "checked_at": "2026-10-31T18:20:20.042923+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "紫金梦想广场"
+            }
+          },
+          {
+            "evidence_id": "geo-ece7d930f277fb57ae05341f",
+            "source_url": "https://kj.hangzhou.gov.cn/art/2024/8/9/art_1228922128_58927349.html",
+            "checked_at": "2026-10-31T18:21:30.456989+00:00",
+            "subject": "云深处科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-181602a7901b789c2cf574c1",
+            "geo-ece7d930f277fb57ae05341f"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "云深处科技",
+      "company_entity_id": "dr-u-2e164a17cab35e3a144a",
+      "company_raw_name": "云深处",
+      "identity_status": "confirmed",
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持杭州本地机器人企业的项目交付和研发进展；历史中的全球份额表述未附独立行业比较依据，本次报道也未建立全国标杆资格，不据此新增标签。",
+        "evidence_ids": [
+          "article:5df393b822b263cf",
+          "accepted_history:98bca93c8771b165",
+          "geo-181602a7901b789c2cf574c1"
+        ]
+      },
+      "published_date": "2026-10-30",
+      "insight": "隧道项目表明，云深处的机器人已能承担电力设施的部分日常巡检，把人员长距离步行检查转为机器人采集、人员维修分析。自然语言导航降低任务下达的复杂度，而插接、擦拭研究探索的是从移动观察走向接触操作，后者尚不能视为已交付的巡检能力。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "云深处披露新加坡电力隧道巡检案例，接触操作仍处研究验证",
+      "event_signal": "material",
       "discovery_status": "update"
     }
   ],
