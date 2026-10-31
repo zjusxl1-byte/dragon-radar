@@ -1098,6 +1098,94 @@
       "event_headline": "DeepSeek据报道已完成登记及开源、海外授权使用",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "晚点LatePost回顾称，DeepSeek在2026年9月发布V4.1 Flash时表示，新架构将KV Cache对高带宽显存的需求降至上一代四分之一、对SSD的需求降至八分之一，随后下调缓存命中与输出token价格。文章另称，8月引入的峰谷定价在9月降价后继续保留，闲时调用价格为高峰时段的一半。",
+      "article_title": "给智能定价：DeepSeek、Kimi 和中国 AI 公司的不同选择",
+      "event_type": "技术更新",
+      "link": "https://mp.weixin.qq.com/s/t2bB_Mlc4BJYLGgXf5D4Ag",
+      "sector": "人工智能大模型与推理服务",
+      "location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "article_location": "浙江省杭州市",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_raw_name": "DeepSeek",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "V4.1 Flash",
+          "relation": "product",
+          "evidence": "技术效率的提升为这种平衡创造了条件，9 月发布 V4.1 Flash 时，DeepSeek 明确将 API 降价与新架构带来的成本下降联系起来。"
+        }
+      ],
+      "score": 100,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "复用既有模型和推理框架事件尚未建立独立标杆资格的边界。本篇提供公司资源效率主张及商业机制分析，但没有同条件第三方部署验证或竞争优势比较，不足以改变资格结论，不影响本条增量保留。",
+        "evidence_ids": [
+          "article:a901e2d36a06d890",
+          "prior_decision:57fb9024d657db8d",
+          "prior_decision:4aa55ed3d77695df"
+        ]
+      },
+      "published_date": "2026-10-30",
+      "event_identity": {
+        "canonical_id": "据文章报道，DeepSeek于9月发布V4.1 Flash，新架构将KV Cache对高带宽显存的需求降至上一代的四分之一，对SSD的需求降至八分之一，随后下调缓存命中和输出token价格，并保留8月引入的峰谷定价机制，闲时调用价格为高峰时段的一半。"
+      },
+      "insight": "DeepSeek的缓存压缩与峰谷定价分别作用于单位推理资源和设备利用率：前者为API降价提供空间，后者把部分调用引向闲时。对杭州模型服务企业的参照价值，是把资源效率、任务总成本与调用时段一并研究，而不是只比较token单价；第三方能否复制其成本结构，取决于真实负载下的推理优化。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "DeepSeek于2026年9月发布V4.1 Flash并降价（回顾）",
+      "event_signal": "context",
+      "discovery_status": "update"
     }
   ],
   "杭州鸣鸿微电子科技有限公司": [
