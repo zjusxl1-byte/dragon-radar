@@ -1996,24 +1996,62 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/6ZyVuVJXnykKdj54vmPd4w",
       "sector": "非金属智能切割装备、工业人工智能",
-      "location": "地点线索：杭州滨江具身智能机器人小镇核心区域（新总部及产业化基地项目地）",
+      "location": "浙江省 / 杭州市 / 滨江区 / 伟业路1号1号楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区 / 伟业路1号1号楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-2e88fffb276dbbda066cc90e"
+        ],
+        "subject_evidence_ids": [
+          "geo-2e88fffb276dbbda066cc90e"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "爱科科技",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-2e88fffb276dbbda066cc90e"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-2e88fffb276dbbda066cc90e",
+            "source_url": "https://www.iechosoft.com/index.php/contacts",
+            "checked_at": "2026-10-31T18:20:19.732929+00:00",
+            "subject": "爱科科技",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "伟业路1号1号楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-2e88fffb276dbbda066cc90e"
+          ]
+        }
       },
       "article_location": "杭州滨江具身智能机器人小镇核心区域（新总部及产业化基地项目地）",
       "source": "滨江发布",
