@@ -749,16 +749,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/gmfm_zRZrGwm0wPUoCGYWA",
       "sector": "保险科技",
-      "location": "地点待核",
+      "location": "US",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e71bc0e95965db3165dbb4a8"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Corgi",
         "subject_locality": {
           "status": "unknown",
@@ -766,7 +768,27 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e71bc0e95965db3165dbb4a8",
+            "source_url": "https://mp.weixin.qq.com/s/mQo7E-jZJNo-YShmlUEsVQ",
+            "checked_at": "2026-11-01T10:45:59+00:00",
+            "subject": "Corgi",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-e71bc0e95965db3165dbb4a8"
+          ]
+        }
       },
       "article_location": "",
       "source": "铅笔道",
@@ -783,6 +805,80 @@
       "event_headline": "Corgi完成1.06亿美元B1轮融资，估值达26亿美元",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "文章援引美国《福布斯》披露，Corgi已完成6400万美元B轮扩展融资，估值达到50亿美元。公司面向初创企业提供商业保险，利用AI支持报价、工作流程评估、保险定价及理赔等环节。文章称，公司于2025年7月取得监管批准开业。",
+      "article_title": "00后女生，估值300亿",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/mQo7E-jZJNo-YShmlUEsVQ",
+      "sector": "AI保险科技",
+      "location": "US",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e71bc0e95965db3165dbb4a8"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Corgi",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-e71bc0e95965db3165dbb4a8",
+            "source_url": "https://mp.weixin.qq.com/s/mQo7E-jZJNo-YShmlUEsVQ",
+            "checked_at": "2026-11-01T10:45:59+00:00",
+            "subject": "Corgi",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-e71bc0e95965db3165dbb4a8"
+          ]
+        }
+      },
+      "article_location": "硅谷（文中经营地语境，未明确注册地或总部）",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "Corgi",
+      "company_entity_id": "dr-u-54b6ca6e5c7e0eb7e2e0",
+      "company_raw_name": "Corgi",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "历史is_national_star及“赛道正确”的审核语句没有给出独立行业地位依据，不能作为免审资格。当前报道提供具体AI保险业务和融资，但未提供可比承保质量、经核实市场地位或独立技术表现，不据此建立全国标杆资格，也不批量改写历史标签。",
+        "evidence_ids": [
+          "article:02b16dc66e979399",
+          "accepted_history:97ef64c849c907e1"
+        ]
+      },
+      "published_date": "2026-11-01",
+      "insight": "Corgi值得关注的变化，是从保险经纪转向承保商，试图将AI从销售报价延伸到保险产品定价与理赔流程，使技术直接参与保险产品的设计和运营。其创业者咖啡馆提供了接近目标客户的入口，但获客优势与承保质量是两项不同能力，后者需结合实际赔付及风险管理表现继续研究。",
+      "financing": "据文章援引《福布斯》报道，最新完成6400万美元B轮扩展融资，估值50亿美元；该轮投资方及资金用途未披露。",
+      "event_date": "",
+      "event_headline": "Corgi据报道完成6400万美元扩展融资，估值达50亿美元",
+      "event_signal": "major",
+      "discovery_status": "update"
     }
   ],
   "普联技术有限公司": [
