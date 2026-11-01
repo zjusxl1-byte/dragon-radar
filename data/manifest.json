@@ -5142,7 +5142,7 @@
     "2026-10-31": "763fd0d61dca4c3f510c74d5b422064eecc4c662c52238317aef354df9cb7a24",
     "2026-11-01": "329e1ed2e236598b1a412befa22dd7bde62e2b84da3d0e944bfbfe62d81cd301"
   },
-  "geography_version": "346cef572d5ff490f4f296dab88de3db198c3d42ae256d0b8d8e248539d7e4ef",
+  "geography_version": "7e3ee2a601180d6045be2d70333601bd58861d8e60d643d1ac3bb61da9a299cd",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -7599,34 +7599,44 @@
     "dr-u-197ff6c7c0b52b64b6c7": {
       "geography_status": "confirmed",
       "classification": "hangzhou",
-      "display_location": "浙江省 / 杭州市 / 余杭区",
+      "display_location": "浙江省 / 杭州市 / 余杭区 / 仓前街道龙潭路17号",
       "located_status": "discovery_confirmed",
       "display_basis": [
-        "geo-4d022eaea98a713d7a91fea0"
+        "geo-4a7c0d00dba58f8b921fbc5d"
       ],
-      "subject_evidence_ids": [],
+      "subject_evidence_ids": [
+        "geo-4a7c0d00dba58f8b921fbc5d"
+      ],
       "needs_review": false,
       "next_action": null,
       "subject": "浙江诺尔康神经电子科技股份有限公司",
       "subject_locality": {
-        "status": "unknown",
-        "classification": "unknown",
-        "basis_roles": [],
-        "evidence_ids": []
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-4a7c0d00dba58f8b921fbc5d"
+        ]
       },
       "basis": [
         {
-          "evidence_id": "geo-4d022eaea98a713d7a91fea0",
-          "source_url": "https://mp.weixin.qq.com/s/9MEF50zOoBEiBOHl7i-eIA",
-          "checked_at": "2026-10-27T10:46:04+00:00",
+          "evidence_id": "geo-4a7c0d00dba58f8b921fbc5d",
+          "source_url": "https://www.nurotron.com/contactus.html",
+          "checked_at": "2026-11-01T00:31:33.383082+00:00",
           "subject": "浙江诺尔康神经电子科技股份有限公司",
-          "role": "business",
+          "role": "hq",
           "subject_relation": "same_subject",
           "place": {
             "country": "CN",
             "province": "浙江省",
             "city": "杭州市",
-            "district": "余杭区"
+            "district": "余杭区",
+            "address": "仓前街道龙潭路17号"
           }
         }
       ],
@@ -7638,7 +7648,7 @@
         "city": "杭州市",
         "district": "余杭区",
         "evidence_ids": [
-          "geo-4d022eaea98a713d7a91fea0"
+          "geo-4a7c0d00dba58f8b921fbc5d"
         ]
       }
     },
@@ -55696,7 +55706,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "eaf5674b6f4d2c49219189a92b2e82d716ad89a248bb5bb5dfa7ec9eb82ffc3b",
+  "history_version": "deb503fb8a6573e9e0550d28cdf70e49b1d47e3e1ca919de19750995db592ed6",
   "company_history_buckets": {
     "00": "1f5aa7c7f793139f189155c58225674cd002dde6c70870223a817483f356167e",
     "01": "7069574a04eb1cdc06ab2c9f4c478bf6c0092714bd959624e065bd8f90af3c5a",
@@ -55731,7 +55741,7 @@
     "1e": "b96c475d3ec05a42705481a4718ca0f4336dd841ae6099d670534a4f65ad81df",
     "1f": "9c2dd5803082263cbd4b4f611a13e2b1bfca1da365f830f6f81b73f60d541de5",
     "20": "5c8c8a3f7961614038b5313dd8226e03c262c2fd66526807664f045956dcf550",
-    "21": "3a17c4a92415ec3e2c2376603d9b8117d192aa9deb83db8accd2fdf8166c531f",
+    "21": "f57bfd54022d941e2b5f071e69a06b01050fbbbd074429efd05a6cc7caa13c72",
     "22": "424ba455cd7c1ea855a8a81ca616b7da23c9c7a90c099d0b9164402ea34852d5",
     "23": "134db3aef9a49ba89eac766258e062489727ebbf307a3ac877f3ded1082e7794",
     "24": "fe4ae1b0c779b96be3f03285a6b1e200d208b33bb35ae9973639de0c934a0bf9",
@@ -55763,7 +55773,7 @@
     "3e": "d6a40aad7f909a8d62a84a95c716d8c957e9c8b7a28cc83b825bcdd1f120d500",
     "3f": "09fdbfc0305e9e48bb2172c35b4231b956fd3b864f5cee51bb8ebfa5dad4f019"
   },
-  "history_search_version": "77a779bf6190c4e5a8bf8a09af1db72e7576d41d8e7cca5ca2db9a52f499f0ac",
+  "history_search_version": "402aadb447e2020b651e541732728c8946d1e403fdb5f564b4cd1f78ffb28e44",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",

@@ -1360,38 +1360,48 @@
       "event_type": "资质获批",
       "link": "https://mp.weixin.qq.com/s/9MEF50zOoBEiBOHl7i-eIA",
       "sector": "神经电子与植入式医疗器械",
-      "location": "浙江省 / 杭州市 / 余杭区",
+      "location": "浙江省 / 杭州市 / 余杭区 / 仓前街道龙潭路17号",
       "geography": {
         "geography_status": "confirmed",
         "classification": "hangzhou",
-        "display_location": "浙江省 / 杭州市 / 余杭区",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 仓前街道龙潭路17号",
         "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-4d022eaea98a713d7a91fea0"
+          "geo-4a7c0d00dba58f8b921fbc5d"
         ],
-        "subject_evidence_ids": [],
+        "subject_evidence_ids": [
+          "geo-4a7c0d00dba58f8b921fbc5d"
+        ],
         "needs_review": false,
         "next_action": null,
         "subject": "浙江诺尔康神经电子科技股份有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-4a7c0d00dba58f8b921fbc5d"
+          ]
         },
         "basis": [
           {
-            "evidence_id": "geo-4d022eaea98a713d7a91fea0",
-            "source_url": "https://mp.weixin.qq.com/s/9MEF50zOoBEiBOHl7i-eIA",
-            "checked_at": "2026-10-27T10:46:04+00:00",
+            "evidence_id": "geo-4a7c0d00dba58f8b921fbc5d",
+            "source_url": "https://www.nurotron.com/contactus.html",
+            "checked_at": "2026-11-01T00:31:33.383082+00:00",
             "subject": "浙江诺尔康神经电子科技股份有限公司",
-            "role": "business",
+            "role": "hq",
             "subject_relation": "same_subject",
             "place": {
               "country": "CN",
               "province": "浙江省",
               "city": "杭州市",
-              "district": "余杭区"
+              "district": "余杭区",
+              "address": "仓前街道龙潭路17号"
             }
           }
         ],
@@ -1403,7 +1413,7 @@
           "city": "杭州市",
           "district": "余杭区",
           "evidence_ids": [
-            "geo-4d022eaea98a713d7a91fea0"
+            "geo-4a7c0d00dba58f8b921fbc5d"
           ]
         }
       },
