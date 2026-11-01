@@ -717,6 +717,83 @@
       "event_headline": "SpaceX据报道争取印度市场五年，服务仍未获准推出",
       "event_signal": "major",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "据文章转述，马斯克于10月31日披露，Colossus 2正在建设Gun Range和Spam两个计算集群：前者计划部署约22万颗英伟达GB300 GPU，采用800Gbps网络配置，用于模型训练，预计11月底投运；后者计划部署约20万颗GB300，用于AI推理，预计12月投运。马斯克称Spam所需光纤数量不到训练集群的一半，并提出Colossus 2在2026年底拥有约120万颗Blackwell GPU的目标。",
+      "article_title": "马斯克宣布，再买42万颗GPU",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/qGLCs0Wmtnrd0Yr0QQd7Cw",
+      "sector": "AI算力基础设施",
+      "location": "US / Texas / Starbase",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Texas / Starbase",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-697384d43ce6757b0ec982ab"
+        ],
+        "subject_evidence_ids": [
+          "geo-697384d43ce6757b0ec982ab"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "SpaceX",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Texas",
+          "city": "Starbase",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-697384d43ce6757b0ec982ab"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-697384d43ce6757b0ec982ab",
+            "source_url": "https://gov.texas.gov/news/post/governor-abbott-announces-spacex-expansion-in-grimes-county",
+            "checked_at": "2026-10-20T01:38:05.868493+00:00",
+            "subject": "SpaceX",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Texas",
+              "city": "Starbase"
+            }
+          }
+        ]
+      },
+      "article_location": "美国得克萨斯州Starbase（主要总部，复用已审同主体地点证据）",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "SpaceX",
+      "company_entity_id": "dr-u-e78bdebae031095bebcf",
+      "company_raw_name": "SpaceX",
+      "identity_status": "confirmed",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持境外算力工程观察，但未提供独立的已审全国标杆资格依据；集群规划规模和历史is_national_star标记不能自动赋予该资格。",
+        "evidence_ids": [
+          "article:298c06e78b5af175",
+          "geo-697384d43ce6757b0ec982ab"
+        ]
+      },
+      "published_date": "2026-11-01",
+      "insight": "此次扩建计划的关键变化是将新增算力分别配置给训练与推理，而非复制同一种集群。训练集群沿用800Gbps网络、推理集群据称减少光纤配置，说明网络需求取决于工作负载，不能仅按GPU数量同比外推互连需求；光纤数量差异也不能直接等同于成本或性能差异。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "据报道SpaceX在建两座GB300集群，分别用于训练与推理",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "灵心巧手": [
