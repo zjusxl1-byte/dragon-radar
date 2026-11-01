@@ -2435,6 +2435,84 @@
       "event_headline": "DeepSeek更新Flash模型并开放搜索与正文获取接口",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "据文章报道，DeepSeek团队公开Super-agent架构思路，采用Router调度与Worker执行的双层设计，结合事件订阅直通、两级消息过滤、投机执行和独立Watchdog机制，支持跨平台衔接任务、并行执行及异常恢复。团队在约300条消息、20项工作请求的模拟协作环境中，每种配置重复测试5次，报告Super-agent任务完成时间中位数为12.4分钟、95分位数为15.7分钟；传统单Session方案在中性提示下的95分位数为29.5分钟。异步ReAct Loop已在DeepSeek Harness实现，但尚未默认开启。文章附有原型项目GitHub链接。",
+      "article_title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/CfHGwFAPzsTi6XSELQ9CoA",
+      "sector": "人工智能／自主智能体基础架构",
+      "location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "article_location": "浙江省杭州市（复用输入中已审同主体总部地点记录，非本文披露）",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_raw_name": "DeepSeek",
+      "identity_status": "confirmed",
+      "score": 100,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本次架构与原型足以支持技术进展，但性能来自团队小规模模拟实验，尚无同条件独立比较、真实部署验证或长期可靠性证据，不改变既有尚未建立独立全国标杆资格的边界。",
+        "evidence_ids": [
+          "article:3145feb273117129",
+          "prior_decision:57fb9024d657db8d",
+          "prior_decision:4aa55ed3d77695df"
+        ]
+      },
+      "published_date": "2026-10-31",
+      "insight": "这次进展将DeepSeek的Agent探索从单次代码任务扩展到跨平台、持续推进的工作流：调度层管理新任务，执行层直接接收既有任务的后续消息，减少人工搬运上下文和集中调度造成的等待。模拟实验提供了任务完成时间改善的初步依据，但真实工作环境中能否稳定保持这种优势，仍取决于事件识别、权限控制与异常恢复的实际表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "DeepSeek公开Super-agent架构，探索跨平台持续执行任务",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "Astrocade": [
@@ -3413,7 +3491,7 @@
       "canonical_name": "友机技术",
       "company_entity_id": "dr-u-407b28c7bc4140605e71",
       "company_raw_name": "友机技术",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 0,
       "is_national_star": false,
       "published_date": "2026-10-09",
@@ -3747,6 +3825,81 @@
       "event_date": "",
       "event_headline": "闪动上线AI运动评级，向场馆预订服务延伸",
       "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Kalshi": [
+    {
+      "date": "2026-11-02",
+      "title": "文章称，Kalshi于10月29日宣布完成10亿美元G轮融资，投后估值400亿美元，由红杉资本与Wellington Management联合领投，摩根士丹利投资管理、Andreessen Horowitz、Coatue等参与。公司同期披露，年化交易量超过1万亿美元，累计账户数超过3000万，非体育业务年化收入超过10亿美元。文章未披露本轮融资用途。",
+      "article_title": "30岁，曾经跳芭蕾的她，做出一家2600亿公司",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/X_sAboylwHuDo-7MLHTyPw",
+      "sector": "金融科技／预测市场",
+      "location": "US",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-763be02e9130256f33e7cbe7"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Kalshi",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-763be02e9130256f33e7cbe7",
+            "source_url": "https://mp.weixin.qq.com/s/X_sAboylwHuDo-7MLHTyPw",
+            "checked_at": "2026-11-01T10:31:22+00:00",
+            "subject": "Kalshi",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-763be02e9130256f33e7cbe7"
+          ]
+        }
+      },
+      "article_location": "美国（原文称其为美国公司，未明确注册地或总部城市）",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Kalshi",
+      "company_entity_id": "dr-u-b064bbfa28ec04400367",
+      "company_raw_name": "Kalshi",
+      "identity_status": "unresolved",
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "报道支持融资和平台商业化线索，但估值、融资额及公司自报规模不足以独立建立行业领先地位或全国标杆资格，尚无已审标杆依据。",
+        "evidence_ids": [
+          "article:53d80b9e1b5992eb"
+        ]
+      },
+      "published_date": "2026-11-01",
+      "insight": "Kalshi值得关注的不只是融资规模，而是事件合约正从体育和选举等热点延伸至经济、商品等交易场景：公司披露的非体育业务收入及商品交易手续费，为这种扩展提供了业务依据。其产业位置取决于能否同时维持合约交易的流动性与可经营范围，原文所述州级监管争议是影响这一路径的实质变量。",
+      "financing": "G轮融资10亿美元，投后估值400亿美元；红杉资本与Wellington Management联合领投，摩根士丹利投资管理、Andreessen Horowitz、Coatue等参投。",
+      "event_date": "2026-10-29",
+      "event_headline": "Kalshi据报道完成10亿美元G轮融资，投后估值400亿美元",
+      "event_signal": "major",
       "discovery_status": "first_seen"
     }
   ]
