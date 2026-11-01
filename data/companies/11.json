@@ -887,16 +887,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/jKwe8uol1Vw3J5rEibO-fg",
       "sector": "具身智能/电力运维机器人",
-      "location": "地点线索：杭州滨江",
+      "location": "浙江省 / 杭州市 / 滨江区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d74bb61e9903fafff83879a2"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "八维通",
         "subject_locality": {
           "status": "unknown",
@@ -904,7 +906,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d74bb61e9903fafff83879a2",
+            "source_url": "https://mp.weixin.qq.com/s/jKwe8uol1Vw3J5rEibO-fg",
+            "checked_at": "2026-10-02T10:31:05Z",
+            "subject": "八维通",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-d74bb61e9903fafff83879a2"
+          ]
+        }
       },
       "article_location": "杭州滨江",
       "source": "滨江发布",
