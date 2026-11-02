@@ -1033,5 +1033,61 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "登临": [
+    {
+      "date": "2026-11-03",
+      "title": "登临作为GPU供应商，为物流和工业检测应用提供芯片。多个极兔转运中心使用装有8张登临KS38的AI服务器；报道中的单台系统处理1000路视频、每秒检测8次，并在包裹卡阻后1分钟内通知人员。多家受访工业检测公司已改用登临KS19。登临针对矩阵计算、视频编解码和Windows软件进行适配；其对外供应GPU板卡，客户包括集成商和算法公司。下一代加入HBM及多芯片互联设计、逐步进入公有云仍属计划。",
+      "article_title": "新闻里的 AI 靠裁员赚钱，实业里的 AI 开始解决问题",
+      "event_type": "客户应用与部署",
+      "link": "https://mp.weixin.qq.com/s/muMXg9CB1jlj72cmx-Cnpg",
+      "sector": "GPU芯片与工业AI推理",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "登临",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "登临",
+      "company_entity_id": "dr-u-f69d7fe6d1724ae9a9fe",
+      "company_raw_name": "登临",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "客户部署与具体系统比较足以支持场景化商业进展，但尚无覆盖行业的地位、份额或代表性领先依据，不能仅凭若干客户替换和场景测试确立全国标杆资格。",
+        "evidence_ids": [
+          "article:afd2edef871e1a08"
+        ]
+      },
+      "published_date": "2026-11-02",
+      "event_identity": {
+        "canonical_id": "多个极兔转运中心部署配有8张登临KS38 GPU的AI服务器，用于包裹卡阻监测等任务；报道中的单台服务器处理1000路视频，每秒检测8次，包裹卡阻后1分钟内通知人员。受访的多家工业检测公司已将原用的英伟达游戏显卡换为登临KS19 GPU。登临通过加强矩阵计算、视频编解码能力及适配Windows的软件支持，服务物流和工业检测客户；下一代产品计划加入HBM内存及多芯片互联设计，逐步进入公有云市场。"
+      },
+      "insight": "登临在物流监测和工业质检中的切入点，不是全面追平英伟达，而是让视频解码、模型计算和客户现有软件共同适配，以更少设备完成具体任务。其优势具有场景边界：原文同时指出，图像预处理、结果排序等通用并行计算任务并非现行架构的强项，因此工业推理落地不能直接外推为公有云竞争力。",
+      "financing": "历史融资：2021年10月，海康智慧产业股权投资基金参与登临D0轮融资；本文未披露该轮金额。",
+      "event_date": "",
+      "event_headline": "登临GPU用于多个极兔转运中心，KS19获多家工检企业采用",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
