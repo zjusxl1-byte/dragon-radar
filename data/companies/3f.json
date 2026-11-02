@@ -329,6 +329,57 @@
       "event_headline": "火山引擎发布汽车AI架构，计划年底前合作量产",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "据文章报道，火山引擎成立“创造力服务平台”，整合火山和飞书的销售团队，统一销售SaaS与Token相关产品；Seedance 2.5推出Draft样片功能，支持先生成低分辨率预览，再付费正式生成。文章称，火山2026年上半年占国内公有云MaaS营收市场近五成。",
+      "article_title": "半年大盘超百亿，大厂重估卖Token的生意",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/4QFw7WSujQ2-9NRqKGEXjw",
+      "sector": "大模型服务与视频生成",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "火山引擎",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "火山引擎",
+      "company_entity_id": "dr-u-23b9479458b4c4f67907",
+      "company_raw_name": "火山引擎",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本文支持具体产品流程及商业化组织观察；市场份额与全球领先表述尚无本包中的独立原始报告核验，不能凭历史标签或媒体概括授予全国标杆资格。",
+        "evidence_ids": [
+          "article:98558693de73c0b8"
+        ]
+      },
+      "published_date": "2026-11-02",
+      "insight": "Draft把反复试镜头与正式出片分开收费，产品竞争由单次生成效果延伸到创作者的完整工作流程。销售整合则让软件工具与模型调用能够围绕同一客户任务组织供给，但两项调整各自带来的经营增量尚未披露。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "火山引擎整合销售体系，Seedance新增样片生成流程",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "深圳忆纪元科技有限公司": [
@@ -1667,16 +1718,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/N6nkiX0NPApOwntdSdnNUg",
       "sector": "具身智能",
-      "location": "地点待核",
+      "location": "北京市 / 海淀区 / 中关村国际创新大厦",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区 / 中关村国际创新大厦",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-587fa5209b598b2630a8a6fd"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "潜界科技",
         "subject_locality": {
           "status": "unknown",
@@ -1684,7 +1737,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-587fa5209b598b2630a8a6fd",
+            "source_url": "https://m.liepin.com/company/21479607/",
+            "checked_at": "2026-11-02T18:09:14.127188+00:00",
+            "subject": "潜界科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "中关村国际创新大厦"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-587fa5209b598b2630a8a6fd"
+          ]
+        }
       },
       "article_location": "",
       "source": "烯牛数据",
