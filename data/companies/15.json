@@ -2312,16 +2312,18 @@
       "event_type": "产品研发与制造工艺进展",
       "link": "https://mp.weixin.qq.com/s/gjLgZ0LE66q4Smq_1NDhxQ",
       "sector": "具身智能与触觉数据采集",
-      "location": "地点线索：浙江桐乡（已落实经营场地，未明确注册地或主要总部）",
+      "location": "浙江省 / 嘉兴市 / 桐乡市主城区凤凰湖金融广场",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 嘉兴市 / 桐乡市主城区凤凰湖金融广场",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-2b8f5ec7d1e2dfeb8e37a05d"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "大衍科技",
         "subject_locality": {
           "status": "unknown",
@@ -2329,7 +2331,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-2b8f5ec7d1e2dfeb8e37a05d",
+            "source_url": "https://zjnews.zjol.com.cn/zjnews/202610/t20261027_31991306.shtml",
+            "checked_at": "2026-11-02T18:09:01.113860+00:00",
+            "subject": "大衍科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "嘉兴市",
+              "district": "桐乡市",
+              "address": "桐乡市主城区凤凰湖金融广场"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "嘉兴市",
+          "district": "桐乡市",
+          "evidence_ids": [
+            "geo-2b8f5ec7d1e2dfeb8e37a05d"
+          ]
+        }
       },
       "article_location": "浙江桐乡（已落实经营场地，未明确注册地或主要总部）",
       "source": "涌金楼",
