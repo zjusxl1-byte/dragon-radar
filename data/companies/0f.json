@@ -775,7 +775,7 @@
       "canonical_name": "小马智行",
       "company_entity_id": "dr-u-d1ec3d76d07862d99763",
       "company_raw_name": "小马智行",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 70,
       "is_national_star": true,
       "insight": "小马智行在欧洲市场取得商业化突破，Robotaxi服务落地克罗地亚，有望加速自动驾驶技术在全球的推广和应用。",
@@ -2087,16 +2087,18 @@
       "event_type": "工业AI应用落地",
       "link": "https://mp.weixin.qq.com/s/gjLgZ0LE66q4Smq_1NDhxQ",
       "sector": "工业人工智能与过程控制",
-      "location": "地点线索：浙江桐乡（企业落地及经营语境，未明确注册地或主要总部）",
+      "location": "浙江省 / 嘉兴市 / 桐乡市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 嘉兴市 / 桐乡市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e403b13c6b044a50a2026f84"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "数翰科技",
         "subject_locality": {
           "status": "unknown",
@@ -2104,7 +2106,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e403b13c6b044a50a2026f84",
+            "source_url": "https://zjnews.zjol.com.cn/zjnews/202610/t20261027_31991306.shtml",
+            "checked_at": "2026-11-02T18:09:01.113860+00:00",
+            "subject": "数翰科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "嘉兴市",
+              "district": "桐乡市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "嘉兴市",
+          "district": "桐乡市",
+          "evidence_ids": [
+            "geo-e403b13c6b044a50a2026f84"
+          ]
+        }
       },
       "article_location": "浙江桐乡（企业落地及经营语境，未明确注册地或主要总部）",
       "source": "涌金楼",
