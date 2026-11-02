@@ -732,18 +732,16 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/K4cXRW7Jsu_NdsGCZ1reLg",
       "sector": "AI创投数据与情报分析",
-      "location": "北京市海淀区 中关村大街11号E世界财富中心A座",
+      "location": "地点待核",
       "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "北京市海淀区 中关村大街11号E世界财富中心A座",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-71c72bdf7c04d73c7d5845b5"
-        ],
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
         "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
         "subject": "铅笔道",
         "subject_locality": {
           "status": "unknown",
@@ -751,32 +749,7 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": [
-          {
-            "evidence_id": "geo-71c72bdf7c04d73c7d5845b5",
-            "source_url": "https://www.pencilnews.cn/contact.html",
-            "checked_at": "2026-10-12T03:47:04.233415+00:00",
-            "subject": "铅笔道",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "北京市",
-              "city": "北京市",
-              "address": "北京市海淀区 中关村大街11号E世界财富中心A座"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "北京市",
-          "city": "北京市",
-          "evidence_ids": [
-            "geo-71c72bdf7c04d73c7d5845b5"
-          ]
-        }
+        "basis": []
       },
       "article_location": "",
       "source": "铅笔道",
