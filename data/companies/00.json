@@ -2256,24 +2256,62 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/F-a7oFCMo7lwj2gT95fSXg",
       "sector": "半导体／存储控制芯片",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市 / 南山区 / 深圳南山科技园",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市 / 南山区 / 深圳南山科技园",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d3ef37b62258dc8934a97afe"
+        ],
+        "subject_evidence_ids": [
+          "geo-d3ef37b62258dc8934a97afe"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "得一微电子",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-d3ef37b62258dc8934a97afe"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d3ef37b62258dc8934a97afe",
+            "source_url": "https://www.yeestor.com/about",
+            "checked_at": "2026-11-03T20:02:53.312720+00:00",
+            "subject": "得一微电子",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "南山区",
+              "address": "深圳南山科技园"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "南山区",
+          "evidence_ids": [
+            "geo-d3ef37b62258dc8934a97afe"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",

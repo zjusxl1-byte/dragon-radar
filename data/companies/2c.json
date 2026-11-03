@@ -2565,16 +2565,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/1VS8GrcUp3xYXtnE0dWUCA",
       "sector": "半导体材料",
-      "location": "地点线索：浙江省丽水市丽水经济技术开发区（原文明示企业落地及生产厂区所在地）",
+      "location": "浙江省 / 丽水市 / 莲都区 / 南明山街道南明路771号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 丽水市 / 莲都区 / 南明山街道南明路771号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-85fd787d861ed62a0811da1e"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "浙江晶睿电子科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -2582,7 +2584,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-85fd787d861ed62a0811da1e",
+            "source_url": "https://www.jinray.com",
+            "checked_at": "2026-11-03T20:02:53.778769+00:00",
+            "subject": "浙江晶睿电子科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "丽水市",
+              "district": "莲都区",
+              "address": "南明山街道南明路771号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "丽水市",
+          "district": "莲都区",
+          "evidence_ids": [
+            "geo-85fd787d861ed62a0811da1e"
+          ]
+        }
       },
       "article_location": "浙江省丽水市丽水经济技术开发区（原文明示企业落地及生产厂区所在地）",
       "source": "浙商杂志",

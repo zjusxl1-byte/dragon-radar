@@ -67593,32 +67593,58 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/kgXMA8W6DzAujsABUy8iow",
       "sector": "机器人灵巧手",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f33160323a73993bf5711aad"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "杭州黑漫科技有限公司",
+        "needs_review": false,
+        "next_action": null,
+        "subject": "黑漫科技",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-f33160323a73993bf5711aad",
+            "source_url": "https://www.heymanbot.com/solutions/sg100",
+            "checked_at": "2026-11-03T18:25:18.323073+00:00",
+            "subject": "黑漫科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-f33160323a73993bf5711aad"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "湖畔自留田",
       "kind": "event",
-      "canonical_name": "杭州黑漫科技有限公司",
-      "company_entity_id": "dr-u-bba794355fd7d51f3d3d",
+      "canonical_name": "黑漫科技",
+      "company_entity_id": "dr-u-14bdd8f149e659d7a98a",
       "company_raw_name": "杭州黑漫科技有限公司",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 90,
       "is_national_star": false,
       "insight": "刘春宝教授依托吉林大学技术资源，在杭州密集布局机器人核心零部件企业，通过联合实验室与产业资本深度绑定，形成从研发到落地的闭环生态。",
@@ -67626,7 +67652,7 @@
       "event_date": "",
       "event_headline": "黑漫科技与吉林大学成立灵巧手产教融合联合实验室",
       "event_signal": "material",
-      "discovery_status": "first_seen"
+      "discovery_status": "update"
     }
   ],
   "数宗Digit Master": [
@@ -72586,16 +72612,18 @@
       "event_type": "融资",
       "link": "https://hznews.hangzhou.com.cn/chengshi/content/2026-08/24/content_9287794.htm",
       "sector": "商业航天/太空人工智能",
-      "location": "地点线索：杭州市西湖区云栖小镇",
+      "location": "浙江省 / 杭州市 / 西湖区 / 云栖小镇",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 云栖小镇",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-4dc0733d66a11d33c52c29ff"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州四维太空智能科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -72603,7 +72631,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4dc0733d66a11d33c52c29ff",
+            "source_url": "https://timeline.sohu.com/news/kvONNtHgRy",
+            "checked_at": "2026-11-03T20:02:56.450893+00:00",
+            "subject": "杭州四维太空智能科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "云栖小镇"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-4dc0733d66a11d33c52c29ff"
+          ]
+        }
       },
       "article_location": "杭州市西湖区云栖小镇",
       "source": "hznews.hangzhou.com.cn",
@@ -72628,16 +72683,18 @@
       "event_type": "企业成立",
       "link": "https://z.hangzhou.com.cn/2026/202607xxgc/content/content_9289142.htm",
       "sector": "商业航天/太空人工智能",
-      "location": "地点线索：杭州西湖区云栖小镇",
+      "location": "浙江省 / 杭州市 / 西湖区 / 云栖小镇",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 云栖小镇",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-4dc0733d66a11d33c52c29ff"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州四维太空智能科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -72645,7 +72702,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4dc0733d66a11d33c52c29ff",
+            "source_url": "https://timeline.sohu.com/news/kvONNtHgRy",
+            "checked_at": "2026-11-03T20:02:56.450893+00:00",
+            "subject": "杭州四维太空智能科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "云栖小镇"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-4dc0733d66a11d33c52c29ff"
+          ]
+        }
       },
       "article_location": "杭州西湖区云栖小镇",
       "source": "z.hangzhou.com.cn",
@@ -72670,16 +72754,18 @@
       "event_type": "其他",
       "link": "https://www.spacechina.com/n25/n2014789/n2014809/c4695935/content.html",
       "sector": "商业航天/太空人工智能",
-      "location": "地点线索：杭州市西湖区云栖小镇",
+      "location": "浙江省 / 杭州市 / 西湖区 / 云栖小镇",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 云栖小镇",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-4dc0733d66a11d33c52c29ff"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州四维太空智能科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -72687,7 +72773,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4dc0733d66a11d33c52c29ff",
+            "source_url": "https://timeline.sohu.com/news/kvONNtHgRy",
+            "checked_at": "2026-11-03T20:02:56.450893+00:00",
+            "subject": "杭州四维太空智能科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "云栖小镇"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-4dc0733d66a11d33c52c29ff"
+          ]
+        }
       },
       "article_location": "杭州市西湖区云栖小镇",
       "source": "www.spacechina.com",
@@ -72712,16 +72825,18 @@
       "event_type": "项目发布",
       "link": "https://feng.ifeng.com/c/8wgOd7JxyJJ",
       "sector": "商业航天／太空人工智能（AI卫星星座基础设施）",
-      "location": "地点线索：杭州市西湖区云栖小镇",
+      "location": "浙江省 / 杭州市 / 西湖区 / 云栖小镇",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 云栖小镇",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-4dc0733d66a11d33c52c29ff"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州四维太空智能科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -72729,7 +72844,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4dc0733d66a11d33c52c29ff",
+            "source_url": "https://timeline.sohu.com/news/kvONNtHgRy",
+            "checked_at": "2026-11-03T20:02:56.450893+00:00",
+            "subject": "杭州四维太空智能科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "云栖小镇"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-4dc0733d66a11d33c52c29ff"
+          ]
+        }
       },
       "article_location": "杭州市西湖区云栖小镇",
       "source": "feng.ifeng.com",
@@ -74078,32 +74220,61 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/03D8P5SCYSs3q7wKdhj2ug",
       "sector": "端侧AI芯片/半导体",
-      "location": "地点线索：福州",
+      "location": "福建省 / 福州市 / 鼓楼区 / 铜盘路软件大道89号软件园A区18、20、21号楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "福建省 / 福州市 / 鼓楼区 / 铜盘路软件大道89号软件园A区18、20、21号楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-7e0d09322ef5818347c333ab"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "瑞芯微电子股份有限公司",
+        "needs_review": false,
+        "next_action": null,
+        "subject": "瑞芯微",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7e0d09322ef5818347c333ab",
+            "source_url": "https://www.semiunion.com/company/rockchips.html",
+            "checked_at": "2026-10-20T02:39:18.470174+00:00",
+            "subject": "瑞芯微",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "福建省",
+              "city": "福州市",
+              "district": "鼓楼区",
+              "address": "铜盘路软件大道89号软件园A区18、20、21号楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "福建省",
+          "city": "福州市",
+          "district": "鼓楼区",
+          "evidence_ids": [
+            "geo-7e0d09322ef5818347c333ab"
+          ]
+        }
       },
       "article_location": "福州",
       "source": "36 氪",
       "kind": "event",
-      "canonical_name": "瑞芯微电子股份有限公司",
-      "company_entity_id": "dr-u-ae7c0e4839c66b7a91c5",
+      "canonical_name": "瑞芯微",
+      "company_entity_id": "dr-u-828638fdaf3958ae3903",
       "company_raw_name": "瑞芯微电子股份有限公司",
-      "identity_status": "unresolved",
+      "identity_status": "confirmed",
       "score": 70,
       "is_national_star": true,
       "insight": "瑞芯微以近存计算和协处理器双轨架构抢占端侧AI推理制高点，从芯片量产延伸至生态交付，先发优势明确；后续需关注客户复购与模型适配速度能否支撑规模放量。",
@@ -109952,7 +110123,7 @@
       "event_date": "",
       "event_headline": "瑞芯微RK1828已规模化量产并落地工业场景",
       "event_signal": "material",
-      "discovery_status": "first_seen"
+      "discovery_status": "update"
     },
     {
       "date": "2026-11-04",
@@ -125694,16 +125865,18 @@
       "event_type": "客户应用与部署",
       "link": "https://mp.weixin.qq.com/s/muMXg9CB1jlj72cmx-Cnpg",
       "sector": "GPU芯片与工业AI推理",
-      "location": "地点待核",
+      "location": "江苏省 / 苏州市 / 苏州工业园区扬富路11号南岸新地一期商务楼栋5号1101室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 苏州市 / 苏州工业园区扬富路11号南岸新地一期商务楼栋5号1101室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-159145a65131c49262507838"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "登临",
         "subject_locality": {
           "status": "unknown",
@@ -125711,7 +125884,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-159145a65131c49262507838",
+            "source_url": "https://denglinai.com/h-col-296.html",
+            "checked_at": "2026-11-03T20:02:54.630687+00:00",
+            "subject": "登临",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市",
+              "address": "苏州工业园区扬富路11号南岸新地一期商务楼栋5号1101室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "evidence_ids": [
+            "geo-159145a65131c49262507838"
+          ]
+        }
       },
       "article_location": "",
       "source": "晚点 LatePost",
@@ -126088,16 +126286,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/1VS8GrcUp3xYXtnE0dWUCA",
       "sector": "半导体材料",
-      "location": "地点线索：浙江省丽水市丽水经济技术开发区（原文明示企业落地及生产厂区所在地）",
+      "location": "浙江省 / 丽水市 / 莲都区 / 南明山街道南明路771号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 丽水市 / 莲都区 / 南明山街道南明路771号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-85fd787d861ed62a0811da1e"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "浙江晶睿电子科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -126105,7 +126305,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-85fd787d861ed62a0811da1e",
+            "source_url": "https://www.jinray.com",
+            "checked_at": "2026-11-03T20:02:53.778769+00:00",
+            "subject": "浙江晶睿电子科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "丽水市",
+              "district": "莲都区",
+              "address": "南明山街道南明路771号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "丽水市",
+          "district": "莲都区",
+          "evidence_ids": [
+            "geo-85fd787d861ed62a0811da1e"
+          ]
+        }
       },
       "article_location": "浙江省丽水市丽水经济技术开发区（原文明示企业落地及生产厂区所在地）",
       "source": "浙商杂志",
@@ -126203,24 +126430,62 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/F-a7oFCMo7lwj2gT95fSXg",
       "sector": "半导体／存储控制芯片",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市 / 南山区 / 深圳南山科技园",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市 / 南山区 / 深圳南山科技园",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d3ef37b62258dc8934a97afe"
+        ],
+        "subject_evidence_ids": [
+          "geo-d3ef37b62258dc8934a97afe"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "得一微电子",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-d3ef37b62258dc8934a97afe"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-d3ef37b62258dc8934a97afe",
+            "source_url": "https://www.yeestor.com/about",
+            "checked_at": "2026-11-03T20:02:53.312720+00:00",
+            "subject": "得一微电子",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "南山区",
+              "address": "深圳南山科技园"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "南山区",
+          "evidence_ids": [
+            "geo-d3ef37b62258dc8934a97afe"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
@@ -126268,16 +126533,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/MP5Gwytm2jHjXlp7Hp7RWg",
       "sector": "商业航天／太空算力",
-      "location": "地点线索：杭州市（按全文杭州产业布局语境认定，未披露注册地或总部地址）",
+      "location": "浙江省 / 杭州市 / 西湖区 / 云栖小镇",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 云栖小镇",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-4dc0733d66a11d33c52c29ff"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州四维太空智能科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -126285,7 +126552,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4dc0733d66a11d33c52c29ff",
+            "source_url": "https://timeline.sohu.com/news/kvONNtHgRy",
+            "checked_at": "2026-11-03T20:02:56.450893+00:00",
+            "subject": "杭州四维太空智能科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "云栖小镇"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-4dc0733d66a11d33c52c29ff"
+          ]
+        }
       },
       "article_location": "杭州市（按全文杭州产业布局语境认定，未披露注册地或总部地址）",
       "source": "涌金楼",
@@ -126381,16 +126675,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/rpQQ5iMDva_QF_KDa29Xtg",
       "sector": "AI影视制作与动态漫",
-      "location": "地点线索：杭州市临平区（原文明示本土企业归属，未披露注册地或主要总部地址）",
+      "location": "浙江省 / 杭州市 / 临平区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 临平区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-678b9af5acf5b47df9b307e7"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "享映视界",
         "subject_locality": {
           "status": "unknown",
@@ -126398,7 +126694,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-678b9af5acf5b47df9b307e7",
+            "source_url": "https://mp.weixin.qq.com/s/rpQQ5iMDva_QF_KDa29Xtg",
+            "checked_at": "2026-11-03T10:46:26+00:00",
+            "subject": "享映视界",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "临平区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "临平区",
+          "evidence_ids": [
+            "geo-678b9af5acf5b47df9b307e7"
+          ]
+        }
       },
       "article_location": "杭州市临平区（原文明示本土企业归属，未披露注册地或主要总部地址）",
       "source": "临平发布",
@@ -126649,16 +126971,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/L85a22W9fkaxIK4jqc9HHA",
       "sector": "具身智能数据基础设施与机器人遥操作",
-      "location": "地点线索：浙江省杭州市滨江区；原文明确为新公司成立所在地，未单独说明注册地或主要总部。",
+      "location": "浙江省 / 杭州市 / 滨江区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-09a294d453e554acfafc6b1d"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州灵御智能科技有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -126666,7 +126990,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-09a294d453e554acfafc6b1d",
+            "source_url": "https://mp.weixin.qq.com/s/L85a22W9fkaxIK4jqc9HHA",
+            "checked_at": "2026-11-02T22:31:15+00:00",
+            "subject": "杭州灵御智能科技有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-09a294d453e554acfafc6b1d"
+          ]
+        }
       },
       "article_location": "浙江省杭州市滨江区；原文明确为新公司成立所在地，未单独说明注册地或主要总部。",
       "source": "湖畔自留田",
@@ -127053,16 +127403,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/MVmoL9rU9wK_-OKkIe92gQ",
       "sector": "无人门店系统与物联网",
-      "location": "地点线索：成都（正文明确的企业所在地，未区分注册地与总部）",
+      "location": "四川省 / 成都市 / 武侯区 / 天仁路387号大鼎世纪广场2号楼19层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "四川省 / 成都市 / 武侯区 / 天仁路387号大鼎世纪广场2号楼19层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-ee03b86e657d388d4fd3ce96"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "茗匠科技",
         "subject_locality": {
           "status": "unknown",
@@ -127070,7 +127422,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-ee03b86e657d388d4fd3ce96",
+            "source_url": "https://m.mjzhcl.com/guanyuwomen.html",
+            "checked_at": "2026-11-03T20:02:54.902932+00:00",
+            "subject": "茗匠科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "四川省",
+              "city": "成都市",
+              "district": "武侯区",
+              "address": "天仁路387号大鼎世纪广场2号楼19层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "四川省",
+          "city": "成都市",
+          "district": "武侯区",
+          "evidence_ids": [
+            "geo-ee03b86e657d388d4fd3ce96"
+          ]
+        }
       },
       "article_location": "成都（正文明确的企业所在地，未区分注册地与总部）",
       "source": "投资界",

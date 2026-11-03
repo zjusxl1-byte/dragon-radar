@@ -1042,16 +1042,18 @@
       "event_type": "客户应用与部署",
       "link": "https://mp.weixin.qq.com/s/muMXg9CB1jlj72cmx-Cnpg",
       "sector": "GPU芯片与工业AI推理",
-      "location": "地点待核",
+      "location": "江苏省 / 苏州市 / 苏州工业园区扬富路11号南岸新地一期商务楼栋5号1101室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 苏州市 / 苏州工业园区扬富路11号南岸新地一期商务楼栋5号1101室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-159145a65131c49262507838"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "登临",
         "subject_locality": {
           "status": "unknown",
@@ -1059,7 +1061,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-159145a65131c49262507838",
+            "source_url": "https://denglinai.com/h-col-296.html",
+            "checked_at": "2026-11-03T20:02:54.630687+00:00",
+            "subject": "登临",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市",
+              "address": "苏州工业园区扬富路11号南岸新地一期商务楼栋5号1101室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "evidence_ids": [
+            "geo-159145a65131c49262507838"
+          ]
+        }
       },
       "article_location": "",
       "source": "晚点 LatePost",

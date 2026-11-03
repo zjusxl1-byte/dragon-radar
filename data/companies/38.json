@@ -1505,16 +1505,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/MVmoL9rU9wK_-OKkIe92gQ",
       "sector": "无人门店系统与物联网",
-      "location": "地点线索：成都（正文明确的企业所在地，未区分注册地与总部）",
+      "location": "四川省 / 成都市 / 武侯区 / 天仁路387号大鼎世纪广场2号楼19层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "四川省 / 成都市 / 武侯区 / 天仁路387号大鼎世纪广场2号楼19层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-ee03b86e657d388d4fd3ce96"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "茗匠科技",
         "subject_locality": {
           "status": "unknown",
@@ -1522,7 +1524,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-ee03b86e657d388d4fd3ce96",
+            "source_url": "https://m.mjzhcl.com/guanyuwomen.html",
+            "checked_at": "2026-11-03T20:02:54.902932+00:00",
+            "subject": "茗匠科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "四川省",
+              "city": "成都市",
+              "district": "武侯区",
+              "address": "天仁路387号大鼎世纪广场2号楼19层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "四川省",
+          "city": "成都市",
+          "district": "武侯区",
+          "evidence_ids": [
+            "geo-ee03b86e657d388d4fd3ce96"
+          ]
+        }
       },
       "article_location": "成都（正文明确的企业所在地，未区分注册地与总部）",
       "source": "投资界",
