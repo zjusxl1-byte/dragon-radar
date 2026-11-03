@@ -5,10 +5,10 @@
   "start_date": "2026-11-02",
   "end_date": "2026-11-08",
   "summary": {
-    "total_companies": 27,
+    "total_companies": 29,
     "financing_events": 5,
     "ipo_events": 0,
-    "milestone_events": 5,
+    "milestone_events": 7,
     "negative_events": 0,
     "active_days": 2
   },
@@ -911,6 +911,107 @@
       }
     },
     {
+      "company": "Google DeepMind",
+      "link": "https://mp.weixin.qq.com/s/uFyRhjNUXdqUXYUXpasQ6w",
+      "source": "36 氪",
+      "title": "谷歌重磅发布Genie 4：这才是真正的「世界模型」",
+      "published_date": "2026-10-28",
+      "event_date": "2026-10-28",
+      "event_type": "重磅发布",
+      "sector": "交互世界模型",
+      "event_desc": "据36氪转载新智元报道，Google DeepMind于10月28日发布交互世界模型Genie 4，演示原生音频、角色对话、自然语言实时修改场景，以及与Gemini配合进行多步骤模拟和机器人操作。报道所述连贯世界约2分钟、画面约24帧/秒；产品处于预览及申请测试阶段。",
+      "insight": "原生声音与可修改场景使世界模型的交互对象从连续画面扩展到角色反馈；与任务规划模型结合，则把环境生成连接到多步骤动作测试。其机器人研发参照价值在于更快构造可交互测试场景，实际迁移效果取决于模拟行为与真实物理的一致性。",
+      "event_headline": "Google DeepMind据报道发布Genie 4，扩展有声交互与多步骤模拟",
+      "event_signal": "material",
+      "company_entity_id": "dr-u-2b6e51bec93e86c1950d",
+      "company_canonical_name": "Google DeepMind",
+      "company_raw_name": "Google DeepMind",
+      "identity_status": "unresolved",
+      "identity_candidates": [],
+      "company_db_id": null,
+      "score": 60,
+      "is_national_star": false,
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Google DeepMind",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "location": "地点待核",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条媒体产品演示足以支持技术对标线索，但不单独建立本主体的独立行业地位或全国标杆资格。",
+        "evidence_ids": [
+          "article:37c4dd043be01809",
+          "history_lookup:3815159c4b58d2c7",
+          "agent_directed_judgment:228f657ce7826a08"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "94a29b992afa9b26e6c7c284f442c17e9859b0e4fb30f09252064d0ac95b5cdf",
+        "input_row_sha256": "1384d501ab0f766d791f0530e436e08a898ce7c9a3e1349de7664d771cc3dd4d",
+        "reason": "已完整复读恢复的36氪转载正文。Google DeepMind为世界模型开发方，Genie 4为产品，Gemini、Apollo及UR5为配合演示的模型或机器人，不能拆成另几家企业进展。正文具体说明原生音频、实时改写环境及规划模型参与多步骤模拟，能够为杭州世界模型和机器人企业提供交互测试环境的技术对标，不依赖企业知名度或评分。新闻发布于2026-10-28，处七日窗口；事件报道为当日发布。正文同时出现申请内测和已开放的表述，因此仅采信预览发布及申请测试，不写为API全面商用、机器人已实际部署或仿真效果已迁移真实世界。官方链接本轮取证TLS失败，不据搜索摘要扩大其公开可用范围。按所述主体检索未匹配历史，另对最近日报和审阅中Genie 4作精确检索未发现已采信同事件，不宣称全球首次披露。普通属地未核不阻断此正面技术线索，且不授予杭州主体或标杆标签。",
+        "scope": {
+          "technology_evidence": "报道演示世界模型的原生声音、角色对话、实时场景修改及与Gemini配合的多步骤机器人操作模拟，给出约2分钟连贯世界和约24帧/秒的报道指标。",
+          "value_reason": "可交互环境生成与规划模型相连接，为杭州具身企业快速构造测试场景提供具体技术参照；报道未证明仿真到真实迁移效果，不以此推定实际交付。"
+        },
+        "stage": {
+          "status": "媒体报道的产品预览发布及申请测试阶段",
+          "reason": "正文包含内测waiting list表述，后文又称已向Ultra用户开放，公开范围不一致；采用较窄的预览阶段，不沿用API全面开放说法。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:3815159c4b58d2c7"
+          ],
+          "prior_decisions": [],
+          "change_reason": "稳定原称Google DeepMind的历史包无匹配；另已查最近日报和审阅中的Genie 4文字，未发现已采信同事件。该结论仅限本项目检索覆盖，不自动合并Google、谷歌或Alphabet主体，也不宣称首次披露。",
+          "new_evidence_ids": [
+            "article:37c4dd043be01809",
+            "history_lookup:3815159c4b58d2c7",
+            "agent_directed_judgment:228f657ce7826a08"
+          ]
+        },
+        "evidence_ids": [
+          "article:37c4dd043be01809",
+          "history_lookup:3815159c4b58d2c7",
+          "agent_directed_judgment:228f657ce7826a08"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条媒体产品演示足以支持技术对标线索，但不单独建立本主体的独立行业地位或全国标杆资格。",
+          "evidence_ids": [
+            "article:37c4dd043be01809",
+            "history_lookup:3815159c4b58d2c7",
+            "agent_directed_judgment:228f657ce7826a08"
+          ]
+        }
+      },
+      "selection_recommendation": "keep",
+      "selection_reason": "已完整复读恢复的36氪转载正文。Google DeepMind为世界模型开发方，Genie 4为产品，Gemini、Apollo及UR5为配合演示的模型或机器人，不能拆成另几家企业进展。正文具体说明原生音频、实时改写环境及规划模型参与多步骤模拟，能够为杭州世界模型和机器人企业提供交互测试环境的技术对标，不依赖企业知名度或评分。新闻发布于2026-10-28，处七日窗口；事件报道为当日发布。正文同时出现申请内测和已开放的表述，因此仅采信预览发布及申请测试，不写为API全面商用、机器人已实际部署或仿真效果已迁移真实世界。官方链接本轮取证TLS失败，不据搜索摘要扩大其公开可用范围。按所述主体检索未匹配历史，另对最近日报和审阅中Genie 4作精确检索未发现已采信同事件，不宣称全球首次披露。普通属地未核不阻断此正面技术线索，且不授予杭州主体或标杆标签。"
+    },
+    {
       "company_raw_name": "Corgi",
       "title": "00后女生，估值300亿",
       "company": "Corgi",
@@ -1451,110 +1552,6 @@
           ]
         }
       }
-    },
-    {
-      "company_raw_name": "影智XBOT",
-      "title": "融资6亿，河南75后用机器人做咖啡，开店1600家",
-      "company": "影智XBOT",
-      "score": 50,
-      "sector": "商用机器人／餐饮自动化",
-      "financing": "A轮融资2亿多元，B轮融资近4亿元；具体投资机构、估值及本轮资金用途未披露。文中列举的张小龙、林斌、黎万强、黄江吉、洪锋为天使投资人，未说明其参与此次A轮或B轮。",
-      "source": "铅笔道",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "影智XBOT",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-fa231185d7e274dbc2eb",
-      "company_canonical_name": "影智XBOT",
-      "identity_status": "unresolved",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/atI6Hv43PIjSsyffwXq4Mw",
-      "article_title": "融资6亿，河南75后用机器人做咖啡，开店1600家",
-      "event_desc": "据文章披露，影智XBOT连续完成A轮2亿多元、B轮近4亿元融资，创始人称B轮于2026年7月宣布完成。其咖啡机器人门店已在全球落地超过1600家，累计制作咖啡超过500万杯；创始人称2026年在手订单按3亿元计，来自头部客户、加盟客户以及海外和桌面具身智能产品的订单各约1亿元，近期单月交付超过100台。",
-      "insight": "影智XBOT的变化不只是机械臂做咖啡，而是把设备、云端管理和装维托管整合为可售卖的微型咖啡门店，让客户不必自行拼接设备与运营服务。文章披露的全球落地超过1600家及近期单月交付超过100台，表明这一专用机器人方案已进入批量部署阶段；能否适配不同点位的客流和维护需求，是继续研究其门店复制能力的关键。",
-      "event_headline": "影智XBOT完成A、B两轮融资，咖啡机器人进入批量交付",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-10-31",
-        "event_date": null,
-        "observed_date": "2026-10-31",
-        "review_required": true
-      },
-      "published_date": "2026-10-31",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "所供全文明确影智XBOT为咖啡机器人研发、销售及配套服务方，融资对象和交付主体指向同一品牌，未见主体冲突；工商主体映射未完成，保留既有稳定ID，不补造全称。原文通过六轴机械臂、设备集成、云端管理和装维服务说明其具体技术业务，并披露两轮融资及批量交付，具备专用机器人商业化观察价值。采集证据明确新闻发表于2026-10-31T12:27:00Z，符合七日窗口，上游发布时间缺失的判断已不成立。所供历史与既有裁决为空，未见同事件匹配，但不宣称首次发现。地点未知不阻断正面线索，亦不据创始人籍贯推定属地。",
-      "event_headline_source": "dbd4b6a0d9d1ee99eb3ec4d1535b6355e860bf2f5296f84f1ef0ecf72248a761",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "融资和部署规模支持商业化研究，但当前主要依据为创始人口述，未提供可独立复核的行业排名、同口径运营比较或客户效果，尚不能确立全国标杆资格。",
-        "evidence_ids": [
-          "article:761fdd18bd50d380"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "current-task Agent: quality_inspector continuation and targeted editorial review",
-        "candidate_id": "38873f2f3a860fab8a12a36934d98b969632fbfd7c693e6fc77d33a71a2c6692",
-        "input_row_sha256": "e20b9a8ce0f6df363484ea44c29c8f6b346bf2c542a80d186ff12f1a9b8f8ac8",
-        "reason": "所供全文明确影智XBOT为咖啡机器人研发、销售及配套服务方，融资对象和交付主体指向同一品牌，未见主体冲突；工商主体映射未完成，保留既有稳定ID，不补造全称。原文通过六轴机械臂、设备集成、云端管理和装维服务说明其具体技术业务，并披露两轮融资及批量交付，具备专用机器人商业化观察价值。采集证据明确新闻发表于2026-10-31T12:27:00Z，符合七日窗口，上游发布时间缺失的判断已不成立。所供历史与既有裁决为空，未见同事件匹配，但不宣称首次发现。地点未知不阻断正面线索，亦不据创始人籍贯推定属地。",
-        "scope": {
-          "technology_evidence": "全文描述六轴机械臂与咖啡机、制冰机、奶泡机集成，配套机器人操作系统、云端服务及装维托管；报道全球落地超过1600家机器人门店、近期单月交付超过100台，并称完成A轮2亿多元、B轮近4亿元融资。",
-          "value_reason": "其可研究价值是把机械臂、饮品设备和持续运营服务组合为可复制交付单元，提供餐饮专用机器人从设备销售走向批量部署的案例。优先核对点位运营、装维成本和客户复购能否支撑复制，而非以融资规模或门店数直接认定盈利。融资与明确技术业务相联系，本身也是资本成长信号，不补写资金用途。"
-        },
-        "stage": {
-          "status": "媒体采访披露已完成融资及批量交付，经营数据为企业自述",
-          "reason": "创始人称2026年7月宣布完成B轮，A轮完成日期未明；全文称上个月交付100多台，精确交付日期未知。在手订单包括不同客户及产品，不等于已交付收入；天使投资人名单不能转作A轮或B轮投资机构。新闻发布时间已明确，首次收录时间未知。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:3ffe8fa169e4b700"
-          ],
-          "prior_decisions": [],
-          "change_reason": "本包该稳定主体的accepted_history和prior_decisions均为空，且未报告历史读取错误；在所供检索范围未见融资或交付同事件记录，作为独立线索保留，不认定融资刚刚发生或全量历史首次收录。",
-          "new_evidence_ids": [
-            "article:761fdd18bd50d380"
-          ]
-        },
-        "evidence_ids": [
-          "article:761fdd18bd50d380",
-          "identity_registry:2dcd4f408df25406",
-          "geography_registry:b93d03cf35486d17",
-          "history_lookup:3ffe8fa169e4b700"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "融资和部署规模支持商业化研究，但当前主要依据为创始人口述，未提供可独立复核的行业排名、同口径运营比较或客户效果，尚不能确立全国标杆资格。",
-          "evidence_ids": [
-            "article:761fdd18bd50d380"
-          ]
-        }
-      }
     }
   ],
   "negatives": [],
@@ -1585,7 +1582,9 @@
     "人工智能／大模型": 1,
     "可控核聚变": 1,
     "智能服装装备与具身智能机器人": 1,
-    "半导体材料": 1
+    "半导体材料": 1,
+    "交互世界模型": 1,
+    "大模型与智能体": 1
   },
   "daily_details": {
     "2026-11-02": {
@@ -1593,9 +1592,9 @@
       "negatives": 0
     },
     "2026-11-03": {
-      "count": 12,
+      "count": 14,
       "negatives": 0
     }
   },
-  "created": "2026-11-03 02:37:04"
+  "created": "2026-11-03 08:41:23"
 }
