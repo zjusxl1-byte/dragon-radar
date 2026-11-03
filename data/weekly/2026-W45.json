@@ -5,14 +5,234 @@
   "start_date": "2026-11-02",
   "end_date": "2026-11-08",
   "summary": {
-    "total_companies": 29,
-    "financing_events": 5,
-    "ipo_events": 0,
-    "milestone_events": 7,
+    "total_companies": 60,
+    "financing_events": 8,
+    "ipo_events": 1,
+    "milestone_events": 17,
     "negative_events": 0,
-    "active_days": 2
+    "active_days": 3
   },
   "top10": [
+    {
+      "company_raw_name": "阿里巴巴",
+      "identity_mentions": [
+        {
+          "name": "千问办公",
+          "relation": "product",
+          "evidence": "阿里巴巴近期推出一站式AI办公平台“千问办公”"
+        },
+        {
+          "name": "千问App",
+          "relation": "product",
+          "evidence": "今年以来阿里旗下千问App率先实现“AI办事”"
+        },
+        {
+          "name": "Qoder",
+          "relation": "product",
+          "evidence": "阿里智能体平台Qoder凭借在智能体Harness上的技术突破荣获“领先科技奖”"
+        }
+      ],
+      "title": "蔡崇信乌镇谈AI发展：开源开放，源自中国创新的精神内核",
+      "company": "阿里巴巴",
+      "score": 110,
+      "sector": "人工智能大模型与智能体应用",
+      "financing": "",
+      "source": "浙商杂志",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+      "article_location": "浙江省杭州市余杭区文一西路960-1号（复用已审经营地证据，非本文披露）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-14c3cd9f0fde5abc65811edd"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里巴巴",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+            "source_url": "https://ali-home.alibaba.com/global-location",
+            "checked_at": "2026-10-21T18:14:15.207210+00:00",
+            "subject": "阿里巴巴",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路960-1号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-14c3cd9f0fde5abc65811edd"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-47c1e53c427aafb4556b",
+      "company_canonical_name": "阿里巴巴",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/lnfLYsdcQ_J8l3n8s4Bxqg",
+      "article_title": "蔡崇信乌镇谈AI发展：开源开放，源自中国创新的精神内核",
+      "event_desc": "2026年11月3日，阿里巴巴在世界互联网大会乌镇峰会展示芯片、云服务、大模型及AI应用成果。蔡崇信介绍，千问已开源超过470款模型，全球累计下载量突破40亿次，衍生模型超过33万个。文章同时披露，阿里巴巴近期推出一站式AI办公平台“千问办公”，融入钉钉生态并打通企业数据库和主流即时通讯工具，整合内容生成、浏览器自动化、定时任务调度和Office文档处理等能力；千问App日前推出个人AI助理“千问Go！”。上述产品推出的具体日期未披露。",
+      "insight": "千问办公把模型生成能力与企业数据库、通讯工具和浏览器操作连接起来，产品范围由内容辅助扩展到跨工具执行办公任务。对企业用户，其价值取决于这些连接能否支撑具体流程；文章已披露功能组合，但尚未展示某一客户流程的实际运行效果。",
+      "event_headline": "阿里巴巴展示全栈AI成果，千问拓展办公与个人事务应用",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "recent_event",
+        "description": "事件日期在最近7个自然日内: 2026-11-03",
+        "event_date": "2026-11-03",
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "阿里巴巴是正文明确的产品提供方，千问办公、千问Go！和Qoder均为产品而非新增企业。千问办公连接企业数据库、通讯工具与浏览器自动化，构成从内容生成向任务执行延伸的具体产品进展，不以峰会发言或获奖本身作为采信理由。新闻原始发布时间为2026年11月3日，符合七日窗口；已审官网经营地证据支持杭州正面发现归属，但不升级为集团注册地或总部证明。历史个人Agent事件为生态接入规划，本篇新增产品推出及办公功能组合，其他已收录及旧裁决分别对应模型开源、榜单、云业务、检索框架或处理器，不能按同企业重复剔除。本次仅取得日报资格，不自动进入周月领导简报。",
+      "event_headline_source": "d47e2619d21a64fc94e18386f1a4b670b856654d2de5425c11817f4d905583a0",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+          "source_url": "https://ali-home.alibaba.com/global-location",
+          "checked_at": "2026-10-21T18:14:15.207210+00:00",
+          "subject": "阿里巴巴",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "文一西路960-1号"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "可复用既有明确已审的玄铁处理器IP标杆资格：历史依据包括累计支撑超过60亿颗芯片交付、200余款量产芯片及服务400余家厂商，提供了规模化授权与生态工程的独立对标基础。本篇另由蔡崇信披露千问开源规模与魔搭生态，可作模型生态建设参照。上述资格有具体业务边界，不表示千问办公或千问Go！已经证明同等成熟度。",
+        "evidence_ids": [
+          "accepted_history:d9672401fc16d46c",
+          "prior_decision:f37dd73d7d5dc7ee",
+          "article:da86266b10106762"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "54640c4950a6ee8e1ef205339d31a7a5e8fd6ce740149b87a2d71826c16f8e22",
+        "input_row_sha256": "8ec06b9c08193162014f15dd964ea32875f1e20fb35b231fb5e34e7fc9e2579e",
+        "reason": "阿里巴巴是正文明确的产品提供方，千问办公、千问Go！和Qoder均为产品而非新增企业。千问办公连接企业数据库、通讯工具与浏览器自动化，构成从内容生成向任务执行延伸的具体产品进展，不以峰会发言或获奖本身作为采信理由。新闻原始发布时间为2026年11月3日，符合七日窗口；已审官网经营地证据支持杭州正面发现归属，但不升级为集团注册地或总部证明。历史个人Agent事件为生态接入规划，本篇新增产品推出及办公功能组合，其他已收录及旧裁决分别对应模型开源、榜单、云业务、检索框架或处理器，不能按同企业重复剔除。本次仅取得日报资格，不自动进入周月领导简报。",
+        "scope": {
+          "technology_evidence": "正文明确近期推出千问办公，融入钉钉生态，打通企业数据库和主流即时通讯工具，整合多模态内容生成、浏览器自动化、网页制作、定时任务及Office文档处理；另披露千问Go！已推出。",
+          "value_reason": "办公产品将模型输出连接到企业数据和操作工具，使竞争焦点从生成内容转向跨系统完成任务；相较历史消费生态接入规划，本次提供了具体产品形态与执行能力组合，可供杭州企业软件和智能体团队比较集成路线，但尚无客户流程成效或收入证据。"
+        },
+        "stage": {
+          "status": "峰会展示已发生；产品据报道已推出；客户应用效果未证实",
+          "reason": "2026年11月3日对应乌镇峰会展示与发言。千问办公为近期推出、千问Go！为日前推出，具体发布日期未知，不能统一改写为11月3日发布；功能披露不等于客户部署、效率提升或商业化收入已实现。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:d52f787d1664c417",
+            "accepted_history:55d4407cf47670fe",
+            "accepted_history:39d9266c87afa2ed",
+            "accepted_history:e845bb104d6d2c78",
+            "accepted_history:ba3f39ebe5a0a0d9",
+            "accepted_history:0f12d50d3dce4aef",
+            "accepted_history:d9672401fc16d46c",
+            "prior_decision:cf3fa2122b6a981b",
+            "prior_decision:cd40d94f23ad42f3",
+            "prior_decision:792b780351fa289d",
+            "prior_decision:482faed1822835db",
+            "prior_decision:f37dd73d7d5dc7ee",
+            "prior_decision:d671cb25fa9e0c87",
+            "prior_decision:09d6d7c8b20b058d"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:cf3fa2122b6a981b",
+              "comparison": "different_event",
+              "reason": "旧裁决针对云收入和集团财务口径，不是本次办公及个人助手产品进展。"
+            },
+            {
+              "evidence_id": "prior_decision:cd40d94f23ad42f3",
+              "comparison": "different_event",
+              "reason": "该记录同样对应云业务与集团财务报道，不构成本次产品事件的重复。"
+            },
+            {
+              "evidence_id": "prior_decision:792b780351fa289d",
+              "comparison": "different_event",
+              "reason": "旧裁决为Sirchmunk检索框架开源，与千问办公、千问Go！产品事实不同。"
+            },
+            {
+              "evidence_id": "prior_decision:482faed1822835db",
+              "comparison": "new_progress",
+              "reason": "旧事件为千问Personal Agent消费生态接入规划；本次披露个人助手已推出及独立办公产品能力，是相关产品方向的实质增量，但不能据此认定旧规划中每项生态接入均已兑现。"
+            },
+            {
+              "evidence_id": "prior_decision:f37dd73d7d5dc7ee",
+              "comparison": "different_event",
+              "reason": "旧事件为玄铁E908A发布和C950优化，不涉及本次应用产品。"
+            },
+            {
+              "evidence_id": "prior_decision:d671cb25fa9e0c87",
+              "comparison": "different_event",
+              "reason": "该记录亦为玄铁处理器事件，不能与本次办公和个人助手合并去重。"
+            },
+            {
+              "evidence_id": "prior_decision:09d6d7c8b20b058d",
+              "comparison": "different_event",
+              "reason": "该记录仍对应同一玄铁处理器审核，与本次软件应用进展不同。"
+            }
+          ],
+          "change_reason": "4月模型开源与本篇同属千问生态，但本篇新增办公及个人助手产品事实，累计模型指标更新仅作背景；6月榜单、10月云收入、Sirchmunk与玄铁均是另一事件。相较10月个人Agent规划，本篇明确使用已推出措辞并披露办公功能组合，足以保留增量，不因报道日期更新而简单重收，也不推翻旧裁决。不宣称全局首次。",
+          "new_evidence_ids": [
+            "article:da86266b10106762"
+          ]
+        },
+        "evidence_ids": [
+          "article:da86266b10106762",
+          "identity_registry:2dcd4f408df25406",
+          "geo-14c3cd9f0fde5abc65811edd",
+          "geo-3e188b8e374f1021ad5a5923",
+          "history_lookup:d52f787d1664c417"
+        ],
+        "benchmark_review": {
+          "status": "confirmed",
+          "eligible": true,
+          "reason": "可复用既有明确已审的玄铁处理器IP标杆资格：历史依据包括累计支撑超过60亿颗芯片交付、200余款量产芯片及服务400余家厂商，提供了规模化授权与生态工程的独立对标基础。本篇另由蔡崇信披露千问开源规模与魔搭生态，可作模型生态建设参照。上述资格有具体业务边界，不表示千问办公或千问Go！已经证明同等成熟度。",
+          "evidence_ids": [
+            "accepted_history:d9672401fc16d46c",
+            "prior_decision:f37dd73d7d5dc7ee",
+            "article:da86266b10106762"
+          ]
+        }
+      }
+    },
     {
       "company_raw_name": "DeepSeek",
       "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
@@ -797,6 +1017,289 @@
       }
     },
     {
+      "company_raw_name": "宇树科技",
+      "identity_mentions": [
+        {
+          "name": "宇树A2",
+          "relation": "product",
+          "evidence": "宇树科技旗下北京灵翌科技队带着宇树A2机器狗出战。"
+        },
+        {
+          "name": "宇树B2",
+          "relation": "product",
+          "evidence": "本次比赛，宇树官方仅A2、B2两款四足机器人参加足式机器人竞速赛及足式机器人负重赛"
+        }
+      ],
+      "title": "机器人登泰山，宇树科技1金2银！",
+      "company": "宇树科技",
+      "score": 75,
+      "sector": "机器人／四足机器人",
+      "financing": "",
+      "source": "滨江发布",
+      "location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+      "article_location": "浙江省杭州市滨江区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "subject_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宇树科技股份有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-13a3a18a9bf559ad8bfbeaac"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+            "source_url": "https://www.unitree.com/cn/contact",
+            "checked_at": "2026-10-12T18:25:09.025885+00:00",
+            "subject": "宇树科技股份有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-35826112ed957325dfd4",
+      "company_canonical_name": "宇树科技股份有限公司",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/gWyNXeCMGaKehjh65OzGzA",
+      "article_title": "机器人登泰山，宇树科技1金2银！",
+      "event_desc": "11月2日，首届CMG世界机器人登泰山大赛在山东泰安开赛，赛道全长3.9公里、包含3100余级台阶。宇树科技旗下北京灵翌科技队使用宇树A2，以全程全自主模式获得足式机器人竞速赛冠军。上海高羿科技队使用宇树A2获得竞速赛亚军，使用宇树B2获得负重赛亚军；B2在万仙楼至斗母宫赛段有效负重66公斤，含支架实际负重74公斤。",
+      "insight": "这次比赛展示了宇树四足平台的两类山地作业基础能力：A2在连续不规则石阶上自主通行，B2承载物资登阶，分别对应山地巡检的通行需求和转运任务的载荷需求。不同团队基于宇树产品参赛，也显示其平台可供外部团队开展二次开发，但比赛表现尚不能直接外推为实际作业成效。",
+      "event_headline": "宇树A2自主登阶夺冠，B2负重登阶获亚军",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-03",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文提供宇树A2、B2参加泰山爬山赛的具体平台事实，结果分属北京灵翌、上海高羿等参赛团队，不把团队改造算法归为宇树独立研发成果。可保留四足平台在长阶梯与负重任务中的实际使用案例，不推断客户商业交付。已读历史中的G1大会集群演示、研发平台及上市行情均非本次赛事；旧行情背景排除不适用于真实产品使用。本轮历史来源元数据有缺失，仍记uncertain且不宣称首次，已有可读历史的具体差异足以支持这条窄命题。",
+      "event_headline_source": "0c25b2f8556d0b1a6ad7fda42605152cbaf07b3ee3b0abfe4fe484e240850461",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+          "source_url": "https://www.unitree.com/cn/contact",
+          "checked_at": "2026-10-12T18:25:09.025885+00:00",
+          "subject": "宇树科技股份有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "复用既有已审独立依据：宇树提供机器人本体，与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体平台能力可供杭州机器人企业比较，不以本次奖牌、上市身份或评分授予资格，也不豁免本条历史待核。",
+        "evidence_ids": [
+          "accepted_history:6bb19dad5ec85a0e",
+          "accepted_history:66d57afc72eb96ed",
+          "prior_decision:50a1ddce1e52eee4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "ffbf70d4782bcabd8b4332d9e31681b31ff386c73013d0aedda15d236c6b6001",
+        "input_row_sha256": "e0867a83b24dfe3745612ddd63eeae86fe50a86b0f5ffb352386569fa343163b",
+        "reason": "原文提供宇树A2、B2参加泰山爬山赛的具体平台事实，结果分属北京灵翌、上海高羿等参赛团队，不把团队改造算法归为宇树独立研发成果。可保留四足平台在长阶梯与负重任务中的实际使用案例，不推断客户商业交付。已读历史中的G1大会集群演示、研发平台及上市行情均非本次赛事；旧行情背景排除不适用于真实产品使用。本轮历史来源元数据有缺失，仍记uncertain且不宣称首次，已有可读历史的具体差异足以支持这条窄命题。",
+        "scope": {
+          "technology_evidence": "正文记载北京灵翌科技队使用宇树A2，以全程全自主模式在连续不规则石阶赛道取得竞速冠军；上海高羿科技队使用A2获竞速亚军，使用B2获负重赛亚军，B2在指定赛段有效负重66公斤、含支架实际负重74公斤。",
+          "value_reason": "A2自主登阶与B2带载登阶分别为山地巡检通行和物资转运提供能力观察依据；外部团队自行开发参赛体现平台的开发利用方式。比赛条件下的表现不能直接外推实际作业可靠性、商业订单或交付成效，负重赛段也不能等同整条3.9公里赛道。"
+        },
+        "stage": {
+          "status": "已完成比赛及特定条件下的产品能力展示",
+          "reason": "正文记载11月2日比赛及已取得名次，未在该句独立明写年份；新闻于2026年11月3日发布，首次收录时间未知。自主运行方式和载荷数据为报道所述比赛表现，山地巡检、物资转运是应用方向，不是已完成的客户作业。"
+        },
+        "history": {
+          "result": "uncertain",
+          "evidence_ids": [
+            "history_lookup:d52f787d1664c417",
+            "accepted_history:721cabb6862eed6f",
+            "accepted_history:a9601bf5150693fb",
+            "accepted_history:66d57afc72eb96ed",
+            "prior_decision:e7972ca26fc649dd",
+            "prior_decision:50a1ddce1e52eee4",
+            "prior_decision:60d0af6076425c2b",
+            "prior_decision:a28bb8fc265254f6",
+            "prior_decision:710f3a761425dd6c",
+            "prior_decision:584dcae82d9d7587",
+            "prior_decision:dc6a2b9dbc1f2af6",
+            "prior_decision:6b8d7a72b4139272",
+            "prior_decision:1e52d625556c3dc8",
+            "prior_decision:30d7fae7b1c99715",
+            "prior_decision:946bbcee8f87f0f4",
+            "prior_decision:bf02da706389889a",
+            "prior_decision:f58106869f28b2b2",
+            "prior_decision:d2e41dd5d05140c6",
+            "prior_decision:6216296ed33fe5fc",
+            "prior_decision:34ee5164252013f7",
+            "prior_decision:fe7908a1a2810c2a",
+            "prior_decision:9acc515fa8db258b",
+            "prior_decision:358cde0531df7c02",
+            "historical_input:246ab5cdefd2d623",
+            "historical_plan:251a2d2f16d5896b"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:e7972ca26fc649dd",
+              "comparison": "different_event",
+              "reason": "北京、上海体验渠道及Go2家庭购买教学，与泰山A2竞速和B2负重比赛不同。"
+            },
+            {
+              "evidence_id": "prior_decision:50a1ddce1e52eee4",
+              "comparison": "different_event",
+              "reason": "天津机器人展示中心投用，不涉及本次赛事及其能力数据。"
+            },
+            {
+              "evidence_id": "prior_decision:60d0af6076425c2b",
+              "comparison": "different_event",
+              "reason": "10月22日G1大会集群演示与四足机器人泰山比赛的产品、场合和任务均不同。"
+            },
+            {
+              "evidence_id": "prior_decision:a28bb8fc265254f6",
+              "comparison": "different_event",
+              "reason": "外部通用模型绘画实测，不是A2自主登阶或B2负重比赛，本条不解决旧实测条件缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:710f3a761425dd6c",
+              "comparison": "different_event",
+              "reason": "杉宇·创计划合作框架，不是机器人比赛或产品性能事实。"
+            },
+            {
+              "evidence_id": "prior_decision:584dcae82d9d7587",
+              "comparison": "different_event",
+              "reason": "此前排除的是将数据服务行业压力及股价背景归于宇树的候选，不能据此排除本次有独立产品事实的赛事。"
+            },
+            {
+              "evidence_id": "prior_decision:dc6a2b9dbc1f2af6",
+              "comparison": "different_event",
+              "reason": "三季报经营指标待核，与本次竞速及负重比赛没有相同事件事实。"
+            },
+            {
+              "evidence_id": "prior_decision:6b8d7a72b4139272",
+              "comparison": "different_event",
+              "reason": "另一篇同一三季报披露候选，不是泰山比赛，财报待核不影响本条技术价值判断。"
+            },
+            {
+              "evidence_id": "prior_decision:1e52d625556c3dc8",
+              "comparison": "different_event",
+              "reason": "已保留的研发客户采购、关节可靠性优化及软件平台事项，不证明本次比赛已收录，也不直接批准本条。"
+            },
+            {
+              "evidence_id": "prior_decision:30d7fae7b1c99715",
+              "comparison": "different_event",
+              "reason": "为上述研发平台同一旧候选的另一采信留痕，与本次赛事不同。"
+            },
+            {
+              "evidence_id": "prior_decision:946bbcee8f87f0f4",
+              "comparison": "different_event",
+              "reason": "DeepSeek战略配售和模型合作约定，不涉及本次比赛，不能据比赛推断合作履行。"
+            },
+            {
+              "evidence_id": "prior_decision:bf02da706389889a",
+              "comparison": "different_event",
+              "reason": "北京、上海门店与消费案例的重复裁决留痕，不是本次赛事。"
+            },
+            {
+              "evidence_id": "prior_decision:f58106869f28b2b2",
+              "comparison": "different_event",
+              "reason": "仍为门店与Go2消费案例，不因同属四足机器人应用而合并事件。"
+            },
+            {
+              "evidence_id": "prior_decision:d2e41dd5d05140c6",
+              "comparison": "different_event",
+              "reason": "天津展示中心旧候选的再次留痕，与泰山自主竞速及负重比赛不同。"
+            },
+            {
+              "evidence_id": "prior_decision:6216296ed33fe5fc",
+              "comparison": "different_event",
+              "reason": "通用模型绘画实测的重复裁决留痕，不是本次自主登阶事实。"
+            },
+            {
+              "evidence_id": "prior_decision:34ee5164252013f7",
+              "comparison": "different_event",
+              "reason": "杉宇联合计划的重复裁决留痕，与本次比赛没有同事件关系。"
+            },
+            {
+              "evidence_id": "prior_decision:fe7908a1a2810c2a",
+              "comparison": "different_event",
+              "reason": "与另一排除记录同属数据行业压力及上市行情背景候选，本次赛事不构成对该排除事件的改判。"
+            },
+            {
+              "evidence_id": "prior_decision:9acc515fa8db258b",
+              "comparison": "different_event",
+              "reason": "三季报经营承压事项的重复留痕，与本次产品比赛不同。"
+            },
+            {
+              "evidence_id": "prior_decision:358cde0531df7c02",
+              "comparison": "different_event",
+              "reason": "另一三季报候选的重复留痕，不是本次A2、B2赛事记录。"
+            }
+          ],
+          "change_reason": "已展示历史中的参访、IPO、融资、标准、模型合作、研发平台及商业渠道均为其他事件；8月运动性能发布涉及人形机器人，10月广州塔部署涉及展演，也不等同本次四足机器人泰山竞速及负重任务。当前正文增加特定赛事、自主运行方式和指定赛段载荷事实，但本次检索两条错误记录指向同一历史来源缺失，不能将可见记录无匹配宣称为完整去重或首次发现。本轮不改判任何旧事件，待恢复同赛事历史后确定新增性。 主Agent进一步读取10月25日原input与plan：G1人形集群演示在10月22日大会发生；本条是11月2日泰山A2/B2四足赛事，产品与事件均不同。旧元数据缺口保留，未重绑旧审批；不以该无关缺口阻断本次有正文的产品场景观察。",
+          "new_evidence_ids": [
+            "article:de9d9bc206e87274"
+          ]
+        },
+        "evidence_ids": [
+          "article:de9d9bc206e87274",
+          "identity_registry:2dcd4f408df25406",
+          "geo-13a3a18a9bf559ad8bfbeaac",
+          "history_lookup:d52f787d1664c417",
+          "historical_input:246ab5cdefd2d623",
+          "historical_plan:251a2d2f16d5896b"
+        ],
+        "benchmark_review": {
+          "status": "confirmed",
+          "eligible": true,
+          "reason": "复用既有已审独立依据：宇树提供机器人本体，与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体平台能力可供杭州机器人企业比较，不以本次奖牌、上市身份或评分授予资格，也不豁免本条历史待核。",
+          "evidence_ids": [
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:66d57afc72eb96ed",
+            "prior_decision:50a1ddce1e52eee4"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "浙江晶睿电子科技有限公司",
       "identity_mentions": [
         {
@@ -1012,304 +1515,22 @@
       "selection_reason": "已完整复读恢复的36氪转载正文。Google DeepMind为世界模型开发方，Genie 4为产品，Gemini、Apollo及UR5为配合演示的模型或机器人，不能拆成另几家企业进展。正文具体说明原生音频、实时改写环境及规划模型参与多步骤模拟，能够为杭州世界模型和机器人企业提供交互测试环境的技术对标，不依赖企业知名度或评分。新闻发布于2026-10-28，处七日窗口；事件报道为当日发布。正文同时出现申请内测和已开放的表述，因此仅采信预览发布及申请测试，不写为API全面商用、机器人已实际部署或仿真效果已迁移真实世界。官方链接本轮取证TLS失败，不据搜索摘要扩大其公开可用范围。按所述主体检索未匹配历史，另对最近日报和审阅中Genie 4作精确检索未发现已采信同事件，不宣称全球首次披露。普通属地未核不阻断此正面技术线索，且不授予杭州主体或标杆标签。"
     },
     {
-      "company_raw_name": "Corgi",
-      "title": "00后女生，估值300亿",
-      "company": "Corgi",
-      "score": 50,
-      "sector": "AI保险科技",
-      "financing": "据文章援引《福布斯》报道，最新完成6400万美元B轮扩展融资，估值50亿美元；该轮投资方及资金用途未披露。",
-      "source": "投资界",
-      "location": "US",
-      "article_location": "硅谷（文中经营地语境，未明确注册地或总部）",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "US",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-e71bc0e95965db3165dbb4a8"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "Corgi",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-e71bc0e95965db3165dbb4a8",
-            "source_url": "https://mp.weixin.qq.com/s/mQo7E-jZJNo-YShmlUEsVQ",
-            "checked_at": "2026-11-01T10:45:59+00:00",
-            "subject": "Corgi",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "US"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "US",
-          "evidence_ids": [
-            "geo-e71bc0e95965db3165dbb4a8"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-54b6ca6e5c7e0eb7e2e0",
-      "company_canonical_name": "Corgi",
-      "identity_status": "unresolved",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/mQo7E-jZJNo-YShmlUEsVQ",
-      "article_title": "00后女生，估值300亿",
-      "event_desc": "文章援引美国《福布斯》披露，Corgi已完成6400万美元B轮扩展融资，估值达到50亿美元。公司面向初创企业提供商业保险，利用AI支持报价、工作流程评估、保险定价及理赔等环节。文章称，公司于2025年7月取得监管批准开业。",
-      "insight": "Corgi值得关注的变化，是从保险经纪转向承保商，试图将AI从销售报价延伸到保险产品定价与理赔流程，使技术直接参与保险产品的设计和运营。其创业者咖啡馆提供了接近目标客户的入口，但获客优势与承保质量是两项不同能力，后者需结合实际赔付及风险管理表现继续研究。",
-      "event_headline": "Corgi据报道完成6400万美元扩展融资，估值达50亿美元",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-01",
-        "event_date": null,
-        "observed_date": "2026-11-01",
-        "review_required": true
-      },
-      "published_date": "2026-11-01",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "投资界全文明确Corgi为面向初创公司的商业保险提供方，AI参与报价、工作流程评估、定价及理赔，并援引福布斯报道其完成6400万美元B轮扩展融资、估值50亿美元。融资与具体保险技术产品和运营流程直接关联，具有AI改造专业服务的产业观察价值，不要求另有技术突破或已披露资金用途。新闻发布回执为2026-11-01T08:19:00Z，满足七日窗口；融资实际完成日未知。历史同名候选的成立年份、AI商业保险业务及五月B轮、B1轮金额和估值均与本文回顾对应，足以进行事件比较，但不据此升级未决法人登记。6400万美元扩展融资不同于历史1.06亿美元B1轮，不按旧融资重复排除；仅以媒体转述强度保留。美国经营归属有正文依据，注册地和总部仍未知，不影响正面发现，也不赋予杭州预警资格。",
-      "event_headline_source": "391aecdd850b931b26210e0240abd738c178bdfdc25bf4af3313162df33a7e21",
-      "location_status": "discovery_confirmed",
-      "region_classification": "foreign",
-      "location_basis": [
+      "company_raw_name": "杭州四维",
+      "identity_mentions": [
         {
-          "evidence_id": "geo-e71bc0e95965db3165dbb4a8",
-          "source_url": "https://mp.weixin.qq.com/s/mQo7E-jZJNo-YShmlUEsVQ",
-          "checked_at": "2026-11-01T10:45:59+00:00",
-          "subject": "Corgi",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "US"
-          }
+          "name": "灵境星座",
+          "relation": "product",
+          "evidence": "2026年9月杭州四维全球首发的“灵境星座”，规划1000颗在轨算力卫星"
         }
       ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "历史is_national_star及“赛道正确”的审核语句没有给出独立行业地位依据，不能作为免审资格。当前报道提供具体AI保险业务和融资，但未提供可比承保质量、经核实市场地位或独立技术表现，不据此建立全国标杆资格，也不批量改写历史标签。",
-        "evidence_ids": [
-          "article:02b16dc66e979399",
-          "accepted_history:97ef64c849c907e1"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "current-task Agent: quality_inspector continuation and targeted editorial review",
-        "candidate_id": "e11c797a1fdd658ca4f8cd8da8303259165f052f61bcdfb2748e84f99b821b54",
-        "input_row_sha256": "e05aeff410de77fac1916f95e8ee5b01886ef6ba021f35720208abd25bafaeb4",
-        "reason": "投资界全文明确Corgi为面向初创公司的商业保险提供方，AI参与报价、工作流程评估、定价及理赔，并援引福布斯报道其完成6400万美元B轮扩展融资、估值50亿美元。融资与具体保险技术产品和运营流程直接关联，具有AI改造专业服务的产业观察价值，不要求另有技术突破或已披露资金用途。新闻发布回执为2026-11-01T08:19:00Z，满足七日窗口；融资实际完成日未知。历史同名候选的成立年份、AI商业保险业务及五月B轮、B1轮金额和估值均与本文回顾对应，足以进行事件比较，但不据此升级未决法人登记。6400万美元扩展融资不同于历史1.06亿美元B1轮，不按旧融资重复排除；仅以媒体转述强度保留。美国经营归属有正文依据，注册地和总部仍未知，不影响正面发现，也不赋予杭州预警资格。",
-        "scope": {
-          "technology_evidence": "全文描述AI用于商业保险报价、流程评估、产品定价和理赔，服务包括网络安全险、责任险等，并报道企业由经纪模式向承保商转型及取得监管批准开业。",
-          "value_reason": "本条提供AI从销售辅助深入保险定价和赔付流程的具体商业化路径，以及相关企业新增资本节点。对杭州同类企业的参考在于技术是否真正进入专业业务决策，而非咖啡馆流量或高估值；进一步研究应区分保费、经纪收入与承保收入，并核对风险承担安排及赔付表现。"
-        },
-        "stage": {
-          "status": "媒体援引福布斯报道融资已完成；承保转型及监管开业为报道事实",
-          "reason": "本文使用“已完成”描述6400万美元扩展融资，但未提供融资交割日期、投资方或用途，不能补造。2025年7月监管批准开业为本文陈述，不等于已独立核验承保法人和牌照范围；AI支持流程不证明完全无人化、盈利或承保质量已验证。"
-        },
-        "history": {
-          "result": "new_progress",
-          "evidence_ids": [
-            "history_lookup:3ffe8fa169e4b700",
-            "accepted_history:97ef64c849c907e1"
-          ],
-          "prior_decisions": [],
-          "change_reason": "已收录候选为2026年5月的1.06亿美元B1轮、26亿美元估值，并回顾此前1.6亿美元B轮；本文逐项复述上述融资序列后，另报道6400万美元B轮扩展融资、50亿美元估值，构成同一业务主体候选的资本成长增量，不把五月旧轮次重新计入。输入无此前排除裁决、无历史读取错误；同主体关联依据不仅是名称，还包括成立年份、业务及吻合的融资序列。保留现有稳定ID及unresolved登记状态，不认定历史首次发现。",
-          "new_evidence_ids": [
-            "article:02b16dc66e979399"
-          ]
-        },
-        "evidence_ids": [
-          "article:02b16dc66e979399",
-          "accepted_history:97ef64c849c907e1",
-          "geo-e71bc0e95965db3165dbb4a8",
-          "history_lookup:3ffe8fa169e4b700"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "历史is_national_star及“赛道正确”的审核语句没有给出独立行业地位依据，不能作为免审资格。当前报道提供具体AI保险业务和融资，但未提供可比承保质量、经核实市场地位或独立技术表现，不据此建立全国标杆资格，也不批量改写历史标签。",
-          "evidence_ids": [
-            "article:02b16dc66e979399",
-            "accepted_history:97ef64c849c907e1"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "芯寒智能",
-      "title": "县里“长”出AI链",
-      "company": "芯寒智能",
-      "score": 50,
-      "sector": "算力基础设施与液冷散热",
+      "title": "航天版图上的杭州：“来晚了”怎么找位置？",
+      "company": "杭州四维",
+      "score": 60,
+      "sector": "商业航天／太空算力",
       "financing": "",
       "source": "涌金楼",
-      "location": "浙江省 / 嘉兴市",
-      "article_location": "浙江桐乡（经营落地语境，未明确注册地或主要总部）",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "浙江省 / 嘉兴市",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-848c3c861d16173aac958af2"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "芯寒智能",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-848c3c861d16173aac958af2",
-            "source_url": "https://www.163.com/dy/article/K5345MO20519QIKK.html",
-            "checked_at": "2026-10-20T02:33:18.853282+00:00",
-            "subject": "芯寒智能",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "浙江省",
-              "city": "嘉兴市"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "浙江省",
-          "city": "嘉兴市",
-          "evidence_ids": [
-            "geo-848c3c861d16173aac958af2"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-d7bc960fea5aa8234128",
-      "company_canonical_name": "芯寒智能",
-      "identity_status": "unresolved",
-      "event_type": "技术产品",
-      "link": "https://mp.weixin.qq.com/s/gjLgZ0LE66q4Smq_1NDhxQ",
-      "article_title": "县里“长”出AI链",
-      "event_desc": "涌金楼报道，芯寒智能研发两相相变液冷技术，称单芯片散热能力达3000瓦以上、可帮助数据中心节省超过30%电费；乌镇之光超算中心与联通智算中心为团队提供应用场景。正文未披露指标测试条件、客户采购或规模部署情况。",
-      "insight": "芯寒智能切入的是高功率芯片能否有效排热这一算力基础设施环节，而非芯片设计本身。本地超算、智算中心提供了与产品直接相关的应用场景；节电幅度仍需结合测试负载和对照系统理解。",
-      "event_headline": "芯寒智能据报道研发两相相变液冷技术，获本地算力应用场景支持",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-01",
-        "event_date": null,
-        "observed_date": "2026-11-01",
-        "review_required": true
-      },
-      "published_date": "2026-11-01",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "完整正文直接将两相相变液冷技术归于芯寒智能，给出单芯片散热能力及数据中心应用场景，不是名单式提及。2026年11月1日新闻发布时间满足窗口，具体研发完成日未知不影响作为技术产品发现线索保留。嘉兴经营归属已有同主体证据，不能因注册或总部未核而拒绝正面发现。registry的unresolved状态不改写为已确认法律身份，也不将浙大团队或应用场景提供方并入企业。原文性能和节电数字缺测试条件，按报道指标呈现，不认定独立验证、客户采购或规模部署。",
-      "event_headline_source": "86fbd4bf0e08a1eacaecadb23317979adf62ed01db36743a0eb3050eac0a36b5",
-      "event_identity": {
-        "canonical_id": "芯寒智能研发两相相变液冷技术，文章称其单芯片散热能力达3000瓦以上，能帮助数据中心节省超过30%的电费。乌镇之光超算中心与联通智算中心为其提供应用场景。"
-      },
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-848c3c861d16173aac958af2",
-          "source_url": "https://www.163.com/dy/article/K5345MO20519QIKK.html",
-          "checked_at": "2026-10-20T02:33:18.853282+00:00",
-          "subject": "芯寒智能",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "CN",
-            "province": "浙江省",
-            "city": "嘉兴市"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "单篇报道的散热指标及应用场景足以支持产品线索，但缺少可比测试、行业地位或规模化客户应用的独立证据，尚不能建立全国标杆资格。",
-        "evidence_ids": [
-          "article:82e359e2ea487aa6"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "current-task Agent: quality_inspector continuation and targeted editorial review",
-        "candidate_id": "7afd98c24931c5f0533112d8d3f8fb983b3e25bfd52a36097a07175b8ae51fd6",
-        "input_row_sha256": "0a84d269210ac58497d9eec6ab2b043884f3766f184c06f8ca66229ab9d9e0ff",
-        "reason": "完整正文直接将两相相变液冷技术归于芯寒智能，给出单芯片散热能力及数据中心应用场景，不是名单式提及。2026年11月1日新闻发布时间满足窗口，具体研发完成日未知不影响作为技术产品发现线索保留。嘉兴经营归属已有同主体证据，不能因注册或总部未核而拒绝正面发现。registry的unresolved状态不改写为已确认法律身份，也不将浙大团队或应用场景提供方并入企业。原文性能和节电数字缺测试条件，按报道指标呈现，不认定独立验证、客户采购或规模部署。",
-        "scope": {
-          "technology_evidence": "正文明确称芯寒智能研发两相相变液冷技术，单芯片散热能力达3000瓦以上，并称可帮助数据中心节省超过30%电费；乌镇之光超算中心和联通智算中心为团队提供应用场景。",
-          "value_reason": "其产品直接对应高功率计算芯片的散热瓶颈，具有算力基础设施关键配套价值。地方超算和智算场景与散热研发之间的连接，可供杭州比较场景开放如何支持技术验证；报道尚不能证明两中心已采购或实现相应节电效果。"
-        },
-        "stage": {
-          "status": "reported_technology_capability_with_application_scenarios",
-          "reason": "原文披露研发技术、性能主张和可用应用场景，未交代测试负载、对照系统、研发完成日或量产交付情况。不能将其标成当日技术突破，也不能把超过30%的电费节省推广为所有数据中心的已验证结果。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:3ffe8fa169e4b700"
-          ],
-          "prior_decisions": [],
-          "change_reason": "所给同主体历史检索无已收录、待核或排除事件，未报告检索错误。2025年地点证据只用于经营归属，不证明该液冷技术此前已收录；据可用历史保留发现线索，不宣称技术刚发生或全库首次发现。",
-          "new_evidence_ids": [
-            "article:82e359e2ea487aa6"
-          ]
-        },
-        "evidence_ids": [
-          "article:82e359e2ea487aa6",
-          "geo-848c3c861d16173aac958af2",
-          "identity_registry:2dcd4f408df25406",
-          "history_lookup:3ffe8fa169e4b700"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "单篇报道的散热指标及应用场景足以支持产品线索，但缺少可比测试、行业地位或规模化客户应用的独立证据，尚不能建立全国标杆资格。",
-          "evidence_ids": [
-            "article:82e359e2ea487aa6"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "大衍科技",
-      "title": "县里“长”出AI链",
-      "company": "大衍科技",
-      "score": 50,
-      "sector": "具身智能与触觉数据采集",
-      "financing": "文章称创始团队去年到桐乡，在当地获得500万元天使轮融资基金；未披露具体投资方及精确日期。",
-      "source": "涌金楼",
       "location": "地点待核",
-      "article_location": "浙江桐乡（已落实经营场地，未明确注册地或主要总部）",
+      "article_location": "杭州市（按全文杭州产业布局语境认定，未披露注册地或总部地址）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
@@ -1319,7 +1540,7 @@
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "大衍科技",
+        "subject": "杭州四维",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
@@ -1328,35 +1549,36 @@
         },
         "basis": []
       },
-      "company_entity_id": "dr-u-f7e9be79cc3c14bd0155",
-      "company_canonical_name": "大衍科技",
+      "company_entity_id": "dr-u-924c561066324546d939",
+      "company_canonical_name": "杭州四维",
       "identity_status": "unresolved",
-      "event_type": "产品研发与制造工艺进展",
-      "link": "https://mp.weixin.qq.com/s/gjLgZ0LE66q4Smq_1NDhxQ",
-      "article_title": "县里“长”出AI链",
-      "event_desc": "大衍科技搭建具身智能训练场，通过自研触觉手套收集机器人操作数据。团队对接桐乡本土纺织研发制造资源，借助刺绣工艺解决将数百个传感器缝入手套的工艺难题，手套最薄处仅0.5毫米。文章还披露，其创始团队去年到桐乡，并获得500万元天使轮融资基金。",
-      "insight": "大衍科技将本地纺织工艺用于触觉传感器集成，说明传统制造能力能够直接参与具身智能采数设备的研发。现有进展主要落在手套的轻薄化与制造工艺，下一步值得辨别的是这些改进如何影响触觉数据质量和操作灵活性。",
-      "event_headline": "大衍科技借助本土刺绣工艺，推进机器人触觉手套研发",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/MP5Gwytm2jHjXlp7Hp7RWg",
+      "article_title": "航天版图上的杭州：“来晚了”怎么找位置？",
+      "event_desc": "据报道，杭州四维于2026年9月发布“灵境星座”，规划1000颗在轨算力卫星。",
+      "insight": "“灵境星座”将杭州四维的产品布局指向在轨计算网络，而不只是单颗卫星。千颗规模体现部署设想，但原文未披露其卫星计算任务、组网方式或已部署数量，目前能够确认的是方案发布。",
+      "event_headline": "杭州四维2026年9月发布灵境星座，规划千颗算力卫星",
       "event_signal": "material",
       "is_national_star": false,
       "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-01",
+        "status": "event_month_known",
+        "description": "原文明确事件发生于2026年9月，具体日未知；新闻发布于2026年11月3日，不能将新闻日期替代方案发布日期。",
         "event_date": null,
-        "observed_date": "2026-11-01",
-        "review_required": true
+        "event_month": "2026-09",
+        "observed_date": "2026-11-03",
+        "review_required": false
       },
-      "published_date": "2026-11-01",
+      "published_date": "2026-11-03",
       "publication_basis": "采集源保留的发布时间",
       "selection_recommendation": "keep",
-      "selection_reason": "已提供完整正文，明确大衍科技是触觉手套自研及具身智能采数主体，并通过首席研究员采访说明纺织刺绣工艺参与传感器集成，具有具体产品研发与制造协同价值。正文明确团队在桐乡落实经营场地，可确认报道中的桐乡经营联系，不据此认定注册地或总部。稳定主体ID沿用输入，工商身份未解析不扩展为其他法人。发布证据为2026-11-01，处于最近7天窗口，上游称发布时间缺失不成立。具体研发日期未知，融资保留原文时间表述，不认定本日新发生。历史检索无匹配收录或旧裁决，按本轮新事件线索保留，不宣称首次发现。",
-      "event_headline_source": "4cf57e97216a49dfd146538c310fdbc624c630531027a04fcf75b68fa21181ef",
-      "location_basis": [],
+      "selection_reason": "原文明确将杭州四维列为2026年9月灵境星座的发布主体，灵境星座是其星座方案，不与之江实验室或三体计算星座合并。2026年11月3日的新闻发布时间符合最近7天窗口，事件发生于9月不构成排除理由。规划千颗在轨算力卫星具有直接科技产品关联，可保留为方案发布线索，不能写成已发射千颗或已形成运营网络。历史检索未返回同事件或旧裁决，不宣称全库首次发现。全文杭州产业布局语境支持正面发现关联，但不据企业简称确认法定主体全称、注册地或总部地，保留既有身份状态。",
+      "event_headline_source": "f4bc729f3768121341a893ebfcd4ae981fbb9e862b3937a555d17615475460f4",
       "location_status": "unknown",
+      "location_basis": [],
       "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
       "location_candidates": [
         {
-          "value": "浙江桐乡（已落实经营场地，未明确注册地或主要总部）",
+          "value": "杭州市（按全文杭州产业布局语境认定，未披露注册地或总部地址）",
           "status": "article_candidate_only",
           "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
         }
@@ -1364,191 +1586,156 @@
       "benchmark_review": {
         "status": "not_qualified",
         "eligible": false,
-        "reason": "正文支持具体触觉产品及工艺进展，但未建立全国行业地位、领先性或可比竞争优势，尚不足以授予全国标杆资格。",
+        "reason": "方案发布及规划规模不足以证明企业行业地位、实际部署能力或可供杭州复用的成熟实践。",
         "evidence_ids": [
-          "article:82e359e2ea487aa6"
+          "article:da3cd80322d44847"
         ]
       },
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "current-task Agent: quality_inspector continuation and targeted editorial review",
-        "candidate_id": "bc95fd7fd0072ee66bd1cac1f66d2b97b6104f8a79913d25109cb499f42baba4",
-        "input_row_sha256": "f3542b8a6892961f5718b10a3c6a0af39b351df199d80b8217d25e8464fdc22e",
-        "reason": "已提供完整正文，明确大衍科技是触觉手套自研及具身智能采数主体，并通过首席研究员采访说明纺织刺绣工艺参与传感器集成，具有具体产品研发与制造协同价值。正文明确团队在桐乡落实经营场地，可确认报道中的桐乡经营联系，不据此认定注册地或总部。稳定主体ID沿用输入，工商身份未解析不扩展为其他法人。发布证据为2026-11-01，处于最近7天窗口，上游称发布时间缺失不成立。具体研发日期未知，融资保留原文时间表述，不认定本日新发生。历史检索无匹配收录或旧裁决，按本轮新事件线索保留，不宣称首次发现。",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "d037f2dfd032db5d2918564f778154c743b3e729474defdb951124bdd20b380b",
+        "input_row_sha256": "a26c97226ffb1ea404c80f6be9a71ef466b7b66fcc45c2f2f53e1a76b16365aa",
+        "reason": "原文明确将杭州四维列为2026年9月灵境星座的发布主体，灵境星座是其星座方案，不与之江实验室或三体计算星座合并。2026年11月3日的新闻发布时间符合最近7天窗口，事件发生于9月不构成排除理由。规划千颗在轨算力卫星具有直接科技产品关联，可保留为方案发布线索，不能写成已发射千颗或已形成运营网络。历史检索未返回同事件或旧裁决，不宣称全库首次发现。全文杭州产业布局语境支持正面发现关联，但不据企业简称确认法定主体全称、注册地或总部地，保留既有身份状态。",
         "scope": {
-          "technology_evidence": "正文称大衍科技搭建具身智能训练场，通过自研触觉手套收集机器人操作数据；将数百个传感器缝入手套，最薄处仅0.5毫米，并借助桐乡本土纺织刺绣工艺找到集成难题的突破路径。",
-          "value_reason": "关注点是传统纺织精细加工能力如何解决具身智能采数硬件的传感器集成问题，可为杭州触觉设备研发与制造资源对接提供具体参照；现有证据尚不证明数据精度提升、规模量产或收入形成。报道披露的500万元天使轮融资亦构成早期资本成长线索，不补造资金用途。"
+          "technology_evidence": "原文明确披露：2026年9月杭州四维发布灵境星座，规划1000颗在轨算力卫星。",
+          "value_reason": "该事实提供了企业进入在轨计算星座布局的具体线索，值得进一步读取发布材料以区分计算任务、组网方案及部署阶段。当前价值在于识别潜在技术供给主体与产品方向，不在于千颗规划已经形成算力或收入。"
         },
         "stage": {
-          "status": "已开展采数演示与制造工艺改进；融资据报道已获得",
-          "reason": "正文描述训练场及机器人戴手套捏生鸡蛋采数，并称已借助刺绣工艺找到突破路径，不能升级为经独立验证的技术突破或量产。报道将团队到桐乡表述为“去年”，随后称拿到500万元天使轮融资基金，未提供融资精确日期。"
+          "status": "方案已发布，星座部署处于规划表述",
+          "reason": "发布时间对应事件为2026年9月，具体日未知；1000颗是规划数量。文章未证明已部署数量、在轨计算性能、客户订单或商业运营。"
         },
         "history": {
           "result": "new_event",
           "evidence_ids": [
-            "history_lookup:3ffe8fa169e4b700"
+            "history_lookup:08967eba06b686ac"
           ],
           "prior_decisions": [],
-          "change_reason": "输入同主体accepted_history与prior_decisions均为空，检索未报告错误；没有可判为同事件重复、旧排除或实质增量的历史项。new_event仅表示本轮未匹配既有事件，不证明全库首次发现。",
+          "change_reason": "本包未返回该主体的已收录事件或旧裁决，且无读取错误，按现有检索范围内未匹配事件处理。与同篇箭元科技的基地及运载火箭事实属于不同主体、不同事件，不按文章URL合并。",
           "new_evidence_ids": [
-            "article:82e359e2ea487aa6"
+            "article:da3cd80322d44847"
           ]
         },
         "evidence_ids": [
-          "article:82e359e2ea487aa6",
-          "history_lookup:3ffe8fa169e4b700"
+          "article:da3cd80322d44847",
+          "history_lookup:08967eba06b686ac"
         ],
         "benchmark_review": {
           "status": "not_qualified",
           "eligible": false,
-          "reason": "正文支持具体触觉产品及工艺进展，但未建立全国行业地位、领先性或可比竞争优势，尚不足以授予全国标杆资格。",
+          "reason": "方案发布及规划规模不足以证明企业行业地位、实际部署能力或可供杭州复用的成熟实践。",
           "evidence_ids": [
-            "article:82e359e2ea487aa6"
+            "article:da3cd80322d44847"
           ]
         }
       }
     },
     {
-      "company_raw_name": "福瑞泰克",
-      "title": "县里“长”出AI链",
-      "company": "福瑞泰克",
-      "score": 50,
-      "sector": "智能驾驶解决方案",
+      "company_raw_name": "享映视界",
+      "title": "又一部临平出品！正式上线红果、抖音！",
+      "company": "享映视界",
+      "score": 60,
+      "sector": "AI影视制作与动态漫",
       "financing": "",
-      "source": "涌金楼",
-      "location": "浙江省 / 嘉兴市 / 桐乡市",
-      "article_location": "浙江桐乡（原文明确团队落户，未明确注册地或主要总部）",
+      "source": "临平发布",
+      "location": "地点待核",
+      "article_location": "杭州市临平区（原文明示本土企业归属，未披露注册地或主要总部地址）",
       "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "浙江省 / 嘉兴市 / 桐乡市",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-2db8f1fa17f3de5d43ee3917"
-        ],
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
         "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "福瑞泰克",
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "享映视界",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": [
-          {
-            "evidence_id": "geo-2db8f1fa17f3de5d43ee3917",
-            "source_url": "https://mp.weixin.qq.com/s/gjLgZ0LE66q4Smq_1NDhxQ",
-            "checked_at": "2026-11-01T10:31:16+00:00",
-            "subject": "福瑞泰克",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "浙江省",
-              "city": "嘉兴市",
-              "district": "桐乡市"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "浙江省",
-          "city": "嘉兴市",
-          "district": "桐乡市",
-          "evidence_ids": [
-            "geo-2db8f1fa17f3de5d43ee3917"
-          ]
-        }
+        "basis": []
       },
-      "company_entity_id": "dr-u-c25ed092f7fdc13ec134",
-      "company_canonical_name": "福瑞泰克",
+      "company_entity_id": "dr-u-268c1e29601e74117213",
+      "company_canonical_name": "享映视界",
       "identity_status": "unresolved",
-      "event_type": "战略合作",
-      "link": "https://mp.weixin.qq.com/s/gjLgZ0LE66q4Smq_1NDhxQ",
-      "article_title": "县里“长”出AI链",
-      "event_desc": "福瑞泰克与尚元智行展开合作，其车载算法已嵌入尚元智行的无人小车并运行。文章还披露，福瑞泰克的智能驾驶方案获得330多个量产定点项目，与数十家车企合作；团队于2016年乌镇峰会后落户桐乡。",
-      "insight": "福瑞泰克既有车企量产定点积累，此次又将车载算法接入尚元智行的无人小车，体现了与本地车辆平台的实际协作。该案例值得研究的是算法在具体车辆和任务中如何适配，不能由一次运行直接推定跨场景通用能力。",
-      "event_headline": "福瑞泰克车载算法接入尚元智行无人小车，展开本地合作",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/rpQQ5iMDva_QF_KDa29Xtg",
+      "article_title": "又一部临平出品！正式上线红果、抖音！",
+      "event_desc": "享映视界与嘉兴华数联合出品的足球励志AI动态漫微短剧《奔跑吧！林小北》已在红果、抖音上线。享映视界参与该项目的创意生成、剧本开发及制片工作，将原创故事与AI视觉生产相结合。原文另披露，公司业务涵盖剧本开发、联合出品、后期制作及AI动态漫生产，目前月产能已突破1000分钟。",
+      "insight": "这次上线展示了享映视界把原创剧本与AI视觉生产衔接、推进到平台发行的内容交付能力，其角色不只是提供制作环节，而是同时参与创意开发和制片。原文尚未披露具体AI工具或自研技术，因此更适合将其理解为AI内容生产与项目组织能力的进展，而非底层技术突破。",
+      "event_headline": "享映视界联合出品足球题材AI动态漫，上线红果和抖音",
       "event_signal": "material",
       "is_national_star": false,
       "event_time_evidence": {
         "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-01",
+        "description": "事件日期未明确；报道日为 2026-11-03",
         "event_date": null,
-        "observed_date": "2026-11-01",
+        "observed_date": "2026-11-03",
         "review_required": true
       },
-      "published_date": "2026-11-01",
+      "published_date": "2026-11-03",
       "publication_basis": "采集源保留的发布时间",
       "selection_recommendation": "keep",
-      "selection_reason": "完整正文直接证明福瑞泰克提供车载算法并接入尚元智行无人小车运行，具备独立实质角色。330多个量产定点项目及数十家合作车企是其既有业务积累，不等于此次无人小车合作已量产或交付。新闻于2026-11-01发布，满足最近7天窗口；2016年仅对应团队落户背景，不能作为本次合作日期，合作发生日及首次收录时间未知。正文和已存证据支持桐乡落户经营，不证明集团注册地或主要总部。稳定主体标识沿用输入，不将其与尚元智行合并。历史检索未见同事件旧裁决，本次保留其算法供给侧事实，与尚元智行共享同一合作事件，不重复计算合作数量。",
-      "event_headline_source": "97d350b562967441c47be26f40f56ba419b0fe1481723528f2ed3bf92f363254",
-      "location_status": "discovery_confirmed",
-      "location_basis": [
+      "selection_reason": "临平发布正文明确称享映视界为临平企业、本土成长企业，并说明其联合出品的AI动态漫已上线红果和抖音，承担创意生成、剧本开发及制片角色。该事实证明AI内容生产已进入具体作品发行环节，符合杭州正面发现资格，不必以注册地或总部证据替代原文明确的本土企业归属。保留企业简称，不补造工商全称；嘉兴华数和高校保留合作方角色。新闻发布于2026年11月3日，符合窗口；事件具体上线日未知但已发生。当前历史检索无匹配，不构成重复。",
+      "event_headline_source": "7e414ef45a522dd1f6f08ac68cb661f37a67fc769e770ed1024c4f594aee56d7",
+      "location_basis": [],
+      "location_status": "unknown",
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
         {
-          "evidence_id": "geo-2db8f1fa17f3de5d43ee3917",
-          "source_url": "https://mp.weixin.qq.com/s/gjLgZ0LE66q4Smq_1NDhxQ",
-          "checked_at": "2026-11-01T10:31:16+00:00",
-          "subject": "福瑞泰克",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "CN",
-            "province": "浙江省",
-            "city": "嘉兴市",
-            "district": "桐乡市"
-          }
+          "value": "杭州市临平区（原文明示本土企业归属，未披露注册地或主要总部地址）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
         }
       ],
-      "location_next_action": null,
       "benchmark_review": {
         "status": "not_qualified",
         "eligible": false,
-        "reason": "330多个量产定点项目和数十家车企合作说明业务积累，但正文“细分领域冠军”未明确细分市场、排名口径或比较依据，尚不足以确认全国标杆地位。",
+        "reason": "作品发行和产能披露支持本地AI内容生产线索，但没有行业可比的技术、市场或交付领先证据，不据地方报道及平台上线授予全国标杆标签。",
         "evidence_ids": [
-          "article:82e359e2ea487aa6"
+          "article:2e3f16d1c842787c"
         ]
       },
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "current-task Agent: quality_inspector continuation and targeted editorial review",
-        "candidate_id": "213af511a8172fc5f4d70976dbbd2d32ea5d091cf07f75156ada5be7243bb32e",
-        "input_row_sha256": "44121872fb121d2cf3c1a9e19a67ba7d9da2f2df67167ed256dbf362388ec2b1",
-        "reason": "完整正文直接证明福瑞泰克提供车载算法并接入尚元智行无人小车运行，具备独立实质角色。330多个量产定点项目及数十家合作车企是其既有业务积累，不等于此次无人小车合作已量产或交付。新闻于2026-11-01发布，满足最近7天窗口；2016年仅对应团队落户背景，不能作为本次合作日期，合作发生日及首次收录时间未知。正文和已存证据支持桐乡落户经营，不证明集团注册地或主要总部。稳定主体标识沿用输入，不将其与尚元智行合并。历史检索未见同事件旧裁决，本次保留其算法供给侧事实，与尚元智行共享同一合作事件，不重复计算合作数量。",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "50299711f019efe958305d5c1776aee48c2ef3e33bf162fbf1ab4ba598809175",
+        "input_row_sha256": "6f41cbdc19479c0b45caca7e13a2aafd71197bd568acdf6eb7c045ae933f627b",
+        "reason": "临平发布正文明确称享映视界为临平企业、本土成长企业，并说明其联合出品的AI动态漫已上线红果和抖音，承担创意生成、剧本开发及制片角色。该事实证明AI内容生产已进入具体作品发行环节，符合杭州正面发现资格，不必以注册地或总部证据替代原文明确的本土企业归属。保留企业简称，不补造工商全称；嘉兴华数和高校保留合作方角色。新闻发布于2026年11月3日，符合窗口；事件具体上线日未知但已发生。当前历史检索无匹配，不构成重复。",
         "scope": {
-          "technology_evidence": "原文明确福瑞泰克车载算法已嵌入尚元智行无人小车并运行，另披露其智驾方案获得330多个量产定点项目、与数十家车企合作。",
-          "value_reason": "既有车企项目积累与本次具体车辆集成相结合，使该案例具有研究算法供应商与车辆平台协同适配的价值；现有证据不能把一次运行推定为跨场景通用能力或新增量产收入。"
+          "technology_evidence": "企业参与《奔跑吧！林小北》的创意生成、剧本开发及制片，将原创故事与AI视觉生产结合，作品已在红果、抖音上线；正文另披露其业务包括AI动态漫生产。",
+          "value_reason": "有价值的增量是本地企业将AI制作流程与原创开发、项目组织及平台发行衔接，形成可识别的内容交付案例。适合作为AI内容生产应用线索，不应上升为自研模型突破、制作成本下降或商业收益已获验证。"
         },
         "stage": {
-          "status": "integrated_and_operated",
-          "reason": "正文“车载算法嵌入……无人小车中，率先跑了起来”支持已集成运行，不支持此次合作已规模商业化；既有“量产定点”是项目获取阶段，不能一概视为已量产交付。"
+          "status": "作品已上线发行",
+          "reason": "正文明确使用“在红果、抖音平台上线”，并列明企业实际参与环节，不是仅签约或计划发布；具体事件日仅以“近日”表述，保持未知。月产能突破1000分钟是报道披露的企业能力口径，不等于本剧产量或实际销售规模。"
         },
         "history": {
           "result": "new_event",
           "evidence_ids": [
-            "history_lookup:3ffe8fa169e4b700"
+            "history_lookup:08967eba06b686ac"
           ],
           "prior_decisions": [],
-          "change_reason": "随包accepted_history及prior_decisions均为空，历史检索无错误，没有可比较的同事件既有裁决，不能认定首次披露。本批尚元智行候选为同一合作的车辆平台侧记录，本条保留算法提供方角色，不另造第二个合作事件。",
-          "new_evidence_ids": []
+          "change_reason": "输入accepted_history及prior_decisions均无匹配项，历史检索未报告错误；本次按该作品上线事件保留，不把文中其他项目、工坊入驻或链主身份自动拆成新增事件，也不宣称绝对首次收录。",
+          "new_evidence_ids": [
+            "article:2e3f16d1c842787c"
+          ]
         },
         "evidence_ids": [
-          "article:82e359e2ea487aa6",
-          "geo-2db8f1fa17f3de5d43ee3917",
-          "history_lookup:3ffe8fa169e4b700"
+          "article:2e3f16d1c842787c",
+          "history_lookup:08967eba06b686ac"
         ],
         "benchmark_review": {
           "status": "not_qualified",
           "eligible": false,
-          "reason": "330多个量产定点项目和数十家车企合作说明业务积累，但正文“细分领域冠军”未明确细分市场、排名口径或比较依据，尚不足以确认全国标杆地位。",
+          "reason": "作品发行和产能披露支持本地AI内容生产线索，但没有行业可比的技术、市场或交付领先证据，不据地方报道及平台上线授予全国标杆标签。",
           "evidence_ids": [
-            "article:82e359e2ea487aa6"
+            "article:2e3f16d1c842787c"
           ]
         }
       }
@@ -1584,7 +1771,38 @@
     "智能服装装备与具身智能机器人": 1,
     "半导体材料": 1,
     "交互世界模型": 1,
-    "大模型与智能体": 1
+    "大模型与智能体": 1,
+    "半导体／存储控制芯片": 1,
+    "商业航天／可复用运载火箭": 1,
+    "商业航天／太空算力": 1,
+    "金融科技／AI投研工具": 1,
+    "AI影视制作与动态漫": 1,
+    "AI新材料研发与材料计算": 1,
+    "水下机器人与灵巧操作": 1,
+    "智能驾驶与汽车电子": 1,
+    "机器人／四足机器人": 1,
+    "人工智能大模型与智能体应用": 1,
+    "胶粘材料与功能性薄膜": 1,
+    "人工智能基础设施／分布式算力": 1,
+    "科技企业，具体细分赛道未披露": 1,
+    "具身智能数据基础设施与机器人遥操作": 1,
+    "人工智能基础设施与光互连": 1,
+    "数据中心光通信与光电子器件": 1,
+    "具身智能核心零部件／机器人灵巧手": 1,
+    "端侧AI芯片与机器人计算平台": 1,
+    "视觉AI芯片与机器人视觉": 1,
+    "汽车半导体／智能驾驶计算芯片": 1,
+    "AI数据中心供电系统": 1,
+    "AI硬件与智能交互": 1,
+    "AI制药与生物医药研发智能体": 1,
+    "具身智能与通用机器人": 1,
+    "模拟计算芯片与存算一体": 1,
+    "热力学计算与非传统AI计算": 1,
+    "无人门店系统与物联网": 1,
+    "KTV数字化解决方案": 1,
+    "物联网与自助设备SaaS": 1,
+    "自助KTV系统与智能设备控制": 1,
+    "具身智能机器人": 1
   },
   "daily_details": {
     "2026-11-02": {
@@ -1594,7 +1812,11 @@
     "2026-11-03": {
       "count": 14,
       "negatives": 0
+    },
+    "2026-11-04": {
+      "count": 31,
+      "negatives": 0
     }
   },
-  "created": "2026-11-03 08:41:23"
+  "created": "2026-11-04 02:59:12"
 }
