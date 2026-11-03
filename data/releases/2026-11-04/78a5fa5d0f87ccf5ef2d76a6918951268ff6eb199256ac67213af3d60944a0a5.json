@@ -1,0 +1,4265 @@
+{
+  "date": "2026-11-04",
+  "targets": [
+    {
+      "company_raw_name": "得一微电子",
+      "identity_mentions": [
+        {
+          "name": "YEESTOR",
+          "relation": "same_entity",
+          "evidence": "得一微电子（YEESTOR）"
+        },
+        {
+          "name": "YS9503",
+          "relation": "product",
+          "evidence": "得一微电子（YEESTOR）自主研发的PCIe Gen5 AI-MemoryX存力主控芯片YS9503"
+        }
+      ],
+      "title": "得一微，五获\"中国芯\"！",
+      "company": "得一微电子",
+      "score": 45,
+      "sector": "半导体／存储控制芯片",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "得一微电子",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-42cb620210b3a10d3332",
+      "company_canonical_name": "得一微电子",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/F-a7oFCMo7lwj2gT95fSXg",
+      "article_title": "得一微，五获\"中国芯\"！",
+      "event_desc": "2026年11月2日，得一微电子自主研发的PCIe Gen5 AI-MemoryX存力主控芯片YS9503获“中国芯”优秀技术创新产品奖，为公司第五次获得“中国芯”奖项。文章披露，YS9503采用无独立DRAM缓存设计，顺序读取速度14.8GB/s、顺序写入速度14.3GB/s，随机读写均达300万IOPS，并搭载分离命令地址技术以提升高并发场景下的NAND接口效率。其所依托的AI-MemoryX架构集成近数据处理、注意力感知预取及KV Cache预测性分层技术，面向端侧AI推理的数据供给需求。",
+      "insight": "值得关注的不只是获奖，而是得一微电子将存储控制器向参与AI推理数据调度的环节延伸：预取专家权重、分层存放推理缓存，让SSD承担部分模型数据供给任务。无独立DRAM缓存的高速设计则瞄准终端的成本和空间约束，但架构所述能力在具体模型与终端上的实际收益，仍需应用测试加以辨别。",
+      "event_headline": "得一微电子YS9503主控芯片获中国芯技术创新奖",
+      "event_signal": "context",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "recent_event",
+        "description": "事件日期在最近7个自然日内: 2026-11-02",
+        "event_date": "2026-11-02",
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确得一微电子（YEESTOR）是YS9503的自主研发及获奖主体，YS9503为产品而非另一企业。2026年11月2日获奖是本条可确认的事件；性能参数和架构能力按报道披露采信，不认定为独立测试结论或当日新突破。新闻发布时间为2026年11月3日，符合最近7天窗口，原待核理由中的发布时间缺失已不成立。历史检索未返回同事件收录或旧裁决，可保留为正面技术产品线索，但不宣称全库首次发现。地点仍未知，不据此认定杭州企业或全国标杆；本条不涉及杭州负面预警资格。",
+      "event_headline_source": "a638baa2ed373586a7d46e5ad98ad9089ff975e02f28f9607114b4822e2803f5",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体产品、参数及多次获奖可以支持事件关注，但尚不足以独立证明企业行业领先地位及可供杭州系统对标的成熟实践。",
+        "evidence_ids": [
+          "article:6d2e01b5d644037b"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "8eb984e28f254538d647820d85e8700cd32bd8636310960c81ffd593bf105943",
+        "input_row_sha256": "91d5ddeeec1f2541222d3fbe8cdb34973147c5cb886c49c23c8085dbac6a3506",
+        "reason": "原文明确得一微电子（YEESTOR）是YS9503的自主研发及获奖主体，YS9503为产品而非另一企业。2026年11月2日获奖是本条可确认的事件；性能参数和架构能力按报道披露采信，不认定为独立测试结论或当日新突破。新闻发布时间为2026年11月3日，符合最近7天窗口，原待核理由中的发布时间缺失已不成立。历史检索未返回同事件收录或旧裁决，可保留为正面技术产品线索，但不宣称全库首次发现。地点仍未知，不据此认定杭州企业或全国标杆；本条不涉及杭州负面预警资格。",
+        "scope": {
+          "technology_evidence": "报道披露YS9503采用PCIe Gen5和无独立DRAM缓存设计，顺序读取14.8GB/s、顺序写入14.3GB/s，随机读写均达300万IOPS；其AI-MemoryX架构涉及近数据处理、注意力感知预取和KV Cache预测性分层。",
+          "value_reason": "具体关注点是存储主控参与端侧推理的数据供给与缓存分层，而非获奖次数本身。这为杭州端侧AI及存储产业提供产品路线观察对象；是否改善真实模型推理效率，需要应用测试，不能从奖项或标称吞吐直接推出。"
+        },
+        "stage": {
+          "status": "产品获奖；技术参数及架构能力为报道披露",
+          "reason": "原文明确2026年11月2日YS9503获得优秀技术创新产品奖，但未提供本次新增量产、客户交付或独立模型测试结果。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本包accepted_history和prior_decisions均为空，且无历史读取错误；在已提供检索范围内未发现同事件，不涉及推翻旧裁决，不扩大为全库首次收录结论。",
+          "new_evidence_ids": [
+            "article:6d2e01b5d644037b"
+          ]
+        },
+        "evidence_ids": [
+          "article:6d2e01b5d644037b",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "具体产品、参数及多次获奖可以支持事件关注，但尚不足以独立证明企业行业领先地位及可供杭州系统对标的成熟实践。",
+          "evidence_ids": [
+            "article:6d2e01b5d644037b"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "箭元科技",
+      "identity_mentions": [
+        {
+          "name": "钱塘号",
+          "relation": "product",
+          "evidence": "杭州箭元科技的“钱塘号”一子级设计可重复使用20次"
+        }
+      ],
+      "title": "航天版图上的杭州：“来晚了”怎么找位置？",
+      "company": "箭元科技",
+      "score": 45,
+      "sector": "商业航天／可复用运载火箭",
+      "financing": "",
+      "source": "涌金楼",
+      "location": "项目地：杭州市钱塘区（主体属地待核）",
+      "article_location": "杭州市；钱塘区为文中基地项目所在地",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "项目地：杭州市钱塘区（主体属地待核）",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "箭元科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4d97c185e9a66852beb9db76",
+            "source_url": "https://mp.weixin.qq.com/s/MP5Gwytm2jHjXlp7Hp7RWg",
+            "checked_at": "2026-11-03T10:31:28+00:00",
+            "subject": "箭元科技",
+            "role": "project",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "钱塘区"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "项目地：杭州市钱塘区（主体属地待核）",
+          "detail": "海上回收复用基地规划；不代表主体总部迁入或基地已投产。",
+          "evidence_ids": [
+            "geo-4d97c185e9a66852beb9db76"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-1017f4772516513f3d5e",
+      "company_canonical_name": "箭元科技",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/MP5Gwytm2jHjXlp7Hp7RWg",
+      "article_title": "航天版图上的杭州：“来晚了”怎么找位置？",
+      "event_desc": "据2026年11月3日报道，箭元科技在杭州钱塘的海上回收复用火箭基地规划年产25发，采用液氧甲烷加不锈钢路线；钱塘号一子级设计可重复使用20次，单公斤发射成本目标低于2万元，报道提出发射周期成本可降低50%。上述为规划、设计及预期指标，未证明基地已投产或已完成复飞。",
+      "insight": "箭元科技同时布局火箭复用设计与制造产能，面向的是卫星批量部署所需的低成本运力。其产业价值取决于回收后能否完成检查、维护和再次飞行，现有设计与规划尚未给出实际复飞表现。",
+      "event_headline": "箭元科技钱塘基地规划年产25发可复用火箭",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-03",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "继承已确认的箭元科技主体身份，原文将其明确列为钱塘号及钱塘基地的对应企业，非仅被提名。2026年11月3日发布的报道符合采集窗口。相较2026年3月19日已收录的基地启动建设，本篇补充年产25发规划、液氧甲烷与不锈钢路线、设计复用20次和发射成本目标，具有可保留的信息增量；但没有证明基地投产或实现复飞，不能将报道增量写成工程阶段跃迁。全文支持其杭州产业布局关联及钱塘项目地点，不据此确认注册地或总部地。",
+      "event_headline_source": "b06c838063fdfe7793d8a3ca5537a16e19f16955ab2e3207c8f611e21cb6d9e7",
+      "location_basis": [
+        {
+          "evidence_id": "geo-4d97c185e9a66852beb9db76",
+          "source_url": "https://mp.weixin.qq.com/s/MP5Gwytm2jHjXlp7Hp7RWg",
+          "checked_at": "2026-11-03T10:31:28+00:00",
+          "subject": "箭元科技",
+          "role": "project",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "钱塘区"
+          }
+        }
+      ],
+      "event_identity": {
+        "canonical_id": "箭元科技在杭州钱塘的海上回收复用火箭基地规划年产25发，采用液氧甲烷与不锈钢技术路线。“钱塘号”一子级设计可重复使用20次，单公斤发射成本目标降至2万元以下，报道提出发射周期成本可降低50%。"
+      },
+      "location_status": "unknown",
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "杭州市；钱塘区为文中基地项目所在地",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据主要是本地基地建设及设计规划，未建立行业领先地位或经实际复飞、交付验证的独立对标依据。",
+        "evidence_ids": [
+          "article:da3cd80322d44847",
+          "accepted_history:798255af76b1a25e"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "89b80d8ad78b9e9eeb8eb5bdb8d63b3792bf0f702f74e3e63cdb047b7917c3a3",
+        "input_row_sha256": "17fea4948cf65308aeae7823739f33a163c066971b6ccd5f322faab3173d8f0a",
+        "reason": "继承已确认的箭元科技主体身份，原文将其明确列为钱塘号及钱塘基地的对应企业，非仅被提名。2026年11月3日发布的报道符合采集窗口。相较2026年3月19日已收录的基地启动建设，本篇补充年产25发规划、液氧甲烷与不锈钢路线、设计复用20次和发射成本目标，具有可保留的信息增量；但没有证明基地投产或实现复飞，不能将报道增量写成工程阶段跃迁。全文支持其杭州产业布局关联及钱塘项目地点，不据此确认注册地或总部地。",
+        "scope": {
+          "technology_evidence": "原文披露钱塘基地规划年产25发，采用液氧甲烷加不锈钢路线；钱塘号一子级设计可重复使用20次，单公斤发射成本目标低于2万元，并提出发射周期成本可降低50%。",
+          "value_reason": "本条将既有基地建设线索推进到可比较的制造规模、复用设计与成本目标，为判断杭州商业航天运力布局提供具体依据。关键验证对象是实际回收复飞与制造兑现能力，而非直接把规划产能计作现有供给。"
+        },
+        "stage": {
+          "status": "基地规划及火箭设计目标披露，尚未证明兑现",
+          "reason": "原文使用规划、设计和目标等表述，没有提供当前投产、实际年产、完成20次复用或已达到目标成本的证据；相关规划及设计形成的精确日期未知。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:798255af76b1a25e",
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "历史记录已收录同一钱塘回收复用基地启动建设，不能再当作新基地首次出现。本篇新增历史记录未载的产能规划、技术路线和复用及成本指标，按信息披露增量保留，不认定这些指标刚刚形成或已实现。",
+          "new_evidence_ids": [
+            "article:da3cd80322d44847"
+          ]
+        },
+        "evidence_ids": [
+          "article:da3cd80322d44847",
+          "accepted_history:798255af76b1a25e",
+          "geo-4d97c185e9a66852beb9db76",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "现有证据主要是本地基地建设及设计规划，未建立行业领先地位或经实际复飞、交付验证的独立对标依据。",
+          "evidence_ids": [
+            "article:da3cd80322d44847",
+            "accepted_history:798255af76b1a25e"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "杭州四维",
+      "identity_mentions": [
+        {
+          "name": "灵境星座",
+          "relation": "product",
+          "evidence": "2026年9月杭州四维全球首发的“灵境星座”，规划1000颗在轨算力卫星"
+        }
+      ],
+      "title": "航天版图上的杭州：“来晚了”怎么找位置？",
+      "company": "杭州四维",
+      "score": 60,
+      "sector": "商业航天／太空算力",
+      "financing": "",
+      "source": "涌金楼",
+      "location": "地点待核",
+      "article_location": "杭州市（按全文杭州产业布局语境认定，未披露注册地或总部地址）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "杭州四维",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-924c561066324546d939",
+      "company_canonical_name": "杭州四维",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/MP5Gwytm2jHjXlp7Hp7RWg",
+      "article_title": "航天版图上的杭州：“来晚了”怎么找位置？",
+      "event_desc": "据报道，杭州四维于2026年9月发布“灵境星座”，规划1000颗在轨算力卫星。",
+      "insight": "“灵境星座”将杭州四维的产品布局指向在轨计算网络，而不只是单颗卫星。千颗规模体现部署设想，但原文未披露其卫星计算任务、组网方式或已部署数量，目前能够确认的是方案发布。",
+      "event_headline": "杭州四维2026年9月发布灵境星座，规划千颗算力卫星",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "event_month_known",
+        "description": "原文明确事件发生于2026年9月，具体日未知；新闻发布于2026年11月3日，不能将新闻日期替代方案发布日期。",
+        "event_date": null,
+        "event_month": "2026-09",
+        "observed_date": "2026-11-03",
+        "review_required": false
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确将杭州四维列为2026年9月灵境星座的发布主体，灵境星座是其星座方案，不与之江实验室或三体计算星座合并。2026年11月3日的新闻发布时间符合最近7天窗口，事件发生于9月不构成排除理由。规划千颗在轨算力卫星具有直接科技产品关联，可保留为方案发布线索，不能写成已发射千颗或已形成运营网络。历史检索未返回同事件或旧裁决，不宣称全库首次发现。全文杭州产业布局语境支持正面发现关联，但不据企业简称确认法定主体全称、注册地或总部地，保留既有身份状态。",
+      "event_headline_source": "f4bc729f3768121341a893ebfcd4ae981fbb9e862b3937a555d17615475460f4",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "杭州市（按全文杭州产业布局语境认定，未披露注册地或总部地址）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "方案发布及规划规模不足以证明企业行业地位、实际部署能力或可供杭州复用的成熟实践。",
+        "evidence_ids": [
+          "article:da3cd80322d44847"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "d037f2dfd032db5d2918564f778154c743b3e729474defdb951124bdd20b380b",
+        "input_row_sha256": "a26c97226ffb1ea404c80f6be9a71ef466b7b66fcc45c2f2f53e1a76b16365aa",
+        "reason": "原文明确将杭州四维列为2026年9月灵境星座的发布主体，灵境星座是其星座方案，不与之江实验室或三体计算星座合并。2026年11月3日的新闻发布时间符合最近7天窗口，事件发生于9月不构成排除理由。规划千颗在轨算力卫星具有直接科技产品关联，可保留为方案发布线索，不能写成已发射千颗或已形成运营网络。历史检索未返回同事件或旧裁决，不宣称全库首次发现。全文杭州产业布局语境支持正面发现关联，但不据企业简称确认法定主体全称、注册地或总部地，保留既有身份状态。",
+        "scope": {
+          "technology_evidence": "原文明确披露：2026年9月杭州四维发布灵境星座，规划1000颗在轨算力卫星。",
+          "value_reason": "该事实提供了企业进入在轨计算星座布局的具体线索，值得进一步读取发布材料以区分计算任务、组网方案及部署阶段。当前价值在于识别潜在技术供给主体与产品方向，不在于千颗规划已经形成算力或收入。"
+        },
+        "stage": {
+          "status": "方案已发布，星座部署处于规划表述",
+          "reason": "发布时间对应事件为2026年9月，具体日未知；1000颗是规划数量。文章未证明已部署数量、在轨计算性能、客户订单或商业运营。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本包未返回该主体的已收录事件或旧裁决，且无读取错误，按现有检索范围内未匹配事件处理。与同篇箭元科技的基地及运载火箭事实属于不同主体、不同事件，不按文章URL合并。",
+          "new_evidence_ids": [
+            "article:da3cd80322d44847"
+          ]
+        },
+        "evidence_ids": [
+          "article:da3cd80322d44847",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "方案发布及规划规模不足以证明企业行业地位、实际部署能力或可供杭州复用的成熟实践。",
+          "evidence_ids": [
+            "article:da3cd80322d44847"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "AlphaGBM",
+      "title": "离开投行17年后，这位哈佛毕业生带着AI投研，重返金融赛道",
+      "company": "AlphaGBM",
+      "score": 35,
+      "sector": "金融科技／AI投研工具",
+      "financing": "",
+      "source": "创业邦",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "AlphaGBM",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-32f9f28a7a51a3e6d698",
+      "company_canonical_name": "AlphaGBM",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/uaB5H_J6Tumiyt3Q6YbgXg",
+      "article_title": "离开投行17年后，这位哈佛毕业生带着AI投研，重返金融赛道",
+      "event_desc": "据文章，AlphaGBM于2026年2月上线，目前有近4000名付费用户，提供股票候选比较、期权策略研究和深度分析，连接研究上下文的Agent入口仍处于Beta阶段。其两个GitHub公开项目合计获得3391个Star。团队决定于2026年11月组织线下用户闭门交流，开展研究讨论和工具教学，文中未说明活动已经举办。",
+      "insight": "AlphaGBM把收费产品的重点放在候选比较、策略条件和深度研究，而非单次问答；这些具体工作入口与文中披露的付费用户规模，说明项目已从团队自用走向对外服务。下一步值得辨别的是，Beta阶段的Agent能否让用户沿用已有材料和假设继续研究，这比新增一个聊天入口更能体现工作台的独立价值。",
+      "event_headline": "AlphaGBM投研工作台已有近4000名付费用户，探索研究流程衔接",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-03",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "正文直接介绍曾敏敏及团队运营的AlphaGBM投研项目，披露具体产品功能、2026年2月上线及近4000名付费用户，支持作为AI垂直应用商业化线索保留。AlphaGBM在此仅按原文项目及产品品牌识别，不补造运营企业工商名称，不合并英伟达、OpenAI等背景主体。新闻发布时间为2026年11月3日，符合最近7天窗口；输入历史检索无匹配记录，不能据此宣称绝对首次发现。地点未知不阻断正面线索采信，也不赋予杭州企业或全国标杆身份。Agent入口仍为Beta，11月闭门会仅为组织计划。",
+      "event_headline_source": "c289271cc3646da51297042d155c4985a96c1a47745708745c9c900c3a9bd966",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文足以支持产品及收费服务进展，但未建立独立可比的行业领先地位、技术优势或代表性产业影响；付费人数、Star和流量不能单独构成全国标杆资格。",
+        "evidence_ids": [
+          "article:578ca40f9c239d1b"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "f49f32c76c7686e8467cab7ba2350b0f1868c0ddfe582a06a0dcb1c936b04790",
+        "input_row_sha256": "14b02b55f44075c03c1c4a2a51bafecee1282e600ee902fc695133c16ee806a0",
+        "reason": "正文直接介绍曾敏敏及团队运营的AlphaGBM投研项目，披露具体产品功能、2026年2月上线及近4000名付费用户，支持作为AI垂直应用商业化线索保留。AlphaGBM在此仅按原文项目及产品品牌识别，不补造运营企业工商名称，不合并英伟达、OpenAI等背景主体。新闻发布时间为2026年11月3日，符合最近7天窗口；输入历史检索无匹配记录，不能据此宣称绝对首次发现。地点未知不阻断正面线索采信，也不赋予杭州企业或全国标杆身份。Agent入口仍为Beta，11月闭门会仅为组织计划。",
+        "scope": {
+          "technology_evidence": "原文披露股票候选比较、分别列示条件的期权策略研究及深度分析功能，并明确连接研究上下文的Agent入口处于Beta阶段。",
+          "value_reason": "具体研究工作入口与报道所述付费用户规模共同构成AI投研产品对外收费服务的证据，可用于观察垂直应用如何区别于通用问答。尚不能证明投资效果、用户留存或持续盈利，开源Star和关注量也不等于技术领先。"
+        },
+        "stage": {
+          "status": "产品已上线并有付费用户；Agent处于Beta；线下活动为upcoming",
+          "reason": "原文称产品2026年2月上线、目前近4000名付费用户；Agent相关入口仍处Beta阶段；团队决定于2026年11月组织闭门交流，未证明活动已举办。除上线月份外，具体进展发生日未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本次提供的accepted_history及prior_decisions均为空，且无历史读取错误，未发现需要去重或维持旧排除的匹配事件；仅认定本次检索范围内未匹配，不宣称项目首次被发现。",
+          "new_evidence_ids": [
+            "article:578ca40f9c239d1b"
+          ]
+        },
+        "evidence_ids": [
+          "article:578ca40f9c239d1b",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "正文足以支持产品及收费服务进展，但未建立独立可比的行业领先地位、技术优势或代表性产业影响；付费人数、Star和流量不能单独构成全国标杆资格。",
+          "evidence_ids": [
+            "article:578ca40f9c239d1b"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "享映视界",
+      "title": "又一部临平出品！正式上线红果、抖音！",
+      "company": "享映视界",
+      "score": 60,
+      "sector": "AI影视制作与动态漫",
+      "financing": "",
+      "source": "临平发布",
+      "location": "地点待核",
+      "article_location": "杭州市临平区（原文明示本土企业归属，未披露注册地或主要总部地址）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "享映视界",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-268c1e29601e74117213",
+      "company_canonical_name": "享映视界",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/rpQQ5iMDva_QF_KDa29Xtg",
+      "article_title": "又一部临平出品！正式上线红果、抖音！",
+      "event_desc": "享映视界与嘉兴华数联合出品的足球励志AI动态漫微短剧《奔跑吧！林小北》已在红果、抖音上线。享映视界参与该项目的创意生成、剧本开发及制片工作，将原创故事与AI视觉生产相结合。原文另披露，公司业务涵盖剧本开发、联合出品、后期制作及AI动态漫生产，目前月产能已突破1000分钟。",
+      "insight": "这次上线展示了享映视界把原创剧本与AI视觉生产衔接、推进到平台发行的内容交付能力，其角色不只是提供制作环节，而是同时参与创意开发和制片。原文尚未披露具体AI工具或自研技术，因此更适合将其理解为AI内容生产与项目组织能力的进展，而非底层技术突破。",
+      "event_headline": "享映视界联合出品足球题材AI动态漫，上线红果和抖音",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-03",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "临平发布正文明确称享映视界为临平企业、本土成长企业，并说明其联合出品的AI动态漫已上线红果和抖音，承担创意生成、剧本开发及制片角色。该事实证明AI内容生产已进入具体作品发行环节，符合杭州正面发现资格，不必以注册地或总部证据替代原文明确的本土企业归属。保留企业简称，不补造工商全称；嘉兴华数和高校保留合作方角色。新闻发布于2026年11月3日，符合窗口；事件具体上线日未知但已发生。当前历史检索无匹配，不构成重复。",
+      "event_headline_source": "7e414ef45a522dd1f6f08ac68cb661f37a67fc769e770ed1024c4f594aee56d7",
+      "location_basis": [],
+      "location_status": "unknown",
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "杭州市临平区（原文明示本土企业归属，未披露注册地或主要总部地址）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "作品发行和产能披露支持本地AI内容生产线索，但没有行业可比的技术、市场或交付领先证据，不据地方报道及平台上线授予全国标杆标签。",
+        "evidence_ids": [
+          "article:2e3f16d1c842787c"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "50299711f019efe958305d5c1776aee48c2ef3e33bf162fbf1ab4ba598809175",
+        "input_row_sha256": "6f41cbdc19479c0b45caca7e13a2aafd71197bd568acdf6eb7c045ae933f627b",
+        "reason": "临平发布正文明确称享映视界为临平企业、本土成长企业，并说明其联合出品的AI动态漫已上线红果和抖音，承担创意生成、剧本开发及制片角色。该事实证明AI内容生产已进入具体作品发行环节，符合杭州正面发现资格，不必以注册地或总部证据替代原文明确的本土企业归属。保留企业简称，不补造工商全称；嘉兴华数和高校保留合作方角色。新闻发布于2026年11月3日，符合窗口；事件具体上线日未知但已发生。当前历史检索无匹配，不构成重复。",
+        "scope": {
+          "technology_evidence": "企业参与《奔跑吧！林小北》的创意生成、剧本开发及制片，将原创故事与AI视觉生产结合，作品已在红果、抖音上线；正文另披露其业务包括AI动态漫生产。",
+          "value_reason": "有价值的增量是本地企业将AI制作流程与原创开发、项目组织及平台发行衔接，形成可识别的内容交付案例。适合作为AI内容生产应用线索，不应上升为自研模型突破、制作成本下降或商业收益已获验证。"
+        },
+        "stage": {
+          "status": "作品已上线发行",
+          "reason": "正文明确使用“在红果、抖音平台上线”，并列明企业实际参与环节，不是仅签约或计划发布；具体事件日仅以“近日”表述，保持未知。月产能突破1000分钟是报道披露的企业能力口径，不等于本剧产量或实际销售规模。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "输入accepted_history及prior_decisions均无匹配项，历史检索未报告错误；本次按该作品上线事件保留，不把文中其他项目、工坊入驻或链主身份自动拆成新增事件，也不宣称绝对首次收录。",
+          "new_evidence_ids": [
+            "article:2e3f16d1c842787c"
+          ]
+        },
+        "evidence_ids": [
+          "article:2e3f16d1c842787c",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "作品发行和产能披露支持本地AI内容生产线索，但没有行业可比的技术、市场或交付领先证据，不据地方报道及平台上线授予全国标杆标签。",
+          "evidence_ids": [
+            "article:2e3f16d1c842787c"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "索格智算（上海）科技有限公司",
+      "identity_mentions": [
+        {
+          "name": "索格智算",
+          "relation": "same_entity",
+          "evidence": "上海交通大学数学科学学院特聘教授、人工智能新材料研究中心主任，索格智算（上海）科技有限公司创始人徐振礼"
+        },
+        {
+          "name": "SOG Omni",
+          "relation": "product",
+          "evidence": "这类产品被公司命名为SOG Omni材料研发智能体"
+        },
+        {
+          "name": "NanoTitan",
+          "relation": "product",
+          "evidence": "索格为此开发了NanoTitan材料专用模拟器"
+        }
+      ],
+      "title": "国家杰青领衔，这家AI新材料公司，要给工厂造一批“老师傅”",
+      "company": "索格智算（上海）科技有限公司",
+      "score": 50,
+      "sector": "AI新材料研发与材料计算",
+      "financing": "2026年3月完成超千万元种子轮融资，由启高资本领投，交大母基金、紫竹科投、紫竹小苗跟投；2026年9月完成数千万元天使轮融资，由复星创富领投，南通产控思源人工智能先导基金、云启资本、中赢创投跟投，老股东继续追加投资。资金将主要用于算法研发、计算平台建设、实验室建设和团队扩充。",
+      "source": "创业邦",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "索格智算(上海)科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-85d822f8bd58a0c4679d",
+      "company_canonical_name": "索格智算(上海)科技有限公司",
+      "identity_status": "unresolved",
+      "event_type": "产品与客户验证进展",
+      "link": "https://mp.weixin.qq.com/s/JAdc7kbbf746DBGWS6poRw",
+      "article_title": "国家杰青领衔，这家AI新材料公司，要给工厂造一批“老师傅”",
+      "event_desc": "索格智算已推出SOG Omni材料研发智能体、SOGNet材料垂域模型及NanoTitan、R2DPack等模拟产品，与多家头部材料企业签署合作协议，在固态电池、精细化工领域形成示范场景；与头部精细化工上市企业的合作已进入干湿实验迭代和验证。此次报道补充了产品分工和客户验证阶段，9月天使轮此前已收录，不作为新融资重复报道。公司计划提高产品标准化程度并逐步开展自主新材料设计与发现，尚未证明自主发现具有商业价值的新材料。",
+      "insight": "索格智算的实质进展，是把材料知识检索、原子级计算和实验验证接入客户研发任务：与精细化工企业的合作已进入干湿实验迭代，应用深度超过单纯提供问答建议。现有事实支持其作为材料研发工具与联合研发服务商的价值，但自主发现具有商业价值的新材料仍是下一阶段目标，关键观察应是模拟推荐能否在实验中形成可重复的性能改进。",
+      "event_headline": "索格智算披露材料研发产品体系，客户合作进入干湿实验迭代验证",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-03",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "正文直接明确索格智算（上海）科技有限公司主体，以及材料研发智能体、原子级计算模型和模拟器的产品角色；SOG Omni、SOGNet、NanoTitan、R2DPack均为产品，不另立企业。9月数千万元天使轮已于9月29日收录，不能包装成新融资。此次实质增量是产品体系、具体客户研发任务及头部精细化工企业干湿实验迭代验证阶段的披露，足以作为同主体产业进展保留。新闻发布于2026年11月3日，满足窗口，不因融资发生较早排除。注册地及总部缺可靠依据，不能仅凭名称或旧历史无来源的“上海”字段定地。",
+      "event_headline_source": "69a38dd391a9a947aebd77469943a83e3b9ad8105aa4282f6a6739a1c554c775",
+      "event_identity": {
+        "canonical_id": "索格智算于2026年3月完成超千万元种子轮融资，9月完成数千万元天使轮融资，资金将主要用于算法研发、计算平台建设、实验室建设和团队扩充。公司已推出材料研发智能体、材料垂域模型及模拟器等产品，与多家头部材料企业签署合作协议，在固态电池、精细化工领域形成示范场景，与头部精细化工上市企业的合作已进入干湿实验迭代和验证阶段。公司计划进一步提高产品标准化程度，并逐步开展自主新材料设计与发现。"
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "历史is_national_star标记未附独立行业地位审阅依据，本次也未提供明确已审benchmark_review。创始人学术背景、融资及公司自述测试不足以确立全国标杆资格；此结论不撤销历史制品或否定本次产业进展价值。",
+        "evidence_ids": [
+          "accepted_history:f456052d7e438aab",
+          "article:0b50d98ca33898ed"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "b0e23ba454e443cee11af17b37451db818adfc084f4b1e4bd3b9af9cd106aead",
+        "input_row_sha256": "ff6bc8d0d97190d1f269d2ad0a3a03c39bd76e6fe61a87c6f1cc58ab445e92b5",
+        "reason": "正文直接明确索格智算（上海）科技有限公司主体，以及材料研发智能体、原子级计算模型和模拟器的产品角色；SOG Omni、SOGNet、NanoTitan、R2DPack均为产品，不另立企业。9月数千万元天使轮已于9月29日收录，不能包装成新融资。此次实质增量是产品体系、具体客户研发任务及头部精细化工企业干湿实验迭代验证阶段的披露，足以作为同主体产业进展保留。新闻发布于2026年11月3日，满足窗口，不因融资发生较早排除。注册地及总部缺可靠依据，不能仅凭名称或旧历史无来源的“上海”字段定地。",
+        "scope": {
+          "technology_evidence": "正文说明SOG Omni结合文献、专利和客户内部数据并调用计算工具，SOGNet用于原子级材料计算，NanoTitan支持本地部署，R2DPack模拟材料应用到电池后的表现；与头部精细化工上市企业的合作已进入干湿实验迭代和验证。",
+          "value_reason": "材料研发AI的关键验证在于能否从知识建议进入计算筛选及客户实验流程，本次披露具体工具分工和客户验证阶段，提供了比融资信息更深入的产业采用依据。当前支持工具与联合研发服务价值，尚不证明自主发现新材料成功、量产或客户已实现经济收益。"
+        },
+        "stage": {
+          "status": "产品已推出；客户合作处于概念验证及干湿实验迭代；自主新材料发现为未来目标",
+          "reason": "原文称已推出系列产品、签署合作协议并形成示范场景，与精细化工企业合作已进入干湿实验迭代验证；自主发现具有商业价值的新材料仍待推进。公司披露的模型性能测试不等于独立评测结论，文中算力费用举例也不是已实现节省。两轮融资月份分别为2026年3月和9月，具体日期未知。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:f456052d7e438aab",
+            "prior_decision:3037da57643224ce",
+            "prior_decision:5fecaa827c219732",
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:3037da57643224ce",
+              "comparison": "new_progress",
+              "reason": "旧裁决保留的是数千万元天使轮融资，该融资与本次9月融资属于同一资本事件；新正文另有具体产品体系和客户干湿实验验证事实，保留依据转为产业进展，而非再次批准同笔融资。"
+            },
+            {
+              "evidence_id": "prior_decision:5fecaa827c219732",
+              "comparison": "new_progress",
+              "reason": "该裁决同样对应已收录天使轮，旧文仅概述原创AI计算引擎驱动材料研发，未包含本次产品模块及客户实验验证细节。新增正文支持增量采信，不改变旧融资已收录的状态。"
+            }
+          ],
+          "change_reason": "不推翻既有keep裁决，也不把新URL视为新融资。与9月29日历史相比，新增可独立支持价值判断的事实是材料研发工具的具体分工、客户合作已进入干湿实验迭代验证，以及本次披露的融资用途。旧文称用途未披露与新文补充用途并不矛盾；投资方名称口径差异不据此擅自合并或改写机构身份。",
+          "new_evidence_ids": [
+            "article:0b50d98ca33898ed"
+          ]
+        },
+        "evidence_ids": [
+          "article:0b50d98ca33898ed",
+          "accepted_history:f456052d7e438aab",
+          "prior_decision:3037da57643224ce",
+          "prior_decision:5fecaa827c219732",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "历史is_national_star标记未附独立行业地位审阅依据，本次也未提供明确已审benchmark_review。创始人学术背景、融资及公司自述测试不足以确立全国标杆资格；此结论不撤销历史制品或否定本次产业进展价值。",
+          "evidence_ids": [
+            "accepted_history:f456052d7e438aab",
+            "article:0b50d98ca33898ed"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "黑漫科技",
+      "title": "免费报名！余杭这场未来科学π，太酷了！",
+      "company": "黑漫科技",
+      "score": 25,
+      "sector": "水下机器人与灵巧操作",
+      "financing": "",
+      "source": "余杭发布",
+      "location": "浙江省 / 杭州市",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f33160323a73993bf5711aad"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "黑漫科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-f33160323a73993bf5711aad",
+            "source_url": "https://www.heymanbot.com/solutions/sg100",
+            "checked_at": "2026-11-03T18:25:18.323073+00:00",
+            "subject": "黑漫科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-f33160323a73993bf5711aad"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-14bdd8f149e659d7a98a",
+      "company_canonical_name": "黑漫科技",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/r4ODqUYDBUn7pMRZBcElQw",
+      "article_title": "免费报名！余杭这场未来科学π，太酷了！",
+      "event_desc": "2026年11月6日至8日，未来科学π科技市集拟展示黑漫科技水下五指灵巧手，文章介绍其将精细灵巧操作延伸至水下场景。",
+      "insight": "黑漫科技的产品线索指向水下精细操作，而不只是水下观察或移动。其应用价值在于能否完成具体抓取、工具使用等任务，原文尚未给出操作演示或适用水深。",
+      "event_headline": "黑漫科技水下五指灵巧手拟亮相未来科学π",
+      "event_signal": "context",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "upcoming",
+        "description": "未来事件/计划: 2026-11-06",
+        "event_date": "2026-11-06",
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原已读公众号明确黑漫科技展示水下五指灵巧手（官网WA100产品线），当前补读官网WA100/SG100产品、联系地址及杭州黑漫科技有限公司隐私主体，支持这是有具体机器产品的企业而不是产品名。展示属于拟进行，不能写成已参展交付。普通经营地点已审为杭州；法人全称归集留identity队列，不把尚无注册/总部认定当作正面事件阻断。无同事件历史，保留技术产品发现。",
+      "event_headline_source": "337a4e8a58ac88e4fbf7a56785e34f68dcba486551336ec90b6787d5b2cb770b",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-f33160323a73993bf5711aad",
+          "source_url": "https://www.heymanbot.com/solutions/sg100",
+          "checked_at": "2026-11-03T18:25:18.323073+00:00",
+          "subject": "黑漫科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "历史融资与本次展示预告提供产品方向线索，但未建立可验证的行业领先地位或独立全国标杆依据，不能凭融资或灵巧手赛道自动授予资格。",
+        "evidence_ids": [
+          "accepted_history:527b0fdb4f78be6e",
+          "article:9a8392370d0ddff2"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "2a7bc651cea8250dd17f6b76d3cb2b5eda35974ae2ab9c7d1c9c3cd004af1c79",
+        "input_row_sha256": "6e9e8862eed032b574fac571854bf75838e0a17ff153e0889389c54654a7d1ae",
+        "reason": "原已读公众号明确黑漫科技展示水下五指灵巧手（官网WA100产品线），当前补读官网WA100/SG100产品、联系地址及杭州黑漫科技有限公司隐私主体，支持这是有具体机器产品的企业而不是产品名。展示属于拟进行，不能写成已参展交付。普通经营地点已审为杭州；法人全称归集留identity队列，不把尚无注册/总部认定当作正面事件阻断。无同事件历史，保留技术产品发现。",
+        "scope": {
+          "technology_evidence": "原文写明“黑漫科技水下五指灵巧手”“把精细灵巧操作延伸进水下世界”，直接关联企业称呼、产品形态与应用环境。",
+          "value_reason": "该线索指向水下机器人从观察、移动延伸到精细操作的末端执行能力，可用于识别差异化机器人部件方向；尚不能推出已完成特定抓取任务、适用水深或客户验证。"
+        },
+        "stage": {
+          "status": "upcoming",
+          "reason": "原文是2026年11月6日至8日科技市集展示预告；尚不能认定现场演示已经完成，更不能认定量产或商业交付。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:527b0fdb4f78be6e",
+            "history_lookup:d52f787d1664c417"
+          ],
+          "prior_decisions": [],
+          "change_reason": "原watch针对企业与产品边界不清；本轮官网产品及运营主体补证解除该项疑问。既有历史未见同一展示事件，不把地点或名称缺口升级为公司级排除。",
+          "new_evidence_ids": [
+            "article:9a8392370d0ddff2",
+            "geo-f33160323a73993bf5711aad"
+          ]
+        },
+        "evidence_ids": [
+          "article:9a8392370d0ddff2",
+          "accepted_history:527b0fdb4f78be6e",
+          "identity_registry:2dcd4f408df25406",
+          "geography_registry:b93d03cf35486d17",
+          "history_lookup:d52f787d1664c417",
+          "geo-f33160323a73993bf5711aad"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "历史融资与本次展示预告提供产品方向线索，但未建立可验证的行业领先地位或独立全国标杆依据，不能凭融资或灵巧手赛道自动授予资格。",
+          "evidence_ids": [
+            "accepted_history:527b0fdb4f78be6e",
+            "article:9a8392370d0ddff2"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "博世",
+      "title": "智驾出海分水岭：海外单月交付过万，博世高阶率先跨过规模化门槛",
+      "company": "博世",
+      "score": 0,
+      "sector": "智能驾驶与汽车电子",
+      "financing": "",
+      "source": "36 氪",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "博世",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-e4ef219b705d1bbe6194",
+      "company_canonical_name": "博世",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/2q-dHbkDd7f2qhyd1U2m1Q",
+      "article_title": "智驾出海分水岭：海外单月交付过万，博世高阶率先跨过规模化门槛",
+      "event_desc": "据36氪获得的信息，博世高阶智能辅助驾驶方案海外单月交付已突破1万套，覆盖吉利旗下两大品牌、四款海内外车型，进入欧洲、东南亚、中东、韩国、澳大利亚及墨西哥等市场。后续月度交付预计稳定超过1.2万套，全年交付规模预计超过15万套。博世与吉利还将合作落地欧洲高速NOA项目。",
+      "insight": "海外单月交付突破万套，显示博世已具备面向中国车企出海车型的批量辅助驾驶交付能力，而不只是宣布海外布局。其多算力平台适配与属地测试、认证能力，使竞争从单项算法功能延伸到跨市场量产导入；下一步值得研究的是这些能力能否在新增车型与国家之间复用。",
+      "event_headline": "据报道，博世高阶辅助驾驶海外单月交付突破万套",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-03",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "逐字读回36氪全文，博世明确为高阶智驾技术方案及海外交付主体，并非无归属品牌。已发生事实为海外单月交付超过1万套；后续1.2万套及全年15万套仍为预计，奇瑞欧洲六车型为定点、2028年量产计划。跨芯片部署、属地法规与标定工程支持具体科技价值；未知法人全称和地点不阻断普通正面发现，不据此授予杭州负面资格。历史检索无同事件收录，不采纳全球唯一的排他性结论。",
+      "event_headline_source": "c6e2e73fc4079b749f0c861da9ff666d372de61a9fabc91db9cc798e146c47f0",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "报道提供跨市场交付与工程体系的具体比较线索，但稳定主体映射尚未确认；单篇报道中“应该是全球唯一”的推断不能独立建立全国或全球标杆资格。",
+        "evidence_ids": [
+          "article:a0f7549cf5362d0a",
+          "identity_registry:2dcd4f408df25406"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "1d578f7c7750b532821fe517b9dd0553e0d44d2f5cffa0ddbac105b15da4659b",
+        "input_row_sha256": "fd7c7859a58a4f0c3f0a1d9cc0252e63337e289946049b8abe35ed314c6a2cd7",
+        "reason": "逐字读回36氪全文，博世明确为高阶智驾技术方案及海外交付主体，并非无归属品牌。已发生事实为海外单月交付超过1万套；后续1.2万套及全年15万套仍为预计，奇瑞欧洲六车型为定点、2028年量产计划。跨芯片部署、属地法规与标定工程支持具体科技价值；未知法人全称和地点不阻断普通正面发现，不据此授予杭州负面资格。历史检索无同事件收录，不采纳全球唯一的排他性结论。",
+        "scope": {
+          "technology_evidence": "正文报道博世高阶智能辅助驾驶方案海外单月交付突破1万套，方案覆盖吉利旗下两大品牌、四款海内外车型，并记载多算力平台适配和属地测试、认证、量产导入能力。",
+          "value_reason": "具体批量交付将关注点从出海意向推进到跨车型、跨法规市场的工程兑现，可供杭州辅助驾驶企业比较平台适配、当地认证和量产导入的组织能力；不能据此证明行业独占地位或将预测量计为实际交付。"
+        },
+        "stage": {
+          "status": "媒体报道的已实现交付里程碑，另含预测和未来项目",
+          "reason": "单月突破1万套为报道所述已发生交付，但对应月份和精确达成日期未披露。后续月度超过1.2万套、全年超过15万套均为预测；欧洲高速NOA为后续合作落地安排。新闻发布时间已提供，首次收录时间未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:d52f787d1664c417"
+          ],
+          "prior_decisions": [],
+          "change_reason": "原watch将法人全称及地点缺口当成正面硬门槛；全文已足以确认企业业务归属，无冲突主体。改按共同事实与较宽正面资格采信已交付节点，未将未来量产或行业唯一性当成既成事实。",
+          "new_evidence_ids": [
+            "article:a0f7549cf5362d0a"
+          ]
+        },
+        "evidence_ids": [
+          "article:a0f7549cf5362d0a",
+          "identity_registry:2dcd4f408df25406",
+          "geography_registry:b93d03cf35486d17",
+          "history_lookup:d52f787d1664c417"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "报道提供跨市场交付与工程体系的具体比较线索，但稳定主体映射尚未确认；单篇报道中“应该是全球唯一”的推断不能独立建立全国或全球标杆资格。",
+          "evidence_ids": [
+            "article:a0f7549cf5362d0a",
+            "identity_registry:2dcd4f408df25406"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "宇树科技",
+      "identity_mentions": [
+        {
+          "name": "宇树A2",
+          "relation": "product",
+          "evidence": "宇树科技旗下北京灵翌科技队带着宇树A2机器狗出战。"
+        },
+        {
+          "name": "宇树B2",
+          "relation": "product",
+          "evidence": "本次比赛，宇树官方仅A2、B2两款四足机器人参加足式机器人竞速赛及足式机器人负重赛"
+        }
+      ],
+      "title": "机器人登泰山，宇树科技1金2银！",
+      "company": "宇树科技",
+      "score": 75,
+      "sector": "机器人／四足机器人",
+      "financing": "",
+      "source": "滨江发布",
+      "location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+      "article_location": "浙江省杭州市滨江区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "subject_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宇树科技股份有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-13a3a18a9bf559ad8bfbeaac"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+            "source_url": "https://www.unitree.com/cn/contact",
+            "checked_at": "2026-10-12T18:25:09.025885+00:00",
+            "subject": "宇树科技股份有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-35826112ed957325dfd4",
+      "company_canonical_name": "宇树科技股份有限公司",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/gWyNXeCMGaKehjh65OzGzA",
+      "article_title": "机器人登泰山，宇树科技1金2银！",
+      "event_desc": "11月2日，首届CMG世界机器人登泰山大赛在山东泰安开赛，赛道全长3.9公里、包含3100余级台阶。宇树科技旗下北京灵翌科技队使用宇树A2，以全程全自主模式获得足式机器人竞速赛冠军。上海高羿科技队使用宇树A2获得竞速赛亚军，使用宇树B2获得负重赛亚军；B2在万仙楼至斗母宫赛段有效负重66公斤，含支架实际负重74公斤。",
+      "insight": "这次比赛展示了宇树四足平台的两类山地作业基础能力：A2在连续不规则石阶上自主通行，B2承载物资登阶，分别对应山地巡检的通行需求和转运任务的载荷需求。不同团队基于宇树产品参赛，也显示其平台可供外部团队开展二次开发，但比赛表现尚不能直接外推为实际作业成效。",
+      "event_headline": "宇树A2自主登阶夺冠，B2负重登阶获亚军",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-03",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文提供宇树A2、B2参加泰山爬山赛的具体平台事实，结果分属北京灵翌、上海高羿等参赛团队，不把团队改造算法归为宇树独立研发成果。可保留四足平台在长阶梯与负重任务中的实际使用案例，不推断客户商业交付。已读历史中的G1大会集群演示、研发平台及上市行情均非本次赛事；旧行情背景排除不适用于真实产品使用。本轮历史来源元数据有缺失，仍记uncertain且不宣称首次，已有可读历史的具体差异足以支持这条窄命题。",
+      "event_headline_source": "0c25b2f8556d0b1a6ad7fda42605152cbaf07b3ee3b0abfe4fe484e240850461",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+          "source_url": "https://www.unitree.com/cn/contact",
+          "checked_at": "2026-10-12T18:25:09.025885+00:00",
+          "subject": "宇树科技股份有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "复用既有已审独立依据：宇树提供机器人本体，与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体平台能力可供杭州机器人企业比较，不以本次奖牌、上市身份或评分授予资格，也不豁免本条历史待核。",
+        "evidence_ids": [
+          "accepted_history:6bb19dad5ec85a0e",
+          "accepted_history:66d57afc72eb96ed",
+          "prior_decision:50a1ddce1e52eee4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "ffbf70d4782bcabd8b4332d9e31681b31ff386c73013d0aedda15d236c6b6001",
+        "input_row_sha256": "e0867a83b24dfe3745612ddd63eeae86fe50a86b0f5ffb352386569fa343163b",
+        "reason": "原文提供宇树A2、B2参加泰山爬山赛的具体平台事实，结果分属北京灵翌、上海高羿等参赛团队，不把团队改造算法归为宇树独立研发成果。可保留四足平台在长阶梯与负重任务中的实际使用案例，不推断客户商业交付。已读历史中的G1大会集群演示、研发平台及上市行情均非本次赛事；旧行情背景排除不适用于真实产品使用。本轮历史来源元数据有缺失，仍记uncertain且不宣称首次，已有可读历史的具体差异足以支持这条窄命题。",
+        "scope": {
+          "technology_evidence": "正文记载北京灵翌科技队使用宇树A2，以全程全自主模式在连续不规则石阶赛道取得竞速冠军；上海高羿科技队使用A2获竞速亚军，使用B2获负重赛亚军，B2在指定赛段有效负重66公斤、含支架实际负重74公斤。",
+          "value_reason": "A2自主登阶与B2带载登阶分别为山地巡检通行和物资转运提供能力观察依据；外部团队自行开发参赛体现平台的开发利用方式。比赛条件下的表现不能直接外推实际作业可靠性、商业订单或交付成效，负重赛段也不能等同整条3.9公里赛道。"
+        },
+        "stage": {
+          "status": "已完成比赛及特定条件下的产品能力展示",
+          "reason": "正文记载11月2日比赛及已取得名次，未在该句独立明写年份；新闻于2026年11月3日发布，首次收录时间未知。自主运行方式和载荷数据为报道所述比赛表现，山地巡检、物资转运是应用方向，不是已完成的客户作业。"
+        },
+        "history": {
+          "result": "uncertain",
+          "evidence_ids": [
+            "history_lookup:d52f787d1664c417",
+            "accepted_history:721cabb6862eed6f",
+            "accepted_history:a9601bf5150693fb",
+            "accepted_history:66d57afc72eb96ed",
+            "prior_decision:e7972ca26fc649dd",
+            "prior_decision:50a1ddce1e52eee4",
+            "prior_decision:60d0af6076425c2b",
+            "prior_decision:a28bb8fc265254f6",
+            "prior_decision:710f3a761425dd6c",
+            "prior_decision:584dcae82d9d7587",
+            "prior_decision:dc6a2b9dbc1f2af6",
+            "prior_decision:6b8d7a72b4139272",
+            "prior_decision:1e52d625556c3dc8",
+            "prior_decision:30d7fae7b1c99715",
+            "prior_decision:946bbcee8f87f0f4",
+            "prior_decision:bf02da706389889a",
+            "prior_decision:f58106869f28b2b2",
+            "prior_decision:d2e41dd5d05140c6",
+            "prior_decision:6216296ed33fe5fc",
+            "prior_decision:34ee5164252013f7",
+            "prior_decision:fe7908a1a2810c2a",
+            "prior_decision:9acc515fa8db258b",
+            "prior_decision:358cde0531df7c02",
+            "historical_input:246ab5cdefd2d623",
+            "historical_plan:251a2d2f16d5896b"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:e7972ca26fc649dd",
+              "comparison": "different_event",
+              "reason": "北京、上海体验渠道及Go2家庭购买教学，与泰山A2竞速和B2负重比赛不同。"
+            },
+            {
+              "evidence_id": "prior_decision:50a1ddce1e52eee4",
+              "comparison": "different_event",
+              "reason": "天津机器人展示中心投用，不涉及本次赛事及其能力数据。"
+            },
+            {
+              "evidence_id": "prior_decision:60d0af6076425c2b",
+              "comparison": "different_event",
+              "reason": "10月22日G1大会集群演示与四足机器人泰山比赛的产品、场合和任务均不同。"
+            },
+            {
+              "evidence_id": "prior_decision:a28bb8fc265254f6",
+              "comparison": "different_event",
+              "reason": "外部通用模型绘画实测，不是A2自主登阶或B2负重比赛，本条不解决旧实测条件缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:710f3a761425dd6c",
+              "comparison": "different_event",
+              "reason": "杉宇·创计划合作框架，不是机器人比赛或产品性能事实。"
+            },
+            {
+              "evidence_id": "prior_decision:584dcae82d9d7587",
+              "comparison": "different_event",
+              "reason": "此前排除的是将数据服务行业压力及股价背景归于宇树的候选，不能据此排除本次有独立产品事实的赛事。"
+            },
+            {
+              "evidence_id": "prior_decision:dc6a2b9dbc1f2af6",
+              "comparison": "different_event",
+              "reason": "三季报经营指标待核，与本次竞速及负重比赛没有相同事件事实。"
+            },
+            {
+              "evidence_id": "prior_decision:6b8d7a72b4139272",
+              "comparison": "different_event",
+              "reason": "另一篇同一三季报披露候选，不是泰山比赛，财报待核不影响本条技术价值判断。"
+            },
+            {
+              "evidence_id": "prior_decision:1e52d625556c3dc8",
+              "comparison": "different_event",
+              "reason": "已保留的研发客户采购、关节可靠性优化及软件平台事项，不证明本次比赛已收录，也不直接批准本条。"
+            },
+            {
+              "evidence_id": "prior_decision:30d7fae7b1c99715",
+              "comparison": "different_event",
+              "reason": "为上述研发平台同一旧候选的另一采信留痕，与本次赛事不同。"
+            },
+            {
+              "evidence_id": "prior_decision:946bbcee8f87f0f4",
+              "comparison": "different_event",
+              "reason": "DeepSeek战略配售和模型合作约定，不涉及本次比赛，不能据比赛推断合作履行。"
+            },
+            {
+              "evidence_id": "prior_decision:bf02da706389889a",
+              "comparison": "different_event",
+              "reason": "北京、上海门店与消费案例的重复裁决留痕，不是本次赛事。"
+            },
+            {
+              "evidence_id": "prior_decision:f58106869f28b2b2",
+              "comparison": "different_event",
+              "reason": "仍为门店与Go2消费案例，不因同属四足机器人应用而合并事件。"
+            },
+            {
+              "evidence_id": "prior_decision:d2e41dd5d05140c6",
+              "comparison": "different_event",
+              "reason": "天津展示中心旧候选的再次留痕，与泰山自主竞速及负重比赛不同。"
+            },
+            {
+              "evidence_id": "prior_decision:6216296ed33fe5fc",
+              "comparison": "different_event",
+              "reason": "通用模型绘画实测的重复裁决留痕，不是本次自主登阶事实。"
+            },
+            {
+              "evidence_id": "prior_decision:34ee5164252013f7",
+              "comparison": "different_event",
+              "reason": "杉宇联合计划的重复裁决留痕，与本次比赛没有同事件关系。"
+            },
+            {
+              "evidence_id": "prior_decision:fe7908a1a2810c2a",
+              "comparison": "different_event",
+              "reason": "与另一排除记录同属数据行业压力及上市行情背景候选，本次赛事不构成对该排除事件的改判。"
+            },
+            {
+              "evidence_id": "prior_decision:9acc515fa8db258b",
+              "comparison": "different_event",
+              "reason": "三季报经营承压事项的重复留痕，与本次产品比赛不同。"
+            },
+            {
+              "evidence_id": "prior_decision:358cde0531df7c02",
+              "comparison": "different_event",
+              "reason": "另一三季报候选的重复留痕，不是本次A2、B2赛事记录。"
+            }
+          ],
+          "change_reason": "已展示历史中的参访、IPO、融资、标准、模型合作、研发平台及商业渠道均为其他事件；8月运动性能发布涉及人形机器人，10月广州塔部署涉及展演，也不等同本次四足机器人泰山竞速及负重任务。当前正文增加特定赛事、自主运行方式和指定赛段载荷事实，但本次检索两条错误记录指向同一历史来源缺失，不能将可见记录无匹配宣称为完整去重或首次发现。本轮不改判任何旧事件，待恢复同赛事历史后确定新增性。 主Agent进一步读取10月25日原input与plan：G1人形集群演示在10月22日大会发生；本条是11月2日泰山A2/B2四足赛事，产品与事件均不同。旧元数据缺口保留，未重绑旧审批；不以该无关缺口阻断本次有正文的产品场景观察。",
+          "new_evidence_ids": [
+            "article:de9d9bc206e87274"
+          ]
+        },
+        "evidence_ids": [
+          "article:de9d9bc206e87274",
+          "identity_registry:2dcd4f408df25406",
+          "geo-13a3a18a9bf559ad8bfbeaac",
+          "history_lookup:d52f787d1664c417",
+          "historical_input:246ab5cdefd2d623",
+          "historical_plan:251a2d2f16d5896b"
+        ],
+        "benchmark_review": {
+          "status": "confirmed",
+          "eligible": true,
+          "reason": "复用既有已审独立依据：宇树提供机器人本体，与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体平台能力可供杭州机器人企业比较，不以本次奖牌、上市身份或评分授予资格，也不豁免本条历史待核。",
+          "evidence_ids": [
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:66d57afc72eb96ed",
+            "prior_decision:50a1ddce1e52eee4"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "阿里巴巴",
+      "identity_mentions": [
+        {
+          "name": "千问办公",
+          "relation": "product",
+          "evidence": "阿里巴巴近期推出一站式AI办公平台“千问办公”"
+        },
+        {
+          "name": "千问App",
+          "relation": "product",
+          "evidence": "今年以来阿里旗下千问App率先实现“AI办事”"
+        },
+        {
+          "name": "Qoder",
+          "relation": "product",
+          "evidence": "阿里智能体平台Qoder凭借在智能体Harness上的技术突破荣获“领先科技奖”"
+        }
+      ],
+      "title": "蔡崇信乌镇谈AI发展：开源开放，源自中国创新的精神内核",
+      "company": "阿里巴巴",
+      "score": 110,
+      "sector": "人工智能大模型与智能体应用",
+      "financing": "",
+      "source": "浙商杂志",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+      "article_location": "浙江省杭州市余杭区文一西路960-1号（复用已审经营地证据，非本文披露）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-14c3cd9f0fde5abc65811edd"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里巴巴",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+            "source_url": "https://ali-home.alibaba.com/global-location",
+            "checked_at": "2026-10-21T18:14:15.207210+00:00",
+            "subject": "阿里巴巴",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路960-1号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-14c3cd9f0fde5abc65811edd"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-47c1e53c427aafb4556b",
+      "company_canonical_name": "阿里巴巴",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/lnfLYsdcQ_J8l3n8s4Bxqg",
+      "article_title": "蔡崇信乌镇谈AI发展：开源开放，源自中国创新的精神内核",
+      "event_desc": "2026年11月3日，阿里巴巴在世界互联网大会乌镇峰会展示芯片、云服务、大模型及AI应用成果。蔡崇信介绍，千问已开源超过470款模型，全球累计下载量突破40亿次，衍生模型超过33万个。文章同时披露，阿里巴巴近期推出一站式AI办公平台“千问办公”，融入钉钉生态并打通企业数据库和主流即时通讯工具，整合内容生成、浏览器自动化、定时任务调度和Office文档处理等能力；千问App日前推出个人AI助理“千问Go！”。上述产品推出的具体日期未披露。",
+      "insight": "千问办公把模型生成能力与企业数据库、通讯工具和浏览器操作连接起来，产品范围由内容辅助扩展到跨工具执行办公任务。对企业用户，其价值取决于这些连接能否支撑具体流程；文章已披露功能组合，但尚未展示某一客户流程的实际运行效果。",
+      "event_headline": "阿里巴巴展示全栈AI成果，千问拓展办公与个人事务应用",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "recent_event",
+        "description": "事件日期在最近7个自然日内: 2026-11-03",
+        "event_date": "2026-11-03",
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "阿里巴巴是正文明确的产品提供方，千问办公、千问Go！和Qoder均为产品而非新增企业。千问办公连接企业数据库、通讯工具与浏览器自动化，构成从内容生成向任务执行延伸的具体产品进展，不以峰会发言或获奖本身作为采信理由。新闻原始发布时间为2026年11月3日，符合七日窗口；已审官网经营地证据支持杭州正面发现归属，但不升级为集团注册地或总部证明。历史个人Agent事件为生态接入规划，本篇新增产品推出及办公功能组合，其他已收录及旧裁决分别对应模型开源、榜单、云业务、检索框架或处理器，不能按同企业重复剔除。本次仅取得日报资格，不自动进入周月领导简报。",
+      "event_headline_source": "d47e2619d21a64fc94e18386f1a4b670b856654d2de5425c11817f4d905583a0",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+          "source_url": "https://ali-home.alibaba.com/global-location",
+          "checked_at": "2026-10-21T18:14:15.207210+00:00",
+          "subject": "阿里巴巴",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "文一西路960-1号"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "可复用既有明确已审的玄铁处理器IP标杆资格：历史依据包括累计支撑超过60亿颗芯片交付、200余款量产芯片及服务400余家厂商，提供了规模化授权与生态工程的独立对标基础。本篇另由蔡崇信披露千问开源规模与魔搭生态，可作模型生态建设参照。上述资格有具体业务边界，不表示千问办公或千问Go！已经证明同等成熟度。",
+        "evidence_ids": [
+          "accepted_history:d9672401fc16d46c",
+          "prior_decision:f37dd73d7d5dc7ee",
+          "article:da86266b10106762"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "54640c4950a6ee8e1ef205339d31a7a5e8fd6ce740149b87a2d71826c16f8e22",
+        "input_row_sha256": "8ec06b9c08193162014f15dd964ea32875f1e20fb35b231fb5e34e7fc9e2579e",
+        "reason": "阿里巴巴是正文明确的产品提供方，千问办公、千问Go！和Qoder均为产品而非新增企业。千问办公连接企业数据库、通讯工具与浏览器自动化，构成从内容生成向任务执行延伸的具体产品进展，不以峰会发言或获奖本身作为采信理由。新闻原始发布时间为2026年11月3日，符合七日窗口；已审官网经营地证据支持杭州正面发现归属，但不升级为集团注册地或总部证明。历史个人Agent事件为生态接入规划，本篇新增产品推出及办公功能组合，其他已收录及旧裁决分别对应模型开源、榜单、云业务、检索框架或处理器，不能按同企业重复剔除。本次仅取得日报资格，不自动进入周月领导简报。",
+        "scope": {
+          "technology_evidence": "正文明确近期推出千问办公，融入钉钉生态，打通企业数据库和主流即时通讯工具，整合多模态内容生成、浏览器自动化、网页制作、定时任务及Office文档处理；另披露千问Go！已推出。",
+          "value_reason": "办公产品将模型输出连接到企业数据和操作工具，使竞争焦点从生成内容转向跨系统完成任务；相较历史消费生态接入规划，本次提供了具体产品形态与执行能力组合，可供杭州企业软件和智能体团队比较集成路线，但尚无客户流程成效或收入证据。"
+        },
+        "stage": {
+          "status": "峰会展示已发生；产品据报道已推出；客户应用效果未证实",
+          "reason": "2026年11月3日对应乌镇峰会展示与发言。千问办公为近期推出、千问Go！为日前推出，具体发布日期未知，不能统一改写为11月3日发布；功能披露不等于客户部署、效率提升或商业化收入已实现。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:d52f787d1664c417",
+            "accepted_history:55d4407cf47670fe",
+            "accepted_history:39d9266c87afa2ed",
+            "accepted_history:e845bb104d6d2c78",
+            "accepted_history:ba3f39ebe5a0a0d9",
+            "accepted_history:0f12d50d3dce4aef",
+            "accepted_history:d9672401fc16d46c",
+            "prior_decision:cf3fa2122b6a981b",
+            "prior_decision:cd40d94f23ad42f3",
+            "prior_decision:792b780351fa289d",
+            "prior_decision:482faed1822835db",
+            "prior_decision:f37dd73d7d5dc7ee",
+            "prior_decision:d671cb25fa9e0c87",
+            "prior_decision:09d6d7c8b20b058d"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:cf3fa2122b6a981b",
+              "comparison": "different_event",
+              "reason": "旧裁决针对云收入和集团财务口径，不是本次办公及个人助手产品进展。"
+            },
+            {
+              "evidence_id": "prior_decision:cd40d94f23ad42f3",
+              "comparison": "different_event",
+              "reason": "该记录同样对应云业务与集团财务报道，不构成本次产品事件的重复。"
+            },
+            {
+              "evidence_id": "prior_decision:792b780351fa289d",
+              "comparison": "different_event",
+              "reason": "旧裁决为Sirchmunk检索框架开源，与千问办公、千问Go！产品事实不同。"
+            },
+            {
+              "evidence_id": "prior_decision:482faed1822835db",
+              "comparison": "new_progress",
+              "reason": "旧事件为千问Personal Agent消费生态接入规划；本次披露个人助手已推出及独立办公产品能力，是相关产品方向的实质增量，但不能据此认定旧规划中每项生态接入均已兑现。"
+            },
+            {
+              "evidence_id": "prior_decision:f37dd73d7d5dc7ee",
+              "comparison": "different_event",
+              "reason": "旧事件为玄铁E908A发布和C950优化，不涉及本次应用产品。"
+            },
+            {
+              "evidence_id": "prior_decision:d671cb25fa9e0c87",
+              "comparison": "different_event",
+              "reason": "该记录亦为玄铁处理器事件，不能与本次办公和个人助手合并去重。"
+            },
+            {
+              "evidence_id": "prior_decision:09d6d7c8b20b058d",
+              "comparison": "different_event",
+              "reason": "该记录仍对应同一玄铁处理器审核，与本次软件应用进展不同。"
+            }
+          ],
+          "change_reason": "4月模型开源与本篇同属千问生态，但本篇新增办公及个人助手产品事实，累计模型指标更新仅作背景；6月榜单、10月云收入、Sirchmunk与玄铁均是另一事件。相较10月个人Agent规划，本篇明确使用已推出措辞并披露办公功能组合，足以保留增量，不因报道日期更新而简单重收，也不推翻旧裁决。不宣称全局首次。",
+          "new_evidence_ids": [
+            "article:da86266b10106762"
+          ]
+        },
+        "evidence_ids": [
+          "article:da86266b10106762",
+          "identity_registry:2dcd4f408df25406",
+          "geo-14c3cd9f0fde5abc65811edd",
+          "geo-3e188b8e374f1021ad5a5923",
+          "history_lookup:d52f787d1664c417"
+        ],
+        "benchmark_review": {
+          "status": "confirmed",
+          "eligible": true,
+          "reason": "可复用既有明确已审的玄铁处理器IP标杆资格：历史依据包括累计支撑超过60亿颗芯片交付、200余款量产芯片及服务400余家厂商，提供了规模化授权与生态工程的独立对标基础。本篇另由蔡崇信披露千问开源规模与魔搭生态，可作模型生态建设参照。上述资格有具体业务边界，不表示千问办公或千问Go！已经证明同等成熟度。",
+          "evidence_ids": [
+            "accepted_history:d9672401fc16d46c",
+            "prior_decision:f37dd73d7d5dc7ee",
+            "article:da86266b10106762"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "皇冠新材",
+      "title": "广东中山姐弟刚刚敲钟，市值近300亿",
+      "company": "皇冠新材",
+      "score": 50,
+      "sector": "胶粘材料与功能性薄膜",
+      "financing": "此次IPO发行价格16.98元/股，对应发行后市值约79.63亿元，原文未明确募资总额。2023年5月引入12名股东，完成3亿元融资；同年12月拓鸿投资增资2000万元。其中深创投相关主体合计投入1亿元，达晨相关主体合计投入8000万元。",
+      "source": "创业邦",
+      "location": "广东省 / 中山市",
+      "article_location": "广东省中山市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 中山市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-13efb1b104dccd65ccdf09ad"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "皇冠新材",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-13efb1b104dccd65ccdf09ad",
+            "source_url": "https://mp.weixin.qq.com/s/-Ci49z3zP_jHGrwZIWD_UA",
+            "checked_at": "2026-11-03T10:31:44+00:00",
+            "subject": "皇冠新材",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "中山市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "中山市",
+          "evidence_ids": [
+            "geo-13efb1b104dccd65ccdf09ad"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-0020b54969a439964544",
+      "company_canonical_name": "皇冠新材",
+      "identity_status": "unresolved",
+      "event_type": "IPO",
+      "link": "https://mp.weixin.qq.com/s/-Ci49z3zP_jHGrwZIWD_UA",
+      "article_title": "广东中山姐弟刚刚敲钟，市值近300亿",
+      "event_desc": "皇冠新材登陆深交所，发行价格16.98元/股，对应发行后市值约79.63亿元。京东方旗下天津京东方创新投资、通富微电、兆易创新、领益智造及德赛西威旗下德赛产投参与战略配售。相关合作涉及材料测试、验证与导入，以及拟开展的半导体功能性胶带开发、验证和材料认证对接。",
+      "insight": "皇冠新材值得关注的变化，是在上市过程中引入覆盖显示、芯片及封测环节的产业资本，并形成面向材料测试、开发和认证的合作安排，为其从通用粘接向客户具体工艺延伸提供了需求与验证接口。2025年工业级胶粘材料仍占主营收入65.69%，因此当前更应观察半导体等应用中的产品验证和导入进展，而不是将产业股东入场直接视为高端材料业务已成规模。",
+      "event_headline": "皇冠新材登陆深交所，产业资本参与战略配售",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "recent_event",
+        "event_date": "2026-11-03",
+        "observed_date": "2026-11-03",
+        "description": "原始新闻发布于2026年11月3日，正文明确今天（11月3日）登陆深交所，二者共同支持上市日期；不以采集日代替事件日。",
+        "review_required": false
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "正文直接确认皇冠新材为上市与材料业务主体，虽registry尚未完成稳定身份确认，但原文公司简称、上市事件和产品业务之间无主体冲突，可按报道主体保留正面线索，不擅自修改身份字段。IPO本身不是充分理由；电子级胶粘材料、功能性薄膜的既有业务，以及产业股东带来的材料测试、开发和认证合作接口，使该资本节点具有科技材料产业价值。原始新闻发布于2026年11月3日，结合正文今天（11月3日）可确认上市发生于同日，消除上游年份与发布时间疑问。所给历史无同事件记录。原文明确企业来自广东中山，不能因杭州投资方或浙江基地认定杭州主体；正式注册及总部仍待核，不影响本条外部正面产业线索采信。",
+      "event_headline_source": "d19924cfaf2d4aff53d9fb5d803b3965682bb2bf52b1cc3af3bf392538abfd5d",
+      "event_date": "2026-11-03",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-13efb1b104dccd65ccdf09ad",
+          "source_url": "https://mp.weixin.qq.com/s/-Ci49z3zP_jHGrwZIWD_UA",
+          "checked_at": "2026-11-03T10:31:44+00:00",
+          "subject": "皇冠新材",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "中山市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文足以支持材料业务、上市节点及产业合作观察，但未证明细分行业领先地位或高端材料规模化验证能力。将3M、日东、德莎列为比较对象及引入产业股东，均不足以授予全国标杆标签。",
+        "evidence_ids": [
+          "article:a33618b024db892d"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "9eecaad04ac285de1f613c71b357ea9c2458c28f2a824535092f21d024a2cfae",
+        "input_row_sha256": "695c089c61d352b782a61dd51936e18175ca0d19c0f45b541f0024daf1410a4e",
+        "reason": "正文直接确认皇冠新材为上市与材料业务主体，虽registry尚未完成稳定身份确认，但原文公司简称、上市事件和产品业务之间无主体冲突，可按报道主体保留正面线索，不擅自修改身份字段。IPO本身不是充分理由；电子级胶粘材料、功能性薄膜的既有业务，以及产业股东带来的材料测试、开发和认证合作接口，使该资本节点具有科技材料产业价值。原始新闻发布于2026年11月3日，结合正文今天（11月3日）可确认上市发生于同日，消除上游年份与发布时间疑问。所给历史无同事件记录。原文明确企业来自广东中山，不能因杭州投资方或浙江基地认定杭州主体；正式注册及总部仍待核，不影响本条外部正面产业线索采信。",
+        "scope": {
+          "technology_evidence": "正文说明公司生产电子级胶粘材料及用于数码电子、半导体等领域的功能性薄膜；京东方相关合作涉及材料测试、验证与导入，通富微电拟合作开发和验证半导体功能性胶带，兆易创新拟协助对接晶圆制造、封测材料认证。",
+          "value_reason": "材料供应商进入电子和半导体工艺，需要解决配方、制造条件、批次稳定性及客户认证问题。本次上市引入相关产业资本并形成具体合作安排，为进入这些验证环节提供接口，值得作为杭州功能材料企业的客户协同路径参照；产业持股不等于采购落地，工业级材料仍为主营基本盘，不能据此断言半导体业务已成规模。"
+        },
+        "stage": {
+          "status": "IPO及战略配售已发生；部分材料开发、验证和认证合作为拟开展",
+          "reason": "新闻发布时刻与正文今天（11月3日）相互印证上市日为2026年11月3日。战略配售名单为已披露事实，通富微电及兆易创新合作保留拟开展状态，京东方测试验证安排不等同于产品已完成认证、批量采购或量产导入。发行定价市值与开盘市值是不同口径，均非募资额。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:d52f787d1664c417"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本包该主体已收录历史与旧裁决均为空，检索无读取错误，所供范围内未发现本次IPO与战略配售事件。仅认定可用历史中未匹配，不宣称全局首次；2023年融资为背景，不作为本轮新融资重复收录。",
+          "new_evidence_ids": [
+            "article:a33618b024db892d"
+          ]
+        },
+        "evidence_ids": [
+          "article:a33618b024db892d",
+          "identity_registry:2dcd4f408df25406",
+          "history_lookup:d52f787d1664c417"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "正文足以支持材料业务、上市节点及产业合作观察，但未证明细分行业领先地位或高端材料规模化验证能力。将3M、日东、德莎列为比较对象及引入产业股东，均不足以授予全国标杆标签。",
+          "evidence_ids": [
+            "article:a33618b024db892d"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "共绩科技",
+      "title": "首发 | 宁德时代，投了一位清华00后",
+      "company": "共绩科技",
+      "score": 50,
+      "sector": "人工智能基础设施／分布式算力",
+      "financing": "2026年10月完成数亿元融资，具体轮次及估值未披露；投资方包括中国互联网投资基金、宁波问鼎、溥泉资本、元禾璞华、赛目科技、德石投资、启恒共创、春华创投、力合中科、新进创投。此前于2024年10月完成数千万元天使轮，2025年12月完成近亿元Pre-A轮。",
+      "source": "投资界",
+      "location": "北京市 / 海淀区 / 北四环西路67号中关村国际创新大厦",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区 / 北四环西路67号中关村国际创新大厦",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-6be047807fcfa1e6683141f5"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "共绩科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-6be047807fcfa1e6683141f5",
+            "source_url": "https://www.gongjiyun.com/about",
+            "checked_at": "2026-11-03T18:26:14.239136+00:00",
+            "subject": "共绩科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "北四环西路67号中关村国际创新大厦"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-6be047807fcfa1e6683141f5"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-00e5330d08a779e83450",
+      "company_canonical_name": "共绩科技",
+      "identity_status": "unresolved",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/jHyaS1t7JfpL5JTiCJaJNw",
+      "article_title": "首发 | 宁德时代，投了一位清华00后",
+      "event_desc": "据报道，共绩科技于2026年10月完成数亿元融资，投资方包括中国互联网投资基金、宁德时代系宁波问鼎和溥泉资本、元禾璞华、赛目科技、德石投资、启恒共创等，老股东春华创投、力合中科、新进创投持续加码。文章未披露本轮具体轮次及资金用途。公司通过分布式算力调度连接不同地区和集群的GPU资源，为模型训练、推理和AI应用提供按需调用的算力。",
+      "insight": "共绩科技的产品价值不只是汇集闲置GPU，而是把分散、波动的供给组织成可按需扩缩的推理服务：文中AI创作社区通过峰时调用、谷时释放资源，算力成本下降一半以上，Remy案例则展示了突发需求下的资源调度能力。此次数亿元融资是其资本成长节点，值得继续研究的关键是跨集群接续和资源释放机制能否在更多不同负载中复用，而非仅看接入设备总量。",
+      "event_headline": "共绩科技完成数亿元融资，分布式算力平台引入多类资本",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "month_explicit_day_unknown",
+        "description": "2026年11月3日报道明确称“今年10月”完成融资，可确认事件月份为2026年10月，具体日期未披露。",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": false
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确共绩科技为数亿元融资的获得方及分布式算力平台运营方，宁德时代系机构为投资方，不将投资方、客户或合作伙伴并入主体。来源发布时间为2026年11月3日，符合最近7天窗口，上游所述发布时间缺失已不成立。融资发生于2026年10月，具体轮次、估值和用途未披露。融资结合弹性推理调度及实际客户应用，构成有产业价值的资本成长节点。所给历史检索未返回同事件记录，可作为本轮新增事件保留，不宣称全库首次发现。身份登记尚未解析至具体法人，但原文主体无冲突；所在地未知不阻断正面线索采信，也不据此授予杭州主体或全国标杆资格。",
+      "event_headline_source": "89afccbe6320203b71f0dfc345dbaf1277533e7558109e4713383c7c22865198",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-6be047807fcfa1e6683141f5",
+          "source_url": "https://www.gongjiyun.com/about",
+          "checked_at": "2026-11-03T18:26:14.239136+00:00",
+          "subject": "共绩科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区",
+            "address": "北四环西路67号中关村国际创新大厦"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资及客户案例足以支持事件价值，但所给证据尚未建立经过独立核实的行业领先地位、可比优势或全国标杆资格，不能由融资金额和接入规模自动授标。",
+        "evidence_ids": [
+          "article:08061d161c56ab7f"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "723257e95be671d428b68712daa78f7936804691bfae9bba3c9ae28b723e340b",
+        "input_row_sha256": "ddd72557af9b30eb47fb4cf04eb589c9af759bca465a013b52c57e8fb6f3b256",
+        "reason": "原文明确共绩科技为数亿元融资的获得方及分布式算力平台运营方，宁德时代系机构为投资方，不将投资方、客户或合作伙伴并入主体。来源发布时间为2026年11月3日，符合最近7天窗口，上游所述发布时间缺失已不成立。融资发生于2026年10月，具体轮次、估值和用途未披露。融资结合弹性推理调度及实际客户应用，构成有产业价值的资本成长节点。所给历史检索未返回同事件记录，可作为本轮新增事件保留，不宣称全库首次发现。身份登记尚未解析至具体法人，但原文主体无冲突；所在地未知不阻断正面线索采信，也不据此授予杭州主体或全国标杆资格。",
+        "scope": {
+          "technology_evidence": "原文说明公司连接不同地区和集群的GPU资源，通过资源分级、冗余储备及分布式存储同步上下文承接推理任务；报道列举AI创作社区按峰谷调用资源和Remy突发需求下完成资源调度的案例。",
+          "value_reason": "新一轮融资为轻资产算力调度企业的资本成长节点；其产业观察价值在于通过跨集群调度和资源释放匹配波动推理需求，而非单纯增加GPU持有量。客户案例提供了商业化依据，但不能将个案成本改善外推至全部客户。"
+        },
+        "stage": {
+          "status": "融资已完成；调度服务已有应用案例",
+          "reason": "原文明确称今年10月完成数亿元融资，并描述已经落地的客户服务。客户成本改善、服务规模及SLA等属于报道转述的企业披露，不等于独立审计结果；拓展至上千节点仍为下一阶段目标。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:d52f787d1664c417"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本主体的accepted_history和prior_decisions均为空，历史检索未报错；在提供的检索范围内未发现本次融资的既有收录或排除裁决，无需推翻旧裁决。",
+          "new_evidence_ids": [
+            "article:08061d161c56ab7f"
+          ]
+        },
+        "evidence_ids": [
+          "article:08061d161c56ab7f",
+          "history_lookup:d52f787d1664c417"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "融资及客户案例足以支持事件价值，但所给证据尚未建立经过独立核实的行业领先地位、可比优势或全国标杆资格，不能由融资金额和接入规模自动授标。",
+          "evidence_ids": [
+            "article:08061d161c56ab7f"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "跨维智能",
+      "title": "中国造富第一城",
+      "company": "跨维智能",
+      "score": 15,
+      "sector": "科技企业，具体细分赛道未披露",
+      "financing": "B轮融资10亿元，投后估值超过百亿元；投资方及资金用途未披露。",
+      "source": "投资界",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "跨维智能",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-7a06b306083439526fbd",
+      "company_canonical_name": "跨维智能",
+      "identity_status": "confirmed",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/smgooC4rdgh-xCnU5LpK6Q",
+      "article_title": "中国造富第一城",
+      "event_desc": "跨维智能曾于2025年3月参加“X-Day”西丽湖路演社首场活动。原文称，一年后，公司宣布完成10亿元B轮融资，投后估值超过百亿元，未披露投资方及资金用途。",
+      "insight": "10亿元B轮融资是跨维智能值得关注的资本成长节点，使研究重点转向这笔融资所承接的具体技术与产品能力。路演对接发生在融资之前，但文章没有披露本轮投资方，不能将融资结果直接归因于该平台。",
+      "event_headline": "跨维智能宣布完成10亿元B轮融资，投后估值超百亿元",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-03",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文直接将10亿元B轮融资及投后估值超过百亿元归于跨维智能，稳定身份已确认。来源发布时间为2026年11月3日，符合采集窗口；融资仅以2025年3月路演“一年后”描述，不补造精确完成日期，也不将融资写成11月刚发生。历史证据中的W1 Pro多城市景区机器人应用补足其具体技术业务依据，本次融资与该部署事件不是同一事件。真实资本成长节点结合已有机器人商业化事实具有发现价值，无需因当前文章未重述产品细节而排除。路演先于融资不证明平台促成融资，投资方和资金用途均不补造。深圳城市叙事不能单独证明其注册地或总部地。",
+      "event_headline_source": "581fd23d3d7702d0b9e2323bd76a12ff21cc03239b65a73e7446b9b9a01bce88",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资与景区部署支持成长线索，但缺少可复核的行业地位、相对竞争优势及商业化质量证据，百亿元估值不能自动转化为全国标杆资格。",
+        "evidence_ids": [
+          "article:69b4a7c52ad440de",
+          "accepted_history:5432dd82dae3d5c9"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "6be84abf07b39c22200d3dc3f9702194e130795db896224bf768390d91835bc1",
+        "input_row_sha256": "795f4efdf565f8b479f6e2def2374ecad681f721054bae82ca49d7c8d2435aa8",
+        "reason": "原文直接将10亿元B轮融资及投后估值超过百亿元归于跨维智能，稳定身份已确认。来源发布时间为2026年11月3日，符合采集窗口；融资仅以2025年3月路演“一年后”描述，不补造精确完成日期，也不将融资写成11月刚发生。历史证据中的W1 Pro多城市景区机器人应用补足其具体技术业务依据，本次融资与该部署事件不是同一事件。真实资本成长节点结合已有机器人商业化事实具有发现价值，无需因当前文章未重述产品细节而排除。路演先于融资不证明平台促成融资，投资方和资金用途均不补造。深圳城市叙事不能单独证明其注册地或总部地。",
+        "scope": {
+          "technology_evidence": "已收录原文记载跨维智能W1 Pro进入30多座城市景区，现场制作咖啡、冰淇淋、爆米花并提供移动零售服务；当前原文明确披露该主体完成10亿元B轮融资。",
+          "value_reason": "融资为已有真实服务机器人应用的企业提供了新的资本成长观察点，可结合此前部署研究其产品扩张与商业模式；不能仅凭融资金额认定技术领先，也不能把融资直接归因于路演平台。"
+        },
+        "stage": {
+          "status": "报道回述已宣布完成的B轮融资",
+          "reason": "正文使用“宣布完成10亿元B轮融资”，不是融资计划或传闻；时间仅能保留其相对2025年3月路演“一年后”的表述，具体完成日未知。投后估值为报道披露，不代表已实现经营收入。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:5432dd82dae3d5c9",
+            "history_lookup:d52f787d1664c417"
+          ],
+          "prior_decisions": [],
+          "change_reason": "2026年10月8日收录的是W1 Pro进入多城市景区开展制作与零售服务；本条是10亿元B轮融资，事件性质与事实对象不同，不属于旧部署新闻的换源重复。所给历史中未发现同轮融资的既有裁决。",
+          "new_evidence_ids": [
+            "article:69b4a7c52ad440de"
+          ]
+        },
+        "evidence_ids": [
+          "identity_registry:2dcd4f408df25406",
+          "article:69b4a7c52ad440de",
+          "accepted_history:5432dd82dae3d5c9",
+          "history_lookup:d52f787d1664c417"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "融资与景区部署支持成长线索，但缺少可复核的行业地位、相对竞争优势及商业化质量证据，百亿元估值不能自动转化为全国标杆资格。",
+          "evidence_ids": [
+            "article:69b4a7c52ad440de",
+            "accepted_history:5432dd82dae3d5c9"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "杭州灵御智能科技有限公司",
+      "identity_mentions": [
+        {
+          "name": "灵御智能（DexTeleop）",
+          "relation": "uncertain",
+          "evidence": "具身智能领域的新锐清华系企业灵御智能（DexTeleop）落子杭州滨江，成立杭州灵御智能科技有限公司。"
+        },
+        {
+          "name": "灵御TA系列机器人",
+          "relation": "uncertain",
+          "evidence": "其中，灵御TA系列机器人是公司的核心产品，采用双机械臂等设计，面向真实物理场景中的任务执行、远程控制和数据采集。"
+        }
+      ],
+      "title": "又一家清华系具身公司落子杭州滨江",
+      "company": "杭州灵御智能科技有限公司",
+      "score": 50,
+      "sector": "具身智能数据基础设施与机器人遥操作",
+      "financing": "文章披露，灵御智能于2026年5月完成近亿元天使+轮融资，同年8月宣布完成数亿元Pre-A轮融资，后者投资方包括株洲产投、飞图创投、未来边际创投、芯能创投等。融资主体未明确为本次成立的杭州公司。",
+      "source": "湖畔自留田",
+      "location": "地点待核",
+      "article_location": "浙江省杭州市滨江区；原文明确为新公司成立所在地，未单独说明注册地或主要总部。",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "杭州灵御智能科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-5d8782ebc7b0c42ee1e4",
+      "company_canonical_name": "杭州灵御智能科技有限公司",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/L85a22W9fkaxIK4jqc9HHA",
+      "article_title": "又一家清华系具身公司落子杭州滨江",
+      "event_desc": "文章称，灵御智能于10月27日落子杭州滨江，成立杭州灵御智能科技有限公司。灵御智能从事机器人遥操作与真实世界数据采集，已推出TA系列机器人、DexUMI手部数据采集设备、Horus远程图传系统及数据管理平台，正在探索工业、零售、物流、酒店等场景。文章未披露杭州公司的具体业务分工。",
+      "insight": "灵御智能的产品路径是让人先遥控机器人完成任务，同时记录视觉、力觉和动作，再将操作过程转为模型训练数据，其产业位置更接近连接机器人执行端与模型训练端的数据基础设施。本次成立杭州公司提供了本地产业对接线索，值得进一步了解其将承接数据采集、设备研发还是场景部署。",
+      "event_headline": "灵御智能在杭州滨江成立杭州灵御智能科技有限公司",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "month_day_explicit_year_not_explicit",
+        "description": "正文给出“近日（10月27日）”，未直接写明该设立事件年份；北京时间报道日为2026年11月3日，不以报道日代替成立日。",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": false
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确灵御智能在杭州滨江成立杭州灵御智能科技有限公司，足以支持具体科技企业落地的正面发现，不是仅凭公司名称推定地域。采集证据的发布时间为2026年11月2日16:00 UTC，即北京时间11月3日，符合最近7天窗口。落地报道与机器人遥操作、真实世界数据采集产品链条相结合，具有本地产业对接价值。杭州公司与灵御智能品牌及既有主体保持区分，不将此前融资、全部产品能力或客户成果直接记作新公司独立成果，也不认定整体总部迁入。所给历史检索未发现同一成立事件；注册地、总部及杭州公司具体业务分工仍待补证，但不阻断本条正面线索采信。",
+      "event_headline_source": "164d311475bf3e7d856e267b63fcb170c214d8ec3f2421e9bce0362ba7c22c75",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_status": "unknown",
+      "location_candidates": [
+        {
+          "value": "浙江省杭州市滨江区；原文明确为新公司成立所在地，未单独说明注册地或主要总部。",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "产品体系和杭州公司成立支持产业发现，但尚无独立比较证据建立全国行业标杆地位；清华背景、既有融资及落地杭州均不能自动授标。",
+        "evidence_ids": [
+          "article:a27f780ec08ae174"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "3a127ac61772ace3351f3953722a9f4058696fa5cafca6d058edde11c3f5084b",
+        "input_row_sha256": "f1ea137d00242812f811aaaa09e4ba4a55bec1114374dbf3122aa599d0abc26d",
+        "reason": "原文明确灵御智能在杭州滨江成立杭州灵御智能科技有限公司，足以支持具体科技企业落地的正面发现，不是仅凭公司名称推定地域。采集证据的发布时间为2026年11月2日16:00 UTC，即北京时间11月3日，符合最近7天窗口。落地报道与机器人遥操作、真实世界数据采集产品链条相结合，具有本地产业对接价值。杭州公司与灵御智能品牌及既有主体保持区分，不将此前融资、全部产品能力或客户成果直接记作新公司独立成果，也不认定整体总部迁入。所给历史检索未发现同一成立事件；注册地、总部及杭州公司具体业务分工仍待补证，但不阻断本条正面线索采信。",
+        "scope": {
+          "technology_evidence": "原文介绍灵御智能的TA系列机器人、DexUMI手部数据采集设备、Horus远程图传系统及数据管理平台，用于遥操作与视觉、力觉、动作等真实世界数据采集；同时明确其成立杭州公司。",
+          "value_reason": "该落地为杭州具身智能产业提供了遥操作与训练数据基础设施方向的具体企业对接线索。下一步有区分度的动作是确认杭州公司承接设备研发、数据生产还是场景部署，据此选择本地合作接口，而非将成立公司等同于产能或收入落地。"
+        },
+        "stage": {
+          "status": "据报道已成立杭州公司；本地业务落地内容未披露",
+          "reason": "正文称“近日（10月27日）”成立杭州公司，为已发生的设立事件，不是计划签约。该日期未直接写明年份，保留月日及报道语境，不补造完整日期。工业、零售、物流、酒店场景仍为探索，不能写成杭州项目已交付。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:d52f787d1664c417"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本主体的accepted_history和prior_decisions均为空，历史检索未报错；所给范围内无同一杭州公司成立事件的既有收录或排除裁决。文中5月、8月融资只是灵御智能的背景信息，不另列为杭州公司融资事件。",
+          "new_evidence_ids": [
+            "article:a27f780ec08ae174"
+          ]
+        },
+        "evidence_ids": [
+          "article:a27f780ec08ae174",
+          "history_lookup:d52f787d1664c417"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "产品体系和杭州公司成立支持产业发现，但尚无独立比较证据建立全国行业标杆地位；清华背景、既有融资及落地杭州均不能自动授标。",
+          "evidence_ids": [
+            "article:a27f780ec08ae174"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "Marvell",
+      "title": "刚刚，Marvell 收购Lumentum，总价 1150 亿美元",
+      "company": "Marvell",
+      "score": 50,
+      "sector": "人工智能基础设施与光互连",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Marvell",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-69a56cdf2ee453b777b8",
+      "company_canonical_name": "Marvell",
+      "identity_status": "confirmed",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/tZrF8XzVAgbBXZhokYuDww",
+      "article_title": "刚刚，Marvell 收购Lumentum，总价 1150 亿美元",
+      "event_desc": "据文中披露，Marvell与Lumentum签署最终协议，拟以全股票方式收购Lumentum，隐含企业价值为1150亿美元。Lumentum每股普通股将换取4.500股Marvell普通股。交易预计于2028年上半年完成，尚需双方股东批准、监管批准及满足其他成交条件。合并后计划整合电气互连、光学器件、半导体设计和专业制造能力。",
+      "insight": "Marvell此前已向Lumentum采购激光技术，此次拟将供应商的激光器及专业制造能力纳入自身体系，把双方合作从器件采购推进到电气与光学信号链的协同设计。值得观察的是，这种整合能否形成面向具体数据中心连接任务的联合产品，而不只是扩大产品目录。",
+      "event_headline": "Marvell拟以全股票收购Lumentum，整合电光互连能力",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "所供全文明确Marvell为收购方，报道双方已签最终协议，拟以全股票交易收购Lumentum，隐含企业价值1150亿美元，不是已完成收购。原文明确双方已有激光技术采购关系，本次拟整合电光互连设计、激光器及化合物半导体制造，构成具体技术供应链整合线索。原始发布时间2026-11-02T12:37:00Z符合最近7天窗口，纠正上游称发布时间未提供的判断。已供历史涉及英伟达投资合作及Tower合作产品出货，均非本次并购；地点仍未知，不推定美国或杭州，也不因正面线索缺地点而否定其产业价值。与Lumentum条目共享同一并购事件身份，不重复统计为两笔交易。",
+      "event_headline_source": "d9890b1fd58a8c8854f831ecf9e577d2508a1dbaf8b7f3cde48918f476cfabe9",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持技术供应链整合观察，但交易金额及管理层关于领军地位的表述不能证明已实现的行业优势；既有出货事件已审未建立标杆资格，本条也未补充可比市场地位或独立应用效果证据。",
+        "evidence_ids": [
+          "article:c1790ed895189312",
+          "accepted_history:465ff93cd3a7bfc2"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "154571d0dffa892dca86ce230f405006f0f5b0a634e048b05daada8754d98d8c",
+        "input_row_sha256": "47b73d6b94073b4090e62efdad9ed3568103fe1a6fe6ddcebdea0fd16118f80b",
+        "reason": "所供全文明确Marvell为收购方，报道双方已签最终协议，拟以全股票交易收购Lumentum，隐含企业价值1150亿美元，不是已完成收购。原文明确双方已有激光技术采购关系，本次拟整合电光互连设计、激光器及化合物半导体制造，构成具体技术供应链整合线索。原始发布时间2026-11-02T12:37:00Z符合最近7天窗口，纠正上游称发布时间未提供的判断。已供历史涉及英伟达投资合作及Tower合作产品出货，均非本次并购；地点仍未知，不推定美国或杭州，也不因正面线索缺地点而否定其产业价值。与Lumentum条目共享同一并购事件身份，不重复统计为两笔交易。",
+        "scope": {
+          "technology_evidence": "正文明确Marvell已采购Lumentum激光技术，拟将自身电气和光互连、网络交换、定制芯片及封装能力，与Lumentum的激光器、光收发器、OCS及InP等专业制造能力整合。",
+          "value_reason": "为杭州光互连企业比较器件供货与系统协同设计两种产业路径提供具体参照：拟议交易将原供应商关系推进至设计和制造资源的一体化配置，但尚不能认定联合产品、性能改善或成本协同已经实现。"
+        },
+        "stage": {
+          "status": "媒体报道已签最终协议，交易待交割，能力整合为计划",
+          "reason": "原文称董事会已批准协议，预计2028年上半年完成，仍须双方股东及监管批准并满足成交条件。协议签署具体日期未独立明确，新闻发布时间不替代事件日；首次收录时间未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:f1adad7867990d9a",
+            "accepted_history:465ff93cd3a7bfc2",
+            "prior_decision:07d1b406b60b8471",
+            "prior_decision:055bfb3450f9c74e",
+            "history_lookup:d52f787d1664c417"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:07d1b406b60b8471",
+              "comparison": "different_event",
+              "reason": "旧watch针对Tower与Marvell合作相干光子芯片累计出货及地点缺证，不涉及收购Lumentum，不能据此排除本次并购线索。"
+            },
+            {
+              "evidence_id": "prior_decision:055bfb3450f9c74e",
+              "comparison": "different_event",
+              "reason": "该keep为同一相干光子芯片出货事件的后续裁决，与本次最终并购协议不同，不是本次事件的既有批准。"
+            }
+          ],
+          "change_reason": "英伟达投资及战略合作、Tower合作产品出货与本次收购Lumentum的协议在交易对象和实质事实均不同。所供范围未见同一并购事件的旧裁决，本次为该范围内另一事件，不宣称全量历史首次发现。",
+          "new_evidence_ids": [
+            "article:c1790ed895189312"
+          ]
+        },
+        "evidence_ids": [
+          "article:c1790ed895189312",
+          "identity_registry:2dcd4f408df25406",
+          "accepted_history:f1adad7867990d9a",
+          "accepted_history:465ff93cd3a7bfc2",
+          "prior_decision:07d1b406b60b8471",
+          "prior_decision:055bfb3450f9c74e",
+          "history_lookup:d52f787d1664c417"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条支持技术供应链整合观察，但交易金额及管理层关于领军地位的表述不能证明已实现的行业优势；既有出货事件已审未建立标杆资格，本条也未补充可比市场地位或独立应用效果证据。",
+          "evidence_ids": [
+            "article:c1790ed895189312",
+            "accepted_history:465ff93cd3a7bfc2"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "Lumentum",
+      "title": "刚刚，Marvell 收购Lumentum，总价 1150 亿美元",
+      "company": "Lumentum",
+      "score": 50,
+      "sector": "数据中心光通信与光电子器件",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "US / California / San Jose",
+      "article_location": "美国加利福尼亚州圣何塞（主要总部）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Jose",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-e662a67835dd77443d20b8a4"
+        ],
+        "subject_evidence_ids": [
+          "geo-e662a67835dd77443d20b8a4"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Lumentum",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Jose",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-e662a67835dd77443d20b8a4"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-e662a67835dd77443d20b8a4",
+            "source_url": "https://www.lumentum.com/en/company/contact-us",
+            "checked_at": "2026-10-12T03:55:49.376072+00:00",
+            "subject": "Lumentum",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Jose"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-b9eeb4894a166459c6ee",
+      "company_canonical_name": "Lumentum",
+      "identity_status": "confirmed",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/tZrF8XzVAgbBXZhokYuDww",
+      "article_title": "刚刚，Marvell 收购Lumentum，总价 1150 亿美元",
+      "event_desc": "据文中披露，Lumentum与Marvell签署最终协议，拟由Marvell以全股票方式收购，隐含企业价值为1150亿美元。Lumentum股东每持有1股普通股将获得4.500股Marvell普通股，交易完成后预计持有合并后公司约33%的股份。交易预计于2028年上半年完成，尚需双方股东批准、监管批准及满足其他成交条件。Lumentum拟为合并后的公司提供高性能激光器、光收发器、光路交换及化合物半导体制造能力。",
+      "insight": "Lumentum在拟议合并中提供的不只是光学产品，还包括磷化铟工艺和激光器制造能力，这使其成为电光协同设计中的关键供给环节。与Marvell的芯片设计及封装能力结合后，其产品有望更早参与系统设计，但联合方案的实际性能和量产进展仍需看具体产品。",
+      "event_headline": "Lumentum拟并入Marvell，将激光与制造能力纳入联合平台",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "正文明确Lumentum作为拟被收购方，提供激光器、OCS及InP制造能力，并列明每股换4.500股Marvell及附条件交割。保留其技术工艺资源被整合的独立企业事实，与收购方共用一笔交易而不计两笔并购。已读10月25日原input涉及CPO激光模块、800mW新品和Greensboro工厂规划，不是本次协议，10月12日光器件需求亦不同。历史元数据缺失仍列uncertain，不宣称首次；不把该不同事件缺口作为正面发布新门槛。",
+      "event_headline_source": "1f6dff1c2b3d0f8654bdbfccaaebdba7c414cc37cd8d9aa4070fae5743c077e1",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-e662a67835dd77443d20b8a4",
+          "source_url": "https://www.lumentum.com/en/company/contact-us",
+          "checked_at": "2026-10-12T03:55:49.376072+00:00",
+          "subject": "Lumentum",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "San Jose"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "已有具体光源产品及应用历史，本次又披露制造能力整合计划，但没有足以确立行业可比领先地位的独立证据；被收购估值及管理层预测不能自动授予标杆资格。",
+        "evidence_ids": [
+          "article:c1790ed895189312",
+          "accepted_history:0759c591415b777c"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "4d77b12ae0f574cd3f1d01ba0cddb6e72a72a410fed2b2d6b8c47130fb4d9b8f",
+        "input_row_sha256": "6c7b8afa56a5f167c0f4287b5a93dc53bd5da24f85a57685b004d0f9043539e3",
+        "reason": "正文明确Lumentum作为拟被收购方，提供激光器、OCS及InP制造能力，并列明每股换4.500股Marvell及附条件交割。保留其技术工艺资源被整合的独立企业事实，与收购方共用一笔交易而不计两笔并购。已读10月25日原input涉及CPO激光模块、800mW新品和Greensboro工厂规划，不是本次协议，10月12日光器件需求亦不同。历史元数据缺失仍列uncertain，不宣称首次；不把该不同事件缺口作为正面发布新门槛。",
+        "scope": {
+          "technology_evidence": "正文列明Lumentum提供高性能激光器、光收发器、光路交换及包括InP在内的化合物半导体工艺制造能力；协议约定每股Lumentum普通股换取4.500股Marvell普通股。",
+          "value_reason": "揭示光学器件企业的工艺和制造资源如何成为电光协同设计平台的整合对象，可供杭州光器件企业比较独立供货与平台整合路径；不能将拟议整合视为已实现性能提升或新增量产交付。"
+        },
+        "stage": {
+          "status": "媒体报道已签被收购协议，交割及技术整合尚未完成",
+          "reason": "预计2028年上半年完成仍附股东批准、监管批准及其他成交条件；合并后约33%的持股比例为交易完成后的安排，不是当前已取得权益。具体签约日及首次收录时间未知。"
+        },
+        "history": {
+          "result": "uncertain",
+          "evidence_ids": [
+            "accepted_history:e91767d5c89b57dd",
+            "accepted_history:0759c591415b777c",
+            "history_lookup:d52f787d1664c417",
+            "historical_input:246ab5cdefd2d623",
+            "historical_plan:251a2d2f16d5896b"
+          ],
+          "prior_decisions": [],
+          "change_reason": "可读历史分别为部分光器件产能售罄及需求缺口、CPO光源展示与模块应用及工厂计划，均不同于本次并购协议。但检索回执报告agent_captured_json:62ecc1b4084690cb历史来源变化或缺失，重复报错属于同一缺口，无法据现有材料排除遗漏同事件收录或旧裁决；不宣称首次发现。 主Agent复读10月25日保存原input及plan，实际候选为CPO光源与工厂规划，非收购协议；此次保留拟议交易及本公司制造能力的窄事实，未声称旧来源已修复，未将预计2028年交割写成完成。",
+          "new_evidence_ids": [
+            "article:c1790ed895189312"
+          ]
+        },
+        "evidence_ids": [
+          "article:c1790ed895189312",
+          "identity_registry:2dcd4f408df25406",
+          "geo-e662a67835dd77443d20b8a4",
+          "accepted_history:e91767d5c89b57dd",
+          "accepted_history:0759c591415b777c",
+          "history_lookup:d52f787d1664c417",
+          "historical_input:246ab5cdefd2d623",
+          "historical_plan:251a2d2f16d5896b"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "已有具体光源产品及应用历史，本次又披露制造能力整合计划，但没有足以确立行业可比领先地位的独立证据；被收购估值及管理层预测不能自动授予标杆资格。",
+          "evidence_ids": [
+            "article:c1790ed895189312",
+            "accepted_history:0759c591415b777c"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "临界点",
+      "title": "对谈临界点 CEO 乔天杰：金牌、独角兽和量产信仰",
+      "company": "临界点",
+      "score": 50,
+      "sector": "具身智能核心零部件／机器人灵巧手",
+      "financing": "报道称，公司独立后5个月内估值突破10亿美元；未披露具体融资轮次、金额及资金用途。",
+      "source": "晚点 LatePost",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "临界点",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-f24ff819b7bc699fc498",
+      "company_canonical_name": "临界点",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/k81OMVkhJSwM5aGpNb-LeA",
+      "article_title": "对谈临界点 CEO 乔天杰：金牌、独角兽和量产信仰",
+      "event_desc": "临界点于2026年1月官宣从智元独立，报道称其在5个月内估值突破10亿美元。公司团队从独立时的十几人增至采访时的一百多人，并预计2026年销售三万台设备，其中一万五千台为灵巧手。CEO乔天杰表示，智元同时承担投资方和客户角色，临界点的外部客户占比在过去几个月有所提高，原文未披露具体比例。",
+      "insight": "临界点的变化，是将机器人整机企业内部的灵巧手研发业务独立为面向多客户的零部件供给业务：智元提供初始需求和实际场景反馈，外部客户增加则为产品走出内部配套提供了线索。其能否形成独立供应商优势，关键在于智元场景中积累的产品能力能否适配其他客户，而不只是随单一客户扩张。",
+      "event_headline": "临界点披露独立后扩员进展，预计2026年销售三万台设备",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "采访新增独立供应商组织与客户结构线索，外部客户占比提高及团队增员，不把1月独立、此前融资再当新事件。三万台设备、一万五千台灵巧手都是2026年销售预计，未写已交付。",
+      "event_headline_source": "14dc467ea451358d7400e3fcf638bb1882eeda004fe45d8d2f542dd3998f155c",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:0188d999f178e0e2"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "ab47f14a5927d789535ce3787e3f8c999434bac88ac902dd50dc88ba46cb656d",
+        "input_row_sha256": "e42f2f0887e75b4d556c0f06c33d95a8dc716ac220be4473dce5e254700cfa8c",
+        "reason": "采访新增独立供应商组织与客户结构线索，外部客户占比提高及团队增员，不把1月独立、此前融资再当新事件。三万台设备、一万五千台灵巧手都是2026年销售预计，未写已交付。",
+        "scope": {
+          "technology_evidence": "灵巧手末端执行器，整机企业内部研发业务向多客户部件供给延伸。",
+          "value_reason": "判断重点是由内部配套向外部客户适配的能力，客户比例提高提供方向性证据但不补造比例。"
+        },
+        "stage": {
+          "status": "采访披露经营组织与客户结构变化；年度销售为预计",
+          "reason": "采访新增独立供应商组织与客户结构线索，外部客户占比提高及团队增员，不把1月独立、此前融资再当新事件。三万台设备、一万五千台灵巧手都是2026年销售预计，未写已交付。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:db635f0abf375251",
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "3月8日历史为数亿元融资，当前增加外部客户占比提高及团队扩张，属不同经营事实，不以估值变化代替技术价值。",
+          "new_evidence_ids": [
+            "article:0188d999f178e0e2"
+          ]
+        },
+        "evidence_ids": [
+          "article:0188d999f178e0e2",
+          "accepted_history:db635f0abf375251",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:0188d999f178e0e2"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "瑞芯微",
+      "title": "两个福建60后，三个月净赚12亿",
+      "company": "瑞芯微",
+      "score": 35,
+      "sector": "端侧AI芯片与机器人计算平台",
+      "financing": "",
+      "source": "铅笔道",
+      "location": "福建省 / 福州市 / 鼓楼区 / 铜盘路软件大道89号软件园A区18、20、21号楼",
+      "article_location": "福建省福州市（原文明示公司所在地，未区分注册地与总部）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "福建省 / 福州市 / 鼓楼区 / 铜盘路软件大道89号软件园A区18、20、21号楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-7e0d09322ef5818347c333ab"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "瑞芯微",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-7e0d09322ef5818347c333ab",
+            "source_url": "https://www.semiunion.com/company/rockchips.html",
+            "checked_at": "2026-10-20T02:39:18.470174+00:00",
+            "subject": "瑞芯微",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "福建省",
+              "city": "福州市",
+              "district": "鼓楼区",
+              "address": "铜盘路软件大道89号软件园A区18、20、21号楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "福建省",
+          "city": "福州市",
+          "district": "鼓楼区",
+          "evidence_ids": [
+            "geo-7e0d09322ef5818347c333ab"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-828638fdaf3958ae3903",
+      "company_canonical_name": "瑞芯微",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/KREBsXrkyEzOma-Fol0MhQ",
+      "article_title": "两个福建60后，三个月净赚12亿",
+      "event_desc": "据文章，瑞芯微2026年第三季度营业收入15.73亿元，同比增长43.57%；净利润4.73亿元，同比增长90.49%。公司2026年半年报披露，已建立覆盖机器人运动控制、视觉感知、智能决策和人机交互的芯片产品组合，并推出覆盖多传感器接入、同步采集、图像处理、编码传输等环节的机器人数采方案。公司尚未单独披露机器人业务收入。三季报还提及，部分客户因原材料涨价和供应紧张延后芯片订单。",
+      "insight": "瑞芯微进入机器人产业链的入口不只是整机计算，还包括研发阶段的数据采集设备：多传感器接入与同步处理能力，使其能够服务机器人训练数据的生成。三季度整体利润增长体现的是多应用市场的经营表现，不能据此判断机器人业务已成为主要增长来源。",
+      "event_headline": "瑞芯微三季度业绩增长，机器人数采方案拓展研发端应用",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文将瑞芯微芯片产品及多传感器同步数采方案与机器人研发连接，兼具具体技术与经营披露。Q3总利润增长不专归机器人，客户延后订单如实保留但不作杭州负面预警。",
+      "event_headline_source": "fe73b7507b093836b4e6114f3ef1dd7be82e44a1eb1c3c0ecf5bf08cd9bbe3f4",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-7e0d09322ef5818347c333ab",
+          "source_url": "https://www.semiunion.com/company/rockchips.html",
+          "checked_at": "2026-10-20T02:39:18.470174+00:00",
+          "subject": "瑞芯微",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "福建省",
+            "city": "福州市",
+            "district": "鼓楼区",
+            "address": "铜盘路软件大道89号软件园A区18、20、21号楼"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:38203c9bc11b83d8"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "58f0e098184fd15a16a71aa9ad2d93790ba571b2fe27a8d493cb496275ad36c6",
+        "input_row_sha256": "39980f1c0b60e8bb6fb896f402c78e1d293272148383972c49e0d71e8fea6fd8",
+        "reason": "原文将瑞芯微芯片产品及多传感器同步数采方案与机器人研发连接，兼具具体技术与经营披露。Q3总利润增长不专归机器人，客户延后订单如实保留但不作杭州负面预警。",
+        "scope": {
+          "technology_evidence": "覆盖运动控制、视觉、决策、人机交互的芯片组合及多传感器接入同步、图像编码传输方案。",
+          "value_reason": "数采基础设施是芯片进入机器人训练链的另一入口，独立于整机计算需求；收入分部未披露，不能计算机器人贡献。"
+        },
+        "stage": {
+          "status": "三季报已披露；方案及产品为半年报所述",
+          "reason": "原文将瑞芯微芯片产品及多传感器同步数采方案与机器人研发连接，兼具具体技术与经营披露。Q3总利润增长不专归机器人，客户延后订单如实保留但不作杭州负面预警。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:7788940392d9862d",
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "10月19日历史是工博会RK1828及工业场景，本次增加Q3财务与机器人数采产品组合，不把展会内容冒称本次新发布。",
+          "new_evidence_ids": [
+            "article:38203c9bc11b83d8"
+          ]
+        },
+        "evidence_ids": [
+          "article:38203c9bc11b83d8",
+          "accepted_history:7788940392d9862d",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:38203c9bc11b83d8"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "星宸科技",
+      "title": "两个福建60后，三个月净赚12亿",
+      "company": "星宸科技",
+      "score": 35,
+      "sector": "视觉AI芯片与机器人视觉",
+      "financing": "",
+      "source": "铅笔道",
+      "location": "福建省 / 厦门市",
+      "article_location": "福建省厦门市（原文明示公司所在地，未区分注册地与总部）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "福建省 / 厦门市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3927f880e1789f199b99dfb6"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "星宸科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-3927f880e1789f199b99dfb6",
+            "source_url": "https://www.stcn.com/article/detail/1169766.html",
+            "checked_at": "2026-10-20T02:31:27.133843+00:00",
+            "subject": "星宸科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "福建省",
+              "city": "厦门市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "福建省",
+          "city": "厦门市",
+          "evidence_ids": [
+            "geo-3927f880e1789f199b99dfb6"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-bfb8e6b2fe04fa8a034b",
+      "company_canonical_name": "星宸科技",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/KREBsXrkyEzOma-Fol0MhQ",
+      "article_title": "两个福建60后，三个月净赚12亿",
+      "event_desc": "据文章，星宸科技2026年第三季度营业收入19.17亿元，同比增长151%；净利润7.01亿元，同比增长752.76%。公司2025年推出面向户外及陪伴机器人等产品的SSU9366芯片，2025年机器人视觉芯片出货超过1000万颗；文章另称上半年机器人视觉芯片出货550万颗。公司正在开发用于具身智能机器人实时运动控制和认知决策的芯片。截至2026年9月底，公司存货31.82亿元，较上年末增加22.52亿元；前三季度净利润15.64亿元，经营活动现金流净额4.22亿元。",
+      "insight": "星宸科技正把摄像头领域的视觉处理能力延伸到扫地、割草等机器人，已披露的芯片出货说明其参与的不只是概念研发，而是具体设备的部件供应。向运动控制和认知决策扩展仍处开发阶段；整体利润增长也不能全部归因于机器人，存货增加与经营现金流表现则是理解增长质量的另一条线索。",
+      "event_headline": "星宸科技三季度业绩增长，机器人视觉芯片已有出货基础",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文增加正式三季度经营数据，并给出SSU9366及机器人视觉芯片实际出货背景。SSU9366在2025年推出，控制与认知芯片尚开发，未冒称本轮新量产。存货和现金流与增长并列保留。",
+      "event_headline_source": "414f7622401844954c26c1394fe2cc93d0343d4ecb6e5a4a8e791fbca282c2a5",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-3927f880e1789f199b99dfb6",
+          "source_url": "https://www.stcn.com/article/detail/1169766.html",
+          "checked_at": "2026-10-20T02:31:27.133843+00:00",
+          "subject": "星宸科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "福建省",
+            "city": "厦门市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:38203c9bc11b83d8"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "de89695fc3c1fecd1471a851393a90dc2da99259a0199092c2f546014eb4b387",
+        "input_row_sha256": "6d479ac214963f970186306693faa4f8b3733561392c2ababf1f319ceac0d129",
+        "reason": "原文增加正式三季度经营数据，并给出SSU9366及机器人视觉芯片实际出货背景。SSU9366在2025年推出，控制与认知芯片尚开发，未冒称本轮新量产。存货和现金流与增长并列保留。",
+        "scope": {
+          "technology_evidence": "视觉处理芯片延伸户外、陪伴等机器人，已有千万颗级机器人视觉芯片出货口径。",
+          "value_reason": "从摄像头ISP到设备视觉是实际部件供货路径；库存与经营现金转化有助识别增长质量，不能全部归因机器人。"
+        },
+        "stage": {
+          "status": "正式三季报数据及既有出货；新控制芯片处研发",
+          "reason": "原文增加正式三季度经营数据，并给出SSU9366及机器人视觉芯片实际出货背景。SSU9366在2025年推出，控制与认知芯片尚开发，未冒称本轮新量产。存货和现金流与增长并列保留。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:3da443d0b9de6fe1",
+            "prior_decision:e83e9d7b61802c1c",
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "10月15日为预告区间及拟出资基金，本次正式Q3结果和机器人芯片应用是实质增量；不再重复预告为新融资。",
+          "new_evidence_ids": [
+            "article:38203c9bc11b83d8"
+          ]
+        },
+        "evidence_ids": [
+          "article:38203c9bc11b83d8",
+          "accepted_history:3da443d0b9de6fe1",
+          "prior_decision:e83e9d7b61802c1c",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:38203c9bc11b83d8"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "XHEART新芯航途",
+      "identity_mentions": [
+        {
+          "name": "X7 Ultra",
+          "relation": "product",
+          "evidence": "XHEART选择将“大模型定义芯片”作为技术路线，正是在这样的语境和行业拐点下发生的。而本次重磅推出的大模型芯片X7 Ultra，是这条路线第一个接受量产检验的样本。"
+        }
+      ],
+      "title": "拆解X7 Ultra：大模型定义芯片，智驾算力告别纸面竞赛",
+      "company": "XHEART新芯航途",
+      "score": 50,
+      "sector": "汽车半导体／智能驾驶计算芯片",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "XHEART新芯航途",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-091cebb7e3f7c25696e2",
+      "company_canonical_name": "XHEART新芯航途",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/rdMZp1bVsGcpHgxRRuFViQ",
+      "article_title": "拆解X7 Ultra：大模型定义芯片，智驾算力告别纸面竞赛",
+      "event_desc": "XHEART新芯航途发布X7 Ultra智驾芯片，通过超大核NPU、计算与权重加载并行、整网级融合工具链等设计优化大模型推理。文章披露，其基于真实量产智驾大模型测得700 TOPS算力，NPU计算利用率达98.7%。截至发布会，X7系列量产8个月累计出货超过20万颗，搭载10款量产车型，获得超过40款车型订单；上述交付数据为系列口径。下一代X9计划于2027年推出。",
+      "insight": "新芯航途把大模型的数据搬运与执行需求提前纳入芯片设计，通过核内交互和整网任务编排减少等待及外存读写，其产品竞争重点由峰值算力转向车端模型的实际承载效率。X7系列已有车型搭载和出货基础，值得进一步研究的是Ultra新增架构在不同客户模型上的适配效果，而不是将系列交付成绩直接视作Ultra的量产验证。",
+      "event_headline": "新芯航途发布X7 Ultra，优化车端大模型运行效率",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "全文明确XHEART新芯航途推出X7 Ultra，计算结构与工具链可支持正面技术发现。700TOPS、98.7%按原报道测试口径，20万颗/10车型/40订单属X7系列，不转嫁为Ultra交付；X9为2027计划。会场苏州不冒认为主体地点。",
+      "event_headline_source": "55cb8921e72c2481fb483203ed8e1c6fed7ee4fe048406e1092b1fbf93148429",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:e3205dc8b8c1931e"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "e34d41edfba0e90def46efa58ab1aaf983ef588fa46e2ceb44abac0d00b0de44",
+        "input_row_sha256": "93d1c8ff76c4653b0eb45d9ede1bfd00ce2de62735a833a83d2167c94e8fe08c",
+        "reason": "全文明确XHEART新芯航途推出X7 Ultra，计算结构与工具链可支持正面技术发现。700TOPS、98.7%按原报道测试口径，20万颗/10车型/40订单属X7系列，不转嫁为Ultra交付；X9为2027计划。会场苏州不冒认为主体地点。",
+        "scope": {
+          "technology_evidence": "超大核NPU、计算与权重加载并行和整网融合工具链，面向智驾大模型执行效率。",
+          "value_reason": "产品将数据搬运与执行调度共同设计，可比较客户模型适配及实际吞吐；峰值或利用率自述不替代多模型效果。"
+        },
+        "stage": {
+          "status": "新品发布及公司披露测试；系列已出货；下一代为计划",
+          "reason": "全文明确XHEART新芯航途推出X7 Ultra，计算结构与工具链可支持正面技术发现。700TOPS、98.7%按原报道测试口径，20万颗/10车型/40订单属X7系列，不转嫁为Ultra交付；X9为2027计划。会场苏州不冒认为主体地点。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "检索包无已收录或旧裁决，未见同事件；不扩大为全库首次。",
+          "new_evidence_ids": [
+            "article:e3205dc8b8c1931e"
+          ]
+        },
+        "evidence_ids": [
+          "article:e3205dc8b8c1931e",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:e3205dc8b8c1931e"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "远景科技集团",
+      "title": "智元6台精灵G2挑战便利店连续作业24小时；iPhone Duo国行美版存结构差异？苹果：零部件生产或有个别不同丨智能制造日报",
+      "company": "远景科技集团",
+      "score": 35,
+      "sector": "AI数据中心供电系统",
+      "financing": "",
+      "source": "创业邦",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "远景科技集团",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-89e8993fc104b833ce55",
+      "company_canonical_name": "远景科技集团",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/LtwWo--ZzvZD30gIm5Ct0w",
+      "article_title": "智元6台精灵G2挑战便利店连续作业24小时；iPhone Duo国行美版存结构差异？苹果：零部件生产或有个别不同丨智能制造日报",
+      "event_desc": "远景科技集团于11月2日宣布，一体化800V高压直流供电系统已在乌兰察布星河基地投入商业化运行。系统由天枢控制器、固态变压器、直流储能及DC/DC构成。据报道，这是全球首套在大型AI数据中心商业化运行的同类系统。",
+      "insight": "此次进展的关键是将电力控制、变压、储能和直流转换集成为已投入商业化运行的供电系统，使远景在AI数据中心供电环节具备了实际运行案例。后续值得研究的是这套系统在具体计算负载下的供电效率与可靠性，以辨别其相较既有供电架构的应用价值。",
+      "event_headline": "远景科技集团800V直流供电系统投入商业化运行",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-03",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "简讯明确远景宣布800V系统已商业运行，不只是建设意向。系统组成有具体电力技术价值；全球首套是报道归属，不扩大独立排名。乌兰察布为项目地，不能据此改企业总部。",
+      "event_headline_source": "400bf31085cce41227ad45ad60a219f65179bff549ec57f47c6a0a09c6e486d5",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:ec957e774347b416"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "eac8830917413ba7b1931c9170e1f3c4baf6040d3c80b2a8a256d27b23c61250",
+        "input_row_sha256": "d9c6ecaa64e1ec294e1b4658db08babe3a1d4ec2736455d32fe0bd1956587fee",
+        "reason": "简讯明确远景宣布800V系统已商业运行，不只是建设意向。系统组成有具体电力技术价值；全球首套是报道归属，不扩大独立排名。乌兰察布为项目地，不能据此改企业总部。",
+        "scope": {
+          "technology_evidence": "控制器、固态变压器、直流储能与DC/DC集成800V直流供电系统。",
+          "value_reason": "AI数据中心需要供电链与负载协同，运行案例比单设备参数更接近工程验证，效率可靠性仍须按负载比较。"
+        },
+        "stage": {
+          "status": "公司宣布商业化运行",
+          "reason": "简讯明确远景宣布800V系统已商业运行，不只是建设意向。系统组成有具体电力技术价值；全球首套是报道归属，不扩大独立排名。乌兰察布为项目地，不能据此改企业总部。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:bcd7a5f460ff3b29",
+            "prior_decision:e83da5a42cbbe89d",
+            "prior_decision:bb7f9cbe89b91c77",
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "10月2日记录园区8月投产和扩展容量，本次是11月2日800V SST供电系统商业运行，工程对象不同，旧园区投产不重复计新。",
+          "new_evidence_ids": [
+            "article:ec957e774347b416"
+          ]
+        },
+        "evidence_ids": [
+          "article:ec957e774347b416",
+          "accepted_history:bcd7a5f460ff3b29",
+          "prior_decision:e83da5a42cbbe89d",
+          "prior_decision:bb7f9cbe89b91c77",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:ec957e774347b416"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "小米",
+      "identity_mentions": [
+        {
+          "name": "HachimoDock",
+          "relation": "product",
+          "evidence": "HachimoDock来自小米内部一个创新产品小团队"
+        },
+        {
+          "name": "xiaomi Miloco",
+          "relation": "product",
+          "evidence": "小米的另一个开源项目xiaomi Miloco为Hachimodock提供了有力支持。"
+        }
+      ],
+      "title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
+      "company": "小米",
+      "score": 50,
+      "sector": "AI硬件与智能交互",
+      "financing": "",
+      "source": "量子位",
+      "location": "北京市 / 海淀区 / 上地小米科技园，西二旗中路西侧",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区 / 上地小米科技园，西二旗中路西侧",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-627859ae8179b5ecbfddef6e"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "小米",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-627859ae8179b5ecbfddef6e",
+            "source_url": "https://zyk.bjhd.gov.cn/jbdt/auto4510_51816/auto4510_54705/auto4510/auto4510/201907/t20190711_4334530_hd.shtml",
+            "checked_at": "2026-10-20T02:30:06.330487+00:00",
+            "subject": "小米",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "上地小米科技园，西二旗中路西侧"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-627859ae8179b5ecbfddef6e"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-522d3edeb64a7ca45f5e",
+      "company_canonical_name": "小米",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/JfPpYBqF8mYFyDkBGiSGfA",
+      "article_title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
+      "event_desc": "小米内部创新产品团队推出HachimoDock，硬件自制成本约150元。该设备支持实时语音交互、向电脑端Agent分配任务及展示执行状态，可自定义桌宠形象和运行组件，并通过xiaomi Miloco联动智能家居。目前已在GitHub公开软件源码，在嘉立创平台提供硬件物料清单、结构件模型及装配教程。",
+      "insight": "HachimoDock把电脑端Agent的任务交代和状态反馈延伸到独立桌面终端，产品价值不只在语音输入，还在于让用户不必一直盯着电脑界面掌握任务进展。软件源码与硬件制作资料一并开放，使用户能够从复刻设备进一步参与角色和组件创作，为探索低成本AI交互形态提供了具体载体。",
+      "event_headline": "小米开源桌面AI硬件，连接电脑Agent与智能家居",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确小米内部团队推出并开放HachimoDock软件及硬件制作资料，具有独立Agent交互终端价值。约150元为DIY硬件成本，不是零售价。既往手机、眼镜、音频模型、电池记录均非本次设备。",
+      "event_headline_source": "e975510e9a41bfac4426098c28320ac34c401e934ddc9af4ba88e6a797d5b38c",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-627859ae8179b5ecbfddef6e",
+          "source_url": "https://zyk.bjhd.gov.cn/jbdt/auto4510_51816/auto4510_54705/auto4510/auto4510/201907/t20190711_4334530_hd.shtml",
+          "checked_at": "2026-10-20T02:30:06.330487+00:00",
+          "subject": "小米",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区",
+            "address": "上地小米科技园，西二旗中路西侧"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:803596c641382631"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "30a9367ca5098b46dcf3e11b90e3d9cf3571473ada4f5d39b18fe48d73f78137",
+        "input_row_sha256": "ffd22f73bf117e596eb49ec8cac6265c53a3803594d23aabb0f33aa742902c3b",
+        "reason": "原文明确小米内部团队推出并开放HachimoDock软件及硬件制作资料，具有独立Agent交互终端价值。约150元为DIY硬件成本，不是零售价。既往手机、眼镜、音频模型、电池记录均非本次设备。",
+        "scope": {
+          "technology_evidence": "语音分配电脑Agent任务、展示执行状态、桌宠组件与Miloco智能家居连接，并开放软硬件制作资源。",
+          "value_reason": "独立终端降低用户持续盯屏成本，开放物料与组件支持复刻与扩展；不是仅因小米品牌而保留。"
+        },
+        "stage": {
+          "status": "产品推出并开放源码与制作资料",
+          "reason": "原文明确小米内部团队推出并开放HachimoDock软件及硬件制作资料，具有独立Agent交互终端价值。约150元为DIY硬件成本，不是零售价。既往手机、眼镜、音频模型、电池记录均非本次设备。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:7d2a403cd82361aa",
+            "accepted_history:fdb3bf2f423d1783",
+            "accepted_history:b93a64e8e7e6ebc7",
+            "accepted_history:22ad590e99f9b33e",
+            "prior_decision:b4acb908fbf60623",
+            "prior_decision:2ada1046ec5991af",
+            "prior_decision:424b8c79f4335f92",
+            "prior_decision:79be7d16541590eb",
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "旧手机涨价、AI眼镜镜片、空间音频模型和龙甲电池均不同，未见同一HachimoDock事件，保留本轮产品开放。",
+          "new_evidence_ids": [
+            "article:803596c641382631"
+          ]
+        },
+        "evidence_ids": [
+          "article:803596c641382631",
+          "accepted_history:7d2a403cd82361aa",
+          "accepted_history:fdb3bf2f423d1783",
+          "accepted_history:b93a64e8e7e6ebc7",
+          "accepted_history:22ad590e99f9b33e",
+          "prior_decision:b4acb908fbf60623",
+          "prior_decision:2ada1046ec5991af",
+          "prior_decision:424b8c79f4335f92",
+          "prior_decision:79be7d16541590eb",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:803596c641382631"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "水木分子",
+      "identity_mentions": [
+        {
+          "name": "ChatDD",
+          "relation": "product",
+          "evidence": "从2023年开始，他们就在持续推进自然语言与生物语言的连接，并将相关能力带入对话式药物研发平台ChatDD。"
+        }
+      ],
+      "title": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
+      "company": "水木分子",
+      "score": 60,
+      "sector": "AI制药与生物医药研发智能体",
+      "financing": "",
+      "source": "量子位",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "水木分子",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-80eb4e22e188d74ab120",
+      "company_canonical_name": "水木分子",
+      "identity_status": "unresolved",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/BQynBjhzTlSazQg5-80EBg",
+      "article_title": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
+      "event_desc": "据水木分子生物医药首席科学家潘琦介绍，公司首条面向自身免疫疾病的双特异性抗体自研管线，使用ChatDD-Insight辅助立项及证据分析，使用ChatDD-Discovery进行分子发现与优化，从立项、分子设计和虚拟筛选，到湿实验验证及临床前候选分子确认，用时七个月。文章同时介绍，首批OpenBioMed技能包已发布，包含45项专业技能；ChatDD已用于外部药企、生物技术公司及医药研发服务机构的相关工作流程。",
+      "insight": "水木分子的具体进展，是把专家通过对话提出的目标和约束，接入立项、分子设计及实验反馈，而不只提供孤立的分子预测工具；自研抗体项目为这种连续协作提供了实际使用案例。七个月确认临床前候选分子说明平台已参与早期研发，但尚不足以把该项目的速度归因为平台优势，关键还在于候选分子的实验质量及相同任务条件下的比较。",
+      "event_headline": "水木分子将对话式AI用于自研抗体管线，披露七个月确认候选分子",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "水木分子首席科学家说明ChatDD在本公司双抗管线从立项至临床前候选确认的具体应用，45技能包及外部工作流也有产品依据。七个月是单项目历时，不计算相对提效、不冒称临床成功。",
+      "event_headline_source": "b83f6db1e656c0f6e859871a3784471811163f5b3c9f2c0e8228b5c35aac9574",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:5b7629538207ed78"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "4e3245a893fd887327fb0f3848303022443688c058567946e1e42d5500166ed0",
+        "input_row_sha256": "914280901a275ed0de074fbba8f54cb44fba513781658539e09450ccaa9d9381",
+        "reason": "水木分子首席科学家说明ChatDD在本公司双抗管线从立项至临床前候选确认的具体应用，45技能包及外部工作流也有产品依据。七个月是单项目历时，不计算相对提效、不冒称临床成功。",
+        "scope": {
+          "technology_evidence": "ChatDD-Insight证据分析接入Discovery分子设计与湿实验，OpenBioMed首批45专业技能。",
+          "value_reason": "连续研发工作流连接专家约束、分子设计和实验反馈，比孤立预测工具更接近药研交付；项目速度不能直接归因平台。"
+        },
+        "stage": {
+          "status": "企业访谈披露临床前候选确认及技能包发布",
+          "reason": "水木分子首席科学家说明ChatDD在本公司双抗管线从立项至临床前候选确认的具体应用，45技能包及外部工作流也有产品依据。七个月是单项目历时，不计算相对提效、不冒称临床成功。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "历史包无同主体收录与裁决，按所给范围未见该项目应用事件。",
+          "new_evidence_ids": [
+            "article:5b7629538207ed78"
+          ]
+        },
+        "evidence_ids": [
+          "article:5b7629538207ed78",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:5b7629538207ed78"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "RoboScience机器科学",
+      "title": "首发|斯坦福同学造机器人，产业资本集体来了",
+      "company": "RoboScience机器科学",
+      "score": 50,
+      "sector": "具身智能与通用机器人",
+      "financing": "A2轮数亿元融资，具体金额未披露。联合领投方为琥珀资本、鸿瑞达投资、上海半导体产投；跟投方包括爽资本、360战投、国联民生资本、金鼎资本及多家上市公司平台。",
+      "source": "投资界",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "RoboScience机器科学",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-72729e52b72852e132de",
+      "company_canonical_name": "RoboScience机器科学",
+      "identity_status": "unresolved",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/YkoVWvDvb34EtYvhcOuWxg",
+      "article_title": "首发|斯坦福同学造机器人，产业资本集体来了",
+      "event_desc": "RoboScience机器科学宣布完成A2轮数亿元融资，由琥珀资本、鸿瑞达投资、上海半导体产投联合领投，爽资本、360战投、国联民生资本、金鼎资本及多家上市公司平台跟投。资金将重点支持大模型持续迭代，推进物流、零售、工业等核心场景的概念验证与规模化落地，并加强高端人才储备。公司此前已发布RoboMirage仿真引擎、Visics通用具身大模型及REX G1轮式仿人形机器人，并与腾讯云达成云端具身智能服务合作。",
+      "insight": "此次融资支持的不是单一机器人产品，而是仿真数据、操作模型和机器人本体三者的联合迭代。其值得关注的产业路径，是通过统一的物体运动表征减少不同硬件重复适配，再以整机、云端模型服务和端侧控制器向不同客户交付；展会换手演示提供了具体线索，下一步可围绕同类任务更换硬件后的适配工作量与运行表现展开研究。",
+      "event_headline": "RoboScience机器科学完成A2轮数亿元融资，推进核心场景验证",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确RoboScience机器科学完成A2数亿元融资及投资机构、用途，主体具备仿真、模型、本体产品，不靠融资概念入选。用途为将来研发与场景验证，演示换手非大批量交付。",
+      "event_headline_source": "e2f7fadeee1058a49b33d73d4b8fea63975e1863206ca67ce926f0424aae8367",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:20ff1bc301827b13"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "89cd385c2824dd359aeba0fb11555ce75b571767ee3e80534707f6add3870d9e",
+        "input_row_sha256": "490f59b29a4f29cb8d886c48ac45c3f6386dd65cd051d8e76289a64d5b4db983",
+        "reason": "原文明确RoboScience机器科学完成A2数亿元融资及投资机构、用途，主体具备仿真、模型、本体产品，不靠融资概念入选。用途为将来研发与场景验证，演示换手非大批量交付。",
+        "scope": {
+          "technology_evidence": "RoboMirage仿真引擎、Visics通用具身模型及REX G1轮式仿人形机器人。",
+          "value_reason": "跨硬件表征与整机/云模型/控制器分层交付可降低重复适配工作，资金为该路线迭代提供支持而非证明效果。"
+        },
+        "stage": {
+          "status": "公司宣布融资完成；资金用途及规模化落地为计划",
+          "reason": "原文明确RoboScience机器科学完成A2数亿元融资及投资机构、用途，主体具备仿真、模型、本体产品，不靠融资概念入选。用途为将来研发与场景验证，演示换手非大批量交付。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "历史包无本轮融资及旧裁决，保留实际资本节点，不声明全历史首轮。",
+          "new_evidence_ids": [
+            "article:20ff1bc301827b13"
+          ]
+        },
+        "evidence_ids": [
+          "article:20ff1bc301827b13",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:20ff1bc301827b13"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "安纳智芯",
+      "title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
+      "company": "安纳智芯",
+      "score": 50,
+      "sector": "模拟计算芯片与存算一体",
+      "financing": "",
+      "source": "量子位",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "安纳智芯",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-263c7fcea74431a89093",
+      "company_canonical_name": "安纳智芯",
+      "identity_status": "unresolved",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/2vuCSMkfeFkMkDFBJXeVSQ",
+      "article_title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
+      "event_desc": "文章介绍，安纳智芯选择矩阵方程求解与矩阵求逆作为模拟计算芯片的切入方向，在阻变存储器阵列外围引入全局负反馈闭环，并采用模拟核计算、数字通道传输的混合架构。相关技术基础包括孙仲团队2025年10月发表的高精度研究：采用位切片和迭代修正提高求解精度，结合BlockAMC分块算法扩展至512×512维度矩阵。安纳智芯预计在一年内推出面向具身智能运动控制与规划的实测演示，中期聚焦大规模MIMO通信信号处理。",
+      "insight": "安纳智芯的差异化不只是加速矩阵乘法，而是把矩阵方程求解作为专用硬件任务：闭环电路承担初步求解，位切片和迭代修正补足精度，为机器人控制和通信信号处理提供了具体应用路径。下一项有辨别力的进展，是计划中的机器人演示能否在实际控制任务中体现完整系统的解算能力。",
+      "event_headline": "安纳智芯布局模拟矩阵求解，计划推出机器人控制演示",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文将安纳智芯矩阵求解硬件路线与具体电路/算法机制连接，足以作为早期技术发现。2025年论文是团队学术基础，不冒认为公司量产芯片；一年内机器人演示为计划。北京法名或学者单位不替代经营地。",
+      "event_headline_source": "1c46ea599c579b1b2070cbbd33f6b2b36254127f6c4fd0533ab50e9a78487796",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:9977b40eef29a183"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "e40be66ae28e2dcf3e6384d82f4c23fa3671bc0250edaf3217a92b790495d34f",
+        "input_row_sha256": "8c45fe0112268d9a879ea06274323302e9aa7d9b6fd1c42035ecea387722893b",
+        "reason": "原文将安纳智芯矩阵求解硬件路线与具体电路/算法机制连接，足以作为早期技术发现。2025年论文是团队学术基础，不冒认为公司量产芯片；一年内机器人演示为计划。北京法名或学者单位不替代经营地。",
+        "scope": {
+          "technology_evidence": "阻变阵列外围全局负反馈闭环、模拟核与数字传输混合架构，位切片迭代和BlockAMC分块。",
+          "value_reason": "相较通用矩阵乘法加速，专用矩阵方程求解对应机器人控制与MIMO任务，需看完整任务中精度与系统开销。"
+        },
+        "stage": {
+          "status": "公司研发路线披露；论文为历史研究；演示待发生",
+          "reason": "原文将安纳智芯矩阵求解硬件路线与具体电路/算法机制连接，足以作为早期技术发现。2025年论文是团队学术基础，不冒认为公司量产芯片；一年内机器人演示为计划。北京法名或学者单位不替代经营地。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "历史包无本主体同事件或旧排除，不因相关学术成果较早而机械排除当前研发路线介绍。",
+          "new_evidence_ids": [
+            "article:9977b40eef29a183"
+          ]
+        },
+        "evidence_ids": [
+          "article:9977b40eef29a183",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:9977b40eef29a183"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "Normal Computing",
+      "identity_mentions": [
+        {
+          "name": "CN101",
+          "relation": "product",
+          "evidence": "一家是Normal Computing，由前谷歌大脑与Palantir团队创立，2025年流片了热力学计算芯片CN101"
+        }
+      ],
+      "title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
+      "company": "Normal Computing",
+      "score": 50,
+      "sector": "热力学计算与非传统AI计算",
+      "financing": "文章称累计融资逾8500万美元，投资方包括三星、Eric Schmidt旗下的First Spark Ventures及英国高级研究与发明局；未提供单轮金额或精确融资日期。",
+      "source": "量子位",
+      "location": "地点待核",
+      "article_location": "硅谷（原文企业归属描述，未明确注册地或总部地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Normal Computing",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-a542ea2b200ae38dabdd",
+      "company_canonical_name": "Normal Computing",
+      "identity_status": "unresolved",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/2vuCSMkfeFkMkDFBJXeVSQ",
+      "article_title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
+      "event_desc": "据文章，Normal Computing由前谷歌大脑与Palantir团队创立，2025年流片热力学计算芯片CN101，累计融资逾8500万美元，投资方包括三星、First Spark Ventures及英国高级研究与发明局。文章还介绍，该公司2026年发表的《Thermodynamic Natural Gradient Descent》论文及后续二阶优化工作使用闭环负反馈模拟求逆电路。",
+      "insight": "Normal Computing把非传统计算硬件与二阶优化所需的矩阵求解连接起来，关注点已不止于通用的节能宣传，而是如何支撑特定优化算法。其与安纳智芯可比较的是求解电路及算法分工，不能据此推定两家公司采用相同器件、达到相同性能或存在技术授权关系。",
+      "event_headline": "Normal Computing回顾2025年流片及模拟求逆路线",
+      "event_signal": "context",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "全文明确Normal Computing自身CN101流片及2026二阶优化研究，主体有独立硬件与算法事实，不借安纳/其他研究者成果。2025流片如实保留时间，累计8500万美元不写本轮新增。",
+      "event_headline_source": "f50957c9d503b3e94723609c922e6e83cfb75b77fa53f79af9c315e308a90f75",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "硅谷（原文企业归属描述，未明确注册地或总部地）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:9977b40eef29a183"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "d513e79e46dbda50787815992cdbff85212f643b9f2c9e3208a51cc96aa01b48",
+        "input_row_sha256": "43c9340974ecded09aa5fd83551ee2193c1946212e5d4cb5677323eeddbf9b1c",
+        "reason": "全文明确Normal Computing自身CN101流片及2026二阶优化研究，主体有独立硬件与算法事实，不借安纳/其他研究者成果。2025流片如实保留时间，累计8500万美元不写本轮新增。",
+        "scope": {
+          "technology_evidence": "CN101热力学计算芯片及闭环负反馈求逆、Thermodynamic Natural Gradient Descent研究。",
+          "value_reason": "把非常规计算与具体二阶优化任务相连，可与安纳比较算法/电路分工，但不推断同器件、同性能或授权关系。"
+        },
+        "stage": {
+          "status": "2025已流片背景及2026论文研究；非当日新流片",
+          "reason": "全文明确Normal Computing自身CN101流片及2026二阶优化研究，主体有独立硬件与算法事实，不借安纳/其他研究者成果。2025流片如实保留时间，累计8500万美元不写本轮新增。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所给历史无同主体收录或排除；近期文章中的具体自身研究可发现，不因事实年龄硬排。",
+          "new_evidence_ids": [
+            "article:9977b40eef29a183"
+          ]
+        },
+        "evidence_ids": [
+          "article:9977b40eef29a183",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:9977b40eef29a183"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "成都茗匠科技",
+      "title": "中国县城新生意",
+      "company": "茗匠科技",
+      "score": 25,
+      "sector": "无人门店系统与物联网",
+      "financing": "",
+      "source": "投资界",
+      "location": "地点待核",
+      "article_location": "成都（正文明确的企业所在地，未区分注册地与总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "茗匠科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-5da94ca11fed85fdf4ff",
+      "company_canonical_name": "茗匠科技",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/MVmoL9rU9wK_-OKkIe92gQ",
+      "article_title": "中国县城新生意",
+      "event_desc": "文章称，茗匠科技服务门店数已超过5万家。公司早期通过智能开关连接收银系统和麻将机，随后推出包含线上预约、自动开门、续费和消费后保洁的全自助系统，推动茶楼及棋牌室无人化改造。",
+      "insight": "茗匠科技的产品从控制麻将机通电，延伸到预约、进出、计费和保洁衔接，解决的不只是设备联网，而是包厢经营流程的自动执行。超过5万家门店的服务覆盖，使其成为值得观察的线下小商户数字化基础设施提供方。",
+      "event_headline": "茗匠科技自助系统服务门店超5万家，覆盖包厢经营流程",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "茗匠科技在原文有明确技术供应商角色，智能开关到预约开门计费保洁流程与超5万门店服务，具备真实商业化观察价值。是服务门店不是直营数量，不因娱乐消费行业词排除。",
+      "event_headline_source": "ea80253ddfd40bf13e98f5ec58a29cba9eca7d0fa6f12b5760de5b45b3705cf4",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "成都（正文明确的企业所在地，未区分注册地与总部）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:5ed4dc469ceebdfb"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "a09725e6b8ffe0fd7f3486bf4a9e6e9ec289b9ed4b2e6753d906ee1172d55d8a",
+        "input_row_sha256": "fcd6866e45a3289dca78ebce2fe794aad0ae693e1d9772ebec71165520f2dd38",
+        "reason": "茗匠科技在原文有明确技术供应商角色，智能开关到预约开门计费保洁流程与超5万门店服务，具备真实商业化观察价值。是服务门店不是直营数量，不因娱乐消费行业词排除。",
+        "scope": {
+          "technology_evidence": "收银与麻将机通电联动，扩展线上预约、自动开门、续费、消费后保洁的全自助系统。",
+          "value_reason": "将分散包厢经营流程串联，IoT控制与业务流程软件结合可向小商户规模复制。"
+        },
+        "stage": {
+          "status": "报道披露已应用系统及服务覆盖",
+          "reason": "茗匠科技在原文有明确技术供应商角色，智能开关到预约开门计费保洁流程与超5万门店服务，具备真实商业化观察价值。是服务门店不是直营数量，不因娱乐消费行业词排除。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "历史包无同主体记录，所给范围未见同事件，不以门店规模估算收入。",
+          "new_evidence_ids": [
+            "article:5ed4dc469ceebdfb"
+          ]
+        },
+        "evidence_ids": [
+          "article:5ed4dc469ceebdfb",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:5ed4dc469ceebdfb"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "音创伟业",
+      "title": "中国县城新生意",
+      "company": "音创伟业",
+      "score": 0,
+      "sector": "KTV数字化解决方案",
+      "financing": "",
+      "source": "投资界",
+      "location": "地点待核",
+      "article_location": "成都（正文明确的企业经营所在地，未区分注册地与总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "音创伟业",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-d4dc8baa1eeb7e10fa8e",
+      "company_canonical_name": "音创伟业",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/MVmoL9rU9wK_-OKkIe92gQ",
+      "article_title": "中国县城新生意",
+      "event_desc": "文章称，成都自助KTV解决方案供应商音创伟业去年净利润增长81%，其中“提供数字化解决方案与技术服务”业务毛利率达到87%。文章未明确该财务期间的绝对年份。",
+      "insight": "音创伟业体现了自助娱乐产业中技术供应商与门店经营者的不同位置：前者向多家门店输出解决方案，并通过技术服务获得收益。相关业务87%的毛利率值得研究，但不能据此认定其整体利润增长全部来自自助KTV扩张。",
+      "event_headline": "音创伟业据报道去年净利润增长81%，技术服务毛利率达87%",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "音创伟业被明确为自助KTV解决方案供应商，数字化方案与技术服务毛利、利润增长提供经营事实，而不是仅娱乐门店开业。去年绝对年份未明确，不补造成2025审计数据。",
+      "event_headline_source": "9c6ab069bc8581a094de6e27be95c3c7540e223cb087e3b5bb92ddcf2caff42f",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "成都（正文明确的企业经营所在地，未区分注册地与总部）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:5ed4dc469ceebdfb"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "af7382fae2814ee1aebde266c9be05a9331b1533c504563098872cbe4260f733",
+        "input_row_sha256": "d8bfb34401967fcb784270593604720cbc348b62dee017c3c0e3554d598018f9",
+        "reason": "音创伟业被明确为自助KTV解决方案供应商，数字化方案与技术服务毛利、利润增长提供经营事实，而不是仅娱乐门店开业。去年绝对年份未明确，不补造成2025审计数据。",
+        "scope": {
+          "technology_evidence": "自助KTV数字化解决方案与技术服务，区别门店经营者。",
+          "value_reason": "同一产业里技术服务商可向多门店输出系统，其高毛利业务值得和门店重资产回报区分研究。"
+        },
+        "stage": {
+          "status": "报道披露既有服务业务与相对期间财务",
+          "reason": "音创伟业被明确为自助KTV解决方案供应商，数字化方案与技术服务毛利、利润增长提供经营事实，而不是仅娱乐门店开业。去年绝对年份未明确，不补造成2025审计数据。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "历史包无同主体收录与排除，不据利润增长推断全部来自KTV，也不计算收入。",
+          "new_evidence_ids": [
+            "article:5ed4dc469ceebdfb"
+          ]
+        },
+        "evidence_ids": [
+          "article:5ed4dc469ceebdfb",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:5ed4dc469ceebdfb"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "星云开物",
+      "title": "中国县城新生意",
+      "company": "星云开物",
+      "score": 25,
+      "sector": "物联网与自助设备SaaS",
+      "financing": "",
+      "source": "投资界",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "星云开物",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-7839c11d7238d770b164",
+      "company_canonical_name": "星云开物",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/MVmoL9rU9wK_-OKkIe92gQ",
+      "article_title": "中国县城新生意",
+      "event_desc": "文章称，星云开物从娃娃机联网改造起步，将自助系统扩展至共享洗衣机、按摩椅和售货机等设备。2025年公司净利润近亿元，SaaS云平台收入2.25亿元，该业务毛利率为81.6%。",
+      "insight": "星云开物将娃娃机联网能力复用于洗衣机、按摩椅和售货机，说明其产品服务对象已跨越单一娱乐场景。2025年云平台收入提供了平台业务商业化的具体量级，但文章没有披露各类设备的收入贡献，尚不能判断增长主要由哪个场景驱动。",
+      "event_headline": "星云开物2025年SaaS云平台收入2.25亿元，覆盖多类自助设备",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "星云开物有联网改造跨设备SaaS平台及2025收入/毛利实际披露，可作为实体设备数字化服务企业。设备覆盖不是直营数量，不用高利润推断各场景收入贡献。",
+      "event_headline_source": "ab0a3d381b094b1faf51dd5dfb4d5a86f603ae475c327a8cb9edac41e5eb55d9",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:5ed4dc469ceebdfb"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "6ddfce9252d6b62774d68d166e34e2faf73ca49c01db30b8186b6011c6346ea9",
+        "input_row_sha256": "2b4e29f791e1ecd3dd308e911758ff766989813df541328e73ccb8ab91d51f21",
+        "reason": "星云开物有联网改造跨设备SaaS平台及2025收入/毛利实际披露，可作为实体设备数字化服务企业。设备覆盖不是直营数量，不用高利润推断各场景收入贡献。",
+        "scope": {
+          "technology_evidence": "娃娃机联网能力扩展共享洗衣机、按摩椅和售货机，提供SaaS云平台。",
+          "value_reason": "跨设备复用控制与平台服务说明其不受单一娱乐品类限制，平台收入反映产品化服务量级。"
+        },
+        "stage": {
+          "status": "报道披露2025经营结果与已开展平台业务",
+          "reason": "星云开物有联网改造跨设备SaaS平台及2025收入/毛利实际披露，可作为实体设备数字化服务企业。设备覆盖不是直营数量，不用高利润推断各场景收入贡献。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "历史包无本主体同事件和旧排除，保留具体技术商业化，不因泛消费行业排除。",
+          "new_evidence_ids": [
+            "article:5ed4dc469ceebdfb"
+          ]
+        },
+        "evidence_ids": [
+          "article:5ed4dc469ceebdfb",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:5ed4dc469ceebdfb"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "厦门巨嗨科技",
+      "title": "中国县城新生意",
+      "company": "厦门巨嗨科技",
+      "score": 0,
+      "sector": "自助KTV系统与智能设备控制",
+      "financing": "",
+      "source": "投资界",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "厦门巨嗨科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-fa0bb6f26fdabca66ca6",
+      "company_canonical_name": "厦门巨嗨科技",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/MVmoL9rU9wK_-OKkIe92gQ",
+      "article_title": "中国县城新生意",
+      "event_desc": "文章称，厦门巨嗨科技创始团队早年从事KTV点歌系统软件，并参与过迷你K歌亭创业。2025年公司开始与自助KTV品牌合作，提供点歌、灯光、音响及设备控制的一体化方案；到文章所称“今年8月”，已服务超过2000家自助KTV门店。",
+      "insight": "巨嗨科技从点歌软件延伸到整店设备控制，把原有音娱系统能力用于自助KTV经营，产品边界由单项功能扩大到多设备协同。超过2000家门店的服务覆盖说明该方案已有实际应用规模，但不等同于公司拥有或经营这些门店。",
+      "event_headline": "厦门巨嗨科技将点歌系统延伸至整店自助，服务门店超2000家",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true
+      },
+      "published_date": "2026-11-02",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "巨嗨科技在原文承担点歌及设备控制方案供应，不是被服务2000门店的经营者。保留2025转向和今年8月覆盖的时间口径，未知详细城市证明不挡正面发现。",
+      "event_headline_source": "766b4b03b7d8d026a60c2957dbaf191c9c5bd3fab1f07c27195c6afefae4c912",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:5ed4dc469ceebdfb"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "3715a104a7e3748b116e07a1f6efe037a04d86bfad60d1070dc066aaabaea8ee",
+        "input_row_sha256": "d04800cc868d24edba34e237b2a03017c53c68941ce6dd2575cdcd9978c5752b",
+        "reason": "巨嗨科技在原文承担点歌及设备控制方案供应，不是被服务2000门店的经营者。保留2025转向和今年8月覆盖的时间口径，未知详细城市证明不挡正面发现。",
+        "scope": {
+          "technology_evidence": "点歌、灯光、音响与设备控制集成一体化自助KTV方案。",
+          "value_reason": "由单一音娱软件到整店多设备协同，既有软件能力可复用到无人化营业流程。"
+        },
+        "stage": {
+          "status": "报道回述已提供整店方案及服务门店覆盖",
+          "reason": "巨嗨科技在原文承担点歌及设备控制方案供应，不是被服务2000门店的经营者。保留2025转向和今年8月覆盖的时间口径，未知详细城市证明不挡正面发现。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "prior_decisions": [],
+          "change_reason": "历史包无本主体收录及旧排除，不把2000门店折算营收或当作直营网络。",
+          "new_evidence_ids": [
+            "article:5ed4dc469ceebdfb"
+          ]
+        },
+        "evidence_ids": [
+          "article:5ed4dc469ceebdfb",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "evidence_ids": [
+            "article:5ed4dc469ceebdfb"
+          ]
+        }
+      }
+    },
+    {
+      "company": "智元机器人",
+      "company_entity_id": "dr-u-ed71c3420dbf50a96a81",
+      "company_canonical_name": "智元机器人",
+      "company_raw_name": "智元机器人",
+      "identity_status": "confirmed",
+      "company_db_id": 131,
+      "title": "智元6台精灵G2启动便利店24小时作业挑战",
+      "article_title": "智元6台精灵G2挑战便利店连续作业24小时；iPhone Duo国行美版存结构差异？苹果：零部件生产或有个别不同丨智能制造日报",
+      "link": "https://mp.weixin.qq.com/s/LtwWo--ZzvZD30gIm5Ct0w",
+      "source": "创业邦",
+      "published_date": "2026-11-03",
+      "publication_basis": "复用已采集公众号原文发布时间",
+      "sector": "具身智能机器人",
+      "event_type": "产品测试",
+      "event_desc": "据报道，11月2日10时，智元启动24小时便利店作业挑战，安排6台精灵G2机器人执行迎宾、咖啡制作、熟食服务、取货补货及桌面清洁，并全程直播。测试结合GO-3基座模型及Genie Master具身Agent，检验真实营业场景的持续作业与自主服务能力；原文未提供挑战完成结果。",
+      "insight": "便利店把取物、制作、补货与清洁连接成连续任务，比单次动作演示更能暴露机器人在环境变化、任务切换和异常恢复上的短板。智元将基座模型与具身Agent放到同一营业流程中测试，重点应看任务中断后能否自主恢复，以及多台机器人是否真正减少人工接管；这将决定方案更适合先落地单工序，还是承接整段服务流程。",
+      "event_headline": "智元6台精灵G2启动便利店24小时作业测试",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "reported_start",
+        "event_date": "2026-11-02",
+        "observed_date": "2026-11-03",
+        "description": "报道明确11月2日10时启动，未报告完成结果",
+        "review_required": false
+      },
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 浦东新区 / 康桥镇环桥路1001号B2智元大楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-5b176d0cf5093e4f280a430a"
+        ],
+        "subject_evidence_ids": [
+          "geo-9a7f517daebe538764007d8b"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "智元机器人",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-9a7f517daebe538764007d8b"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-5b176d0cf5093e4f280a430a",
+            "source_url": "https://www.agibot.com.cn/",
+            "checked_at": "2026-10-26T00:32:11.541314+00:00",
+            "subject": "智元机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区",
+              "address": "康桥镇环桥路1001号B2智元大楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-5b176d0cf5093e4f280a430a"
+          ]
+        }
+      },
+      "location": "上海市 / 浦东新区 / 康桥镇环桥路1001号B2智元大楼",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-5b176d0cf5093e4f280a430a",
+          "source_url": "https://www.agibot.com.cn/",
+          "checked_at": "2026-10-26T00:32:11.541314+00:00",
+          "subject": "智元机器人",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "浦东新区",
+            "address": "康桥镇环桥路1001号B2智元大楼"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "701e4ba737ccbd61e6a71dc943cbc8ef0e8d54b523ce135142c9f89780f4fe5c",
+        "input_row_sha256": "5ec198d608f10c60206a392fe61f8c8be842fce81f23a4b1d3e988b7f59961f4",
+        "reason": "逐字读回创业邦已采集正文首条，智元6台精灵G2于11月2日启动24小时便利店作业测试，GO-3与Genie Master是具体技术支撑。只确认启动，不写24小时已通过或无人接管成功。此条在抽取阶段漏出，先加入additions并与原输入同合同复核。已读历史为龙旗工业产线、创新日模型发布、出货及融资传闻，便利店连续任务场景不同；保留历史元数据缺失为uncertain且不宣称首次。",
+        "scope": {
+          "technology_evidence": "6台精灵G2结合GO-3基座及Genie Master执行迎宾、制作、补货、清洁连续任务。",
+          "value_reason": "真实营业流程可检验多任务切换与异常恢复，决定先单工序部署还是整段服务接管；测试启动本身不证明运行成功。"
+        },
+        "stage": {
+          "status": "已启动公开测试；完成结果未知",
+          "reason": "正文明确11月2日10时启动并直播，没有结束结果或接管次数。"
+        },
+        "history": {
+          "result": "uncertain",
+          "evidence_ids": [
+            "accepted_history:d445b149d6f2aaf2",
+            "accepted_history:36795dcbcd2437fa",
+            "accepted_history:734adc28e6888f0f",
+            "accepted_history:fca579d38c10c4bf",
+            "accepted_history:09286b8b6dae302d",
+            "accepted_history:b93c9f676d1a6fe0",
+            "accepted_history:28cd8c122f033ca8",
+            "accepted_history:8f5dc209ed40cd7c",
+            "accepted_history:e49cd0b792846dd3",
+            "prior_decision:fa706ae9b6efaac1",
+            "prior_decision:65d91f712856b802",
+            "prior_decision:1667c83621dee3e1",
+            "prior_decision:d1d676084d1cabb9",
+            "prior_decision:fce1c080050cec2f",
+            "prior_decision:9e7c390bba0bffcf",
+            "prior_decision:49e151e75d258862",
+            "prior_decision:c5036619b351ed37",
+            "prior_decision:67bd77f459c2948c",
+            "prior_decision:35b9466a14d00c4f",
+            "history_lookup:504a9f30902f5efa"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:49e151e75d258862",
+              "comparison": "different_event",
+              "reason": "旧排除为上半年8600台出货重复，本条是便利店6台G2新场景测试，不重置旧出货裁决。"
+            }
+          ],
+          "change_reason": "既有G2是龙旗平板上下料或质检产线，创新日是模型/硬件发布；本条为不同客户流程的便利店24小时测试启动。融资传闻、出货重复及拆分数据公司均不同。历史元数据缺口保留，不影响该窄事实可读正文与具体技术价值。",
+          "new_evidence_ids": [
+            "article:ec957e774347b416"
+          ]
+        },
+        "evidence_ids": [
+          "article:ec957e774347b416",
+          "accepted_history:d445b149d6f2aaf2",
+          "accepted_history:36795dcbcd2437fa",
+          "accepted_history:734adc28e6888f0f",
+          "accepted_history:fca579d38c10c4bf",
+          "accepted_history:09286b8b6dae302d",
+          "accepted_history:b93c9f676d1a6fe0",
+          "accepted_history:28cd8c122f033ca8",
+          "accepted_history:8f5dc209ed40cd7c",
+          "accepted_history:e49cd0b792846dd3",
+          "prior_decision:fa706ae9b6efaac1",
+          "prior_decision:65d91f712856b802",
+          "prior_decision:1667c83621dee3e1",
+          "prior_decision:d1d676084d1cabb9",
+          "prior_decision:fce1c080050cec2f",
+          "prior_decision:9e7c390bba0bffcf",
+          "prior_decision:49e151e75d258862",
+          "prior_decision:c5036619b351ed37",
+          "prior_decision:67bd77f459c2948c",
+          "prior_decision:35b9466a14d00c4f",
+          "history_lookup:504a9f30902f5efa"
+        ]
+      },
+      "selection_recommendation": "keep",
+      "selection_reason": "逐字读回创业邦已采集正文首条，智元6台精灵G2于11月2日启动24小时便利店作业测试，GO-3与Genie Master是具体技术支撑。只确认启动，不写24小时已通过或无人接管成功。此条在抽取阶段漏出，先加入additions并与原输入同合同复核。已读历史为龙旗工业产线、创新日模型发布、出货及融资传闻，便利店连续任务场景不同；保留历史元数据缺失为uncertain且不宣称首次。"
+    }
+  ],
+  "negatives": [],
+  "excluded_count": {
+    "wechat": 19,
+    "web_search": 8,
+    "total": 27
+  },
+  "_analysis_pending": [
+    {
+      "url": "https://mp.weixin.qq.com/s/uFyRhjNUXdqUXYUXpasQ6w",
+      "title": "谷歌重磅发布Genie 4：这才是真正的「世界模型」",
+      "account": "36 氪",
+      "status": "retry_wait",
+      "reason": "local_body_read_failed",
+      "details": "本地公众号 reader 失败: local_asset_closure_missing"
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/mC_NOI1cYrVPF4kBlAK6ZQ",
+      "title": "两个博士给AI当老师，年入6.7亿，估值207亿",
+      "account": "铅笔道",
+      "status": "retry_wait",
+      "reason": "local_body_read_failed",
+      "details": "本地公众号 reader 失败: local_asset_closure_missing"
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/Zdak3S72e0vQ2YsOXCKPlA",
+      "title": "李佳琦直播间半小时卖出2万亿Token；苹果新CEO上任后首份财报：净利润增长12%；理想高管辟谣常州停车场有上万台0公里二手车丨邦早报",
+      "account": "创业邦",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "transport_timeout_or_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/5amwNnD4SVnz8e5QagkIbA",
+      "title": "字节跳动TikTok电商欧洲负责人陈熙即将离职；Muse上线新加坡，Shopee、Lazada、Grab都接入了；茶百道海外新开超40家门店丨Going Global",
+      "account": "创业邦",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "transport_timeout_or_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/2KRxKJ3IvlKHKQWoKcLm-A",
+      "title": "上半年净亏损807亿美元，Anthropic公开递交纳斯达克IPO申请；宇树回应净利润下滑；马斯克警告：200多家新云企业或倒闭或被整合丨AI周报",
+      "account": "创业邦",
+      "status": "retry_wait",
+      "reason": "ai_failed",
+      "details": {
+        "reason": "transport_timeout_or_unavailable",
+        "attempts": [
+          {
+            "attempt": 1,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 2,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          },
+          {
+            "attempt": 3,
+            "max_tokens": 32768,
+            "status": "retry_wait",
+            "reason": "transport_timeout_or_unavailable",
+            "elapsed_seconds": 180.0
+          }
+        ]
+      }
+    }
+  ],
+  "_analysis_status": "partial_retry_wait",
+  "quality_review": {
+    "schema_version": "dragon-overnight-review.v2",
+    "status": "partial_review",
+    "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+    "reviewed_candidates": 32,
+    "semantic_reviewed_candidates": 42,
+    "watch_candidates": 10,
+    "pending_candidates": 10,
+    "source_pending_count": 5,
+    "source_pending_counts": {
+      "_analysis_pending": 5,
+      "_pending_fact_identity": 0
+    }
+  }
+}
