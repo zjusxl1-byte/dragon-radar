@@ -704,7 +704,6 @@
               ]
             }
           },
-          "identity_candidates": [],
           "company_db_id": null
         }
       ],
@@ -5022,7 +5021,7 @@
     "2026-11-03": "3d8a18356bc0c2461c8551c767a1601d956e6b36667e125e0168d4224ca921e4",
     "2026-11-04": "78a5fa5d0f87ccf5ef2d76a6918951268ff6eb199256ac67213af3d60944a0a5"
   },
-  "geography_version": "bc1fa962c67f9446e73a214d014e260af1d95504ae827f0443b37f5fb932f27d",
+  "geography_version": "9e8c2463312f4605bc1ba5665e30aabef2d3c8234861ea42909ada3edb821932",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -20949,12 +20948,6 @@
           }
         }
       ]
-    },
-    "dr-u-924c561066324546d939": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
     },
     "dr-u-9273fc1d6216a70163c8": {
       "geography_status": "confirmed",
@@ -42228,6 +42221,11 @@
         "1": {
           "event_headline": "箭元科技钱塘火箭基地规划年产25发，尚未证明投产"
         },
+        "2": {
+          "company_entity_id": "dr-u-a1dd55e1e2a225d1ebcf",
+          "company_canonical_name": "杭州四维太空智能科技有限公司",
+          "identity_status": "confirmed"
+        },
         "5": {
           "event_headline": "索格智算与头部精细化工上市企业合作进入干湿实验迭代验证"
         },
@@ -45833,7 +45831,9 @@
     {
       "id": "dr-u-a1dd55e1e2a225d1ebcf",
       "name": "杭州四维太空智能科技有限公司",
-      "aliases": []
+      "aliases": [
+        "杭州四维"
+      ]
     },
     {
       "id": "dr-u-da2f0f03bc3a24f599ed",
@@ -47172,6 +47172,24 @@
       "id": "dr-u-dd79201704fe01d785ac",
       "name": "浙江晶睿电子科技有限公司",
       "aliases": []
+    },
+    {
+      "id": "dr-u-14bdd8f149e659d7a98a",
+      "name": "黑漫科技",
+      "aliases": [],
+      "source": "https://www.heymanbot.com/solutions/sg100"
+    },
+    {
+      "id": "dr-u-bfb8e6b2fe04fa8a034b",
+      "name": "星宸科技",
+      "aliases": [],
+      "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=301536&id=11987582"
+    },
+    {
+      "id": "dr-u-828638fdaf3958ae3903",
+      "name": "瑞芯微",
+      "aliases": [],
+      "source": "https://www.rock-chips.com"
     },
     {
       "id": "dr-u-b074349155c579b5ad34",
@@ -49884,12 +49902,6 @@
     {
       "id": "dr-u-54dd237932da3bf82236",
       "name": "杭州赛诺钱湾生物科技有限公司",
-      "aliases": [],
-      "identity_status": "unresolved"
-    },
-    {
-      "id": "dr-u-14bdd8f149e659d7a98a",
-      "name": "黑漫科技",
       "aliases": [],
       "identity_status": "unresolved"
     },
@@ -52974,12 +52986,6 @@
       "identity_status": "unresolved"
     },
     {
-      "id": "dr-u-bfb8e6b2fe04fa8a034b",
-      "name": "星宸科技",
-      "aliases": [],
-      "identity_status": "unresolved"
-    },
-    {
       "id": "dr-u-813b097a0bdacae484ac",
       "name": "Kepler Computing",
       "aliases": [],
@@ -53262,12 +53268,6 @@
     {
       "id": "dr-u-70e707437ab84e6fbcb3",
       "name": "东方算芯",
-      "aliases": [],
-      "identity_status": "unresolved"
-    },
-    {
-      "id": "dr-u-828638fdaf3958ae3903",
-      "name": "瑞芯微",
       "aliases": [],
       "identity_status": "unresolved"
     },
@@ -54290,12 +54290,6 @@
     {
       "id": "dr-u-42cb620210b3a10d3332",
       "name": "得一微电子",
-      "aliases": [],
-      "identity_status": "unresolved"
-    },
-    {
-      "id": "dr-u-924c561066324546d939",
-      "name": "杭州四维",
       "aliases": [],
       "identity_status": "unresolved"
     },
@@ -57273,7 +57267,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "b809feb89efcc51375691c7bfc657e9a76be6ffe02ecf0420b3c86ee4c726103",
+  "history_version": "526916296bf93771488cdb512d3fe26b5aee40d07e61f8b108f59a4b7677a5e6",
   "company_history_buckets": {
     "00": "27ca95315725ef5bb7b890c74d8808ffd7a21d35188b3abacacfe1df4c736ecd",
     "01": "7069574a04eb1cdc06ab2c9f4c478bf6c0092714bd959624e065bd8f90af3c5a",
@@ -57284,8 +57278,8 @@
     "06": "07fdc935a72e11b61692ebb466e23555f7c405530651a9aaa339746fe2beb6fb",
     "07": "2d70f196ddf47baba614e48c4aca8d758fb6e86fe5207026f28bd41ac039e792",
     "08": "f6308b88d927e0cf8d8e31776106b91ac4e5539c2d4e30a7b0ee20560c0b62b7",
-    "09": "09b2f7361e7540e25ac9925eb285b8d7e452063ca6f14dacfa25f94511995d53",
-    "0a": "e4f148d8666e0fae391cf2653983a0b8198c4796a772a48ccd90c5df52aab067",
+    "09": "1398623be4922eaa3da48ca0bc4218ffb5fba2d425b59dc23b13dcfe476df869",
+    "0a": "cbc9db1648285fedade7a5d7b91f9a606328e5bb13a77d10caf49c6a03438c91",
     "0b": "7993dda2e7f380e5304ee774b2ebc5fc4d556606ed021b889b78511839aa1fa8",
     "0c": "c421eff311584d4688254742faadc73414dafb35f7a95681b25ac705409a4cd8",
     "0d": "718f5343f7b5b335a858c4d95751c15f9fc03817acf78200eeaadc463928061d",
@@ -57306,7 +57300,7 @@
     "1c": "d8ffa75c7ce9270890b0767dadd4f5b21bcd1208abd724e68d824e0a72959660",
     "1d": "42ad5f23563f9f8c681b76fdf7d9050dd3445585524874e1db929baace9209c6",
     "1e": "159e5d76ff63889493f42eca327f792cd2b57bd18d5bc1b786a55a851f3ca8b2",
-    "1f": "4fa8b680e3b9c4d51fcaf62c8b010137569fa7ada106f0cd9aaeea0b969669f7",
+    "1f": "802544fa57b2ef1e87c4b11d3131333fe23d0267e2db861eb3fc4a2cb1944620",
     "20": "e6d541e865418a56bbebc209359d40c61009dd4c514949d19f21000f090061ab",
     "21": "15df5fdbde1833d1150695bc81c215a60dc8780bcc19f820abd1865bf2f3d3d5",
     "22": "56735360faa8589a4d1df6a0b43d78fa984a46b00da2464cfa9e7a43231553e1",
@@ -57340,7 +57334,7 @@
     "3e": "22d4cb06565215e1c9b7c25aeb068b3fef8c50ad1d9b5a7648b405caccff9e2e",
     "3f": "201aa4c8ca0125d0bf21ba15c6bb847f0095529e74d830cf4ac5f23f0b5dda22"
   },
-  "history_search_version": "9b5dbb31d2dc18b7b995d483e7ece6fd66df272a802ebd2f2ada0ba1b2f649be",
+  "history_search_version": "c88f66e24271f4c11e5148c826eacccf5029b2891f8ffe1d93b559dfa46a1bb9",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
