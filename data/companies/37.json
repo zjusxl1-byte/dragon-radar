@@ -1685,5 +1685,65 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "XHEART新芯航途": [
+    {
+      "date": "2026-11-04",
+      "title": "XHEART新芯航途发布X7 Ultra智驾芯片，通过超大核NPU、计算与权重加载并行、整网级融合工具链等设计优化大模型推理。文章披露，其基于真实量产智驾大模型测得700 TOPS算力，NPU计算利用率达98.7%。截至发布会，X7系列量产8个月累计出货超过20万颗，搭载10款量产车型，获得超过40款车型订单；上述交付数据为系列口径。下一代X9计划于2027年推出。",
+      "article_title": "拆解X7 Ultra：大模型定义芯片，智驾算力告别纸面竞赛",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/rdMZp1bVsGcpHgxRRuFViQ",
+      "sector": "汽车半导体／智能驾驶计算芯片",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "XHEART新芯航途",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "XHEART新芯航途",
+      "company_entity_id": "dr-u-091cebb7e3f7c25696e2",
+      "company_raw_name": "XHEART新芯航途",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "X7 Ultra",
+          "relation": "product",
+          "evidence": "XHEART选择将“大模型定义芯片”作为技术路线，正是在这样的语境和行业拐点下发生的。而本次重磅推出的大模型芯片X7 Ultra，是这条路线第一个接受量产检验的样本。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:e3205dc8b8c1931e"
+        ]
+      },
+      "published_date": "2026-11-02",
+      "insight": "新芯航途把大模型的数据搬运与执行需求提前纳入芯片设计，通过核内交互和整网任务编排减少等待及外存读写，其产品竞争重点由峰值算力转向车端模型的实际承载效率。X7系列已有车型搭载和出货基础，值得进一步研究的是Ultra新增架构在不同客户模型上的适配效果，而不是将系列交付成绩直接视作Ultra的量产验证。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "新芯航途发布X7 Ultra，优化车端大模型运行效率",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
