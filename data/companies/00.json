@@ -2247,5 +2247,70 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "得一微电子": [
+    {
+      "date": "2026-11-04",
+      "title": "2026年11月2日，得一微电子自主研发的PCIe Gen5 AI-MemoryX存力主控芯片YS9503获“中国芯”优秀技术创新产品奖，为公司第五次获得“中国芯”奖项。文章披露，YS9503采用无独立DRAM缓存设计，顺序读取速度14.8GB/s、顺序写入速度14.3GB/s，随机读写均达300万IOPS，并搭载分离命令地址技术以提升高并发场景下的NAND接口效率。其所依托的AI-MemoryX架构集成近数据处理、注意力感知预取及KV Cache预测性分层技术，面向端侧AI推理的数据供给需求。",
+      "article_title": "得一微，五获\"中国芯\"！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/F-a7oFCMo7lwj2gT95fSXg",
+      "sector": "半导体／存储控制芯片",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "得一微电子",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "得一微电子",
+      "company_entity_id": "dr-u-42cb620210b3a10d3332",
+      "company_raw_name": "得一微电子",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "YEESTOR",
+          "relation": "same_entity",
+          "evidence": "得一微电子（YEESTOR）"
+        },
+        {
+          "name": "YS9503",
+          "relation": "product",
+          "evidence": "得一微电子（YEESTOR）自主研发的PCIe Gen5 AI-MemoryX存力主控芯片YS9503"
+        }
+      ],
+      "score": 45,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体产品、参数及多次获奖可以支持事件关注，但尚不足以独立证明企业行业领先地位及可供杭州系统对标的成熟实践。",
+        "evidence_ids": [
+          "article:6d2e01b5d644037b"
+        ]
+      },
+      "published_date": "2026-11-03",
+      "insight": "值得关注的不只是获奖，而是得一微电子将存储控制器向参与AI推理数据调度的环节延伸：预取专家权重、分层存放推理缓存，让SSD承担部分模型数据供给任务。无独立DRAM缓存的高速设计则瞄准终端的成本和空间约束，但架构所述能力在具体模型与终端上的实际收益，仍需应用测试加以辨别。",
+      "financing": "",
+      "event_date": "2026-11-02",
+      "event_headline": "得一微电子YS9503主控芯片获中国芯技术创新奖",
+      "event_signal": "context",
+      "discovery_status": "first_seen"
+    }
   ]
 }
