@@ -818,16 +818,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/ofJ881RQSiYoxZTjxR3FtQ",
       "sector": "机器人灵巧手",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f33160323a73993bf5711aad"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "黑漫科技",
         "subject_locality": {
           "status": "unknown",
@@ -835,7 +837,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-f33160323a73993bf5711aad",
+            "source_url": "https://www.heymanbot.com/solutions/sg100",
+            "checked_at": "2026-11-03T18:25:18.323073+00:00",
+            "subject": "黑漫科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-f33160323a73993bf5711aad"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "湖畔自留田",
@@ -852,6 +878,84 @@
       "event_headline": "黑漫科技首发WA系列防水灵巧手，获毅达资本领投融资",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "2026年11月6日至8日，未来科学π科技市集拟展示黑漫科技水下五指灵巧手，文章介绍其将精细灵巧操作延伸至水下场景。",
+      "article_title": "免费报名！余杭这场未来科学π，太酷了！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/r4ODqUYDBUn7pMRZBcElQw",
+      "sector": "水下机器人与灵巧操作",
+      "location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f33160323a73993bf5711aad"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "黑漫科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-f33160323a73993bf5711aad",
+            "source_url": "https://www.heymanbot.com/solutions/sg100",
+            "checked_at": "2026-11-03T18:25:18.323073+00:00",
+            "subject": "黑漫科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-f33160323a73993bf5711aad"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "余杭发布",
+      "kind": "event",
+      "canonical_name": "黑漫科技",
+      "company_entity_id": "dr-u-14bdd8f149e659d7a98a",
+      "company_raw_name": "黑漫科技",
+      "identity_status": "unresolved",
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "历史融资与本次展示预告提供产品方向线索，但未建立可验证的行业领先地位或独立全国标杆依据，不能凭融资或灵巧手赛道自动授予资格。",
+        "evidence_ids": [
+          "accepted_history:527b0fdb4f78be6e",
+          "article:9a8392370d0ddff2"
+        ]
+      },
+      "published_date": "2026-11-03",
+      "insight": "黑漫科技的产品线索指向水下精细操作，而不只是水下观察或移动。其应用价值在于能否完成具体抓取、工具使用等任务，原文尚未给出操作演示或适用水深。",
+      "financing": "",
+      "event_date": "2026-11-06",
+      "event_headline": "黑漫科技水下五指灵巧手拟亮相未来科学π",
+      "event_signal": "context",
+      "discovery_status": "update"
     }
   ],
   "星源智": [
