@@ -4068,16 +4068,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/AXrU4cngzIHuvmnjhVsLvQ",
       "sector": "食品加工与茶饮原料供应",
-      "location": "地点线索：浙江省杭州市桐庐县（经营生产地，原文明示在桐庐办厂；注册地及总部地未披露）",
+      "location": "浙江省 / 杭州市 / 桐庐县",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 桐庐县",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c9976884dc76c53b2e875b7b"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "浙江艺福堂茶业有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -4085,7 +4087,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c9976884dc76c53b2e875b7b",
+            "source_url": "https://mp.weixin.qq.com/s/AXrU4cngzIHuvmnjhVsLvQ",
+            "checked_at": "2026-11-02T15:16:16+00:00",
+            "subject": "浙江艺福堂茶业有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "桐庐县"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "桐庐县",
+          "evidence_ids": [
+            "geo-c9976884dc76c53b2e875b7b"
+          ]
+        }
       },
       "article_location": "浙江省杭州市桐庐县（经营生产地，原文明示在桐庐办厂；注册地及总部地未披露）",
       "source": "涌金楼",
@@ -4109,6 +4137,119 @@
       "financing": "",
       "event_date": "",
       "event_headline": "艺福堂采用低温干燥加工桂花，产品进入连锁饮品供应链",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "远景科技集团": [
+    {
+      "date": "2026-11-04",
+      "title": "远景科技集团于11月2日宣布，一体化800V高压直流供电系统已在乌兰察布星河基地投入商业化运行。系统由天枢控制器、固态变压器、直流储能及DC/DC构成。据报道，这是全球首套在大型AI数据中心商业化运行的同类系统。",
+      "article_title": "智元6台精灵G2挑战便利店连续作业24小时；iPhone Duo国行美版存结构差异？苹果：零部件生产或有个别不同丨智能制造日报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/LtwWo--ZzvZD30gIm5Ct0w",
+      "sector": "AI数据中心供电系统",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "远景科技集团",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "远景科技集团",
+      "company_entity_id": "dr-u-89e8993fc104b833ce55",
+      "company_raw_name": "远景科技集团",
+      "identity_status": "confirmed",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:ec957e774347b416"
+        ]
+      },
+      "published_date": "2026-11-03",
+      "insight": "此次进展的关键是将电力控制、变压、储能和直流转换集成为已投入商业化运行的供电系统，使远景在AI数据中心供电环节具备了实际运行案例。后续值得研究的是这套系统在具体计算负载下的供电效率与可靠性，以辨别其相较既有供电架构的应用价值。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "远景科技集团800V直流供电系统投入商业化运行",
+      "event_signal": "major",
+      "discovery_status": "update"
+    }
+  ],
+  "水木分子": [
+    {
+      "date": "2026-11-04",
+      "title": "据水木分子生物医药首席科学家潘琦介绍，公司首条面向自身免疫疾病的双特异性抗体自研管线，使用ChatDD-Insight辅助立项及证据分析，使用ChatDD-Discovery进行分子发现与优化，从立项、分子设计和虚拟筛选，到湿实验验证及临床前候选分子确认，用时七个月。文章同时介绍，首批OpenBioMed技能包已发布，包含45项专业技能；ChatDD已用于外部药企、生物技术公司及医药研发服务机构的相关工作流程。",
+      "article_title": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/BQynBjhzTlSazQg5-80EBg",
+      "sector": "AI制药与生物医药研发智能体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "水木分子",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "水木分子",
+      "company_entity_id": "dr-u-80eb4e22e188d74ab120",
+      "company_raw_name": "水木分子",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "ChatDD",
+          "relation": "product",
+          "evidence": "从2023年开始，他们就在持续推进自然语言与生物语言的连接，并将相关能力带入对话式药物研发平台ChatDD。"
+        }
+      ],
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:5b7629538207ed78"
+        ]
+      },
+      "published_date": "2026-11-02",
+      "insight": "水木分子的具体进展，是把专家通过对话提出的目标和约束，接入立项、分子设计及实验反馈，而不只提供孤立的分子预测工具；自研抗体项目为这种连续协作提供了实际使用案例。七个月确认临床前候选分子说明平台已参与早期研发，但尚不足以把该项目的速度归因为平台优势，关键还在于候选分子的实验质量及相同任务条件下的比较。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "水木分子将对话式AI用于自研抗体管线，披露七个月确认候选分子",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
