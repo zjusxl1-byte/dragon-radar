@@ -1949,16 +1949,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/mTKlt30ZO2vWLRAQiBz6Lw",
       "sector": "智能服装装备与具身智能机器人",
-      "location": "地点线索：艾图机器人研发地为杭州临平；杰克—艾图总部项目位于临平新城，在建。原文未明确杰克科技注册地或现有主要总部所在地。",
+      "location": "浙江省 / 台州市 / 台州湾智能工厂",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 台州市 / 台州湾智能工厂",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-2ac0d7090f43e0ad12059230"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "杰克科技",
         "subject_locality": {
           "status": "unknown",
@@ -1966,7 +1968,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-2ac0d7090f43e0ad12059230",
+            "source_url": "https://cn.chinajack.com/web/news/detail?categoryId=66&id=250",
+            "checked_at": "2026-11-03T18:10:38.312975+00:00",
+            "subject": "杰克科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "台州市",
+              "address": "台州湾智能工厂"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "台州市",
+          "evidence_ids": [
+            "geo-2ac0d7090f43e0ad12059230"
+          ]
+        }
       },
       "article_location": "艾图机器人研发地为杭州临平；杰克—艾图总部项目位于临平新城，在建。原文未明确杰克科技注册地或现有主要总部所在地。",
       "source": "临平发布",
