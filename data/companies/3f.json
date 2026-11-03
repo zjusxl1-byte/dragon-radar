@@ -1791,5 +1791,58 @@
       "event_signal": "major",
       "discovery_status": "first_seen"
     }
+  ],
+  "安纳智芯": [
+    {
+      "date": "2026-11-04",
+      "title": "文章介绍，安纳智芯选择矩阵方程求解与矩阵求逆作为模拟计算芯片的切入方向，在阻变存储器阵列外围引入全局负反馈闭环，并采用模拟核计算、数字通道传输的混合架构。相关技术基础包括孙仲团队2025年10月发表的高精度研究：采用位切片和迭代修正提高求解精度，结合BlockAMC分块算法扩展至512×512维度矩阵。安纳智芯预计在一年内推出面向具身智能运动控制与规划的实测演示，中期聚焦大规模MIMO通信信号处理。",
+      "article_title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/2vuCSMkfeFkMkDFBJXeVSQ",
+      "sector": "模拟计算芯片与存算一体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "安纳智芯",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "安纳智芯",
+      "company_entity_id": "dr-u-263c7fcea74431a89093",
+      "company_raw_name": "安纳智芯",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:9977b40eef29a183"
+        ]
+      },
+      "published_date": "2026-11-02",
+      "insight": "安纳智芯的差异化不只是加速矩阵乘法，而是把矩阵方程求解作为专用硬件任务：闭环电路承担初步求解，位切片和迭代修正补足精度，为机器人控制和通信信号处理提供了具体应用路径。下一项有辨别力的进展，是计划中的机器人演示能否在实际控制任务中体现完整系统的解算能力。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "安纳智芯布局模拟矩阵求解，计划推出机器人控制演示",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
