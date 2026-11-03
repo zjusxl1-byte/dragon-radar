@@ -95,11 +95,11 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/Hf2_PkMIA2rJtk3gffNBzA",
       "sector": "商业航天",
-      "location": "地点线索：杭州钱塘区",
+      "location": "项目地：杭州市钱塘区（主体属地待核）",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
-        "display_location": "地点待核",
+        "display_location": "项目地：杭州市钱塘区（主体属地待核）",
         "located_status": "unknown",
         "display_basis": [],
         "subject_evidence_ids": [],
@@ -112,7 +112,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4d97c185e9a66852beb9db76",
+            "source_url": "https://mp.weixin.qq.com/s/MP5Gwytm2jHjXlp7Hp7RWg",
+            "checked_at": "2026-11-03T10:31:28+00:00",
+            "subject": "箭元科技",
+            "role": "project",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "钱塘区"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "项目地：杭州市钱塘区（主体属地待核）",
+          "detail": "海上回收复用基地规划；不代表主体总部迁入或基地已投产。",
+          "evidence_ids": [
+            "geo-4d97c185e9a66852beb9db76"
+          ]
+        }
       },
       "article_location": "杭州钱塘区",
       "source": "涌金楼",
@@ -129,6 +151,90 @@
       "event_headline": "箭元科技在杭州钱塘启动建设液体火箭总装总测及回收复用基地",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "据2026年11月3日报道，箭元科技在杭州钱塘的海上回收复用火箭基地规划年产25发，采用液氧甲烷加不锈钢路线；钱塘号一子级设计可重复使用20次，单公斤发射成本目标低于2万元，报道提出发射周期成本可降低50%。上述为规划、设计及预期指标，未证明基地已投产或已完成复飞。",
+      "article_title": "航天版图上的杭州：“来晚了”怎么找位置？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/MP5Gwytm2jHjXlp7Hp7RWg",
+      "sector": "商业航天／可复用运载火箭",
+      "location": "项目地：杭州市钱塘区（主体属地待核）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "项目地：杭州市钱塘区（主体属地待核）",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "箭元科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4d97c185e9a66852beb9db76",
+            "source_url": "https://mp.weixin.qq.com/s/MP5Gwytm2jHjXlp7Hp7RWg",
+            "checked_at": "2026-11-03T10:31:28+00:00",
+            "subject": "箭元科技",
+            "role": "project",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "钱塘区"
+            }
+          }
+        ],
+        "presentation": {
+          "label": "项目地：杭州市钱塘区（主体属地待核）",
+          "detail": "海上回收复用基地规划；不代表主体总部迁入或基地已投产。",
+          "evidence_ids": [
+            "geo-4d97c185e9a66852beb9db76"
+          ]
+        }
+      },
+      "article_location": "杭州市；钱塘区为文中基地项目所在地",
+      "source": "涌金楼",
+      "kind": "event",
+      "canonical_name": "箭元科技",
+      "company_entity_id": "dr-u-1017f4772516513f3d5e",
+      "company_raw_name": "箭元科技",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "钱塘号",
+          "relation": "product",
+          "evidence": "杭州箭元科技的“钱塘号”一子级设计可重复使用20次"
+        }
+      ],
+      "score": 45,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据主要是本地基地建设及设计规划，未建立行业领先地位或经实际复飞、交付验证的独立对标依据。",
+        "evidence_ids": [
+          "article:da3cd80322d44847",
+          "accepted_history:798255af76b1a25e"
+        ]
+      },
+      "published_date": "2026-11-03",
+      "event_identity": {
+        "canonical_id": "箭元科技在杭州钱塘的海上回收复用火箭基地规划年产25发，采用液氧甲烷与不锈钢技术路线。“钱塘号”一子级设计可重复使用20次，单公斤发射成本目标降至2万元以下，报道提出发射周期成本可降低50%。"
+      },
+      "insight": "箭元科技同时布局火箭复用设计与制造产能，面向的是卫星批量部署所需的低成本运力。其产业价值取决于回收后能否完成检查、维护和再次飞行，现有设计与规划尚未给出实际复飞表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "箭元科技钱塘火箭基地规划年产25发，尚未证明投产",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "杭州筑龙信息技术股份有限公司": [
