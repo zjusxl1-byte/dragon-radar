@@ -1426,16 +1426,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/pt8_4DBQpYQL-39EW4VcTA",
       "sector": "化合物半导体与功率器件",
-      "location": "地点待核",
+      "location": "浙江省 / 绍兴市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 绍兴市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-b2182cf51021a3cb78b4df2c"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "芯联动力",
         "subject_locality": {
           "status": "unknown",
@@ -1443,7 +1445,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-b2182cf51021a3cb78b4df2c",
+            "source_url": "https://m.sohu.com/a/1096021371_118792?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+            "checked_at": "2026-11-03T18:10:57.429683+00:00",
+            "subject": "芯联动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "绍兴市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "绍兴市",
+          "evidence_ids": [
+            "geo-b2182cf51021a3cb78b4df2c"
+          ]
+        }
       },
       "article_location": "",
       "source": "元璟资本",
@@ -1468,6 +1494,59 @@
       "event_date": "",
       "event_headline": "芯联动力完成近20亿元C轮融资，加速切入AI服务器电源",
       "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "茗匠科技": [
+    {
+      "date": "2026-11-04",
+      "title": "文章称，茗匠科技服务门店数已超过5万家。公司早期通过智能开关连接收银系统和麻将机，随后推出包含线上预约、自动开门、续费和消费后保洁的全自助系统，推动茶楼及棋牌室无人化改造。",
+      "article_title": "中国县城新生意",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/MVmoL9rU9wK_-OKkIe92gQ",
+      "sector": "无人门店系统与物联网",
+      "location": "地点线索：成都（正文明确的企业所在地，未区分注册地与总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "茗匠科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "成都（正文明确的企业所在地，未区分注册地与总部）",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "茗匠科技",
+      "company_entity_id": "dr-u-5da94ca11fed85fdf4ff",
+      "company_raw_name": "成都茗匠科技",
+      "identity_status": "unresolved",
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "evidence_ids": [
+          "article:5ed4dc469ceebdfb"
+        ]
+      },
+      "published_date": "2026-11-02",
+      "insight": "茗匠科技的产品从控制麻将机通电，延伸到预约、进出、计费和保洁衔接，解决的不只是设备联网，而是包厢经营流程的自动执行。超过5万家门店的服务覆盖，使其成为值得观察的线下小商户数字化基础设施提供方。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "茗匠科技自助系统服务门店超5万家，覆盖包厢经营流程",
+      "event_signal": "material",
       "discovery_status": "first_seen"
     }
   ]
