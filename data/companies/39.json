@@ -1184,16 +1184,18 @@
       "event_type": "平台公布及发布计划",
       "link": "https://mp.weixin.qq.com/s/DpGVH0UrNQwam2DBqqcn1A",
       "sector": "AI数据中心网络与加速器互联",
-      "location": "地点待核",
+      "location": "US / 加利福尼亚州 / 圣克拉拉 / 3101 Jay Street, Santa Clara, CA 95054",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 加利福尼亚州 / 圣克拉拉 / 3101 Jay Street, Santa Clara, CA 95054",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e4349e5b7dc77f6ed4fd9c85"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Upscale AI",
         "subject_locality": {
           "status": "unknown",
@@ -1201,7 +1203,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e4349e5b7dc77f6ed4fd9c85",
+            "source_url": "https://upscale.com/about-us",
+            "checked_at": "2026-11-04T18:06:40.682104+00:00",
+            "subject": "Upscale AI",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "加利福尼亚州",
+              "city": "圣克拉拉",
+              "address": "3101 Jay Street, Santa Clara, CA 95054"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "加利福尼亚州",
+          "city": "圣克拉拉",
+          "evidence_ids": [
+            "geo-e4349e5b7dc77f6ed4fd9c85"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
