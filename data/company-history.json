@@ -69940,16 +69940,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/e6nEB_AT49_Y4FzkV-rCKw",
       "sector": "微型核能",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c6ba89ba74c79040529fb459"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "九州星核(杭州)科技发展有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -69957,7 +69959,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c6ba89ba74c79040529fb459",
+            "source_url": "https://mp.weixin.qq.com/s/-U4o7SFmVInttNEs_Z85lw",
+            "checked_at": "2026-11-03T22:31:31+00:00",
+            "subject": "九州星核(杭州)科技发展有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-c6ba89ba74c79040529fb459"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "湖畔自留田",
@@ -69974,6 +70000,94 @@
       "event_headline": "九州星核完成天使轮融资，浙大联创与浙江省金控等投资",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "据深度采访，九州星核探索sCO₂气冷微堆直接循环方案，拟使二氧化碳兼任堆芯冷却剂与发电工质，省去主换热器。团队计划优先推进工业余热回收、光热储能发电等非核动力应用，积累系统集成与运行控制经验，同步开展微堆研发和工程示范；文中展示的是模型机。",
+      "article_title": "浙大教授想把核反应堆做成「充电宝」",
+      "event_type": "技术路线披露",
+      "link": "https://mp.weixin.qq.com/s/-U4o7SFmVInttNEs_Z85lw",
+      "sector": "先进核能／微型核能发电系统",
+      "location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c6ba89ba74c79040529fb459"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "九州星核(杭州)科技发展有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-c6ba89ba74c79040529fb459",
+            "source_url": "https://mp.weixin.qq.com/s/-U4o7SFmVInttNEs_Z85lw",
+            "checked_at": "2026-11-03T22:31:31+00:00",
+            "subject": "九州星核(杭州)科技发展有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-c6ba89ba74c79040529fb459"
+          ]
+        }
+      },
+      "article_location": "杭州",
+      "source": "湖畔自留田",
+      "kind": "event",
+      "canonical_name": "九州星核(杭州)科技发展有限公司",
+      "company_entity_id": "dr-u-90f0db029e633671d742",
+      "company_raw_name": "九州星核（杭州）科技发展有限公司",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "九州星核",
+          "relation": "same_entity",
+          "evidence": "而今年牵头创立的九州星核的出现，则意味着这位核能创业先锋再次回到产业一线。"
+        }
+      ],
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "采访支持具体设计思路和工程推进计划，尚无本公司已验证整机性能或独立行业地位比较证据。浙大背景、历史融资及与X-energy的路线比较不能自动建立全国标杆资格，也不能证明本路线更优。",
+        "evidence_ids": [
+          "article:388adac49e1bc7d5",
+          "accepted_history:1027122cc0a706ec"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "event_identity": {
+        "canonical_id": "九州星核探索超临界二氧化碳气冷微堆，采用直接循环设计，使二氧化碳同时承担堆芯冷却与发电工质功能，拟省去主换热器、简化系统架构。团队计划优先推进超临界二氧化碳动力技术在工业余热回收、光热储能发电等非核场景应用，积累系统集成和运行控制经验，同步推进微型核堆研发与工程示范。"
+      },
+      "insight": "九州星核的产品思路不只是缩小反应堆，而是让同一种二氧化碳工质连接堆芯冷却与发电，尝试通过减少换热设备实现整机紧凑化。先推进非核动力应用，可为动力子系统积累集成和运行经验，但这种经验能否迁移到直接接触堆芯的循环系统，仍是其整机路线需要回答的关键问题。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "九州星核探索二氧化碳气冷微堆，计划优先推进非核应用",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "深圳诺因智能有限公司": [
@@ -83323,6 +83437,90 @@
       "event_headline": "华为联合研发Memento 3，以代码世界模型完成游戏评测",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "据文章，无忧传媒于今年10月将华为Mate 90系列纳入杭州悦创直播基地主力设备。该系列将商品与人脸自动切换对焦、端侧AI降噪、多设备收音及专业直播输出等能力集成到手机中；其中Mate 90 Pro及以上机型的长焦微距已接入鸿蒙高清直播。文章另称，该系列支持通过HDMI以1080P、50帧配合HDR推流接入专业直播系统。",
+      "article_title": "从春晚机位到主播手中，一部手机要过几道关？",
+      "event_type": "商业化进展",
+      "link": "https://mp.weixin.qq.com/s/adSqQ1Nl7lJqTegZKcfdUQ",
+      "sector": "智能终端与专业直播设备",
+      "location": "广东省 / 深圳市龙岗区坂田华为基地",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市龙岗区坂田华为基地",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-3a4c9ae28ffec2813559bade"
+        ],
+        "subject_evidence_ids": [
+          "geo-3a4c9ae28ffec2813559bade"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "华为",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-3a4c9ae28ffec2813559bade"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-3a4c9ae28ffec2813559bade",
+            "source_url": "https://www.huawei.com/cn/contact-us",
+            "checked_at": "2026-10-12T03:39:57.997902+00:00",
+            "subject": "华为",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "address": "深圳市龙岗区坂田华为基地"
+            }
+          }
+        ]
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "华为",
+      "company_entity_id": "dr-u-82eaaba81d9dcc54deab",
+      "company_raw_name": "华为",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "华为Mate 90系列",
+          "relation": "product",
+          "evidence": "到了华为Mate 90系列，华为提出“人人都有‘春晚直播’”，想让同样的能力进入普通创作者每天的开播。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本包足以支持专业直播产品应用进展，但未提供可直接复用的明确benchmark_review或经核验的可比行业地位依据；宣传性的领先表述不单独授予全国标杆资格，也不据此撤销其他历史事件标签。",
+        "evidence_ids": [
+          "article:608c172288e0f577"
+        ]
+      },
+      "published_date": "2026-11-03",
+      "insight": "此次采用的实质，是手机从个人开播工具进入专业机构的日常设备体系：将对焦、收音和直播输出集成到终端，为高频开播提供不同于相机方案的轻量化选择。文章同时保留了相机在舞台演艺和多机位制作中的用途，反映的是设备分工扩展，而非手机全面替代相机。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "华为Mate 90系列进入无忧传媒杭州基地主力设备",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "赛力斯（法人全称待核实）": [
@@ -87364,6 +87562,104 @@
       "event_date": "",
       "event_headline": "Utopai Studios完成6000万美元融资，投后估值10亿美元",
       "event_signal": "major",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "据投资界报道，Utopai Studios的Utopai X于2026年10月底在Artificial Analysis无音频图生视频排行榜中排名第一。该视频生成产品基于MiniMax进行电影级长片生产定制，并与叙事创作平台PAI衔接。",
+      "article_title": "25岁，她估值70亿",
+      "event_type": "技术更新",
+      "link": "https://mp.weixin.qq.com/s/Xkw6XP4egT0k48GWTJdJ0Q",
+      "sector": "AI影视制作与生成式视频",
+      "location": "US / California / 215 Castro Street, 3rd floor, Mountain View, CA 94041",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / 215 Castro Street, 3rd floor, Mountain View, CA 94041",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-f3efff87280feea05d4b2c6b"
+        ],
+        "subject_evidence_ids": [
+          "geo-f3efff87280feea05d4b2c6b"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Utopai Studios",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Mountain View",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-f3efff87280feea05d4b2c6b"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-f3efff87280feea05d4b2c6b",
+            "source_url": "https://www.utopaistudios.com/en/about",
+            "checked_at": "2026-10-19T18:16:14.904025+00:00",
+            "subject": "Utopai Studios",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Mountain View",
+              "address": "215 Castro Street, 3rd floor, Mountain View, CA 94041"
+            }
+          }
+        ]
+      },
+      "article_location": "美国加利福尼亚州山景城（主要总部；复用已审同主体官网证据）",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "Utopai Studios",
+      "company_entity_id": "dr-u-89f3dfc5808775b5d85e",
+      "company_raw_name": "Utopai Studios",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "Cybever",
+          "relation": "same_entity",
+          "evidence": "两人于2022年创立Cybever，最初聚焦用于游戏制作的三维场景AI生成工具，随后发掘到在影视内容上的潜力，2025年更名为Utopai Studios，定位AI原生影视工作室。"
+        },
+        {
+          "name": "PAI",
+          "relation": "product",
+          "evidence": "自主开发出能拆解剧本、辅助生成镜头的叙事创作平台PAI"
+        },
+        {
+          "name": "Utopai X",
+          "relation": "product",
+          "evidence": "素材则由Utopai X生成交付。不同于传统通用视频模型，Utopai X基于MiniMax进行电影级长片生产定制，与真实制片工作流深度耦合。"
+        }
+      ],
+      "score": 70,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "特定榜单成绩增加产品比较依据，但尚未建立跨任务、持续交付及行业地位的充分证据，不因融资估值或单榜第一自动改变既有未建立标杆资格的结论。",
+        "evidence_ids": [
+          "article:1417beeb06674592",
+          "accepted_history:f90f4e007385524e"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "event_identity": {
+        "canonical_id": "据投资界报道，Utopai Studios完成6000万美元融资，投后估值达到10亿美元。报道未披露本轮融资的具体投资方及资金用途。据The Information报道，公司已收到下一轮投资条款清单，下一轮估值有望达到20亿至30亿美元。公司开发叙事创作平台PAI，并通过影视制作及对外技术授权开展业务；《科尔特斯》等作品计划于2027年上映。"
+      },
+      "insight": "Utopai X的这一成绩提供了特定视频生成任务上的比较依据，PAI则把生成素材接入剧本、镜头与专业后期流程。对影视AI工具企业，更有辨别力的下一步是比较同一制作任务中的镜头可控性、连续性和修改成本，而不是把单项榜单第一等同于长片生产能力领先。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Utopai Studios据报道于10月底登顶无音频图生视频榜",
+      "event_signal": "material",
       "discovery_status": "update"
     }
   ],
@@ -101879,6 +102175,102 @@
       "event_headline": "据报道，和晖机器人推出Unisun-M1驱控系统并获超6000万元订单",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "据银杏谷资本11月4日报道，和晖机器人具身运控项目已与云深处科技、卧龙电驱、中国移动、上海电气等开展合作与批量应用，合作内容及规模未逐项披露。其Unisun-M1方案整合运动控制、强化学习算法、关节模组和电源管理。项目同时获省博士后创新创业大赛创业组人工智能硬件创新赛道金奖。",
+      "article_title": "生态企业 | 第二届浙江省博士后创新创业大赛「和晖机器人」斩获金奖",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Xe-G68viotPa__vHca-8gQ",
+      "sector": "具身智能机器人核心部件与运动控制",
+      "location": "浙江省杭州市富阳区富闲路222号C幢6层",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市富阳区富闲路222号C幢6层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a1cf9210aa4b405d7193b423"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "和晖机器人",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-a1cf9210aa4b405d7193b423",
+            "source_url": "https://www.unisunbot.com/About.html",
+            "checked_at": "2026-10-20T02:28:15.148922+00:00",
+            "subject": "和晖机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "富阳区",
+              "address": "浙江省杭州市富阳区富闲路222号C幢6层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "富阳区",
+          "evidence_ids": [
+            "geo-a1cf9210aa4b405d7193b423"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "银杏谷资本",
+      "kind": "event",
+      "canonical_name": "和晖机器人",
+      "company_entity_id": "dr-u-8497bb57334d1244cd6a",
+      "company_raw_name": "和晖机器人",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Unisunbot",
+          "relation": "same_entity",
+          "evidence": "和晖机器人（Unisunbot）成立于2025年9月"
+        },
+        {
+          "name": "Unisun-M1",
+          "relation": "product",
+          "evidence": "团队在较短的时间内成功推出应用于复合工业机器人、四足机器人、人形机器人的“Unisun-M1”驱控系统"
+        }
+      ],
+      "score": 95,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "复用已审历史的未获标杆资格结论。新增合作与批量应用提高商业化线索价值，但没有独立性能对比、市场份额或可验证行业地位，省级赛事金奖不能替代全国标杆依据。",
+        "evidence_ids": [
+          "accepted_history:77bfd0fef986e4d1",
+          "article:be2841504ce57260"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "event_identity": {
+        "canonical_id": "和晖机器人林文杰团队凭《具身机器人高性能控制系统研发与产业化》项目，获得第二届浙江省博士后创新创业大赛创业组人工智能（硬件创新）赛道金奖。文章介绍，公司已推出Unisun-M1驱控系统，整合运动控制系统、强化学习算法、一体化关节模组及电源管理系统，面向复合工业机器人、四足机器人和人形机器人提供解决方案；项目已与云深处科技、卧龙电驱、中国移动、上海电气等企业开展深度合作与批量应用，公司已获超6000万元订单。"
+      },
+      "insight": "和晖机器人向本体厂商提供控制器、关节和算法组成的运控底座，价值在于减少不同整机的底层运动控制重复开发。具名合作与批量应用为跨机型供给提供了应用线索；标准模块能够复用多少、仍需多少定制适配，将决定这一路径的交付效率与复制能力。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "和晖机器人据报道已开展具身运控合作与批量应用",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "Octopus Web Solution INC.": [
@@ -107356,16 +107748,18 @@
       "event_type": "平台公布及发布计划",
       "link": "https://mp.weixin.qq.com/s/DpGVH0UrNQwam2DBqqcn1A",
       "sector": "AI数据中心网络与加速器互联",
-      "location": "地点待核",
+      "location": "US / 加利福尼亚州 / 圣克拉拉 / 3101 Jay Street, Santa Clara, CA 95054",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 加利福尼亚州 / 圣克拉拉 / 3101 Jay Street, Santa Clara, CA 95054",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e4349e5b7dc77f6ed4fd9c85"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Upscale AI",
         "subject_locality": {
           "status": "unknown",
@@ -107373,7 +107767,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e4349e5b7dc77f6ed4fd9c85",
+            "source_url": "https://upscale.com/about-us",
+            "checked_at": "2026-11-04T18:06:40.682104+00:00",
+            "subject": "Upscale AI",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "加利福尼亚州",
+              "city": "圣克拉拉",
+              "address": "3101 Jay Street, Santa Clara, CA 95054"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "加利福尼亚州",
+          "city": "圣克拉拉",
+          "evidence_ids": [
+            "geo-e4349e5b7dc77f6ed4fd9c85"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
@@ -107833,16 +108252,18 @@
       "event_type": "供应洽谈",
       "link": "https://mp.weixin.qq.com/s/jlSutIKaWnCrKIK4zxYWPA",
       "sector": "半导体设计与数据中心芯片",
-      "location": "地点待核",
+      "location": "台湾省 / 新竹市 / 新竹科学园区笃行一路一号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "台湾省 / 新竹市 / 新竹科学园区笃行一路一号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-6cbcd504a0ad397c33711268"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "联发科",
         "subject_locality": {
           "status": "unknown",
@@ -107850,7 +108271,32 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-6cbcd504a0ad397c33711268",
+            "source_url": "https://ic.tpex.org.tw/company_contact.php?stk_code=2454",
+            "checked_at": "2026-11-04T18:05:23.186504+00:00",
+            "subject": "联发科",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "台湾省",
+              "city": "新竹市",
+              "address": "新竹科学园区笃行一路一号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "台湾省",
+          "city": "新竹市",
+          "evidence_ids": [
+            "geo-6cbcd504a0ad397c33711268"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -108250,16 +108696,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/4bmt6y641yJx0ZO5bDSoPg",
       "sector": "细胞治疗",
-      "location": "地点待核",
+      "location": "江苏省 / 苏州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 苏州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-775ab39d4cabc21dca3270d7"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "沙砾生物",
         "subject_locality": {
           "status": "unknown",
@@ -108267,7 +108715,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-775ab39d4cabc21dca3270d7",
+            "source_url": "https://www.thepaper.cn/newsDetail_forward_19982381",
+            "checked_at": "2026-11-04T18:06:51.155632+00:00",
+            "subject": "沙砾生物",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "evidence_ids": [
+            "geo-775ab39d4cabc21dca3270d7"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -108789,16 +109261,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Iok-bjxx7C_fAwbJxWAs3w",
       "sector": "割草机器人",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市 / 南山区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市 / 南山区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c88e705583be09ea9b505216"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "库犸科技",
         "subject_locality": {
           "status": "unknown",
@@ -108806,7 +109280,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c88e705583be09ea9b505216",
+            "source_url": "https://fgw.sz.gov.cn/ztzl/qtztzl/szscjmyjjfzzhfwpt/mqfc/myqyfzdt/content/post_12505128.html",
+            "checked_at": "2026-11-04T18:05:22.625055+00:00",
+            "subject": "库犸科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "南山区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "南山区",
+          "evidence_ids": [
+            "geo-c88e705583be09ea9b505216"
+          ]
+        }
       },
       "article_location": "",
       "source": "铅笔道",
@@ -109309,24 +109809,62 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/lDKkqwz-ad6VAZsyLaG4Mg",
       "sector": "半导体设备核心部件与射频功率半导体",
-      "location": "地点待核",
+      "location": "江苏省 / 苏州市 / 工业园区 / 星湖街328号创意产业园10-1F",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 苏州市 / 工业园区 / 星湖街328号创意产业园10-1F",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-0b27644d2bbd6be5fc7b00fe"
+        ],
+        "subject_evidence_ids": [
+          "geo-0b27644d2bbd6be5fc7b00fe"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "苏州华太电子技术股份有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-0b27644d2bbd6be5fc7b00fe"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0b27644d2bbd6be5fc7b00fe",
+            "source_url": "https://www.huatai-elec.com/CONTACT",
+            "checked_at": "2026-11-04T18:04:49.486498+00:00",
+            "subject": "苏州华太电子技术股份有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市",
+              "district": "工业园区",
+              "address": "星湖街328号创意产业园10-1F"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "district": "工业园区",
+          "evidence_ids": [
+            "geo-0b27644d2bbd6be5fc7b00fe"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
@@ -127066,16 +127604,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/2q-dHbkDd7f2qhyd1U2m1Q",
       "sector": "智能驾驶与汽车电子",
-      "location": "地点待核",
+      "location": "DE / 盖尔林根 / Robert-Bosch-Platz 1, 70839 Gerlingen-Schillerhöhe",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / 盖尔林根 / Robert-Bosch-Platz 1, 70839 Gerlingen-Schillerhöhe",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-17c3c3681d2a552bf65731d0"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "博世",
         "subject_locality": {
           "status": "unknown",
@@ -127083,7 +127623,30 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-17c3c3681d2a552bf65731d0",
+            "source_url": "https://www.bosch.com/corporate-information/?prevent-auto-open-privacy-settings=1",
+            "checked_at": "2026-11-04T18:05:53.257682+00:00",
+            "subject": "博世",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "盖尔林根",
+              "address": "Robert-Bosch-Platz 1, 70839 Gerlingen-Schillerhöhe"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "盖尔林根",
+          "evidence_ids": [
+            "geo-17c3c3681d2a552bf65731d0"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",
@@ -127711,16 +128274,18 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/2vuCSMkfeFkMkDFBJXeVSQ",
       "sector": "热力学计算与非传统AI计算",
-      "location": "地点线索：硅谷（原文企业归属描述，未明确注册地或总部地）",
+      "location": "US / 纽约市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 纽约市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-6fa531c6c02db40305e57204"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Normal Computing",
         "subject_locality": {
           "status": "unknown",
@@ -127728,7 +128293,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-6fa531c6c02db40305e57204",
+            "source_url": "https://www.normalcomputing.com/about",
+            "checked_at": "2026-11-04T18:04:19.445297+00:00",
+            "subject": "Normal Computing",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "city": "纽约市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "city": "纽约市",
+          "evidence_ids": [
+            "geo-6fa531c6c02db40305e57204"
+          ]
+        }
       },
       "article_location": "硅谷（原文企业归属描述，未明确注册地或总部地）",
       "source": "量子位",
@@ -127853,24 +128440,62 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/MVmoL9rU9wK_-OKkIe92gQ",
       "sector": "KTV数字化解决方案",
-      "location": "地点线索：成都（正文明确的企业经营所在地，未区分注册地与总部）",
+      "location": "四川省 / 成都市 / 高新区 / 益州大道中段1886号星耀高新智谷A栋20层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "四川省 / 成都市 / 高新区 / 益州大道中段1886号星耀高新智谷A栋20层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-959b93d9f5be0342045410c7"
+        ],
+        "subject_evidence_ids": [
+          "geo-959b93d9f5be0342045410c7"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "音创伟业",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "四川省",
+          "city": "成都市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-959b93d9f5be0342045410c7"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-959b93d9f5be0342045410c7",
+            "source_url": "https://www.ycoem.com/contact",
+            "checked_at": "2026-11-04T18:04:18.524792+00:00",
+            "subject": "音创伟业",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "四川省",
+              "city": "成都市",
+              "district": "高新区",
+              "address": "益州大道中段1886号星耀高新智谷A栋20层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "四川省",
+          "city": "成都市",
+          "district": "高新区",
+          "evidence_ids": [
+            "geo-959b93d9f5be0342045410c7"
+          ]
+        }
       },
       "article_location": "成都（正文明确的企业经营所在地，未区分注册地与总部）",
       "source": "投资界",
@@ -127997,16 +128622,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/MVmoL9rU9wK_-OKkIe92gQ",
       "sector": "自助KTV系统与智能设备控制",
-      "location": "地点待核",
+      "location": "福建省 / 厦门市 / 思明区 / 软件园二期望海路27号3F",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "福建省 / 厦门市 / 思明区 / 软件园二期望海路27号3F",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-0f07418e90902a4d953655e1"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "厦门巨嗨科技",
         "subject_locality": {
           "status": "unknown",
@@ -128014,7 +128641,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0f07418e90902a4d953655e1",
+            "source_url": "https://www.g-hi.com/about.html",
+            "checked_at": "2026-11-04T18:04:18.270595+00:00",
+            "subject": "厦门巨嗨科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "福建省",
+              "city": "厦门市",
+              "district": "思明区",
+              "address": "软件园二期望海路27号3F"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "福建省",
+          "city": "厦门市",
+          "district": "思明区",
+          "evidence_ids": [
+            "geo-0f07418e90902a4d953655e1"
+          ]
+        }
       },
       "article_location": "",
       "source": "投资界",
@@ -128038,6 +128692,381 @@
       "financing": "",
       "event_date": "",
       "event_headline": "厦门巨嗨科技将点歌系统延伸至整店自助，服务门店超2000家",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "生益电子": [
+    {
+      "date": "2026-11-05",
+      "title": "文章称，东莞依托生益电子等企业，批量生产AI服务器所需的高速算力PCB；未单独披露生益电子的生产批次、客户或供货数量。",
+      "article_title": "全国GDP30强城市洗牌",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/mtEzIcFLL-OKLYDQ5oytVw",
+      "sector": "电子电路与AI算力硬件",
+      "location": "广东省 / 东莞市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 东莞市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-74b5b00e3226a8317cc1734a"
+        ],
+        "subject_evidence_ids": [
+          "geo-74b5b00e3226a8317cc1734a"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "生益电子",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "东莞市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-74b5b00e3226a8317cc1734a"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-74b5b00e3226a8317cc1734a",
+            "source_url": "https://www.sye.com.cn/",
+            "checked_at": "2026-11-04T18:16:39.184960+00:00",
+            "subject": "生益电子",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "东莞市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "东莞市",
+          "evidence_ids": [
+            "geo-74b5b00e3226a8317cc1734a"
+          ]
+        }
+      },
+      "article_location": "东莞",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "生益电子",
+      "company_entity_id": "dr-u-0b3ff877c038f60ab7a6",
+      "company_raw_name": "生益电子",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "媒体将其称为龙头并关联高速PCB批量生产，足以支持产业线索，但缺少可核验的市场地位、性能比较或客户覆盖依据，尚未建立独立全国标杆资格。",
+        "evidence_ids": [
+          "article:3236177abd5cdb10"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "insight": "高速PCB是AI服务器内部电信号传输的硬件载体，生益电子被列为相关批量生产的代表，体现了其在算力设备上游配套环节的位置。文章提供的是当地产业生产事实，不能将东莞整体增长或产量变化直接归为该公司的业绩。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "生益电子被列为东莞AI服务器高速PCB生产代表",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "西门子": [
+    {
+      "date": "2026-11-05",
+      "title": "文章介绍西门子近期发布的Veloce CS系统，包括Veloce Strato CS硬件加速仿真平台、Veloce Primo CS企业级原型验证平台及Veloce proFPGA CS原型验证平台，并阐述硬件加速与原型验证协同支持AI芯片RTL调试、流片前软件开发和系统级验证的方法。",
+      "article_title": "前沿 AI 芯片设计，为何离不开全面的硬件辅助验证方法论？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Y4IlK66IgsQgaJYHvJa30Q",
+      "sector": "电子设计自动化（EDA）与芯片验证",
+      "location": "DE / 慕尼黑 / Werner-von-Siemens-Straße 1, 80333 Munich",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / 慕尼黑 / Werner-von-Siemens-Straße 1, 80333 Munich",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-1e40b8c6d9e31d9e3d5e9b1d"
+        ],
+        "subject_evidence_ids": [
+          "geo-1e40b8c6d9e31d9e3d5e9b1d"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "西门子",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "慕尼黑",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-1e40b8c6d9e31d9e3d5e9b1d"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-1e40b8c6d9e31d9e3d5e9b1d",
+            "source_url": "https://www.siemens.com/en-us/company/region-legal-info/",
+            "checked_at": "2026-11-04T18:17:51.353069+00:00",
+            "subject": "西门子",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "慕尼黑",
+              "address": "Werner-von-Siemens-Straße 1, 80333 Munich"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "慕尼黑",
+          "evidence_ids": [
+            "geo-1e40b8c6d9e31d9e3d5e9b1d"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "西门子",
+      "company_entity_id": "dr-u-b61c7d641d8875bbd2d3",
+      "company_raw_name": "西门子",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Veloce CS",
+          "relation": "product",
+          "evidence": "西门子近期发布的Veloce CS硬件加速系统代表了当前硬件辅助验证技术的前沿水准"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本文证明具体产品构成与应用方法，但“前沿水准”来自厂商署名文章，未提供独立行业地位、对比测试或客户实证；事件可以保留，不能仅凭企业知名度授予全国标杆标签。",
+        "evidence_ids": [
+          "article:0f9c984cfc747ee8"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "insight": "Veloce CS所对应的产品价值，是让团队在实体芯片就绪前运行软件，并将原型验证中发现的问题转回可深入调试的硬件加速环境定位。这使验证工具的作用从检查芯片功能延伸到支撑软硬件并行开发，但本文主要解释技术路径，没有披露新增客户应用或具体项目成效。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "西门子介绍Veloce CS如何衔接AI芯片硬件调试与软件验证",
+      "event_signal": "context",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "极智嘉": [
+    {
+      "date": "2026-11-05",
+      "title": "极智嘉发布《24/7自主智能仓计划》，计划通过具身智能补齐复杂操作环节、强化全仓智能决策闭环及规模化交付，推动仓库全天候自主运行。文章介绍了其Gravity统一具身智能框架、Gravity 4D具身世界模型、Gino 1通用人形机器人，以及连接机器人调度、业务执行与运营分析的系统架构。据文中披露，其无人拣选工作站在施耐德电气上海物流中心试点中，拣选效率达到人工的2倍，准确率超过99.99%。",
+      "article_title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "event_type": "技术方案与客户试点",
+      "link": "https://mp.weixin.qq.com/s/Er8ZUQCeRor5x5lXm1iGJQ",
+      "sector": "智能仓储与具身智能机器人",
+      "location": "北京市 / 朝阳区 / 北苑路30号北京文化创意大厦D座7楼",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 朝阳区 / 北苑路30号北京文化创意大厦D座7楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8354a6717612dd0becc93e01"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "极智嘉",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8354a6717612dd0becc93e01",
+            "source_url": "https://c.gongkong.com/jzj/",
+            "checked_at": "2026-11-04T18:16:38.099134+00:00",
+            "subject": "极智嘉",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "朝阳区",
+              "address": "北苑路30号北京文化创意大厦D座7楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "朝阳区",
+          "evidence_ids": [
+            "geo-8354a6717612dd0becc93e01"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "极智嘉",
+      "company_entity_id": "dr-u-ee3fe8ea6cd3d1cffd0c",
+      "company_raw_name": "极智嘉",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Geek+",
+          "relation": "same_entity",
+          "evidence": "正是全球智能机器人的头部企业「极智嘉」（Geek+）。"
+        },
+        {
+          "name": "Gino 1",
+          "relation": "product",
+          "evidence": "比如其通用人形机器人Gino 1，既能拣货、搬箱，还能与移动机器人协同，完成连续的拣选任务"
+        }
+      ],
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原文称连续7年AMR市占率第一并列举客户及部署规模，但没有附排名原始报告、市场定义及统计期间，且受管主体身份尚待确认。具体产品和试点线索不自动建立全国标杆资格。",
+        "evidence_ids": [
+          "article:37afc3737591ba8d",
+          "identity_registry:2dcd4f408df25406"
+        ]
+      },
+      "published_date": "2026-11-03",
+      "insight": "极智嘉提出将竞争重点从机器人完成单项作业，扩展到整仓作业与运营协同：复杂拣选补齐物理操作环节，调度、业务执行和运营分析的连接则为全仓优化提供系统基础。现有拣选试点给出了局部应用表现，下一步值得观察的是这些能力组合后，能否在连续运行中自主处理异常并保持吞吐稳定。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "极智嘉发布自主智能仓计划，拟打通复杂操作与全仓决策",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "南方泵业股份有限公司": [
+    {
+      "date": "2026-11-05",
+      "title": "南方泵业股份有限公司申报的“全价值链协同的高效节能泵智能工厂”项目入选工信部2026年度全国卓越级智能工厂项目名单。项目通过全流程数字孪生系统贯通研发、采购、生产、仓储及售后数据，并以机械臂和AGV协同完成泵体加工、物料转运。据企业智造事业部副总经理介绍，数字化升级后订单交付周期缩短70%、产能提升50%、运营成本下降20%。此前，其“高效节能泵（核心部件）未来工厂”项目已入选2025年浙江省未来工厂。",
+      "article_title": "国家卓越级智能工厂！余杭+1",
+      "event_type": "资质获批",
+      "link": "https://mp.weixin.qq.com/s/k2168yaumHnSCYgWBYAr8Q",
+      "sector": "高效节能泵及智能装备制造",
+      "location": "浙江省 / 杭州市 / 余杭区 / 仁和街道仁河大道46号",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 仁和街道仁河大道46号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-94f65ed925dc117d87303acd",
+          "geo-b30ae4e97950d54ce4373ca4"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "南方泵业股份有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-94f65ed925dc117d87303acd",
+            "source_url": "https://mp.weixin.qq.com/s/k2168yaumHnSCYgWBYAr8Q",
+            "checked_at": "2026-11-03T23:00:59+00:00",
+            "subject": "南方泵业股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区"
+            }
+          },
+          {
+            "evidence_id": "geo-b30ae4e97950d54ce4373ca4",
+            "source_url": "https://nanfang-pump.com/contact",
+            "checked_at": "2026-11-04T18:18:26.860762+00:00",
+            "subject": "南方泵业股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "仁和街道仁河大道46号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-94f65ed925dc117d87303acd",
+            "geo-b30ae4e97950d54ce4373ca4"
+          ]
+        }
+      },
+      "article_location": "杭州市余杭区（正文明确为余杭区企业，未细分注册地或总部地）",
+      "source": "余杭发布",
+      "kind": "event",
+      "canonical_name": "南方泵业股份有限公司",
+      "company_entity_id": "dr-u-e79b9875510b516e9397",
+      "company_raw_name": "南方泵业股份有限公司",
+      "identity_status": "unresolved",
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "国家卓越级智能工厂入选支持本项目智能制造能力认可，但不足以单独认定企业具有全国标杆资格；本主体是杭州正面发现对象，不将项目称号自动扩展为全国企业行业地位标签。",
+        "evidence_ids": [
+          "article:7bc795f2a8843e19",
+          "geo-94f65ed925dc117d87303acd"
+        ]
+      },
+      "published_date": "2026-11-03",
+      "insight": "南方泵业的制造升级不止于单个工位自动化，而是将研发、采购、生产到售后数据贯通，使泵产品制造具备跨环节协同基础；企业披露的交付周期缩短和产能提升，为这一变化提供了运营层面的佐证。此次国家级入选承接此前省级未来工厂建设，值得关注的是这套协同方式如何适配不同泵产品和订单，而非仅看荣誉层级。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "南方泵业全价值链协同项目入选国家卓越级智能工厂名单",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
