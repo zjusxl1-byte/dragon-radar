@@ -1768,24 +1768,62 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/lDKkqwz-ad6VAZsyLaG4Mg",
       "sector": "半导体设备核心部件与射频功率半导体",
-      "location": "地点待核",
+      "location": "江苏省 / 苏州市 / 工业园区 / 星湖街328号创意产业园10-1F",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 苏州市 / 工业园区 / 星湖街328号创意产业园10-1F",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-0b27644d2bbd6be5fc7b00fe"
+        ],
+        "subject_evidence_ids": [
+          "geo-0b27644d2bbd6be5fc7b00fe"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "苏州华太电子技术股份有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-0b27644d2bbd6be5fc7b00fe"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0b27644d2bbd6be5fc7b00fe",
+            "source_url": "https://www.huatai-elec.com/CONTACT",
+            "checked_at": "2026-11-04T18:04:49.486498+00:00",
+            "subject": "苏州华太电子技术股份有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "苏州市",
+              "district": "工业园区",
+              "address": "星湖街328号创意产业园10-1F"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "苏州市",
+          "district": "工业园区",
+          "evidence_ids": [
+            "geo-0b27644d2bbd6be5fc7b00fe"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
