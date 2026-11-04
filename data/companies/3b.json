@@ -1104,16 +1104,18 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/2vuCSMkfeFkMkDFBJXeVSQ",
       "sector": "热力学计算与非传统AI计算",
-      "location": "地点线索：硅谷（原文企业归属描述，未明确注册地或总部地）",
+      "location": "US / 纽约市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 纽约市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-6fa531c6c02db40305e57204"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Normal Computing",
         "subject_locality": {
           "status": "unknown",
@@ -1121,7 +1123,29 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-6fa531c6c02db40305e57204",
+            "source_url": "https://www.normalcomputing.com/about",
+            "checked_at": "2026-11-04T18:04:19.445297+00:00",
+            "subject": "Normal Computing",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "city": "纽约市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "city": "纽约市",
+          "evidence_ids": [
+            "geo-6fa531c6c02db40305e57204"
+          ]
+        }
       },
       "article_location": "硅谷（原文企业归属描述，未明确注册地或总部地）",
       "source": "量子位",
