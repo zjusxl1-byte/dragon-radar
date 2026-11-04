@@ -894,16 +894,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/e6nEB_AT49_Y4FzkV-rCKw",
       "sector": "微型核能",
-      "location": "地点线索：杭州",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c6ba89ba74c79040529fb459"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "九州星核(杭州)科技发展有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -911,7 +913,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c6ba89ba74c79040529fb459",
+            "source_url": "https://mp.weixin.qq.com/s/-U4o7SFmVInttNEs_Z85lw",
+            "checked_at": "2026-11-03T22:31:31+00:00",
+            "subject": "九州星核(杭州)科技发展有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-c6ba89ba74c79040529fb459"
+          ]
+        }
       },
       "article_location": "杭州",
       "source": "湖畔自留田",
@@ -928,6 +954,94 @@
       "event_headline": "九州星核完成天使轮融资，浙大联创与浙江省金控等投资",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "据深度采访，九州星核探索sCO₂气冷微堆直接循环方案，拟使二氧化碳兼任堆芯冷却剂与发电工质，省去主换热器。团队计划优先推进工业余热回收、光热储能发电等非核动力应用，积累系统集成与运行控制经验，同步开展微堆研发和工程示范；文中展示的是模型机。",
+      "article_title": "浙大教授想把核反应堆做成「充电宝」",
+      "event_type": "技术路线披露",
+      "link": "https://mp.weixin.qq.com/s/-U4o7SFmVInttNEs_Z85lw",
+      "sector": "先进核能／微型核能发电系统",
+      "location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c6ba89ba74c79040529fb459"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "九州星核(杭州)科技发展有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-c6ba89ba74c79040529fb459",
+            "source_url": "https://mp.weixin.qq.com/s/-U4o7SFmVInttNEs_Z85lw",
+            "checked_at": "2026-11-03T22:31:31+00:00",
+            "subject": "九州星核(杭州)科技发展有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-c6ba89ba74c79040529fb459"
+          ]
+        }
+      },
+      "article_location": "杭州",
+      "source": "湖畔自留田",
+      "kind": "event",
+      "canonical_name": "九州星核(杭州)科技发展有限公司",
+      "company_entity_id": "dr-u-90f0db029e633671d742",
+      "company_raw_name": "九州星核（杭州）科技发展有限公司",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "九州星核",
+          "relation": "same_entity",
+          "evidence": "而今年牵头创立的九州星核的出现，则意味着这位核能创业先锋再次回到产业一线。"
+        }
+      ],
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "采访支持具体设计思路和工程推进计划，尚无本公司已验证整机性能或独立行业地位比较证据。浙大背景、历史融资及与X-energy的路线比较不能自动建立全国标杆资格，也不能证明本路线更优。",
+        "evidence_ids": [
+          "article:388adac49e1bc7d5",
+          "accepted_history:1027122cc0a706ec"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "event_identity": {
+        "canonical_id": "九州星核探索超临界二氧化碳气冷微堆，采用直接循环设计，使二氧化碳同时承担堆芯冷却与发电工质功能，拟省去主换热器、简化系统架构。团队计划优先推进超临界二氧化碳动力技术在工业余热回收、光热储能发电等非核场景应用，积累系统集成和运行控制经验，同步推进微型核堆研发与工程示范。"
+      },
+      "insight": "九州星核的产品思路不只是缩小反应堆，而是让同一种二氧化碳工质连接堆芯冷却与发电，尝试通过减少换热设备实现整机紧凑化。先推进非核动力应用，可为动力子系统积累集成和运行经验，但这种经验能否迁移到直接接触堆芯的循环系统，仍是其整机路线需要回答的关键问题。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "九州星核探索二氧化碳气冷微堆，计划优先推进非核应用",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "四川百利天恒药业股份有限公司": [
@@ -1803,6 +1917,101 @@
       "event_date": "",
       "event_headline": "立妙达完成两轮近5亿元融资，拟扩建智能装备制造基地",
       "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "极智嘉": [
+    {
+      "date": "2026-11-05",
+      "title": "极智嘉发布《24/7自主智能仓计划》，计划通过具身智能补齐复杂操作环节、强化全仓智能决策闭环及规模化交付，推动仓库全天候自主运行。文章介绍了其Gravity统一具身智能框架、Gravity 4D具身世界模型、Gino 1通用人形机器人，以及连接机器人调度、业务执行与运营分析的系统架构。据文中披露，其无人拣选工作站在施耐德电气上海物流中心试点中，拣选效率达到人工的2倍，准确率超过99.99%。",
+      "article_title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "event_type": "技术方案与客户试点",
+      "link": "https://mp.weixin.qq.com/s/Er8ZUQCeRor5x5lXm1iGJQ",
+      "sector": "智能仓储与具身智能机器人",
+      "location": "北京市 / 朝阳区 / 北苑路30号北京文化创意大厦D座7楼",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 朝阳区 / 北苑路30号北京文化创意大厦D座7楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8354a6717612dd0becc93e01"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "极智嘉",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8354a6717612dd0becc93e01",
+            "source_url": "https://c.gongkong.com/jzj/",
+            "checked_at": "2026-11-04T18:16:38.099134+00:00",
+            "subject": "极智嘉",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "朝阳区",
+              "address": "北苑路30号北京文化创意大厦D座7楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "朝阳区",
+          "evidence_ids": [
+            "geo-8354a6717612dd0becc93e01"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "极智嘉",
+      "company_entity_id": "dr-u-ee3fe8ea6cd3d1cffd0c",
+      "company_raw_name": "极智嘉",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Geek+",
+          "relation": "same_entity",
+          "evidence": "正是全球智能机器人的头部企业「极智嘉」（Geek+）。"
+        },
+        {
+          "name": "Gino 1",
+          "relation": "product",
+          "evidence": "比如其通用人形机器人Gino 1，既能拣货、搬箱，还能与移动机器人协同，完成连续的拣选任务"
+        }
+      ],
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原文称连续7年AMR市占率第一并列举客户及部署规模，但没有附排名原始报告、市场定义及统计期间，且受管主体身份尚待确认。具体产品和试点线索不自动建立全国标杆资格。",
+        "evidence_ids": [
+          "article:37afc3737591ba8d",
+          "identity_registry:2dcd4f408df25406"
+        ]
+      },
+      "published_date": "2026-11-03",
+      "insight": "极智嘉提出将竞争重点从机器人完成单项作业，扩展到整仓作业与运营协同：复杂拣选补齐物理操作环节，调度、业务执行和运营分析的连接则为全仓优化提供系统基础。现有拣选试点给出了局部应用表现，下一步值得观察的是这些能力组合后，能否在连续运行中自主处理异常并保持吞吐稳定。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "极智嘉发布自主智能仓计划，拟打通复杂操作与全仓决策",
+      "event_signal": "material",
       "discovery_status": "first_seen"
     }
   ]
