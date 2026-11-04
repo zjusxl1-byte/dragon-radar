@@ -2275,5 +2275,98 @@
       "event_signal": "major",
       "discovery_status": "first_seen"
     }
+  ],
+  "西门子": [
+    {
+      "date": "2026-11-05",
+      "title": "文章介绍西门子近期发布的Veloce CS系统，包括Veloce Strato CS硬件加速仿真平台、Veloce Primo CS企业级原型验证平台及Veloce proFPGA CS原型验证平台，并阐述硬件加速与原型验证协同支持AI芯片RTL调试、流片前软件开发和系统级验证的方法。",
+      "article_title": "前沿 AI 芯片设计，为何离不开全面的硬件辅助验证方法论？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Y4IlK66IgsQgaJYHvJa30Q",
+      "sector": "电子设计自动化（EDA）与芯片验证",
+      "location": "DE / 慕尼黑 / Werner-von-Siemens-Straße 1, 80333 Munich",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / 慕尼黑 / Werner-von-Siemens-Straße 1, 80333 Munich",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-1e40b8c6d9e31d9e3d5e9b1d"
+        ],
+        "subject_evidence_ids": [
+          "geo-1e40b8c6d9e31d9e3d5e9b1d"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "西门子",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "慕尼黑",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-1e40b8c6d9e31d9e3d5e9b1d"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-1e40b8c6d9e31d9e3d5e9b1d",
+            "source_url": "https://www.siemens.com/en-us/company/region-legal-info/",
+            "checked_at": "2026-11-04T18:17:51.353069+00:00",
+            "subject": "西门子",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "慕尼黑",
+              "address": "Werner-von-Siemens-Straße 1, 80333 Munich"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "慕尼黑",
+          "evidence_ids": [
+            "geo-1e40b8c6d9e31d9e3d5e9b1d"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "西门子",
+      "company_entity_id": "dr-u-b61c7d641d8875bbd2d3",
+      "company_raw_name": "西门子",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Veloce CS",
+          "relation": "product",
+          "evidence": "西门子近期发布的Veloce CS硬件加速系统代表了当前硬件辅助验证技术的前沿水准"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本文证明具体产品构成与应用方法，但“前沿水准”来自厂商署名文章，未提供独立行业地位、对比测试或客户实证；事件可以保留，不能仅凭企业知名度授予全国标杆标签。",
+        "evidence_ids": [
+          "article:0f9c984cfc747ee8"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "insight": "Veloce CS所对应的产品价值，是让团队在实体芯片就绪前运行软件，并将原型验证中发现的问题转回可深入调试的硬件加速环境定位。这使验证工具的作用从检查芯片功能延伸到支撑软硬件并行开发，但本文主要解释技术路径，没有披露新增客户应用或具体项目成效。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "西门子介绍Veloce CS如何衔接AI芯片硬件调试与软件验证",
+      "event_signal": "context",
+      "discovery_status": "first_seen"
+    }
   ]
 }
