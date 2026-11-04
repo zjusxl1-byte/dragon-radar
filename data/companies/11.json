@@ -1400,16 +1400,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/MVmoL9rU9wK_-OKkIe92gQ",
       "sector": "自助KTV系统与智能设备控制",
-      "location": "地点待核",
+      "location": "福建省 / 厦门市 / 思明区 / 软件园二期望海路27号3F",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "福建省 / 厦门市 / 思明区 / 软件园二期望海路27号3F",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-0f07418e90902a4d953655e1"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "厦门巨嗨科技",
         "subject_locality": {
           "status": "unknown",
@@ -1417,7 +1419,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-0f07418e90902a4d953655e1",
+            "source_url": "https://www.g-hi.com/about.html",
+            "checked_at": "2026-11-04T18:04:18.270595+00:00",
+            "subject": "厦门巨嗨科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "福建省",
+              "city": "厦门市",
+              "district": "思明区",
+              "address": "软件园二期望海路27号3F"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "福建省",
+          "city": "厦门市",
+          "district": "思明区",
+          "evidence_ids": [
+            "geo-0f07418e90902a4d953655e1"
+          ]
+        }
       },
       "article_location": "",
       "source": "投资界",
