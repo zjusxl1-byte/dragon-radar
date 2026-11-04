@@ -1164,24 +1164,62 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/MVmoL9rU9wK_-OKkIe92gQ",
       "sector": "物联网与自助设备SaaS",
-      "location": "地点待核",
+      "location": "广东省 / 广州市 / 广州番禺区大学城北青蓝街28号智慧之城E栋3楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 广州市 / 广州番禺区大学城北青蓝街28号智慧之城E栋3楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-7062bc1ef086ec5a6b194f18"
+        ],
+        "subject_evidence_ids": [
+          "geo-7062bc1ef086ec5a6b194f18"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "星云开物",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "广州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-7062bc1ef086ec5a6b194f18"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7062bc1ef086ec5a6b194f18",
+            "source_url": "https://www.ehuoke.com",
+            "checked_at": "2026-11-04T00:32:25.725213+00:00",
+            "subject": "星云开物",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "广州市",
+              "district": "番禺区",
+              "address": "广州番禺区大学城北青蓝街28号智慧之城E栋3楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "广州市",
+          "district": "番禺区",
+          "evidence_ids": [
+            "geo-7062bc1ef086ec5a6b194f18"
+          ]
+        }
       },
       "article_location": "",
       "source": "投资界",
