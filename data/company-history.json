@@ -60898,6 +60898,58 @@
       "event_headline": "后摩智能M50芯片在长城AI PC量产部署，支持35B模型本地运行",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "后摩智能宣布完成数十亿元人民币B轮融资。文章将其归入存算一体技术方向，未披露本轮投资方及资金用途。",
+      "article_title": "后摩智能获数十亿元B轮融资，墨芯人工智能获10亿元C+轮融资，2天4家算力芯片公司获投",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/7U39whF2FMLGjdEUGu2X9Q",
+      "sector": "算力芯片／存算一体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "后摩智能",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "烯牛数据",
+      "kind": "event",
+      "canonical_name": "后摩智能",
+      "company_entity_id": "dr-u-a4de3a0231cca63a88e7",
+      "company_raw_name": "后摩智能",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本轮融资及存算一体分类不能自动证明全国行业地位。旧历史虽有is_national_star标记，但没有可复用的独立标杆审核，且其主体仅为同名候选；本次不新增标杆资格，也不删除历史标签。",
+        "evidence_ids": [
+          "article:93ea75e43edfd650",
+          "accepted_history:b131d126851b931e"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "insight": "本轮融资是后摩智能在存算一体路线上的重要资本成长节点。存算一体着眼于减少计算与存储之间的数据搬运，公司与同路线企业同期获得大额融资，显示这一不同于传统GPU的计算路径正获得资本支持。",
+      "financing": "B轮，数十亿元人民币；文中30亿元为作者统计估算，并非企业披露的精确融资额。",
+      "event_date": "",
+      "event_headline": "后摩智能宣布完成数十亿元B轮融资，布局存算一体",
+      "event_signal": "major",
+      "discovery_status": "update"
     }
   ],
   "东昇聚变（上海）技术有限公司": [
@@ -88443,6 +88495,91 @@
       "event_headline": "腾讯升级ADP，扩展企业智能体应用生成与交付能力",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "腾讯推出混元Hy4正式版，总参数770B、激活参数49B，首次引入原生视觉理解和计算机使用能力，并强化长程任务规划、执行与自检。文章展示了通过WorkBuddy完成交互网页、三维场景、PPT及图片批处理工具的案例。Hy4已在腾讯云TokenHub、WorkBuddy/CodeBuddy等产品上线，模型权重计划近期开源。",
+      "article_title": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/OThj_29CAuHn6ioaqjkSpQ",
+      "sector": "人工智能／多模态大模型与智能体",
+      "location": "广东省 / 深圳市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-f0dd358a005c311ace000ba1"
+        ],
+        "subject_evidence_ids": [
+          "geo-f0dd358a005c311ace000ba1"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "腾讯",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-f0dd358a005c311ace000ba1"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-f0dd358a005c311ace000ba1",
+            "source_url": "https://www.tencent.com/zh-cn/company.html",
+            "checked_at": "2026-10-20T01:37:59.034782+00:00",
+            "subject": "腾讯",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市"
+            }
+          }
+        ]
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "腾讯",
+      "company_entity_id": "dr-u-53874092e000069bfeda",
+      "company_raw_name": "腾讯",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "混元Hy4",
+          "relation": "product",
+          "evidence": "混元Hy4正式交卷了！\n\n腾讯这次上来根本不跟你客气，态度就明晃晃写在脸上：跻身最强开源模型之列。"
+        }
+      ],
+      "score": 70,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "复用已有已审资格未建立结论。本文的最强开源宣传、媒体个案和内部评测不足以独立建立可比较的全国行业领先地位，且正式版权重尚未开源；不影响具体产品进展保留。",
+        "evidence_ids": [
+          "accepted_history:40f6638f5fbe4f99",
+          "accepted_history:5766b38dbf7ff461",
+          "article:df4a029811899bf5"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "insight": "Hy4此次变化是把视觉理解接入代码生成、软件操作和结果校验，使智能体能够围绕同一任务连续完成制作与修改。文中网页和PPT案例呈现了这一闭环，其产品价值在于交付可交互、可编辑的工作成果，而不只是生成回答。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "腾讯发布混元Hy4正式版，新增视觉理解与电脑操作能力",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "广东芯成汉奇半导体技术有限公司": [
@@ -109828,6 +109965,98 @@
       "event_headline": "百度搭子发布电脑与手机操作能力，上线投标套件",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "百度Apollo披露世界模型ApolloWorld，通过具有决策能力的交通参与者、多视角多模态生成和驾驶闭环，支持完整Robotaxi行程的实时交互式仿真。据百度披露，该模型已开始用于萝卜快跑全球化测试与验证，一天完成的虚拟路测里程相当于一辆配备安全员的真实测试车连续行驶约三年。百度同时介绍，新一代L4端到端驾驶模型已在国内一定规模车辆上投入实际运营，并逐步替换传统方案。",
+      "article_title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/m8da63ZjM0-deHNEzHawAQ",
+      "sector": "自动驾驶与物理AI",
+      "location": "北京市 / 海淀区 / 上地十街10号百度大厦",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区 / 上地十街10号百度大厦",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8e68576ea39ba577aacd8cb4"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "百度",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8e68576ea39ba577aacd8cb4",
+            "source_url": "https://home.baidu.com/home/index/contact_us",
+            "checked_at": "2026-10-20T02:39:18.938225+00:00",
+            "subject": "百度",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "上地十街10号百度大厦"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-8e68576ea39ba577aacd8cb4"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "百度",
+      "company_entity_id": "dr-u-455ece81de5605d85e54",
+      "company_raw_name": "百度",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "ApolloWorld",
+          "relation": "product",
+          "evidence": "百度Apollo正式披露了全新世界模型ApolloWorld。"
+        },
+        {
+          "name": "萝卜快跑",
+          "relation": "product",
+          "evidence": "据介绍，ApolloWorld已开始应用于萝卜快跑无人车的全球化测试与验证，把更多原本需要在真实道路上完成的训练和验证，放到云端进行。"
+        }
+      ],
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条足以支持具体世界模型能力与应用进展，但报道中的里程效率、行业唯一性及领先性主要来自公司披露和文章评价，缺乏独立可比验证，不据此新增全国标杆资格。",
+        "evidence_ids": [
+          "article:8744ff0d481bb1b2"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "insight": "ApolloWorld让百度的仿真测试从沿既定轨迹回放，扩展到交通参与者会响应无人车动作的完整行程测试，有助于检验连续决策带来的交互后果，并复用真实运营中遇到的场景。其新增价值在于可交互、可重复的测试能力；虚拟里程增长能否转化为更可靠的驾驶表现和更快的跨城部署，仍取决于仿真与真实道路表现的一致性。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "百度披露ApolloWorld，已用于萝卜快跑交互式仿真测试",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "物原科技": [
@@ -129149,6 +129378,312 @@
       "financing": "",
       "event_date": "",
       "event_headline": "南方泵业全价值链协同项目入选国家卓越级智能工厂名单",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "裕利（杭州）医药有限公司": [
+    {
+      "date": "2026-11-06",
+      "title": "2026年11月4日，裕利医药宣布已完成对裕利（杭州）医药有限公司及其设施的收购。标的公司持有药品经营许可证，仓库位于杭州钱塘区，配备覆盖15–25°C、2–8°C及-20°C的温控系统。此次收购使裕利医药能够在中国本土直接采购临床试验所需的对照药与合并用药，并将杭州设施与北京仓库及全球临床仓储网络衔接。",
+      "article_title": "亚太最大巨头，收购了杭州一家药企",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/JIEYY13PtDv6_pQX3qmAQw",
+      "sector": "生物医药／临床试验供应链",
+      "location": "浙江省 / 杭州市 / 钱塘区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 钱塘区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-b1aa450879a65b1ac7746689"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "裕利(杭州)医药有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-b1aa450879a65b1ac7746689",
+            "source_url": "https://mp.weixin.qq.com/s/JIEYY13PtDv6_pQX3qmAQw",
+            "checked_at": "2026-11-04T22:31:20+00:00",
+            "subject": "裕利(杭州)医药有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "钱塘区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "钱塘区",
+          "evidence_ids": [
+            "geo-b1aa450879a65b1ac7746689"
+          ]
+        }
+      },
+      "article_location": "杭州市钱塘区（仓库经营地）",
+      "source": "湖畔自留田",
+      "kind": "event",
+      "canonical_name": "裕利(杭州)医药有限公司",
+      "company_entity_id": "dr-u-5fded5e8ac1a54bdb511",
+      "company_raw_name": "裕利（杭州）医药有限公司",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "杭州裕远医药有限公司",
+          "relation": "same_entity",
+          "evidence": "该标的公司为裕利（杭州）医药有限公司(原称为杭州裕远医药有限公司）"
+        }
+      ],
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原文证明标的具有临床供应相关许可及设施，但未提供其自身行业地位的独立比较依据；收购方的全球规模不能转授给杭州标的。",
+        "evidence_ids": [
+          "article:a9e1c5b25981ab2f"
+        ]
+      },
+      "published_date": "2026-11-05",
+      "insight": "杭州标的带给收购方的不只是仓库，而是药品经营许可与多温区储运设施的组合，使其中国业务从临床仓储物流进一步延伸到本土试验用药采购。对临床研发客户而言，这提供了衔接国内采购与跨区域配送的服务基础，但项目周期实际缩短多少仍需具体案例验证。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "裕利（杭州）医药及其设施已被裕利医药收购",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Matic": [
+    {
+      "date": "2026-11-06",
+      "title": "Matic发布视频，展示患有渐冻症的Neuralink植入者Zach McManus通过脑机接口操控其扫地机器人在家中运行。文章介绍，Matic机器人配备5颗RGB摄像头，可在本地构建房间三维地图、识别地面及障碍物，并执行吸尘、拖地和液体污渍清理；目前难以清洁沙发底等狭窄空间，尘袋和水箱仍需手动处理。",
+      "article_title": "马斯克打通了脑机接口和扫地机器人",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/b841ka8nhenUkOiQ-iN2qg",
+      "sector": "家庭清洁机器人／辅助生活科技",
+      "location": "US",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d7ecc93d5cbe1380908b6482"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Matic",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-d7ecc93d5cbe1380908b6482",
+            "source_url": "https://maticrobots.com/careers",
+            "checked_at": "2026-11-05T18:14:42.351760+00:00",
+            "subject": "Matic",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-d7ecc93d5cbe1380908b6482"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "Matic",
+      "company_entity_id": "dr-u-50b9984bd9eb2b8837f9",
+      "company_raw_name": "Matic",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "个体展示与产品功能介绍不足以建立企业独立行业地位，员工数和累计融资额也不能替代可比技术或市场依据；同时企业地域未核，不将未知归为外地标杆。",
+        "evidence_ids": [
+          "article:4d77c4407fcec5f0"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "insight": "本次展示把脑机接口的数字指令与清洁机器人的自主执行连接起来，让行动受限者能够主动发起家庭清洁任务，体现了消费机器人进入辅助生活场景的产品价值。其自主性仍主要体现在操控与清洁执行，尘袋和水箱维护仍依赖人工，尚未覆盖完整的独立使用流程。",
+      "financing": "文章称Matic累计融资1.15亿美元，未披露本次新增融资或具体轮次。",
+      "event_date": "",
+      "event_headline": "Matic展示脑机接口操控扫地机器人家庭应用",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "OmAI联汇": [
+    {
+      "date": "2026-11-06",
+      "title": "文章称，OmAI联汇拟于11月推出面向物理世界的端侧多模态决策模型，进一步优化环境状态理解、任务判断、决策输出及响应效率。其现有VLX矩阵覆盖持续感知、目标定位、视频推理和行动导航；OttoPlex御行智飞低空具身智能平台已采用VLX-Seek 0.6B端侧版本，为低空巡检提供基于自然语言描述的目标与区域定位能力。文章还称，相关模型已在云深处、宇树等企业的机器人设备部署，并完成华为昇腾、地瓜、RK3588国产芯片适配。",
+      "article_title": "当AI不再「夸夸其谈」：决策模型爆红，物理世界需要端侧「快判断」",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/4SA7NPTfcGuYXFsQSlW0Mg",
+      "sector": "端侧多模态人工智能与物理AI",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "OmAI联汇",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "OmAI联汇",
+      "company_entity_id": "dr-u-385da8aafb5ee6e93b43",
+      "company_raw_name": "OmAI联汇",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有材料支持端侧模型应用线索，但认证、首创、部署规模及性能优势均来自单篇报道，尚未建立身份明确、可独立核实的行业地位与对标依据。",
+        "evidence_ids": [
+          "article:d0a655be00dbec7b",
+          "identity_registry:2dcd4f408df25406"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "insight": "联汇拟将已有的感知、定位、推理和导航能力进一步衔接为设备端的连续决策链路；低空平台采用小参数定位模型，为这一方向提供了具体应用基础。此次发布值得观察的增量，是新模型能否在动态任务中把持续感知转化为及时、可靠的行动判断，而不只是缩短单次推理时间。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "OmAI联汇拟于11月发布端侧多模态决策模型",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "如意RU YEE": [
+    {
+      "date": "2026-11-06",
+      "title": "据创始人朱子健口述，如意于2026年5月上线，面向有特殊喂养需求儿童的家庭提供个性化照料辅助。团队将专家及养育者资料人工标注、结构化，结合家庭记忆形成服务方案，并引入食材供应商接入采购。上线5个月积累约1.5万名用户，整体付费率约3%，已有400多名付费用户、几百名采购用户。香港东英集团为其创始投资股东。",
+      "article_title": "做完100亿生意，他又用AI给3000万家庭养娃：获金融巨头投资",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/bYhnlRBOtp-A4d_HHsmlkg",
+      "sector": "家庭AI智能体／特殊儿童喂养辅助",
+      "location": "北京市 / 海淀区 / 辉煌时代WeWork",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区 / 辉煌时代WeWork",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e638fd46a3f2d3d45daab530"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "如意RU YEE",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-e638fd46a3f2d3d45daab530",
+            "source_url": "https://mp.weixin.qq.com/s/bYhnlRBOtp-A4d_HHsmlkg",
+            "checked_at": "2026-11-04T22:45:59+00:00",
+            "subject": "如意RU YEE",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "辉煌时代WeWork"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-e638fd46a3f2d3d45daab530"
+          ]
+        }
+      },
+      "article_location": "海淀区辉煌时代WeWork（团队办公活动地点，非注册地或总部认定）",
+      "source": "铅笔道",
+      "kind": "event",
+      "canonical_name": "如意RU YEE",
+      "company_entity_id": "dr-u-7ce087daa8c23604e6ff",
+      "company_raw_name": "如意",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "如意RU YEE",
+          "relation": "product",
+          "evidence": "创办如意RU YEE，用AI解决自家的儿童照料难题"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "创始人口述支持早期产品和采购使用线索，但尚无独立可比的技术效果、服务质量或行业地位证据，不能由用户数、创始股东或市场规模设想授予全国标杆资格。",
+        "evidence_ids": [
+          "article:8d4d9cf6928aa578"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "insight": "如意的具体进展是将特殊喂养建议接到食材采购：已有几百名用户通过产品完成采购，说明其开始承接家长获得方案后的执行工作，而不只是回答问题。供应商直接入驻是团队应对生鲜平台接口不开放的路径，但这仍不同于已经实现跨学校、照料者的完整协同。",
+      "financing": "香港东英集团为创始投资股东；原文未披露投资金额、轮次及具体完成日期。",
+      "event_date": "",
+      "event_headline": "如意2026年上线家庭AI，已接入特殊喂养食材采购",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
