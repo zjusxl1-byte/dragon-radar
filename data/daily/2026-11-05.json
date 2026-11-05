@@ -128,7 +128,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "quality_inspector Agent + overnight Agent directed review",
+        "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
         "candidate_id": "395137823a55e66ad2b0ac5c96c7b54c191d387ae77cd361a4997f255680ab5a",
         "input_row_sha256": "37bd52c50d3347ca15b8dff546e18cf72a4279bbd47ddb76866316ea11086854",
         "reason": "继承Utopai Studios稳定身份、Cybever已确认别名和官网山景城总部证据，PAI与Utopai X为产品，MiniMax为基座模型相关方，不混为企业主体。6000万美元融资、10亿美元估值、1100万美元ARR及既有合作和片单已在历史收录，不能再次作为新融资。当前全文另明确报道Utopai X在10月底登顶Artificial Analysis无音频图生视频榜，与10月8日已收录的文生视频第二名属于不同榜单及成绩节点，构成可保留的产品评测增量。新闻2026-11-04T07:47:00Z满足窗口；仅以媒体转述的特定榜单成绩采信，不扩大为整体模型全球第一或长片交付能力已获验证。 当前公开事件为产品评测或技术路线披露，移除卡片中旧融资字段；历史融资原记录保持。",
@@ -291,7 +291,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "quality_inspector Agent + overnight Agent directed review",
+        "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
         "candidate_id": "b2e3012f26cc185ec6c12aa0bb419830aa315d5d7c4e4d2756a578663b653c2a",
         "input_row_sha256": "d83dd19874e7247752a4cfa4ab63c05bf3c6ebfcd1a60cbc0e5c6a2d9b58ca20",
         "reason": "正文明确将生益电子列为东莞批量生产AI服务器高速PCB的代表，具有具体产品、制造及算力硬件供应链关联，不只是城市经济报道中的企业点名。官网简称及总部证据支持本条指向生益电子股份有限公司，不并入生益科技或其他子公司；登记字段仍为unresolved，不在本轮修改。已提供11月4日发布时间，符合最近7天窗口，上游关于发布时间缺失的待核理由已不成立。保留为正面产业线索，但不将城市增长、整体产量或未披露的客户订单归于公司。",
@@ -455,7 +455,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "quality_inspector Agent + overnight Agent directed review",
+        "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
         "candidate_id": "e38c2a54ce68782fd14cc68a53821fb11206838f949413afc7dcc3b42cfb4090",
         "input_row_sha256": "087108ffa387a3acb2e0b030f139aa5e290bdc8cbeecb85835b261fc740de56b",
         "reason": "和晖机器人为参赛团队及运控项目主体，Unisunbot为原文对应名称，Unisun-M1为产品，不将合作企业合并或另列。获奖本身不构成主要采信依据；相较10月14日已收录的产品推出及超6000万元订单，本文明示与云深处科技、卧龙电驱、中国移动、上海电气等开展合作与批量应用，增加了具名产业合作及应用阶段信息，构成可保留的实质增量。该信息来自投资生态方披露，不等于各合作方均采购或验收，不将旧订单额写成新增订单或收入。11月4日发布时间符合窗口；官网富阳经营地址支持杭州正面发现归属，但不据此升级注册或总部资格。 Agent复读后仅移除公开摘要与洞察中的已收录/本次新增等审阅过程，保留产品机制和具名应用事实。",
@@ -638,7 +638,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "quality_inspector Agent + overnight Agent directed review",
+        "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
         "candidate_id": "9eaa87f3689b9ea0f8b5dc1d4a8a9e2e04c5ec2c617fb75d2d865e92eb48cb62",
         "input_row_sha256": "b7ce9696d4e79cd32fc4a28717cc28571392c8f48b6d4f87bad0edac520911ad",
         "reason": "全文由西门子EDA产品战略负责人署名，明确介绍Veloce CS及三类平台，属于有具体产品支撑的芯片验证产业观察，不只是泛谈AI。西门子为产品提供方，Veloce CS为产品；NVIDIA等仅作行业背景，不推断其为该平台客户。11月4日新闻发布时间已提供且符合窗口，历史检索未见匹配，本条可作为产品技术路径线索保留。所谓近期发布没有确切日期，不写成11月新发布，也不将方法论示例当真实客户项目或已验证成效。",
@@ -672,6 +672,276 @@
           "reason": "本文证明具体产品构成与应用方法，但“前沿水准”来自厂商署名文章，未提供独立行业地位、对比测试或客户实证；事件可以保留，不能仅凭企业知名度授予全国标杆标签。",
           "evidence_ids": [
             "article:0f9c984cfc747ee8"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "Anthropic",
+      "title": "与一、二级投资人聊 Anthropic 招股书：泡沫、增速下滑和 coding 之后是什么",
+      "company": "Anthropic",
+      "score": 50,
+      "sector": "人工智能大模型与企业级AI应用",
+      "financing": "本条为经营披露，不作为新的融资完成或上市节点。",
+      "source": "晚点 LatePost",
+      "location": "US / California / San Francisco",
+      "article_location": "美国加利福尼亚州旧金山（复用已审注册地证据）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "subject_evidence_ids": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Anthropic",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-98b8e2309e1c91685311fb4f"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+            "source_url": "https://www.anthropic.com/privacy",
+            "checked_at": "2026-10-12T03:44:07.679932+00:00",
+            "subject": "Anthropic",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-c70eca6b0f88f44d81a4",
+      "company_canonical_name": "Anthropic",
+      "identity_status": "confirmed",
+      "event_type": "经营披露",
+      "link": "https://mp.weixin.qq.com/s/MvxVt8OGTgvaj33duWZK9Q",
+      "article_title": "与一、二级投资人聊 Anthropic 招股书：泡沫、增速下滑和 coding 之后是什么",
+      "event_desc": "Anthropic于2026年11月2日提交的S-1修订文件披露，2026年第三季度收入为169.56亿美元，第二季度为115.55亿美元。截至2026年9月30日，过去12个月向公司贡献收入不少于10万美元的客户超过11900家，其中不少于100万美元的客户超过1900家。",
+      "insight": "季度收入增长之外，Anthropic披露了组织客户的付费深度：过去12个月贡献收入达到十万美元的客户超过11900家，百万美元级客户超过1900家，形成了可辨识的高付费客户层。对模型及智能体企业而言，关键参照是能否把模型使用嵌入组织工作流，并同时扩大客户覆盖与单个组织的收入贡献；季度收入增长提供了规模证据，客户分层则补上了规模来自哪些付费群体的视角。",
+      "event_headline": "Anthropic披露三季度收入及高付费客户分层",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "verified_reporting_period",
+        "event_date": "2026-11-02",
+        "observed_date": "2026-11-04",
+        "description": "11月2日提交修订文件；收入期为2026年第三季度，客户统计截止9月30日且采用过去12个月口径",
+        "review_required": false
+      },
+      "published_date": "2026-11-04",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "本轮完整复读原晚点访谈，并取得SEC 11月2日S-1/A的实际检索正文片段（非整份全文）：季度表列2026年6月30日及9月30日止三个月收入分别11555、16956百万美元；第185页明确截至9月30日TTM收入不少于10万美元客户超过11900家，不少于100万美元客户超过1900家。可采信范围缩小为季度经营结果和付费客户分层，不保留未定位的集中度、算力合同条款、现金流会计批评、上市日期或估值。Anthropic为主体、Claude为产品；复用已审美国属地，不进杭州负面。历史已有公开递表节点及未核经营数据，本次不是新IPO或首次发现，而是原始披露补证后对特定经营指标的续审改判，原资本节点和其他合同待核不被覆盖。客户贡献收入深度提供模型服务商业化的具体对标价值，不因体量、境外身份或无标杆标签排除。",
+      "event_headline_source": "59c23dbd53280f933b45402f2fd1c7153308fd1ce8fe95d4fc609e025e8dea9d",
+      "event_identity": {
+        "canonical_id": "据文章报道，Anthropic拟于2026年11月中旬上市。文章援引其11月2日更新的S-1文件称，2026年第三季度收入为169.56亿美元，环比增长约47%；近1.2万家企业客户年消费超过10万美元，其中超过1900家年消费超过100万美元。2026年前九个月，前五大客户收入占比降至近25%，最大客户收入占比不超过10%。文中所述上市估值为市场预期，尚非最终发行定价。"
+      },
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+          "source_url": "https://www.anthropic.com/privacy",
+          "checked_at": "2026-10-12T03:44:07.679932+00:00",
+          "subject": "Anthropic",
+          "role": "registered",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "San Francisco"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "官方经营数据补证足以支持普通外部商业化对标，但没有独立同行比较或行业地位证明，不另授行业标杆身份；普通正面发现不以标杆身份为必要条件。",
+        "evidence_ids": [
+          "accepted_history:90433f9d0be5a66a",
+          "prior_decision:64bc0e0547e43406",
+          "article:116060de541fa370",
+          "official_financial_extract:71283c1479f0cffd"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
+        "candidate_id": "05623b659beedc5eaa9ecdb64437ff6878e40942127c67cb5232d6fa864ddcb3",
+        "input_row_sha256": "763fa4a214c1ac8f3f820d4bec61b3825f9c609e31e75291d0001a9ed356812b",
+        "reason": "本轮完整复读原晚点访谈，并取得SEC 11月2日S-1/A的实际检索正文片段（非整份全文）：季度表列2026年6月30日及9月30日止三个月收入分别11555、16956百万美元；第185页明确截至9月30日TTM收入不少于10万美元客户超过11900家，不少于100万美元客户超过1900家。可采信范围缩小为季度经营结果和付费客户分层，不保留未定位的集中度、算力合同条款、现金流会计批评、上市日期或估值。Anthropic为主体、Claude为产品；复用已审美国属地，不进杭州负面。历史已有公开递表节点及未核经营数据，本次不是新IPO或首次发现，而是原始披露补证后对特定经营指标的续审改判，原资本节点和其他合同待核不被覆盖。客户贡献收入深度提供模型服务商业化的具体对标价值，不因体量、境外身份或无标杆标签排除。",
+        "scope": {
+          "technology_evidence": "官方修订申报的季度收入表及Enterprise Adoption of Claude第185页，明确客户在过去12个月对公司贡献收入的分层；原访谈将Claude编程及企业工作流应用与客户付费相联系。",
+          "value_reason": "模型服务的商业化不仅是调用量，还包含同一组织的付费深度。季度收入增长与11900余家十万美元级、1900余家百万美元级客户显示付费覆盖和高价值客户层已经形成，可供杭州模型及智能体企业比较组织级部署的商业化尺度。客户分层不证明客户留存、生产率因果提升或整体盈利，本条不据此作这些延伸。"
+        },
+        "stage": {
+          "status": "2026年第三季度已发生的经营结果及截至9月30日的过去12个月客户收入分层；11月2日修订披露",
+          "reason": "原报道北京时11月4日发布，满足七日新闻窗口；官方文件日期为11月2日，统计截止9月30日。收入是三个月实际会计收入，不是ARR；客户门槛为TTM内对公司贡献收入，不是当季付费、合同额或未来承诺。未取得的合同/发行日期不放入公开摘要。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:ce4ee8942d06ee6b",
+            "accepted_history:3759faee6d2f4d53",
+            "accepted_history:5f63d1637094e575",
+            "accepted_history:c234511a046a6a3a",
+            "accepted_history:42dd026d10f0f7fe",
+            "accepted_history:43f467afac17279b",
+            "accepted_history:411b5d17b87a0b2b",
+            "accepted_history:eea21c465ab6b207",
+            "accepted_history:077b893d29b21f0e",
+            "accepted_history:358be8286b849ffa",
+            "accepted_history:90433f9d0be5a66a",
+            "prior_decision:98796d7b80204373",
+            "prior_decision:047d2adbaf681fa9",
+            "prior_decision:54c7f37adfb28ca6",
+            "prior_decision:10e36ef622f6463e",
+            "prior_decision:64bc0e0547e43406",
+            "prior_decision:b36eb0d024722a65",
+            "prior_decision:f9d3849bc0d76b52",
+            "prior_decision:0de4750355b08fbb",
+            "prior_decision:ba72bf78dfcfdca1",
+            "official_financial_extract:71283c1479f0cffd"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:98796d7b80204373",
+              "comparison": "new_progress",
+              "reason": "同属第三季度经营披露续审。本次声称修订文件给出169.56亿美元收入，但未提供文件，亦未澄清旧调整后利润、成本覆盖及现金流口径，不解除旧待核。 本次续审新增SEC实际修订文本，改判只覆盖可定位的季度收入及TTM客户分层；本条不重复递表，其余旧待核指标仍不采信。"
+            },
+            {
+              "evidence_id": "prior_decision:f4c677f50813f832",
+              "comparison": "different_event",
+              "reason": "旧项为北极星TPU债务融资方案，本次经营及合同讨论没有证明该笔融资交割或新增交付。"
+            },
+            {
+              "evidence_id": "prior_decision:af34ae94ced590be",
+              "comparison": "different_event",
+              "reason": "旧项为北极星优先债规模及博通残值担保增量，本次博通合同金额及现金流评论不能直接并为同一交易的新阶段。"
+            },
+            {
+              "evidence_id": "prior_decision:10aad19c4c1f1ec4",
+              "comparison": "different_event",
+              "reason": "同属北极星融资结构回执，不核准本次客户、财务及租赁会计主张。"
+            },
+            {
+              "evidence_id": "prior_decision:edfebee72ccb1b08",
+              "comparison": "different_event",
+              "reason": "旧待核针对联创演讲及研发指标，后来已有原稿补证采信。本次访谈不是该演讲的新证据，不回退后续keep。"
+            },
+            {
+              "evidence_id": "prior_decision:54c7f37adfb28ca6",
+              "comparison": "new_progress",
+              "reason": "沿同一公开披露事项续审。近1.2万家高消费客户已有待核主张，本次增加百万美元客户分层及所称修订文件，尚未补齐原始数据证据。 本次续审新增SEC实际修订文本，改判只覆盖可定位的季度收入及TTM客户分层；本条不重复递表，其余旧待核指标仍不采信。"
+            },
+            {
+              "evidence_id": "prior_decision:10e36ef622f6463e",
+              "comparison": "new_progress",
+              "reason": "旧项的公开递表部分后来已补证，客户及采购数字未获采信。本次不重复递表，也不能靠更换报道解除未核数据边界。 本次续审新增SEC实际修订文本，改判只覆盖可定位的季度收入及TTM客户分层；本条不重复递表，其余旧待核指标仍不采信。"
+            },
+            {
+              "evidence_id": "prior_decision:b36eb0d024722a65",
+              "comparison": "new_progress",
+              "reason": "旧项已包含客户集中度、模型收入贡献及合同约束主张。本次集中度重述不是首次发现；百万美元客户分层和所称11月2日修订内容为待核增量。 本次续审新增SEC实际修订文本，改判只覆盖可定位的季度收入及TTM客户分层；本条不重复递表，其余旧待核指标仍不采信。"
+            },
+            {
+              "evidence_id": "prior_decision:ca4ac49a61a304d5",
+              "comparison": "different_event",
+              "reason": "旧项为Fable目录和Obsidian 3模型身份传闻，本次没有模型归属、发布或测试条件补证。"
+            },
+            {
+              "evidence_id": "prior_decision:0de4750355b08fbb",
+              "comparison": "new_progress",
+              "reason": "同属招股书经营披露，但旧项为推理收入占比及Claude Code用户支出分组。本次客户分层和合同主张不核实旧统计，也未取得原始文件。 本次续审新增SEC实际修订文本，改判只覆盖可定位的季度收入及TTM客户分层；本条不重复递表，其余旧待核指标仍不采信。"
+            },
+            {
+              "evidence_id": "prior_decision:047d2adbaf681fa9",
+              "comparison": "new_progress",
+              "reason": "为第三季度财务待核的另一回执。本次更精确收入数字及租赁现金流评论不等于完成来源与指标口径核验。 本次续审新增SEC实际修订文本，改判只覆盖可定位的季度收入及TTM客户分层；本条不重复递表，其余旧待核指标仍不采信。"
+            },
+            {
+              "evidence_id": "prior_decision:87e274f907756173",
+              "comparison": "different_event",
+              "reason": "对应北极星融资既有采信，不构成本次经营和客户数据的原始依据。"
+            },
+            {
+              "evidence_id": "prior_decision:e92be670145d913c",
+              "comparison": "different_event",
+              "reason": "对应北极星担保结构增量，本次没有该融资完成、担保执行或算力交付的新证据。"
+            },
+            {
+              "evidence_id": "prior_decision:b7c53372f07d7337",
+              "comparison": "different_event",
+              "reason": "该keep依据演讲原稿及IMF日程，只支持演讲披露。本次关于湿实验室的访谈说法也不能据此认定已建成或运营。"
+            },
+            {
+              "evidence_id": "prior_decision:64bc0e0547e43406",
+              "comparison": "new_progress",
+              "reason": "该keep仅采信2026年10月26日官方公告支持的S-1提交。本次声称11月2日修订是可能的后续阶段，但缺修订文件，不扩展既有批准范围，也不回退已确认的提交事实。 本次续审新增SEC实际修订文本，改判只覆盖可定位的季度收入及TTM客户分层；本条不重复递表，其余旧待核指标仍不采信。"
+            },
+            {
+              "evidence_id": "prior_decision:f9d3849bc0d76b52",
+              "comparison": "new_progress",
+              "reason": "为招股书经营及合同待核的另一回执。渠道37%测算及客户集中度已有前文，不能以再访谈当独立验证；新增合同细节仍须原文件定位。 本次续审新增SEC实际修订文本，改判只覆盖可定位的季度收入及TTM客户分层；本条不重复递表，其余旧待核指标仍不采信。"
+            },
+            {
+              "evidence_id": "prior_decision:fd33ac40e78f2f1b",
+              "comparison": "different_event",
+              "reason": "同属新模型传闻待核，本次经营访谈不解除模型身份及评测条件缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:ba72bf78dfcfdca1",
+              "comparison": "new_progress",
+              "reason": "该续审已记录定向检索仍未取得原始经营披露。本次增加访谈及修订文件主张，却未提供原文件，保持旧待核，不将既往访问失败或本次新URL当作改判依据。 本次续审新增SEC实际修订文本，改判只覆盖可定位的季度收入及TTM客户分层；本条不重复递表，其余旧待核指标仍不采信。"
+            }
+          ],
+          "change_reason": "沿原公开披露事项续审。公开递表已于10月28日收录，不重复；10月30日等旧裁决保留客户及财务原件缺口。新增SEC修订原文片段现在证实季度收入表和9月30日TTM客户分层，足以解除本条这些指标的来源缺口；百万美元客户层是原已采信历史之外的具体增量。合同可撤销性、集中度、渠道测算、推理收入比例和用户分组仍未在本次片段定位，不被整体解禁，不重置首次发现日。",
+          "new_evidence_ids": [
+            "article:116060de541fa370",
+            "official_financial_extract:71283c1479f0cffd"
+          ]
+        },
+        "evidence_ids": [
+          "article:116060de541fa370",
+          "identity_registry:2dcd4f408df25406",
+          "geo-98b8e2309e1c91685311fb4f",
+          "accepted_history:90433f9d0be5a66a",
+          "prior_decision:98796d7b80204373",
+          "prior_decision:64bc0e0547e43406",
+          "prior_decision:b36eb0d024722a65",
+          "prior_decision:ba72bf78dfcfdca1",
+          "history_lookup:ce4ee8942d06ee6b",
+          "official_financial_extract:71283c1479f0cffd"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "官方经营数据补证足以支持普通外部商业化对标，但没有独立同行比较或行业地位证明，不另授行业标杆身份；普通正面发现不以标杆身份为必要条件。",
+          "evidence_ids": [
+            "accepted_history:90433f9d0be5a66a",
+            "prior_decision:64bc0e0547e43406",
+            "article:116060de541fa370",
+            "official_financial_extract:71283c1479f0cffd"
           ]
         }
       }
@@ -799,7 +1069,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "quality_inspector Agent + overnight Agent directed review",
+        "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
         "candidate_id": "7f6cdf7936baafa8e7b761d13a9da37ef630e96c0c57e0bbfebbd528786e62da",
         "input_row_sha256": "550102a96766bed2bf995901bc1eaf2b4ba066dcd6944c93a32742f42a525f22",
         "reason": "已逐字复读量子位完整原文：极智嘉（Geek+）为自主智能仓计划、Gravity、Gino 1及无人拣选方案的提供方，施耐德电气上海物流中心为客户试点场所，角色清楚且没有主体冲突。已审北京经营证据可复用。当前名录unresolved只是尚未全局归档，不是拒绝正面发现的资格门槛；沿原临时稳定ID收录，不在本次批准Geek+全局别名或认定总部。11月3日原始发布时间合窗；原稳定主体检索未见匹配及错误，仅在提供的检索范围认定新线索，不声称全库首次发现。24/7为计划，试点2倍效率和99.99%准确率仅限该报道局部场景，不外推为整仓达标。",
@@ -957,7 +1227,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "quality_inspector Agent + overnight Agent directed review",
+        "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
         "candidate_id": "66ad6a2d546140c53f08889a34fab8940cc2f5f872efad35f7758d5b46751401",
         "input_row_sha256": "dbd136f40cc9b34afe2b2e5a28c35642e3ae75245e052d32dd361eec4aafa232",
         "reason": "已完整复读采访及省科创母基金投资方官方披露，二者均明确完整公司名、张少泓创业主体与sCO2气冷微堆路线，原文又明确为前次融资稿的深度采访续篇，无不同法人或角色冲突。名录尚未归档不等于本条事实主体不明；沿原临时稳定ID收录，不更名、合并或批准全局简称。已审杭州普通创业经营归属不升级注册/总部或负面资格。11月4日新闻合窗；8月融资及微型核电源方向作为旧背景，本篇新增直接循环省去主换热器的系统设计、非核动力应用与微堆研发并行的推进路线。按探索及计划采信，不将模型机、第三方商用验证或创始人此前企业业绩算成本公司已交付。 当前公开事件为产品评测或技术路线披露，移除卡片中旧融资字段；历史融资原记录保持。",
@@ -1118,7 +1388,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "quality_inspector Agent + overnight Agent directed review",
+        "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
         "candidate_id": "d944d90337253a6912d747166c2b28299d0c05fc5831ec53dd039128b797a4e7",
         "input_row_sha256": "60f839aa0d1c3aed954975b21da451df49402b269c446d91eef9ea8b8053d41e",
         "reason": "全文明确华为为Mate 90系列技术产品提供方，无忧传媒为采用方，2026年10月将该系列纳入杭州悦创直播基地主力设备，并报道10月31日至11月1日活动中的使用。对焦、端侧降噪、多设备收音和专业直播输出与机构实际应用直接关联，构成智能终端进入专业生产流程的日报线索，不只是宣传口号或一般经营变化。原始发布时间为2026年11月3日，符合最近7天窗口。所供历史产品发布与本次机构采用有实质区别，未发现同一采用事件。杭州是客户应用地点，华为总部仍为深圳；春晚正式机位事实属于Mate 80系列，不移植为Mate 90实战验证。仅采信日报线索，不据此自动取得领导简报资格。",
@@ -1337,7 +1607,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "quality_inspector Agent + overnight Agent directed review",
+        "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
         "candidate_id": "23f7d8c71430c7e2db3674663a6f29e778d17adc4bbd119890370a17a224ee31",
         "input_row_sha256": "3722ffe07352666e65369d0d17669ddc662dca6e225552fb418b2d954b415744",
         "reason": "余杭发布全文直接点名南方泵业股份有限公司及其申报项目，明确入选2026年度全国卓越级智能工厂名单，并披露机械臂、AGV和全流程数字孪生贯通制造业务的实际内容，不是只有荣誉称号。企业人员提供交付周期、产能和成本改善数据，可按自述口径反映制造转型，不能将改善全部归因于本次入选。原始发布时间为11月3日，符合窗口；所供历史检索无匹配事件。政府原文与官网经营地址相互印证杭州余杭经营归属，足以支持正面发现，不要求先取得注册或总部证据。registry尚未完成身份归并，但正文完整公司名及事件角色无冲突，不擅自关联母公司或其他同名实体。",
@@ -1502,11 +1772,11 @@
   "quality_review": {
     "schema_version": "dragon-overnight-review.v2",
     "status": "partial_review",
-    "reviewer": "quality_inspector Agent + overnight Agent directed review",
-    "reviewed_candidates": 10,
+    "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
+    "reviewed_candidates": 11,
     "semantic_reviewed_candidates": 13,
-    "watch_candidates": 3,
-    "pending_candidates": 3,
+    "watch_candidates": 2,
+    "pending_candidates": 2,
     "source_pending_count": 7,
     "source_pending_counts": {
       "_analysis_pending": 7,
