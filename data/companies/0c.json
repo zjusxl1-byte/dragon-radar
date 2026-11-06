@@ -2429,6 +2429,175 @@
       "event_headline": "Anthropic披露2026年第三季度收入169.56亿美元",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-07",
+      "title": "据文章转述的METR报告，Anthropic三个内部模型分别于今年7月、8—9月、9—10月完成训练。Model 4在Anthropic综合能力指数AECI上获得178.6分，比Opus 5.5高约3.9分。报告收录的一名研究员表示，从产生想法到运行实验的时间减少约80%。联合创始人Sam McCandlish认同AI正在加快公司研发，但表示提速幅度难以精确衡量，并承认公开报告删去了大量信息。METR认为，现阶段研发加速主要来自AI辅助人类研究员。",
+      "article_title": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
+      "event_type": "研发评估披露",
+      "link": "https://mp.weixin.qq.com/s/BIRCKgD9YOEeJV4Mn-UqJA",
+      "sector": "人工智能／大模型与研发智能体",
+      "location": "US / California / San Francisco",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "subject_evidence_ids": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Anthropic",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-98b8e2309e1c91685311fb4f"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+            "source_url": "https://www.anthropic.com/privacy",
+            "checked_at": "2026-10-12T03:44:07.679932+00:00",
+            "subject": "Anthropic",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ]
+      },
+      "article_location": "美国加利福尼亚州旧金山（复用已审同主体注册地证据）",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "Anthropic",
+      "company_entity_id": "dr-u-c70eca6b0f88f44d81a4",
+      "company_raw_name": "Anthropic",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "A社",
+          "relation": "same_entity",
+          "evidence": "A社这边，联合创始人Sam McCandlish也出面回应了。"
+        },
+        {
+          "name": "Model 4",
+          "relation": "product",
+          "evidence": "其中最强的Model 4，在Anthropic的综合能力指数AECI上，已经超过了Opus5.5。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本文支持AI辅助研发流程对标，但综合指标来自公司数据，报告有大量删节，个别访谈不构成组织级因果评估，尚未提供足以独立建立行业地位或全国标杆资格的证据。",
+        "evidence_ids": [
+          "article:7ec21257f4e06f85",
+          "accepted_history:358be8286b849ffa"
+        ]
+      },
+      "published_date": "2026-11-06",
+      "insight": "Anthropic披露的变化不只是内部模型得分提高，而是Claude正参与下一代模型的研发流程：受访研究员称实验实现更快、可并行探索更多思路，说明AI助手的价值正在延伸到研发试错环节。关键区别在于，这仍主要是人类研究员借助AI提速，不能据此认定完全自主的递归自我改进已经成为主要动力。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Anthropic内部模型评估与AI辅助研发进展获披露",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-07",
+      "title": "据晚点转述Anthropic披露的内部案例，一次常规升级导致数万个训练任务崩溃。工程师向Claude提供故障信息和集群访问权限，模型测试环境设置、定位调试开关、复现问题并验证修复。公司称该任务通常需人工两三天，模型用了约两小时。",
+      "article_title": "大模型的数据生意：人类如何蒸馏自己",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/iu6wJm6JiWfv3HuZz5yOlQ",
+      "sector": "大模型与研发智能体",
+      "location": "US / California / San Francisco",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "subject_evidence_ids": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Anthropic",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-98b8e2309e1c91685311fb4f"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+            "source_url": "https://www.anthropic.com/privacy",
+            "checked_at": "2026-10-12T03:44:07.679932+00:00",
+            "subject": "Anthropic",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ]
+      },
+      "article_location": "美国加利福尼亚州旧金山市（已审注册地）",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "Anthropic",
+      "company_entity_id": "dr-u-c70eca6b0f88f44d81a4",
+      "company_raw_name": "Anthropic",
+      "identity_status": "confirmed",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "单次公司自述的内部应用案例提供具体工作流对照，但缺少独立可复核的同任务比较及采用规模，不新增标杆资格。",
+        "evidence_ids": [
+          "article:c55ef924c7a40601",
+          "accepted_history:358be8286b849ffa"
+        ]
+      },
+      "published_date": "2026-11-05",
+      "event_identity": {
+        "canonical_id": "文章转述Anthropic披露的案例：一次常规升级导致数万个训练任务崩溃，工程师将故障信息及集群访问权限交给Claude。模型测试环境设置，找到引发故障的调试开关，并复现问题、验证修复；公司称该工作通常需要人工两三天，模型用了约2小时。"
+      },
+      "insight": "这个案例展示的不是模型只给出排障建议，而是在获得环境访问权限后执行测试、复现和修复验证。它为研发智能体参与基础设施维护提供了具体案例，但单次任务耗时不能直接外推为整个研发团队的效率提升。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Anthropic披露Claude约两小时完成内部集群故障修复案例",
+      "event_signal": "context",
+      "discovery_status": "update"
     }
   ],
   "台达电子(杭州)有限公司": [
@@ -2845,6 +3014,95 @@
       "event_headline": "蚂蚁灵波展示拣药分拣及上下料，与隆盛唯睿等达成战略合作",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-07",
+      "title": "据报道，蚂蚁灵波智慧药房方案已在国大药房零售门店部署上线；LingBot-VLA、LingBot-VA完成LeRobot生态适配，LingBot-Vision合入timm主线。合作伙伴乐聚披露，基于LingBot-VLA 2.0完成KUAVO基础迁移后，加入600多小时真机数据二次训练，成功率由16.27%提升至48.27%。具体部署与适配发生日未披露。",
+      "article_title": "DeepSeek之后，又一个被海外“用火”的中国开源模型来了",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Bf7R5kjzAMiaRPhdfdf1Dg",
+      "sector": "具身智能与机器人基础模型",
+      "location": "上海市 / 浦东新区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 浦东新区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-44688eb631ce7f7ae49caff5"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "蚂蚁灵波",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-44688eb631ce7f7ae49caff5",
+            "source_url": "https://www.zidonghua.com.cn/news/brand/69019.html",
+            "checked_at": "2026-10-20T02:40:34.668260+00:00",
+            "subject": "蚂蚁灵波",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-44688eb631ce7f7ae49caff5"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "涌金楼",
+      "kind": "event",
+      "canonical_name": "蚂蚁灵波",
+      "company_entity_id": "dr-u-754c490bd199c21aea69",
+      "company_raw_name": "蚂蚁灵波",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "LingBot系列模型",
+          "relation": "product",
+          "evidence": "旗下具身智能公司蚂蚁灵波带来的LingBot系列模型"
+        }
+      ],
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "门店部署和生态接入具有具体对标价值，但尚缺跨客户规模、独立可比性能及持续运营表现等行业地位依据；GitHub热度、被研究使用或作为比较基线不能单独确立全国标杆资格。",
+        "evidence_ids": [
+          "article:ea1bf96153e28e0c"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "event_identity": {
+        "canonical_id": "蚂蚁灵波推出“大脑全栈2.0”，覆盖机器人视觉与空间感知、指令理解、动作生成及世界预测等环节。LingBot-VLA、LingBot-VA已完成LeRobot生态适配，LingBot-Vision合入timm主线。其智慧药房解决方案已在国大药房零售门店部署上线，可在80厘米宽通道内完成订单接收、分拣和商品交付。LingBot-VLA 2.0预训练覆盖17个品牌、20种机器人构型；合作伙伴乐聚披露，基于该模型完成KUAVO基础迁移后，加入600多小时真机数据二次训练，成功率从16.27%提升至48.27%。"
+      },
+      "insight": "蚂蚁灵波正在形成面向机器人厂商和解决方案商的模型底座角色：开放模型及工具链，合作伙伴再用自身设备与任务数据完成适配。乐聚的二次训练结果和智慧药房上线，分别提供了设备迁移与具体场景落地的证据；其中迁移后的效果仍依赖真机数据训练，不能理解为一个模型已经可以直接通用于所有机器人。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "蚂蚁灵波据报道在国大药房门店上线智慧药房方案",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "上海脑虎科技有限公司": [
@@ -2974,6 +3232,71 @@
       "event_date": "",
       "event_headline": "辉羲智能完成Pre-B+及B轮融资，年内累计超25亿元",
       "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "自然选择": [
+    {
+      "date": "2026-11-07",
+      "title": "自然选择已完成A+轮融资，累计融资金额超过1亿美元，新一轮融资方包括五源资本、启明创投、源码律动、经纬创投和华业天成。旗下AI社交产品Elys拟于近期改版，更突出个人智能体能力；目前仍采用邀请制，日活跃用户数高峰期一度达到10万。",
+      "article_title": "晚点独家丨自然选择完成 A+ 轮融资，要靠社交网络参与 Personal Agent 竞赛",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/xr4srXMf-EogfsMZ9k5l1w",
+      "sector": "人工智能／个人智能体／AI社交与陪伴",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "自然选择",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "自然选择",
+      "company_entity_id": "dr-u-ce693a6bfce406d1ca16",
+      "company_raw_name": "自然选择",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "EVE",
+          "relation": "product",
+          "evidence": "AI 陪伴产品 EVE 与 AI 社交产品 Elys 的母公司自然选择已完成 A+ 轮融资"
+        },
+        {
+          "name": "Elys",
+          "relation": "product",
+          "evidence": "AI 陪伴产品 EVE 与 AI 社交产品 Elys 的母公司自然选择已完成 A+ 轮融资"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资和产品运行足以支持成长线索，但未建立本主体全国行业领先地位或经验证的对标优势，累计融资与高峰日活不能自动赋予全国标杆资格。",
+        "evidence_ids": [
+          "article:b0643a1bca156c8b"
+        ]
+      },
+      "published_date": "2026-11-06",
+      "insight": "自然选择选择先用社交产品形成用户关系和互动记录，再让个人智能体据此提供推荐与服务，试图解决创业公司缺少用户背景信息的问题。Elys已有邀请制产品和高峰日活10万的使用基础，但改版后的主动服务仍属计划，关键观察是这些互动信息能否转化为用户愿意采用的联系推荐与办事能力。",
+      "financing": "已完成A+轮融资，累计融资金额超过1亿美元；本轮投资方包括五源资本、启明创投、源码律动、经纬创投和华业天成。本轮具体金额、估值及资金用途未披露。",
+      "event_date": "",
+      "event_headline": "自然选择完成A+轮融资，累计融资超1亿美元",
+      "event_signal": "material",
       "discovery_status": "first_seen"
     }
   ]
