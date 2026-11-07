@@ -3159,24 +3159,62 @@
       "event_type": "产品量产",
       "link": "https://mp.weixin.qq.com/s/HYYq0PB4yzPO6Y40VGCEig",
       "sector": "新型显示",
-      "location": "地点待核",
+      "location": "北京市海淀区小营西路10号和盈中心C座3A层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市海淀区小营西路10号和盈中心C座3A层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c458079d87a943c5832132aa"
+        ],
+        "subject_evidence_ids": [
+          "geo-c13b1f5d2ac7d749ea7d5ab5"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "维信诺",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "昆山市",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-c13b1f5d2ac7d749ea7d5ab5"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c458079d87a943c5832132aa",
+            "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225232664.PDF",
+            "checked_at": "2026-11-07T00:31:41.832923+00:00",
+            "subject": "维信诺",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "北京市海淀区小营西路10号和盈中心C座3A层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-c458079d87a943c5832132aa"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",

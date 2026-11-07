@@ -2085,16 +2085,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/HbWCm0Z9Jf50fGtwvTwIeQ",
       "sector": "人工智能／跨境电商服务",
-      "location": "地点线索：浙江省杭州市余杭区文一西路960-1号（复用已审经营地，不代表注册地或主要总部）",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-1b0efbc0cb137c448bdd4684"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "阿里巴巴集团",
         "subject_locality": {
           "status": "unknown",
@@ -2102,7 +2104,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-1b0efbc0cb137c448bdd4684",
+            "source_url": "https://www.alibabagroup.com/global-location",
+            "checked_at": "2026-11-07T00:32:33.947820+00:00",
+            "subject": "阿里巴巴集团",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路960-1号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-1b0efbc0cb137c448bdd4684"
+          ]
+        }
       },
       "article_location": "浙江省杭州市余杭区文一西路960-1号（复用已审经营地，不代表注册地或主要总部）",
       "source": "滨江发布",
@@ -2210,24 +2239,62 @@
       "event_type": "并购",
       "link": "https://mp.weixin.qq.com/s/lfBm2NXA58ZzZ5dLyMOY3w",
       "sector": "半导体／非易失性存储芯片与微控制器",
-      "location": "地点待核",
+      "location": "上海市浦东新区银冬路20弄8号楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市浦东新区银冬路20弄8号楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c65b7dbf5e909752556db822"
+        ],
+        "subject_evidence_ids": [
+          "geo-c65b7dbf5e909752556db822"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "普冉半导体(上海)股份有限公司",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-c65b7dbf5e909752556db822"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c65b7dbf5e909752556db822",
+            "source_url": "https://www.puyasemi.com/contact.html",
+            "checked_at": "2026-11-07T00:31:41.536460+00:00",
+            "subject": "普冉半导体(上海)股份有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区",
+              "address": "上海市浦东新区银冬路20弄8号楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-c65b7dbf5e909752556db822"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",

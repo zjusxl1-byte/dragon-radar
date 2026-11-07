@@ -2371,16 +2371,18 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/9wfp296zPycrgWCUemdONg",
       "sector": "半导体／集成电路设计",
-      "location": "地点待核",
+      "location": "江苏省 / 南京市雨花台区宁双路18号沁恒科技园",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "江苏省 / 南京市雨花台区宁双路18号沁恒科技园",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-b020eb34f51b28636955dea7"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "南京沁恒微电子股份有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -2388,7 +2390,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-b020eb34f51b28636955dea7",
+            "source_url": "https://electronic.seu.edu.cn/2021/0503/c11553a370052/page.htm",
+            "checked_at": "2026-11-07T00:32:08.563123+00:00",
+            "subject": "南京沁恒微电子股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "南京市",
+              "district": "雨花台区",
+              "address": "南京市雨花台区宁双路18号沁恒科技园"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "南京市",
+          "district": "雨花台区",
+          "evidence_ids": [
+            "geo-b020eb34f51b28636955dea7"
+          ]
+        }
       },
       "article_location": "",
       "source": "烯牛数据",

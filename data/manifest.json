@@ -364,215 +364,154 @@
           "company_db_id": null
         },
         {
-          "company_raw_name": "DeepSeek",
-          "title": "年轻人去乌兰察布守机房，真能月入三万吗？",
-          "company": "DeepSeek",
-          "score": 85,
-          "sector": "人工智能／智算基础设施",
+          "company_raw_name": "阿里巴巴集团",
+          "identity_mentions": [
+            {
+              "name": "Accio",
+              "relation": "product",
+              "evidence": "借助阿里国际研发的跨境电商智能体Accio"
+            }
+          ],
+          "title": "滨江在做的，可能是一种很新的服务业",
+          "company": "阿里巴巴集团",
+          "score": 35,
+          "sector": "人工智能／跨境电商服务",
           "financing": "",
-          "source": "创业邦",
-          "location": "浙江省 / 杭州市",
-          "article_location": "浙江省杭州市（复用已审同主体总部证据）；内蒙古自治区乌兰察布市（本文所述拟建项目地及招聘工作地）",
+          "source": "滨江发布",
+          "location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+          "article_location": "浙江省杭州市余杭区文一西路960-1号（复用已审经营地，不代表注册地或主要总部）",
           "geography": {
             "geography_status": "confirmed",
             "classification": "hangzhou",
-            "display_location": "浙江省 / 杭州市",
-            "located_status": "subject_confirmed",
+            "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+            "located_status": "discovery_confirmed",
             "display_basis": [
-              "geo-8d153ebc1f63d3a87bb41366"
+              "geo-1b0efbc0cb137c448bdd4684"
             ],
-            "subject_evidence_ids": [
-              "geo-8d153ebc1f63d3a87bb41366"
-            ],
+            "subject_evidence_ids": [],
             "needs_review": false,
             "next_action": null,
-            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "subject": "阿里巴巴集团",
             "subject_locality": {
+              "status": "unknown",
+              "classification": "unknown",
+              "basis_roles": [],
+              "evidence_ids": []
+            },
+            "basis": [
+              {
+                "evidence_id": "geo-1b0efbc0cb137c448bdd4684",
+                "source_url": "https://www.alibabagroup.com/global-location",
+                "checked_at": "2026-11-07T00:32:33.947820+00:00",
+                "subject": "阿里巴巴集团",
+                "role": "business",
+                "subject_relation": "same_subject",
+                "place": {
+                  "country": "CN",
+                  "province": "浙江省",
+                  "city": "杭州市",
+                  "district": "余杭区",
+                  "address": "文一西路960-1号"
+                }
+              }
+            ],
+            "discovery_locality": {
               "status": "confirmed",
               "classification": "hangzhou",
               "country": "CN",
               "province": "浙江省",
               "city": "杭州市",
-              "basis_roles": [
-                "hq"
-              ],
+              "district": "余杭区",
               "evidence_ids": [
-                "geo-8d153ebc1f63d3a87bb41366"
+                "geo-1b0efbc0cb137c448bdd4684"
               ]
-            },
-            "basis": [
-              {
-                "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
-                "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
-                "checked_at": "2026-10-17T18:18:34.816938+00:00",
-                "subject": "杭州深度求索人工智能基础技术研究有限公司",
-                "role": "hq",
-                "subject_relation": "same_subject",
-                "place": {
-                  "country": "CN",
-                  "province": "浙江省",
-                  "city": "杭州市"
-                }
-              }
-            ]
+            }
           },
-          "company_entity_id": "dr-u-1407b719acc8f55195ab",
-          "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
-          "identity_status": "confirmed",
+          "company_entity_id": "dr-u-586d3fa6ec6d2c87d6f1",
+          "company_canonical_name": "阿里巴巴集团",
+          "identity_status": "unresolved",
           "event_type": "其他",
-          "link": "https://mp.weixin.qq.com/s/TXzJYYD0f_eDJi1dwO0Z1Q",
-          "article_title": "年轻人去乌兰察布守机房，真能月入三万吗？",
-          "event_desc": "创业邦转载每日人物报道称，DeepSeek于2026年4月在乌兰察布招聘数据中心高级交付经理和高级运维工程师，公布月薪范围为1.5万至3万元、14薪。文章另回顾7月彭博社关于当地1GW AI数据中心的规划报道，未披露新的开工、采购或投运进展。",
-          "insight": "高级交付与运维岗位对应算力设施从建设衔接到持续运行的关键职能，为观察DeepSeek自建算力的人员准备提供具体线索。招聘发布不等于人员到岗或工程完成，不能据此将规划供电规模视为已形成的算力能力。",
-          "event_headline": "DeepSeek招聘回顾：2026年4月在乌兰察布招数据中心人员",
-          "event_signal": "context",
+          "link": "https://mp.weixin.qq.com/s/HbWCm0Z9Jf50fGtwvTwIeQ",
+          "article_title": "滨江在做的，可能是一种很新的服务业",
+          "event_desc": "阿里巴巴集团相关负责人在滨江服务业大会介绍，创业者张乾超使用阿里国际研发的跨境电商智能体Accio，调度8个“数字员工”协同完成28道工序，将原本需要两三周的选品设计流程缩短至1天，并在不到2个月内向欧美和非洲企业售出3000多顶棒球帽。报道另称，Accio推出不到一个月，全球活跃用户超过1000万人。",
+          "insight": "这一案例的变化不是增加一个问答工具，而是让个体创业者通过多个智能体衔接选品设计工序，承担原本需要多人协作的工作。案例同时出现流程提速与实际销售，说明其已进入真实经营场景，但销售成果不能全部归因于工具。",
+          "event_headline": "阿里巴巴披露Accio协助创业者完成跨境选品设计",
+          "event_signal": "material",
           "is_national_star": false,
           "event_time_evidence": {
-            "status": "date_unknown_recent_report",
-            "description": "事件日期未明确；报道日为 2026-11-06",
-            "event_date": null,
+            "status": "recent_event",
+            "description": "事件日期在最近7个自然日内: 2026-11-06",
+            "event_date": "2026-11-06",
             "observed_date": "2026-11-06",
             "review_required": true
           },
           "published_date": "2026-11-06",
           "publication_basis": "采集源保留的发布时间",
           "selection_recommendation": "keep",
-          "selection_reason": "全文明确DeepSeek是乌兰察布数据中心规划及相关招聘的主体，可继承稳定身份与杭州总部证据。1GW、自建与租赁并行及上线窗口已于10月13日收录，不重复认定建设进展。本篇补充4月招聘高级交付经理和高级运维工程师的具体岗位与工作地，提供算力设施交付、运行保障的人员准备线索，区别于一般薪资新闻；仅保留该增量。新闻发布于2026-11-06T10:29:00Z，符合七日窗口。不能由招聘推定人员已到岗、项目已开工或算力已上线，也不能将受访者所在公司的招聘收缩和故障经历归于DeepSeek。",
-          "event_headline_source": "94db8420df4c9ab1b78002199193c7a5f944520fe09af5646c8416d34f62f999",
-          "event_identity": {
-            "canonical_id": "文章援引彭博社7月消息称，DeepSeek计划在乌兰察布建设供电规模约1吉瓦的超大型AI数据中心，采取自建和外部租赁并行的模式，部分算力预计2027年底至2028年初陆续上线。文章同时称，DeepSeek于当年4月在当地招聘数据中心高级交付经理、高级运维工程师，公布的月薪范围为1.5万至3万元、14薪。"
-          },
-          "location_status": "subject_confirmed",
-          "location_basis": [
+          "selection_reason": "滨江发布全文直接将阿里巴巴列为滨江企业，并明确阿里巴巴集团负责人是案例披露方、阿里国际是Accio研发方、张乾超是使用者及商品销售主体，角色可以分清，无须将产品或用户并成集团法人。报道给出智能体参与选品设计的具体流程与实际经营案例，满足正面科技产业观察价值。发布时间为2026-11-06，处于最近7天窗口，不能沿用上游发布时间缺失的说法。原文足以支持正面发现的滨江语义归属，但不证明具体法人注册或主要总部；上游余杭地址无本包绑定证据，不采用。所给历史检索无匹配及读取错误，不宣称全库首次发现。",
+          "event_headline_source": "ec9b188e8f9052805cc79751dfa3c087206c1d8bb8b23bbac2e1ad377c4f725e",
+          "location_status": "unknown",
+          "location_basis": [],
+          "region_classification": "hangzhou",
+          "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+          "location_candidates": [
             {
-              "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
-              "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
-              "checked_at": "2026-10-17T18:18:34.816938+00:00",
-              "subject": "杭州深度求索人工智能基础技术研究有限公司",
-              "role": "hq",
-              "subject_relation": "same_subject",
-              "place": {
-                "country": "CN",
-                "province": "浙江省",
-                "city": "杭州市"
-              }
+              "value": "浙江省杭州市余杭区文一西路960-1号（复用已审经营地，不代表注册地或主要总部）",
+              "status": "article_candidate_only",
+              "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
             }
           ],
-          "location_next_action": null,
           "benchmark_review": {
             "status": "not_qualified",
             "eligible": false,
-            "reason": "本篇提供的是岗位准备及既有算力规划，没有新增独立行业比较、有效算力交付或竞争优势验证，不改变既有尚未建立本次标杆资格的边界。",
+            "reason": "单个智能体应用案例及未说明统计口径的用户规模不足以建立本主体的独立行业领先对标资格；政府报道的本地企业称谓也不是全国标杆依据。",
             "evidence_ids": [
-              "article:bb77a05b35b1db9f",
-              "prior_decision:57fb9024d657db8d",
-              "prior_decision:4aa55ed3d77695df"
+              "article:eb5233e795957ec2"
             ]
           },
           "quality_review": {
             "schema_version": "dragon-overnight-review.v2",
             "decision": "keep",
             "reviewer": "quality_inspector Agent",
-            "candidate_id": "3fb042f1a41a8aae3e9be43c786db9fe14b86df0d32d8a27cb7d0dc5ae7b8209",
-            "input_row_sha256": "fe1debe27dee083e5103b850926b5900f88ba47d4767a213e95746553b27f4f1",
-            "reason": "全文明确DeepSeek是乌兰察布数据中心规划及相关招聘的主体，可继承稳定身份与杭州总部证据。1GW、自建与租赁并行及上线窗口已于10月13日收录，不重复认定建设进展。本篇补充4月招聘高级交付经理和高级运维工程师的具体岗位与工作地，提供算力设施交付、运行保障的人员准备线索，区别于一般薪资新闻；仅保留该增量。新闻发布于2026-11-06T10:29:00Z，符合七日窗口。不能由招聘推定人员已到岗、项目已开工或算力已上线，也不能将受访者所在公司的招聘收缩和故障经历归于DeepSeek。",
+            "candidate_id": "47c1a37d42ba21b3510f9e5987fc128fe7e204a5f0d6d671f0e42db2b56dd736",
+            "input_row_sha256": "c2f32f4060228cafb8c88d5cd03f29ae8f13c83c62fc577793f09d90d0dee084",
+            "reason": "滨江发布全文直接将阿里巴巴列为滨江企业，并明确阿里巴巴集团负责人是案例披露方、阿里国际是Accio研发方、张乾超是使用者及商品销售主体，角色可以分清，无须将产品或用户并成集团法人。报道给出智能体参与选品设计的具体流程与实际经营案例，满足正面科技产业观察价值。发布时间为2026-11-06，处于最近7天窗口，不能沿用上游发布时间缺失的说法。原文足以支持正面发现的滨江语义归属，但不证明具体法人注册或主要总部；上游余杭地址无本包绑定证据，不采用。所给历史检索无匹配及读取错误，不宣称全库首次发现。",
             "scope": {
-              "technology_evidence": "正文称DeepSeek于当年4月在乌兰察布招聘数据中心高级交付经理、高级运维工程师，月薪范围1.5万至3万元、14薪；另回顾7月媒体报道的1GW数据中心规划。",
-              "value_reason": "高级交付和运维岗位将算力规划落实到设施交付与运行保障所需的具体职能，为观察模型企业自建算力的组织准备提供增量依据。价值不在薪资高低，也不证明工程执行或招聘完成。"
+              "technology_evidence": "政府发布报道转述集团负责人案例：创业者使用阿里国际研发的Accio调度8个数字员工协同28道工序，选品设计由两三周缩至1天，并在不到2个月向欧美和非洲企业售出3000多顶棒球帽。",
+              "value_reason": "提供了多智能体参与跨境选品设计并接入实际小企业经营的应用线索，可供杭州智能体企业比较工作流覆盖和服务交付方式。流程提速与销售结果属于报道转述的单个案例，不代表普遍效率，也不能把用户销量或收入算成阿里巴巴业绩。"
             },
             "stage": {
-              "status": "历史招聘披露增量；数据中心仍为媒体转述的upcoming计划",
-              "reason": "招聘发生于报道所称当年4月，可按2026年4月记录到月，精确日期未知；7月规划仍预计2027年底至2028年初部分上线。新闻日为2026年11月6日，不是招聘或建设发生日，首次收录精确时间未知。"
+              "status": "大会披露的已应用案例，效果为负责人陈述",
+              "reason": "2026年11月6日上午大会发生及案例披露有正文依据；新闻发布时间为2026-11-06T13:40:00Z。案例使用及销售的精确日期、Accio上线日期和首次收录时间均未提供，不能将大会日期当成产品上线或案例完成日期。千万活跃用户数据未提供统计口径，不用于认定行业地位。"
             },
             "history": {
-              "result": "new_progress",
+              "result": "new_event",
               "evidence_ids": [
-                "history_lookup:7d7768109a7b0d70",
-                "accepted_history:891e4d7dba6c6fa3",
-                "prior_decision:46776f9106043202",
-                "prior_decision:e4762b303f8d53bf",
-                "prior_decision:b13f1232e1b4e9fc",
-                "prior_decision:45a66ae95482f362",
-                "prior_decision:880e90efb1737bd7",
-                "prior_decision:80fb107219f591f3",
-                "prior_decision:34ff088823bc33a7"
+                "history_lookup:7d7768109a7b0d70"
               ],
-              "prior_decisions": [
-                {
-                  "evidence_id": "prior_decision:32fffa5346c94646",
-                  "comparison": "different_event",
-                  "reason": "旧排除针对V4.1-Flash-1017模型发布重复稿，不涉及数据中心交付和运维招聘。"
-                },
-                {
-                  "evidence_id": "prior_decision:80ae9a27f89f46e1",
-                  "comparison": "different_event",
-                  "reason": "同版本模型重复发布的排除不构成企业级排除，与本次基础设施人员准备不同。"
-                },
-                {
-                  "evidence_id": "prior_decision:32e66738fb3c21d7",
-                  "comparison": "different_event",
-                  "reason": "旧排除为API故障及补偿的重复回顾，本篇不提供该故障原因或整改结果。"
-                },
-                {
-                  "evidence_id": "prior_decision:45a66ae95482f362",
-                  "comparison": "different_event",
-                  "reason": "旧排除针对同轮千亿元融资重复报道；本次不重报融资，而保留具体数据中心岗位信息。"
-                },
-                {
-                  "evidence_id": "prior_decision:880e90efb1737bd7",
-                  "comparison": "different_event",
-                  "reason": "旧融资排除虽提到数据中心招聘背景，但未载明本篇4月乌兰察布高级交付经理及高级运维工程师的具体招聘事实，不据此认定建设执行进展。"
-                },
-                {
-                  "evidence_id": "prior_decision:80fb107219f591f3",
-                  "comparison": "different_event",
-                  "reason": "同轮融资重复裁决不覆盖本次限定保留的人员准备信息，原融资排除保持。"
-                },
-                {
-                  "evidence_id": "prior_decision:34ff088823bc33a7",
-                  "comparison": "different_event",
-                  "reason": "旧排除对象为融资规模和投资方重复披露，本篇招聘不能解除旧交割缺口，也不受其连带排除。"
-                },
-                {
-                  "evidence_id": "prior_decision:46776f9106043202",
-                  "comparison": "new_progress",
-                  "reason": "同一乌兰察布算力规划已保留，本篇仅补充4月两类高级岗位招聘，不再次计作规划首次披露。"
-                },
-                {
-                  "evidence_id": "prior_decision:e4762b303f8d53bf",
-                  "comparison": "new_progress",
-                  "reason": "旧裁决已覆盖1GW、自建租赁及上线窗口，当前可见增量是交付和运维岗位准备，不是开工或投运。"
-                },
-                {
-                  "evidence_id": "prior_decision:b13f1232e1b4e9fc",
-                  "comparison": "different_event",
-                  "reason": "旧待核针对芯片型号和采购报价；招聘信息不能确认950DT采购、投资金额或合同。"
-                }
-              ],
-              "change_reason": "可见模型、软件、融资和故障历史不是此次招聘事实。算力规划核心内容已收录，另有旧融资稿泛述基础设施招聘；当前正文具体增加招聘月份、乌兰察布工作地以及高级交付经理和高级运维工程师岗位，按同一基础设施布局的信息增量保留。当前历史检索错误为空，不继承旧记录中的运行异常，不宣称全局首次。",
+              "prior_decisions": [],
+              "change_reason": "本包accepted_history与prior_decisions均为空，检索回执未提供同事件匹配且无读取错误，按现有历史保留该案例。稳定身份及别名覆盖尚未完成，不据此宣称全库首次，也不存在需要推翻的旧排除裁决。",
               "new_evidence_ids": [
-                "article:bb77a05b35b1db9f"
+                "article:eb5233e795957ec2"
               ]
             },
             "evidence_ids": [
-              "article:bb77a05b35b1db9f",
+              "article:eb5233e795957ec2",
+              "history_lookup:7d7768109a7b0d70",
               "identity_registry:2dcd4f408df25406",
-              "geo-8d153ebc1f63d3a87bb41366",
-              "accepted_history:891e4d7dba6c6fa3",
-              "history_lookup:7d7768109a7b0d70"
+              "geography_registry:b93d03cf35486d17"
             ],
             "benchmark_review": {
               "status": "not_qualified",
               "eligible": false,
-              "reason": "本篇提供的是岗位准备及既有算力规划，没有新增独立行业比较、有效算力交付或竞争优势验证，不改变既有尚未建立本次标杆资格的边界。",
+              "reason": "单个智能体应用案例及未说明统计口径的用户规模不足以建立本主体的独立行业领先对标资格；政府报道的本地企业称谓也不是全国标杆依据。",
               "evidence_ids": [
-                "article:bb77a05b35b1db9f",
-                "prior_decision:57fb9024d657db8d",
-                "prior_decision:4aa55ed3d77695df"
+                "article:eb5233e795957ec2"
               ]
             }
           },
-          "company_db_id": 258
+          "identity_candidates": [],
+          "company_db_id": null
         }
       ],
       "record_count": 26,
@@ -5268,7 +5207,7 @@
     "2026-11-06": "3c242c534857c313bfbc521e1f918e7970b0b3e6a7d0388c704c144df410bf3b",
     "2026-11-07": "c51da51930bc6f599758fdef6cb8bb243f45dd154a09380809576c0c1457804e"
   },
-  "geography_version": "cedaccee85e2b769e2b31f2ad1381aca5492824fcb23a99a6bca8face7688f75",
+  "geography_version": "58fab6536ab8f3968f49e195355b6e5819f35654a9844ddb33850d5c09826f89",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -6058,10 +5997,50 @@
       ]
     },
     "dr-u-072b5d88e904656cf63c": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "广东省 / 深圳市 / 南山区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-66f60835472785cc137cbb09"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "蓝芯算力",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-66f60835472785cc137cbb09",
+          "source_url": "https://www.szsia.com/?hmc=%E8%93%9D%E8%8A%AF%E7%AE%97%E5%8A%9B%E6%B7%B1%E5%9C%B3%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          "checked_at": "2026-11-07T00:31:41.611742+00:00",
+          "subject": "蓝芯算力",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "深圳市",
+            "district": "南山区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "南山区",
+        "evidence_ids": [
+          "geo-66f60835472785cc137cbb09"
+        ]
+      }
     },
     "dr-u-073226fd51367beef1f1": {
       "geography_status": "unknown",
@@ -6224,10 +6203,51 @@
       "located_status": "unknown"
     },
     "dr-u-08f4c0b6077cf3f673bb": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "江苏省 / 南京市雨花台区宁双路18号沁恒科技园",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-b020eb34f51b28636955dea7"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "南京沁恒微电子股份有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-b020eb34f51b28636955dea7",
+          "source_url": "https://electronic.seu.edu.cn/2021/0503/c11553a370052/page.htm",
+          "checked_at": "2026-11-07T00:32:08.563123+00:00",
+          "subject": "南京沁恒微电子股份有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "江苏省",
+            "city": "南京市",
+            "district": "雨花台区",
+            "address": "南京市雨花台区宁双路18号沁恒科技园"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "江苏省",
+        "city": "南京市",
+        "district": "雨花台区",
+        "evidence_ids": [
+          "geo-b020eb34f51b28636955dea7"
+        ]
+      }
     },
     "dr-u-091cebb7e3f7c25696e2": {
       "geography_status": "unknown",
@@ -8705,10 +8725,60 @@
       "located_status": "unknown"
     },
     "dr-u-217489ebc83bf19102af": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市浦东新区银冬路20弄8号楼",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-c65b7dbf5e909752556db822"
+      ],
+      "subject_evidence_ids": [
+        "geo-c65b7dbf5e909752556db822"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "普冉半导体(上海)股份有限公司",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-c65b7dbf5e909752556db822"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-c65b7dbf5e909752556db822",
+          "source_url": "https://www.puyasemi.com/contact.html",
+          "checked_at": "2026-11-07T00:31:41.536460+00:00",
+          "subject": "普冉半导体(上海)股份有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "浦东新区",
+            "address": "上海市浦东新区银冬路20弄8号楼"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "evidence_ids": [
+          "geo-c65b7dbf5e909752556db822"
+        ]
+      }
     },
     "dr-u-2177a00d493df7a0349a": {
       "geography_status": "unknown",
@@ -12986,10 +13056,58 @@
       "located_status": "unknown"
     },
     "dr-u-42a64c68a4a98ad5a374": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "US / California / 5775 Morehouse Drive, San Diego, CA 92121",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-657eb7556b20625051da4b75"
+      ],
+      "subject_evidence_ids": [
+        "geo-657eb7556b20625051da4b75"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "高通",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "US",
+        "province": "California",
+        "city": "San Diego",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-657eb7556b20625051da4b75"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-657eb7556b20625051da4b75",
+          "source_url": "https://www.qualcomm.com/media/documents/files/qualcomm-san-diego-map.pdf",
+          "checked_at": "2026-11-07T00:32:18.536407+00:00",
+          "subject": "高通",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "San Diego",
+            "address": "5775 Morehouse Drive, San Diego, CA 92121"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "US",
+        "province": "California",
+        "city": "San Diego",
+        "evidence_ids": [
+          "geo-657eb7556b20625051da4b75"
+        ]
+      }
     },
     "dr-u-42cb620210b3a10d3332": {
       "geography_status": "confirmed",
@@ -14429,10 +14547,57 @@
       "located_status": "unknown"
     },
     "dr-u-4fe5d7f5bdddda5bc912": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-e792f26c15459791c264fe82"
+      ],
+      "subject_evidence_ids": [
+        "geo-e792f26c15459791c264fe82"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "千觉机器人",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-e792f26c15459791c264fe82"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-e792f26c15459791c264fe82",
+          "source_url": "https://xenserobotics.com/article/387/detail/7",
+          "checked_at": "2026-11-07T00:31:41.608769+00:00",
+          "subject": "千觉机器人",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "evidence_ids": [
+          "geo-e792f26c15459791c264fe82"
+        ]
+      }
     },
     "dr-u-4fe71b2b41ec432c9fb8": {
       "geography_status": "confirmed",
@@ -15407,10 +15572,51 @@
       "located_status": "unknown"
     },
     "dr-u-586d3fa6ec6d2c87d6f1": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-1b0efbc0cb137c448bdd4684"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "阿里巴巴集团",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-1b0efbc0cb137c448bdd4684",
+          "source_url": "https://www.alibabagroup.com/global-location",
+          "checked_at": "2026-11-07T00:32:33.947820+00:00",
+          "subject": "阿里巴巴集团",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "文一西路960-1号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "余杭区",
+        "evidence_ids": [
+          "geo-1b0efbc0cb137c448bdd4684"
+        ]
+      }
     },
     "dr-u-589bea6f5cd33c517477": {
       "geography_status": "unknown",
@@ -29260,10 +29466,60 @@
       "located_status": "unknown"
     },
     "dr-u-d6316b3b02c529256c59": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市海淀区小营西路10号和盈中心C座3A层",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-c458079d87a943c5832132aa"
+      ],
+      "subject_evidence_ids": [
+        "geo-c13b1f5d2ac7d749ea7d5ab5"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "维信诺",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "江苏省",
+        "city": "昆山市",
+        "basis_roles": [
+          "registered"
+        ],
+        "evidence_ids": [
+          "geo-c13b1f5d2ac7d749ea7d5ab5"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-c458079d87a943c5832132aa",
+          "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225232664.PDF",
+          "checked_at": "2026-11-07T00:31:41.832923+00:00",
+          "subject": "维信诺",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区",
+            "address": "北京市海淀区小营西路10号和盈中心C座3A层"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "evidence_ids": [
+          "geo-c458079d87a943c5832132aa"
+        ]
+      }
     },
     "dr-u-d6316f23b9d964a929e4": {
       "geography_status": "unknown",
@@ -59197,18 +59453,18 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "500318da681b5f3c3d7abdf857c2d394cb847d691c40b950f8cb4e77377ad31f",
+  "history_version": "2e5c396b4707ba8840f6eddac8c7f2e97d498b455d991c55797341157f851c92",
   "company_history_buckets": {
     "00": "08d9e4c396378a93fa306bc5daaa9346452583b91ac8c4211cec3ada4136af61",
     "01": "7069574a04eb1cdc06ab2c9f4c478bf6c0092714bd959624e065bd8f90af3c5a",
-    "02": "60de81e1ba8fbb4b2bb668e827010d41b92da1d898b0d520266678f17f8e87c1",
+    "02": "22f296543eb61b6cd0d0ab14479094f70c6dd522ba24eeafa136cebfe779604e",
     "03": "4b8d69b5305ca2787dc013b59db849056b1259c7695e4a5c6c4e7ec750a1e23f",
     "04": "2bcfd67bec3915fca4696d8fd16ebd477940702c065a659970506d5651c4d833",
     "05": "1c7f20fb06a0e407c90b821c91a696825713b2ce5c882a17e579df96f62ed2ba",
     "06": "cc3da3068096f2cb6b388825371efb7cdb6a9481d85a3243200ea7f6ac6e391b",
     "07": "2d70f196ddf47baba614e48c4aca8d758fb6e86fe5207026f28bd41ac039e792",
     "08": "f6308b88d927e0cf8d8e31776106b91ac4e5539c2d4e30a7b0ee20560c0b62b7",
-    "09": "ee37156c0f2ae37927c965641a4a113647939c3c9097bc29174cc044589b944a",
+    "09": "0279de794d40ed60c217a4da1a620faa1db1824f05d465a271ecb8d4a4f28b92",
     "0a": "cbc9db1648285fedade7a5d7b91f9a606328e5bb13a77d10caf49c6a03438c91",
     "0b": "18ff7b1db377182e82913c742a02421a41fd0bf4369c449e4a64a5ecc9c15a76",
     "0c": "71da53756aea1bad11340c24d5f559ead7776524480861359ce44997b2e9f684",
@@ -59221,7 +59477,7 @@
     "13": "4ecfe3f72119a8c9a2632abbe6d944600c370344b391016ae05f80f7ab0b6095",
     "14": "8b2305c45c404639eeda094b6511f850303f0fd2fdba174d02729da85cf8ef6a",
     "15": "c30aeb72e61695d5b01cecd6ad054f649bb7b03632571d5f723c5308b2f790fd",
-    "16": "fcdfc49e9ea958e5e9dd1b2eb0f180f8089c669de3cb6143172018a820837418",
+    "16": "0430f791e2c117d7ca3e0cb5fff41b897e030174b19cdfc98ab354a7d8efe721",
     "17": "2318c6200c9bf9dc9376646c0d149974fbbc0028a47c04086a30048fba6e97c4",
     "18": "084ba4239ae88f349ff86a4c858c084d6b12023ebf4c064206eefb0cc8dc5267",
     "19": "256ca64988aea8f34b46ba158fe357520ace9311467993c6e2f5782d44823b3e",
@@ -59237,19 +59493,19 @@
     "23": "b92972c0d32e1a8e376c559dc101ea4b5d0d860867364c75d94f6ff0bf7abf5e",
     "24": "ab10178d5347adbf4209533f08be888f3beea51bb070ac6f648211819998974b",
     "25": "0bde0b5f8732d6d61d7129a1c9229ac8d5701cae57569c122dcbea36cd77de76",
-    "26": "f3b3184b3f5fb725f8392a0b805b05c8d734c38ee0d1588641fc8156336963d2",
+    "26": "7eb946c94fc4248eab789f1f6f026347bc7f99ffccd954bee971d386e633c9da",
     "27": "4421a3bb080ba4fa9170313e64baabc586c5ba90923768ab7b65f006db57f11a",
     "28": "8155a111af5368e04af1e280d15adc2af2aed6d7b432fab7c33a3ea54360673e",
     "29": "87d890af5cf290aa6bee427660957b0a42ead40a6ec3c8bca5274684e6987b1d",
     "2a": "ab82b448979241f4ea15ca4cdcd9343f23ed9315143596fba8c5064d44a9b0d6",
     "2b": "32999b2f729e7629e6f11a58c2e6c21256358c2347cf0839b27c18d57c723942",
     "2c": "80211fe0fad0832f9644040137b790da3b463024e7a6ae0f168763808a456980",
-    "2d": "5006250265a258e9d1e6ecbbd6c0c5f6dc7c56fbf3a70ab549715302ad83ab93",
+    "2d": "930bc8b0bc93b94abdc4243296757ca7c6e0cb9bb686202cc6ec2430d3f3ecdb",
     "2e": "268998b24861010cd26a3e273228021baa8e06a7e92347ec4b763ceb2183796d",
     "2f": "7da86f9989798d85e250ed207905d7d3c9bc4668409d3041a7481571f2fccf14",
     "30": "f6e23ccbd6158ed9db47d7000baae6b3642fadb524dabe13e2c129a07bf47dce",
     "31": "5654eb7890ff2e8dc4a28d69abad7a3c761f1ae8551e018a2a3d8e72a15d6c75",
-    "32": "a283b08651c81ed358cd3c9d25c2bd8c2a4257dcf42725151b5ed66e3cbc4000",
+    "32": "bc300ba33d13fed8bbaf54d736ec4583c84f2a6843f675629a1779e824d65e5f",
     "33": "4de983878e57c46e37bd8179ef6478dd0aaa60d67ce12ee50c7ce4e60da89e10",
     "34": "f2375179bb19ff1461c2991959d47995f1bd5300145a6f93008b690fe2c78f72",
     "35": "57d5a4a4df274b9e79332c044d7478f52e23e04d0216091c95f928a22478b57f",
@@ -59264,7 +59520,7 @@
     "3e": "fde037ca3d0a2e33b971752c85d2b9dab4b990c8c5f6dfd627e117ba890b2674",
     "3f": "201aa4c8ca0125d0bf21ba15c6bb847f0095529e74d830cf4ac5f23f0b5dda22"
   },
-  "history_search_version": "4d584eb9bb4f390e08055c7e0f927e1eb4781e1b3434c93978a81e7c9b6915c6",
+  "history_search_version": "4ae957bc3363e64133e76b84d1ef78f21019a060bec0c22b329db0c11ae85857",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",

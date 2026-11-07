@@ -2503,24 +2503,59 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/293ThrI_Iavpg-G5W0-MVg",
       "sector": "具身智能／机器人触觉感知",
-      "location": "地点待核",
+      "location": "上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e792f26c15459791c264fe82"
+        ],
+        "subject_evidence_ids": [
+          "geo-e792f26c15459791c264fe82"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "千觉机器人",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-e792f26c15459791c264fe82"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e792f26c15459791c264fe82",
+            "source_url": "https://xenserobotics.com/article/387/detail/7",
+            "checked_at": "2026-11-07T00:31:41.608769+00:00",
+            "subject": "千觉机器人",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-e792f26c15459791c264fe82"
+          ]
+        }
       },
       "article_location": "",
       "source": "晚点 LatePost",

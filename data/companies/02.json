@@ -2249,24 +2249,60 @@
       "event_type": "技术验证与产品送样计划",
       "link": "https://mp.weixin.qq.com/s/mHsgYD9mGvz6mt8Z3F2_Vw",
       "sector": "半导体／AI数据中心芯片",
-      "location": "地点待核",
+      "location": "US / California / 5775 Morehouse Drive, San Diego, CA 92121",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / 5775 Morehouse Drive, San Diego, CA 92121",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-657eb7556b20625051da4b75"
+        ],
+        "subject_evidence_ids": [
+          "geo-657eb7556b20625051da4b75"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "高通",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Diego",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-657eb7556b20625051da4b75"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-657eb7556b20625051da4b75",
+            "source_url": "https://www.qualcomm.com/media/documents/files/qualcomm-san-diego-map.pdf",
+            "checked_at": "2026-11-07T00:32:18.536407+00:00",
+            "subject": "高通",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Diego",
+              "address": "5775 Morehouse Drive, San Diego, CA 92121"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Diego",
+          "evidence_ids": [
+            "geo-657eb7556b20625051da4b75"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
