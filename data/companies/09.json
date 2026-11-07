@@ -2085,14 +2085,15 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/HbWCm0Z9Jf50fGtwvTwIeQ",
       "sector": "人工智能／跨境电商服务",
-      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+      "location": "办公地：杭州市余杭区、滨江区",
       "geography": {
         "geography_status": "confirmed",
         "classification": "hangzhou",
-        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+        "display_location": "办公地：杭州市余杭区、滨江区",
         "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-1b0efbc0cb137c448bdd4684"
+          "geo-1b0efbc0cb137c448bdd4684",
+          "geo-8a4614b626c629f2fd07984c"
         ],
         "subject_evidence_ids": [],
         "needs_review": false,
@@ -2119,6 +2120,21 @@
               "district": "余杭区",
               "address": "文一西路960-1号"
             }
+          },
+          {
+            "evidence_id": "geo-8a4614b626c629f2fd07984c",
+            "source_url": "https://www.alibabagroup.com/global-location",
+            "checked_at": "2026-11-07T00:32:33.947820+00:00",
+            "subject": "阿里巴巴集团",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "网商路699号"
+            }
           }
         ],
         "discovery_locality": {
@@ -2127,9 +2143,17 @@
           "country": "CN",
           "province": "浙江省",
           "city": "杭州市",
-          "district": "余杭区",
           "evidence_ids": [
-            "geo-1b0efbc0cb137c448bdd4684"
+            "geo-1b0efbc0cb137c448bdd4684",
+            "geo-8a4614b626c629f2fd07984c"
+          ]
+        },
+        "presentation": {
+          "label": "办公地：杭州市余杭区、滨江区",
+          "detail": "余杭办公地址：文一西路960-1号；滨江办公地址：网商路699号。均为集团官方办公地，不认定具体法人注册地或主要总部。",
+          "evidence_ids": [
+            "geo-1b0efbc0cb137c448bdd4684",
+            "geo-8a4614b626c629f2fd07984c"
           ]
         }
       },

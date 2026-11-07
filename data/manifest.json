@@ -378,15 +378,16 @@
           "sector": "人工智能／跨境电商服务",
           "financing": "",
           "source": "滨江发布",
-          "location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+          "location": "办公地：杭州市余杭区、滨江区",
           "article_location": "浙江省杭州市余杭区文一西路960-1号（复用已审经营地，不代表注册地或主要总部）",
           "geography": {
             "geography_status": "confirmed",
             "classification": "hangzhou",
-            "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+            "display_location": "办公地：杭州市余杭区、滨江区",
             "located_status": "discovery_confirmed",
             "display_basis": [
-              "geo-1b0efbc0cb137c448bdd4684"
+              "geo-1b0efbc0cb137c448bdd4684",
+              "geo-8a4614b626c629f2fd07984c"
             ],
             "subject_evidence_ids": [],
             "needs_review": false,
@@ -413,6 +414,21 @@
                   "district": "余杭区",
                   "address": "文一西路960-1号"
                 }
+              },
+              {
+                "evidence_id": "geo-8a4614b626c629f2fd07984c",
+                "source_url": "https://www.alibabagroup.com/global-location",
+                "checked_at": "2026-11-07T00:32:33.947820+00:00",
+                "subject": "阿里巴巴集团",
+                "role": "business",
+                "subject_relation": "same_subject",
+                "place": {
+                  "country": "CN",
+                  "province": "浙江省",
+                  "city": "杭州市",
+                  "district": "滨江区",
+                  "address": "网商路699号"
+                }
               }
             ],
             "discovery_locality": {
@@ -421,9 +437,17 @@
               "country": "CN",
               "province": "浙江省",
               "city": "杭州市",
-              "district": "余杭区",
               "evidence_ids": [
-                "geo-1b0efbc0cb137c448bdd4684"
+                "geo-1b0efbc0cb137c448bdd4684",
+                "geo-8a4614b626c629f2fd07984c"
+              ]
+            },
+            "presentation": {
+              "label": "办公地：杭州市余杭区、滨江区",
+              "detail": "余杭办公地址：文一西路960-1号；滨江办公地址：网商路699号。均为集团官方办公地，不认定具体法人注册地或主要总部。",
+              "evidence_ids": [
+                "geo-1b0efbc0cb137c448bdd4684",
+                "geo-8a4614b626c629f2fd07984c"
               ]
             }
           },
@@ -5207,7 +5231,7 @@
     "2026-11-06": "3c242c534857c313bfbc521e1f918e7970b0b3e6a7d0388c704c144df410bf3b",
     "2026-11-07": "c51da51930bc6f599758fdef6cb8bb243f45dd154a09380809576c0c1457804e"
   },
-  "geography_version": "58fab6536ab8f3968f49e195355b6e5819f35654a9844ddb33850d5c09826f89",
+  "geography_version": "f6ac182df2133f307112c89649deb7c9ac3b5f836771a254fe17cf8408257b4f",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -14549,10 +14573,10 @@
     "dr-u-4fe5d7f5bdddda5bc912": {
       "geography_status": "confirmed",
       "classification": "domestic_non_hangzhou",
-      "display_location": "上海市",
+      "display_location": "总部：上海市；经营地：上海市闵行区",
       "located_status": "discovery_confirmed",
       "display_basis": [
-        "geo-e792f26c15459791c264fe82"
+        "geo-b0bb0142607b1f9de93ae9d7"
       ],
       "subject_evidence_ids": [
         "geo-e792f26c15459791c264fe82"
@@ -14586,6 +14610,21 @@
             "province": "上海市",
             "city": "上海市"
           }
+        },
+        {
+          "evidence_id": "geo-b0bb0142607b1f9de93ae9d7",
+          "source_url": "https://xenserobotics.com/article/387/detail/7",
+          "checked_at": "2026-11-07T00:31:41.608769+00:00",
+          "subject": "千觉机器人",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "闵行区",
+            "address": "Building 3, No. 322, Lane 953, Jianchuan Road, Minhang District, Shanghai,China"
+          }
         }
       ],
       "discovery_locality": {
@@ -14594,8 +14633,17 @@
         "country": "CN",
         "province": "上海市",
         "city": "上海市",
+        "district": "闵行区",
         "evidence_ids": [
-          "geo-e792f26c15459791c264fe82"
+          "geo-b0bb0142607b1f9de93ae9d7"
+        ]
+      },
+      "presentation": {
+        "label": "总部：上海市；经营地：上海市闵行区",
+        "detail": "经营地址：Building 3, No. 322, Lane 953, Jianchuan Road, Minhang District, Shanghai,China。官网新闻仅明确总部城市，不将经营门牌升级总部门牌。",
+        "evidence_ids": [
+          "geo-e792f26c15459791c264fe82",
+          "geo-b0bb0142607b1f9de93ae9d7"
         ]
       }
     },
@@ -15574,10 +15622,11 @@
     "dr-u-586d3fa6ec6d2c87d6f1": {
       "geography_status": "confirmed",
       "classification": "hangzhou",
-      "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+      "display_location": "办公地：杭州市余杭区、滨江区",
       "located_status": "discovery_confirmed",
       "display_basis": [
-        "geo-1b0efbc0cb137c448bdd4684"
+        "geo-1b0efbc0cb137c448bdd4684",
+        "geo-8a4614b626c629f2fd07984c"
       ],
       "subject_evidence_ids": [],
       "needs_review": false,
@@ -15604,6 +15653,21 @@
             "district": "余杭区",
             "address": "文一西路960-1号"
           }
+        },
+        {
+          "evidence_id": "geo-8a4614b626c629f2fd07984c",
+          "source_url": "https://www.alibabagroup.com/global-location",
+          "checked_at": "2026-11-07T00:32:33.947820+00:00",
+          "subject": "阿里巴巴集团",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "滨江区",
+            "address": "网商路699号"
+          }
         }
       ],
       "discovery_locality": {
@@ -15612,9 +15676,17 @@
         "country": "CN",
         "province": "浙江省",
         "city": "杭州市",
-        "district": "余杭区",
         "evidence_ids": [
-          "geo-1b0efbc0cb137c448bdd4684"
+          "geo-1b0efbc0cb137c448bdd4684",
+          "geo-8a4614b626c629f2fd07984c"
+        ]
+      },
+      "presentation": {
+        "label": "办公地：杭州市余杭区、滨江区",
+        "detail": "余杭办公地址：文一西路960-1号；滨江办公地址：网商路699号。均为集团官方办公地，不认定具体法人注册地或主要总部。",
+        "evidence_ids": [
+          "geo-1b0efbc0cb137c448bdd4684",
+          "geo-8a4614b626c629f2fd07984c"
         ]
       }
     },
@@ -59453,7 +59525,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "2e5c396b4707ba8840f6eddac8c7f2e97d498b455d991c55797341157f851c92",
+  "history_version": "8c4747e200a20f4059f4409ecfda7b417759a05d703dcaa9330105d0d2b13699",
   "company_history_buckets": {
     "00": "08d9e4c396378a93fa306bc5daaa9346452583b91ac8c4211cec3ada4136af61",
     "01": "7069574a04eb1cdc06ab2c9f4c478bf6c0092714bd959624e065bd8f90af3c5a",
@@ -59464,7 +59536,7 @@
     "06": "cc3da3068096f2cb6b388825371efb7cdb6a9481d85a3243200ea7f6ac6e391b",
     "07": "2d70f196ddf47baba614e48c4aca8d758fb6e86fe5207026f28bd41ac039e792",
     "08": "f6308b88d927e0cf8d8e31776106b91ac4e5539c2d4e30a7b0ee20560c0b62b7",
-    "09": "0279de794d40ed60c217a4da1a620faa1db1824f05d465a271ecb8d4a4f28b92",
+    "09": "aeec4c2d8fac0c37c408b16a863ee1b6cbd2458d2518f3aae758a8053144ddc4",
     "0a": "cbc9db1648285fedade7a5d7b91f9a606328e5bb13a77d10caf49c6a03438c91",
     "0b": "18ff7b1db377182e82913c742a02421a41fd0bf4369c449e4a64a5ecc9c15a76",
     "0c": "71da53756aea1bad11340c24d5f559ead7776524480861359ce44997b2e9f684",
@@ -59493,7 +59565,7 @@
     "23": "b92972c0d32e1a8e376c559dc101ea4b5d0d860867364c75d94f6ff0bf7abf5e",
     "24": "ab10178d5347adbf4209533f08be888f3beea51bb070ac6f648211819998974b",
     "25": "0bde0b5f8732d6d61d7129a1c9229ac8d5701cae57569c122dcbea36cd77de76",
-    "26": "7eb946c94fc4248eab789f1f6f026347bc7f99ffccd954bee971d386e633c9da",
+    "26": "194a9b02b667c9b844e25ef0406994955c1fac5f38b99ca96815210717b101f5",
     "27": "4421a3bb080ba4fa9170313e64baabc586c5ba90923768ab7b65f006db57f11a",
     "28": "8155a111af5368e04af1e280d15adc2af2aed6d7b432fab7c33a3ea54360673e",
     "29": "87d890af5cf290aa6bee427660957b0a42ead40a6ec3c8bca5274684e6987b1d",
@@ -59520,7 +59592,7 @@
     "3e": "fde037ca3d0a2e33b971752c85d2b9dab4b990c8c5f6dfd627e117ba890b2674",
     "3f": "201aa4c8ca0125d0bf21ba15c6bb847f0095529e74d830cf4ac5f23f0b5dda22"
   },
-  "history_search_version": "4ae957bc3363e64133e76b84d1ef78f21019a060bec0c22b329db0c11ae85857",
+  "history_search_version": "9acefd9095112c4606109fd3d73aef99d72fdce8f8c136a59e7cc52266db9dac",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",

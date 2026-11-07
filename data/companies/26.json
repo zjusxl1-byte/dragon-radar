@@ -2503,14 +2503,14 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/293ThrI_Iavpg-G5W0-MVg",
       "sector": "具身智能／机器人触觉感知",
-      "location": "上海市",
+      "location": "总部：上海市；经营地：上海市闵行区",
       "geography": {
         "geography_status": "confirmed",
         "classification": "domestic_non_hangzhou",
-        "display_location": "上海市",
+        "display_location": "总部：上海市；经营地：上海市闵行区",
         "located_status": "discovery_confirmed",
         "display_basis": [
-          "geo-e792f26c15459791c264fe82"
+          "geo-b0bb0142607b1f9de93ae9d7"
         ],
         "subject_evidence_ids": [
           "geo-e792f26c15459791c264fe82"
@@ -2544,6 +2544,21 @@
               "province": "上海市",
               "city": "上海市"
             }
+          },
+          {
+            "evidence_id": "geo-b0bb0142607b1f9de93ae9d7",
+            "source_url": "https://xenserobotics.com/article/387/detail/7",
+            "checked_at": "2026-11-07T00:31:41.608769+00:00",
+            "subject": "千觉机器人",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "闵行区",
+              "address": "Building 3, No. 322, Lane 953, Jianchuan Road, Minhang District, Shanghai,China"
+            }
           }
         ],
         "discovery_locality": {
@@ -2552,8 +2567,17 @@
           "country": "CN",
           "province": "上海市",
           "city": "上海市",
+          "district": "闵行区",
           "evidence_ids": [
-            "geo-e792f26c15459791c264fe82"
+            "geo-b0bb0142607b1f9de93ae9d7"
+          ]
+        },
+        "presentation": {
+          "label": "总部：上海市；经营地：上海市闵行区",
+          "detail": "经营地址：Building 3, No. 322, Lane 953, Jianchuan Road, Minhang District, Shanghai,China。官网新闻仅明确总部城市，不将经营门牌升级总部门牌。",
+          "evidence_ids": [
+            "geo-e792f26c15459791c264fe82",
+            "geo-b0bb0142607b1f9de93ae9d7"
           ]
         }
       },
