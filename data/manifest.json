@@ -4267,7 +4267,7 @@
     "2026-11-08": "2345e6bdd5342bc78bb7fab2de39bbfcf2405b4d4c38a708f39099efc099b45c",
     "2026-11-09": "5d8357cfef701a36e4aaad1ef89292e1a7a87d42079016168c40cd71d1ea4c9d"
   },
-  "geography_version": "3884f98cddec7bd8bf7f0ca1ea270b737004c540df99522f690f994c91f58b1a",
+  "geography_version": "49b64324823fb4515d70f4b5e3ac305bac004c9b253f051ae719bd94d14f3c7a",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -23698,16 +23698,105 @@
       }
     },
     "dr-u-a14084a74b0e624fa16c": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "安徽省合肥市经济技术开发区空港工业园兴业大道388号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-85244a9a119d834b8f2f33fc"
+      ],
+      "subject_evidence_ids": [
+        "geo-85244a9a119d834b8f2f33fc"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "长鑫科技集团股份有限公司",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "安徽省",
+        "city": "合肥市",
+        "basis_roles": [
+          "registered"
+        ],
+        "evidence_ids": [
+          "geo-85244a9a119d834b8f2f33fc"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-85244a9a119d834b8f2f33fc",
+          "source_url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260520_C5DZ.pdf",
+          "checked_at": "2026-11-08T19:44:59.411170+00:00",
+          "subject": "长鑫科技集团股份有限公司",
+          "role": "registered",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "安徽省",
+            "city": "合肥市",
+            "address": "安徽省合肥市经济技术开发区空港工业园兴业大道388号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "安徽省",
+        "city": "合肥市",
+        "evidence_ids": [
+          "geo-85244a9a119d834b8f2f33fc"
+        ]
+      }
     },
     "dr-u-a1a78e834d2057840b13": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市余杭区良睦路1288号梦想小镇·创业集市8栋&5栋",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-8d4fdffec46bb12946cf01c5"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "乐奇Rokid",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-8d4fdffec46bb12946cf01c5",
+          "source_url": "https://www.rokid.com/contact",
+          "checked_at": "2026-11-08T19:51:51.330813+00:00",
+          "subject": "乐奇Rokid",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "杭州市余杭区良睦路1288号梦想小镇·创业集市8栋&5栋"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "余杭区",
+        "evidence_ids": [
+          "geo-8d4fdffec46bb12946cf01c5"
+        ]
+      }
     },
     "dr-u-a1dd55e1e2a225d1ebcf": {
       "geography_status": "confirmed",
@@ -23781,10 +23870,50 @@
       "located_status": "unknown"
     },
     "dr-u-a259df2ab1a4ca611576": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 余杭区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-a149087dfb28805e9989d9e7"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "加速科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-a149087dfb28805e9989d9e7",
+          "source_url": "https://hznews.hangzhou.com.cn/chengshi/content/2026-10/30/content_9360419.htm",
+          "checked_at": "2026-11-08T19:44:15.450465+00:00",
+          "subject": "加速科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "余杭区",
+        "evidence_ids": [
+          "geo-a149087dfb28805e9989d9e7"
+        ]
+      }
     },
     "dr-u-a2700044917dbc3327b7": {
       "geography_status": "unknown",
@@ -26108,10 +26237,66 @@
       }
     },
     "dr-u-b46826d21b1661c16171": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 余杭区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-56a72a9846d41dca5ee774d1",
+        "geo-263b2a1949bc15b9c7b49e87"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "浙江智行墨佐科技有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-56a72a9846d41dca5ee774d1",
+          "source_url": "https://mp.weixin.qq.com/s/tqACBxBhig1BWYD6UaaGyQ",
+          "checked_at": "2026-11-08T19:47:07.391833+00:00",
+          "subject": "浙江智行墨佐科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区"
+          }
+        },
+        {
+          "evidence_id": "geo-263b2a1949bc15b9c7b49e87",
+          "source_url": "https://mp.weixin.qq.com/s/tqACBxBhig1BWYD6UaaGyQ",
+          "checked_at": "2026-11-08T19:47:07.391833+00:00",
+          "subject": "浙江智行墨佐科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "余杭区",
+        "evidence_ids": [
+          "geo-56a72a9846d41dca5ee774d1",
+          "geo-263b2a1949bc15b9c7b49e87"
+        ]
+      }
     },
     "dr-u-b4c80bff0e52bae7a0f5": {
       "geography_status": "confirmed",
@@ -26185,10 +26370,50 @@
       "located_status": "unknown"
     },
     "dr-u-b5c86ef23813fa817bb9": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 西湖区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-f5db232f0e9ef459c9518c98"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "杭州宇岛人工智能科技有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-f5db232f0e9ef459c9518c98",
+          "source_url": "https://www.chinastarmarket.cn/detail/2505940",
+          "checked_at": "2026-11-08T19:55:42.770830+00:00",
+          "subject": "杭州宇岛人工智能科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "西湖区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "西湖区",
+        "evidence_ids": [
+          "geo-f5db232f0e9ef459c9518c98"
+        ]
+      }
     },
     "dr-u-b5d1c85e0c5246d6b6f1": {
       "geography_status": "unknown",
@@ -26970,10 +27195,48 @@
       "located_status": "unknown"
     },
     "dr-u-bc24291512f2e7255195": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-fd6f316ec07905bca22df176"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "通衍灵智",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-fd6f316ec07905bca22df176",
+          "source_url": "https://github.com/TongBrain",
+          "checked_at": "2026-11-08T19:51:19.383770+00:00",
+          "subject": "通衍灵智",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "evidence_ids": [
+          "geo-fd6f316ec07905bca22df176"
+        ]
+      }
     },
     "dr-u-bc3520144a6aff75297c": {
       "geography_status": "unknown",
@@ -27080,14 +27343,16 @@
       "located_status": "unknown"
     },
     "dr-u-bdfc3c0aaa95272af1c7": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "医疗项目地：杭州市余杭区（机构主体属地待核）",
-      "located_status": "unknown",
-      "display_basis": [],
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 五常街道，阿里巴巴西溪园区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-9402a6f1287d174314b91f98"
+      ],
       "subject_evidence_ids": [],
-      "needs_review": true,
-      "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "needs_review": false,
+      "next_action": null,
       "subject": "阿里巴巴达摩院",
       "subject_locality": {
         "status": "unknown",
@@ -27097,25 +27362,28 @@
       },
       "basis": [
         {
-          "evidence_id": "geo-c6efeedc6680b60648e923f6",
-          "source_url": "https://mp.weixin.qq.com/s/pN5o2T-be7AB7Je9tX7n-g",
-          "checked_at": "2026-10-26T22:46:10+00:00",
+          "evidence_id": "geo-9402a6f1287d174314b91f98",
+          "source_url": "https://cn.linkedin.com/company/%E8%BE%BE%E6%91%A9%E9%99%A2",
+          "checked_at": "2026-11-08T19:37:56.586619+00:00",
           "subject": "阿里巴巴达摩院",
-          "role": "project",
+          "role": "business",
           "subject_relation": "same_subject",
           "place": {
             "country": "CN",
             "province": "浙江省",
             "city": "杭州市",
-            "district": "余杭区"
+            "address": "五常街道，阿里巴巴西溪园区"
           }
         }
       ],
-      "presentation": {
-        "label": "医疗项目地：杭州市余杭区（机构主体属地待核）",
-        "detail": "余杭发布证明达摩院与区卫健局共建余杭筛查应用。该事实只定位医疗项目，不能从项目或母集团直接推定研究机构的主要总部或经营主体。",
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
         "evidence_ids": [
-          "geo-c6efeedc6680b60648e923f6"
+          "geo-9402a6f1287d174314b91f98"
         ]
       }
     },
@@ -28546,10 +28814,51 @@
       "located_status": "unknown"
     },
     "dr-u-cb7124bb7e591ac648d9": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市徐汇区云锦路701号西岸智塔东塔29层",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-ee98ba6d151b68b1c0d744fb"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "阶跃终端",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-ee98ba6d151b68b1c0d744fb",
+          "source_url": "https://m.stepx.com/pages/users/privacy/index?type=privacy",
+          "checked_at": "2026-11-08T20:05:20.094697+00:00",
+          "subject": "阶跃终端",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "徐汇区",
+            "address": "上海市徐汇区云锦路701号西岸智塔东塔29层"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "district": "徐汇区",
+        "evidence_ids": [
+          "geo-ee98ba6d151b68b1c0d744fb"
+        ]
+      }
     },
     "dr-u-cbac1c9ce686c199cdbb": {
       "geography_status": "unknown",
@@ -29225,10 +29534,48 @@
       "located_status": "unknown"
     },
     "dr-u-d46e9f602c8d1cbea186": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-2be984681d4a62dbb94a38be"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "芯词元半导体（杭州）有限责任公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-2be984681d4a62dbb94a38be",
+          "source_url": "https://mp.weixin.qq.com/s/CaG4UyknNsibr9PDvn3UlA",
+          "checked_at": "2026-11-08T19:47:21.999597+00:00",
+          "subject": "芯词元半导体（杭州）有限责任公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "evidence_ids": [
+          "geo-2be984681d4a62dbb94a38be"
+        ]
+      }
     },
     "dr-u-d49dac0db39284a00bf4": {
       "geography_status": "unknown",
@@ -59933,7 +60280,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "25d090dc813d9acf4551e3b689692d3530ee931a8bccc0cf69275ba27d9efc15",
+  "history_version": "31e0b36bc970876b865eef19ab453c297ea5f09a8f0923ed81602c30a320333d",
   "company_history_buckets": {
     "00": "08d9e4c396378a93fa306bc5daaa9346452583b91ac8c4211cec3ada4136af61",
     "01": "7069574a04eb1cdc06ab2c9f4c478bf6c0092714bd959624e065bd8f90af3c5a",
@@ -59945,11 +60292,11 @@
     "07": "2d70f196ddf47baba614e48c4aca8d758fb6e86fe5207026f28bd41ac039e792",
     "08": "f6308b88d927e0cf8d8e31776106b91ac4e5539c2d4e30a7b0ee20560c0b62b7",
     "09": "bb4655eebd6c06097b6389726ec2301b7c9235c5a261b5cdc3b0703d1e2cf8f0",
-    "0a": "cbc9db1648285fedade7a5d7b91f9a606328e5bb13a77d10caf49c6a03438c91",
+    "0a": "5419eab550a0d4143c5c666e2de69066cb6ac99e2ead35d84754dc4756e4681d",
     "0b": "334661552ecb9c2f93dc0e8aafd1ce84eeeb5ced7c60769186626740b715a112",
     "0c": "0c76db9c85fdea3fdcffbc7cf697a4343b81c589e860e937f6d8713ae1916bb2",
     "0d": "4f9a9376048de437ec5aad1e6c4c310b518dde7a344a43ede9c3c4a713b69d55",
-    "0e": "f980c29226a1a6118501d2b075ff06eb48353ee1960e8901fa2018075986f17c",
+    "0e": "7642bb2058482f51b0fc580f1e85512f8ad270234a53faf7efea051568ec14c8",
     "0f": "266e00675427c243c498642828c564091feefa5344df20669cd78f68f4bd9067",
     "10": "569f0e0f0561ee4e9c5e7f23f2caaf0af48bb488f18d53a19819daf3009eb531",
     "11": "6eb9fdd14864692d948ee0888d4b3f341eea23eb1fcf83ac7361f66a52c71d52",
@@ -59959,7 +60306,7 @@
     "15": "c30aeb72e61695d5b01cecd6ad054f649bb7b03632571d5f723c5308b2f790fd",
     "16": "ecf1ae0687d3886a322854a7a0338addfb8edc1a97ec93a615a4b60f679d9b81",
     "17": "2318c6200c9bf9dc9376646c0d149974fbbc0028a47c04086a30048fba6e97c4",
-    "18": "cd3f3a411c75de017cab9701efb4a7ef4a303cdc628fe6341b6da72682036ff6",
+    "18": "0ec5e10848d21def2a7baed5326ca79d3a84b2a7a81f0f57e20c7ea2e4f28815",
     "19": "4b90a75ab22b4fb217ed3c06b98313da8813171550721408d9c10d0ff7101dff",
     "1a": "d9fb83cb856dbc1e32672213dfe6b646e07fd82f0c62a031694f17e807f9b9c1",
     "1b": "4d444578fcaad44fa473c0206e4855138a566c5a24a4b911af9b77b3927e110a",
@@ -59969,11 +60316,11 @@
     "1f": "e1391ffa396a2eb98bb88f292f2b7a2be5789d5fa185e6be6229e134ad34e2ee",
     "20": "e6d541e865418a56bbebc209359d40c61009dd4c514949d19f21000f090061ab",
     "21": "ad2c4ef7485c83e7fec860bfa55a6e5e60d203b8ab5fe783b32fff44fcbccecc",
-    "22": "30f9a92a5fde45cdf786e6c7f5f8fd714e176ea8bc310e7763973310745a5ec4",
+    "22": "9fbd5c8fee0c72fa550b183a4122305a4959027d6a17a6c0d08f6347496f7071",
     "23": "b92972c0d32e1a8e376c559dc101ea4b5d0d860867364c75d94f6ff0bf7abf5e",
     "24": "ab10178d5347adbf4209533f08be888f3beea51bb070ac6f648211819998974b",
     "25": "d0dce119bfeeadb4cb77eee404fd707bb41a4ca3d943167c5641bb8525618aa1",
-    "26": "194a9b02b667c9b844e25ef0406994955c1fac5f38b99ca96815210717b101f5",
+    "26": "9bf663bd2b89feb37c4a0d805a208818ba69645132b3d77bf39a43472d3f7ed4",
     "27": "e639971559ed7509d1bf29fbcb0ad01e679ba039373447c5fd6b36d7b631c157",
     "28": "87135d1af57f01ddda188e2a709fc01815f673f4366c5ba9995aef9b40c7a0a5",
     "29": "87d890af5cf290aa6bee427660957b0a42ead40a6ec3c8bca5274684e6987b1d",
@@ -59985,12 +60332,12 @@
     "2f": "82df7216489bb3708c6d33a6e888a4ea45297786f98d5c85d6ac473b11bd23b6",
     "30": "bcb875806ed219758b818a209f1a2deebad1eec339d57ec7d9f6f6b380d92c52",
     "31": "642accfea7ac0ef3d7a8f5a82acc4afeeb71d603952899424d794aef1c054c9e",
-    "32": "bc300ba33d13fed8bbaf54d736ec4583c84f2a6843f675629a1779e824d65e5f",
+    "32": "7e60cf3b5627dc1a5a76edf1ad2b63a056919694576593277158848a698d795b",
     "33": "f2540008d6b342fa788dbf56590d91520d7456b68180bbbd5aa706d7986007ad",
-    "34": "f2375179bb19ff1461c2991959d47995f1bd5300145a6f93008b690fe2c78f72",
-    "35": "08df18b288ffc2b94d6219e281df74a08a115f4d40268072edd3fa4221cfce00",
+    "34": "9a523618aad1013ef6a6de4c442e83958d016a0e6ffc5c7d3cac6a3d9862bec5",
+    "35": "6f18ecca1cd2318ed8623c81b069d7a4f1bc4423ea2c4c3dfed6e4ec7baa6a03",
     "36": "9d0f58bfe86bcefbe5eeb20ca53f60b616c9a846439aa3083ebed51a04e122ea",
-    "37": "245671b550fd1efa033e1d86504d79d44c13ed726a564e1054aaa45d877d478c",
+    "37": "10902f30121ac3e69d9f33515acd4999ca5531b37aef9bc0b409a347ce39fb4f",
     "38": "12dbf869d4c95522e8468a7139a80761678d51ef43c7af96f4a6437645f8e613",
     "39": "767589c2249989dde06a25d53febf9b1e1b296cbe2cbdd34a4f7c7df94b0dc35",
     "3a": "988d0719e28e4ff0a974cd4b31b5933c547059d3e75593f155b8d3ddcced0c55",
@@ -60000,7 +60347,7 @@
     "3e": "752d420a37dab0f3ce873e1c2ab00d29b9ec2ee7340712175f0e3a930e366272",
     "3f": "f33edb457d9122b28689c46d2892cf2a996bc41893a60e65bcb2d9eee9d88e63"
   },
-  "history_search_version": "a875bb249ca083875c70e578429b546b76fda6843d6c512c76d5dbea92d5c31b",
+  "history_search_version": "521055249b36bbc629ee34a2828bdb9578039abba3cdddf26a74faf11e586e26",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",

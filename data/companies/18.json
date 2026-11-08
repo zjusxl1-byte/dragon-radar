@@ -1557,16 +1557,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Xni5hfbEfMqBu7ELyhkM-g",
       "sector": "人工智能／个性化模型与持续学习基础设施",
-      "location": "地点待核",
+      "location": "北京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fd6f316ec07905bca22df176"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "通衍灵智",
         "subject_locality": {
           "status": "unknown",
@@ -1574,7 +1576,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-fd6f316ec07905bca22df176",
+            "source_url": "https://github.com/TongBrain",
+            "checked_at": "2026-11-08T19:51:19.383770+00:00",
+            "subject": "通衍灵智",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-fd6f316ec07905bca22df176"
+          ]
+        }
       },
       "article_location": "",
       "source": "量子位",
