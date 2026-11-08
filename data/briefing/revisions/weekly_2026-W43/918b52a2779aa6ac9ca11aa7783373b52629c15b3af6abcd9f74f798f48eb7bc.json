@@ -1,0 +1,1415 @@
+{
+  "hangzhou_top": [
+    {
+      "article_location": "浙江省 / 杭州市",
+      "article_title": "刚刚，DeepSeek开源自家推理框架！",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:582e794fb8a2e605",
+          "prior_decision:57fb9024d657db8d"
+        ],
+        "reason": "可复用既有已审模型事件尚未建立独立标杆资格的边界。本次开源及公司生产数据增强产业观察价值，但缺少已捕获的同条件竞品比较和第三方部署验证，不能据开源、杭州身份或内部吞吐规模自动授予全国标杆标签。",
+        "status": "not_qualified"
+      },
+      "company": "杭州深度求索人工智能基础技术研究有限公司",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_raw_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "event_desc": "据10月20日报道，DeepSeek开源内部推理框架DeepInfer及生产级Token编解码组件deepseek-recipe。DeepInfer公开版本支持DeepSeek V4.1 Flash，已用于其大规模推理服务，兼容英伟达GPU和华为昇腾NPU，提供专家并行与负载均衡、推测解码及滑动窗口缓存重建等机制。\n\n据报道援引的DeepSeek技术报告，在自身实际线上部署中，动态验证长度相较固定验证5个Token的方案，使吞吐量进一步提升6%。deepseek-recipe负责将Chat Completions、Responses、Messages等API请求转为统一内部会话和模型Token输入，并解析工具调用、思考内容等输出，转换为对应接口响应。",
+      "event_headline": "DeepSeek开源生产推理框架与API编解码组件",
+      "event_headline_source": "1327bf0176343a17d25ff5a4250fc226611358a0735a11b8e92b2e0ff618d7a1",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-10-20",
+        "event_date": null,
+        "observed_date": "2026-10-20",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "重磅发布",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "city": "杭州市",
+              "country": "CN",
+              "province": "浙江省"
+            },
+            "body_sha256": "16244cbae4100d39fbc4d4d496baed803fd43211e507084fcec4d3b5b8db6362",
+            "text_sha256": "49273562060b13decf46aa7f744d7b470423b63d645296662a541469ed082ead"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "subject_locality",
+        "briefing_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ]
+      },
+      "identity_mentions": [
+        {
+          "evidence": "DeepSeek宣布，将其内部推理框架DeepInfer「开源」。",
+          "name": "DeepInfer",
+          "relation": "product"
+        },
+        {
+          "evidence": "DeepSeek还同步开源了生产级Token编解码组件deepseek-recipe。",
+          "name": "deepseek-recipe",
+          "relation": "product"
+        }
+      ],
+      "identity_status": "confirmed",
+      "insight": "此次开放的不只是模型运行引擎，还包括请求编码、工具调用解析等接口处理逻辑，使第三方部署者能够同时复用推理优化机制与官方API的处理方式。两者互补，有助于减少自行部署时计算执行与应用接入之间的适配工作；文中线上性能来自DeepSeek自身部署，不能直接视为其他硬件和负载下的运行表现。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/w-e7bdkr2_bTGnGCiExO9A",
+      "location": "浙江省 / 杭州市",
+      "location_basis": [
+        {
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "place": {
+            "city": "杭州市",
+            "country": "CN",
+            "province": "浙江省"
+          },
+          "role": "hq",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "subject_relation": "same_subject"
+        }
+      ],
+      "location_next_action": null,
+      "location_status": "subject_confirmed",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-10-20",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:582e794fb8a2e605",
+            "prior_decision:57fb9024d657db8d"
+          ],
+          "reason": "可复用既有已审模型事件尚未建立独立标杆资格的边界。本次开源及公司生产数据增强产业观察价值，但缺少已捕获的同条件竞品比较和第三方部署验证，不能据开源、杭州身份或内部吞吐规模自动授予全国标杆标签。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "bd155e47077b0333f7013fda3f90af86e72c14e32c02f910c6e3531b7c854c72",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:582e794fb8a2e605",
+          "identity_registry:2dcd4f408df25406",
+          "geo-8d153ebc1f63d3a87bb41366",
+          "history_lookup:a7498ad7555a53f5"
+        ],
+        "history": {
+          "change_reason": "可见4月至9月历史覆盖资本、模型、视觉能力和训练沙盒，10月记录覆盖Harness、算力规划、模型更新、接口工具、故障及拟投资；未显示本次两个组件开源已收录。本次新增证据明确公开对象和用途，足以区别旧模型转载排除，但历史归一化错误使完整去重结论仍不确定，不宣称全局首次或改写旧事件裁决。",
+          "evidence_ids": [
+            "history_lookup:a7498ad7555a53f5",
+            "accepted_history:0059924beb11e32d",
+            "accepted_history:0ce074f776a7df00",
+            "accepted_history:fee5adc7eeea25f4",
+            "accepted_history:a11c70966626e98d",
+            "accepted_history:acb664257ffa04b4",
+            "accepted_history:bc73adccffd6ce79",
+            "prior_decision:eb039cfd8aedceee",
+            "prior_decision:1615af08ab103075",
+            "prior_decision:b1dc62a56ac9b5f3",
+            "prior_decision:f819bbdc17ee0dd2",
+            "prior_decision:bc6361c05673a7de",
+            "prior_decision:8cfeb09ee9b172af",
+            "prior_decision:a897e773152eb732",
+            "prior_decision:32fffa5346c94646",
+            "prior_decision:e4762b303f8d53bf",
+            "prior_decision:b13f1232e1b4e9fc",
+            "prior_decision:cee8b3a460f77934",
+            "prior_decision:ffec7539db669705",
+            "prior_decision:57fb9024d657db8d",
+            "prior_decision:45ea26fb925b103f",
+            "prior_decision:c6611f3e33126b7b",
+            "prior_decision:80ae9a27f89f46e1"
+          ],
+          "new_evidence_ids": [
+            "article:582e794fb8a2e605"
+          ],
+          "prior_decisions": [
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:eb039cfd8aedceee",
+              "reason": "旧项为Harness v0.2桌面预览版及账号、插件和后台任务，本次为生产推理框架与API编解码组件开源。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:1615af08ab103075",
+              "reason": "同为Harness桌面产品裁决，不覆盖DeepInfer或deepseek-recipe的公开。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:b1dc62a56ac9b5f3",
+              "reason": "旧项是DSec训练环境资源超卖、增量保存及扩容计划，与模型生产推理和API处理组件不同。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:f819bbdc17ee0dd2",
+              "reason": "旧待核针对用户观察API输出变化及未经确认的模型更新，本次开源不证明旧测试的版本或稳定性能提升。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:bc6361c05673a7de",
+              "reason": "旧待核是API输出对照测试证据不足；组件公开不能解除其重复测试缺口。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:8cfeb09ee9b172af",
+              "reason": "旧项为V4.1-Flash-1017模型更新及Search/Fetch接口开放；本次公开底层推理引擎和请求编解码逻辑，并非再次报道模型发布。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:a897e773152eb732",
+              "reason": "旧待核为10月15日API故障及当时杭州属地证据不足，本次没有故障原因或整改完成证据，不改动其后续补证结论。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:32fffa5346c94646",
+              "reason": "该旧排除针对同一V4.1-Flash-1017模型更新的重复报道。本次是两个基础软件组件开源，具有独立事实身份，不继承重复排除，也不撤销旧排除。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:e4762b303f8d53bf",
+              "reason": "旧项为乌兰察布1GW数据中心规划及融资背景，本次软件开源不提供建设、采购或资金落实增量。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:b13f1232e1b4e9fc",
+              "reason": "旧待核针对数据中心芯片型号和报价测算；兼容昇腾NPU不能证明采购950DT、签约或实际投资额。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:cee8b3a460f77934",
+              "reason": "旧项仍为未经确认的API输出变化，本次开源不能反向确认10月12日已发生特定模型更新。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:ffec7539db669705",
+              "reason": "旧待核涉及至少800亿元拟融资的轮次和金额口径，本次没有融资交割或口径澄清证据。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:57fb9024d657db8d",
+              "reason": "旧补证裁决采信模型快照与搜索工具链发布；模型所用生产推理框架及API编解码组件的公开是新的发布对象。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:45ea26fb925b103f",
+              "reason": "旧项为API故障取得杭州主体证据后的预警采信；本次性能报告不构成故障恢复或整改有效的证据。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:c6611f3e33126b7b",
+              "reason": "旧待核为拟领投Winverse AI及跨主体同笔融资去重，本次无投资协议、交割或具身研发组织增量。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:80ae9a27f89f46e1",
+              "reason": "该旧排除同样针对V4.1-Flash-1017重复发布报道；本次DeepInfer与deepseek-recipe开源未被其覆盖，不能按企业或共用模型名称一并排除。"
+            }
+          ],
+          "result": "uncertain"
+        },
+        "input_row_sha256": "68bff697d7d4b6a078f2b1933868bba2366838ca2fbb4080c321c9247035bad2",
+        "reason": "所供全文明确DeepSeek开源DeepInfer和deepseek-recipe，两者是同一企业的互补软件组件，不新增企业。稳定主体及已确认别名可继承，政府同主体总部正文支持杭州归属，无须因旧无来源深圳字段退回地点未知。生产推理框架及API编解码逻辑的公开，是不同于V4.1-Flash-1017模型发布、Search/Fetch开放、DSec和Harness更新的新事实，不能套用同版本转载的旧排除裁决。原始发布时间2026-10-20T11:23:00Z满足七日窗口。历史检索存在historical_normalized_decision_mismatch，因此完整新增性保留uncertain，但不否定当前全文支持的开源进展；本次不修改任何旧待核或排除结论。",
+        "reviewer": "overnight Agent · 全文逐事件定向复核",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "正文报道DeepInfer已用于V4.1 Flash大规模推理服务，公开版本支持该模型，兼容英伟达GPU与华为昇腾NPU，并提供专家负载均衡、推测解码和滑动窗口缓存重建机制；同步公开的deepseek-recipe处理API请求编码、工具调用及输出解析和协议适配。动态验证长度带来额外6%吞吐提升是文中转述的公司线上技术报告结果。",
+          "value_reason": "本次新增价值在于第三方部署者可以同时复用计算执行优化与官方接口处理逻辑，减少模型运行、工具调用和应用接入之间的适配断层。对杭州模型部署、推理基础设施及智能体企业，优先验证目标硬件兼容性、接口一致性和真实负载表现；不能将DeepSeek自身集群数据直接外推为第三方部署收益，也不能据此认定此前API故障已解决。"
+        },
+        "stage": {
+          "reason": "正文明确宣布开源并给出两个官方仓库链接，且称DeepInfer已投入内部大规模服务，非未来计划。本轮提供的是报道全文，不是已独立读取的仓库内容；不补造许可证、完整模型覆盖或跨硬件实测结果。新闻日为2026-10-20，精确开源事件日未明确，首次收录时间未知。",
+          "status": "据报道已开源，推理框架已用于内部生产；性能为公司报告主张"
+        }
+      },
+      "score": 100,
+      "sector": "人工智能基础设施 / 大模型推理",
+      "selection_reason": "所供全文明确DeepSeek开源DeepInfer和deepseek-recipe，两者是同一企业的互补软件组件，不新增企业。稳定主体及已确认别名可继承，政府同主体总部正文支持杭州归属，无须因旧无来源深圳字段退回地点未知。生产推理框架及API编解码逻辑的公开，是不同于V4.1-Flash-1017模型发布、Search/Fetch开放、DSec和Harness更新的新事实，不能套用同版本转载的旧排除裁决。原始发布时间2026-10-20T11:23:00Z满足七日窗口。历史检索存在historical_normalized_decision_mismatch，因此完整新增性保留uncertain，但不否定当前全文支持的开源进展；本次不修改任何旧待核或排除结论。",
+      "selection_recommendation": "keep",
+      "source": "量子位",
+      "title": "刚刚，DeepSeek开源自家推理框架！",
+      "company_db_id": 258,
+      "ai_reason": "DeepSeek把竞争力从模型权重延伸到生产推理与接口处理链条，专家负载均衡、动态验证和缓存重建直接针对算力浪费与长上下文成本。双硬件平台支持为国产算力适配提供了具体路径。若社区能在不同集群复现收益并持续维护接口兼容，其影响将进一步扩展到第三方部署基础设施。",
+      "wx_summary": "DeepSeek开源生产推理框架与API编解码组件",
+      "standard_sectors": [
+        "人工智能基础设施",
+        "大模型推理"
+      ],
+      "supporting_sources": []
+    },
+    {
+      "article_location": "杭州，具体区县未披露",
+      "article_title": "前华为车BU世界模型基模负责人创业,杭州具身大脑公司获近亿元融资|硬氪首发",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "web_acquired_text:bc9508b62d2ae511"
+        ],
+        "reason": "早期融资、产业合作和未披露履约细节的订单能够支持跟踪价值，但尚无独立技术比较、可复核任务表现、规模交付或行业地位依据，不能建立全国标杆资格；创始人的原任职经历不等同于本企业已具备相应能力。",
+        "status": "not_qualified"
+      },
+      "company": "格物通智",
+      "company_canonical_name": "格物通智",
+      "company_entity_id": "dr-u-2b6865270713f883e5a3",
+      "company_raw_name": "格物通智",
+      "event_date": null,
+      "event_desc": "36氪10月18日报道，杭州具身大脑公司格物通智已完成近亿元天使轮融资，资金拟用于物理反演世界模型预训练与迭代、硬件及本体构建，以及场景PoC验证和真实数据采集。\n\n公司提出“物理反演世界模型+PSI物理自进化”研发路线：从视频动作推断接触、受力等隐含物理信息，再结合真实力觉、触觉反馈校准；现场作业产生的成功经验、失败轨迹和人工纠正，经评估学习、验证部署后用于下一轮任务。创始人表示，视频重建触觉数据的精度预期用于预训练，后续仍需真实现场数据对齐。\n\n报道披露，公司已与匹克投资签订战略合作协议，面向鞋履制造中的柔性材料和高精度操作需求推进产业验证；同时正与纺织服装、光模块及汽车零部件领域客户开展联合创新PoC，预计2026年年底完成首个PoC交付。",
+      "event_headline": "格物通智完成近亿元天使轮融资，推进鞋履制造应用",
+      "event_headline_source": "0929a5d69f4d522455bd08931a5433c383c471b2a8b0656bb0e4cfecfb77213c",
+      "event_identity": {
+        "canonical_id": "格物通智已完成近亿元天使轮融资，拟将资金用于具身智能模型训练、硬件与本体构建及产业场景验证。报道同时称，其已与匹克投资签订战略合作协议，并在企业初期获得鞋履制造场景的规模化订单，面向柔性制造、柔性材料和亚毫米级精度要求推进技术落地。"
+      },
+      "event_signal": "major",
+      "event_type": "融资",
+      "financing": "已完成近亿元天使轮融资，投资方包括匹克投资、鸿富资产、杭州资本、杭州人才集团、某省级具身产投及多家头部上市公司；枫承资本担任独家私募股权融资顾问。资金将主要用于物理反演世界模型预训练与技术迭代、硬件与本体构建、人才引进，以及场景概念验证和真实数据采集。",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "格物通智",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-6c87eafc5d02ffa10fc9958a",
+            "source_url": "https://www.36kr.com/p/4025325566054529",
+            "checked_at": "2026-10-24T18:08:29.119950+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "city": "杭州市",
+              "country": "CN",
+              "province": "浙江省"
+            },
+            "body_sha256": "292455012ef5de61e8bf2a72b3f91aac0d6a21dc1fa562bae197dd8580c42fae",
+            "text_sha256": "0d049e714bf278d11d3128c728ec74784fc23c7723e257262033539dfd04b1b9"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-6c87eafc5d02ffa10fc9958a"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-6c87eafc5d02ffa10fc9958a"
+          ]
+        }
+      },
+      "identity_status": "confirmed",
+      "insight": "格物通智选择从鞋履制造切入，值得关注的是机器人如何处理会变形的材料，而不只是完成固定轨迹动作。其提出以触觉和视觉数据构建物理反演世界模型，让机器人理解操作中的物理变化，再通过持续作业积累经验、适配具体场景。产业方同时参与投资和合作，为这一路线提供了接触真实工艺与采集操作数据的入口，但合作本身尚不能说明自进化能力已经实现。下一步可围绕合作中的具体工序，了解材料变化时的操作成功率、精度保持情况及人工干预频次，辨别其能力来自固定工序调试，还是能够随作业经验改善。",
+      "is_national_star": false,
+      "is_negative": false,
+      "link": "https://www.gyxww.cn/ArTicle/details/93763914.sHTML",
+      "location": "浙江省 / 杭州市",
+      "location_basis": [
+        {
+          "checked_at": "2026-10-24T18:08:29.119950+00:00",
+          "evidence_id": "geo-6c87eafc5d02ffa10fc9958a",
+          "place": {
+            "city": "杭州市",
+            "country": "CN",
+            "province": "浙江省"
+          },
+          "role": "business",
+          "source_url": "https://www.36kr.com/p/4025325566054529",
+          "subject": "格物通智",
+          "subject_relation": "same_subject"
+        }
+      ],
+      "location_candidates": [
+        {
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business",
+          "status": "article_candidate_only",
+          "value": "杭州，具体区县未披露"
+        }
+      ],
+      "location_next_action": null,
+      "location_status": "discovery_confirmed",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-10-21",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "web_acquired_text:bc9508b62d2ae511"
+          ],
+          "reason": "早期融资、产业合作和未披露履约细节的订单能够支持跟踪价值，但尚无独立技术比较、可复核任务表现、规模交付或行业地位依据，不能建立全国标杆资格；创始人的原任职经历不等同于本企业已具备相应能力。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "82f11fc8ce51e970c7deb3f0b78eaacd75905de150d082523d25ce349470d712",
+        "decision": "keep",
+        "evidence_ids": [
+          "web_acquired_text:bc9508b62d2ae511",
+          "web_acquired_text:fc0796ec704ad935",
+          "geo-6c87eafc5d02ffa10fc9958a",
+          "history_lookup:4b0a8e62b88be752"
+        ],
+        "history": {
+          "change_reason": "提供的历史检索未返回该主体既往已收录事件或旧排除裁决，不据此宣称首次发现。同批候选29ab979db1bcc00a134af3feb1d3e402fc273ef58176a32103c56d29a88405e8为同一轮融资，本条作为信息较完整的合并主记录保留；新增披露为技术路线、战略合作及鞋履制造订单叙述，不将其当作另一轮融资，也不证明这些事实发生于10月21日。",
+          "evidence_ids": [
+            "history_lookup:4b0a8e62b88be752",
+            "web_acquired_text:fc0796ec704ad935"
+          ],
+          "new_evidence_ids": [
+            "web_acquired_text:bc9508b62d2ae511"
+          ],
+          "prior_decisions": [],
+          "result": "new_event"
+        },
+        "input_row_sha256": "68ca326df3e086ddfe7fdd6736e55b1e0a37fa9dd203d3d1fcbfaafe4cac2fcc",
+        "reason": "已取得的报道节选明确格物通智为近亿元天使轮融资主体，并披露其触觉—视觉多模态数据、物理反演世界模型及灵巧操作研发路线。正文直接说明企业落地杭州，结合已有经营归属证据足以支持正面发现，不依赖投资方地名确认属地。与匹克投资的战略合作及鞋履制造订单叙述提供了具体产业验证入口，值得研究柔性材料操作能否形成可复用能力。2026-10-21为本来源发布时间，但系转载首发报道，原始首发日仍需核实；本事件同时有2026-10-19报道支持最近7天内已公开，未凭转载日期重置窗口。订单未披露金额、工序、验收及交付状态，不能据此认定量产收入或亚毫米级精度已经实现。与本批腾讯报道合并为同一轮融资及相关产业合作记录，不重复计数，不宣称企业首次发现。",
+        "reviewer": "quality_inspector Agent + overnight Agent explicit per-event continuation",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "原文描述以触觉、视觉为主的多模态数据闭环研发物理反演世界模型与PSI物理自进化体系，面向机器人灵巧操作；披露与匹克投资签订战略合作协议，并称企业初期取得鞋履制造规模化订单。",
+          "value_reason": "融资和产业方合作共同提供模型、本体研发与真实鞋履工艺验证的连接点。柔性材料操作相比固定轨迹演示更能检验感知、动作和场景适配能力，具有杭州具身智能企业培育价值。优先补充具体工序、合同执行阶段、操作成功率及人工干预数据，以区分固定工序调试与可复用能力；不能将合作关系直接视为自进化技术已获验证。"
+        },
+        "stage": {
+          "reason": "融资按报道已完成、战略合作按报道已签约；规模化订单仅按报道取得记录，履约与验收未知。世界模型、自进化能力为企业技术路线描述，亚毫米级精度为鞋履制造要求，均非已证明的实测结果。",
+          "status": "reported_financing_completed_cooperation_signed_orders_reported_rd_ongoing"
+        }
+      },
+      "score": 100,
+      "sector": "具身智能／机器人灵巧操作",
+      "selection_reason": "已取得的报道节选明确格物通智为近亿元天使轮融资主体，并披露其触觉—视觉多模态数据、物理反演世界模型及灵巧操作研发路线。正文直接说明企业落地杭州，结合已有经营归属证据足以支持正面发现，不依赖投资方地名确认属地。与匹克投资的战略合作及鞋履制造订单叙述提供了具体产业验证入口，值得研究柔性材料操作能否形成可复用能力。2026-10-21为本来源发布时间，但系转载首发报道，原始首发日仍需核实；本事件同时有2026-10-19报道支持最近7天内已公开，未凭转载日期重置窗口。订单未披露金额、工序、验收及交付状态，不能据此认定量产收入或亚毫米级精度已经实现。与本批腾讯报道合并为同一轮融资及相关产业合作记录，不重复计数，不宣称企业首次发现。",
+      "selection_recommendation": "keep",
+      "source": "www.gyxww.cn",
+      "title": "前华为车BU世界模型基模负责人创业,杭州具身大脑公司获近亿元融资|硬氪首发",
+      "company_db_id": 505,
+      "ai_reason": "格物通智瞄准柔性材料操作中视觉难以识别受力与接触状态的瓶颈，尝试用视频反演物理信息，再以真实触觉校准，减少单靠触觉采集扩充数据的成本。鞋履等明确工序为模型提供真实反馈入口。若重建标签质量和现场误差修正有效，企业有望把定制调试经验沉淀为可迁移的灵巧操作能力。",
+      "wx_summary": "格物通智研发物理反演世界模型，推进工业PoC",
+      "standard_sectors": [
+        "具身智能",
+        "机器人灵巧操作"
+      ],
+      "supporting_sources": [
+        {
+          "title": "可信媒体同事件报道",
+          "source": "补充来源",
+          "url": "https://www.36kr.com/p/4025325566054529"
+        }
+      ]
+    },
+    {
+      "article_location": "待核，所提供正文未明确企业所在地。",
+      "article_title": "商业航天的下半场:天上的星星,怎么变成地上的收入?|低轨|卫星通信|双向高速激光|商业航天|太空|物联网_手机网易网",
+      "company": "时空道宇",
+      "company_canonical_name": "时空道宇",
+      "company_entity_id": "dr-u-237a513e9b8b53a48503",
+      "company_raw_name": "时空道宇",
+      "event_date": null,
+      "event_desc": "10月19日报道披露，时空道宇已完成64颗低轨卫星一期组网，并于2026年8月获得卫星物联网商用试验许可。公司形成从卫星系统到芯片、模组和终端的研发体系，其中自研射频基带一体卫星通信芯片采用22纳米工艺。\n\n报道指出，2026年10月上市的吉利银河星舰700搭载时空道宇低轨卫星物联网通信能力，相关服务进入乘用车前装应用。在海事场景，汕头航标处与时空道宇搭建“4G+卫星”双链路架构，报道披露三个月内近5000条数据经卫星回传，成功率为99.67%。",
+      "event_headline": "时空道宇获批卫星物联网业务商用试验",
+      "event_headline_source": "063a7be57c38385eb5cc7e5e96c697e46c604c39df420eabdcdfc8ae3f5aaeda",
+      "event_signal": "major",
+      "event_type": "其他",
+      "financing": "所提供内容未披露时空道宇融资信息。",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区 / 天马路199号（全球科技模型研发中心C座）",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "时空道宇",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-c1eb9993b5050985dbc55555",
+            "source_url": "https://www.geespace.com/contactus/",
+            "checked_at": "2026-10-24T18:18:46.636094+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "address": "天马路199号（全球科技模型研发中心C座）",
+              "city": "杭州市",
+              "country": "CN",
+              "district": "滨江区",
+              "province": "浙江省"
+            },
+            "body_sha256": "f50e9cdd72e5c2b68f1bdb8df3f9727ce419b23fb0f926e349a3ab99fd21cec5",
+            "text_sha256": "905be615e9f6b63cbe12581c18344b6e9e33bce093e4653b9e8c6efd8de22f0a"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-c1eb9993b5050985dbc55555"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-c1eb9993b5050985dbc55555"
+          ]
+        }
+      },
+      "identity_status": "unresolved",
+      "insight": "卫星物联网通过卫星链路连接分散终端，适合补充地面网络覆盖不足地区的数据传输。时空道宇此次获得商用试验资格，值得关注的变化是取得面向实际用户试验通信服务的监管入口。研究应围绕一个具体问题展开：它能为哪些终端提供怎样的连接服务？优先补读试验业务范围及实际应用案例，辨别其服务承担的是低频数据回传，还是对连续连接要求更高的任务；两者对网络、终端和服务成本的要求不同。",
+      "is_national_star": false,
+      "is_negative": false,
+      "link": "https://m.163.com/dy/article/L9KIB05B05198NMR.html",
+      "location": "浙江省 / 杭州市 / 滨江区 / 天马路199号（全球科技模型研发中心C座）",
+      "location_basis": [
+        {
+          "checked_at": "2026-10-24T18:18:46.636094+00:00",
+          "evidence_id": "geo-c1eb9993b5050985dbc55555",
+          "place": {
+            "address": "天马路199号（全球科技模型研发中心C座）",
+            "city": "杭州市",
+            "country": "CN",
+            "district": "滨江区",
+            "province": "浙江省"
+          },
+          "role": "business",
+          "source_url": "https://www.geespace.com/contactus/",
+          "subject": "时空道宇",
+          "subject_relation": "same_subject"
+        }
+      ],
+      "location_candidates": [
+        {
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business",
+          "status": "article_candidate_only",
+          "value": "待核，所提供正文未明确企业所在地。"
+        }
+      ],
+      "location_next_action": null,
+      "location_status": "discovery_confirmed",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-10-19",
+      "quality_review": {
+        "candidate_id": "43bf2e12bdccf55cea811dc0691453a29c02ca4e8ca196a7e8def060ca337116",
+        "decision": "keep",
+        "evidence_ids": [
+          "web_acquired_text:68286092836838cf",
+          "agent_captured_raw:d82d4260a10e34af",
+          "agent_captured_txt:b31f417267cf6865",
+          "agent_captured_json:efc2ae41b1a1fed4",
+          "history_lookup:4b0a8e62b88be752"
+        ],
+        "history": {
+          "change_reason": "本主体历史检索未匹配许可事件，未报读取错误；不宣称首收，也不因许可发生早于报道就排除。",
+          "evidence_ids": [
+            "history_lookup:4b0a8e62b88be752",
+            "agent_captured_raw:d82d4260a10e34af",
+            "agent_captured_txt:b31f417267cf6865",
+            "agent_captured_json:efc2ae41b1a1fed4"
+          ],
+          "new_evidence_ids": [
+            "web_acquired_text:68286092836838cf",
+            "agent_captured_raw:d82d4260a10e34af",
+            "agent_captured_txt:b31f417267cf6865",
+            "agent_captured_json:efc2ae41b1a1fed4"
+          ],
+          "prior_decisions": [],
+          "result": "new_event"
+        },
+        "input_row_sha256": "d434502acb4bc0facff04a50c4cc3b49abe72c4110b15ef52552ebad41ba25d5",
+        "reason": "报道明确时空道宇获卫星物联网商用试验批复，官网实际首页也直接确认批复与星座业务。许可是通信运营的具体监管入口，不把文章海外并购背景转嫁给本公司，也不把许可等同收费收入。",
+        "reviewer": "quality_inspector Agent + overnight Agent explicit per-event continuation",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "自有低轨星座面向物联网终端提供卫星连接服务。",
+          "value_reason": "从卫星制造和组网进一步获得面向用户商用试验的业务入口，具备具体科技商业化价值。"
+        },
+        "stage": {
+          "reason": "官网列有2026年8月20日相关公告，但不由公告日反推批复精确生效日；近期报道回顾旧事件可保留未录实质信息。",
+          "status": "commercial_trial_approval_reported"
+        }
+      },
+      "score": 45,
+      "sector": "商业航天／卫星通信／卫星物联网",
+      "selection_reason": "报道明确时空道宇获卫星物联网商用试验批复，官网实际首页也直接确认批复与星座业务。许可是通信运营的具体监管入口，不把文章海外并购背景转嫁给本公司，也不把许可等同收费收入。",
+      "selection_recommendation": "keep",
+      "source": "m.163.com",
+      "title": "商业航天的下半场:天上的星星,怎么变成地上的收入?|低轨|卫星通信|双向高速激光|商业航天|太空|物联网_手机网易网",
+      "company_db_id": null,
+      "identity_candidates": [],
+      "ai_reason": "时空道宇的关键变化是低轨物联网从组网建设进入汽车前装等具体服务场景，自研通信芯片与统一星座设计有利于协同优化终端成本和连接能力。相较追求宽带大星座，窄带路线更贴近偏远设备的小数据回传需求。后续成长取决于终端接入成本、持续连接质量与行业适配能否同步改善。",
+      "wx_summary": "时空道宇低轨物联网进入汽车前装与海事应用",
+      "standard_sectors": [
+        "商业航天",
+        "卫星通信",
+        "卫星物联网"
+      ],
+      "supporting_sources": []
+    },
+    {
+      "article_location": "杭州市上城区杭港科技大厦（总部）",
+      "article_title": "浙大系又跑出一家脑机公司",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:e675b78314add55f"
+        ],
+        "reason": "报道虽给出全国医疗机构覆盖及市场份额数字，但未提供对应统计原始材料，且未建立独立可复核的行业比较依据；足以支持产品应用线索，尚不足以授予全国标杆资格。",
+        "status": "not_qualified"
+      },
+      "company": "神踪科技",
+      "company_canonical_name": "神踪科技",
+      "company_entity_id": "dr-u-e3c9d93467a6cbcbd61d",
+      "company_raw_name": "神踪科技",
+      "event_desc": "10月21日报道介绍，神踪科技以便携式多导睡眠监测设备配套云端AI平台，支持院内及居家整夜监测。设备采用模块化组合，可同步采集脑电、心电、呼吸、血氧、肌电等生理信号，平台用于睡眠分期、呼吸事件及心脏异常等自动识别。报道披露，其产品已落地全国1200多家各级医疗机构。\n\n报道同时介绍，神踪科技近期落地“上城好眠”社区睡眠健康管理样板，将设备铺设到社区卫生服务中心，开展睡眠筛查、分型、随访和康复服务。公司治疗端正在布局经颅聚焦超声神经调控，目标是将脑信号监测、异常定位、治疗参数生成与疗效反馈连接起来，建立闭环神经调控体系。",
+      "event_headline": "神踪科技将便携睡眠监测延伸至上城社区",
+      "event_headline_source": "d1d212603dfc9cc704c6fb4ef93bc439608c525b288a19e545e5bd70383c7d6a",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-10-21",
+        "event_date": null,
+        "observed_date": "2026-10-21",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "其他",
+      "financing": "原文称上城资本于报道所称“今年”投资神踪科技，未披露融资金额、轮次及资金用途。",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市上城区中国元谷·杭港科技大厦",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "神踪科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-6134414cf19e7f5097e464cd",
+            "source_url": "https://neurotrace.net/",
+            "checked_at": "2026-10-21T18:14:15.065494+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "address": "浙江省杭州市上城区中国元谷·杭港科技大厦",
+              "city": "杭州市",
+              "country": "CN",
+              "district": "上城区",
+              "province": "浙江省"
+            },
+            "body_sha256": "0d810b73655d871cc18e9833e4cc60481678ba35e526a231c156b4580ad42313",
+            "text_sha256": "3815e92a2989dcf44597a931bda7704c64f09f122ce79377e3c6bdde4a85da85"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-6134414cf19e7f5097e464cd"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "上城区",
+          "evidence_ids": [
+            "geo-6134414cf19e7f5097e464cd"
+          ]
+        }
+      },
+      "identity_status": "confirmed",
+      "insight": "神踪科技的具体变化，是将已有医院应用基础的便携睡眠监测延伸到社区：可穿戴采集减少对固定床旁设备的依赖，自动分析则辅助处理多信号判读，使基层筛查与后续随访有了产品载体。其当前可辨识的产业位置仍以监测和辅助分析为主，经颅聚焦超声治疗属于后续布局，尚不能将社区监测落地等同于闭环治疗已经实现。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/Gl5PTr5l2mQesp7GcR6CTw",
+      "location": "浙江省杭州市上城区中国元谷·杭港科技大厦",
+      "location_basis": [
+        {
+          "checked_at": "2026-10-21T18:14:15.065494+00:00",
+          "evidence_id": "geo-6134414cf19e7f5097e464cd",
+          "place": {
+            "address": "浙江省杭州市上城区中国元谷·杭港科技大厦",
+            "city": "杭州市",
+            "country": "CN",
+            "district": "上城区",
+            "province": "浙江省"
+          },
+          "role": "business",
+          "source_url": "https://neurotrace.net/",
+          "subject": "神踪科技",
+          "subject_relation": "same_subject"
+        }
+      ],
+      "location_next_action": null,
+      "location_status": "discovery_confirmed",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-10-21",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:e675b78314add55f"
+          ],
+          "reason": "报道虽给出全国医疗机构覆盖及市场份额数字，但未提供对应统计原始材料，且未建立独立可复核的行业比较依据；足以支持产品应用线索，尚不足以授予全国标杆资格。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "1be301e10ac05df884759dac4a71c401935d2eb97d5e5565ab0a5d0c9083c830",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:e675b78314add55f",
+          "geo-6134414cf19e7f5097e464cd",
+          "history_lookup:205e337dd71337dd"
+        ],
+        "history": {
+          "change_reason": "所提供历史检索无读取错误，同主体候选历史及既往裁决均为空；本次未发现相同社区部署事件的已收录记录，不将其表述为已证实的首次发现。",
+          "evidence_ids": [
+            "history_lookup:205e337dd71337dd"
+          ],
+          "new_evidence_ids": [
+            "article:e675b78314add55f"
+          ],
+          "prior_decisions": [],
+          "result": "new_event"
+        },
+        "input_row_sha256": "e90e620cfe3dd688e4f4557240f48091aaa33c29e9824589df4aea2206390b2d",
+        "reason": "全文将便携多导睡眠监测设备、云端AI分析平台及“上城好眠”社区应用明确归于神踪科技，构成产品与实际应用线索，不只是脑机接口行业身份。官网联系地址支持杭州上城经营归属，足以用于正面发现，但不升格为已核注册地或总部。新闻北京时间2026年10月21日发布，满足最近7天窗口；社区样板具体落地日未知，不以新闻日替代。历史检索未返回同事件记录或旧裁决，可收录本次产品应用线索。1200多家医疗机构及21.62%市场份额保留为报道口径，不据此认定独立核实的全国第一，也不采信疾病提前预警年限和超声安全性的宣传性结论。",
+        "reviewer": "overnight current Agent directed semantic review",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "便携多导睡眠监测设备可同步采集脑电、心电、呼吸、血氧及肌电，配套云端AI分析；原文称“上城好眠”样板已将设备铺设到社区卫生服务中心，开展睡眠筛查、分型、随访和康复服务。",
+          "value_reason": "便携采集与辅助判读为睡眠监测从医院延伸至基层提供产品载体，值得杭州培育侧考察其社区部署、临床工作流适配及后续服务能力；当前优先判断监测产品的应用扩展，而非把治疗布局当成已实现的闭环诊疗。"
+        },
+        "stage": {
+          "reason": "原文称监测产品已有医疗机构应用，社区样板“刚刚落地”，但未给出精确发生日期或社区覆盖数量。经颅聚焦超声属于技术布局，完整闭环神经调控仍是目标，不能写成已完成临床验证或治疗交付。",
+          "status": "reported_monitoring_product_deployment_with_treatment_in_development"
+        }
+      },
+      "region_classification": "hangzhou",
+      "score": 70,
+      "sector": "非侵入式医疗脑机接口与睡眠诊疗",
+      "selection_reason": "全文将便携多导睡眠监测设备、云端AI分析平台及“上城好眠”社区应用明确归于神踪科技，构成产品与实际应用线索，不只是脑机接口行业身份。官网联系地址支持杭州上城经营归属，足以用于正面发现，但不升格为已核注册地或总部。新闻北京时间2026年10月21日发布，满足最近7天窗口；社区样板具体落地日未知，不以新闻日替代。历史检索未返回同事件记录或旧裁决，可收录本次产品应用线索。1200多家医疗机构及21.62%市场份额保留为报道口径，不据此认定独立核实的全国第一，也不采信疾病提前预警年限和超声安全性的宣传性结论。",
+      "selection_recommendation": "keep",
+      "source": "湖畔自留田",
+      "title": "浙大系又跑出一家脑机公司",
+      "company_db_id": 501,
+      "ai_reason": "神踪科技的成长切口，是用便携多导监测与自动分析共同缓解睡眠诊疗的床位和判读人力约束，再将服务延伸到社区。医院应用积累为基层筛查提供了产品与协作基础。若社区采集质量、分型和转诊随访能够稳定衔接，有望形成院内外连续睡眠管理网络；超声干预则是下一阶段研发方向。",
+      "wx_summary": "神踪科技将便携睡眠监测与AI分析延伸至社区",
+      "standard_sectors": [
+        "非侵入式医疗脑机接口与睡眠诊疗"
+      ],
+      "supporting_sources": []
+    },
+    {
+      "article_location": "",
+      "article_title": "千问Agent训练框架公开！不多加一张卡，训练效率提升78%",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:b48b4d136c38f6ad"
+        ],
+        "reason": "本条提供具体实验基线比较，足以支持训练基础设施观察，但尚无独立复现或行业地位证据建立该业务的全国标杆资格，不以阿里知名度授予标签。",
+        "status": "not_qualified"
+      },
+      "company": "阿里",
+      "company_canonical_name": "阿里",
+      "company_entity_id": "dr-u-1d99cc69a8ba22eb7d71",
+      "company_raw_name": "阿里",
+      "event_desc": "据10月16日报道，阿里千问团队公布面向超长程智能体强化学习的QwenGyre框架。框架将GPU集群划分为可独立切换推理、训练角色的计算单元，随任务需求调整算力，并通过请求重路由及KV Cache迁移维持推理衔接；训练数据侧采用共享前缀树、分支轨迹采样和超时任务局部评估等方法。\n\n报道所述同GPU预算实验中，Qwen 3.8 2.4T完成48步强化学习训练，Async方案耗时134.55小时，Colocate方案耗时91.47小时，QwenGyre耗时75.42小时。采用QwenGyre完成该轮训练后，模型在NL2RepoBench上的通过率由52.48%升至58.54%。团队表示，框架将在优化后开源。",
+      "event_headline": "千问公布QwenGyre框架，缩短长程智能体训练耗时",
+      "event_headline_source": "bb6fb51b9edde9e1c201b0a42483d0ac177b03c696883366ef577b613b9e8af5",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-10-16",
+        "event_date": null,
+        "observed_date": "2026-10-16",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "技术突破",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+        "subject_evidence_ids": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-96adb38b9ecaed1e412df1a7"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+            "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+            "checked_at": "2026-10-15T18:26:21.338217+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "address": "文一西路969号",
+              "city": "杭州市",
+              "country": "CN",
+              "district": "余杭区",
+              "province": "浙江省"
+            },
+            "body_sha256": "6d83858ba4a96dfd136e1774eb9aa0c1d2d8196a5d94d6caafecef024300bf65",
+            "text_sha256": "76607c12acb395dabc725b02123c0137c244149a8e5c0ce80408cb5e6950c782"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "subject_locality",
+        "briefing_evidence_ids": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ]
+      },
+      "identity_mentions": [
+        {
+          "evidence": "阿里的算力储备在国内公司中已经相对能打",
+          "name": "阿里",
+          "relation": "uncertain"
+        },
+        {
+          "evidence": "千问交出了一份新答卷——QwenGyre。",
+          "name": "QwenGyre",
+          "relation": "product"
+        }
+      ],
+      "identity_status": "unresolved",
+      "insight": "QwenGyre把长程智能体执行任务时波动的推理需求，转化为可用于训练的算力窗口，减少慢任务拖累整个集群的等待。其产业价值不仅是加速单次实验，还在于让包含上下文压缩、子任务分支和超时产物的复杂工程经历能够进入训练，扩大千问可训练的任务范围。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/NWZO5fjT7UGTafOauRgNXw",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+      "location_basis": [
+        {
+          "checked_at": "2026-10-15T18:26:21.338217+00:00",
+          "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+          "place": {
+            "address": "文一西路969号",
+            "city": "杭州市",
+            "country": "CN",
+            "district": "余杭区",
+            "province": "浙江省"
+          },
+          "role": "hq",
+          "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+          "subject": "阿里",
+          "subject_relation": "same_subject"
+        }
+      ],
+      "location_next_action": null,
+      "location_status": "subject_confirmed",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-10-16",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:b48b4d136c38f6ad"
+          ],
+          "reason": "本条提供具体实验基线比较，足以支持训练基础设施观察，但尚无独立复现或行业地位证据建立该业务的全国标杆资格，不以阿里知名度授予标签。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "82426ba0ffbcd788d27569ccd349891e3c09401871eff4d1775d1d1452e5aa21",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:b48b4d136c38f6ad",
+          "geo-96adb38b9ecaed1e412df1a7",
+          "history_lookup:8e7b6b38a8e31ca2",
+          "accepted_history:dd9016827904a7f3",
+          "prior_decision:0d722e7d1c6d41c4"
+        ],
+        "history": {
+          "change_reason": "所供已收录历史及裁决均为电商应用产品事件，未匹配QwenGyre训练框架事件。本条按独立技术事件保留，不改变旧裁决，也不宣称全库首次发现。",
+          "evidence_ids": [
+            "history_lookup:8e7b6b38a8e31ca2",
+            "accepted_history:dd9016827904a7f3",
+            "prior_decision:0d722e7d1c6d41c4"
+          ],
+          "new_evidence_ids": [
+            "article:b48b4d136c38f6ad"
+          ],
+          "prior_decisions": [
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:0d722e7d1c6d41c4",
+              "reason": "此前裁决针对千问办公电商版发布、软件连接器和商家应用，本条针对长程智能体强化学习训练框架，技术对象、用途和实质事实不同。"
+            }
+          ],
+          "result": "new_event"
+        },
+        "input_row_sha256": "1fa17fd59e351638562cafde50208f499d82ce0e6c9a70580b4ec67d41b5edcc",
+        "reason": "正文以千问团队为研发主体，披露QwenGyre的算力调度、轨迹处理机制及同GPU预算下的训练对照结果，并通过团队谈论阿里算力资源交代企业层面的关联，足以作为原候选主体下的技术线索保留；不据此认定具体工商研发主体或新增别名。2026-10-16新闻发布时间符合最近7天窗口，具体研发完成日期未知不妨碍采信。该框架针对长程智能体训练中的资源空闲和分支数据处理瓶颈，具有明确基础设施价值。历史千问办公电商版是另一产品事件，不构成重复。开源仍是优化后的计划，实验结果按报道所述条件保留，不写成普遍性能保证。",
+        "reviewer": "overnight Agent; exact cached quality decisions and primary per-event directed review",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "正文披露弹性调度器按任务水位动态切换GPU计算单元的推理与训练角色，结合流式训练、前缀共享及分支轨迹采样。在相同GPU预算下，完成48步强化学习训练，Async、Colocate与QwenGyre的耗时分别为134.55、91.47和75.42小时。",
+          "value_reason": "该方案利用长程任务推理需求波动形成的空闲窗口开展训练，并控制复杂轨迹的重复计算，为有限算力条件下缩短智能体训练迭代周期提供具体可比较的方法。代码通过率变化属于采用该框架进行强化学习后的结果，不能全部归因为调度机制本身。"
+        },
+        "stage": {
+          "reason": "媒体已披露框架机制和实验数据；团队表示将在优化后开源，尚不能表述为代码已开源或外部部署已验证。新闻发布于2026-10-16，精确事件日期及首次收录时间未明确。",
+          "status": "reported_research_and_experimental_validation_with_upcoming_open_source"
+        }
+      },
+      "score": 100,
+      "sector": "人工智能／智能体训练基础设施",
+      "selection_reason": "正文以千问团队为研发主体，披露QwenGyre的算力调度、轨迹处理机制及同GPU预算下的训练对照结果，并通过团队谈论阿里算力资源交代企业层面的关联，足以作为原候选主体下的技术线索保留；不据此认定具体工商研发主体或新增别名。2026-10-16新闻发布时间符合最近7天窗口，具体研发完成日期未知不妨碍采信。该框架针对长程智能体训练中的资源空闲和分支数据处理瓶颈，具有明确基础设施价值。历史千问办公电商版是另一产品事件，不构成重复。开源仍是优化后的计划，实验结果按报道所述条件保留，不写成普遍性能保证。",
+      "selection_recommendation": "keep",
+      "source": "量子位",
+      "title": "千问Agent训练框架公开！不多加一张卡，训练效率提升78%",
+      "company_db_id": null,
+      "identity_candidates": [],
+      "ai_reason": "千问将超长程智能体训练的瓶颈从单纯增加GPU，转向推理与训练动态共享算力、分支轨迹精细处理。其意义在于让数小时工程任务能够更快进入模型迭代，而非只优化短任务跑分。若调度收益在更多任务上保持、框架按计划开放，这一路线可成为杭州智能体研发团队提升算力效率的技术参照。",
+      "wx_summary": "千问公布QwenGyre，优化超长程智能体训练",
+      "standard_sectors": [
+        "人工智能",
+        "智能体训练基础设施"
+      ],
+      "supporting_sources": [
+        {
+          "title": "OpenAI自曝“模型偷钱”；苹果AI国内落地敲定，12月正式上线；17岁AI天才少年离职月之暗面，曾参与Kimi模型研发丨AI周报",
+          "source": "创业邦",
+          "url": "https://mp.weixin.qq.com/s/FUYwy-9s1tctDgIO7NtTcw"
+        }
+      ]
+    },
+    {
+      "article_location": "",
+      "article_title": "迈过高性能门槛，达摩院玄铁RISC-V开始打量产硬仗",
+      "benchmark_review": {
+        "eligible": true,
+        "evidence_ids": [
+          "article:e482760c63052476"
+        ],
+        "reason": "独立依据是原文披露玄铁产品线已支撑超过60亿颗芯片交付、200余款量产芯片并服务400余家厂商，以及其在RISE和RISC-V软件生态中的具体参与，足以支持处理器IP产品化与生态建设对标。上述累计规模仅适用于既有产品线，不代表本次新产品成熟度。",
+        "status": "confirmed"
+      },
+      "company": "阿里巴巴",
+      "company_canonical_name": "阿里巴巴",
+      "company_entity_id": "dr-u-47c1e53c427aafb4556b",
+      "company_raw_name": "阿里巴巴",
+      "event_desc": "10月19日，阿里巴巴达摩院在2026 RISC-V中国峰会上发布面向车载场景的车规增强处理器IP玄铁E908A，面向安全岛、域控制器和车载网关。同时公布车规产品路线图，计划于2027年年底推出高性能车规CPU C950A。\n\n达摩院还披露，今年3月发布的玄铁C950正在推进多核与应用优化。团队围绕XT-LINK多核互联，优化通信带宽和缓存一致性，并称相关设计的多核性能线性度已提升至75%以上。据其披露，C950在四类智能体工作负载测试中，相比部分主流传统架构处理器取得10%以上的性能优势；优化涉及矩阵计算、存储架构、运行时环境及算子库。团队同时表示，与x86、Arm相比，仍需持续完善软件适配。",
+      "event_headline": "阿里巴巴达摩院发布玄铁E908A并公布车规路线图",
+      "event_headline_source": "ac4640d9cbc2e796ebfa75ccd234ffdefa0f5c8e415cc2be7166fa83aab85a42",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期在最近7个自然日内: 2026-10-19",
+        "event_date": "2026-10-19",
+        "observed_date": "2026-10-20",
+        "review_required": true,
+        "status": "recent_event"
+      },
+      "event_type": "重磅发布",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里巴巴",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+            "source_url": "https://ali-home.alibaba.com/global-location",
+            "checked_at": "2026-10-21T18:14:15.207210+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "address": "文一西路960-1号",
+              "city": "杭州市",
+              "country": "CN",
+              "district": "余杭区",
+              "province": "浙江省"
+            },
+            "body_sha256": "3c48ba19828b7e9f228f322a7e2d682975258e75f78a36f27a056373f597cbfa",
+            "text_sha256": "ae04279c31e0ec2f29e4b83bc2b1d7c6f99ef6fcfcf9ad8e37261b5603f3133b"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-14c3cd9f0fde5abc65811edd"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-14c3cd9f0fde5abc65811edd"
+          ]
+        }
+      },
+      "identity_mentions": [
+        {
+          "evidence": "本届峰会上，达摩院正式发布了面向车载场景的车规增强处理器玄铁E908A。",
+          "name": "玄铁E908A",
+          "relation": "product"
+        }
+      ],
+      "identity_status": "confirmed",
+      "insight": "玄铁正把产品能力从单核性能拓展到多核协同、智能体任务执行和车载实时计算：前两者针对服务器中的通信与软件适配瓶颈，E908A则为车载控制环节增加了产品入口。既有产品线的累计芯片交付不能直接代表这些高端新产品已经量产落地，下一步值得研究的是具体芯片客户如何采用这些能力。",
+      "is_national_star": true,
+      "link": "https://mp.weixin.qq.com/s/3OMiPJJZDiDdPTJjQm0ZrA",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_status": "unknown",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-10-20",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": true,
+          "evidence_ids": [
+            "article:e482760c63052476"
+          ],
+          "reason": "独立依据是原文披露玄铁产品线已支撑超过60亿颗芯片交付、200余款量产芯片并服务400余家厂商，以及其在RISE和RISC-V软件生态中的具体参与，足以支持处理器IP产品化与生态建设对标。上述累计规模仅适用于既有产品线，不代表本次新产品成熟度。",
+          "status": "confirmed"
+        },
+        "candidate_id": "231ed21e80c4bbe6ee54debb95d01552f3a45e23244ee6934e77339bf4c041dd",
+        "decision": "keep",
+        "evidence_ids": [
+          "identity_registry:2dcd4f408df25406",
+          "article:e482760c63052476",
+          "history_lookup:a7498ad7555a53f5"
+        ],
+        "history": {
+          "change_reason": "所给4月千问开源、6月榜单及AI布局、10月云业务和两项软件产品历史均未记录本次E908A发布；本次为另一事件，不涉及推翻旧裁决。仅能确认在所给历史中未匹配同事件，不宣称全局首次。",
+          "evidence_ids": [
+            "history_lookup:a7498ad7555a53f5",
+            "accepted_history:55d4407cf47670fe",
+            "accepted_history:39d9266c87afa2ed",
+            "accepted_history:e845bb104d6d2c78",
+            "accepted_history:ba3f39ebe5a0a0d9",
+            "accepted_history:0f12d50d3dce4aef",
+            "prior_decision:cf3fa2122b6a981b",
+            "prior_decision:cd40d94f23ad42f3",
+            "prior_decision:792b780351fa289d",
+            "prior_decision:482faed1822835db"
+          ],
+          "new_evidence_ids": [
+            "article:e482760c63052476"
+          ],
+          "prior_decisions": [
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:cf3fa2122b6a981b",
+              "reason": "此前审核的是阿里云收入与集团AI转型，非玄铁车规IP发布或C950工程优化。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:cd40d94f23ad42f3",
+              "reason": "该条同样对应10月初云业务及财务报道，与本次处理器产品事件不同。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:792b780351fa289d",
+              "reason": "此前为ModelScope开源Sirchmunk软件框架，与玄铁CPU IP无同事件关系。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:482faed1822835db",
+              "reason": "此前为千问Personal Agent消费生态规划，不是处理器发布或性能优化。"
+            }
+          ],
+          "result": "new_event"
+        },
+        "input_row_sha256": "e4c8cd084dda8adc7cb291b054ddf84ce2d49b962175ea9ab5f60aabcd697762",
+        "reason": "原文明确产品发布方为阿里巴巴达摩院，玄铁E908A是处理器IP产品，不另列企业。2026年10月19日发布车规增强处理器、披露C950优化并公布后续路线图，构成具体技术产品进展；来源发布时间为10月20日，符合最近7天窗口，消除了上游关于发布时间缺失的疑问。所给历史涉及千问、云业务、检索框架和个人Agent规划，均非本次玄铁事件。保留为正面产业线索；所在地仍待核，不据历史无绑定来源的地点字段认定杭州主体，也不将既有产品线累计交付视为新产品量产。",
+        "reviewer": "overnight Agent · 全文逐事件定向复核",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "原文记载达摩院正式发布面向安全岛、域控制器和车载网关的玄铁E908A，并披露XT-LINK多核互联及C950智能体工作负载优化；2027年底推出C950A属于路线图。",
+          "value_reason": "车载实时计算IP和服务器多核互联分别对应汽车芯片可靠性与高性能RISC-V扩展效率瓶颈，可为杭州芯片设计与计算平台企业提供产品路线对照。报道的测试优势须归于企业披露，不能外推为全面替代x86、Arm或已获得量产客户。"
+        },
+        "stage": {
+          "reason": "E908A已发布；C950相关性能为企业披露的测试及优化进展；C950A预计2027年底推出，尚未完成。原文未证明E908A或C950已经规模量产，也未提供车规认证文件。",
+          "status": "product_released_and_optimization_disclosed_with_upcoming_roadmap"
+        }
+      },
+      "score": 50,
+      "sector": "半导体／RISC-V处理器IP",
+      "selection_reason": "原文明确产品发布方为阿里巴巴达摩院，玄铁E908A是处理器IP产品，不另列企业。2026年10月19日发布车规增强处理器、披露C950优化并公布后续路线图，构成具体技术产品进展；来源发布时间为10月20日，符合最近7天窗口，消除了上游关于发布时间缺失的疑问。所给历史涉及千问、云业务、检索框架和个人Agent规划，均非本次玄铁事件。保留为正面产业线索；所在地仍待核，不据历史无绑定来源的地点字段认定杭州主体，也不将既有产品线累计交付视为新产品量产。",
+      "selection_recommendation": "keep",
+      "source": "半导体行业观察",
+      "title": "迈过高性能门槛，达摩院玄铁RISC-V开始打量产硬仗",
+      "company_db_id": 289,
+      "ai_reason": "玄铁的关键变化是从单核跑分转向多核互联、智能体负载与车载可靠性，开始补齐高性能RISC-V进入实际系统的工程链条。CPU承担任务编排与专用计算协同，为其避开单纯替换传统服务器提供了切入口。若软件迁移成本下降、应用优化收益持续，杭州芯片设计生态有望获得更具竞争力的处理器IP底座。",
+      "wx_summary": "玄铁发布车规E908A，推进多核与智能体负载优化",
+      "standard_sectors": [
+        "半导体／RISC-V处理器IP"
+      ],
+      "supporting_sources": []
+    },
+    {
+      "article_location": "",
+      "article_title": "前钉钉总裁叶军，离职一年后创业了，赌大厂做不了也不屑做的「缝隙」",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:7def2542a28e45df"
+        ],
+        "reason": "千万元融资、两家付费客户和创始人履历支持早期跟踪价值，但尚未证明公司具备全国行业地位、可复制交付能力或可供成熟产业对标的经营规模。",
+        "status": "not_qualified"
+      },
+      "company": "深空之序",
+      "company_canonical_name": "深空之序",
+      "company_entity_id": "dr-u-2d41679fcb29f986cf3a",
+      "company_raw_name": "深空之序",
+      "event_desc": "据10月19日报道，叶军创办的深空之序成立约三个月，已有十几名成员，获得千万元融资并有两家付费客户，正在打磨面向外贸和跨境电商的AI工作平台。\n\n据创始人介绍，平台拟连接企业使用的不同渠道和业务系统，处理模型调度、Token Planning、记忆管理、工具调用及长程任务拆解，并叠加询盘、营销、报关等场景Agent。公司通过现场交付理解客户流程，计划将共通需求沉淀为行业Skill和产品；当前采用充值并按具体任务或结果付费的方式。创始人明确表示，产品仍处于打磨阶段，距离成熟产品还有较大距离。",
+      "event_headline": "深空之序获千万元融资，打磨外贸AI工作平台",
+      "event_headline_source": "9ed622a6d30c7d957b6b0f9c1893cd621b7e63d54e9d76d7f8538f26a005310f",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-10-19",
+        "event_date": null,
+        "observed_date": "2026-10-19",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "融资",
+      "financing": "已获得千万元融资，广州四三九九信息科技有限公司领投；具体轮次、精确金额及其他投资方未披露。",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 候潮东路（临时办公室，未提供门牌）",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "深空之序",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-846a393e28458acdf793291b",
+            "source_url": "https://juejin.cn/post/7697087660391415818",
+            "checked_at": "2026-10-21T00:31:24.093997+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "address": "候潮东路（临时办公室，未提供门牌）",
+              "city": "杭州市",
+              "country": "CN",
+              "province": "浙江省"
+            },
+            "body_sha256": "96c17c7e1e56c67b357389547d4628d043206eb264fb0311507334800da41bde",
+            "text_sha256": "b2d1031288b1b6b351255dbdcaf246b53279d087901d976f91d2198775f1a73f"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-846a393e28458acdf793291b"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-846a393e28458acdf793291b"
+          ]
+        }
+      },
+      "identity_status": "confirmed",
+      "insight": "深空之序切入的不是通用办公入口，而是外贸企业跨渠道、跨系统的业务流程：若能连接分散的客户沟通和订单信息，询盘回复等智能体就能获得更完整的业务上下文。两家付费客户提供了早期落地入口，但订单依赖创始人既有信任，其产品化路径的关键是现场交付形成的流程模块能否被其他企业复用。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/TQrwQecsKkqCNZdUVk7KNw",
+      "location": "浙江省 / 杭州市 / 候潮东路（临时办公室，未提供门牌）",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_status": "unknown",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-10-19",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:7def2542a28e45df"
+          ],
+          "reason": "千万元融资、两家付费客户和创始人履历支持早期跟踪价值，但尚未证明公司具备全国行业地位、可复制交付能力或可供成熟产业对标的经营规模。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "e8ea7bd9c05ab4bf17143ece263c3cd1efde683eb2f75e40c4d9fc418caab2a8",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:7def2542a28e45df",
+          "history_lookup:a7498ad7555a53f5"
+        ],
+        "history": {
+          "change_reason": "本包未返回该主体的历史收录或裁决，且无历史读取错误；在所给检索范围内未匹配本次融资和早期付费客户事件，不宣称全局首次，也不构成对旧排除裁决的改判。",
+          "evidence_ids": [
+            "history_lookup:a7498ad7555a53f5"
+          ],
+          "new_evidence_ids": [
+            "article:7def2542a28e45df"
+          ],
+          "prior_decisions": [],
+          "result": "new_event"
+        },
+        "input_row_sha256": "0ca0be5a280786eb61f2f23bacb1d83a9f72a2aeb9bda25efaeaa44188a9f819",
+        "reason": "正文明确深空之序为叶军创办的公司，披露已获千万元融资及已有两家付费客户，并以创始人访谈说明外贸AI平台、现场交付及按任务或结果收费方式，非仅有人事变动或创业观点。广州四三九九为领投方，不是本事件技术产品主体，其地点也不能赋给深空之序。来源保留10月19日发布时间，满足窗口；融资确切日期未知不妨碍采信已披露节点。历史检索未返回同事件或旧裁决，保留为早期科技企业融资与商业化线索；法律实体和所在地仍待绑定，不改写现有身份字段。",
+        "reviewer": "overnight Agent · 全文逐事件定向复核",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "原文描述公司正在打磨外贸AI工作平台，涉及模型调度、记忆管理、工具调用及长程任务拆解，并已有两家客户付费；融资规模为千万元，具体轮次和精确金额未披露。",
+          "value_reason": "融资与付费客户为垂直行业Agent提供了早期资本和需求验证信号。其值得研究的机制是通过现场交付连接分散业务信息，再把共通流程沉淀为可复用产品；两家基于创始人信任获得的客户尚不能证明陌生客户获客或规模复制成立。"
+        },
+        "stage": {
+          "reason": "报道明确融资及两家客户付费已经发生，创始人同时表示产品仍在打磨、距离成熟较远。行业模型、跨行业平台及一年后客户收入目标均为规划，不能写成已实现；融资、付费和成立的精确日期均未提供。",
+          "status": "reported_financing_and_early_paid_validation_product_in_development"
+        }
+      },
+      "score": 50,
+      "sector": "企业级AI Agent／外贸与跨境电商软件",
+      "selection_reason": "正文明确深空之序为叶军创办的公司，披露已获千万元融资及已有两家付费客户，并以创始人访谈说明外贸AI平台、现场交付及按任务或结果收费方式，非仅有人事变动或创业观点。广州四三九九为领投方，不是本事件技术产品主体，其地点也不能赋给深空之序。来源保留10月19日发布时间，满足窗口；融资确切日期未知不妨碍采信已披露节点。历史检索未返回同事件或旧裁决，保留为早期科技企业融资与商业化线索；法律实体和所在地仍待绑定，不改写现有身份字段。",
+      "selection_recommendation": "keep",
+      "source": "36 氪",
+      "title": "前钉钉总裁叶军，离职一年后创业了，赌大厂做不了也不屑做的「缝隙」",
+      "company_db_id": 499,
+      "ai_reason": "深空之序选择跨平台外贸业务而非通用办公入口，机会在于把分散的询盘、订单和报关信息组织成可执行流程。现场交付再提炼行业Skill，为小团队积累业务壁垒提供了路径。产品仍在打磨，若跨系统连接与流程模块能够复用，成长可从熟人客户项目转向面向陌生企业的行业产品。",
+      "wx_summary": "深空之序打磨外贸AI平台，已有两家付费客户",
+      "standard_sectors": [
+        "企业级AI Agent",
+        "外贸与跨境电商软件"
+      ],
+      "supporting_sources": []
+    },
+    {
+      "article_location": "",
+      "article_title": "一座西班牙老厂，等来了一家中国车企",
+      "company": "零跑汽车",
+      "company_canonical_name": "零跑汽车",
+      "company_entity_id": "dr-u-9bf1b447e92eead1fb7f",
+      "company_raw_name": "零跑汽车",
+      "event_desc": "据10月23日报道，零跑B10于10月16日在Stellantis西班牙萨拉戈萨工厂下线，成为零跑首款在欧洲本地量产的车型。整车生产使用Stellantis原有产线改造，配套的马连电池工厂则由零跑新建产线。\n\n马连工厂于2026年8月产出首块量产电池，9月通过汽车行业量产前的生产件批准程序（PPAP）审核，设有模组和电池包产线。一期产能从每年6万台套起步，成熟后年产最高可达10万块电池包；二期规划扩至峰值20万块。技术标准和制造要求由零跑电池团队制定，核心业务由零跑团队直接运营，电芯从中国基地运入。\n\n报道同时披露，萨拉戈萨工厂已被选定生产零跑第二款欧洲本地车型B05，即国内市场的Lafa5，预计2027年上半年投产。",
+      "event_headline": "零跑B10在西班牙量产，配套电池工厂落地",
+      "event_headline_source": "33b5bd87517f28b298d9f98c8c97bbc7c9c7a88d62216f00fb21b87c5eda3611",
+      "event_signal": "major",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-10-23",
+        "event_date": null,
+        "observed_date": "2026-10-23",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "战略合作",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "零跑汽车",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-c2658eec64b39803a179af71",
+            "source_url": "https://segg.sh.gov.cn/zxfw/xwzx/20260605/652082dd933d49609930b4a067899ace.html",
+            "checked_at": "2026-10-25T18:16:26.469972+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "city": "杭州市",
+              "country": "CN",
+              "province": "浙江省"
+            },
+            "body_sha256": "ac2ebbab955d9aad4e15a2729270f44961e6784133943da31a01869b8f7ba045",
+            "text_sha256": "f3b252b25829d388ce48a5dd541af9245040fa4db687e65e8ac036365caa86a8"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-c2658eec64b39803a179af71"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-c2658eec64b39803a179af71"
+          ]
+        }
+      },
+      "identity_mentions": [
+        {
+          "evidence": "这是零跑第一辆在欧洲本地量产的车。",
+          "name": "零跑B10",
+          "relation": "product"
+        },
+        {
+          "evidence": "零跑第二款欧洲本地车型 B05（即国内市场的零跑 Lafa5）",
+          "name": "零跑Lafa5",
+          "relation": "product"
+        }
+      ],
+      "identity_status": "confirmed",
+      "insight": "零跑此次输出的不再只是整车，而是车型、配套电池制造及生产标准的组合：借用Stellantis既有整车产线，同时自建并主导电池模组和电池包生产，把出口业务延伸到欧洲本地制造。电芯仍从中国基地运入，说明当前形成的是跨区域分工的制造体系，而非整条电池供应链在欧洲落地。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/xo39Xc1zKVRgjcmT8AsqLA",
+      "location": "浙江省 / 杭州市",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_status": "unknown",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-10-23",
+      "quality_review": {
+        "candidate_id": "c48e89eba922294f75016e5f446f6b8b4c811cf63175077002c6a40d3a38852f",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:5b68667457c7a162",
+          "history_lookup:4b0a8e62b88be752",
+          "accepted_history:011afc628c7c0602",
+          "accepted_history:2974b473fcb5ab25",
+          "accepted_history:632d0fdd6259692c",
+          "prior_decision:9be6155e9f31a909",
+          "prior_decision:63933c2125d8a3b4",
+          "prior_decision:1607c2afdeb7d5c4"
+        ],
+        "history": {
+          "change_reason": "已录世界模型、9月及三季度交付和出口均非西班牙整车下线与电池工厂投产；保留制造新事件，不重复销量背景。",
+          "evidence_ids": [
+            "history_lookup:4b0a8e62b88be752",
+            "accepted_history:011afc628c7c0602",
+            "accepted_history:2974b473fcb5ab25",
+            "accepted_history:632d0fdd6259692c",
+            "prior_decision:9be6155e9f31a909",
+            "prior_decision:63933c2125d8a3b4",
+            "prior_decision:1607c2afdeb7d5c4"
+          ],
+          "new_evidence_ids": [
+            "article:5b68667457c7a162"
+          ],
+          "prior_decisions": [],
+          "result": "new_event"
+        },
+        "input_row_sha256": "016e8c933891fde7e906c5a168b9d463a1794b524a003b2421c4728f4fb7fe47",
+        "reason": "晚点全文明确B10于10月16日在萨拉戈萨量产下线，马连电池工厂由零跑新建并定技术标准、负责核心运营。保留汽车与电池本地制造进展，Stellantis为合资和工厂合作方，不把零跑杭州主体迁为西班牙。",
+        "reviewer": "quality_inspector Agent + overnight Agent explicit per-event continuation",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "B10欧洲本地制造、电池模组及电池包产线由零跑技术体系承接。",
+          "value_reason": "从出口整车转到输出制造标准和配套电池生产，形成明确制造及商业化阶段变化。"
+        },
+        "stage": {
+          "reason": "已下线与PPAP审核按报道发生，B05明年投产及二期20万块为计划，不将合资产能全部当零跑独有。",
+          "status": "local_vehicle_and_battery_production_started"
+        }
+      },
+      "score": 40,
+      "sector": "新能源汽车及动力电池",
+      "selection_reason": "晚点全文明确B10于10月16日在萨拉戈萨量产下线，马连电池工厂由零跑新建并定技术标准、负责核心运营。保留汽车与电池本地制造进展，Stellantis为合资和工厂合作方，不把零跑杭州主体迁为西班牙。",
+      "selection_recommendation": "keep",
+      "source": "晚点 LatePost",
+      "title": "一座西班牙老厂，等来了一家中国车企",
+      "company_db_id": 18,
+      "ai_reason": "零跑的变化不只是海外销量增长，而是将车型、模组电池包制造与技术标准共同嵌入欧洲既有工业体系。复用整车产线、自建电池产线的组合，有利于兼顾落地速度与核心制造能力控制。若本地质量管理和多车型适配能够稳定复制，其成长将从整车出口延伸为跨区域制造与平台技术输出。",
+      "wx_summary": "零跑欧洲整车量产，协同输出电池制造与标准",
+      "standard_sectors": [
+        "新能源汽车及动力电池"
+      ],
+      "supporting_sources": []
+    }
+  ],
+  "national_top": [],
+  "summary": {
+    "ai_insight": {
+      "hz_insight": "<b>本期简报精选寻龙雷达发掘杭州企业 8 家，涵盖 人工智能基础设施 1 家、大模型推理 1 家、具身智能 1 家 等领域。</b>深度求索开源推理调度，格物通智以视频反演、触觉校准推进工业概念验证。前者有望通过代码复用扩散部署经验，后者更可能先积累单工序反馈，再探索操作能力迁移。",
+      "nat_insight": "<b>本期简报精选寻龙雷达发掘外市企业 0 家。</b> "
+    },
+    "analysis_text": "<b>【整体态势】</b> 本周（10月19日-10月25日），寻龙雷达共跟踪科技企业 158 家，其中涉及融资或上市信息 33 家、重点科技进展信息 57 家。<br><br><b>【杭州观察】</b> 在本周采集的企业信息中，本期精选 <b>8</b> 家杭州科技企业。<br><br><b>【全国标杆】</b> 在本周采集的企业信息中，本期精选 <b>0</b> 家国内其他城市科技企业。",
+    "end_date": "2026-10-25",
+    "financing_events": 33,
+    "milestone_events": 57,
+    "report_id": "2026-W43",
+    "report_type": "weekly",
+    "start_date": "2026-10-19",
+    "statistics_semantics": "dragon-briefing-company-statistics.v2",
+    "total_companies": 158
+  }
+}
