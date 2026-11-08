@@ -1204,16 +1204,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/4SA7NPTfcGuYXFsQSlW0Mg",
       "sector": "端侧多模态人工智能与物理AI",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市 / 滨江区 / 长河街道秋溢路399号3号楼四层、五层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区 / 长河街道秋溢路399号3号楼四层、五层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-4b9c96a745ecde30fff76a56"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "OmAI联汇",
         "subject_locality": {
           "status": "unknown",
@@ -1221,7 +1223,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4b9c96a745ecde30fff76a56",
+            "source_url": "https://www.zj.msa.gov.cn/TZ/tzgg/202609/t20260902_20900.html",
+            "checked_at": "2026-11-08T15:23:47.886329+00:00",
+            "subject": "OmAI联汇",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区",
+              "address": "长河街道秋溢路399号3号楼四层、五层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-4b9c96a745ecde30fff76a56"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",

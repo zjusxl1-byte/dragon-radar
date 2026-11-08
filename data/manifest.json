@@ -5168,7 +5168,7 @@
     "2026-11-07": "c51da51930bc6f599758fdef6cb8bb243f45dd154a09380809576c0c1457804e",
     "2026-11-08": "2345e6bdd5342bc78bb7fab2de39bbfcf2405b4d4c38a708f39099efc099b45c"
   },
-  "geography_version": "90fe90faeea2c464acfec0e017a8c692c1dd79ccda50e32539abe4f474e1f050",
+  "geography_version": "efd26f300e24a5b6f4e82531ca9465c98ff2ea9ce505f6b32e397503356f28c7",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -7001,14 +7001,17 @@
       "located_status": "unknown"
     },
     "dr-u-1017f4772516513f3d5e": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "项目地：杭州市钱塘区（主体属地待核）",
-      "located_status": "unknown",
-      "display_basis": [],
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市；项目地：杭州市钱塘区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-5e7042a169bd732eb71d5d72",
+        "geo-80e153d78a8fefc7c9f153fe"
+      ],
       "subject_evidence_ids": [],
-      "needs_review": true,
-      "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "needs_review": false,
+      "next_action": null,
       "subject": "箭元科技",
       "subject_locality": {
         "status": "unknown",
@@ -7017,6 +7020,33 @@
         "evidence_ids": []
       },
       "basis": [
+        {
+          "evidence_id": "geo-5e7042a169bd732eb71d5d72",
+          "source_url": "https://kfqgw.beijing.gov.cn/zwgkkfq/ztzl/lqztkfq/lqzx/zxxx/202506/t20250604_4105322.html",
+          "checked_at": "2026-11-08T15:21:08.379767+00:00",
+          "subject": "箭元科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市"
+          }
+        },
+        {
+          "evidence_id": "geo-80e153d78a8fefc7c9f153fe",
+          "source_url": "https://cj.sina.com.cn/articles/view/2868676035/aafc85c302001xhw6",
+          "checked_at": "2026-11-08T15:26:08.606739+00:00",
+          "subject": "箭元科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "大兴区"
+          }
+        },
         {
           "evidence_id": "geo-4d97c185e9a66852beb9db76",
           "source_url": "https://mp.weixin.qq.com/s/MP5Gwytm2jHjXlp7Hp7RWg",
@@ -7032,10 +7062,23 @@
           }
         }
       ],
-      "presentation": {
-        "label": "项目地：杭州市钱塘区（主体属地待核）",
-        "detail": "海上回收复用基地规划；不代表主体总部迁入或基地已投产。",
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
         "evidence_ids": [
+          "geo-5e7042a169bd732eb71d5d72",
+          "geo-80e153d78a8fefc7c9f153fe"
+        ]
+      },
+      "presentation": {
+        "label": "北京市；项目地：杭州市钱塘区",
+        "detail": "北京普通经营归属已核；杭州为回收复用基地项目，不据开工判断总部迁杭。",
+        "evidence_ids": [
+          "geo-5e7042a169bd732eb71d5d72",
+          "geo-80e153d78a8fefc7c9f153fe",
           "geo-4d97c185e9a66852beb9db76"
         ]
       }
@@ -9296,10 +9339,48 @@
       "located_status": "unknown"
     },
     "dr-u-263c7fcea74431a89093": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-150dce438ed42cdb06adeb50"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "安纳智芯",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-150dce438ed42cdb06adeb50",
+          "source_url": "https://www.sohu.com/a/1034263659_115035",
+          "checked_at": "2026-11-08T15:23:47.834676+00:00",
+          "subject": "安纳智芯",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "evidence_ids": [
+          "geo-150dce438ed42cdb06adeb50"
+        ]
+      }
     },
     "dr-u-2640ab80452a7f54d712": {
       "geography_status": "unknown",
@@ -11774,10 +11855,51 @@
       "located_status": "unknown"
     },
     "dr-u-385da8aafb5ee6e93b43": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 滨江区 / 长河街道秋溢路399号3号楼四层、五层",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-4b9c96a745ecde30fff76a56"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "OmAI联汇",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-4b9c96a745ecde30fff76a56",
+          "source_url": "https://www.zj.msa.gov.cn/TZ/tzgg/202609/t20260902_20900.html",
+          "checked_at": "2026-11-08T15:23:47.886329+00:00",
+          "subject": "OmAI联汇",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "滨江区",
+            "address": "长河街道秋溢路399号3号楼四层、五层"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "滨江区",
+        "evidence_ids": [
+          "geo-4b9c96a745ecde30fff76a56"
+        ]
+      }
     },
     "dr-u-38b153692c0e70de3236": {
       "geography_status": "unknown",
@@ -21031,10 +21153,51 @@
       "located_status": "unknown"
     },
     "dr-u-85d822f8bd58a0c4679d": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市 / 闵行区 / 沧源路1300号大零号湾科创成果转化中心北楼721室",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-6436f8e19d5f858f1f265023"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "索格智算(上海)科技有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-6436f8e19d5f858f1f265023",
+          "source_url": "https://www.sog-aitech.com/contact",
+          "checked_at": "2026-11-08T15:25:28.346532+00:00",
+          "subject": "索格智算(上海)科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "闵行区",
+            "address": "沧源路1300号大零号湾科创成果转化中心北楼721室"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "district": "闵行区",
+        "evidence_ids": [
+          "geo-6436f8e19d5f858f1f265023"
+        ]
+      }
     },
     "dr-u-85d932d6f986ac589c4c": {
       "geography_status": "unknown",
@@ -59683,14 +59846,14 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "fd3e7235ffecd5493747dae6e4e7047c2bd50599971b9bc6299f4e020f157acf",
+  "history_version": "7853ed9b7893e70fe778296651a053b2eda578cb52b2962b3953efbf66b8638b",
   "company_history_buckets": {
     "00": "08d9e4c396378a93fa306bc5daaa9346452583b91ac8c4211cec3ada4136af61",
     "01": "7069574a04eb1cdc06ab2c9f4c478bf6c0092714bd959624e065bd8f90af3c5a",
     "02": "22f296543eb61b6cd0d0ab14479094f70c6dd522ba24eeafa136cebfe779604e",
     "03": "4b8d69b5305ca2787dc013b59db849056b1259c7695e4a5c6c4e7ec750a1e23f",
     "04": "2bcfd67bec3915fca4696d8fd16ebd477940702c065a659970506d5651c4d833",
-    "05": "1c7f20fb06a0e407c90b821c91a696825713b2ce5c882a17e579df96f62ed2ba",
+    "05": "c3f1fe9cdbae916e333fce39b099d8a0510414dbd9cde5032ef260b355be6869",
     "06": "cc3da3068096f2cb6b388825371efb7cdb6a9481d85a3243200ea7f6ac6e391b",
     "07": "2d70f196ddf47baba614e48c4aca8d758fb6e86fe5207026f28bd41ac039e792",
     "08": "f6308b88d927e0cf8d8e31776106b91ac4e5539c2d4e30a7b0ee20560c0b62b7",
@@ -59710,7 +59873,7 @@
     "16": "0f93229c456864729a26d9b4fd93fdf18e304e792c79daa98c06afb990d2f906",
     "17": "2318c6200c9bf9dc9376646c0d149974fbbc0028a47c04086a30048fba6e97c4",
     "18": "084ba4239ae88f349ff86a4c858c084d6b12023ebf4c064206eefb0cc8dc5267",
-    "19": "256ca64988aea8f34b46ba158fe357520ace9311467993c6e2f5782d44823b3e",
+    "19": "4b90a75ab22b4fb217ed3c06b98313da8813171550721408d9c10d0ff7101dff",
     "1a": "d9fb83cb856dbc1e32672213dfe6b646e07fd82f0c62a031694f17e807f9b9c1",
     "1b": "4d444578fcaad44fa473c0206e4855138a566c5a24a4b911af9b77b3927e110a",
     "1c": "d8ffa75c7ce9270890b0767dadd4f5b21bcd1208abd724e68d824e0a72959660",
@@ -59730,7 +59893,7 @@
     "2a": "ab82b448979241f4ea15ca4cdcd9343f23ed9315143596fba8c5064d44a9b0d6",
     "2b": "32999b2f729e7629e6f11a58c2e6c21256358c2347cf0839b27c18d57c723942",
     "2c": "80211fe0fad0832f9644040137b790da3b463024e7a6ae0f168763808a456980",
-    "2d": "930bc8b0bc93b94abdc4243296757ca7c6e0cb9bb686202cc6ec2430d3f3ecdb",
+    "2d": "ce2e35f92b4bff54b6303c9d026e2a4544b1260c9e7eaab7d00ac7026fe79a18",
     "2e": "6a5dd7682c2c10c207e6d046b30a03002e844925c400b2f6a6c8c234493cd5ff",
     "2f": "82df7216489bb3708c6d33a6e888a4ea45297786f98d5c85d6ac473b11bd23b6",
     "30": "f6e23ccbd6158ed9db47d7000baae6b3642fadb524dabe13e2c129a07bf47dce",
@@ -59748,9 +59911,9 @@
     "3c": "49c50f3c0f3babe15928438267c7b0d0a548c2dec3cb28c60461650609dd891d",
     "3d": "b7de6737facef66c6ac419eb748edf00f218d2dab1c96e2aabafe414bb29d89f",
     "3e": "fde037ca3d0a2e33b971752c85d2b9dab4b990c8c5f6dfd627e117ba890b2674",
-    "3f": "201aa4c8ca0125d0bf21ba15c6bb847f0095529e74d830cf4ac5f23f0b5dda22"
+    "3f": "fd7d60c4880e7dae36b57037a7ab6c80acb83721760fb017c6436cbe072f7e09"
   },
-  "history_search_version": "cddbe854e480cff7a34df6acfd1d5ebe83d0508601184228ff4bdec6de1f3b0e",
+  "history_search_version": "9f694a4f75cdf0ca450e6b011e32438d9b039fe491121bf9e7f2ed765f306223",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
