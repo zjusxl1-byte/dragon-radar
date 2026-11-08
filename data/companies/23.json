@@ -1666,16 +1666,18 @@
       "event_type": "产业竞争",
       "link": "https://mp.weixin.qq.com/s/xr0winaGppnN6rIRW0OF_w",
       "sector": "半导体/DRAM",
-      "location": "地点线索：合肥",
+      "location": "安徽省 / 合肥市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "安徽省 / 合肥市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-aec640bd3744634e6bc35a8e"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "长鑫存储技术有限公司(CXMT)",
         "subject_locality": {
           "status": "unknown",
@@ -1683,7 +1685,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-aec640bd3744634e6bc35a8e",
+            "source_url": "https://www.cxmt.com/about.html",
+            "checked_at": "2026-11-08T21:51:38.849306+00:00",
+            "subject": "长鑫存储技术有限公司(CXMT)",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "安徽省",
+              "city": "合肥市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "安徽省",
+          "city": "合肥市",
+          "evidence_ids": [
+            "geo-aec640bd3744634e6bc35a8e"
+          ]
+        }
       },
       "article_location": "合肥",
       "source": "半导体行业观察",

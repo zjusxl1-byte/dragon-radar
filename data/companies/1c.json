@@ -1447,24 +1447,56 @@
       "event_type": "场景交付",
       "link": "https://mp.weixin.qq.com/s/VU9BenyqoQ0d9ouraIXkMw",
       "sector": "具身智能/触觉灵巧手",
-      "location": "地点线索：上海（门店部署地；企业总部待核实）",
+      "location": "SG / 新加坡",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "SG / 新加坡",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f15d70f8408bef620c0ec330"
+        ],
+        "subject_evidence_ids": [
+          "geo-f15d70f8408bef620c0ec330"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "Sharpa(法人全称待核实)",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "SG",
+          "city": "新加坡",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-f15d70f8408bef620c0ec330"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-f15d70f8408bef620c0ec330",
+            "source_url": "https://www.prnewswire.com/news-releases/ai-robotmaker-sharpa-reaches-key-milestone-with-mass-production-of-worlds-most-advanced-human-sized-robotic-hand-302643434.html",
+            "checked_at": "2026-11-08T21:51:39.423601+00:00",
+            "subject": "Sharpa(法人全称待核实)",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "SG",
+              "city": "新加坡"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "SG",
+          "city": "新加坡",
+          "evidence_ids": [
+            "geo-f15d70f8408bef620c0ec330"
+          ]
+        }
       },
       "article_location": "上海（门店部署地；企业总部待核实）",
       "source": "创业邦",

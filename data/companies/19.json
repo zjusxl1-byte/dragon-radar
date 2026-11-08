@@ -407,16 +407,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/Q_RJ6iBrl7XfA2PofEeWJg",
       "sector": "具身智能基础设施与机器人软件平台",
-      "location": "地点待核",
+      "location": "北京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-77497d7ff37c2eeed79db03c"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "灵生科技",
         "subject_locality": {
           "status": "unknown",
@@ -424,7 +426,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-77497d7ff37c2eeed79db03c",
+            "source_url": "https://www.tianyancha.com/brand/bbabf854973",
+            "checked_at": "2026-11-08T21:54:38.738445+00:00",
+            "subject": "灵生科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-77497d7ff37c2eeed79db03c"
+          ]
+        }
       },
       "article_location": "",
       "source": "投资界",

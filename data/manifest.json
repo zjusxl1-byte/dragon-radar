@@ -4267,7 +4267,7 @@
     "2026-11-08": "2345e6bdd5342bc78bb7fab2de39bbfcf2405b4d4c38a708f39099efc099b45c",
     "2026-11-09": "5d8357cfef701a36e4aaad1ef89292e1a7a87d42079016168c40cd71d1ea4c9d"
   },
-  "geography_version": "a047e8e61a8734b5ee37158576969481635ba2abacfd950391b3cccd8dfbf465",
+  "geography_version": "74705733cf8385ef1d007abc6153bf56fa8d954dbf38b6edb05062c603b31cb4",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -8004,10 +8004,48 @@
       ]
     },
     "dr-u-2256848e2d62977ac5af": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "安徽省 / 合肥市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-aec640bd3744634e6bc35a8e"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "长鑫存储技术有限公司(CXMT)",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-aec640bd3744634e6bc35a8e",
+          "source_url": "https://www.cxmt.com/about.html",
+          "checked_at": "2026-11-08T21:51:38.849306+00:00",
+          "subject": "长鑫存储技术有限公司(CXMT)",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "安徽省",
+            "city": "合肥市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "安徽省",
+        "city": "合肥市",
+        "evidence_ids": [
+          "geo-aec640bd3744634e6bc35a8e"
+        ]
+      }
     },
     "dr-u-22a11cbaca71a3b3a080": {
       "geography_status": "unknown",
@@ -9036,10 +9074,54 @@
       "located_status": "unknown"
     },
     "dr-u-2a2ae5ff71ef1dd8f79e": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "SG / 新加坡",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-f15d70f8408bef620c0ec330"
+      ],
+      "subject_evidence_ids": [
+        "geo-f15d70f8408bef620c0ec330"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "Sharpa(法人全称待核实)",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "SG",
+        "city": "新加坡",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-f15d70f8408bef620c0ec330"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-f15d70f8408bef620c0ec330",
+          "source_url": "https://www.prnewswire.com/news-releases/ai-robotmaker-sharpa-reaches-key-milestone-with-mass-production-of-worlds-most-advanced-human-sized-robotic-hand-302643434.html",
+          "checked_at": "2026-11-08T21:51:39.423601+00:00",
+          "subject": "Sharpa(法人全称待核实)",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "SG",
+            "city": "新加坡"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "SG",
+        "city": "新加坡",
+        "evidence_ids": [
+          "geo-f15d70f8408bef620c0ec330"
+        ]
+      }
     },
     "dr-u-2a3463384a2b7a9036d7": {
       "geography_status": "confirmed",
@@ -17935,10 +18017,67 @@
       }
     },
     "dr-u-71a5158fd40eadd52d83": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市海淀区中关村东路8号东升大厦A座4层28室",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-7b979584e705b7f374330cb2",
+        "geo-a27c7d7c04e13d0c75dadf71"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "北京初速度科技有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-7b979584e705b7f374330cb2",
+          "source_url": "https://www.91wllm.cn/companydetail/view/id/363227",
+          "checked_at": "2026-11-08T21:54:13.900170+00:00",
+          "subject": "北京初速度科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区",
+            "address": "北京市海淀区中关村东路8号东升大厦A座4层28室"
+          }
+        },
+        {
+          "evidence_id": "geo-a27c7d7c04e13d0c75dadf71",
+          "source_url": "https://www.taibo.cn/company/144",
+          "checked_at": "2026-11-08T21:54:30.375382+00:00",
+          "subject": "北京初速度科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "evidence_ids": [
+          "geo-7b979584e705b7f374330cb2",
+          "geo-a27c7d7c04e13d0c75dadf71"
+        ]
+      }
     },
     "dr-u-71ad3b87d91654166c67": {
       "geography_status": "unknown",
@@ -33893,10 +34032,48 @@
       "located_status": "unknown"
     },
     "dr-u-f495e04ed33b4e4d99f9": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-77497d7ff37c2eeed79db03c"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "灵生科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-77497d7ff37c2eeed79db03c",
+          "source_url": "https://www.tianyancha.com/brand/bbabf854973",
+          "checked_at": "2026-11-08T21:54:38.738445+00:00",
+          "subject": "灵生科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "evidence_ids": [
+          "geo-77497d7ff37c2eeed79db03c"
+        ]
+      }
     },
     "dr-u-f4b3df6e4d7ed7a821f2": {
       "geography_status": "confirmed",
@@ -34648,10 +34825,51 @@
       "located_status": "unknown"
     },
     "dr-u-f9faf7369ee97266bace": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "陕西省西安市高陵区北方智造2-22",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-965385b7868e3acd3a852a70"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "上海星环聚能科技有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-965385b7868e3acd3a852a70",
+          "source_url": "https://startorus.cn",
+          "checked_at": "2026-11-08T21:51:52.699074+00:00",
+          "subject": "上海星环聚能科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "陕西省",
+            "city": "西安市",
+            "district": "高陵区",
+            "address": "陕西省西安市高陵区北方智造2-22"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "陕西省",
+        "city": "西安市",
+        "district": "高陵区",
+        "evidence_ids": [
+          "geo-965385b7868e3acd3a852a70"
+        ]
+      }
     },
     "dr-u-fa0bb6f26fdabca66ca6": {
       "geography_status": "confirmed",
@@ -60439,11 +60657,11 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "15f76770716d3efc523cbaf4a6c7d446ac5e8657338b397b0d63358a57bce04a",
+  "history_version": "e6bf2b59e233264c77dc26c24aa15c8801fe666471f136d34aeb04ab5eda416c",
   "company_history_buckets": {
     "00": "08d9e4c396378a93fa306bc5daaa9346452583b91ac8c4211cec3ada4136af61",
     "01": "7069574a04eb1cdc06ab2c9f4c478bf6c0092714bd959624e065bd8f90af3c5a",
-    "02": "e0683e0d772e9bd433fa0bc5c29000d179d9b31e0bac71c0f20716ca71dfa518",
+    "02": "f7367f3b32f01a656f8619084295630af7ca26971d0a707c9a4b0e76c6d4df42",
     "03": "1b09dd481d809f026fa6dbb5a877223fa8b7a1ca79c2047cb252d1f67112aa86",
     "04": "6b8ca226db4ca6fe68d6cc97c6c544d850f8330f02852e6440a4909bb84112de",
     "05": "bbce19309d72f5520a3884acdc56979ef327bcb033c14001bc92019da1deec4e",
@@ -60466,17 +60684,17 @@
     "16": "ecf1ae0687d3886a322854a7a0338addfb8edc1a97ec93a615a4b60f679d9b81",
     "17": "2318c6200c9bf9dc9376646c0d149974fbbc0028a47c04086a30048fba6e97c4",
     "18": "0ec5e10848d21def2a7baed5326ca79d3a84b2a7a81f0f57e20c7ea2e4f28815",
-    "19": "4b90a75ab22b4fb217ed3c06b98313da8813171550721408d9c10d0ff7101dff",
+    "19": "f3a9de38b121a2cd2df1c00af61f9dfc0bd32c4f674d29826559501f666d8672",
     "1a": "d9fb83cb856dbc1e32672213dfe6b646e07fd82f0c62a031694f17e807f9b9c1",
     "1b": "4d444578fcaad44fa473c0206e4855138a566c5a24a4b911af9b77b3927e110a",
-    "1c": "d8ffa75c7ce9270890b0767dadd4f5b21bcd1208abd724e68d824e0a72959660",
+    "1c": "f89ee6cc6a2862cb56be8fd2ff247dd0fcb86f77ffeafbc07c8b5908fc0e7fac",
     "1d": "1e92a7ed251e9a180e8d1d95f474a44d47632016bf2d9fb09ff8933a521e9f12",
     "1e": "d6057c9ee9ab7929057b224cfbe7787eec72506f3ea496b9c32b680a00f68f40",
     "1f": "e1391ffa396a2eb98bb88f292f2b7a2be5789d5fa185e6be6229e134ad34e2ee",
     "20": "e6d541e865418a56bbebc209359d40c61009dd4c514949d19f21000f090061ab",
     "21": "ad2c4ef7485c83e7fec860bfa55a6e5e60d203b8ab5fe783b32fff44fcbccecc",
     "22": "9fbd5c8fee0c72fa550b183a4122305a4959027d6a17a6c0d08f6347496f7071",
-    "23": "b92972c0d32e1a8e376c559dc101ea4b5d0d860867364c75d94f6ff0bf7abf5e",
+    "23": "7ccb755345c9aca24902d6f94a0f5206a9e6c9af56bb34fe5cf6a3bafacc445c",
     "24": "ab10178d5347adbf4209533f08be888f3beea51bb070ac6f648211819998974b",
     "25": "d0dce119bfeeadb4cb77eee404fd707bb41a4ca3d943167c5641bb8525618aa1",
     "26": "9bf663bd2b89feb37c4a0d805a208818ba69645132b3d77bf39a43472d3f7ed4",
@@ -60490,7 +60708,7 @@
     "2e": "4a9d986cbbef57c2c4f64d6e3eaff089ad565a9b0a118e2d6d38a35134664c1d",
     "2f": "82df7216489bb3708c6d33a6e888a4ea45297786f98d5c85d6ac473b11bd23b6",
     "30": "bcb875806ed219758b818a209f1a2deebad1eec339d57ec7d9f6f6b380d92c52",
-    "31": "642accfea7ac0ef3d7a8f5a82acc4afeeb71d603952899424d794aef1c054c9e",
+    "31": "2639a5fbb760a6c9a5678f34d3a373bbef9d1038a9d381dc77da68d70fe63dc6",
     "32": "7e60cf3b5627dc1a5a76edf1ad2b63a056919694576593277158848a698d795b",
     "33": "f2540008d6b342fa788dbf56590d91520d7456b68180bbbd5aa706d7986007ad",
     "34": "9a523618aad1013ef6a6de4c442e83958d016a0e6ffc5c7d3cac6a3d9862bec5",
@@ -60506,7 +60724,7 @@
     "3e": "752d420a37dab0f3ce873e1c2ab00d29b9ec2ee7340712175f0e3a930e366272",
     "3f": "f33edb457d9122b28689c46d2892cf2a996bc41893a60e65bcb2d9eee9d88e63"
   },
-  "history_search_version": "c600b5461b2c375a72447204d5a43d9446c3108728c2a66b92e0c3554a323ff2",
+  "history_search_version": "724ad97deed029f677525b473df40c5f6df5d9339c48f5742a1332ad534b62f4",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
