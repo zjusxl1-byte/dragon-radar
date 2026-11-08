@@ -5196,7 +5196,7 @@
     "2026-11-07": "c51da51930bc6f599758fdef6cb8bb243f45dd154a09380809576c0c1457804e",
     "2026-11-08": "2345e6bdd5342bc78bb7fab2de39bbfcf2405b4d4c38a708f39099efc099b45c"
   },
-  "geography_version": "d01a1ed3309a42a4f678dff457b152a644869dea76adc62f95d004246f804890",
+  "geography_version": "13502c14966d84841c94b29419f57f60754a56ecbeca56fd5efaac450981e63d",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -34697,10 +34697,50 @@
       }
     },
     "dr-u-fa231185d7e274dbc2eb": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市 / 朝阳区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-349d6b0fba76f0fe9bf419c5"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "影智XBOT",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-349d6b0fba76f0fe9bf419c5",
+          "source_url": "https://zscqj.beijing.gov.cn/zscqj/zwfw/dwml/sdsfdw/743835791/2025111916303470757.pdf",
+          "checked_at": "2026-11-08T16:55:47.065569+00:00",
+          "subject": "影智XBOT",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "朝阳区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "district": "朝阳区",
+        "evidence_ids": [
+          "geo-349d6b0fba76f0fe9bf419c5"
+        ]
+      }
     },
     "dr-u-fa24846aa3376ccccf1b": {
       "geography_status": "unknown",
@@ -60086,7 +60126,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "f9af208369051d61ddaf7af6f72a0e6931cc029f52a957e63b3247eebeabdbca",
+  "history_version": "0dab7dede251957741abda03e76ee80a4cc314a17dd3d5c7b3eb361a5be05d93",
   "company_history_buckets": {
     "00": "08d9e4c396378a93fa306bc5daaa9346452583b91ac8c4211cec3ada4136af61",
     "01": "7069574a04eb1cdc06ab2c9f4c478bf6c0092714bd959624e065bd8f90af3c5a",
@@ -60144,7 +60184,7 @@
     "35": "57d5a4a4df274b9e79332c044d7478f52e23e04d0216091c95f928a22478b57f",
     "36": "9d0f58bfe86bcefbe5eeb20ca53f60b616c9a846439aa3083ebed51a04e122ea",
     "37": "245671b550fd1efa033e1d86504d79d44c13ed726a564e1054aaa45d877d478c",
-    "38": "6903e8591cc8dbd75b5bfe1bd40575ab8e296a7f2534f0087b63eb866acc1f6d",
+    "38": "12dbf869d4c95522e8468a7139a80761678d51ef43c7af96f4a6437645f8e613",
     "39": "5af14a9d164f66840f51741e620d066dfe5cbf7f143bfc40c5f8e03d7319feeb",
     "3a": "d2970650dc82b29c54ee86b066e3e3d15a42522d6cfbcaa15285a20f07e6d4d7",
     "3b": "b6baf0886db86a8cc6b91f60eea103e30a23456d2cc297dea328e83f56160b5d",
@@ -60153,7 +60193,7 @@
     "3e": "edead116ba99137dd5a15e682af121bfd9957acbbc91a07e898b4ff30ca359bd",
     "3f": "fd7d60c4880e7dae36b57037a7ab6c80acb83721760fb017c6436cbe072f7e09"
   },
-  "history_search_version": "47bc1c4821a609086a8bfe8e90a2be54bc31e35478bcc3976b8876311e743f0e",
+  "history_search_version": "50351d19c8f10c34bf8b5f53d21cb76a6495010b1572ec0f3dcab5e2b0187fbe",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",
