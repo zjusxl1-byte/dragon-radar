@@ -219,17 +219,19 @@
           "sector": "AI眼镜与智能穿戴",
           "financing": "",
           "source": "浙商杂志",
-          "location": "地点待核",
+          "location": "浙江省 / 杭州市 / 余杭区",
           "article_location": "",
           "geography": {
-            "geography_status": "unknown",
-            "classification": "unknown",
-            "display_location": "地点待核",
-            "located_status": "unknown",
-            "display_basis": [],
+            "geography_status": "confirmed",
+            "classification": "hangzhou",
+            "display_location": "浙江省 / 杭州市 / 余杭区",
+            "located_status": "discovery_confirmed",
+            "display_basis": [
+              "geo-6ef75ef1abdf9c3b60dfd8a6"
+            ],
             "subject_evidence_ids": [],
-            "needs_review": true,
-            "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+            "needs_review": false,
+            "next_action": null,
             "subject": "灵伴科技",
             "subject_locality": {
               "status": "unknown",
@@ -237,7 +239,33 @@
               "basis_roles": [],
               "evidence_ids": []
             },
-            "basis": []
+            "basis": [
+              {
+                "evidence_id": "geo-6ef75ef1abdf9c3b60dfd8a6",
+                "source_url": "https://mp.weixin.qq.com/s/U4U94p2ZNVha51teiwYGnQ",
+                "checked_at": "2026-11-08T16:30:55.871422+00:00",
+                "subject": "灵伴科技",
+                "role": "business",
+                "subject_relation": "same_subject",
+                "place": {
+                  "country": "CN",
+                  "province": "浙江省",
+                  "city": "杭州市",
+                  "district": "余杭区"
+                }
+              }
+            ],
+            "discovery_locality": {
+              "status": "confirmed",
+              "classification": "hangzhou",
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "evidence_ids": [
+                "geo-6ef75ef1abdf9c3b60dfd8a6"
+              ]
+            }
           },
           "company_entity_id": "dr-u-af3a1c671a87dc90d961",
           "company_canonical_name": "灵伴科技",
@@ -5168,7 +5196,7 @@
     "2026-11-07": "c51da51930bc6f599758fdef6cb8bb243f45dd154a09380809576c0c1457804e",
     "2026-11-08": "2345e6bdd5342bc78bb7fab2de39bbfcf2405b4d4c38a708f39099efc099b45c"
   },
-  "geography_version": "efd26f300e24a5b6f4e82531ca9465c98ff2ea9ce505f6b32e397503356f28c7",
+  "geography_version": "d01a1ed3309a42a4f678dff457b152a644869dea76adc62f95d004246f804890",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -6211,10 +6239,50 @@
       }
     },
     "dr-u-091cebb7e3f7c25696e2": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "江苏省 / 苏州市 / 相城区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-1f3a9bc3d5160817f2858d24"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "XHEART新芯航途",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-1f3a9bc3d5160817f2858d24",
+          "source_url": "https://app.myzaker.com/news/article.php?pk=6ae015168e9f09406c12f458",
+          "checked_at": "2026-11-08T15:48:53.182455+00:00",
+          "subject": "XHEART新芯航途",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "江苏省",
+            "city": "苏州市",
+            "district": "相城区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "江苏省",
+        "city": "苏州市",
+        "district": "相城区",
+        "evidence_ids": [
+          "geo-1f3a9bc3d5160817f2858d24"
+        ]
+      }
     },
     "dr-u-097b916d257c3d421321": {
       "geography_status": "confirmed",
@@ -20532,10 +20600,51 @@
       "located_status": "unknown"
     },
     "dr-u-80eb4e22e188d74ab120": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市海淀区中关村南大街乙12号院1号楼3层3-037",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-1d5d009a8c5c96cee7a73f25"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "水木分子",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-1d5d009a8c5c96cee7a73f25",
+          "source_url": "https://m.liepin.com/company/21133971",
+          "checked_at": "2026-11-08T15:51:51.164089+00:00",
+          "subject": "水木分子",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区",
+            "address": "北京市海淀区中关村南大街乙12号院1号楼3层3-037"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "evidence_ids": [
+          "geo-1d5d009a8c5c96cee7a73f25"
+        ]
+      }
     },
     "dr-u-811d3fe2a741e391510e": {
       "geography_status": "confirmed",
@@ -20628,10 +20737,63 @@
       }
     },
     "dr-u-8154784b4c276f54e314": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "湖北省 / 武汉市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-24a716a7226e126a6dcbbf20",
+        "geo-a5c74f2c8b04237540c44198"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "左点科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-24a716a7226e126a6dcbbf20",
+          "source_url": "https://bydrug.pharmcube.com/news/detail/5ff8b55a6d97e707927767f7135634ad",
+          "checked_at": "2026-11-08T16:12:38.418403+00:00",
+          "subject": "左点科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "湖北省",
+            "city": "武汉市"
+          }
+        },
+        {
+          "evidence_id": "geo-a5c74f2c8b04237540c44198",
+          "source_url": "https://zdeer.com.cn/NewsCenter/list.aspx",
+          "checked_at": "2026-11-08T16:12:37.288311+00:00",
+          "subject": "左点科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "湖北省",
+            "city": "武汉市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "湖北省",
+        "city": "武汉市",
+        "evidence_ids": [
+          "geo-24a716a7226e126a6dcbbf20",
+          "geo-a5c74f2c8b04237540c44198"
+        ]
+      }
     },
     "dr-u-8165708548fca269d2b8": {
       "geography_status": "unknown",
@@ -25837,10 +25999,50 @@
       "located_status": "unknown"
     },
     "dr-u-af3a1c671a87dc90d961": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 余杭区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-6ef75ef1abdf9c3b60dfd8a6"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "灵伴科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-6ef75ef1abdf9c3b60dfd8a6",
+          "source_url": "https://mp.weixin.qq.com/s/U4U94p2ZNVha51teiwYGnQ",
+          "checked_at": "2026-11-08T16:30:55.871422+00:00",
+          "subject": "灵伴科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "余杭区",
+        "evidence_ids": [
+          "geo-6ef75ef1abdf9c3b60dfd8a6"
+        ]
+      }
     },
     "dr-u-af7293418a29bb215c5e": {
       "geography_status": "confirmed",
@@ -33343,10 +33545,48 @@
       "located_status": "unknown"
     },
     "dr-u-f24ff819b7bc699fc498": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-effb0c6841baef9dae7ee2cf"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "临界点",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-effb0c6841baef9dae7ee2cf",
+          "source_url": "https://www.szzg.gov.cn/2026/xwzx/szkx/202609/t20260914_5371114.htm",
+          "checked_at": "2026-11-08T16:12:26.482112+00:00",
+          "subject": "临界点",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "evidence_ids": [
+          "geo-effb0c6841baef9dae7ee2cf"
+        ]
+      }
     },
     "dr-u-f263ba1472b25ae8ad42": {
       "geography_status": "confirmed",
@@ -59846,7 +60086,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "7853ed9b7893e70fe778296651a053b2eda578cb52b2962b3953efbf66b8638b",
+  "history_version": "f9af208369051d61ddaf7af6f72a0e6931cc029f52a957e63b3247eebeabdbca",
   "company_history_buckets": {
     "00": "08d9e4c396378a93fa306bc5daaa9346452583b91ac8c4211cec3ada4136af61",
     "01": "7069574a04eb1cdc06ab2c9f4c478bf6c0092714bd959624e065bd8f90af3c5a",
@@ -59881,8 +60121,8 @@
     "1e": "d6057c9ee9ab7929057b224cfbe7787eec72506f3ea496b9c32b680a00f68f40",
     "1f": "005c056ce03c07ec3ea671e00fc8c30945a2600364bccb23a117a47199d1e788",
     "20": "e6d541e865418a56bbebc209359d40c61009dd4c514949d19f21000f090061ab",
-    "21": "15df5fdbde1833d1150695bc81c215a60dc8780bcc19f820abd1865bf2f3d3d5",
-    "22": "b6530b6425cb18a960feeaa9805b6ac67ee2110900b032cb2ae25a4b827a37d1",
+    "21": "819ba0d1e9d169c5e629ffa7145ee7e05a04e63a0fee8775c6819e0246b33e3d",
+    "22": "484fca3a73e8bc0a9e8e5197cf331b1a0b6052d24b1a5559720c24f8f151f85c",
     "23": "b92972c0d32e1a8e376c559dc101ea4b5d0d860867364c75d94f6ff0bf7abf5e",
     "24": "ab10178d5347adbf4209533f08be888f3beea51bb070ac6f648211819998974b",
     "25": "0bde0b5f8732d6d61d7129a1c9229ac8d5701cae57569c122dcbea36cd77de76",
@@ -59894,7 +60134,7 @@
     "2b": "32999b2f729e7629e6f11a58c2e6c21256358c2347cf0839b27c18d57c723942",
     "2c": "80211fe0fad0832f9644040137b790da3b463024e7a6ae0f168763808a456980",
     "2d": "ce2e35f92b4bff54b6303c9d026e2a4544b1260c9e7eaab7d00ac7026fe79a18",
-    "2e": "6a5dd7682c2c10c207e6d046b30a03002e844925c400b2f6a6c8c234493cd5ff",
+    "2e": "4a9d986cbbef57c2c4f64d6e3eaff089ad565a9b0a118e2d6d38a35134664c1d",
     "2f": "82df7216489bb3708c6d33a6e888a4ea45297786f98d5c85d6ac473b11bd23b6",
     "30": "f6e23ccbd6158ed9db47d7000baae6b3642fadb524dabe13e2c129a07bf47dce",
     "31": "5654eb7890ff2e8dc4a28d69abad7a3c761f1ae8551e018a2a3d8e72a15d6c75",
@@ -59903,17 +60143,17 @@
     "34": "f2375179bb19ff1461c2991959d47995f1bd5300145a6f93008b690fe2c78f72",
     "35": "57d5a4a4df274b9e79332c044d7478f52e23e04d0216091c95f928a22478b57f",
     "36": "9d0f58bfe86bcefbe5eeb20ca53f60b616c9a846439aa3083ebed51a04e122ea",
-    "37": "9a23f2510ab70d46ac4c73966e704f0b823454559be23955b6cdb5eec718d5ab",
+    "37": "245671b550fd1efa033e1d86504d79d44c13ed726a564e1054aaa45d877d478c",
     "38": "6903e8591cc8dbd75b5bfe1bd40575ab8e296a7f2534f0087b63eb866acc1f6d",
     "39": "5af14a9d164f66840f51741e620d066dfe5cbf7f143bfc40c5f8e03d7319feeb",
     "3a": "d2970650dc82b29c54ee86b066e3e3d15a42522d6cfbcaa15285a20f07e6d4d7",
     "3b": "b6baf0886db86a8cc6b91f60eea103e30a23456d2cc297dea328e83f56160b5d",
     "3c": "49c50f3c0f3babe15928438267c7b0d0a548c2dec3cb28c60461650609dd891d",
     "3d": "b7de6737facef66c6ac419eb748edf00f218d2dab1c96e2aabafe414bb29d89f",
-    "3e": "fde037ca3d0a2e33b971752c85d2b9dab4b990c8c5f6dfd627e117ba890b2674",
+    "3e": "edead116ba99137dd5a15e682af121bfd9957acbbc91a07e898b4ff30ca359bd",
     "3f": "fd7d60c4880e7dae36b57037a7ab6c80acb83721760fb017c6436cbe072f7e09"
   },
-  "history_search_version": "9f694a4f75cdf0ca450e6b011e32438d9b039fe491121bf9e7f2ed765f306223",
+  "history_search_version": "47bc1c4821a609086a8bfe8e90a2be54bc31e35478bcc3976b8876311e743f0e",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",

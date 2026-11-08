@@ -1927,16 +1927,19 @@
       "event_type": "资质获批",
       "link": "https://mp.weixin.qq.com/s/3Jp01Ec1b3tGBO7RyHnZZg",
       "sector": "家用医疗器械与消费健康硬件",
-      "location": "地点待核",
+      "location": "湖北省 / 武汉市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "湖北省 / 武汉市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-24a716a7226e126a6dcbbf20",
+          "geo-a5c74f2c8b04237540c44198"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "左点科技",
         "subject_locality": {
           "status": "unknown",
@@ -1944,7 +1947,45 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-24a716a7226e126a6dcbbf20",
+            "source_url": "https://bydrug.pharmcube.com/news/detail/5ff8b55a6d97e707927767f7135634ad",
+            "checked_at": "2026-11-08T16:12:38.418403+00:00",
+            "subject": "左点科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "湖北省",
+              "city": "武汉市"
+            }
+          },
+          {
+            "evidence_id": "geo-a5c74f2c8b04237540c44198",
+            "source_url": "https://zdeer.com.cn/NewsCenter/list.aspx",
+            "checked_at": "2026-11-08T16:12:37.288311+00:00",
+            "subject": "左点科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "湖北省",
+              "city": "武汉市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "湖北省",
+          "city": "武汉市",
+          "evidence_ids": [
+            "geo-24a716a7226e126a6dcbbf20",
+            "geo-a5c74f2c8b04237540c44198"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
