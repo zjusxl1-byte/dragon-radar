@@ -212,148 +212,6 @@
           "company_db_id": 27
         },
         {
-          "company_raw_name": "World Labs",
-          "identity_mentions": [
-            {
-              "name": "Frameboy",
-              "relation": "product",
-              "evidence": "李飞飞创办的 World Labs 发布了一款名为 Frameboy 的研究预览版 Demo"
-            },
-            {
-              "name": "Atlas",
-              "relation": "product",
-              "evidence": "直接把自家的自回归世界模型 Atlas 拉进了实时交互时代"
-            },
-            {
-              "name": "Viewfinder",
-              "relation": "product",
-              "evidence": "World Labs 还把实时串流能力塞进了自家的网页端应用 Viewfinder 里"
-            }
-          ],
-          "title": "李飞飞最新AI成果发布，把世界模型装进复古掌机，单张图实时跑出15帧",
-          "company": "World Labs",
-          "score": 60,
-          "sector": "空间智能与生成式三维内容",
-          "financing": "",
-          "source": "创业邦",
-          "location": "地点线索：旧金山（总部）",
-          "article_location": "旧金山（总部）",
-          "geography": {
-            "geography_status": "unknown",
-            "classification": "unknown",
-            "display_location": "地点待核",
-            "located_status": "unknown",
-            "display_basis": [],
-            "subject_evidence_ids": [],
-            "needs_review": true,
-            "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-            "subject": "World Labs",
-            "subject_locality": {
-              "status": "unknown",
-              "classification": "unknown",
-              "basis_roles": [],
-              "evidence_ids": []
-            },
-            "basis": []
-          },
-          "company_entity_id": "dr-u-da2f0f03bc3a24f599ed",
-          "company_canonical_name": "World Labs",
-          "identity_status": "confirmed",
-          "event_type": "重磅发布",
-          "link": "https://mp.weixin.qq.com/s/OPala6yZGt-bdRLryDKvTA",
-          "article_title": "李飞飞最新AI成果发布，把世界模型装进复古掌机，单张图实时跑出15帧",
-          "event_desc": "据文章，World Labs 发布基于优化版自回归世界模型 Atlas 的研究预览演示 Frameboy，支持从单张图片生成可探索场景，并通过云端高性能 GPU 向浏览器串流最高15 fps的画面，用户可交互控制相机视角。其网页应用 Viewfinder 也加入实时渲染叠加模式，目前处于封闭测试阶段，已开放候补名单申请。",
-          "insight": "这次进展的重点是把生成后等待查看的操作，推进为边移动相机边观察画面的交互方式，让场景探索与机位尝试获得更及时的反馈。当前能力依赖云端高性能GPU，复古掌机只是演示界面形态，并非世界模型已能在掌机硬件上运行。",
-          "event_headline": "World Labs发布Frameboy，让世界模型支持实时视角探索",
-          "event_signal": "material",
-          "is_national_star": false,
-          "event_time_evidence": {
-            "status": "date_unknown_recent_report",
-            "description": "事件日期未明确；报道日为 2026-11-06",
-            "event_date": null,
-            "observed_date": "2026-11-06",
-            "review_required": true
-          },
-          "published_date": "2026-11-06",
-          "publication_basis": "采集源保留的发布时间",
-          "selection_recommendation": "keep",
-          "selection_reason": "全文明确Frameboy基于Atlas向浏览器实时串流最高15fps，Viewfinder处封闭测试；新闻11月6日符合窗口，既有9月AMD拟收购非本事件。保留研究预览，不写本地掌机运行、量产或收购完成。",
-          "event_headline_source": "6aac4e0e7bffb213032af9a294def3a8161b8e987f9e2674c1d6b9f4980f17a7",
-          "location_status": "unknown",
-          "location_basis": [],
-          "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-          "location_candidates": [
-            {
-              "value": "旧金山（总部）",
-              "status": "article_candidate_only",
-              "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
-            }
-          ],
-          "benchmark_review": {
-            "status": "not_qualified",
-            "eligible": false,
-            "reason": "具体应用观察成立，本材料不构成独立性能或市场标杆认证。",
-            "evidence_ids": [
-              "article:a9f7913bf467bad6"
-            ]
-          },
-          "quality_review": {
-            "schema_version": "dragon-overnight-review.v2",
-            "decision": "keep",
-            "reviewer": "overnight current Agent: six validated semantic batches and two directed full-text decisions",
-            "candidate_id": "2e373c2b4220f970e87c5addd2361d6b2468c7b1c60ff709bd8051c3bd5e3686",
-            "input_row_sha256": "5fd2365e8688bfa31f36d24a137a4573d02440e58682d5563640d62646a90a50",
-            "reason": "全文明确Frameboy基于Atlas向浏览器实时串流最高15fps，Viewfinder处封闭测试；新闻11月6日符合窗口，既有9月AMD拟收购非本事件。保留研究预览，不写本地掌机运行、量产或收购完成。",
-            "scope": {
-              "technology_evidence": "据文章，World Labs 发布基于优化版自回归世界模型 Atlas 的研究预览演示 Frameboy，支持从单张图片生成可探索场景，并通过云端高性能 GPU 向浏览器串流最高15 fps的画面，用户可交互控制相机视角。其网页应用 Viewfinder 也加入实时渲染叠加模式，目前处于封闭测试阶段，已开放候补名单申请。",
-              "value_reason": "从逐帧等待到相机交互探索，改变三维内容迭代方式；比较核心在生成延迟与云端GPU成本，非演示即证明物理仿真能力。"
-            },
-            "stage": {
-              "status": "research_preview",
-              "reason": "全文明确Frameboy基于Atlas向浏览器实时串流最高15fps，Viewfinder处封闭测试；新闻11月6日符合窗口，既有9月AMD拟收购非本事件。保留研究预览，不写本地掌机运行、量产或收购完成。"
-            },
-            "history": {
-              "result": "new_event",
-              "evidence_ids": [
-                "accepted_history:0a5ea444c5789ca4",
-                "history_lookup:43368e8183b47b22",
-                "prior_decision:61a2b1f3f0b5b5e3",
-                "prior_decision:95d4d09fdc5e0206"
-              ],
-              "prior_decisions": [
-                {
-                  "evidence_id": "prior_decision:61a2b1f3f0b5b5e3",
-                  "comparison": "different_event",
-                  "reason": "旧裁决均为AMD拟收购，当前为独立实时渲染研究演示，不重报并购。"
-                },
-                {
-                  "evidence_id": "prior_decision:95d4d09fdc5e0206",
-                  "comparison": "different_event",
-                  "reason": "旧裁决均为AMD拟收购，当前为独立实时渲染研究演示，不重报并购。"
-                }
-              ],
-              "change_reason": "旧裁决均为AMD拟收购，当前为独立实时渲染研究演示，不重报并购。",
-              "new_evidence_ids": [
-                "article:a9f7913bf467bad6"
-              ]
-            },
-            "evidence_ids": [
-              "article:a9f7913bf467bad6",
-              "accepted_history:0a5ea444c5789ca4",
-              "history_lookup:43368e8183b47b22"
-            ],
-            "benchmark_review": {
-              "status": "not_qualified",
-              "eligible": false,
-              "reason": "具体应用观察成立，本材料不构成独立性能或市场标杆认证。",
-              "evidence_ids": [
-                "article:a9f7913bf467bad6"
-              ]
-            }
-          },
-          "company_db_id": 335
-        },
-        {
           "company_raw_name": "灵伴科技",
           "title": "灵伴科技祝铭明：AI眼镜远远没有到相互竞争的阶段丨浙商说",
           "company": "灵伴科技",
@@ -481,6 +339,116 @@
             }
           },
           "company_db_id": 150
+        },
+        {
+          "company_raw_name": "舜宇光学",
+          "title": "世界浙商论坛，浙商们反复提到了三个关键词",
+          "company": "舜宇光学",
+          "score": 0,
+          "sector": "光学器件",
+          "financing": "",
+          "source": "临平发布",
+          "location": "地点线索：浙江余姚（总部）",
+          "article_location": "浙江余姚（总部）",
+          "geography": {
+            "geography_status": "unknown",
+            "classification": "unknown",
+            "display_location": "地点待核",
+            "located_status": "unknown",
+            "display_basis": [],
+            "subject_evidence_ids": [],
+            "needs_review": true,
+            "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+            "subject": "舜宇光学",
+            "subject_locality": {
+              "status": "unknown",
+              "classification": "unknown",
+              "basis_roles": [],
+              "evidence_ids": []
+            },
+            "basis": []
+          },
+          "company_entity_id": "dr-u-3ff07256288f5963aa5d",
+          "company_canonical_name": "舜宇光学",
+          "identity_status": "unresolved",
+          "event_type": "其他",
+          "link": "https://mp.weixin.qq.com/s/X9SExlF-yKzToy6OYIvvIg",
+          "article_title": "世界浙商论坛，浙商们反复提到了三个关键词",
+          "event_desc": "文章披露，舜宇光学2026年上半年泛IoT及其他产品收入40.39亿元，同比增长88.51%，成为公司第二大毛利贡献来源。",
+          "insight": "泛IoT及其他产品已成为第二大毛利贡献来源，说明舜宇的业务拓展不仅体现为收入增长，也在改变利润来源结构。文章未拆分该类别的产品构成，下一步值得研究的是哪些具体应用承担了增长。",
+          "event_headline": "舜宇光学2026年上半年泛IoT及其他产品收入增长88.51%",
+          "event_signal": "material",
+          "is_national_star": false,
+          "event_time_evidence": {
+            "status": "reported_historical_period",
+            "description": "经营成果对应2026年上半年；文章发布时间为2026年11月7日，具体单日事件日期不适用，不以论坛日期替代。",
+            "event_date": null,
+            "event_period": "2026年上半年",
+            "observed_date": "2026-11-07",
+            "review_required": false
+          },
+          "published_date": "2026-11-07",
+          "publication_basis": "采集源保留的发布时间",
+          "selection_recommendation": "keep",
+          "selection_reason": "原文明确将2026年上半年泛IoT及其他产品收入40.39亿元、同比增长88.51%及第二大毛利贡献来源归于舜宇光学。这是具体产品业务的商业化与利润结构信号，不是仅凭公司总体营收或科技身份入选。采集保留的文章发布时间为2026年11月7日，满足最近7天窗口；不能将半年经营期间或论坛日期改作事件发生日。历史检索未返回同事件收录或排除裁决，可作为本轮正面产业线索保留，不宣称首次披露。正文明确其总部位于浙江余姚，不应继续将全部地点证据视为缺失，也不能因发布者为临平发布认定其属杭州。",
+          "event_headline_source": "c718a0708bef31d46f4369c1fc35eda9cfb743a956b0a45d8516542484e33c76",
+          "location_basis": [],
+          "location_status": "unknown",
+          "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+          "location_candidates": [
+            {
+              "value": "浙江余姚（总部）",
+              "status": "article_candidate_only",
+              "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+            }
+          ],
+          "benchmark_review": {
+            "status": "not_qualified",
+            "eligible": false,
+            "reason": "本条证明产品业务增长和毛利结构变化，但未建立舜宇光学本主体的全国行业地位与独立标杆资格；舜宇智行的车载产品排名不能直接移用于母体。",
+            "evidence_ids": [
+              "article:257c0b404e451da5"
+            ]
+          },
+          "quality_review": {
+            "schema_version": "dragon-overnight-review.v2",
+            "decision": "keep",
+            "reviewer": "overnight current Agent: six validated semantic batches and two directed full-text decisions",
+            "candidate_id": "7100931793c90912ff7d39af43518d50c2306cdde6fcaa44fc4d3a07db76fa80",
+            "input_row_sha256": "63e531d2c8d95fc8d4e2de995267a10e0da9430866b7ffa8c800fa7c6fca5eaf",
+            "reason": "原文明确将2026年上半年泛IoT及其他产品收入40.39亿元、同比增长88.51%及第二大毛利贡献来源归于舜宇光学。这是具体产品业务的商业化与利润结构信号，不是仅凭公司总体营收或科技身份入选。采集保留的文章发布时间为2026年11月7日，满足最近7天窗口；不能将半年经营期间或论坛日期改作事件发生日。历史检索未返回同事件收录或排除裁决，可作为本轮正面产业线索保留，不宣称首次披露。正文明确其总部位于浙江余姚，不应继续将全部地点证据视为缺失，也不能因发布者为临平发布认定其属杭州。",
+            "scope": {
+              "technology_evidence": "文章在光学产品业务语境下明确披露，舜宇光学2026年上半年泛IoT及其他产品收入40.39亿元，同比增长88.51%，成为公司第二大毛利贡献来源。",
+              "value_reason": "产品业务增长同时进入主要毛利来源，提供了光学企业拓展手机以外应用市场的商业化观察依据，可供杭州光学及智能硬件企业研究业务组合；本文未拆分具体产品和客户，不能归因为某一AI应用增长。"
+            },
+            "stage": {
+              "status": "已发生的产品业务经营成果，近期报道回顾",
+              "reason": "数据对应2026年上半年，不是未来目标，也不是2026年11月新签订单；文章未提供更精确的事件发生日。"
+            },
+            "history": {
+              "result": "new_event",
+              "evidence_ids": [
+                "history_lookup:c5c892a0db1196e0"
+              ],
+              "prior_decisions": [],
+              "change_reason": "输入所附历史检索未返回该主体的已收录事件或此前裁决，未见重复或旧排除依据；此结论仅限本次检索覆盖，不证明首次发现或首次披露。",
+              "new_evidence_ids": []
+            },
+            "evidence_ids": [
+              "article:257c0b404e451da5",
+              "history_lookup:c5c892a0db1196e0"
+            ],
+            "benchmark_review": {
+              "status": "not_qualified",
+              "eligible": false,
+              "reason": "本条证明产品业务增长和毛利结构变化，但未建立舜宇光学本主体的全国行业地位与独立标杆资格；舜宇智行的车载产品排名不能直接移用于母体。",
+              "evidence_ids": [
+                "article:257c0b404e451da5"
+              ]
+            }
+          },
+          "identity_candidates": [],
+          "company_db_id": null
         }
       ],
       "record_count": 8,
@@ -5194,7 +5162,7 @@
     "2026-11-07": "c51da51930bc6f599758fdef6cb8bb243f45dd154a09380809576c0c1457804e",
     "2026-11-08": "5bbc17329aecfb57149aa7d8a953bd0d12d90a6cfac907d3ca95d8b57408ae53"
   },
-  "geography_version": "690da2ee678bd6c86c6310d13f60ab887d191962a596538b56d4ab53a3e03bd2",
+  "geography_version": "90fe90faeea2c464acfec0e017a8c692c1dd79ccda50e32539abe4f474e1f050",
   "company_geographies": {
     "dr-u-0016d6cf8dd2fbf4e412": {
       "geography_status": "unknown",
@@ -30255,10 +30223,48 @@
       }
     },
     "dr-u-da2f0f03bc3a24f599ed": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "foreign",
+      "display_location": "US / California / San Francisco",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-aa2ff98b0159a45af2b42435"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "World Labs",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-aa2ff98b0159a45af2b42435",
+          "source_url": "https://jobs.ashbyhq.com/worldlabs/207875a2-d8d9-4b9c-ba9f-a19358c07575",
+          "checked_at": "2026-11-08T00:32:13.793282+00:00",
+          "subject": "World Labs",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "San Francisco"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "foreign",
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "evidence_ids": [
+          "geo-aa2ff98b0159a45af2b42435"
+        ]
+      }
     },
     "dr-u-da44a977adea5758a6ac": {
       "geography_status": "unknown",
@@ -59671,7 +59677,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "2e160296510b518357d44a6863aabc536ea816c27a8f9943ebac63789c7b94e8",
+  "history_version": "cc895e9cfa19ab6c7e20bbe0e2526d234d38c881cccd324b132614df062f05a9",
   "company_history_buckets": {
     "00": "08d9e4c396378a93fa306bc5daaa9346452583b91ac8c4211cec3ada4136af61",
     "01": "7069574a04eb1cdc06ab2c9f4c478bf6c0092714bd959624e065bd8f90af3c5a",
@@ -59693,7 +59699,7 @@
     "11": "58a23787d860ec4ce778909573809ec20cfba28ae4df3c9640fb26640279abb1",
     "12": "a3abab61cd47aa2b296408253c8ac50f8400b35656a8cbdb2a8a1a76ba59959c",
     "13": "4ecfe3f72119a8c9a2632abbe6d944600c370344b391016ae05f80f7ab0b6095",
-    "14": "eacd5cb68bdbeff86c5c66c59ca6ffc71073b9a79316c1fe3e58d553dc95e227",
+    "14": "9be383daa7ff21daa72f4a272b2925f22f90e6b5501cb7583d9e6292000b4da2",
     "15": "c30aeb72e61695d5b01cecd6ad054f649bb7b03632571d5f723c5308b2f790fd",
     "16": "0f93229c456864729a26d9b4fd93fdf18e304e792c79daa98c06afb990d2f906",
     "17": "2318c6200c9bf9dc9376646c0d149974fbbc0028a47c04086a30048fba6e97c4",
@@ -59738,7 +59744,7 @@
     "3e": "fde037ca3d0a2e33b971752c85d2b9dab4b990c8c5f6dfd627e117ba890b2674",
     "3f": "201aa4c8ca0125d0bf21ba15c6bb847f0095529e74d830cf4ac5f23f0b5dda22"
   },
-  "history_search_version": "be673da84df4662cd3f796c18a86418f2de2feb6d7126e4211c287c96069e22d",
+  "history_search_version": "77d746c0a9a21167c4400d466f59e8894a8083537a4629529929703dfb53aaf5",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",

@@ -1135,16 +1135,18 @@
       "event_type": "并购",
       "link": "https://mp.weixin.qq.com/s/zS86o8v4EoW9Q2hWxbMC8g",
       "sector": "人工智能——空间智能/世界模型",
-      "location": "地点线索：美国加利福尼亚州旧金山",
+      "location": "US / California / San Francisco",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-aa2ff98b0159a45af2b42435"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "World Labs",
         "subject_locality": {
           "status": "unknown",
@@ -1152,7 +1154,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-aa2ff98b0159a45af2b42435",
+            "source_url": "https://jobs.ashbyhq.com/worldlabs/207875a2-d8d9-4b9c-ba9f-a19358c07575",
+            "checked_at": "2026-11-08T00:32:13.793282+00:00",
+            "subject": "World Labs",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-aa2ff98b0159a45af2b42435"
+          ]
+        }
       },
       "article_location": "美国加利福尼亚州旧金山",
       "source": "投资界",
@@ -1179,16 +1205,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/OPala6yZGt-bdRLryDKvTA",
       "sector": "空间智能与生成式三维内容",
-      "location": "地点线索：旧金山（总部）",
+      "location": "US / California / San Francisco",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-aa2ff98b0159a45af2b42435"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "World Labs",
         "subject_locality": {
           "status": "unknown",
@@ -1196,7 +1224,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-aa2ff98b0159a45af2b42435",
+            "source_url": "https://jobs.ashbyhq.com/worldlabs/207875a2-d8d9-4b9c-ba9f-a19358c07575",
+            "checked_at": "2026-11-08T00:32:13.793282+00:00",
+            "subject": "World Labs",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-aa2ff98b0159a45af2b42435"
+          ]
+        }
       },
       "article_location": "旧金山（总部）",
       "source": "创业邦",
