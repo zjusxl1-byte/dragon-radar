@@ -456,14 +456,25 @@
         // ============================================
         // 🏛️ 专报专供决策卡片（无雷达分，含内参智囊批注）
         // ============================================
+        function briefingText(value) {
+            return String(value == null ? '' : value).replace(/[&<>"']/g, function(c) {
+                return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+            });
+        }
+        function briefingURL(value) {
+            try {
+                var parsed = new URL(value);
+                return /^https?:$/.test(parsed.protocol) && !parsed.username && !parsed.password ? parsed.href : '';
+            } catch (_) { return ''; }
+        }
         function renderBriefingSources(company) {
-            function escaped(value) { return String(value || '').replace(/[&<>"']/g, function(c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+            var escaped = briefingText;
             var seen = {}, links = [];
             (Array.isArray(company.supporting_sources) ? company.supporting_sources : []).forEach(function(source) {
                 if (!source || typeof source.url !== 'string') return;
                 var url;
                 try { url = new URL(source.url); } catch (_) { return; }
-                if (!/^https?:$/.test(url.protocol) || source.url === company.link || seen[url.href]) return;
+                if (!briefingURL(source.url) || source.url === company.link || seen[url.href]) return;
                 seen[url.href] = true;
                 links.push('<a href="' + escaped(url.href) + '" target="_blank" rel="noopener noreferrer" class="underline text-gray-500">' + escaped(source.title || source.source || '相关报道') + '</a>');
             });
@@ -475,16 +486,18 @@
             var fullName = company.full_name || '';
             var eventType = company.event_type || '';
             var eventStyle = getEventTagStyle(eventType);
+            var escaped = briefingText;
             
             var sectorsHtml = '';
             var targetSectors = company.standard_sectors && company.standard_sectors.length > 0 ? company.standard_sectors : [company.sector || '前沿科技'];
             targetSectors.forEach(function(s) {
-                sectorsHtml += '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495] shadow-sm">' + s + '</span>';
+                sectorsHtml += '<span class="px-2 py-0.5 text-[10px] font-medium rounded bg-[#F4F6FB] text-[#4A6495] shadow-sm">' + escaped(s) + '</span>';
             });
             
-            var articleTitle = company.event_description || company.article_title || company.title || '';
+            var articleTitle = company.wx_summary || company.event_description || company.article_title || company.title || '';
             var eventDesc = company.event_desc || '';
             var aiReason = company.ai_reason || '';
+            var sourceURL = briefingURL(company.link);
             
             var aiqichaUrl = 'https://aiqicha.baidu.com/s?q=' + encodeURIComponent(companyName);
             var targetId = generateSafeId(companyName);
@@ -517,31 +530,31 @@
                 
                 '<div class="mb-2 ml-2 flex justify-between items-start">' +
                     '<div>' +
-                        '<h3 class="text-[17px] font-bold ' + titleColor + ' leading-snug tracking-tight pr-2 mb-0.5" style="font-family: STZhongsong, \'SimSun\', serif;">' + companyName + '</h3>' +
-                        (fullName && fullName !== companyName ? '<p class="text-[11px] text-gray-400 font-medium leading-snug">' + fullName + '</p>' : '') +
+                        '<h3 class="text-[17px] font-bold ' + titleColor + ' leading-snug tracking-tight pr-2 mb-0.5" style="font-family: STZhongsong, \'SimSun\', serif;">' + escaped(companyName) + '</h3>' +
+                        (fullName && fullName !== companyName ? '<p class="text-[11px] text-gray-400 font-medium leading-snug">' + escaped(fullName) + '</p>' : '') +
                     '</div>' +
                     '<div class="flex items-center shrink-0 mt-0.5">' + strategyBadge + '</div>' +
                 '</div>' +
 
                 '<div class="flex flex-wrap gap-1.5 mb-3.5 ml-2 mt-1">' +
-                    (eventType ? '<span class="px-2 py-0.5 text-[10px] font-semibold rounded shadow-sm ' + eventStyle + '">' + eventType + '</span>' : '') +
+                    (eventType ? '<span class="px-2 py-0.5 text-[10px] font-semibold rounded shadow-sm ' + eventStyle + '">' + escaped(eventType) + '</span>' : '') +
                     sectorsHtml +
                 '</div>' +
                 
                 '<div class="bg-gray-50/50 rounded-lg p-3 mb-3 border border-gray-50">' +
-                    (articleTitle ? '<div class="mb-1.5 text-[14px] font-bold text-gray-800 leading-snug">' + articleTitle + '</div>' : '') +
-                    (eventDesc ? '<div class="text-[14px] text-gray-700 leading-[1.8] text-justify" style="white-space:pre-line">' + eventDesc + '</div>' : '') +
+                    (articleTitle ? '<div class="mb-1.5 text-[14px] font-bold text-gray-800 leading-snug">' + escaped(articleTitle) + '</div>' : '') +
+                    (eventDesc ? '<div class="text-[14px] text-gray-700 leading-[1.8] text-justify" style="white-space:pre-line">' + escaped(eventDesc) + '</div>' : '') +
                 '</div>' +
                 
                 (aiReason ? '<div class="mb-1 p-3 bg-gradient-to-r from-red-50/80 to-white rounded-lg border-l-[3px] ' + (company.is_dragon ? 'border-amber-500' : (listType === 'local' ? 'border-red-500' : 'border-indigo-500')) + '">' +
                     '<div class="flex items-center gap-1.5 mb-1"><span class="text-[13px]">💡</span><span class="text-[12px] font-extrabold text-gray-800 tracking-widest">小贾研判</span></div>' +
-                    '<p class="text-[14px] text-gray-800 leading-[1.8] font-medium text-justify" style="white-space:pre-line">' + aiReason + '</p>' +
+                    '<p class="text-[14px] text-gray-800 leading-[1.8] font-medium text-justify" style="white-space:pre-line">' + escaped(aiReason) + '</p>' +
                 '</div>' : '') +
                 
                 renderBriefingSources(company) +
                 '<div class="flex items-center justify-end gap-2 mt-3 pt-3 border-t border-gray-100">' +
-                    (company.link ? '<button onclick="window.open(\'' + company.link + '\', \'_blank\')" class="py-1 px-3 bg-red-50 text-red-600 rounded text-[11px] font-bold hover:bg-red-100 transition-colors flex items-center justify-center gap-1"><span>📰</span><span>源报道</span></button>' : '') +
-                    '<button onclick="window.open(\'' + aiqichaUrl + '\', \'_blank\')" class="py-1 px-3 bg-gray-50 text-gray-600 rounded text-[11px] font-bold hover:bg-gray-100 border border-gray-200 transition-colors flex items-center justify-center gap-1"><span>🏢</span><span>查企查查</span></button>' +
+                    (sourceURL ? '<a href="' + escaped(sourceURL) + '" target="_blank" rel="noopener noreferrer" class="py-1 px-3 bg-red-50 text-red-600 rounded text-[11px] font-bold hover:bg-red-100 transition-colors flex items-center justify-center gap-1"><span>📰</span><span>源报道</span></a>' : '') +
+                    '<a href="' + escaped(aiqichaUrl) + '" target="_blank" rel="noopener noreferrer" class="py-1 px-3 bg-gray-50 text-gray-600 rounded text-[11px] font-bold hover:bg-gray-100 border border-gray-200 transition-colors flex items-center justify-center gap-1"><span>🏢</span><span>查企查查</span></a>' +
                 '</div>' +
             '</div>';
         }
