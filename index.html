@@ -802,6 +802,14 @@
             
             briefing: function(data, availableBriefings, briefType) {
                 var reportId = data.summary.report_id || '未知期数';
+                var revisionNote = '';
+                if (validBriefingRevisionPointer(data._briefingRevision, briefType, reportId)) {
+                    revisionNote = '<div class="text-[11px] text-red-700 leading-relaxed mt-2">修订版 · ' + data._briefingRevision.revision_date +
+                        ' · <a class="underline" href="./' + data._briefingRevision.html_path + '">完整修订版</a>' +
+                        ' · <a class="underline" href="#/briefing?type=' + briefType + '&amp;id=' + reportId + '&amp;original=1">查看原稿</a></div>';
+                } else if (data._briefingOriginal === true) {
+                    revisionNote = '<div class="text-[11px] text-gray-500 leading-relaxed mt-2">历史原稿 · <a class="underline" href="#/briefing?type=' + briefType + '&amp;id=' + reportId + '">返回最新版本</a></div>';
+                }
                 var analysisText = data.summary.analysis_text || '';
                 var hangzhouTop = data.hangzhou_top || [];
                 var nationalTop = data.national_top || [];
@@ -846,7 +854,6 @@
                         '<div class="flex justify-between items-start mb-3 px-1">' +
                             '<div class="flex-1 pr-2">' +
                                 '<h2 class="text-[20px] font-bold text-red-700 tracking-widest leading-none mb-1.5" style="font-family: STZhongsong, \'SimSun\', serif;">寻龙雷达·简报</h2>' +
-                                '<div class="text-[11px] text-gray-500 font-normal leading-tight tracking-tight mt-1">期间：' + dateStr + '</div>' +
                             '</div>' +
                             
                             '<div class="flex flex-col items-end gap-1.5 shrink-0">' +
@@ -860,9 +867,10 @@
                                         '<div class="flex items-center gap-0.5 text-gray-600 font-bold bg-gray-50 px-1.5 py-0.5 rounded border border-gray-200 text-[11px]"><span>第 ' + reportId + ' 期</span><span>▼</span></div>' +
                                     '</div>' +
                                 '</div>' +
-                                '<div class="text-[10px] text-gray-400 tracking-tight text-right w-full mt-0.5">全网高价值动态 ' + totalComp + ' 起</div>' +
                             '</div>' +
                         '</div>' +
+                        '<div class="flex justify-between items-baseline gap-2 px-1 mb-2 text-[11px] text-gray-500 leading-tight"><span>期间：' + dateStr + '</span><span class="shrink-0 text-[10px]">覆盖 ' + totalComp + ' 家企业</span></div>' +
+                        revisionNote +
                         '<div class="h-[2px] w-full bg-red-600 mb-0.5"></div><div class="h-[1px] w-full bg-red-600 mb-2"></div>' +
                         
                         '<div class="mb-4">' +
@@ -960,16 +968,54 @@
             });
         }
         
+        function validBriefingRevisionPointer(entry, briefType, briefId) {
+            if (!entry || typeof entry !== 'object' || !/^(weekly|monthly)$/.test(briefType)) return false;
+            if (!(briefType === 'weekly' ? /^\d{4}-W(?:0[1-9]|[1-4]\d|5[0-3])$/ : /^\d{4}-M(?:0[1-9]|1[0-2])$/).test(briefId)) return false;
+            if (Object.keys(entry).sort().join(',') !== 'generation,html_path,json_path,report_sha256,reviewed_at,revision_date') return false;
+            if (!/^[0-9a-f]{64}$/.test(entry.generation) || !/^[0-9a-f]{64}$/.test(entry.report_sha256)) return false;
+            if (!/^\d{4}-\d{2}-\d{2}$/.test(entry.revision_date) || !Number.isFinite(Date.parse(entry.revision_date))) return false;
+            if (typeof entry.reviewed_at !== 'string' || !/(?:Z|[+-]\d{2}:\d{2})$/.test(entry.reviewed_at) || !Number.isFinite(Date.parse(entry.reviewed_at))) return false;
+            var stem = briefType + '_' + briefId;
+            return entry.json_path === 'data/briefing/revisions/' + stem + '/' + entry.generation + '.json' &&
+                entry.html_path === 'briefing/revisions/' + stem + '/' + entry.generation + '.html';
+        }
+
         function loadBriefingData(briefType, briefId) {
-            return new Promise(function(resolve, reject) {
-                fetch('./data/briefing/' + briefType + '_' + briefId + '.json')
-                    .then(function(response) {
-                        if (!response.ok) throw new Error('未能获取 ' + briefId + ' 的简报数据');
-                        return response.json();
-                    })
-                    .then(function(data) { resolve(data); })
-                    .catch(function(error) { reject(error); });
-            });
+            if (!/^(weekly|monthly)$/.test(briefType) || !/^\d{4}-(?:W\d{2}|M?\d{2})$/.test(briefId)) return Promise.reject(new Error('简报期数不正确'));
+            var original = Router.getQueryParams().original === '1';
+            function loadOriginal() {
+                return fetch('./data/briefing/' + briefType + '_' + briefId + '.json').then(function(response) {
+                    if (!response.ok) throw new Error('未能获取 ' + briefId + ' 的简报数据');
+                    return response.json();
+                }).then(function(data) {
+                    if (original) Object.defineProperty(data, '_briefingOriginal', {value: true});
+                    return data;
+                });
+            }
+            if (original) return loadOriginal();
+            return fetch('./data/briefing/revisions/index.json?t=' + Date.now(), {cache: 'no-store'})
+                .then(function(response) {
+                    if (!response.ok) throw new Error('暂无修订索引');
+                    return response.json();
+                }).then(function(index) {
+                    if (!index || index.schema_version !== 'dragon-briefing-revision-index.v1' || !index.latest || typeof index.latest !== 'object') throw new Error('修订索引无效');
+                    var entry = index.latest[briefType + '_' + briefId];
+                    if (!validBriefingRevisionPointer(entry, briefType, briefId)) throw new Error('修订指针无效');
+                    return fetch('./' + entry.json_path).then(function(response) {
+                        if (!response.ok) throw new Error('修订稿暂时无法读取');
+                        return response.text();
+                    }).then(function(raw) {
+                        if (!window.crypto || !window.crypto.subtle || typeof TextEncoder === 'undefined') throw new Error('修订校验暂时不可用');
+                        return window.crypto.subtle.digest('SHA-256', new TextEncoder().encode(raw)).then(function(hash) {
+                            var digest = Array.from(new Uint8Array(hash), function(value) { return value.toString(16).padStart(2, '0'); }).join('');
+                            if (digest !== entry.report_sha256) throw new Error('修订稿校验不匹配');
+                            var data = JSON.parse(raw);
+                            if (!data.summary || data.summary.report_id !== briefId || data.summary.report_type !== briefType) throw new Error('修订稿期数不匹配');
+                            Object.defineProperty(data, '_briefingRevision', {value: entry});
+                            return data;
+                        });
+                    });
+                }).catch(function() { return loadOriginal(); });
         }
 
         function renderPage() {
@@ -1165,7 +1211,7 @@
     <script src="./assets/radar-history.js?v=20261020-geography-order-r2"></script>
     <script src="./assets/radar-interpretation.js?v=20261025-corpus-r3"></script>
     <script src="./assets/radar-observations.js?v=20261015-editorial-release-r3"></script>
-    <script src="./assets/radar-refinements.js?v=20261020-geography-order-r2"></script>
+    <script src="./assets/radar-refinements.js?v=20261108-briefing-revisions-r1"></script>
 <script src="./assets/radar-interactions.js"></script>
 <script src="./assets/radar-components.js?v=20261025-corpus-r3"></script>
 <script src="./assets/radar-editorial.js"></script>
