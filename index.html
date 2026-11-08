@@ -456,6 +456,20 @@
         // ============================================
         // 🏛️ 专报专供决策卡片（无雷达分，含内参智囊批注）
         // ============================================
+        function renderBriefingSources(company) {
+            function escaped(value) { return String(value || '').replace(/[&<>"']/g, function(c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+            var seen = {}, links = [];
+            (Array.isArray(company.supporting_sources) ? company.supporting_sources : []).forEach(function(source) {
+                if (!source || typeof source.url !== 'string') return;
+                var url;
+                try { url = new URL(source.url); } catch (_) { return; }
+                if (!/^https?:$/.test(url.protocol) || source.url === company.link || seen[url.href]) return;
+                seen[url.href] = true;
+                links.push('<a href="' + escaped(url.href) + '" target="_blank" rel="noopener noreferrer" class="underline text-gray-500">' + escaped(source.title || source.source || '相关报道') + '</a>');
+            });
+            return links.length ? '<div class="text-[11px] text-gray-400 leading-relaxed mt-3 break-words">相关报道：' + links.join(' · ') + '</div>' : '';
+        }
+
         function renderBriefingCard(company, index, listType) {
             var companyName = company.company_name || company.company || '未知企业';
             var fullName = company.full_name || '';
@@ -516,14 +530,15 @@
                 
                 '<div class="bg-gray-50/50 rounded-lg p-3 mb-3 border border-gray-50">' +
                     (articleTitle ? '<div class="mb-1.5 text-[14px] font-bold text-gray-800 leading-snug">' + articleTitle + '</div>' : '') +
-                    (eventDesc ? '<div class="text-[13px] text-gray-600 leading-relaxed text-justify">' + eventDesc + '</div>' : '') +
+                    (eventDesc ? '<div class="text-[14px] text-gray-700 leading-[1.8] text-justify" style="white-space:pre-line">' + eventDesc + '</div>' : '') +
                 '</div>' +
                 
                 (aiReason ? '<div class="mb-1 p-3 bg-gradient-to-r from-red-50/80 to-white rounded-lg border-l-[3px] ' + (company.is_dragon ? 'border-amber-500' : (listType === 'local' ? 'border-red-500' : 'border-indigo-500')) + '">' +
                     '<div class="flex items-center gap-1.5 mb-1"><span class="text-[13px]">💡</span><span class="text-[12px] font-extrabold text-gray-800 tracking-widest">小贾研判</span></div>' +
-                    '<p class="text-[13px] text-gray-800 leading-relaxed font-medium text-justify">' + aiReason + '</p>' +
+                    '<p class="text-[14px] text-gray-800 leading-[1.8] font-medium text-justify" style="white-space:pre-line">' + aiReason + '</p>' +
                 '</div>' : '') +
                 
+                renderBriefingSources(company) +
                 '<div class="flex items-center justify-end gap-2 mt-3 pt-3 border-t border-gray-100">' +
                     (company.link ? '<button onclick="window.open(\'' + company.link + '\', \'_blank\')" class="py-1 px-3 bg-red-50 text-red-600 rounded text-[11px] font-bold hover:bg-red-100 transition-colors flex items-center justify-center gap-1"><span>📰</span><span>源报道</span></button>' : '') +
                     '<button onclick="window.open(\'' + aiqichaUrl + '\', \'_blank\')" class="py-1 px-3 bg-gray-50 text-gray-600 rounded text-[11px] font-bold hover:bg-gray-100 border border-gray-200 transition-colors flex items-center justify-center gap-1"><span>🏢</span><span>查企查查</span></button>' +
