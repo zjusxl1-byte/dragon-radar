@@ -1,0 +1,2013 @@
+{
+  "hangzhou_top": [
+    {
+      "article_location": "浙江省杭州市（复用输入中已审同主体总部地点记录，非本文披露）",
+      "article_title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:3145feb273117129",
+          "prior_decision:57fb9024d657db8d",
+          "prior_decision:4aa55ed3d77695df"
+        ],
+        "reason": "本次架构与原型足以支持技术进展，但性能来自团队小规模模拟实验，尚无同条件独立比较、真实部署验证或长期可靠性证据，不改变既有尚未建立独立全国标杆资格的边界。",
+        "status": "not_qualified"
+      },
+      "company": "杭州深度求索人工智能基础技术研究有限公司",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_raw_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "event_desc": "10月31日的报道介绍，DeepSeek团队公开了Super-agent架构思路及原型项目，采用Router调度、Worker执行的双层设计。Worker可订阅所接任务的后续消息，使GitHub评论等事件直接进入原执行会话；系统还结合两级事件过滤、投机执行及独立Watchdog机制，探索跨平台持续处理任务和异常恢复。异步ReAct Loop已在DeepSeek Harness中实现，但尚未默认开启。\n\n据报道，团队在包含约300条消息、20项工作请求的模拟协作环境中，对每种配置重复测试5次。Super-agent任务完成时间中位数为12.4分钟，95分位数为15.7分钟；传统单Session加Subagent方案在中性提示下的95分位数为29.5分钟。这是团队报告的初步原型实验结果。",
+      "event_headline": "DeepSeek公开Super-agent架构，探索跨平台持续执行任务",
+      "event_headline_source": "68b3b8a0d937e2dd45e0f4d5353737d139b0ffa670f1d58a10d7d6c478bfd857",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-10-31",
+        "event_date": null,
+        "observed_date": "2026-10-31",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "重磅发布",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "city": "杭州市",
+              "country": "CN",
+              "province": "浙江省"
+            },
+            "body_sha256": "16244cbae4100d39fbc4d4d496baed803fd43211e507084fcec4d3b5b8db6362",
+            "text_sha256": "49273562060b13decf46aa7f744d7b470423b63d645296662a541469ed082ead"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "subject_locality",
+        "briefing_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ]
+      },
+      "identity_status": "confirmed",
+      "insight": "这次进展将DeepSeek的Agent探索从单次代码任务扩展到跨平台、持续推进的工作流：调度层管理新任务，执行层直接接收既有任务的后续消息，减少人工搬运上下文和集中调度造成的等待。模拟实验提供了任务完成时间改善的初步依据，但真实工作环境中能否稳定保持这种优势，仍取决于事件识别、权限控制与异常恢复的实际表现。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/CfHGwFAPzsTi6XSELQ9CoA",
+      "location": "浙江省 / 杭州市",
+      "location_basis": [
+        {
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "place": {
+            "city": "杭州市",
+            "country": "CN",
+            "province": "浙江省"
+          },
+          "role": "hq",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "subject_relation": "same_subject"
+        }
+      ],
+      "location_next_action": null,
+      "location_status": "subject_confirmed",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-10-31",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:3145feb273117129",
+            "prior_decision:57fb9024d657db8d",
+            "prior_decision:4aa55ed3d77695df"
+          ],
+          "reason": "本次架构与原型足以支持技术进展，但性能来自团队小规模模拟实验，尚无同条件独立比较、真实部署验证或长期可靠性证据，不改变既有尚未建立独立全国标杆资格的边界。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "8f1639b88766220ef8d55a6ea1af683f8664055c7daf2979908240aaa800d9cb",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:3145feb273117129",
+          "identity_registry:2dcd4f408df25406",
+          "geo-8d153ebc1f63d3a87bb41366",
+          "history_lookup:3ffe8fa169e4b700",
+          "accepted_history:fee5adc7eeea25f4",
+          "accepted_history:acb664257ffa04b4",
+          "accepted_history:85a2a890a7b60d46",
+          "prior_decision:32fffa5346c94646",
+          "prior_decision:80ae9a27f89f46e1",
+          "prior_decision:32e66738fb3c21d7"
+        ],
+        "history": {
+          "change_reason": "既有Harness记录分别涉及桌面入口、账号插件、兼容层和模型协同优化；DSec涉及训练沙盒，DeepInfer及recipe涉及生产推理和接口编解码。本条新增Super-agent跨平台持续任务的调度、事件直通、主动执行与恢复设计及对应模拟实验，可识别为另一工程公开节点，不重复计作Harness首次发布。资本、算力规划、海外授权、缓存定价及故障历史均非同事件；API输出猜测、具身研发和融资待核亦不因本条改判。当前history_retrieval_errors为空，不继承旧裁决内部的检索异常，不宣称全局首次。",
+          "evidence_ids": [
+            "history_lookup:3ffe8fa169e4b700",
+            "accepted_history:fee5adc7eeea25f4",
+            "accepted_history:acb664257ffa04b4",
+            "accepted_history:0ce074f776a7df00",
+            "accepted_history:a11c70966626e98d",
+            "accepted_history:0059924beb11e32d",
+            "accepted_history:85a2a890a7b60d46",
+            "accepted_history:964df534cdd77887",
+            "accepted_history:f349a66d9a330cb3",
+            "prior_decision:32fffa5346c94646",
+            "prior_decision:80ae9a27f89f46e1",
+            "prior_decision:32e66738fb3c21d7"
+          ],
+          "new_evidence_ids": [
+            "article:3145feb273117129"
+          ],
+          "prior_decisions": [
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:32fffa5346c94646",
+              "reason": "旧排除针对V4.1-Flash-1017模型更新及完整项目编程的重复报道；本条公开持续任务调度、事件订阅和恢复架构，不是再次发布同一模型。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:80ae9a27f89f46e1",
+              "reason": "该旧排除同属模型快照重复发布。即使Super-agent使用Harness，也不能据共用框架或企业名称将新的架构公开并入旧转载排除。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:32e66738fb3c21d7",
+              "reason": "旧排除针对10月15日API故障及相同补偿的重复回顾。本条是智能体系统架构公开，Watchdog设计不证明旧API故障根因已查明或整改完成，旧预警及去重继续有效。"
+            }
+          ],
+          "result": "new_event"
+        },
+        "input_row_sha256": "20dfbd41a0808f0ee6af92ba5e93adff22f5a5f6590d9e5590c57ab9fa193326",
+        "reason": "全文将Super-agent架构公开、内部运行实例和模拟实验明确归于DeepSeek团队；已确认品牌别名、稳定企业主体及政府杭州总部证据可复用，不因当前文章未重述工商全称而退回品牌待核。Router与Worker分层、事件订阅直通、异步交互和Watchdog提供了跨平台持续任务执行的具体工程进展，区别于既有Harness桌面版、插件兼容、模型发布及生产推理框架开源。2026年10月31日原始新闻发布时间已提供，符合窗口。按架构探讨和原型阶段保留，模拟性能归于团队报告，不宣传为已普遍实现无人值守或商业化交付。",
+        "reviewer": "current-task Agent: quality_inspector continuation and targeted editorial review",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "正文公开Router调度与Worker执行的双层设计，Worker可订阅PR后续评论并直接接收消息；另有两级事件过滤、投机执行及独立Watchdog。异步ReAct Loop已在Harness实现但未默认开启。团队以约300条消息、20项请求的模拟环境测试，每种配置重复5次，报告Super-agent任务完成时间中位数12.4分钟、95分位15.7分钟。",
+          "value_reason": "该架构针对多任务持续执行中的上下文搬运、集中调度等待和异常恢复，而非只改善单次模型回答。对杭州智能体企业，直接价值是提供可比较的任务路由及持久执行实现路径；采用判断应围绕真实工作负载下的任务完成、响应和恢复表现，不由小规模模拟实验推导普遍效率或可靠性优势。"
+        },
+        "stage": {
+          "reason": "文章定位为工程实践架构探讨，提供原型GitHub链接并描述内部运行实例；本轮未独立读取仓库或复现实验，不确认许可证、代码完整性及正式产品可用范围。长期在线和自动恢复属于设计目标及所述机制，尚无长期稳定性验证。新闻日为2026年10月31日，精确公开事件日及首次收录时间未知。",
+          "status": "已公开架构思路及原型链接；内部实例和初步模拟实验；部分机制尚未默认启用"
+        }
+      },
+      "score": 100,
+      "sector": "人工智能／自主智能体基础架构",
+      "selection_reason": "全文将Super-agent架构公开、内部运行实例和模拟实验明确归于DeepSeek团队；已确认品牌别名、稳定企业主体及政府杭州总部证据可复用，不因当前文章未重述工商全称而退回品牌待核。Router与Worker分层、事件订阅直通、异步交互和Watchdog提供了跨平台持续任务执行的具体工程进展，区别于既有Harness桌面版、插件兼容、模型发布及生产推理框架开源。2026年10月31日原始新闻发布时间已提供，符合窗口。按架构探讨和原型阶段保留，模拟性能归于团队报告，不宣传为已普遍实现无人值守或商业化交付。",
+      "selection_recommendation": "keep",
+      "source": "量子位",
+      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "company_db_id": 258,
+      "ai_reason": "DeepSeek的新增价值在于把智能体竞争从单次回答推进到跨平台任务的持续组织：分层调度、事件直通和独立故障监督，针对的是人工搬运上下文与长任务阻塞。原型实验已给出完成时间改善的初步依据，值得优先关注其基础软件潜力；若权限边界、任务识别和异常恢复能在真实协作中稳定运行，有望形成模型之外的开发者生态支点。",
+      "wx_summary": "DeepSeek公开持续任务智能体架构与原型实验",
+      "standard_sectors": [
+        "人工智能",
+        "自主智能体基础架构"
+      ],
+      "supporting_sources": [
+        {
+          "title": "半年大盘超百亿，大厂重估卖Token的生意",
+          "source": "36 氪",
+          "url": "https://mp.weixin.qq.com/s/4QFw7WSujQ2-9NRqKGEXjw"
+        },
+        {
+          "title": "小红书，投了梁文锋",
+          "source": "投资界",
+          "url": "https://mp.weixin.qq.com/s/tiiuXOr_i8Wps4n1GiJvog"
+        },
+        {
+          "title": "年轻人去乌兰察布守机房，真能月入三万吗？",
+          "source": "创业邦",
+          "url": "https://mp.weixin.qq.com/s/TXzJYYD0f_eDJi1dwO0Z1Q"
+        }
+      ]
+    },
+    {
+      "article_location": "浙江省杭州市滨江区（正文明确的自建实验室所在地，未说明注册地或主要总部）",
+      "article_title": "滨江在做的，可能是一种很新的服务业",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:eb5233e795957ec2"
+        ],
+        "reason": "足以支持具体技术与研发服务线索，但未提供可复核的评测名称、比较口径或行业地位证据，不能据此建立全国标杆资格。",
+        "status": "not_qualified"
+      },
+      "company": "杭州深度原理科技有限责任公司",
+      "company_canonical_name": "杭州深度原理科技有限责任公司",
+      "company_entity_id": "dr-u-8eb188617acaf185f9e9",
+      "company_raw_name": "杭州深度原理科技有限责任公司",
+      "event_desc": "11月6日的滨江服务业大会报道介绍，杭州深度原理科技有限责任公司的通用科学大模型Hydrogen-1.0已开放模型权重。公司在滨江自建高通量自动化实验室，报道将其描述为L4级、可24小时无人值守，单套工作站日均完成约100个反应。\n\n同日会议报道中，公司联合创始人、CTO段辰儒表示，将加快建设AI科学家智能体Mira项目，计划把自动化实验室拓展至聚合物、固态电解质、合金等方向，并依托Hydrogen-1.0与Mira平台，为区内企业、高校和科研院所提供科学大模型使用支持。",
+      "event_headline": "深度原理开源科学模型权重，披露自动化实验能力",
+      "event_headline_source": "6770f538c29d7a37f3bcdc3ea5e9af48b2cc019f4a2e7410c55916076d0006d1",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "新闻于2026年11月6日发布，11月6日上午为大会披露场景；模型发布、权重开放及实验室投运的具体日期未提供。",
+        "event_date": null,
+        "observed_date": "2026-11-06",
+        "review_required": false,
+        "status": "event_date_unknown"
+      },
+      "event_type": "技术与研发服务能力披露",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度原理科技有限责任公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-ba578be5c3230789e62ea30d",
+            "source_url": "https://mp.weixin.qq.com/s/HbWCm0Z9Jf50fGtwvTwIeQ",
+            "checked_at": "2026-11-06T13:46:09+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "city": "杭州市",
+              "country": "CN",
+              "district": "滨江区",
+              "province": "浙江省"
+            },
+            "body_sha256": "d10c3ee32ba883407628629f7bfb1dd03142f01a33c23c81441c2b91a240a681",
+            "text_sha256": "d10c3ee32ba883407628629f7bfb1dd03142f01a33c23c81441c2b91a240a681"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-ba578be5c3230789e62ea30d"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-ba578be5c3230789e62ea30d"
+          ]
+        }
+      },
+      "identity_mentions": [
+        {
+          "evidence": "杭州深度原理科技有限责任公司的两位创始人，从麻省理工学院博士毕业后回国创业，他们把“研发”本身做成了服务。",
+          "name": "深度原理",
+          "relation": "same_entity"
+        }
+      ],
+      "identity_status": "confirmed",
+      "insight": "深度原理把科学模型与自动化实验能力放在同一研发服务体系中，价值在于不仅提出材料研究方案，还具备批量开展实验的设施基础。这使其“研发外脑”的定位有了具体支撑；模型建议如何进入实验、实验结果如何反馈模型，是下一步最值得研究的能力连接点。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/HbWCm0Z9Jf50fGtwvTwIeQ",
+      "location": "浙江省 / 杭州市 / 滨江区",
+      "location_basis": [],
+      "location_candidates": [
+        {
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business",
+          "status": "article_candidate_only",
+          "value": "浙江省杭州市滨江区（正文明确的自建实验室所在地，未说明注册地或主要总部）"
+        }
+      ],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_status": "unknown",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-11-06",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:eb5233e795957ec2"
+          ],
+          "reason": "足以支持具体技术与研发服务线索，但未提供可复核的评测名称、比较口径或行业地位证据，不能据此建立全国标杆资格。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "769bc7ffa3146e65c03c40ede4b69a1194d29a038799698b037c44cee6053988",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:eb5233e795957ec2",
+          "accepted_history:82a8d126ae25c2c4",
+          "history_lookup:7d7768109a7b0d70"
+        ],
+        "history": {
+          "change_reason": "已提供历史是3月5日官宣的A2轮融资，本条是模型权重开放及自动化实验能力披露，属于另一事件；未提供同事件旧裁决，不宣称首次发现。",
+          "evidence_ids": [
+            "accepted_history:82a8d126ae25c2c4",
+            "history_lookup:7d7768109a7b0d70"
+          ],
+          "new_evidence_ids": [
+            "article:eb5233e795957ec2"
+          ],
+          "prior_decisions": [],
+          "result": "new_event"
+        },
+        "input_row_sha256": "bc5da204518dd174f07321dd173f2a7415d353259fd78a48a8388a06f3e19bea",
+        "reason": "原文明确深度原理是科学模型及滨江自建自动化实验室的提供方，Hydrogen-1.0和Mira是其产品，不另立企业主体。科学模型权重开放与高通量实验设施构成具体研发服务能力，足以作为正面日报线索。正文称其为滨江企业且明确实验室位于滨江，可确认本地经营关联，无须以注册地或总部未知阻断正面发现。新闻发布于2026年11月6日，符合最近7天窗口；该日是大会披露日，不能当作模型发布、开源或实验室建成日期。历史仅有3月融资事件，与本条不同。评测第一及效率倍数缺少可比口径，不作为独立性能结论。",
+        "reviewer": "quality_inspector Agent",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "原文称Hydrogen-1.0已开放模型权重；公司在滨江自建高通量自动化实验室，可24小时无人值守，单套工作站日均完成约100个反应。",
+          "value_reason": "模型能力与自动化实验设施同时存在，为材料研发服务从方案生成走向实验执行提供具体基础，值得研究其模型建议、实验验证与结果反馈如何衔接；现有证据尚未证明闭环效果或客户收益。"
+        },
+        "stage": {
+          "reason": "原文使用“已开源”和实验室运行能力的完成态表述，但未给出相应发生日期；国际评测排名、人工效率比较及周期缩短仅按报道披露处理。",
+          "status": "已披露模型权重开放及实验设施运行能力"
+        }
+      },
+      "score": 50,
+      "sector": "人工智能驱动科学研究／新材料研发服务",
+      "selection_reason": "原文明确深度原理是科学模型及滨江自建自动化实验室的提供方，Hydrogen-1.0和Mira是其产品，不另立企业主体。科学模型权重开放与高通量实验设施构成具体研发服务能力，足以作为正面日报线索。正文称其为滨江企业且明确实验室位于滨江，可确认本地经营关联，无须以注册地或总部未知阻断正面发现。新闻发布于2026年11月6日，符合最近7天窗口；该日是大会披露日，不能当作模型发布、开源或实验室建成日期。历史仅有3月融资事件，与本条不同。评测第一及效率倍数缺少可比口径，不作为独立性能结论。",
+      "selection_recommendation": "keep",
+      "source": "滨江发布",
+      "title": "滨江在做的，可能是一种很新的服务业",
+      "company_db_id": 76,
+      "ai_reason": "深度原理的潜力在于把科学模型与自动化实验设施结合，使材料研发服务同时具备方案生成和批量实验能力，而非停留在模型问答。现有工作站吞吐提供了工程基础，值得优先关注其研发外脑路径。若实验结果能有效反馈模型，并在聚合物、固态电解质等具体任务中形成稳定迭代，有望扩大面向产业的研发服务能力。",
+      "wx_summary": "深度原理披露科学模型与自动化实验能力及材料扩展计划",
+      "standard_sectors": [
+        "人工智能驱动科学研究",
+        "新材料研发服务"
+      ],
+      "supporting_sources": [
+        {
+          "title": "高新区（滨江）服务业大会召开",
+          "source": "滨江发布",
+          "url": "https://mp.weixin.qq.com/s/26JyB5wvZ9qaWWUey_IJkQ"
+        }
+      ]
+    },
+    {
+      "article_location": "",
+      "article_title": "首发|斯坦福同学造机器人，产业资本集体来了",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:20ff1bc301827b13"
+        ],
+        "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+        "status": "not_qualified"
+      },
+      "company": "RoboScience机器科学",
+      "company_canonical_name": "RoboScience机器科学",
+      "company_entity_id": "dr-u-72729e52b72852e132de",
+      "company_raw_name": "RoboScience机器科学",
+      "event_desc": "11月2日，RoboScience机器科学宣布完成A2轮数亿元融资，并在同期访谈中披露其具身模型与数据路线。Visics模型采用VLOA架构，以物体3D点云轨迹作为统一中间表征：上层模型预判物体运动轨迹，下层操作模型将轨迹转化为机器人控制指令。\n\n据创始人田野介绍，公司将RoboMirage物理仿真引擎与自动视频标注、清洗管线结合，单条数据获取成本降至0.05元；视频训练数据规模从2026年初的100万增长至10月的400万。报道还回顾，公司在2026世界人工智能大会演示更换不同品牌灵巧手，30秒内完成识别并执行抓取任务，无需重新适配或微调。\n\n公司已推出REX G1轮式仿人形机器人，并布局整机解决方案、云端模型服务和端侧控制器三条产业化路线。本轮资金计划用于模型迭代及物流、零售、工业等场景的概念验证与规模化落地。",
+      "event_headline": "RoboScience机器科学完成A2轮数亿元融资，推进核心场景验证",
+      "event_headline_source": "e2f7fadeee1058a49b33d73d4b8fea63975e1863206ca67ce926f0424aae8367",
+      "event_signal": "major",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-11-02",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "融资",
+      "financing": "A2轮数亿元融资，具体金额未披露。联合领投方为琥珀资本、鸿瑞达投资、上海半导体产投；跟投方包括爽资本、360战投、国联民生资本、金鼎资本及多家上市公司平台。",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市上城区钱江路509号杭港科技大厦",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "RoboScience机器科学",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-64f86482ea3824518399fd41",
+            "source_url": "https://www.roboscience.co",
+            "checked_at": "2026-11-04T00:33:13.859780+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "address": "杭州市上城区钱江路509号杭港科技大厦",
+              "city": "杭州市",
+              "country": "CN",
+              "district": "上城区",
+              "province": "浙江省"
+            },
+            "body_sha256": "eee86acbe8379a168ccbb3b00734b019fc952ae18dea011843543b0cc34b9e96",
+            "text_sha256": "2ab0be6be3a1147c347456e5afe255ecb3d09ca97f23ab9b1134cfc1d9c9622f"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-64f86482ea3824518399fd41"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "上城区",
+          "evidence_ids": [
+            "geo-64f86482ea3824518399fd41"
+          ]
+        }
+      },
+      "identity_status": "confirmed",
+      "insight": "此次融资支持的不是单一机器人产品，而是仿真数据、操作模型和机器人本体三者的联合迭代。其值得关注的产业路径，是通过统一的物体运动表征减少不同硬件重复适配，再以整机、云端模型服务和端侧控制器向不同客户交付；展会换手演示提供了具体线索，下一步可围绕同类任务更换硬件后的适配工作量与运行表现展开研究。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/YkoVWvDvb34EtYvhcOuWxg",
+      "location": "浙江省 / 杭州市上城区钱江路509号杭港科技大厦",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_status": "unknown",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-11-02",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:20ff1bc301827b13"
+          ],
+          "reason": "该事件支持上述具体技术/商业化观察；本次不另作全国行业领先资格认定。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "89cd385c2824dd359aeba0fb11555ce75b571767ee3e80534707f6add3870d9e",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:20ff1bc301827b13",
+          "history_lookup:08967eba06b686ac"
+        ],
+        "history": {
+          "change_reason": "历史包无本轮融资及旧裁决，保留实际资本节点，不声明全历史首轮。",
+          "evidence_ids": [
+            "history_lookup:08967eba06b686ac"
+          ],
+          "new_evidence_ids": [
+            "article:20ff1bc301827b13"
+          ],
+          "prior_decisions": [],
+          "result": "new_event"
+        },
+        "input_row_sha256": "490f59b29a4f29cb8d886c48ac45c3f6386dd65cd051d8e76289a64d5b4db983",
+        "reason": "原文明确RoboScience机器科学完成A2数亿元融资及投资机构、用途，主体具备仿真、模型、本体产品，不靠融资概念入选。用途为将来研发与场景验证，演示换手非大批量交付。",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "RoboMirage仿真引擎、Visics通用具身模型及REX G1轮式仿人形机器人。",
+          "value_reason": "跨硬件表征与整机/云模型/控制器分层交付可降低重复适配工作，资金为该路线迭代提供支持而非证明效果。"
+        },
+        "stage": {
+          "reason": "原文明确RoboScience机器科学完成A2数亿元融资及投资机构、用途，主体具备仿真、模型、本体产品，不靠融资概念入选。用途为将来研发与场景验证，演示换手非大批量交付。",
+          "status": "公司宣布融资完成；资金用途及规模化落地为计划"
+        }
+      },
+      "score": 50,
+      "sector": "具身智能与通用机器人",
+      "selection_reason": "原文明确RoboScience机器科学完成A2数亿元融资及投资机构、用途，主体具备仿真、模型、本体产品，不靠融资概念入选。用途为将来研发与场景验证，演示换手非大批量交付。",
+      "selection_recommendation": "keep",
+      "source": "投资界",
+      "title": "首发|斯坦福同学造机器人，产业资本集体来了",
+      "company_db_id": 548,
+      "ai_reason": "机器科学的潜力在于用物体运动轨迹连接任务理解与机器人控制，尝试把每换一种硬件都要重新适配的成本，转化为可复用的操作能力；仿真与视频数据管线则支撑持续训练。应优先研究这一架构与数据协同路线。若低成本数据能保持物理有效性，并在物流、零售等真实任务中稳定复用，有望从整机扩展为模型与控制组件供应商。",
+      "wx_summary": "机器科学披露跨本体操作架构与低成本数据路线",
+      "standard_sectors": [
+        "具身智能与通用机器人"
+      ],
+      "supporting_sources": []
+    },
+    {
+      "article_location": "浙江省 / 杭州市",
+      "article_title": "吉林大学80后教授，带出一支机器人军团：融资数亿",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:1ed1f4d9bbf0d363",
+          "prior_decision:f751156e69c771cf"
+        ],
+        "reason": "现有证据支持差异化产品及工程化迭代，未提供可比测试、行业领先地位或独立客户成效，不能据融资轮次和数天运行陈述授予全国标杆资格。",
+        "status": "not_qualified"
+      },
+      "company": "黑漫科技",
+      "company_canonical_name": "黑漫科技",
+      "company_entity_id": "dr-u-14bdd8f149e659d7a98a",
+      "company_raw_name": "黑漫科技",
+      "event_desc": "11月5日刊发的采访中，吉林大学教授刘春宝介绍，黑漫科技工业变构手经过迭代，稳定工作能力由原来约一小时提升至能够连续工作数天，企业仍处于产品爬坡、打样和扩大批量阶段。受访者同时指出，工厂需要连续运行一个月至三个月，当前产品仍在向这一要求推进。\n\n在零部件协作方面，报道介绍，由乐聚机器人牵头推动合作，泉智博承担部分小关节模组的研发实施，并应用到黑漫等企业的产品中。",
+      "event_headline": "黑漫科技工业变构手迭代，连续工作能力提升至数天",
+      "event_headline_source": "2f2c61aa9933d01259487acf01f387efafc6c1d07a0083d07143cc7411b38cb4",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-11-05",
+        "event_date": null,
+        "observed_date": "2026-11-05",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "其他",
+      "financing": "累计完成5轮融资，总额突破亿元；文章未给出各轮日期、金额及资金用途。",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "黑漫科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-f33160323a73993bf5711aad",
+            "source_url": "https://www.heymanbot.com/solutions/sg100",
+            "checked_at": "2026-11-03T18:25:18.323073+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "city": "杭州市",
+              "country": "CN",
+              "province": "浙江省"
+            },
+            "body_sha256": "97d5ae66639935185247103c1c239d08cc59c2cb8d971f433d5d72b10f707a2b",
+            "text_sha256": "baca3bbb765723bee548439aabd8131497e890f3803c0caeb8e7df6cdf11ff52"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-f33160323a73993bf5711aad"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-f33160323a73993bf5711aad"
+          ]
+        }
+      },
+      "identity_mentions": [
+        {
+          "evidence": "黑漫科技大圣系列工业级可变构灵巧手",
+          "name": "大圣系列工业级可变构灵巧手",
+          "relation": "product"
+        }
+      ],
+      "identity_status": "confirmed",
+      "insight": "黑漫正把工业变构手从短时抓取演示推进到更长时间的连续作业，产品竞争问题因此转向产线运行可靠性。受访者提出的工厂需求是连续运行一至三个月，当前数天表现与这一需求仍有距离，适合进一步了解具体任务、故障及维护条件，而不是直接认定已达到产线要求。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/XIpwObyk-7y11gfBCxcNXw",
+      "location": "浙江省 / 杭州市",
+      "location_basis": [
+        {
+          "checked_at": "2026-11-03T18:25:18.323073+00:00",
+          "evidence_id": "geo-f33160323a73993bf5711aad",
+          "place": {
+            "city": "杭州市",
+            "country": "CN",
+            "province": "浙江省"
+          },
+          "role": "business",
+          "source_url": "https://www.heymanbot.com/solutions/sg100",
+          "subject": "黑漫科技",
+          "subject_relation": "same_subject"
+        }
+      ],
+      "location_next_action": null,
+      "location_status": "discovery_confirmed",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-11-05",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:1ed1f4d9bbf0d363",
+            "prior_decision:f751156e69c771cf"
+          ],
+          "reason": "现有证据支持差异化产品及工程化迭代，未提供可比测试、行业领先地位或独立客户成效，不能据融资轮次和数天运行陈述授予全国标杆资格。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "a33a2dbbcffbd4101376a002866af8a5962c19597bd712f7309be76ece81f269",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:1ed1f4d9bbf0d363",
+          "identity_registry:2dcd4f408df25406",
+          "geo-f33160323a73993bf5711aad",
+          "accepted_history:527b0fdb4f78be6e",
+          "accepted_history:bf48b68449ddade9",
+          "prior_decision:a866623678dec292",
+          "prior_decision:f751156e69c771cf",
+          "history_lookup:7d7768109a7b0d70"
+        ],
+        "history": {
+          "change_reason": "6月历史为融资及WA系列防水灵巧手，11月历史为水下产品展示预告。本次新增的是工业变构手连续工作表现与打样扩批状态，属于另一产品进展事件，不推翻既有裁决；输入历史未见同一迭代事实，但不足以宣称全网首次披露。",
+          "evidence_ids": [
+            "accepted_history:527b0fdb4f78be6e",
+            "accepted_history:bf48b68449ddade9",
+            "prior_decision:a866623678dec292",
+            "prior_decision:f751156e69c771cf",
+            "history_lookup:7d7768109a7b0d70"
+          ],
+          "new_evidence_ids": [
+            "article:1ed1f4d9bbf0d363"
+          ],
+          "prior_decisions": [
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:a866623678dec292",
+              "reason": "该裁决保留的是11月6日至8日水下五指灵巧手拟展示安排，并未裁决本次工业变构手连续运行能力迭代。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:f751156e69c771cf",
+              "reason": "该裁决同样针对水下产品展示预告，不能据其keep自动批准本次事件，也不能把本次工程化事实当作展示事件重复。"
+            }
+          ],
+          "result": "new_event"
+        },
+        "input_row_sha256": "4068a7d2ca355ff778ba68f74759823e8e3ee801eb974252445720751631afbb",
+        "reason": "正文明确黑漫是工业变构手研发企业，大圣系列是其产品；泉智博承担部分关节模组研发实施，不与黑漫合并主体。刘春宝经确认的口述披露，产品连续工作能力由约一小时改善至数天，企业仍在打样和扩大批量。这提供了从抓取演示走向工业连续作业的具体可靠性迭代线索，值得在日报发现层保留，但不代表已满足产线要求。官网既有证据支持杭州经营地，不据此认定注册地或总部。新闻发布于2026年11月5日，处于七日窗口；迭代发生日期及本事件首次收录时间未知。既有融资、水下产品展示与本次工业变构手迭代不是同一事件，累计五轮融资仅作背景，不包装为新一轮融资。未见已发生的客户损失或交付违约，不能改列负面预警。",
+        "reviewer": "quality_inspector Agent",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "正文写明黑漫工业变构手经迭代，由原来可能稳定工作一个小时改善为能够连续工作几天，并配有“黑漫科技大圣系列工业级可变构灵巧手”说明；同时明确其处于产品爬坡、打样和扩大批量阶段。",
+          "value_reason": "连续作业可靠性决定灵巧手能否从实验室抓取进入工厂。此次披露提供了可核验的工程化进展及与受访者所述工厂月级运行需求之间的差距。优先取得相同任务、负载和维护条件下的运行及故障记录，可区分真实可靠性提升与测试条件变化，不宜直接据数天表现认定产线适用。"
+        },
+        "stage": {
+          "reason": "这是参与技术支持者的采访陈述，支持已有迭代及当前爬坡状态，不是独立测试认证、规模量产或客户产线验收。正文未披露具体迭代日期、测试条件和批量规模；2026年11月3日是展会采访场景，不等于迭代完成日。",
+          "status": "reported_product_iteration_and_batch_ramp"
+        }
+      },
+      "score": 90,
+      "sector": "机器人灵巧手与工业末端执行器",
+      "selection_reason": "正文明确黑漫是工业变构手研发企业，大圣系列是其产品；泉智博承担部分关节模组研发实施，不与黑漫合并主体。刘春宝经确认的口述披露，产品连续工作能力由约一小时改善至数天，企业仍在打样和扩大批量。这提供了从抓取演示走向工业连续作业的具体可靠性迭代线索，值得在日报发现层保留，但不代表已满足产线要求。官网既有证据支持杭州经营地，不据此认定注册地或总部。新闻发布于2026年11月5日，处于七日窗口；迭代发生日期及本事件首次收录时间未知。既有融资、水下产品展示与本次工业变构手迭代不是同一事件，累计五轮融资仅作背景，不包装为新一轮融资。未见已发生的客户损失或交付违约，不能改列负面预警。",
+      "selection_recommendation": "keep",
+      "source": "铅笔道",
+      "title": "吉林大学80后教授，带出一支机器人军团：融资数亿",
+      "company_db_id": 559,
+      "ai_reason": "黑漫的关注重点应从灵巧手展示转向工业连续作业：工作时长由约一小时提升至数天，体现产品正在跨越演示样机与可用工具之间的可靠性鸿沟。变构手路线为工业末端执行器提供差异化空间，小关节模组协同有助于继续迭代。当前仍与工厂月级运行需求有距离，若在明确负载和任务下持续延长稳定运行时间，有望形成细分场景优势。",
+      "wx_summary": "黑漫工业变构手连续工作能力由约一小时提升至数天",
+      "standard_sectors": [
+        "机器人灵巧手",
+        "工业末端执行器"
+      ],
+      "supporting_sources": [
+        {
+          "title": "免费报名！余杭这场未来科学π，太酷了！",
+          "source": "余杭发布",
+          "url": "https://mp.weixin.qq.com/s/r4ODqUYDBUn7pMRZBcElQw"
+        }
+      ]
+    },
+    {
+      "article_location": "",
+      "article_title": "生态企业 | 第二届浙江省博士后创新创业大赛「和晖机器人」斩获金奖",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "accepted_history:77bfd0fef986e4d1",
+          "article:be2841504ce57260"
+        ],
+        "reason": "复用已审历史的未获标杆资格结论。新增合作与批量应用提高商业化线索价值，但没有独立性能对比、市场份额或可验证行业地位，省级赛事金奖不能替代全国标杆依据。",
+        "status": "not_qualified"
+      },
+      "company": "和晖机器人",
+      "company_canonical_name": "和晖机器人",
+      "company_entity_id": "dr-u-8497bb57334d1244cd6a",
+      "company_raw_name": "和晖机器人",
+      "event_desc": "11月4日，银杏谷资本报道其生态企业和晖机器人的具身运控项目已与云深处科技、卧龙电驱、中国移动、上海电气等企业开展深度合作与批量应用。文章未逐项区分各合作方对应的产品与应用规模。\n\n该项目依托自研控制器、关节模组及强化学习算法，面向人形、四足、轮臂等机器人提供标准化、模块化运控方案。公司已推出的Unisun-M1驱控系统整合运动控制、强化学习算法、一体化关节模组及电源管理。团队凭《具身机器人高性能控制系统研发与产业化》项目，获得第二届浙江省博士后创新创业大赛创业组人工智能硬件创新赛道金奖。",
+      "event_headline": "银杏谷资本披露和晖机器人运控项目已开展具名产业合作与批量应用",
+      "event_headline_source": "fa3972c6ed6b3b7fe68a208ba54c73e1d12cc3c6bca18a4fea2697bf36ea5c2e",
+      "event_identity": {
+        "canonical_id": "和晖机器人林文杰团队凭《具身机器人高性能控制系统研发与产业化》项目，获得第二届浙江省博士后创新创业大赛创业组人工智能（硬件创新）赛道金奖。文章介绍，公司已推出Unisun-M1驱控系统，整合运动控制系统、强化学习算法、一体化关节模组及电源管理系统，面向复合工业机器人、四足机器人和人形机器人提供解决方案；项目已与云深处科技、卧龙电驱、中国移动、上海电气等企业开展深度合作与批量应用，公司已获超6000万元订单。"
+      },
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-11-04",
+        "event_date": null,
+        "observed_date": "2026-11-04",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "其他",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市富阳区富闲路222号C幢6层",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "和晖机器人",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-a1cf9210aa4b405d7193b423",
+            "source_url": "https://www.unisunbot.com/About.html",
+            "checked_at": "2026-10-20T02:28:15.148922+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "address": "浙江省杭州市富阳区富闲路222号C幢6层",
+              "city": "杭州市",
+              "country": "CN",
+              "district": "富阳区",
+              "province": "浙江省"
+            },
+            "body_sha256": "2ac7b73ce696627c1e43b8df1ffa1ca2f51ac1f339c1783dfac962a02ddb866a",
+            "text_sha256": "6459ee4d85f1a7e03158c132cd62d68299d55880d847884ac1e2bb170b7aa32f"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-a1cf9210aa4b405d7193b423"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "富阳区",
+          "evidence_ids": [
+            "geo-a1cf9210aa4b405d7193b423"
+          ]
+        }
+      },
+      "identity_mentions": [
+        {
+          "evidence": "和晖机器人（Unisunbot）成立于2025年9月",
+          "name": "Unisunbot",
+          "relation": "same_entity"
+        },
+        {
+          "evidence": "团队在较短的时间内成功推出应用于复合工业机器人、四足机器人、人形机器人的“Unisun-M1”驱控系统",
+          "name": "Unisun-M1",
+          "relation": "product"
+        }
+      ],
+      "identity_status": "confirmed",
+      "insight": "和晖机器人向本体厂商提供控制器、关节和算法组成的运控底座，价值在于减少不同整机的底层运动控制重复开发。具名合作与批量应用为跨机型供给提供了应用线索；标准模块能够复用多少、仍需多少定制适配，将决定这一路径的交付效率与复制能力。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/Xe-G68viotPa__vHca-8gQ",
+      "location": "浙江省杭州市富阳区富闲路222号C幢6层",
+      "location_basis": [
+        {
+          "checked_at": "2026-10-20T02:28:15.148922+00:00",
+          "evidence_id": "geo-a1cf9210aa4b405d7193b423",
+          "place": {
+            "address": "浙江省杭州市富阳区富闲路222号C幢6层",
+            "city": "杭州市",
+            "country": "CN",
+            "district": "富阳区",
+            "province": "浙江省"
+          },
+          "role": "business",
+          "source_url": "https://www.unisunbot.com/About.html",
+          "subject": "和晖机器人",
+          "subject_relation": "same_subject"
+        }
+      ],
+      "location_next_action": null,
+      "location_status": "discovery_confirmed",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-11-04",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "accepted_history:77bfd0fef986e4d1",
+            "article:be2841504ce57260"
+          ],
+          "reason": "复用已审历史的未获标杆资格结论。新增合作与批量应用提高商业化线索价值，但没有独立性能对比、市场份额或可验证行业地位，省级赛事金奖不能替代全国标杆依据。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "e38c2a54ce68782fd14cc68a53821fb11206838f949413afc7dcc3b42cfb4090",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:be2841504ce57260",
+          "accepted_history:77bfd0fef986e4d1",
+          "prior_decision:f86c879c22dfda5e",
+          "prior_decision:14499fb1b6aa6388",
+          "prior_decision:7d6a20dc810429c1",
+          "geo-a1cf9210aa4b405d7193b423",
+          "history_lookup:ce4ee8942d06ee6b"
+        ],
+        "history": {
+          "change_reason": "10月14日已收录Unisun-M1及超6000万元订单，本次两项均属重复背景；真正增量是具名产业合作与批量应用披露。奖项为另一荣誉事实，不单独作为科技进展入选依据，亦不认定合作或应用在11月4日首次发生。",
+          "evidence_ids": [
+            "accepted_history:77bfd0fef986e4d1",
+            "prior_decision:f86c879c22dfda5e",
+            "prior_decision:14499fb1b6aa6388",
+            "prior_decision:7d6a20dc810429c1",
+            "history_lookup:ce4ee8942d06ee6b"
+          ],
+          "new_evidence_ids": [
+            "article:be2841504ce57260"
+          ],
+          "prior_decisions": [
+            {
+              "comparison": "new_progress",
+              "evidence_id": "prior_decision:f86c879c22dfda5e",
+              "reason": "此前watch针对产品与订单披露，并曾以地点及主体映射缺证暂不公开；本次新增具名合作及批量应用披露，且已有官网经营地址证据。并非仅更换来源或报道日期；此前watch也已被后续keep裁决修正。"
+            },
+            {
+              "comparison": "new_progress",
+              "evidence_id": "prior_decision:14499fb1b6aa6388",
+              "reason": "此前keep覆盖Unisun-M1已推出及超6000万元订单，不覆盖本次具名合作与批量应用信息。沿用旧事实边界，只保留应用层面的增量。"
+            },
+            {
+              "comparison": "new_progress",
+              "evidence_id": "prior_decision:7d6a20dc810429c1",
+              "reason": "此前定向改判明确产品和订单可作为正面线索，但交付及量产未证实；本次来源新增批量应用表述，允许更新来源披露阶段，不据此改写为已验收、确认收入或具备规模制造能力。"
+            }
+          ],
+          "result": "new_progress"
+        },
+        "input_row_sha256": "087108ffa387a3acb2e0b030f139aa5e290bdc8cbeecb85835b261fc740de56b",
+        "reason": "和晖机器人为参赛团队及运控项目主体，Unisunbot为原文对应名称，Unisun-M1为产品，不将合作企业合并或另列。获奖本身不构成主要采信依据；相较10月14日已收录的产品推出及超6000万元订单，本文明示与云深处科技、卧龙电驱、中国移动、上海电气等开展合作与批量应用，增加了具名产业合作及应用阶段信息，构成可保留的实质增量。该信息来自投资生态方披露，不等于各合作方均采购或验收，不将旧订单额写成新增订单或收入。11月4日发布时间符合窗口；官网富阳经营地址支持杭州正面发现归属，但不据此升级注册或总部资格。 Agent复读后仅移除公开摘要与洞察中的已收录/本次新增等审阅过程，保留产品机制和具名应用事实。",
+        "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "项目围绕控制器、关节模组及强化学习算法，面向人形、四足、轮臂机器人提供模块化运控方案；正文进一步披露具名产业合作与批量应用。",
+          "value_reason": "新增应用披露将已知驱控产品和订单线索推进到产业合作及应用层面，有助于判断机器人运控供应商是否具备跨本体承接能力。应优先核对具体供给模块及验收案例，以区分标准产品复用与定制项目，不能仅凭合作名单确认规模复制。"
+        },
+        "stage": {
+          "reason": "正文明确使用“已与……开展深度合作与批量应用”，但未逐家说明合作内容、批量规模、交付验收及收入；行业领先、国产替代成效仍属于来源方评价，不能扩写为独立验证的技术领先。确切合作、应用及获奖日期未知，新闻发布于2026年11月4日。",
+          "status": "投资生态方披露已开展产业合作与批量应用；项目获奖"
+        }
+      },
+      "score": 95,
+      "sector": "具身智能机器人核心部件与运动控制",
+      "selection_reason": "和晖机器人为参赛团队及运控项目主体，Unisunbot为原文对应名称，Unisun-M1为产品，不将合作企业合并或另列。获奖本身不构成主要采信依据；相较10月14日已收录的产品推出及超6000万元订单，本文明示与云深处科技、卧龙电驱、中国移动、上海电气等开展合作与批量应用，增加了具名产业合作及应用阶段信息，构成可保留的实质增量。该信息来自投资生态方披露，不等于各合作方均采购或验收，不将旧订单额写成新增订单或收入。11月4日发布时间符合窗口；官网富阳经营地址支持杭州正面发现归属，但不据此升级注册或总部资格。 Agent复读后仅移除公开摘要与洞察中的已收录/本次新增等审阅过程，保留产品机制和具名应用事实。",
+      "selection_recommendation": "keep",
+      "source": "银杏谷资本",
+      "title": "生态企业 | 第二届浙江省博士后创新创业大赛「和晖机器人」斩获金奖",
+      "company_db_id": 553,
+      "ai_reason": "和晖的成长价值在于将控制器、关节与强化学习算法做成模块化运控底座，减少整机企业在底层控制上的重复开发。具名产业合作与批量应用披露，使这一路线有了应用支撑，值得优先关注其核心部件供给能力。若标准模块能跨机型复用并控制定制适配成本，有望在多种机器人本体之间形成规模化供应位置。",
+      "wx_summary": "和晖披露模块化运控系统具名合作与批量应用",
+      "standard_sectors": [
+        "具身智能机器人核心部件",
+        "运动控制"
+      ],
+      "supporting_sources": []
+    },
+    {
+      "article_location": "浙江省杭州市滨江区（正文明确为滨江企业，并有已审经营地证据；广州为客户应用项目地）",
+      "article_title": "滨江在做的，可能是一种很新的服务业",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:eb5233e795957ec2"
+        ],
+        "reason": "应用规模与技术披露足以支持日报线索，但代码自主率及认证不能单独证明全国行业领先地位，尚未建立独立标杆资格。",
+        "status": "not_qualified"
+      },
+      "company": "八维通科技有限公司",
+      "company_canonical_name": "八维通科技有限公司",
+      "company_entity_id": "dr-u-02b5d5afafbd02395937",
+      "company_raw_name": "八维通科技有限公司",
+      "event_desc": "11月6日，在杭州高新区（滨江）服务业大会上，八维通科技有限公司负责人介绍，广州地铁数百个车站的空间数字化由站务人员使用轻量化建模软件和消费级设备完成，而非专业测绘团队实施。报道同时披露，公司自研三维几何引擎代码自主率达99.94%，并通过工信部泰尔实验室认证。\n\n公司负责人还提出打造具身智能通用操作系统，计划用一个“大脑”驱动多种机器人本体，面向火场、带电作业等高危现场。",
+      "event_headline": "八维通披露站务人员完成数百个地铁车站空间数字化",
+      "event_headline_source": "ec98590acf2acfb16f186899e2c53f577cadbbe5344882390b40d3120a0fb098",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "新闻于2026年11月6日发布，当日上午为大会披露时间；车站项目实施、认证取得日期未提供，机器人操作系统为未来计划且未给完成时间。",
+        "event_date": null,
+        "observed_date": "2026-11-06",
+        "review_required": false,
+        "status": "event_date_unknown"
+      },
+      "event_type": "客户应用与技术能力披露",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市余杭区未来科技城鼎创财富中心B1幢13层",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "八维通科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-d095c51bb55f20fd4026fc2a",
+            "source_url": "https://www.bwton.com",
+            "checked_at": "2026-11-06T18:56:40.071152+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "address": "杭州市余杭区未来科技城鼎创财富中心B1幢13层",
+              "city": "杭州市",
+              "country": "CN",
+              "district": "余杭区",
+              "province": "浙江省"
+            },
+            "body_sha256": "5dbb502e9c7dec4b3408fb8feeeefc7ae4083554167126feac342cf7a343932c",
+            "text_sha256": "498fec89616ebcb4f78d9df24b229e0fe962f6364849316ac2c5fe41445ee723"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-d095c51bb55f20fd4026fc2a"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-d095c51bb55f20fd4026fc2a"
+          ]
+        }
+      },
+      "identity_status": "unresolved",
+      "insight": "八维通已展示的价值，是把车站空间数字化从专业测绘团队的任务转为站务人员可操作的工作，降低多站点应用对专业实施人员的依赖。面向多种机器人的通用操作系统仍是计划，现有建模应用不能直接证明其已具备高危场景机器人控制能力。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/HbWCm0Z9Jf50fGtwvTwIeQ",
+      "location": "浙江省 / 杭州市余杭区未来科技城鼎创财富中心B1幢13层",
+      "location_basis": [],
+      "location_candidates": [
+        {
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business",
+          "status": "article_candidate_only",
+          "value": "浙江省杭州市滨江区（正文明确为滨江企业，并有已审经营地证据；广州为客户应用项目地）"
+        }
+      ],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_status": "unknown",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-11-06",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:eb5233e795957ec2"
+          ],
+          "reason": "应用规模与技术披露足以支持日报线索，但代码自主率及认证不能单独证明全国行业领先地位，尚未建立独立标杆资格。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "4080bf72bc78a858a58c6802380d221242cfd26d9ecd35285cf51d484c7b3218",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:eb5233e795957ec2",
+          "history_lookup:7d7768109a7b0d70"
+        ],
+        "history": {
+          "change_reason": "输入检索结果未返回已收录事件或此前裁决，本条可按当前可见历史作为未匹配事件保留；不将空历史解释为企业或应用首次被发现。",
+          "evidence_ids": [
+            "history_lookup:7d7768109a7b0d70"
+          ],
+          "new_evidence_ids": [
+            "article:eb5233e795957ec2"
+          ],
+          "prior_decisions": [],
+          "result": "new_event"
+        },
+        "input_row_sha256": "fb60df5ba09444184159b80d0ae69789b4af4610c184e665724a7a271c1a4348",
+        "reason": "原文完整点名八维通科技有限公司，由其负责人介绍空间数字化应用及自研引擎，企业角色明确；广州地铁是客户应用场景，中车是发起设立方，均不并入八维通主体。注册库尚未完成身份解析，但原文主体没有歧义或冲突，不据此改写身份字段。站务人员利用轻量化软件及消费级设备完成数百个车站空间数字化，体现具体技术应用价值。正文明确其为滨江企业，可支持正面发现的本地关联；广州是项目地，不能推定企业迁出。上游所称已有经营地证据未在包中展开，不作为额外依据。11月6日发布时间符合窗口，项目实施和认证日期未知不影响线索采信；机器人通用操作系统仅为计划。",
+        "reviewer": "quality_inspector Agent",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "公司负责人披露广州地铁数百个车站由站务人员使用轻量化建模软件和消费级设备完成空间数字化；原文另披露自研三维几何引擎及泰尔实验室认证。",
+          "value_reason": "把专业测绘任务转化为站务人员可操作的流程，显示空间数字化技术降低实施门槛、减少对专业团队依赖的应用价值；不能据此推导已具备机器人控制或高危现场作业能力。"
+        },
+        "stage": {
+          "reason": "原文称车站空间数字化已完成、引擎已通过认证；“目前，公司要打造”仅支持未来研发方向，不支持操作系统已发布或机器人已部署。",
+          "status": "既有客户应用披露；机器人操作系统为upcoming计划"
+        }
+      },
+      "score": 45,
+      "sector": "空间智能／轨道交通数字化／具身智能软件",
+      "selection_reason": "原文完整点名八维通科技有限公司，由其负责人介绍空间数字化应用及自研引擎，企业角色明确；广州地铁是客户应用场景，中车是发起设立方，均不并入八维通主体。注册库尚未完成身份解析，但原文主体没有歧义或冲突，不据此改写身份字段。站务人员利用轻量化软件及消费级设备完成数百个车站空间数字化，体现具体技术应用价值。正文明确其为滨江企业，可支持正面发现的本地关联；广州是项目地，不能推定企业迁出。上游所称已有经营地证据未在包中展开，不作为额外依据。11月6日发布时间符合窗口，项目实施和认证日期未知不影响线索采信；机器人通用操作系统仅为计划。",
+      "selection_recommendation": "keep",
+      "source": "滨江发布",
+      "title": "滨江在做的，可能是一种很新的服务业",
+      "company_db_id": null,
+      "identity_candidates": [],
+      "ai_reason": "八维通最值得关注的是将空间建模从专业测绘作业降为站务人员可执行的日常工作，数百站应用显示其具备多站点推广基础。自主几何引擎与轻量化工具相结合，有机会降低轨交数字化的实施门槛，优先关注这一可复制能力；向机器人操作系统延伸，则取决于空间模型能否与不同本体的感知、控制可靠衔接。",
+      "wx_summary": "八维通披露数百个地铁车站由站务人员完成空间数字化",
+      "standard_sectors": [
+        "空间智能",
+        "轨道交通数字化"
+      ],
+      "supporting_sources": []
+    },
+    {
+      "article_location": "",
+      "article_title": "当AI不再「夸夸其谈」：决策模型爆红，物理世界需要端侧「快判断」",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:d0a655be00dbec7b",
+          "identity_registry:2dcd4f408df25406"
+        ],
+        "reason": "现有材料支持端侧模型应用线索，但认证、首创、部署规模及性能优势均来自单篇报道，尚未建立身份明确、可独立核实的行业地位与对标依据。",
+        "status": "not_qualified"
+      },
+      "company": "OmAI联汇",
+      "company_canonical_name": "OmAI联汇",
+      "company_entity_id": "dr-u-385da8aafb5ee6e93b43",
+      "company_raw_name": "OmAI联汇",
+      "event_desc": "11月4日的报道介绍，OmAI联汇计划于11月发布面向物理世界的端侧多模态决策模型，在既有VLX体系上进一步优化环境状态理解、任务判断、决策输出及响应效率。\n\n据报道，现有VLX矩阵由持续感知的VLX-Flow、目标定位的VLX-Seek、视频推理的VLX-VR和行动导航的VLX-Go组成，各能力层在同一条视频流上共享基座、统一数据格式并打通推理链路。OttoPlex御行智飞低空具身智能平台已采用VLX-Seek 0.6B端侧版本，依据自然语言描述定位巡检目标与区域，定位结果可交由飞手或上层任务系统继续处理。报道还称，相关模型已在云深处、宇树等企业的机器人设备部署，并完成华为昇腾、地瓜及RK3588国产芯片适配。",
+      "event_headline": "OmAI联汇拟于11月发布端侧多模态决策模型",
+      "event_headline_source": "ec74a3887bf0338e398f9c033fdf3e12393fa6a86b9267deb0ad95a813af8ee2",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-11-04",
+        "event_date": null,
+        "observed_date": "2026-11-04",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "重磅发布",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区 / 长河街道秋溢路399号3号楼四层、五层",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "OmAI联汇",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4b9c96a745ecde30fff76a56",
+            "source_url": "https://www.zj.msa.gov.cn/TZ/tzgg/202609/t20260902_20900.html",
+            "checked_at": "2026-11-08T15:23:47.886329+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "address": "长河街道秋溢路399号3号楼四层、五层",
+              "city": "杭州市",
+              "country": "CN",
+              "district": "滨江区",
+              "province": "浙江省"
+            },
+            "body_sha256": "72863d23575fd5a1f771c6018b7804cb557155bb7810701324b468ffd95857e1",
+            "text_sha256": "3b93108cfc00e25035924e66b6866f2b51480a7ce1bce28d68623d92e1a141ed"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-4b9c96a745ecde30fff76a56"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-4b9c96a745ecde30fff76a56"
+          ]
+        }
+      },
+      "identity_status": "confirmed",
+      "insight": "联汇拟将已有的感知、定位、推理和导航能力进一步衔接为设备端的连续决策链路；低空平台采用小参数定位模型，为这一方向提供了具体应用基础。此次发布值得观察的增量，是新模型能否在动态任务中把持续感知转化为及时、可靠的行动判断，而不只是缩短单次推理时间。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/4SA7NPTfcGuYXFsQSlW0Mg",
+      "location": "浙江省 / 杭州市 / 滨江区 / 长河街道秋溢路399号3号楼四层、五层",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_status": "unknown",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-11-04",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:d0a655be00dbec7b",
+            "identity_registry:2dcd4f408df25406"
+          ],
+          "reason": "现有材料支持端侧模型应用线索，但认证、首创、部署规模及性能优势均来自单篇报道，尚未建立身份明确、可独立核实的行业地位与对标依据。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "8b287230dfcc2735227f19943a3f10e67ef384464e30e1b32aa6e04eaedd9ee0",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:d0a655be00dbec7b",
+          "identity_registry:2dcd4f408df25406",
+          "geography_registry:b93d03cf35486d17",
+          "history_lookup:9b1e344f90aaf236",
+          "agent_captured_text:0ff6c0fedbde6153"
+        ],
+        "history": {
+          "change_reason": "正文与官方品牌业务可互证，历史包无同事件；仅指本轮可见范围，不代表别名法体已合并或全库首次。",
+          "evidence_ids": [
+            "history_lookup:9b1e344f90aaf236",
+            "identity_registry:2dcd4f408df25406"
+          ],
+          "new_evidence_ids": [
+            "article:d0a655be00dbec7b",
+            "agent_captured_text:0ff6c0fedbde6153"
+          ],
+          "prior_decisions": [],
+          "result": "new_event"
+        },
+        "input_row_sha256": "69e1f68e3a67e9c2ea16e5b819cb8993265d5dc788da2c07d6aa7f1d1e203750",
+        "reason": "定向合同复核：全文明确OmAI联汇为VLX模型提供方，并有低空目标定位、设备部署及芯片适配等具体业务事实，11月决策模型仍是计划；已读官方hzlh.com真实元数据明确OmAI-联汇科技及VLX，支持同品牌和业务对应。新闻2026年11月4日。所给历史无同事件；主体沿已观察品牌临时ID保存，不批准全局法体别名。地点缺证继续独立排队，不以注册/总部或名录未完成阻止这条可识别品牌的正面技术发现，不宣称全库首次或杭州企业。",
+        "reviewer": "overnight current Agent; per-event original snapshot continuation with captured geography and scope correction",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "全文以OmAI联汇为VLX矩阵提供方，说明Flow、Seek、VR、Go分别承担感知、定位、视频推理及行动导航；OttoPlex御行智飞平台已采用VLX-Seek 0.6B端侧版本，专门化决策模型仍待11月发布。",
+          "value_reason": "现有模型进入低空巡检的目标与区域定位流程，说明其并非只有概念预告。拟发布模型值得观察的增量是能否在设备资源约束下衔接持续感知与行动判断；既有部署不等于新模型已实现闭环或安全可靠，文中企业测算也不能当独立性能验证。"
+        },
+        "stage": {
+          "reason": "正文反复使用“即将推出”“11月发布节点临近”，未给出新模型准确发布日期或正式发布证据。低空平台采用、机器人设备部署与芯片适配属于现有产品情况，不能合并写成新模型已交付；在宇树、云深处设备上部署也不等于两家公司采购或签约。",
+          "status": "新模型拟发布；既有模型应用为报道所述已部署"
+        }
+      },
+      "score": 60,
+      "sector": "端侧多模态人工智能与物理AI",
+      "selection_reason": "定向合同复核：全文明确OmAI联汇为VLX模型提供方，并有低空目标定位、设备部署及芯片适配等具体业务事实，11月决策模型仍是计划；已读官方hzlh.com真实元数据明确OmAI-联汇科技及VLX，支持同品牌和业务对应。新闻2026年11月4日。所给历史无同事件；主体沿已观察品牌临时ID保存，不批准全局法体别名。地点缺证继续独立排队，不以注册/总部或名录未完成阻止这条可识别品牌的正面技术发现，不宣称全库首次或杭州企业。",
+      "selection_recommendation": "keep",
+      "source": "36 氪",
+      "title": "当AI不再「夸夸其谈」：决策模型爆红，物理世界需要端侧「快判断」",
+      "company_db_id": 555,
+      "ai_reason": "联汇值得关注的是把持续感知、目标定位和行动导航组织成共享基座的端侧能力链，而非仅为通用模型增加一个快响应标签。0.6B定位模型已有低空平台采用，为专门化决策提供工程起点。若后续模型能在动态任务中兼顾连续判断、有限算力与执行可靠性，有望成为无人机和机器人厂商可复用的端侧智能组件。",
+      "wx_summary": "联汇基于VLX体系推进端侧多模态决策模型",
+      "standard_sectors": [
+        "端侧多模态人工智能与物理AI"
+      ],
+      "supporting_sources": []
+    },
+    {
+      "article_location": "杭州",
+      "article_title": "浙大教授想把核反应堆做成「充电宝」",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:388adac49e1bc7d5",
+          "accepted_history:1027122cc0a706ec"
+        ],
+        "reason": "采访支持具体设计思路和工程推进计划，尚无本公司已验证整机性能或独立行业地位比较证据。浙大背景、历史融资及与X-energy的路线比较不能自动建立全国标杆资格，也不能证明本路线更优。",
+        "status": "not_qualified"
+      },
+      "company": "九州星核(杭州)科技发展有限公司",
+      "company_canonical_name": "九州星核(杭州)科技发展有限公司",
+      "company_entity_id": "dr-u-90f0db029e633671d742",
+      "company_raw_name": "九州星核(杭州)科技发展有限公司",
+      "event_desc": "11月4日的深度采访介绍，九州星核（杭州）科技发展有限公司正在探索超临界二氧化碳气冷微堆，将反应堆与布雷顿循环动力系统协同设计。方案拟采用直接循环，让二氧化碳同时承担堆芯冷却剂与发电工质功能，省去主换热器；反应堆方案涉及TRISO包覆颗粒、FCM燃料元件及石墨基体全固态堆芯，当前报道展示的是模型机。\n\n考虑微堆研发周期与验证投入，团队计划优先推进超临界二氧化碳动力技术在工业余热回收、光热储能发电等非核场景应用，积累系统集成和运行控制经验，同时开展微型核堆研发及后续工程示范。",
+      "event_headline": "九州星核披露微堆技术路线，计划先推进非核发电应用",
+      "event_headline_source": "5ba7a1b5315ae7d959976195b07de8d48c432d6fa44efd588c8bcbcf2e7449d2",
+      "event_identity": {
+        "canonical_id": "九州星核探索超临界二氧化碳气冷微堆，采用直接循环设计，使二氧化碳同时承担堆芯冷却与发电工质功能，拟省去主换热器、简化系统架构。团队计划优先推进超临界二氧化碳动力技术在工业余热回收、光热储能发电等非核场景应用，积累系统集成和运行控制经验，同步推进微型核堆研发与工程示范。"
+      },
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-11-04",
+        "event_date": null,
+        "observed_date": "2026-11-04",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "技术路线披露",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "九州星核(杭州)科技发展有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-c6ba89ba74c79040529fb459",
+            "source_url": "https://mp.weixin.qq.com/s/-U4o7SFmVInttNEs_Z85lw",
+            "checked_at": "2026-11-03T22:31:31+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "city": "杭州市",
+              "country": "CN",
+              "province": "浙江省"
+            },
+            "body_sha256": "5abea2ab2c34739c1a53f7773595db89422b04d70f56f434079a9eb929079df2",
+            "text_sha256": "5abea2ab2c34739c1a53f7773595db89422b04d70f56f434079a9eb929079df2"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-c6ba89ba74c79040529fb459"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-c6ba89ba74c79040529fb459"
+          ]
+        }
+      },
+      "identity_mentions": [
+        {
+          "evidence": "而今年牵头创立的九州星核的出现，则意味着这位核能创业先锋再次回到产业一线。",
+          "name": "九州星核",
+          "relation": "same_entity"
+        }
+      ],
+      "identity_status": "unresolved",
+      "insight": "九州星核的产品思路不只是缩小反应堆，而是让同一种二氧化碳工质连接堆芯冷却与发电，尝试通过减少换热设备实现整机紧凑化。先推进非核动力应用，可为动力子系统积累集成和运行经验，但这种经验能否迁移到直接接触堆芯的循环系统，仍是其整机路线需要回答的关键问题。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/-U4o7SFmVInttNEs_Z85lw",
+      "location": "浙江省 / 杭州市",
+      "location_basis": [
+        {
+          "checked_at": "2026-11-03T22:31:31+00:00",
+          "evidence_id": "geo-c6ba89ba74c79040529fb459",
+          "place": {
+            "city": "杭州市",
+            "country": "CN",
+            "province": "浙江省"
+          },
+          "role": "business",
+          "source_url": "https://mp.weixin.qq.com/s/-U4o7SFmVInttNEs_Z85lw",
+          "subject": "九州星核(杭州)科技发展有限公司",
+          "subject_relation": "same_subject"
+        }
+      ],
+      "location_next_action": null,
+      "location_status": "discovery_confirmed",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-11-04",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:388adac49e1bc7d5",
+            "accepted_history:1027122cc0a706ec"
+          ],
+          "reason": "采访支持具体设计思路和工程推进计划，尚无本公司已验证整机性能或独立行业地位比较证据。浙大背景、历史融资及与X-energy的路线比较不能自动建立全国标杆资格，也不能证明本路线更优。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "66ad6a2d546140c53f08889a34fab8940cc2f5f872efad35f7758d5b46751401",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:388adac49e1bc7d5",
+          "identity_registry:2dcd4f408df25406",
+          "accepted_history:1027122cc0a706ec",
+          "geo-c6ba89ba74c79040529fb459",
+          "history_lookup:ce4ee8942d06ee6b",
+          "supporting_source_body:a5dd04e59b63da49"
+        ],
+        "history": {
+          "change_reason": "本篇明确为前次融资稿的深度采访续篇，完整法律名称、创始人及技术路线又与投资方官方披露相互印证，足以在本事件层比较同主体事实，不新增全局别名。8月12日融资与sCO2微型核电源定位不重复计新事件；新增直接循环架构及非核动力应用、微堆研发并行推进路径，不宣称这些技术本周才形成。",
+          "evidence_ids": [
+            "accepted_history:1027122cc0a706ec",
+            "history_lookup:ce4ee8942d06ee6b",
+            "identity_registry:2dcd4f408df25406",
+            "supporting_source_body:a5dd04e59b63da49"
+          ],
+          "new_evidence_ids": [
+            "article:388adac49e1bc7d5",
+            "geo-c6ba89ba74c79040529fb459",
+            "supporting_source_body:a5dd04e59b63da49"
+          ],
+          "prior_decisions": [],
+          "result": "new_progress"
+        },
+        "input_row_sha256": "dbd136f40cc9b34afe2b2e5a28c35642e3ae75245e052d32dd361eec4aafa232",
+        "reason": "已完整复读采访及省科创母基金投资方官方披露，二者均明确完整公司名、张少泓创业主体与sCO2气冷微堆路线，原文又明确为前次融资稿的深度采访续篇，无不同法人或角色冲突。名录尚未归档不等于本条事实主体不明；沿原临时稳定ID收录，不更名、合并或批准全局简称。已审杭州普通创业经营归属不升级注册/总部或负面资格。11月4日新闻合窗；8月融资及微型核电源方向作为旧背景，本篇新增直接循环省去主换热器的系统设计、非核动力应用与微堆研发并行的推进路线。按探索及计划采信，不将模型机、第三方商用验证或创始人此前企业业绩算成本公司已交付。 当前公开事件为产品评测或技术路线披露，移除卡片中旧融资字段；历史融资原记录保持。",
+        "reviewer": "quality_inspector Agent + overnight Agent targeted continuation",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "原文称公司选择sCO₂气冷微堆直接循环，使二氧化碳同时承担堆芯冷却剂和发电工质功能，拟省去主换热器；并规划优先在工业余热回收、光热储能等非核场景应用动力技术，积累集成和运行控制经验，同步推进微堆研发与工程示范。",
+          "value_reason": "关注点是通过反应堆与发电系统协同设计追求紧凑化，以及用可独立应用的动力子系统分阶段推进工程转化。对杭州先进能源培育，可区分非核动力子系统验证与核系统整机验证的证据和资源需求；前者经验不能自动证明堆芯耦合后的安全性、可靠性或经济性。"
+        },
+        "stage": {
+          "reason": "正文使用探索、希望、规划及计划等措辞，没有披露本公司非核客户交付、已实现营收、微堆运行验证或工程示范完成。1600℃燃料性能及固有安全描述不能升级为本公司整机已通过验证，便携部署属于创始人愿景。路线形成及模型展示精确日期未知，首次收录时间未知。",
+          "status": "技术路线与滚动发展规划披露；展示模型机，非核商业化及微堆工程示范仍为计划"
+        }
+      },
+      "score": 15,
+      "sector": "先进核能／微型核能发电系统",
+      "selection_reason": "已完整复读采访及省科创母基金投资方官方披露，二者均明确完整公司名、张少泓创业主体与sCO2气冷微堆路线，原文又明确为前次融资稿的深度采访续篇，无不同法人或角色冲突。名录尚未归档不等于本条事实主体不明；沿原临时稳定ID收录，不更名、合并或批准全局简称。已审杭州普通创业经营归属不升级注册/总部或负面资格。11月4日新闻合窗；8月融资及微型核电源方向作为旧背景，本篇新增直接循环省去主换热器的系统设计、非核动力应用与微堆研发并行的推进路线。按探索及计划采信，不将模型机、第三方商用验证或创始人此前企业业绩算成本公司已交付。 当前公开事件为产品评测或技术路线披露，移除卡片中旧融资字段；历史融资原记录保持。",
+      "selection_recommendation": "keep",
+      "source": "湖畔自留田",
+      "title": "浙大教授想把核反应堆做成「充电宝」",
+      "company_db_id": null,
+      "identity_candidates": [],
+      "ai_reason": "九州星核的研究价值在于从系统紧凑化出发，用同一工质连接堆芯冷却与发电，尝试减少换热设备，而非单纯缩小反应堆。先做非核动力应用的路径可积累集成与控制经验，值得作为早期能源装备苗子关注。其向微堆整机推进，取决于直接循环的材料相容性、放射性控制及核安全工程验证，不能由非核应用经验直接替代。",
+      "wx_summary": "九州星核披露直接循环微堆路线，拟先推进非核动力应用",
+      "standard_sectors": [
+        "先进核能",
+        "微型核能发电系统"
+      ],
+      "supporting_sources": []
+    },
+    {
+      "article_location": "浙江省杭州市滨江区",
+      "article_title": "机器人登泰山，宇树科技1金2银！",
+      "benchmark_review": {
+        "eligible": true,
+        "evidence_ids": [
+          "accepted_history:6bb19dad5ec85a0e",
+          "accepted_history:66d57afc72eb96ed",
+          "prior_decision:50a1ddce1e52eee4"
+        ],
+        "reason": "复用既有已审独立依据：宇树提供机器人本体，与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体平台能力可供杭州机器人企业比较，不以本次奖牌、上市身份或评分授予资格，也不豁免本条历史待核。",
+        "status": "confirmed"
+      },
+      "company": "宇树科技股份有限公司",
+      "company_canonical_name": "宇树科技股份有限公司",
+      "company_entity_id": "dr-u-35826112ed957325dfd4",
+      "company_raw_name": "宇树科技股份有限公司",
+      "event_desc": "11月2日，首届CMG世界机器人登泰山大赛在山东泰安开赛。据来源标注为宇树科技的报道，赛事赛道从红门至中天门，全长3.9公里，包含3100余级台阶及连续石阶、陡坡和弯道。宇树科技旗下北京灵翌科技队使用宇树A2，以全程全自主模式完成实时感知与决策，获得足式机器人竞速赛冠军；上海高羿科技队使用A2获得竞速赛亚军。\n\n在足式机器人负重赛中，上海高羿科技队使用宇树B2获得亚军。B2在万仙楼至斗母宫赛段有效负重66公斤，含支架实际负重74公斤，完成负重登阶。",
+      "event_headline": "宇树A2自主登阶夺冠，B2负重登阶获亚军",
+      "event_headline_source": "0c25b2f8556d0b1a6ad7fda42605152cbaf07b3ee3b0abfe4fe484e240850461",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-11-03",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "其他",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+        "subject_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宇树科技股份有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-13a3a18a9bf559ad8bfbeaac"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+            "source_url": "https://www.unitree.com/cn/contact",
+            "checked_at": "2026-10-12T18:25:09.025885+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼",
+              "city": "杭州市",
+              "country": "CN",
+              "province": "浙江省"
+            },
+            "body_sha256": "194e50f29a7390166e1a3cb221a4b48e744fe020f4fdd0d8d60deab5dee24248",
+            "text_sha256": "27f82295e141eb83b63a77ed0f7066cfe30cd4a843719a0264a6448db58dec90"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "subject_locality",
+        "briefing_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ]
+      },
+      "identity_mentions": [
+        {
+          "evidence": "宇树科技旗下北京灵翌科技队带着宇树A2机器狗出战。",
+          "name": "宇树A2",
+          "relation": "product"
+        },
+        {
+          "evidence": "本次比赛，宇树官方仅A2、B2两款四足机器人参加足式机器人竞速赛及足式机器人负重赛",
+          "name": "宇树B2",
+          "relation": "product"
+        }
+      ],
+      "identity_status": "confirmed",
+      "insight": "这次比赛展示了宇树四足平台的两类山地作业基础能力：A2在连续不规则石阶上自主通行，B2承载物资登阶，分别对应山地巡检的通行需求和转运任务的载荷需求。不同团队基于宇树产品参赛，也显示其平台可供外部团队开展二次开发，但比赛表现尚不能直接外推为实际作业成效。",
+      "is_national_star": true,
+      "link": "https://mp.weixin.qq.com/s/gWyNXeCMGaKehjh65OzGzA",
+      "location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+      "location_basis": [
+        {
+          "checked_at": "2026-10-12T18:25:09.025885+00:00",
+          "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+          "place": {
+            "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼",
+            "city": "杭州市",
+            "country": "CN",
+            "province": "浙江省"
+          },
+          "role": "hq",
+          "source_url": "https://www.unitree.com/cn/contact",
+          "subject": "宇树科技股份有限公司",
+          "subject_relation": "same_subject"
+        }
+      ],
+      "location_next_action": null,
+      "location_status": "subject_confirmed",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-11-03",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": true,
+          "evidence_ids": [
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:66d57afc72eb96ed",
+            "prior_decision:50a1ddce1e52eee4"
+          ],
+          "reason": "复用既有已审独立依据：宇树提供机器人本体，与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体平台能力可供杭州机器人企业比较，不以本次奖牌、上市身份或评分授予资格，也不豁免本条历史待核。",
+          "status": "confirmed"
+        },
+        "candidate_id": "ffbf70d4782bcabd8b4332d9e31681b31ff386c73013d0aedda15d236c6b6001",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:de9d9bc206e87274",
+          "identity_registry:2dcd4f408df25406",
+          "geo-13a3a18a9bf559ad8bfbeaac",
+          "history_lookup:d52f787d1664c417",
+          "historical_input:246ab5cdefd2d623",
+          "historical_plan:251a2d2f16d5896b"
+        ],
+        "history": {
+          "change_reason": "已展示历史中的参访、IPO、融资、标准、模型合作、研发平台及商业渠道均为其他事件；8月运动性能发布涉及人形机器人，10月广州塔部署涉及展演，也不等同本次四足机器人泰山竞速及负重任务。当前正文增加特定赛事、自主运行方式和指定赛段载荷事实，但本次检索两条错误记录指向同一历史来源缺失，不能将可见记录无匹配宣称为完整去重或首次发现。本轮不改判任何旧事件，待恢复同赛事历史后确定新增性。 主Agent进一步读取10月25日原input与plan：G1人形集群演示在10月22日大会发生；本条是11月2日泰山A2/B2四足赛事，产品与事件均不同。旧元数据缺口保留，未重绑旧审批；不以该无关缺口阻断本次有正文的产品场景观察。",
+          "evidence_ids": [
+            "history_lookup:d52f787d1664c417",
+            "accepted_history:721cabb6862eed6f",
+            "accepted_history:a9601bf5150693fb",
+            "accepted_history:66d57afc72eb96ed",
+            "prior_decision:e7972ca26fc649dd",
+            "prior_decision:50a1ddce1e52eee4",
+            "prior_decision:60d0af6076425c2b",
+            "prior_decision:a28bb8fc265254f6",
+            "prior_decision:710f3a761425dd6c",
+            "prior_decision:584dcae82d9d7587",
+            "prior_decision:dc6a2b9dbc1f2af6",
+            "prior_decision:6b8d7a72b4139272",
+            "prior_decision:1e52d625556c3dc8",
+            "prior_decision:30d7fae7b1c99715",
+            "prior_decision:946bbcee8f87f0f4",
+            "prior_decision:bf02da706389889a",
+            "prior_decision:f58106869f28b2b2",
+            "prior_decision:d2e41dd5d05140c6",
+            "prior_decision:6216296ed33fe5fc",
+            "prior_decision:34ee5164252013f7",
+            "prior_decision:fe7908a1a2810c2a",
+            "prior_decision:9acc515fa8db258b",
+            "prior_decision:358cde0531df7c02",
+            "historical_input:246ab5cdefd2d623",
+            "historical_plan:251a2d2f16d5896b"
+          ],
+          "new_evidence_ids": [
+            "article:de9d9bc206e87274"
+          ],
+          "prior_decisions": [
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:e7972ca26fc649dd",
+              "reason": "北京、上海体验渠道及Go2家庭购买教学，与泰山A2竞速和B2负重比赛不同。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:50a1ddce1e52eee4",
+              "reason": "天津机器人展示中心投用，不涉及本次赛事及其能力数据。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:60d0af6076425c2b",
+              "reason": "10月22日G1大会集群演示与四足机器人泰山比赛的产品、场合和任务均不同。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:a28bb8fc265254f6",
+              "reason": "外部通用模型绘画实测，不是A2自主登阶或B2负重比赛，本条不解决旧实测条件缺口。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:710f3a761425dd6c",
+              "reason": "杉宇·创计划合作框架，不是机器人比赛或产品性能事实。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:584dcae82d9d7587",
+              "reason": "此前排除的是将数据服务行业压力及股价背景归于宇树的候选，不能据此排除本次有独立产品事实的赛事。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:dc6a2b9dbc1f2af6",
+              "reason": "三季报经营指标待核，与本次竞速及负重比赛没有相同事件事实。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:6b8d7a72b4139272",
+              "reason": "另一篇同一三季报披露候选，不是泰山比赛，财报待核不影响本条技术价值判断。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:1e52d625556c3dc8",
+              "reason": "已保留的研发客户采购、关节可靠性优化及软件平台事项，不证明本次比赛已收录，也不直接批准本条。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:30d7fae7b1c99715",
+              "reason": "为上述研发平台同一旧候选的另一采信留痕，与本次赛事不同。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:946bbcee8f87f0f4",
+              "reason": "DeepSeek战略配售和模型合作约定，不涉及本次比赛，不能据比赛推断合作履行。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:bf02da706389889a",
+              "reason": "北京、上海门店与消费案例的重复裁决留痕，不是本次赛事。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:f58106869f28b2b2",
+              "reason": "仍为门店与Go2消费案例，不因同属四足机器人应用而合并事件。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:d2e41dd5d05140c6",
+              "reason": "天津展示中心旧候选的再次留痕，与泰山自主竞速及负重比赛不同。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:6216296ed33fe5fc",
+              "reason": "通用模型绘画实测的重复裁决留痕，不是本次自主登阶事实。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:34ee5164252013f7",
+              "reason": "杉宇联合计划的重复裁决留痕，与本次比赛没有同事件关系。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:fe7908a1a2810c2a",
+              "reason": "与另一排除记录同属数据行业压力及上市行情背景候选，本次赛事不构成对该排除事件的改判。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:9acc515fa8db258b",
+              "reason": "三季报经营承压事项的重复留痕，与本次产品比赛不同。"
+            },
+            {
+              "comparison": "different_event",
+              "evidence_id": "prior_decision:358cde0531df7c02",
+              "reason": "另一三季报候选的重复留痕，不是本次A2、B2赛事记录。"
+            }
+          ],
+          "result": "uncertain"
+        },
+        "input_row_sha256": "e0867a83b24dfe3745612ddd63eeae86fe50a86b0f5ffb352386569fa343163b",
+        "reason": "原文提供宇树A2、B2参加泰山爬山赛的具体平台事实，结果分属北京灵翌、上海高羿等参赛团队，不把团队改造算法归为宇树独立研发成果。可保留四足平台在长阶梯与负重任务中的实际使用案例，不推断客户商业交付。已读历史中的G1大会集群演示、研发平台及上市行情均非本次赛事；旧行情背景排除不适用于真实产品使用。本轮历史来源元数据有缺失，仍记uncertain且不宣称首次，已有可读历史的具体差异足以支持这条窄命题。",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "正文记载北京灵翌科技队使用宇树A2，以全程全自主模式在连续不规则石阶赛道取得竞速冠军；上海高羿科技队使用A2获竞速亚军，使用B2获负重赛亚军，B2在指定赛段有效负重66公斤、含支架实际负重74公斤。",
+          "value_reason": "A2自主登阶与B2带载登阶分别为山地巡检通行和物资转运提供能力观察依据；外部团队自行开发参赛体现平台的开发利用方式。比赛条件下的表现不能直接外推实际作业可靠性、商业订单或交付成效，负重赛段也不能等同整条3.9公里赛道。"
+        },
+        "stage": {
+          "reason": "正文记载11月2日比赛及已取得名次，未在该句独立明写年份；新闻于2026年11月3日发布，首次收录时间未知。自主运行方式和载荷数据为报道所述比赛表现，山地巡检、物资转运是应用方向，不是已完成的客户作业。",
+          "status": "已完成比赛及特定条件下的产品能力展示"
+        }
+      },
+      "score": 75,
+      "sector": "机器人／四足机器人",
+      "selection_reason": "原文提供宇树A2、B2参加泰山爬山赛的具体平台事实，结果分属北京灵翌、上海高羿等参赛团队，不把团队改造算法归为宇树独立研发成果。可保留四足平台在长阶梯与负重任务中的实际使用案例，不推断客户商业交付。已读历史中的G1大会集群演示、研发平台及上市行情均非本次赛事；旧行情背景排除不适用于真实产品使用。本轮历史来源元数据有缺失，仍记uncertain且不宣称首次，已有可读历史的具体差异足以支持这条窄命题。",
+      "selection_recommendation": "keep",
+      "source": "滨江发布",
+      "title": "机器人登泰山，宇树科技1金2银！",
+      "company_db_id": 44,
+      "ai_reason": "宇树本期的关注点是四足平台从舞台展示走向连续山路通行与负重登阶。A2自主竞速和B2负重表现分别触及山地作业的通行、承载瓶颈，多团队使用也体现平台扩展空间。值得优先关注其向巡检与转运工具演进；若能进一步衔接任务执行、续航和复杂天气下的稳定运行，山地应用价值将更清晰。",
+      "wx_summary": "宇树A2全自主登阶夺冠，B2有效负重66公斤",
+      "standard_sectors": [
+        "机器人",
+        "四足机器人"
+      ],
+      "supporting_sources": []
+    },
+    {
+      "article_location": "杭州市临平区（原文明示为“临平企业”，未明确注册地或总部地）",
+      "article_title": "厉害了！国家级认证，来自临平！",
+      "benchmark_review": {
+        "eligible": false,
+        "evidence_ids": [
+          "article:10e53e58e828e51b"
+        ],
+        "reason": "具体应用观察成立，本材料不构成独立性能或市场标杆认证。",
+        "status": "not_qualified"
+      },
+      "company": "浙江联运环境工程股份有限公司",
+      "company_canonical_name": "浙江联运环境工程股份有限公司",
+      "company_entity_id": "dr-u-8d6b2db2d0fd4db945f1",
+      "company_raw_name": "浙江联运环境工程股份有限公司",
+      "event_desc": "11月6日报道，浙江联运自研“云联固废大模型”近日通过生成式人工智能服务备案。报道介绍，模型已用于其绿色数智分拣中心，将全波段光谱检测与机械臂分选结合，对塑料、玻璃、金属等物料识别并进行品质分档，也对废旧纺料按衣物品类和材质分类。\n\n据公司技术副总监徐心怡介绍，模型基于千万级真实业务数据和百万级物料标注图，针对低值、受污染、复合材质及杂塑料开展识别研发，可识别1000多种物料，分选精确度达99%。系统还支持回收率和碳减排数据核算，并在产线异常时秒级下发应对指令，协同500多台智能设备和2000余个传感器。",
+      "event_headline": "浙江联运自研云联固废大模型通过生成式人工智能服务备案",
+      "event_headline_source": "76d5991ece12d4e76d2467ad7f402e01a0be9ff6e6fcadd7d60e4e38ec7dfe7a",
+      "event_signal": "material",
+      "event_time_evidence": {
+        "description": "事件日期未明确；报道日为 2026-11-06",
+        "event_date": null,
+        "observed_date": "2026-11-06",
+        "review_required": true,
+        "status": "date_unknown_recent_report"
+      },
+      "event_type": "资质获批",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 临平区",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "浙江联运环境工程股份有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-2943f024a73a27f772cf04f0",
+            "source_url": "https://mp.weixin.qq.com/s/C13lgs3Ik2WFxLMgiJPWCg",
+            "checked_at": "2026-11-06T23:16:00+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "city": "杭州市",
+              "country": "CN",
+              "district": "临平区",
+              "province": "浙江省"
+            },
+            "body_sha256": "f89209e0e066103002a46d86610b3cf8a7badb2c36134b4d65ddaabbc567dc7b",
+            "text_sha256": "f89209e0e066103002a46d86610b3cf8a7badb2c36134b4d65ddaabbc567dc7b"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-2943f024a73a27f772cf04f0"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "临平区",
+          "evidence_ids": [
+            "geo-2943f024a73a27f772cf04f0"
+          ]
+        }
+      },
+      "identity_mentions": [
+        {
+          "evidence": "浙江联运环境工程股份有限公司技术副总监徐心怡介绍",
+          "name": "浙江联运环境工程股份有限公司",
+          "relation": "same_entity"
+        },
+        {
+          "evidence": "临平企业浙江联运通过自研“云联固废大模型”",
+          "name": "云联固废大模型",
+          "relation": "product"
+        }
+      ],
+      "identity_status": "confirmed",
+      "insight": "浙江联运的产品价值不只在于识别垃圾，而在于把物料识别、品质分档、机械分选与设备调度连成处理链条，使再生资源能够按更明确的材质和品质供给下游。此次备案新增的是生成式人工智能服务合规节点；其分拣能力的产业意义，则来自模型与光谱检测、机械臂及实际产线的结合。",
+      "is_national_star": false,
+      "link": "https://mp.weixin.qq.com/s/C13lgs3Ik2WFxLMgiJPWCg",
+      "location": "浙江省 / 杭州市 / 临平区",
+      "location_basis": [
+        {
+          "checked_at": "2026-11-06T23:16:00+00:00",
+          "evidence_id": "geo-2943f024a73a27f772cf04f0",
+          "place": {
+            "city": "杭州市",
+            "country": "CN",
+            "district": "临平区",
+            "province": "浙江省"
+          },
+          "role": "business",
+          "source_url": "https://mp.weixin.qq.com/s/C13lgs3Ik2WFxLMgiJPWCg",
+          "subject": "浙江联运环境工程股份有限公司",
+          "subject_relation": "same_subject"
+        }
+      ],
+      "location_next_action": null,
+      "location_status": "discovery_confirmed",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-11-06",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": false,
+          "evidence_ids": [
+            "article:10e53e58e828e51b"
+          ],
+          "reason": "具体应用观察成立，本材料不构成独立性能或市场标杆认证。",
+          "status": "not_qualified"
+        },
+        "candidate_id": "ad81e4da3dadda556419e259d61d47b8e14e65f3eaa05829ba6d2e17ad7cb513",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:10e53e58e828e51b",
+          "accepted_history:0b3278aa0bb60b6e",
+          "accepted_history:b65be550b3820351"
+        ],
+        "history": {
+          "change_reason": "4月4日已有中心投运及99%准确率，4月24日为调研。本篇新增生成式服务备案、千种物料识别及设备协同说明，不重计新工厂，不跨期横比效率数据。",
+          "evidence_ids": [
+            "accepted_history:0b3278aa0bb60b6e",
+            "accepted_history:b65be550b3820351",
+            "history_lookup:43368e8183b47b22"
+          ],
+          "new_evidence_ids": [
+            "article:10e53e58e828e51b"
+          ],
+          "prior_decisions": [],
+          "result": "new_progress"
+        },
+        "input_row_sha256": "c537cfa74cbb071d0599376909c6bf079bd27eb8b5cf2823af0493183290b539",
+        "reason": "全文明确临平企业及法体全称、模型备案、光谱识别与机械臂分选应用；11月6日新闻符合窗口。4月已有分拣中心运营，本次只保留模型备案和应用说明的增量，不把备案称性能认证，指标按企业自述。",
+        "reviewer": "overnight current Agent: six validated semantic batches and two directed full-text decisions",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "浙江联运自研的“云联固废大模型”通过生成式人工智能服务备案。该模型应用于再生资源分拣，结合全波段光谱检测与机械臂实现物料识别、品质分档和自动分选，并支持回收率、碳减排数据核算及设备异常响应。据公司技术副总监介绍，模型可识别1000多种物料，分选精确度达99%。公司已在全国布局32座标准化智能分拣中心、3600余个基层回收网点，相关设备已在马来西亚、泰国、墨西哥、韩国等国家投入使用。",
+          "value_reason": "低值混合物料识别接入设备作业及回收数据闭环，连接分类模型与资源循环制造环节；不将备案等同精确度验证。"
+        },
+        "stage": {
+          "reason": "全文明确临平企业及法体全称、模型备案、光谱识别与机械臂分选应用；11月6日新闻符合窗口。4月已有分拣中心运营，本次只保留模型备案和应用说明的增量，不把备案称性能认证，指标按企业自述。",
+          "status": "filed_service_and_operating_application"
+        }
+      },
+      "score": 60,
+      "sector": "再生资源循环利用与智能分拣",
+      "selection_reason": "全文明确临平企业及法体全称、模型备案、光谱识别与机械臂分选应用；11月6日新闻符合窗口。4月已有分拣中心运营，本次只保留模型备案和应用说明的增量，不把备案称性能认证，指标按企业自述。",
+      "selection_recommendation": "keep",
+      "source": "临平发布",
+      "title": "厉害了！国家级认证，来自临平！",
+      "company_db_id": 27,
+      "ai_reason": "联运值得关注的是把物料识别、品质分档与设备协同连接成资源再生生产系统，竞争力落在复杂废料能否稳定转为下游可用原料，而非模型备案本身。已有分拣网络为技术持续迭代提供场景，若受污染和复合材质识别能力能够跨中心复用，有望从单点智能分选扩展为再生资源处理的系统化技术供给。",
+      "wx_summary": "联运披露复杂废料识别与设备协同，固废模型通过备案",
+      "standard_sectors": [
+        "再生资源循环利用",
+        "智能分拣"
+      ],
+      "supporting_sources": []
+    }
+  ],
+  "national_top": [
+    {
+      "article_location": "艾图机器人研发地为杭州临平；杰克—艾图总部项目位于临平新城，在建。原文未明确杰克科技注册地或现有主要总部所在地。",
+      "article_title": "全球首发！临平新晋“厂花”上线！",
+      "benchmark_review": {
+        "eligible": true,
+        "evidence_ids": [
+          "article:a93dd1fa95fdc023"
+        ],
+        "reason": "政府融媒体正文明确称杰克科技为全球智能服装装备行业产销规模最大的上市企业、工业缝纫机连续16年全球销量第一，并披露其依托既有装备与工艺积累实现机器人整线及盛泰工厂应用，构成行业地位与杭州服装智能制造对标的具体依据；资格属于杰克科技，不自动赋予艾图独立法人身份，也不等于本事件自动进入领导简报。",
+        "status": "confirmed"
+      },
+      "company": "杰克科技",
+      "company_canonical_name": "杰克科技",
+      "company_entity_id": "dr-u-77c91310f2b2a1cdfcd5",
+      "company_raw_name": "杰克科技",
+      "event_desc": "11月2日的报道介绍，杰克科技旗下品牌艾图科技在10月28日发布缝制机器人“艾妮”和服装机器人成套产线“产线王”。“艾妮”通过视觉识别和传感控制实现面料单层抓取、褶皱与偏移动态纠正，并可经工人简易示教适配贴袋、锁眼、钉扣等工序，对接多种AI缝纫设备。据艾图CEO张瀚文介绍，机器人已逐步进入国内及巴西、乌兹别克斯坦、泰国、越南等地工厂。\n\n“产线王”以北极星AI智能系统调度，集成裁剪、配送、机器人缝制和智能质检。报道披露，该产线已进入盛泰集团工厂：衬衫产线在同等产能下，用工由传统产线的40人减至12人；在20小时工况下，净色衬衫日产1000件、条格衬衫日产700件。",
+      "event_headline": "杰克科技旗下艾图发布缝制机器人及已进厂成套产线",
+      "event_headline_source": "5949d8036cd615e8a8ddb513851394fc60abaa6f2f5897d703035d8aeb461521",
+      "event_signal": "major",
+      "event_time_evidence": {
+        "description": "正文明确发布会为10月28日，但未明示年份；新闻发布时间为2026年11月2日，不以新闻日期替代事件日期。",
+        "event_date": null,
+        "observed_date": "2026-11-02",
+        "review_required": false,
+        "status": "occurred_date_partial"
+      },
+      "event_type": "重磅发布",
+      "financing": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 台州市 / 台州湾智能工厂",
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杰克科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-2ac0d7090f43e0ad12059230",
+            "source_url": "https://cn.chinajack.com/web/news/detail?categoryId=66&id=250",
+            "checked_at": "2026-11-03T18:10:38.312975+00:00",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "address": "台州湾智能工厂",
+              "city": "台州市",
+              "country": "CN",
+              "province": "浙江省"
+            },
+            "body_sha256": "6c9e8899a38fd9d898ba23757fa82adb5116007f0add1117117171a152174f60",
+            "text_sha256": "65c0ad8a2901592f8c70348a00d24e0932c60b5a82f6f95ea50136339bc1a0f0"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "discovery_locality",
+        "briefing_evidence_ids": [
+          "geo-2ac0d7090f43e0ad12059230"
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "台州市",
+          "evidence_ids": [
+            "geo-2ac0d7090f43e0ad12059230"
+          ]
+        }
+      },
+      "identity_mentions": [
+        {
+          "evidence": "这一幕，发生在10月28日杰克科技旗下品牌艾图科技的全球发布会上。",
+          "name": "艾图科技",
+          "relation": "product"
+        },
+        {
+          "evidence": "当天，企业正式首发面向服装真实工位的具身智能缝制机器人——缝制新工人“艾妮”，以及全球首条可量产落地的服装机器人成套产线“产线王”。",
+          "name": "艾妮",
+          "relation": "product"
+        },
+        {
+          "evidence": "当天，企业正式首发面向服装真实工位的具身智能缝制机器人——缝制新工人“艾妮”，以及全球首条可量产落地的服装机器人成套产线“产线王”。",
+          "name": "产线王",
+          "relation": "product"
+        }
+      ],
+      "identity_status": "unresolved",
+      "insight": "这次进展把自动化对象从缝纫设备扩展到柔性布料的抓取、纠偏和跨工序协同：机器人处理上料与控布，成套产线再把裁剪、配送、缝制和质检连接起来。盛泰工厂的实际应用及同产能用工变化，为其从单机能力走向整线应用提供了具体案例；能否适配更多面料和款式，是判断这一模式可复制范围的关键。",
+      "is_national_star": true,
+      "link": "https://mp.weixin.qq.com/s/mTKlt30ZO2vWLRAQiBz6Lw",
+      "location": "浙江省 / 台州市 / 台州湾智能工厂",
+      "location_basis": [],
+      "location_candidates": [
+        {
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business",
+          "status": "article_candidate_only",
+          "value": "艾图机器人研发地为杭州临平；杰克—艾图总部项目位于临平新城，在建。原文未明确杰克科技注册地或现有主要总部所在地。"
+        }
+      ],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_status": "unknown",
+      "publication_basis": "采集源保留的发布时间",
+      "published_date": "2026-11-02",
+      "quality_review": {
+        "benchmark_review": {
+          "eligible": true,
+          "evidence_ids": [
+            "article:a93dd1fa95fdc023"
+          ],
+          "reason": "政府融媒体正文明确称杰克科技为全球智能服装装备行业产销规模最大的上市企业、工业缝纫机连续16年全球销量第一，并披露其依托既有装备与工艺积累实现机器人整线及盛泰工厂应用，构成行业地位与杭州服装智能制造对标的具体依据；资格属于杰克科技，不自动赋予艾图独立法人身份，也不等于本事件自动进入领导简报。",
+          "status": "confirmed"
+        },
+        "candidate_id": "e086354e9d2549f542a045ff1e113a797a49daddb25fee7d0ab15936da10943c",
+        "decision": "keep",
+        "evidence_ids": [
+          "article:a93dd1fa95fdc023",
+          "history_lookup:f4c099b5c17bcb83"
+        ],
+        "history": {
+          "change_reason": "输入中该稳定主体的accepted_history和prior_decisions均为空，无历史读取错误；所给检索范围内未见本次机器人及成套产线发布应用事件。",
+          "evidence_ids": [
+            "history_lookup:f4c099b5c17bcb83"
+          ],
+          "new_evidence_ids": [
+            "article:a93dd1fa95fdc023"
+          ],
+          "prior_decisions": [],
+          "result": "new_event"
+        },
+        "input_row_sha256": "04947b11317a6a88f95d92d612a1e3cedb7517ba5b3a07e44213f533d6445433",
+        "reason": "临平发布正文直接证明杰克科技旗下品牌艾图发布缝制机器人与成套产线，并披露柔性面料抓取、动态纠偏、示教换工序及盛泰集团工厂应用，形成技术产品与客户生产环节的具体联系。艾图在本条中按品牌关系理解，不作为杰克科技已确认别名或独立法人；盛泰是应用客户。新闻发布证据为2026年11月2日，符合采集窗口；正文发布会日期仅写10月28日，年份未明确，不补造完整日期。历史检索无收录或旧裁决。临平研发与在建第二总部是明确本地业务联系，不证明集团注册地或现有主要总部在杭州，也不因上市成熟而排除本次正面进展。",
+        "reviewer": "quality_inspector Agent",
+        "schema_version": "dragon-overnight-review.v2",
+        "scope": {
+          "technology_evidence": "艾妮具备面料识别、单层抓取、动态纠偏和简易示教适配工序的能力；产线王集成裁剪、配送、机器人缝制和智能质检。据报道，该产线已进入盛泰集团工厂，同等产能用工由40人降至12人，并给出20小时工况下不同衬衫品类的日产数据。",
+          "value_reason": "柔性布料控制与跨工序协同是服装自动化的具体瓶颈，本条同时给出产品能力和具名工厂应用，为杭州纺织服装产业判断机器人整线改造提供实际样本。应优先比较适用面料、款式切换及稳定运行条件，不能把单条产线披露的数据外推为所有工厂收益。"
+        },
+        "stage": {
+          "reason": "正文记载发布会及盛泰工厂已应用事实，性能数据来自报道和企业披露，并非本轮独立测试；临平总部项目计划2028年完成，不是已建成或集团已迁入。",
+          "status": "产品已发布，已有客户工厂应用；第二总部仍在建设"
+        }
+      },
+      "score": 50,
+      "sector": "智能服装装备与具身智能机器人",
+      "selection_reason": "临平发布正文直接证明杰克科技旗下品牌艾图发布缝制机器人与成套产线，并披露柔性面料抓取、动态纠偏、示教换工序及盛泰集团工厂应用，形成技术产品与客户生产环节的具体联系。艾图在本条中按品牌关系理解，不作为杰克科技已确认别名或独立法人；盛泰是应用客户。新闻发布证据为2026年11月2日，符合采集窗口；正文发布会日期仅写10月28日，年份未明确，不补造完整日期。历史检索无收录或旧裁决。临平研发与在建第二总部是明确本地业务联系，不证明集团注册地或现有主要总部在杭州，也不因上市成熟而排除本次正面进展。",
+      "selection_recommendation": "keep",
+      "source": "临平发布",
+      "title": "全球首发！临平新晋“厂花”上线！",
+      "company_db_id": null,
+      "identity_candidates": [],
+      "ai_reason": "杰克的突破点在于将柔性面料的抓取、纠偏与工序切换接入整线调度，直接应对服装制造依赖熟练工、换款适配重的瓶颈。客户工厂的衬衫线应用比单机演示更具对标价值。若对不同面料和款式的适配能保持稳定，有望从缝纫设备供应商向柔性制造系统提供商延伸，值得研究其装备与工艺数据协同路径。",
+      "wx_summary": "杰克旗下艾图发布缝制机器人，成套产线已进客户工厂",
+      "standard_sectors": [
+        "智能服装装备",
+        "具身智能机器人"
+      ],
+      "supporting_sources": []
+    }
+  ],
+  "summary": {
+    "ai_insight": {
+      "hz_insight": "<b>本期简报精选寻龙雷达发掘杭州企业 10 家，涵盖 人工智能 1 家、自主智能体基础架构 1 家、人工智能驱动科学研究 1 家 等领域。</b>深度求索以原型试验探索持续任务调度，机器科学尝试跨本体操作，黑漫仍在可靠性爬坡；和晖已有批量应用，竞争焦点从单机展示转向可复用组件与稳定作业。",
+      "nat_insight": "<b>本期简报精选寻龙雷达发掘外市企业 1 家，涵盖 智能服装装备 1 家、具身智能机器人 1 家 领域。</b>杰克把柔性面料抓取、动态纠偏与工序示教接入整线调度，成套产线已进客户工厂。其升级路径由单工位自动化，延伸至裁剪、配送、缝制与质检协同，以系统适配应对小单快反。"
+    },
+    "analysis_text": "<b>【整体态势】</b> 本周（11月2日-11月8日），寻龙雷达共跟踪科技企业 101 家，其中涉及融资或上市信息 13 家、重点科技进展信息 30 家。<br><br><b>【杭州观察】</b> 在本周采集的企业信息中，本期精选 <b>10</b> 家杭州科技企业。<br><br><b>【全国标杆】</b> 在本周采集的企业信息中，本期精选 <b>1</b> 家国内其他城市科技企业。",
+    "end_date": "2026-11-08",
+    "financing_events": 13,
+    "milestone_events": 30,
+    "report_id": "2026-W45",
+    "report_type": "weekly",
+    "start_date": "2026-11-02",
+    "statistics_semantics": "dragon-briefing-company-statistics.v2",
+    "total_companies": 101
+  }
+}
