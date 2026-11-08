@@ -1853,16 +1853,18 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/W11YP-bqnyjO5jOf8fM4VQ",
       "sector": "商业航天／AI卫星",
-      "location": "地点线索：四川省成都市；原文明示2018年5月在成都成立，未单独说明当前注册地或主要总部地址。",
+      "location": "四川省 / 成都市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "四川省 / 成都市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-6a0c0001013b7a49354553bf"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "成都国星宇航科技股份有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1870,7 +1872,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-6a0c0001013b7a49354553bf",
+            "source_url": "https://mp.weixin.qq.com/s/W11YP-bqnyjO5jOf8fM4VQ",
+            "checked_at": "2026-11-08T17:10:43.454772+00:00",
+            "subject": "成都国星宇航科技股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "四川省",
+              "city": "成都市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "四川省",
+          "city": "成都市",
+          "evidence_ids": [
+            "geo-6a0c0001013b7a49354553bf"
+          ]
+        }
       },
       "article_location": "四川省成都市；原文明示2018年5月在成都成立，未单独说明当前注册地或主要总部地址。",
       "source": "投资界",

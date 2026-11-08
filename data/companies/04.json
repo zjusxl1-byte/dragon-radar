@@ -1411,16 +1411,18 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/nqOkI3cwBxc7t-4qvMVwxQ",
       "sector": "人工智能／扩散语言模型／AI陪伴与互动内容",
-      "location": "地点待核",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e1c9e1b5d7befb607c633eda"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "西湖心辰",
         "subject_locality": {
           "status": "unknown",
@@ -1428,7 +1430,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e1c9e1b5d7befb607c633eda",
+            "source_url": "https://www.hzzx.gov.cn/cshz/content/2023-02/10/content_8467704.htm",
+            "checked_at": "2026-11-08T18:34:50.804250+00:00",
+            "subject": "西湖心辰",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-e1c9e1b5d7befb607c633eda"
+          ]
+        }
       },
       "article_location": "",
       "source": "晚点 LatePost",

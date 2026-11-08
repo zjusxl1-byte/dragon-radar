@@ -3243,16 +3243,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/xr4srXMf-EogfsMZ9k5l1w",
       "sector": "人工智能／个人智能体／AI社交与陪伴",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-08bef43e058718865630fde5"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "自然选择",
         "subject_locality": {
           "status": "unknown",
@@ -3260,7 +3262,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-08bef43e058718865630fde5",
+            "source_url": "https://letschuhai.com/11890970-2",
+            "checked_at": "2026-11-08T17:22:43.322684+00:00",
+            "subject": "自然选择",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-08bef43e058718865630fde5"
+          ]
+        }
       },
       "article_location": "",
       "source": "晚点 LatePost",

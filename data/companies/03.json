@@ -2125,16 +2125,18 @@
       "event_type": "融资",
       "link": "https://news.mysteel.com/a/26102710/DCFD03776CD69364.html",
       "sector": "人形机器人、具身智能",
-      "location": "地点线索：待核实；原文未披露主体注册地、总部或经营地",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f2d968fab1a8fd881846a390"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "原力无限科技控股(浙江)有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -2142,7 +2144,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-f2d968fab1a8fd881846a390",
+            "source_url": "https://infiforce.cn/aboutus",
+            "checked_at": "2026-11-08T18:53:49.393240+00:00",
+            "subject": "原力无限科技控股(浙江)有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-f2d968fab1a8fd881846a390"
+          ]
+        }
       },
       "article_location": "待核实；原文未披露主体注册地、总部或经营地",
       "source": "news.mysteel.com",

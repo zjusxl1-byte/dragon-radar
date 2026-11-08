@@ -1497,16 +1497,19 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/oLfSR1DP-nn0Re0jAxHG-Q",
       "sector": "人工智能基础设施",
-      "location": "地点待核",
+      "location": "US / California",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fa66870bacfd5e5b7415423e",
+          "geo-cfc42ec01a449286d89a1325"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "RadixArk",
         "subject_locality": {
           "status": "unknown",
@@ -1514,7 +1517,42 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-fa66870bacfd5e5b7415423e",
+            "source_url": "https://www.linkedin.com/company/radixark",
+            "checked_at": "2026-11-08T17:47:34.451189+00:00",
+            "subject": "RadixArk",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          },
+          {
+            "evidence_id": "geo-cfc42ec01a449286d89a1325",
+            "source_url": "https://dealroom.co/companies/radixark",
+            "checked_at": "2026-11-08T17:47:35.295731+00:00",
+            "subject": "RadixArk",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "city": "Palo Alto"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-fa66870bacfd5e5b7415423e",
+            "geo-cfc42ec01a449286d89a1325"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",

@@ -3888,16 +3888,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/X9SExlF-yKzToy6OYIvvIg",
       "sector": "光学器件",
-      "location": "地点线索：浙江余姚（总部）",
+      "location": "浙江省 / 宁波市 / 余姚市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省 / 宁波市 / 余姚市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-4a0fe0714489c8d27d9619e5"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "舜宇光学",
         "subject_locality": {
           "status": "unknown",
@@ -3905,7 +3907,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4a0fe0714489c8d27d9619e5",
+            "source_url": "https://mp.weixin.qq.com/s/X9SExlF-yKzToy6OYIvvIg",
+            "checked_at": "2026-11-08T17:11:15.074902+00:00",
+            "subject": "舜宇光学",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "宁波市",
+              "district": "余姚市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "宁波市",
+          "district": "余姚市",
+          "evidence_ids": [
+            "geo-4a0fe0714489c8d27d9619e5"
+          ]
+        }
       },
       "article_location": "浙江余姚（总部）",
       "source": "临平发布",
