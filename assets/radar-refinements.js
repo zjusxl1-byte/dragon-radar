@@ -60,7 +60,7 @@
   };
   const originalWeeklyLoad=loadWeeklyData,originalBriefingLoad=loadBriefingData;
   loadWeeklyData=week=>reuseRequest(dataRequests,'week:'+week,()=>originalWeeklyLoad(week));
-  loadBriefingData=(type,id)=>reuseRequest(dataRequests,'brief:'+type+':'+id,()=>originalBriefingLoad(type,id));
+  loadBriefingData=(type,id)=>reuseRequest(dataRequests,'brief:'+type+':'+id+':'+(params().original==='1'?'original':'latest:'+Math.floor(Date.now()/60000)),()=>originalBriefingLoad(type,id));
   function trackButton(name){return '<a class="radar-track" href="'+esc(companyLink(name))+'" aria-label="追踪'+esc(name)+'，查看全部已收录信息">追踪</a>';}
   function readingBadge(name){return window.RadarInterpretation?.badge(name,safeBack(location.hash.slice(1)||'/'))||'';}
   function originTitle(title){return title?'<details class="radar-original-source"><summary>原文标题</summary><p>'+esc(title)+'</p></details>':'';}
