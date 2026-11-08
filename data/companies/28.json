@@ -2659,16 +2659,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/SgJqD2vsvgKYQ5j73QEHlg",
       "sector": "AI智能体基础设施/智能体仿真与自进化",
-      "location": "地点线索：杭州西湖区",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-484e13d98aa1eec488405ee9"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "向界智能科技（杭州）有限责任公司",
         "subject_locality": {
           "status": "unknown",
@@ -2676,7 +2678,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-484e13d98aa1eec488405ee9",
+            "source_url": "https://mp.weixin.qq.com/s/SgJqD2vsvgKYQ5j73QEHlg",
+            "checked_at": "2026-11-08T21:41:57.603677+00:00",
+            "subject": "向界智能科技（杭州）有限责任公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-484e13d98aa1eec488405ee9"
+          ]
+        }
       },
       "article_location": "杭州西湖区",
       "source": "湖畔自留田",
