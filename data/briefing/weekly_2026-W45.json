@@ -1,0 +1,486 @@
+{
+  "summary": {
+    "report_id": "2026-W45",
+    "report_type": "weekly",
+    "start_date": "2026-11-02",
+    "end_date": "2026-11-08",
+    "total_companies": 101,
+    "financing_events": 12,
+    "milestone_events": 30,
+    "ai_insight": {
+      "hz_insight": "<b>本期简报精选寻龙雷达发掘杭州企业 2 家，涵盖 人工智能 1 家、机器人 1 家 领域。</b>智能体与四足机器人分别推进持续任务协作和复杂地形自主运行，杭州培育应从单点演示转向连续工作验证，优先对接软件研发协作、山地巡检与物资转运场景。",
+      "nat_insight": "<b>本期简报精选寻龙雷达发掘外市企业 0 家。</b> 本期外地候选仍以日报产业观察为主，尚未形成同时满足地域证据、原候选入口及实质对标价值的精选名单，后续沿原证据队列补核，不以一般融资或知名度补足名额。"
+    },
+    "analysis_text": "<b>【整体态势】</b> 本周（11月2日-11月8日），寻龙雷达共扫描全国前沿科创动态 101 起，其中融资重组 12 起，重点领域进展 30 起。<br><br><b>【杭州观察】</b> 经清洗去重，本周全市共有 <b>2</b> 家最具培育价值的科创企业取得突出前沿进展。<br><br><b>【全国标杆】</b> 严苛跨省遴选，系统另捕捉到 <b>0</b> 家对本地产业演进具有重大对标与借鉴价值的全国性先锋企业，作为核心参考。"
+  },
+  "hangzhou_top": [
+    {
+      "company_raw_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "company": "杭州深度求索人工智能基础技术研究有限公司",
+      "score": 100,
+      "sector": "人工智能／自主智能体基础架构",
+      "financing": "",
+      "source": "量子位",
+      "location": "浙江省 / 杭州市",
+      "article_location": "浙江省杭州市（复用输入中已审同主体总部地点记录，非本文披露）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "reason": "同主体主要总部由政府正文明确指向杭州，官方隐私政策与稳定别名交叉确认主体；旧无来源深圳值不构成同角色冲突。",
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ],
+          "basis_roles": [
+            "hq"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/CfHGwFAPzsTi6XSELQ9CoA",
+      "article_title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "event_desc": "据文章报道，DeepSeek团队公开Super-agent架构思路，采用Router调度与Worker执行的双层设计，结合事件订阅直通、两级消息过滤、投机执行和独立Watchdog机制，支持跨平台衔接任务、并行执行及异常恢复。团队在约300条消息、20项工作请求的模拟协作环境中，每种配置重复测试5次，报告Super-agent任务完成时间中位数为12.4分钟、95分位数为15.7分钟；传统单Session方案在中性提示下的95分位数为29.5分钟。异步ReAct Loop已在DeepSeek Harness实现，但尚未默认开启。文章附有原型项目GitHub链接。",
+      "insight": "这次进展将DeepSeek的Agent探索从单次代码任务扩展到跨平台、持续推进的工作流：调度层管理新任务，执行层直接接收既有任务的后续消息，减少人工搬运上下文和集中调度造成的等待。模拟实验提供了任务完成时间改善的初步依据，但真实工作环境中能否稳定保持这种优势，仍取决于事件识别、权限控制与异常恢复的实际表现。",
+      "event_headline": "DeepSeek公开Super-agent架构，探索跨平台持续执行任务",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-10-31",
+        "event_date": null,
+        "observed_date": "2026-10-31",
+        "review_required": true
+      },
+      "published_date": "2026-10-31",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "全文将Super-agent架构公开、内部运行实例和模拟实验明确归于DeepSeek团队；已确认品牌别名、稳定企业主体及政府杭州总部证据可复用，不因当前文章未重述工商全称而退回品牌待核。Router与Worker分层、事件订阅直通、异步交互和Watchdog提供了跨平台持续任务执行的具体工程进展，区别于既有Harness桌面版、插件兼容、模型发布及生产推理框架开源。2026年10月31日原始新闻发布时间已提供，符合窗口。按架构探讨和原型阶段保留，模拟性能归于团队报告，不宣传为已普遍实现无人值守或商业化交付。",
+      "event_headline_source": "68b3b8a0d937e2dd45e0f4d5353737d139b0ffa670f1d58a10d7d6c478bfd857",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本次架构与原型足以支持技术进展，但性能来自团队小规模模拟实验，尚无同条件独立比较、真实部署验证或长期可靠性证据，不改变既有尚未建立独立全国标杆资格的边界。",
+        "evidence_ids": [
+          "article:3145feb273117129",
+          "prior_decision:57fb9024d657db8d",
+          "prior_decision:4aa55ed3d77695df"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "current-task Agent: quality_inspector continuation and targeted editorial review",
+        "candidate_id": "8f1639b88766220ef8d55a6ea1af683f8664055c7daf2979908240aaa800d9cb",
+        "input_row_sha256": "20dfbd41a0808f0ee6af92ba5e93adff22f5a5f6590d9e5590c57ab9fa193326",
+        "reason": "全文将Super-agent架构公开、内部运行实例和模拟实验明确归于DeepSeek团队；已确认品牌别名、稳定企业主体及政府杭州总部证据可复用，不因当前文章未重述工商全称而退回品牌待核。Router与Worker分层、事件订阅直通、异步交互和Watchdog提供了跨平台持续任务执行的具体工程进展，区别于既有Harness桌面版、插件兼容、模型发布及生产推理框架开源。2026年10月31日原始新闻发布时间已提供，符合窗口。按架构探讨和原型阶段保留，模拟性能归于团队报告，不宣传为已普遍实现无人值守或商业化交付。",
+        "scope": {
+          "technology_evidence": "正文公开Router调度与Worker执行的双层设计，Worker可订阅PR后续评论并直接接收消息；另有两级事件过滤、投机执行及独立Watchdog。异步ReAct Loop已在Harness实现但未默认开启。团队以约300条消息、20项请求的模拟环境测试，每种配置重复5次，报告Super-agent任务完成时间中位数12.4分钟、95分位15.7分钟。",
+          "value_reason": "该架构针对多任务持续执行中的上下文搬运、集中调度等待和异常恢复，而非只改善单次模型回答。对杭州智能体企业，直接价值是提供可比较的任务路由及持久执行实现路径；采用判断应围绕真实工作负载下的任务完成、响应和恢复表现，不由小规模模拟实验推导普遍效率或可靠性优势。"
+        },
+        "stage": {
+          "status": "已公开架构思路及原型链接；内部实例和初步模拟实验；部分机制尚未默认启用",
+          "reason": "文章定位为工程实践架构探讨，提供原型GitHub链接并描述内部运行实例；本轮未独立读取仓库或复现实验，不确认许可证、代码完整性及正式产品可用范围。长期在线和自动恢复属于设计目标及所述机制，尚无长期稳定性验证。新闻日为2026年10月31日，精确公开事件日及首次收录时间未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:3ffe8fa169e4b700",
+            "accepted_history:fee5adc7eeea25f4",
+            "accepted_history:acb664257ffa04b4",
+            "accepted_history:0ce074f776a7df00",
+            "accepted_history:a11c70966626e98d",
+            "accepted_history:0059924beb11e32d",
+            "accepted_history:85a2a890a7b60d46",
+            "accepted_history:964df534cdd77887",
+            "accepted_history:f349a66d9a330cb3",
+            "prior_decision:32fffa5346c94646",
+            "prior_decision:80ae9a27f89f46e1",
+            "prior_decision:32e66738fb3c21d7"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:32fffa5346c94646",
+              "comparison": "different_event",
+              "reason": "旧排除针对V4.1-Flash-1017模型更新及完整项目编程的重复报道；本条公开持续任务调度、事件订阅和恢复架构，不是再次发布同一模型。"
+            },
+            {
+              "evidence_id": "prior_decision:80ae9a27f89f46e1",
+              "comparison": "different_event",
+              "reason": "该旧排除同属模型快照重复发布。即使Super-agent使用Harness，也不能据共用框架或企业名称将新的架构公开并入旧转载排除。"
+            },
+            {
+              "evidence_id": "prior_decision:32e66738fb3c21d7",
+              "comparison": "different_event",
+              "reason": "旧排除针对10月15日API故障及相同补偿的重复回顾。本条是智能体系统架构公开，Watchdog设计不证明旧API故障根因已查明或整改完成，旧预警及去重继续有效。"
+            }
+          ],
+          "change_reason": "既有Harness记录分别涉及桌面入口、账号插件、兼容层和模型协同优化；DSec涉及训练沙盒，DeepInfer及recipe涉及生产推理和接口编解码。本条新增Super-agent跨平台持续任务的调度、事件直通、主动执行与恢复设计及对应模拟实验，可识别为另一工程公开节点，不重复计作Harness首次发布。资本、算力规划、海外授权、缓存定价及故障历史均非同事件；API输出猜测、具身研发和融资待核亦不因本条改判。当前history_retrieval_errors为空，不继承旧裁决内部的检索异常，不宣称全局首次。",
+          "new_evidence_ids": [
+            "article:3145feb273117129"
+          ]
+        },
+        "evidence_ids": [
+          "article:3145feb273117129",
+          "identity_registry:2dcd4f408df25406",
+          "geo-8d153ebc1f63d3a87bb41366",
+          "history_lookup:3ffe8fa169e4b700",
+          "accepted_history:fee5adc7eeea25f4",
+          "accepted_history:acb664257ffa04b4",
+          "accepted_history:85a2a890a7b60d46",
+          "prior_decision:32fffa5346c94646",
+          "prior_decision:80ae9a27f89f46e1",
+          "prior_decision:32e66738fb3c21d7"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本次架构与原型足以支持技术进展，但性能来自团队小规模模拟实验，尚无同条件独立比较、真实部署验证或长期可靠性证据，不改变既有尚未建立独立全国标杆资格的边界。",
+          "evidence_ids": [
+            "article:3145feb273117129",
+            "prior_decision:57fb9024d657db8d",
+            "prior_decision:4aa55ed3d77695df"
+          ]
+        }
+      },
+      "company_db_id": 258,
+      "ai_reason": "DeepSeek将跨平台任务调度、执行和恢复拆成可持续运行的系统，公开事件直通与看门狗原型，实质变化是从单次会话迈向多任务工程。优先对接本地软件研发协作试点，以任务续接和异常恢复检验可用性；当前仍为原型和模拟实验。",
+      "wx_summary": "公开持续任务智能体原型，探索跨平台协作与异常恢复",
+      "standard_sectors": [
+        "人工智能"
+      ]
+    },
+    {
+      "company_raw_name": "宇树科技股份有限公司",
+      "identity_mentions": [
+        {
+          "name": "宇树A2",
+          "relation": "product",
+          "evidence": "宇树科技旗下北京灵翌科技队带着宇树A2机器狗出战。"
+        },
+        {
+          "name": "宇树B2",
+          "relation": "product",
+          "evidence": "本次比赛，宇树官方仅A2、B2两款四足机器人参加足式机器人竞速赛及足式机器人负重赛"
+        }
+      ],
+      "title": "机器人登泰山，宇树科技1金2银！",
+      "company": "宇树科技股份有限公司",
+      "score": 75,
+      "sector": "机器人／四足机器人",
+      "financing": "",
+      "source": "滨江发布",
+      "location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+      "article_location": "浙江省杭州市滨江区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+        "subject_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宇树科技股份有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "reason": "同主体官网明确杭州总部。",
+          "evidence_ids": [
+            "geo-13a3a18a9bf559ad8bfbeaac"
+          ],
+          "basis_roles": [
+            "hq"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+            "source_url": "https://www.unitree.com/cn/contact",
+            "checked_at": "2026-10-12T18:25:09.025885+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-35826112ed957325dfd4",
+      "company_canonical_name": "宇树科技股份有限公司",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/gWyNXeCMGaKehjh65OzGzA",
+      "article_title": "机器人登泰山，宇树科技1金2银！",
+      "event_desc": "11月2日，首届CMG世界机器人登泰山大赛在山东泰安开赛，赛道全长3.9公里、包含3100余级台阶。宇树科技旗下北京灵翌科技队使用宇树A2，以全程全自主模式获得足式机器人竞速赛冠军。上海高羿科技队使用宇树A2获得竞速赛亚军，使用宇树B2获得负重赛亚军；B2在万仙楼至斗母宫赛段有效负重66公斤，含支架实际负重74公斤。",
+      "insight": "这次比赛展示了宇树四足平台的两类山地作业基础能力：A2在连续不规则石阶上自主通行，B2承载物资登阶，分别对应山地巡检的通行需求和转运任务的载荷需求。不同团队基于宇树产品参赛，也显示其平台可供外部团队开展二次开发，但比赛表现尚不能直接外推为实际作业成效。",
+      "event_headline": "宇树A2自主登阶夺冠，B2负重登阶获亚军",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-03",
+        "event_date": null,
+        "observed_date": "2026-11-03",
+        "review_required": true
+      },
+      "published_date": "2026-11-03",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文提供宇树A2、B2参加泰山爬山赛的具体平台事实，结果分属北京灵翌、上海高羿等参赛团队，不把团队改造算法归为宇树独立研发成果。可保留四足平台在长阶梯与负重任务中的实际使用案例，不推断客户商业交付。已读历史中的G1大会集群演示、研发平台及上市行情均非本次赛事；旧行情背景排除不适用于真实产品使用。本轮历史来源元数据有缺失，仍记uncertain且不宣称首次，已有可读历史的具体差异足以支持这条窄命题。",
+      "event_headline_source": "0c25b2f8556d0b1a6ad7fda42605152cbaf07b3ee3b0abfe4fe484e240850461",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+          "source_url": "https://www.unitree.com/cn/contact",
+          "checked_at": "2026-10-12T18:25:09.025885+00:00",
+          "subject": "宇树科技股份有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "复用既有已审独立依据：宇树提供机器人本体，与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体平台能力可供杭州机器人企业比较，不以本次奖牌、上市身份或评分授予资格，也不豁免本条历史待核。",
+        "evidence_ids": [
+          "accepted_history:6bb19dad5ec85a0e",
+          "accepted_history:66d57afc72eb96ed",
+          "prior_decision:50a1ddce1e52eee4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "主Agent逐事件续审（复用有效批次；按当前共同事实及产品资格合同定向复核）",
+        "candidate_id": "ffbf70d4782bcabd8b4332d9e31681b31ff386c73013d0aedda15d236c6b6001",
+        "input_row_sha256": "e0867a83b24dfe3745612ddd63eeae86fe50a86b0f5ffb352386569fa343163b",
+        "reason": "原文提供宇树A2、B2参加泰山爬山赛的具体平台事实，结果分属北京灵翌、上海高羿等参赛团队，不把团队改造算法归为宇树独立研发成果。可保留四足平台在长阶梯与负重任务中的实际使用案例，不推断客户商业交付。已读历史中的G1大会集群演示、研发平台及上市行情均非本次赛事；旧行情背景排除不适用于真实产品使用。本轮历史来源元数据有缺失，仍记uncertain且不宣称首次，已有可读历史的具体差异足以支持这条窄命题。",
+        "scope": {
+          "technology_evidence": "正文记载北京灵翌科技队使用宇树A2，以全程全自主模式在连续不规则石阶赛道取得竞速冠军；上海高羿科技队使用A2获竞速亚军，使用B2获负重赛亚军，B2在指定赛段有效负重66公斤、含支架实际负重74公斤。",
+          "value_reason": "A2自主登阶与B2带载登阶分别为山地巡检通行和物资转运提供能力观察依据；外部团队自行开发参赛体现平台的开发利用方式。比赛条件下的表现不能直接外推实际作业可靠性、商业订单或交付成效，负重赛段也不能等同整条3.9公里赛道。"
+        },
+        "stage": {
+          "status": "已完成比赛及特定条件下的产品能力展示",
+          "reason": "正文记载11月2日比赛及已取得名次，未在该句独立明写年份；新闻于2026年11月3日发布，首次收录时间未知。自主运行方式和载荷数据为报道所述比赛表现，山地巡检、物资转运是应用方向，不是已完成的客户作业。"
+        },
+        "history": {
+          "result": "uncertain",
+          "evidence_ids": [
+            "history_lookup:d52f787d1664c417",
+            "accepted_history:721cabb6862eed6f",
+            "accepted_history:a9601bf5150693fb",
+            "accepted_history:66d57afc72eb96ed",
+            "prior_decision:e7972ca26fc649dd",
+            "prior_decision:50a1ddce1e52eee4",
+            "prior_decision:60d0af6076425c2b",
+            "prior_decision:a28bb8fc265254f6",
+            "prior_decision:710f3a761425dd6c",
+            "prior_decision:584dcae82d9d7587",
+            "prior_decision:dc6a2b9dbc1f2af6",
+            "prior_decision:6b8d7a72b4139272",
+            "prior_decision:1e52d625556c3dc8",
+            "prior_decision:30d7fae7b1c99715",
+            "prior_decision:946bbcee8f87f0f4",
+            "prior_decision:bf02da706389889a",
+            "prior_decision:f58106869f28b2b2",
+            "prior_decision:d2e41dd5d05140c6",
+            "prior_decision:6216296ed33fe5fc",
+            "prior_decision:34ee5164252013f7",
+            "prior_decision:fe7908a1a2810c2a",
+            "prior_decision:9acc515fa8db258b",
+            "prior_decision:358cde0531df7c02",
+            "historical_input:246ab5cdefd2d623",
+            "historical_plan:251a2d2f16d5896b"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:e7972ca26fc649dd",
+              "comparison": "different_event",
+              "reason": "北京、上海体验渠道及Go2家庭购买教学，与泰山A2竞速和B2负重比赛不同。"
+            },
+            {
+              "evidence_id": "prior_decision:50a1ddce1e52eee4",
+              "comparison": "different_event",
+              "reason": "天津机器人展示中心投用，不涉及本次赛事及其能力数据。"
+            },
+            {
+              "evidence_id": "prior_decision:60d0af6076425c2b",
+              "comparison": "different_event",
+              "reason": "10月22日G1大会集群演示与四足机器人泰山比赛的产品、场合和任务均不同。"
+            },
+            {
+              "evidence_id": "prior_decision:a28bb8fc265254f6",
+              "comparison": "different_event",
+              "reason": "外部通用模型绘画实测，不是A2自主登阶或B2负重比赛，本条不解决旧实测条件缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:710f3a761425dd6c",
+              "comparison": "different_event",
+              "reason": "杉宇·创计划合作框架，不是机器人比赛或产品性能事实。"
+            },
+            {
+              "evidence_id": "prior_decision:584dcae82d9d7587",
+              "comparison": "different_event",
+              "reason": "此前排除的是将数据服务行业压力及股价背景归于宇树的候选，不能据此排除本次有独立产品事实的赛事。"
+            },
+            {
+              "evidence_id": "prior_decision:dc6a2b9dbc1f2af6",
+              "comparison": "different_event",
+              "reason": "三季报经营指标待核，与本次竞速及负重比赛没有相同事件事实。"
+            },
+            {
+              "evidence_id": "prior_decision:6b8d7a72b4139272",
+              "comparison": "different_event",
+              "reason": "另一篇同一三季报披露候选，不是泰山比赛，财报待核不影响本条技术价值判断。"
+            },
+            {
+              "evidence_id": "prior_decision:1e52d625556c3dc8",
+              "comparison": "different_event",
+              "reason": "已保留的研发客户采购、关节可靠性优化及软件平台事项，不证明本次比赛已收录，也不直接批准本条。"
+            },
+            {
+              "evidence_id": "prior_decision:30d7fae7b1c99715",
+              "comparison": "different_event",
+              "reason": "为上述研发平台同一旧候选的另一采信留痕，与本次赛事不同。"
+            },
+            {
+              "evidence_id": "prior_decision:946bbcee8f87f0f4",
+              "comparison": "different_event",
+              "reason": "DeepSeek战略配售和模型合作约定，不涉及本次比赛，不能据比赛推断合作履行。"
+            },
+            {
+              "evidence_id": "prior_decision:bf02da706389889a",
+              "comparison": "different_event",
+              "reason": "北京、上海门店与消费案例的重复裁决留痕，不是本次赛事。"
+            },
+            {
+              "evidence_id": "prior_decision:f58106869f28b2b2",
+              "comparison": "different_event",
+              "reason": "仍为门店与Go2消费案例，不因同属四足机器人应用而合并事件。"
+            },
+            {
+              "evidence_id": "prior_decision:d2e41dd5d05140c6",
+              "comparison": "different_event",
+              "reason": "天津展示中心旧候选的再次留痕，与泰山自主竞速及负重比赛不同。"
+            },
+            {
+              "evidence_id": "prior_decision:6216296ed33fe5fc",
+              "comparison": "different_event",
+              "reason": "通用模型绘画实测的重复裁决留痕，不是本次自主登阶事实。"
+            },
+            {
+              "evidence_id": "prior_decision:34ee5164252013f7",
+              "comparison": "different_event",
+              "reason": "杉宇联合计划的重复裁决留痕，与本次比赛没有同事件关系。"
+            },
+            {
+              "evidence_id": "prior_decision:fe7908a1a2810c2a",
+              "comparison": "different_event",
+              "reason": "与另一排除记录同属数据行业压力及上市行情背景候选，本次赛事不构成对该排除事件的改判。"
+            },
+            {
+              "evidence_id": "prior_decision:9acc515fa8db258b",
+              "comparison": "different_event",
+              "reason": "三季报经营承压事项的重复留痕，与本次产品比赛不同。"
+            },
+            {
+              "evidence_id": "prior_decision:358cde0531df7c02",
+              "comparison": "different_event",
+              "reason": "另一三季报候选的重复留痕，不是本次A2、B2赛事记录。"
+            }
+          ],
+          "change_reason": "已展示历史中的参访、IPO、融资、标准、模型合作、研发平台及商业渠道均为其他事件；8月运动性能发布涉及人形机器人，10月广州塔部署涉及展演，也不等同本次四足机器人泰山竞速及负重任务。当前正文增加特定赛事、自主运行方式和指定赛段载荷事实，但本次检索两条错误记录指向同一历史来源缺失，不能将可见记录无匹配宣称为完整去重或首次发现。本轮不改判任何旧事件，待恢复同赛事历史后确定新增性。 主Agent进一步读取10月25日原input与plan：G1人形集群演示在10月22日大会发生；本条是11月2日泰山A2/B2四足赛事，产品与事件均不同。旧元数据缺口保留，未重绑旧审批；不以该无关缺口阻断本次有正文的产品场景观察。",
+          "new_evidence_ids": [
+            "article:de9d9bc206e87274"
+          ]
+        },
+        "evidence_ids": [
+          "article:de9d9bc206e87274",
+          "identity_registry:2dcd4f408df25406",
+          "geo-13a3a18a9bf559ad8bfbeaac",
+          "history_lookup:d52f787d1664c417",
+          "historical_input:246ab5cdefd2d623",
+          "historical_plan:251a2d2f16d5896b"
+        ],
+        "benchmark_review": {
+          "status": "confirmed",
+          "eligible": true,
+          "reason": "复用既有已审独立依据：宇树提供机器人本体，与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体平台能力可供杭州机器人企业比较，不以本次奖牌、上市身份或评分授予资格，也不豁免本条历史待核。",
+          "evidence_ids": [
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:66d57afc72eb96ed",
+            "prior_decision:50a1ddce1e52eee4"
+          ]
+        }
+      },
+      "company_db_id": 44,
+      "ai_reason": "宇树A2在连续台阶路线全自主竞速夺冠，B2在指定赛段负重参赛，提供感知、决策与运动控制协同的现场证据。优先对接山地巡检和物资转运的连续路线验证，培育重点在复杂地形作业能力，不以赛事成绩推断商业交付。",
+      "wx_summary": "A2全自主登阶竞速夺冠，B2完成指定赛段负重赛",
+      "standard_sectors": [
+        "机器人"
+      ]
+    }
+  ],
+  "national_top": []
+}
