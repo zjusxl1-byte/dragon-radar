@@ -1360,5 +1360,58 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "LobeHub": [
+    {
+      "date": "2026-11-10",
+      "title": "据报道，LobeHub团队已将自家多智能体协作平台用于日常研发。正文列举的一次10月28日开发任务中，主管Agent创建T-1149任务，Coding Agent提交PR #21852，经OpenAI Codex审查、修改和补充测试后，通过人工审阅并合并。另一个案例中，两个项目的Agent协调完成lobe-ui自定义中性色支持，并随6.0.1版本发布通知上游更新。作者使用该平台组织选题团队，不到8分钟获得6条选题；随后主管Agent新建网页开发和独立QA两个Worker，沿用前一轮成果，约30分钟完成资讯看板。平台通过共享工作空间保存目标、任务状态、交付文件和验收记录，并将持续执行、会话状态与工具运行环境分开管理。团队还披露，一项数据迁移任务持续运行2天3小时47分钟，拆出60个任务，完成56次独立迁移。文中称相关协作能力已开源。",
+      "article_title": "AI接管一家8万Star开源公司，写代码、派任务、查Bug全包了",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/LiYrfk3XQxZVV77w0rBy7A",
+      "sector": "人工智能／多智能体协作与软件开发工具",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "LobeHub",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "LobeHub",
+      "company_entity_id": "dr-u-20b14433c1d36cd43adf",
+      "company_raw_name": "LobeHub",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "案例足以支持产品应用价值，但GitHub Star数量、团队效率体感及单项评测不足以建立本主体的行业标杆地位；不影响事件保留。",
+        "evidence_ids": [
+          "article:71fa5971cde39091"
+        ]
+      },
+      "published_date": "2026-11-08",
+      "insight": "LobeHub呈现的变化，是把多个Agent从并行回答问题推进到围绕共同成果接力执行：选题简报能够直接转交新建的开发与QA角色，研发任务也能经过代码审查和人工合并进入真实代码库。共享任务状态与交付记录减少了每次换角色都需人工重新交代上下文的环节，但这些案例尚不能回答不同任务中这种接力的稳定成功率。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "LobeHub将多智能体接力用于研发与资讯网页制作",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
