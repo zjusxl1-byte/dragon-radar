@@ -2219,16 +2219,18 @@
       "event_type": "融资",
       "link": "https://stcn.com/article/detail/4252996.html",
       "sector": "脑机接口、柔性传感与智能算法",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市 / 宝安区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市 / 宝安区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e39857a46c3abfecf6850728"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "朋睿脑科学",
         "subject_locality": {
           "status": "unknown",
@@ -2236,7 +2238,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e39857a46c3abfecf6850728",
+            "source_url": "https://news.qq.com/rain/a/20261021A09WKN00",
+            "checked_at": "2026-11-09T18:19:01.771910+00:00",
+            "subject": "朋睿脑科学",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "宝安区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "宝安区",
+          "evidence_ids": [
+            "geo-e39857a46c3abfecf6850728"
+          ]
+        }
       },
       "article_location": "",
       "source": "证券时报",
