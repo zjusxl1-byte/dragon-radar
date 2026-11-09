@@ -4,6 +4,21 @@
   const A=window.RadarHistory;
   const esc=x=>String(x==null?'':x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const params=()=>Router.getQueryParams();
+  function routeTitle(route,p,m){
+    const suffix='｜寻龙雷达';
+    if(route==='/briefing'){
+      const type=p.type||'weekly',aliases=m.briefing_aliases||{};
+      const id=p.id||(m.briefings?.[type]||[]).find(id=>!aliases[id]);
+      return (type==='monthly'?'月简报':'周简报')+(id?' '+(aliases[id]||id):'')+suffix;
+    }
+    if(route==='/company'){
+      const name=window.RadarObservations?.displayName(A.canonical(p.name||''))||A.canonical(p.name||'');
+      return (name?name+'｜':'')+'企业档案'+suffix;
+    }
+    if(route==='/topic')return (p.company?'企业观察':'产业专题')+suffix;
+    if(route==='/observations')return (p.view==='topics'?'产业专题':p.view==='leads'?'进展线索':'企业观察')+suffix;
+    return ({'/':'寻龙雷达 - 杭州未来"六小龙"发现系统','/today':'企业动态'+suffix,'/calendar':'采集日历'+suffix,'/weekly':'收录分布'+suffix})[route]||'寻龙雷达';
+  }
   const routeLink=(route,q={})=>'#'+route+(Object.keys(q).length?'?'+new URLSearchParams(q):'');
   let historyPromise,historyRows,renderSequence=0,filterSequence=0,currentRows=[],visibleCount=20,activeKey='',filterTimer,pendingReadingRestore=null;
   const screenStates=new Map();
@@ -351,6 +366,7 @@
     saveScreen();clearTimeout(filterTimer);filterSequence++;
     pendingReadingRestore=null;
     const seq=++renderSequence,key=location.hash||'#/',r=Router.getRoute(),p=params(),app=field('app-content');activeKey=key;
+    document.title=routeTitle(r,p,window.RadarData.manifest||{});
     const saved=screenStates.get(key);let autoReading=null;visibleCount=saved?.count||20;
     Router.updateNavActive();syncHeader();
     if(!window.RadarData.loaded){app.innerHTML=Views.loading();return;}
