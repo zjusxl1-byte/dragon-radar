@@ -1596,16 +1596,18 @@
       "event_type": "融资",
       "link": "https://stcn.com/article/detail/4252996.html",
       "sector": "非侵入式脑机接口与脑疾病康复",
-      "location": "地点待核",
+      "location": "浙江省绍兴市越城区人民东路1423号（5号厂房）3楼301室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "浙江省绍兴市越城区人民东路1423号（5号厂房）3楼301室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a8f4aa5e0beef7b21376231c"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "迈联医疗",
         "subject_locality": {
           "status": "unknown",
@@ -1613,7 +1615,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-a8f4aa5e0beef7b21376231c",
+            "source_url": "https://k1wave.com/company/mai-lian-yi-liao1",
+            "checked_at": "2026-11-09T18:13:26.948611+00:00",
+            "subject": "迈联医疗",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "绍兴市",
+              "district": "越城区",
+              "address": "浙江省绍兴市越城区人民东路1423号（5号厂房）3楼301室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "绍兴市",
+          "district": "越城区",
+          "evidence_ids": [
+            "geo-a8f4aa5e0beef7b21376231c"
+          ]
+        }
       },
       "article_location": "",
       "source": "证券时报",
