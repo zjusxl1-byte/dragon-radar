@@ -1345,24 +1345,79 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/Qn5j3NcNhUUpI8qfP_Ie8Q",
       "sector": "实时音视频基础设施与语音智能体",
-      "location": "地点待核",
+      "location": "上海市 / 杨浦区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 杨浦区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-021d01f2eb241a080a9d6dc9",
+          "geo-91b6d048f448ff6d6d2441cf"
+        ],
+        "subject_evidence_ids": [
+          "geo-021d01f2eb241a080a9d6dc9"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "声网",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-021d01f2eb241a080a9d6dc9"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-021d01f2eb241a080a9d6dc9",
+            "source_url": "https://www.shengwang.cn/aboutus",
+            "checked_at": "2026-11-09T18:17:49.004571+00:00",
+            "subject": "声网",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "杨浦区",
+              "address": "上海市杨浦区淞沪路333号创智天地12号楼8楼"
+            }
+          },
+          {
+            "evidence_id": "geo-91b6d048f448ff6d6d2441cf",
+            "source_url": "https://www.shengwang.cn/terms-of-service",
+            "checked_at": "2026-11-09T18:17:50.262937+00:00",
+            "subject": "声网",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "杨浦区",
+              "address": "上海市杨浦区淞沪路333号12号楼8层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "杨浦区",
+          "evidence_ids": [
+            "geo-021d01f2eb241a080a9d6dc9",
+            "geo-91b6d048f448ff6d6d2441cf"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",
