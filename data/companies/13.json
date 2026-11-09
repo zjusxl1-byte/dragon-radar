@@ -2724,24 +2724,59 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/BOJvuUBJU5IUp7BgE5UGUg",
       "sector": "半导体／微控制器与专用芯片",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e5368ebf5c1b55eda3dd68d7"
+        ],
+        "subject_evidence_ids": [
+          "geo-e5368ebf5c1b55eda3dd68d7"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "中微半导",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-e5368ebf5c1b55eda3dd68d7"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e5368ebf5c1b55eda3dd68d7",
+            "source_url": "https://www.mcu.com.cn",
+            "checked_at": "2026-11-09T20:04:20.990738+00:00",
+            "subject": "中微半导",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "evidence_ids": [
+            "geo-e5368ebf5c1b55eda3dd68d7"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",

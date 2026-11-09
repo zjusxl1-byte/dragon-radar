@@ -1581,16 +1581,18 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/izxYpHHUI09MOtLpVvB60Q",
       "sector": "桌面级激光加工与数字创作设备",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市南山区西丽街道云城社区龙珠大道 880 号南山区科技创新中心 1 栋 1 单元（A1A2）07 层 702 号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市南山区西丽街道云城社区龙珠大道 880 号南山区科技创新中心 1 栋 1 单元（A1A2）07 层 702 号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-1f9ccdf3c9f443dc49431ced"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "xTool",
         "subject_locality": {
           "status": "unknown",
@@ -1598,7 +1600,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-1f9ccdf3c9f443dc49431ced",
+            "source_url": "https://www.xtool.cn",
+            "checked_at": "2026-11-09T20:08:27.327331+00:00",
+            "subject": "xTool",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "南山区",
+              "address": "深圳市南山区西丽街道云城社区龙珠大道 880 号南山区科技创新中心 1 栋 1 单元（A1A2）07 层 702 号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "南山区",
+          "evidence_ids": [
+            "geo-1f9ccdf3c9f443dc49431ced"
+          ]
+        }
       },
       "article_location": "",
       "source": "36 氪",

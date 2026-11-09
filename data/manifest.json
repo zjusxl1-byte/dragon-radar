@@ -5111,7 +5111,7 @@
     "2026-11-10": "385677ae7ccc69072c0390f1c5775ce36ba597d8a9509a6cfe0f6be1441285c0"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "2ee02f61890efd7b2818b70ff9d4ca71f7cacf1fe1920af9f1c8b1439b731ea4",
+  "geography_version": "ec26b6b87290d83a754748ffca365eff1b03882c30633cea7a819e602d53eefe",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -6472,10 +6472,67 @@
       "located_status": "unknown"
     },
     "dr-u-0b184ae243e4d324b15b": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "台湾省 / 泰山区 / 新北市泰山區大科里南林路98號",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-c4eadc2e2971d1f41aadd77e",
+        "geo-bf2e103247e57be92bdd3150"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "南亚科",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-c4eadc2e2971d1f41aadd77e",
+          "source_url": "https://www.cnyes.com/twstock/2408/company/profile",
+          "checked_at": "2026-11-09T20:03:53.649640+00:00",
+          "subject": "南亚科",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "台湾省",
+            "city": "新北市",
+            "district": "泰山区",
+            "address": "新北市泰山區大科里南林路98號"
+          }
+        },
+        {
+          "evidence_id": "geo-bf2e103247e57be92bdd3150",
+          "source_url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=eb566541-531b-4b2a-b029-70a3a59a600b",
+          "checked_at": "2026-11-09T20:03:54.364412+00:00",
+          "subject": "南亚科",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "台湾省",
+            "city": "新北市",
+            "district": "泰山区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "台湾省",
+        "city": "新北市",
+        "district": "泰山区",
+        "evidence_ids": [
+          "geo-c4eadc2e2971d1f41aadd77e",
+          "geo-bf2e103247e57be92bdd3150"
+        ]
+      }
     },
     "dr-u-0b1c8ac20f83a898954f": {
       "geography_status": "unknown",
@@ -7417,10 +7474,48 @@
       "located_status": "unknown"
     },
     "dr-u-135888ec6f81d68cf396": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-c65d2f2edc6ff362fc6b85df"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "三呆科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-c65d2f2edc6ff362fc6b85df",
+          "source_url": "https://www.iyiou.com/company/SandAI",
+          "checked_at": "2026-11-09T20:04:21.306982+00:00",
+          "subject": "三呆科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "evidence_ids": [
+          "geo-c65d2f2edc6ff362fc6b85df"
+        ]
+      }
     },
     "dr-u-139d1ac44069eaf68fc1": {
       "geography_status": "unknown",
@@ -8429,10 +8524,57 @@
       "located_status": "unknown"
     },
     "dr-u-1c66aa4360af558b9313": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "广东省 / 深圳市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-e5368ebf5c1b55eda3dd68d7"
+      ],
+      "subject_evidence_ids": [
+        "geo-e5368ebf5c1b55eda3dd68d7"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "中微半导",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "深圳市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-e5368ebf5c1b55eda3dd68d7"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-e5368ebf5c1b55eda3dd68d7",
+          "source_url": "https://www.mcu.com.cn",
+          "checked_at": "2026-11-09T20:04:20.990738+00:00",
+          "subject": "中微半导",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "深圳市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "深圳市",
+        "evidence_ids": [
+          "geo-e5368ebf5c1b55eda3dd68d7"
+        ]
+      }
     },
     "dr-u-1c6e2648c3fa2d41744a": {
       "geography_status": "confirmed",
@@ -22645,10 +22787,51 @@
       "located_status": "unknown"
     },
     "dr-u-89a0709d78fbcc62a4bf": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "广东省 / 深圳市南山区西丽街道云城社区龙珠大道 880 号南山区科技创新中心 1 栋 1 单元（A1A2）07 层 702 号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-1f9ccdf3c9f443dc49431ced"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "xTool",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-1f9ccdf3c9f443dc49431ced",
+          "source_url": "https://www.xtool.cn",
+          "checked_at": "2026-11-09T20:08:27.327331+00:00",
+          "subject": "xTool",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "深圳市",
+            "district": "南山区",
+            "address": "深圳市南山区西丽街道云城社区龙珠大道 880 号南山区科技创新中心 1 栋 1 单元（A1A2）07 层 702 号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "南山区",
+        "evidence_ids": [
+          "geo-1f9ccdf3c9f443dc49431ced"
+        ]
+      }
     },
     "dr-u-89a2521ed66bf398b45f": {
       "geography_status": "unknown",
@@ -33257,10 +33440,64 @@
       }
     },
     "dr-u-e0c00ade7e706693afc0": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "四川省 / 成都市 / 西部脑谷办公区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-4663497b167ab8706eabb49f",
+        "geo-b33b534ea0b37385c002a3b0"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "前沿类脑",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-4663497b167ab8706eabb49f",
+          "source_url": "https://m.ofweek.com/medical/2026-10/ART-103122-8420-30706650.html",
+          "checked_at": "2026-11-09T20:08:27.297422+00:00",
+          "subject": "前沿类脑",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "四川省",
+            "city": "成都市"
+          }
+        },
+        {
+          "evidence_id": "geo-b33b534ea0b37385c002a3b0",
+          "source_url": "https://m.ofweek.com/medical/2026-10/ART-103122-8420-30706650.html",
+          "checked_at": "2026-11-09T20:08:27.297422+00:00",
+          "subject": "前沿类脑",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "四川省",
+            "city": "成都市",
+            "address": "西部脑谷办公区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "四川省",
+        "city": "成都市",
+        "evidence_ids": [
+          "geo-4663497b167ab8706eabb49f",
+          "geo-b33b534ea0b37385c002a3b0"
+        ]
+      }
     },
     "dr-u-e0d75999d109d78ba973": {
       "geography_status": "unknown",
@@ -63219,7 +63456,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "b06b99dc402c6fecc8e39f32af11b609d0e6becba7596aaae81dc5adedaf45b8",
+  "history_version": "6912580b8a53a5e76ace0f06499b6464659cfe2b6cacecbe1f72b656410eaae4",
   "company_history_buckets": {
     "00": "d20b0fa70b0994d716f0bf732e3eb037cd2f2a6e62ff4a099baadb71045944f3",
     "01": "c1249a640a6b90803b3de826780c96b45a9f1693bb441da1dd2aa91eefa1f870",
@@ -63229,18 +63466,18 @@
     "05": "2b96be13488da384567668e1aae0f2d3a4c4683092d25fbccd8b22cda54b751a",
     "06": "1c1bfdd2139a7b65c22384c2f58c7c0dde5f26484d2ea8310b2efbcfd0d774f1",
     "07": "0ecbace890811e4cfa8559c1f438406bb41fd75e62e3a326ab97ce21bee407ba",
-    "08": "1c95203dbff357781f8a4b6c06dcd8b6761406fa9a146e4db8a4c120fde21621",
+    "08": "755bdebb407b09d6a8048b471bc81889d552e3e5654bd15137cfb9b24bf3beaf",
     "09": "9afffb9158a124db8d937de392590ce1325e0e50ae80b8bfa511990babc41e72",
     "0a": "5419eab550a0d4143c5c666e2de69066cb6ac99e2ead35d84754dc4756e4681d",
     "0b": "92545a5e69029def15bf9640bbf248d708e7cae33580d4fbcee9dbc508a3236d",
     "0c": "1c4b42c9e0986b5854c42a220a8a21d20d0cc58fda7fb1c933ced1216f14ae23",
     "0d": "3ea271e4247353fcad6e2e9bf13456a8edea1638c58ddae6f495682d3ce0e271",
-    "0e": "a83c2b5a71456c7c09ccee05c7b5bc53b029b58a1d63516d8f7a2564107ab6b5",
+    "0e": "e0e3335ea8a3578207eeb75f725348519da99ca54ed1e273d057196cd89418b5",
     "0f": "565c1fe3845464b2e4fec9128fc7980cf5f74f89d31633c0cd7a8cf44cbe6591",
     "10": "a74c766cff42ee0cf002e932a4c7469fedc510afcf2574dfe73c59ed8b99ea7c",
     "11": "267c700936dff7ae18b50d7a13313c4ebaed5d0c55418e374b410afe081a378f",
     "12": "831a07bbbe77a74b90b29e44b15ff354be2396ab2856990c57dc8837c0b5c437",
-    "13": "a4f96e178a77b0fc8d0ba05927578af08e36bca1130f4e589832d8f91776bf47",
+    "13": "05452c0665e99e438f599a9aee0c17f622257d0d62ea01bdbb5b00e5057eacab",
     "14": "7bd6745f0387c1a5cae936e94daba38930c85fe7a9ca53dc4dd378a300e2f0ef",
     "15": "80dd9bd1dfcc40ae625d309c0f2c00b8b4fc7615d03930b3fb407e57a20afec0",
     "16": "20c688c8ae9aef350cda505f81f0f9a605c83f1e02c6fa36eb73d205d775d15a",
@@ -63265,11 +63502,11 @@
     "29": "5e1b41fc17fdeb197269605b4f855307aa9de7069e12cdaed4c5000bd425ea6c",
     "2a": "db5dc9361ec589ebadcf0db1fe75101ba50a9e1be6c35c25e2b69de00976f4a1",
     "2b": "176d09abf5794cd089e08ddd6492811031ee27e1fffa4e55a3736d4c88926c49",
-    "2c": "d86f16ca409bd24fa086176c6c5fc4b4119e1a066f1b98ce4fbf84900b69ff5b",
+    "2c": "4831dc913513c49c690d675345f9474daecbdd2ea3d99a167fbd4eb4cae51c2f",
     "2d": "e07f2834f215ac4f6b0d6c6ec4843804c527c3f0c27629e7454b6946dd928c0a",
     "2e": "9453593fbd53e07d9ba476b6d2dd4594e21437c1eb23fe959b20978011f6e852",
     "2f": "f620756a18f716996e86fa5885292a940ecaf559b4a64954195df77b2deb8355",
-    "30": "24a137a8290d90a09854c3dafb1b8f8c611408556bb481ffcd1d95166e896ede",
+    "30": "4ebf94e741dbc837da12dc276a8566bb7946479a64902995ab2d9dc61b143a7b",
     "31": "c5aad6053492b43860423aeee6eedf537fcfe4f4984bc97d89f02643711bdb7e",
     "32": "fa8ffc78fee3f3dc2e2f0ffb2a3efc1b43f119a830435b392afc8e11186c79ed",
     "33": "a6cf70e8b5c73d75ed5b23dae4adf4245b33002b61343156cf8c39f0e897967a",
@@ -63286,7 +63523,7 @@
     "3e": "16efa765261415be48cdb23f095b88af85d61e076b889461f00bfccd838b389b",
     "3f": "81b1a8aa4591126a04b72eb00a8e99681f25d002dcf8f68d0beafeddef6c1c6f"
   },
-  "history_search_version": "0c12a8d05794d5c106c2e4ff954877eff6235951fa8b0c65c823a857138c9770",
+  "history_search_version": "1ed791d77ca58ed729ad8f6f9fedc43c4689d83d63e5a92bc016cd898909c3b6",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5",

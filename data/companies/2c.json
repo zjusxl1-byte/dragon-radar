@@ -3122,16 +3122,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/rVgPQhTzmEgpyKG4pFKCwg",
       "sector": "视频生成大模型",
-      "location": "地点待核",
+      "location": "北京市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-c65d2f2edc6ff362fc6b85df"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "三呆科技",
         "subject_locality": {
           "status": "unknown",
@@ -3139,7 +3141,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-c65d2f2edc6ff362fc6b85df",
+            "source_url": "https://www.iyiou.com/company/SandAI",
+            "checked_at": "2026-11-09T20:04:21.306982+00:00",
+            "subject": "三呆科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-c65d2f2edc6ff362fc6b85df"
+          ]
+        }
       },
       "article_location": "",
       "source": "烯牛数据",
