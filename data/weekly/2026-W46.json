@@ -5,14 +5,306 @@
   "start_date": "2026-11-09",
   "end_date": "2026-11-15",
   "summary": {
-    "total_companies": 77,
-    "financing_events": 14,
+    "total_companies": 82,
+    "financing_events": 15,
     "ipo_events": 0,
-    "milestone_events": 27,
+    "milestone_events": 28,
     "negative_events": 0,
     "active_days": 1
   },
   "top10": [
+    {
+      "company_raw_name": "宇树科技",
+      "identity_mentions": [
+        {
+          "name": "杭州宇树科技股份有限公司",
+          "relation": "same_entity",
+          "evidence": "当时他的头衔仍是「杭州宇树科技股份有限公司具身智能研发主管」。"
+        },
+        {
+          "name": "UnifoLM-WLA-1.0",
+          "relation": "product",
+          "evidence": "宇树科技发布全开源通用人形机器人基础模型UnifoLM-WLA-1.0。"
+        }
+      ],
+      "title": "美国东北大学博士、摩根大通背景，宇树迎来了他的关键人物？",
+      "company": "杭州宇树科技股份有限公司",
+      "score": 110,
+      "sector": "具身智能与人形机器人",
+      "financing": "",
+      "source": "湖畔自留田",
+      "location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+      "article_location": "浙江省杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "subject_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宇树科技股份有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-13a3a18a9bf559ad8bfbeaac"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+            "source_url": "https://www.unitree.com/cn/contact",
+            "checked_at": "2026-10-12T18:25:09.025885+00:00",
+            "subject": "宇树科技股份有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-35826112ed957325dfd4",
+      "company_canonical_name": "宇树科技股份有限公司",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/uSoy_cPGdcOHtPRVDFdsEQ",
+      "article_title": "美国东北大学博士、摩根大通背景，宇树迎来了他的关键人物？",
+      "event_desc": "2026年11月4日，宇树科技首席科学家肖宇晨在数字经济产业合作大会上介绍具身智能进展，并预计未来1至2年机器人可在80%的陌生场景下通过指令完成任务。文章同时回顾，公司于2026年9月升级并开源通用人形机器人基础模型UnifoLM-WLA-1.0，据文中所述，该模型在真机评测中可驱动机器人完成54项桌面操作和10项全身移动操作；团队此前还推出了面向人形机器人的全身遥操作与数据采集平台。",
+      "insight": "宇树的研发正从运动控制向指令驱动的操作与移动任务扩展：同一模型覆盖桌面操作和全身移动操作，体现了将不同任务纳入统一模型的技术路径，人类遥操作平台则提供示范数据采集手段。当前披露的真机评测范围与其提出的陌生场景自主作业目标仍有距离，下一步值得辨别的是模型面对新环境、新物体和新指令时的实际任务表现。",
+      "event_headline": "宇树科技介绍具身智能进展，回顾统一模型与数据平台",
+      "event_signal": "context",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "recent_event",
+        "description": "事件日期在最近7个自然日内: 2026-11-04",
+        "event_date": "2026-11-04",
+        "observed_date": "2026-11-08",
+        "review_required": true
+      },
+      "published_date": "2026-11-08",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "全文明确宇树是UnifoLM系列模型及Embodied Avatar遥操作平台的研发提供方，肖宇晨是公司技术进展的发言人，不另立人员或产品主体。原始发布时间2026-11-07T16:00:00Z对应北京时间11月8日，满足七日新闻窗口，上游所谓缺少发布时间和历史裁决的理由不成立。本条具体补充UnifoLM-WLA-1.0名称、9月升级开源及真机任务覆盖，并披露遥操作数据平台，超出既往笼统模型路线与发布月份表述，可按日报技术线索保留。11月4日是大会发言日，不是模型发布日期；54项桌面操作、10项全身移动操作是报道所述评测范围，不等于陌生场景成功率。历史模型候选的版本对应关系仍须沿原事件核对，不宣称首次发现，也不以本条批准旧财报、外部模型实测或其他待核事件。",
+      "event_headline_source": "f66b5259ae3800ea3530842725d548a51553a9d80d5edd29634d1318d05a2e9c",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+          "source_url": "https://www.unitree.com/cn/contact",
+          "checked_at": "2026-10-12T18:25:09.025885+00:00",
+          "subject": "宇树科技股份有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "复用既有明确已审独立依据：宇树机器人本体与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体产品和研发基础设施能力可供杭州机器人企业比较；资格不来自本次人物报道、评分或上市身份，也不意味着本事件自动进入领导简报。",
+        "evidence_ids": [
+          "accepted_history:6bb19dad5ec85a0e",
+          "accepted_history:66d57afc72eb96ed",
+          "accepted_history:6a639e0f763467e4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "candidate_id": "fda42a85a9e06080015aaeb3b75634a1d748b2294dfc99a2a39afbe60478551d",
+        "input_row_sha256": "3a4e6f2320a4acdd3b9123a81bbbf7ef2f0979494f701e2cf5a9905a59cd5537",
+        "reason": "全文明确宇树是UnifoLM系列模型及Embodied Avatar遥操作平台的研发提供方，肖宇晨是公司技术进展的发言人，不另立人员或产品主体。原始发布时间2026-11-07T16:00:00Z对应北京时间11月8日，满足七日新闻窗口，上游所谓缺少发布时间和历史裁决的理由不成立。本条具体补充UnifoLM-WLA-1.0名称、9月升级开源及真机任务覆盖，并披露遥操作数据平台，超出既往笼统模型路线与发布月份表述，可按日报技术线索保留。11月4日是大会发言日，不是模型发布日期；54项桌面操作、10项全身移动操作是报道所述评测范围，不等于陌生场景成功率。历史模型候选的版本对应关系仍须沿原事件核对，不宣称首次发现，也不以本条批准旧财报、外部模型实测或其他待核事件。",
+        "scope": {
+          "technology_evidence": "正文记载宇树于2026年9月升级并开源UnifoLM-WLA-1.0，称一个模型在真机评测中可驱动机器人完成54项桌面操作和10项全身移动操作；2025年11月推出Embodied Avatar全身遥操作平台，用于通过人类示范采集机器人操作数据。",
+          "value_reason": "同一模型覆盖桌面操作与全身移动操作，提供了观察机器人任务模型如何连接操作和移动能力的具体对象；遥操作平台则对应示范数据获取环节。相较只看运动性能或泛化预测，这些披露能把杭州机器人企业的培育研究落实到任务覆盖、数据获取及新环境迁移能力的比较，不能外推为稳定客户交付或已实现通用自主作业。"
+        },
+        "stage": {
+          "status": "近期报道回顾已发布开源模型及数据平台，并转述公司评测与未来预测",
+          "reason": "报道明确模型升级开源发生于2026年9月，精确日期未知；遥操作平台发布于2025年11月，精确日期未知。大会发言发生于2026年11月4日。新闻北京时间2026年11月8日发布，实际首次收录时间未知。未来1至2年、80%陌生场景作业属于预测，不是已完成成果；评测数量未附测试条件、成功率和独立复现实验。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:aa9aeb3859bf5dfe",
+            "accepted_history:6c5dd95992e6a569",
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:66d57afc72eb96ed",
+            "prior_decision:a7148ff36991542e",
+            "prior_decision:65b6371656e8305f",
+            "prior_decision:6b8d7a72b4139272",
+            "prior_decision:358cde0531df7c02"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:e7972ca26fc649dd",
+              "comparison": "different_event",
+              "reason": "北京、上海门店及Go2家庭购买教学，与自研任务模型及数据平台不同。"
+            },
+            {
+              "evidence_id": "prior_decision:50a1ddce1e52eee4",
+              "comparison": "different_event",
+              "reason": "天津展示中心投用，不是模型升级开源或模型评测。"
+            },
+            {
+              "evidence_id": "prior_decision:60d0af6076425c2b",
+              "comparison": "different_event",
+              "reason": "10月22日G1集群演示未证明使用本条模型，不能凭企业和技术领域相同合并。"
+            },
+            {
+              "evidence_id": "prior_decision:a28bb8fc265254f6",
+              "comparison": "different_event",
+              "reason": "旧候选涉及外部GPT-6 Astra绘画实测，本条涉及宇树自研UnifoLM系列；不解决旧实测的接口和训练边界缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:710f3a761425dd6c",
+              "comparison": "different_event",
+              "reason": "杉宇·创计划属于生态支持合作，不是自研模型进展。"
+            },
+            {
+              "evidence_id": "prior_decision:584dcae82d9d7587",
+              "comparison": "different_event",
+              "reason": "旧排除针对上市行情背景及数据商压力误归主体；本条具有独立模型事实，不受该排除约束。"
+            },
+            {
+              "evidence_id": "prior_decision:dc6a2b9dbc1f2af6",
+              "comparison": "different_event",
+              "reason": "旧候选核心为三季报经营指标；本条不增加财报原件，不改判经营预警。"
+            },
+            {
+              "evidence_id": "prior_decision:6b8d7a72b4139272",
+              "comparison": "uncertain",
+              "reason": "旧财报报道含自研模型背景，现有摘录不足以确定具体版本重合；本条补充模型名称和任务范围，但不据此批准旧财报候选。"
+            },
+            {
+              "evidence_id": "prior_decision:a7148ff36991542e",
+              "comparison": "new_progress",
+              "reason": "此前模型线索因近期版本和能力不明待核；本条提供UnifoLM-WLA-1.0、9月开源、具体任务覆盖及遥操作平台信息，可补充原技术线索，但不能认定陈立所述近期版本必然就是该版本。"
+            },
+            {
+              "evidence_id": "prior_decision:1e52d625556c3dc8",
+              "comparison": "different_event",
+              "reason": "此前保留的是研发客户采购、关节可靠性和开发软件平台，不是本条自研基础模型及其评测范围。"
+            },
+            {
+              "evidence_id": "prior_decision:30d7fae7b1c99715",
+              "comparison": "different_event",
+              "reason": "同一客户研发基础设施事件的另一采信留痕，不直接批准本条模型事实。"
+            },
+            {
+              "evidence_id": "prior_decision:946bbcee8f87f0f4",
+              "comparison": "different_event",
+              "reason": "DeepSeek战略配售及合作约定未被证明与本模型相关，本条不能当作该合作履行成果。"
+            },
+            {
+              "evidence_id": "prior_decision:bf02da706389889a",
+              "comparison": "different_event",
+              "reason": "北京、上海门店与家庭购买案例的重复留痕，不是本条模型事件。"
+            },
+            {
+              "evidence_id": "prior_decision:f58106869f28b2b2",
+              "comparison": "different_event",
+              "reason": "仍为门店消费案例，不构成对企业其他技术事件的排除。"
+            },
+            {
+              "evidence_id": "prior_decision:d2e41dd5d05140c6",
+              "comparison": "different_event",
+              "reason": "天津展示中心旧事项的再次留痕，与模型和数据采集平台不同。"
+            },
+            {
+              "evidence_id": "prior_decision:6216296ed33fe5fc",
+              "comparison": "different_event",
+              "reason": "外部通用模型绘画测试的重复裁决，不是UnifoLM自研模型事件。"
+            },
+            {
+              "evidence_id": "prior_decision:34ee5164252013f7",
+              "comparison": "different_event",
+              "reason": "杉宇合作计划的重复留痕，不涉及本模型的开源或评测。"
+            },
+            {
+              "evidence_id": "prior_decision:fe7908a1a2810c2a",
+              "comparison": "different_event",
+              "reason": "上市行情及行业压力误归事项的另一排除留痕，本条不重启该事件。"
+            },
+            {
+              "evidence_id": "prior_decision:9acc515fa8db258b",
+              "comparison": "different_event",
+              "reason": "三季报经营承压候选的重复留痕，不是本条技术回顾。"
+            },
+            {
+              "evidence_id": "prior_decision:358cde0531df7c02",
+              "comparison": "uncertain",
+              "reason": "与另一财报裁决同含自研模型背景，具体版本关系尚不明确；仅保留本条已明确的版本和任务事实，不改判旧财报。"
+            },
+            {
+              "evidence_id": "prior_decision:5f4e8b75c15fb134",
+              "comparison": "different_event",
+              "reason": "A2、B2泰山竞速及负重比赛是四足平台使用事件，不构成本模型验证。"
+            },
+            {
+              "evidence_id": "prior_decision:67b9b5c008d2b42f",
+              "comparison": "different_event",
+              "reason": "杉宇计划周报重述没有涉及本模型，本条不改变其无执行增量的判断。"
+            },
+            {
+              "evidence_id": "prior_decision:65b6371656e8305f",
+              "comparison": "new_progress",
+              "reason": "与另一模型线索裁决为同一旧候选留痕；本条补充明确版本、发布月份、任务覆盖和数据平台，但不推定其与旧报道所有发布月份一一对应。"
+            },
+            {
+              "evidence_id": "prior_decision:cb7044947db13b9a",
+              "comparison": "different_event",
+              "reason": "G1大会集群演示的另一待核留痕，没有证据证明演示采用本模型，不合并事件。"
+            }
+          ],
+          "change_reason": "3月已收录WMA/VLA路线及模型开源，6月英伟达参考平台、10月客户研发平台和11月泰山比赛分别为其他事实，不能因均涉及机器人而判重复。11月6日旧模型候选仅披露发布月份和研究方向，缺具体版本及能力；当前全文新增明确模型名称、9月升级开源、54项桌面操作和10项全身移动操作的报道评测范围，以及Embodied Avatar数据采集机制，足以保留较窄的技术补充线索。当前历史检索错误数组为空，不沿用旧裁决记载的历史读取故障；旧报道与本版本的精确映射仍未知，不宣称首次发现，不把新报道日当作新模型发布日。",
+          "new_evidence_ids": [
+            "article:9ce473f263ce02e8"
+          ]
+        },
+        "evidence_ids": [
+          "article:9ce473f263ce02e8",
+          "identity_registry:2dcd4f408df25406",
+          "geo-13a3a18a9bf559ad8bfbeaac",
+          "history_lookup:aa9aeb3859bf5dfe",
+          "accepted_history:6c5dd95992e6a569",
+          "prior_decision:a7148ff36991542e",
+          "prior_decision:65b6371656e8305f"
+        ],
+        "benchmark_review": {
+          "status": "confirmed",
+          "eligible": true,
+          "reason": "复用既有明确已审独立依据：宇树机器人本体与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体产品和研发基础设施能力可供杭州机器人企业比较；资格不来自本次人物报道、评分或上市身份，也不意味着本事件自动进入领导简报。",
+          "evidence_ids": [
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:66d57afc72eb96ed",
+            "accepted_history:6a639e0f763467e4"
+          ]
+        }
+      }
+    },
     {
       "company_raw_name": "阿里云",
       "title": "李佳琦直播间半小时卖出2万亿Token；苹果新CEO上任后首份财报：净利润增长12%；理想高管辟谣常州停车场有上万台0公里二手车丨邦早报",
@@ -535,6 +827,300 @@
             "accepted_history:66d57afc72eb96ed",
             "accepted_history:6a639e0f763467e4",
             "prior_decision:50a1ddce1e52eee4"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "宇树科技",
+      "title": "“IN”科技在乌镇，中网投携40余家被投企业参展“互联网之光”博览会",
+      "company": "宇树科技",
+      "score": 95,
+      "sector": "具身智能与机器人",
+      "financing": "",
+      "source": "浙商杂志",
+      "location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+      "article_location": "浙江省杭州市滨江区东流路88号峰达创意园1号楼3楼",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "subject_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宇树科技股份有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-13a3a18a9bf559ad8bfbeaac"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+            "source_url": "https://www.unitree.com/cn/contact",
+            "checked_at": "2026-10-12T18:25:09.025885+00:00",
+            "subject": "宇树科技股份有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-35826112ed957325dfd4",
+      "company_canonical_name": "宇树科技股份有限公司",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/h_9cO25au7AnXQMLKPiXYA",
+      "article_title": "“IN”科技在乌镇，中网投携40余家被投企业参展“互联网之光”博览会",
+      "event_desc": "宇树科技在2026年世界互联网大会“互联网之光”博览会展台演示G1、R1人形机器人及机器狗。原文未披露本次新增任务能力、客户部署或交付成果；8月上市为已收录的历史背景。",
+      "insight": "宇树此次同时展示双足人形与四足机器人，呈现了面向不同运动形态的产品组合。现场演示提供了产品观察入口，但文章没有披露新的任务能力或部署进展。",
+      "event_headline": "宇树科技在乌镇演示G1、R1及机器狗",
+      "event_signal": "context",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "event_date_unknown",
+        "event_date": null,
+        "observed_date": "2026-11-04",
+        "description": "正文明确展会于2026年11月2日至5日举行，并记载宇树展台现场演示，但未给宇树具体演示日期；11月2日只能作为展会开幕日。新闻发布于2026年11月4日，满足七日采集窗口，不以事件年龄淘汰。",
+        "review_required": false,
+        "evidence_ids": [
+          "article:bfb9cc0772a6e7c7"
+        ]
+      },
+      "published_date": "2026-11-04",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确宇树为参展及机器人产品提供方，G1、R1人形机器人与机器狗在乌镇展台轮番演示，可作为同一企业不同形态机器人产品组合的轻量日报观察线索。该事实不是只有企业点名，但未披露新任务能力、客户应用或商业交付，不升级为技术突破或重大商业化进展。原始新闻发表于2026年11月4日，满足七日窗口；展会时间为11月2日至5日，不能因开幕日早于采集窗口而排除，也不能将开幕日直接视为宇树具体演示日。已提供历史及旧裁决中的演示涉及其他地点、产品组合或任务，未见同一乌镇展台事件；本轮历史检索无报错，不继承旧批次的来源缺失状态。8月上市是已收录背景，不再次作为资本新增节点，创始人的未来预测亦不作已实现能力。",
+      "event_identity": {
+        "canonical_id": "宇树科技在2026年世界互联网大会“互联网之光”博览会上，演示G1、R1人形机器人及机器狗。报道另称公司于8月19日登陆科创板。"
+      },
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+          "source_url": "https://www.unitree.com/cn/contact",
+          "checked_at": "2026-10-12T18:25:09.025885+00:00",
+          "subject": "宇树科技股份有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "复用已有明确已审的独立依据：宇树提供机器人本体，与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并面向研发客户优化关节可靠性、提供模型开发软件环境，形成可供杭州机器人企业比较的平台与研发基础设施能力。本篇没有推翻这些依据的新反证；资格不来自本次参展、IPO、评分或知名度，也不自动取得领导简报资格。",
+        "evidence_ids": [
+          "accepted_history:6bb19dad5ec85a0e",
+          "accepted_history:66d57afc72eb96ed",
+          "accepted_history:6a639e0f763467e4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "candidate_id": "1b68a26caaa39236069383a6df0ac657b12dafd3a62393247493638f3a90c9c3",
+        "input_row_sha256": "ead530388a49426c4bc8b95cc3b884cc0bed6f51f5c8245925ab89fe17646147",
+        "reason": "完整正文明确宇树为参展及机器人产品提供方，G1、R1人形机器人与机器狗在乌镇展台轮番演示，可作为同一企业不同形态机器人产品组合的轻量日报观察线索。该事实不是只有企业点名，但未披露新任务能力、客户应用或商业交付，不升级为技术突破或重大商业化进展。原始新闻发表于2026年11月4日，满足七日窗口；展会时间为11月2日至5日，不能因开幕日早于采集窗口而排除，也不能将开幕日直接视为宇树具体演示日。已提供历史及旧裁决中的演示涉及其他地点、产品组合或任务，未见同一乌镇展台事件；本轮历史检索无报错，不继承旧批次的来源缺失状态。8月上市是已收录背景，不再次作为资本新增节点，创始人的未来预测亦不作已实现能力。",
+        "scope": {
+          "technology_evidence": "原文明确记载“宇树科技展台前，G1、R1人形机器人与机器狗轮番演示”，证明宇树产品实际参加本次展览并进行现场演示。",
+          "value_reason": "同一展台呈现人形与四足产品，为观察杭州机器人企业跨形态产品布局及展示方式提供具体入口，适合日报较宽口径的产品观察；没有任务说明和应用结果，不能据此推断自主能力提升、部署扩大或市场需求增长。"
+        },
+        "stage": {
+          "status": "已发生的展会产品演示",
+          "reason": "正文描述已经发生的现场演示；展会区间为2026年11月2日至5日，宇树具体演示日期未知。新闻发布时间为2026-11-04T04:39:00Z，实际首次收录时间未知。上市为历史背景，陌生场景工作能力为未来预测；本条没有已发生业务不利事实。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:c0e846c30a78e9dc",
+            "accepted_history:e04c219f981dcb33",
+            "accepted_history:ed9a9fac1991d749",
+            "accepted_history:9f1775a103441203",
+            "accepted_history:e010772d19805e99",
+            "accepted_history:a9601bf5150693fb",
+            "accepted_history:66d57afc72eb96ed",
+            "accepted_history:6a639e0f763467e4",
+            "prior_decision:60d0af6076425c2b",
+            "prior_decision:cb7044947db13b9a"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:e7972ca26fc649dd",
+              "comparison": "different_event",
+              "reason": "北京、上海门店及Go2购买教学，不是乌镇展台演示。"
+            },
+            {
+              "evidence_id": "prior_decision:50a1ddce1e52eee4",
+              "comparison": "different_event",
+              "reason": "天津展示中心投用，与本次博览会产品演示不同。"
+            },
+            {
+              "evidence_id": "prior_decision:60d0af6076425c2b",
+              "comparison": "different_event",
+              "reason": "10月22日杭州大会G1集群演示，与11月乌镇G1、R1及机器狗轮番演示的场合和事实不同；本条不补足旧集群协同证据。"
+            },
+            {
+              "evidence_id": "prior_decision:a28bb8fc265254f6",
+              "comparison": "different_event",
+              "reason": "外部通用模型绘画实测，不是本次展台演示；不解除旧测试条件待核。"
+            },
+            {
+              "evidence_id": "prior_decision:710f3a761425dd6c",
+              "comparison": "different_event",
+              "reason": "杉宇·创计划合作框架，与本次产品演示不同。"
+            },
+            {
+              "evidence_id": "prior_decision:584dcae82d9d7587",
+              "comparison": "different_event",
+              "reason": "旧排除针对上市行情背景及数据商压力误归宇树；本条有独立现场产品事实，不推翻该排除。"
+            },
+            {
+              "evidence_id": "prior_decision:dc6a2b9dbc1f2af6",
+              "comparison": "different_event",
+              "reason": "三季报经营承压，与乌镇演示不同，本条不提供财报补证。"
+            },
+            {
+              "evidence_id": "prior_decision:6b8d7a72b4139272",
+              "comparison": "different_event",
+              "reason": "三季报及自研模型背景，不是本次产品展台演示。"
+            },
+            {
+              "evidence_id": "prior_decision:a7148ff36991542e",
+              "comparison": "different_event",
+              "reason": "同在乌镇背景中的模型迭代发言，不等于展台产品演示；本篇未补充模型版本或评测事实。"
+            },
+            {
+              "evidence_id": "prior_decision:1e52d625556c3dc8",
+              "comparison": "different_event",
+              "reason": "研发客户采购、关节可靠性优化和软件平台，是另一已保留事件，不能直接批准本条。"
+            },
+            {
+              "evidence_id": "prior_decision:30d7fae7b1c99715",
+              "comparison": "different_event",
+              "reason": "研发基础设施旧候选的另一采信留痕，与本次演示不同。"
+            },
+            {
+              "evidence_id": "prior_decision:946bbcee8f87f0f4",
+              "comparison": "different_event",
+              "reason": "DeepSeek战略配售及模型合作约定，与展台演示不同；本篇不证明合作履行。"
+            },
+            {
+              "evidence_id": "prior_decision:bf02da706389889a",
+              "comparison": "different_event",
+              "reason": "北京、上海门店及家庭购买案例的旧留痕，不是乌镇展示。"
+            },
+            {
+              "evidence_id": "prior_decision:f58106869f28b2b2",
+              "comparison": "different_event",
+              "reason": "门店与消费案例的重复留痕，不构成本事件的待核或排除依据。"
+            },
+            {
+              "evidence_id": "prior_decision:d2e41dd5d05140c6",
+              "comparison": "different_event",
+              "reason": "天津展示中心事项的再次留痕，与乌镇博览会不同。"
+            },
+            {
+              "evidence_id": "prior_decision:6216296ed33fe5fc",
+              "comparison": "different_event",
+              "reason": "外部模型绘画实测旧留痕，本篇没有相应测试条件或能力增量。"
+            },
+            {
+              "evidence_id": "prior_decision:34ee5164252013f7",
+              "comparison": "different_event",
+              "reason": "杉宇合作计划旧留痕，与本次产品演示不同。"
+            },
+            {
+              "evidence_id": "prior_decision:fe7908a1a2810c2a",
+              "comparison": "different_event",
+              "reason": "上市行情及数据行业压力误归事项的排除留痕，不形成公司黑名单；本条不改判该旧事件。"
+            },
+            {
+              "evidence_id": "prior_decision:9acc515fa8db258b",
+              "comparison": "different_event",
+              "reason": "三季报经营承压的重复留痕，不是现场产品演示。"
+            },
+            {
+              "evidence_id": "prior_decision:358cde0531df7c02",
+              "comparison": "different_event",
+              "reason": "另一三季报候选留痕，本次未新增财务或自研模型证据。"
+            },
+            {
+              "evidence_id": "prior_decision:5f4e8b75c15fb134",
+              "comparison": "different_event",
+              "reason": "A2、B2泰山竞速与负重比赛，产品、任务及场合均不同。"
+            },
+            {
+              "evidence_id": "prior_decision:67b9b5c008d2b42f",
+              "comparison": "different_event",
+              "reason": "杉宇计划的周报重述，不是乌镇展台演示，不沿用其无增量结论。"
+            },
+            {
+              "evidence_id": "prior_decision:65b6371656e8305f",
+              "comparison": "different_event",
+              "reason": "模型迭代发言旧候选的另一留痕；同地同会背景不能将模型发布与产品展示并为同一事件。"
+            },
+            {
+              "evidence_id": "prior_decision:2e9169038894a56d",
+              "comparison": "different_event",
+              "reason": "UnifoLM模型、遥操作数据平台及技术代表发言回顾，与展台演示不同；本篇不解决旧版本映射缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:696250f08a47a24d",
+              "comparison": "different_event",
+              "reason": "同一模型及平台候选的另一待核留痕，本篇没有相关开源或任务评测补证。"
+            },
+            {
+              "evidence_id": "prior_decision:cb7044947db13b9a",
+              "comparison": "different_event",
+              "reason": "10月22日杭州G1集群演示的再次裁决，与11月乌镇多产品轮番演示不同，不因均为展演而合并。"
+            }
+          ],
+          "change_reason": "已提供历史中的参访、机甲及运动性能发布、标准、资本节点、客户研发平台和泰山赛事均为另一事件。10月广州塔应用虽涉及机器人展演及R1/G1产品背景，地点与应用事实不同；10月22日杭州G1集群演示也不是本次乌镇展台。8月19日上市已在多条历史中收录，本篇重述不计新增；模型迭代及未来泛化预测不另计成果。本次新增仅为乌镇展台G1、R1及机器狗现场演示事实，按所供历史未匹配同事件，不宣称企业或产品首次发现，不改判其他旧裁决。",
+          "new_evidence_ids": [
+            "article:bfb9cc0772a6e7c7"
+          ]
+        },
+        "evidence_ids": [
+          "article:bfb9cc0772a6e7c7",
+          "identity_registry:2dcd4f408df25406",
+          "geo-13a3a18a9bf559ad8bfbeaac",
+          "history_lookup:c0e846c30a78e9dc"
+        ],
+        "benchmark_review": {
+          "status": "confirmed",
+          "eligible": true,
+          "reason": "复用已有明确已审的独立依据：宇树提供机器人本体，与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并面向研发客户优化关节可靠性、提供模型开发软件环境，形成可供杭州机器人企业比较的平台与研发基础设施能力。本篇没有推翻这些依据的新反证；资格不来自本次参展、IPO、评分或知名度，也不自动取得领导简报资格。",
+          "evidence_ids": [
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:66d57afc72eb96ed",
+            "accepted_history:6a639e0f763467e4"
           ]
         }
       }
@@ -1077,6 +1663,190 @@
       }
     },
     {
+      "company_raw_name": "OpenAI",
+      "title": "9点1氪：豆包工作个人版取消5小时额度限制；人类低温纪录被打破；美科技股反弹，SpaceX市值一夜暴涨9653亿",
+      "company": "OpenAI",
+      "score": 70,
+      "sector": "人工智能大模型",
+      "financing": "首笔交割约110亿美元，报道估值1.25万亿美元；首笔投资者包括Coatue Management、T. Rowe Price，本轮其他投资者包括软银集团、红杉资本、Founders Fund、Andreessen Horowitz及阿联酋投资者财团。",
+      "source": "36 氪",
+      "location": "US",
+      "article_location": "美国（经营地，复用已审证据；不据此认定注册地或主要总部）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-94ce9cff8088e9a375b2bc71"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "OpenAI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-94ce9cff8088e9a375b2bc71",
+            "source_url": "https://www.news.cn/world/20260401/5ec1e5b7aeca431aa45f15b14d749381/c.html",
+            "checked_at": "2026-10-20T02:18:43.852910+00:00",
+            "subject": "OpenAI",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-94ce9cff8088e9a375b2bc71"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-7d3194f79e645c42e439",
+      "company_canonical_name": "OpenAI",
+      "identity_status": "confirmed",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/a1Qq6fP7-ppObE3QjKlyqg",
+      "article_title": "9点1氪：豆包工作个人版取消5小时额度限制；人类低温纪录被打破；美科技股反弹，SpaceX市值一夜暴涨9653亿",
+      "event_desc": "据知情人士透露，OpenAI已完成约110亿美元融资交割，为估值1.25万亿美元融资轮的首笔部分，资金于周五到账。本轮总额可能增至最高200亿美元，其余部分预计未来数周完成；公司此前缩减了更大规模的融资计划。",
+      "insight": "如果报道所述交割成立，OpenAI的资本进展已经从融资谈判进入首笔资金到账；同时缩减原融资计划，说明实际达成的融资规模与最初目标存在明显差异。",
+      "event_headline": "OpenAI据报道交割110亿美元，融资轮尚未全部完成",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-07",
+        "event_date": null,
+        "observed_date": "2026-11-07",
+        "review_required": true
+      },
+      "published_date": "2026-11-07",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确OpenAI为融资接受方，Coatue Management和T. Rowe Price为首笔交割投资者，其他机构为本轮参与方；据知情人士消息，约110亿美元首笔资金已到账，估值为1.25万亿美元。这是基础模型企业获得实际资本支持的阶段性节点，可为杭州模型企业观察资本获取及持续研发投入条件提供对标，不要求同时出现技术突破，也不补造资金用途。新闻发布于2026-11-07T01:13:00Z，符合七日窗口。此前量子位报道对应同一轮首笔交割，不能作为另一融资事件重复计数；其旧watch的历史读取故障，经本次具体恢复证据核对已不再适用于本条，当前历史读取错误为空，恢复的OpenAI旧记录为训练隔离政策，并非融资。故将同一融资事件由待核改为保留，合并来源，不重置首次收录时间。剩余融资仍为未来安排，缩减融资计划不等于已发生经营损失。仅用于全球正面日报观察，不据此授予杭州预警或领导简报资格。",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-94ce9cff8088e9a375b2bc71",
+          "source_url": "https://www.news.cn/world/20260401/5ec1e5b7aeca431aa45f15b14d749381/c.html",
+          "checked_at": "2026-10-20T02:18:43.852910+00:00",
+          "subject": "OpenAI",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条证明大额融资首笔交割，足以支持资本成长观察，但金额、估值与投资者阵容不能独立证明技术领先程度、市场采用或行业地位；不继承历史星标，也不修改既往事件标签。",
+        "evidence_ids": [
+          "article:f9bfb8cf03b0870c"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "candidate_id": "ec6f2bc4cbc519bf4726658ee793bf609256c9ecc24b06156d410796448d7def",
+        "input_row_sha256": "15d2727f9cd6accd9e70c159e4796f2b37c57e4425c6e2606f2eeb619a891f63",
+        "reason": "原文明确OpenAI为融资接受方，Coatue Management和T. Rowe Price为首笔交割投资者，其他机构为本轮参与方；据知情人士消息，约110亿美元首笔资金已到账，估值为1.25万亿美元。这是基础模型企业获得实际资本支持的阶段性节点，可为杭州模型企业观察资本获取及持续研发投入条件提供对标，不要求同时出现技术突破，也不补造资金用途。新闻发布于2026-11-07T01:13:00Z，符合七日窗口。此前量子位报道对应同一轮首笔交割，不能作为另一融资事件重复计数；其旧watch的历史读取故障，经本次具体恢复证据核对已不再适用于本条，当前历史读取错误为空，恢复的OpenAI旧记录为训练隔离政策，并非融资。故将同一融资事件由待核改为保留，合并来源，不重置首次收录时间。剩余融资仍为未来安排，缩减融资计划不等于已发生经营损失。仅用于全球正面日报观察，不据此授予杭州预警或领导简报资格。",
+        "scope": {
+          "technology_evidence": "36氪正文将OpenAI明确称为AI开发商，报道其完成估值1.25万亿美元融资轮的约110亿美元首笔交割，资金已于周五到账，并列出首笔投资者及本轮其他参与者；整轮总额可能最高达到200亿美元，其余部分预计未来数周完成。",
+          "value_reason": "实际资金到账将该模型企业的资本进展从洽谈推进到部分交割，为观察基础模型业务持续获得资本支持的能力提供具体节点。对杭州模型企业的可比维度是融资承诺与实际到账的区别、分期交割确定性及资本获取条件；本条不能证明资金已投入算力建设、技术能力提升或商业收益实现。"
+        },
+        "stage": {
+          "status": "据知情人士报道已完成首笔交割，其余融资为upcoming",
+          "reason": "已完成口径仅为约110亿美元首笔资金到账，最高可能200亿美元是整轮潜在规模，不是已交割金额。报道中的周五保留原相对时间，不直接换算为精确交割日；事件精确日期及实际首次收录时间未知。原始新闻发布时间明确为2026-11-07T01:13:00Z，消息仍属媒体转述知情人士，非本轮取得的公司正式交割公告。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:c0e846c30a78e9dc",
+            "prior_decision:4c3b46d17e417ae5",
+            "accepted_history:6c2e37d9fdcbf683",
+            "accepted_history:ac08833768d94c58",
+            "accepted_history:1da2d35a5bd856ff",
+            "prior_decision:53074a337be35ee8",
+            "prior_decision:6ca2cbb54ddfc0b0",
+            "prior_decision:7d5678aad9223d2d",
+            "actual_technical_recovery:9a9266974c34a962"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:6ca2cbb54ddfc0b0",
+              "comparison": "different_event",
+              "reason": "旧exclude涉及离职、解雇和内部信息外流指控，未证明具体业务影响；本条为融资首笔交割，不继承公司级排除，也不改变该旧事件裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:7d5678aad9223d2d",
+              "comparison": "different_event",
+              "reason": "旧reject针对数学手稿周回顾没有新增事实，与本轮融资无同一事件关系，不构成对OpenAI其他事件的排除。"
+            },
+            {
+              "evidence_id": "prior_decision:4c3b46d17e417ae5",
+              "comparison": "same_event",
+              "reason": "此前报道与本条的融资主体、110亿美元首笔交割、1.25万亿美元估值及最高可能200亿美元整轮规模一致，是同一融资事件。当前未证明新的交割增量；改判依据是旧待核所依赖的历史读取故障已获得针对性恢复证据，而非更换来源。"
+            },
+            {
+              "evidence_id": "prior_decision:53074a337be35ee8",
+              "comparison": "different_event",
+              "reason": "本次恢复并通过精确候选验证的OpenAI旧记录是离线网页及分层隔离训练政策，不涉及本轮融资，不能据该记录认定融资重复。"
+            },
+            {
+              "evidence_id": "prior_decision:859ef602ac53b0a8",
+              "comparison": "different_event",
+              "reason": "GPT-6 Cyber发布属于独立产品事件，本文附带简讯不纳入融资增量，也不随本次融资改判获得批准。"
+            },
+            {
+              "evidence_id": "prior_decision:d1f2f7c3b13a72fb",
+              "comparison": "different_event",
+              "reason": "同属Cyber产品及安全研究待核裁决，不是融资交割裁决，本轮不改变其状态。"
+            },
+            {
+              "evidence_id": "prior_decision:d7a843774d4ccd2b",
+              "comparison": "different_event",
+              "reason": "同属Cyber发布待核，不能因与融资出现在同一文章而合并或重新批准。"
+            }
+          ],
+          "change_reason": "已收录的10月营收预测仅提融资讨论，首笔实际交割相较该记录构成资本阶段进展，但不能确认两次讨论必属同一融资轮；博通安排逾500亿美元融资属于定制芯片合作项目，不能并入OpenAI本轮融资。其余已收录的模型提速、数学手稿及方法重释、论文复现、产品界面、异常标题、芯片流片、PHP安全应用和训练隔离政策均为其他事件。本条与11月8日已待核的110亿美元首笔交割报道是同一事件，没有新增交割事实。当前技术恢复表明旧坏源的实际决策引用归属为另一企业，OpenAI相关旧事件已按精确候选恢复验证，当前history_retrieval_errors为空，因此旧技术故障不再构成本融资事件的待核理由。此次仅将该同一融资事件从watch改为keep并合并来源，不宣称再次融资或全库首次发现，不批量解除其他事件待核。",
+          "new_evidence_ids": [
+            "article:f9bfb8cf03b0870c",
+            "actual_technical_recovery:9a9266974c34a962"
+          ]
+        },
+        "evidence_ids": [
+          "article:f9bfb8cf03b0870c",
+          "identity_registry:2dcd4f408df25406",
+          "geo-94ce9cff8088e9a375b2bc71",
+          "history_lookup:c0e846c30a78e9dc",
+          "prior_decision:4c3b46d17e417ae5",
+          "actual_technical_recovery:9a9266974c34a962"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条证明大额融资首笔交割，足以支持资本成长观察，但金额、估值与投资者阵容不能独立证明技术领先程度、市场采用或行业地位；不继承历史星标，也不修改既往事件标签。",
+          "evidence_ids": [
+            "article:f9bfb8cf03b0870c"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "杭州百子尖科技股份有限公司",
       "title": "余杭这两家企业，省级单项冠军！",
       "company": "杭州百子尖科技股份有限公司",
@@ -1295,433 +2065,6 @@
           ]
         }
       }
-    },
-    {
-      "company_raw_name": "君柔科技",
-      "title": "李佳琦直播间半小时卖出2万亿Token；苹果新CEO上任后首份财报：净利润增长12%；理想高管辟谣常州停车场有上万台0公里二手车丨邦早报",
-      "company": "君柔科技",
-      "score": 60,
-      "sector": "脑机接口",
-      "financing": "近亿元人民币天使+轮融资；高瓴创投参与；其他投资方及用途未披露。",
-      "source": "创业邦",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "君柔科技",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-f7e25a6a0b843f5c3586",
-      "company_canonical_name": "君柔科技",
-      "identity_status": "unresolved",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/Zdak3S72e0vQ2YsOXCKPlA",
-      "article_title": "李佳琦直播间半小时卖出2万亿Token；苹果新CEO上任后首份财报：净利润增长12%；理想高管辟谣常州停车场有上万台0公里二手车丨邦早报",
-      "event_desc": "11月2日，高瓴创投发文称，侵入式脑机接口企业君柔科技近日完成近亿元人民币天使+轮融资，高瓴创投参与投资。",
-      "insight": "融资对应通过植入方式连接神经信号与外部系统的脑机接口路径，形成明确的早期技术企业资本节点；正文没有披露植入试验、临床进度或获批情况。",
-      "event_headline": "君柔科技完成近亿元天使加轮融资，聚焦侵入式脑机接口",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-03",
-        "event_date": null,
-        "observed_date": "2026-11-03",
-        "review_required": true
-      },
-      "published_date": "2026-11-03",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "原文明确君柔科技为侵入式脑机接口企业及近亿元人民币天使+轮融资获投主体，高瓴创投为参与投资方，未称其领投。具体技术路线与已完成融资相结合，构成值得日报发现的早期技术企业资本成长节点，无需以已经形成收入或完成临床验证为前提。新闻发布于11月3日，符合最近7天窗口；11月2日为投资方发文时间，融资完成时间仅为“近日”。名录未登记和城市未知不构成否定原文事实的理由，但不得认定其为杭州企业、临床成熟企业或全国标杆。",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "侵入式脑机接口业务和早期融资不足以证明行业领先地位；缺少可比较的器件或系统性能、验证结果及独立行业地位依据。",
-        "evidence_ids": [
-          "article:63be2829e492c317"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
-        "candidate_id": "6e946d1fc9f1624d43ed8bcd1d5d7a1d66fc86d2657d1fcb7d6a92c04bfba716",
-        "input_row_sha256": "4a8562bf225da500e0d3121bcd8a833c5840d314f4a3b470528473e6151388d4",
-        "reason": "原文明确君柔科技为侵入式脑机接口企业及近亿元人民币天使+轮融资获投主体，高瓴创投为参与投资方，未称其领投。具体技术路线与已完成融资相结合，构成值得日报发现的早期技术企业资本成长节点，无需以已经形成收入或完成临床验证为前提。新闻发布于11月3日，符合最近7天窗口；11月2日为投资方发文时间，融资完成时间仅为“近日”。名录未登记和城市未知不构成否定原文事实的理由，但不得认定其为杭州企业、临床成熟企业或全国标杆。",
-        "scope": {
-          "technology_evidence": "正文直接称君柔科技为“侵入式脑机接口企业”，并披露近日完成近亿元人民币天使+轮融资、高瓴创投参与投资。",
-          "value_reason": "侵入式脑机接口具有明确的神经信号接口技术路线，本轮融资提供早期企业资本成长的可核实节点，可作为后续辨别器件、系统及验证进度的研究入口，而非技术有效性或临床获批的证明。"
-        },
-        "stage": {
-          "status": "投资方发文披露近日完成天使+轮融资",
-          "reason": "已完成融资为报道转述的投资方披露；未披露植入试验、临床进度、监管获批、收入或融资用途，实际完成日期未知。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:c0e846c30a78e9dc"
-          ],
-          "prior_decisions": [],
-          "change_reason": "提供的同主体历史及此前裁决均为空，检索记录未报告读取错误，没有可匹配的同轮融资或排除裁决；按本轮新增事件保留，不宣称全历史首次发现。",
-          "new_evidence_ids": [
-            "article:63be2829e492c317"
-          ]
-        },
-        "evidence_ids": [
-          "article:63be2829e492c317",
-          "history_lookup:c0e846c30a78e9dc"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "侵入式脑机接口业务和早期融资不足以证明行业领先地位；缺少可比较的器件或系统性能、验证结果及独立行业地位依据。",
-          "evidence_ids": [
-            "article:63be2829e492c317"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "银河通用",
-      "title": "“IN”科技在乌镇，中网投携40余家被投企业参展“互联网之光”博览会",
-      "company": "银河通用",
-      "score": 60,
-      "sector": "具身智能",
-      "financing": "",
-      "source": "浙商杂志",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "银河通用",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-c5456c9421743002a8fe",
-      "company_canonical_name": "银河通用",
-      "identity_status": "confirmed",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/h_9cO25au7AnXQMLKPiXYA",
-      "article_title": "“IN”科技在乌镇，中网投携40余家被投企业参展“互联网之光”博览会",
-      "event_desc": "银河通用展出G1机器人与双足机器人“银河星仔ET1”，现场演示制作咖啡和舞蹈。报道称其自研具身大模型“银河星脑”已能跨场景、跨任务驱动不同形态的机器人，公司还牵头建设国内首个具身大模型省部级重点实验室。",
-      "insight": "银河通用的看点在于用同一具身模型驱动不同形态机器人，而不只是增加一种整机。咖啡制作提供了具体任务展示，但尚不能据此确定跨场景迁移的适用范围和稳定性。",
-      "event_headline": "银河通用展示咖啡制作机器人与跨形态模型能力",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "historical",
-        "description": "事件日期早于最近7个自然日: 2026-11-02",
-        "event_date": "2026-11-02",
-        "observed_date": "2026-11-04",
-        "review_required": true
-      },
-      "published_date": "2026-11-04",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "全文明确银河通用为G1、银河星仔ET1的参展提供方，并记载现场咖啡制作和定时舞蹈，具有具体机器人任务展示价值，可按全球正面日报线索保留。银河星脑跨场景、跨任务、跨形态能力是报道陈述，不能据同场展出认定全部演示均由同一模型自主完成。11月4日原始发布时间满足七日窗口，已提供历史未见同一乌镇展示事件。城市仍待核，不凭企业名称或旧报道地点授予杭州属地，也不因城市未知阻断该窄命题。",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "现有材料提供跨本体任务协作、产品开发接口和零售部署等可比较线索，但历史is_national_star及上游评分不等于独立已审标杆资格；本次展台报道也未提供可复核的行业比较或领先性依据，暂不另授全国标杆标签，不影响事件保留。",
-        "evidence_ids": [
-          "accepted_history:b8712db482e94b77",
-          "accepted_history:0e5786faea1d280b",
-          "article:bfb9cc0772a6e7c7"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
-        "candidate_id": "6bc1ff084def2928d97742fe7f969a587dfa10e1de11dd856d02846f728879dc",
-        "input_row_sha256": "fefec7d2b68cfabd7b5cf08bd2d4a8906920698639ee0697c8b3be76a6cf665d",
-        "reason": "全文明确银河通用为G1、银河星仔ET1的参展提供方，并记载现场咖啡制作和定时舞蹈，具有具体机器人任务展示价值，可按全球正面日报线索保留。银河星脑跨场景、跨任务、跨形态能力是报道陈述，不能据同场展出认定全部演示均由同一模型自主完成。11月4日原始发布时间满足七日窗口，已提供历史未见同一乌镇展示事件。城市仍待核，不凭企业名称或旧报道地点授予杭州属地，也不因城市未知阻断该窄命题。",
-        "scope": {
-          "technology_evidence": "原文记载银河通用带来G1与双足机器人银河星仔ET1，展台机器人现场制作咖啡、定时起舞，并介绍其自研具身模型银河星脑。",
-          "value_reason": "咖啡制作提供了面向服务任务的具体操作观察对象，不止于整机外观或行业身份；结合既有跨本体协作线索，可比较不同形态机器人的任务分工。当前价值限于现场任务展示，未证明持续无人运营、跨场景可靠迁移或新增商业交付。"
-        },
-        "stage": {
-          "status": "已发生展台任务演示，模型能力为报道陈述",
-          "reason": "新闻于2026年11月4日发布，展会期间为11月2日至5日；具体咖啡演示日期及实际首次收录时间未知。原文未将咖啡制作、舞蹈分别明确归属于某款机器人，也未披露控制方式。重点实验室建设陈述不等于实验室已建成验收。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:c0e846c30a78e9dc",
-            "accepted_history:e09ed2f6c3cf4797",
-            "accepted_history:92c1e1e5fa3721f8",
-            "accepted_history:b8712db482e94b77",
-            "accepted_history:0e5786faea1d280b",
-            "prior_decision:e867423dcd1427b2",
-            "prior_decision:8836d2df83a841ff"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:e867423dcd1427b2",
-              "comparison": "different_event",
-              "reason": "旧keep针对ET1三版本价格、开发接口及与G1跨本体取送饮料，本条是乌镇现场咖啡制作与舞蹈展示，不重复计算产品发布或价格节点。"
-            },
-            {
-              "evidence_id": "prior_decision:8836d2df83a841ff",
-              "comparison": "different_event",
-              "reason": "同一ET1产品发布的另一采信留痕，不直接批准本次展示，也未证明本次咖啡任务已经收录。"
-            }
-          ],
-          "change_reason": "3月融资、9月榜单及模型数据基础设施介绍、10月ET1版本发布和景区无人零售部署分别属于其他事件。银河星脑及跨形态能力已有相关历史，不能作为本次新技术突破；本次可保留的不同事实是特定博览会上的咖啡制作及舞蹈展示。所供历史无同事件匹配且无读取错误，此结论限于本证据包，不宣称全局首次。",
-          "new_evidence_ids": [
-            "article:bfb9cc0772a6e7c7"
-          ]
-        },
-        "evidence_ids": [
-          "article:bfb9cc0772a6e7c7",
-          "identity_registry:2dcd4f408df25406",
-          "history_lookup:c0e846c30a78e9dc"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "现有材料提供跨本体任务协作、产品开发接口和零售部署等可比较线索，但历史is_national_star及上游评分不等于独立已审标杆资格；本次展台报道也未提供可复核的行业比较或领先性依据，暂不另授全国标杆标签，不影响事件保留。",
-          "evidence_ids": [
-            "accepted_history:b8712db482e94b77",
-            "accepted_history:0e5786faea1d280b",
-            "article:bfb9cc0772a6e7c7"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "华为技术有限公司",
-      "title": "华西医院的 AI 经验，如何成为更多医院的起点？",
-      "company": "华为技术有限公司",
-      "score": 50,
-      "sector": "医疗人工智能与算力基础设施",
-      "financing": "",
-      "source": "晚点 LatePost",
-      "location": "广东省 / 深圳市龙岗区坂田华为基地",
-      "article_location": "广东省深圳市龙岗区坂田华为基地",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "广东省 / 深圳市龙岗区坂田华为基地",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-3a4c9ae28ffec2813559bade"
-        ],
-        "subject_evidence_ids": [
-          "geo-3a4c9ae28ffec2813559bade"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "华为",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "广东省",
-          "city": "深圳市",
-          "basis_roles": [
-            "hq"
-          ],
-          "evidence_ids": [
-            "geo-3a4c9ae28ffec2813559bade"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-3a4c9ae28ffec2813559bade",
-            "source_url": "https://www.huawei.com/cn/contact-us",
-            "checked_at": "2026-10-12T03:39:57.997902+00:00",
-            "subject": "华为",
-            "role": "hq",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "广东省",
-              "city": "深圳市",
-              "address": "深圳市龙岗区坂田华为基地"
-            }
-          }
-        ]
-      },
-      "company_entity_id": "dr-u-82eaaba81d9dcc54deab",
-      "company_canonical_name": "华为",
-      "identity_status": "confirmed",
-      "event_type": "战略合作",
-      "link": "https://mp.weixin.qq.com/s/APClfj1XuRTLnyM38JUYjg",
-      "article_title": "华西医院的 AI 经验，如何成为更多医院的起点？",
-      "event_desc": "2026年10月30日，华为技术有限公司与四川大学华西医院、南方医科大学南方医院联合主编的《HAIP 建设指南与技术演进白皮书》正式发布，同期展示五大医疗智能体创新场景并落地智慧医疗全球样板点。华为参与华西医院通用人工智能平台建设，提供数据处理、知识检索、计算资源配置及模型适配等支撑；双方还设立联合创新实验室，围绕医疗高质量数据集、医学知识图谱等方向开展研究。",
-      "insight": "华为在该合作中的价值，是把医院的临床规则和既有资料接入共用的数据、模型与算力平台，使病历生成、医保审核等应用能够复用知识检索和原文溯源能力，而非各自另建一套系统。白皮书和样板点为其他医院提供了迁移参照，但跨院采用仍需完成本院数据接入和流程适配。",
-      "event_headline": "华为联合发布医院AI平台白皮书，提供跨院建设参照",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "event_date_confirmed",
-        "event_date": "2026-10-30",
-        "observed_date": "2026-11-08",
-        "review_required": false,
-        "description": "2026年10月30日为白皮书发布及同期场景展示日期；院内平台建设、设备部署和联合实验室设立的具体完成日未全部披露。原始新闻发布于2026年11月8日，符合采集窗口，不以事件年龄淘汰。"
-      },
-      "published_date": "2026-11-08",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "正文明确华为与两家医院联合主编HAIP白皮书，并参与华西医院数据知识处理、算力配置、模型适配和平台建设，另记载昇腾950院内部署及联合创新实验室，存在技术提供方的独立实质事实。其价值在于以共用平台连接病历生成、医保审核和科研检索，并提供临床规则维护、原文溯源及日夜错峰算力调度的具体工程路径，不是白皮书名称或企业知名度本身。新闻于2026年11月8日发布，满足最近7天窗口；白皮书发布发生于10月30日，不因事件较早排除。所供历史涉及芯片互联、AgentOS、手机应用及其他研究，与本次医院平台合作不同；旧nova调价排除不适用。院方累计病历量和节约时间不归为华为独立成果，南方医院适配讨论不写成已完成跨院部署。保留为正面日报产业观察，不自动取得领导简报资格；华为总部已证实在深圳，不转入杭州负面预警。",
-      "event_headline_source": "b76f91eb5e1b096b7f54a3e6ff34c314370e221523be40a87283948dd94794c2",
-      "location_status": "subject_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-3a4c9ae28ffec2813559bade",
-          "source_url": "https://www.huawei.com/cn/contact-us",
-          "checked_at": "2026-10-12T03:39:57.997902+00:00",
-          "subject": "华为",
-          "role": "hq",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "CN",
-            "province": "广东省",
-            "city": "深圳市",
-            "address": "深圳市龙岗区坂田华为基地"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "当前证据足以支持医疗AI平台工程和院内应用案例，但未建立华为在该细分领域的独立可比行业地位。可见此前明确标杆审查仅支持其对应事件的资格边界，其他历史中的标杆布尔标签不能替代本次资格依据。",
-        "evidence_ids": [
-          "article:c03a4465178aaabb",
-          "prior_decision:b47446a87c6f143f"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
-        "candidate_id": "dcde534fd8ad3ae893c87696dbb3f230b3187f1a361c4c3db7b89dd3b97cddf1",
-        "input_row_sha256": "02ea469608c432bdae9d6f20266cfa946e356b876f89bf7a1b55d5d9c5fe00a4",
-        "reason": "正文明确华为与两家医院联合主编HAIP白皮书，并参与华西医院数据知识处理、算力配置、模型适配和平台建设，另记载昇腾950院内部署及联合创新实验室，存在技术提供方的独立实质事实。其价值在于以共用平台连接病历生成、医保审核和科研检索，并提供临床规则维护、原文溯源及日夜错峰算力调度的具体工程路径，不是白皮书名称或企业知名度本身。新闻于2026年11月8日发布，满足最近7天窗口；白皮书发布发生于10月30日，不因事件较早排除。所供历史涉及芯片互联、AgentOS、手机应用及其他研究，与本次医院平台合作不同；旧nova调价排除不适用。院方累计病历量和节约时间不归为华为独立成果，南方医院适配讨论不写成已完成跨院部署。保留为正面日报产业观察，不自动取得领导简报资格；华为总部已证实在深圳，不转入杭州负面预警。",
-        "scope": {
-          "technology_evidence": "原文披露华为AIDP院级知识库处理和检索文献、指南及病历，借助知识图谱支持依据定位；HAIP支撑不同应用共用算力和日夜错峰，昇腾950已部署院内，华为工程师进行模型算子适配。2026年10月30日联合发布白皮书并展示医疗智能体场景，双方还设立联合创新实验室。",
-          "value_reason": "该案例把医疗AI扩展的瓶颈从单个模型效果推进到共用数据、证据溯源、专家规则维护和持续推理成本管理，为杭州医疗AI平台及应用企业提供具体建设对照。跨院复制需要本院数据接入与临床流程适配，不能把样板点落地理解为已形成多院规模销售。"
-        },
-        "stage": {
-          "status": "据报道白皮书已发布、院内平台与算力已应用，跨院推广仍处参照及适配阶段",
-          "reason": "白皮书发布日明确为2026年10月30日；正文记载院内设备部署、业务应用及联合实验室设立，但未给出所有建设事项的精确完成日。南方医院方案适配是现场讨论，厂商响应时间测算不是独立临床效果验证。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:aa9aeb3859bf5dfe",
-            "accepted_history:dcbc0d3ad40fceb9",
-            "accepted_history:9cc3abaf5465dba7",
-            "accepted_history:6da8d449cb36ea2e",
-            "accepted_history:03ba16f9842a933f",
-            "accepted_history:92be5a26b95a3976",
-            "accepted_history:da0943f5372b111c",
-            "accepted_history:2ad1d378449de219",
-            "accepted_history:839ee81d493ed1de",
-            "accepted_history:3c06457ba7fc36b1",
-            "prior_decision:2551f93e336ce235"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:7a3dd28ea3fe025e",
-              "comparison": "different_event",
-              "reason": "针对Mate90芯片和操作系统发布，与医院平台建设及白皮书合作不同。"
-            },
-            {
-              "evidence_id": "prior_decision:c94804e1ff53b6fc",
-              "comparison": "different_event",
-              "reason": "是同一Mate90产品发布的另一裁决留痕，不是本次医疗AI事件。"
-            },
-            {
-              "evidence_id": "prior_decision:2551f93e336ce235",
-              "comparison": "different_event",
-              "reason": "旧排除仅针对nova16零售和渠道调价缺少产业增量；本次有医院平台工程、算力部署及客户应用事实，不继承排除，也不推翻原调价裁决。"
-            },
-            {
-              "evidence_id": "prior_decision:b47446a87c6f143f",
-              "comparison": "different_event",
-              "reason": "旧裁决针对无忧传媒采用Mate90进行专业直播，客户、产品及业务流程均不同。"
-            },
-            {
-              "evidence_id": "prior_decision:41cb742abe4f5ab4",
-              "comparison": "different_event",
-              "reason": "属于Mate90专业直播采用事件的裁决留痕，与本次医院AI平台无同事件关系。"
-            },
-            {
-              "evidence_id": "prior_decision:44696fec99981121",
-              "comparison": "different_event",
-              "reason": "属于同一专业直播采用事件，不是医疗AI合作的既有收录。"
-            },
-            {
-              "evidence_id": "prior_decision:8b9f0518c671f0a7",
-              "comparison": "different_event",
-              "reason": "针对Memento 3智能体游戏评测研究，本次是医院业务平台及工程应用。"
-            },
-            {
-              "evidence_id": "prior_decision:6878e58ccba127b3",
-              "comparison": "different_event",
-              "reason": "是Memento 3研究的另一裁决留痕，不构成本次医疗合作的重复。"
-            },
-            {
-              "evidence_id": "prior_decision:237de930101a2a28",
-              "comparison": "different_event",
-              "reason": "仍为Mate90专业直播采用事件留痕，与本次医院平台合作不同。"
-            }
-          ],
-          "change_reason": "逐项比较可见历史：DeltaBox是沙箱研究，Mate90是终端发布及直播采用，Peerium与昇腾950记录是通用互联架构和超节点进展，专利许可是权利交易，Pura X Max是折叠屏销量，openJiuwen是通用AgentOS发布，辅助驾驶芯片记录是装机份额，Memento 3是游戏评测研究。本次虽使用昇腾950，但新增独立医疗客户、院内平台应用及联合白皮书事实，构成另一事件；所供历史未见同事件，不宣称全库首次，不改写任何旧排除。",
-          "new_evidence_ids": [
-            "article:c03a4465178aaabb"
-          ]
-        },
-        "evidence_ids": [
-          "article:c03a4465178aaabb",
-          "identity_registry:2dcd4f408df25406",
-          "geo-3a4c9ae28ffec2813559bade",
-          "history_lookup:aa9aeb3859bf5dfe"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "当前证据足以支持医疗AI平台工程和院内应用案例，但未建立华为在该细分领域的独立可比行业地位。可见此前明确标杆审查仅支持其对应事件的资格边界，其他历史中的标杆布尔标签不能替代本次资格依据。",
-          "evidence_ids": [
-            "article:c03a4465178aaabb",
-            "prior_decision:b47446a87c6f143f"
-          ]
-        }
-      }
     }
   ],
   "negatives": [],
@@ -1742,6 +2085,7 @@
     "半导体／晶圆代工／特色工艺": 1,
     "新能源汽车充电基础设施": 1,
     "具身智能／按摩理疗机器人": 1,
+    "具身智能与人形机器人": 1,
     "智能制造／服装缝制机器人": 1,
     "海洋能源传输装备": 1,
     "深远海风电装备": 1,
@@ -1774,6 +2118,7 @@
     "AI投研": 1,
     "多模态大模型": 1,
     "汽车智能座舱": 1,
+    "具身智能与机器人": 1,
     "具身智能": 1,
     "仿生机器人": 1,
     "无人机与智能巡检": 1,
@@ -1785,19 +2130,22 @@
     "量子精密测量与时间频率": 1,
     "端侧人工智能": 1,
     "超表面光学": 1,
+    "人工智能大模型": 1,
     "人工智能开发工具": 2,
     "人工智能视频生成": 2,
+    "人工智能网络安全": 1,
     "人工智能应用": 1,
     "工业具身智能机器人": 3,
+    "人工智能基础设施": 1,
     "算力硬件（原文板块归类）": 2,
     "生物医药与细胞治疗": 1,
     "富锂锰电池": 1
   },
   "daily_details": {
     "2026-11-09": {
-      "count": 77,
+      "count": 82,
       "negatives": 0
     }
   },
-  "created": "2026-11-09 10:05:24"
+  "created": "2026-11-09 11:25:16"
 }
