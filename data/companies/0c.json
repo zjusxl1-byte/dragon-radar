@@ -2737,6 +2737,83 @@
       "event_headline": "Anthropic披露Claude约两小时完成内部集群故障修复案例",
       "event_signal": "context",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "据报道，Anthropic披露Dreaming智能体记忆机制，在交互暂停时回查原始日志、纠正笔记并整理跨会话知识。在使用Stainless约35万份内部文档、总计4.2亿Token构建知识库的实验中，知识网络结合原始文档检索的测试得分由纯检索的53%提高至61%，平均单题消耗减少约2万个Token。报道同时列出知识文件膨胀、并发编辑丢失事实及维护成本等实验问题。",
+      "article_title": "Claude「做梦」机制大公开！AI睡一觉学会通关宝可梦",
+      "event_type": "研究进展",
+      "link": "https://mp.weixin.qq.com/s/vbsbhNtH1aksrXhRnupHtA",
+      "sector": "人工智能／智能体记忆与企业知识管理",
+      "location": "US / California / San Francisco",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "subject_evidence_ids": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Anthropic",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-98b8e2309e1c91685311fb4f"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+            "source_url": "https://www.anthropic.com/privacy",
+            "checked_at": "2026-10-12T03:44:07.679932+00:00",
+            "subject": "Anthropic",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ]
+      },
+      "article_location": "美国／加利福尼亚州／旧金山（复用已审同主体注册地证据）",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "Anthropic",
+      "company_entity_id": "dr-u-c70eca6b0f88f44d81a4",
+      "company_raw_name": "Anthropic",
+      "identity_status": "confirmed",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持具体记忆架构及实验对标，但媒体转述的有限实验不能独立建立行业地位或全国标杆资格；既有明确未建立资格的边界不因本条自动改变。",
+        "evidence_ids": [
+          "article:f3eaec8640609f93",
+          "accepted_history:10d2887dbf02eea2"
+        ]
+      },
+      "published_date": "2026-11-09",
+      "insight": "这项进展把智能体记忆从保存流水账推进到回查经历、修正错误和建立可复用知识联系；企业文档实验中，知识网络配合原文检索优于纯检索，显示其价值在于辅助跨文档整合，而非取代原始资料。并发编辑造成事实丢失的案例也表明，记忆质量不仅取决于模型，还取决于知识库的写入分工与维护方式。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "据报道Anthropic披露离线记忆整理机制及企业文档实验",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "台达电子(杭州)有限公司": [
@@ -3461,6 +3538,112 @@
       "financing": "已完成A+轮融资，累计融资金额超过1亿美元；本轮投资方包括五源资本、启明创投、源码律动、经纬创投和华业天成。本轮具体金额、估值及资金用途未披露。",
       "event_date": "",
       "event_headline": "自然选择完成A+轮融资，累计融资超1亿美元",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "希亚罗智能": [
+    {
+      "date": "2026-11-10",
+      "title": "希亚罗智能开发无需安装的家庭备电设备，停电时自动切换供电，支持冰箱、路由器等关键电器继续运行。产品在Kickstarter众筹超过95万美元，目前已完成首批交付，公司也已完成天使轮融资。公司以备电产品切入家庭用电场景，并提出进一步拓展电力诊断、用电决策与能源调度能力。",
+      "article_title": "为何出海大多选在深圳？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/avP4VphK0JO4XPEB4PzH3g",
+      "sector": "家庭备电与能源管理",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "希亚罗智能",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "希亚罗智能",
+      "company_entity_id": "dr-u-2cff3cd08041ad5fb158",
+      "company_raw_name": "希亚罗智能",
+      "identity_status": "unresolved",
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "众筹及首批交付支持早期商业化价值，但尚无行业领先地位、持续规模交付或市场优势的独立证据，不能自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:bb21a6e5a55f62a9"
+        ]
+      },
+      "published_date": "2026-11-09",
+      "insight": "无需安装和停电自动切换，使产品直接围绕家庭关键电器的供电连续性展开，而非仅提供可移动电源。众筹及首批交付表明产品已进入早期用户交付阶段；电力诊断和能源调度仍是后续拓展方向。",
+      "financing": "已完成天使轮融资，金额及投资方未披露。",
+      "event_date": "",
+      "event_headline": "希亚罗智能家庭备电产品众筹超95万美元并完成首批交付",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "伟势机器人": [
+    {
+      "date": "2026-11-10",
+      "title": "伟势机器人完成数千万元人民币种子轮融资，由A股上市公司伟时电子独家投资，驭势资本担任财务顾问。资金将用于工业具身机器人V2迭代与量产准备、具身大模型及数据体系研发、首批工业场景交付和团队建设。公司创立于2026年9月，总部位于江苏省苏州市吴中区，业务布局覆盖工业机器人、通用智能机器人、服务消费机器人及相关软硬件。",
+      "article_title": "91亿元、23.17亿元，两家合肥公司获巨额融资，合肥建投都投了 | 烯牛周报",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/rVgPQhTzmEgpyKG4pFKCwg",
+      "sector": "工业具身智能机器人",
+      "location": "地点线索：江苏省苏州市吴中区（总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "伟势机器人",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "江苏省苏州市吴中区（总部）",
+      "source": "烯牛数据",
+      "kind": "event",
+      "canonical_name": "伟势机器人",
+      "company_entity_id": "dr-u-b0b11cf240dfb7c9feae",
+      "company_raw_name": "伟势机器人",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "种子轮融资及产品研发计划足以支持事件保留，但尚无行业领先地位、代表性应用成果或可供杭州对标的独立竞争优势证据。",
+        "evidence_ids": [
+          "article:be0986e95a51ddce"
+        ]
+      },
+      "published_date": "2026-11-09",
+      "insight": "伟势机器人的资金用途明确指向V2迭代、量产准备和首批工业场景交付，显示近期主线是把产品推向产线任务。文章列出的广泛业务布局尚不能视为各类机器人均已具备成熟产品。",
+      "financing": "完成数千万元人民币种子轮融资，由伟时电子独家投资。",
+      "event_date": "",
+      "event_headline": "伟势机器人获数千万元种子轮融资，推进V2量产准备",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
