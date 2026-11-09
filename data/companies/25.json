@@ -1618,6 +1618,82 @@
       "event_headline": "Meta的V-JEPA2结合视频预训练与机器人数据实现操控",
       "event_signal": "context",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "多名知情人士称，Meta收购AI代码初创企业Conductor。Conductor的产品可让程序员同时管理多个代码智能体，报道未披露交易金额。",
+      "article_title": "9点1氪：豆包工作个人版取消5小时额度限制；人类低温纪录被打破；美科技股反弹，SpaceX市值一夜暴涨9653亿",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/a1Qq6fP7-ppObE3QjKlyqg",
+      "sector": "人工智能开发工具",
+      "location": "US / California / 1 Meta Way, Menlo Park, CA 94025",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / 1 Meta Way, Menlo Park, CA 94025",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-74faadd1a99eddef49797655"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Meta",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-74faadd1a99eddef49797655",
+            "source_url": "https://data.sec.gov/submissions/CIK0001326801.json",
+            "checked_at": "2026-10-12T03:46:26.733000+00:00",
+            "subject": "Meta",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Menlo Park",
+              "address": "1 Meta Way, Menlo Park, CA 94025"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-74faadd1a99eddef49797655"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "Meta",
+      "company_entity_id": "dr-u-ea3bd73e2b506e005272",
+      "company_raw_name": "Meta",
+      "identity_status": "confirmed",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体收购及标的功能支持产业观察，但没有独立市场采用、同任务比较或行业地位证据，不因Meta知名度自动授予标杆资格。",
+        "evidence_ids": [
+          "article:f9bfb8cf03b0870c"
+        ]
+      },
+      "published_date": "2026-11-07",
+      "insight": "此次收购指向开发者工作流，而不只是模型本身：同时管理多个代码智能体的工具，为Meta进入程序员日常开发环节提供了产品入口。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Meta据知情人士消息收购AI代码企业Conductor",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "中瓷电子": [
@@ -2421,6 +2497,66 @@
       "financing": "",
       "event_date": "",
       "event_headline": "山河智能70吨级大型电动挖掘机交付海外客户",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "fal.ai": [
+    {
+      "date": "2026-11-09",
+      "title": "闫俊杰在访谈中称，美国公司fal.ai基于MiniMax H3进行后训练，开发了H3 Max模型，可用三秒生成五秒视频；访谈还提及已有开发者利用相关能力制作可按用户需求实时生成画面的24小时AI直播。",
+      "article_title": "MiniMax创始人闫俊杰最新深度对话：中美AI最后5%的差距，为什么比95%更难追？",
+      "event_type": "衍生模型开发（访谈转述）",
+      "link": "https://mp.weixin.qq.com/s/RzGfun1a0rR2rU46lUv0BQ",
+      "sector": "人工智能视频生成",
+      "location": "地点线索：美国（原文称其为美国公司，未明确注册地或总部地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "fal.ai",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "美国（原文称其为美国公司，未明确注册地或总部地）",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "fal.ai",
+      "company_entity_id": "dr-u-461508b765d627ae8633",
+      "company_raw_name": "fal.ai",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "H3 Max",
+          "relation": "product",
+          "evidence": "这300个模型里，有一个比较有名，叫H3 Max，是美国公司fal.ai做的。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前只有上游模型开发方在访谈中介绍其衍生产品和速度，足以支持技术路线观察，尚无独立比较或客户采用证据建立标杆资格。",
+        "evidence_ids": [
+          "article:746eba7a7ce71d7d"
+        ]
+      },
+      "published_date": "2026-11-07",
+      "insight": "按访谈描述，fal.ai的改进把视频生成从等待成片推进到可支撑实时互动的速度，为直播等连续画面应用提供了技术入口。其独立贡献在于基于开放模型进行后训练和加速，而不是开发H3基础模型。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "fal.ai据访谈转述开发H3 Max模型，三秒可生成五秒视频",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
