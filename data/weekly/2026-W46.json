@@ -5,12 +5,12 @@
   "start_date": "2026-11-09",
   "end_date": "2026-11-15",
   "summary": {
-    "total_companies": 55,
-    "financing_events": 14,
-    "ipo_events": 0,
-    "milestone_events": 19,
+    "total_companies": 106,
+    "financing_events": 24,
+    "ipo_events": 4,
+    "milestone_events": 26,
     "negative_events": 0,
-    "active_days": 1
+    "active_days": 2
   },
   "top10": [
     {
@@ -832,6 +832,205 @@
       }
     },
     {
+      "company_raw_name": "阿里巴巴",
+      "title": "黄仁勋八卦背后，借道东南亚的算力租赁生意",
+      "company": "阿里巴巴",
+      "score": 85,
+      "sector": "云计算与人工智能",
+      "financing": "",
+      "source": "创业邦",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+      "article_location": "浙江省杭州市余杭区文一西路960-1号（复用已审同主体经营地证据，不等同于注册地或主要总部证明）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-14c3cd9f0fde5abc65811edd"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里巴巴",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+            "source_url": "https://ali-home.alibaba.com/global-location",
+            "checked_at": "2026-10-21T18:14:15.207210+00:00",
+            "subject": "阿里巴巴",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路960-1号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-14c3cd9f0fde5abc65811edd"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-47c1e53c427aafb4556b",
+      "company_canonical_name": "阿里巴巴",
+      "identity_status": "confirmed",
+      "event_type": "商业关系披露",
+      "link": "https://mp.weixin.qq.com/s/cs9wsWJmd8Q9UcwEsph2IA",
+      "article_title": "黄仁勋八卦背后，借道东南亚的算力租赁生意",
+      "event_desc": "文章转述纽约时报等媒体报道，阿里巴巴是Megaspeed算力租赁的大客户之一；相关设备部署于马来西亚和印尼机房。文章未披露阿里巴巴对应的签约主体、合同时间、租赁规模或具体训练任务。",
+      "insight": "若客户关系得到确认，这说明海外机房可成为阿里巴巴获得GPU算力的一种路径，而不要求客户持有芯片。现有材料未把具体任务和合同主体对应起来，不能进一步认定其用于哪类模型训练或承担了多大算力缺口。",
+      "event_headline": "据报道阿里巴巴为Megaspeed海外算力租赁客户之一",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-09",
+        "event_date": null,
+        "observed_date": "2026-11-09",
+        "review_required": true
+      },
+      "published_date": "2026-11-09",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确援引纽约时报等媒体，将阿里巴巴列为Megaspeed海外机房算力租赁的大客户之一，赋予了实际客户角色，不是名称共现。可采信范围是有明确媒体归因的集团层面客户关系线索，不落实到未披露的签约子公司、合同规模或训练任务。该关系说明模型及云业务企业通过第三方海外设施获取计算服务的具体商业路径，具有独立产业观察价值，不要求必须披露金额或本日新签约。新闻发布于2026-11-09T10:30:00Z，符合七日窗口。所给历史是模型、云业务、软件产品及处理器事件，未见本次供应商客户关系，不因同企业重复排除，也不宣称首次建立该关系。已审杭州经营地可用于正面发现归属，不能升级为注册或主要总部证明；供应商受到质疑不证明阿里违法、服务中断或经营受损，不列负面预警。",
+      "event_headline_source": "beaf345f2e7a52e36f4c4b246297d7d657f0c4dfe2c9bf63e0167e5586b6ca78",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+          "source_url": "https://ali-home.alibaba.com/global-location",
+          "checked_at": "2026-10-21T18:14:15.207210+00:00",
+          "subject": "阿里巴巴",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "文一西路960-1号"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "复用同主体既有明确已审的玄铁处理器IP产品化与生态对标资格，其依据为累计支撑超过60亿颗芯片交付、200余款量产芯片及服务400余家厂商。该资格有业务边界，不证明本次海外租赁安排领先、合规或已交付，也不自动取得领导简报资格。",
+        "evidence_ids": [
+          "accepted_history:d9672401fc16d46c",
+          "prior_decision:f37dd73d7d5dc7ee"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "d2d581c3c3df12253256a8ed73210fe2c070c8550c18d2edb5390f3cda1a8322",
+        "input_row_sha256": "a5bcdf0016923637d28c2f78f2f532ee92cd2d4816e0ed355e8b15d4fcae2a91",
+        "reason": "完整正文明确援引纽约时报等媒体，将阿里巴巴列为Megaspeed海外机房算力租赁的大客户之一，赋予了实际客户角色，不是名称共现。可采信范围是有明确媒体归因的集团层面客户关系线索，不落实到未披露的签约子公司、合同规模或训练任务。该关系说明模型及云业务企业通过第三方海外设施获取计算服务的具体商业路径，具有独立产业观察价值，不要求必须披露金额或本日新签约。新闻发布于2026-11-09T10:30:00Z，符合七日窗口。所给历史是模型、云业务、软件产品及处理器事件，未见本次供应商客户关系，不因同企业重复排除，也不宣称首次建立该关系。已审杭州经营地可用于正面发现归属，不能升级为注册或主要总部证明；供应商受到质疑不证明阿里违法、服务中断或经营受损，不列负面预警。",
+        "scope": {
+          "technology_evidence": "正文称相关设备部署于马来西亚和印尼机房后提供算力租赁，并明确写道据纽约时报等媒体报道，大客户之一是阿里巴巴。未披露对应集团子公司、合同日期、租赁规模及实际任务。",
+          "value_reason": "本条提供了具名算力供应方与客户的商业联系，区别于泛泛讨论算力出海。它可用于研究企业自建与租用海外算力的资源组织方式；下一项有区分力的补证是服务主体、资源用途和交付安排，不能将文章对杭州工程师的泛例当作阿里具体训练任务，亦不能推导已规避管制或已形成确定成本优势。"
+        },
+        "stage": {
+          "status": "媒体转述的既有算力租赁客户关系",
+          "reason": "正文使用客户之一，支持报道所述既有关系，不证明11月9日新签约、新增采购或Megaspeed扩建已经向阿里交付。关系建立及实际服务日期未知，首次收录时间未知。本轮未读取纽约时报原报道，不声称一手验证；本文关于法律规则和未来收紧的判断不作为交易合法性结论。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:6fcb56fc17264878",
+            "accepted_history:55d4407cf47670fe",
+            "accepted_history:39d9266c87afa2ed",
+            "accepted_history:e845bb104d6d2c78",
+            "accepted_history:ba3f39ebe5a0a0d9",
+            "accepted_history:0f12d50d3dce4aef",
+            "accepted_history:d9672401fc16d46c",
+            "accepted_history:a6e71db93d712b9c"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:cf3fa2122b6a981b",
+              "comparison": "different_event",
+              "reason": "旧项为云收入与集团财务口径，不是Megaspeed客户关系；不借本条解除旧年度口径问题。"
+            },
+            {
+              "evidence_id": "prior_decision:cd40d94f23ad42f3",
+              "comparison": "different_event",
+              "reason": "同一云业务财务报道的另一裁决，与本次具名供应方关系不同。"
+            },
+            {
+              "evidence_id": "prior_decision:792b780351fa289d",
+              "comparison": "different_event",
+              "reason": "旧项为Sirchmunk检索框架开源，非算力租赁安排。"
+            },
+            {
+              "evidence_id": "prior_decision:482faed1822835db",
+              "comparison": "different_event",
+              "reason": "旧项为Personal Agent生态规划，不提供或重复本次供应商客户关系。"
+            },
+            {
+              "evidence_id": "prior_decision:f37dd73d7d5dc7ee",
+              "comparison": "different_event",
+              "reason": "旧项为玄铁处理器IP发布及优化，不能用其产品能力核准本次合同主体或租赁规模。"
+            },
+            {
+              "evidence_id": "prior_decision:d671cb25fa9e0c87",
+              "comparison": "different_event",
+              "reason": "同一玄铁处理器事件的另一裁决，非海外算力客户关系。"
+            },
+            {
+              "evidence_id": "prior_decision:09d6d7c8b20b058d",
+              "comparison": "different_event",
+              "reason": "仍对应玄铁处理器产品，不构成本次关系的重复或交易核验依据。"
+            },
+            {
+              "evidence_id": "prior_decision:22ff3126d4103ad9",
+              "comparison": "different_event",
+              "reason": "旧项为千问办公及个人助手产品进展，与本次算力服务获取路径不同。"
+            }
+          ],
+          "change_reason": "4月千问开源、6月榜单、10月云业务、检索框架、个人Agent规划及玄铁发布，11月办公产品展示，均未记录Megaspeed与阿里巴巴的客户关系。当前来源提供具名商业联系，所给检索范围无同事件匹配，不宣称全库首次或关系刚建立。与本轮Megaspeed候选共享同篇来源及关联关系，分别保留客户与项目建设角色，不把扩建状态转移为阿里新增订单。",
+          "new_evidence_ids": [
+            "article:b3827d330373697b"
+          ]
+        },
+        "evidence_ids": [
+          "article:b3827d330373697b",
+          "identity_registry:2dcd4f408df25406",
+          "geo-14c3cd9f0fde5abc65811edd",
+          "history_lookup:6fcb56fc17264878"
+        ],
+        "benchmark_review": {
+          "status": "confirmed",
+          "eligible": true,
+          "reason": "复用同主体既有明确已审的玄铁处理器IP产品化与生态对标资格，其依据为累计支撑超过60亿颗芯片交付、200余款量产芯片及服务400余家厂商。该资格有业务边界，不证明本次海外租赁安排领先、合规或已交付，也不自动取得领导简报资格。",
+          "evidence_ids": [
+            "accepted_history:d9672401fc16d46c",
+            "prior_decision:f37dd73d7d5dc7ee"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "高通",
       "title": "今年的进博会，何以再“进”？",
       "company": "高通",
@@ -1392,6 +1591,180 @@
       }
     },
     {
+      "company_raw_name": "OpenAI",
+      "title": "孙正义悬了",
+      "company": "OpenAI",
+      "score": 70,
+      "sector": "人工智能",
+      "financing": "据文章，融资总额1100亿美元，投前估值7300亿美元，软银出资300亿美元。",
+      "source": "投资界",
+      "location": "US",
+      "article_location": "美国（复用已审同主体经营地证据，不代表注册地或主要总部）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-94ce9cff8088e9a375b2bc71"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "OpenAI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-94ce9cff8088e9a375b2bc71",
+            "source_url": "https://www.news.cn/world/20260401/5ec1e5b7aeca431aa45f15b14d749381/c.html",
+            "checked_at": "2026-10-20T02:18:43.852910+00:00",
+            "subject": "OpenAI",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-94ce9cff8088e9a375b2bc71"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-7d3194f79e645c42e439",
+      "company_canonical_name": "OpenAI",
+      "identity_status": "confirmed",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/sckH9yWUJRxpL_CBgsqqjg",
+      "article_title": "孙正义悬了",
+      "event_desc": "文章回顾称，OpenAI于文中所称今年2月完成1100亿美元融资，投前估值7300亿美元，其中软银出资300亿美元。",
+      "insight": "这笔融资体现了OpenAI吸纳大额资本的能力，软银在其中既承担资本投入，又参与其数据中心基础设施布局。两种角色使资本支持与算力建设形成联系，但文章没有说明本轮资金的具体分配。",
+      "event_headline": "OpenAI融资回顾：据报道完成1100亿美元融资",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "actual",
+        "description": "正文称今年2月完成融资，依报道语境为2026年2月，具体日未知；2026-11-09为新闻日期，不是融资发生日。",
+        "event_date": null,
+        "observed_date": "2026-11-09",
+        "review_required": false
+      },
+      "published_date": "2026-11-09",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "正文明确OpenAI为文中今年2月1100亿美元融资的接受方，软银为其中300亿美元出资方；结合其模型及AI基础设施业务，这是具体资本成长节点，而非只凭知名度或融资名称入选。新闻发布时间2026-11-09T07:35:00Z符合七日窗口，事件可记录为报道所称2026年2月、具体日未知，不能标作11月新融资。已收录的110亿美元首笔交割对应1.25万亿美元估值及最高可能200亿美元的另一轮安排，与本条月份、规模和估值不同，不能因金额字样相近去重或合并。所给历史未见本次2月融资记录，按有归因的历史资本节点发现保留，不宣称首次发现，不补造资金用途。软银违约指控尚有争议，且并非本候选融资事实，不随本条采信或转作杭州预警。",
+      "event_headline_source": "dfec7d3502c269262a33af2e8f698fce3925a25397e959560d633dcc3b8c68f9",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-94ce9cff8088e9a375b2bc71",
+          "source_url": "https://www.news.cn/world/20260401/5ec1e5b7aeca431aa45f15b14d749381/c.html",
+          "checked_at": "2026-10-20T02:18:43.852910+00:00",
+          "subject": "OpenAI",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "大额融资及软银出资支持资本成长观察，但不能独立证明技术领先、市场采用或全国标杆地位，不继承其他事件星标。",
+        "evidence_ids": [
+          "article:0bdccafa795192e4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "1e83ed5b7ab6a87d1d7aed2d8999a8c92b23382d284c62bbb4aef947901f2281",
+        "input_row_sha256": "cb2e53e0b881ae38dfb5deb6edebcb7ad7e0bec957ffb506578da6d698e3001f",
+        "reason": "正文明确OpenAI为文中今年2月1100亿美元融资的接受方，软银为其中300亿美元出资方；结合其模型及AI基础设施业务，这是具体资本成长节点，而非只凭知名度或融资名称入选。新闻发布时间2026-11-09T07:35:00Z符合七日窗口，事件可记录为报道所称2026年2月、具体日未知，不能标作11月新融资。已收录的110亿美元首笔交割对应1.25万亿美元估值及最高可能200亿美元的另一轮安排，与本条月份、规模和估值不同，不能因金额字样相近去重或合并。所给历史未见本次2月融资记录，按有归因的历史资本节点发现保留，不宣称首次发现，不补造资金用途。软银违约指控尚有争议，且并非本候选融资事实，不随本条采信或转作杭州预警。",
+        "scope": {
+          "technology_evidence": "原文回顾OpenAI今年2月完成1100亿美元融资、投前估值7300亿美元，其中软银出资300亿美元；正文另明确其模型业务及作为AI基础设施服务对象的角色。",
+          "value_reason": "该轮融资规模与单一投资方出资关系提供基础模型企业获得大额资本支持的具体观察节点，可与后续已收录融资区分资本阶段和投资方参与方式。不能由软银自身举债安排推断OpenAI本轮融资的资金用途或已发生经营损失。"
+        },
+        "stage": {
+          "status": "媒体回顾称已完成的历史融资",
+          "reason": "正文明确为今年2月完成，按报道语境记录2026年2月，具体日期未知；新闻发布于2026年11月9日，实际首次收录时间未提供。未取得本轮公司原始交割公告，完成状态保留报道归因，不与后续110亿美元首笔交割相加。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:6fcb56fc17264878",
+            "accepted_history:48f7495c06b8b192",
+            "accepted_history:6c2e37d9fdcbf683",
+            "accepted_history:ac08833768d94c58",
+            "prior_decision:f02d28ff06f0b9ee",
+            "prior_decision:4c3b46d17e417ae5",
+            "prior_decision:6ca2cbb54ddfc0b0",
+            "prior_decision:7d5678aad9223d2d"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:6ca2cbb54ddfc0b0",
+              "comparison": "different_event",
+              "reason": "旧exclude针对离职、解雇及信息外流指控且缺具体业务影响；本条为2月融资回顾，不继承公司级排除，也不改变旧裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:7d5678aad9223d2d",
+              "comparison": "different_event",
+              "reason": "旧reject针对数学手稿周回顾无新增事实，与本条融资月份、金额和投资关系无关。"
+            },
+            {
+              "evidence_id": "prior_decision:4c3b46d17e417ae5",
+              "comparison": "different_event",
+              "reason": "旧watch针对110亿美元首笔交割、1.25万亿美元估值的融资；本条为2月1100亿美元及7300亿美元投前估值，不能认作同一交割。其来源闭包当前验证无错误，不沿用旧技术故障阻断本条。"
+            },
+            {
+              "evidence_id": "prior_decision:f02d28ff06f0b9ee",
+              "comparison": "different_event",
+              "reason": "该keep及对应已收录历史确认的是后续融资首笔交割，不包含本条2月融资事实；不将本条冒充该轮新增到账。"
+            },
+            {
+              "evidence_id": "prior_decision:c860f6290a48e0b9",
+              "comparison": "different_event",
+              "reason": "旧watch针对Cyber旧版开放是否生效的事实歧义，与融资无关；来源验证通过不等于解除该业务缺口，本次不改判。"
+            }
+          ],
+          "change_reason": "逐项对照，模型提速、数学手稿及方法重释、科研复现、模型界面、异常标题、PHP安全应用、训练隔离与社区契约均属其他事件。芯片合作项目融资不等于OpenAI公司融资，10月营收预测中的融资讨论也未记录本条2月融资。其余Aurora、Model Spec、Astra-6、Cyber、内部研发应用及Pierre/Pando待核裁决均非同事件；当前来源闭包验证和历史读取无错误，旧技术故障不能自动沿用，各自实质缺口亦不因本条保留而解除。当前仅认定所供范围未见该2月融资收录，不重置任何既有事件或改判旧排除。",
+          "new_evidence_ids": [
+            "article:0bdccafa795192e4"
+          ]
+        },
+        "evidence_ids": [
+          "article:0bdccafa795192e4",
+          "geo-94ce9cff8088e9a375b2bc71",
+          "history_lookup:6fcb56fc17264878",
+          "accepted_history:48f7495c06b8b192",
+          "prior_decision:f02d28ff06f0b9ee",
+          "prior_decision:6ca2cbb54ddfc0b0",
+          "prior_decision:7d5678aad9223d2d"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "大额融资及软银出资支持资本成长观察，但不能独立证明技术领先、市场采用或全国标杆地位，不继承其他事件星标。",
+          "evidence_ids": [
+            "article:0bdccafa795192e4"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "杭州百子尖科技股份有限公司",
       "title": "余杭这两家企业，省级单项冠军！",
       "company": "杭州百子尖科技股份有限公司",
@@ -1610,310 +1983,6 @@
           ]
         }
       }
-    },
-    {
-      "company_raw_name": "君柔科技",
-      "title": "李佳琦直播间半小时卖出2万亿Token；苹果新CEO上任后首份财报：净利润增长12%；理想高管辟谣常州停车场有上万台0公里二手车丨邦早报",
-      "company": "君柔科技",
-      "score": 60,
-      "sector": "脑机接口",
-      "financing": "近亿元人民币天使+轮融资；高瓴创投参与；其他投资方及用途未披露。",
-      "source": "创业邦",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "君柔科技",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-f7e25a6a0b843f5c3586",
-      "company_canonical_name": "君柔科技",
-      "identity_status": "unresolved",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/Zdak3S72e0vQ2YsOXCKPlA",
-      "article_title": "李佳琦直播间半小时卖出2万亿Token；苹果新CEO上任后首份财报：净利润增长12%；理想高管辟谣常州停车场有上万台0公里二手车丨邦早报",
-      "event_desc": "11月2日，高瓴创投发文称，侵入式脑机接口企业君柔科技近日完成近亿元人民币天使+轮融资，高瓴创投参与投资。",
-      "insight": "融资对应通过植入方式连接神经信号与外部系统的脑机接口路径，形成明确的早期技术企业资本节点；正文没有披露植入试验、临床进度或获批情况。",
-      "event_headline": "君柔科技完成近亿元天使加轮融资，聚焦侵入式脑机接口",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-03",
-        "event_date": null,
-        "observed_date": "2026-11-03",
-        "review_required": true
-      },
-      "published_date": "2026-11-03",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "原文明确君柔科技为侵入式脑机接口企业及近亿元人民币天使+轮融资获投主体，高瓴创投为参与投资方，未称其领投。具体技术路线与已完成融资相结合，构成值得日报发现的早期技术企业资本成长节点，无需以已经形成收入或完成临床验证为前提。新闻发布于11月3日，符合最近7天窗口；11月2日为投资方发文时间，融资完成时间仅为“近日”。名录未登记和城市未知不构成否定原文事实的理由，但不得认定其为杭州企业、临床成熟企业或全国标杆。",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "侵入式脑机接口业务和早期融资不足以证明行业领先地位；缺少可比较的器件或系统性能、验证结果及独立行业地位依据。",
-        "evidence_ids": [
-          "article:63be2829e492c317"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "原生事实审查及独立日报阅读审查",
-        "candidate_id": "6e946d1fc9f1624d43ed8bcd1d5d7a1d66fc86d2657d1fcb7d6a92c04bfba716",
-        "input_row_sha256": "4a8562bf225da500e0d3121bcd8a833c5840d314f4a3b470528473e6151388d4",
-        "reason": "原文明确君柔科技为侵入式脑机接口企业及近亿元人民币天使+轮融资获投主体，高瓴创投为参与投资方，未称其领投。具体技术路线与已完成融资相结合，构成值得日报发现的早期技术企业资本成长节点，无需以已经形成收入或完成临床验证为前提。新闻发布于11月3日，符合最近7天窗口；11月2日为投资方发文时间，融资完成时间仅为“近日”。名录未登记和城市未知不构成否定原文事实的理由，但不得认定其为杭州企业、临床成熟企业或全国标杆。",
-        "scope": {
-          "technology_evidence": "正文直接称君柔科技为“侵入式脑机接口企业”，并披露近日完成近亿元人民币天使+轮融资、高瓴创投参与投资。",
-          "value_reason": "侵入式脑机接口具有明确的神经信号接口技术路线，本轮融资提供早期企业资本成长的可核实节点，可作为后续辨别器件、系统及验证进度的研究入口，而非技术有效性或临床获批的证明。"
-        },
-        "stage": {
-          "status": "投资方发文披露近日完成天使+轮融资",
-          "reason": "已完成融资为报道转述的投资方披露；未披露植入试验、临床进度、监管获批、收入或融资用途，实际完成日期未知。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:c0e846c30a78e9dc"
-          ],
-          "prior_decisions": [],
-          "change_reason": "提供的同主体历史及此前裁决均为空，检索记录未报告读取错误，没有可匹配的同轮融资或排除裁决；按本轮新增事件保留，不宣称全历史首次发现。",
-          "new_evidence_ids": [
-            "article:63be2829e492c317"
-          ]
-        },
-        "evidence_ids": [
-          "article:63be2829e492c317",
-          "history_lookup:c0e846c30a78e9dc"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "侵入式脑机接口业务和早期融资不足以证明行业领先地位；缺少可比较的器件或系统性能、验证结果及独立行业地位依据。",
-          "evidence_ids": [
-            "article:63be2829e492c317"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "华为技术有限公司",
-      "title": "华西医院的 AI 经验，如何成为更多医院的起点？",
-      "company": "华为技术有限公司",
-      "score": 50,
-      "sector": "医疗人工智能与算力基础设施",
-      "financing": "",
-      "source": "晚点 LatePost",
-      "location": "广东省 / 深圳市龙岗区坂田华为基地",
-      "article_location": "广东省深圳市龙岗区坂田华为基地",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "广东省 / 深圳市龙岗区坂田华为基地",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-3a4c9ae28ffec2813559bade"
-        ],
-        "subject_evidence_ids": [
-          "geo-3a4c9ae28ffec2813559bade"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "华为",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "广东省",
-          "city": "深圳市",
-          "basis_roles": [
-            "hq"
-          ],
-          "evidence_ids": [
-            "geo-3a4c9ae28ffec2813559bade"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-3a4c9ae28ffec2813559bade",
-            "source_url": "https://www.huawei.com/cn/contact-us",
-            "checked_at": "2026-10-12T03:39:57.997902+00:00",
-            "subject": "华为",
-            "role": "hq",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "广东省",
-              "city": "深圳市",
-              "address": "深圳市龙岗区坂田华为基地"
-            }
-          }
-        ]
-      },
-      "company_entity_id": "dr-u-82eaaba81d9dcc54deab",
-      "company_canonical_name": "华为",
-      "identity_status": "confirmed",
-      "event_type": "战略合作",
-      "link": "https://mp.weixin.qq.com/s/APClfj1XuRTLnyM38JUYjg",
-      "article_title": "华西医院的 AI 经验，如何成为更多医院的起点？",
-      "event_desc": "2026年10月30日，华为技术有限公司与四川大学华西医院、南方医科大学南方医院联合主编的《HAIP 建设指南与技术演进白皮书》正式发布，同期展示五大医疗智能体创新场景并落地智慧医疗全球样板点。华为参与华西医院通用人工智能平台建设，提供数据处理、知识检索、计算资源配置及模型适配等支撑；双方还设立联合创新实验室，围绕医疗高质量数据集、医学知识图谱等方向开展研究。",
-      "insight": "华为在该合作中的价值，是把医院的临床规则和既有资料接入共用的数据、模型与算力平台，使病历生成、医保审核等应用能够复用知识检索和原文溯源能力，而非各自另建一套系统。白皮书和样板点为其他医院提供了迁移参照，但跨院采用仍需完成本院数据接入和流程适配。",
-      "event_headline": "华为联合发布医院AI平台白皮书，提供跨院建设参照",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "event_date_confirmed",
-        "event_date": "2026-10-30",
-        "observed_date": "2026-11-08",
-        "review_required": false,
-        "description": "2026年10月30日为白皮书发布及同期场景展示日期；院内平台建设、设备部署和联合实验室设立的具体完成日未全部披露。原始新闻发布于2026年11月8日，符合采集窗口，不以事件年龄淘汰。"
-      },
-      "published_date": "2026-11-08",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "正文明确华为与两家医院联合主编HAIP白皮书，并参与华西医院数据知识处理、算力配置、模型适配和平台建设，另记载昇腾950院内部署及联合创新实验室，存在技术提供方的独立实质事实。其价值在于以共用平台连接病历生成、医保审核和科研检索，并提供临床规则维护、原文溯源及日夜错峰算力调度的具体工程路径，不是白皮书名称或企业知名度本身。新闻于2026年11月8日发布，满足最近7天窗口；白皮书发布发生于10月30日，不因事件较早排除。所供历史涉及芯片互联、AgentOS、手机应用及其他研究，与本次医院平台合作不同；旧nova调价排除不适用。院方累计病历量和节约时间不归为华为独立成果，南方医院适配讨论不写成已完成跨院部署。保留为正面日报产业观察，不自动取得领导简报资格；华为总部已证实在深圳，不转入杭州负面预警。",
-      "event_headline_source": "b76f91eb5e1b096b7f54a3e6ff34c314370e221523be40a87283948dd94794c2",
-      "location_status": "subject_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-3a4c9ae28ffec2813559bade",
-          "source_url": "https://www.huawei.com/cn/contact-us",
-          "checked_at": "2026-10-12T03:39:57.997902+00:00",
-          "subject": "华为",
-          "role": "hq",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "CN",
-            "province": "广东省",
-            "city": "深圳市",
-            "address": "深圳市龙岗区坂田华为基地"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "当前证据足以支持医疗AI平台工程和院内应用案例，但未建立华为在该细分领域的独立可比行业地位。可见此前明确标杆审查仅支持其对应事件的资格边界，其他历史中的标杆布尔标签不能替代本次资格依据。",
-        "evidence_ids": [
-          "article:c03a4465178aaabb",
-          "prior_decision:b47446a87c6f143f"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "原生事实审查及独立日报阅读审查",
-        "candidate_id": "dcde534fd8ad3ae893c87696dbb3f230b3187f1a361c4c3db7b89dd3b97cddf1",
-        "input_row_sha256": "02ea469608c432bdae9d6f20266cfa946e356b876f89bf7a1b55d5d9c5fe00a4",
-        "reason": "正文明确华为与两家医院联合主编HAIP白皮书，并参与华西医院数据知识处理、算力配置、模型适配和平台建设，另记载昇腾950院内部署及联合创新实验室，存在技术提供方的独立实质事实。其价值在于以共用平台连接病历生成、医保审核和科研检索，并提供临床规则维护、原文溯源及日夜错峰算力调度的具体工程路径，不是白皮书名称或企业知名度本身。新闻于2026年11月8日发布，满足最近7天窗口；白皮书发布发生于10月30日，不因事件较早排除。所供历史涉及芯片互联、AgentOS、手机应用及其他研究，与本次医院平台合作不同；旧nova调价排除不适用。院方累计病历量和节约时间不归为华为独立成果，南方医院适配讨论不写成已完成跨院部署。保留为正面日报产业观察，不自动取得领导简报资格；华为总部已证实在深圳，不转入杭州负面预警。",
-        "scope": {
-          "technology_evidence": "原文披露华为AIDP院级知识库处理和检索文献、指南及病历，借助知识图谱支持依据定位；HAIP支撑不同应用共用算力和日夜错峰，昇腾950已部署院内，华为工程师进行模型算子适配。2026年10月30日联合发布白皮书并展示医疗智能体场景，双方还设立联合创新实验室。",
-          "value_reason": "该案例把医疗AI扩展的瓶颈从单个模型效果推进到共用数据、证据溯源、专家规则维护和持续推理成本管理，为杭州医疗AI平台及应用企业提供具体建设对照。跨院复制需要本院数据接入与临床流程适配，不能把样板点落地理解为已形成多院规模销售。"
-        },
-        "stage": {
-          "status": "据报道白皮书已发布、院内平台与算力已应用，跨院推广仍处参照及适配阶段",
-          "reason": "白皮书发布日明确为2026年10月30日；正文记载院内设备部署、业务应用及联合实验室设立，但未给出所有建设事项的精确完成日。南方医院方案适配是现场讨论，厂商响应时间测算不是独立临床效果验证。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:aa9aeb3859bf5dfe",
-            "accepted_history:dcbc0d3ad40fceb9",
-            "accepted_history:9cc3abaf5465dba7",
-            "accepted_history:6da8d449cb36ea2e",
-            "accepted_history:03ba16f9842a933f",
-            "accepted_history:92be5a26b95a3976",
-            "accepted_history:da0943f5372b111c",
-            "accepted_history:2ad1d378449de219",
-            "accepted_history:839ee81d493ed1de",
-            "accepted_history:3c06457ba7fc36b1",
-            "prior_decision:2551f93e336ce235"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:7a3dd28ea3fe025e",
-              "comparison": "different_event",
-              "reason": "针对Mate90芯片和操作系统发布，与医院平台建设及白皮书合作不同。"
-            },
-            {
-              "evidence_id": "prior_decision:c94804e1ff53b6fc",
-              "comparison": "different_event",
-              "reason": "是同一Mate90产品发布的另一裁决留痕，不是本次医疗AI事件。"
-            },
-            {
-              "evidence_id": "prior_decision:2551f93e336ce235",
-              "comparison": "different_event",
-              "reason": "旧排除仅针对nova16零售和渠道调价缺少产业增量；本次有医院平台工程、算力部署及客户应用事实，不继承排除，也不推翻原调价裁决。"
-            },
-            {
-              "evidence_id": "prior_decision:b47446a87c6f143f",
-              "comparison": "different_event",
-              "reason": "旧裁决针对无忧传媒采用Mate90进行专业直播，客户、产品及业务流程均不同。"
-            },
-            {
-              "evidence_id": "prior_decision:41cb742abe4f5ab4",
-              "comparison": "different_event",
-              "reason": "属于Mate90专业直播采用事件的裁决留痕，与本次医院AI平台无同事件关系。"
-            },
-            {
-              "evidence_id": "prior_decision:44696fec99981121",
-              "comparison": "different_event",
-              "reason": "属于同一专业直播采用事件，不是医疗AI合作的既有收录。"
-            },
-            {
-              "evidence_id": "prior_decision:8b9f0518c671f0a7",
-              "comparison": "different_event",
-              "reason": "针对Memento 3智能体游戏评测研究，本次是医院业务平台及工程应用。"
-            },
-            {
-              "evidence_id": "prior_decision:6878e58ccba127b3",
-              "comparison": "different_event",
-              "reason": "是Memento 3研究的另一裁决留痕，不构成本次医疗合作的重复。"
-            },
-            {
-              "evidence_id": "prior_decision:237de930101a2a28",
-              "comparison": "different_event",
-              "reason": "仍为Mate90专业直播采用事件留痕，与本次医院平台合作不同。"
-            }
-          ],
-          "change_reason": "逐项比较可见历史：DeltaBox是沙箱研究，Mate90是终端发布及直播采用，Peerium与昇腾950记录是通用互联架构和超节点进展，专利许可是权利交易，Pura X Max是折叠屏销量，openJiuwen是通用AgentOS发布，辅助驾驶芯片记录是装机份额，Memento 3是游戏评测研究。本次虽使用昇腾950，但新增独立医疗客户、院内平台应用及联合白皮书事实，构成另一事件；所供历史未见同事件，不宣称全库首次，不改写任何旧排除。",
-          "new_evidence_ids": [
-            "article:c03a4465178aaabb"
-          ]
-        },
-        "evidence_ids": [
-          "article:c03a4465178aaabb",
-          "identity_registry:2dcd4f408df25406",
-          "geo-3a4c9ae28ffec2813559bade",
-          "history_lookup:aa9aeb3859bf5dfe"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "当前证据足以支持医疗AI平台工程和院内应用案例，但未建立华为在该细分领域的独立可比行业地位。可见此前明确标杆审查仅支持其对应事件的资格边界，其他历史中的标杆布尔标签不能替代本次资格依据。",
-          "evidence_ids": [
-            "article:c03a4465178aaabb",
-            "prior_decision:b47446a87c6f143f"
-          ]
-        }
-      }
     }
   ],
   "negatives": [],
@@ -1943,15 +2012,15 @@
     "具身智能数据相关业务": 1,
     "网络游戏与数字文化": 1,
     "科技物流与具身智能基础设施": 1,
-    "新能源汽车": 1,
+    "新能源汽车": 2,
     "光伏逆变器与储能": 1,
     "AI服务器电子元器件": 1,
     "AI视频生成芯片": 1,
     "视频大模型": 1,
-    "创新药": 3,
+    "创新药": 4,
     "机器人": 1,
     "高速互联芯片": 1,
-    "脑机接口": 1,
+    "脑机接口": 3,
     "AI影视制作": 1,
     "AI投研": 1,
     "汽车智能座舱": 1,
@@ -1962,16 +2031,63 @@
     "人工智能大模型": 1,
     "人工智能开发工具": 1,
     "人工智能视频生成": 2,
-    "工业具身智能机器人": 1,
+    "工业具身智能机器人": 2,
     "人工智能基础设施": 1,
     "生物医药与细胞治疗": 1,
-    "富锂锰电池": 1
+    "富锂锰电池": 1,
+    "工业软件／智能制造": 1,
+    "人工智能／智能体记忆与企业知识管理": 1,
+    "AI算力基础设施与云服务": 1,
+    "云计算与人工智能": 2,
+    "AI算力应用": 1,
+    "AI硬件孵化与供应链服务": 1,
+    "AI运动穿戴": 1,
+    "AI终端与智能体": 1,
+    "智能睡眠硬件": 1,
+    "中药制药与药材供应": 1,
+    "半导体设备工业软件": 1,
+    "汽车整车与本地化制造": 1,
+    "AI消费硬件": 1,
+    "家庭备电与能源管理": 1,
+    "摄影机器人与智能影像": 1,
+    "AI智能体基础工具与知识管理": 1,
+    "硅光半导体": 1,
+    "工业人工智能及半导体检测": 1,
+    "高速互连芯片": 1,
+    "商业航天": 2,
+    "晶圆制造": 1,
+    "半导体先进封装": 1,
+    "视频生成大模型": 1,
+    "光计算芯片": 1,
+    "新能源汽车与汽车智能化": 1,
+    "汽车制造与汽车出口": 1,
+    "汽车研发与新能源汽车": 1,
+    "人工智能": 1,
+    "半导体存储芯片": 2,
+    "船舶制造": 1,
+    "人工智能／多智能体协作与软件开发工具": 1,
+    "半导体／家电控制芯片": 1,
+    "半导体／实时控制芯片": 1,
+    "半导体／低功耗测量芯片": 1,
+    "半导体／工业传感与模拟控制芯片": 1,
+    "半导体／汽车执行器控制芯片": 1,
+    "半导体／微控制器与专用芯片": 1,
+    "半导体／家电与电机控制芯片": 1,
+    "商业航天、卫星配套制造": 1,
+    "工业数字化、工业人工智能、有色金属": 1,
+    "农业科技／植物工厂": 1,
+    "农业科技／植物照明与能源管理": 1,
+    "智能汽车": 1
   },
   "daily_details": {
     "2026-11-09": {
       "count": 55,
       "negatives": 0
+    },
+    "2026-11-10": {
+      "count": 51,
+      "negatives": 0
     }
   },
-  "created": "2026-11-09 21:52:29"
+  "created": "2026-11-10 03:42:04"
 }
