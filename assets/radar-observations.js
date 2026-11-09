@@ -5,7 +5,7 @@
   const link=(route,query={})=>'#'+route+(Object.keys(query).length?'?'+new URLSearchParams(query):'');
   const labels={tracking:'持续观察',resolved:'阶段结论',archived:'已归档'};
   const roles=[['local_potential','杭州潜力','优先发现新的成长'],['local_benchmark','杭州标杆','观察成熟企业的新变化'],['unresolved','归属待确认','保留解读，等待地域与阶段核实'],['external_reference','外部对标','国内外企业提供比较参照']];
-  let pending=null,data=null,version='',visible=20,updateTimer,updatePending=null,nextManifest=null,lastCheck=Date.now();
+  let pending=null,data=null,version='',visible=20,updateTimer,updatePending=null,nextManifest=null,updateCandidate=null,lastCheck=Date.now();
   const params=()=>Router.getQueryParams(),nameKey=x=>String(x||'').normalize('NFKC').replace(/\s+/g,' ').trim().toLowerCase();
   function reviewedTime(value){
     if(!value||!Number.isFinite(new Date(value).getTime()))return '';
@@ -27,14 +27,54 @@
     try{return topic.revision>1&&Number(sessionStorage.getItem('radar-topic-seen-'+topic.topic_id)||0)<topic.revision;}catch{return false;}
   }
   const updateNotice=()=>'<div class="radar-research-update" data-research-update role="status" '+(nextManifest?'':'hidden')+'><span>观察已更新</span><button type="button" data-observation-refresh>查看新内容 →</button></div>';
-  function showUpdate(){const notice=document.querySelector?.('[data-research-update]');if(notice)notice.hidden=!nextManifest;}
+  function stableJSON(value){
+    if(Array.isArray(value))return '['+value.map(stableJSON).join(',')+']';
+    if(value&&typeof value==='object')return '{'+Object.keys(value).sort().map(k=>JSON.stringify(k)+':'+stableJSON(value[k])).join(',')+'}';
+    return JSON.stringify(value);
+  }
+  function articleMaterial(item){
+    if(!item?.article)return null;
+    const {published_at,...article}=item.article;
+    return {article,sources:item.article_sources||item.sources||[]};
+  }
+  function visibleMaterial(value){
+    const p=params();
+    if(Router.getRoute()==='/topic')return stableJSON(articleMaterial(p.company?
+      value.companies.find(c=>H.canonical(c.company)===H.canonical(p.company)):
+      value.topics.find(t=>t.topic_id===p.id)));
+    const topic=p.view==='topics',items=topic?value.topics:value.companies;
+    return stableJSON(items.filter(x=>x.article&&(!topic||x.status!=='archived')).map(x=>
+      [topic?x.topic_id:H.canonical(x.company),articleMaterial(x)]).sort((a,b)=>a[0].localeCompare(b[0])));
+  }
+  function showUpdate(){
+    if(updateCandidate&&data)nextManifest=visibleMaterial(data)!==visibleMaterial(updateCandidate.data)?updateCandidate.manifest:null;
+    const notice=document.querySelector?.('[data-research-update]');if(notice)notice.hidden=!nextManifest;
+  }
   function checkForUpdate(){
     if(updatePending)return updatePending;
     lastCheck=Date.now();const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),15000);
-    updatePending=fetch('./data/manifest.json?research='+lastCheck,{cache:'no-store',signal:controller.signal}).then(r=>r.ok?r.json():null).then(m=>{
+    updatePending=fetch('./data/manifest.json?research='+lastCheck,{cache:'no-store',signal:controller.signal}).then(r=>r.ok?r.json():null).then(async m=>{
       const entry=m?.observations;
-      if(entry?.path==='data/observations.json'&&/^[a-f0-9]{64}$/.test(entry.version||'')&&entry.version!==window.RadarData.manifest?.observations?.version){nextManifest=m;showUpdate();return true;}
-      return false;
+      if(entry?.path!=='data/observations.json'||!/^[a-f0-9]{64}$/.test(entry.version||''))return false;
+      if(entry.version===version){updateCandidate=null;nextManifest=null;showUpdate();return false;}
+      let candidate=updateCandidate?.version===entry.version&&updateCandidate.verified?updateCandidate:null;
+      if(!candidate){
+        const response=await fetch('./'+entry.path+'?v='+entry.version,{cache:'no-store',signal:controller.signal});
+        if(!response.ok)return false;
+        const raw=await response.text(),value=JSON.parse(raw);
+        if(value.schema!=='radar-observations-v1'||!Array.isArray(value.companies)||!Array.isArray(value.topics))return false;
+        let verified=false;
+        if(window.crypto?.subtle){
+          const hash=await window.crypto.subtle.digest('SHA-256',new TextEncoder().encode(raw));
+          if([...new Uint8Array(hash)].map(b=>b.toString(16).padStart(2,'0')).join('')!==entry.version)return false;
+          verified=true;
+        }
+        candidate={version:entry.version,data:value,manifest:m,verified};
+        // Reuse only exact version bytes; transient CDN lag must be retried.
+        updateCandidate=candidate;
+      }
+      nextManifest=data&&visibleMaterial(data)!==visibleMaterial(candidate.data)?m:null;
+      showUpdate();return !!nextManifest;
     }).catch(()=>false).finally(()=>{clearTimeout(timeout);updatePending=null;});
     return updatePending;
   }

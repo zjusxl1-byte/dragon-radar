@@ -9,6 +9,16 @@
   let current=null;
   function articleLink(item,topic,target){let back=Router.getRoute()==='/observations'?location.hash.slice(1):(topic?'/observations?view=topics':'/observations');if(target){const [path,query]=back.split('?'),params=new URLSearchParams(query||'');params.set('target',target);back=path+'?'+params;}return href('/topic',topic?{id:item.topic_id,back}:{company:item.company,back});}
   const shortDate=x=>String(x||'').slice(0,10).replace(/^2026-/,'').replace('-','/');
+  function researchDate(x){
+    const published=x.article?.published_at;
+    if(published&&Number.isFinite(new Date(published).getTime())){
+      const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date(published));
+      const part=type=>parts.find(p=>p.type===type).value;
+      return '研究更新 '+shortDate(part('year')+'-'+part('month')+'-'+part('day'));
+    }
+    return '材料截至 '+(x.as_of||x.latest_material_date||'');
+  }
+  const sourceDate=s=>s.published_date?'发布于 '+shortDate(s.published_date):(s.collected_date?'采集于 '+shortDate(s.collected_date):'');
   const titleOf=(x,topic)=>x.article?.title||(topic?x.question:(x.display_name||x.company));
   const deckOf=(x,topic)=>x.article?.deck.text||(topic?x.thesis.text:x.thesis||x.progress||'');
   function meta(x,topic){return topic?x.sector:(x.display_name||x.company)+' · '+(x.sector_label||x.sector||'企业观察');}
@@ -69,7 +79,7 @@
     const names=topic?x.companies:[x.company];
     const history=topic&&x.research_history?.length?'<details class="journal-sources journal-research-history"><summary>判断沿革 <span>'+x.research_history.length+' 次此前判断</span></summary><ol>'+[...x.research_history].reverse().map(h=>'<li><small>'+esc(String(h.updated_at||h.as_of||'').slice(0,10))+' · 第 '+Number(h.revision)+' 版</small><p>'+esc(h.thesis?.text||'')+'</p></li>').join('')+'</ol></details>':'';
     const directory='<aside class="journal-directory"><p>本文</p><nav aria-label="文章目录">'+article.sections.map((s,i)=>'<a href="#'+sectionId(i)+'" data-journal-section="'+sectionId(i)+'" '+(i===0?'aria-current="location"':'')+'>'+esc(s.heading)+'</a>').join('')+'</nav><div class="journal-directory-context"><span>'+(topic?'涉及企业':'企业档案')+'</span>'+names.map(n=>'<a href="'+esc(href('/company',{name:n,back:location.hash.slice(1)}))+'">'+esc(O.displayName(n))+' →</a>').join('')+'</div></aside>';
-    const sourceList='<details id="journal-sources" class="journal-sources"><summary>来源与资料说明 <span>'+sources.length+' 条</span></summary>'+(article.notes||[]).map(n=>'<p>'+esc(n.text)+references(n)+'</p>').join('')+'<ol>'+sources.map((s,i)=>'<li id="journal-source-'+(i+1)+'">'+(H.safeURL(s.link)?'<a href="'+esc(H.safeURL(s.link))+'" target="_blank" rel="noopener noreferrer">'+esc(s.article_title||s.event_headline||s.source||'原始资料')+'</a>':esc(s.article_title||s.event_headline||'已收录资料'))+'<small>'+esc(s.source||'原始来源')+' · '+esc(s.published_date?.slice(0,10)||s.collected_date||'')+'</small></li>').join('')+'</ol></details>';
+    const sourceList='<details id="journal-sources" class="journal-sources"><summary>来源与资料说明 <span>'+sources.length+' 条</span></summary>'+(article.notes||[]).map(n=>'<p>'+esc(n.text)+references(n)+'</p>').join('')+'<ol>'+sources.map((s,i)=>'<li id="journal-source-'+(i+1)+'">'+(H.safeURL(s.link)?'<a href="'+esc(H.safeURL(s.link))+'" target="_blank" rel="noopener noreferrer">'+esc(s.article_title||s.event_headline||s.source||'原始资料')+'</a>':esc(s.article_title||s.event_headline||'已收录资料'))+'<small>'+esc(s.source||'原始来源')+(sourceDate(s)?' · '+esc(sourceDate(s)):'')+'</small></li>').join('')+'</ol></details>';
     const sectorKey=String(x.sector||'').split(/[／/]/)[0];
     const peers=topic?value.topics.filter(t=>t.topic_id!==x.topic_id&&t.status!=='archived'&&(t.companies.some(n=>x.companies.includes(n))||(sectorKey&&t.sector.split(/[／/]/)[0]===sectorKey))).slice(0,2):value.topics.filter(t=>t.companies.includes(x.company)).slice(0,2);
     const related=peers.length?'<section class="journal-related"><h2>延伸阅读</h2>'+peers.map(t=>'<a href="'+esc(articleLink(t,true))+'"><span>'+esc(t.sector)+'</span><h3>'+esc(previewTitle(t))+'</h3><p>'+esc(previewDeck(t,true))+'</p></a>').join('')+'</section>':'';
@@ -77,7 +87,7 @@
     const backRoute=back.split('?')[0],backLabel=({'/':'主页','/today':'动态','/company':'企业档案','/calendar':'日历','/weekly':'收录分布','/briefing':'简报','/topic':'上一篇观察'})[backRoute]||(topic?'产业专题':'企业观察');
     current={title:article.title,text:article.deck.text,url:location.href.split('#')[0]+href('/topic',topic?{id:x.topic_id}:{company:x.company})};
     document.title=article.title+'｜寻龙雷达';
-    return '<article class="journal-reading">'+updateNotice()+'<div class="journal-breadcrumb"><a href="#'+esc(back)+'">← '+esc(backLabel)+'</a><span>'+esc(topic?'':(x.display_name||x.company))+'</span></div><header class="journal-article-head"><p class="journal-eyebrow">'+esc(topic?x.sector:(x.sector_label||x.sector||'企业观察'))+'</p><h1>'+esc(previewTitle(x))+'</h1><div class="journal-byline"><span>寻龙研究</span><span>'+readingMinutes(article)+' 分钟阅读</span><span>材料截至 '+esc(x.as_of||'')+'</span></div><p class="journal-deck">'+esc(article.deck.text)+references(article.deck)+'</p></header>'+picture(x,'journal-article-picture')+'<div class="journal-layout"><div class="journal-prose">'+prose+revision+(imageOf(x)?'<p class="journal-art-credit">配图为产业场景示意</p>':'')+sourceList+history+'</div>'+directory+'</div>'+related+'<footer class="journal-article-end"><a href="#'+esc(back)+'">返回'+esc(backLabel)+' →</a>'+(topic?'':'<a href="'+esc(href('/company',{name:x.company,back:location.hash.slice(1)}))+'">查看企业完整进展 →</a>')+'</footer></article>';
+    return '<article class="journal-reading">'+updateNotice()+'<div class="journal-breadcrumb"><a href="#'+esc(back)+'">← '+esc(backLabel)+'</a><span>'+esc(topic?'':(x.display_name||x.company))+'</span></div><header class="journal-article-head"><p class="journal-eyebrow">'+esc(topic?x.sector:(x.sector_label||x.sector||'企业观察'))+'</p><h1>'+esc(previewTitle(x))+'</h1><div class="journal-byline"><span>寻龙研究</span><span>'+readingMinutes(article)+' 分钟阅读</span><span>'+esc(researchDate(x))+'</span></div><p class="journal-deck">'+esc(article.deck.text)+references(article.deck)+'</p></header>'+picture(x,'journal-article-picture')+'<div class="journal-layout"><div class="journal-prose">'+prose+revision+(imageOf(x)?'<p class="journal-art-credit">配图为产业场景示意</p>':'')+sourceList+history+'</div>'+directory+'</div>'+related+'<footer class="journal-article-end"><a href="#'+esc(back)+'">返回'+esc(backLabel)+' →</a>'+(topic?'':'<a href="'+esc(href('/company',{name:x.company,back:location.hash.slice(1)}))+'">查看企业完整进展 →</a>')+'</footer></article>';
   }
   O.topic=function(value,p){
     const topic=!p.company,x=topic?value.topics.find(t=>t.topic_id===p.id):value.companies.find(c=>H.canonical(c.company)===H.canonical(p.company));
