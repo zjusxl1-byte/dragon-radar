@@ -809,16 +809,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/nNbXH3uUeT-5aFhbwIqf6w",
       "sector": "机器人/人工智能",
-      "location": "项目地：杭州市（企业属地待核）",
+      "location": "上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "项目地：杭州市（企业属地待核）",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fcf84004f7030e4272cf15ed"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "擎天租",
         "subject_locality": {
           "status": "unknown",
@@ -828,24 +830,27 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-ee501545d9c307be59925b49",
-            "source_url": "https://mp.weixin.qq.com/s/r_hnn4sLeEAIj6EG2gbnqQ",
-            "checked_at": "2026-10-27T10:32:25+00:00",
+            "evidence_id": "geo-fcf84004f7030e4272cf15ed",
+            "source_url": "https://www.iyiou.com/company/qingtianzu",
+            "checked_at": "2026-11-09T18:17:02.516539+00:00",
             "subject": "擎天租",
-            "role": "project",
-            "subject_relation": "mention",
+            "role": "business",
+            "subject_relation": "same_subject",
             "place": {
               "country": "CN",
-              "province": "浙江省",
-              "city": "杭州市"
+              "province": "上海市",
+              "city": "上海市"
             }
           }
         ],
-        "presentation": {
-          "label": "项目地：杭州市（企业属地待核）",
-          "detail": "擎天租操盘杭州东坡大剧院演出，项目不证明平台属地。",
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
           "evidence_ids": [
-            "geo-ee501545d9c307be59925b49"
+            "geo-fcf84004f7030e4272cf15ed"
           ]
         }
       },
@@ -872,16 +877,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/r_hnn4sLeEAIj6EG2gbnqQ",
       "sector": "机器人租赁平台与场景运营",
-      "location": "项目地：杭州市（企业属地待核）",
+      "location": "上海市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "项目地：杭州市（企业属地待核）",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fcf84004f7030e4272cf15ed"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "擎天租",
         "subject_locality": {
           "status": "unknown",
@@ -891,24 +898,27 @@
         },
         "basis": [
           {
-            "evidence_id": "geo-ee501545d9c307be59925b49",
-            "source_url": "https://mp.weixin.qq.com/s/r_hnn4sLeEAIj6EG2gbnqQ",
-            "checked_at": "2026-10-27T10:32:25+00:00",
+            "evidence_id": "geo-fcf84004f7030e4272cf15ed",
+            "source_url": "https://www.iyiou.com/company/qingtianzu",
+            "checked_at": "2026-11-09T18:17:02.516539+00:00",
             "subject": "擎天租",
-            "role": "project",
-            "subject_relation": "mention",
+            "role": "business",
+            "subject_relation": "same_subject",
             "place": {
               "country": "CN",
-              "province": "浙江省",
-              "city": "杭州市"
+              "province": "上海市",
+              "city": "上海市"
             }
           }
         ],
-        "presentation": {
-          "label": "项目地：杭州市（企业属地待核）",
-          "detail": "擎天租操盘杭州东坡大剧院演出，项目不证明平台属地。",
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
           "evidence_ids": [
-            "geo-ee501545d9c307be59925b49"
+            "geo-fcf84004f7030e4272cf15ed"
           ]
         }
       },
@@ -2202,6 +2212,59 @@
       "financing": "",
       "event_date": "",
       "event_headline": "大米和小米AI系统已用于近百家直营店及300余家合作机构",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "HEYGO": [
+    {
+      "date": "2026-11-10",
+      "title": "HEYGO团队在极限造物秀中用约42小时、200多次代码提交，将原有滑雪AI智能穿戴接入胸前屏幕，支持查看滑行速度、转弯数据及询问AI动作改进建议，并尝试利用现场提供的AI Passport开发新交互入口。其第一代滑雪硬件此前经历南北半球两个雪季验证及20多个版本迭代，测试涉及低温、运动冲击和不同装备条件。",
+      "article_title": "AI时代，谁来孵化下一代硬件公司？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/8v5B48jMO1mj8uOwrhmZ1A",
+      "sector": "AI运动穿戴",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "HEYGO",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "HEYGO",
+      "company_entity_id": "dr-u-854e95a168e166b5ffbe",
+      "company_raw_name": "HEYGO团队",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体功能原型和测试经历足以支持产品线索，但未提供可比性能、用户采用或行业地位的独立依据，不新增全国标杆资格。",
+        "evidence_ids": [
+          "article:d8f9fb7ff080fdd6"
+        ]
+      },
+      "published_date": "2026-11-09",
+      "insight": "新增胸前屏幕把滑行数据和AI问答移到运动中的直接交互入口，减少反复取出手机的操作。两个雪季的硬件验证说明团队已投入真实环境适配，但这与AI建议能否有效改善滑雪动作是两个不同的产品问题。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "HEYGO为滑雪AI穿戴接入胸前屏幕与动作问答",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
