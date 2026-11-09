@@ -2783,5 +2783,65 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "风河": [
+    {
+      "date": "2026-11-10",
+      "title": "风河将于2026年11月26日14:00—15:00举办线上技术研讨会，介绍风河开物RTOS与Simics在扫描式光刻机和EUV光源中的应用。文章介绍的既有案例包括：按量产设备硬件构型模拟控制机架及内部网络，接入对准传感器模型，让Linux主控与实时控制节点上的实际控制软件沿用真机接口协同运行；运行真实版本的光源控制软件，检查子系统启动流程，并连接扫描机仿真环境验证曝光接口。研讨会还将介绍故障注入、检查点恢复及并行测试方法。",
+      "article_title": "光刻机的软件测试，为什么要故意制造故障？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/KFMEp9wgNLzlaeTX0Xf6NA",
+      "sector": "半导体设备工业软件",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "风河",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "风河",
+      "company_entity_id": "dr-u-3f0a3694910a94f3c772",
+      "company_raw_name": "风河",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "风河开物 RTOS",
+          "relation": "product",
+          "evidence": "风河开物 RTOS 的作用，是让关键控制任务的响应时间可预测。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体案例支持软件应用对标价值，但正文的全球领先表述属于宣传性自述，未提供可独立核验的行业地位或全国标杆资格依据。",
+        "evidence_ids": [
+          "article:79170aa6f97cf0ce"
+        ]
+      },
+      "published_date": "2026-11-09",
+      "insight": "风河案例体现的软件价值，是把控制任务的按时执行与跨系统流程、异常响应的验证连接起来：实际控制软件可在实体台架准备期间进入虚拟联调，难以在真机反复触发的异常也能转化为可重复测试。其对半导体设备研发的意义在于提前检查协同逻辑，并让已发现的问题进入后续版本的持续验证，而非仅展示正常运行流程。",
+      "financing": "",
+      "event_date": "2026-11-26",
+      "event_headline": "风河将结合光刻设备案例讲解实时控制与虚拟验证",
+      "event_signal": "context",
+      "discovery_status": "first_seen"
+    }
   ]
 }
