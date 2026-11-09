@@ -5,10 +5,10 @@
   "start_date": "2026-11-09",
   "end_date": "2026-11-15",
   "summary": {
-    "total_companies": 75,
-    "financing_events": 15,
+    "total_companies": 55,
+    "financing_events": 14,
     "ipo_events": 0,
-    "milestone_events": 28,
+    "milestone_events": 19,
     "negative_events": 0,
     "active_days": 1
   },
@@ -133,7 +133,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "reviewer": "原生事实审查及独立日报阅读审查",
         "candidate_id": "fda42a85a9e06080015aaeb3b75634a1d748b2294dfc99a2a39afbe60478551d",
         "input_row_sha256": "3a4e6f2320a4acdd3b9123a81bbbf7ef2f0979494f701e2cf5a9905a59cd5537",
         "reason": "全文明确宇树是UnifoLM系列模型及Embodied Avatar遥操作平台的研发提供方，肖宇晨是公司技术进展的发言人，不另立人员或产品主体。原始发布时间2026-11-07T16:00:00Z对应北京时间11月8日，满足七日新闻窗口，上游所谓缺少发布时间和历史裁决的理由不成立。本条具体补充UnifoLM-WLA-1.0名称、9月升级开源及真机任务覆盖，并披露遥操作数据平台，超出既往笼统模型路线与发布月份表述，可按日报技术线索保留。11月4日是大会发言日，不是模型发布日期；54项桌面操作、10项全身移动操作是报道所述评测范围，不等于陌生场景成功率。历史模型候选的版本对应关系仍须沿原事件核对，不宣称首次发现，也不以本条批准旧财报、外部模型实测或其他待核事件。",
@@ -422,7 +422,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "reviewer": "原生事实审查及独立日报阅读审查",
         "candidate_id": "5e71425e63a782097c0fb3d7dad087b75dcf996dadbeef841ffcbc340a397362",
         "input_row_sha256": "be7e57be00c313baa59979eed18905c1b2360f5e0c16409533574a6b47f0f7cd",
         "reason": "全文明确阿里云为Qovest发布方，11月2日发布面向专业机构投资者的AI投研工作台，具体能力包括自然语言提出需求、查数据、分析生成报告、定期跟踪及保留研究成果。产品将一次性问答延伸为持续研究流程，具备明确专业工作流应用价值；企业版仅为近期推出计划，不能称已交付或已获机构客户验证。既有出海方案和虚拟数字人退市均为其他产品事件，不构成本次重复或旧排除。可复用同一阿里云业务主体的杭州总部证据，保留法人与名录身份尚未确认的边界，不将其自动并入阿里巴巴集团。新闻11月3日发布，符合窗口，事件可保留，不因成熟度或上游分数决定资格。",
@@ -590,7 +590,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "reviewer": "原生事实审查及独立日报阅读审查",
         "candidate_id": "cec933924af665b3805a0fde436b872135cebc7c083a9d4213ee0fc47b572b3d",
         "input_row_sha256": "93ac2a586f11125e750e5d7102940d6cfc7e0c5819c6040b87814a499e19a54d",
         "reason": "正文明确宇树科技股份有限公司为拟设工业具身智能机器人合营企业的参与方，拟持股20%并参与共同控制，主体及股权角色有原文依据。其价值是将机器人业务拓展至明确的工业解决方案合作载体，而非一般合作口号；目前成立的是经营者集中案件进入公示这一程序事实，不是合营企业已成立、交易已获批或已有订单交付。杭州总部可复用官网证据。11月7日新闻符合七日窗口；可见历史中的其他合作、模型、产品及资本事件均不能替代本次合营安排。历史来源缺失保留uncertain，不宣称首次，也不因其他事件待核而阻断本条有明确正文支持的窄命题。与昆仑制造、泛界智能两项共享同一合营事件，不重复计算为三笔合作。",
@@ -948,7 +948,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "reviewer": "原生事实审查及独立日报阅读审查",
         "candidate_id": "4e23b7f35494de19adeb9f0426fe4407c5c891bdcad30d4cb662f0fe7f4fd471",
         "input_row_sha256": "e9b384ccbfa7bdf24565d7d5fb3517510c4fd268527c9f7942c5ff78719d55b7",
         "reason": "正文明确高通是6G终端原型机展示方，该原型机首次公开展示且已参与与中兴通讯、中国移动等伙伴开展的测试，构成具体研发测试进展，具有终端与网络侧联合验证的产业观察价值。伙伴身份不等于共同拥有该原型机成果，不另造企业事件。11月8日发布时间满足采集窗口；既往高通收录及三条裁决均针对HBC硅片验证与AI250送样计划，与本次6G原型机属于另一事件，不应按公司去重。官方总部地点证据可复用为美国圣迭戈，上海仅为展会地点。本条按报道强度保留为全球技术观察，不将原型机写成商用终端，也不直接采信全球第一或符合新标准的领先结论。",
@@ -1110,7 +1110,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "reviewer": "原生事实审查及独立日报阅读审查",
         "candidate_id": "484e5a01c50f7536979bf30ac2453e775f6d48a1754e1aa43e8761025abd3d4c",
         "input_row_sha256": "64be659c9359c7a8043d7a52fa5b3098d0eb8be514576a0ccc8a546cd26e81fa",
         "reason": "完整正文独立披露三星电子已为平泽P5生产线订购光刻设备，属于具体制造投入，不是仅在共同报道中被提名。新闻发布于2026年11月8日，符合近7天窗口。既有龙仁及越南项目不能与平泽P5混同，其他HBM、SoC及财务裁决也不覆盖本项。保留媒体转述的设备订购进展，洁净室完工及2028年投产仍为预计；高NA EUV应用另属计划，不能认定已部署于P5。韩国五年投资总额不归为P5或EUV订单金额。",
@@ -1203,167 +1203,6 @@
           "evidence_ids": [
             "article:f47b63f588e0db88",
             "prior_decision:ab7481ac8ddc5ce8"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "自然选择",
-      "title": "特斯拉被曝物色新一任中国区销售负责人，前任已入职小米；京东22亿欧元收购CECONOMY获欧盟批准，将揽下欧洲超千家门店丨Going Global",
-      "company": "自然选择",
-      "score": 70,
-      "sector": "大模型与多模态交互",
-      "financing": "A+轮数千万美元；累计融资超1亿美元；本轮投资方未披露",
-      "source": "创业邦",
-      "location": "广东省 / 深圳市",
-      "article_location": "",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "广东省 / 深圳市",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-08bef43e058718865630fde5"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "自然选择",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-08bef43e058718865630fde5",
-            "source_url": "https://letschuhai.com/11890970-2",
-            "checked_at": "2026-11-08T17:22:43.322684+00:00",
-            "subject": "自然选择",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "广东省",
-              "city": "深圳市"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "广东省",
-          "city": "深圳市",
-          "evidence_ids": [
-            "geo-08bef43e058718865630fde5"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-ce693a6bfce406d1ca16",
-      "company_canonical_name": "自然选择",
-      "identity_status": "confirmed",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/Kwa7Yu0mFK_3ToEFeeFt4Q",
-      "article_title": "特斯拉被曝物色新一任中国区销售负责人，前任已入职小米；京东22亿欧元收购CECONOMY获欧盟批准，将揽下欧洲超千家门店丨Going Global",
-      "event_desc": "11月5日，自然选择完成数千万美元A+轮融资，累计融资金额超1亿美元。本轮资金将用于大模型迭代、多模态交互研发及全球市场拓展。",
-      "insight": "资金同时投向模型和多模态交互，表明研发计划既涉及模型能力，也涉及用户如何使用这些能力；具体产品形态仍是理解其产业位置的关键。",
-      "event_headline": "自然选择完成数千万美元A+轮融资，投向模型及多模态研发",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "recent_event",
-        "description": "事件日期在最近7个自然日内: 2026-11-05",
-        "event_date": "2026-11-05",
-        "observed_date": "2026-11-08",
-        "review_required": true
-      },
-      "published_date": "2026-11-08",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "正文明确自然选择完成数千万美元A+轮融资，资金拟用于大模型迭代、多模态交互研发及全球化市场拓展。稳定主体已确认，历史证明EVE和Elys为旗下产品，不能另并为企业。本笔A+轮已于11月7日收录，但本篇新增本轮金额区间、资金用途及报道所列日期，属于可保留的信息增量，应更新原融资事件而非重复计入融资次数。深圳证据仅支持普通经营归属，不扩大为注册地或主要总部认定。",
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-08bef43e058718865630fde5",
-          "source_url": "https://letschuhai.com/11890970-2",
-          "checked_at": "2026-11-08T17:22:43.322684+00:00",
-          "subject": "自然选择",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "CN",
-            "province": "广东省",
-            "city": "深圳市"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "复用此前已审结论：融资和产品运行支持成长线索，但没有建立全国行业领先地位或已验证的对标优势；本次新增金额及用途不足以改变该判断。",
-        "evidence_ids": [
-          "accepted_history:514dc413019bdcd7",
-          "prior_decision:c8793e0ba83396c7",
-          "article:cfbdabf7541f216a"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
-        "candidate_id": "f00e63d00b2f5e354eaec4a1b781bcbbd1d4c3284d2170aad6dd4d524b7e9f5a",
-        "input_row_sha256": "7b872c1a9a62e747b9377a4dd54f2ecc158a5277045e2427d59a28447f9d1f90",
-        "reason": "正文明确自然选择完成数千万美元A+轮融资，资金拟用于大模型迭代、多模态交互研发及全球化市场拓展。稳定主体已确认，历史证明EVE和Elys为旗下产品，不能另并为企业。本笔A+轮已于11月7日收录，但本篇新增本轮金额区间、资金用途及报道所列日期，属于可保留的信息增量，应更新原融资事件而非重复计入融资次数。深圳证据仅支持普通经营归属，不扩大为注册地或主要总部认定。",
-        "scope": {
-          "technology_evidence": "本篇披露本轮资金用于大模型迭代和多模态交互研发；已收录历史明确其旗下Elys为AI社交产品、EVE为AI陪伴产品。",
-          "value_reason": "新增金额区间和用途使已有AI社交、陪伴产品的后续研发与市场投入路径更具体，可供杭州AI应用企业比较模型、交互和用户关系数据之间的产品组织方式。融资支持研发投入，不等于个人智能体改版已发布或商业模式已验证。"
-        },
-        "stage": {
-          "status": "据报道已完成A+轮融资；模型、交互研发及全球化拓展为用途计划",
-          "reason": "本篇发表于2026年11月8日，将11月5日列为融资消息日期，可保留为本来源报道日期依据，不推定资金交割日。历史所述Elys个人智能体改版仍为upcoming，本篇没有新增完成证据。最早已提供收录记录为2026年11月7日，不宣称这就是实际首次收录时间。"
-        },
-        "history": {
-          "result": "new_progress",
-          "evidence_ids": [
-            "accepted_history:514dc413019bdcd7",
-            "prior_decision:c8793e0ba83396c7",
-            "prior_decision:7f67fc60d6762d38",
-            "history_lookup:c0e846c30a78e9dc"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:c8793e0ba83396c7",
-              "comparison": "same_event",
-              "reason": "同主体A+轮融资及累计融资超1亿美元一致，旧裁决为keep；本篇不是新的融资轮次。"
-            },
-            {
-              "evidence_id": "prior_decision:7f67fc60d6762d38",
-              "comparison": "same_event",
-              "reason": "同一历史候选的keep裁决，重复裁决记录不构成另一事件；继续保留原有产品阶段边界。"
-            }
-          ],
-          "change_reason": "已收录报道未披露本轮具体金额和用途，本篇新增数千万美元金额区间及模型迭代、多模态交互、全球化拓展用途，并列出11月5日。此前未披露与此次补充不构成事实冲突；保留增量、归并原事件，不重算累计融资或融资次数，不把本篇未列投资方误写为所有来源均未披露。",
-          "new_evidence_ids": [
-            "article:cfbdabf7541f216a"
-          ]
-        },
-        "evidence_ids": [
-          "article:cfbdabf7541f216a",
-          "accepted_history:514dc413019bdcd7",
-          "identity_registry:2dcd4f408df25406",
-          "geo-08bef43e058718865630fde5"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "复用此前已审结论：融资和产品运行支持成长线索，但没有建立全国行业领先地位或已验证的对标优势；本次新增金额及用途不足以改变该判断。",
-          "evidence_ids": [
-            "accepted_history:514dc413019bdcd7",
-            "prior_decision:c8793e0ba83396c7",
-            "article:cfbdabf7541f216a"
           ]
         }
       }
@@ -1466,7 +1305,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "reviewer": "原生事实审查及独立日报阅读审查",
         "candidate_id": "ec6f2bc4cbc519bf4726658ee793bf609256c9ecc24b06156d410796448d7def",
         "input_row_sha256": "15d2727f9cd6accd9e70c159e4796f2b37c57e4425c6e2606f2eeb619a891f63",
         "reason": "原文明确OpenAI为融资接受方，Coatue Management和T. Rowe Price为首笔交割投资者，其他机构为本轮参与方；据知情人士消息，约110亿美元首笔资金已到账，估值为1.25万亿美元。这是基础模型企业获得实际资本支持的阶段性节点，可为杭州模型企业观察资本获取及持续研发投入条件提供对标，不要求同时出现技术突破，也不补造资金用途。新闻发布于2026-11-07T01:13:00Z，符合七日窗口。此前量子位报道对应同一轮首笔交割，不能作为另一融资事件重复计数；其旧watch的历史读取故障，经本次具体恢复证据核对已不再适用于本条，当前历史读取错误为空，恢复的OpenAI旧记录为训练隔离政策，并非融资。故将同一融资事件由待核改为保留，合并来源，不重置首次收录时间。剩余融资仍为未来安排，缩减融资计划不等于已发生经营损失。仅用于全球正面日报观察，不据此授予杭州预警或领导简报资格。",
@@ -1624,7 +1463,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "reviewer": "原生事实审查及独立日报阅读审查",
         "candidate_id": "9b6f5e64220bce8f4ffbdca5d5339775c49ec912213d73cc407034c5fd12fbb8",
         "input_row_sha256": "286a76630585422fa2070e90d8ccad428471b8cf508ff4168915fb8529202768",
         "reason": "已提供正文逐名列明百子尖及其在线高速智能机器视觉检测系统入选省级制造业单项冠军，并明确其总部位于未来科技城上市企业创新园，足以支持余杭正面发现归属，不必因上游地点未审标记搁置。其算法、相机、光源与成像组合已有微米级检测及多个制造行业头部客户应用，认定具有具体产品和产业基础，并非孤立荣誉。发布证据为2026年11月8日，符合最近7天窗口；认定具体日期未知不影响采信。历史检索返回无已收录或既往裁决匹配，可作为本轮新增事件保留，不宣称首次公开发现，也不自动取得领导简报资格。原文主体明确，注册表尚未解析不构成已发现的身份冲突，不修改稳定身份。",
@@ -1737,7 +1576,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "reviewer": "原生事实审查及独立日报阅读审查",
         "candidate_id": "5e2c87b256812fb3813188e7f104a54c46af2b97ccd80ba0a14159a191a88cff",
         "input_row_sha256": "0553ac085151e8a95a19c97b84079445e0509933db44b99384265fa4a635dc9d",
         "reason": "投资方银杏谷资本的完整正文明确将元态量智对应为宁波元态量智科技有限公司，融资接受方与技术业务主体有直接依据，飞渡V1.0为其产品。数千万元融资已交割，结合量子计算架构、原型及互联研发构成具体科技企业资本成长线索，不要求另有技术突破或披露资金用途。新闻发布于2026-11-08，满足最近7天窗口，融资精确日期未知。所附历史未匹配同事件；同轮原watch不存在尚未核清的融资主体关系，其地点缺口不应阻断全球正面日报线索。本次保留报道所支持的融资与研发阶段，地点维持待核，不凭企业名称或孵化关系推定属地，也不升级为全国标杆或领导简报资格。",
@@ -1836,7 +1675,7 @@
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
-        "reviewer": "current_task_agent_directed_review_with_validated_quality_batches",
+        "reviewer": "原生事实审查及独立日报阅读审查",
         "candidate_id": "6e946d1fc9f1624d43ed8bcd1d5d7a1d66fc86d2657d1fcb7d6a92c04bfba716",
         "input_row_sha256": "4a8562bf225da500e0d3121bcd8a833c5840d314f4a3b470528473e6151388d4",
         "reason": "原文明确君柔科技为侵入式脑机接口企业及近亿元人民币天使+轮融资获投主体，高瓴创投为参与投资方，未称其领投。具体技术路线与已完成融资相结合，构成值得日报发现的早期技术企业资本成长节点，无需以已经形成收入或完成临床验证为前提。新闻发布于11月3日，符合最近7天窗口；11月2日为投资方发文时间，融资完成时间仅为“近日”。名录未登记和城市未知不构成否定原文事实的理由，但不得认定其为杭州企业、临床成熟企业或全国标杆。",
@@ -1872,6 +1711,209 @@
           ]
         }
       }
+    },
+    {
+      "company_raw_name": "华为技术有限公司",
+      "title": "华西医院的 AI 经验，如何成为更多医院的起点？",
+      "company": "华为技术有限公司",
+      "score": 50,
+      "sector": "医疗人工智能与算力基础设施",
+      "financing": "",
+      "source": "晚点 LatePost",
+      "location": "广东省 / 深圳市龙岗区坂田华为基地",
+      "article_location": "广东省深圳市龙岗区坂田华为基地",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市龙岗区坂田华为基地",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-3a4c9ae28ffec2813559bade"
+        ],
+        "subject_evidence_ids": [
+          "geo-3a4c9ae28ffec2813559bade"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "华为",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-3a4c9ae28ffec2813559bade"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-3a4c9ae28ffec2813559bade",
+            "source_url": "https://www.huawei.com/cn/contact-us",
+            "checked_at": "2026-10-12T03:39:57.997902+00:00",
+            "subject": "华为",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "address": "深圳市龙岗区坂田华为基地"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-82eaaba81d9dcc54deab",
+      "company_canonical_name": "华为",
+      "identity_status": "confirmed",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/APClfj1XuRTLnyM38JUYjg",
+      "article_title": "华西医院的 AI 经验，如何成为更多医院的起点？",
+      "event_desc": "2026年10月30日，华为技术有限公司与四川大学华西医院、南方医科大学南方医院联合主编的《HAIP 建设指南与技术演进白皮书》正式发布，同期展示五大医疗智能体创新场景并落地智慧医疗全球样板点。华为参与华西医院通用人工智能平台建设，提供数据处理、知识检索、计算资源配置及模型适配等支撑；双方还设立联合创新实验室，围绕医疗高质量数据集、医学知识图谱等方向开展研究。",
+      "insight": "华为在该合作中的价值，是把医院的临床规则和既有资料接入共用的数据、模型与算力平台，使病历生成、医保审核等应用能够复用知识检索和原文溯源能力，而非各自另建一套系统。白皮书和样板点为其他医院提供了迁移参照，但跨院采用仍需完成本院数据接入和流程适配。",
+      "event_headline": "华为联合发布医院AI平台白皮书，提供跨院建设参照",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "event_date_confirmed",
+        "event_date": "2026-10-30",
+        "observed_date": "2026-11-08",
+        "review_required": false,
+        "description": "2026年10月30日为白皮书发布及同期场景展示日期；院内平台建设、设备部署和联合实验室设立的具体完成日未全部披露。原始新闻发布于2026年11月8日，符合采集窗口，不以事件年龄淘汰。"
+      },
+      "published_date": "2026-11-08",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "正文明确华为与两家医院联合主编HAIP白皮书，并参与华西医院数据知识处理、算力配置、模型适配和平台建设，另记载昇腾950院内部署及联合创新实验室，存在技术提供方的独立实质事实。其价值在于以共用平台连接病历生成、医保审核和科研检索，并提供临床规则维护、原文溯源及日夜错峰算力调度的具体工程路径，不是白皮书名称或企业知名度本身。新闻于2026年11月8日发布，满足最近7天窗口；白皮书发布发生于10月30日，不因事件较早排除。所供历史涉及芯片互联、AgentOS、手机应用及其他研究，与本次医院平台合作不同；旧nova调价排除不适用。院方累计病历量和节约时间不归为华为独立成果，南方医院适配讨论不写成已完成跨院部署。保留为正面日报产业观察，不自动取得领导简报资格；华为总部已证实在深圳，不转入杭州负面预警。",
+      "event_headline_source": "b76f91eb5e1b096b7f54a3e6ff34c314370e221523be40a87283948dd94794c2",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-3a4c9ae28ffec2813559bade",
+          "source_url": "https://www.huawei.com/cn/contact-us",
+          "checked_at": "2026-10-12T03:39:57.997902+00:00",
+          "subject": "华为",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "深圳市",
+            "address": "深圳市龙岗区坂田华为基地"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据足以支持医疗AI平台工程和院内应用案例，但未建立华为在该细分领域的独立可比行业地位。可见此前明确标杆审查仅支持其对应事件的资格边界，其他历史中的标杆布尔标签不能替代本次资格依据。",
+        "evidence_ids": [
+          "article:c03a4465178aaabb",
+          "prior_decision:b47446a87c6f143f"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "原生事实审查及独立日报阅读审查",
+        "candidate_id": "dcde534fd8ad3ae893c87696dbb3f230b3187f1a361c4c3db7b89dd3b97cddf1",
+        "input_row_sha256": "02ea469608c432bdae9d6f20266cfa946e356b876f89bf7a1b55d5d9c5fe00a4",
+        "reason": "正文明确华为与两家医院联合主编HAIP白皮书，并参与华西医院数据知识处理、算力配置、模型适配和平台建设，另记载昇腾950院内部署及联合创新实验室，存在技术提供方的独立实质事实。其价值在于以共用平台连接病历生成、医保审核和科研检索，并提供临床规则维护、原文溯源及日夜错峰算力调度的具体工程路径，不是白皮书名称或企业知名度本身。新闻于2026年11月8日发布，满足最近7天窗口；白皮书发布发生于10月30日，不因事件较早排除。所供历史涉及芯片互联、AgentOS、手机应用及其他研究，与本次医院平台合作不同；旧nova调价排除不适用。院方累计病历量和节约时间不归为华为独立成果，南方医院适配讨论不写成已完成跨院部署。保留为正面日报产业观察，不自动取得领导简报资格；华为总部已证实在深圳，不转入杭州负面预警。",
+        "scope": {
+          "technology_evidence": "原文披露华为AIDP院级知识库处理和检索文献、指南及病历，借助知识图谱支持依据定位；HAIP支撑不同应用共用算力和日夜错峰，昇腾950已部署院内，华为工程师进行模型算子适配。2026年10月30日联合发布白皮书并展示医疗智能体场景，双方还设立联合创新实验室。",
+          "value_reason": "该案例把医疗AI扩展的瓶颈从单个模型效果推进到共用数据、证据溯源、专家规则维护和持续推理成本管理，为杭州医疗AI平台及应用企业提供具体建设对照。跨院复制需要本院数据接入与临床流程适配，不能把样板点落地理解为已形成多院规模销售。"
+        },
+        "stage": {
+          "status": "据报道白皮书已发布、院内平台与算力已应用，跨院推广仍处参照及适配阶段",
+          "reason": "白皮书发布日明确为2026年10月30日；正文记载院内设备部署、业务应用及联合实验室设立，但未给出所有建设事项的精确完成日。南方医院方案适配是现场讨论，厂商响应时间测算不是独立临床效果验证。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:aa9aeb3859bf5dfe",
+            "accepted_history:dcbc0d3ad40fceb9",
+            "accepted_history:9cc3abaf5465dba7",
+            "accepted_history:6da8d449cb36ea2e",
+            "accepted_history:03ba16f9842a933f",
+            "accepted_history:92be5a26b95a3976",
+            "accepted_history:da0943f5372b111c",
+            "accepted_history:2ad1d378449de219",
+            "accepted_history:839ee81d493ed1de",
+            "accepted_history:3c06457ba7fc36b1",
+            "prior_decision:2551f93e336ce235"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:7a3dd28ea3fe025e",
+              "comparison": "different_event",
+              "reason": "针对Mate90芯片和操作系统发布，与医院平台建设及白皮书合作不同。"
+            },
+            {
+              "evidence_id": "prior_decision:c94804e1ff53b6fc",
+              "comparison": "different_event",
+              "reason": "是同一Mate90产品发布的另一裁决留痕，不是本次医疗AI事件。"
+            },
+            {
+              "evidence_id": "prior_decision:2551f93e336ce235",
+              "comparison": "different_event",
+              "reason": "旧排除仅针对nova16零售和渠道调价缺少产业增量；本次有医院平台工程、算力部署及客户应用事实，不继承排除，也不推翻原调价裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:b47446a87c6f143f",
+              "comparison": "different_event",
+              "reason": "旧裁决针对无忧传媒采用Mate90进行专业直播，客户、产品及业务流程均不同。"
+            },
+            {
+              "evidence_id": "prior_decision:41cb742abe4f5ab4",
+              "comparison": "different_event",
+              "reason": "属于Mate90专业直播采用事件的裁决留痕，与本次医院AI平台无同事件关系。"
+            },
+            {
+              "evidence_id": "prior_decision:44696fec99981121",
+              "comparison": "different_event",
+              "reason": "属于同一专业直播采用事件，不是医疗AI合作的既有收录。"
+            },
+            {
+              "evidence_id": "prior_decision:8b9f0518c671f0a7",
+              "comparison": "different_event",
+              "reason": "针对Memento 3智能体游戏评测研究，本次是医院业务平台及工程应用。"
+            },
+            {
+              "evidence_id": "prior_decision:6878e58ccba127b3",
+              "comparison": "different_event",
+              "reason": "是Memento 3研究的另一裁决留痕，不构成本次医疗合作的重复。"
+            },
+            {
+              "evidence_id": "prior_decision:237de930101a2a28",
+              "comparison": "different_event",
+              "reason": "仍为Mate90专业直播采用事件留痕，与本次医院平台合作不同。"
+            }
+          ],
+          "change_reason": "逐项比较可见历史：DeltaBox是沙箱研究，Mate90是终端发布及直播采用，Peerium与昇腾950记录是通用互联架构和超节点进展，专利许可是权利交易，Pura X Max是折叠屏销量，openJiuwen是通用AgentOS发布，辅助驾驶芯片记录是装机份额，Memento 3是游戏评测研究。本次虽使用昇腾950，但新增独立医疗客户、院内平台应用及联合白皮书事实，构成另一事件；所供历史未见同事件，不宣称全库首次，不改写任何旧排除。",
+          "new_evidence_ids": [
+            "article:c03a4465178aaabb"
+          ]
+        },
+        "evidence_ids": [
+          "article:c03a4465178aaabb",
+          "identity_registry:2dcd4f408df25406",
+          "geo-3a4c9ae28ffec2813559bade",
+          "history_lookup:aa9aeb3859bf5dfe"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "当前证据足以支持医疗AI平台工程和院内应用案例，但未建立华为在该细分领域的独立可比行业地位。可见此前明确标杆审查仅支持其对应事件的资格边界，其他历史中的标杆布尔标签不能替代本次资格依据。",
+          "evidence_ids": [
+            "article:c03a4465178aaabb",
+            "prior_decision:b47446a87c6f143f"
+          ]
+        }
+      }
     }
   ],
   "negatives": [],
@@ -1888,14 +1930,12 @@
     "无线通信与6G": 1,
     "半导体存储": 2,
     "半导体设备": 1,
-    "半导体后端设备": 1,
     "半导体／晶圆代工／特色工艺": 1,
     "新能源汽车充电基础设施": 1,
     "具身智能／按摩理疗机器人": 1,
     "具身智能与人形机器人": 1,
     "智能制造／服装缝制机器人": 1,
     "纺织科技与产业AI": 1,
-    "具身智能／世界动作模型": 1,
     "人工智能／多模态大模型": 1,
     "量子计算与量子经典融合算力": 1,
     "具身智能数据基础设施": 2,
@@ -1903,14 +1943,10 @@
     "具身智能数据相关业务": 1,
     "网络游戏与数字文化": 1,
     "科技物流与具身智能基础设施": 1,
-    "智能终端": 1,
-    "云计算与AI基础设施": 1,
     "新能源汽车": 1,
-    "智能家用储能": 1,
     "光伏逆变器与储能": 1,
     "AI服务器电子元器件": 1,
     "AI视频生成芯片": 1,
-    "大模型与多模态交互": 1,
     "视频大模型": 1,
     "创新药": 3,
     "机器人": 1,
@@ -1918,34 +1954,24 @@
     "脑机接口": 1,
     "AI影视制作": 1,
     "AI投研": 1,
-    "多模态大模型": 1,
     "汽车智能座舱": 1,
-    "具身智能": 1,
-    "仿生机器人": 1,
     "无人机与智能巡检": 1,
     "边缘算力与云渲染": 1,
-    "算力调度与云计算": 1,
     "GPU与国产算力芯片": 1,
-    "量子计算与量子安全": 1,
-    "光量子计算": 1,
     "量子精密测量与时间频率": 1,
-    "端侧人工智能": 1,
     "人工智能大模型": 1,
-    "人工智能开发工具": 2,
+    "人工智能开发工具": 1,
     "人工智能视频生成": 2,
-    "人工智能网络安全": 1,
-    "人工智能应用": 1,
-    "工业具身智能机器人": 3,
+    "工业具身智能机器人": 1,
     "人工智能基础设施": 1,
-    "算力硬件（原文板块归类）": 2,
     "生物医药与细胞治疗": 1,
     "富锂锰电池": 1
   },
   "daily_details": {
     "2026-11-09": {
-      "count": 75,
+      "count": 55,
       "negatives": 0
     }
   },
-  "created": "2026-11-09 18:18:27"
+  "created": "2026-11-09 21:52:29"
 }
