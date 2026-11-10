@@ -2094,6 +2094,83 @@
       "event_headline": "宝马集团举行第六代动力电池下线仪式，宣布国产化目标",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "宝马集团于当地时间11月9日宣布，分别与三星SDI和LG新能源达成合作，为第六代高压电池新增电芯供应商。两家公司将从2020年代后期开始，分别通过其位于欧洲和美国的现有工厂向宝马供应电芯。",
+      "article_title": "玛莎拉蒂将与尊界合作？Stellantis回应；宁德时代董事长曾毓群：宁德时代变得过于庞大“并不令人担忧”丨汽车交通日报",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/Puw32WifsBFgflHzmJDoTw",
+      "sector": "新能源汽车与动力电池",
+      "location": "DE / Munich",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "DE / Munich",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fec5b67ed5e5ab111967e448"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宝马集团",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-fec5b67ed5e5ab111967e448",
+            "source_url": "https://www.news.cn/world/20250228/61367582596947688234e98451527f25/c.html",
+            "checked_at": "2026-10-20T02:37:03.122212+00:00",
+            "subject": "宝马集团",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "DE",
+              "city": "Munich"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "DE",
+          "city": "Munich",
+          "evidence_ids": [
+            "geo-fec5b67ed5e5ab111967e448"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "宝马集团",
+      "company_entity_id": "dr-u-99b848a436487f830e5c",
+      "company_raw_name": "宝马集团",
+      "identity_status": "unresolved",
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "复用旧审未建立标杆资格的结论；本次补充供应合作，但仍未提供电池平台相对优势或主体行业地位的独立比较依据。",
+        "evidence_ids": [
+          "prior_decision:453cb2e76da85d94",
+          "prior_decision:35b785b1616fc944",
+          "article:b456bbcaec927e03"
+        ]
+      },
+      "published_date": "2026-11-10",
+      "insight": "宝马为新一代高压电池引入两家电芯供应商，将电池平台规划连接到欧洲和美国的现有制造基地。值得观察的是供应合作如何转入具体车型配套，而不是仅凭供应商增加就判断电池性能改善。",
+      "financing": "",
+      "event_date": "2026-11-09",
+      "event_headline": "宝马集团与三星SDI及LG新能源达成第六代电池电芯供应合作",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "戴尔科技集团": [
@@ -2395,16 +2472,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/rVgPQhTzmEgpyKG4pFKCwg",
       "sector": "创新药",
-      "location": "地点待核",
+      "location": "上海市 / 浦东新区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 浦东新区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a034d8d02dd14353061d2f43"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "申生元医药",
         "subject_locality": {
           "status": "unknown",
@@ -2412,7 +2491,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-a034d8d02dd14353061d2f43",
+            "source_url": "https://www.sohu.com/a/1096548824_120504526",
+            "checked_at": "2026-11-10T18:25:02.429522+00:00",
+            "subject": "申生元医药",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-a034d8d02dd14353061d2f43"
+          ]
+        }
       },
       "article_location": "",
       "source": "烯牛数据",
