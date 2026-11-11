@@ -2089,16 +2089,19 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/WSNbUlslt0MNBTv_QikVvQ",
       "sector": "船舶制造",
-      "location": "地点线索：辽宁省大连市长兴岛（造船基地所在地，非注册地或总部认定）",
+      "location": "辽宁省 / 大连市 / 大连长兴岛造船基地",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "辽宁省 / 大连市 / 大连长兴岛造船基地",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-7c2e1738d0b83aa86ed8523a",
+          "geo-f69783cd3f8e592350a3188d"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "恒力重工",
         "subject_locality": {
           "status": "unknown",
@@ -2106,7 +2109,47 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-7c2e1738d0b83aa86ed8523a",
+            "source_url": "https://mp.weixin.qq.com/s/WSNbUlslt0MNBTv_QikVvQ",
+            "checked_at": "2026-11-11T18:04:55.214228+00:00",
+            "subject": "恒力重工",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "辽宁省",
+              "city": "大连市",
+              "address": "大连长兴岛造船基地"
+            }
+          },
+          {
+            "evidence_id": "geo-f69783cd3f8e592350a3188d",
+            "source_url": "https://mp.weixin.qq.com/s/WSNbUlslt0MNBTv_QikVvQ",
+            "checked_at": "2026-11-11T18:04:55.214228+00:00",
+            "subject": "恒力重工",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "辽宁省",
+              "city": "大连市",
+              "address": "大连长兴岛造船基地"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "辽宁省",
+          "city": "大连市",
+          "evidence_ids": [
+            "geo-7c2e1738d0b83aa86ed8523a",
+            "geo-f69783cd3f8e592350a3188d"
+          ]
+        }
       },
       "article_location": "辽宁省大连市长兴岛（造船基地所在地，非注册地或总部认定）",
       "source": "铅笔道",
