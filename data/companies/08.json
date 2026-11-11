@@ -1846,5 +1846,65 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "吾云创新": [
+    {
+      "date": "2026-11-12",
+      "title": "吾云创新的Zettlab Memo采用独立设备形态，将文件和企业数据保留在本地，通过飞书等入口接收任务，使Agent在后台持续运行，处理更新表格、搬运数据、整理文件、库存、简历和合同等流程。企业可以设置数据访问范围、保留操作记录，并在关键步骤由人确认。当前设计将大语言模型主要放在云端，本地小模型承担文件处理、搜索和部分数据能力；原文将这一调整与存储涨价、降低设备内存压力联系起来。报道还描述了公司采购内存时需要迅速付款锁货的经历。",
+      "article_title": "Personal Agent火了，硬件公司又想卖你一台电脑",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/EIxQIDiEW8Iz5deFdUl1bg",
+      "sector": "企业AI智能体与端云协同硬件",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "吾云创新",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "吾云创新",
+      "company_entity_id": "dr-u-73a4cadf3187ddb92827",
+      "company_raw_name": "吾云创新",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Zettlab Memo",
+          "relation": "product",
+          "evidence": "吾云创新的Zettlab Memo更接近给Agent准备一台独立设备。"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本文支持具体产品路线与成本约束观察，但没有独立行业地位、可比任务表现或市场采用证据，尚不能建立全国标杆资格。",
+        "evidence_ids": [
+          "article:b5e45c304e2428a2"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "Memo增加的不是一台承担全部推理的电脑，而是一个能持续接触企业本地文件、承接任务并留下操作记录的工作环境。存储成本促使其把复杂推理转向云端，因此产品价值更取决于本地数据接入、权限控制和任务衔接，而非设备能装下多大的模型。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "吾云创新Memo以本地设备承接任务，复杂推理转向云端",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
