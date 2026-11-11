@@ -2208,24 +2208,60 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/BOJvuUBJU5IUp7BgE5UGUg",
       "sector": "半导体／低功耗测量芯片",
-      "location": "地点待核",
+      "location": "JP / 长野县 / 诹访市 / 3-3-5 Owa, Suwa, Nagano",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "JP / 长野县 / 诹访市 / 3-3-5 Owa, Suwa, Nagano",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e02b36adb937ca0130919d1c"
+        ],
+        "subject_evidence_ids": [
+          "geo-e02b36adb937ca0130919d1c"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "精工爱普生",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "JP",
+          "province": "长野县",
+          "city": "诹访市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-e02b36adb937ca0130919d1c"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e02b36adb937ca0130919d1c",
+            "source_url": "https://corporate.epson/en/about/info.html",
+            "checked_at": "2026-11-11T18:21:03.186718+00:00",
+            "subject": "精工爱普生",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "JP",
+              "province": "长野县",
+              "city": "诹访市",
+              "address": "3-3-5 Owa, Suwa, Nagano"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "JP",
+          "province": "长野县",
+          "city": "诹访市",
+          "evidence_ids": [
+            "geo-e02b36adb937ca0130919d1c"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
