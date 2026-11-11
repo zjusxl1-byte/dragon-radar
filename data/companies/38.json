@@ -983,6 +983,82 @@
       "event_headline": "亚马逊与Talen Energy签署长期协议锁定最高1920兆瓦核电",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "原文称亚马逊2026年更新Agent政策，要求Agent主动标识身份，不得模仿人类操作节奏，也不能绕过验证码或访问限制；未提供具体政策名称、原文链接或精确生效日期。",
+      "article_title": "Personal Agent火了，硬件公司又想卖你一台电脑",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/EIxQIDiEW8Iz5deFdUl1bg",
+      "sector": "电商平台与AI智能体访问治理",
+      "location": "US / Washington / 410 Terry Avenue North, Seattle, WA 98109",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Washington / 410 Terry Avenue North, Seattle, WA 98109",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-39890f67458e2076302bb0f8"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "亚马逊",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-39890f67458e2076302bb0f8",
+            "source_url": "https://data.sec.gov/submissions/CIK0001018724.json",
+            "checked_at": "2026-10-12T03:46:27.981321+00:00",
+            "subject": "亚马逊",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Washington",
+              "city": "Seattle",
+              "address": "410 Terry Avenue North, Seattle, WA 98109"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-39890f67458e2076302bb0f8"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "亚马逊",
+      "company_entity_id": "dr-u-6d37feda49a46792456d",
+      "company_raw_name": "亚马逊",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条提供平台访问治理的具体产业观察价值，但没有建立亚马逊在相关技术或产品上的行业比较优势，不以平台规模、企业知名度或境外经营地自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:b5e45c304e2428a2"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "这项规则揭示了屏幕和键鼠控制路线的一条边界：技术上能够操作网页，不等于获得平台允许的自动化访问权限。它影响的是智能体可执行任务的范围，不能据此推定某家硬件公司已经受到业务损失。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "亚马逊据报道更新Agent访问规则，要求标识身份并禁止绕过访问控制",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "无问芯穹": [
