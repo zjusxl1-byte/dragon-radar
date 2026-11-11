@@ -1510,5 +1510,58 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "新华三": [
+    {
+      "date": "2026-11-12",
+      "title": "报道回顾，新华三UniPoD S80000超节点于2025年7月在世界人工智能大会首次亮相，2026年5月正式发布全系列，覆盖32卡至1024卡配置，最高可扩展至16384卡。原文称训练性能提升70%、推理性能提升3倍，未注明这些提升指标的比较基准及测试条件。",
+      "article_title": "“硬核天团”上新记",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/XU53Ih34C8fXpgvAmQdSNg",
+      "sector": "人工智能算力基础设施",
+      "location": "地点线索：杭州市高新区（滨江）（报道明确的本地企业语境，未区分注册地、总部地与经营地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "新华三",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "杭州市高新区（滨江）（报道明确的本地企业语境，未区分注册地、总部地与经营地）",
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "新华三",
+      "company_entity_id": "dr-u-af2b976b3a159370bbca",
+      "company_raw_name": "新华三",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "产品配置范围及扩展上限支持系统产品事件；训练提升70%、推理提升3倍未交代比较对象和测试条件，不能据此建立可复核的同行领先程度。本文未提供充分的独立对标或采用优势证据，不新增全国标杆资格。",
+        "evidence_ids": [
+          "article:c302a5c117ec9406"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "新华三此次扩展的是大模型计算系统的配置范围，而非单颗芯片能力：从32卡到1024卡的系列配置，使同一产品线能够对应不同规模的训练与推理任务。其实际扩展效率仍取决于互联、软件调度及具体模型负载，不能仅由最大卡数判断。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "新华三回顾2026年超节点全系列发布，覆盖多档算力配置",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
