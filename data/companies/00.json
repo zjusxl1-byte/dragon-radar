@@ -885,6 +885,59 @@
       "event_headline": "大晓机器人联合发布全屋三维生成框架，开源4B参数世界模型",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "据报道，大晓机器人在酒店洗衣任务中结合支持物理参数建模的Mundo世界模型、承担任务推理与技能生成的Astra，以及机器人端执行模型，由BotAgent调度53个原子动作、14个语义步骤，可编排超过200种动作序列。团队还展示了利用执行录像、传感器数据分析失败、修改技能、自主复位及评估回滚的具身RSI机制。在“烘干机取衣”技能实验中，机器人于57小时内完成165轮真机实验，产生37条改进方案及约80个迭代版本；报道给出的单轮用时为170至210秒，牛仔裤筒内残留率由平均48%降至32%，最优一次为19%。文章另称，纯Astra实时决策测试耗时超过30分钟，本地具身基模对应测试为18.648秒，但未交代足以确认两者任务边界及计时口径一致的细节。",
+      "article_title": "机器人接管酒店洗衣！双脑协同+RSI，顶级Astra驾驶员来了",
+      "event_type": "技术展示与真机试验",
+      "link": "https://mp.weixin.qq.com/s/fD4uYivyvjH3BJKCKUj_KQ",
+      "sector": "具身智能／服务机器人",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "大晓机器人",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "大晓机器人",
+      "company_entity_id": "dr-u-ec11858dc192aed8b75e",
+      "company_raw_name": "大晓机器人",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据支持具体工程试验与研究价值，尚无可复核的行业领先比较、稳定部署或独立验收依据；同名历史中的宣传性领先描述和is_national_star字段不能自动建立本次标杆资格。",
+        "evidence_ids": [
+          "article:3f49ea2d5bd22c8d",
+          "accepted_history:7b6d087a4832bfe0",
+          "accepted_history:fef19d11135d3502"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "这次进展值得关注的不是机器人能否完成某个洗衣动作，而是大晓尝试把环境模拟、云端技能生成和本体执行接成可持续改进的任务系统；取衣实验中的自主复位，让重复真机试验不必每轮都由人工恢复现场。残留率下降显示特定操作已有改进，但平均仍有32%的筒内残留，说明柔性衣物的完整取出仍是关键瓶颈，下一步宜围绕不同衣物条件下的残留定义、完整取出率和人工介入次数研究其适用边界。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "大晓机器人展示酒店洗衣任务协同与取衣技能自主迭代",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "鹏瞰半导体": [
