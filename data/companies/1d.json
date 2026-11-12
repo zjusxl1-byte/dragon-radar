@@ -1319,16 +1319,18 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/rVgPQhTzmEgpyKG4pFKCwg",
       "sector": "商业航天",
-      "location": "地点待核",
+      "location": "安徽省 / 蚌埠市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "安徽省 / 蚌埠市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-616b4c79951d2c2965bc8e47"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "九州云箭",
         "subject_locality": {
           "status": "unknown",
@@ -1336,7 +1338,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-616b4c79951d2c2965bc8e47",
+            "source_url": "https://www.jzyjspace.com",
+            "checked_at": "2026-11-12T18:15:18.292553+00:00",
+            "subject": "九州云箭",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "安徽省",
+              "city": "蚌埠市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "安徽省",
+          "city": "蚌埠市",
+          "evidence_ids": [
+            "geo-616b4c79951d2c2965bc8e47"
+          ]
+        }
       },
       "article_location": "",
       "source": "烯牛数据",
