@@ -1631,24 +1631,60 @@
       "event_type": "IPO",
       "link": "https://mp.weixin.qq.com/s/rVgPQhTzmEgpyKG4pFKCwg",
       "sector": "商业航天",
-      "location": "地点待核",
+      "location": "成都市 / 四川省成都高新区锦和路1699号4栋1层",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "成都市 / 四川省成都高新区锦和路1699号4栋1层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-b0f5ddda10475e5cd68385e8"
+        ],
+        "subject_evidence_ids": [
+          "geo-b0f5ddda10475e5cd68385e8"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "国星宇航",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "四川省",
+          "city": "成都市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-b0f5ddda10475e5cd68385e8"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-b0f5ddda10475e5cd68385e8",
+            "source_url": "https://www.adaspace.com",
+            "checked_at": "2026-11-13T18:24:45.973097+00:00",
+            "subject": "国星宇航",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "四川省",
+              "city": "成都市",
+              "address": "四川省成都高新区锦和路1699号4栋1层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "四川省",
+          "city": "成都市",
+          "evidence_ids": [
+            "geo-b0f5ddda10475e5cd68385e8"
+          ]
+        }
       },
       "article_location": "",
       "source": "烯牛数据",
