@@ -721,16 +721,19 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/aLg9URjjvM1JM919353vgw",
       "sector": "人工智能、具身智能",
-      "location": "地点待核",
+      "location": "北京市海淀区宝盛南路1号院20号楼3层308",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市海淀区宝盛南路1号院20号楼3层308",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fa2090323b04a5f6fc86882e",
+          "geo-d64fd71cd8203d7ef6bfb30d"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "Vbot 维他动力",
         "subject_locality": {
           "status": "unknown",
@@ -738,7 +741,47 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-fa2090323b04a5f6fc86882e",
+            "source_url": "https://www.vbot.cn",
+            "checked_at": "2026-11-13T18:21:39.066752+00:00",
+            "subject": "Vbot 维他动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市"
+            }
+          },
+          {
+            "evidence_id": "geo-d64fd71cd8203d7ef6bfb30d",
+            "source_url": "https://www.vbot.cn/echo/",
+            "checked_at": "2026-11-13T18:21:42.040990+00:00",
+            "subject": "Vbot 维他动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "北京市海淀区宝盛南路1号院20号楼3层308"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-fa2090323b04a5f6fc86882e",
+            "geo-d64fd71cd8203d7ef6bfb30d"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
@@ -755,6 +798,101 @@
       "event_headline": "维他动力完成近5亿元A轮融资，拟投入研发与产线建设",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-14",
+      "title": "原文称，11月13日，Vbot 维他动力发布跨视角视频生成模型Exo2EgoPolicy、端到端通用数据管线Vbot Echo及配套采集应用Echo App。Exo2EgoPolicy可将第三视角操作视频生成对应操作者的第一视角画面，无需额外输入深度数据或相机标定信息，并支持在多人场景中指定目标人物。Echo App支持手机拍摄和上传操作视频；Vbot Echo进一步进行场景重建、语义理解、姿态估计、时序对齐及面向目标机器人的动作适配，通过仿真生成接触力、关节力矩等辅助标注，并进行物理一致性和质量校验。系统区分仿真辅助标注与真实测量数据。文章称Vbot Echo已全面开放。",
+      "article_title": "Vbot 维他动力发布跨视角数据生成模型 Exo2EgoPolicy 与端到端通用数据管线，具身智能数据从此规模化生产 | 元璟Family",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/-S3CUAv6-TXZ5MW7GJ0DSg",
+      "sector": "具身智能／机器人训练数据基础设施",
+      "location": "北京市海淀区宝盛南路1号院20号楼3层308",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市海淀区宝盛南路1号院20号楼3层308",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fa2090323b04a5f6fc86882e",
+          "geo-d64fd71cd8203d7ef6bfb30d"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Vbot 维他动力",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-fa2090323b04a5f6fc86882e",
+            "source_url": "https://www.vbot.cn",
+            "checked_at": "2026-11-13T18:21:39.066752+00:00",
+            "subject": "Vbot 维他动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市"
+            }
+          },
+          {
+            "evidence_id": "geo-d64fd71cd8203d7ef6bfb30d",
+            "source_url": "https://www.vbot.cn/echo/",
+            "checked_at": "2026-11-13T18:21:42.040990+00:00",
+            "subject": "Vbot 维他动力",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "北京市海淀区宝盛南路1号院20号楼3层308"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-fa2090323b04a5f6fc86882e",
+            "geo-d64fd71cd8203d7ef6bfb30d"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "元璟资本",
+      "kind": "event",
+      "canonical_name": "Vbot 维他动力",
+      "company_entity_id": "dr-u-0433aa91499c57adb448",
+      "company_raw_name": "Vbot 维他动力",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本包足以支持具体产品发布和研发经营事实，但没有已审全国标杆资格依据，也未建立行业领先地位或可验证的训练效果优势；历史is_national_star标记不能替代独立资格审核。",
+        "evidence_ids": [
+          "article:638f43db83347df7",
+          "accepted_history:809d15b77e390475"
+        ]
+      },
+      "published_date": "2026-11-13",
+      "insight": "机器人不能直接照搬人类视频中的动作。维他动力用视角转换扩展可用素材，再按目标机器人的身体结构和关节约束适配轨迹，并以仿真补充交互标注，将视觉素材加工与动作数据衔接起来。其训练价值取决于生成数据能否改善真实任务学习，可用同一机器人、同一任务加入这些数据前后的训练结果检验。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "维他动力发布跨视角模型与机器人训练数据管线",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "视启未来": [
