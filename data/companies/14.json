@@ -2175,24 +2175,78 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/ltXAUXWMnEWXar5-XlpKZg",
       "sector": "汽车研发与新能源汽车",
-      "location": "地点待核",
+      "location": "广东省 / 广州市花都区风神大道8号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 广州市花都区风神大道8号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-433d39a9061177023c229a3c",
+          "geo-a8a0181c28428f870c31bc0c"
+        ],
+        "subject_evidence_ids": [
+          "geo-433d39a9061177023c229a3c"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "东风日产",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "广州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-433d39a9061177023c229a3c"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-433d39a9061177023c229a3c",
+            "source_url": "https://www.dongfeng-nissan.com.cn/about/visit",
+            "checked_at": "2026-11-13T18:25:17.910585+00:00",
+            "subject": "东风日产",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "广州市",
+              "district": "花都区"
+            }
+          },
+          {
+            "evidence_id": "geo-a8a0181c28428f870c31bc0c",
+            "source_url": "https://www.dongfeng-nissan.com.cn/about/contact-us",
+            "checked_at": "2026-11-13T18:25:18.782022+00:00",
+            "subject": "东风日产",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "广州市",
+              "district": "花都区",
+              "address": "广州市花都区风神大道8号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "广州市",
+          "district": "花都区",
+          "evidence_ids": [
+            "geo-433d39a9061177023c229a3c",
+            "geo-a8a0181c28428f870c31bc0c"
+          ]
+        }
       },
       "article_location": "",
       "source": "投资界",
@@ -2269,59 +2323,6 @@
       "financing": "",
       "event_date": "2026-11-07",
       "event_headline": "讯联科技首次推出核心星载计算机，产品进入在轨运行",
-      "event_signal": "material",
-      "discovery_status": "first_seen"
-    }
-  ],
-  "宁波超平面机器人科技公司": [
-    {
-      "date": "2026-11-13",
-      "title": "均胜电子旗下宁波超平面机器人科技公司向宇树科技交付首台机器人高算力大脑背包，双方合作进入产品交付阶段。该背包搭载高算力端侧平台与能源系统，支持独立外挂部署；原文称其可适配宇树人形、四足、轮式机器人，为感知、数据采集、决策、运动控制及端侧模型推理提供算力支撑。双方还在共研灵巧手、高性能固态电池能源管理系统，以及汽车零部件生产和智能制造场景应用方案；标准化量产、产线试点和规模化复制属于推进方向。",
-      "article_title": "均胜电子向宇树科技交付首台机器人高算力大脑背包",
-      "event_type": "产品交付",
-      "link": "https://mp.weixin.qq.com/s/nkfTBSXz8y8ZGv-aLGnYSw",
-      "sector": "具身智能／机器人核心部件",
-      "location": "地点待核",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "宁波超平面机器人科技公司",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "article_location": "",
-      "source": "浙商杂志",
-      "kind": "event",
-      "canonical_name": "宁波超平面机器人科技公司",
-      "company_entity_id": "dr-u-f4dcd80938dc154129f8",
-      "company_raw_name": "宁波超平面机器人科技公司",
-      "identity_status": "unresolved",
-      "score": 50,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "首台交付支持具体产品供给进展，但未提供本主体行业地位、性能比较或独立已审标杆依据，不能从均胜母公司身份或本次交付自动取得全国标杆资格。",
-        "evidence_ids": [
-          "article:9f7b54db692cc2d2"
-        ]
-      },
-      "published_date": "2026-11-12",
-      "insight": "首台交付使这家均胜电子旗下公司从联合研发推进到向机器人整机企业提供硬件载体。将计算与供电集成为可外挂模块，为不同形态机器人补充端侧能力提供了一条产品路径；其跨机型通用性仍取决于后续实际适配表现。",
-      "financing": "",
-      "event_date": "2026-11-10",
-      "event_headline": "超平面机器人向宇树交付首台高算力大脑背包",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
