@@ -1,0 +1,332 @@
+{
+  "summary": {
+    "report_id": "2026-W46",
+    "report_type": "weekly",
+    "start_date": "2026-11-09",
+    "end_date": "2026-11-15",
+    "total_companies": 136,
+    "financing_events": 35,
+    "milestone_events": 38,
+    "ai_insight": {
+      "hz_insight": "<b>本期简报精选寻龙雷达发掘杭州企业 1 家，涵盖 具身智能与人形机器人 1 家 领域。</b>机器人完成搬取等组合任务，难点是协调手脚而非单个动作。宇树用人类示范采集数据、统一模型连接操作与移动；若能适应新物体和新环境，有望减少逐项开发负担。",
+      "nat_insight": "<b>本期简报精选寻龙雷达发掘外市企业 0 家。</b> "
+    },
+    "statistics_semantics": "dragon-briefing-company-statistics.v2",
+    "analysis_text": "<b>【整体态势】</b> 本周（11月9日-11月15日），寻龙雷达共跟踪科技企业 136 家，其中涉及融资或上市信息 35 家、重点科技进展信息 38 家。<br><br><b>【杭州观察】</b> 在本周采集的企业信息中，本期精选 <b>1</b> 家杭州科技企业。<br><br><b>【全国标杆】</b> 在本周采集的企业信息中，本期精选 <b>0</b> 家国内其他城市科技企业。"
+  },
+  "hangzhou_top": [
+    {
+      "company_raw_name": "宇树科技股份有限公司",
+      "identity_mentions": [
+        {
+          "name": "杭州宇树科技股份有限公司",
+          "relation": "same_entity",
+          "evidence": "当时他的头衔仍是「杭州宇树科技股份有限公司具身智能研发主管」。"
+        },
+        {
+          "name": "UnifoLM-WLA-1.0",
+          "relation": "product",
+          "evidence": "宇树科技发布全开源通用人形机器人基础模型UnifoLM-WLA-1.0。"
+        }
+      ],
+      "title": "美国东北大学博士、摩根大通背景，宇树迎来了他的关键人物？",
+      "company": "宇树科技股份有限公司",
+      "score": 110,
+      "sector": "具身智能与人形机器人",
+      "financing": "",
+      "source": "湖畔自留田",
+      "location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+      "article_location": "浙江省杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市滨江区东流路88号峰达创意园1号楼3楼",
+        "subject_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宇树科技股份有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-13a3a18a9bf559ad8bfbeaac"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+            "source_url": "https://www.unitree.com/cn/contact",
+            "checked_at": "2026-10-12T18:25:09.025885+00:00",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+            },
+            "body_sha256": "194e50f29a7390166e1a3cb221a4b48e744fe020f4fdd0d8d60deab5dee24248",
+            "text_sha256": "27f82295e141eb83b63a77ed0f7066cfe30cd4a843719a0264a6448db58dec90"
+          }
+        ],
+        "briefing_geography_semantics": "dragon-positive-briefing-geography.v2",
+        "briefing_locality_basis": "subject_locality",
+        "briefing_evidence_ids": [
+          "geo-13a3a18a9bf559ad8bfbeaac"
+        ]
+      },
+      "company_entity_id": "dr-u-35826112ed957325dfd4",
+      "company_canonical_name": "宇树科技股份有限公司",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/uSoy_cPGdcOHtPRVDFdsEQ",
+      "article_title": "美国东北大学博士、摩根大通背景，宇树迎来了他的关键人物？",
+      "event_desc": "2026年11月4日，宇树科技首席科学家肖宇晨在数字经济产业合作大会上介绍具身智能进展。相关报道回顾，公司于2026年9月升级并开源通用人形机器人基础模型UnifoLM-WLA-1.0，据报道，一个模型在真机评测中可驱动机器人完成54项桌面操作和10项全身移动操作。公司团队还于2025年11月发布Embodied Avatar全身遥操作平台，用于通过人类示范采集机器人操作数据。肖宇晨提出的未来1至2年在80%陌生场景下通过指令作业，是预测而非已实现结果。",
+      "insight": "宇树的研发正从运动控制向指令驱动的操作与移动任务扩展：同一模型覆盖桌面操作和全身移动操作，体现了将不同任务纳入统一模型的技术路径，人类遥操作平台则提供示范数据采集手段。当前披露的真机评测范围与其提出的陌生场景自主作业目标仍有距离，下一步值得辨别的是模型面对新环境、新物体和新指令时的实际任务表现。",
+      "event_headline": "宇树科技介绍具身智能进展，回顾统一模型与数据平台",
+      "event_signal": "context",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "recent_event",
+        "description": "事件日期在最近7个自然日内: 2026-11-04",
+        "event_date": "2026-11-04",
+        "observed_date": "2026-11-08",
+        "review_required": true
+      },
+      "published_date": "2026-11-08",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "全文明确宇树是UnifoLM系列模型及Embodied Avatar遥操作平台的研发提供方，肖宇晨是公司技术进展的发言人，不另立人员或产品主体。原始发布时间2026-11-07T16:00:00Z对应北京时间11月8日，满足七日新闻窗口，上游所谓缺少发布时间和历史裁决的理由不成立。本条具体补充UnifoLM-WLA-1.0名称、9月升级开源及真机任务覆盖，并披露遥操作数据平台，超出既往笼统模型路线与发布月份表述，可按日报技术线索保留。11月4日是大会发言日，不是模型发布日期；54项桌面操作、10项全身移动操作是报道所述评测范围，不等于陌生场景成功率。历史模型候选的版本对应关系仍须沿原事件核对，不宣称首次发现，也不以本条批准旧财报、外部模型实测或其他待核事件。",
+      "event_headline_source": "f66b5259ae3800ea3530842725d548a51553a9d80d5edd29634d1318d05a2e9c",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-13a3a18a9bf559ad8bfbeaac",
+          "source_url": "https://www.unitree.com/cn/contact",
+          "checked_at": "2026-10-12T18:25:09.025885+00:00",
+          "subject": "宇树科技股份有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "杭州市滨江区东流路88号峰达创意园1号楼3楼"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "复用既有明确已审独立依据：宇树机器人本体与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体产品和研发基础设施能力可供杭州机器人企业比较；资格不来自本次人物报道、评分或上市身份，也不意味着本事件自动进入领导简报。",
+        "evidence_ids": [
+          "accepted_history:6bb19dad5ec85a0e",
+          "accepted_history:66d57afc72eb96ed",
+          "accepted_history:6a639e0f763467e4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "原生事实审查及独立日报阅读审查",
+        "candidate_id": "fda42a85a9e06080015aaeb3b75634a1d748b2294dfc99a2a39afbe60478551d",
+        "input_row_sha256": "3a4e6f2320a4acdd3b9123a81bbbf7ef2f0979494f701e2cf5a9905a59cd5537",
+        "reason": "全文明确宇树是UnifoLM系列模型及Embodied Avatar遥操作平台的研发提供方，肖宇晨是公司技术进展的发言人，不另立人员或产品主体。原始发布时间2026-11-07T16:00:00Z对应北京时间11月8日，满足七日新闻窗口，上游所谓缺少发布时间和历史裁决的理由不成立。本条具体补充UnifoLM-WLA-1.0名称、9月升级开源及真机任务覆盖，并披露遥操作数据平台，超出既往笼统模型路线与发布月份表述，可按日报技术线索保留。11月4日是大会发言日，不是模型发布日期；54项桌面操作、10项全身移动操作是报道所述评测范围，不等于陌生场景成功率。历史模型候选的版本对应关系仍须沿原事件核对，不宣称首次发现，也不以本条批准旧财报、外部模型实测或其他待核事件。",
+        "scope": {
+          "technology_evidence": "正文记载宇树于2026年9月升级并开源UnifoLM-WLA-1.0，称一个模型在真机评测中可驱动机器人完成54项桌面操作和10项全身移动操作；2025年11月推出Embodied Avatar全身遥操作平台，用于通过人类示范采集机器人操作数据。",
+          "value_reason": "同一模型覆盖桌面操作与全身移动操作，提供了观察机器人任务模型如何连接操作和移动能力的具体对象；遥操作平台则对应示范数据获取环节。相较只看运动性能或泛化预测，这些披露能把杭州机器人企业的培育研究落实到任务覆盖、数据获取及新环境迁移能力的比较，不能外推为稳定客户交付或已实现通用自主作业。"
+        },
+        "stage": {
+          "status": "近期报道回顾已发布开源模型及数据平台，并转述公司评测与未来预测",
+          "reason": "报道明确模型升级开源发生于2026年9月，精确日期未知；遥操作平台发布于2025年11月，精确日期未知。大会发言发生于2026年11月4日。新闻北京时间2026年11月8日发布，实际首次收录时间未知。未来1至2年、80%陌生场景作业属于预测，不是已完成成果；评测数量未附测试条件、成功率和独立复现实验。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:aa9aeb3859bf5dfe",
+            "accepted_history:6c5dd95992e6a569",
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:66d57afc72eb96ed",
+            "prior_decision:a7148ff36991542e",
+            "prior_decision:65b6371656e8305f",
+            "prior_decision:6b8d7a72b4139272",
+            "prior_decision:358cde0531df7c02"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:e7972ca26fc649dd",
+              "comparison": "different_event",
+              "reason": "北京、上海门店及Go2家庭购买教学，与自研任务模型及数据平台不同。"
+            },
+            {
+              "evidence_id": "prior_decision:50a1ddce1e52eee4",
+              "comparison": "different_event",
+              "reason": "天津展示中心投用，不是模型升级开源或模型评测。"
+            },
+            {
+              "evidence_id": "prior_decision:60d0af6076425c2b",
+              "comparison": "different_event",
+              "reason": "10月22日G1集群演示未证明使用本条模型，不能凭企业和技术领域相同合并。"
+            },
+            {
+              "evidence_id": "prior_decision:a28bb8fc265254f6",
+              "comparison": "different_event",
+              "reason": "旧候选涉及外部GPT-6 Astra绘画实测，本条涉及宇树自研UnifoLM系列；不解决旧实测的接口和训练边界缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:710f3a761425dd6c",
+              "comparison": "different_event",
+              "reason": "杉宇·创计划属于生态支持合作，不是自研模型进展。"
+            },
+            {
+              "evidence_id": "prior_decision:584dcae82d9d7587",
+              "comparison": "different_event",
+              "reason": "旧排除针对上市行情背景及数据商压力误归主体；本条具有独立模型事实，不受该排除约束。"
+            },
+            {
+              "evidence_id": "prior_decision:dc6a2b9dbc1f2af6",
+              "comparison": "different_event",
+              "reason": "旧候选核心为三季报经营指标；本条不增加财报原件，不改判经营预警。"
+            },
+            {
+              "evidence_id": "prior_decision:6b8d7a72b4139272",
+              "comparison": "uncertain",
+              "reason": "旧财报报道含自研模型背景，现有摘录不足以确定具体版本重合；本条补充模型名称和任务范围，但不据此批准旧财报候选。"
+            },
+            {
+              "evidence_id": "prior_decision:a7148ff36991542e",
+              "comparison": "new_progress",
+              "reason": "此前模型线索因近期版本和能力不明待核；本条提供UnifoLM-WLA-1.0、9月开源、具体任务覆盖及遥操作平台信息，可补充原技术线索，但不能认定陈立所述近期版本必然就是该版本。"
+            },
+            {
+              "evidence_id": "prior_decision:1e52d625556c3dc8",
+              "comparison": "different_event",
+              "reason": "此前保留的是研发客户采购、关节可靠性和开发软件平台，不是本条自研基础模型及其评测范围。"
+            },
+            {
+              "evidence_id": "prior_decision:30d7fae7b1c99715",
+              "comparison": "different_event",
+              "reason": "同一客户研发基础设施事件的另一采信留痕，不直接批准本条模型事实。"
+            },
+            {
+              "evidence_id": "prior_decision:946bbcee8f87f0f4",
+              "comparison": "different_event",
+              "reason": "DeepSeek战略配售及合作约定未被证明与本模型相关，本条不能当作该合作履行成果。"
+            },
+            {
+              "evidence_id": "prior_decision:bf02da706389889a",
+              "comparison": "different_event",
+              "reason": "北京、上海门店与家庭购买案例的重复留痕，不是本条模型事件。"
+            },
+            {
+              "evidence_id": "prior_decision:f58106869f28b2b2",
+              "comparison": "different_event",
+              "reason": "仍为门店消费案例，不构成对企业其他技术事件的排除。"
+            },
+            {
+              "evidence_id": "prior_decision:d2e41dd5d05140c6",
+              "comparison": "different_event",
+              "reason": "天津展示中心旧事项的再次留痕，与模型和数据采集平台不同。"
+            },
+            {
+              "evidence_id": "prior_decision:6216296ed33fe5fc",
+              "comparison": "different_event",
+              "reason": "外部通用模型绘画测试的重复裁决，不是UnifoLM自研模型事件。"
+            },
+            {
+              "evidence_id": "prior_decision:34ee5164252013f7",
+              "comparison": "different_event",
+              "reason": "杉宇合作计划的重复留痕，不涉及本模型的开源或评测。"
+            },
+            {
+              "evidence_id": "prior_decision:fe7908a1a2810c2a",
+              "comparison": "different_event",
+              "reason": "上市行情及行业压力误归事项的另一排除留痕，本条不重启该事件。"
+            },
+            {
+              "evidence_id": "prior_decision:9acc515fa8db258b",
+              "comparison": "different_event",
+              "reason": "三季报经营承压候选的重复留痕，不是本条技术回顾。"
+            },
+            {
+              "evidence_id": "prior_decision:358cde0531df7c02",
+              "comparison": "uncertain",
+              "reason": "与另一财报裁决同含自研模型背景，具体版本关系尚不明确；仅保留本条已明确的版本和任务事实，不改判旧财报。"
+            },
+            {
+              "evidence_id": "prior_decision:5f4e8b75c15fb134",
+              "comparison": "different_event",
+              "reason": "A2、B2泰山竞速及负重比赛是四足平台使用事件，不构成本模型验证。"
+            },
+            {
+              "evidence_id": "prior_decision:67b9b5c008d2b42f",
+              "comparison": "different_event",
+              "reason": "杉宇计划周报重述没有涉及本模型，本条不改变其无执行增量的判断。"
+            },
+            {
+              "evidence_id": "prior_decision:65b6371656e8305f",
+              "comparison": "new_progress",
+              "reason": "与另一模型线索裁决为同一旧候选留痕；本条补充明确版本、发布月份、任务覆盖和数据平台，但不推定其与旧报道所有发布月份一一对应。"
+            },
+            {
+              "evidence_id": "prior_decision:cb7044947db13b9a",
+              "comparison": "different_event",
+              "reason": "G1大会集群演示的另一待核留痕，没有证据证明演示采用本模型，不合并事件。"
+            }
+          ],
+          "change_reason": "3月已收录WMA/VLA路线及模型开源，6月英伟达参考平台、10月客户研发平台和11月泰山比赛分别为其他事实，不能因均涉及机器人而判重复。11月6日旧模型候选仅披露发布月份和研究方向，缺具体版本及能力；当前全文新增明确模型名称、9月升级开源、54项桌面操作和10项全身移动操作的报道评测范围，以及Embodied Avatar数据采集机制，足以保留较窄的技术补充线索。当前历史检索错误数组为空，不沿用旧裁决记载的历史读取故障；旧报道与本版本的精确映射仍未知，不宣称首次发现，不把新报道日当作新模型发布日。",
+          "new_evidence_ids": [
+            "article:9ce473f263ce02e8"
+          ]
+        },
+        "evidence_ids": [
+          "article:9ce473f263ce02e8",
+          "identity_registry:2dcd4f408df25406",
+          "geo-13a3a18a9bf559ad8bfbeaac",
+          "history_lookup:aa9aeb3859bf5dfe",
+          "accepted_history:6c5dd95992e6a569",
+          "prior_decision:a7148ff36991542e",
+          "prior_decision:65b6371656e8305f"
+        ],
+        "benchmark_review": {
+          "status": "confirmed",
+          "eligible": true,
+          "reason": "复用既有明确已审独立依据：宇树机器人本体与英伟达算力、模型及仿真系统构成面向研究机构的参考平台，并针对研发客户优化关节可靠性、提供模型开发软件环境。这些具体产品和研发基础设施能力可供杭州机器人企业比较；资格不来自本次人物报道、评分或上市身份，也不意味着本事件自动进入领导简报。",
+          "evidence_ids": [
+            "accepted_history:6bb19dad5ec85a0e",
+            "accepted_history:66d57afc72eb96ed",
+            "accepted_history:6a639e0f763467e4"
+          ]
+        }
+      },
+      "company_db_id": 44,
+      "ai_reason": "宇树值得保留的是把机器人本体、示范数据采集与任务模型连接起来的研发路径：同一模型覆盖桌面操作和全身移动操作，为机器人从执行单个动作走向完成组合任务提供了具体研究对象。若这些能力能迁移至新物体和新环境，其平台价值将不止于硬件供给，还可能降低应用团队组织机器人任务的开发负担；当前优先看这条技术路径，而非展演曝光。",
+      "wx_summary": "宇树披露统一任务模型及遥操作数据平台进展",
+      "standard_sectors": [
+        "具身智能与人形机器人"
+      ],
+      "supporting_sources": [
+        {
+          "title": "9点1氪：豆包工作个人版取消5小时额度限制；人类低温纪录被打破；美科技股反弹，SpaceX市值一夜暴涨9653亿",
+          "source": "36 氪",
+          "url": "https://mp.weixin.qq.com/s/a1Qq6fP7-ppObE3QjKlyqg"
+        },
+        {
+          "title": "“硬核天团”上新记",
+          "source": "滨江发布",
+          "url": "https://mp.weixin.qq.com/s/XU53Ih34C8fXpgvAmQdSNg"
+        }
+      ]
+    }
+  ],
+  "national_top": []
+}
