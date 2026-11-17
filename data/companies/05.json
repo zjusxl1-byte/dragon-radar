@@ -1578,16 +1578,19 @@
       "event_type": "资质获批",
       "link": "https://mp.weixin.qq.com/s/Q8wrw_lf_vgOWiEv3PpqJA",
       "sector": "糖尿病管理医疗器械",
-      "location": "地点线索：杭州市余杭区（正文明确为余杭区入选企业，未区分注册地、总部地或经营地）",
+      "location": "浙江省 / 杭州市 / 余杭区 / 仓前街道留泽街108号",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 仓前街道留泽街108号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-cfc2b6b7e18fa21460580f48",
+          "geo-25aa9716612de999708a258c"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "微泰医疗器械(杭州)股份有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1595,7 +1598,49 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-cfc2b6b7e18fa21460580f48",
+            "source_url": "https://www.microtechmd.com/cn/investor-relaitons/corporate-information",
+            "checked_at": "2026-11-17T12:36:44.022670+00:00",
+            "subject": "微泰医疗器械(杭州)股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "仓前街道留泽街108号"
+            }
+          },
+          {
+            "evidence_id": "geo-25aa9716612de999708a258c",
+            "source_url": "https://mp.weixin.qq.com/s/Q8wrw_lf_vgOWiEv3PpqJA",
+            "checked_at": "2026-11-17T12:37:23.192468+00:00",
+            "subject": "微泰医疗器械(杭州)股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-cfc2b6b7e18fa21460580f48",
+            "geo-25aa9716612de999708a258c"
+          ]
+        }
       },
       "article_location": "杭州市余杭区（正文明确为余杭区入选企业，未区分注册地、总部地或经营地）",
       "source": "余杭发布",
