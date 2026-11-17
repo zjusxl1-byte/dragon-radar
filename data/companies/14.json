@@ -2282,16 +2282,20 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/k58wvuRv9GtF2de-4eUddw",
       "sector": "商业航天／星载电子／卫星导航与测控通信",
-      "location": "地点待核",
+      "location": "天津市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "天津市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f0d6ce5fe3d43d10fd62282b",
+          "geo-22b7c1906a436f2075c9c6ce",
+          "geo-4e8dff818649392ceb109fd7"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "讯联科技",
         "subject_locality": {
           "status": "unknown",
@@ -2299,7 +2303,59 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-f0d6ce5fe3d43d10fd62282b",
+            "source_url": "https://www.tjftz.gov.cn/contents/6302/380407.html",
+            "checked_at": "2026-11-17T12:34:44.158852+00:00",
+            "subject": "讯联科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "天津市",
+              "city": "天津市"
+            }
+          },
+          {
+            "evidence_id": "geo-22b7c1906a436f2075c9c6ce",
+            "source_url": "https://www.tjftz.gov.cn/contents/6302/380407.html",
+            "checked_at": "2026-11-17T12:34:44.158852+00:00",
+            "subject": "讯联科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "天津市",
+              "city": "天津市"
+            }
+          },
+          {
+            "evidence_id": "geo-4e8dff818649392ceb109fd7",
+            "source_url": "https://www.tjftz.gov.cn/contents/7152/382905.html",
+            "checked_at": "2026-11-17T12:34:44.119258+00:00",
+            "subject": "讯联科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "天津市",
+              "city": "天津市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "天津市",
+          "city": "天津市",
+          "evidence_ids": [
+            "geo-f0d6ce5fe3d43d10fd62282b",
+            "geo-22b7c1906a436f2075c9c6ce",
+            "geo-4e8dff818649392ceb109fd7"
+          ]
+        }
       },
       "article_location": "",
       "source": "银杏谷资本",
