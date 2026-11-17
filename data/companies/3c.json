@@ -2581,24 +2581,59 @@
       "event_type": "战略合作",
       "link": "https://mp.weixin.qq.com/s/GLAqnpvgVwnUOYdB01sSgw",
       "sector": "全地形车及摩托车研发制造",
-      "location": "地点线索：临平区，现有总部及南北园区所在地",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-bb18164510080cf96ed41d9c"
+        ],
+        "subject_evidence_ids": [
+          "geo-bb18164510080cf96ed41d9c"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "春风动力",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-bb18164510080cf96ed41d9c"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-bb18164510080cf96ed41d9c",
+            "source_url": "https://cn.cfmoto.com/introduction",
+            "checked_at": "2026-11-17T12:34:39.928368+00:00",
+            "subject": "春风动力",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-bb18164510080cf96ed41d9c"
+          ]
+        }
       },
       "article_location": "临平区，现有总部及南北园区所在地",
       "source": "临平发布",
