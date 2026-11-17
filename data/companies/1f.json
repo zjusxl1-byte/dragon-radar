@@ -1817,16 +1817,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/h_9cO25au7AnXQMLKPiXYA",
       "sector": "量子精密测量与时间频率",
-      "location": "地点线索：杭州市",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-dcd057d94a7d8a997ee37ab2"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "凯瑟斯",
         "subject_locality": {
           "status": "unknown",
@@ -1834,7 +1836,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-dcd057d94a7d8a997ee37ab2",
+            "source_url": "https://mp.weixin.qq.com/s/h_9cO25au7AnXQMLKPiXYA",
+            "checked_at": "2026-11-17T10:49:19.716696+00:00",
+            "subject": "凯瑟斯",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-dcd057d94a7d8a997ee37ab2"
+          ]
+        }
       },
       "article_location": "杭州市",
       "source": "浙商杂志",
