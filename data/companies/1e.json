@@ -1689,16 +1689,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/rVgPQhTzmEgpyKG4pFKCwg",
       "sector": "硅光半导体",
-      "location": "地点待核",
+      "location": "上海市 / 浦东新区 / 丹桂路799号5号楼7楼",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 浦东新区 / 丹桂路799号5号楼7楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-e01b8c328da8939a28fd0ad6"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "孛璞半导体",
         "subject_locality": {
           "status": "unknown",
@@ -1706,7 +1708,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-e01b8c328da8939a28fd0ad6",
+            "source_url": "https://www.beepluxsemi.com",
+            "checked_at": "2026-11-17T18:20:48.292223+00:00",
+            "subject": "孛璞半导体",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区",
+              "address": "丹桂路799号5号楼7楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-e01b8c328da8939a28fd0ad6"
+          ]
+        }
       },
       "article_location": "",
       "source": "烯牛数据",
