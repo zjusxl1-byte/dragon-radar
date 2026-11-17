@@ -1355,16 +1355,19 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/k58wvuRv9GtF2de-4eUddw",
       "sector": "商业航天／太空态势感知／太空管理服务",
-      "location": "地点待核",
+      "location": "安徽省 / 合肥市 / 合肥高新区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "安徽省 / 合肥市 / 合肥高新区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-4ef275a8d51f672f97f957f6",
+          "geo-1c810bff6f8a7bb338cfe6ff"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "星图测控",
         "subject_locality": {
           "status": "unknown",
@@ -1372,7 +1375,50 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-4ef275a8d51f672f97f957f6",
+            "source_url": "https://www.jjckb.cn/20260916/866f2d0dc173423f80994582d0507558/c.html",
+            "checked_at": "2026-11-17T11:51:38.077609+00:00",
+            "subject": "星图测控",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "安徽省",
+              "city": "合肥市",
+              "district": "合肥高新区",
+              "address": "中安创谷一期"
+            }
+          },
+          {
+            "evidence_id": "geo-1c810bff6f8a7bb338cfe6ff",
+            "source_url": "https://www.geovis.com.cn/contact",
+            "checked_at": "2026-11-17T11:51:39.306728+00:00",
+            "subject": "星图测控",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "安徽省",
+              "city": "合肥市",
+              "district": "合肥高新区",
+              "address": "中安创谷科技园一期A1栋35层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "安徽省",
+          "city": "合肥市",
+          "district": "合肥高新区",
+          "evidence_ids": [
+            "geo-4ef275a8d51f672f97f957f6",
+            "geo-1c810bff6f8a7bb338cfe6ff"
+          ]
+        }
       },
       "article_location": "",
       "source": "银杏谷资本",
