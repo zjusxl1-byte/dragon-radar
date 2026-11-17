@@ -1631,24 +1631,53 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/BOJvuUBJU5IUp7BgE5UGUg",
       "sector": "半导体／家电控制芯片",
-      "location": "地点待核",
+      "location": "JP",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "JP",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fc51ecd2615af0988a6a480a"
+        ],
+        "subject_evidence_ids": [
+          "geo-fc51ecd2615af0988a6a480a"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "瑞萨电子",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "JP",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-fc51ecd2615af0988a6a480a"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-fc51ecd2615af0988a6a480a",
+            "source_url": "https://www.renesas.com/en/about/university-program",
+            "checked_at": "2026-11-16T18:43:33.557557+00:00",
+            "subject": "瑞萨电子",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "JP"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "JP",
+          "evidence_ids": [
+            "geo-fc51ecd2615af0988a6a480a"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
@@ -1673,59 +1702,6 @@
       "event_date": "",
       "event_headline": "瑞萨电子推出RL78/G21，延续家电控制平台兼容性",
       "event_signal": "material",
-      "discovery_status": "first_seen"
-    }
-  ],
-  "德州仪器": [
-    {
-      "date": "2026-11-10",
-      "title": "德州仪器仍在销售MSP430FR2355，最高工作频率24MHz，集成32KB FRAM、ADC、运算放大器及可编程增益放大器，用于工业传感和模拟测量等应用。文章同时称，该产品官方页面推荐基于Arm Cortex-M0+的32位MSPM0L1305作为替代选择，并将其描述为成本更低、功能及性能更优的可选方案。",
-      "article_title": "16位MCU，为何还没退场？",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/BOJvuUBJU5IUp7BgE5UGUg",
-      "sector": "半导体／工业传感与模拟控制芯片",
-      "location": "地点待核",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "德州仪器",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "article_location": "",
-      "source": "半导体行业观察",
-      "kind": "event",
-      "canonical_name": "德州仪器",
-      "company_entity_id": "dr-u-e1ad1fbdc47b3696d5ec",
-      "company_raw_name": "德州仪器",
-      "identity_status": "unresolved",
-      "score": 35,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本条足以支持具体产品替代路径观察，但未建立本主体行业地位及全国标杆资格的独立依据。",
-        "evidence_ids": [
-          "article:d623e49f87120d2c"
-        ]
-      },
-      "published_date": "2026-11-09",
-      "insight": "同一厂商保留16位产品并推荐32位替代，说明成熟产品供货与架构迁移可以并行。替代推荐直接挑战了“16位必然更便宜”的假设，但具体设计是否值得迁移，仍取决于接口、模拟功能和软件改造成本。",
-      "financing": "",
-      "event_date": "",
-      "event_headline": "德州仪器在售16位MCU页面推荐32位替代型号",
-      "event_signal": "context",
       "discovery_status": "first_seen"
     }
   ]
