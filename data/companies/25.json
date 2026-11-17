@@ -2920,5 +2920,58 @@
       "event_signal": "context",
       "discovery_status": "first_seen"
     }
+  ],
+  "德州仪器": [
+    {
+      "date": "2026-11-10",
+      "title": "德州仪器仍在销售MSP430FR2355，最高工作频率24MHz，集成32KB FRAM、ADC、运算放大器及可编程增益放大器，用于工业传感和模拟测量等应用。文章同时称，该产品官方页面推荐基于Arm Cortex-M0+的32位MSPM0L1305作为替代选择，并将其描述为成本更低、功能及性能更优的可选方案。",
+      "article_title": "16位MCU，为何还没退场？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/BOJvuUBJU5IUp7BgE5UGUg",
+      "sector": "半导体／工业传感与模拟控制芯片",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Texas Instruments",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "Texas Instruments",
+      "company_entity_id": "dr-u-08bca3e557170534ddad",
+      "company_raw_name": "德州仪器",
+      "identity_status": "confirmed",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条足以支持具体产品替代路径观察，但未建立本主体行业地位及全国标杆资格的独立依据。",
+        "evidence_ids": [
+          "article:d623e49f87120d2c"
+        ]
+      },
+      "published_date": "2026-11-09",
+      "insight": "同一厂商保留16位产品并推荐32位替代，说明成熟产品供货与架构迁移可以并行。替代推荐直接挑战了“16位必然更便宜”的假设，但具体设计是否值得迁移，仍取决于接口、模拟功能和软件改造成本。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "德州仪器在售16位MCU页面推荐32位替代型号",
+      "event_signal": "context",
+      "discovery_status": "update"
+    }
   ]
 }

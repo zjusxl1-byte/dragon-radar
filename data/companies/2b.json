@@ -1466,24 +1466,78 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/rVgPQhTzmEgpyKG4pFKCwg",
       "sector": "工业人工智能及半导体检测",
-      "location": "地点待核",
+      "location": "上海市松江区泗砖路777号A8栋101室",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市松江区泗砖路777号A8栋101室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-9483742e20bbc8f6c40f5e89",
+          "geo-a58ef61a51c25a5f450798f1"
+        ],
+        "subject_evidence_ids": [
+          "geo-9483742e20bbc8f6c40f5e89"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "聚时科技",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-9483742e20bbc8f6c40f5e89"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-9483742e20bbc8f6c40f5e89",
+            "source_url": "https://www.matrixtime.com",
+            "checked_at": "2026-11-16T18:18:38.008638+00:00",
+            "subject": "聚时科技",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "松江区"
+            }
+          },
+          {
+            "evidence_id": "geo-a58ef61a51c25a5f450798f1",
+            "source_url": "https://www.matrixtime.com",
+            "checked_at": "2026-11-16T18:18:38.008638+00:00",
+            "subject": "聚时科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "松江区",
+              "address": "上海市松江区泗砖路777号A8栋101室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "松江区",
+          "evidence_ids": [
+            "geo-9483742e20bbc8f6c40f5e89",
+            "geo-a58ef61a51c25a5f450798f1"
+          ]
+        }
       },
       "article_location": "",
       "source": "烯牛数据",

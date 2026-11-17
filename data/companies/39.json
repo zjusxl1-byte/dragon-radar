@@ -1651,24 +1651,74 @@
       "event_type": "技术突破",
       "link": "https://mp.weixin.qq.com/s/ZJehPFbZ1nI5q9VdEHRxew",
       "sector": "半导体／晶圆代工／特色工艺",
-      "location": "地点待核",
+      "location": "US / 纽约州 / Malta",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 纽约州 / Malta",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-419012046f6ae3c14859ef4e",
+          "geo-90b6e6fb95bf17ad6a0e8e4d"
+        ],
+        "subject_evidence_ids": [
+          "geo-419012046f6ae3c14859ef4e"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "格罗方德",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "纽约州",
+          "city": "Malta",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-419012046f6ae3c14859ef4e"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-419012046f6ae3c14859ef4e",
+            "source_url": "https://gf.com",
+            "checked_at": "2026-11-16T23:20:12.686271+00:00",
+            "subject": "格罗方德",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "纽约州",
+              "city": "Malta"
+            }
+          },
+          {
+            "evidence_id": "geo-90b6e6fb95bf17ad6a0e8e4d",
+            "source_url": "https://gf.com",
+            "checked_at": "2026-11-16T23:20:12.686271+00:00",
+            "subject": "格罗方德",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "纽约州",
+              "city": "Malta"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "纽约州",
+          "city": "Malta",
+          "evidence_ids": [
+            "geo-419012046f6ae3c14859ef4e",
+            "geo-90b6e6fb95bf17ad6a0e8e4d"
+          ]
+        }
       },
       "article_location": "",
       "source": "半导体行业观察",
