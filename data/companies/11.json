@@ -1637,16 +1637,18 @@
       "event_type": "资质获批",
       "link": "https://mp.weixin.qq.com/s/Q8wrw_lf_vgOWiEv3PpqJA",
       "sector": "工业机器视觉与智能检测",
-      "location": "地点线索：杭州市余杭区；总部位于未来科技城上市企业创新园",
+      "location": "浙江省 / 杭州市 / 余杭区 / 未来科技城上市企业创新园",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 未来科技城上市企业创新园",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-233e77c68d78bd2b433dde72"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "杭州百子尖科技股份有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1654,7 +1656,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-233e77c68d78bd2b433dde72",
+            "source_url": "https://mp.weixin.qq.com/s/Q8wrw_lf_vgOWiEv3PpqJA",
+            "checked_at": "2026-11-17T00:18:34.509153+00:00",
+            "subject": "杭州百子尖科技股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "未来科技城上市企业创新园"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-233e77c68d78bd2b433dde72"
+          ]
+        }
       },
       "article_location": "杭州市余杭区；总部位于未来科技城上市企业创新园",
       "source": "余杭发布",
