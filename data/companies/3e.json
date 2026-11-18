@@ -2751,6 +2751,84 @@
       "event_headline": "DeepSeek公开Super-agent架构，探索跨平台持续执行任务",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "据文章，DeepSeek正式开放联网搜索、深度思考搜索、文件上传、链接阅读等应用能力，并首次开放官方语音识别和语音合成独立接口。开发者既可启用由模型自动协调搜索、网页读取和回答的对话扩展功能，也可按需组合Search、Fetch、OCR、ASR、TTS等独立接口，分别计费。V4.1-Flash已在Messages、Responses和Chat Completions三类接口下支持相关对话扩展功能。DeepSeek同时开源轻量级聊天前端Demo，支持导入历史对话。文中公布语音识别原价为0.78元/小时，五折优惠价为0.39元/小时；语音合成原价为每万字符3元，优惠价为1.5元；搜索和网页抓取为每1000次成功调用5元，OCR为每1000页1.5元。",
+      "article_title": "突发！DeepSeek开放全家桶API：官方App功能均可自由组合调用",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/gHvlpHNPU1W-ASCm24yJbg",
+      "sector": "人工智能／大模型与开发者工具",
+      "location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "article_location": "浙江省杭州市（复用已审同主体总部地点证据）",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_raw_name": "DeepSeek",
+      "identity_status": "confirmed",
+      "score": 100,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "既有明确已审记录尚未建立独立全国标杆资格。本次证明应用能力及开发接口扩展，但没有增加独立采用规模、同条件质量与总成本比较或可复核竞争优势；文中不同厂商语音标价比较不足以改变该边界，不影响正面日报保留。",
+        "evidence_ids": [
+          "article_body:d10bb1f663daf1a0",
+          "prior_decision:57fb9024d657db8d",
+          "prior_decision:4aa55ed3d77695df"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "这次开放的关键不只是增加工具接口，而是把搜索调用与模型回答之间原需开发者编排的流程交由模型协调，同时允许语音、识字等能力单独组合，使DeepSeek从提供模型回答进一步延伸到应用基础能力供给。开源前端示例也降低了搭建聊天应用的起步工作量，但不同场景下的识别质量、响应速度及完整任务成本，仍会影响开发者是否采用。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "DeepSeek开放应用工具API，搜索与语音能力支持独立调用",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "Astrocade": [
