@@ -2829,14 +2829,14 @@
       "discovery_status": "first_seen"
     }
   ],
-  "世纪互联": [
+  "Lattice": [
     {
       "date": "2026-11-17",
-      "title": "报道将世纪互联列为正在乌兰察布察哈尔高新区巴音片区建设新算力基地的企业，并记述采访人员到访世纪互联乌兰察布一号基地门口。原文未分别披露项目容量、投资额或交付日期。",
-      "article_title": "乌兰察布 72 小时，目睹 AI 时代的工业奇观",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/XMPf5u2dPEtOC_iAam2Fcw",
-      "sector": "数据中心服务",
+      "title": "文章称，2026年10月，Lattice与Arm宣布合作，将Lattice FPGA、Arm AGI CPU服务器平台和AMI固件结合起来。文章同时介绍，Lattice FPGA可用于服务器安全管理，以及配合管理软件开展机柜运行状态、功耗和温度监测。",
+      "article_title": "AI时代，FPGA再次崛起",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/CT2w3DW-PoX3OBGCdUD4MA",
+      "sector": "服务器平台与硬件安全管理",
       "location": "地点待核",
       "geography": {
         "geography_status": "unknown",
@@ -2847,7 +2847,7 @@
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "世纪互联",
+        "subject": "Lattice",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
@@ -2857,28 +2857,79 @@
         "basis": []
       },
       "article_location": "",
-      "source": "晚点 LatePost",
+      "source": "半导体行业观察",
       "kind": "event",
-      "canonical_name": "世纪互联",
-      "company_entity_id": "dr-u-285bb5acfba102624cc3",
-      "company_raw_name": "世纪互联",
+      "canonical_name": "Lattice",
+      "company_entity_id": "dr-u-4cbe09597b76794b5f6b",
+      "company_raw_name": "Lattice",
       "identity_status": "unresolved",
-      "score": 0,
+      "score": 15,
       "is_national_star": false,
       "benchmark_review": {
         "status": "not_qualified",
         "eligible": false,
-        "reason": "本篇证明了具体基地建设行为，但未提供世纪互联行业领先地位、差异化建设运营能力或可独立验证的对标表现，尚不足以建立全国标杆资格。",
+        "reason": "当前正文支持具体平台合作及产品作用，但未充分建立本主体的独立行业地位或全国标杆资格；可作产业观察案例不等于取得标杆标签。",
         "evidence_ids": [
-          "article:dbbdcfbdfb97a870"
+          "article:9222f9e7e1298c22"
         ]
       },
       "published_date": "2026-11-16",
-      "insight": "世纪互联在当地的新基地建设构成基础设施供给扩张线索。但全文关于匿名项目工期、赔偿和设备数量的叙述不能归入其项目，判断这次扩张仍需取得该基地自己的容量与交付节点。",
+      "insight": "这项合作的变化在于把FPGA与处理器平台、底层固件一起适配，而不只是提供一颗控制芯片。服务器管理需要这些层次共同工作，联合方案因此更贴近整机厂的平台集成任务。",
       "financing": "",
       "event_date": "",
-      "event_headline": "世纪互联在乌兰察布巴音片区建设新算力基地",
+      "event_headline": "Lattice与Arm合作整合FPGA、服务器平台及固件",
       "event_signal": "material",
+      "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "文章称，2026年7月，Lattice完成对AMI的收购。AMI提供BIOS、BMC固件和数据中心基础设施管理软件，覆盖服务器启动、硬件管理及平台运维环节。文章未披露交易金额。",
+      "article_title": "AI时代，FPGA再次崛起",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/CT2w3DW-PoX3OBGCdUD4MA",
+      "sector": "FPGA与服务器固件",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Lattice",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "Lattice",
+      "company_entity_id": "dr-u-4cbe09597b76794b5f6b",
+      "company_raw_name": "Lattice",
+      "identity_status": "unresolved",
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "明确的技术并购及业务互补足以支持事件保留，但并购行为本身不能证明全国标杆资格，当前未提供独立已审行业地位依据。",
+        "evidence_ids": [
+          "article:9222f9e7e1298c22"
+        ]
+      },
+      "published_date": "2026-11-16",
+      "insight": "收购AMI使Lattice的业务能力从可编程芯片延伸到服务器启动和管理软件。固件连接处理器与底层硬件，这种能力组合为其参与服务器管理架构提供了比单独销售FPGA更完整的产品基础。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Lattice于2026年7月完成收购AMI，补充服务器固件能力",
+      "event_signal": "major",
       "discovery_status": "first_seen"
     }
   ]
