@@ -1493,6 +1493,166 @@
       "event_headline": "英伟达合作回顾：宣布投资英特尔50亿美元",
       "event_signal": "context",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "英伟达在SC26超级计算大会上公布Rubin HPC GPU，单颗集成超过5万个CUDA核心，引入稀疏数据加速能力并采用第七代NVLink互连技术，面向科学计算、工程仿真和数据分析，预计2028年推出。文章称其HBM容量、内存带宽、功耗及FP64双精度计算性能尚未公布。Wccftech对展示信息的解读称，服务器托盘将搭载两颗Superchip，每颗由一颗Vera CPU和两颗Rubin HPC GPU组成；该配置并非英伟达已公布的完整系统规格。",
+      "article_title": "英伟达发布一颗GPU：CUDA核心突破5万",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/qXp0Tee_vcFj7n5D-5RVFQ",
+      "sector": "高性能计算与GPU",
+      "location": "US / California / Santa Clara",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / Santa Clara",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "subject_evidence_ids": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "英伟达",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-4493064fe5737edf368c58ab"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4493064fe5737edf368c58ab",
+            "source_url": "https://nvidianews.nvidia.com/multimedia/santa-clara-headquarters",
+            "checked_at": "2026-10-16T00:31:54.065917+00:00",
+            "subject": "英伟达",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara"
+            }
+          }
+        ]
+      },
+      "article_location": "美国加利福尼亚州圣克拉拉（主要总部，复用已审同主体地点证据geo-4493064fe5737edf368c58ab；非本文披露）",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "英伟达",
+      "company_entity_id": "dr-u-60094bcf5292c4909fad",
+      "company_raw_name": "英伟达",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "Rubin HPC GPU",
+          "relation": "product",
+          "evidence": "英伟达正式公布Rubin HPC GPU。"
+        }
+      ],
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前文章及历史提供多项可对照的产品事实，但未提供明确已审标杆资格或足以独立核验相关行业地位的比较依据；不凭公司知名度和单款产品参数新授全国标杆标签。",
+        "evidence_ids": [
+          "article:6bb90587164bd85b",
+          "accepted_history:fbbc445ccd05e530"
+        ]
+      },
+      "published_date": "2026-11-17",
+      "insight": "Rubin HPC的产品方向是同时增加计算资源、改善稀疏数据访问和GPU间交换，回应科学模拟中“计算核心等待数据”的瓶颈，而不只是扩大AI算力。其传统科学计算竞争力仍取决于尚未披露的FP64双精度性能、内存带宽及具体应用表现，不能由CUDA核心数量直接推出。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "英伟达公布Rubin HPC GPU，预计2028年推出",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "文章披露，英伟达Holoscan Sensor Bridge将作为STM32Cube生态系统的原生组件，适配绝大多数STM32 MCU产品；英伟达与意法半导体还将协同构建机器人仿真系统，意法半导体承诺为其传感、MEMS、微控制器及执行器件开发配套模型库并接入仿真环境。正文未给出该项合作的独立宣布日期及集成完成时间。",
+      "article_title": "STM32，重大战略升级！以统一的 STM32 MCU 平台释放物理AI潜能",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/9rRCfDv6dBTdYnOsPaNnxw",
+      "sector": "机器人／传感数据连接与仿真生态",
+      "location": "US / California / Santa Clara",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / Santa Clara",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "subject_evidence_ids": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "英伟达",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-4493064fe5737edf368c58ab"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4493064fe5737edf368c58ab",
+            "source_url": "https://nvidianews.nvidia.com/multimedia/santa-clara-headquarters",
+            "checked_at": "2026-10-16T00:31:54.065917+00:00",
+            "subject": "英伟达",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara"
+            }
+          }
+        ]
+      },
+      "article_location": "美国加利福尼亚州圣克拉拉（主要总部；复用输入中的已审同主体地点证据）",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "英伟达",
+      "company_entity_id": "dr-u-60094bcf5292c4909fad",
+      "company_raw_name": "英伟达",
+      "identity_status": "confirmed",
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据证明具体技术生态合作计划，但未建立本主体在该领域的行业领先地位、应用成效及可复核的对标优势；不能仅凭知名度、合作范围或上游标签授予独立标杆资格。",
+        "evidence_ids": [
+          "article:4f9b4a6682e7623a"
+        ]
+      },
+      "published_date": "2026-11-17",
+      "insight": "计划中的原生集成把英伟达的传感数据连接能力延伸到STM32开发生态，器件模型库则为机器人仿真纳入实际传感和控制部件提供基础。两项工作分别连接开发工具与仿真环境，但文章还未披露适配清单及可使用版本，不能据此认定完整开发链已经打通。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "英伟达拟将传感桥接组件接入STM32并协作机器人仿真",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "模式星河（北京）科技有限公司": [
