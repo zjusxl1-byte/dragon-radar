@@ -1059,6 +1059,82 @@
       "event_headline": "亚马逊据报道更新Agent访问规则，要求标识身份并禁止绕过访问控制",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "文章称，亚马逊正在推进新一代自研芯片商用，并获得Anthropic未来十年超过1000亿美元的投入承诺。正文未说明承诺涉及的具体服务、芯片型号、计价范围或实际支出进度。",
+      "article_title": "脆弱地基上的超级帝国：黄仁勋靠什么控制英伟达 33 年",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/DSMIZ7bdkDLnMW1KDn2EBA",
+      "sector": "云计算与人工智能芯片",
+      "location": "US / Washington / 410 Terry Avenue North, Seattle, WA 98109",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Washington / 410 Terry Avenue North, Seattle, WA 98109",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-39890f67458e2076302bb0f8"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "亚马逊",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-39890f67458e2076302bb0f8",
+            "source_url": "https://data.sec.gov/submissions/CIK0001018724.json",
+            "checked_at": "2026-10-12T03:46:27.981321+00:00",
+            "subject": "亚马逊",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Washington",
+              "city": "Seattle",
+              "address": "410 Terry Avenue North, Seattle, WA 98109"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "evidence_ids": [
+            "geo-39890f67458e2076302bb0f8"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "亚马逊",
+      "company_entity_id": "dr-u-6d37feda49a46792456d",
+      "company_raw_name": "亚马逊",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据足以支持自研芯片商用及长期客户承诺这一产业观察事件，但未独立证明该主体相关产品的领先地位、可比性能或已兑现商业规模；不以企业知名度或承诺金额自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:39d56652f7544e7a"
+        ]
+      },
+      "published_date": "2026-11-17",
+      "insight": "自研芯片进入云服务后，可以通过客户的长期算力需求获得持续使用场景，而不必只以独立芯片销售拓展市场。本文所述投入承诺若覆盖这一平台，将支持这条商业路径，但不能把全部承诺金额归为芯片销售收入。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "亚马逊据报道推进自研芯片商用并获长期投入承诺",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "无问芯穹": [
