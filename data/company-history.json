@@ -20370,6 +20370,66 @@
       "event_headline": "据报道，UniPat AI完成3亿美元融资，阿里巴巴领投",
       "event_signal": "major",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "UniPat AI牵头推出湿实验结果预测基准SPU，包含116个任务、4207个湿实验，覆盖化学、材料科学、生物和医学。其中100个公开任务取自85篇论文，16个私有任务来自四组未发表的合作湿实验。评测允许模型在每次运行8小时及指定计算资源下自主检索、使用科研软件，提交实验结果排序，再与隐藏的实测排序比较。首轮评测覆盖12款模型、13种配置。文章称数据集和代码已经开源，100个公开任务计划以完整Harbor任务包形式发布，16个私有任务继续用于受控评测。",
+      "article_title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/HGoMt5bKUDGHE8b19FXXig",
+      "sector": "AI for Science／科研智能体评测",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "UniPat AI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "UniPat AI",
+      "company_entity_id": "dr-u-ec86d16ece335f263102",
+      "company_raw_name": "UniPat AI",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "SPU",
+          "relation": "product",
+          "evidence": "UniPat AI牵头推出的新基准Science Prediction Universe（简称SPU）"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "复用既有已审未建立标杆资格的结论；本次增加了湿实验预测评测工具及协作能力证据，但尚未提供足以独立确立行业地位、广泛采用或可供杭州企业对标成效的依据。产品进展可保留，不因任务规模、合作机构或上游标签自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article_body:8a92223429cc64d9",
+          "accepted_history:6f5cdaa789053847",
+          "prior_decision:4e19ca04d78402da"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "SPU把科研模型的评价对象从能否完成分析流程，推进到能否提前排对真实实验结果；未发表实验还提供了区别于公开论文答案的检验材料。对UniPat AI而言，这次发布体现的是组织跨学科专家、实验资源与可执行评测的能力，其价值在于帮助研究团队识别模型适用的具体测量目标，而非仅按模型名次或计算投入选择工具。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "UniPat AI推出SPU基准，评测模型预测湿实验结果的能力",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "论芯科技": [
@@ -39605,82 +39665,6 @@
       "event_headline": "特斯拉据报道向受邀个人开放Cybercab购买渠道",
       "event_signal": "major",
       "discovery_status": "update"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "马斯克表示，特斯拉最早可能于12月启动车主Robotaxi试运营，允许个人车主将车辆投入特斯拉无人驾驶出租车网络接单。报道未披露试点城市、参与条件及车费分成方案。",
-      "article_title": "蔚来：有网络传言抹黑公司财务经营情况，已报案；小米辟谣汽车召回短信丨汽车交通日报",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/GAD9ozdUTtY_G8-PsyzzPw",
-      "sector": "自动驾驶与出行服务",
-      "location": "US / Texas",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "US / Texas",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-39d56e451ceb738d3ce2798e"
-        ],
-        "subject_evidence_ids": [
-          "geo-39d56e451ceb738d3ce2798e"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "特斯拉",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "US",
-          "province": "Texas",
-          "basis_roles": [
-            "registered"
-          ],
-          "evidence_ids": [
-            "geo-39d56e451ceb738d3ce2798e"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-39d56e451ceb738d3ce2798e",
-            "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
-            "checked_at": "2026-10-12T04:00:14.248816+00:00",
-            "subject": "特斯拉",
-            "role": "registered",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "US",
-              "province": "Texas"
-            }
-          }
-        ]
-      },
-      "article_location": "美国得克萨斯州（已审同主体注册地）",
-      "source": "创业邦",
-      "kind": "event",
-      "canonical_name": "特斯拉",
-      "company_entity_id": "dr-u-ddadc7e89f7cd629cbd7",
-      "company_raw_name": "特斯拉",
-      "identity_status": "confirmed",
-      "score": 35,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "既有Cybercab审核未建立独立标杆资格，本次车主参与计划没有补足实际运行、经济性或同业比较优势证据，继续保留事件观察价值但不授予标杆标签。",
-        "evidence_ids": [
-          "accepted_history:aab128f7aada4f8a",
-          "accepted_history:885e5da78ebff36b",
-          "article:7d24ff6fe12dc098"
-        ]
-      },
-      "published_date": "2026-11-17",
-      "insight": "该计划试图把个人车主车辆纳入无人驾驶出租车供给，使特斯拉从提供车辆延伸至组织车主运力和接单网络。它是否改变实际服务能力，取决于试点允许哪些车辆参与、在哪里运行及责任如何分配。",
-      "financing": "",
-      "event_date": "",
-      "event_headline": "特斯拉最早拟于12月启动车主Robotaxi试运营",
-      "event_signal": "material",
-      "discovery_status": "update"
     }
   ],
   "阿里ATH事业群": [
@@ -44632,6 +44616,88 @@
       "financing": "",
       "event_date": "",
       "event_headline": "火山引擎整合销售体系，Seedance新增样片生成流程",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "11月12日，火山引擎推出Seedance 2.5 flash。官方称其生成速度较Seedance 2.5提升一倍；720P文生视频、图生视频价格约0.99元/秒，较Seedance 2.5降低约34%。模型单段最长支持30秒，单次最多输入10张图片、5段视频、5段音频，提供480P和720P分辨率并具备视频编辑能力。官方称效果接近Seedance 2.5、整体优于Seedance 2.0。",
+      "article_title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+      "sector": "AI视频生成",
+      "location": "北京市海淀区紫金数码园4号楼13层1309",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市海淀区紫金数码园4号楼13层1309",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-39acc33c9a8f9256510a9849"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "火山引擎",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-39acc33c9a8f9256510a9849",
+            "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/dylygg/202609/t20260901_27245189.htm",
+            "checked_at": "2026-11-08T17:14:39.358739+00:00",
+            "subject": "火山引擎",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "北京市海淀区紫金数码园4号楼13层1309"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-39acc33c9a8f9256510a9849"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "火山引擎",
+      "company_entity_id": "dr-u-23b9479458b4c4f67907",
+      "company_raw_name": "火山引擎",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "沿用既有已审结论的事实边界：当前材料增加了具体产品版本进展，但性能优势主要为官方自述，未新增足以建立全国行业地位的独立比较证据，不能据此授予全国标杆标签。",
+        "evidence_ids": [
+          "article_body:89cbdab615245430",
+          "prior_decision:3f4b73063d1ef63c",
+          "prior_decision:6d185c4b77c4a525"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "该版本围绕接近旗舰效果的速度和成本取舍，同时保留多类素材输入及编辑能力，面向需要多次迭代的视频创作流程；速度与效果比较目前均来自官方口径。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "火山引擎推出Seedance快版并下调视频生成价格",
       "event_signal": "material",
       "discovery_status": "update"
     }
@@ -90296,160 +90362,6 @@
       "event_headline": "华为Mate 90系列进入无忧传媒杭州基地主力设备",
       "event_signal": "material",
       "discovery_status": "update"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "华为终端BG CEO何刚在鸿蒙高校创新赛颁奖典礼上发布“鸿蒙高校创新孵化计划”，宣布未来3年将投入5000万元，为总决赛获奖作品提供技术和上架专属辅导、流量及曝光资源，支持作品走向商业市场。",
-      "article_title": "鸿蒙生态的生命力，藏在年轻人认真做的「小事」里",
-      "event_type": "重磅发布",
-      "link": "https://mp.weixin.qq.com/s/TENC0DJykvHiP4uF3Y_GoQ",
-      "sector": "操作系统生态与开发者服务",
-      "location": "广东省 / 深圳市龙岗区坂田华为基地",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "广东省 / 深圳市龙岗区坂田华为基地",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-3a4c9ae28ffec2813559bade"
-        ],
-        "subject_evidence_ids": [
-          "geo-3a4c9ae28ffec2813559bade"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "华为",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "广东省",
-          "city": "深圳市",
-          "basis_roles": [
-            "hq"
-          ],
-          "evidence_ids": [
-            "geo-3a4c9ae28ffec2813559bade"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-3a4c9ae28ffec2813559bade",
-            "source_url": "https://www.huawei.com/cn/contact-us",
-            "checked_at": "2026-10-12T03:39:57.997902+00:00",
-            "subject": "华为",
-            "role": "hq",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "广东省",
-              "city": "深圳市",
-              "address": "深圳市龙岗区坂田华为基地"
-            }
-          }
-        ]
-      },
-      "article_location": "",
-      "source": "36 氪",
-      "kind": "event",
-      "canonical_name": "华为",
-      "company_entity_id": "dr-u-82eaaba81d9dcc54deab",
-      "company_raw_name": "华为",
-      "identity_status": "confirmed",
-      "score": 15,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本次证据支持具体生态孵化安排，但参赛规模、终端规模和计划投入未独立建立该孵化机制的可比行业地位或实施成效。其他技术事件的历史标杆标签不自动迁移，本次也不撤销其历史资格。",
-        "evidence_ids": [
-          "article:db3883a811d1abfc"
-        ]
-      },
-      "published_date": "2026-11-16",
-      "insight": "这项计划把鸿蒙对高校开发者的支持从竞赛和开发工具延伸到上架与市场触达，针对的是校园作品从可演示原型走向可供用户使用的产品这一衔接环节。5000万元属于未来3年的计划投入，本文没有披露具体项目获得支持或完成商业转化的结果。",
-      "financing": "",
-      "event_date": "",
-      "event_headline": "华为发布鸿蒙高校孵化计划，拟三年投入5000万元",
-      "event_signal": "material",
-      "discovery_status": "update"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "文章介绍鸿蒙智能体框架已升级至2.0，HarmonyOS 7向开发者开放20多项系统级AI能力，支持通过Skill、A2A等方式实现应用、系统能力和智能体之间的协作，智能体可结合上下文、调用工具并协助完成任务。",
-      "article_title": "鸿蒙生态的生命力，藏在年轻人认真做的「小事」里",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/TENC0DJykvHiP4uF3Y_GoQ",
-      "sector": "操作系统与人工智能智能体",
-      "location": "广东省 / 深圳市龙岗区坂田华为基地",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "广东省 / 深圳市龙岗区坂田华为基地",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-3a4c9ae28ffec2813559bade"
-        ],
-        "subject_evidence_ids": [
-          "geo-3a4c9ae28ffec2813559bade"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "华为",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "广东省",
-          "city": "深圳市",
-          "basis_roles": [
-            "hq"
-          ],
-          "evidence_ids": [
-            "geo-3a4c9ae28ffec2813559bade"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-3a4c9ae28ffec2813559bade",
-            "source_url": "https://www.huawei.com/cn/contact-us",
-            "checked_at": "2026-10-12T03:39:57.997902+00:00",
-            "subject": "华为",
-            "role": "hq",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "广东省",
-              "city": "深圳市",
-              "address": "深圳市龙岗区坂田华为基地"
-            }
-          }
-        ]
-      },
-      "article_location": "",
-      "source": "36 氪",
-      "kind": "event",
-      "canonical_name": "华为",
-      "company_entity_id": "dr-u-82eaaba81d9dcc54deab",
-      "company_raw_name": "华为",
-      "identity_status": "confirmed",
-      "score": 50,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "当前证据支持具体操作系统及智能体平台能力观察，但未提供该框架相对同类平台的独立能力比较、采用成效或行业地位依据；历史星标不自动迁移。",
-        "evidence_ids": [
-          "article:db3883a811d1abfc"
-        ]
-      },
-      "published_date": "2026-11-16",
-      "insight": "系统能力开放让应用开发者有机会把上下文理解、工具调用和多设备协作组合进具体服务，而不必只围绕单个应用界面设计功能。文中的养老照护与视频创作作品展示了应用方向，但没有给出可将这些作品效果直接归因于框架升级的对照证据。",
-      "financing": "",
-      "event_date": "",
-      "event_headline": "据报道，鸿蒙智能体框架2.0支持系统能力与应用协作",
-      "event_signal": "material",
-      "discovery_status": "update"
     }
   ],
   "赛力斯（法人全称待核实）": [
@@ -96051,84 +95963,6 @@
       "event_date": "",
       "event_headline": "腾讯据报道与Datasection签订约12亿美元算力合同",
       "event_signal": "material",
-      "discovery_status": "update"
-    },
-    {
-      "date": "2026-11-15",
-      "title": "文章称，腾讯采购了较多H20，在内部统计算力时可能采用H20折算口径，并优先向内部业务场景供给算力，其后才对外提供云服务；正文未披露采购数量、日期或资源分配比例。",
-      "article_title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw",
-      "sector": "云计算与AI基础设施",
-      "location": "广东省 / 深圳市",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "广东省 / 深圳市",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-f0dd358a005c311ace000ba1"
-        ],
-        "subject_evidence_ids": [
-          "geo-f0dd358a005c311ace000ba1"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "腾讯",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "广东省",
-          "city": "深圳市",
-          "basis_roles": [
-            "hq"
-          ],
-          "evidence_ids": [
-            "geo-f0dd358a005c311ace000ba1"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-f0dd358a005c311ace000ba1",
-            "source_url": "https://www.tencent.com/zh-cn/company.html",
-            "checked_at": "2026-10-20T01:37:59.034782+00:00",
-            "subject": "腾讯",
-            "role": "hq",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "广东省",
-              "city": "深圳市"
-            }
-          }
-        ]
-      },
-      "article_location": "",
-      "source": "晚点 LatePost",
-      "kind": "event",
-      "canonical_name": "腾讯",
-      "company_entity_id": "dr-u-53874092e000069bfeda",
-      "company_raw_name": "腾讯",
-      "identity_status": "confirmed",
-      "score": 35,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "既有已审材料尚未建立全国标杆资格；本条新增采购型号和配置顺序，但没有独立可比的行业领先地位证据，不据腾讯知名度或GPU采购自动授予标签。",
-        "evidence_ids": [
-          "accepted_history:59dc6ca7d0fb2528",
-          "accepted_history:95cf6466966a4cc6",
-          "article_body:ee4935d7a5dad12a"
-        ]
-      },
-      "published_date": "2026-11-15",
-      "insight": "采购型号与内部使用优先级共同影响可对外提供的算力，但内部统计采用何种折算单位，不足以比较各家实际训练能力；还需对应硬件配置、任务和利用率。",
-      "financing": "",
-      "event_date": "",
-      "event_headline": "腾讯据报道采购H20并将算力优先用于内部场景",
-      "event_signal": "context",
       "discovery_status": "update"
     }
   ],
@@ -119302,6 +119136,93 @@
       "event_headline": "百度披露ApolloWorld，已用于萝卜快跑交互式仿真测试",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "文章称，百度萝卜快跑在武汉投放上千辆无人出租车，方向盘后不再配备安全员，全球累计订单超过2000万单；未注明上述运营数据的统计截止日期。",
+      "article_title": "年轻人干掉驾校，巨大的连锁反应开始了",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/x42e8HCZtTI7Jr6_DjaBnQ",
+      "sector": "自动驾驶／无人出租车",
+      "location": "北京市 / 海淀区 / 上地十街10号百度大厦",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区 / 上地十街10号百度大厦",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-8e68576ea39ba577aacd8cb4"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "百度",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8e68576ea39ba577aacd8cb4",
+            "source_url": "https://home.baidu.com/home/index/contact_us",
+            "checked_at": "2026-10-20T02:39:18.938225+00:00",
+            "subject": "百度",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "上地十街10号百度大厦"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-8e68576ea39ba577aacd8cb4"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "百度",
+      "company_entity_id": "dr-u-455ece81de5605d85e54",
+      "company_raw_name": "百度",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "萝卜快跑",
+          "relation": "product",
+          "evidence": "百度萝卜快跑在武汉投放上千辆"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条提供具体部署与使用规模，但没有独立可比的行业覆盖、市场地位、安全表现或经营效率证据，不能仅凭上千辆部署和累计订单授予全国标杆资格；不影响本运营线索进入正面日报。",
+        "evidence_ids": [
+          "article_body:59ea58106d9b6119"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "车内驾驶位不再配备安全员，体现了无人出租车服务与依赖驾驶员监督的组合驾驶辅助之间的运营差异。武汉投放规模与全球累计订单分别描述单城部署和跨地区服务使用情况，不能将全球订单全部归于武汉，也不能据此认定无人驾驶导致年轻人减少学车。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "百度萝卜快跑据报道在武汉投放上千辆无人出租车",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "物原科技": [
@@ -135058,6 +134979,95 @@
       "event_headline": "智元发布Genie Master，在便利店实测失败诊断与经验复用",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "11月11日，智元发布终身具身智能框架LIFE，将持续感知、长期记忆和能力复用结合，使机器人在任务间隔期持续获取环境信息，并利用历史记录辅助后续决策。智元披露，在FindingDory的597个查询测试中，复用已有工具与技能使任务成功率从37.5%提升至65.8%。相关论文、代码及RoboBeats系列模型权重已开放。",
+      "article_title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+      "sector": "具身智能",
+      "location": "上海市 / 浦东新区 / 康桥镇环桥路1001号B2智元大楼",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 浦东新区 / 康桥镇环桥路1001号B2智元大楼",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-59a2f26ee25f7794a4a62c35"
+        ],
+        "subject_evidence_ids": [
+          "geo-3585c57ab3dcde71c2c99414"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "智元",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-3585c57ab3dcde71c2c99414"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-59a2f26ee25f7794a4a62c35",
+            "source_url": "https://www.agibot.com.cn/",
+            "checked_at": "2026-10-26T00:32:11.541314+00:00",
+            "subject": "智元",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "浦东新区",
+              "address": "康桥镇环桥路1001号B2智元大楼"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "浦东新区",
+          "evidence_ids": [
+            "geo-59a2f26ee25f7794a4a62c35"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "智元",
+      "company_entity_id": "dr-u-620e30b380b5c91e16a2",
+      "company_raw_name": "智元",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本包足以支持具体框架发布、企业自述测试和开放材料进展，但未建立智元在该方向的独立行业领先地位或提供已审全国标杆依据；不因机器人行业身份和单项测试自动授予标杆资格。",
+        "evidence_ids": [
+          "article_body:89cbdab615245430"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "LIFE尝试让机器人把任务间隔期获得的信息留给后续任务使用，改变每次任务重新获取上下文的工作方式；已披露测试支持记忆和技能复用对该查询任务的价值，尚不能外推所有机器人场景。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "智元发布LIFE框架，让机器人跨任务利用记忆",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "深圳市瑞德制药": [
@@ -147965,88 +147975,6 @@
       "event_headline": "国星宇航启动港股招股，预计11月13日挂牌",
       "event_signal": "major",
       "discovery_status": "update"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "烯牛数据11月16日周报将国星宇航列为11月9日至15日在港股上市的企业之一，新增已上市的阶段结果；本次正文未提供确切挂牌日、发行规模或募资到账情况。",
-      "article_title": "英伟达、软银5亿美元投了家机器人公司；台积电下场做VC | 烯牛周报",
-      "event_type": "IPO",
-      "link": "https://mp.weixin.qq.com/s/57FQRtHCNdN8qif_HLPs3w",
-      "sector": "",
-      "location": "四川省 / 成都市",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "四川省 / 成都市",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-6a0c0001013b7a49354553bf"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "成都国星宇航科技股份有限公司",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-6a0c0001013b7a49354553bf",
-            "source_url": "https://mp.weixin.qq.com/s/W11YP-bqnyjO5jOf8fM4VQ",
-            "checked_at": "2026-11-08T17:10:43.454772+00:00",
-            "subject": "成都国星宇航科技股份有限公司",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "四川省",
-              "city": "成都市"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "四川省",
-          "city": "成都市",
-          "evidence_ids": [
-            "geo-6a0c0001013b7a49354553bf"
-          ]
-        }
-      },
-      "article_location": "",
-      "source": "烯牛数据",
-      "kind": "event",
-      "canonical_name": "成都国星宇航科技股份有限公司",
-      "company_entity_id": "dr-u-f4d01d2cc1cfbf178962",
-      "company_raw_name": "国星宇航",
-      "identity_status": "confirmed",
-      "score": 15,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "复用历史已审结论：AI卫星收入与待交付合同支持具体商业化背景，但没有独立可比的行业份额、技术领先性或交付表现依据；新增上市节点不足以建立全国标杆资格。",
-        "evidence_ids": [
-          "accepted_history:9aee2956d971dd00",
-          "prior_decision:fe02d7e358d9f1d0",
-          "article:6364d3f2bf24cf4f"
-        ]
-      },
-      "published_date": "2026-11-16",
-      "event_identity": {
-        "canonical_id": "文章将国星宇航列为上周在港股上市的六家企业之一，未提供具体上市日期、技术业务及发行信息。"
-      },
-      "insight": "结合历史已披露的AI智算卫星收入及待交付订单，本次上市报道为其卫星业务商业化后的资本成长提供阶段增量；不意味着新增订单、交付完成或技术领先。",
-      "financing": "",
-      "event_date": "",
-      "event_headline": "国星宇航据报道于11月9日至15日在港股上市",
-      "event_signal": "major",
-      "discovery_status": "update"
     }
   ],
   "晶奕集成": [
@@ -151622,6 +151550,66 @@
       "discovery_status": "first_seen"
     }
   ],
+  "TCL中环": [
+    {
+      "date": "2026-11-15",
+      "title": "文章称，TCL科技旗下TCL中环已打通光伏“硅片—电池—组件”全产业链，2026年前三季度光伏硅片出货83.4GW，市场占有率位居行业第一。",
+      "article_title": "对话TCL科技CEO王成：AI时代，显示产业要争夺定义权",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/bZlG-Ub4ZlJpbmE3JRP-OA",
+      "sector": "光伏制造",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "TCL中环",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "TCL中环",
+      "company_entity_id": "dr-u-3264d79fc0b1039ff98e",
+      "company_raw_name": "TCL中环",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "TCL科技",
+          "relation": "subsidiary",
+          "evidence": "TCL科技旗下的TCL中环，已打通光伏“硅片—电池—组件”全产业链。"
+        }
+      ],
+      "score": 0,
+      "is_national_star": true,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "本候选正文明确提供TCL中环光伏硅片市场占有率行业第一的地位依据，并给出前三季度83.4GW出货及硅片—电池—组件产业链覆盖，可作为杭州光伏制造企业比较规模化供给与业务延伸的具体参照。此为独立产业标杆判断，不代表杭州主体或自动取得领导简报资格。",
+        "evidence_ids": [
+          "article_body:357006ca1d45e194"
+        ]
+      },
+      "published_date": "2026-11-15",
+      "insight": "出货数据体现TCL中环在光伏硅片供给环节的产业规模，全产业链布局则扩展了其产品覆盖。它提供的是绿色电力设备制造基础，文中没有具体AI数据中心项目或客户事实，不能将出货直接归因为AI需求。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "TCL中环前三季度光伏硅片出货83.4GW",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
   "比亚迪集团": [
     {
       "date": "2026-11-15",
@@ -152565,71 +152553,269 @@
       "discovery_status": "first_seen"
     }
   ],
-  "北京清析智研科技有限公司": [
+  "美团": [
     {
-      "date": "2026-11-16",
-      "title": "清析智研宣布完成近亿元天使轮融资，公司称融资后将继续推进模型迭代与产业客户拓展。公司披露成立不到半年累计签约订单数千万元，已与一家头部智能终端客户签署材料全栈委托研发订单；新一代稀土永磁材料正推进中试转化，计划在北京建设中试基地，目标2027年实现量产。",
-      "article_title": "AI4S初创公司清析智研宣布完成近亿元融资，中芯聚源、高瓴、智元参投_材料_机器人_客户",
-      "event_type": "融资",
-      "link": "https://www.sohu.com/a/1099206314_130887",
-      "sector": "AI for Science（人工智能辅助科学研发）/AI材料研发",
-      "location": "北京市",
+      "date": "2026-11-15",
+      "title": "美团开源LongCat-2.5，采用MIT协议，支持商用推理部署及二次训练，无需额外授权。模型面向长程智能体任务，总参数1.6万亿，每个token激活约480亿参数，支持一百万上下文。正文称其在复杂代码库开发、完整项目构建、Visual Coding和专业办公方面提升，并对显存、带宽受限的国产芯片开展架构、适配和部署协同优化。",
+      "article_title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+      "sector": "多模态基础模型与AI智能体",
+      "location": "地点待核",
       "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "北京市",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-7008be114c2a9e7dbdd0edd7"
-        ],
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
         "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "北京清析智研科技有限公司",
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "美团",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": [
-          {
-            "evidence_id": "geo-7008be114c2a9e7dbdd0edd7",
-            "source_url": "https://www.sohu.com/a/1046642039_114984",
-            "checked_at": "2026-11-12T18:09:04.798979+00:00",
-            "subject": "北京清析智研科技有限公司",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "北京市",
-              "city": "北京市"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "北京市",
-          "city": "北京市",
-          "evidence_ids": [
-            "geo-7008be114c2a9e7dbdd0edd7"
-          ]
-        }
+        "basis": []
       },
-      "article_location": "企业注册地及主要总部未核实；公司计划在北京建设中试基地",
-      "source": "www.sohu.com",
+      "article_location": "",
+      "source": "创业邦",
       "kind": "event",
-      "canonical_name": "北京清析智研科技有限公司",
-      "company_entity_id": "dr-u-0567d40cc85e443eb283",
-      "company_raw_name": "清析智研",
+      "canonical_name": "美团",
+      "company_entity_id": "dr-u-cd6362472aea60ef45d5",
+      "company_raw_name": "美团",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持具体开源及部署适配进展，但未提供足以确立主体行业标杆地位的同条件比较、客户应用或独立评测依据；参数规模与企业知名度不能替代该资格证明。",
+        "evidence_ids": [
+          "article_body:89cbdab615245430"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "MIT授权降低了商用部署和二次训练的授权约束，长上下文与国产芯片适配则面向复杂项目中的信息容纳及运行条件；具体端到端交付提升仍需由任务测试解释。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "美团开源LongCat-2.5，支持商用与百万上下文",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "思灵机器人": [
+    {
+      "date": "2026-11-15",
+      "title": "周报称，智能机器人系统研发商思灵机器人宣布完成34.05亿元人民币F轮融资，为本周期国内AI融资事件中披露金额最高者。正文未提供投资方、资金用途或对应产品信息。",
+      "article_title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+      "sector": "智能机器人",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "思灵机器人",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "思灵机器人",
+      "company_entity_id": "dr-u-eb9ed70b72fd7f80307e",
+      "company_raw_name": "思灵机器人",
+      "identity_status": "unresolved",
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文仅证明机器人系统研发业务及本周期国内AI融资披露金额居首；未提供技术竞争地位、产品应用或可供杭州对标的独立能力依据，单次融资排名不足以建立全国标杆资格。",
+        "evidence_ids": [
+          "article_body:89cbdab615245430"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "融资完成构成机器人系统研发企业的资本成长节点；目前可解释的变化是新增资本支持，不能进一步指定将用于何种产品或产能。",
+      "financing": "完成F轮融资，金额34.05亿元人民币；投资方和用途未披露。",
+      "event_date": "",
+      "event_headline": "思灵机器人宣布完成34.05亿元F轮融资",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "中马园林": [
+    {
+      "date": "2026-11-15",
+      "title": "中马园林的园林电动产品新厂区于2026年8月正式投产。文章预计，该厂区到2026年底可为企业增产5000万元；锂电链锯、修枝剪、吹风机、割草机等系列新品接连下线，多项技术获得专利授权。企业正从传统燃油园林机械向锂电化、智能化方向转型，原文同时称其维持了全球多个国家的销售网络。",
+      "article_title": "中马集团总裁阮思群：稳住前人基业，更要稳住浙商的一股气",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/0j-uffIngY1huBbXE7l0tA",
+      "sector": "电动园林工具",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "中马园林",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "浙商杂志",
+      "kind": "event",
+      "canonical_name": "中马园林",
+      "company_entity_id": "dr-u-9260f24d39e23eadfa65",
+      "company_raw_name": "中马园林",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原文支持制造扩展和电动产品转型，但未建立中马园林自身的全国行业领先地位、相对竞争优势或足以授予全国标杆资格的独立依据；其他集团投资企业的行业地位不能移用于本主体。",
+        "evidence_ids": [
+          "article_body:dda54a421e832cb9"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "新厂区投产与多类锂电产品下线，使电动化转型有了具体制造载体，而不只是产品规划。企业原有的多国销售网络为新品提供了渠道基础，下一步有辨别力的观察是这些渠道实际销售哪些电动产品，而非将预计增产额直接视为销售成果。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "中马园林2026年8月投产电动产品新厂区",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "青岛海汇德电气有限公司": [
+    {
+      "date": "2026-11-15",
+      "title": "文章称，青岛海汇德电气有限公司拥有百余项专利，构建了包括智能功率调度、兆瓦级大功率充电系统、自动充电系统和充电运营管理平台在内的全栈服务体系，覆盖公交、重卡、矿山、港口等充电场景。目前在全国建成大型充电场站一万余座，其中2兆瓦以上充电站超5000座，矿卡充电案例超200个，月充电量近6亿度；文章称其月充电量稳居桩企第一，销售、利润连续五年保持30%以上增长。上述部署、充电量及增长数字均为本文披露口径，原文未列明具体统计截止日期、五年起止年份或排名依据。",
+      "article_title": "中马集团总裁阮思群：稳住前人基业，更要稳住浙商的一股气",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/0j-uffIngY1huBbXE7l0tA",
+      "sector": "大功率充电与商用车能源补给",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "青岛海汇德电气有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "浙商杂志",
+      "kind": "event",
+      "canonical_name": "青岛海汇德电气有限公司",
+      "company_entity_id": "dr-u-cbe9a31421e2202eff31",
+      "company_raw_name": "青岛海汇德电气有限公司",
       "identity_status": "unresolved",
       "identity_mentions": [
         {
-          "name": "清析智研",
+          "name": "海汇德",
           "relation": "same_entity",
-          "evidence": "北京清析智研科技有限公司（以下简称“清析智研”）"
+          "evidence": "青岛海汇德电气有限公司则是中马在新能源赛道投资成功的一支“奇兵”。这家国家级专精特新重点“小巨人”企业"
+        }
+      ],
+      "score": 10,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体产品体系与部署案例足以支持产业观察，但行业地位尚无充分独立依据。报道虽称月充电量稳居桩企第一，却未交代比较范围、统计期间或排名来源，不能据此确认全国标杆资格。",
+        "evidence_ids": [
+          "article_body:dda54a421e832cb9"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "其产品组合把充电功率设备、场站功率分配和运营管理连接起来，服务对象也从一般车辆补能延伸到重卡、矿卡等高负荷作业场景。文章披露的大功率场站及矿卡案例表明，值得研究的是这些环节如何协同支撑现场作业，而不只是单台充电设备功率有多高。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "海汇德披露大功率充电系统及多场景部署规模",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "浙江硅基方舟机器人有限公司": [
+    {
+      "date": "2026-11-15",
+      "title": "11月12日下午，浙江硅基方舟机器人有限公司负责打造的逗客能量站杭州奥体旗舰店正式开业，同期举行AIE-AgentOS发布活动。站点配置6台机器人，搭载文章所称全栈自研的AIE-AgentOS操作系统与星运Embwork2.0平台，提供点单交互、商品抓取递送及游客互动服务。现场展示了游客以语音提出饮料需求后，机器人完成推荐、下单交互和商品递送的过程。据公司介绍，站点自9月底试营业，系统根据一个多月的现场问题反馈从1.0迭代至2.0；平台设置在岗时长、主动服务次数、任务完成率、人工接管率等效能指标，并支持通过App或Web端下发调度、表演和互动任务。",
+      "article_title": "机器人转正！奥体“逗客能量站”开业",
+      "event_type": "机器人系统发布与零售站点开业",
+      "link": "https://mp.weixin.qq.com/s/diBpblyrRytT_xL8QK6vVA",
+      "sector": "具身智能／机器人零售服务",
+      "location": "地点线索：杭州市滨江区（正文明确称其为“滨江企业”，未注明注册地或总部地址）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "浙江硅基方舟机器人有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "杭州市滨江区（正文明确称其为“滨江企业”，未注明注册地或总部地址）",
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "浙江硅基方舟机器人有限公司",
+      "company_entity_id": "dr-u-6312f278b03447a2b83c",
+      "company_raw_name": "浙江硅基方舟机器人有限公司",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "硅基方舟",
+          "relation": "same_entity",
+          "evidence": "硅基方舟资本与生态总监张辰表示"
+        },
+        {
+          "name": "逗客能量站",
+          "relation": "product",
+          "evidence": "“逗客能量站”由滨江环境公司牵头，滨江企业浙江硅基方舟机器人有限公司负责打造"
         }
       ],
       "score": 50,
@@ -152637,295 +152823,28 @@
       "benchmark_review": {
         "status": "not_qualified",
         "eligible": false,
-        "reason": "当前证据支持融资、研发服务签约及中试推进，但未建立其行业领先地位或经验证的性能、交付优势；其他公司的行业案例不能转为本主体的标杆依据。",
+        "reason": "现有证据支持具体机器人零售应用和系统迭代，但未建立本主体全国行业地位、可比领先表现或规模化复制优势；投资方背景不等于本主体具备全国标杆资格。",
         "evidence_ids": [
-          "article_body:50eee451148bec79"
+          "article_body:7dfe5fb65c6d157d"
         ]
       },
-      "insight": "清析智研值得观察的不是单独出售材料预测模型，而是把模型、实验设备和委托研发连接起来：设备执行实验并采集真实材料数据，项目提出具体材料需求，数据再回流用于模型优化。面向人形机器人关节电机的永磁材料联合开发，将研发目标落到小体积、大扭矩和耐高温要求上，使模型能力有了具体应用对象。下一步研究应比较样品磁性能、耐温表现与中试批次一致性，判断这种研发路径能否转化为可稳定供给的材料。智元机器人参投已获披露，但其是否同时参与联合研发或采购仍需单独确认。",
-      "financing": "公司宣布完成近亿元天使轮融资，投资方包括中芯聚源、高瓴创投、智元机器人、风物资本、东方嘉富及多家产业背景基金，多维资本担任财务顾问。今年7月曾宣布完成由鼎峰科创独家投资的首轮数千万元融资；两轮资金关系及本轮估值未披露。",
-      "event_date": "",
-      "event_headline": "清析智研宣布完成近亿元天使轮融资，推进材料研发",
-      "event_signal": "material",
-      "discovery_status": "first_seen"
-    }
-  ],
-  "苏州纳芯微电子股份有限公司": [
-    {
-      "date": "2026-11-17",
-      "title": "纳芯微公告拟以现金4.869亿元收购宁波隔空智能科技有限公司78.1520%的股权，完成后将其纳入合并报表。标的产品覆盖多个微波及毫米波频段，其中5.8GHz、10.5GHz、24GHz和60GHz产品已规模化量产，首颗77GHz雷达SoC已完成研发，处于国内头部客户导入阶段，尚未量产。纳芯微计划整合标的在雷达传感及低功耗模拟前端方面的研发积累，并利用双方客户资源开展交叉销售。交易未设置业绩对赌条款。",
-      "article_title": "刚刚，纳芯微宣布，收购隔空智能！",
-      "event_type": "并购",
-      "link": "https://mp.weixin.qq.com/s/B34HNGkPpg7XTkOGMku09g",
-      "sector": "模拟芯片与雷达传感芯片",
-      "location": "地点待核",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "苏州纳芯微电子股份有限公司",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "article_location": "",
-      "source": "半导体行业观察",
-      "kind": "event",
-      "canonical_name": "苏州纳芯微电子股份有限公司",
-      "company_entity_id": "dr-u-f0e92ce64de4e0eb8547",
-      "company_raw_name": "苏州纳芯微电子股份有限公司",
-      "identity_status": "unresolved",
-      "score": 50,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "正文证明具体并购安排和技术互补，但未建立纳芯微在相关细分领域的可比行业地位；交易规模及产品布局不能单独授予全国标杆资格。",
-        "evidence_ids": [
-          "article:8ad3ffa6ffe913f9"
-        ]
-      },
-      "published_date": "2026-11-16",
-      "insight": "此次拟收购的价值不只在于增加雷达芯片品类，还在于把隔空智能已有量产产品、射频技术与纳芯微的电源管理及信号链能力组合，为面向客户提供多芯片配套方案创造条件。非车载产品已有量产基础，但77GHz车载产品仍在客户导入期，因此交易同时包含成熟产品补位和后续车载研发商业化两条不同进度的路径。",
-      "financing": "收购对价拟以自有资金及自筹资金支付，并拟申请不超过3.5亿元、期限不超过10年的并购贷款。截至2026年9月30日，货币资金和交易性金融资产合计约26.7亿元；公司模拟测算使用并购贷款后资产负债率约为28.77%。",
-      "event_date": "",
-      "event_headline": "纳芯微拟斥资4.869亿元控股隔空智能，补充雷达芯片布局",
-      "event_signal": "major",
-      "discovery_status": "first_seen"
-    }
-  ],
-  "华玮芯智科技": [
-    {
-      "date": "2026-11-17",
-      "title": "文章披露，上海国投上周投资了人工智能与集成电路服务商华玮芯智科技，未披露本次投资金额、轮次及资金用途。",
-      "article_title": "英伟达、软银5亿美元投了家机器人公司；台积电下场做VC | 烯牛周报",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/57FQRtHCNdN8qif_HLPs3w",
-      "sector": "人工智能与集成电路服务",
-      "location": "地点待核",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "华玮芯智科技",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "article_location": "",
-      "source": "烯牛数据",
-      "kind": "event",
-      "canonical_name": "华玮芯智科技",
-      "company_entity_id": "dr-u-efcee8a0a8e8f3739f86",
-      "company_raw_name": "华玮芯智科技",
-      "identity_status": "unresolved",
-      "score": 50,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "原文证明技术服务定位和获投事实，但未提供行业地位、差异化能力或可供杭州具体对标的领先性依据。",
-        "evidence_ids": [
-          "article:6364d3f2bf24cf4f"
-        ]
-      },
-      "published_date": "2026-11-16",
-      "insight": "本次投资是人工智能与集成电路服务企业的资本成长线索；文章尚未展开其具体工具、服务环节和客户任务，现阶段适合作为定向研究入口。",
-      "financing": "投资方包括上海国投；金额、轮次及用途未披露。",
-      "event_date": "",
-      "event_headline": "华玮芯智科技获上海国投投资，轮次金额未披露",
-      "event_signal": "material",
-      "discovery_status": "first_seen"
-    }
-  ],
-  "通济泽康": [
-    {
-      "date": "2026-11-17",
-      "title": "文章披露，上海国投上周投资了生物科技研发服务商通济泽康，未披露投资金额、轮次及资金用途。",
-      "article_title": "英伟达、软银5亿美元投了家机器人公司；台积电下场做VC | 烯牛周报",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/57FQRtHCNdN8qif_HLPs3w",
-      "sector": "生物科技研发服务",
-      "location": "地点待核",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "通济泽康",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "article_location": "",
-      "source": "烯牛数据",
-      "kind": "event",
-      "canonical_name": "通济泽康",
-      "company_entity_id": "dr-u-ae4f97a7b36f8c673a79",
-      "company_raw_name": "通济泽康",
-      "identity_status": "unresolved",
-      "score": 40,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "获投与研发服务定位尚不足以建立行业领先性或独立对标价值，原文没有服务能力、客户验证或行业地位的具体比较证据。",
-        "evidence_ids": [
-          "article:6364d3f2bf24cf4f"
-        ]
-      },
-      "published_date": "2026-11-16",
-      "insight": "融资将这家生物科技研发服务商带入可研究的资本成长线索，但其承担研发链条中的哪项工作，仍需从具体服务和项目案例辨别。",
-      "financing": "投资方包括上海国投；金额、轮次及用途未披露。",
-      "event_date": "",
-      "event_headline": "通济泽康获上海国投投资，聚焦生物科技研发服务",
-      "event_signal": "material",
-      "discovery_status": "first_seen"
-    }
-  ],
-  "耐维思生物": [
-    {
-      "date": "2026-11-17",
-      "title": "文章披露，上海国投上周投资了AI驱动抗体偶联药物研发商耐维思生物，未披露投资金额、轮次及资金用途。",
-      "article_title": "英伟达、软银5亿美元投了家机器人公司；台积电下场做VC | 烯牛周报",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/57FQRtHCNdN8qif_HLPs3w",
-      "sector": "人工智能制药",
-      "location": "地点待核",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "耐维思生物",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "article_location": "",
-      "source": "烯牛数据",
-      "kind": "event",
-      "canonical_name": "耐维思生物",
-      "company_entity_id": "dr-u-c1a89d0b126303c49e37",
-      "company_raw_name": "耐维思生物",
-      "identity_status": "unresolved",
-      "score": 50,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "原文提供具体研发方向和投资事实，但没有AI技术效果、药物管线验证、行业地位或可支持全国标杆认定的比较证据。",
-        "evidence_ids": [
-          "article:6364d3f2bf24cf4f"
-        ]
-      },
-      "published_date": "2026-11-16",
-      "insight": "企业将AI用于抗体偶联药物研发，即通过抗体把药物送向目标细胞的药物开发方向。此次投资提供了资本成长节点，后续研究应聚焦AI实际参与的设计环节及对应候选药物进展。",
-      "financing": "投资方包括上海国投；金额、轮次及用途未披露。",
-      "event_date": "",
-      "event_headline": "耐维思生物获上海国投投资，研发AI驱动抗体偶联药物",
-      "event_signal": "material",
-      "discovery_status": "first_seen"
-    }
-  ],
-  "宝马": [
-    {
-      "date": "2026-11-18",
-      "title": "据创业邦转述新浪科技报道，宝马新世代车型已在沈阳生产基地正式投产，并计划于2026年11月陆续开启客户交付。该条小标题使用BMW iX3L，正文使用BMW iX3，具体型号命名关系尚未确认。",
-      "article_title": "蔚来：有网络传言抹黑公司财务经营情况，已报案；小米辟谣汽车召回短信丨汽车交通日报",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/GAD9ozdUTtY_G8-PsyzzPw",
-      "sector": "新能源汽车",
-      "location": "地点待核",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "宝马",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "article_location": "",
-      "source": "创业邦",
-      "kind": "event",
-      "canonical_name": "宝马",
-      "company_entity_id": "dr-u-e5695af6f033f56efa80",
-      "company_raw_name": "宝马",
-      "identity_status": "unresolved",
-      "score": 40,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本条证明制造节点，未提供该生产体系的独立效率、工艺或同业比较依据，不能仅凭宝马知名度及投产授予标杆资格。",
-        "evidence_ids": [
-          "article:7d24ff6fe12dc098"
-        ]
-      },
-      "published_date": "2026-11-17",
-      "event_identity": {
-        "canonical_id": "报道标题称首款国产BMW iX3L正式投产，正文称首款国产BMW iX3在宝马沈阳生产基地正式投产，宝马新世代车型在中国开启量产，并称新车将于本月陆续开启客户交付。"
-      },
-      "insight": "新世代车型在沈阳投产，使其在华推进进入本地制造阶段，报道所述客户交付仍是本月安排。对产业对标更有意义的是新车型如何接入现有生产体系，而不是将投产直接解释为市场接受度已获验证。",
+      "published_date": "2026-11-13",
+      "insight": "硅基方舟把机器人能力组织成点单、取送和互动等具体零售岗位，并通过现场试营业推动系统迭代，产品重心由单机展示转向站点服务。岗位效能指标使业主能够评价服务表现；下一步最有辨别力的是高客流时段的任务完成率与人工接管记录，以判断现场闭环能否稳定运行。",
       "financing": "",
       "event_date": "",
-      "event_headline": "宝马新世代车型据报道已在沈阳投产，计划2026年11月陆续交付",
-      "event_signal": "major",
+      "event_headline": "硅基方舟发布机器人系统并开业奥体零售站",
+      "event_signal": "material",
       "discovery_status": "first_seen"
     }
   ],
-  "哈啰Robotaxi": [
+  "Fireworks AI": [
     {
-      "date": "2026-11-18",
-      "title": "据报道，哈啰Robotaxi完成约1亿美元融资，由上海国投先导基金领投，投后估值接近30亿美元，报道折合约人民币200亿元。资金主要投向研发团队、万卡级算力平台、端到端模型及数据建设。",
-      "article_title": "蔚来：有网络传言抹黑公司财务经营情况，已报案；小米辟谣汽车召回短信丨汽车交通日报",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/GAD9ozdUTtY_G8-PsyzzPw",
-      "sector": "自动驾驶与无人驾驶出租车",
+      "date": "2026-11-15",
+      "title": "乔琳在对话中表示，Fireworks平台95%的流量来自定制模型。公司将训练和推理放在同一平台，支持企业结合自有数据与开放模型开展后训练及部署；目前适配8种英伟达硬件型号和3种AMD硬件型号。文章称其为Cursor、Uber、DoorDash和Shopify等企业提供推理服务与基础设施，但未披露各客户采用定制模型的具体情况。",
+      "article_title": "当AI应用越来越好抄，估值175亿美元的Fireworks靠什么建立护城河？丨CEO深度对话",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/BcP43zM1HB5mITi87tO-lA",
+      "sector": "人工智能基础设施与模型定制",
       "location": "地点待核",
       "geography": {
         "geography_status": "unknown",
@@ -152936,7 +152855,7 @@
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "哈啰Robotaxi",
+        "subject": "Fireworks AI",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
@@ -152948,78 +152867,148 @@
       "article_location": "",
       "source": "创业邦",
       "kind": "event",
-      "canonical_name": "哈啰Robotaxi",
-      "company_entity_id": "dr-u-7efce7e153cd0488e7c0",
-      "company_raw_name": "哈啰Robotaxi",
+      "canonical_name": "Fireworks AI",
+      "company_entity_id": "dr-u-8d137c58231dbf560413",
+      "company_raw_name": "Fireworks AI",
       "identity_status": "unresolved",
-      "score": 50,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "融资规模、投后估值及研发投入方向可以支持成长观察，但缺少独立技术能力、实际运营成效或同业比较证据，尚不能建立标杆资格。",
-        "evidence_ids": [
-          "article:7d24ff6fe12dc098"
-        ]
-      },
-      "published_date": "2026-11-17",
-      "insight": "本轮融资为哈啰Robotaxi建设模型、数据和训练算力提供资金，投入方向指向无人驾驶研发体系而非单纯增加运营车辆。其后续值得辨别的变化是这些研发投入将支持什么运行场景和车辆能力。",
-      "financing": "完成约1亿美元融资；上海国投先导基金领投；投后估值接近30亿美元，报道折合约人民币200亿元；资金主要投向研发团队、万卡级算力平台、端到端模型及数据建设。",
-      "event_date": "",
-      "event_headline": "哈啰Robotaxi获约一亿美元融资，拟投入模型与算力建设",
-      "event_signal": "major",
-      "discovery_status": "first_seen"
-    }
-  ],
-  "拼多多雄安公司": [
-    {
-      "date": "2026-11-18",
-      "title": "据文章，拼多多于2026年5月在雄安注册设立子公司，落地传统产业数据处理服务中心和传统制造高质量发展综合服务中心，首期注资5亿元；6月购置一栋12层办公楼，7月底全员搬入，到9月员工规模突破5000人，超八成来自京津冀地区，99%为外部招募的新员工。雄安团队承担服装商品图片标注，将素材整理成算法训练数据，支撑针对线上服饰展示问题的“试衣镜”项目，该项目于2026年9月进入用户测试阶段。两大中心还承担商家资质审核、合规治理及制造企业市场和运营服务。",
-      "article_title": "拼多多把「新质车间」搬进雄安",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/9okrD6g0K6UcLteDgBJ1Dw",
-      "sector": "电商数字服务与产业数字化",
-      "location": "地点线索：河北雄安新区（原文明示子公司注册地及办公经营地，不代表拼多多集团总部所在地）",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "拼多多雄安公司",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "article_location": "河北雄安新区（原文明示子公司注册地及办公经营地，不代表拼多多集团总部所在地）",
-      "source": "36 氪",
-      "kind": "event",
-      "canonical_name": "拼多多雄安公司",
-      "company_entity_id": "dr-u-b06e02374d87c964926d",
-      "company_raw_name": "拼多多雄安公司",
-      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Fireworks",
+          "relation": "same_entity",
+          "evidence": "今天的对话嘉宾是Lin Qiao（乔琳），围绕AI推理，她打造了一家估值40亿美元的公司——Fireworks AI。"
+        }
+      ],
       "score": 35,
       "is_national_star": false,
       "benchmark_review": {
         "status": "not_qualified",
         "eligible": false,
-        "reason": "中心落地和数据标注支撑产品测试具有案例价值，但未建立该子公司的独立行业地位、技术领先性或可比较成效；不能继承拼多多集团知名度取得全国标杆资格。",
+        "reason": "原文提供平台技术路径、公司自述使用结构及客户案例，可支持产业观察；但没有独立核实的行业位置或可比竞争表现，尚不足以授予全国标杆资格。地点未知，也不能据此认定其为外地或全国企业。",
         "evidence_ids": [
-          "article:77cafce97cd35090"
+          "article_body:3a4cf3aa85df30e7"
         ]
       },
-      "published_date": "2026-11-17",
-      "insight": "雄安团队已不只是承接平台后台事务，其图片标注产出直接支撑“试衣镜”进入用户测试，形成了从本地数据加工到平台产品开发的具体联系。两大中心展示了平台如何把数据处理、审核和商家服务组织成异地作业单元；能否进一步改变制造端决策，还需看到中心服务具体企业的实施结果。",
+      "published_date": "2026-11-14",
+      "insight": "95%的平台流量来自定制模型，说明按公司披露，其服务重心已落在应用专属模型，而不只是通用模型调用。训练与推理一体化有助于衔接模型调整和上线运行，但客户私有数据形成的差异化，并不自动等于Fireworks自身不可替代；关键还在于平台能否持续降低模型更新与部署的复杂度。",
       "financing": "",
       "event_date": "",
-      "event_headline": "拼多多雄安公司两大中心落地，标注团队支撑试衣镜用户测试",
+      "event_headline": "Fireworks披露定制模型已占平台流量95%",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "文章称，Fireworks于“今年7月”宣布完成15.05亿美元融资，估值达175亿美元；未披露本轮投资方、轮次和资金用途。",
+      "article_title": "当AI应用越来越好抄，估值175亿美元的Fireworks靠什么建立护城河？丨CEO深度对话",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/BcP43zM1HB5mITi87tO-lA",
+      "sector": "人工智能基础设施与模型定制",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Fireworks AI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Fireworks AI",
+      "company_entity_id": "dr-u-8d137c58231dbf560413",
+      "company_raw_name": "Fireworks",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原文提供具体技术业务、客户列举及融资报道，足以支持本次产业观察；但未建立经核验的行业领先地位或明确已审全国标杆资格，融资规模和客户名录不能单独授予该标签。",
+        "evidence_ids": [
+          "article_body:3a4cf3aa85df30e7"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "这笔融资是模型定制与推理基础设施企业的重要资本成长节点。Fireworks既要跟进基础模型更新，又要适配不同硬件，其竞争涉及持续的系统工程投入；本轮资金具体投向尚未披露。",
+      "financing": "据2026年11月14日报道，Fireworks于2026年7月宣布完成15.05亿美元融资，估值175亿美元；本条未披露轮次、投资方及资金用途。访谈另提40亿美元估值，对应时点不明，不作为同轮口径使用。",
+      "event_date": "",
+      "event_headline": "Fireworks融资回顾：7月宣布完成15.05亿美元融资",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "扶桑化学工业": [
+    {
+      "date": "2026-11-15",
+      "title": "据报道，扶桑化学工业向客户提供的供货说明称，尽管持续扩产，直至2030年仍无法保证超出可供货配额的订单供应。产品为面向半导体CMP的超高纯度胶体二氧化硅，旗下品牌为Quartron。文章援引日本市场资料称，公司在该细分原料市场的供应份额超过90%。公司于2026年3月决定投资400亿日元建设京都新生产设施，预计2029年2月完工，完成后相关产能将比2025财年增加20%。",
+      "article_title": "独家丨关键芯片材料，大缺货，持续到2030！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/PHCl1JwGCintyDu3svBgNQ",
+      "sector": "半导体材料—CMP磨料",
+      "location": "地点线索：日本",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "扶桑化学工业",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "日本",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "扶桑化学工业",
+      "company_entity_id": "dr-u-23656c7572eb168c33d8",
+      "company_raw_name": "日本扶桑化学工业（FUSO CHEMICAL）",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "FUSO CHEMICAL",
+          "relation": "same_entity",
+          "evidence": "日本扶桑化学工业（FUSO CHEMICAL）"
+        },
+        {
+          "name": "Quartron",
+          "relation": "product",
+          "evidence": "公司旗下Quartron品牌，主要就是面向半导体晶圆抛光市场。"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "报道提供了全球细分材料供应商的对标线索，但其超过90%的份额仅援引未具名日本市场资料，且主体仅有日本企业及京都项目表述、无已审全国标杆资格依据。本次可保留产业观察事件，不授予全国标杆标签。",
+        "evidence_ids": [
+          "article_body:f4ecbf73a164cb8c"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "扶桑化学的供货配额提示，这一细分材料的竞争不仅在于能否生产纳米颗粒，还在于能否稳定供应通过客户工艺验证的高纯材料；新厂建成不等于立即形成可用供给。第二供应商值得研究的关键，是颗粒一致性和缺陷控制能否通过下游验证，而非单看规划产能。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "据报道扶桑化学至2030年仍不保证配额外供货",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
