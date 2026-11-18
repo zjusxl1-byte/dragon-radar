@@ -1730,69 +1730,6 @@
     "web_search": 12,
     "total": 15
   },
-  "_analysis_pending": [
-    {
-      "url": "https://mp.weixin.qq.com/s/mC_NOI1cYrVPF4kBlAK6ZQ",
-      "title": "两个博士给AI当老师，年入6.7亿，估值207亿",
-      "account": "铅笔道",
-      "status": "retry_wait",
-      "reason": "local_body_read_failed",
-      "details": "本地公众号 reader 失败: local_asset_closure_missing"
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s/HYYq0PB4yzPO6Y40VGCEig",
-      "title": "三只羊在抖音恢复经营，“疯狂小杨哥”张庆杨宣布复播；苹果首款折叠屏手机预约火爆，官网排到明年发货；懂车帝辟谣删视频传闻丨邦早报",
-      "account": "创业邦",
-      "status": "retry_wait",
-      "reason": "ai_failed",
-      "details": {
-        "reason": "transport_timeout_or_unavailable",
-        "attempts": [
-          {
-            "attempt": 1,
-            "max_tokens": 32768,
-            "status": "retry_wait",
-            "reason": "transport_timeout_or_unavailable",
-            "elapsed_seconds": 180.0
-          },
-          {
-            "attempt": 2,
-            "max_tokens": 32768,
-            "status": "retry_wait",
-            "reason": "transport_timeout_or_unavailable",
-            "elapsed_seconds": 180.0
-          },
-          {
-            "attempt": 3,
-            "max_tokens": 32768,
-            "status": "retry_wait",
-            "reason": "transport_timeout_or_unavailable",
-            "elapsed_seconds": 180.0
-          }
-        ]
-      }
-    },
-    {
-      "source_kind": "web",
-      "url": "https://www.reddit.com/r/SpaceXLounge/comments/1tbdk6v/spacex_on_x_its_no_secret_that_we_intend_to?tl=zh-hans",
-      "source_url": "https://www.reddit.com/r/SpaceXLounge/comments/1tbdk6v/spacex_on_x_its_no_secret_that_we_intend_to?tl=zh-hans",
-      "title": "SpaceX在X上：“我们打算大量发射星际飞船，这不是秘密 ...",
-      "status": "analysis_review_wait",
-      "selection_recommendation": "review",
-      "reason": "实际capture原Reddit URL仅返回“Reddit”站点名，未取得正文和发布时间；原始转引不足以证明新增具体建设进展。下一步换SpaceX官方帖文或可信媒体可读正文核对原计划及报道日。",
-      "source_evidence_id": "web_pending_input:ea5c4d1c5f68df5b"
-    },
-    {
-      "source_kind": "web",
-      "url": "https://www.163.com/dy/article/L9K3O39C05118K7K.html",
-      "source_url": "https://www.163.com/dy/article/L9K3O39C05118K7K.html",
-      "title": "智能科技领域投融资周报（10月12日-10月18日）：智元机器人获得15亿人民币战略投资|投资方|研发商|互联网巨头_网易订阅",
-      "status": "analysis_review_wait",
-      "selection_recommendation": "review",
-      "reason": "已捕获10月19日网易亿欧正文，原条称AI电商；另捕获园区世界10月15日同名融资全文，称Physical AGI、杭州西湖总部及通用机器人平台，技术定位与原条矛盾。暂不猜同名主体或将机器人合同移给AI电商主体；下一步查投资方/企业官方公告，以全称、创始人与融资关系核身份后按additions逐事件合同续审。",
-      "source_evidence_id": "web_pending_input:ea5c4d1c5f68df5b"
-    }
-  ],
   "_analysis_status": "partial_retry_wait",
   "quality_review": {
     "schema_version": "dragon-overnight-review.v2",

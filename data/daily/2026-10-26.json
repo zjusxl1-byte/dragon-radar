@@ -1468,59 +1468,6 @@
     "web_search": 8,
     "total": 21
   },
-  "_analysis_pending": [
-    {
-      "url": "https://mp.weixin.qq.com/s/mC_NOI1cYrVPF4kBlAK6ZQ",
-      "title": "两个博士给AI当老师，年入6.7亿，估值207亿",
-      "account": "铅笔道",
-      "status": "retry_wait",
-      "reason": "local_body_read_failed",
-      "details": "本地公众号 reader 失败: local_asset_closure_missing"
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s/d5RWfmthiyFOcZkPIGMlLw",
-      "title": "知名具身智能公司被曝停工、欠薪 800 万，此前称拿下近10亿元订单；00后博主回应飞行滑板“假飞”；月之暗面推出Kimi K3.1 Pro丨邦早报",
-      "account": "创业邦",
-      "status": "retry_wait",
-      "reason": "ai_failed",
-      "details": {
-        "reason": "transport_timeout_or_unavailable",
-        "attempts": [
-          {
-            "attempt": 1,
-            "max_tokens": 32768,
-            "status": "retry_wait",
-            "reason": "transport_timeout_or_unavailable",
-            "elapsed_seconds": 180.01
-          },
-          {
-            "attempt": 2,
-            "max_tokens": 32768,
-            "status": "retry_wait",
-            "reason": "transport_timeout_or_unavailable",
-            "elapsed_seconds": 180.01
-          },
-          {
-            "attempt": 3,
-            "max_tokens": 32768,
-            "status": "retry_wait",
-            "reason": "transport_timeout_or_unavailable",
-            "elapsed_seconds": 180.01
-          }
-        ]
-      }
-    },
-    {
-      "source_kind": "web",
-      "url": "https://job.haut.edu.cn/module/companydetail/id-3479677/nid-6014",
-      "source_url": "https://job.haut.edu.cn/module/companydetail/id-3479677/nid-6014",
-      "title": "杭州先进编译科技有限公司郑州分公司-河南工业大学 就业信息网",
-      "status": "analysis_review_wait",
-      "selection_recommendation": "review",
-      "reason": "正文明确介绍杭州先进编译科技有限公司面向国产AI芯片厂商、大模型企业和科研机构提供编译及算力适配服务，具有直接的AI基础软件产业价值，可作为新企业发现线索。但标题涉及郑州分公司，正文介绍公司整体，未提供足以判断该主体杭州归属的地点证据，不能仅凭企业名称计入杭州地域分；现有资料也不足以认定其为全国行业标杆。暂待主体属地补证，而非因招聘来源或缺少融资排除。全文及同事件历史裁决未提供，当前不能确认是否存在新增进展或重复收录。",
-      "source_evidence_id": "web_pending_input:f63b0a86c6192b70"
-    }
-  ],
   "_analysis_status": "partial_retry_wait",
   "quality_review": {
     "schema_version": "dragon-overnight-review.v2",

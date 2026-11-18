@@ -6015,67 +6015,6 @@
     "web_search": 5,
     "total": 20
   },
-  "_analysis_pending": [
-    {
-      "url": "https://mp.weixin.qq.com/s/uFyRhjNUXdqUXYUXpasQ6w",
-      "title": "谷歌重磅发布Genie 4：这才是真正的「世界模型」",
-      "account": "36 氪",
-      "status": "retry_wait",
-      "reason": "local_body_read_failed",
-      "details": "本地公众号 reader 失败: local_asset_closure_missing"
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s/mC_NOI1cYrVPF4kBlAK6ZQ",
-      "title": "两个博士给AI当老师，年入6.7亿，估值207亿",
-      "account": "铅笔道",
-      "status": "retry_wait",
-      "reason": "local_body_read_failed",
-      "details": "本地公众号 reader 失败: local_asset_closure_missing"
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s/eTCiCWV2h6grzUTc5yEyag",
-      "title": "8点1氪：Anthropic正式提交IPO申请；寿司郎传送带被曝窜出活老鼠；苹果客服称很多客户取消iPhone Duo订单",
-      "account": "36 氪",
-      "status": "retry_wait",
-      "reason": "ai_failed",
-      "details": {
-        "reason": "transport_timeout_or_unavailable",
-        "attempts": [
-          {
-            "attempt": 1,
-            "max_tokens": 32768,
-            "status": "retry_wait",
-            "reason": "transport_timeout_or_unavailable",
-            "elapsed_seconds": 180.0
-          },
-          {
-            "attempt": 2,
-            "max_tokens": 32768,
-            "status": "retry_wait",
-            "reason": "transport_timeout_or_unavailable",
-            "elapsed_seconds": 180.0
-          },
-          {
-            "attempt": 3,
-            "max_tokens": 32768,
-            "status": "retry_wait",
-            "reason": "transport_timeout_or_unavailable",
-            "elapsed_seconds": 180.01
-          }
-        ]
-      }
-    },
-    {
-      "source_kind": "web",
-      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2026-10/30/content_9360419.htm",
-      "source_url": "https://hznews.hangzhou.com.cn/chengshi/content/2026-10/30/content_9360419.htm",
-      "title": "中国(杭州)人工智能小镇澎湃“AI第一城”核心动能 播撒“阳光雨露” 结出“硬核硕果”",
-      "status": "analysis_review_wait",
-      "selection_recommendation": "review",
-      "reason": "已提供正文片段介绍杭州余杭人工智能产业空间，并提到智能仿生手、无人配送车和具身机器人等具体应用，但未出现对应企业名称，无法确定产品所有者和企业事件主体。中国(杭州)人工智能小镇是产业空间平台，不能当作企业；区域算力及产业营收也不能归属于单家企业。正文在授牌内容处截断，尚未取得后续全文，保留为企业发现待核线索，不据此否定全文的选企价值。下一步应补读完整报道，识别产品对应企业及各自实质进展。",
-      "source_evidence_id": "web_pending_input:68b2a7dd3237484c"
-    }
-  ],
   "_analysis_status": "partial_retry_wait",
   "quality_review": {
     "schema_version": "dragon-overnight-review.v2",
