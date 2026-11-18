@@ -533,56 +533,107 @@
       }
     },
     {
-      "company_raw_name": "速卖通",
+      "company_raw_name": "字节跳动",
+      "identity_mentions": [
+        {
+          "name": "Seedance",
+          "relation": "product",
+          "evidence": "字节跳动旗下火山引擎视频生成模型Seedance"
+        }
+      ],
       "title": "TikTok Shop东南亚跨境开通海运直邮；速卖通双11潜力市场日均成交增超50%｜36氪出海·要闻回顾",
-      "company": "全球速卖通",
+      "company": "字节跳动",
       "score": 35,
-      "sector": "跨境电商与AI经营工具",
+      "sector": "生成式人工智能",
       "financing": "",
       "source": "36 氪",
-      "location": "地点待核",
-      "article_location": "",
+      "location": "北京市 / 海淀区",
+      "article_location": "北京市海淀区（复用已审同主体经营地证据，不代表注册地或主要总部）",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-eeb80ea6f0e8952ff8f4183b",
+          "geo-0bdd2570513f06e17fbf1244"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "全球速卖通",
+        "needs_review": false,
+        "next_action": null,
+        "subject": "字节跳动",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-eeb80ea6f0e8952ff8f4183b",
+            "source_url": "https://www.stcn.com/article/detail/3732485.html",
+            "checked_at": "2026-10-20T18:21:47.689511+00:00",
+            "subject": "字节跳动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          },
+          {
+            "evidence_id": "geo-0bdd2570513f06e17fbf1244",
+            "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
+            "checked_at": "2026-10-20T02:29:16.687727+00:00",
+            "subject": "字节跳动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-eeb80ea6f0e8952ff8f4183b",
+            "geo-0bdd2570513f06e17fbf1244"
+          ]
+        }
       },
-      "company_entity_id": "dr-u-5c853504e40a2369ac6f",
-      "company_canonical_name": "全球速卖通",
-      "identity_status": "unresolved",
+      "company_entity_id": "dr-u-702c213feab1671de4c5",
+      "company_canonical_name": "字节跳动",
+      "identity_status": "confirmed",
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/Uw-M-t_Nc3zcB4wXnZ97TA",
       "article_title": "TikTok Shop东南亚跨境开通海运直邮；速卖通双11潜力市场日均成交增超50%｜36氪出海·要闻回顾",
-      "event_desc": "11月11日披露的数据显示，今年双11大促前7天，全球速卖通海外潜力市场日均成交同比增长超过50%；采用AI智能经营工具托管的商家日均成交额同比增长近70%。报道同时提及32种本地化语言服务及十多个本地钱包接入。",
-      "insight": "AI经营工具已进入平台商家的实际经营流程，并与多语言、支付服务共同支撑跨市场销售。托管商家成交增长提供了应用观察线索，但两组统计对象不同，不能直接解释为AI带来的增量效果。",
-      "event_headline": "速卖通披露双11 AI托管商家日均成交额增近70%",
-      "event_signal": "material",
+      "event_desc": "11月3日消息，字节跳动旗下火山引擎视频生成模型Seedance海外收入占比达到50%，过去半年海外收入实现近5倍增长。按Token消耗与收入贡献统计，腾讯位列中国区客户前三，B站进入前十，报道指出国内多家头部互联网企业正在规模化采购该模型。",
+      "insight": "Seedance已同时形成海外收入和国内企业采购，视频生成能力正在成为可向其他互联网企业出售的模型服务。海外收入占半说明其商业需求不只来自国内客户，但本文尚不能解释海外客户的具体任务与采购结构。",
+      "event_headline": "字节跳动Seedance海外收入占半，国内企业规模化采购",
+      "event_signal": "major",
       "is_national_star": false,
       "event_time_evidence": {
-        "status": "disclosure_date_explicit",
-        "description": "正文明确“11月11日，速卖通数据显示”；该日为统计数据披露日，不是AI经营工具上线日。新闻发布日为2026-11-15，数据统计期为2026年双11大促前7天。",
-        "event_date": "2026-11-11",
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-15",
+        "event_date": null,
         "observed_date": "2026-11-15",
-        "review_required": false
+        "review_required": true
       },
       "published_date": "2026-11-15",
       "publication_basis": "采集源保留的发布时间",
       "selection_recommendation": "keep",
-      "selection_reason": "已阅读本候选来源URL对应的完整共享正文，其中速卖通条目明确披露AI智能经营工具被商家采用，以及采用该工具托管商家的成交统计，足以支持一条具体AI经营应用观察，并非仅有平台整体成交增长。全球速卖通在本事件中是电商平台，商家是工具使用者及成交统计对象；原文未确认工具研发企业或平台运营法人，不将其自动并入母公司或认定为自研。工商名录未登记不构成这一平台级事实待核的理由。新闻发布日为2026-11-15，数据披露日可由正文明确为2026-11-11；历史未返回匹配或旧裁决。保留应用线索，但不能把近70%的同比增长解释为AI的因果效果，也不能用其与潜力市场超过50%的增长直接计算AI增益。城市未知如实保留。",
-      "event_headline_source": "3cf7d8c0def71e1afc562236a18cc74fd002853597212fab175c3cd30123ad87",
+      "selection_reason": "正文明确字节跳动为Seedance所属企业，火山引擎为业务平台，腾讯和B站为采购客户，不另立产品主体或将客户并入字节。海外收入占比50%、过去半年海外收入近5倍增长及国内企业规模化采购，直接证明视频模型服务的商业化需求，足以作为正面日报线索。所供文章发布时间为2026年11月15日，符合本轮窗口；段落中的11月3日是消息日期，不据此虚构采购或收入达成日期，也不能单凭它否定整篇新闻发布时间。对照已有Seedance研发、短剧应用及火山引擎整体MaaS经营披露，本条新增模型层面的收入地域结构和具名采购客户信息，不重报模型发布，不改变PineDrama旧排除。北京海淀仅为已核经营地，不授予杭州属地或领导简报资格。",
+      "event_headline_source": "727abe2647d610d345925aef83eff855388b7ba0ea760f467788bdc67eae85c3",
       "review_evidence": {
         "sha256": "d2cedf1e377a13099dab8c71fbe40e2fc6df1a0aa1a4d0caa4c6a373f69e64f6",
         "source_url": "https://mp.weixin.qq.com/s/Uw-M-t_Nc3zcB4wXnZ97TA",
@@ -590,51 +641,187 @@
         "full_body_supplied": true,
         "source_text_status": "stored_body"
       },
-      "event_date": "2026-11-11",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-eeb80ea6f0e8952ff8f4183b",
+          "source_url": "https://www.stcn.com/article/detail/3732485.html",
+          "checked_at": "2026-10-20T18:21:47.689511+00:00",
+          "subject": "字节跳动",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区"
+          }
+        },
+        {
+          "evidence_id": "geo-0bdd2570513f06e17fbf1244",
+          "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
+          "checked_at": "2026-10-20T02:29:16.687727+00:00",
+          "subject": "字节跳动",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区"
+          }
+        }
+      ],
+      "location_next_action": null,
       "benchmark_review": {
         "status": "not_qualified",
         "eligible": false,
-        "reason": "本条证明平台AI经营工具的实际采用及使用商家经营表现，但未建立该主体在AI技术、工具效果或产业地位上的独立领先依据；不能凭平台知名度或成交增幅授予全国标杆资格。",
+        "reason": "本条建立了具体模型商业化观察价值，但收入地域占比和平台内客户排名不能独立证明行业领先地位，亦无同口径竞争比较；不因客户知名或历史is_national_star标签升级资格。",
         "evidence_ids": [
-          "article_body:7ffd24d8b8acdfe5"
+          "article_body:7ffd24d8b8acdfe5",
+          "accepted_history:3a66bd90d5ee7197",
+          "accepted_history:86edfd57fa180c65"
         ]
       },
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
         "reviewer": "quality_inspector Agent",
-        "candidate_id": "1ae825ee6e29b933afe495be1cc6b660a5491c61ec24742142c29dd20b4d5c76",
-        "input_row_sha256": "02ac5ad193cf2d1ce18272e5dadba826c455002e49bdc13fcd1abd7d32131d94",
-        "reason": "已阅读本候选来源URL对应的完整共享正文，其中速卖通条目明确披露AI智能经营工具被商家采用，以及采用该工具托管商家的成交统计，足以支持一条具体AI经营应用观察，并非仅有平台整体成交增长。全球速卖通在本事件中是电商平台，商家是工具使用者及成交统计对象；原文未确认工具研发企业或平台运营法人，不将其自动并入母公司或认定为自研。工商名录未登记不构成这一平台级事实待核的理由。新闻发布日为2026-11-15，数据披露日可由正文明确为2026-11-11；历史未返回匹配或旧裁决。保留应用线索，但不能把近70%的同比增长解释为AI的因果效果，也不能用其与潜力市场超过50%的增长直接计算AI增益。城市未知如实保留。",
+        "candidate_id": "0625ef563404278eb608fe268394d371b411cdd39154f672a502f12a37ea7cbb",
+        "input_row_sha256": "6d9d69ee947af1545d1235c7fab083f75d1006f58744cf7f94226eae6ba3abce",
+        "reason": "正文明确字节跳动为Seedance所属企业，火山引擎为业务平台，腾讯和B站为采购客户，不另立产品主体或将客户并入字节。海外收入占比50%、过去半年海外收入近5倍增长及国内企业规模化采购，直接证明视频模型服务的商业化需求，足以作为正面日报线索。所供文章发布时间为2026年11月15日，符合本轮窗口；段落中的11月3日是消息日期，不据此虚构采购或收入达成日期，也不能单凭它否定整篇新闻发布时间。对照已有Seedance研发、短剧应用及火山引擎整体MaaS经营披露，本条新增模型层面的收入地域结构和具名采购客户信息，不重报模型发布，不改变PineDrama旧排除。北京海淀仅为已核经营地，不授予杭州属地或领导简报资格。",
         "scope": {
-          "technology_evidence": "原文速卖通条目称，采用AI智能经营工具托管的商家日均成交额同比增长近70%，并提及32种本地化语言服务与十多个本地钱包接入；信息披露日期为11月11日。",
-          "value_reason": "提供了AI经营工具实际进入跨境商家经营流程及对应使用群体经营表现的具体信息，可用于观察跨境电商AI工具的应用与商业化路径。两组增长数据对应不同统计对象，语言和钱包服务也不能全部归因为AI能力。"
+          "technology_evidence": "正文称字节跳动旗下火山引擎视频生成模型Seedance海外收入占比已达到50%，过去半年海外收入实现近5倍增长；按Token消耗与收入贡献统计，腾讯位列中国区客户前三、B站进入前十，多家国内头部互联网企业正在规模化采购。",
+          "value_reason": "本条将视频生成能力连接到跨境付费需求及第三方企业采购，提供了不同于调用量或模型参数的商业验证。杭州视频模型企业可据此比较企业采购入口与海外客户拓展路径；材料未披露绝对收入、利润及客户具体任务，不推算市场份额或盈利能力。"
         },
         "stage": {
-          "status": "已采用的AI经营工具及平台披露的经营数据",
-          "reason": "正文使用“采用AI智能经营工具托管的商家”，证明存在实际使用，不只是规划或概念展示；近70%为平台披露的商家日均成交额同比增长，不是独立验证的技术效果。2026-11-11为数据披露日，统计期为当年双11大促前7天，工具首次上线时间未知。"
+          "status": "媒体转述的已发生模型服务收入及采购情况",
+          "reason": "36氪正文援引澎湃新闻，并以11月3日消息描述已达到的收入占比与现有采购情况，非未来计划；精确达成日、统计截止日和采购合同细节未知。新闻发布时间为2026年11月15日，首次收录时间未提供。"
         },
         "history": {
-          "result": "new_event",
+          "result": "new_progress",
           "evidence_ids": [
-            "history_lookup:9e337e1df3db3701"
+            "accepted_history:dc02e6bc3bd5263c",
+            "accepted_history:8644a9b1a36d6e39",
+            "accepted_history:1520f0b05a3a5bfa",
+            "accepted_history:c323200fdedb1353",
+            "accepted_history:9ba4a8c8674dd491",
+            "accepted_history:dfde22d89ba82ba8",
+            "accepted_history:fd2f040307a68db6",
+            "accepted_history:3a66bd90d5ee7197",
+            "accepted_history:86edfd57fa180c65",
+            "prior_decision:b3e7ff643a44bfa0",
+            "prior_decision:f03989e99a5c7e75",
+            "prior_decision:59f42ebd03500b6e",
+            "prior_decision:d355beac24f31dbe",
+            "prior_decision:2af6ef421ca87687",
+            "prior_decision:5b53547137ec92a8",
+            "prior_decision:ccd5b4b5b65d39e2"
           ],
-          "prior_decisions": [],
-          "change_reason": "所供accepted_history和prior_decisions均为空，历史检索未返回同一双11统计事件或旧排除裁决，按未匹配历史事件处理，不宣称首次采用AI工具或首次发现企业。",
-          "new_evidence_ids": []
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:af1fa9232b0227c2",
+              "comparison": "different_event",
+              "reason": "旧项为豆包通过合作服务商接入出行交易，本条为Seedance模型服务收入和企业采购。"
+            },
+            {
+              "evidence_id": "prior_decision:c8282c0c1b9d0bb9",
+              "comparison": "different_event",
+              "reason": "旧项为Live Assistant直播理解联合研究，不涉及本条视频生成服务商业化数据。"
+            },
+            {
+              "evidence_id": "prior_decision:9d73440bcd01cc09",
+              "comparison": "different_event",
+              "reason": "同为Live Assistant联合研究裁决，与Seedance收入地域结构和采购客户不同。"
+            },
+            {
+              "evidence_id": "prior_decision:654e65101ddb14d4",
+              "comparison": "different_event",
+              "reason": "同为豆包出行服务裁决，不覆盖本次Seedance商业化披露。"
+            },
+            {
+              "evidence_id": "prior_decision:d355beac24f31dbe",
+              "comparison": "different_event",
+              "reason": "旧watch针对联发科定制芯片采购洽谈。其来源闭包当前验证无错误，不能沿用当时读取异常阻断本条；采购洽谈本身也与Seedance销售不同。"
+            },
+            {
+              "evidence_id": "prior_decision:2af6ef421ca87687",
+              "comparison": "different_event",
+              "reason": "旧keep仍为芯片采购洽谈，不批准本次模型收入披露，也不能由本条反推芯片成交。"
+            },
+            {
+              "evidence_id": "prior_decision:5b53547137ec92a8",
+              "comparison": "different_event",
+              "reason": "旧watch涉及豆包手机助手应用拒绝清单。当前闭包验证无错误，但具体阻断范围及杭州主体资格缺口未被本条补足，不改变该旧项。"
+            },
+            {
+              "evidence_id": "prior_decision:ccd5b4b5b65d39e2",
+              "comparison": "different_event",
+              "reason": "同为手机助手跨应用授权限制，本条Seedance采购增长不能证明限制解除。"
+            },
+            {
+              "evidence_id": "prior_decision:a658726b3a569e78",
+              "comparison": "different_event",
+              "reason": "旧项为火山引擎整体MaaS收入、毛利及考核调整，本条为Seedance单模型收入地域结构和具名客户，统计主体与事实不同。"
+            },
+            {
+              "evidence_id": "prior_decision:ee5776f219aa01d0",
+              "comparison": "different_event",
+              "reason": "同为整体MaaS经营披露，不能代替本条模型级商业事实核验。"
+            },
+            {
+              "evidence_id": "prior_decision:68c063c7f4819e79",
+              "comparison": "different_event",
+              "reason": "旧项为Seedance参与AI漫剧制作及关联工具链路，不包含本条海外收入占比和国内采购排名。"
+            },
+            {
+              "evidence_id": "prior_decision:22477d2ac0b93dd7",
+              "comparison": "different_event",
+              "reason": "同为短剧制作应用披露，不能与模型收入和客户结构合并为重复事实。"
+            },
+            {
+              "evidence_id": "prior_decision:b09cfdb1f7c43177",
+              "comparison": "different_event",
+              "reason": "同为Seedance内容生产应用裁决，本条保留的是不同的商业化信息。"
+            },
+            {
+              "evidence_id": "prior_decision:b3e7ff643a44bfa0",
+              "comparison": "different_event",
+              "reason": "旧排除针对PineDrama下载、日活和广告经营缺少具体技术联系；本条有直接视频模型服务收入与采购依据，不撤销旧排除。"
+            },
+            {
+              "evidence_id": "prior_decision:f03989e99a5c7e75",
+              "comparison": "different_event",
+              "reason": "同为PineDrama运营事件排除，不得扩展为字节跳动公司黑名单；当前旧CID来源验证无错误。"
+            },
+            {
+              "evidence_id": "prior_decision:59f42ebd03500b6e",
+              "comparison": "different_event",
+              "reason": "旧项为PineDrama广告尝试及重复流量数据，当前闭包验证无错误，不沿用其历史读取异常；业务排除不覆盖Seedance商业化。"
+            }
+          ],
+          "change_reason": "Seedance既有记录证明模型研发和内容制作应用，本条补充海外收入结构、半年增长及腾讯、B站等国内采购信息，属于产品商业化实质增量。飞书、Live Assistant、豆包出行、TRAE、生活缴费与画布、芯片洽谈均为其他事件；整体MaaS经营披露也不等于Seedance模型级客户结构。当前history_retrieval_errors为空，不将旧记录内部异常当成本轮检索失败；结论限于所供历史，不宣称全局首次。",
+          "new_evidence_ids": [
+            "article_body:7ffd24d8b8acdfe5"
+          ]
         },
         "evidence_ids": [
-          "article_body:7ffd24d8b8acdfe5"
+          "article_body:7ffd24d8b8acdfe5",
+          "identity_registry:2dcd4f408df25406",
+          "accepted_history:dc02e6bc3bd5263c",
+          "accepted_history:3a66bd90d5ee7197",
+          "accepted_history:86edfd57fa180c65",
+          "geo-eeb80ea6f0e8952ff8f4183b",
+          "geo-0bdd2570513f06e17fbf1244"
         ],
         "benchmark_review": {
           "status": "not_qualified",
           "eligible": false,
-          "reason": "本条证明平台AI经营工具的实际采用及使用商家经营表现，但未建立该主体在AI技术、工具效果或产业地位上的独立领先依据；不能凭平台知名度或成交增幅授予全国标杆资格。",
+          "reason": "本条建立了具体模型商业化观察价值，但收入地域占比和平台内客户排名不能独立证明行业领先地位，亦无同口径竞争比较；不因客户知名或历史is_national_star标签升级资格。",
           "evidence_ids": [
-            "article_body:7ffd24d8b8acdfe5"
+            "article_body:7ffd24d8b8acdfe5",
+            "accepted_history:3a66bd90d5ee7197",
+            "accepted_history:86edfd57fa180c65"
           ]
         }
       }
@@ -1177,6 +1364,337 @@
       }
     },
     {
+      "company_raw_name": "利普思半导体",
+      "title": "TikTok Shop东南亚跨境开通海运直邮；速卖通双11潜力市场日均成交增超50%｜36氪出海·要闻回顾",
+      "company": "利普思半导体",
+      "score": 50,
+      "sector": "第三代半导体与功率电子",
+      "financing": "完成近亿元B轮融资；新投资方为上海新微资本；用于AIDC相关产品研发及全球市场推广。",
+      "source": "36 氪",
+      "location": "地点待核",
+      "article_location": "经营/研发地：无锡、上海、深圳、日本；经营/销售地：欧洲。注册地及主要总部未披露。",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "利普思半导体",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-92e2d193f2f0bd41db41",
+      "company_canonical_name": "利普思半导体",
+      "identity_status": "unresolved",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/Uw-M-t_Nc3zcB4wXnZ97TA",
+      "article_title": "TikTok Shop东南亚跨境开通海运直邮；速卖通双11潜力市场日均成交增超50%｜36氪出海·要闻回顾",
+      "event_desc": "11月11日消息，利普思半导体完成近亿元B轮融资，新投资方为上海新微资本。资金主要用于加大AIDC相关产品研发和全球市场推广。公司从事碳化硅功率模块研发、制造及销售，在无锡、上海、深圳和日本设有研发中心，在欧洲设有海外销售中心，海外营收占比接近一半。",
+      "insight": "碳化硅功率模块用于电能转换，公司此次融资明确增加面向人工智能数据中心的产品研发。既有海外销售与研发网络为全球推广提供了组织基础，但本文尚未说明数据中心产品对应的供电环节与客户要求。",
+      "event_headline": "利普思半导体完成近亿元B轮融资，加大数据中心产品研发",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-15",
+        "event_date": null,
+        "observed_date": "2026-11-15",
+        "review_required": true
+      },
+      "published_date": "2026-11-15",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确利普思半导体为碳化硅功率模块研发、制造及销售企业，也是近亿元B轮融资的获得方，上海新微资本为新投资方，主体与角色有直接依据。融资及明确披露的AIDC产品研发用途构成独立资本成长事件，值得作为功率半导体企业拓展数据中心产品方向的正面线索保留；不能据此认定相关产品已经交付、形成收入或取得技术领先。新闻发布时间为2026-11-15，处于本轮最近7天窗口；正文以11月11日消息报道融资完成，不等同于融资实际完成日期。所供历史检索未返回同事件收录或旧裁决，不宣称首次发现。注册地和主要总部未知，不妨碍全球正面日报采信，也不赋予杭州属地、负面预警或领导简报资格。",
+      "event_headline_source": "cdd1c938931ace646cc83c2bf1c12fe0bd911f5ddc2bd1d0ae5ca104d6ece14c",
+      "review_evidence": {
+        "sha256": "d2cedf1e377a13099dab8c71fbe40e2fc6df1a0aa1a4d0caa4c6a373f69e64f6",
+        "source_url": "https://mp.weixin.qq.com/s/Uw-M-t_Nc3zcB4wXnZ97TA",
+        "published_at": "2026-11-15T13:30:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "经营/研发地：无锡、上海、深圳、日本；经营/销售地：欧洲。注册地及主要总部未披露。",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原文支持融资、功率模块业务及海外市场布局，但未提供行业领先地位、可比技术表现或其他足以确立全国标杆资格的独立依据。",
+        "evidence_ids": [
+          "article_body:7ffd24d8b8acdfe5"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "16cbb6e81781dfac62640eef55447b22880737943152e277d7514e50b2093c98",
+        "input_row_sha256": "7deca7434169da4ea299692924fefcd4c7b92a5b66e6ee5b2deb6859a00bb5af",
+        "reason": "完整正文明确利普思半导体为碳化硅功率模块研发、制造及销售企业，也是近亿元B轮融资的获得方，上海新微资本为新投资方，主体与角色有直接依据。融资及明确披露的AIDC产品研发用途构成独立资本成长事件，值得作为功率半导体企业拓展数据中心产品方向的正面线索保留；不能据此认定相关产品已经交付、形成收入或取得技术领先。新闻发布时间为2026-11-15，处于本轮最近7天窗口；正文以11月11日消息报道融资完成，不等同于融资实际完成日期。所供历史检索未返回同事件收录或旧裁决，不宣称首次发现。注册地和主要总部未知，不妨碍全球正面日报采信，也不赋予杭州属地、负面预警或领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文明确公司专注第三代半导体碳化硅功率模块研发、制造及销售，本轮融资主要用于加大AIDC相关产品研发和全球市场推广。",
+          "value_reason": "近亿元B轮融资为具有明确功率模块业务的企业提供资本成长信号，披露的研发方向具体连接人工智能数据中心产品布局，可供杭州功率半导体产业培育研究参考；现有海外研发与销售网络是其市场拓展背景，不将海外营收占比单独当作技术进展。"
+        },
+        "stage": {
+          "status": "融资已完成；研发投入与全球推广为资金使用计划",
+          "reason": "正文表述为完成近亿元B轮融资，并以将主要用于描述后续投入；未披露AIDC产品研发完成、量产或客户交付。融资实际完成日未知，11月11日仅为正文所述消息日。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:9e337e1df3db3701"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所供同主体历史检索结果中accepted_history与prior_decisions均为空，且无历史读取错误；当前未发现可匹配的已收录事件或排除裁决，按未匹配历史的新事件处理，不据此宣称企业或事件首次被发现。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article_body:7ffd24d8b8acdfe5",
+          "history_lookup:9e337e1df3db3701"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "原文支持融资、功率模块业务及海外市场布局，但未提供行业领先地位、可比技术表现或其他足以确立全国标杆资格的独立依据。",
+          "evidence_ids": [
+            "article_body:7ffd24d8b8acdfe5"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "飞拓星驰",
+      "title": "TikTok Shop东南亚跨境开通海运直邮；速卖通双11潜力市场日均成交增超50%｜36氪出海·要闻回顾",
+      "company": "飞拓星驰",
+      "score": 50,
+      "sector": "AI互动娱乐与消费硬件",
+      "financing": "完成数千万美元天使轮融资；元生资本、江远投资领投，日初资本、锋领资本等跟投，星涵资本任独家财务顾问；本文未披露资金用途。",
+      "source": "36 氪",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "飞拓星驰",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-f388a6cbaebeec5ff847",
+      "company_canonical_name": "飞拓星驰",
+      "identity_status": "unresolved",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/Uw-M-t_Nc3zcB4wXnZ97TA",
+      "article_title": "TikTok Shop东南亚跨境开通海运直邮；速卖通双11潜力市场日均成交增超50%｜36氪出海·要闻回顾",
+      "event_desc": "11月12日消息，飞拓星驰完成数千万美元天使轮融资，由元生资本、江远投资领投，日初资本、锋领资本等老股东持续跟投，星涵资本担任独家财务顾问。公司同步布局AI游戏引擎、AI端侧模型和家庭娱乐硬件，首款硬件产品计划于2027年CES首次亮相，面向北美家庭市场。",
+      "insight": "公司把游戏引擎、端侧模型与家庭硬件放在同一产品路线中，研究重点是AI如何成为家庭互动玩法的一部分，而不只是增加硬件功能。首款硬件仍待亮相，当前可确认的变化是融资完成和技术布局披露。",
+      "event_headline": "飞拓星驰完成数千万美元天使轮融资，首款硬件拟于2027年亮相",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-15",
+        "event_date": null,
+        "observed_date": "2026-11-15",
+        "review_required": true
+      },
+      "published_date": "2026-11-15",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文独立条目明确飞拓星驰为融资主体，已完成数千万美元天使轮融资，元生资本、江远投资为领投方，星涵资本为财务顾问，不将这些关联方并为企业主体。报道同时披露AI游戏引擎、端侧模型与家庭娱乐硬件的业务布局，融资构成该技术业务的真实资本成长节点，足以作为早期科技企业发现线索；不推定资金用途、技术成熟度或商业收入。报道发布时间为2026-11-15，处于审核日最近7天窗口；11月12日是消息日期，融资实际完成日期未知。现有历史检索未提供匹配的已收录事件或旧裁决。主体名录未完成登记、城市未知不影响本条全球正面日报采信，但不据此认定杭州属地、全国标杆或领导简报资格。",
+      "event_headline_source": "15c63692afa5fd480c19d290c5dc6375f34c035645b2197d8e4edbf0b7c3fe84",
+      "review_evidence": {
+        "sha256": "d2cedf1e377a13099dab8c71fbe40e2fc6df1a0aa1a4d0caa4c6a373f69e64f6",
+        "source_url": "https://mp.weixin.qq.com/s/Uw-M-t_Nc3zcB4wXnZ97TA",
+        "published_at": "2026-11-15T13:30:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持早期融资、技术业务布局和未来产品计划，尚未建立其行业领先地位、已验证产品能力或可供杭州产业对标的独立标杆依据。",
+        "evidence_ids": [
+          "article_body:7ffd24d8b8acdfe5"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "a46c59e2216140b968c8f2cda568f807b8add49e3c05d6e7ada5fcdeb5aee874",
+        "input_row_sha256": "a4107a9936e3d209beaa11a2e98dcbb2940c84fda52a60d432be305a284594ab",
+        "reason": "原文独立条目明确飞拓星驰为融资主体，已完成数千万美元天使轮融资，元生资本、江远投资为领投方，星涵资本为财务顾问，不将这些关联方并为企业主体。报道同时披露AI游戏引擎、端侧模型与家庭娱乐硬件的业务布局，融资构成该技术业务的真实资本成长节点，足以作为早期科技企业发现线索；不推定资金用途、技术成熟度或商业收入。报道发布时间为2026-11-15，处于审核日最近7天窗口；11月12日是消息日期，融资实际完成日期未知。现有历史检索未提供匹配的已收录事件或旧裁决。主体名录未完成登记、城市未知不影响本条全球正面日报采信，但不据此认定杭州属地、全国标杆或领导简报资格。",
+        "scope": {
+          "technology_evidence": "原文称飞拓星驰为AI互动娱乐企业，围绕AI游戏引擎、AI端侧模型和家庭娱乐硬件同步布局；首款硬件拟于2027年CES首次亮相，面向北美家庭市场。",
+          "value_reason": "数千万美元天使轮融资与明确的AI软硬件业务路线共同构成可独立采信的早期资本成长信号，为研究AI互动娱乐如何结合端侧模型与家庭硬件提供具体企业线索。产品尚待亮相，不将技术布局解释为已完成产品验证或规模化商业化。"
+        },
+        "stage": {
+          "status": "融资已完成；首款硬件亮相为upcoming计划",
+          "reason": "原文明确使用“完成数千万美元天使轮融资”，但未披露完成日或资金用途；“将于2027年CES首次亮相”仅支持未来展示计划，不能写成已发布、交付或量产。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:9e337e1df3db3701"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本包accepted_history与prior_decisions均为空，所给历史检索未返回同事件收录或排除记录，因此按当前检索范围认定为新事件，不宣称其为全库首次发现，亦不存在需要改判的旧裁决。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article_body:7ffd24d8b8acdfe5",
+          "history_lookup:9e337e1df3db3701"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "现有证据支持早期融资、技术业务布局和未来产品计划，尚未建立其行业领先地位、已验证产品能力或可供杭州产业对标的独立标杆依据。",
+          "evidence_ids": [
+            "article_body:7ffd24d8b8acdfe5"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "趣象时空",
+      "title": "WISE2026商业之王第二批嘉宾阵容官宣",
+      "company": "趣象时空",
+      "score": 50,
+      "sector": "AI三维内容生成",
+      "financing": "累计完成数千万元融资，未披露轮次、投资方及时间。",
+      "source": "36 氪",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "趣象时空",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-be653a47d9b29f11736e",
+      "company_canonical_name": "趣象时空",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/BqWr8xhS6B6QwTw2KmkBhA",
+      "article_title": "WISE2026商业之王第二批嘉宾阵容官宣",
+      "event_desc": "36氪2026年11月14日发布的WISE2026嘉宾介绍称，趣象时空已推出面向行业开发者的Mugen3D平台，自研3D动画实时生成模型，支持AI驱动人物情绪动作、直接生成4DGS内容、实时交互与自由运镜，并称产品已落地教育、文旅、互动影游及具身智能训练领域。产品推出和应用发生日期未披露；累计数千万元融资为背景信息，不构成本次新增融资事件。“生成100%可控”为原文宣传性表述，未经本证据独立验证。",
+      "insight": "趣象时空的产品重点从生成静态三维资产延伸到可交互的动态内容，使模型输出可以进入实时场景。开发者可控制哪些属性，是理解“100%可控”实际产品价值的关键。",
+      "event_headline": "趣象时空Mugen3D产品线索：动态内容生成与实时交互",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-14",
+        "event_date": null,
+        "observed_date": "2026-11-14",
+        "review_required": true
+      },
+      "published_date": "2026-11-14",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文在冯诚简介中明确将Mugen3D平台、自研3D动画实时生成模型及相关应用归于趣象时空，主体与产品关系清楚。虽为大会嘉宾介绍，但内容超出参会名单和产品类别：披露了动态内容生成、人物情绪动作驱动、4DGS生成及实时交互等具体能力，可作为独立产品发现线索。保留的是报道披露的既有产品与应用情况，不是当天新品发布或新一轮融资；“100%可控”不作已验证性能结论。新闻发表于2026-11-14，在审核日最近7天内，产品推出和应用发生日期未知。地点及工商身份档案未完善不阻断本条正面发现，也不据此认定杭州主体。已提供历史检索无匹配收录或旧裁决，不宣称首次公开披露。",
+      "event_headline_source": "1b47a33e485d5cc466e88a692e8a8caa92c2165921a7596a32b3a06b9a77a1ac",
+      "review_evidence": {
+        "sha256": "cf135152172f6b54274496e3267bbde69936a4f6002c26a580053017e4465c70",
+        "source_url": "https://mp.weixin.qq.com/s/BqWr8xhS6B6QwTw2KmkBhA",
+        "published_at": "2026-11-14T10:05:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "event_identity": {
+        "canonical_id": "趣象时空推出面向行业开发者的3D内容生成平台Mugen3D，并自研3D动画实时生成模型，支持AI驱动人物情绪动作、直接生成4DGS内容及实时交互和自由运镜。文章称产品已应用于教育、文旅、互动影游和具身智能训练，公司累计完成数千万元融资；“生成100%可控”为原文表述。"
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持具体产品能力与应用线索，但未建立其行业领先地位、可比竞争优势或规模化成效，尚不足以认定全国标杆。",
+        "evidence_ids": [
+          "article_body:99561d8f8d2d4704"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "b8f2d4fbfa34496642d15546a17e1d11aed64d63781b5aeee16add451bd68ac7",
+        "input_row_sha256": "45a4e0f9125f01a65b74bbffe28cd5bfb36415884538df4a696df8ffba08a614",
+        "reason": "原文在冯诚简介中明确将Mugen3D平台、自研3D动画实时生成模型及相关应用归于趣象时空，主体与产品关系清楚。虽为大会嘉宾介绍，但内容超出参会名单和产品类别：披露了动态内容生成、人物情绪动作驱动、4DGS生成及实时交互等具体能力，可作为独立产品发现线索。保留的是报道披露的既有产品与应用情况，不是当天新品发布或新一轮融资；“100%可控”不作已验证性能结论。新闻发表于2026-11-14，在审核日最近7天内，产品推出和应用发生日期未知。地点及工商身份档案未完善不阻断本条正面发现，也不据此认定杭州主体。已提供历史检索无匹配收录或旧裁决，不宣称首次公开披露。",
+        "scope": {
+          "technology_evidence": "原文明确称趣象时空推出面向行业开发者的Mugen3D平台，自研3D动画实时生成模型，支持AI驱动人物情绪动作、直接生成4DGS内容、实时交互和自由运镜，并称产品已落地教育、文旅、互动影游及具身智能训练领域。",
+          "value_reason": "本条提供了从三维资产生成延伸至动态场景生成与交互的具体产品能力，值得作为杭州三维内容工具及相关应用企业的产品路线研究线索。价值来自明确的功能组合与应用陈述，而非嘉宾身份或赛道热度；原文未提供具名客户、交付规模和测试依据，不外推商业成熟度或训练效果。"
+        },
+        "stage": {
+          "status": "媒体嘉宾简介披露的既有产品与应用情况，具体发生日期未知",
+          "reason": "原文使用“推出”“自研”“已落地”等表述，但没有产品发布日期、应用验收或独立性能验证材料；累计数千万元融资仅为无轮次、无时间的背景。11月26日至28日大会尚未举行，不能将参会计划写成已完成事件。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:9e337e1df3db3701"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本候选所供accepted_history和prior_decisions均为空，历史检索未提供可匹配的同事件记录，按本次新收录产品线索处理；不据此断言企业或产品首次被发现。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article_body:99561d8f8d2d4704",
+          "history_lookup:9e337e1df3db3701"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "现有证据支持具体产品能力与应用线索，但未建立其行业领先地位、可比竞争优势或规模化成效，尚不足以认定全国标杆。",
+          "evidence_ids": [
+            "article_body:99561d8f8d2d4704"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "蓝霄航空",
       "title": "WISE2026商业之王第二批嘉宾阵容官宣",
       "company": "蓝霄航空",
@@ -1608,6 +2126,503 @@
       }
     },
     {
+      "company_raw_name": "DeepSeek",
+      "title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
+      "company": "DeepSeek",
+      "score": 100,
+      "sector": "大模型与AI计算软件",
+      "financing": "",
+      "source": "晚点 LatePost",
+      "location": "浙江省 / 杭州市",
+      "article_location": "浙江省杭州市（主要总部，按输入已确认名称关系复用geo-8d153ebc1f63d3a87bb41366）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw",
+      "article_title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
+      "event_desc": "文章称，DeepSeek于2025年已开始使用面向GPU算子开发的开源编程工具TileLang，作为其计算软件生态工作的一部分。",
+      "insight": "算子开发工具是连接模型计算需求与底层硬件执行的工程环节，值得研究DeepSeek如何组织这一层软件能力；使用TileLang本身不能直接推出已完成国产芯片适配或大规模训练迁移。",
+      "event_headline": "DeepSeek被回顾于2025年开始使用TileLang开发工具",
+      "event_signal": "context",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-15",
+        "event_date": null,
+        "observed_date": "2026-11-15",
+        "review_required": true
+      },
+      "published_date": "2026-11-15",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "正文明确称DeepSeek于2025年开始使用面向GPU算子开发的TileLang，企业是工具使用方，TileLang不是其新增企业主体，也不能据此认定由其独立研发。该信息提供了具体算子开发工具的采用事实，而非仅有企业点名或产品类别，可作为杭州模型企业计算软件工程路线的历史实践线索单列保留；不将其包装为当前突破、国产芯片适配完成或训练迁移。稳定主体、确认别名及杭州总部证据可复用。原始新闻发布时间2026-11-15T07:59:00Z已提供，符合本次七日采集窗口，上游所称缺发布时间和历史材料已不成立。可见历史及旧裁决未覆盖TileLang采用事实，其他模型、框架、融资和故障事件的排除与待核均不因此改判。按媒体回顾报道的有限事实采信，不另要求必须有技术原始发布或量化收益，但也不声称已独立验证使用范围和实际效果。",
+      "event_headline_source": "25a36819fa6ce190fa0d0a8e96f7845b163d0fd40958ab0f09238e7bfaa9c8b5",
+      "review_evidence": {
+        "sha256": "3222809d2d45741ac4bcc79e82f6cea874ae5c9cbab0323f60f7c7a312940b4e",
+        "source_url": "https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw",
+        "published_at": "2026-11-15T07:59:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条仅增加具体算子开发工具采用事实，没有独立比较、性能复现或可供杭州验证的行业领先依据，不改变已有明确已审的标杆资格尚未建立边界；不影响该日报线索保留。",
+        "evidence_ids": [
+          "article_body:ee4935d7a5dad12a",
+          "prior_decision:57fb9024d657db8d",
+          "prior_decision:4aa55ed3d77695df"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "4411e88906eaaa158b4233bdcccf6abea23150d1fc21754bbe0ffbfb9ff31330",
+        "input_row_sha256": "3a7ccaa7f5050d7609d8ce7af044cc8cb4b4725e6d57e50dfed5585ec72a8608",
+        "reason": "正文明确称DeepSeek于2025年开始使用面向GPU算子开发的TileLang，企业是工具使用方，TileLang不是其新增企业主体，也不能据此认定由其独立研发。该信息提供了具体算子开发工具的采用事实，而非仅有企业点名或产品类别，可作为杭州模型企业计算软件工程路线的历史实践线索单列保留；不将其包装为当前突破、国产芯片适配完成或训练迁移。稳定主体、确认别名及杭州总部证据可复用。原始新闻发布时间2026-11-15T07:59:00Z已提供，符合本次七日采集窗口，上游所称缺发布时间和历史材料已不成立。可见历史及旧裁决未覆盖TileLang采用事实，其他模型、框架、融资和故障事件的排除与待核均不因此改判。按媒体回顾报道的有限事实采信，不另要求必须有技术原始发布或量化收益，但也不声称已独立验证使用范围和实际效果。",
+        "scope": {
+          "technology_evidence": "正文称：“比如DeepSeek已经在做很多生态层面的工作，2025年就已经开始使用TileLang，可以把它理解为一个面向GPU算子开发的开源编程工具。”",
+          "value_reason": "具体工具采用揭示了模型企业在GPU算子开发环节的软件路线，为杭州模型与计算软件团队选择研究对象提供可定位案例。其独立信息是DeepSeek已采用该工具，而不是泛泛预测国产化受益；适合围绕算子覆盖和硬件后端支持研究工程可迁移性，不能由采用工具直接推出摆脱CUDA、部署国产芯片或降低成本。"
+        },
+        "stage": {
+          "status": "媒体回顾的历史工具采用事实",
+          "reason": "原文使用“2025年就已经开始使用”，支持报道所述采用已发生，不是未来计划或本次新发布。事件时间仅明确到2025年，精确日期及本事件首次收录时间未知；2026-11-15是新闻发布日期，不是工具采用日。未披露具体算子、使用规模、生产部署范围或迁移效果。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:c4999798456e3ea7",
+            "accepted_history:0059924beb11e32d",
+            "accepted_history:85a2a890a7b60d46",
+            "accepted_history:f349a66d9a330cb3",
+            "accepted_history:c0c6e0d082769d47",
+            "prior_decision:32fffa5346c94646",
+            "prior_decision:80ae9a27f89f46e1",
+            "prior_decision:32e66738fb3c21d7",
+            "prior_decision:45a66ae95482f362",
+            "prior_decision:880e90efb1737bd7",
+            "prior_decision:80fb107219f591f3",
+            "prior_decision:34ff088823bc33a7"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:eb039cfd8aedceee",
+              "comparison": "different_event",
+              "reason": "旧项是Harness桌面预览版及账号、插件等功能，本条是2025年采用算子开发工具。"
+            },
+            {
+              "evidence_id": "prior_decision:1615af08ab103075",
+              "comparison": "different_event",
+              "reason": "同一Harness桌面版裁决不覆盖TileLang采用。"
+            },
+            {
+              "evidence_id": "prior_decision:b1dc62a56ac9b5f3",
+              "comparison": "different_event",
+              "reason": "DSec资源超卖和环境保存属于训练沙盒，本条属于GPU算子开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:f819bbdc17ee0dd2",
+              "comparison": "different_event",
+              "reason": "旧待核针对用户观察API输出差异；当前不提供受控测试或旧模型版本证据，不能解除其事实缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:bc6361c05673a7de",
+              "comparison": "different_event",
+              "reason": "旧项缺少可重复模型测试，与TileLang采用不同；来源闭包验证不等于补足测试。"
+            },
+            {
+              "evidence_id": "prior_decision:8cfeb09ee9b172af",
+              "comparison": "different_event",
+              "reason": "旧项是模型快照、Harness优化及Search、Fetch开放，不是算子工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:a897e773152eb732",
+              "comparison": "different_event",
+              "reason": "旧故障待核的杭州属地缺口已由所给总部证据和后续采信解决；本条不是故障或整改证据，不恢复旧属地疑问。"
+            },
+            {
+              "evidence_id": "prior_decision:32fffa5346c94646",
+              "comparison": "different_event",
+              "reason": "旧排除仅针对V4.1-Flash-1017重复发布，本条为2025年工具采用，不继承重复排除。"
+            },
+            {
+              "evidence_id": "prior_decision:c38644cdf44cae91",
+              "comparison": "different_event",
+              "reason": "DeepInfer和deepseek-recipe开源是软件公开事件；采用TileLang既不是该次开源，也不证明其代码实现采用TileLang。"
+            },
+            {
+              "evidence_id": "prior_decision:77ddf8465c2f3036",
+              "comparison": "different_event",
+              "reason": "同一生产推理组件开源裁决不覆盖本条算子开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:b64ef1f3c11914f8",
+              "comparison": "different_event",
+              "reason": "登记和海外授权使用手续不同于内部开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:5a53ce1fecb3521a",
+              "comparison": "different_event",
+              "reason": "旧具身研发传闻仍缺具体项目或团队证据，本条不补足该缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:0ef7955f91d699c6",
+              "comparison": "different_event",
+              "reason": "旧项涉及第二轮融资交割及横店份额，本条没有交易补证。"
+            },
+            {
+              "evidence_id": "prior_decision:8124a4872675064e",
+              "comparison": "different_event",
+              "reason": "旧项是缓存资源压缩和峰谷定价机制，不能据技术环节相关而合并为TileLang采用。"
+            },
+            {
+              "evidence_id": "prior_decision:a68bb0799270f186",
+              "comparison": "different_event",
+              "reason": "Super-agent任务路由和恢复架构公开不覆盖算子开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:adbedc996e73a338",
+              "comparison": "different_event",
+              "reason": "同一Super-agent研发裁决与本条工具采用具有不同事实对象。"
+            },
+            {
+              "evidence_id": "prior_decision:5dd2f45db0ab9264",
+              "comparison": "different_event",
+              "reason": "旧项是豆包工作接入DeepSeek模型，本条不是应用分发或客户接入。"
+            },
+            {
+              "evidence_id": "prior_decision:e7deda0f6354a412",
+              "comparison": "different_event",
+              "reason": "旧项是第二轮融资详情，本条无融资事实。"
+            },
+            {
+              "evidence_id": "prior_decision:45a66ae95482f362",
+              "comparison": "different_event",
+              "reason": "旧排除依据同轮融资无新增事实，不适用于独立工具采用线索。"
+            },
+            {
+              "evidence_id": "prior_decision:880e90efb1737bd7",
+              "comparison": "different_event",
+              "reason": "旧排除针对融资重复和未经证明的算电协同，本条不重报融资或推定供能合作。"
+            },
+            {
+              "evidence_id": "prior_decision:80fb107219f591f3",
+              "comparison": "different_event",
+              "reason": "同轮融资重复稿排除不构成企业级排除，未覆盖TileLang采用。"
+            },
+            {
+              "evidence_id": "prior_decision:213d76c3b13b2ead",
+              "comparison": "different_event",
+              "reason": "旧项是乌兰察布数据中心交付和运维招聘，本条为软件开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:05a8eefad1a9087e",
+              "comparison": "different_event",
+              "reason": "同一数据中心招聘裁决没有记录TileLang采用。"
+            },
+            {
+              "evidence_id": "prior_decision:46776f9106043202",
+              "comparison": "different_event",
+              "reason": "旧项保留乌兰察布算力规划，本条不提供建设或投运增量。"
+            },
+            {
+              "evidence_id": "prior_decision:e4762b303f8d53bf",
+              "comparison": "different_event",
+              "reason": "数据中心规划和融资背景不同于算子开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:b13f1232e1b4e9fc",
+              "comparison": "different_event",
+              "reason": "旧待核针对芯片型号、采购及报价；TileLang采用不能确认采购或投资金额，旧无来源属地疑问则不再沿用。"
+            },
+            {
+              "evidence_id": "prior_decision:cee8b3a460f77934",
+              "comparison": "different_event",
+              "reason": "旧用户输出变化仍缺版本和受控重复测试，当前工具报道不反向确认更新。"
+            },
+            {
+              "evidence_id": "prior_decision:ffec7539db669705",
+              "comparison": "different_event",
+              "reason": "所给后续融资报道已增加明确轮次和详情，但本条不新增交割或金额口径证据，不另改旧融资裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:57fb9024d657db8d",
+              "comparison": "different_event",
+              "reason": "旧补证采信模型快照和工具接口发布，未覆盖2025年TileLang采用。"
+            },
+            {
+              "evidence_id": "prior_decision:45ea26fb925b103f",
+              "comparison": "different_event",
+              "reason": "旧项为已确认杭州主体的API故障预警，本条不证明故障恢复或整改有效。"
+            },
+            {
+              "evidence_id": "prior_decision:c6611f3e33126b7b",
+              "comparison": "different_event",
+              "reason": "旧项为拟领投Winverse及跨主体同笔融资，本条不增加投资承诺、交割或具身研发事实。"
+            },
+            {
+              "evidence_id": "prior_decision:80ae9a27f89f46e1",
+              "comparison": "different_event",
+              "reason": "旧排除是同模型快照转载，当前历史工具采用不在其事实范围内，原排除保持。"
+            },
+            {
+              "evidence_id": "prior_decision:4aa55ed3d77695df",
+              "comparison": "different_event",
+              "reason": "旧项是生产推理框架与API编解码组件公开，本条不能重报该开源，也不能推定二者与TileLang的实现关系。"
+            },
+            {
+              "evidence_id": "prior_decision:32e66738fb3c21d7",
+              "comparison": "different_event",
+              "reason": "旧排除仅针对同次API故障和补偿回顾，当前不是故障事件，亦不撤销旧预警。"
+            },
+            {
+              "evidence_id": "prior_decision:e1d1e61ae0a707e5",
+              "comparison": "different_event",
+              "reason": "旧项缺明确具身团队或投资进展，采用GPU算子工具不能证明具身布局落地。"
+            },
+            {
+              "evidence_id": "prior_decision:48d4e864b7d42942",
+              "comparison": "different_event",
+              "reason": "旧项为对外开放登记和授权手续，本条不涉及相同手续或许可范围。"
+            },
+            {
+              "evidence_id": "prior_decision:93f8e0bc2b8f91a0",
+              "comparison": "different_event",
+              "reason": "旧具身模型传闻未获本条项目或成果补证，保持其事实边界。"
+            },
+            {
+              "evidence_id": "prior_decision:7e394b4f7f40d077",
+              "comparison": "different_event",
+              "reason": "旧融资交割和横店份额问题与工具采用不同，本条没有对应新证据。"
+            },
+            {
+              "evidence_id": "prior_decision:03f766c0a344f7fb",
+              "comparison": "different_event",
+              "reason": "旧项补充缓存资源比例与峰谷定价，本条没有证据将这些效果归因于TileLang。"
+            },
+            {
+              "evidence_id": "prior_decision:6ac0cb842184fcfa",
+              "comparison": "different_event",
+              "reason": "旧项是Super-agent架构及模拟试验，与GPU算子工具采用不同。"
+            },
+            {
+              "evidence_id": "prior_decision:c6b2e03a2aabc49e",
+              "comparison": "different_event",
+              "reason": "旧项是第三方办公平台模型接入，本条不是客户采用或商业合同。"
+            },
+            {
+              "evidence_id": "prior_decision:b7bf739dff59fbde",
+              "comparison": "different_event",
+              "reason": "旧项为第二轮融资具体金额、估值和投资方，本条未新增资本事件。"
+            },
+            {
+              "evidence_id": "prior_decision:34ff088823bc33a7",
+              "comparison": "different_event",
+              "reason": "旧排除针对已覆盖的同轮融资报道，不适用于本条不同技术实践，原去重继续有效。"
+            },
+            {
+              "evidence_id": "prior_decision:3c8c268b7aaf5f72",
+              "comparison": "different_event",
+              "reason": "旧项限定保留数据中心招聘增量，本条没有相同招聘或工程交付信息。"
+            },
+            {
+              "evidence_id": "prior_decision:19c059a527075d8e",
+              "comparison": "different_event",
+              "reason": "旧待核针对Menlo调查的支出分母、样本和期间，当前工具采用不补足统计口径。"
+            }
+          ],
+          "change_reason": "所给已收录记录涵盖模型发布、芯片适配、训练沙盒、Harness、生产推理组件、缓存效率、应用接入、资本和算力布局，但未记录2025年开始采用TileLang这一具体事实。芯片适配历史不能替代工具采用证据，工具采用也不能反向证明适配完成。故按可见历史中新识别的历史实践事件保留，不重报任何既有发布或资本节点，不宣称全库首次发现。当前history_retrieval_errors为空，旧候选来源闭包的current_errors也为空，不将旧裁决内部的读取错误当作本轮异常；各旧待核是否仍有业务缺口按上述事实分别判断。",
+          "new_evidence_ids": [
+            "article_body:ee4935d7a5dad12a"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:ee4935d7a5dad12a",
+          "identity_registry:2dcd4f408df25406",
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条仅增加具体算子开发工具采用事实，没有独立比较、性能复现或可供杭州验证的行业领先依据，不改变已有明确已审的标杆资格尚未建立边界；不影响该日报线索保留。",
+          "evidence_ids": [
+            "article_body:ee4935d7a5dad12a",
+            "prior_decision:57fb9024d657db8d",
+            "prior_decision:4aa55ed3d77695df"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "Fireworks",
+      "title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
+      "company": "Fireworks",
+      "score": 50,
+      "sector": "大模型部署与企业AI服务",
+      "financing": "",
+      "source": "晚点 LatePost",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Fireworks",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-0caee180da9d0f3f29af",
+      "company_canonical_name": "Fireworks",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw",
+      "article_title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
+      "event_desc": "文章称，Fireworks此前一项增长较快的业务，是基于GLM、Kimi等中国开源模型，为美国大型企业提供私有化部署服务；正文未披露具体客户、增长期间或业务规模。",
+      "insight": "这项业务体现了开源模型之外的一层产业分工：服务商把模型转化为企业可部署、可管理的应用基础设施，客户诉求包括成本与数据自主权，而非只比较模型能力。",
+      "event_headline": "Fireworks据报道以中国开源模型提供企业私有化部署",
+      "event_signal": "context",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-15",
+        "event_date": null,
+        "observed_date": "2026-11-15",
+        "review_required": true
+      },
+      "published_date": "2026-11-15",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "正文明确将Fireworks列为基于GLM、Kimi等中国开源模型、向美国大型企业提供私有化部署服务的业务主体，并解释客户降低闭源模型使用成本、提高数据自主权的采用动机。这是具有具体技术供给、客户类型和商业安排的既有业务线索，不只是企业点名或赛道背景，可独立作为全球正面日报观察保留。仅采信报道所述业务，不将未量化的增长描述认定为新增订单或已验证业绩，也不将未来禁用中国模型的推测列为已发生风险。新闻发布于2026-11-15，符合最近7天窗口；具体业务发生日及首次收录日未知。历史检索未提供匹配事件或旧裁决，不作重复判定，也不宣称首次发现。身份名录未完成登记、城市未知不构成本条正面发现的排除理由，亦不赋予杭州属地或领导简报资格。",
+      "event_headline_source": "3d8976288114ab016bb98a32e217f3f0c6a2b27051e538062b61c864991ceae4",
+      "review_evidence": {
+        "sha256": "3222809d2d45741ac4bcc79e82f6cea874ae5c9cbab0323f60f7c7a312940b4e",
+        "source_url": "https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw",
+        "published_at": "2026-11-15T07:59:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有报道足以支持具体部署业务线索，但未提供Fireworks行业地位、代表性客户成效、竞争优势或可验证规模等独立标杆依据，尚不能授予全国标杆资格。",
+        "evidence_ids": [
+          "article_body:ee4935d7a5dad12a"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "caf364725ba39971d7ce1eba947784c81c6f6dbf4801e3001b31bcf86694ec9e",
+        "input_row_sha256": "242628a7020e0737c542b6b2eae1780ef5f33596e05ce997c386630304215bcb",
+        "reason": "正文明确将Fireworks列为基于GLM、Kimi等中国开源模型、向美国大型企业提供私有化部署服务的业务主体，并解释客户降低闭源模型使用成本、提高数据自主权的采用动机。这是具有具体技术供给、客户类型和商业安排的既有业务线索，不只是企业点名或赛道背景，可独立作为全球正面日报观察保留。仅采信报道所述业务，不将未量化的增长描述认定为新增订单或已验证业绩，也不将未来禁用中国模型的推测列为已发生风险。新闻发布于2026-11-15，符合最近7天窗口；具体业务发生日及首次收录日未知。历史检索未提供匹配事件或旧裁决，不作重复判定，也不宣称首次发现。身份名录未完成登记、城市未知不构成本条正面发现的排除理由，亦不赋予杭州属地或领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文称Fireworks此前一项增长较快的业务，是基于GLM、Kimi等中国开源模型，为美国大型企业提供私有化部署服务；Fireworks承担部署服务提供方角色，GLM、Kimi为所采用模型，客户并非模型提供方。",
+          "value_reason": "该业务提供了开源模型通过第三方部署服务进入大型企业的具体商业路径，表明企业采用动机不只涉及模型能力，也涉及使用成本与数据自主权。对杭州企业AI服务商的产品定位和交付模式具有研究价值，但材料不足以判断该路径的规模、利润或竞争优势。"
+        },
+        "stage": {
+          "status": "媒体报道的既有商业化服务",
+          "reason": "原文使用“此前一个增长较快的业务”描述已开展的私有化部署服务，不是未来计划；未披露具体客户、项目交付时间、增长期间或业务规模，不能提升为经客户验证的规模化交付。有关潜在禁用及业务受损仍属推测。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:9e337e1df3db3701"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本次提供的历史检索结果中accepted_history和prior_decisions均为空，且无检索错误，未发现可比对的同事件收录或排除裁决；按当前未匹配历史的独立业务线索处理，不据此认定业务近期才发生或本项目首次发现。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article_body:ee4935d7a5dad12a",
+          "history_lookup:9e337e1df3db3701"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "现有报道足以支持具体部署业务线索，但未提供Fireworks行业地位、代表性客户成效、竞争优势或可验证规模等独立标杆依据，尚不能授予全国标杆资格。",
+          "evidence_ids": [
+            "article_body:ee4935d7a5dad12a"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "阿里",
       "title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
       "company": "阿里",
@@ -1812,6 +2827,552 @@
           "reason": "正文支持具体的外部客户算力供给安排，但没有独立客户验证、可比较的服务表现或足以建立该业务行业地位的证据；不以阿里知名度、杭州总部或云业务规模印象授予全国标杆资格。",
           "evidence_ids": [
             "article_body:ee4935d7a5dad12a"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "腾讯",
+      "title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
+      "company": "腾讯",
+      "score": 35,
+      "sector": "云计算与AI基础设施",
+      "financing": "",
+      "source": "晚点 LatePost",
+      "location": "广东省 / 深圳市",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-f0dd358a005c311ace000ba1"
+        ],
+        "subject_evidence_ids": [
+          "geo-f0dd358a005c311ace000ba1"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "腾讯",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-f0dd358a005c311ace000ba1"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-f0dd358a005c311ace000ba1",
+            "source_url": "https://www.tencent.com/zh-cn/company.html",
+            "checked_at": "2026-10-20T01:37:59.034782+00:00",
+            "subject": "腾讯",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-53874092e000069bfeda",
+      "company_canonical_name": "腾讯",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw",
+      "article_title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
+      "event_desc": "文章称，腾讯采购了较多H20，在内部统计算力时可能采用H20折算口径，并优先向内部业务场景供给算力，其后才对外提供云服务；正文未披露采购数量、日期或资源分配比例。",
+      "insight": "采购型号与内部使用优先级共同影响可对外提供的算力，但内部统计采用何种折算单位，不足以比较各家实际训练能力；还需对应硬件配置、任务和利用率。",
+      "event_headline": "腾讯据报道采购H20并将算力优先用于内部场景",
+      "event_signal": "context",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-15",
+        "event_date": null,
+        "observed_date": "2026-11-15",
+        "review_required": true
+      },
+      "published_date": "2026-11-15",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文中，受访记者明确称腾讯采购了较多H20，并将算力优先供给内部场景、随后对外提供云服务；腾讯在此是芯片采购和算力资源配置方，而非芯片制造方。具体硬件型号与内外业务分配顺序共同提供了可独立采信的算力供给安排线索，不只是总体投入或企业背景，可作为全国正面日报产业观察保留。仅采信报道所述安排，不认定近期新增采购、外部供给已经减少或具体交易均合法合规；内部可能采用H20折算的说法仍属推测。新闻发布于2026年11月15日，符合本次七日窗口，采购及配置安排发生日期、首次收录时间未知。已供历史中的总体算力开支和Datasection—Blackwell合同均未覆盖本条H20及内部优先安排，其他产品事件亦不重复。官网证据确认总部深圳，不进入杭州负面预警，也不自动取得领导简报资格。",
+      "event_headline_source": "b12b987e4e9927c6155b8c4baceb919115e9ca2cc18dc01993eff3ddeae2999f",
+      "review_evidence": {
+        "sha256": "3222809d2d45741ac4bcc79e82f6cea874ae5c9cbab0323f60f7c7a312940b4e",
+        "source_url": "https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw",
+        "published_at": "2026-11-15T07:59:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-f0dd358a005c311ace000ba1",
+          "source_url": "https://www.tencent.com/zh-cn/company.html",
+          "checked_at": "2026-10-20T01:37:59.034782+00:00",
+          "subject": "腾讯",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "深圳市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "既有已审材料尚未建立全国标杆资格；本条新增采购型号和配置顺序，但没有独立可比的行业领先地位证据，不据腾讯知名度或GPU采购自动授予标签。",
+        "evidence_ids": [
+          "accepted_history:59dc6ca7d0fb2528",
+          "accepted_history:95cf6466966a4cc6",
+          "article_body:ee4935d7a5dad12a"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "f6b9ad581e891dd75a010c99e6a0a3a4788c7bf381f527d84e58071e486327c9",
+        "input_row_sha256": "bdc0002c15d13c24e28121052d595421bfeaf1b6a01b95abc167d1eb3a653388",
+        "reason": "完整正文中，受访记者明确称腾讯采购了较多H20，并将算力优先供给内部场景、随后对外提供云服务；腾讯在此是芯片采购和算力资源配置方，而非芯片制造方。具体硬件型号与内外业务分配顺序共同提供了可独立采信的算力供给安排线索，不只是总体投入或企业背景，可作为全国正面日报产业观察保留。仅采信报道所述安排，不认定近期新增采购、外部供给已经减少或具体交易均合法合规；内部可能采用H20折算的说法仍属推测。新闻发布于2026年11月15日，符合本次七日窗口，采购及配置安排发生日期、首次收录时间未知。已供历史中的总体算力开支和Datasection—Blackwell合同均未覆盖本条H20及内部优先安排，其他产品事件亦不重复。官网证据确认总部深圳，不进入杭州负面预警，也不自动取得领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文称“腾讯采购了很多”H20，并明确“字节和腾讯都优先把算力供给给内部场景，之后才是对外提供云服务”；关于腾讯可能以H20折算内部算力的表述带有不确定性。",
+          "value_reason": "本条将具体GPU采购与云厂商内外业务的资源配置顺序联系起来，为杭州模型和智能体企业选择外部算力供应商提供不同于采购总额、模型参数的判断维度：拥有GPU库存并不等于同等资源优先向外部客户开放。报道未披露数量、期间或比例，不能据此比较各家实际训练能力、计算可售容量或认定客户已受损。"
+        },
+        "stage": {
+          "status": "记者在访谈中回顾已采购H20及内部优先的算力配置安排；折算口径为推测",
+          "reason": "采购和资源分配使用陈述性措辞，但没有采购合同、实施日期、分配比例或交付明细；“可能会折算成H20”不能写为已确认统计制度。本文不是新签约、产品发布或已发生的供应中断，亦不以英伟达人事叙事证明腾讯受到实际损失。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:65719c07aef79aec",
+            "accepted_history:562f0f94a205c46b",
+            "accepted_history:baa448808c39ace6",
+            "accepted_history:40f6638f5fbe4f99",
+            "accepted_history:5766b38dbf7ff461",
+            "accepted_history:59dc6ca7d0fb2528",
+            "accepted_history:224cc89d344f145f",
+            "accepted_history:22cf938b36691d35",
+            "accepted_history:95cf6466966a4cc6",
+            "prior_decision:2147b7747111bf09",
+            "prior_decision:026fbe1ab8a16a53",
+            "prior_decision:2c1fa724538f1954",
+            "prior_decision:1b6561dd8fc9afb8",
+            "prior_decision:deb459650206731a",
+            "prior_decision:39c6630ea34abdeb",
+            "prior_decision:7fe52b9343af03a6",
+            "prior_decision:bfa71e50f6158d10",
+            "prior_decision:3516fedc8841ff64",
+            "prior_decision:070f144712da5e69",
+            "prior_decision:8322a7f9b0410852",
+            "prior_decision:7c831cafe5723c2f"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:2147b7747111bf09",
+              "comparison": "different_event",
+              "reason": "对应WorkBuddy小程序创建、预览和发布，不涉及H20采购及算力内外分配。"
+            },
+            {
+              "evidence_id": "prior_decision:026fbe1ab8a16a53",
+              "comparison": "different_event",
+              "reason": "属于同一WorkBuddy小程序事件的另一裁决留痕，与本条不同。"
+            },
+            {
+              "evidence_id": "prior_decision:2c1fa724538f1954",
+              "comparison": "different_event",
+              "reason": "对应ADP应用生成、系统权限集成和客户流程应用；旧来源闭包验证不批准本条算力安排。"
+            },
+            {
+              "evidence_id": "prior_decision:1b6561dd8fc9afb8",
+              "comparison": "different_event",
+              "reason": "对应Hy4正式版能力及产品接入，不能据模型发布推定其使用本条H20资源。"
+            },
+            {
+              "evidence_id": "prior_decision:deb459650206731a",
+              "comparison": "different_event",
+              "reason": "对应Hy4金融任务众测；旧输入的发布时间和历史待核事项已有该旧候选闭包记录，不应机械转移至当前候选。"
+            },
+            {
+              "evidence_id": "prior_decision:39c6630ea34abdeb",
+              "comparison": "different_event",
+              "reason": "对应混元3数据清洗、基础设施及后训练工程，不涉及本条硬件型号和资源分配。旧性能核验边界不能替代当前事实判断。"
+            },
+            {
+              "evidence_id": "prior_decision:7fe52b9343af03a6",
+              "comparison": "different_event",
+              "reason": "属于Hy4金融任务众测的另一裁决留痕，与本条算力配置不同。"
+            },
+            {
+              "evidence_id": "prior_decision:bfa71e50f6158d10",
+              "comparison": "different_event",
+              "reason": "对应腾讯与Datasection约12亿美元、1.5万颗Blackwell相关合同。本条是H20采购与内部优先安排，未证明属于该合同的履约或新增进展，不拼接金额、数量及用途。"
+            },
+            {
+              "evidence_id": "prior_decision:3516fedc8841ff64",
+              "comparison": "different_event",
+              "reason": "属于ADP平台升级的另一裁决留痕，不覆盖本条采购及调度安排。"
+            },
+            {
+              "evidence_id": "prior_decision:070f144712da5e69",
+              "comparison": "different_event",
+              "reason": "属于Hy4正式版发布的另一裁决留痕，未建立该模型与本条H20采购之间的具体联系。"
+            },
+            {
+              "evidence_id": "prior_decision:8322a7f9b0410852",
+              "comparison": "different_event",
+              "reason": "属于Hy4金融任务众测的另一留痕，不能作为当前采购事实的批准或重复依据。"
+            },
+            {
+              "evidence_id": "prior_decision:7c831cafe5723c2f",
+              "comparison": "different_event",
+              "reason": "属于混元3训练工程的另一留痕，其旧技术待核问题不自动延续为本条缺口。"
+            }
+          ],
+          "change_reason": "已供九项收录历史分别涉及WorkBuddy、混元模型与总体资本开支、LightVela、Hy Memory、ADP、Hy4正式版与金融众测、混元3训练工程及Datasection合同。总体开支不能视为已收录H20这一型号及内部优先配置，Blackwell合同也不是本条采购的同一交易证据。本文新增可见事实为H20采购背景与内外算力供给顺序，按所供历史认定另一事件，不推翻旧裁决、不将背景回顾写成近期新增采购，也不宣称全局首次发现。",
+          "new_evidence_ids": [
+            "article_body:ee4935d7a5dad12a"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:ee4935d7a5dad12a",
+          "identity_registry:2dcd4f408df25406",
+          "geo-f0dd358a005c311ace000ba1",
+          "accepted_history:562f0f94a205c46b",
+          "accepted_history:95cf6466966a4cc6"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "既有已审材料尚未建立全国标杆资格；本条新增采购型号和配置顺序，但没有独立可比的行业领先地位证据，不据腾讯知名度或GPU采购自动授予标签。",
+          "evidence_ids": [
+            "accepted_history:59dc6ca7d0fb2528",
+            "accepted_history:95cf6466966a4cc6",
+            "article_body:ee4935d7a5dad12a"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "阶跃星辰",
+      "title": "传估值5亿美元，飞书前副总裁创业，不到80天散了",
+      "company": "阶跃星辰",
+      "score": 70,
+      "sector": "人工智能／大模型",
+      "financing": "公司宣布完成超过50亿元B+轮融资；原文未列明投资方、估值及资金用途。",
+      "source": "铅笔道",
+      "location": "上海市",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-416bcac9cf835dce3416ae8f"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阶跃星辰",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-416bcac9cf835dce3416ae8f",
+            "source_url": "https://www.shanghai.gov.cn/nw4411/20250702/e67154a281444f4bb7ab7a332e67a4d0.html",
+            "checked_at": "2026-10-20T02:35:08.430260+00:00",
+            "subject": "阶跃星辰",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-416bcac9cf835dce3416ae8f"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-f77d48bcb475d189b9c4",
+      "company_canonical_name": "阶跃星辰",
+      "identity_status": "unresolved",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/DstZp7rBiXvDsvMgF7ttnA",
+      "article_title": "传估值5亿美元，飞书前副总裁创业，不到80天散了",
+      "event_desc": "文章回顾称，今年1月，阶跃星辰宣布完成超过50亿元B+轮融资，同日旷视科技联合创始人印奇出任董事长。文章介绍该公司成立于2023年，主要研发AI大模型并向手机厂商等客户提供技术，未披露本轮融资的具体用途。",
+      "insight": "这笔融资是阶跃星辰的资本成长节点，其业务连接大模型研发与手机厂商技术供给。融资与董事长调整同时发生，但原文没有说明资金用途，不能将其直接解释为后续自研手机的专项投入。",
+      "event_headline": "阶跃星辰融资回顾：宣布完成超50亿元B+轮",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "month_known",
+        "description": "原文明确称“今年1月”公司宣布完成融资；结合2026-11-15新闻发布时间，事件月份为2026年1月，具体日未知。新闻发布时间与融资发生时间分别记录，不将报道日作为融资日。",
+        "event_date": null,
+        "observed_date": "2026-11-15",
+        "review_required": false
+      },
+      "published_date": "2026-11-15",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确记载阶跃星辰于今年1月宣布完成超过50亿元B+轮融资，并说明其研发大模型、向手机厂商提供技术，融资主体与技术业务关系清楚。这是可独立识别的科技企业资本成长节点，不因其出现在回顾段落、事件较早或资金用途未披露而排除。新闻发布时间为2026-11-15，符合最近7天采集窗口。已供历史为模型发布，与本次融资不是同一事件；未见本次融资的既有裁决，但不据此宣称首次发现。保留为全国科技产业观察线索，不自动赋予杭州属地、全国标杆或领导简报资格。",
+      "event_headline_source": "606cec08c48a7694d8af34a2aedc336f8050c92fb176fe53a17bda6e33c3d50f",
+      "review_evidence": {
+        "sha256": "ef016b1e936f099c93c3a8e05255ac7b0acd8359fa8145dde392a45b18ae1887",
+        "source_url": "https://mp.weixin.qq.com/s/DstZp7rBiXvDsvMgF7ttnA",
+        "published_at": "2026-11-15T11:30:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-416bcac9cf835dce3416ae8f",
+          "source_url": "https://www.shanghai.gov.cn/nw4411/20250702/e67154a281444f4bb7ab7a332e67a4d0.html",
+          "checked_at": "2026-10-20T02:35:08.430260+00:00",
+          "subject": "阶跃星辰",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条融资和技术业务足以支持事件保留，但融资规模本身不能证明行业领先地位。历史模型记录中的上游标杆标签不等于独立标杆审核，当前未提供可直接复用的明确已审标杆依据，本次不新增全国标杆资格。",
+        "evidence_ids": [
+          "article_body:cd5ea74f0648b768",
+          "accepted_history:56a68c6dbd6288e9"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "f7cf8e6a7f811774312c3a5595c473b39e069defa4f0718e789f70db392887f3",
+        "input_row_sha256": "5606c0be596f6df7001ba44b38de455b6227b9e02fd2f76b19e97bd7bd45f2f8",
+        "reason": "原文明确记载阶跃星辰于今年1月宣布完成超过50亿元B+轮融资，并说明其研发大模型、向手机厂商提供技术，融资主体与技术业务关系清楚。这是可独立识别的科技企业资本成长节点，不因其出现在回顾段落、事件较早或资金用途未披露而排除。新闻发布时间为2026-11-15，符合最近7天采集窗口。已供历史为模型发布，与本次融资不是同一事件；未见本次融资的既有裁决，但不据此宣称首次发现。保留为全国科技产业观察线索，不自动赋予杭州属地、全国标杆或领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文第三节明确说明阶跃星辰主要研发AI大模型，向手机厂商等客户提供技术，并记载今年1月公司宣布完成超过50亿元B+轮融资。",
+          "value_reason": "超过50亿元融资与原文明示的大模型研发及手机厂商技术供给业务相联系，构成值得观察的资本成长节点，可为杭州同类企业的融资规模与产业化路径研究提供对照；不能据此推断融资用途、资金到账情况或后续手机业务获得专项投入。"
+        },
+        "stage": {
+          "status": "已宣布完成融资，当前报道为历史回顾",
+          "reason": "原文称“今年1月”“公司宣布完成超过50亿元B+轮融资”，对应2026年1月，具体日未知。完成状态按报道所引公司宣布表述，不等同于独立核验资金到账；不得将同文未经官方确认的任职传闻并入融资事实。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:56a68c6dbd6288e9"
+          ],
+          "prior_decisions": [],
+          "change_reason": "已供2026-06-07历史记录涉及Step 3.7 Flash模型发布及性能表现，本条涉及2026年1月B+轮融资，两者为不同事件，不构成重复或对旧裁决的改判。输入未提供同轮融资历史记录，故仅确认与已供历史不同，不宣称全库首次收录。",
+          "new_evidence_ids": [
+            "article_body:cd5ea74f0648b768"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:cd5ea74f0648b768",
+          "accepted_history:56a68c6dbd6288e9",
+          "geo-416bcac9cf835dce3416ae8f"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条融资和技术业务足以支持事件保留，但融资规模本身不能证明行业领先地位。历史模型记录中的上游标杆标签不等于独立标杆审核，当前未提供可直接复用的明确已审标杆依据，本次不新增全国标杆资格。",
+          "evidence_ids": [
+            "article_body:cd5ea74f0648b768",
+            "accepted_history:56a68c6dbd6288e9"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "阶跃星辰",
+      "title": "传估值5亿美元，飞书前副总裁创业，不到80天散了",
+      "company": "阶跃星辰",
+      "score": 50,
+      "sector": "人工智能／智能终端／智能体手机",
+      "financing": "",
+      "source": "铅笔道",
+      "location": "上海市",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-416bcac9cf835dce3416ae8f"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阶跃星辰",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-416bcac9cf835dce3416ae8f",
+            "source_url": "https://www.shanghai.gov.cn/nw4411/20250702/e67154a281444f4bb7ab7a332e67a4d0.html",
+            "checked_at": "2026-10-20T02:35:08.430260+00:00",
+            "subject": "阶跃星辰",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-416bcac9cf835dce3416ae8f"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-f77d48bcb475d189b9c4",
+      "company_canonical_name": "阶跃星辰",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/DstZp7rBiXvDsvMgF7ttnA",
+      "article_title": "传估值5亿美元，飞书前副总裁创业，不到80天散了",
+      "event_desc": "文章称，阶跃星辰组建了超过500人的硬件团队，由曾在华为、荣耀任职的倪嘉悦负责终端业务。10月13日，公司推出智能体手机STEPX Neo先行版，售价3999元，16日正式开售。产品通过与支付宝、携程、滴滴、美团等平台合作，调用授权接口提供相应服务，目标是让用户交代任务后由AI协助执行。文章另引公司披露称，截至2025年底，其模型覆盖国内约60%的头部手机品牌，装机量超过4200万台。",
+      "insight": "推出自有手机，使阶跃星辰从向手机厂商提供模型技术，进一步延伸到组织终端硬件和服务入口；授权接口则为智能体执行任务提供了明确通路。其任务覆盖仍取决于合作平台开放的接口，文章所引行业人士对安卓底层依赖的质疑，提示整机推出并不等于已经掌握全部系统控制权。",
+      "event_headline": "阶跃星辰推出STEPX Neo先行版并开售",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "reported_dates_explicit",
+        "description": "正文明确记载2026年10月13日发布STEPX Neo先行版，10月16日正式开售；新闻发布日期为2026-11-15，首次收录时间未提供。年份依据正文“今年”的报道语境确定。",
+        "event_date": "2026-10-13",
+        "sale_date": "2026-10-16",
+        "observed_date": "2026-11-15",
+        "review_required": false,
+        "evidence_ids": [
+          "article_body:cd5ea74f0648b768"
+        ]
+      },
+      "published_date": "2026-11-15",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "已供完整正文明确将阶跃星辰列为STEPX Neo先行版的推出方，报道其组建硬件团队、10月13日发布并于10月16日开售，以及通过合作平台授权接口执行任务。这些内容具有独立产品与商业化事实，不只是创业者人事报道中的企业背景，可作为全国正面产业观察线索。2026-11-15的新闻发布时间在采集窗口内，事件发生于10月不构成排除理由。已有历史记录是另一款模型发布，未显示本次手机事件重复收录，但不能据此宣称全库首次发现。已审材料支持上海经营地，不证明注册地或主要总部；本次保留不授予杭州负面预警、全国标杆或领导简报资格。创业项目终止及未经官方确认的任职消息不归为阶跃星辰的已发生风险。",
+      "event_headline_source": "67baa32cd5d7ed7b37450e3ec0ffcd1bc1f3e04148ef90fa049bb39b2348a909",
+      "review_evidence": {
+        "sha256": "ef016b1e936f099c93c3a8e05255ac7b0acd8359fa8145dde392a45b18ae1887",
+        "source_url": "https://mp.weixin.qq.com/s/DstZp7rBiXvDsvMgF7ttnA",
+        "published_at": "2026-11-15T11:30:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "event_date": "2026-10-13",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-416bcac9cf835dce3416ae8f",
+          "source_url": "https://www.shanghai.gov.cn/nw4411/20250702/e67154a281444f4bb7ab7a332e67a4d0.html",
+          "checked_at": "2026-10-20T02:35:08.430260+00:00",
+          "subject": "阶跃星辰",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本次正文足以支持具体终端产品进展；装机覆盖数据为文中转述公司披露，未提供独立行业比较依据。已有历史的is_national_star及模型榜单描述不等于明确已审的标杆资格裁决，本轮不据此新增全国标杆标签。",
+        "evidence_ids": [
+          "article_body:cd5ea74f0648b768",
+          "accepted_history:56a68c6dbd6288e9"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "fc2ff6d8bb44fb063eab3faf89835810a8e7a0f23babcbaf6e42e926ff037d6b",
+        "input_row_sha256": "74f4ff89be0cb2253b99d6d26edbc3435573458bc3b2caa158a257d55ae1d30b",
+        "reason": "已供完整正文明确将阶跃星辰列为STEPX Neo先行版的推出方，报道其组建硬件团队、10月13日发布并于10月16日开售，以及通过合作平台授权接口执行任务。这些内容具有独立产品与商业化事实，不只是创业者人事报道中的企业背景，可作为全国正面产业观察线索。2026-11-15的新闻发布时间在采集窗口内，事件发生于10月不构成排除理由。已有历史记录是另一款模型发布，未显示本次手机事件重复收录，但不能据此宣称全库首次发现。已审材料支持上海经营地，不证明注册地或主要总部；本次保留不授予杭州负面预警、全国标杆或领导简报资格。创业项目终止及未经官方确认的任职消息不归为阶跃星辰的已发生风险。",
+        "scope": {
+          "technology_evidence": "正文记载阶跃星辰推出智能体手机STEPX Neo先行版，用户可交代任务，由AI通过支付宝、携程、滴滴、美团等合作平台的授权接口调用服务；并记载硬件团队与发布、开售动作。",
+          "value_reason": "该事件提供了模型供应商延伸至自有终端和任务执行入口的具体产品路径，值得比较模型、终端硬件与服务接口的组合方式。其产业价值在于可识别的任务执行机制和商业化动作，而非3999元标价本身；现有证据不证明销量、任务成功率或完整系统控制权。"
+        },
+        "stage": {
+          "status": "已发布并开售（据媒体报道）",
+          "reason": "2026-11-15正文称“10月13日”推出先行版、“16日正式开售”，按文中今年语境对应2026-10-13及2026-10-16。开售不等于已验证规模交付；施凯文具体任职仍未经双方官方确认，不作为产品进展的成立条件。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:56a68c6dbd6288e9"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所供2026-06-07历史记录涉及Step 3.7 Flash模型发布、性能榜单及车载应用；本次涉及STEPX Neo手机发布、开售和授权接口服务机制，是另一事件，不是同一模型事件换源重报。输入未提供同事件旧排除裁决，也未提供覆盖全库的无匹配检索记录，因此仅确认与已供历史不同。",
+          "new_evidence_ids": [
+            "article_body:cd5ea74f0648b768"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:cd5ea74f0648b768",
+          "accepted_history:56a68c6dbd6288e9",
+          "geo-416bcac9cf835dce3416ae8f",
+          "geo-223454b204009609512a6edb"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本次正文足以支持具体终端产品进展；装机覆盖数据为文中转述公司披露，未提供独立行业比较依据。已有历史的is_national_star及模型榜单描述不等于明确已审的标杆资格裁决，本轮不据此新增全国标杆标签。",
+          "evidence_ids": [
+            "article_body:cd5ea74f0648b768",
+            "accepted_history:56a68c6dbd6288e9"
           ]
         }
       }
@@ -2925,6 +4486,96 @@
       "title": "模拟芯片六巨头，透露行业新风向",
       "company": "英飞凌",
       "score": 35,
+      "sector": "功率半导体与汽车电子",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "英飞凌",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-86fbebe2492b6e727970",
+      "company_canonical_name": "英飞凌",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/T2YU5p1SGU_Zl7wItN2Yuw",
+      "article_title": "模拟芯片六巨头，透露行业新风向",
+      "event_desc": "文章披露，英飞凌预计2027财年营收约200亿欧元，较2026财年163.53亿欧元增长超过20%；公司将数据中心电源、能源基础设施、电动出行和软件定义汽车列为主要增长方向。",
+      "insight": "英飞凌的增长预期对应数据中心供电、能源和汽车等具体产品市场，其中数据中心电源把AI建设需求连接到功率半导体。该指引体现公司的需求判断，不能替代已交付产品或实际收入。",
+      "event_headline": "英飞凌预计2027财年营收约200亿欧元",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-15",
+        "event_date": null,
+        "observed_date": "2026-11-15",
+        "review_required": true
+      },
+      "published_date": "2026-11-15",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确将2027财年指引归于英飞凌，并列明数据中心电源、能源基础设施、电动出行和软件定义汽车等需求方向；同文还披露其AI业务受到供应能力限制及德累斯顿工厂扩产，构成具体功率半导体供需观察，而非仅凭公司总体营收推断AI需求。保留为公司前瞻判断，不写成已实现收入或已完成交付。采集证据记录文章发布于2026年11月15日，符合本轮新闻窗口，无须因正文不展示发布时间而继续待核。注册名录和城市未知不阻断普通正面线索，也不赋予杭州或领导简报资格。",
+      "event_headline_source": "3f8c3e970665190aab210ba2aba51c95f43855e336e9a4033d2101ea58956087",
+      "review_evidence": {
+        "sha256": "812fd7ee21399f48f99d7514a143983b159083756bc9f5d8d989550a34a8620a",
+        "source_url": "https://mp.weixin.qq.com/s/T2YU5p1SGU_Zl7wItN2Yuw",
+        "published_at": "2026-11-15T02:26:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "e162fe61556814dc768d1ef5efa83e507dcc88f6c8a2d637a3bc0bccb4ae9e26",
+        "input_row_sha256": "6d0efa098e27e90547e572f026e40b98e85d9b599960d37ce35b30f3ceed97ec",
+        "reason": "完整正文明确将2027财年指引归于英飞凌，并列明数据中心电源、能源基础设施、电动出行和软件定义汽车等需求方向；同文还披露其AI业务受到供应能力限制及德累斯顿工厂扩产，构成具体功率半导体供需观察，而非仅凭公司总体营收推断AI需求。保留为公司前瞻判断，不写成已实现收入或已完成交付。采集证据记录文章发布于2026年11月15日，符合本轮新闻窗口，无须因正文不展示发布时间而继续待核。注册名录和城市未知不阻断普通正面线索，也不赋予杭州或领导简报资格。",
+        "scope": {
+          "technology_evidence": "原文披露英飞凌预计2027财年营收约200亿欧元，明确对应数据中心电源、能源基础设施、电动出行和软件定义汽车，并披露AI业务供应能力限制及德累斯顿扩产。",
+          "value_reason": "将财年需求预期与具体功率器件应用和制造约束联系起来，可供杭州相关企业判断数据中心供电需求及产能配置方向；不能据此认定所有终端市场同步增长。"
+        },
+        "stage": {
+          "status": "公司前瞻指引",
+          "reason": "2027财年收入为预期而非实绩；该项指引的具体披露日期未明确，文章发布时间为2026年11月15日，首次收录时间未提供。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:9e337e1df3db3701"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本包检索返回的accepted_history和prior_decisions均为空，未见同事件已收录或旧排除裁决。本轮另外三项英飞凌候选分别涉及调价、供货安排和机器人合作，不与财年指引视为同一事件；不宣称历史首次发现。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article_body:b43442c2f4667b47"
+        ]
+      }
+    },
+    {
+      "company_raw_name": "英飞凌",
+      "title": "模拟芯片六巨头，透露行业新风向",
+      "company": "英飞凌",
+      "score": 35,
       "sector": "功率半导体",
       "financing": "",
       "source": "半导体行业观察",
@@ -3098,6 +4749,917 @@
         "evidence_ids": [
           "article_body:b43442c2f4667b47"
         ]
+      }
+    },
+    {
+      "company_raw_name": "特斯拉",
+      "title": "比亚迪：网传“某数字能源出售给比亚迪”不实；特斯拉Cybercab面向个人用户开放销售：售29990美元丨汽车交通日报",
+      "company": "特斯拉",
+      "score": 50,
+      "sector": "新能源汽车与自动驾驶",
+      "financing": "",
+      "source": "创业邦",
+      "location": "US / Texas",
+      "article_location": "美国得克萨斯州（注册地，复用已审同主体证据）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Texas",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-39d56e451ceb738d3ce2798e"
+        ],
+        "subject_evidence_ids": [
+          "geo-39d56e451ceb738d3ce2798e"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "特斯拉",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Texas",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-39d56e451ceb738d3ce2798e"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-39d56e451ceb738d3ce2798e",
+            "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
+            "checked_at": "2026-10-12T04:00:14.248816+00:00",
+            "subject": "特斯拉",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Texas"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-ddadc7e89f7cd629cbd7",
+      "company_canonical_name": "特斯拉",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/JyFcT1AU6oHCLomlH3hHmQ",
+      "article_title": "比亚迪：网传“某数字能源出售给比亚迪”不实；特斯拉Cybercab面向个人用户开放销售：售29990美元丨汽车交通日报",
+      "event_desc": "原文称，特斯拉开始向部分个人用户开放Cybercab无人驾驶汽车购买渠道，起售价29990美元，报道折合人民币约20万元。购买资格目前仅向特定受邀客户开放，首批车辆预计于2026年12月交付，首批交付范围暂时集中于美国得克萨斯州奥斯汀地区。",
+      "insight": "若个人购买渠道按报道开放，Cybercab的商业路径将不只面向车队，也开始涉及个人持有无人驾驶车辆。当前范围限定于受邀客户及奥斯汀首批交付，关键变化是销售对象扩展，不能据此理解为已向公众普售或车辆已经交付。",
+      "event_headline": "特斯拉据报道向受邀个人开放Cybercab购买渠道",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-14",
+        "event_date": null,
+        "observed_date": "2026-11-14",
+        "review_required": true
+      },
+      "published_date": "2026-11-14",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文第6条明确特斯拉为销售主体、Cybercab为其无人驾驶汽车产品，报道向特定受邀个人开放购买渠道、起售价29990美元，并给出2026年12月预计首批交付及奥斯汀地域限制。这不是孤立标价，而是专用无人驾驶车型面向个人持有的具体商业安排，可作为海外商业化观察线索。采集证据明确新闻发布于2026-11-14T11:09:00Z，符合本次七日窗口；不能沿用上游发布时间缺失的理由，也不额外将取得官方购买公告设为所有媒体线索的采信门槛。按创业邦援引金融界的报道保留，不声称本轮独立核实了官方购买条款、已经普售或完成交付。历史Cybercab记录分别涉及车队运营、制造空间调整和亚洲展示，未覆盖本次个人购买安排。主体已核为美国得州注册企业，仅取得正面日报线索资格，不取得杭州负面预警或领导简报资格。",
+      "event_headline_source": "618300951ca38b70af81a6297509770bcbb281b81207cffef540e2459cf459a4",
+      "review_evidence": {
+        "sha256": "87fbad74e1be33fc451c91df8185261955f98e48fcb6668a5795c1151ddf76dc",
+        "source_url": "https://mp.weixin.qq.com/s/JyFcT1AU6oHCLomlH3hHmQ",
+        "published_at": "2026-11-14T11:09:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-39d56e451ceb738d3ce2798e",
+          "source_url": "https://data.sec.gov/submissions/CIK0001318605.json",
+          "checked_at": "2026-10-12T04:00:14.248816+00:00",
+          "subject": "特斯拉",
+          "role": "registered",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "Texas"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持受限销售渠道及预计交付安排的商业化观察，但没有补足独立性能、运营经济性或同类比较优势证据，不能由企业知名度和销售开放自动建立标杆资格。",
+        "evidence_ids": [
+          "article_body:37c3f83a1b33e9cb",
+          "accepted_history:aab128f7aada4f8a",
+          "accepted_history:885e5da78ebff36b"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "a8f66e7601d20addca380f7d9042da1a028e85b024f1f147db8b0c164891fb28",
+        "input_row_sha256": "59b45e7a64b4e8da1e09a4cc385f2ccdbe3adab6f1722214dea6b742c0134ba1",
+        "reason": "原文第6条明确特斯拉为销售主体、Cybercab为其无人驾驶汽车产品，报道向特定受邀个人开放购买渠道、起售价29990美元，并给出2026年12月预计首批交付及奥斯汀地域限制。这不是孤立标价，而是专用无人驾驶车型面向个人持有的具体商业安排，可作为海外商业化观察线索。采集证据明确新闻发布于2026-11-14T11:09:00Z，符合本次七日窗口；不能沿用上游发布时间缺失的理由，也不额外将取得官方购买公告设为所有媒体线索的采信门槛。按创业邦援引金融界的报道保留，不声称本轮独立核实了官方购买条款、已经普售或完成交付。历史Cybercab记录分别涉及车队运营、制造空间调整和亚洲展示，未覆盖本次个人购买安排。主体已核为美国得州注册企业，仅取得正面日报线索资格，不取得杭州负面预警或领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文第6条报道特斯拉开始向部分个人用户开放Cybercab无人驾驶汽车购买渠道，购买资格限于特定受邀客户，起售价29990美元，首批车辆预计2026年12月交付，交付范围暂集中于奥斯汀。",
+          "value_reason": "新增价值是无人驾驶专用车型的购买对象和交付安排得到具体披露，而非已有车型再次亮相或价格变化。个人持有与既有车队运营涉及不同的资产持有及产品销售路径，可供杭州自动驾驶企业比较商业化组织方式；原文没有证明个人车主可以开展收费运营、相关道路许可已经取得或订单需求已经兑现。"
+        },
+        "stage": {
+          "status": "reported_restricted_sales_opening_with_upcoming_delivery",
+          "reason": "媒体报道购买渠道已向特定受邀个人开放；2026年12月首批交付仍为upcoming计划，奥斯汀为预计首批交付地。精确销售开放日期和本候选首次收录时间未知，新闻发布时间不冒充事件日期。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:cc06762d9d573113",
+            "accepted_history:306bbaef9db0a759",
+            "accepted_history:db2618cccbb90b0e",
+            "accepted_history:14525552814977ac",
+            "accepted_history:aab128f7aada4f8a",
+            "accepted_history:5a8914aab0b439e5",
+            "accepted_history:a8064de0179470f5",
+            "accepted_history:0fe749c91cd7ecf0",
+            "accepted_history:cc887549420482d7",
+            "accepted_history:dc2f82f6007a14af",
+            "accepted_history:5e0b897f328b415f",
+            "accepted_history:885e5da78ebff36b",
+            "accepted_history:43acdbce625972a3",
+            "prior_decision:3834319df1d0daa5",
+            "prior_decision:4731a8723061cd8d",
+            "prior_decision:2a32e5c6a7a8c7b5",
+            "prior_decision:61ad36d4b641cb6a",
+            "prior_decision:dd99fe9b73434e0f"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:3834319df1d0daa5",
+              "comparison": "different_event",
+              "reason": "旧exclude针对印度汽车销量及杭州公开预警资格；本条是Cybercab受邀个人购买安排，不撤销旧排除，也不扩为企业黑名单。"
+            },
+            {
+              "evidence_id": "prior_decision:4731a8723061cd8d",
+              "comparison": "different_event",
+              "reason": "旧exclude针对欧洲监督版FSD更名和审批延期；本条未提供欧洲审批增量，不改变该事件裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:2a32e5c6a7a8c7b5",
+              "comparison": "different_event",
+              "reason": "旧reject针对Roadster同次发布的重复稿及未经核实的动作描述；本条产品、商业安排均不同。"
+            },
+            {
+              "evidence_id": "prior_decision:61ad36d4b641cb6a",
+              "comparison": "different_event",
+              "reason": "这是同一Roadster重复稿的另一排除记录，不覆盖Cybercab个人购买渠道开放。"
+            },
+            {
+              "evidence_id": "prior_decision:dd99fe9b73434e0f",
+              "comparison": "different_event",
+              "reason": "旧watch针对Roadster储气、喷嘴参数的原始出处及新增性。来源闭包验证不等于参数获得核实；当前Cybercab销售报道也未补足这些参数，因此不改判旧待核项，不将其缺口传递给另一产品事件。"
+            }
+          ],
+          "change_reason": "逐项对照，AI5样品、韩国销量、Terafab共建、域控芯片份额、Terafab年度试制目标、四项Roadster记录和芯片路线图均属其他事实。Cybercab奥斯汀车队运营及达拉斯计划、Cybertruck停产腾挪生产空间计划、进博会展示与本条同产品相关，但没有包含受邀个人购买渠道、起售价和首批预计交付安排。本次沿Cybercab商业化事项保留实质信息增量，不重复发布既有运营、制造或展示事实，不宣称全库首次发现，不翻转任何旧排除。",
+          "new_evidence_ids": [
+            "article_body:37c3f83a1b33e9cb"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:37c3f83a1b33e9cb",
+          "identity_registry:2dcd4f408df25406",
+          "geo-39d56e451ceb738d3ce2798e",
+          "accepted_history:aab128f7aada4f8a",
+          "accepted_history:5e0b897f328b415f",
+          "accepted_history:885e5da78ebff36b"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条支持受限销售渠道及预计交付安排的商业化观察，但没有补足独立性能、运营经济性或同类比较优势证据，不能由企业知名度和销售开放自动建立标杆资格。",
+          "evidence_ids": [
+            "article_body:37c3f83a1b33e9cb",
+            "accepted_history:aab128f7aada4f8a",
+            "accepted_history:885e5da78ebff36b"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "平头哥",
+      "identity_mentions": [
+        {
+          "name": "真武系列AI芯片",
+          "relation": "product",
+          "evidence": "据报道，截至2026年4月，平头哥真武系列AI芯片累计出货量达56万片。"
+        }
+      ],
+      "title": "黄仁勋回不回得来？段永平和前推特CEO吵起来了丨氪代表周报",
+      "company": "平头哥",
+      "score": 50,
+      "sector": "云端AI芯片与服务器芯片",
+      "financing": "据原文，已申请香港独立上市；未披露募资金额、估值或具体募资用途。",
+      "source": "36 氪",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "平头哥",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-58c4ed0e3cc350e04cd1",
+      "company_canonical_name": "平头哥",
+      "identity_status": "unresolved",
+      "event_type": "IPO",
+      "link": "https://mp.weixin.qq.com/s/o7GsAOKjd0CxuRCj3Cr-yg",
+      "article_title": "黄仁勋回不回得来？段永平和前推特CEO吵起来了丨氪代表周报",
+      "event_desc": "原文称，阿里巴巴集团于11月10日晚公告，已向香港联交所提交平头哥独立上市申请，上市完成后平头哥仍将是其子公司。平头哥由中天微与达摩院芯片团队于2018年合并组成，产品包括云端AI芯片、服务器CPU及配套网卡，服务阿里内部业务，并向金融、车企及政企客户拓展。原文援引报道表示，截至2026年4月，真武系列AI芯片累计出货量达56万片。",
+      "insight": "这条线索的价值在于观察平头哥能否从集团内部算力供应者进一步形成面向外部客户的芯片业务。原文所述金融、车企和政企供货表明客户范围正在扩展，但累计出货量没有区分内外部客户，尚不能据此判断外部市场拓展程度。",
+      "event_headline": "平头哥据报道申请香港独立上市，业务向外部客户拓展",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "原文明确公告时间为11月10日晚，但该句未单独注明年份；新闻发布于2026-11-14T10:05:00Z。上市申请按媒体所述已提交，上市完成时间未知，实际首次收录时间未提供。",
+        "event_date": null,
+        "observed_date": "2026-11-14",
+        "review_required": false
+      },
+      "published_date": "2026-11-14",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "全文明确平头哥是芯片业务主体和拟上市子公司，阿里巴巴是公告及分拆安排的母公司，真武系列是产品，不能混并主体。报道明确称已向港交所提交上市申请，相较历史材料中的拟分拆上市，提供了申请程序已推进的具体事实；其云端AI芯片、服务器CPU及外部客户供货背景支持这一资本成长事件的产业价值。当前文章也补足了旧裁决所缺的另一篇上市申请报道，可纠正此前缺乏材料的归并表述，但不采纳未获当前证据支持的保密申请或全球发售细节。新闻发布于2026年11月14日，处于本次审核最近7天窗口；实际首次收录时间未提供，不宣称首次发现。主体工商身份和城市尚未归档不影响本条普通正面线索采信，也不授予杭州属地或领导简报资格。",
+      "event_headline_source": "12f2b34f5558c2ef42f25d96df2c056d12da7de9621e6e2a7f6cb0a6c33a905e",
+      "review_evidence": {
+        "sha256": "cef4e9b93ff3634a726ae183a8196a17c68cbfe5618f22d71fc26cb5580a4c95",
+        "source_url": "https://mp.weixin.qq.com/s/o7GsAOKjd0CxuRCj3Cr-yg",
+        "published_at": "2026-11-14T10:05:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "材料支持芯片产品、供货背景和资本程序进展，但未建立可复核的跨厂商技术优势、市场地位或独立经营表现。母公司背景、累计出货及上市申请不足以单独授予全国标杆资格。",
+        "evidence_ids": [
+          "article_body:4f5b219d171d2db2"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "8c7d87883da52b8a0032bfeee982a207e071b2b433096d0b85c1044701c83526",
+        "input_row_sha256": "bf2da3ffa8d28e38d28477415eefb34766360211a76563f8136b4addd3b6a926",
+        "reason": "全文明确平头哥是芯片业务主体和拟上市子公司，阿里巴巴是公告及分拆安排的母公司，真武系列是产品，不能混并主体。报道明确称已向港交所提交上市申请，相较历史材料中的拟分拆上市，提供了申请程序已推进的具体事实；其云端AI芯片、服务器CPU及外部客户供货背景支持这一资本成长事件的产业价值。当前文章也补足了旧裁决所缺的另一篇上市申请报道，可纠正此前缺乏材料的归并表述，但不采纳未获当前证据支持的保密申请或全球发售细节。新闻发布于2026年11月14日，处于本次审核最近7天窗口；实际首次收录时间未提供，不宣称首次发现。主体工商身份和城市尚未归档不影响本条普通正面线索采信，也不授予杭州属地或领导简报资格。",
+        "scope": {
+          "technology_evidence": "原文称平头哥由中天微与达摩院芯片团队合并组成，产品包括云端AI芯片、服务器CPU和配套网卡，为阿里内部业务提供算力，并向金融、车企及政企客户供货；报道回顾截至2026年4月真武系列AI芯片累计出货56万片。",
+          "value_reason": "已提交上市申请是芯片业务争取独立资本渠道的具体程序节点，而非仅有上市意向或企业背景介绍。上市后仍保留母子公司关系，值得研究其资本渠道独立与集团业务依赖之间的关系；外部供货提供商业化背景，但累计出货未区分内部与外部客户，不能据此认定独立获客能力、盈利或融资成效。"
+        },
+        "stage": {
+          "status": "据媒体报道已提交独立上市申请，上市及募资尚未完成",
+          "reason": "原文明确称阿里巴巴于11月10日晚公告已向港交所交表，并使用“上市完成后”描述未来控制关系。所供材料未包含公告原件，公开表述须保留媒体归因；不能写成已经上市、获得批准或资金到账。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "prior_decision:4922c906b9c9c9b1",
+            "prior_decision:d7413a07de2f3663"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:4922c906b9c9c9b1",
+              "comparison": "new_progress",
+              "reason": "属于同一赴港分拆上市事项。旧材料明确的是宣布拟分拆；当前原文进一步明确已交表申请，不另计为第二次独立上市事件。旧watch针对缺少另一篇文章、无法复核跨来源归并的具体问题；本轮已提供对应申请报道，可据实重新判断，不因旧状态继续待核，也不继承旧材料中未经证实的保密申请和全球发售表述。"
+            },
+            {
+              "evidence_id": "prior_decision:d7413a07de2f3663",
+              "comparison": "different_event",
+              "reason": "旧项是M890以64卡超节点实例开售并承载Kimi K3服务，属于产品应用与交付事件，与本次上市申请不同。当前文章未补足其旧裁决涉及的月之暗面历史材料，不能据此解除该项待核，也不将其作为本条新增商业化事实。"
+            }
+          ],
+          "change_reason": "改判依据是当前全文直接支持已提交上市申请，且补足旧上市裁决所缺的跨来源比较材料，而非仅因文章更新或来源闭包校验无报错。已交表是相对于所供旧正文新增的程序信息，不证明它发生在旧报道之后。accepted_history为空，未见本事项已公开采信记录，不认定为已刊重复，也不宣称实际首次收录。",
+          "new_evidence_ids": [
+            "article_body:4f5b219d171d2db2"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:4f5b219d171d2db2",
+          "prior_decision:4922c906b9c9c9b1",
+          "prior_decision:d7413a07de2f3663"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "材料支持芯片产品、供货背景和资本程序进展，但未建立可复核的跨厂商技术优势、市场地位或独立经营表现。母公司背景、累计出货及上市申请不足以单独授予全国标杆资格。",
+          "evidence_ids": [
+            "article_body:4f5b219d171d2db2"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "字节跳动",
+      "title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "company": "字节跳动",
+      "score": 70,
+      "sector": "人工智能与互联网平台",
+      "financing": "拟以约4000亿美元估值回购不超过60亿美元股份，不是新增融资；另拟提供3亿股AI业务相关员工激励股份。",
+      "source": "创业邦",
+      "location": "北京市 / 海淀区",
+      "article_location": "北京市海淀区（经营地，复用已审证据geo-eeb80ea6f0e8952ff8f4183b、geo-0bdd2570513f06e17fbf1244）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市 / 海淀区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-eeb80ea6f0e8952ff8f4183b",
+          "geo-0bdd2570513f06e17fbf1244"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "字节跳动",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-eeb80ea6f0e8952ff8f4183b",
+            "source_url": "https://www.stcn.com/article/detail/3732485.html",
+            "checked_at": "2026-10-20T18:21:47.689511+00:00",
+            "subject": "字节跳动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          },
+          {
+            "evidence_id": "geo-0bdd2570513f06e17fbf1244",
+            "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
+            "checked_at": "2026-10-20T02:29:16.687727+00:00",
+            "subject": "字节跳动",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-eeb80ea6f0e8952ff8f4183b",
+            "geo-0bdd2570513f06e17fbf1244"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-702c213feab1671de4c5",
+      "company_canonical_name": "字节跳动",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+      "article_title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "event_desc": "据知情人士称，字节跳动计划以约4000亿美元估值回购不超过60亿美元股份，每股报价241.35美元，上次回购价格为每股200.41美元。公司股东信提议将外部股东要求回购全部持股的期限，从今年12月11日延至2030年12月11日；公司还计划向AI业务员工提供合计3亿股与AI业务价值挂钩的股份。",
+      "insight": "与AI业务价值挂钩的股份安排，将人才激励与该业务的长期成长联系起来；股份回购本身则主要解决现有股东流动性，不等于新增AI研发资金。",
+      "event_headline": "字节跳动据悉拟回购至多60亿美元股份",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-14",
+        "event_date": null,
+        "observed_date": "2026-11-14",
+        "review_required": true
+      },
+      "published_date": "2026-11-14",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整原文明确字节跳动为拟议股份回购方及AI员工激励安排的提出方。回购主要提供现有股东流动性，不是新增融资，单凭估值和回购规模不足以构成科技产业进展；但本条还具体披露拟向AI业务员工提供合计3亿股、价值与AI业务挂钩的股份，明确连接AI人才留用与业务价值分配，足以作为独立的AI商业组织安排线索。按媒体转述的计划保留，不认定已经授予、完成回购或增加研发资金，不要求取得股东信全文或披露实施细则才可收录。新闻发布于2026年11月14日，符合本次11月15日审核的最近7天窗口；计划提出日期和首次收录时间未知。所供已收录及旧裁决涉及的模型、产品、应用、芯片采购、MaaS经营和PineDrama运营均非本次安排。北京海淀仅为已核经营地，不据此认定注册地、总部、杭州资格或领导简报资格。",
+      "event_headline_source": "2b79635b099ccf16f5499e67dcab89a02388d3f339584f86325814b3c279876d",
+      "review_evidence": {
+        "sha256": "455b5db93847a3853ec3214e6d1672af921cb07e2e009bade4d073084ae4aaf9",
+        "source_url": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+        "published_at": "2026-11-14T11:09:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-eeb80ea6f0e8952ff8f4183b",
+          "source_url": "https://www.stcn.com/article/detail/3732485.html",
+          "checked_at": "2026-10-20T18:21:47.689511+00:00",
+          "subject": "字节跳动",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区"
+          }
+        },
+        {
+          "evidence_id": "geo-0bdd2570513f06e17fbf1244",
+          "source_url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202104/t20210413_2353328.html",
+          "checked_at": "2026-10-20T02:29:16.687727+00:00",
+          "subject": "字节跳动",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持AI人才激励安排的日报观察价值，但回购估值和激励计划不能独立证明模型竞争地位或技术优势。原文内部竞争目标及超大参数模型报道也不是已实现领先的验证；既有上游标杆标签不代替独立资格裁决。本轮不升级主体标杆资格，不改写其他历史标签。",
+        "evidence_ids": [
+          "article_body:89cbdab615245430",
+          "accepted_history:3a66bd90d5ee7197"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "44e9ca2b0fa299b90ed6b260bc85840bab37170a58aba446aedbba90707cbe10",
+        "input_row_sha256": "63a2cf27ba84c077ea11b2f7f08e5e08448634712e5281a48e433ce528109e1b",
+        "reason": "完整原文明确字节跳动为拟议股份回购方及AI员工激励安排的提出方。回购主要提供现有股东流动性，不是新增融资，单凭估值和回购规模不足以构成科技产业进展；但本条还具体披露拟向AI业务员工提供合计3亿股、价值与AI业务挂钩的股份，明确连接AI人才留用与业务价值分配，足以作为独立的AI商业组织安排线索。按媒体转述的计划保留，不认定已经授予、完成回购或增加研发资金，不要求取得股东信全文或披露实施细则才可收录。新闻发布于2026年11月14日，符合本次11月15日审核的最近7天窗口；计划提出日期和首次收录时间未知。所供已收录及旧裁决涉及的模型、产品、应用、芯片采购、MaaS经营和PineDrama运营均非本次安排。北京海淀仅为已核经营地，不据此认定注册地、总部、杭州资格或领导简报资格。",
+        "scope": {
+          "technology_evidence": "原文股份回购段落称，字节跳动计划按约4000亿美元估值回购不超过60亿美元股份，并提议延长外部股东要求全部持股回购的期限；同时计划向从事AI业务的员工提供合计3亿股与公司AI业务价值挂钩的股份，以奖励并留住AI人才。",
+          "value_reason": "独立产业价值来自面向AI业务员工、并与该业务价值挂钩的具体激励安排，而非公司总体估值上涨。该安排提供了科技企业如何配置AI人才长期收益权的研究线索，可供杭州AI企业比较业务价值绑定与人才留用机制。原文未披露股份权利、兑现条件或实施效果，不能推定独立上市、人才流入、研发提速或融资到账。"
+        },
+        "stage": {
+          "status": "媒体转述的拟议回购、期限调整及AI员工股份激励计划，尚未证明实施",
+          "reason": "原文使用“据知情人士称”“计划”“提议”等措辞，并转述最新股东信安排；未提供回购完成、激励授予或生效回执。新闻发布时间为2026年11月14日，具体事件日期与首次收录时间未知；今年12月11日及2030年12月11日是拟调整的权利期限，不是交易完成日期。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:dc02e6bc3bd5263c",
+            "accepted_history:8644a9b1a36d6e39",
+            "accepted_history:1520f0b05a3a5bfa",
+            "accepted_history:c323200fdedb1353",
+            "accepted_history:9ba4a8c8674dd491",
+            "accepted_history:dfde22d89ba82ba8",
+            "accepted_history:fd2f040307a68db6",
+            "accepted_history:3a66bd90d5ee7197",
+            "accepted_history:86edfd57fa180c65",
+            "prior_decision:b3e7ff643a44bfa0",
+            "prior_decision:f03989e99a5c7e75",
+            "prior_decision:59f42ebd03500b6e",
+            "prior_decision:d355beac24f31dbe",
+            "prior_decision:2af6ef421ca87687",
+            "prior_decision:5b53547137ec92a8",
+            "prior_decision:ccd5b4b5b65d39e2",
+            "prior_decision:a658726b3a569e78",
+            "prior_decision:ee5776f219aa01d0",
+            "prior_decision:68c063c7f4819e79",
+            "prior_decision:22477d2ac0b93dd7",
+            "prior_decision:b09cfdb1f7c43177"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:b3e7ff643a44bfa0",
+              "comparison": "different_event",
+              "reason": "旧排除针对PineDrama下载、日活及广告内容经营缺少具体科技联系。本条有明确面向AI业务员工的股份激励安排，不是PineDrama换源重报，不撤销旧排除。"
+            },
+            {
+              "evidence_id": "prior_decision:f03989e99a5c7e75",
+              "comparison": "different_event",
+              "reason": "该旧排除仍为PineDrama流量与内容运营，不能扩展为字节跳动所有资本或AI业务事件的黑名单。本次不改判该事件。"
+            },
+            {
+              "evidence_id": "prior_decision:59f42ebd03500b6e",
+              "comparison": "different_event",
+              "reason": "旧项审理PineDrama广告插入、奖励任务及运营统计，与本次回购和AI员工激励不同；当前闭包验证无错误，不将旧记录中的历史规范化异常冒充本轮检索失败。"
+            },
+            {
+              "evidence_id": "prior_decision:d355beac24f31dbe",
+              "comparison": "different_event",
+              "reason": "旧watch针对联发科定制芯片采购洽谈及当时历史回执异常。当前旧CID闭包验证无错误，该读取问题不自动延续；芯片洽谈仍是另一事件，本条不证明采购成交。"
+            },
+            {
+              "evidence_id": "prior_decision:2af6ef421ca87687",
+              "comparison": "different_event",
+              "reason": "芯片洽谈后续keep不批准本次资本安排，也不与本次AI员工股份激励构成同一事件。"
+            },
+            {
+              "evidence_id": "prior_decision:5b53547137ec92a8",
+              "comparison": "different_event",
+              "reason": "旧watch针对豆包手机助手GUI操作拒绝清单，属于产品接入限制。旧CID当前闭包无错误，但实际阻断范围及严格杭州属地缺口未由本条补齐，不将其转为正面进展或公开杭州预警。"
+            },
+            {
+              "evidence_id": "prior_decision:ccd5b4b5b65d39e2",
+              "comparison": "different_event",
+              "reason": "同属手机助手应用授权限制待核；本次激励计划既不解除应用拒绝，也不证明功能恢复或经营损失，不能沿用其负面性质。"
+            },
+            {
+              "evidence_id": "prior_decision:a658726b3a569e78",
+              "comparison": "different_event",
+              "reason": "旧裁决为火山引擎MaaS收入、毛利和经营考核调整；其发布时间及历史问题已在所供材料中补齐，本次不是该经营披露的重复或改判。"
+            },
+            {
+              "evidence_id": "prior_decision:ee5776f219aa01d0",
+              "comparison": "different_event",
+              "reason": "同属MaaS商业化披露，本条没有新的MaaS收入事实，也不能把股份回购或激励股数当作模型服务收入。"
+            },
+            {
+              "evidence_id": "prior_decision:68c063c7f4819e79",
+              "comparison": "different_event",
+              "reason": "旧裁决针对Seedance用于AI漫剧制作及工具链应用；已供发布时间和历史材料使当时相关待核理由不再适用，但该应用事件与本次股份安排不同。"
+            },
+            {
+              "evidence_id": "prior_decision:22477d2ac0b93dd7",
+              "comparison": "different_event",
+              "reason": "同属AI短剧生产链路采信，不覆盖本次股东流动性及AI人才激励，也不由本条补成具名制作项目或可复核降本证据。"
+            },
+            {
+              "evidence_id": "prior_decision:b09cfdb1f7c43177",
+              "comparison": "different_event",
+              "reason": "同属Seedance、剪映等工具应用观察，其keep不自动批准本条；本次依据独立的AI员工激励商业安排判断。"
+            }
+          ],
+          "change_reason": "逐项比较九条已收录历史：Seedance模型研发、飞书与豆包工作伙伴发布、Live Assistant联合研究、豆包出行、TRAE融合、生活缴费与画布、联发科芯片洽谈、火山引擎MaaS经营、AI漫剧工具应用，均未覆盖本次拟议回购及AI员工股份安排。豆包出行和Live Assistant的重复旧裁决同样属于其他事件；三条PineDrama排除不作公司级扩展。本轮history_retrieval_errors为空，旧CID闭包验证也未报当前错误。所供历史未见同事件，不改变旧裁决，不宣称全局首次。",
+          "new_evidence_ids": [
+            "article_body:89cbdab615245430"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:89cbdab615245430",
+          "identity_registry:2dcd4f408df25406",
+          "geo-eeb80ea6f0e8952ff8f4183b",
+          "geo-0bdd2570513f06e17fbf1244"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条支持AI人才激励安排的日报观察价值，但回购估值和激励计划不能独立证明模型竞争地位或技术优势。原文内部竞争目标及超大参数模型报道也不是已实现领先的验证；既有上游标杆标签不代替独立资格裁决。本轮不升级主体标杆资格，不改写其他历史标签。",
+          "evidence_ids": [
+            "article_body:89cbdab615245430",
+            "accepted_history:3a66bd90d5ee7197"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "Anthropic",
+      "title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "company": "Anthropic",
+      "score": 50,
+      "sector": "AI算力基础设施",
+      "financing": "",
+      "source": "创业邦",
+      "location": "US / California / San Francisco",
+      "article_location": "美国加利福尼亚州旧金山（注册地，复用已审证据geo-98b8e2309e1c91685311fb4f）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "subject_evidence_ids": [
+          "geo-98b8e2309e1c91685311fb4f"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "Anthropic",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-98b8e2309e1c91685311fb4f"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+            "source_url": "https://www.anthropic.com/privacy",
+            "checked_at": "2026-10-12T03:44:07.679932+00:00",
+            "subject": "Anthropic",
+            "role": "registered",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-c70eca6b0f88f44d81a4",
+      "company_canonical_name": "Anthropic",
+      "identity_status": "confirmed",
+      "event_type": "设备采购",
+      "link": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+      "article_title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "event_desc": "据媒体报道，Anthropic于9月下旬与OnePWR Solutions达成34亿美元交易，为数据中心采购总装机容量1.7GW的重型燃气发电机组，并包含安装所需的工程设计和施工部分。原文未披露设备交付、安装或投运状态。",
+      "insight": "采购范围从算力设备延伸到发电机组及配套工程，说明Anthropic正在把电力保障纳入数据中心建设安排；采购签约并不说明1.7GW已形成可用供电能力。",
+      "event_headline": "Anthropic据报道签订34亿美元发电设备采购",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "reported_event_period",
+        "event_date": null,
+        "observed_date": "2026-11-14",
+        "description": "原文明确称交易于2026年9月下旬达成，精确日期未知；新闻发布于2026年11月14日，不以新闻日替代交易日。设备交付、安装及投运状态未披露。",
+        "review_required": false
+      },
+      "published_date": "2026-11-14",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文明确Anthropic为数据中心燃气发电机组采购方，OnePWR Solutions为供应商，报道交易金额34亿美元、设备总装机容量1.7GW，并包含安装所需工程设计及施工。这不是泛泛的基础设施投入计划，而是具有明确采购对象、交易对方及工程范围的商业安排，揭示模型企业将电力保障纳入算力建设的具体路径，可作为全球产业观察保留。新闻发布于2026年11月14日，满足本次七日窗口；交易发生于报道所称9月下旬，不因事件较早而排除。所给历史中的TPU融资、IPO、经营披露及研发应用均非这笔发电设备交易，未发现同事件收录，但不宣称全库首次发现。仅采信媒体报道的达成交易阶段，不认定设备已经交付、施工完成或形成可用供电能力；不采纳未经比较核验的行业最大表述。已核主体为美国企业，不进入杭州负面预警。",
+      "event_headline_source": "0d9122a6aaefd5e76c2417207a886cdfea00e5e5bd306f06e3e50b904371fcf1",
+      "review_evidence": {
+        "sha256": "455b5db93847a3853ec3214e6d1672af921cb07e2e009bade4d073084ae4aaf9",
+        "source_url": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+        "published_at": "2026-11-14T11:09:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-98b8e2309e1c91685311fb4f",
+          "source_url": "https://www.anthropic.com/privacy",
+          "checked_at": "2026-10-12T03:44:07.679932+00:00",
+          "subject": "Anthropic",
+          "role": "registered",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "San Francisco"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "既有明确审核尚未建立独立标杆资格。本条提供具体供电采购安排，但“目前已知最大”只是媒体转述，未附比较范围或可核同类交易依据；采购规模不能自动建立行业地位。普通全球正面日报保留不以标杆资格为必要条件。",
+        "evidence_ids": [
+          "article_body:89cbdab615245430",
+          "accepted_history:1ccf1e65e5835ecb"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "daac558b00513c1c0b473cbaf5b8c7763523e1d7e7fabb5fd1e75de636679435",
+        "input_row_sha256": "fa0aaac3694592be2f557f487671357ab448e540adc51eca79a2716f126f60dd",
+        "reason": "原文明确Anthropic为数据中心燃气发电机组采购方，OnePWR Solutions为供应商，报道交易金额34亿美元、设备总装机容量1.7GW，并包含安装所需工程设计及施工。这不是泛泛的基础设施投入计划，而是具有明确采购对象、交易对方及工程范围的商业安排，揭示模型企业将电力保障纳入算力建设的具体路径，可作为全球产业观察保留。新闻发布于2026年11月14日，满足本次七日窗口；交易发生于报道所称9月下旬，不因事件较早而排除。所给历史中的TPU融资、IPO、经营披露及研发应用均非这笔发电设备交易，未发现同事件收录，但不宣称全库首次发现。仅采信媒体报道的达成交易阶段，不认定设备已经交付、施工完成或形成可用供电能力；不采纳未经比较核验的行业最大表述。已核主体为美国企业，不进入杭州负面预警。",
+        "scope": {
+          "technology_evidence": "原文称Anthropic于9月下旬与燃气发电设备供应商OnePWR Solutions达成34亿美元交易，为数据中心采购总装机容量1.7GW的重型燃气发电机组，交易还包括安装所需的工程设计及施工部分。",
+          "value_reason": "采购同时覆盖发电设备与配套工程，提供了AI算力建设如何组织供电资源的具体商业样本。对杭州模型企业及算力项目，可比较电力设备采购、工程建设与算力投用之间的衔接安排；本条没有披露供电成本、项目位置或投运时间，不能据此判断自备发电经济性、并网方式或供电瓶颈已经解决。"
+        },
+        "stage": {
+          "status": "媒体报道已达成设备及配套工程交易；交付、施工及投运状态未披露",
+          "reason": "正文使用“9月下旬……达成一笔大规模交易”，支持报道所称交易达成，不支持设备已安装或投入运行。新闻发布时间为2026-11-14T11:09:00Z；交易时间仅明确至9月下旬，精确日期及实际首次收录时间未知，不以新闻日代替事件日。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:3759faee6d2f4d53",
+            "accepted_history:5f63d1637094e575",
+            "accepted_history:c234511a046a6a3a",
+            "accepted_history:42dd026d10f0f7fe",
+            "accepted_history:43f467afac17279b",
+            "accepted_history:411b5d17b87a0b2b",
+            "accepted_history:eea21c465ab6b207",
+            "accepted_history:077b893d29b21f0e",
+            "accepted_history:358be8286b849ffa",
+            "accepted_history:90433f9d0be5a66a",
+            "accepted_history:90a734573abe91f3",
+            "accepted_history:10d2887dbf02eea2",
+            "accepted_history:46b7cad19bb8fd0b",
+            "accepted_history:1ccf1e65e5835ecb"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:98796d7b80204373",
+              "comparison": "different_event",
+              "reason": "旧待核针对第三季度财务来源、调整后利润及现金流口径；发电设备交易不补证这些指标。后续已限定采信的收入和客户分层不回退。"
+            },
+            {
+              "evidence_id": "prior_decision:f4c677f50813f832",
+              "comparison": "different_event",
+              "reason": "北极星事件为TPU采购租赁融资，本次为OnePWR发电设备及工程采购，交易对象、对方和条款不同。"
+            },
+            {
+              "evidence_id": "prior_decision:af34ae94ced590be",
+              "comparison": "different_event",
+              "reason": "旧项为北极星融资的优先债规模及博通残值担保，不是发电机组采购。"
+            },
+            {
+              "evidence_id": "prior_decision:10aad19c4c1f1ec4",
+              "comparison": "different_event",
+              "reason": "同属北极星融资结构的既有回执，本条不证明该融资交割或担保执行。"
+            },
+            {
+              "evidence_id": "prior_decision:edfebee72ccb1b08",
+              "comparison": "different_event",
+              "reason": "旧待核为Jack Clark演讲及研发指标，后已补证保留；本次设备采购既不补证也不回退该演讲结论。"
+            },
+            {
+              "evidence_id": "prior_decision:54c7f37adfb28ca6",
+              "comparison": "different_event",
+              "reason": "旧项针对公开递表及客户、采购总额披露。本次有独立供应商和设备范围，不是重复递表，也不核准旧总额。"
+            },
+            {
+              "evidence_id": "prior_decision:10e36ef622f6463e",
+              "comparison": "different_event",
+              "reason": "旧公开披露事项的资本节点后来已补证，其他数据边界仍保留；本次交易不扩大该批准范围。"
+            },
+            {
+              "evidence_id": "prior_decision:b36eb0d024722a65",
+              "comparison": "different_event",
+              "reason": "旧待核涉及版本收入、客户集中度及算力合同。本次发电设备交易不能未经合同对应核验并入旧采购承诺或视为追加支出。"
+            },
+            {
+              "evidence_id": "prior_decision:ca4ac49a61a304d5",
+              "comparison": "different_event",
+              "reason": "旧待核为Fable目录及Obsidian 3模型身份传闻，本次没有模型归属或测试补证。"
+            },
+            {
+              "evidence_id": "prior_decision:0de4750355b08fbb",
+              "comparison": "different_event",
+              "reason": "旧待核为推理收入占比及Claude Code用户支出分组，设备采购不解除其原始统计缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:acdf157b51b7afa2",
+              "comparison": "different_event",
+              "reason": "旧项为修订申报中的经营与合同披露；本次不是同一披露的补证，后续分项采信及剩余缺口保持。"
+            },
+            {
+              "evidence_id": "prior_decision:f5d8add45c2d7efc",
+              "comparison": "different_event",
+              "reason": "同一经营披露旧待核的另一回执，不机械继承其watch，也不借本次采购解除未核合同主张。"
+            },
+            {
+              "evidence_id": "prior_decision:0e77ec2efc663006",
+              "comparison": "different_event",
+              "reason": "已保留的季度收入与TTM客户分层是经营披露，不是发电设备交易，也不提供本次采购的真实性替代证明。"
+            },
+            {
+              "evidence_id": "prior_decision:77161d76e40cdc97",
+              "comparison": "different_event",
+              "reason": "旧项为METR内部模型评估及AI辅助研发，本次为供电设备采购。"
+            },
+            {
+              "evidence_id": "prior_decision:d0bd2e0203c6fd67",
+              "comparison": "different_event",
+              "reason": "旧项为Claude训练故障排查应用案例，与供电设备交易不同。"
+            },
+            {
+              "evidence_id": "prior_decision:bfd74aec22e641f2",
+              "comparison": "different_event",
+              "reason": "METR研发评估的另一回执，不涉及本次采购对方、设备或工程安排。"
+            },
+            {
+              "evidence_id": "prior_decision:c0a80e74665d120c",
+              "comparison": "different_event",
+              "reason": "旧项为Dreaming记忆机制及企业文档实验，不是基础设施采购。"
+            },
+            {
+              "evidence_id": "prior_decision:047d2adbaf681fa9",
+              "comparison": "different_event",
+              "reason": "第三季度财务旧待核的另一记录；设备采购不解释利润、现金流或成本覆盖范围。"
+            },
+            {
+              "evidence_id": "prior_decision:87e274f907756173",
+              "comparison": "different_event",
+              "reason": "北极星TPU融资的既有采信回执，不是第二笔同类融资，也不与本次设备采购合并。"
+            },
+            {
+              "evidence_id": "prior_decision:e92be670145d913c",
+              "comparison": "different_event",
+              "reason": "旧项为北极星残值担保结构增量，本条没有该结构的新事实。"
+            },
+            {
+              "evidence_id": "prior_decision:b7c53372f07d7337",
+              "comparison": "different_event",
+              "reason": "已补证的演讲及模型评测自述与采购事件不同，其采信结论不转移也不撤销。"
+            },
+            {
+              "evidence_id": "prior_decision:64bc0e0547e43406",
+              "comparison": "different_event",
+              "reason": "旧keep限于官方公告支持的S-1提交。本次不新增发行或上市完成节点。"
+            },
+            {
+              "evidence_id": "prior_decision:f9d3849bc0d76b52",
+              "comparison": "different_event",
+              "reason": "旧经营及采购合同待核不因新增发电设备报道而解除，未证明该交易属于旧汇总承诺的哪个合同范围。"
+            },
+            {
+              "evidence_id": "prior_decision:fd33ac40e78f2f1b",
+              "comparison": "different_event",
+              "reason": "模型目录及版本身份传闻的另一待核回执，本次没有相关补证。"
+            },
+            {
+              "evidence_id": "prior_decision:ba72bf78dfcfdca1",
+              "comparison": "different_event",
+              "reason": "旧续审针对推理收入和用户分组原件；历史检索失败不影响本条独立交易判断，也不因本条解除旧缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:238dafb2edea0de1",
+              "comparison": "different_event",
+              "reason": "修订申报收入及高付费客户分层的限定keep，与本次采购不同，不重复收录经营数字。"
+            },
+            {
+              "evidence_id": "prior_decision:4b283f56be77fea5",
+              "comparison": "different_event",
+              "reason": "METR研发评估的既有回执，不包含发电设备交易事实。"
+            },
+            {
+              "evidence_id": "prior_decision:5c05f67beb547ee7",
+              "comparison": "different_event",
+              "reason": "训练故障排查案例的另一采信回执，与发电设备及工程采购不同。"
+            },
+            {
+              "evidence_id": "prior_decision:6c099fb0dbaa2667",
+              "comparison": "different_event",
+              "reason": "旧reject因人员成本缺少独立科技产业发现价值。本次明确数据中心发电设备、采购金额、容量及工程范围，旧排除理由不适用，不构成公司黑名单。"
+            },
+            {
+              "evidence_id": "prior_decision:d5dd6347b52803ea",
+              "comparison": "different_event",
+              "reason": "旧reject因个人理财计划仅有方向、缺少具体功能。本次有明确采购对象及商业安排，不继承该排除，也不改判原产品计划。"
+            }
+          ],
+          "change_reason": "逐项对照所给已收录历史：8月17日、9月15日及10月8日为经营与IPO筹备；10月11日为Haiku发布；10月12日两项分别为使用政策和网络安全访问；10月20日至21日为同一TPU融资及结构增量；10月27日为联创演讲；10月28日为公开递表；11月5日为经营指标补证；11月7日两项为METR评估和训练排障；11月10日为记忆机制研究。均未包含OnePWR发电设备交易。既有总体基建计划不能替代本次具体交易，也不能据金额差异认定追加采购。所有旧待核及排除均对应其他事项，来源闭包验证不构成事件批准。本次依据当前原文独立保留，仅在所供历史范围内判定为另一事件，不宣称实际首次发现。",
+          "new_evidence_ids": [
+            "article_body:89cbdab615245430"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:89cbdab615245430",
+          "identity_registry:2dcd4f408df25406",
+          "geo-98b8e2309e1c91685311fb4f",
+          "accepted_history:eea21c465ab6b207",
+          "accepted_history:077b893d29b21f0e",
+          "prior_decision:6c099fb0dbaa2667",
+          "prior_decision:d5dd6347b52803ea"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "既有明确审核尚未建立独立标杆资格。本条提供具体供电采购安排，但“目前已知最大”只是媒体转述，未附比较范围或可核同类交易依据；采购规模不能自动建立行业地位。普通全球正面日报保留不以标杆资格为必要条件。",
+          "evidence_ids": [
+            "article_body:89cbdab615245430",
+            "accepted_history:1ccf1e65e5835ecb"
+          ]
+        }
       }
     },
     {
@@ -3322,6 +5884,232 @@
             "article_body:89cbdab615245430",
             "prior_decision:c0410e8783895918",
             "prior_decision:2e9169038894a56d"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "阿里巴巴",
+      "identity_mentions": [
+        {
+          "name": "快乐虾米",
+          "relation": "product",
+          "evidence": "阿里巴巴旗下AI音乐创作平台快乐虾米（HappyShrimp）今日上线APP版本"
+        }
+      ],
+      "title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "company": "阿里巴巴",
+      "score": 100,
+      "sector": "AI音乐创作",
+      "financing": "",
+      "source": "创业邦",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+      "article_location": "浙江省杭州市余杭区文一西路960-1号（经营地，复用已审证据geo-14c3cd9f0fde5abc65811edd）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-14c3cd9f0fde5abc65811edd"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里巴巴",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+            "source_url": "https://ali-home.alibaba.com/global-location",
+            "checked_at": "2026-10-21T18:14:15.207210+00:00",
+            "subject": "阿里巴巴",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路960-1号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-14c3cd9f0fde5abc65811edd"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-47c1e53c427aafb4556b",
+      "company_canonical_name": "阿里巴巴",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+      "article_title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "event_desc": "阿里巴巴旗下AI音乐创作平台快乐虾米上线APP版本，覆盖iOS、Android及相关应用商店。用户描述情绪、故事或音乐风格后，平台可生成歌词、作曲、编曲与演唱。文中回顾虾米音乐于2021年2月停止服务。",
+      "insight": "快乐虾米把从创作意图到可演唱作品的多个环节放进大众移动端，产品价值是减少非专业用户在歌词、配器和演唱之间切换工具的需要；这不等于原虾米音乐服务恢复。",
+      "event_headline": "阿里巴巴旗下快乐虾米上线AI音乐创作APP",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-14",
+        "event_date": null,
+        "observed_date": "2026-11-14",
+        "review_required": true
+      },
+      "published_date": "2026-11-14",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确快乐虾米是阿里巴巴旗下AI音乐创作平台，并报道其APP已登陆iOS、Android及应用商店，支持根据用户描述完成歌词、作曲、编曲与演唱。阿里巴巴为所属企业，快乐虾米为产品，不另立企业主体。这是生成式AI音乐产品向大众移动端扩展的具体发布事件，而非仅有音乐赛道标签或虾米历史背景。原始新闻发布于2026年11月14日，符合本次11月15日审核的七日窗口；周报转述中的“今日”不足以确定原始上线日期，事件日保留未知。所供历史与旧裁决均不涉及快乐虾米APP，无同事件重复证据。已审官网经营地支持杭州正面发现归属，不升级为注册地、主要总部或负面预警资格。本次保留为正面日报线索，不自动取得领导简报资格。",
+      "event_headline_source": "d33c324a0118d2f6c08b962f6da6e24a6534d59a39f6ace5d8014ef69690d3d1",
+      "review_evidence": {
+        "sha256": "455b5db93847a3853ec3214e6d1672af921cb07e2e009bade4d073084ae4aaf9",
+        "source_url": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+        "published_at": "2026-11-14T11:09:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+          "source_url": "https://ali-home.alibaba.com/global-location",
+          "checked_at": "2026-10-21T18:14:15.207210+00:00",
+          "subject": "阿里巴巴",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "文一西路960-1号"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "复用同主体已明确审定的玄铁处理器IP产品化与生态对标资格：历史依据为累计支撑超过60亿颗芯片交付、200余款量产芯片及服务400余家厂商，可为杭州芯片与计算平台企业提供规模化授权、生态建设参照。该资格限于既有业务依据，不证明快乐虾米具有同等行业地位或商业成熟度，也不自动赋予领导简报资格。",
+        "evidence_ids": [
+          "accepted_history:d9672401fc16d46c",
+          "prior_decision:f37dd73d7d5dc7ee"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "0acbac4e7186f9b4f5d1b9ed62ceb7e8068dc62aa3ef593b67773ff81cbe543c",
+        "input_row_sha256": "fbf4501d58af80aa9b3d0e81a1291e96c5c3b890ed4567891fa126233965a8fe",
+        "reason": "完整正文明确快乐虾米是阿里巴巴旗下AI音乐创作平台，并报道其APP已登陆iOS、Android及应用商店，支持根据用户描述完成歌词、作曲、编曲与演唱。阿里巴巴为所属企业，快乐虾米为产品，不另立企业主体。这是生成式AI音乐产品向大众移动端扩展的具体发布事件，而非仅有音乐赛道标签或虾米历史背景。原始新闻发布于2026年11月14日，符合本次11月15日审核的七日窗口；周报转述中的“今日”不足以确定原始上线日期，事件日保留未知。所供历史与旧裁决均不涉及快乐虾米APP，无同事件重复证据。已审官网经营地支持杭州正面发现归属，不升级为注册地、主要总部或负面预警资格。本次保留为正面日报线索，不自动取得领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文写明“阿里巴巴旗下AI音乐创作平台快乐虾米（HappyShrimp）今日上线APP版本”，同步登陆iOS与Android；用户描述情绪、故事或音乐风格，可由AI完成歌词、作曲、编曲与演唱。",
+          "value_reason": "本次新增信息是具名产品的移动端发布及从创作意图到演唱输出的完整功能组合，可供杭州生成式音频与消费AI团队比较产品入口和创作流程整合路线。其价值不依赖企业知名度，也不等于已证明生成质量、用户采用、付费转化或原虾米音乐服务恢复。"
+        },
+        "stage": {
+          "status": "据报道APP已上线；精确上线日期未知",
+          "reason": "原文使用已上线并同步登陆应用商店的完成态表述，支持产品发布进展，不是未来计划。报道为周报转述，仅写“今日”，不能直接把2026年11月14日确定为事件日；首次收录时间未提供。尚无客户使用成效、收入或技术性能验证证据。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:55d4407cf47670fe",
+            "accepted_history:39d9266c87afa2ed",
+            "accepted_history:e845bb104d6d2c78",
+            "accepted_history:ba3f39ebe5a0a0d9",
+            "accepted_history:0f12d50d3dce4aef",
+            "accepted_history:d9672401fc16d46c",
+            "accepted_history:a6e71db93d712b9c",
+            "accepted_history:b466f510da649b98",
+            "prior_decision:cf3fa2122b6a981b",
+            "prior_decision:cd40d94f23ad42f3",
+            "prior_decision:792b780351fa289d",
+            "prior_decision:482faed1822835db",
+            "prior_decision:f37dd73d7d5dc7ee",
+            "prior_decision:d671cb25fa9e0c87",
+            "prior_decision:729ed392935b2d17",
+            "prior_decision:09d6d7c8b20b058d",
+            "prior_decision:22ff3126d4103ad9"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:cf3fa2122b6a981b",
+              "comparison": "different_event",
+              "reason": "旧裁决针对云业务收入及集团财务口径，与快乐虾米APP发布不同，本条不解除旧财务口径问题。"
+            },
+            {
+              "evidence_id": "prior_decision:cd40d94f23ad42f3",
+              "comparison": "different_event",
+              "reason": "同一云业务财务报道的另一裁决，不涉及AI音乐产品。"
+            },
+            {
+              "evidence_id": "prior_decision:792b780351fa289d",
+              "comparison": "different_event",
+              "reason": "旧事件为Sirchmunk检索框架开源，技术产品与发布事实均不同。"
+            },
+            {
+              "evidence_id": "prior_decision:482faed1822835db",
+              "comparison": "different_event",
+              "reason": "旧事件为千问Personal Agent消费生态接入规划，不是快乐虾米发布，也不能用本条证明该规划兑现。"
+            },
+            {
+              "evidence_id": "prior_decision:f37dd73d7d5dc7ee",
+              "comparison": "different_event",
+              "reason": "旧事件为玄铁处理器发布和优化；其发布时间与来源闭包已获补证，不延续早期待核理由，更不将其作为本次APP的核验依据。"
+            },
+            {
+              "evidence_id": "prior_decision:d671cb25fa9e0c87",
+              "comparison": "different_event",
+              "reason": "同一玄铁处理器事件的另一有效裁决，与AI音乐APP无同事件关系。"
+            },
+            {
+              "evidence_id": "prior_decision:729ed392935b2d17",
+              "comparison": "different_event",
+              "reason": "旧事件为媒体报道的Megaspeed算力租赁客户关系，已提供有效来源闭包及最终裁决；其早期核验问题不传递到本次产品事件。"
+            },
+            {
+              "evidence_id": "prior_decision:09d6d7c8b20b058d",
+              "comparison": "different_event",
+              "reason": "仍为玄铁处理器事件，不能因同企业而与本次软件发布去重。"
+            },
+            {
+              "evidence_id": "prior_decision:22ff3126d4103ad9",
+              "comparison": "different_event",
+              "reason": "旧事件为千问办公及个人助手产品进展，既有发布时间和历史缺口已有后续补证；本次新增的是另一具名音乐产品，不是旧产品换来源重报。"
+            }
+          ],
+          "change_reason": "已对照所给八项收录历史及九项旧裁决：模型开源、榜单与AI布局、云商业化、检索框架、个人Agent规划、玄铁处理器、办公与个人助手、海外算力客户关系，均未记录快乐虾米APP发布。本次原文提供另一产品的明确所属关系、上线状态及功能组合，支持作为独立事件保留，不涉及推翻旧裁决。输入未提供本候选独立history_lookup记录；结论限于所供历史，不宣称全局首次发现。",
+          "new_evidence_ids": [
+            "article_body:89cbdab615245430"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:89cbdab615245430",
+          "identity_registry:2dcd4f408df25406",
+          "geo-14c3cd9f0fde5abc65811edd"
+        ],
+        "benchmark_review": {
+          "status": "confirmed",
+          "eligible": true,
+          "reason": "复用同主体已明确审定的玄铁处理器IP产品化与生态对标资格：历史依据为累计支撑超过60亿颗芯片交付、200余款量产芯片及服务400余家厂商，可为杭州芯片与计算平台企业提供规模化授权、生态建设参照。该资格限于既有业务依据，不证明快乐虾米具有同等行业地位或商业成熟度，也不自动赋予领导简报资格。",
+          "evidence_ids": [
+            "accepted_history:d9672401fc16d46c",
+            "prior_decision:f37dd73d7d5dc7ee"
           ]
         }
       }
@@ -3894,10 +6682,10 @@
     "schema_version": "dragon-overnight-review.v2",
     "status": "partial_review",
     "reviewer": "quality_inspector Agent",
-    "reviewed_candidates": 44,
-    "semantic_reviewed_candidates": 52,
-    "watch_candidates": 8,
-    "pending_candidates": 68,
+    "reviewed_candidates": 67,
+    "semantic_reviewed_candidates": 78,
+    "watch_candidates": 11,
+    "pending_candidates": 45,
     "source_pending_count": 1,
     "source_pending_counts": {
       "_analysis_pending": 1,
