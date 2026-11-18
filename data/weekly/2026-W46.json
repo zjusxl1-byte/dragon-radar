@@ -5,10 +5,10 @@
   "start_date": "2026-11-09",
   "end_date": "2026-11-15",
   "summary": {
-    "total_companies": 173,
+    "total_companies": 176,
     "financing_events": 34,
     "ipo_events": 4,
-    "milestone_events": 43,
+    "milestone_events": 46,
     "negative_events": 0,
     "active_days": 7
   },
@@ -832,6 +832,274 @@
       }
     },
     {
+      "company_raw_name": "DeepSeek",
+      "title": "突发！DeepSeek开放全家桶API：官方App功能均可自由组合调用",
+      "company": "杭州深度求索人工智能基础技术研究有限公司",
+      "score": 100,
+      "sector": "人工智能／大模型与开发者工具",
+      "financing": "",
+      "source": "量子位",
+      "location": "浙江省 / 杭州市",
+      "article_location": "浙江省杭州市（复用已审同主体总部地点证据）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/gHvlpHNPU1W-ASCm24yJbg",
+      "article_title": "突发！DeepSeek开放全家桶API：官方App功能均可自由组合调用",
+      "event_desc": "据文章，DeepSeek正式开放联网搜索、深度思考搜索、文件上传、链接阅读等应用能力，并首次开放官方语音识别和语音合成独立接口。开发者既可启用由模型自动协调搜索、网页读取和回答的对话扩展功能，也可按需组合Search、Fetch、OCR、ASR、TTS等独立接口，分别计费。V4.1-Flash已在Messages、Responses和Chat Completions三类接口下支持相关对话扩展功能。DeepSeek同时开源轻量级聊天前端Demo，支持导入历史对话。文中公布语音识别原价为0.78元/小时，五折优惠价为0.39元/小时；语音合成原价为每万字符3元，优惠价为1.5元；搜索和网页抓取为每1000次成功调用5元，OCR为每1000页1.5元。",
+      "insight": "这次开放的关键不只是增加工具接口，而是把搜索调用与模型回答之间原需开发者编排的流程交由模型协调，同时允许语音、识字等能力单独组合，使DeepSeek从提供模型回答进一步延伸到应用基础能力供给。开源前端示例也降低了搭建聊天应用的起步工作量，但不同场景下的识别质量、响应速度及完整任务成本，仍会影响开发者是否采用。",
+      "event_headline": "DeepSeek开放应用工具API，搜索与语音能力支持独立调用",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-14",
+        "event_date": null,
+        "observed_date": "2026-11-14",
+        "review_required": true
+      },
+      "published_date": "2026-11-14",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "所供完整正文明确DeepSeek开放应用API、首次提供官方独立ASR和TTS接口，并开源聊天前端Demo；DeepSeek是能力提供方，V4.1-Flash及各接口是产品，不新增企业。已确认别名和稳定主体关系、政府杭州总部证据可复用。独立搜索接口此前已收录，本次新增的是模型自动协调搜索与网页读取、语音能力对外提供及应用开发示例，构成可独立采信的开发者产品进展，而非一般价格新闻。原始发布时间2026-11-13T16:04:00Z对应北京时间11月14日，满足任务审核日11月15日的七日窗口，上游缺发布时间的理由已被当前证据补足。精确事件日和首次收录时间未知不妨碍保留。仅按报道确认开放，不将优惠标价推导为同等质量下的成本优势、实际采用或收入增长；不自动赋予领导简报资格。",
+      "event_headline_source": "c60042c5bcf217205def37e7fff49d0c0e4795fed13be6c38f043a63dad61960",
+      "review_evidence": {
+        "sha256": "9419f04aea93b4fed2ee39698578bda49a6af4b7e65fbde1844e4af64939f5e9",
+        "source_url": "https://mp.weixin.qq.com/s/gHvlpHNPU1W-ASCm24yJbg",
+        "published_at": "2026-11-13T16:04:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "既有明确已审记录尚未建立独立全国标杆资格。本次证明应用能力及开发接口扩展，但没有增加独立采用规模、同条件质量与总成本比较或可复核竞争优势；文中不同厂商语音标价比较不足以改变该边界，不影响正面日报保留。",
+        "evidence_ids": [
+          "article_body:d10bb1f663daf1a0",
+          "prior_decision:57fb9024d657db8d",
+          "prior_decision:4aa55ed3d77695df"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "725c7dcd53048f6e8d113cd4f732bf256f3663cff16a670ae08865d7afea073f",
+        "input_row_sha256": "2119441ceef8d0797a948e23cb93dc7a37e8006140518b953c3f28b8470d2321",
+        "reason": "所供完整正文明确DeepSeek开放应用API、首次提供官方独立ASR和TTS接口，并开源聊天前端Demo；DeepSeek是能力提供方，V4.1-Flash及各接口是产品，不新增企业。已确认别名和稳定主体关系、政府杭州总部证据可复用。独立搜索接口此前已收录，本次新增的是模型自动协调搜索与网页读取、语音能力对外提供及应用开发示例，构成可独立采信的开发者产品进展，而非一般价格新闻。原始发布时间2026-11-13T16:04:00Z对应北京时间11月14日，满足任务审核日11月15日的七日窗口，上游缺发布时间的理由已被当前证据补足。精确事件日和首次收录时间未知不妨碍保留。仅按报道确认开放，不将优惠标价推导为同等质量下的成本优势、实际采用或收入增长；不自动赋予领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文说明，对话扩展可由模型自动决定搜索、读取网页并组织回答，V4.1-Flash在Messages、Responses和Chat Completions三类接口下支持相关功能；Search、Fetch、OCR、ASR、TTS可分别调用计费，官方语音接口首次开放，并提供支持历史对话导入的开源聊天前端Demo。",
+          "value_reason": "相较只提供模型和独立搜索工具，本次将信息检索编排与语音基础能力进一步封装供开发者复用，减少搭建语音助手、文档处理及联网对话应用时跨服务接入和自行编排的工作。杭州应用企业可优先验证自动检索的任务完成效果、语音质量、响应时间和完整任务费用，再决定是否替换既有工具组合；接口开放本身不证明这些收益已经实现。"
+        },
+        "stage": {
+          "status": "据完整报道已开放应用API及官方独立语音接口，已开源前端Demo",
+          "reason": "正文使用“正式开放”“首次加入开放行列”和“直接开源”，支持已发生的产品开放而非计划。价格优惠是报道时安排，未披露结束日期。新闻发布时间已知，精确事件日及首次收录时间未知；本轮未独立读取所引官方公告、接口文档或仓库，不扩大确认范围。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:0059924beb11e32d",
+            "accepted_history:85a2a890a7b60d46",
+            "accepted_history:c0c6e0d082769d47",
+            "accepted_history:541bb0affcf555f3",
+            "prior_decision:8cfeb09ee9b172af",
+            "prior_decision:57fb9024d657db8d",
+            "prior_decision:32fffa5346c94646",
+            "prior_decision:80ae9a27f89f46e1",
+            "prior_decision:32e66738fb3c21d7",
+            "prior_decision:45a66ae95482f362",
+            "prior_decision:880e90efb1737bd7",
+            "prior_decision:80fb107219f591f3",
+            "prior_decision:34ff088823bc33a7"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:32fffa5346c94646",
+              "comparison": "new_progress",
+              "reason": "旧排除针对V4.1-Flash-1017模型发布的重复报道。当前不重报模型或Search、Fetch首次开放，仅保留模型自动编排检索、官方独立语音接口和前端Demo等新增事实，旧重复稿排除不变。"
+            },
+            {
+              "evidence_id": "prior_decision:80ae9a27f89f46e1",
+              "comparison": "new_progress",
+              "reason": "同版本模型转载的另一排除不覆盖此次应用能力开放；使用相同模型和搜索接口不等于全部事实重复，不撤销旧排除。"
+            },
+            {
+              "evidence_id": "prior_decision:32e66738fb3c21d7",
+              "comparison": "different_event",
+              "reason": "旧排除为10月API故障及相同补偿的重复回顾。本次产品开放不是新故障，也不能证明旧故障根因或整改效果。"
+            },
+            {
+              "evidence_id": "prior_decision:45a66ae95482f362",
+              "comparison": "different_event",
+              "reason": "旧排除针对第二轮融资金额及投资方重复报道，与应用API开放不同。"
+            },
+            {
+              "evidence_id": "prior_decision:880e90efb1737bd7",
+              "comparison": "different_event",
+              "reason": "旧排除针对同轮融资及未经证实的能源协同解释；本次没有资本交割或供能合作证据。"
+            },
+            {
+              "evidence_id": "prior_decision:80fb107219f591f3",
+              "comparison": "different_event",
+              "reason": "同轮融资重复裁决不覆盖本次开发者产品进展，原融资排除保持。"
+            },
+            {
+              "evidence_id": "prior_decision:34ff088823bc33a7",
+              "comparison": "different_event",
+              "reason": "旧排除对象为同轮融资重复披露，本次接口与开发示例开放是另一事件，不据企业名称连带排除。"
+            },
+            {
+              "evidence_id": "prior_decision:f819bbdc17ee0dd2",
+              "comparison": "different_event",
+              "reason": "旧待核针对10月用户输出差异是否证明模型更新。当前接口开放不补足旧测试的版本归属或受控重复验证，不能追认旧猜测。"
+            },
+            {
+              "evidence_id": "prior_decision:bc6361c05673a7de",
+              "comparison": "different_event",
+              "reason": "当前旧来源闭包验证无错误，但旧待核的实质缺口仍是无法排除随机输出；本次应用API报道不解决该问题。"
+            },
+            {
+              "evidence_id": "prior_decision:cee8b3a460f77934",
+              "comparison": "different_event",
+              "reason": "同一输出观察的待核不因当前产品开放解除；不将过去读取异常沿用为本轮错误。"
+            },
+            {
+              "evidence_id": "prior_decision:b13f1232e1b4e9fc",
+              "comparison": "different_event",
+              "reason": "旧待核涉及乌兰察布芯片型号和采购测算。本次没有采购、建设或投运证据，相关实质缺口仍在。"
+            },
+            {
+              "evidence_id": "prior_decision:ffec7539db669705",
+              "comparison": "different_event",
+              "reason": "旧待核涉及自身融资金额、轮次和状态，后续已收录同轮详情；当前没有进一步交割或旧金额口径澄清，不新增融资判断。"
+            },
+            {
+              "evidence_id": "prior_decision:0ef7955f91d699c6",
+              "comparison": "different_event",
+              "reason": "旧待核的全部交割及横店认购份额未由本次补足，不把接口商业化开放等同资金到账。"
+            },
+            {
+              "evidence_id": "prior_decision:7e394b4f7f40d077",
+              "comparison": "different_event",
+              "reason": "同轮融资待核的另一裁决，其交易状态和特定份额缺口与本次无关。"
+            },
+            {
+              "evidence_id": "prior_decision:c6611f3e33126b7b",
+              "comparison": "different_event",
+              "reason": "旧待核为拟领投Winverse及跨主体同笔融资去重；本次未提供投资条款、交割或独立具身研发节点。"
+            },
+            {
+              "evidence_id": "prior_decision:e1d1e61ae0a707e5",
+              "comparison": "different_event",
+              "reason": "旧待核涉及自建具身团队或对外投资考虑，软件应用接口开放不能确认这些事项落地。"
+            },
+            {
+              "evidence_id": "prior_decision:5a53ce1fecb3521a",
+              "comparison": "different_event",
+              "reason": "旧具身模型研发传闻仍缺具名项目、团队启动或研究成果，本次不提供相应证据。"
+            },
+            {
+              "evidence_id": "prior_decision:93f8e0bc2b8f91a0",
+              "comparison": "different_event",
+              "reason": "同一具身传闻的另一待核不因语音和搜索接口开放得到证实。"
+            },
+            {
+              "evidence_id": "prior_decision:19c059a527075d8e",
+              "comparison": "different_event",
+              "reason": "旧待核针对Menlo企业支出调查的样本、期间和分母。本次没有该调查原始方法，接口价格与可用性不补足15%统计口径。"
+            },
+            {
+              "evidence_id": "prior_decision:a897e773152eb732",
+              "comparison": "different_event",
+              "reason": "旧故障待核的属地缺口已由后续政府总部证据及故障keep补足，不再延续地点待核；本次无故障整改增量。"
+            }
+          ],
+          "change_reason": "已对照所供同主体历史：10月17日模型更新已包含Search和Fetch独立接口，不能再次认定首次开放；DeepInfer和recipe是推理执行及编解码实现公开，Harness、DSec和Super-agent分别涉及应用框架、训练沙盒和持续任务架构，豆包工作接入是第三方分发。当前全文新增模型自动协调检索与网页读取、官方独立ASR和TTS及聊天前端Demo，属于既有产品线的实质开放增量。资本、算力规划、海外授权、缓存定价、故障和支出调查均非同事件。本轮history_retrieval_errors为空，旧CID闭包当前验证也无错误，不沿用旧历史读取故障；可见材料未覆盖本次增量，但不宣称全局首次收录，也不批量改写其他事件裁决。",
+          "new_evidence_ids": [
+            "article_body:d10bb1f663daf1a0"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:d10bb1f663daf1a0",
+          "identity_registry:2dcd4f408df25406",
+          "geo-8d153ebc1f63d3a87bb41366",
+          "accepted_history:0059924beb11e32d",
+          "accepted_history:85a2a890a7b60d46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "既有明确已审记录尚未建立独立全国标杆资格。本次证明应用能力及开发接口扩展，但没有增加独立采用规模、同条件质量与总成本比较或可复核竞争优势；文中不同厂商语音标价比较不足以改变该边界，不影响正面日报保留。",
+          "evidence_ids": [
+            "article_body:d10bb1f663daf1a0",
+            "prior_decision:57fb9024d657db8d",
+            "prior_decision:4aa55ed3d77695df"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "宇树科技",
       "title": "“硬核天团”上新记",
       "company": "宇树科技",
@@ -1507,6 +1775,215 @@
       }
     },
     {
+      "company_raw_name": "阿里",
+      "title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
+      "company": "阿里",
+      "score": 85,
+      "sector": "云计算与AI基础设施",
+      "financing": "",
+      "source": "晚点 LatePost",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "subject_evidence_ids": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-96adb38b9ecaed1e412df1a7"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+            "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+            "checked_at": "2026-10-15T18:26:21.338217+00:00",
+            "subject": "阿里",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路969号"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1d99cc69a8ba22eb7d71",
+      "company_canonical_name": "阿里",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw",
+      "article_title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
+      "event_desc": "晚点播客中，记者刘伊伦介绍，阿里通过阿里云向外部独立模型厂商配置更多算力，并将这一安排解释为提高外部收入的需要。原文未披露具体客户、配置比例、调整日期或相关合同，不能据此确认收入增长或客户供给保障。",
+      "insight": "算力首先服务内部产品还是外部客户，会影响独立模型厂商能够获得的资源。文中所述阿里云路径偏向对外供给，但外部收入诉求是否实际导致资源分配变化，仍需业务披露支持。",
+      "event_headline": "据晚点记者介绍，阿里云向外部独立模型厂商配置更多算力",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "reported_existing_resource_allocation_date_unknown",
+        "event_date": null,
+        "observed_date": "2026-11-15",
+        "description": "新闻发布于2026-11-15T07:59:00Z；正文介绍现有算力分配安排，具体调整日期及首次收录时间未知，不表述为11月15日新实施。",
+        "review_required": false
+      },
+      "published_date": "2026-11-15",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文由记者刘伊伦明确描述阿里通过阿里云向外部独立模型厂商分配更多算力，并与其他厂商优先内部使用的安排作比较。这是具体的AI基础设施客户供给安排，不是仅凭阿里云总体收入推想技术需求，足以作为日报产业线索保留。新闻发布于2026-11-15T07:59:00Z，符合本次审核的最近7天窗口；实际调整日期及首次收录时间未知，不写成当日新增调整。资源分配事实和外部收入动因均须归属于受访记者的报道判断，不扩写为官方确认、已签订单或已实现收入。沿用阿里稳定观察主体，阿里云仅按正文中的业务角色表述，不新增工商主体或别名。已审官网地点证据可复用，但本条没有已发生的不利业务事实，不列负面预警。可见历史及旧裁决均为其他产品、训练框架或苹果合作事项，不构成本事件重复。",
+      "event_headline_source": "898ad7a1221fa96ba22992cfa199c6858f1a4d6834c90d57c9dfc69452933242",
+      "review_evidence": {
+        "sha256": "3222809d2d45741ac4bcc79e82f6cea874ae5c9cbab0323f60f7c7a312940b4e",
+        "source_url": "https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw",
+        "published_at": "2026-11-15T07:59:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "event_identity": {
+        "canonical_id": "文章称，阿里将更多算力资源分配给外部独立模型厂商，并将这一安排与阿里云提高外部收入的需求联系起来；未给出资源比例或调整日期。"
+      },
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+          "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+          "checked_at": "2026-10-15T18:26:21.338217+00:00",
+          "subject": "阿里",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "文一西路969号"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文支持具体的外部客户算力供给安排，但没有独立客户验证、可比较的服务表现或足以建立该业务行业地位的证据；不以阿里知名度、杭州总部或云业务规模印象授予全国标杆资格。",
+        "evidence_ids": [
+          "article_body:ee4935d7a5dad12a"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "e3d5e746157e779dd0aef1256ef6803a5ecb354fe19a80f46ce151eb32be012f",
+        "input_row_sha256": "e9a8b2589f4875324def241a48b0245ccd321246fad115f8139fc38a799c8e81",
+        "reason": "原文由记者刘伊伦明确描述阿里通过阿里云向外部独立模型厂商分配更多算力，并与其他厂商优先内部使用的安排作比较。这是具体的AI基础设施客户供给安排，不是仅凭阿里云总体收入推想技术需求，足以作为日报产业线索保留。新闻发布于2026-11-15T07:59:00Z，符合本次审核的最近7天窗口；实际调整日期及首次收录时间未知，不写成当日新增调整。资源分配事实和外部收入动因均须归属于受访记者的报道判断，不扩写为官方确认、已签订单或已实现收入。沿用阿里稳定观察主体，阿里云仅按正文中的业务角色表述，不新增工商主体或别名。已审官网地点证据可复用，但本条没有已发生的不利业务事实，不列负面预警。可见历史及旧裁决均为其他产品、训练框架或苹果合作事项，不构成本事件重复。",
+        "scope": {
+          "technology_evidence": "正文称：“阿里云需要持续提高外部收入，就不得不把更多算力资源分配给外部的独立模型厂商。”同段将其与字节、腾讯优先供给内部场景的安排区分。阿里在本条承担云端算力供给和资源配置方角色，独立模型厂商为外部客户群体；正文未披露具体客户、供给规模或资源比例。",
+          "value_reason": "本条揭示云厂商的内部资源配置如何连接外部模型企业的训练与推理供给：与优先内部使用的路径相比，面向外部客户配置算力提供了另一种供给组织方式。对杭州模型企业选择算力伙伴、基础设施企业判断服务对象具有具体研究价值，但不能据此认定供给已经充足、客户获得保障或收入增长已经兑现。"
+        },
+        "stage": {
+          "status": "reported_existing_resource_allocation",
+          "reason": "正文使用当前经营状态的表述，由受访记者介绍算力分配安排，不是未来计划，也不是公司公告、合同签署或交付证明。新闻时间已提供，事件发生日期和首次收录时间未知；缺少比例不妨碍采信这一有限供给事实，外部收入诉求与配置变化之间的因果仍为受访者解释。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:dd9016827904a7f3",
+            "accepted_history:2f9b285ab8842b7e",
+            "accepted_history:d9fd12f6a787cf97",
+            "accepted_history:2f658d8fa1c3994c",
+            "accepted_history:7714ad5b2e51df77",
+            "prior_decision:c2f2b0db4ccc4924",
+            "prior_decision:6b2b0a5f2a613ff7",
+            "prior_decision:0d722e7d1c6d41c4",
+            "prior_decision:119c7e90c2badc16",
+            "prior_decision:f436c1b5d72153f8",
+            "prior_decision:529f9b5456e2a4de",
+            "prior_decision:29bdfddc6da1bc62",
+            "prior_decision:e31d059fc8c962c3"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:c2f2b0db4ccc4924",
+              "comparison": "different_event",
+              "reason": "旧裁决针对QwenGyre训练框架的GPU调度机制与实验结果；本条针对云业务向外部模型客户配置算力，不是同一技术或经营动作。"
+            },
+            {
+              "evidence_id": "prior_decision:6b2b0a5f2a613ff7",
+              "comparison": "different_event",
+              "reason": "旧裁决针对千问办公并列接入第三方模型，属于应用入口的模型供给；本条为基础设施资源面向外部客户分配。"
+            },
+            {
+              "evidence_id": "prior_decision:0d722e7d1c6d41c4",
+              "comparison": "different_event",
+              "reason": "旧裁决针对千问办公电商版发布及商家软件连接，本条没有该产品发布或应用进展。"
+            },
+            {
+              "evidence_id": "prior_decision:119c7e90c2badc16",
+              "comparison": "different_event",
+              "reason": "这是QwenGyre训练框架的另一旧裁决，不能以均涉及算力为由与云客户资源分配合并。"
+            },
+            {
+              "evidence_id": "prior_decision:f436c1b5d72153f8",
+              "comparison": "different_event",
+              "reason": "旧裁决针对Qwen图像模型API上线和权重开放，本条不涉及图像模型产品供给。"
+            },
+            {
+              "evidence_id": "prior_decision:529f9b5456e2a4de",
+              "comparison": "different_event",
+              "reason": "旧watch针对苹果智能合作的许可性质、合作范围及集成阶段。当前旧来源闭包验证无错误，但只解决来源可读取问题，没有新增许可或集成业务证据；本条云算力配置也未补足这些缺口，旧待核不因本条改变。"
+            },
+            {
+              "evidence_id": "prior_decision:29bdfddc6da1bc62",
+              "comparison": "different_event",
+              "reason": "旧裁决仍为千问办公引入第三方模型，不覆盖向独立模型厂商配置云算力的事实。"
+            },
+            {
+              "evidence_id": "prior_decision:e31d059fc8c962c3",
+              "comparison": "different_event",
+              "reason": "旧裁决针对千问串联订票、点餐与支付的消费服务整合；本条为外部模型企业的基础设施供给安排，客户和业务环节不同。"
+            }
+          ],
+          "change_reason": "逐项对照所供已收录历史及旧裁决，未匹配本条向外部独立模型厂商配置更多算力的事实。历史检索错误为空，按可见历史中的另一经营事件保留，不宣称全库首次发现，不改判其他事件。",
+          "new_evidence_ids": [
+            "article_body:ee4935d7a5dad12a"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:ee4935d7a5dad12a",
+          "geo-96adb38b9ecaed1e412df1a7",
+          "identity_registry:2dcd4f408df25406"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "正文支持具体的外部客户算力供给安排，但没有独立客户验证、可比较的服务表现或足以建立该业务行业地位的证据；不以阿里知名度、杭州总部或云业务规模印象授予全国标杆资格。",
+          "evidence_ids": [
+            "article_body:ee4935d7a5dad12a"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "高通",
       "title": "今年的进博会，何以再“进”？",
       "company": "高通",
@@ -1881,364 +2358,6 @@
           ]
         }
       }
-    },
-    {
-      "company_raw_name": "OpenAI",
-      "title": "9点1氪：豆包工作个人版取消5小时额度限制；人类低温纪录被打破；美科技股反弹，SpaceX市值一夜暴涨9653亿",
-      "company": "OpenAI",
-      "score": 70,
-      "sector": "人工智能大模型",
-      "financing": "首笔交割约110亿美元，报道估值1.25万亿美元；首笔投资者包括Coatue Management、T. Rowe Price，本轮其他投资者包括软银集团、红杉资本、Founders Fund、Andreessen Horowitz及阿联酋投资者财团。",
-      "source": "36 氪",
-      "location": "US",
-      "article_location": "美国（经营地，复用已审证据；不据此认定注册地或主要总部）",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "US",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-94ce9cff8088e9a375b2bc71"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "OpenAI",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-94ce9cff8088e9a375b2bc71",
-            "source_url": "https://www.news.cn/world/20260401/5ec1e5b7aeca431aa45f15b14d749381/c.html",
-            "checked_at": "2026-10-20T02:18:43.852910+00:00",
-            "subject": "OpenAI",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "US"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "US",
-          "evidence_ids": [
-            "geo-94ce9cff8088e9a375b2bc71"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-7d3194f79e645c42e439",
-      "company_canonical_name": "OpenAI",
-      "identity_status": "confirmed",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/a1Qq6fP7-ppObE3QjKlyqg",
-      "article_title": "9点1氪：豆包工作个人版取消5小时额度限制；人类低温纪录被打破；美科技股反弹，SpaceX市值一夜暴涨9653亿",
-      "event_desc": "据知情人士透露，OpenAI已完成约110亿美元融资交割，为估值1.25万亿美元融资轮的首笔部分，资金于周五到账。本轮总额可能增至最高200亿美元，其余部分预计未来数周完成；公司此前缩减了更大规模的融资计划。",
-      "insight": "如果报道所述交割成立，OpenAI的资本进展已经从融资谈判进入首笔资金到账；同时缩减原融资计划，说明实际达成的融资规模与最初目标存在明显差异。",
-      "event_headline": "OpenAI据报道交割110亿美元，融资轮尚未全部完成",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-07",
-        "event_date": null,
-        "observed_date": "2026-11-07",
-        "review_required": true
-      },
-      "published_date": "2026-11-07",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "原文明确OpenAI为融资接受方，Coatue Management和T. Rowe Price为首笔交割投资者，其他机构为本轮参与方；据知情人士消息，约110亿美元首笔资金已到账，估值为1.25万亿美元。这是基础模型企业获得实际资本支持的阶段性节点，可为杭州模型企业观察资本获取及持续研发投入条件提供对标，不要求同时出现技术突破，也不补造资金用途。新闻发布于2026-11-07T01:13:00Z，符合七日窗口。此前量子位报道对应同一轮首笔交割，不能作为另一融资事件重复计数；其旧watch的历史读取故障，经本次具体恢复证据核对已不再适用于本条，当前历史读取错误为空，恢复的OpenAI旧记录为训练隔离政策，并非融资。故将同一融资事件由待核改为保留，合并来源，不重置首次收录时间。剩余融资仍为未来安排，缩减融资计划不等于已发生经营损失。仅用于全球正面日报观察，不据此授予杭州预警或领导简报资格。",
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-94ce9cff8088e9a375b2bc71",
-          "source_url": "https://www.news.cn/world/20260401/5ec1e5b7aeca431aa45f15b14d749381/c.html",
-          "checked_at": "2026-10-20T02:18:43.852910+00:00",
-          "subject": "OpenAI",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "US"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本条证明大额融资首笔交割，足以支持资本成长观察，但金额、估值与投资者阵容不能独立证明技术领先程度、市场采用或行业地位；不继承历史星标，也不修改既往事件标签。",
-        "evidence_ids": [
-          "article:f9bfb8cf03b0870c"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "原生事实审查及独立日报阅读审查",
-        "candidate_id": "ec6f2bc4cbc519bf4726658ee793bf609256c9ecc24b06156d410796448d7def",
-        "input_row_sha256": "15d2727f9cd6accd9e70c159e4796f2b37c57e4425c6e2606f2eeb619a891f63",
-        "reason": "原文明确OpenAI为融资接受方，Coatue Management和T. Rowe Price为首笔交割投资者，其他机构为本轮参与方；据知情人士消息，约110亿美元首笔资金已到账，估值为1.25万亿美元。这是基础模型企业获得实际资本支持的阶段性节点，可为杭州模型企业观察资本获取及持续研发投入条件提供对标，不要求同时出现技术突破，也不补造资金用途。新闻发布于2026-11-07T01:13:00Z，符合七日窗口。此前量子位报道对应同一轮首笔交割，不能作为另一融资事件重复计数；其旧watch的历史读取故障，经本次具体恢复证据核对已不再适用于本条，当前历史读取错误为空，恢复的OpenAI旧记录为训练隔离政策，并非融资。故将同一融资事件由待核改为保留，合并来源，不重置首次收录时间。剩余融资仍为未来安排，缩减融资计划不等于已发生经营损失。仅用于全球正面日报观察，不据此授予杭州预警或领导简报资格。",
-        "scope": {
-          "technology_evidence": "36氪正文将OpenAI明确称为AI开发商，报道其完成估值1.25万亿美元融资轮的约110亿美元首笔交割，资金已于周五到账，并列出首笔投资者及本轮其他参与者；整轮总额可能最高达到200亿美元，其余部分预计未来数周完成。",
-          "value_reason": "实际资金到账将该模型企业的资本进展从洽谈推进到部分交割，为观察基础模型业务持续获得资本支持的能力提供具体节点。对杭州模型企业的可比维度是融资承诺与实际到账的区别、分期交割确定性及资本获取条件；本条不能证明资金已投入算力建设、技术能力提升或商业收益实现。"
-        },
-        "stage": {
-          "status": "据知情人士报道已完成首笔交割，其余融资为upcoming",
-          "reason": "已完成口径仅为约110亿美元首笔资金到账，最高可能200亿美元是整轮潜在规模，不是已交割金额。报道中的周五保留原相对时间，不直接换算为精确交割日；事件精确日期及实际首次收录时间未知。原始新闻发布时间明确为2026-11-07T01:13:00Z，消息仍属媒体转述知情人士，非本轮取得的公司正式交割公告。"
-        },
-        "history": {
-          "result": "new_progress",
-          "evidence_ids": [
-            "history_lookup:c0e846c30a78e9dc",
-            "prior_decision:4c3b46d17e417ae5",
-            "accepted_history:6c2e37d9fdcbf683",
-            "accepted_history:ac08833768d94c58",
-            "accepted_history:1da2d35a5bd856ff",
-            "prior_decision:53074a337be35ee8",
-            "prior_decision:6ca2cbb54ddfc0b0",
-            "prior_decision:7d5678aad9223d2d",
-            "actual_technical_recovery:9a9266974c34a962"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:6ca2cbb54ddfc0b0",
-              "comparison": "different_event",
-              "reason": "旧exclude涉及离职、解雇和内部信息外流指控，未证明具体业务影响；本条为融资首笔交割，不继承公司级排除，也不改变该旧事件裁决。"
-            },
-            {
-              "evidence_id": "prior_decision:7d5678aad9223d2d",
-              "comparison": "different_event",
-              "reason": "旧reject针对数学手稿周回顾没有新增事实，与本轮融资无同一事件关系，不构成对OpenAI其他事件的排除。"
-            },
-            {
-              "evidence_id": "prior_decision:4c3b46d17e417ae5",
-              "comparison": "same_event",
-              "reason": "此前报道与本条的融资主体、110亿美元首笔交割、1.25万亿美元估值及最高可能200亿美元整轮规模一致，是同一融资事件。当前未证明新的交割增量；改判依据是旧待核所依赖的历史读取故障已获得针对性恢复证据，而非更换来源。"
-            },
-            {
-              "evidence_id": "prior_decision:53074a337be35ee8",
-              "comparison": "different_event",
-              "reason": "本次恢复并通过精确候选验证的OpenAI旧记录是离线网页及分层隔离训练政策，不涉及本轮融资，不能据该记录认定融资重复。"
-            },
-            {
-              "evidence_id": "prior_decision:859ef602ac53b0a8",
-              "comparison": "different_event",
-              "reason": "GPT-6 Cyber发布属于独立产品事件，本文附带简讯不纳入融资增量，也不随本次融资改判获得批准。"
-            },
-            {
-              "evidence_id": "prior_decision:d1f2f7c3b13a72fb",
-              "comparison": "different_event",
-              "reason": "同属Cyber产品及安全研究待核裁决，不是融资交割裁决，本轮不改变其状态。"
-            },
-            {
-              "evidence_id": "prior_decision:d7a843774d4ccd2b",
-              "comparison": "different_event",
-              "reason": "同属Cyber发布待核，不能因与融资出现在同一文章而合并或重新批准。"
-            }
-          ],
-          "change_reason": "已收录的10月营收预测仅提融资讨论，首笔实际交割相较该记录构成资本阶段进展，但不能确认两次讨论必属同一融资轮；博通安排逾500亿美元融资属于定制芯片合作项目，不能并入OpenAI本轮融资。其余已收录的模型提速、数学手稿及方法重释、论文复现、产品界面、异常标题、芯片流片、PHP安全应用和训练隔离政策均为其他事件。本条与11月8日已待核的110亿美元首笔交割报道是同一事件，没有新增交割事实。当前技术恢复表明旧坏源的实际决策引用归属为另一企业，OpenAI相关旧事件已按精确候选恢复验证，当前history_retrieval_errors为空，因此旧技术故障不再构成本融资事件的待核理由。此次仅将该同一融资事件从watch改为keep并合并来源，不宣称再次融资或全库首次发现，不批量解除其他事件待核。",
-          "new_evidence_ids": [
-            "article:f9bfb8cf03b0870c",
-            "actual_technical_recovery:9a9266974c34a962"
-          ]
-        },
-        "evidence_ids": [
-          "article:f9bfb8cf03b0870c",
-          "identity_registry:2dcd4f408df25406",
-          "geo-94ce9cff8088e9a375b2bc71",
-          "history_lookup:c0e846c30a78e9dc",
-          "prior_decision:4c3b46d17e417ae5",
-          "actual_technical_recovery:9a9266974c34a962"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "本条证明大额融资首笔交割，足以支持资本成长观察，但金额、估值与投资者阵容不能独立证明技术领先程度、市场采用或行业地位；不继承历史星标，也不修改既往事件标签。",
-          "evidence_ids": [
-            "article:f9bfb8cf03b0870c"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "OpenAI",
-      "title": "孙正义悬了",
-      "company": "OpenAI",
-      "score": 70,
-      "sector": "人工智能",
-      "financing": "据文章，融资总额1100亿美元，投前估值7300亿美元，软银出资300亿美元。",
-      "source": "投资界",
-      "location": "US",
-      "article_location": "美国（复用已审同主体经营地证据，不代表注册地或主要总部）",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "US",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-94ce9cff8088e9a375b2bc71"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "OpenAI",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-94ce9cff8088e9a375b2bc71",
-            "source_url": "https://www.news.cn/world/20260401/5ec1e5b7aeca431aa45f15b14d749381/c.html",
-            "checked_at": "2026-10-20T02:18:43.852910+00:00",
-            "subject": "OpenAI",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "US"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "US",
-          "evidence_ids": [
-            "geo-94ce9cff8088e9a375b2bc71"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-7d3194f79e645c42e439",
-      "company_canonical_name": "OpenAI",
-      "identity_status": "confirmed",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/sckH9yWUJRxpL_CBgsqqjg",
-      "article_title": "孙正义悬了",
-      "event_desc": "文章回顾称，OpenAI于文中所称今年2月完成1100亿美元融资，投前估值7300亿美元，其中软银出资300亿美元。",
-      "insight": "这笔融资体现了OpenAI吸纳大额资本的能力，软银在其中既承担资本投入，又参与其数据中心基础设施布局。两种角色使资本支持与算力建设形成联系，但文章没有说明本轮资金的具体分配。",
-      "event_headline": "OpenAI融资回顾：据报道完成1100亿美元融资",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "actual",
-        "description": "正文称今年2月完成融资，依报道语境为2026年2月，具体日未知；2026-11-09为新闻日期，不是融资发生日。",
-        "event_date": null,
-        "observed_date": "2026-11-09",
-        "review_required": false
-      },
-      "published_date": "2026-11-09",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "正文明确OpenAI为文中今年2月1100亿美元融资的接受方，软银为其中300亿美元出资方；结合其模型及AI基础设施业务，这是具体资本成长节点，而非只凭知名度或融资名称入选。新闻发布时间2026-11-09T07:35:00Z符合七日窗口，事件可记录为报道所称2026年2月、具体日未知，不能标作11月新融资。已收录的110亿美元首笔交割对应1.25万亿美元估值及最高可能200亿美元的另一轮安排，与本条月份、规模和估值不同，不能因金额字样相近去重或合并。所给历史未见本次2月融资记录，按有归因的历史资本节点发现保留，不宣称首次发现，不补造资金用途。软银违约指控尚有争议，且并非本候选融资事实，不随本条采信或转作杭州预警。",
-      "event_headline_source": "dfec7d3502c269262a33af2e8f698fce3925a25397e959560d633dcc3b8c68f9",
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-94ce9cff8088e9a375b2bc71",
-          "source_url": "https://www.news.cn/world/20260401/5ec1e5b7aeca431aa45f15b14d749381/c.html",
-          "checked_at": "2026-10-20T02:18:43.852910+00:00",
-          "subject": "OpenAI",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "US"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "大额融资及软银出资支持资本成长观察，但不能独立证明技术领先、市场采用或全国标杆地位，不继承其他事件星标。",
-        "evidence_ids": [
-          "article:0bdccafa795192e4"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "quality_inspector Agent",
-        "candidate_id": "1e83ed5b7ab6a87d1d7aed2d8999a8c92b23382d284c62bbb4aef947901f2281",
-        "input_row_sha256": "cb2e53e0b881ae38dfb5deb6edebcb7ad7e0bec957ffb506578da6d698e3001f",
-        "reason": "正文明确OpenAI为文中今年2月1100亿美元融资的接受方，软银为其中300亿美元出资方；结合其模型及AI基础设施业务，这是具体资本成长节点，而非只凭知名度或融资名称入选。新闻发布时间2026-11-09T07:35:00Z符合七日窗口，事件可记录为报道所称2026年2月、具体日未知，不能标作11月新融资。已收录的110亿美元首笔交割对应1.25万亿美元估值及最高可能200亿美元的另一轮安排，与本条月份、规模和估值不同，不能因金额字样相近去重或合并。所给历史未见本次2月融资记录，按有归因的历史资本节点发现保留，不宣称首次发现，不补造资金用途。软银违约指控尚有争议，且并非本候选融资事实，不随本条采信或转作杭州预警。",
-        "scope": {
-          "technology_evidence": "原文回顾OpenAI今年2月完成1100亿美元融资、投前估值7300亿美元，其中软银出资300亿美元；正文另明确其模型业务及作为AI基础设施服务对象的角色。",
-          "value_reason": "该轮融资规模与单一投资方出资关系提供基础模型企业获得大额资本支持的具体观察节点，可与后续已收录融资区分资本阶段和投资方参与方式。不能由软银自身举债安排推断OpenAI本轮融资的资金用途或已发生经营损失。"
-        },
-        "stage": {
-          "status": "媒体回顾称已完成的历史融资",
-          "reason": "正文明确为今年2月完成，按报道语境记录2026年2月，具体日期未知；新闻发布于2026年11月9日，实际首次收录时间未提供。未取得本轮公司原始交割公告，完成状态保留报道归因，不与后续110亿美元首笔交割相加。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:6fcb56fc17264878",
-            "accepted_history:48f7495c06b8b192",
-            "accepted_history:6c2e37d9fdcbf683",
-            "accepted_history:ac08833768d94c58",
-            "prior_decision:f02d28ff06f0b9ee",
-            "prior_decision:4c3b46d17e417ae5",
-            "prior_decision:6ca2cbb54ddfc0b0",
-            "prior_decision:7d5678aad9223d2d"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:6ca2cbb54ddfc0b0",
-              "comparison": "different_event",
-              "reason": "旧exclude针对离职、解雇及信息外流指控且缺具体业务影响；本条为2月融资回顾，不继承公司级排除，也不改变旧裁决。"
-            },
-            {
-              "evidence_id": "prior_decision:7d5678aad9223d2d",
-              "comparison": "different_event",
-              "reason": "旧reject针对数学手稿周回顾无新增事实，与本条融资月份、金额和投资关系无关。"
-            },
-            {
-              "evidence_id": "prior_decision:4c3b46d17e417ae5",
-              "comparison": "different_event",
-              "reason": "旧watch针对110亿美元首笔交割、1.25万亿美元估值的融资；本条为2月1100亿美元及7300亿美元投前估值，不能认作同一交割。其来源闭包当前验证无错误，不沿用旧技术故障阻断本条。"
-            },
-            {
-              "evidence_id": "prior_decision:f02d28ff06f0b9ee",
-              "comparison": "different_event",
-              "reason": "该keep及对应已收录历史确认的是后续融资首笔交割，不包含本条2月融资事实；不将本条冒充该轮新增到账。"
-            },
-            {
-              "evidence_id": "prior_decision:c860f6290a48e0b9",
-              "comparison": "different_event",
-              "reason": "旧watch针对Cyber旧版开放是否生效的事实歧义，与融资无关；来源验证通过不等于解除该业务缺口，本次不改判。"
-            }
-          ],
-          "change_reason": "逐项对照，模型提速、数学手稿及方法重释、科研复现、模型界面、异常标题、PHP安全应用、训练隔离与社区契约均属其他事件。芯片合作项目融资不等于OpenAI公司融资，10月营收预测中的融资讨论也未记录本条2月融资。其余Aurora、Model Spec、Astra-6、Cyber、内部研发应用及Pierre/Pando待核裁决均非同事件；当前来源闭包验证和历史读取无错误，旧技术故障不能自动沿用，各自实质缺口亦不因本条保留而解除。当前仅认定所供范围未见该2月融资收录，不重置任何既有事件或改判旧排除。",
-          "new_evidence_ids": [
-            "article:0bdccafa795192e4"
-          ]
-        },
-        "evidence_ids": [
-          "article:0bdccafa795192e4",
-          "geo-94ce9cff8088e9a375b2bc71",
-          "history_lookup:6fcb56fc17264878",
-          "accepted_history:48f7495c06b8b192",
-          "prior_decision:f02d28ff06f0b9ee",
-          "prior_decision:6ca2cbb54ddfc0b0",
-          "prior_decision:7d5678aad9223d2d"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "大额融资及软银出资支持资本成长观察，但不能独立证明技术领先、市场采用或全国标杆地位，不继承其他事件星标。",
-          "evidence_ids": [
-            "article:0bdccafa795192e4"
-          ]
-        }
-      }
     }
   ],
   "negatives": [],
@@ -2376,7 +2495,6 @@
     "智能制造": 1,
     "光电芯片与光通信": 1,
     "跨境电商与AI经营工具": 1,
-    "生成式人工智能": 1,
     "汽车与海外制造": 1,
     "光通信与算力基础设施": 1,
     "物流科技与跨境仓储": 1,
@@ -2384,6 +2502,8 @@
     "低空航空与混合动力飞行器": 1,
     "钙钛矿光伏与空间能源": 1,
     "太空算力与星上AI": 1,
+    "AI音乐生成": 1,
+    "云计算与AI基础设施": 1,
     "模拟芯片与嵌入式半导体": 1,
     "半导体制造与封装测试": 2,
     "模拟芯片": 1,
@@ -2391,9 +2511,10 @@
     "工业半导体": 1,
     "汽车半导体": 1,
     "工业半导体与芯片供应链": 1,
-    "功率半导体与汽车电子": 1,
     "功率半导体": 1,
-    "数据中心电源与功率半导体": 1
+    "数据中心电源与功率半导体": 1,
+    "AI图像生成与编辑": 2,
+    "人工智能／大模型与开发者工具": 1
   },
   "daily_details": {
     "2026-11-09": {
@@ -2421,9 +2542,9 @@
       "negatives": 0
     },
     "2026-11-15": {
-      "count": 26,
+      "count": 29,
       "negatives": 0
     }
   },
-  "created": "2026-11-18 11:37:42"
+  "created": "2026-11-18 12:05:48"
 }
