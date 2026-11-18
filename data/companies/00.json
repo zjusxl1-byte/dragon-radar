@@ -1819,6 +1819,89 @@
       "event_headline": "默安科技称AI红队智能体可全天自主渗透，独立测试未披露",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "默安科技介绍其AI原生研发治理平台，现面向首批企业客户开放交流与试点。据公司介绍，平台覆盖需求澄清、架构设计、任务分解、编码、验证及交付，通过平台统一持有项目上下文，支持多智能体、多模型和多终端协同；可从历史代码库抽取编码规则与业务规则，并追溯代码变更对应的人员意图、执行智能体及所用上下文。部署选择包括私有化平台调用云端大模型、客户内网平台对接企业自有模型，以及内网软硬一体机。",
+      "article_title": "从个人智能到组织的主权智能——默安 AI 原生研发治理平台，让上下文成为企业的复利资产 | 元璟Family",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/EHdfUG7OU7SAZreQKvOw8A",
+      "sector": "AI软件工程与研发治理",
+      "location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-63fe2f4a2a079776efb290cd"
+        ],
+        "subject_evidence_ids": [
+          "geo-63fe2f4a2a079776efb290cd"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "默安科技",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-63fe2f4a2a079776efb290cd"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-63fe2f4a2a079776efb290cd",
+            "source_url": "https://m.moresec.cn/about-us",
+            "checked_at": "2026-10-12T03:44:02.093070+00:00",
+            "subject": "默安科技",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "article_location": "",
+      "source": "元璟资本",
+      "kind": "event",
+      "canonical_name": "默安科技",
+      "company_entity_id": "dr-u-d8f3ada13209bf7e5dc6",
+      "company_raw_name": "默安科技",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "默安 AI 原生研发治理平台",
+          "relation": "product",
+          "evidence": "默安科技的 AI 原生研发治理平台（以下简称平台）"
+        }
+      ],
+      "score": 100,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持杭州企业的新产品与试点线索，尚无独立客户效果、行业地位或同类比较依据建立全国标杆资格。",
+        "evidence_ids": [
+          "article:542306ab08ce741e"
+        ]
+      },
+      "published_date": "2026-11-16",
+      "insight": "默安将产品切入点放在组织如何持有和复用研发上下文，而非单个智能体的编码速度：共享需求与决策记录、提取历史代码规则并关联变更来源，意在把个人会话连接为团队可接续的研发过程。首批试点最值得观察的是，换人或换模型后能否准确复用既有业务规则与决策，而非仅保存更多记录。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "默安科技研发治理平台面向首批企业开放试点",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "奇瑞汽车": [
@@ -2627,6 +2710,59 @@
       "financing": "",
       "event_date": "",
       "event_headline": "据报道扶桑化学至2030年仍不保证配额外供货",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "快手": [
+    {
+      "date": "2026-11-17",
+      "title": "报道明确称，快手正在乌兰察布察哈尔高新区巴音片区建设新的算力基地。原文未披露该基地的容量、具体计算任务及投产时间。",
+      "article_title": "乌兰察布 72 小时，目睹 AI 时代的工业奇观",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/XMPf5u2dPEtOC_iAam2Fcw",
+      "sector": "互联网算力基础设施",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "快手",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "快手",
+      "company_entity_id": "dr-u-b210af9eaeaa3d72cea6",
+      "company_raw_name": "快手",
+      "identity_status": "confirmed",
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文建立了具体基础设施建设线索，但没有独立技术比较或行业地位依据；不能从AI业务背景、建设行为或未知属地授予全国标杆资格。",
+        "evidence_ids": [
+          "article:dbbdcfbdfb97a870"
+        ]
+      },
+      "published_date": "2026-11-16",
+      "insight": "快手在建算力基地表明其计算基础设施仍在扩展。报道没有说明该项目服务推荐、存储还是模型训练，研究其产业意义应先辨明负载用途，而不是直接归为AI训练扩容。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "快手在乌兰察布巴音片区建设新算力基地",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
