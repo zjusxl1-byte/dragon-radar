@@ -53,6 +53,191 @@
       "negative_count": 1,
       "top3": [
         {
+          "company_raw_name": "DeepSeek",
+          "title": "梁文锋越过聊天框",
+          "company": "DeepSeek",
+          "score": 100,
+          "sector": "人工智能／大模型应用基础设施",
+          "financing": "",
+          "source": "36 氪",
+          "location": "浙江省 / 杭州市",
+          "article_location": "浙江省杭州市（主要总部，复用已审同主体地点证据）",
+          "geography": {
+            "geography_status": "confirmed",
+            "classification": "hangzhou",
+            "display_location": "浙江省 / 杭州市",
+            "located_status": "subject_confirmed",
+            "display_basis": [
+              "geo-8d153ebc1f63d3a87bb41366"
+            ],
+            "subject_evidence_ids": [
+              "geo-8d153ebc1f63d3a87bb41366"
+            ],
+            "needs_review": false,
+            "next_action": null,
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "subject_locality": {
+              "status": "confirmed",
+              "classification": "hangzhou",
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "basis_roles": [
+                "hq"
+              ],
+              "evidence_ids": [
+                "geo-8d153ebc1f63d3a87bb41366"
+              ]
+            },
+            "basis": [
+              {
+                "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+                "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+                "checked_at": "2026-10-17T18:18:34.816938+00:00",
+                "subject": "杭州深度求索人工智能基础技术研究有限公司",
+                "role": "hq",
+                "subject_relation": "same_subject",
+                "place": {
+                  "country": "CN",
+                  "province": "浙江省",
+                  "city": "杭州市"
+                }
+              }
+            ]
+          },
+          "company_entity_id": "dr-u-1407b719acc8f55195ab",
+          "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+          "identity_status": "confirmed",
+          "event_type": "重磅发布",
+          "link": "https://mp.weixin.qq.com/s/_fuDuKXOrKkY9ePke57dqQ",
+          "article_title": "梁文锋越过聊天框",
+          "event_desc": "文章称，DeepSeek于11月13日开放联网搜索、深度思考搜索、文件输入、阅读链接和语音能力接口，并以MIT协议开源聊天前端chat-demo。开发者可配置自己的API Key使用该前端，并导入DeepSeek历史对话。文章援引官方公告称，开发者可使用这些接口复刻完整的DeepSeek App。",
+          "insight": "此次开放把原本集中在官方聊天界面的搜索、文件和语音能力变成开发者可以重新组合的工具；历史对话导入进一步降低了用户迁移到第三方界面的成本。这支持应用入口向社区扩展的判断，但不能据此认定官方随后限制长对话就是有意分流。",
+          "event_headline": "DeepSeek开放搜索等能力接口并开源聊天前端",
+          "event_signal": "material",
+          "is_national_star": false,
+          "event_time_evidence": {
+            "status": "dated_from_publication_context",
+            "event_date": "2026-11-13",
+            "observed_date": "2026-11-17",
+            "review_required": false,
+            "description": "正文明确写明11月13日公告及当天开源前端、开放接口、接好导入；2026年份由2026-11-17原始发布时间及报道语境确定。12日建仓库不是本次能力开放日期，15日长对话限制是另一事项。"
+          },
+          "published_date": "2026-11-17",
+          "publication_basis": "采集源保留的发布时间",
+          "selection_recommendation": "keep",
+          "selection_reason": "完整正文明确将应用能力接口开放及chat-demo开源归于DeepSeek，可继承已确认别名、稳定企业身份及杭州总部证据；chat-demo和DSH是产品，不新增企业。正文提供MIT协议、自带API Key、历史对话导入及具体开放能力，足以支持开发者应用工具链进展，而非仅有企业背景或生态口号。新闻发布于2026-11-17T09:29:00Z，满足最近七天窗口，上游缺发布时间的待核理由已不成立。10月已收录Search/Fetch接口，本次不将搜索能力重新开放计作首次；仅保留应用能力组合、聊天前端开源及历史会话迁移的实质增量。不能由开放与随后长对话限制的先后关系认定公司有意分流，也不据本文确认付费套餐或插件市场已经上线。本条按正面产品生态进展保留，不混入另一项服务限制或插件安全争议。",
+          "event_headline_source": "73500b0a7070b020f41f5064fe5be5bef85ed1f35418ab71f478837a09ab9e73",
+          "event_date": "2026-11-13",
+          "location_status": "subject_confirmed",
+          "location_basis": [
+            {
+              "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+              "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+              "checked_at": "2026-10-17T18:18:34.816938+00:00",
+              "subject": "杭州深度求索人工智能基础技术研究有限公司",
+              "role": "hq",
+              "subject_relation": "same_subject",
+              "place": {
+                "country": "CN",
+                "province": "浙江省",
+                "city": "杭州市"
+              }
+            }
+          ],
+          "location_next_action": null,
+          "benchmark_review": {
+            "status": "not_qualified",
+            "eligible": false,
+            "reason": "本次证据支持具体产品开放及生态扩展，但未独立核验全国行业地位或可比领先程度；文中苹果类比和插件数量不能直接确立全国标杆资格。此裁决不影响本事件保留，也不撤销其他已审标签。",
+            "evidence_ids": [
+              "article:177f0e24024b0bfc"
+            ]
+          },
+          "quality_review": {
+            "schema_version": "dragon-overnight-review.v2",
+            "decision": "keep",
+            "reviewer": "quality_inspector Agent",
+            "candidate_id": "1c089399f2e89299e6f668bb5a6f91469c02f97a3d358bdaac0762ebf13084b2",
+            "input_row_sha256": "6d15b79b421a2a7208a274a8211102edfa511149a4820cf1e21eb285fa4bb6d1",
+            "reason": "完整正文明确将应用能力接口开放及chat-demo开源归于DeepSeek，可继承已确认别名、稳定企业身份及杭州总部证据；chat-demo和DSH是产品，不新增企业。正文提供MIT协议、自带API Key、历史对话导入及具体开放能力，足以支持开发者应用工具链进展，而非仅有企业背景或生态口号。新闻发布于2026-11-17T09:29:00Z，满足最近七天窗口，上游缺发布时间的待核理由已不成立。10月已收录Search/Fetch接口，本次不将搜索能力重新开放计作首次；仅保留应用能力组合、聊天前端开源及历史会话迁移的实质增量。不能由开放与随后长对话限制的先后关系认定公司有意分流，也不据本文确认付费套餐或插件市场已经上线。本条按正面产品生态进展保留，不混入另一项服务限制或插件安全争议。",
+            "scope": {
+              "technology_evidence": "正文报道DeepSeek开放联网搜索、深度思考搜索、文件输入、阅读链接和语音能力接口，并以MIT协议开源chat-demo；该前端无需后端，配置开发者自己的API Key即可使用，支持导入DeepSeek历史对话。",
+              "value_reason": "接口与可运行前端、会话迁移能力形成配套，使第三方开发者能够复用官方应用能力并承接既有用户上下文，具体降低替代界面的开发和迁移门槛。其价值是模型企业向应用开发基础设施扩展，不是已证明的开发者收益、商业闭环或平台统治力。"
+            },
+            "stage": {
+              "status": "已开放接口并开源前端，媒体转述官方公告",
+              "reason": "正文明确记载11月13日公告及当天开源、开放和导入能力；按2026年11月17日报道语境确定年份。属于已发生的产品开放，不是规划；实际仓库与接口效果未在本轮独立实测。"
+            },
+            "history": {
+              "result": "new_progress",
+              "evidence_ids": [
+                "accepted_history:0059924beb11e32d",
+                "accepted_history:fee5adc7eeea25f4",
+                "accepted_history:acb664257ffa04b4",
+                "accepted_history:85a2a890a7b60d46",
+                "accepted_history:c0c6e0d082769d47",
+                "history_lookup:4bde63a704850856"
+              ],
+              "prior_decisions": [
+                {
+                  "evidence_id": "prior_decision:32fffa5346c94646",
+                  "comparison": "different_event",
+                  "reason": "旧排除针对V4.1-Flash-1017同版本转载，无新增发布或应用事实；本次是11月应用接口组合与chat-demo开源，不重报该模型版本。"
+                },
+                {
+                  "evidence_id": "prior_decision:45a66ae95482f362",
+                  "comparison": "different_event",
+                  "reason": "旧排除针对第二轮融资无实质增量，本条没有融资事实。"
+                },
+                {
+                  "evidence_id": "prior_decision:880e90efb1737bd7",
+                  "comparison": "different_event",
+                  "reason": "旧排除针对同轮融资及算电协同推测，本条依据具体软件开放与迁移功能。"
+                },
+                {
+                  "evidence_id": "prior_decision:80fb107219f591f3",
+                  "comparison": "different_event",
+                  "reason": "旧排除针对约千亿元融资重复报道，与本次产品开放无关。"
+                },
+                {
+                  "evidence_id": "prior_decision:80ae9a27f89f46e1",
+                  "comparison": "different_event",
+                  "reason": "旧排除是V4.1-Flash-1017模型更新重复收录，不覆盖chat-demo及历史对话导入。"
+                },
+                {
+                  "evidence_id": "prior_decision:32e66738fb3c21d7",
+                  "comparison": "different_event",
+                  "reason": "旧排除针对10月15日API故障与补偿的重复预警，本条不重报故障，也不将开源视作故障整改完成。"
+                },
+                {
+                  "evidence_id": "prior_decision:34ff088823bc33a7",
+                  "comparison": "different_event",
+                  "reason": "旧排除针对同轮融资无新交割或业务协作证据，本次是独立产品工具链进展。"
+                }
+              ],
+              "change_reason": "10月18日已收录搜索与正文获取接口，9月至10月已收录Harness桌面版、插件兼容、推理框架及Super-agent原型；本次新增的是11月13日应用能力组合开放、MIT聊天前端和历史对话导入。仅按这些增量保留，不改判旧用户输出测试、融资交割、具身投资或调查统计待核项。当前历史读取错误为空，不沿用旧裁决中的历史归一化故障；可见历史未覆盖本次增量，但不宣称全球首次。",
+              "new_evidence_ids": [
+                "article:177f0e24024b0bfc"
+              ]
+            },
+            "evidence_ids": [
+              "article:177f0e24024b0bfc",
+              "identity_registry:2dcd4f408df25406",
+              "geo-8d153ebc1f63d3a87bb41366"
+            ],
+            "benchmark_review": {
+              "status": "not_qualified",
+              "eligible": false,
+              "reason": "本次证据支持具体产品开放及生态扩展，但未独立核验全国行业地位或可比领先程度；文中苹果类比和插件数量不能直接确立全国标杆资格。此裁决不影响本事件保留，也不撤销其他已审标签。",
+              "evidence_ids": [
+                "article:177f0e24024b0bfc"
+              ]
+            }
+          },
+          "company_db_id": 258
+        },
+        {
           "company_raw_name": "微分智飞",
           "title": "光合创投朱嘉：宇树的真正底色，是具身智能的基础设施价值",
           "company": "微分智飞",
@@ -388,253 +573,6 @@
             }
           },
           "company_db_id": 258
-        },
-        {
-          "company_raw_name": "强脑科技",
-          "title": "深圳，APEC时间，邂逅三位\"老熟人\"浙商",
-          "company": "强脑科技",
-          "score": 65,
-          "sector": "智能仿生义肢与康复科技",
-          "financing": "",
-          "source": "涌金楼",
-          "location": "浙江省杭州市余杭区人工智能小镇1幢2层",
-          "article_location": "浙江省杭州市余杭区（复用已审同主体总部证据）；香港（本项目实施地）",
-          "geography": {
-            "geography_status": "confirmed",
-            "classification": "hangzhou",
-            "display_location": "浙江省杭州市余杭区人工智能小镇1幢2层",
-            "located_status": "discovery_confirmed",
-            "display_basis": [
-              "geo-659699f68e86dd9a4521ab18",
-              "geo-5af897128f09302b1b9a8545"
-            ],
-            "subject_evidence_ids": [
-              "geo-659699f68e86dd9a4521ab18"
-            ],
-            "needs_review": false,
-            "next_action": null,
-            "subject": "强脑科技",
-            "subject_locality": {
-              "status": "confirmed",
-              "classification": "hangzhou",
-              "country": "CN",
-              "province": "浙江省",
-              "city": "杭州市",
-              "basis_roles": [
-                "hq"
-              ],
-              "evidence_ids": [
-                "geo-659699f68e86dd9a4521ab18"
-              ]
-            },
-            "basis": [
-              {
-                "evidence_id": "geo-659699f68e86dd9a4521ab18",
-                "source_url": "https://tzcj.hangzhou.gov.cn/art/2024/8/13/art_1621408_58893869.html",
-                "checked_at": "2026-10-25T00:32:21.137084+00:00",
-                "subject": "强脑科技",
-                "role": "hq",
-                "subject_relation": "same_subject",
-                "place": {
-                  "country": "CN",
-                  "province": "浙江省",
-                  "city": "杭州市",
-                  "district": "余杭区"
-                }
-              },
-              {
-                "evidence_id": "geo-5af897128f09302b1b9a8545",
-                "source_url": "https://www.brainco.cn/zh-CN/contact",
-                "checked_at": "2026-10-19T00:33:28.358542+00:00",
-                "subject": "强脑科技",
-                "role": "business",
-                "subject_relation": "same_subject",
-                "place": {
-                  "country": "CN",
-                  "province": "浙江省",
-                  "city": "杭州市",
-                  "district": "余杭区",
-                  "address": "浙江省杭州市余杭区人工智能小镇1幢2层"
-                }
-              }
-            ],
-            "discovery_locality": {
-              "status": "confirmed",
-              "classification": "hangzhou",
-              "country": "CN",
-              "province": "浙江省",
-              "city": "杭州市",
-              "district": "余杭区",
-              "evidence_ids": [
-                "geo-659699f68e86dd9a4521ab18",
-                "geo-5af897128f09302b1b9a8545"
-              ]
-            }
-          },
-          "company_entity_id": "dr-u-eaf87eb8fe1f87016746",
-          "company_canonical_name": "强脑科技",
-          "identity_status": "confirmed",
-          "event_type": "战略合作",
-          "link": "https://mp.weixin.qq.com/s/7VWo0zlr7ezWV5lXhUQ9ZA",
-          "article_title": "深圳，APEC时间，邂逅三位\"老熟人\"浙商",
-          "event_desc": "文章称，今年5月，强脑科技联合香港高校和政府启动“惠民科技计划”，计划在两年内为60位残障人士免费提供智能仿生义肢安装。香港特区政府创新科技基金拨款支持，强脑科技提供智能仿生手和仿生腿，香港理工大学团队结合临床使用场景检验技术成效、收集使用者反馈并优化产品。文章未披露已经完成的安装人数。",
-          "insight": "这一计划把强脑的仿生义肢接入由公共资金支持、大学团队参与评估的实际使用场景，为产品获得使用反馈和迭代机会。其价值首先是扩大使用可及性并形成场景反馈链，而非已证明完成60人的安装目标。",
-          "event_headline": "强脑科技联合香港高校启动两年60人仿生义肢计划",
-          "event_signal": "material",
-          "is_national_star": false,
-          "event_time_evidence": {
-            "status": "month_known_day_unknown",
-            "description": "2026年11月17日原文明确称“今年5月”启动计划，可确定启动月份为2026年5月，具体日未知；两年60人为计划服务目标，未披露已完成安装人数。",
-            "event_date": null,
-            "observed_date": "2026-11-17",
-            "review_required": false
-          },
-          "published_date": "2026-11-17",
-          "publication_basis": "采集源保留的发布时间",
-          "selection_recommendation": "keep",
-          "selection_reason": "当前完整正文明确：强脑科技于2026年5月联合香港高校和政府启动惠民科技计划，由香港特区政府创新科技基金拨款支持，强脑提供智能仿生手、仿生腿，香港理工大学团队结合临床场景检验技术成效、收集反馈并优化产品。企业是具体产品提供方，不是仅被提及或因参加APEC取得资格。该计划将产品供给、公共资金支持与临床使用反馈连接起来，具有康复科技应用及产品迭代的独立阅读价值。两年60人为计划服务目标，不能写成已完成安装、确认订单收入或已证实疗效。新闻发布于2026年11月17日，符合最近7天窗口；事件月份可确定为2026年5月，具体日期未知，不影响本次采信。稳定身份及政府总部证据支持杭州归属，香港仅为本项目实施地。已供历史未发现同一香港计划，既往融资、产品展示及内地助残推广裁决不构成本事件排除依据。",
-          "event_headline_source": "cd6b98e72b59d1fc6f4bf3681263eb3453b6aebe194d926e3a024ef7281eb771",
-          "location_status": "discovery_confirmed",
-          "location_basis": [
-            {
-              "evidence_id": "geo-659699f68e86dd9a4521ab18",
-              "source_url": "https://tzcj.hangzhou.gov.cn/art/2024/8/13/art_1621408_58893869.html",
-              "checked_at": "2026-10-25T00:32:21.137084+00:00",
-              "subject": "强脑科技",
-              "role": "hq",
-              "subject_relation": "same_subject",
-              "place": {
-                "country": "CN",
-                "province": "浙江省",
-                "city": "杭州市",
-                "district": "余杭区"
-              }
-            },
-            {
-              "evidence_id": "geo-5af897128f09302b1b9a8545",
-              "source_url": "https://www.brainco.cn/zh-CN/contact",
-              "checked_at": "2026-10-19T00:33:28.358542+00:00",
-              "subject": "强脑科技",
-              "role": "business",
-              "subject_relation": "same_subject",
-              "place": {
-                "country": "CN",
-                "province": "浙江省",
-                "city": "杭州市",
-                "district": "余杭区",
-                "address": "浙江省杭州市余杭区人工智能小镇1幢2层"
-              }
-            }
-          ],
-          "location_next_action": null,
-          "benchmark_review": {
-            "status": "not_qualified",
-            "eligible": false,
-            "reason": "本条证明具体康复产品应用计划及跨机构反馈机制，但未独立建立全国行业地位或全国标杆资格；历史融资金额存在未厘清口径，不能据此自动授予标签。杭州主体的正面事件保留不依赖全国标杆资格。",
-            "evidence_ids": [
-              "article:ac5681ba673eb061",
-              "geo-659699f68e86dd9a4521ab18"
-            ]
-          },
-          "quality_review": {
-            "schema_version": "dragon-overnight-review.v2",
-            "decision": "keep",
-            "reviewer": "quality_inspector Agent",
-            "candidate_id": "a744ecfd17489bd8caea1b1f603e3387f4eea3343eb6cbda6ab9c2e8b796bdca",
-            "input_row_sha256": "227e2bafad46147e97b6f079aba20d6c6ed272f4b7859ed92d40d95c77fbc071",
-            "reason": "当前完整正文明确：强脑科技于2026年5月联合香港高校和政府启动惠民科技计划，由香港特区政府创新科技基金拨款支持，强脑提供智能仿生手、仿生腿，香港理工大学团队结合临床场景检验技术成效、收集反馈并优化产品。企业是具体产品提供方，不是仅被提及或因参加APEC取得资格。该计划将产品供给、公共资金支持与临床使用反馈连接起来，具有康复科技应用及产品迭代的独立阅读价值。两年60人为计划服务目标，不能写成已完成安装、确认订单收入或已证实疗效。新闻发布于2026年11月17日，符合最近7天窗口；事件月份可确定为2026年5月，具体日期未知，不影响本次采信。稳定身份及政府总部证据支持杭州归属，香港仅为本项目实施地。已供历史未发现同一香港计划，既往融资、产品展示及内地助残推广裁决不构成本事件排除依据。",
-            "scope": {
-              "technology_evidence": "正文明确强脑提供智能仿生手和仿生腿，香港理工大学团队结合临床使用场景检验技术成效、收集使用者反馈并优化产品，且交代了计划启动、公共资金支持及两年60人的服务目标。",
-              "value_reason": "这不是泛称合作或参会信息，而是有明确产品、服务对象、资金支持方和临床评估分工的实施计划，可用于观察智能康复器械如何通过公共适配场景形成产品反馈与迭代链条；不据此推断规模化收入或疗效已经得到验证。"
-            },
-            "stage": {
-              "status": "计划已启动，服务目标及安装完成情况未获证实",
-              "reason": "原文称“今年5月”启动计划，并约定“两年内为60位残障人士免费提供智能仿生义肢安装”；未披露已完成安装人数。事件发生月份为2026年5月，具体日未知，不能用11月报道日替代，也不能把全部计划标为尚未启动。"
-            },
-            "history": {
-              "result": "new_event",
-              "evidence_ids": [
-                "history_lookup:4bde63a704850856",
-                "accepted_history:9396a2289d510168",
-                "accepted_history:c5ec2047bf851ad8",
-                "accepted_history:1bb5827d43cca4a7",
-                "accepted_history:ece0b9f754e13bf2",
-                "accepted_history:e756773f4793c0d7",
-                "accepted_history:82df3faea64560f5",
-                "accepted_history:6d1e199851a87a7f",
-                "accepted_history:2c0a9f3a7e5d238a",
-                "accepted_history:a200a672826d9398"
-              ],
-              "prior_decisions": [
-                {
-                  "evidence_id": "prior_decision:880bb94aca5745d1",
-                  "comparison": "different_event",
-                  "reason": "旧裁决排除重复的20亿元融资与缺少具体节点的IPO概述；本条是香港仿生义肢惠民计划，不重启融资裁决。"
-                },
-                {
-                  "evidence_id": "prior_decision:efa10ca0b72d4a21",
-                  "comparison": "different_event",
-                  "reason": "旧裁决针对另一来源重述的同一融资及IPO信息；与本条计划的资金支持、产品提供及临床反馈分工不同。"
-                },
-                {
-                  "evidence_id": "prior_decision:dd536243a799b675",
-                  "comparison": "different_event",
-                  "reason": "旧待核关注融资轮次口径及IPO程序节点，本条不依赖这些事实，也不解决或覆盖其原有疑点。"
-                },
-                {
-                  "evidence_id": "prior_decision:3bd7a22e4b18e6d9",
-                  "comparison": "different_event",
-                  "reason": "旧待核为进博会仿生手书写互动展示计划，不是香港惠民安装计划。旧历史源读取故障的本次验证错误为空，当前历史检索也无错误，不能机械沿用当时故障作为本条待核理由。"
-                },
-                {
-                  "evidence_id": "prior_decision:2d284b4ac152bcde",
-                  "comparison": "different_event",
-                  "reason": "旧待核为浙江全省2046人适配及内地多省助残模式推广，未涉及香港两年60人计划；不能合并人数或视为重复。旧读取故障不延伸至当前无检索错误的证据包。"
-                },
-                {
-                  "evidence_id": "prior_decision:2ec857c1af7775b4",
-                  "comparison": "different_event",
-                  "reason": "该裁决同样针对内地助残推广及全省适配人数归属，与本条香港项目不同；本次不据香港报道改判旧项目交付归属。"
-                },
-                {
-                  "evidence_id": "prior_decision:165b9274a6fe1691",
-                  "comparison": "different_event",
-                  "reason": "旧保留事件为广交会智能仿生踝等产品展出；海外反馈这一共同主题不等于同一具体事件，本条新增独立的香港计划及实施分工。"
-                },
-                {
-                  "evidence_id": "prior_decision:e0424c18acdb6e15",
-                  "comparison": "different_event",
-                  "reason": "该记录仍为进博会书写互动展示计划的旧待核，与香港惠民计划不同；本次来源闭包验证无错误不证明展示已经完成，也不阻止本条独立采信。"
-                },
-                {
-                  "evidence_id": "prior_decision:c7bc947e2e487a0f",
-                  "comparison": "different_event",
-                  "reason": "该记录针对内地助残模式推广，未覆盖香港项目。本次当前验证及历史检索无错误，不继续把旧缺失源故障作为本事件公开障碍，但也不据此自动批准旧事件。"
-                }
-              ],
-              "change_reason": "不是对旧融资、展会或内地助残推广事件改判。3月神经控制假肢披露、4月及7月Revo3发布、4月融资与仿生腿开球、5月助残产品发布、6月融资与领导调研、10月广交会展示均未记载本条香港计划。当前历史检索未发现匹配，故按已供证据认定为另一独立事件，不宣称该计划此前从未公开报道。",
-              "new_evidence_ids": [
-                "article:ac5681ba673eb061"
-              ]
-            },
-            "evidence_ids": [
-              "article:ac5681ba673eb061",
-              "identity_registry:2dcd4f408df25406",
-              "geo-659699f68e86dd9a4521ab18",
-              "geo-5af897128f09302b1b9a8545",
-              "history_lookup:4bde63a704850856"
-            ],
-            "benchmark_review": {
-              "status": "not_qualified",
-              "eligible": false,
-              "reason": "本条证明具体康复产品应用计划及跨机构反馈机制，但未独立建立全国行业地位或全国标杆资格；历史融资金额存在未厘清口径，不能据此自动授予标签。杭州主体的正面事件保留不依赖全国标杆资格。",
-              "evidence_ids": [
-                "article:ac5681ba673eb061",
-                "geo-659699f68e86dd9a4521ab18"
-              ]
-            }
-          },
-          "company_db_id": 58
         }
       ],
       "record_count": 64,
@@ -50401,30 +50339,25 @@
           "event_headline": "宝马新世代车型据报道已在沈阳投产，计划2026年11月陆续交付"
         },
         "11": {
-          "event_headline": null,
-          "event_signal": "context"
+          "event_headline": "英特尔于2026年8月发行约2.42亿股新股募资230亿美元"
         },
         "17": {
-          "event_headline": null,
-          "event_signal": "context"
+          "event_headline": "DeepSeek开放搜索等能力接口并开源聊天前端"
         },
         "29": {
-          "event_headline": null,
-          "event_signal": "context"
+          "event_headline": "谷歌据报道于2026年4月发布两颗AI芯片并扩充TPU供货协议",
+          "event_signal": "major"
         },
         "51": {
-          "event_headline": null,
-          "event_signal": "context"
+          "event_headline": "金斯瑞2026年上半年AIDD收入近4000万美元，同比增长105%"
         },
         "62": {
-          "event_headline": null,
-          "event_signal": "context"
+          "event_headline": "丰田与小马智行量产的第七代铂智4X无人出租车在广州示范运营"
         }
       },
       "negatives": {
         "0": {
-          "event_headline": null,
-          "event_signal": "context"
+          "event_headline": "DeepSeek据用户反馈因算力不足暂停超72小时长对话使用"
         }
       }
     }
@@ -67294,9 +67227,9 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "b4b3301225e53367301eb27c6342b7f0b2b6ad810d6239a9e1885aac24879e10",
+  "history_version": "4327b5c28aca380dcd2e63183a74c252549770a329f5a4ebb95a71c17a4d56fe",
   "company_history_buckets": {
-    "00": "6494bbcf0389597aea7b39a2ae3921f1bf94cee998981897b6b583b20f8d767e",
+    "00": "e6cdd2313bedbf1ae745205961fdc74fb8b137874180751339540195de2b56df",
     "01": "905543ed97384c373515b6303d45018a509f34e620e63a6b4d0af7d33a747d1c",
     "02": "68f083f57b5e4c110f30a535452b18f642589b49840eee1c86111a6d32ba1ff2",
     "03": "e04c56960c19d95408ea7d59ac91718fa0366f8444d1b7b5bb949d4957495c62",
@@ -67321,7 +67254,7 @@
     "16": "9262eeebf3113b5c5589e9b4fe3bc27873053e9f3ca217fa8c3c173be2dc7483",
     "17": "b6b10625450ec76742eeadaa547fb7bab00fc4e634d43e95e2cff8e842c719e7",
     "18": "daa0f5742704678e467c14c98c5965b3afda6ec42a9b79bf2e26e906558b0526",
-    "19": "685f270b4aa24174c0058d7ef8bff8fc395979080e85a9fbdc6a4352ca080265",
+    "19": "847f449129c9cb962715d563e7e2455b01e8156c9e20d25045265d1e3bbeaf46",
     "1a": "0beda5eb34470b778101fff1846f29b4e20c47e4e94d6ac4585714e8e5e830aa",
     "1b": "a00dcd52f312193cfa45e70a06a9b61aaa867b2bf0e5d3bffbb18e74ef6a5b71",
     "1c": "41231a51e6deef60acc54bbbd17c580f92a4dc8cc046afd40be014a520c0f88b",
@@ -67340,7 +67273,7 @@
     "29": "9c09b4070f70ac3490409876135504cffa283764ed149c63bfe6128a73dd9860",
     "2a": "946f0a3128031467cfe2e1057b4c9363dcc184a25744b641726fa5032b2ef4b7",
     "2b": "9d27e3b0abcb2b43e9bcfbfcdab10e7d6de69346de5b86679bd629811bf0c1b7",
-    "2c": "b1fdb9d11c0cec66a3497d0a5972f537c692b8871e766156038ced107b7a1bd9",
+    "2c": "a5160f99242135bdbb3619127f2a409d5a5fe69c71a352ed947947125911808b",
     "2d": "5ff494d4d3c949a388ec5bb4c7a69308fccbb7aeda8878845275700a91b5cc3f",
     "2e": "cbba5cac8500a438a77c50df1d480a4db4fee9392e70398241a0039b8e0a0bf4",
     "2f": "6a11de81527050c96dc9022af1b9fd22df052d5b4f54acbd1a0616af0ba422a5",
@@ -67349,7 +67282,7 @@
     "32": "3dd54a6ff4d87c3fa8b6a9573c992077cda6845a2ea30e05ae35ba54dead4196",
     "33": "1093f267b4259e3c638d71f27c028e25980827ce146f0e74285661b9c28a9818",
     "34": "15519c683911d312ab769f39b47417538bfe3b3e7d3a7676580b2a805e73a9bb",
-    "35": "793492de1c2c53abf47bb918385ad2bf9b13916c398b546c1b2cf6b33d07ee99",
+    "35": "73929de5ca37663e70ebcdde0b27a98ef939caca8964e46edca93679970b48cc",
     "36": "2c4b0848031624427f84e7d641b91cd89f5ae6c71c8956a00d8d995a2286baaa",
     "37": "5b4519aa7c4ece3b5afc777beec12444ef3ae2810ffb4d246c09f1f4466d45b1",
     "38": "2ee7afd09e63815b7400879c6597b47168f2aae2de1a050ee1baeef3f6bf12d4",
@@ -67358,24 +67291,23 @@
     "3b": "d615b9111a3671c7b39c519a820f02e7838c7a3ce739a3f7998bdccffe46032f",
     "3c": "33be0a64931467f49d6a30082508ab1273915e3dc1347b296b287cdf64bb12d9",
     "3d": "355412da2af6f68adb2c9c5f4ed9e403776550cf100bd9645d1cd9f9590ce4e3",
-    "3e": "f0ec1b767375f70b8e0406d087730d6b4e43939aeb9ef6224d1f3758f52ccdd6",
+    "3e": "18505fc2ea178883461a4192510b56302048f12f5f2111c817a8b83c4d04d2ce",
     "3f": "c6d7b2fa41c5287f55cf1de216724ac16d9c6936e619907b0b0561f4c33a8ae6"
   },
-  "history_search_version": "2ad26b80bbb297802bbad2febde086ec13eed3a211b283b3adcf44fe60c27c9a",
+  "history_search_version": "ffbd064e28b849ae3cf319fe66f65d31d9d34db6740586d7e7cd67f4fd72c9c3",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
       "as_of": "2026-11-18",
       "can_generate": true,
-      "status": "pending",
+      "status": "ready",
       "source_epoch": 1795020113875,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3",
-      "has_article": true,
       "path": "data/interpretations/7b7cb06a16424bc4e560.json",
-      "version": "e77f0148d62e54dbc56f034bd426b07f5ba549478e17f361be4964ec45e0e33f",
-      "cached_as_of": "2026-10-19",
-      "cached_source_version": "ed0ed2f61543e8bb3f854f4ad8f4e9be8ecd24c1cd7d798422602a5a6c018ae5"
+      "version": "8482861068c29b814bff6669c64e29ea00513556332b01b410da5ed4990c8a2f",
+      "cached_as_of": "2026-11-18",
+      "cached_source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d"
     },
     "传化集团": {
       "source_version": "32666a2c8dd74a7ecbdfe08b00c0e7c24c327324f831f33dc117c0b5436a961a",
@@ -68059,7 +67991,7 @@
       "cached_source_version": "c7b9e4cb07f3e05742c2f2dc9b6227e9d8aaf3b2dd331218f3ff83e224444cc7"
     },
     "杭州深度求索人工智能基础技术研究有限公司": {
-      "source_version": "85a2cd40c28725f4f090230f5f3fc34630dbce9b870933c0db9f0caee32e4107",
+      "source_version": "b221c58c49ffe159a49a18e421e526d4033e6ea5be22a577a602c13d1f1e04a8",
       "as_of": "2026-11-18",
       "can_generate": true,
       "status": "pending",
@@ -69270,7 +69202,7 @@
       "cached_source_version": "f6891b7332cb432facdb9c381f21be96dd8b9ee3d2ed8ee9adb4ae37f1d9c42b"
     },
     "谷歌": {
-      "source_version": "0b088aa940c8078a8f6c693778014c0876e64b237e3dc9fda9deb893a03802da",
+      "source_version": "a022a0121036e91a528179a47ee49312aeafc93d8312671ba897dff615bd924b",
       "as_of": "2026-11-18",
       "can_generate": true,
       "status": "pending",
@@ -69297,7 +69229,7 @@
       "cached_source_version": "9f09daf37abb6585be583fd724834bfeab73818cfad78157a12f8e45750531e7"
     },
     "英特尔": {
-      "source_version": "ca9dbaa8818b5d0fda471e7d1f910d99b22ad11a2d659cd7bd307d5726f5c284",
+      "source_version": "de01df2ab00c552173374b69d4fd1b79d95d2128cd51d8d1d4d3528c800875a3",
       "as_of": "2026-11-18",
       "can_generate": true,
       "status": "pending",
@@ -69323,6 +69255,15 @@
       "version": "d7b8908e070f163b3d9808e8c5284dfb1fbb67e62464a0180d18bfc10b523b2f",
       "cached_as_of": "2026-11-11",
       "cached_source_version": "05cfc1f491e3cef09902e941fc9aa5a29bd1f067f720e5934409a7b943133ccd"
+    },
+    "丰田": {
+      "source_version": "0c80730cead3e985847e382459909b9200c1cd3f724d02e733e472bb44997699",
+      "as_of": "2026-11-18",
+      "can_generate": true,
+      "status": "pending",
+      "source_epoch": 1795020113875,
+      "reading_model": "openai/gpt-6.1-sol",
+      "prompt_version": "company-reading-v3"
     },
     "张雪机车": {
       "source_version": "a2d9bb2354e074465fc63beb9a395065440381f32a9469c6537f31d1a55a4f63",
@@ -69945,7 +69886,7 @@
       "prompt_version": "company-reading-v3"
     },
     "杭州深度求索人工智能基础技术研究有限公司": {
-      "source_version": "85a2cd40c28725f4f090230f5f3fc34630dbce9b870933c0db9f0caee32e4107",
+      "source_version": "b221c58c49ffe159a49a18e421e526d4033e6ea5be22a577a602c13d1f1e04a8",
       "source_epoch": 1795020113875,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
@@ -70521,7 +70462,7 @@
       "prompt_version": "company-reading-v3"
     },
     "谷歌": {
-      "source_version": "0b088aa940c8078a8f6c693778014c0876e64b237e3dc9fda9deb893a03802da",
+      "source_version": "a022a0121036e91a528179a47ee49312aeafc93d8312671ba897dff615bd924b",
       "source_epoch": 1795020113875,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
@@ -70533,13 +70474,19 @@
       "prompt_version": "company-reading-v3"
     },
     "英特尔": {
-      "source_version": "ca9dbaa8818b5d0fda471e7d1f910d99b22ad11a2d659cd7bd307d5726f5c284",
+      "source_version": "de01df2ab00c552173374b69d4fd1b79d95d2128cd51d8d1d4d3528c800875a3",
       "source_epoch": 1795020113875,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
     },
     "本田": {
       "source_version": "05cfc1f491e3cef09902e941fc9aa5a29bd1f067f720e5934409a7b943133ccd",
+      "source_epoch": 1795020113875,
+      "reading_model": "openai/gpt-6.1-sol",
+      "prompt_version": "company-reading-v3"
+    },
+    "丰田": {
+      "source_version": "0c80730cead3e985847e382459909b9200c1cd3f724d02e733e472bb44997699",
       "source_epoch": 1795020113875,
       "reading_model": "openai/gpt-6.1-sol",
       "prompt_version": "company-reading-v3"
@@ -70671,7 +70618,7 @@
   },
   "observations": {
     "path": "data/observations.json",
-    "version": "a99cde0f03107bd6626aa3eff0d5b10df177a02b1e98e28ede1abae091950737",
+    "version": "f1ec9e1d946f4870a31605b04ba77b0c1dcae776e77f2fe5c5162cf65dce2b64",
     "company_count": 356,
     "reading_count": 158,
     "lead_count": 198,
