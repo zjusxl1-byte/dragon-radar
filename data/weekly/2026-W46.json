@@ -5,10 +5,10 @@
   "start_date": "2026-11-09",
   "end_date": "2026-11-15",
   "summary": {
-    "total_companies": 176,
-    "financing_events": 34,
-    "ipo_events": 4,
-    "milestone_events": 46,
+    "total_companies": 190,
+    "financing_events": 37,
+    "ipo_events": 5,
+    "milestone_events": 49,
     "negative_events": 0,
     "active_days": 7
   },
@@ -827,6 +827,622 @@
             "accepted_history:66d57afc72eb96ed",
             "accepted_history:6a639e0f763467e4",
             "prior_decision:50a1ddce1e52eee4"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "DeepSeek",
+      "title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
+      "company": "DeepSeek",
+      "score": 100,
+      "sector": "大模型与AI计算软件",
+      "financing": "",
+      "source": "晚点 LatePost",
+      "location": "浙江省 / 杭州市",
+      "article_location": "浙江省杭州市（主要总部，按输入已确认名称关系复用geo-8d153ebc1f63d3a87bb41366）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw",
+      "article_title": "黄仁勋闪电辞职后，英伟达和 AI 行业失去了什么丨晚点播客",
+      "event_desc": "文章称，DeepSeek于2025年已开始使用面向GPU算子开发的开源编程工具TileLang，作为其计算软件生态工作的一部分。",
+      "insight": "算子开发工具是连接模型计算需求与底层硬件执行的工程环节，值得研究DeepSeek如何组织这一层软件能力；使用TileLang本身不能直接推出已完成国产芯片适配或大规模训练迁移。",
+      "event_headline": "DeepSeek被回顾于2025年开始使用TileLang开发工具",
+      "event_signal": "context",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-15",
+        "event_date": null,
+        "observed_date": "2026-11-15",
+        "review_required": true
+      },
+      "published_date": "2026-11-15",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "正文明确称DeepSeek于2025年开始使用面向GPU算子开发的TileLang，企业是工具使用方，TileLang不是其新增企业主体，也不能据此认定由其独立研发。该信息提供了具体算子开发工具的采用事实，而非仅有企业点名或产品类别，可作为杭州模型企业计算软件工程路线的历史实践线索单列保留；不将其包装为当前突破、国产芯片适配完成或训练迁移。稳定主体、确认别名及杭州总部证据可复用。原始新闻发布时间2026-11-15T07:59:00Z已提供，符合本次七日采集窗口，上游所称缺发布时间和历史材料已不成立。可见历史及旧裁决未覆盖TileLang采用事实，其他模型、框架、融资和故障事件的排除与待核均不因此改判。按媒体回顾报道的有限事实采信，不另要求必须有技术原始发布或量化收益，但也不声称已独立验证使用范围和实际效果。",
+      "event_headline_source": "25a36819fa6ce190fa0d0a8e96f7845b163d0fd40958ab0f09238e7bfaa9c8b5",
+      "review_evidence": {
+        "sha256": "3222809d2d45741ac4bcc79e82f6cea874ae5c9cbab0323f60f7c7a312940b4e",
+        "source_url": "https://mp.weixin.qq.com/s/a03kJVxvYGufaNbhoRa1Xw",
+        "published_at": "2026-11-15T07:59:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条仅增加具体算子开发工具采用事实，没有独立比较、性能复现或可供杭州验证的行业领先依据，不改变已有明确已审的标杆资格尚未建立边界；不影响该日报线索保留。",
+        "evidence_ids": [
+          "article_body:ee4935d7a5dad12a",
+          "prior_decision:57fb9024d657db8d",
+          "prior_decision:4aa55ed3d77695df"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "4411e88906eaaa158b4233bdcccf6abea23150d1fc21754bbe0ffbfb9ff31330",
+        "input_row_sha256": "3a7ccaa7f5050d7609d8ce7af044cc8cb4b4725e6d57e50dfed5585ec72a8608",
+        "reason": "正文明确称DeepSeek于2025年开始使用面向GPU算子开发的TileLang，企业是工具使用方，TileLang不是其新增企业主体，也不能据此认定由其独立研发。该信息提供了具体算子开发工具的采用事实，而非仅有企业点名或产品类别，可作为杭州模型企业计算软件工程路线的历史实践线索单列保留；不将其包装为当前突破、国产芯片适配完成或训练迁移。稳定主体、确认别名及杭州总部证据可复用。原始新闻发布时间2026-11-15T07:59:00Z已提供，符合本次七日采集窗口，上游所称缺发布时间和历史材料已不成立。可见历史及旧裁决未覆盖TileLang采用事实，其他模型、框架、融资和故障事件的排除与待核均不因此改判。按媒体回顾报道的有限事实采信，不另要求必须有技术原始发布或量化收益，但也不声称已独立验证使用范围和实际效果。",
+        "scope": {
+          "technology_evidence": "正文称：“比如DeepSeek已经在做很多生态层面的工作，2025年就已经开始使用TileLang，可以把它理解为一个面向GPU算子开发的开源编程工具。”",
+          "value_reason": "具体工具采用揭示了模型企业在GPU算子开发环节的软件路线，为杭州模型与计算软件团队选择研究对象提供可定位案例。其独立信息是DeepSeek已采用该工具，而不是泛泛预测国产化受益；适合围绕算子覆盖和硬件后端支持研究工程可迁移性，不能由采用工具直接推出摆脱CUDA、部署国产芯片或降低成本。"
+        },
+        "stage": {
+          "status": "媒体回顾的历史工具采用事实",
+          "reason": "原文使用“2025年就已经开始使用”，支持报道所述采用已发生，不是未来计划或本次新发布。事件时间仅明确到2025年，精确日期及本事件首次收录时间未知；2026-11-15是新闻发布日期，不是工具采用日。未披露具体算子、使用规模、生产部署范围或迁移效果。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:c4999798456e3ea7",
+            "accepted_history:0059924beb11e32d",
+            "accepted_history:85a2a890a7b60d46",
+            "accepted_history:f349a66d9a330cb3",
+            "accepted_history:c0c6e0d082769d47",
+            "prior_decision:32fffa5346c94646",
+            "prior_decision:80ae9a27f89f46e1",
+            "prior_decision:32e66738fb3c21d7",
+            "prior_decision:45a66ae95482f362",
+            "prior_decision:880e90efb1737bd7",
+            "prior_decision:80fb107219f591f3",
+            "prior_decision:34ff088823bc33a7"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:eb039cfd8aedceee",
+              "comparison": "different_event",
+              "reason": "旧项是Harness桌面预览版及账号、插件等功能，本条是2025年采用算子开发工具。"
+            },
+            {
+              "evidence_id": "prior_decision:1615af08ab103075",
+              "comparison": "different_event",
+              "reason": "同一Harness桌面版裁决不覆盖TileLang采用。"
+            },
+            {
+              "evidence_id": "prior_decision:b1dc62a56ac9b5f3",
+              "comparison": "different_event",
+              "reason": "DSec资源超卖和环境保存属于训练沙盒，本条属于GPU算子开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:f819bbdc17ee0dd2",
+              "comparison": "different_event",
+              "reason": "旧待核针对用户观察API输出差异；当前不提供受控测试或旧模型版本证据，不能解除其事实缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:bc6361c05673a7de",
+              "comparison": "different_event",
+              "reason": "旧项缺少可重复模型测试，与TileLang采用不同；来源闭包验证不等于补足测试。"
+            },
+            {
+              "evidence_id": "prior_decision:8cfeb09ee9b172af",
+              "comparison": "different_event",
+              "reason": "旧项是模型快照、Harness优化及Search、Fetch开放，不是算子工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:a897e773152eb732",
+              "comparison": "different_event",
+              "reason": "旧故障待核的杭州属地缺口已由所给总部证据和后续采信解决；本条不是故障或整改证据，不恢复旧属地疑问。"
+            },
+            {
+              "evidence_id": "prior_decision:32fffa5346c94646",
+              "comparison": "different_event",
+              "reason": "旧排除仅针对V4.1-Flash-1017重复发布，本条为2025年工具采用，不继承重复排除。"
+            },
+            {
+              "evidence_id": "prior_decision:c38644cdf44cae91",
+              "comparison": "different_event",
+              "reason": "DeepInfer和deepseek-recipe开源是软件公开事件；采用TileLang既不是该次开源，也不证明其代码实现采用TileLang。"
+            },
+            {
+              "evidence_id": "prior_decision:77ddf8465c2f3036",
+              "comparison": "different_event",
+              "reason": "同一生产推理组件开源裁决不覆盖本条算子开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:b64ef1f3c11914f8",
+              "comparison": "different_event",
+              "reason": "登记和海外授权使用手续不同于内部开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:5a53ce1fecb3521a",
+              "comparison": "different_event",
+              "reason": "旧具身研发传闻仍缺具体项目或团队证据，本条不补足该缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:0ef7955f91d699c6",
+              "comparison": "different_event",
+              "reason": "旧项涉及第二轮融资交割及横店份额，本条没有交易补证。"
+            },
+            {
+              "evidence_id": "prior_decision:8124a4872675064e",
+              "comparison": "different_event",
+              "reason": "旧项是缓存资源压缩和峰谷定价机制，不能据技术环节相关而合并为TileLang采用。"
+            },
+            {
+              "evidence_id": "prior_decision:a68bb0799270f186",
+              "comparison": "different_event",
+              "reason": "Super-agent任务路由和恢复架构公开不覆盖算子开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:adbedc996e73a338",
+              "comparison": "different_event",
+              "reason": "同一Super-agent研发裁决与本条工具采用具有不同事实对象。"
+            },
+            {
+              "evidence_id": "prior_decision:5dd2f45db0ab9264",
+              "comparison": "different_event",
+              "reason": "旧项是豆包工作接入DeepSeek模型，本条不是应用分发或客户接入。"
+            },
+            {
+              "evidence_id": "prior_decision:e7deda0f6354a412",
+              "comparison": "different_event",
+              "reason": "旧项是第二轮融资详情，本条无融资事实。"
+            },
+            {
+              "evidence_id": "prior_decision:45a66ae95482f362",
+              "comparison": "different_event",
+              "reason": "旧排除依据同轮融资无新增事实，不适用于独立工具采用线索。"
+            },
+            {
+              "evidence_id": "prior_decision:880e90efb1737bd7",
+              "comparison": "different_event",
+              "reason": "旧排除针对融资重复和未经证明的算电协同，本条不重报融资或推定供能合作。"
+            },
+            {
+              "evidence_id": "prior_decision:80fb107219f591f3",
+              "comparison": "different_event",
+              "reason": "同轮融资重复稿排除不构成企业级排除，未覆盖TileLang采用。"
+            },
+            {
+              "evidence_id": "prior_decision:213d76c3b13b2ead",
+              "comparison": "different_event",
+              "reason": "旧项是乌兰察布数据中心交付和运维招聘，本条为软件开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:05a8eefad1a9087e",
+              "comparison": "different_event",
+              "reason": "同一数据中心招聘裁决没有记录TileLang采用。"
+            },
+            {
+              "evidence_id": "prior_decision:46776f9106043202",
+              "comparison": "different_event",
+              "reason": "旧项保留乌兰察布算力规划，本条不提供建设或投运增量。"
+            },
+            {
+              "evidence_id": "prior_decision:e4762b303f8d53bf",
+              "comparison": "different_event",
+              "reason": "数据中心规划和融资背景不同于算子开发工具采用。"
+            },
+            {
+              "evidence_id": "prior_decision:b13f1232e1b4e9fc",
+              "comparison": "different_event",
+              "reason": "旧待核针对芯片型号、采购及报价；TileLang采用不能确认采购或投资金额，旧无来源属地疑问则不再沿用。"
+            },
+            {
+              "evidence_id": "prior_decision:cee8b3a460f77934",
+              "comparison": "different_event",
+              "reason": "旧用户输出变化仍缺版本和受控重复测试，当前工具报道不反向确认更新。"
+            },
+            {
+              "evidence_id": "prior_decision:ffec7539db669705",
+              "comparison": "different_event",
+              "reason": "所给后续融资报道已增加明确轮次和详情，但本条不新增交割或金额口径证据，不另改旧融资裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:57fb9024d657db8d",
+              "comparison": "different_event",
+              "reason": "旧补证采信模型快照和工具接口发布，未覆盖2025年TileLang采用。"
+            },
+            {
+              "evidence_id": "prior_decision:45ea26fb925b103f",
+              "comparison": "different_event",
+              "reason": "旧项为已确认杭州主体的API故障预警，本条不证明故障恢复或整改有效。"
+            },
+            {
+              "evidence_id": "prior_decision:c6611f3e33126b7b",
+              "comparison": "different_event",
+              "reason": "旧项为拟领投Winverse及跨主体同笔融资，本条不增加投资承诺、交割或具身研发事实。"
+            },
+            {
+              "evidence_id": "prior_decision:80ae9a27f89f46e1",
+              "comparison": "different_event",
+              "reason": "旧排除是同模型快照转载，当前历史工具采用不在其事实范围内，原排除保持。"
+            },
+            {
+              "evidence_id": "prior_decision:4aa55ed3d77695df",
+              "comparison": "different_event",
+              "reason": "旧项是生产推理框架与API编解码组件公开，本条不能重报该开源，也不能推定二者与TileLang的实现关系。"
+            },
+            {
+              "evidence_id": "prior_decision:32e66738fb3c21d7",
+              "comparison": "different_event",
+              "reason": "旧排除仅针对同次API故障和补偿回顾，当前不是故障事件，亦不撤销旧预警。"
+            },
+            {
+              "evidence_id": "prior_decision:e1d1e61ae0a707e5",
+              "comparison": "different_event",
+              "reason": "旧项缺明确具身团队或投资进展，采用GPU算子工具不能证明具身布局落地。"
+            },
+            {
+              "evidence_id": "prior_decision:48d4e864b7d42942",
+              "comparison": "different_event",
+              "reason": "旧项为对外开放登记和授权手续，本条不涉及相同手续或许可范围。"
+            },
+            {
+              "evidence_id": "prior_decision:93f8e0bc2b8f91a0",
+              "comparison": "different_event",
+              "reason": "旧具身模型传闻未获本条项目或成果补证，保持其事实边界。"
+            },
+            {
+              "evidence_id": "prior_decision:7e394b4f7f40d077",
+              "comparison": "different_event",
+              "reason": "旧融资交割和横店份额问题与工具采用不同，本条没有对应新证据。"
+            },
+            {
+              "evidence_id": "prior_decision:03f766c0a344f7fb",
+              "comparison": "different_event",
+              "reason": "旧项补充缓存资源比例与峰谷定价，本条没有证据将这些效果归因于TileLang。"
+            },
+            {
+              "evidence_id": "prior_decision:6ac0cb842184fcfa",
+              "comparison": "different_event",
+              "reason": "旧项是Super-agent架构及模拟试验，与GPU算子工具采用不同。"
+            },
+            {
+              "evidence_id": "prior_decision:c6b2e03a2aabc49e",
+              "comparison": "different_event",
+              "reason": "旧项是第三方办公平台模型接入，本条不是客户采用或商业合同。"
+            },
+            {
+              "evidence_id": "prior_decision:b7bf739dff59fbde",
+              "comparison": "different_event",
+              "reason": "旧项为第二轮融资具体金额、估值和投资方，本条未新增资本事件。"
+            },
+            {
+              "evidence_id": "prior_decision:34ff088823bc33a7",
+              "comparison": "different_event",
+              "reason": "旧排除针对已覆盖的同轮融资报道，不适用于本条不同技术实践，原去重继续有效。"
+            },
+            {
+              "evidence_id": "prior_decision:3c8c268b7aaf5f72",
+              "comparison": "different_event",
+              "reason": "旧项限定保留数据中心招聘增量，本条没有相同招聘或工程交付信息。"
+            },
+            {
+              "evidence_id": "prior_decision:19c059a527075d8e",
+              "comparison": "different_event",
+              "reason": "旧待核针对Menlo调查的支出分母、样本和期间，当前工具采用不补足统计口径。"
+            }
+          ],
+          "change_reason": "所给已收录记录涵盖模型发布、芯片适配、训练沙盒、Harness、生产推理组件、缓存效率、应用接入、资本和算力布局，但未记录2025年开始采用TileLang这一具体事实。芯片适配历史不能替代工具采用证据，工具采用也不能反向证明适配完成。故按可见历史中新识别的历史实践事件保留，不重报任何既有发布或资本节点，不宣称全库首次发现。当前history_retrieval_errors为空，旧候选来源闭包的current_errors也为空，不将旧裁决内部的读取错误当作本轮异常；各旧待核是否仍有业务缺口按上述事实分别判断。",
+          "new_evidence_ids": [
+            "article_body:ee4935d7a5dad12a"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:ee4935d7a5dad12a",
+          "identity_registry:2dcd4f408df25406",
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条仅增加具体算子开发工具采用事实，没有独立比较、性能复现或可供杭州验证的行业领先依据，不改变已有明确已审的标杆资格尚未建立边界；不影响该日报线索保留。",
+          "evidence_ids": [
+            "article_body:ee4935d7a5dad12a",
+            "prior_decision:57fb9024d657db8d",
+            "prior_decision:4aa55ed3d77695df"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "阿里巴巴",
+      "identity_mentions": [
+        {
+          "name": "快乐虾米",
+          "relation": "product",
+          "evidence": "阿里巴巴旗下AI音乐创作平台快乐虾米（HappyShrimp）今日上线APP版本"
+        }
+      ],
+      "title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "company": "阿里巴巴",
+      "score": 100,
+      "sector": "AI音乐创作",
+      "financing": "",
+      "source": "创业邦",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+      "article_location": "浙江省杭州市余杭区文一西路960-1号（经营地，复用已审证据geo-14c3cd9f0fde5abc65811edd）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-14c3cd9f0fde5abc65811edd"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里巴巴",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+            "source_url": "https://ali-home.alibaba.com/global-location",
+            "checked_at": "2026-10-21T18:14:15.207210+00:00",
+            "subject": "阿里巴巴",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路960-1号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-14c3cd9f0fde5abc65811edd"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-47c1e53c427aafb4556b",
+      "company_canonical_name": "阿里巴巴",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+      "article_title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "event_desc": "阿里巴巴旗下AI音乐创作平台快乐虾米上线APP版本，覆盖iOS、Android及相关应用商店。用户描述情绪、故事或音乐风格后，平台可生成歌词、作曲、编曲与演唱。文中回顾虾米音乐于2021年2月停止服务。",
+      "insight": "快乐虾米把从创作意图到可演唱作品的多个环节放进大众移动端，产品价值是减少非专业用户在歌词、配器和演唱之间切换工具的需要；这不等于原虾米音乐服务恢复。",
+      "event_headline": "阿里巴巴旗下快乐虾米上线AI音乐创作APP",
+      "event_signal": "material",
+      "is_national_star": true,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-14",
+        "event_date": null,
+        "observed_date": "2026-11-14",
+        "review_required": true
+      },
+      "published_date": "2026-11-14",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确快乐虾米是阿里巴巴旗下AI音乐创作平台，并报道其APP已登陆iOS、Android及应用商店，支持根据用户描述完成歌词、作曲、编曲与演唱。阿里巴巴为所属企业，快乐虾米为产品，不另立企业主体。这是生成式AI音乐产品向大众移动端扩展的具体发布事件，而非仅有音乐赛道标签或虾米历史背景。原始新闻发布于2026年11月14日，符合本次11月15日审核的七日窗口；周报转述中的“今日”不足以确定原始上线日期，事件日保留未知。所供历史与旧裁决均不涉及快乐虾米APP，无同事件重复证据。已审官网经营地支持杭州正面发现归属，不升级为注册地、主要总部或负面预警资格。本次保留为正面日报线索，不自动取得领导简报资格。",
+      "event_headline_source": "d33c324a0118d2f6c08b962f6da6e24a6534d59a39f6ace5d8014ef69690d3d1",
+      "review_evidence": {
+        "sha256": "455b5db93847a3853ec3214e6d1672af921cb07e2e009bade4d073084ae4aaf9",
+        "source_url": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+        "published_at": "2026-11-14T11:09:00Z",
+        "full_body_supplied": true,
+        "source_text_status": "stored_body"
+      },
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+          "source_url": "https://ali-home.alibaba.com/global-location",
+          "checked_at": "2026-10-21T18:14:15.207210+00:00",
+          "subject": "阿里巴巴",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "文一西路960-1号"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "复用同主体已明确审定的玄铁处理器IP产品化与生态对标资格：历史依据为累计支撑超过60亿颗芯片交付、200余款量产芯片及服务400余家厂商，可为杭州芯片与计算平台企业提供规模化授权、生态建设参照。该资格限于既有业务依据，不证明快乐虾米具有同等行业地位或商业成熟度，也不自动赋予领导简报资格。",
+        "evidence_ids": [
+          "accepted_history:d9672401fc16d46c",
+          "prior_decision:f37dd73d7d5dc7ee"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "0acbac4e7186f9b4f5d1b9ed62ceb7e8068dc62aa3ef593b67773ff81cbe543c",
+        "input_row_sha256": "fbf4501d58af80aa9b3d0e81a1291e96c5c3b890ed4567891fa126233965a8fe",
+        "reason": "完整正文明确快乐虾米是阿里巴巴旗下AI音乐创作平台，并报道其APP已登陆iOS、Android及应用商店，支持根据用户描述完成歌词、作曲、编曲与演唱。阿里巴巴为所属企业，快乐虾米为产品，不另立企业主体。这是生成式AI音乐产品向大众移动端扩展的具体发布事件，而非仅有音乐赛道标签或虾米历史背景。原始新闻发布于2026年11月14日，符合本次11月15日审核的七日窗口；周报转述中的“今日”不足以确定原始上线日期，事件日保留未知。所供历史与旧裁决均不涉及快乐虾米APP，无同事件重复证据。已审官网经营地支持杭州正面发现归属，不升级为注册地、主要总部或负面预警资格。本次保留为正面日报线索，不自动取得领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文写明“阿里巴巴旗下AI音乐创作平台快乐虾米（HappyShrimp）今日上线APP版本”，同步登陆iOS与Android；用户描述情绪、故事或音乐风格，可由AI完成歌词、作曲、编曲与演唱。",
+          "value_reason": "本次新增信息是具名产品的移动端发布及从创作意图到演唱输出的完整功能组合，可供杭州生成式音频与消费AI团队比较产品入口和创作流程整合路线。其价值不依赖企业知名度，也不等于已证明生成质量、用户采用、付费转化或原虾米音乐服务恢复。"
+        },
+        "stage": {
+          "status": "据报道APP已上线；精确上线日期未知",
+          "reason": "原文使用已上线并同步登陆应用商店的完成态表述，支持产品发布进展，不是未来计划。报道为周报转述，仅写“今日”，不能直接把2026年11月14日确定为事件日；首次收录时间未提供。尚无客户使用成效、收入或技术性能验证证据。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:55d4407cf47670fe",
+            "accepted_history:39d9266c87afa2ed",
+            "accepted_history:e845bb104d6d2c78",
+            "accepted_history:ba3f39ebe5a0a0d9",
+            "accepted_history:0f12d50d3dce4aef",
+            "accepted_history:d9672401fc16d46c",
+            "accepted_history:a6e71db93d712b9c",
+            "accepted_history:b466f510da649b98",
+            "prior_decision:cf3fa2122b6a981b",
+            "prior_decision:cd40d94f23ad42f3",
+            "prior_decision:792b780351fa289d",
+            "prior_decision:482faed1822835db",
+            "prior_decision:f37dd73d7d5dc7ee",
+            "prior_decision:d671cb25fa9e0c87",
+            "prior_decision:729ed392935b2d17",
+            "prior_decision:09d6d7c8b20b058d",
+            "prior_decision:22ff3126d4103ad9"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:cf3fa2122b6a981b",
+              "comparison": "different_event",
+              "reason": "旧裁决针对云业务收入及集团财务口径，与快乐虾米APP发布不同，本条不解除旧财务口径问题。"
+            },
+            {
+              "evidence_id": "prior_decision:cd40d94f23ad42f3",
+              "comparison": "different_event",
+              "reason": "同一云业务财务报道的另一裁决，不涉及AI音乐产品。"
+            },
+            {
+              "evidence_id": "prior_decision:792b780351fa289d",
+              "comparison": "different_event",
+              "reason": "旧事件为Sirchmunk检索框架开源，技术产品与发布事实均不同。"
+            },
+            {
+              "evidence_id": "prior_decision:482faed1822835db",
+              "comparison": "different_event",
+              "reason": "旧事件为千问Personal Agent消费生态接入规划，不是快乐虾米发布，也不能用本条证明该规划兑现。"
+            },
+            {
+              "evidence_id": "prior_decision:f37dd73d7d5dc7ee",
+              "comparison": "different_event",
+              "reason": "旧事件为玄铁处理器发布和优化；其发布时间与来源闭包已获补证，不延续早期待核理由，更不将其作为本次APP的核验依据。"
+            },
+            {
+              "evidence_id": "prior_decision:d671cb25fa9e0c87",
+              "comparison": "different_event",
+              "reason": "同一玄铁处理器事件的另一有效裁决，与AI音乐APP无同事件关系。"
+            },
+            {
+              "evidence_id": "prior_decision:729ed392935b2d17",
+              "comparison": "different_event",
+              "reason": "旧事件为媒体报道的Megaspeed算力租赁客户关系，已提供有效来源闭包及最终裁决；其早期核验问题不传递到本次产品事件。"
+            },
+            {
+              "evidence_id": "prior_decision:09d6d7c8b20b058d",
+              "comparison": "different_event",
+              "reason": "仍为玄铁处理器事件，不能因同企业而与本次软件发布去重。"
+            },
+            {
+              "evidence_id": "prior_decision:22ff3126d4103ad9",
+              "comparison": "different_event",
+              "reason": "旧事件为千问办公及个人助手产品进展，既有发布时间和历史缺口已有后续补证；本次新增的是另一具名音乐产品，不是旧产品换来源重报。"
+            }
+          ],
+          "change_reason": "已对照所给八项收录历史及九项旧裁决：模型开源、榜单与AI布局、云商业化、检索框架、个人Agent规划、玄铁处理器、办公与个人助手、海外算力客户关系，均未记录快乐虾米APP发布。本次原文提供另一产品的明确所属关系、上线状态及功能组合，支持作为独立事件保留，不涉及推翻旧裁决。输入未提供本候选独立history_lookup记录；结论限于所供历史，不宣称全局首次发现。",
+          "new_evidence_ids": [
+            "article_body:89cbdab615245430"
+          ]
+        },
+        "evidence_ids": [
+          "article_body:89cbdab615245430",
+          "identity_registry:2dcd4f408df25406",
+          "geo-14c3cd9f0fde5abc65811edd"
+        ],
+        "benchmark_review": {
+          "status": "confirmed",
+          "eligible": true,
+          "reason": "复用同主体已明确审定的玄铁处理器IP产品化与生态对标资格：历史依据为累计支撑超过60亿颗芯片交付、200余款量产芯片及服务400余家厂商，可为杭州芯片与计算平台企业提供规模化授权、生态建设参照。该资格限于既有业务依据，不证明快乐虾米具有同等行业地位或商业成熟度，也不自动赋予领导简报资格。",
+          "evidence_ids": [
+            "accepted_history:d9672401fc16d46c",
+            "prior_decision:f37dd73d7d5dc7ee"
           ]
         }
       }
@@ -1982,382 +2598,6 @@
           ]
         }
       }
-    },
-    {
-      "company_raw_name": "高通",
-      "title": "今年的进博会，何以再“进”？",
-      "company": "高通",
-      "score": 80,
-      "sector": "无线通信与6G",
-      "financing": "",
-      "source": "浙商杂志",
-      "location": "US / California / 5775 Morehouse Drive, San Diego, CA 92121",
-      "article_location": "",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "US / California / 5775 Morehouse Drive, San Diego, CA 92121",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-657eb7556b20625051da4b75"
-        ],
-        "subject_evidence_ids": [
-          "geo-657eb7556b20625051da4b75"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "高通",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "US",
-          "province": "California",
-          "city": "San Diego",
-          "basis_roles": [
-            "hq"
-          ],
-          "evidence_ids": [
-            "geo-657eb7556b20625051da4b75"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-657eb7556b20625051da4b75",
-            "source_url": "https://www.qualcomm.com/media/documents/files/qualcomm-san-diego-map.pdf",
-            "checked_at": "2026-11-07T00:32:18.536407+00:00",
-            "subject": "高通",
-            "role": "hq",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "US",
-              "province": "California",
-              "city": "San Diego",
-              "address": "5775 Morehouse Drive, San Diego, CA 92121"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "US",
-          "province": "California",
-          "city": "San Diego",
-          "evidence_ids": [
-            "geo-657eb7556b20625051da4b75"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-42a64c68a4a98ad5a374",
-      "company_canonical_name": "高通",
-      "identity_status": "unresolved",
-      "event_type": "重磅发布",
-      "link": "https://mp.weixin.qq.com/s/SUij7H4u4eLxWu1riktnBA",
-      "article_title": "今年的进博会，何以再“进”？",
-      "event_desc": "高通在第九届进博会首次面向全球展示一台6G终端原型机。文章称其为全球第一款符合3GPP新定义的6G终端原型机，已投入高通与中兴通讯、中国移动等伙伴开展的6G测试。",
-      "insight": "这台原型机让高通的6G研究有了可参与联合测试的终端载体，便于与通信设备和网络侧伙伴共同检验技术方案。此次公开展示体现的是研发测试进展，尚不是商用终端上市。",
-      "event_headline": "高通首次公开展示已参与联合测试的6G终端原型机",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-08",
-        "event_date": null,
-        "observed_date": "2026-11-08",
-        "review_required": true
-      },
-      "published_date": "2026-11-08",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "正文明确高通是6G终端原型机展示方，该原型机首次公开展示且已参与与中兴通讯、中国移动等伙伴开展的测试，构成具体研发测试进展，具有终端与网络侧联合验证的产业观察价值。伙伴身份不等于共同拥有该原型机成果，不另造企业事件。11月8日发布时间满足采集窗口；既往高通收录及三条裁决均针对HBC硅片验证与AI250送样计划，与本次6G原型机属于另一事件，不应按公司去重。官方总部地点证据可复用为美国圣迭戈，上海仅为展会地点。本条按报道强度保留为全球技术观察，不将原型机写成商用终端，也不直接采信全球第一或符合新标准的领先结论。",
-      "event_headline_source": "ddbe9a2afade35779ebf821758b34a8e37aa30928282eb80db097ef5f947782b",
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-657eb7556b20625051da4b75",
-          "source_url": "https://www.qualcomm.com/media/documents/files/qualcomm-san-diego-map.pdf",
-          "checked_at": "2026-11-07T00:32:18.536407+00:00",
-          "subject": "高通",
-          "role": "hq",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "US",
-            "province": "California",
-            "city": "San Diego",
-            "address": "5775 Morehouse Drive, San Diego, CA 92121"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "既往已审结果未建立标杆资格；本次补充原型机展示与测试事实，但全球第一及符合3GPP新定义仅有报道表述，缺少标准依据、独立对比或验证成果，不足以改变既有资格判断。",
-        "evidence_ids": [
-          "prior_decision:f3e8b68647b3043d",
-          "article:3d6f3de708b8516b"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "原生事实审查及独立日报阅读审查",
-        "candidate_id": "4e23b7f35494de19adeb9f0426fe4407c5c891bdcad30d4cb662f0fe7f4fd471",
-        "input_row_sha256": "e9b384ccbfa7bdf24565d7d5fb3517510c4fd268527c9f7942c5ff78719d55b7",
-        "reason": "正文明确高通是6G终端原型机展示方，该原型机首次公开展示且已参与与中兴通讯、中国移动等伙伴开展的测试，构成具体研发测试进展，具有终端与网络侧联合验证的产业观察价值。伙伴身份不等于共同拥有该原型机成果，不另造企业事件。11月8日发布时间满足采集窗口；既往高通收录及三条裁决均针对HBC硅片验证与AI250送样计划，与本次6G原型机属于另一事件，不应按公司去重。官方总部地点证据可复用为美国圣迭戈，上海仅为展会地点。本条按报道强度保留为全球技术观察，不将原型机写成商用终端，也不直接采信全球第一或符合新标准的领先结论。",
-        "scope": {
-          "technology_evidence": "文章称高通在进博会首次面向全球展示6G终端原型机，并已将其投入与中兴通讯、中国移动等伙伴开展的6G测试。",
-          "value_reason": "表明6G终端研究已有可用于联合测试的硬件载体，为终端、设备与网络侧协同验证提供具体观察对象；尚不能推导标准定型、商业订单或商用成熟度。"
-        },
-        "stage": {
-          "status": "据报道已首次公开展示并参与联合研发测试",
-          "reason": "正文明确原型机已走出实验室展示并投入测试，未证明商用发布或量产。新闻发布于2026年11月8日，首次展示及测试开始的准确日期未知；全球第一及符合3GPP新定义的说法缺少标准版本和独立比较证据。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:aa9aeb3859bf5dfe",
-            "accepted_history:f193ca3ab24de2f5",
-            "prior_decision:f3e8b68647b3043d",
-            "prior_decision:68845fe552ad1dd0",
-            "prior_decision:f7ea209cf5b2dced"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:f3e8b68647b3043d",
-              "comparison": "different_event",
-              "reason": "旧裁决保留HBC硅片实验室验证及AI250送样计划；当前为6G终端原型机展示与联合测试，产品、技术方向和事实节点均不同。"
-            },
-            {
-              "evidence_id": "prior_decision:68845fe552ad1dd0",
-              "comparison": "different_event",
-              "reason": "该记录同样裁决HBC与AI250事件，并非当前6G事件的历史批准或排除，不能以同主体匹配认定重复。"
-            },
-            {
-              "evidence_id": "prior_decision:f7ea209cf5b2dced",
-              "comparison": "different_event",
-              "reason": "该记录仍指向同一旧HBC事件；当前文章提供独立的6G原型机公开展示及测试事实，不是旧事件换来源重报。"
-            }
-          ],
-          "change_reason": "保持旧HBC事件裁决不变；本次以不同产品及研发节点作为另一事件保留，不属于对旧裁决改判。所附历史未返回本次6G事件匹配，不宣称首次收录。",
-          "new_evidence_ids": [
-            "article:3d6f3de708b8516b"
-          ]
-        },
-        "evidence_ids": [
-          "article:3d6f3de708b8516b",
-          "geo-657eb7556b20625051da4b75",
-          "history_lookup:aa9aeb3859bf5dfe",
-          "accepted_history:f193ca3ab24de2f5",
-          "prior_decision:f3e8b68647b3043d",
-          "prior_decision:68845fe552ad1dd0",
-          "prior_decision:f7ea209cf5b2dced"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "既往已审结果未建立标杆资格；本次补充原型机展示与测试事实，但全球第一及符合3GPP新定义仅有报道表述，缺少标准依据、独立对比或验证成果，不足以改变既有资格判断。",
-          "evidence_ids": [
-            "prior_decision:f3e8b68647b3043d",
-            "article:3d6f3de708b8516b"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "三星电子",
-      "title": "EUV光刻机，太缺了，巨头疯抢",
-      "company": "三星电子",
-      "score": 70,
-      "sector": "半导体存储",
-      "financing": "",
-      "source": "半导体行业观察",
-      "location": "KR",
-      "article_location": "韩国（主要总部所在国家，复用已审同主体地点证据）；平泽（原文所述P5项目地）",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "KR",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-c394ea289ffdcdb463af2a18"
-        ],
-        "subject_evidence_ids": [
-          "geo-c394ea289ffdcdb463af2a18"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "三星电子",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "KR",
-          "basis_roles": [
-            "hq"
-          ],
-          "evidence_ids": [
-            "geo-c394ea289ffdcdb463af2a18"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-c394ea289ffdcdb463af2a18",
-            "source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_Interim_Report.pdf",
-            "checked_at": "2026-10-20T01:39:45.455510+00:00",
-            "subject": "三星电子",
-            "role": "hq",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "KR"
-            }
-          }
-        ]
-      },
-      "company_entity_id": "dr-u-255a4dc2b19440690a03",
-      "company_canonical_name": "三星电子",
-      "identity_status": "confirmed",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/gy_rpk0M3X7oD6nLKOeCug",
-      "article_title": "EUV光刻机，太缺了，巨头疯抢",
-      "event_desc": "文章称，三星电子已为平泽园区第五条生产线P5订购光刻设备，P5目标于2028年投产，一期洁净室工程预计明年上半年完工。文章另称，三星电子宣布扩大与ASML合作，计划在2028年前引入用于DRAM量产的高数值孔径EUV光刻设备。",
-      "insight": "三星电子已把P5的建设计划推进到光刻设备订购环节，设备到位与洁净室建设将共同决定产线推进节奏。其高数值孔径EUV计划则指向后续DRAM工艺升级，但文章没有说明这类设备是否用于P5，不能将两项计划直接合并。",
-      "event_headline": "三星电子据报已为平泽P5生产线订购光刻设备",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-08",
-        "event_date": null,
-        "observed_date": "2026-11-08",
-        "review_required": true
-      },
-      "published_date": "2026-11-08",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "完整正文独立披露三星电子已为平泽P5生产线订购光刻设备，属于具体制造投入，不是仅在共同报道中被提名。新闻发布于2026年11月8日，符合近7天窗口。既有龙仁及越南项目不能与平泽P5混同，其他HBM、SoC及财务裁决也不覆盖本项。保留媒体转述的设备订购进展，洁净室完工及2028年投产仍为预计；高NA EUV应用另属计划，不能认定已部署于P5。韩国五年投资总额不归为P5或EUV订单金额。",
-      "event_headline_source": "c637d6b0bdb33931a8999467e487063331b39cbd6fc86c18f928e29db6929a44",
-      "location_status": "subject_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-c394ea289ffdcdb463af2a18",
-          "source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_Interim_Report.pdf",
-          "checked_at": "2026-10-20T01:39:45.455510+00:00",
-          "subject": "三星电子",
-          "role": "hq",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "KR"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本次证明具体制造投入，尚未建立独立可比的技术领先性或全国标杆资格；与此前已审不授标结论一致，企业规模及上游建议标签不能自动授标。",
-        "evidence_ids": [
-          "article:f47b63f588e0db88",
-          "prior_decision:ab7481ac8ddc5ce8"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "原生事实审查及独立日报阅读审查",
-        "candidate_id": "484e5a01c50f7536979bf30ac2453e775f6d48a1754e1aa43e8761025abd3d4c",
-        "input_row_sha256": "64be659c9359c7a8043d7a52fa5b3098d0eb8be514576a0ccc8a546cd26e81fa",
-        "reason": "完整正文独立披露三星电子已为平泽P5生产线订购光刻设备，属于具体制造投入，不是仅在共同报道中被提名。新闻发布于2026年11月8日，符合近7天窗口。既有龙仁及越南项目不能与平泽P5混同，其他HBM、SoC及财务裁决也不覆盖本项。保留媒体转述的设备订购进展，洁净室完工及2028年投产仍为预计；高NA EUV应用另属计划，不能认定已部署于P5。韩国五年投资总额不归为P5或EUV订单金额。",
-        "scope": {
-          "technology_evidence": "正文称三星电子已为平泽P5订购光刻设备，一期洁净室预计明年上半年完工，P5目标于2028年投产；另回顾其扩大ASML合作及高NA EUV用于DRAM量产的计划。",
-          "value_reason": "设备订购把产线规划与实际制造资源配置连接起来，可用于研究洁净室、关键设备交付和先进存储工艺导入如何共同约束产线建设节奏。"
-        },
-        "stage": {
-          "status": "据报道已订购设备；工程、投产及高NA应用为upcoming",
-          "reason": "正文明确“已为该生产线订购”，但未提供到货、安装或量产回执。按报道时间，“明年上半年”为2027年上半年预计节点，2028年为投产目标；设备下单具体日期及首次收录时间未知。高NA合作提及9月8日，未另行补齐其事件年份。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:aa9aeb3859bf5dfe",
-            "accepted_history:7dd37aafb0855965",
-            "accepted_history:e6ebb623a7f5180f",
-            "accepted_history:1ba7de6c08a11b12",
-            "accepted_history:806ec3be217b9572",
-            "accepted_history:3a46b9afc7208e75",
-            "accepted_history:67dbfa9aaff277ef",
-            "accepted_history:c31339994b15e004",
-            "accepted_history:e3138fd5af50e0c8",
-            "accepted_history:c62af376e598d4fd",
-            "accepted_history:e390ee9daa7cd890",
-            "prior_decision:8fc0303154fa108b",
-            "prior_decision:ab7481ac8ddc5ce8",
-            "prior_decision:21e0051dfe2c1888",
-            "prior_decision:3760911c5c90760d",
-            "prior_decision:f1b24c82c2d2d9bc",
-            "prior_decision:5cbc474571cf62b3",
-            "prior_decision:cd42010c17072731"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:8fc0303154fa108b",
-              "comparison": "different_event",
-              "reason": "旧项为Exynos 2700量产及定制SoC新项目，不是P5光刻设备订购。"
-            },
-            {
-              "evidence_id": "prior_decision:ab7481ac8ddc5ce8",
-              "comparison": "different_event",
-              "reason": "同一移动SoC旧事件的另一裁决，不覆盖平泽产线建设。"
-            },
-            {
-              "evidence_id": "prior_decision:21e0051dfe2c1888",
-              "comparison": "different_event",
-              "reason": "旧watch因展会预告缺少具体展项增量；本次有独立的P5设备订购事实，不解除旧展会待核。"
-            },
-            {
-              "evidence_id": "prior_decision:3760911c5c90760d",
-              "comparison": "different_event",
-              "reason": "该旧watch同样针对展会预告，本项既不证明展会实际发布，也不改变其旧结论。"
-            },
-            {
-              "evidence_id": "prior_decision:f1b24c82c2d2d9bc",
-              "comparison": "different_event",
-              "reason": "旧项为NVHBM基础芯片采用台积电3nm的制造安排，与三星自有P5设备采购不同。"
-            },
-            {
-              "evidence_id": "prior_decision:5cbc474571cf62b3",
-              "comparison": "different_event",
-              "reason": "旧watch针对三季度分部财务数字冲突及产品回顾，本次不引用冲突数字，也没有补证解除旧财报待核。"
-            },
-            {
-              "evidence_id": "prior_decision:cd42010c17072731",
-              "comparison": "different_event",
-              "reason": "该记录仍为Exynos量产和定制SoC项目，不是P5建设事件。"
-            }
-          ],
-          "change_reason": "历史分别涉及SSD、HBM、代工经营、龙仁与越南项目、手机减产、AMD合作、财务及移动SoC；平泽P5已订购光刻设备是可见历史未涵盖的独立制造事实。与SK海力士及ASML条目共享本篇EUV供需报道关系，但各自承担采购、工艺制造和设备供给的不同角色，不合并为共同订单，不宣称全库首次。",
-          "new_evidence_ids": [
-            "article:f47b63f588e0db88"
-          ]
-        },
-        "evidence_ids": [
-          "article:f47b63f588e0db88",
-          "identity_registry:2dcd4f408df25406",
-          "geo-c394ea289ffdcdb463af2a18",
-          "accepted_history:806ec3be217b9572",
-          "prior_decision:21e0051dfe2c1888",
-          "prior_decision:3760911c5c90760d",
-          "prior_decision:5cbc474571cf62b3",
-          "history_lookup:aa9aeb3859bf5dfe"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "本次证明具体制造投入，尚未建立独立可比的技术领先性或全国标杆资格；与此前已审不授标结论一致，企业规模及上游建议标签不能自动授标。",
-          "evidence_ids": [
-            "article:f47b63f588e0db88",
-            "prior_decision:ab7481ac8ddc5ce8"
-          ]
-        }
-      }
     }
   ],
   "negatives": [],
@@ -2494,16 +2734,23 @@
     "工业人工智能": 1,
     "智能制造": 1,
     "光电芯片与光通信": 1,
-    "跨境电商与AI经营工具": 1,
+    "生成式人工智能": 1,
     "汽车与海外制造": 1,
     "光通信与算力基础设施": 1,
     "物流科技与跨境仓储": 1,
     "通用具身智能机器人": 1,
+    "第三代半导体与功率电子": 1,
+    "AI互动娱乐与消费硬件": 1,
+    "AI三维内容生成": 1,
     "低空航空与混合动力飞行器": 1,
     "钙钛矿光伏与空间能源": 1,
     "太空算力与星上AI": 1,
     "AI音乐生成": 1,
-    "云计算与AI基础设施": 1,
+    "大模型与AI计算软件": 1,
+    "大模型部署与企业AI服务": 1,
+    "云计算与AI基础设施": 2,
+    "人工智能／大模型": 1,
+    "人工智能／智能终端／智能体手机": 1,
     "模拟芯片与嵌入式半导体": 1,
     "半导体制造与封装测试": 2,
     "模拟芯片": 1,
@@ -2511,9 +2758,15 @@
     "工业半导体": 1,
     "汽车半导体": 1,
     "工业半导体与芯片供应链": 1,
+    "功率半导体与汽车电子": 1,
     "功率半导体": 1,
     "数据中心电源与功率半导体": 1,
+    "新能源汽车与自动驾驶": 1,
+    "云端AI芯片与服务器芯片": 1,
+    "人工智能与互联网平台": 1,
+    "AI算力基础设施": 1,
     "AI图像生成与编辑": 2,
+    "AI音乐创作": 1,
     "人工智能／大模型与开发者工具": 1
   },
   "daily_details": {
@@ -2542,9 +2795,9 @@
       "negatives": 0
     },
     "2026-11-15": {
-      "count": 29,
+      "count": 43,
       "negatives": 0
     }
   },
-  "created": "2026-11-18 12:05:48"
+  "created": "2026-11-18 12:35:32"
 }
