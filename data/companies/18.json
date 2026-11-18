@@ -3362,5 +3362,176 @@
       "event_signal": "context",
       "discovery_status": "first_seen"
     }
+  ],
+  "康明斯": [
+    {
+      "date": "2026-11-17",
+      "title": "报道描述，一座大型数据中心配置了装在集装箱内的康明斯柴油发电机，并称所述柴油发电机过去一年价格上涨超过50%，售价一度超过300万元。原文未披露具体机型、供货合同或供货企业名称。",
+      "article_title": "乌兰察布 72 小时，目睹 AI 时代的工业奇观",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/XMPf5u2dPEtOC_iAam2Fcw",
+      "sector": "数据中心备用电源",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "康明斯",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "康明斯",
+      "company_entity_id": "dr-u-44fc0dd688e5c0b95869",
+      "company_raw_name": "康明斯",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具名现场应用支持关键设备线索，但缺少本主体行业地位、产品性能及可比应用效果的独立依据，不能由品牌知名度或设备售价授予全国标杆资格。",
+        "evidence_ids": [
+          "article:dbbdcfbdfb97a870"
+        ]
+      },
+      "published_date": "2026-11-16",
+      "insight": "这类柴油发电机承担外部电网失效后的持续供电任务，其价值来自数据中心对备用电源可靠性的要求。具名产品应用和价格变化构成关键设备供给线索，但尚不能据此推导康明斯的订单或利润变化。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "康明斯柴油发电机用于数据中心，报道提及价格上涨",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "华瑞指数云": [
+    {
+      "date": "2026-11-17",
+      "title": "华瑞指数云宣布完成新一轮超亿元融资，由琮碧秋实投资与另一家基金联合领投，某国有产投基金跟投。资金将用于AI原生KV Cache存储系统WQS的持续研发与规模化交付、软硬协同设计及全栈I/O优化，以及市场与客户服务体系建设。公司披露，在某大型Token工厂的特定模型与负载联合验证中，24张GPU加一个独立WQS节点实现了与48张GPU方案相当的Token产能；在另一大型企业的联合验证中，WQS以纯软件方式融合部署，无需新增硬件，首Token时延降低80%，Token吞吐量提升超过3倍。目前相关项目正进入生产级概念验证测试与验收推进阶段，公司提出未来12个月推动50家以上重点AI推理用户实现生产落地的目标。",
+      "article_title": "首发丨华瑞指数云再获超亿元投资， 为AI推理重新定义存储",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/wQNesWYEwK80yJNOQQK3_A",
+      "sector": "AI基础设施／分布式存储／推理上下文存储",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "华瑞指数云",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "华瑞指数云",
+      "company_entity_id": "dr-u-858326bb020621c2bd53",
+      "company_raw_name": "华瑞指数云",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "WQS",
+          "relation": "product",
+          "evidence": "华瑞指数云看到的机会，是针对AI推理重新设计上下文存储系统，并推出了自研存储系统WQS，让同样的算力支撑更多业务。"
+        },
+        {
+          "name": "WiDE",
+          "relation": "product",
+          "evidence": "这一系列性能提升，离不开底层存储能力的支撑——华瑞指数云自研的WiDE存储引擎。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资和具体客户验证足以支持普通正面产业观察，但WQS测试条件未完整披露，历史存储评测成绩不直接证明推理产品行业地位，尚无充分独立同负载比较或规模采用证据建立全国标杆资格。",
+        "evidence_ids": [
+          "article:eef72b5f70736685"
+        ]
+      },
+      "published_date": "2026-11-16",
+      "insight": "WQS将存储从保存业务数据的后台设备，推进到直接参与推理产能优化的共享上下文层：保存并及时调回可复用的中间计算结果，可以减少GPU重算与等待。两种部署方式的客户联合验证为这一路径提供了具体依据，此次融资则支持公司将项目验证推进为标准化交付；其适用价值取决于客户负载中的缓存复用机会和端到端调用效率。",
+      "financing": "新一轮超亿元融资；琮碧秋实投资与另一家未具名基金联合领投，某未具名国有产投基金跟投；融资轮次及具体金额未披露。",
+      "event_date": "",
+      "event_headline": "华瑞指数云完成超亿元融资，推进WQS推理存储规模交付",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "通芯智能": [
+    {
+      "date": "2026-11-17",
+      "title": "通芯智能由朱松纯发起、北京通用人工智能研究院孵化，文章称其于今年4月成立，半年内连续完成种子轮和天使轮融资，合计数亿元，资金主要投入流片前的核心架构设计与研发。公司已完成架构设计和立项，进入芯片设计阶段，计划12月初开展FPGA原型验证。首代产品定位高性价比推理芯片，规划Vector、Tensor与AGI Core三类单元，兼容主流模型，并为逻辑、因果、价值推理及概率计算设计专用加速能力。公司称商业化方向覆盖云端推理、通用智能体和端侧物理智能，已初步形成规模合作意向；另计划适配“通通”及相关大模型，并与高校、研究机构和产业伙伴共建联合实验室。",
+      "article_title": "龙芯、海光老兵集结，通研院孵化的AGI芯片公司浮出水面！半年连融数亿元",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/rwevJGa1-6eFyIWpYTDssw",
+      "sector": "AI推理芯片／具身智能计算",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "通芯智能",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "通芯智能",
+      "company_entity_id": "dr-u-7a473dfc3f53d3333b3e",
+      "company_raw_name": "通芯智能",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资、团队经验和架构方案支持企业发现价值，但尚无该公司芯片原型验证、量产交付、可比效率或稳定客户采用证据，未建立独立行业标杆资格。",
+        "evidence_ids": [
+          "article:4b4f9b545e73454a"
+        ]
+      },
+      "published_date": "2026-11-16",
+      "insight": "通芯正在把通用智能研究中的图关系访问、概率推断和行动评估，转化为专用硬件的设计对象，同时用向量与张量计算单元承接现有模型。数亿元融资支持其进入设计与原型验证阶段，接下来最有辨别力的观察是：在同一真实任务和软件条件下，新增专用单元能否减少数据搬运与等待，而不只是增加芯片功能。",
+      "financing": "半年内完成种子轮和天使轮融资，合计数亿元；具体轮次金额、投资方和估值未披露；资金主要投入流片前核心架构设计与研发。",
+      "event_date": "",
+      "event_headline": "通芯智能半年完成数亿元融资，推进AGI推理芯片设计",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
   ]
 }
