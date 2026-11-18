@@ -1106,6 +1106,66 @@
       "discovery_status": "first_seen"
     }
   ],
+  "NaiveAI": [
+    {
+      "date": "2026-11-14",
+      "title": "据量子位报道，Latent Space于11月10日推出模型测评栏目，首期测试NaiveAI的开源模型Naive-N0.5-Flash，并与DeepSeek V4.1 Flash 1017、GLM 5.3 Flash比较。报道列示的公开NL2Repo-Bench成绩中，Naive-N0.5-Flash获得71.9分，分别领先两款对照模型3.7分、15.6分。Latent Space另以30道覆盖数学、科学知识及高难度推理的问题测试速度，测得其极速模式单秒峰值约2100 Token/s，思考阶段约984 Token/s、作答阶段约1816 Token/s；开启思考模式后的中位响应时间为3.1秒，DeepSeek为10.1秒。在三组网页应用开发任务中，测评认为其思考模式生成的3D太阳系表现最佳，3D生长树与DeepSeek表现接近；实时光线追踪任务中，三款模型均生成了可运行应用。文章同时介绍，NaiveAI以自研NaiveRT系统、稀疏注意力等技术优化推理效率，支持百万Token上下文，并让AI参与模型架构、训练系统和推理优化研发；其研发基础设施每周支持近千万次沙箱运行，峰值并发达10万个。",
+      "article_title": "国产大模型又杀出一匹黑马，引发硅谷关注！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/d2PycGL_WwpYgcdB9dssMQ",
+      "sector": "人工智能／大语言模型与推理基础设施",
+      "location": "地点线索：中国",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "NaiveAI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "中国",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "NaiveAI",
+      "company_entity_id": "dr-u-b3560c52582d502c4850",
+      "company_raw_name": "NaiveAI",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Naive-N0.5-Flash",
+          "relation": "product",
+          "evidence": "中国公司NaiveAI的开源模型Naive-N0.5-Flash"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "报道中的有限题目和三组应用测试支持具体产品观察，尚不足以独立建立企业全国标杆地位；媒体所称头部梯队及海外关注不能代替该资格证据。",
+        "evidence_ids": [
+          "article:3d0c048163e3e074"
+        ]
+      },
+      "published_date": "2026-11-13",
+      "insight": "NaiveAI值得关注的变化，是高速推理开始获得第三方测试支持，同时在三类图形编程任务中展示了可运行的实现能力，而非只有生成速度这一项卖点。对需要连续调用模型的编程和Agent工作流，这种组合提供了缩短等待时间的产品路径；下一步最有辨别力的观察，是在相同任务质量和调用条件下，完整任务耗时能否同样缩短。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "NaiveAI开源模型在第三方实测中展示高速推理与编程能力",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
   "炎和科技": [
     {
       "date": "2026-11-15",
