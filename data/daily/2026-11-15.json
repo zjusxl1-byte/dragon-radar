@@ -6662,22 +6662,11 @@
   "negatives": [],
   "excluded_count": {
     "wechat": 93,
-    "web_search": 3,
-    "total": 96
+    "web_search": 4,
+    "total": 97
   },
-  "_analysis_pending": [
-    {
-      "source_kind": "web",
-      "url": "https://www.foodtalks.cn/news/31978",
-      "source_url": "https://www.foodtalks.cn/news/31978",
-      "title": "杭州发布2022独角兽&准独角兽企业榜单，认养一头牛、王饱饱上榜-FoodTalks全球食品资讯",
-      "status": "analysis_review_wait",
-      "selection_recommendation": "review",
-      "reason": "已读原站JS空壳及Tavily完整提取；正文仅有2022榜单历史，仍缺原始新闻发布日。保留待核，不把2022事件日当发布日期；下一步核原发布者页面时间。",
-      "source_evidence_id": "web_pending_input:a7031cc340df3b57"
-    }
-  ],
-  "_analysis_status": "partial_retry_wait",
+  "_analysis_pending": [],
+  "_analysis_status": "complete",
   "quality_review": {
     "schema_version": "dragon-overnight-review.v2",
     "status": "partial_review",
@@ -6686,9 +6675,9 @@
     "semantic_reviewed_candidates": 78,
     "watch_candidates": 11,
     "pending_candidates": 45,
-    "source_pending_count": 1,
+    "source_pending_count": 0,
     "source_pending_counts": {
-      "_analysis_pending": 1,
+      "_analysis_pending": 0,
       "_pending_fact_identity": 0
     }
   }
