@@ -1771,16 +1771,18 @@
       "event_type": "机器人系统发布与零售站点开业",
       "link": "https://mp.weixin.qq.com/s/diBpblyrRytT_xL8QK6vVA",
       "sector": "具身智能／机器人零售服务",
-      "location": "地点线索：杭州市滨江区（正文明确称其为“滨江企业”，未注明注册地或总部地址）",
+      "location": "浙江省 / 杭州市 / 滨江区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 滨江区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-cf803b3b8ac61d0735abcd09"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "浙江硅基方舟机器人有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -1788,7 +1790,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-cf803b3b8ac61d0735abcd09",
+            "source_url": "https://mp.weixin.qq.com/s/diBpblyrRytT_xL8QK6vVA",
+            "checked_at": "2026-11-18T09:18:21.900634+00:00",
+            "subject": "浙江硅基方舟机器人有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "滨江区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "滨江区",
+          "evidence_ids": [
+            "geo-cf803b3b8ac61d0735abcd09"
+          ]
+        }
       },
       "article_location": "杭州市滨江区（正文明确称其为“滨江企业”，未注明注册地或总部地址）",
       "source": "滨江发布",
