@@ -1812,6 +1812,85 @@
       "event_headline": "谷歌推出Omni 1.2 Flash视频模型，价格据报道下调30%",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "据半导体行业观察转载文章，谷歌XLA持续为旧版TPUv4生成代码，使其在v7发布后仍在生产集群服役。文章同时介绍谷歌内部训练、推理及推荐等多类负载，以及TPUv4通过光路交换调整集群拓扑、按任务规模切片的方式。本条为既有技术与运营案例回顾，未披露本次新增发布、交付节点或独立实测结果。",
+      "article_title": "芯片还没坏，为何就“过时”？——AI芯片经济寿命与延寿之道",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/4ImZ8SxMeTvAoXGco3YRaQ",
+      "sector": "AI芯片／云计算",
+      "location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3a340af67840603b02e5d106"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "谷歌",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-3a340af67840603b02e5d106",
+            "source_url": "https://policies.google.com/terms?hl=en",
+            "checked_at": "2026-10-12T03:53:52.842268+00:00",
+            "subject": "谷歌",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Mountain View",
+              "address": "1600 Amphitheatre Parkway, Mountain View, California 94043, USA"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Mountain View",
+          "evidence_ids": [
+            "geo-3a340af67840603b02e5d106"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "谷歌",
+      "company_entity_id": "dr-u-6e7e64cf66f76a043f8d",
+      "company_raw_name": "谷歌",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本文支持具体技术运营案例观察，但没有提供可独立核验的跨代实际利用率、单位有效产出成本及同行可比结果，尚不足以建立本主体的全国标杆资格；谷歌知名度和折旧假设不能代替该裁决。",
+        "evidence_ids": [
+          "article_body:0d20c4bf58156f7b"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "event_identity": {
+        "canonical_id": "文章称谷歌于2023年1月将芯片预计使用寿命从4年延长至6年，2023财年因此少计提折旧约39亿美元，其中第一季度净利润影响约9.88亿美元；2025年底再次确认TPU的6年折旧假设。文章同时介绍TPU的硬件兼容设计、XLA编译适配、内部多类业务负载及TPUv4光路交换网络，并称旧版TPUv4在v7发布后仍在生产集群服役。"
+      },
+      "insight": "谷歌案例呈现的是芯片、软件与业务负载共同决定使用价值的路径：编译适配维持模型兼容，多类内部任务为旧芯片提供继续使用的岗位。六年折旧是会计估计，不能单凭这一调整反推出硬件效率改善或实际经济寿命已延长。",
+      "financing": "",
+      "event_date": "",
+      "discovery_status": "update"
     }
   ],
   "无限工坊": [
