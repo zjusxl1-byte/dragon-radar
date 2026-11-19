@@ -1814,6 +1814,84 @@
       "discovery_status": "update"
     },
     {
+      "date": "2026-11-12",
+      "title": "据报道，谷歌正式上线Gemini 4 Carbon API，并向Ultra订阅用户开放；开发者可通过Gemini API接入，企业用户可通过Gemini for business、Antigravity或CodeMender使用。同期亮相的Antigravity /swarm功能由Carbon负责架构设计、协调和审查，轻量模型在独立工作区并行执行，验证Agent检查改动。官方演示中，Agent团队依据7份市政规划PDF，经过夜间10轮迭代，生成约90.6万个三角面的交互式Three.js模型。文章援引的Zapier AutomationBench结果显示，Carbon高推理档得分53.88%，平均每道任务成本2.12美元；Claude Fable 5.2 Max启用默认回退时为51.45%和4.64美元，Argon高档为51.29%和1.70美元，成本采用榜单标准标价口径。Carbon首发半价为输入每百万Token 2美元、输出每百万Token 10美元，优惠截至11月30日。谷歌表示，Carbon通过消耗更多推理Token探索路径、延长验证循环，面向复杂多步编程、调试和开放式科研，日常工作仍建议使用Argon。谷歌另披露，Carbon发现某热门开源软件中的两个漏洞，补丁已发布，具体漏洞及公告待合规披露流程完成后公布。",
+      "article_title": "Gemini 4 Carbon连夜上桌！力压Fable 5.2花费仅一半，还挖出了PHP同级漏洞…",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/9b1_lBtr62ZaQUurGKl5DA",
+      "sector": "人工智能基础模型与智能体开发工具",
+      "location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3a340af67840603b02e5d106"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "谷歌",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-3a340af67840603b02e5d106",
+            "source_url": "https://policies.google.com/terms?hl=en",
+            "checked_at": "2026-10-12T03:53:52.842268+00:00",
+            "subject": "谷歌",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Mountain View",
+              "address": "1600 Amphitheatre Parkway, Mountain View, California 94043, USA"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Mountain View",
+          "evidence_ids": [
+            "geo-3a340af67840603b02e5d106"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "谷歌",
+      "company_entity_id": "dr-u-6e7e64cf66f76a043f8d",
+      "company_raw_name": "谷歌",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本包支持具体模型与智能体工具对标，但公司披露、演示和所引榜单尚未建立独立已审的全国标杆资格，不因谷歌知名度自动授予标签。",
+        "evidence_ids": [
+          "article:5c4fbbda086651c3"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "Carbon与/swarm把复杂任务的规划、并行执行和改动验证组织到同一开发流程，产品价值不仅是生成代码，还在于协调多步交付。文中办公自动化评测显示，其成绩高于所列对手、任务成本低于Fable但高于Argon，说明复杂任务能力增强并不等于所有日常任务都更经济。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "谷歌上线Carbon模型API及多智能体协作功能",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
       "date": "2026-11-15",
       "title": "据半导体行业观察转载文章，谷歌XLA持续为旧版TPUv4生成代码，使其在v7发布后仍在生产集群服役。文章同时介绍谷歌内部训练、推理及推荐等多类负载，以及TPUv4通过光路交换调整集群拓扑、按任务规模切片的方式。本条为既有技术与运营案例回顾，未披露本次新增发布、交付节点或独立实测结果。",
       "article_title": "芯片还没坏，为何就“过时”？——AI芯片经济寿命与延寿之道",
