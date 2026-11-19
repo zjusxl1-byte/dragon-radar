@@ -905,6 +905,84 @@
       "discovery_status": "update"
     },
     {
+      "date": "2026-11-12",
+      "title": "AMD在In Depth活动上披露Zen 6、Zen 6c核心设计及第六代EPYC处理器Venice，并介绍配套机架与内存管理方案。Zen 6面向低延迟任务，单个计算芯粒最多12核、48MB三级缓存，最高频率5.3GHz；Zen 6c面向高并发任务，单个计算芯粒最多32核、128MB三级缓存，最高频率4.1GHz。AMD展示的固定频率、16核测试中，Zen 6c采用单个计算芯粒，Zen 5采用两个计算芯粒，前者在企业及云服务器、AI工作负载中的几何平均IPC分别提升约20%、31%，综合提升约27%。Venice采用台积电2nm计算芯粒和6nm I/O芯粒，最多配置8个计算芯粒、2个I/O芯粒，提供16个DDR5内存通道，单路理论内存带宽最高1.6TB/s，并采用EFB芯粒互连与第五代Infinity Fabric。AMD还披露SP7、SP8平台及Venice-X、Verano细分系列。文中介绍的EPYC嵌入式9006系列最高256核、512线程，最多96条PCIe Gen 6通道，支持CXL 3.1，面向半导体自动测试设备、企业存储和网络防火墙，提供七年产品供货周期及固件、软件支持。系统层面，Helion提供CPU与GPU分离的液冷机架、分离式风冷机架及CPU/GPU合一风冷机架三种参考配置。软件层面，AMD介绍通过收购MEXT获得的技术：将冷数据迁移至Flash，并预测数据需求、提前调回DRAM。AMD称该方案可按工作负载减少20%至75%的DRAM用量，有效内存容量最高扩展至原来的3倍，延迟影响低于4%；在145台服务器的初期部署中，相比全部使用DRAM的方案，预计节省约83%的成本、避免约490万美元的DRAM支出。",
+      "article_title": "AMD Zen 6，正式发布，下一代架构曝光！",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/ysqy2K7kuLzQsUMbnQs5XQ",
+      "sector": "数据中心处理器与AI基础设施",
+      "location": "US / 2485 Augustine Drive, Santa Clara, California 95054",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 2485 Augustine Drive, Santa Clara, California 95054",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-050ae70c9ea8bfd19645efce"
+        ],
+        "subject_evidence_ids": [
+          "geo-050ae70c9ea8bfd19645efce"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "AMD",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-050ae70c9ea8bfd19645efce"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-050ae70c9ea8bfd19645efce",
+            "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000018/amd-20251227.htm",
+            "checked_at": "2026-10-20T01:42:37.409870+00:00",
+            "subject": "AMD",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara",
+              "address": "2485 Augustine Drive, Santa Clara, California 95054"
+            }
+          }
+        ]
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "AMD",
+      "company_entity_id": "dr-u-240389f4b730bad41f21",
+      "company_raw_name": "AMD",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "历史is_national_star标记未附独立资格裁决，不能作为免审依据。本包的架构、公司测试和市场份额转述可支持产品观察，但尚未建立已审的行业地位与可比应用成效证据；不据此删除历史标签，也不为本次自动授标。",
+        "evidence_ids": [
+          "article:e03e14fdf9006a26",
+          "accepted_history:ee64fc094861b324"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "AMD此次布局把Agent运行所需的工具调用、沙箱执行和数据调度，分别对应到低延迟核心、高密度核心及更强的内存与互连能力，体现其产品竞争从单颗CPU扩展到系统配置。能否据此提高实际Agent承载效率，还取决于任务中的CPU等待、内存访问与GPU计算各占多少；文中固定频率的IPC测试不能直接回答整套Agent系统的表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "AMD进一步披露Zen 6与Venice架构，介绍配套机架及内存方案",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
       "date": "2026-11-17",
       "title": "文章称，AMD于2026年6月宣布Spartan UltraScale+ SU200P进入量产准备阶段，并于同年7月正式量产。该系列面向数据中心服务器I/O和主板管理控制器应用，可承担电源时序管理、温度和电压监测、风扇控制、I/O扩展及系统状态监控。",
       "article_title": "AI时代，FPGA再次崛起",
