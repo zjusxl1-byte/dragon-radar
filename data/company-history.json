@@ -8799,59 +8799,6 @@
       "event_headline": "Violoop一个月内完成种子及天使轮融资，合计数千万元",
       "event_signal": "material",
       "discovery_status": "update"
-    },
-    {
-      "date": "2026-11-12",
-      "title": "Violoop设备通过HDMI或USB-C获取屏幕画面，在本地抓帧和分析，并通过标准键鼠接口操作现有电脑，复用用户的软件和登录状态。报道中的演示显示，打开简历后，系统会询问是否生成候选人分析、面试问题或岗位匹配判断；打开合同后，会提供风险总结、关键条款和谈判建议。团队在v4中加入更强的本地计算，希望将约七成基础任务留在设备端，另外三成交给云端复杂模型；该比例是团队目标。",
-      "article_title": "Personal Agent火了，硬件公司又想卖你一台电脑",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/EIxQIDiEW8Iz5deFdUl1bg",
-      "sector": "个人AI助手与电脑操作智能体硬件",
-      "location": "地点待核",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "Violoop",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "article_location": "",
-      "source": "36 氪",
-      "kind": "event",
-      "canonical_name": "Violoop",
-      "company_entity_id": "dr-u-14388ac9c7f17c46c1e9",
-      "company_raw_name": "Violoop",
-      "identity_status": "confirmed",
-      "score": 35,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "历史is_national_star标记未附独立行业地位裁决，本篇演示与版本迭代亦不足以证明稳定性能领先或市场采用优势；本次不据此授予标杆资格，也不批量改写历史标签。",
-        "evidence_ids": [
-          "article:b5e45c304e2428a2",
-          "accepted_history:1cf3b7e782d5c209",
-          "accepted_history:03f20b1f56bac209"
-        ]
-      },
-      "published_date": "2026-11-11",
-      "insight": "Violoop尝试把助手的入口从用户主动上传文件，移到对现有工作屏幕的持续理解，并通过键鼠接口复用已有软件环境。演示支持其主动提出文档处理任务的能力，但从提出建议到稳定完成跨软件操作，仍是决定这一路径价值的关键分歧。",
-      "financing": "",
-      "event_date": "",
-      "event_headline": "Violoop以屏幕感知外设接入现有电脑，v4增强本地计算",
-      "event_signal": "material",
-      "discovery_status": "update"
     }
   ],
   "杭州聚海恒创科技有限公司": [
@@ -25725,6 +25672,85 @@
       "event_date": "",
       "event_headline": "据报道SpaceX在建两座GB300集群，分别用于训练与推理",
       "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "据半导体行业观察2026年11月11日文章转述，SpaceX于2026年1月向FCC申请最多100万颗卫星的轨道数据中心星座，并称其招股书计划最早2028年开始部署在轨AI算力卫星。申请获批及实际部署情况未由本条证明。",
+      "article_title": "英伟达一天跌掉9%，国产算力三季报营收翻倍：11月28日，百名科学家与百名企业家在上海“对表”算力",
+      "event_type": "项目规划",
+      "link": "https://mp.weixin.qq.com/s/XadjqPEv_xFj5Kz4Oc8YLw",
+      "sector": "商业航天与太空算力",
+      "location": "US / Texas / Starbase",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Texas / Starbase",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-697384d43ce6757b0ec982ab"
+        ],
+        "subject_evidence_ids": [
+          "geo-697384d43ce6757b0ec982ab"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "SpaceX",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Texas",
+          "city": "Starbase",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-697384d43ce6757b0ec982ab"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-697384d43ce6757b0ec982ab",
+            "source_url": "https://gov.texas.gov/news/post/governor-abbott-announces-spacex-expansion-in-grimes-county",
+            "checked_at": "2026-10-20T01:38:05.868493+00:00",
+            "subject": "SpaceX",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Texas",
+              "city": "Starbase"
+            }
+          }
+        ]
+      },
+      "article_location": "美国得克萨斯州Starbase（主要总部；复用输入已审证据geo-697384d43ce6757b0ec982ab）",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "SpaceX",
+      "company_entity_id": "dr-u-e78bdebae031095bebcf",
+      "company_raw_name": "SpaceX",
+      "identity_status": "confirmed",
+      "score": 45,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据支持境外轨道算力规划观察，未独立建立主体行业地位及全国标杆资格；申请数量和规划指标不能替代该资格依据。所给同主体已审记录亦未建立标杆资格，本条无足以改变该判断的新证据。",
+        "evidence_ids": [
+          "article:91d75e1f80a38587",
+          "accepted_history:5e40ef8ad2d03c6b",
+          "geo-697384d43ce6757b0ec982ab"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "event_identity": {
+        "canonical_id": "文章称SpaceX于2026年1月向美国联邦通信委员会申请最多100万颗卫星的轨道数据中心星座，并称其招股书计划最早2028年开始部署在轨AI算力卫星，另提出2027年底形成每年1 GW在轨算力产能的目标。"
+      },
+      "insight": "轨道数据中心申请提供了计算载荷向太空环境延伸的具体规划线索，值得比较辐射防护与发射质量之间的工程权衡。原文讨论屏蔽材料和保护舱，但未证明SpaceX已选定该方案，也不能据此推导材料订单或商业收入。",
+      "financing": "",
+      "event_date": "",
       "discovery_status": "update"
     },
     {
@@ -46492,6 +46518,87 @@
       "financing": "",
       "event_date": "",
       "event_headline": "火山引擎整合销售体系，Seedance新增样片生成流程",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "2026年11月11日，火山引擎与AMD共同发布基于第六代AMD EPYC处理器（代号Venice）的新一代云服务器实例，面向客户的邀测即将开启。双方正在固件、内核、虚拟化及操作系统层面开展联合优化。底层处理器最高提供256个核心、512个线程，支持最高16通道DDR5内存及PCIe 6.0；文章未披露具体云实例规格及应用实测结果。",
+      "article_title": "AMD X 火山引擎第六代 EPYC 云实例，为云上多元工作负载带来新能力",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/ijZaBWZRJidygXhHoRPjwg",
+      "sector": "云计算基础设施",
+      "location": "北京市海淀区紫金数码园4号楼13层1309",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市海淀区紫金数码园4号楼13层1309",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-39acc33c9a8f9256510a9849"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "火山引擎",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-39acc33c9a8f9256510a9849",
+            "source_url": "https://www.ccgp.gov.cn/cggg/dfgg/dylygg/202609/t20260901_27245189.htm",
+            "checked_at": "2026-11-08T17:14:39.358739+00:00",
+            "subject": "火山引擎",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "北京市海淀区紫金数码园4号楼13层1309"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-39acc33c9a8f9256510a9849"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "火山引擎",
+      "company_entity_id": "dr-u-23b9479458b4c4f67907",
+      "company_raw_name": "火山引擎",
+      "identity_status": "unresolved",
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条证明具体云实例发布与联合优化，但未提供足以建立火山引擎全国标杆资格的独立行业地位、规模采用或比较优势证据。处理器平台最高能力及媒体性能表述不能代替云实例实测与主体行业地位证明，既有未建立标杆资格的判断未被本条改变。",
+        "evidence_ids": [
+          "article:761fafda26e75ef5",
+          "accepted_history:55ea7053f80532e0"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "火山引擎正在把新一代服务器处理器的资源能力转化为云实例，覆盖容器并发、AI应用的数据整理与检索等CPU侧任务，而不只是模型计算。其产品价值在于通过云服务提供这些底层资源；实际负载能获得多大收益，仍取决于具体实例配置与联合优化效果。",
+      "financing": "",
+      "event_date": "2026-11-11",
+      "event_headline": "火山引擎发布Venice云实例，客户邀测将开启",
       "event_signal": "material",
       "discovery_status": "update"
     },
@@ -75055,6 +75162,88 @@
       "event_headline": "魔芯科技据报道获十亿元新融资，估值接近百亿元",
       "event_signal": "major",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "魔芯科技在世界互联网大会期间发布4D世界模型MoWorld 2.0。该模型基于华为昇腾原生训练，可生成带物理规则的4D空间资产，能力体系包含重力、弹力、光照等十几种物理要素。原文称其成本为GPU方案的三成，未说明成本统计范围及对照方案配置。",
+      "article_title": "“硬核天团”上新记",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/XU53Ih34C8fXpgvAmQdSNg",
+      "sector": "人工智能世界模型",
+      "location": "浙江省 / 杭州市 / 余杭区 / 五常街道",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 五常街道",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a2f9aac1ef6f726a88d5fae1"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "魔芯科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-a2f9aac1ef6f726a88d5fae1",
+            "source_url": "https://news.10jqka.com.cn/20260317/c675356304.shtml",
+            "checked_at": "2026-10-20T02:21:54.729528+00:00",
+            "subject": "魔芯科技",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "五常街道"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-a2f9aac1ef6f726a88d5fae1"
+          ]
+        }
+      },
+      "article_location": "杭州市余杭区五常街道（已审同主体经营地）；本文另将其纳入滨江人工智能企业报道语境，未说明两地关系",
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "魔芯科技",
+      "company_entity_id": "dr-u-99a85e1fe559bb66f540",
+      "company_raw_name": "魔芯科技",
+      "identity_status": "confirmed",
+      "score": 110,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有材料提供国产NPU实时世界模型及物理规则生成的具体比较对象，但历史标星与融资规模不能证明行业领先，尚缺独立可比评测或应用地位依据。",
+        "evidence_ids": [
+          "article:c302a5c117ec9406",
+          "accepted_history:4ddbe73e75594c25",
+          "accepted_history:75b2d32d2abf53f2"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "MoWorld 2.0把重力、弹力等规则纳入空间生成，产品价值不只在于生成场景外观，还在于表现物体随时间变化的物理行为。昇腾原生训练则提供了一条国产算力适配路径；能否用于具体仿真任务，关键在于生成行为与真实物理过程的吻合程度。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "魔芯科技发布MoWorld 2.0，生成带物理规则的空间资产",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "浙江山子有谦欧林披亚科技有限公司": [
@@ -92051,6 +92240,85 @@
       "event_headline": "宁德时代密集签署整车合作，拓展乘用车与重卡换电网络",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "文章列示，宁德时代2022年、2023年、2024年、2025年及2026年上半年储能电池系统出货量分别为47、69、93、121、109GWh，相关业务收入分别为450、599、573、624、533亿元，毛利率分别为17.0%、23.8%、26.8%、26.7%、24.0%。其相关业务涵盖电芯、电池箱、集成式电池柜及系统解决方案。",
+      "article_title": "储能行业的繁荣，为什么没有带来普遍的高利润？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/RcUcAKAV49udcGjTOGo9ww",
+      "sector": "储能电池与系统",
+      "location": "福建省 / 宁德市 / 蕉城区漳湾镇新港路2号",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "福建省 / 宁德市 / 蕉城区漳湾镇新港路2号",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-1eb3dde542c17cac5eecff9a"
+        ],
+        "subject_evidence_ids": [
+          "geo-1eb3dde542c17cac5eecff9a"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "宁德时代",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "福建省",
+          "city": "宁德市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-1eb3dde542c17cac5eecff9a"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-1eb3dde542c17cac5eecff9a",
+            "source_url": "https://www.catl.com/en/contactus/",
+            "checked_at": "2026-10-12T03:53:50.768685+00:00",
+            "subject": "宁德时代",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "福建省",
+              "city": "宁德市",
+              "address": "蕉城区漳湾镇新港路2号"
+            }
+          }
+        ]
+      },
+      "article_location": "福建省宁德市蕉城区漳湾镇新港路2号（主要总部，复用已审同主体证据）",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "宁德时代",
+      "company_entity_id": "dr-u-6f1a9695e1b7b7cd534d",
+      "company_raw_name": "宁德时代",
+      "identity_status": "confirmed",
+      "score": 0,
+      "is_national_star": true,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "复用已审历史所载SNE Research动力电池全球份额39.2%、连续9年第一及标准化电池、跨车型适配和资产运营实践的具体依据，当前材料没有推翻该限定资格的反证。本篇另提供储能制造与系统业务边界的对标内容；既有动力电池地位不外推为所有储能环节领先，也不证明系统延伸必然增利或换电全网盈利。",
+        "evidence_ids": [
+          "accepted_history:50835f6400449162",
+          "prior_decision:a71acbdba4cbbeb4",
+          "article:cc0f3ffee04a9091"
+        ]
+      },
+      "published_date": "2026-11-10",
+      "insight": "宁德时代并非只出售电芯，业务中还包含不同集成程度的系统产品，因此其毛利率不能直接作为纯电芯制造利润的标尺。理解其产业位置，需要区分制造规模优势与系统交付价值，而不是把综合毛利率差异全部归因于品牌。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "宁德时代储能业务覆盖电芯至系统产品，综合毛利率需区分交付口径",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "创芯慧联（法人全称待核实）": [
@@ -92870,95 +93138,6 @@
       "financing": "",
       "event_date": "",
       "event_headline": "华为Mate 90系列进入无忧传媒杭州基地主力设备",
-      "event_signal": "material",
-      "discovery_status": "update"
-    },
-    {
-      "date": "2026-11-12",
-      "title": "文章称，10月1日，XMAGE升级为“华为睿影XMAGE”，华为Mate 90系列成为品牌焕新后的首个旗舰载体，首发第三代红枫原色影像。第三代方案通过红外光学镀膜和滤光设计减少红外干扰，结合多光谱感知与芯片级实时分区肤色校准处理人像。文中披露全局色彩准确度提升37%、肤色还原准确度提升62%，未说明比较基准及测试条件。文章还介绍，Mate 90 Pro Max搭载2亿像素长焦、18EV动态范围主摄及CIPA 7.5级防抖，并以端侧大模型改善20倍长焦视频画质；睿影Z10模块相机将独立光学采集系统置于手机机身之外，借助手机完成处理与交互。",
-      "article_title": "华为移动影像十年，让每一个平凡人都拥有讲故事的能力",
-      "event_type": "产品技术披露",
-      "link": "https://mp.weixin.qq.com/s/YZy12UpaD4Goqy5yL-KvYg",
-      "sector": "消费电子／移动影像／计算摄影",
-      "location": "广东省 / 深圳市龙岗区坂田华为基地",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "广东省 / 深圳市龙岗区坂田华为基地",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-3a4c9ae28ffec2813559bade"
-        ],
-        "subject_evidence_ids": [
-          "geo-3a4c9ae28ffec2813559bade"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "华为",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "广东省",
-          "city": "深圳市",
-          "basis_roles": [
-            "hq"
-          ],
-          "evidence_ids": [
-            "geo-3a4c9ae28ffec2813559bade"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-3a4c9ae28ffec2813559bade",
-            "source_url": "https://www.huawei.com/cn/contact-us",
-            "checked_at": "2026-10-12T03:39:57.997902+00:00",
-            "subject": "华为",
-            "role": "hq",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "广东省",
-              "city": "深圳市",
-              "address": "深圳市龙岗区坂田华为基地"
-            }
-          }
-        ]
-      },
-      "article_location": "",
-      "source": "36 氪",
-      "kind": "event",
-      "canonical_name": "华为",
-      "company_entity_id": "dr-u-82eaaba81d9dcc54deab",
-      "company_raw_name": "华为",
-      "identity_status": "confirmed",
-      "identity_mentions": [
-        {
-          "name": "华为睿影XMAGE",
-          "relation": "product",
-          "evidence": "2022年，华为发布XMAGE，为自身的影像技术与美学探索建立统一标识；此次升级为“华为睿影XMAGE”，则进一步强调技术判断与影像表达的联系。"
-        },
-        {
-          "name": "华为Mate 90系列",
-          "relation": "product",
-          "evidence": "华为最新旗舰之作Mate 90系列，麒麟9050 Pro、第十代ISP及全新达芬奇架构NPU，正是这一体系的重要呈现。"
-        }
-      ],
-      "score": 70,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本文足以支持具体影像产品观察，但性能提升缺比较基准和测试条件，未建立该细分领域可核验的行业领先地位。本次不新增全国标杆资格，不撤销其他事件已有标签。",
-        "evidence_ids": [
-          "article:2e95831fe3572785"
-        ]
-      },
-      "published_date": "2026-11-10",
-      "insight": "这次产品升级的重点，是把色彩还原从整幅画面的环境光判断推进到人物区域的肤色处理：多光谱信息帮助区分光源影响，光学滤光与分区计算共同服务复杂照明下的人像表达。对移动影像产业而言，其对标价值在于传感、光学与芯片处理链路的协同，而非单纯增加像素；实际改善幅度仍取决于同场景、同基准测试。",
-      "financing": "",
-      "event_date": "",
-      "event_headline": "华为披露第三代红枫人像成像链路及模块相机方案",
       "event_signal": "material",
       "discovery_status": "update"
     },
@@ -115847,6 +116026,70 @@
       "event_headline": "佳能披露纳米压印客户量产流程优化进展",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "据报道，佳能推出KrF光刻机FPA-6400ES6a，采用248nm波长光源，晶圆处理速度达到每小时400片，与文中ASML NXT:870B的吞吐量相同。佳能宣称该设备套刻精度为4nm；文章未明确该指标属于单机套刻精度还是机台间套刻精度，将其解释为后者属于文中分析师的推测。",
+      "article_title": "佳能，向ASML发起挑战！",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/oRIk8OHSV3TCmXX8Asu7sw",
+      "sector": "半导体设备／光刻设备",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "佳能",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "佳能",
+      "company_entity_id": "dr-u-f6c67b2e4c49d4cdc714",
+      "company_raw_name": "佳能",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Canon",
+          "relation": "same_entity",
+          "evidence": "佳能（Canon）正在试图撬动这一市场格局。"
+        },
+        {
+          "name": "FPA-6400ES6a",
+          "relation": "product",
+          "evidence": "近日，佳能推出新一代KrF光刻机FPA-6400ES6a"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据足以支持具体KrF产品进展及性能比较，但4nm口径未明，也未提供客户实测、份额提升或跨平台适配的验证；不能凭标题中的挑战ASML或单项标称吞吐量相同建立全国标杆资格。既有NIL事件亦未建立该资格。",
+        "evidence_ids": [
+          "article:e89756e2f2ed2e0e",
+          "prior_decision:85bbdeb22bc8c732"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "佳能此次把KrF光刻机的标称吞吐量提升到与文中ASML对标机型相同的水平，使其竞争重点从单机处理速度进一步转向产线适配。套刻精度决定不同层图形能否准确对齐，因此，设备与晶圆厂既有光刻机群的匹配表现，将影响这项性能进展能否转化为客户采用；文中并未给出跨厂商匹配的实测结果。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "佳能推出新款KrF光刻机，吞吐量达每小时400片",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "保时捷": [
@@ -139282,6 +139525,92 @@
       "event_headline": "通富微电回顾电源管理封装布局，关注垂直供电",
       "event_signal": "context",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "通富微电的全资子公司钜天投资作为登临科技本次IPO的基石投资者，认购2亿元人民币。原文同时明确，通富微电是登临科技的封装测试代工伙伴，登临采用晶圆制造及封装测试外包的无晶圆厂经营模式。",
+      "article_title": "苏州，冲出一家国产GPU上市公司，市值118亿",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/lKF-6C2rV-xExovkPsi5Cw",
+      "sector": "半导体封装测试",
+      "location": "中国江苏省南通市崇川路288号",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "中国江苏省南通市崇川路288号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-a8cac81c6327959f086d3e04"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "通富微电",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-a8cac81c6327959f086d3e04",
+            "source_url": "https://www.tfme.com/news/4/",
+            "checked_at": "2026-10-28T18:20:30.570765+00:00",
+            "subject": "通富微电",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "江苏省",
+              "city": "南通市",
+              "address": "中国江苏省南通市崇川路288号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "江苏省",
+          "city": "南通市",
+          "evidence_ids": [
+            "geo-a8cac81c6327959f086d3e04"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "通富微电",
+      "company_entity_id": "dr-u-19d9bbf5be1adb49fa77",
+      "company_raw_name": "通富微电",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "钜天投资",
+          "relation": "subsidiary",
+          "evidence": "通富微电的全资子公司钜天投资作为基石投资者，认购了2亿元人民币。"
+        }
+      ],
+      "score": 70,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "历史审核未建立通富微电的独立全国标杆资格；本次证据补充了具体GPU封测客户关系及子公司资本参与，但未提供其行业领先地位、差异化封测能力或可比较技术优势，不足以改变此前资格判断。",
+        "evidence_ids": [
+          "accepted_history:c1eabb5d8a9f2501",
+          "article:d2f3d9097ee12050"
+        ]
+      },
+      "published_date": "2026-11-10",
+      "insight": "通富微电与登临的关系由封测服务延伸到子公司持股，形成供应链伙伴参与客户资本成长的具体案例。现有事实能确认业务联系与股权联系叠加，但不能据此推出新增封测订单或独家供应安排。",
+      "financing": "对外投资：全资子公司钜天投资作为基石投资者认购登临科技IPO股份，金额2亿元人民币；不是通富微电自身融资。",
+      "event_date": "",
+      "event_headline": "通富微电子公司认购登临IPO，封测合作叠加股权联系",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "光华创芯智能科技(杭州)有限公司": [
@@ -156944,6 +157273,59 @@
       "discovery_status": "first_seen"
     }
   ],
+  "当虹科技": [
+    {
+      "date": "2026-11-12",
+      "title": "当虹科技BlackEye Vision超远距离远程操控系统已与云深处科技等机器人本体厂商开展合作。原文称云深处部分系列机器狗在特定行业方案中将标配当虹系统，面向工业巡检、安防巡逻和应急处置。",
+      "article_title": "“硬核天团”上新记",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/XU53Ih34C8fXpgvAmQdSNg",
+      "sector": "机器人远程操控与行业应用",
+      "location": "地点线索：杭州市高新区（滨江）（报道明确的本地企业语境，未区分注册地、总部地与经营地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "当虹科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "杭州市高新区（滨江）（报道明确的本地企业语境，未区分注册地、总部地与经营地）",
+      "source": "滨江发布",
+      "kind": "event",
+      "canonical_name": "当虹科技",
+      "company_entity_id": "dr-u-07591a5636a857ed5c6b",
+      "company_raw_name": "当虹科技",
+      "identity_status": "unresolved",
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有材料证明具体产品合作和方案集成安排，未提供当虹科技行业领先地位、代表性市场表现或足以建立全国标杆资格的独立比较依据；不影响本事件作为正面日报线索保留。",
+        "evidence_ids": [
+          "article:c302a5c117ec9406"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "当虹的角色是为机器人本体提供远程操控能力，而不是制造机器狗。进入特定行业方案的标配计划，意味着其系统有望从单独配置的工具转为整机方案的一部分，直接连接巡检、安防和应急任务的操控需求。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "当虹远程操控系统已合作对接本体厂商，拟进入特定方案标配",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
   "IBM Research": [
     {
       "date": "2026-11-12",
@@ -156993,59 +157375,6 @@
       "financing": "",
       "event_date": "",
       "event_headline": "IBM Research探索聚合物光波导的不同组装顺序",
-      "event_signal": "context",
-      "discovery_status": "first_seen"
-    }
-  ],
-  "江原科技": [
-    {
-      "date": "2026-11-12",
-      "title": "江原科技在成立四周年之际阐述国产算力工程路线。文章援引其2026年10月湾芯展报告，披露已积累覆盖21类行业的177条适配记录，并展示覆盖编译、运行时、计算库、通信库与性能分析的自研软件栈。公司计划从领域专用架构向通用化专用架构演进，规划异构芯粒模块复用，并探索高带宽内存与高带宽闪存分层、存内相关优化；国产工艺条件下的架构与实现优化已开展，整机性能、功耗、成本及制造交付条件将继续评估。",
-      "article_title": "高质量 Token 国产算力底座的工程路径",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/kfwyUFAJ8yCbSuvLB9g-hw",
-      "sector": "人工智能芯片与国产算力",
-      "location": "地点待核",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "江原科技",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "article_location": "",
-      "source": "半导体行业观察",
-      "kind": "event",
-      "canonical_name": "江原科技",
-      "company_entity_id": "dr-u-2bbd2e78744401d8ea67",
-      "company_raw_name": "江原科技",
-      "identity_status": "unresolved",
-      "score": 35,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "适配记录及软件栈支持具体工程能力线索，但未建立经可比验证的性能优势、行业领先地位或规模应用成果，尚不足以授予全国标杆资格。",
-        "evidence_ids": [
-          "article:ecfefdb44a01c517"
-        ]
-      },
-      "published_date": "2026-11-11",
-      "insight": "江原科技呈现的能力基础不只是芯片架构，还包括跨行业模型适配和自研软件栈：这些能力用于把硬件效率转化为客户可部署、可维护的模型服务。其后续路线能否形成产品优势，关键在于存储分层与芯粒组合节省的资源，能否覆盖数据迁移、互联和软件适配新增的开销。",
-      "financing": "",
-      "event_date": "",
-      "event_headline": "江原科技披露适配积累与国产算力系统演进路线",
       "event_signal": "context",
       "discovery_status": "first_seen"
     }
@@ -157152,6 +157481,59 @@
       "financing": "",
       "event_date": "",
       "event_headline": "云南锗业据报道签订2027至2031年磷化铟供货协议",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "洁美科技": [
+    {
+      "date": "2026-11-12",
+      "title": "2025年12月18日，洁美科技公告以2700万元增资参股北京临界领域科技22.50%股权，切入高温超导粉体与靶材。文章称青科创联参与撮合，并同步投资300万元，未披露本条增资的交割日期。",
+      "article_title": "英伟达一天跌掉9%，国产算力三季报营收翻倍：11月28日，百名科学家与百名企业家在上海“对表”算力",
+      "event_type": "产业投资",
+      "link": "https://mp.weixin.qq.com/s/XadjqPEv_xFj5Kz4Oc8YLw",
+      "sector": "高温超导材料与产业资本合作",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "洁美科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "洁美科技",
+      "company_entity_id": "dr-u-60f576d05355ad36805e",
+      "company_raw_name": "洁美科技",
+      "identity_status": "unresolved",
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "该股权投资足以支持产业布局线索，但未建立洁美科技在高温超导材料领域的行业领先地位或可供杭州复制的已验证能力。",
+        "evidence_ids": [
+          "article:91d75e1f80a38587"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "参股使洁美科技获得参与高温超导材料产业化的股权入口，是既有业务之外的技术布局。文章没有披露具体采购合同，不能把文中的订单场景表述视为已取得订单。",
+      "financing": "洁美科技于2025年12月18日公告以2700万元增资参股北京临界领域科技22.50%股权，交割完成情况未披露。青科创联另同步投资300万元，不计入洁美科技出资额。",
+      "event_date": "2025-12-18",
+      "event_headline": "洁美科技2025年公告2700万元参股高温超导材料企业",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
@@ -157521,14 +157903,14 @@
       "discovery_status": "first_seen"
     }
   ],
-  "HYBE": [
+  "Supertone": [
     {
       "date": "2026-11-12",
-      "title": "文章称，HYBE以450亿韩元收购AI音频公司Supertone，未交代交易日期、收购股权比例及金额对应的具体交易范围。",
+      "title": "文章称，AI音频公司Supertone被HYBE以450亿韩元收购，未披露交易日期及股权比例。",
       "article_title": "第一个被AI做大的国家，现在怎么样了？",
       "event_type": "并购",
       "link": "https://mp.weixin.qq.com/s/cd-vzwkrAoaN13SZnB-yQw",
-      "sector": "AI音频与娱乐科技",
+      "sector": "AI音频",
       "location": "地点待核",
       "geography": {
         "geography_status": "unknown",
@@ -157539,7 +157921,7 @@
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "HYBE",
+        "subject": "Supertone",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
@@ -157551,28 +157933,30 @@
       "article_location": "",
       "source": "创业邦",
       "kind": "event",
-      "canonical_name": "HYBE",
-      "company_entity_id": "dr-u-1fdfab469323e06ac359",
-      "company_raw_name": "HYBE",
+      "canonical_name": "Supertone",
+      "company_entity_id": "dr-u-ad884ae9e530c9cf7ffb",
+      "company_raw_name": "Supertone",
       "identity_status": "unresolved",
       "score": 50,
       "is_national_star": false,
       "benchmark_review": {
         "status": "not_qualified",
         "eligible": false,
-        "reason": "当前证据支持具体技术并购及应用线索，但未建立HYBE在相关技术产业中的领先地位或全国标杆资格；事件保留不自动授予标杆标签。",
+        "reason": "收购及AI音频业务事实不足以建立Supertone的行业领先地位、技术优势或全国标杆资格。",
         "evidence_ids": [
           "article:5a620fe76a5658c9"
         ]
       },
       "published_date": "2026-11-11",
-      "insight": "收购AI音频公司使HYBE能够把人声技术纳入艺人产品开发链条。文章同时提到AI艺人尝试，但没有交代两者的技术分工，不能仅按叙述先后断言具体产品完全由此次收购促成。",
-      "financing": "文章所述收购金额为450亿韩元，股权比例及交易范围未披露",
+      "insight": "进入娱乐集团体系，为Supertone的AI音频技术增加了与艺人和内容生产结合的路径。实际产业价值应从具体产品应用判断，不能由收购金额反推技术效果。",
+      "financing": "收购方为HYBE；文章所述金额为450亿韩元，股权比例未披露",
       "event_date": "",
-      "event_headline": "HYBE据报道以450亿韩元收购AI音频公司Supertone",
+      "event_headline": "Supertone据报道被HYBE以450亿韩元收购",
       "event_signal": "major",
       "discovery_status": "first_seen"
-    },
+    }
+  ],
+  "HYBE": [
     {
       "date": "2026-11-12",
       "title": "文章称，HYBE推出提取歌手李贤人声的AI艺人MIDNATT，未披露推出日期、人声技术实现方式及具体产品数据。",
@@ -157629,59 +158013,6 @@
       "event_date": "",
       "event_headline": "HYBE据报道推出使用李贤人声的AI艺人MIDNATT，推出日期未披露",
       "event_signal": "material",
-      "discovery_status": "first_seen"
-    }
-  ],
-  "Supertone": [
-    {
-      "date": "2026-11-12",
-      "title": "文章称，AI音频公司Supertone被HYBE以450亿韩元收购，未披露交易日期及股权比例。",
-      "article_title": "第一个被AI做大的国家，现在怎么样了？",
-      "event_type": "并购",
-      "link": "https://mp.weixin.qq.com/s/cd-vzwkrAoaN13SZnB-yQw",
-      "sector": "AI音频",
-      "location": "地点待核",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "Supertone",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "article_location": "",
-      "source": "创业邦",
-      "kind": "event",
-      "canonical_name": "Supertone",
-      "company_entity_id": "dr-u-ad884ae9e530c9cf7ffb",
-      "company_raw_name": "Supertone",
-      "identity_status": "unresolved",
-      "score": 50,
-      "is_national_star": false,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "收购及AI音频业务事实不足以建立Supertone的行业领先地位、技术优势或全国标杆资格。",
-        "evidence_ids": [
-          "article:5a620fe76a5658c9"
-        ]
-      },
-      "published_date": "2026-11-11",
-      "insight": "进入娱乐集团体系，为Supertone的AI音频技术增加了与艺人和内容生产结合的路径。实际产业价值应从具体产品应用判断，不能由收购金额反推技术效果。",
-      "financing": "收购方为HYBE；文章所述金额为450亿韩元，股权比例未披露",
-      "event_date": "",
-      "event_headline": "Supertone据报道被HYBE以450亿韩元收购",
-      "event_signal": "major",
       "discovery_status": "first_seen"
     }
   ],
@@ -157801,6 +158132,57 @@
       "event_headline": "丘沃智能完成新疆无人深翻实测并披露作业系统",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "丘沃智能计划于11月底在新疆芳草湖农场开设首家直营旗舰店，围绕其当地实测基地开展展示、体验，并计划形成可复制的实施标准作业流程与培训体系。原文称，公司拟依托与临工集团的战略合作，复用经销商与服务网络拓展更多垦区。",
+      "article_title": "无人拖拉机真正下地了！新疆大田深翻30+厘米，丘沃智能开物™系统首次完整曝光",
+      "event_type": "商业化布局计划",
+      "link": "https://mp.weixin.qq.com/s/afcdRWyUCSH6SA-TA9cLmg",
+      "sector": "农业无人化设备交付与服务",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "浙江丘沃智能科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "浙江丘沃智能科技有限公司",
+      "company_entity_id": "dr-u-92018064f82b20b401de",
+      "company_raw_name": "丘沃智能",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原文支持无人作业产品与服务建设计划，但未建立可核验的行业地位；宣传性的“国内首款”及推广预期不足以单独授予全国标杆资格。",
+        "evidence_ids": [
+          "article:1a9cadf984641dc0"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "首家直营店计划把田间演示转为可接触的体验、培训与实施入口，回应无人农机采用过程中“谁来部署、谁来教用”的问题。这里值得观察的是能否沉淀跨农场复用的实施与服务方法，而非仅看门店是否开业。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "丘沃智能计划在芳草湖开设首家无人农机直营店",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
     }
   ],
   "本源智简": [
@@ -157863,6 +158245,8 @@
       "insight": "Tetra-1试图把科研人员在文献解释与结构预测工具之间往返的工作，转为同一模型内的机制分析和结构推演；PTP1B案例展示的价值，是围绕研究问题寻找可能有用的蛋白质形态，而不只是输出一个静态结构。下一步最有辨别力的观察，是它能否在未参与开发的新靶点上提出经实验验证的机制或结构假设。",
       "financing": "",
       "event_date": "2026-11-10",
+      "event_headline": "本源智简上线Tetra-1预览版，融合自然语言与蛋白质结构推理",
+      "event_signal": "material",
       "discovery_status": "first_seen"
     }
   ],
@@ -157923,6 +158307,213 @@
       "event_date": "2026-09-11",
       "event_headline": "平头哥于2026年提交保密上市申请，拟在港独立上市",
       "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "纽氏达特": [
+    {
+      "date": "2026-11-12",
+      "title": "文章称，纽氏达特将于11月13日迎来创业板IPO上会，计划募资8.23亿元，其中约6.23亿元用于建设智能制造基地，项目达产后每年新增130万台减速器和20万套传动模组产能。公司2025年精密行星减速器产量约50万台、模组产量3.22万套，产能利用率为101.81%。据文章转述的招股书测算，新项目完全达产后每年新增折旧摊销约6682万元。",
+      "article_title": "山东59岁老板：9个月赚了1.7亿",
+      "event_type": "IPO",
+      "link": "https://mp.weixin.qq.com/s/mqKpKtUzEs9Qispz6wg11Q",
+      "sector": "机器人核心零部件与精密传动",
+      "location": "地点线索：山东省淄博市（原文明确企业来自当地，未区分注册地与总部地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "纽氏达特",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "山东省淄博市（原文明确企业来自当地，未区分注册地与总部地）",
+      "source": "铅笔道",
+      "kind": "event",
+      "canonical_name": "纽氏达特",
+      "company_entity_id": "dr-u-c1881b0eac1a9e611ebf",
+      "company_raw_name": "纽氏达特",
+      "identity_status": "unresolved",
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文提供了具体客户采购和扩产计划，足以支持事件收录；但行业排名未附明确统计口径，市场份额为文章转述保荐机构基于单机用量假设的测算，尚不足以据此独立确认全国标杆资格。此结论不否定其产业线索价值。",
+        "evidence_ids": [
+          "article:06b280ae5d9274d5"
+        ]
+      },
+      "published_date": "2026-11-10",
+      "insight": "此次拟募资扩产指向独立传动供应商扩大批量供给能力：减速器之外，新增产能也覆盖传动模组。扩产能否转化为持续优势，关键在于客户外购需求能否承接新增供给；公司2024年与2025年产能利用率的大幅变化，说明既有满产状态不能直接外推为长期需求。",
+      "financing": "拟通过创业板IPO募资8.23亿元，其中约6.23亿元投向智能制造基地。文章称国家先进制造基金持股5.45%；时代泽远、厦门雅恒亦为公司股东，本次未披露新的股权融资完成事项。",
+      "event_date": "",
+      "event_headline": "纽氏达特拟创业板上会，募资扩建减速器及模组产能",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "文章援引最新招股书称，纽氏达特2026年前三季度营收5.29亿元，同比增长60.45%；归母净利润1.71亿元，同比增长75.19%。具身智能业务收入由2023年的30.70万元、2024年的723.56万元增至2025年的9662.82万元，2025年同比增长1235%；2026年上半年收入5938.91万元，同比增长315%。2025年智元采购3702万元，与优必选合计采购超过6100万元。截至2026年6月末，公司在手订单3亿元，同比增长224.63%。2025年移动机器人业务收入1.36亿元；2026年上半年新能源换电业务收入4170万元，同比增长143.94%。常规行星减速器平均售价由2024年的844元降至2025年的791元、2026年上半年的704元。",
+      "article_title": "山东59岁老板：9个月赚了1.7亿",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/mqKpKtUzEs9Qispz6wg11Q",
+      "sector": "机器人核心零部件与精密传动",
+      "location": "地点线索：山东省淄博市（原文明确企业来自当地，未区分注册地与总部地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "纽氏达特",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "山东省淄博市（原文明确企业来自当地，未区分注册地与总部地）",
+      "source": "铅笔道",
+      "kind": "event",
+      "canonical_name": "纽氏达特",
+      "company_entity_id": "dr-u-c1881b0eac1a9e611ebf",
+      "company_raw_name": "纽氏达特",
+      "identity_status": "unresolved",
+      "score": 45,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前材料足以支持关键部件商业化与客户供给进展，但行业排名和不低于23%的市场份额仅见媒体转述，其中份额依赖单台使用22台精密减速器的测算假设；未提供对应原始口径及独立核验材料，尚不据此确认全国标杆资格。",
+        "evidence_ids": [
+          "article:06b280ae5d9274d5"
+        ]
+      },
+      "published_date": "2026-11-10",
+      "insight": "具身智能收入增长与智元采购增加表明，纽氏达特的人形机器人业务已形成实际销售，而不只是概念布局；仓储移动机器人和换电设备业务则提供了不同应用场景的需求支撑。但常规行星减速器均价连续下降，说明业务增长不能直接等同于定价能力增强，也不能把这一产品口径的降价全部归因于人形机器人客户。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "纽氏达特披露前三季度营收5.29亿元，具身业务扩张",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "上海珑睿信息科技有限公司": [
+    {
+      "date": "2026-11-12",
+      "title": "文章称，珑睿科技是腾讯长三角人工智能超算中心的建设运营主体，其已建成的智算中心支撑腾讯混元大模型与腾讯元宝的主要训练推理，也是上海市公共算力服务平台的五个中心之一。文中同时回顾了该项目自2020年开始建设及相关股权交易的历史。",
+      "article_title": "黄仁勋大瓜女主背后的资本故事，二十年的投资布局！",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/EU6DAlpHV27-ccEJAauWuA",
+      "sector": "人工智能算力基础设施",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "上海珑睿信息科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "烯牛数据",
+      "kind": "event",
+      "canonical_name": "上海珑睿信息科技有限公司",
+      "company_entity_id": "dr-u-7dc9755f68e550037b53",
+      "company_raw_name": "珑睿科技",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "珑睿科技",
+          "relation": "same_entity",
+          "evidence": "珑睿科技（上海珑睿信息科技有限公司）"
+        }
+      ],
+      "score": 45,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体模型服务关系和公共算力平台成员身份支持产业观察价值，但尚不足以建立本主体相对于同行的技术领先性、运营优势或全国行业地位，不据此授予全国标杆资格。",
+        "evidence_ids": [
+          "article:97a6f3cfc85c2661"
+        ]
+      },
+      "published_date": "2026-11-10",
+      "insight": "珑睿科技值得关注的不是投资方之间的关系，而是其建设的算力设施已承接腾讯大模型训练与推理工作。这说明其产业角色包含实际算力运营，而不只是数据中心项目建设；文章没有进一步披露其面向其他客户的服务情况。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "珑睿科技已建智算中心承接腾讯大模型训练推理",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "登临科技": [
+    {
+      "date": "2026-11-12",
+      "title": "登临科技于文中所述11月10日在港交所上市，发行价231港元，开盘价229港元，对应开盘市值约139亿港元。本次募资净额约13亿港元，约35%用于现有GPU产品线迭代、25%用于新产品类别开发、20%用于软件工具链，其余分别用于销售营销和营运资金。公司2026年前四个月收入2亿元，净亏损1647万元，经调整净利润2058万元；企业私有云占GPGPU收入83.0%，KS系列贡献收入82.9%，出货10246片。同期KS系列毛利率为41.9%，低于2025年的47.6%；前五大客户收入占比90.4%。",
+      "article_title": "苏州，冲出一家国产GPU上市公司，市值118亿",
+      "event_type": "IPO",
+      "link": "https://mp.weixin.qq.com/s/lKF-6C2rV-xExovkPsi5Cw",
+      "sector": "半导体／通用GPU／企业AI算力",
+      "location": "地点线索：主要总部：江苏省苏州市苏州工业园区；原文称2024年由上海迁入。当前注册地未明确。",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "登临科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "主要总部：江苏省苏州市苏州工业园区；原文称2024年由上海迁入。当前注册地未明确。",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "登临科技",
+      "company_entity_id": "dr-u-5b8d7b70f159560678c0",
+      "company_raw_name": "登临科技",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-11-10",
+      "insight": "登临的增长路径不是追逐最大模型的极限性能，而是以低功耗内存和片上数据复用服务更看重部署成本、能效与私有化的企业客户，KS系列放量已使这一定位成为收入主线。不过，KS毛利率下降且客户高度集中，说明收入放量尚未同时带来稳定的产品议价能力和分散的客户结构。",
+      "financing": "本次IPO募资净额约13亿港元；此前累计完成多轮融资，金额约15亿元。北极光旗下越焯发行后持股10.14%；元禾控股通过风险投资和基石投资合计投入约6.5亿元，发行后合计持股约9.94%。",
+      "event_date": "2026-11-10",
       "discovery_status": "first_seen"
     }
   ],
@@ -160851,6 +161442,8 @@
       "insight": "神州租车将闪充车辆与机场取车站点一起投放，使补能设施直接进入租车服务流程。其价值在于将车辆和补能服务配套部署，而不只是增加新能源车型；实际充电时长及运营效果尚未披露。",
       "financing": "",
       "event_date": "2026-11-10",
+      "event_headline": "神州租车联合比亚迪在济南机场站投放首批闪充车及配套站",
+      "event_signal": "material",
       "discovery_status": "first_seen"
     }
   ],
