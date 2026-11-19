@@ -2383,6 +2383,117 @@
       "discovery_status": "first_seen"
     }
   ],
+  "HYBE": [
+    {
+      "date": "2026-11-12",
+      "title": "文章称，HYBE以450亿韩元收购AI音频公司Supertone，未交代交易日期、收购股权比例及金额对应的具体交易范围。",
+      "article_title": "第一个被AI做大的国家，现在怎么样了？",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/cd-vzwkrAoaN13SZnB-yQw",
+      "sector": "AI音频与娱乐科技",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "HYBE",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "HYBE",
+      "company_entity_id": "dr-u-1fdfab469323e06ac359",
+      "company_raw_name": "HYBE",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据支持具体技术并购及应用线索，但未建立HYBE在相关技术产业中的领先地位或全国标杆资格；事件保留不自动授予标杆标签。",
+        "evidence_ids": [
+          "article:5a620fe76a5658c9"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "收购AI音频公司使HYBE能够把人声技术纳入艺人产品开发链条。文章同时提到AI艺人尝试，但没有交代两者的技术分工，不能仅按叙述先后断言具体产品完全由此次收购促成。",
+      "financing": "文章所述收购金额为450亿韩元，股权比例及交易范围未披露",
+      "event_date": "",
+      "event_headline": "HYBE据报道以450亿韩元收购AI音频公司Supertone",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "文章称，HYBE推出提取歌手李贤人声的AI艺人MIDNATT，未披露推出日期、人声技术实现方式及具体产品数据。",
+      "article_title": "第一个被AI做大的国家，现在怎么样了？",
+      "event_type": "产品应用",
+      "link": "https://mp.weixin.qq.com/s/cd-vzwkrAoaN13SZnB-yQw",
+      "sector": "AI音乐与数字艺人",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "HYBE",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "HYBE",
+      "company_entity_id": "dr-u-1fdfab469323e06ac359",
+      "company_raw_name": "HYBE",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "MIDNATT",
+          "relation": "product",
+          "evidence": "HYBE砸450亿韩元收购AI音频公司Supertone，推出提取歌手李贤人声的AI艺人MIDNATT。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "单一AI艺人应用案例未建立HYBE在相关技术上的领先地位或可授予标杆标签的独立依据。",
+        "evidence_ids": [
+          "article:5a620fe76a5658c9"
+        ]
+      },
+      "published_date": "2026-11-11",
+      "insight": "MIDNATT把歌手的人声资源用于AI艺人产品，显示AI音频正在进入艺人形态设计，而不只是后台制作工具。其创新落点应从声音处理与面向听众的实际体验来辨别。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "HYBE据报道推出使用李贤人声的AI艺人MIDNATT，推出日期未披露",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
   "宁波超平面机器人科技公司": [
     {
       "date": "2026-11-13",
@@ -2436,15 +2547,15 @@
       "discovery_status": "first_seen"
     }
   ],
-  "美团": [
+  "思灵机器人": [
     {
-      "date": "2026-11-15",
-      "title": "美团开源LongCat-2.5，采用MIT协议，支持商用推理部署及二次训练，无需额外授权。模型面向长程智能体任务，总参数1.6万亿，每个token激活约480亿参数，支持一百万上下文。正文称其在复杂代码库开发、完整项目构建、Visual Coding和专业办公方面提升，并对显存、带宽受限的国产芯片开展架构、适配和部署协同优化。",
-      "article_title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
-      "event_type": "重磅发布",
-      "link": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
-      "sector": "多模态基础模型与AI智能体",
-      "location": "地点待核",
+      "date": "2026-11-14",
+      "title": "文章援引彭博社消息称，思灵机器人完成5亿美元融资，估值85亿美元，文中折合人民币566.88亿元。软银集团领投，英伟达、日立与T.Capital跟投，融资将用于美国及其他市场扩张，并增强制造能力。",
+      "article_title": "566 亿估值！黄仁勋、孙正义投了哈工大学霸",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/QWvMM5kpylyP2AD91mnS8g",
+      "sector": "机器人与工业自动化",
+      "location": "地点线索：总部：德国慕尼黑、中国北京；原文未披露注册地。",
       "geography": {
         "geography_status": "unknown",
         "classification": "unknown",
@@ -2454,7 +2565,7 @@
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "美团",
+        "subject": "思灵机器人",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
@@ -2463,33 +2574,139 @@
         },
         "basis": []
       },
-      "article_location": "",
-      "source": "创业邦",
+      "article_location": "总部：德国慕尼黑、中国北京；原文未披露注册地。",
+      "source": "烯牛数据",
       "kind": "event",
-      "canonical_name": "美团",
-      "company_entity_id": "dr-u-cd6362472aea60ef45d5",
-      "company_raw_name": "美团",
+      "canonical_name": "思灵机器人",
+      "company_entity_id": "dr-u-eb9ed70b72fd7f80307e",
+      "company_raw_name": "思灵机器人（Agile Robots）",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Agile Robots",
+          "relation": "same_entity",
+          "evidence": "思灵机器人（Agile Robots）"
+        }
+      ],
+      "score": 60,
+      "is_national_star": false,
+      "published_date": "2026-11-12",
+      "insight": "这轮融资对应的是机器人企业向跨市场制造与交付扩张，而不只是增加研发投入：原文明确将资金用途指向市场扩张和制造能力，公司业务也已覆盖机器人本体与工业自动化。对杭州机器人企业而言，值得对标的是产品走向海外时，制造供给与交付能力如何同步建立。",
+      "financing": "本轮融资5亿美元，估值85亿美元；软银集团领投，英伟达、日立与T.Capital跟投。文章称公司累计获得8轮融资，累计融资额据悉约20亿美元。",
+      "event_date": "",
+      "event_headline": "据报道，思灵机器人完成5亿美元融资，拟扩张市场及制造能力",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-14",
+      "title": "文章称，2026年4月，陈兆芃主导思灵机器人完成对德国蒂森克虏伯自动化工程公司的收购，补充全球整厂工程交付能力，业务覆盖从AI机器人本体到整线集成。",
+      "article_title": "566 亿估值！黄仁勋、孙正义投了哈工大学霸",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/QWvMM5kpylyP2AD91mnS8g",
+      "sector": "机器人与工业自动化",
+      "location": "地点线索：总部：德国慕尼黑、中国北京；被收购企业原文称为德国蒂森克虏伯自动化工程公司。",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "思灵机器人",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "总部：德国慕尼黑、中国北京；被收购企业原文称为德国蒂森克虏伯自动化工程公司。",
+      "source": "烯牛数据",
+      "kind": "event",
+      "canonical_name": "思灵机器人",
+      "company_entity_id": "dr-u-eb9ed70b72fd7f80307e",
+      "company_raw_name": "思灵机器人",
       "identity_status": "unresolved",
       "score": 50,
       "is_national_star": false,
       "benchmark_review": {
         "status": "not_qualified",
         "eligible": false,
-        "reason": "现有证据支持具体开源及部署适配进展，但未提供足以确立主体行业标杆地位的同条件比较、客户应用或独立评测依据；参数规模与企业知名度不能替代该资格证明。",
+        "reason": "原文提供了机器人部署、客户及整厂交付能力等对标线索，但未建立经独立核验的行业领先地位或全国标杆资格；本次并购事件可保留，不据此自动授予标杆标签。",
         "evidence_ids": [
-          "article_body:89cbdab615245430"
+          "article:97144d2c8599a19b"
         ]
       },
-      "published_date": "2026-11-14",
-      "insight": "MIT授权降低了商用部署和二次训练的授权约束，长上下文与国产芯片适配则面向复杂项目中的信息容纳及运行条件；具体端到端交付提升仍需由任务测试解释。",
+      "published_date": "2026-11-12",
+      "insight": "这项收购拓宽的是思灵机器人承接客户任务的边界：从提供机器人本体，延伸到组织整条产线乃至整厂工程交付。机器人产品要进入工厂，通常还须接入生产流程与其他设备；补充工程集成能力，使企业能够承担更完整的自动化项目。",
       "financing": "",
       "event_date": "",
-      "event_headline": "美团开源LongCat-2.5，支持商用与百万上下文",
+      "event_headline": "思灵机器人2026年4月完成收购，拓展整厂工程交付能力",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-14",
+      "title": "文章称，思灵机器人于10月21日在NVIDIA GTC Berlin发布Agile ONE SN，为研究团队和开发者提供预配置的参考人形机器人平台。文中称该平台可将准备时间从数周缩短至数天；英伟达机器人产品总监Spencer Huang表示，约80%集成度的系统可以加快研究进度。",
+      "article_title": "566 亿估值！黄仁勋、孙正义投了哈工大学霸",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/QWvMM5kpylyP2AD91mnS8g",
+      "sector": "人形机器人与具身智能开发平台",
+      "location": "地点线索：总部：德国慕尼黑、中国北京；发布活动提及地：柏林，不作为公司总部或注册地。",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "思灵机器人",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "总部：德国慕尼黑、中国北京；发布活动提及地：柏林，不作为公司总部或注册地。",
+      "source": "烯牛数据",
+      "kind": "event",
+      "canonical_name": "思灵机器人",
+      "company_entity_id": "dr-u-eb9ed70b72fd7f80307e",
+      "company_raw_name": "思灵机器人",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Agile ONE SN",
+          "relation": "product",
+          "evidence": "思灵机器人在 NVIDIA GTC Berlin 发布 Agile ONE SN，一套为研究和开发者预配置的参考人形机器人平台。"
+        }
+      ],
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原文支持具体产品进展，也提供融资及部署规模背景，但尚未建立该主体在同类研究平台中的行业地位、可比优势或已审全国标杆资格；不能仅凭融资规模、投资方或产品发布授予标签。",
+        "evidence_ids": [
+          "article:97144d2c8599a19b"
+        ]
+      },
+      "published_date": "2026-11-12",
+      "insight": "Agile ONE SN面向的是研究团队在正式开展实验前的系统集成工作，而非直接替代工厂岗位。预配置平台把部分准备工作前移至供应方，有望让开发者更早进入算法和任务研究；原文所述数周到数天的变化对应准备周期，不能横推为机器人任务性能提升。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "思灵机器人发布Agile ONE SN，提供预配置人形研究平台",
       "event_signal": "material",
       "discovery_status": "first_seen"
-    }
-  ],
-  "思灵机器人": [
+    },
     {
       "date": "2026-11-15",
       "title": "周报称，智能机器人系统研发商思灵机器人宣布完成34.05亿元人民币F轮融资，为本周期国内AI融资事件中披露金额最高者。正文未提供投资方、资金用途或对应产品信息。",
@@ -2539,7 +2756,7 @@
       "event_date": "",
       "event_headline": "思灵机器人宣布完成34.05亿元F轮融资",
       "event_signal": "major",
-      "discovery_status": "first_seen"
+      "discovery_status": "update"
     },
     {
       "date": "2026-11-17",
@@ -2642,6 +2859,59 @@
       "event_headline": "思灵机器人2026年4月完成收购，补入整厂工程交付能力",
       "event_signal": "major",
       "discovery_status": "update"
+    }
+  ],
+  "美团": [
+    {
+      "date": "2026-11-15",
+      "title": "美团开源LongCat-2.5，采用MIT协议，支持商用推理部署及二次训练，无需额外授权。模型面向长程智能体任务，总参数1.6万亿，每个token激活约480亿参数，支持一百万上下文。正文称其在复杂代码库开发、完整项目构建、Visual Coding和专业办公方面提升，并对显存、带宽受限的国产芯片开展架构、适配和部署协同优化。",
+      "article_title": "黄仁勋辞职冲击美国AI行业；张一鸣最新内部发声；Anthropic豪掷34亿美元自建发电设备丨AI周报",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/Tl07BEnvT4GUBRdIzGEQeg",
+      "sector": "多模态基础模型与AI智能体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "美团",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "美团",
+      "company_entity_id": "dr-u-cd6362472aea60ef45d5",
+      "company_raw_name": "美团",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持具体开源及部署适配进展，但未提供足以确立主体行业标杆地位的同条件比较、客户应用或独立评测依据；参数规模与企业知名度不能替代该资格证明。",
+        "evidence_ids": [
+          "article_body:89cbdab615245430"
+        ]
+      },
+      "published_date": "2026-11-14",
+      "insight": "MIT授权降低了商用部署和二次训练的授权约束，长上下文与国产芯片适配则面向复杂项目中的信息容纳及运行条件；具体端到端交付提升仍需由任务测试解释。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "美团开源LongCat-2.5，支持商用与百万上下文",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
     }
   ]
 }
