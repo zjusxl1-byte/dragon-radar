@@ -2334,5 +2334,70 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "米哈游": [
+    {
+      "date": "2026-11-21",
+      "title": "米哈游崩坏AI研发团队发布Gamer研究，将跨游戏实时键鼠操作、长期记忆与规划纳入统一的视觉—语言—动作（VLA）框架。演示《崩坏：星穹铁道》的主力版本基于80亿参数的Qwen3-VL-8B进一步训练，运行时依靠屏幕画面、任务指令和已有记忆决策，无需读取游戏内部接口或底层状态。报道所述评估覆盖五个主线篇章、总计约50小时，自主运行时间占比超过95%。训练依次采用跨游戏持续预训练、约1000小时高质量《崩铁》演示的监督微调及TA-GRPO在线强化学习；训练后台负责环境初始化与结果核验。模型每隔200毫秒读取画面，一次安排六个约33毫秒的动作块，对应30Hz控制节奏，并使用稀疏思考、记忆摘要及Streaming-vLLM推理引擎降低长流程推理与执行开销。报道列出的四项公共基准中，Gamer-8B-CPT平均得分为29.5，所列通用模型对照最高为17.6；在七类小游戏、40个未参与训练的任务中，基座、持续预训练、监督微调及强化学习后的成绩分别为3.2%、15.0%、39.2%和49.7%，所列通用模型对照最高为17.1%。团队提出未来可用于自动化测试、游戏迭代及新玩法机制。",
+      "article_title": "米哈游发了个VLA论文",
+      "event_type": "技术研究",
+      "link": "https://mp.weixin.qq.com/s/V2hbAoNCauZKhC5c_MUgWA",
+      "sector": "游戏人工智能／多模态交互智能体",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "米哈游",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "米哈游",
+      "company_entity_id": "dr-u-7b0537129aa42ab55ff5",
+      "company_raw_name": "米哈游",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Gamer",
+          "relation": "product",
+          "evidence": "就在米哈游崩坏AI研发团队最新发布的研究Gamer中——"
+        },
+        {
+          "name": "崩坏：星穹铁道",
+          "relation": "product",
+          "evidence": "《崩坏：星穹铁道》是米哈游开发的一款银河冒险题材的回合制角色扮演游戏。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "报道提供特定游戏和研究基准的实验结果，足以支持技术观察，但尚不足以独立建立主体全国标杆地位或真实业务中的领先性。",
+        "evidence_ids": [
+          "article:e57e5a034f4f9a91"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "insight": "Gamer把游戏智能体的能力从短时操作推进到由记忆衔接的长流程执行：稀疏思考减少常规操作中的推理负担，记忆摘要保留跨阶段进度，约50小时评估中的自主运行表现提供了具体支撑。对米哈游而言，这为探索自动化游戏测试提供了技术基础；下一步值得辨别的是，模型能否把任务执行转化为可复现的问题发现与定位，而不只是完成游戏流程。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "米哈游发布Gamer研究，推进游戏智能体长流程自主操作",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
