@@ -2052,6 +2052,85 @@
       "event_headline": "谷歌据报道于2026年4月发布两颗AI芯片并扩充TPU供货协议",
       "event_signal": "major",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "本文称谷歌以具身推理模型组织流程、Gemini Robotics 2.5承担动作执行，相关技术已进入梅赛德斯-奔驰工厂开展零件分拣装盘。谷歌为技术提供方，奔驰为应用场景方；具体应用日期、实施范围及试点或生产阶段未披露。Gemini 4 Argon开放已有历史收录，不作为本次新增发布。",
+      "article_title": "OpenAI为何撤销机器人团队？当最大的发明已经确认，不要幻想出现第二个奇迹",
+      "event_type": "机器人技术应用",
+      "link": "https://mp.weixin.qq.com/s/KH3U69OgxJnlQUjDd4Hl4w",
+      "sector": "人工智能 / 工业机器人",
+      "location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 1600 Amphitheatre Parkway, Mountain View, California 94043, USA",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3a340af67840603b02e5d106"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "谷歌",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-3a340af67840603b02e5d106",
+            "source_url": "https://policies.google.com/terms?hl=en",
+            "checked_at": "2026-10-12T03:53:52.842268+00:00",
+            "subject": "谷歌",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Mountain View",
+              "address": "1600 Amphitheatre Parkway, Mountain View, California 94043, USA"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Mountain View",
+          "evidence_ids": [
+            "geo-3a340af67840603b02e5d106"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "谷歌",
+      "company_entity_id": "dr-u-6e7e64cf66f76a043f8d",
+      "company_raw_name": "谷歌",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具名模型及工厂任务可支持技术应用观察，但本条未建立该方案的行业领先性、可靠性或可复制部署表现，不能自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:8ea537fe271e8ef8"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "event_identity": {
+        "canonical_id": "本文称，谷歌同期发布Gemini 4 Argon与新一代机器人动作模型Gemini Robotics 2.5，由具身推理模型负责流程、动作模型负责机械臂操作，并已进入梅赛德斯-奔驰工厂开展零件分拣装盘。本文另称，通用模型用于构建仿真和分析失败，再将相关结果用于动作模型训练。"
+      },
+      "insight": "谷歌在本文中的路径不是取消专用动作模型，而是让通用推理与动作执行分层协作，工厂零件分拣装盘提供了具体应用对象。这构成对“通用模型必然替代专用机器人模型”的重要备选解释：两者也可能通过训练和执行分工互补。",
+      "financing": "",
+      "event_date": "",
+      "discovery_status": "update"
     }
   ],
   "无限工坊": [
@@ -2700,6 +2779,216 @@
       "financing": "",
       "event_date": "",
       "event_headline": "Mithril Medicine借助Claude推进至小鼠实验",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "普方生物": [
+    {
+      "date": "2026-11-21",
+      "title": "文章回顾普方生物被Genmab以18亿美元收购。乐贝林称，其创始团队来自西雅图基因科技（Seagen），三名团队成员分别负责转化医学、临床和生产。原文未说明收购发生时间及交易金额构成。",
+      "article_title": "高榕创投乐贝林：医疗投资里没有完美公司，但企业的长板必须足够长",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/lTKD0zLDNUUqH4Emfo1asw",
+      "sector": "生物医药",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "普方生物",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "普方生物",
+      "company_entity_id": "dr-u-21f44d97800e2f42b74d",
+      "company_raw_name": "普方生物",
+      "identity_status": "unresolved",
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "收购金额与团队背景足以支持事件价值，但尚未建立普方生物具体产品、技术领先性或行业位置的独立证据，不能仅凭跨国收购授予全国标杆资格。",
+        "evidence_ids": [
+          "article:86663a6b318ef38c"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "insight": "这笔收购使普方生物进入国际药企整合创新资产的路径。团队覆盖转化医学、临床和生产，说明其能力结构不只集中于早期研究，但本文不足以确定收购方具体看中了哪项产品优势。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "普方生物被Genmab以18亿美元收购，访谈回顾团队基础",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "阶梯医疗": [
+    {
+      "date": "2026-11-21",
+      "title": "乐贝林在介绍高榕系统性布局脑机接口时，明确提到最近投资了阶梯医疗。原文未披露融资轮次、金额、其他投资方及资金用途。",
+      "article_title": "高榕创投乐贝林：医疗投资里没有完美公司，但企业的长板必须足够长",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/lTKD0zLDNUUqH4Emfo1asw",
+      "sector": "脑机接口",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "阶梯医疗",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "阶梯医疗",
+      "company_entity_id": "dr-u-083000f3d7ac861c6d2d",
+      "company_raw_name": "阶梯医疗",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "投资方将其称为国内头部公司，但所供材料未建立可独立复核的行业领先比较及具体杭州对标依据；获投本身不自动赋予全国标杆资格。",
+        "evidence_ids": [
+          "article:86663a6b318ef38c"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "insight": "高榕近期投资为阶梯医疗增加了明确的资本参与方，也体现其脑机接口业务获得专业投资机构关注。本文未披露资金用途，不能进一步归因为某项研发或临床计划获得专项支持。",
+      "financing": "高榕近期投资，轮次、金额和资金用途未披露。",
+      "event_date": "",
+      "event_headline": "阶梯医疗近期获高榕投资，轮次与金额未披露",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "文章配图说明写明“阶梯医疗受试者脑控机械臂拿起棒棒糖”，另有“阶梯医疗临床手术现场”配图说明。正文未披露该操作的发生时间、系统配置、控制方式或试验指标。",
+      "article_title": "高榕创投乐贝林：医疗投资里没有完美公司，但企业的长板必须足够长",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/lTKD0zLDNUUqH4Emfo1asw",
+      "sector": "脑机接口",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "阶梯医疗",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "阶梯医疗",
+      "company_entity_id": "dr-u-083000f3d7ac861c6d2d",
+      "company_raw_name": "阶梯医疗",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "单项图注支持具体应用场景，未提供可比较的控制能力、临床表现或行业领先依据，不足以独立建立全国标杆资格。",
+        "evidence_ids": [
+          "article:86663a6b318ef38c"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "insight": "脑控机械臂拿取具体物体，将脑机接口的用途呈现为可理解的外部设备操作，而非仅有信号采集概念。判断这项能力的应用价值，关键是进一步了解受试者能够自主完成哪些控制步骤，以及任务的重复表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "阶梯医疗受试者脑控机械臂拿起棒棒糖，报道展示操作场景",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "泽塔聚变": [
+    {
+      "date": "2026-11-21",
+      "title": "融资表记载，泽塔聚变于2026年7月完成数亿元天使轮融资，所在城市为北京。",
+      "article_title": "杭州甩出先进核能两张王牌",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/fLXP0X_cCq5B2tl4GeE5cQ",
+      "sector": "可控核聚变",
+      "location": "地点线索：北京；融资表所列所在城市",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "泽塔聚变",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "北京；融资表所列所在城市",
+      "source": "湖畔自留田",
+      "kind": "event",
+      "canonical_name": "泽塔聚变",
+      "company_entity_id": "dr-u-b7f2a1b8bf371aad5a26",
+      "company_raw_name": "泽塔聚变",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "天使轮融资证明资本成长节点，尚未建立该主体技术路线、产品能力或行业地位的独立对标优势。",
+        "evidence_ids": [
+          "article:5d43ca36f50e8aef"
+        ]
+      },
+      "published_date": "2026-11-20",
+      "insight": "天使轮为泽塔聚变提供了早期资本支持，也是北京聚变企业群体中的独立融资节点。若要形成对杭州有用的技术对标，需先明确其研发对象和拟解决的物理问题。",
+      "financing": "2026年7月，天使轮，数亿元。",
+      "event_date": "",
+      "event_headline": "泽塔聚变2026年7月完成数亿元天使轮融资",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
