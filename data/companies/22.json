@@ -2553,5 +2553,65 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "Simplex AI": [
+    {
+      "date": "2026-11-21",
+      "title": "Simplex AI创始人张博公布并开源个人智能体Linger。其核心系统Another Me可在本地读取收件箱、日历、聊天记录和会议，每晚整理个人知识库，结合信息的重要性、紧急性及用户反馈调整提醒规则；支持操作已登录的Chrome和桌面应用、由用户接管、组织多个智能体协同，以及会议实时转录与待办跟进。产品支持第三方模型，并通过PolyStrata专家混合模型推理引擎，按专家模块的使用情况在GPU显存、内存和SSD之间分层存储、动态调度。据文中援引的官方数据，125B参数的Qwen3.8-Flash-Next在12GB显存RTX 3060、64GB内存配置上生成速度为45.5 tokens/秒，在32GB显存RTX 5090上为179 tokens/秒。文中称Linger在长期对话记忆基准LoCoMo上的准确率为95%。Model Autopilot功能可检测硬件，从49个语言模型、两种推理引擎及多种量化方案、上下文长度组合中推荐并安装模型。",
+      "article_title": "DeepSeek张博创业曝光：开源个人Agent",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/C2MLudvWkqkOwtUaMSgjHw",
+      "sector": "人工智能／个人智能体／本地大模型推理",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Simplex AI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Simplex AI",
+      "company_entity_id": "dr-u-9882437ee5c9da18eaf0",
+      "company_raw_name": "Simplex AI",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Linger",
+          "relation": "product",
+          "evidence": "Linger就是Simplex AI的最新作品。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据支持具体产品与技术路线发现，未建立行业地位、可比竞争优势或独立验证的标杆依据；创始人履历和团队自报测试不能自动授予资格。",
+        "evidence_ids": [
+          "article:eb15b22bc2626140"
+        ]
+      },
+      "published_date": "2026-11-20",
+      "insight": "Simplex AI把个人信息记忆、桌面执行和本地模型适配组合成同一套办公助手：利用电脑已有登录环境执行任务，再用持续积累的个人知识和反馈调整主动提醒。PolyStrata通过跨显存、内存和SSD调度专家模块降低大模型对显存容量的要求，使消费级电脑成为其个人智能体的运行载体；实际交互体验仍取决于长上下文、多任务下的响应表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Simplex AI开源桌面个人智能体Linger，整合本地记忆与推理",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
