@@ -2256,24 +2256,62 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/3G6_JWqopolwCM84AGiyFg",
       "sector": "智能扫描设备",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市南山区粤海街道深圳湾生态园四区12栋B座裙楼7层722房",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市南山区粤海街道深圳湾生态园四区12栋B座裙楼7层722房",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-3eb7fbbd53499c1e70e826a1"
+        ],
+        "subject_evidence_ids": [
+          "geo-3eb7fbbd53499c1e70e826a1"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "成者(CZUR)",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-3eb7fbbd53499c1e70e826a1"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-3eb7fbbd53499c1e70e826a1",
+            "source_url": "https://www.czur.com/cn/contactus",
+            "checked_at": "2026-11-21T04:02:47.003561+00:00",
+            "subject": "成者(CZUR)",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "南山区",
+              "address": "深圳市南山区粤海街道深圳湾生态园四区12栋B座裙楼7层722房"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "南山区",
+          "evidence_ids": [
+            "geo-3eb7fbbd53499c1e70e826a1"
+          ]
+        }
       },
       "article_location": "",
       "source": "晚点 LatePost",

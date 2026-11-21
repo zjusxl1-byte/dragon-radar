@@ -5420,7 +5420,7 @@
     "2026-11-20": "dfcfdf08fb2991cdf00ab18b46197782088c5c675fa18945af5aa205768fe405"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "2fafe1a995b5663c58f820b471d5701becc94ac6ab12c1f77f54e549f6c83ac8",
+  "geography_version": "1c516b230b2ba363317982fc2891d188bfdfe9d709d036946065ef41a06b0d26",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -8749,10 +8749,51 @@
       "located_status": "unknown"
     },
     "dr-u-18126b597cb25ebbc663": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市浦东新区张江路18号",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-6bd14c4dcc8826c095d2a3e7"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "中芯国际",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-6bd14c4dcc8826c095d2a3e7",
+          "source_url": "https://www.qianzhan.com/investment/invdetail/5/22399.html",
+          "checked_at": "2026-11-21T03:56:49.941495+00:00",
+          "subject": "中芯国际",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "浦东新区",
+            "address": "上海市浦东新区张江路18号"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "district": "浦东新区",
+        "evidence_ids": [
+          "geo-6bd14c4dcc8826c095d2a3e7"
+        ]
+      }
     },
     "dr-u-1817d915e57a47edb68f": {
       "geography_status": "unknown",
@@ -9264,10 +9305,60 @@
       "located_status": "unknown"
     },
     "dr-u-1d45179f4a5aba199880": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "广东省 / 深圳市南山区粤海街道深圳湾生态园四区12栋B座裙楼7层722房",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-3eb7fbbd53499c1e70e826a1"
+      ],
+      "subject_evidence_ids": [
+        "geo-3eb7fbbd53499c1e70e826a1"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "成者(CZUR)",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "深圳市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-3eb7fbbd53499c1e70e826a1"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-3eb7fbbd53499c1e70e826a1",
+          "source_url": "https://www.czur.com/cn/contactus",
+          "checked_at": "2026-11-21T04:02:47.003561+00:00",
+          "subject": "成者(CZUR)",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "深圳市",
+            "district": "南山区",
+            "address": "深圳市南山区粤海街道深圳湾生态园四区12栋B座裙楼7层722房"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "南山区",
+        "evidence_ids": [
+          "geo-3eb7fbbd53499c1e70e826a1"
+        ]
+      }
     },
     "dr-u-1d99cc69a8ba22eb7d71": {
       "geography_status": "confirmed",
@@ -68078,7 +68169,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "42847dd329976414edd010dba9185b5d5a356ffbdf3a34de80971293a30f12f2",
+  "history_version": "8668236e3b000a99810995ecb552619eaf3166c70084266ee57effc74ab44dc2",
   "company_history_buckets": {
     "00": "f3033ea86792f587a3602129e197dd32e9172d75368f7ef939cc9bc213d11860",
     "01": "3e64b5404f599211bc11e289354401974a4b3c69034c7dd18b2c8e6d605ed94d",
@@ -68090,7 +68181,7 @@
     "07": "9752a3d725837562624930d3ed95d44b33bff5f0f8ff002a081c7f98112e7b3c",
     "08": "90c8fe3a373fa5530d532910f0761380a59ca44f81f480a44b475502971a9c89",
     "09": "d2151e8e6e727491c1c3d6daca5983b6aa2b81183cb92fe36ff5e80ea228178f",
-    "0a": "ce518fde8a7b6dc5b5986cdbe8b8e75c25bc43e130cfabb3c9ec444eb7fc91c0",
+    "0a": "02b997267b0a476eb5f1fad9a11ee49a727894ff12886601873b5793efa4f74b",
     "0b": "ccf7c74da1bfe3f1260cec3c03bcde51477e0ca3181c29af7245ad45d5da08a7",
     "0c": "94c7292f5fc31d374f797054b4ef46c0866eb7954614334fee7276ee95140482",
     "0d": "2fbc540f7d9a685dbbf8ac320ac9a5afa6e48617aab679e03f2a587cf2f516d7",
@@ -68114,7 +68205,7 @@
     "1f": "141ce82c16c2edafe6e45bf620f3888cfeaccb668a8f910327940b0209138ce3",
     "20": "a2d1dc324e92a202b175cb57e88ec4964d1daf3907d8f99fea6489888145d12e",
     "21": "1159c5b68fba1e47ce6a622e0136e59698d31820eebf4b6c537594b09979dc95",
-    "22": "0c9747902401109157fde4e780cc6144a413ecc9c0cd14416bd706c8610fe8c6",
+    "22": "fef1e3104c3320d4e803f9d08ba67a3342e891f7e7f59a288d085ff4ff8a3a6d",
     "23": "4f1c151fe5a704f942e0ee82fa56dcc2f8f5f48003dd023e6b9fe9908a177b44",
     "24": "46f06c7fb7bcb1f4172e984e18af66a2b22794de7bfaa540e0a7f6f2d9b8b979",
     "25": "7c278b1546f5ff029c6dcaa02c6babf2ed2d94bb19509c3937b3eeebe424c8c8",
@@ -68145,7 +68236,7 @@
     "3e": "fe712a483bc993b623c7fd0e289f43435db540f2c7c8c06a0f6ed8d5da140487",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "1b8040e6fadf921b00242d944b7251219cbdde49b72dee719e0c2a3d366b6dae",
+  "history_search_version": "9a287f924be309d323c7a5982c58439fbc837b7e1c7216ca2afd3bdb51e967c5",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
