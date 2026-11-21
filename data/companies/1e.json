@@ -1855,5 +1855,59 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "商汤": [
+    {
+      "date": "2026-11-21",
+      "title": "据本文转述，商汤日日新联合研究团队将外部通用模型GPT-6 Astra接入单臂、双臂、移动机器人及人形机器人等八种平台。在双臂插花实验中，模型调用空闲机械臂的摄像头观察被遮挡的瓶口，随后完成插入。实验发生日期及完整测试条件未披露，不认定为商汤自研基础模型、独立复现结果或工业部署。",
+      "article_title": "OpenAI为何撤销机器人团队？当最大的发明已经确认，不要幻想出现第二个奇迹",
+      "event_type": "研究实验",
+      "link": "https://mp.weixin.qq.com/s/KH3U69OgxJnlQUjDd4Hl4w",
+      "sector": "人工智能 / 机器人控制",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "商汤",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "商汤",
+      "company_entity_id": "dr-u-6416272bf06ab3ec25bf",
+      "company_raw_name": "商汤",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "单篇报道中的联合团队实验不足以建立商汤在机器人控制领域的独立行业地位或全国标杆资格。",
+        "evidence_ids": [
+          "article:8ea537fe271e8ef8"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "event_identity": {
+        "canonical_id": "本文称，商汤日日新联合研究团队将同一个GPT-6 Astra接入单臂、双臂、移动机器人和人形机器人等8种平台，无需为每个平台单独训练，只需告知平台约束。在双臂插花任务中，模型发现持花机械臂的腕部摄像头视野被花瓶口遮挡，调用空闲机械臂补充观察视角，随后完成插入。"
+      },
+      "insight": "这项实验值得关注的不是平台数量本身，而是模型能否主动改变观察方式来解决操作障碍。调用另一只机械臂补视角，将感知动作与操作任务联系起来，体现了比固定动作执行更灵活的现场纠错路径。",
+      "financing": "",
+      "event_date": "",
+      "discovery_status": "first_seen"
+    }
   ]
 }
