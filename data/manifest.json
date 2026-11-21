@@ -5482,7 +5482,7 @@
     "2026-11-21": "a304e1c7b9e49c58bae565610df2b7a63adfc303aec612db1946f31f7d47168e"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "1c516b230b2ba363317982fc2891d188bfdfe9d709d036946065ef41a06b0d26",
+  "geography_version": "5535e219033009564e3ad232ec5bc6b58e9d1ab6c58d3664c670a3201aa51d4e",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -12958,10 +12958,50 @@
       "located_status": "unknown"
     },
     "dr-u-34edbe693663e5f6e192": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 临平区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-fe7e0fd38112d911e3b70d19"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "浙江春风动力股份有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-fe7e0fd38112d911e3b70d19",
+          "source_url": "https://mp.weixin.qq.com/s/wmhcxSXU2xcvgOFnrSEsQA",
+          "checked_at": "2026-11-21T18:27:51.672678+00:00",
+          "subject": "浙江春风动力股份有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "临平区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "临平区",
+        "evidence_ids": [
+          "geo-fe7e0fd38112d911e3b70d19"
+        ]
+      }
     },
     "dr-u-3500e80c83391d4147fe": {
       "geography_status": "unknown",
@@ -68707,7 +68747,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "11de98cba3974f98afae9300feb3c487cdfa4667b54f26d20c97f2feead7a62c",
+  "history_version": "dbf6ac904d0b0639e0823b0f5e2fa7625390b21f1e203278f8e7e9826e98e4e5",
   "company_history_buckets": {
     "00": "a4c07dc5d4f2250c7b951fd5cf99525503e713878667a51d911968ddc5c2d841",
     "01": "3e64b5404f599211bc11e289354401974a4b3c69034c7dd18b2c8e6d605ed94d",
@@ -68726,7 +68766,7 @@
     "0e": "0b542539a058c397f88fb454a5e7d2fb22af05450a88c00c13fad1471f472ce0",
     "0f": "7e0b236f74d69b22fb7246c35ad759644bb7b7f16f07c658f2c3c6ecd6787e12",
     "10": "bcc0a2c6cfc965876b5c0832d9256e3b16f0bd5bfc8f609a97f9892ae5f17541",
-    "11": "e5f6bc865e07d85896f57c7bd470579f11c05848ed31dfe2caeb9230740def3f",
+    "11": "1d0f77de674238d446fe58d6af9a1f75df048d3eac6f10351431f94ceec00c2b",
     "12": "277cd322abc0900a2168781b2d0dacf2ae660704c7b8275aeac34e46f7599307",
     "13": "647ad57e92c974f49f517d72cf60d2e1b8f2fdc37d5ae218c97c47cc9a6a1b30",
     "14": "52cfca22eb151b68bf0fc3564c0688dc4c7cd4215e31c53697a6cdb4436b8109",
@@ -68774,7 +68814,7 @@
     "3e": "fe712a483bc993b623c7fd0e289f43435db540f2c7c8c06a0f6ed8d5da140487",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "083ebb6f20b3a516803d09d3e3fcdf800782aa0ba14c8fed521a8e017a18f9ee",
+  "history_search_version": "5c522d5eabf7e6b62bc946c8e5705f99691dd27397f5f14da8db53e566960ed9",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
