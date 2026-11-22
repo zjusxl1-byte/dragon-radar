@@ -3255,5 +3255,123 @@
       "event_signal": "major",
       "discovery_status": "first_seen"
     }
+  ],
+  "MachinePulse AI": [
+    {
+      "date": "2026-11-22",
+      "title": "MachinePulse AI开源Karpo Decision 31B，并同步提供0.8B、2B、4B、9B、12B和31B六种规模的决策模型。31B模型通过Readout Head直接输出候选选项概率，无需逐Token生成答案，支持选择、是非判断和评分三类任务，单题最多255个候选选项；Branch Attention支持256K上下文，共享背景材料只计算一次。文章披露，该模型在Decision Index总榜取得73.9的Full分，在JevBench公开题上的预期校准误差为2.3%；单张RTX PRO 6000处理公开集14万多次请求的中位响应时间为94毫秒。另在1K—4K Token请求条件下，单题中位耗时为371毫秒，每次请求包含16—63道题时为653毫秒。按JevBench的GPU成本估算，每1000次决策约0.025美元。团队采用面向校准决策的强化学习，并融合5个训练检查点；所述训练实验中，融合后公开测试成绩保持75.1，13个陌生领域的准确率由70.7%提高至72.3%，模型参数量和推理结构未增加。",
+      "article_title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/4N8Y12bIPGWnLBp95gtqgw",
+      "sector": "人工智能／Agent决策模型",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "MachinePulse AI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "MachinePulse AI",
+      "company_entity_id": "dr-u-be901be9d809cdc3c3c4",
+      "company_raw_name": "MachinePulse AI",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Karpo Decision 31B",
+          "relation": "product",
+          "evidence": "这位新晋决策高手，就是MachinePulse AI刚刚开源的Karpo Decision 31B。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "材料支持具体开源产品进展，但不足以建立全国标杆行业地位；地点未知，单项榜单和团队测试不能替代独立行业地位证据。",
+        "evidence_ids": [
+          "article:24fe8fc2aec19187"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "insight": "这次开源把工具选择、结果筛选和完成状态判断做成可独立部署的决策层：直接输出概率、共享多题上下文，减少了这些任务反复生成文字答案的开销。其价值不仅是答题更快，还在于开发者可以依据概率设置自动执行或转人工的阈值；公开题上的校准结果尚不能直接代表具体业务中的阈值可靠性。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "MachinePulse AI开源Karpo决策模型，直接输出选项概率",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "MachinePulse将已应用于自家Personal Agent产品Karpo的浏览器操作方案向开发者开源，包含TypeScript编写的karpo-browser框架、Karpo Decision 27B Act模型权重及KBB网页动作决策评测集。方案采用快慢双模型分工：DeepSeek V4.1 Flash负责理解需求、任务规划和信息准备，27B Act负责选择网页操作，框架负责读取网页、执行动作及处理页面变化和异常；27B Act单次动作决策中位时延为931毫秒。团队在Browserbase Benchmark v2全部102道任务上运行三轮，报告平均成功率89%、平均耗时201秒、单任务模型成本0.096美元；约78%的网页操作由决策模型完成，占整个Agent运行耗时的14%、模型成本的13%。文章称其相较Claude Fable 5.2与Claude Code组合速度约快1.9倍、模型成本约为十三分之一，同时说明Karpo未参加榜单排名，其102题三轮自测与榜单其他记录所述38题单轮测试的口径不同。KBB覆盖584个真实网站、23075步网页操作，支持真实网页录制与离线回放；框架可适配不同模型，并通过MCP接入Claude Code、Codex等Agent。",
+      "article_title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/4N8Y12bIPGWnLBp95gtqgw",
+      "sector": "人工智能／浏览器Agent基础设施",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "MachinePulse AI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "MachinePulse AI",
+      "company_entity_id": "dr-u-be901be9d809cdc3c3c4",
+      "company_raw_name": "MachinePulse",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "karpo-browser",
+          "relation": "product",
+          "evidence": "MachinePulse团队最新开源了这套名为karpo-browser的浏览器Agent方案，该方案创新地采用了System 1＋System 2的快慢双模型分工，让通用大模型和专门的决策模型搭伙干活。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "完整工具链和团队测试支持工程进展，但缺少足以建立全国标杆资格的独立行业地位依据；来源明确测试口径不同，不能据比较宣传授予标签。",
+        "evidence_ids": [
+          "article:24fe8fc2aec19187"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "insight": "MachinePulse把决策模型从通用判断推进到网页执行，并开放模型、执行框架和评测工具，开发者因而能复用一套完整的浏览器Agent实现。其团队测试显示，大部分网页操作可交给专用模型而只占较小的时间和模型成本；这支持按任务分工的产品路线，但不同题集和运行次数下的榜单记录不能直接确立全面领先。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "MachinePulse开源浏览器工具链，将规划与网页动作分工",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
