@@ -5,12 +5,12 @@
   "start_date": "2026-11-16",
   "end_date": "2026-11-22",
   "summary": {
-    "total_companies": 279,
-    "financing_events": 64,
+    "total_companies": 302,
+    "financing_events": 68,
     "ipo_events": 9,
-    "milestone_events": 69,
+    "milestone_events": 76,
     "negative_events": 1,
-    "active_days": 6
+    "active_days": 7
   },
   "top10": [
     {
@@ -489,6 +489,644 @@
           "reason": "本次证据支持具体产品开放及生态扩展，但未独立核验全国行业地位或可比领先程度；文中苹果类比和插件数量不能直接确立全国标杆资格。此裁决不影响本事件保留，也不撤销其他已审标签。",
           "evidence_ids": [
             "article:177f0e24024b0bfc"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "阿里",
+      "title": "29岁，一位字节女将爆红",
+      "company": "阿里",
+      "score": 100,
+      "sector": "人工智能／基础设施",
+      "financing": "约800亿港元配售；报道将其与加码AI基础投入联系。",
+      "source": "投资界",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "subject_evidence_ids": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-96adb38b9ecaed1e412df1a7"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+            "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+            "checked_at": "2026-10-15T18:26:21.338217+00:00",
+            "subject": "阿里",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路969号"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1d99cc69a8ba22eb7d71",
+      "company_canonical_name": "阿里",
+      "identity_status": "unresolved",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/FARb_7XwJVkNadiHe9_4Kg",
+      "article_title": "29岁，一位字节女将爆红",
+      "event_desc": "正文称，阿里已完成约800亿港元配售，以加码AI基础投入；未提供配售完成日期、发行主体全称、发行价格及具体资金安排。",
+      "insight": "这笔配售是文章披露的独立资本节点，其科技产业意义在于为AI基础投入提供资金支持。正文没有说明具体建设对象，尚不能进一步判断资金将改变哪个算力或模型研发环节。",
+      "event_headline": "阿里据报道已完成约800亿港元配售以加码AI投入",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "已读本候选所供完整正文。文章明确称阿里已完成约800亿港元配售，并将其联系到AI基础投入，提供了独立资本节点，而非仅以科技企业身份或一般财务指标推想产业价值。沿用原阿里观察主体，不补写发行法律实体，不将融资归给阿里云或千问团队；registry尚未归档及未列工商全称，本身不构成当前集团层面报道的主体矛盾。2026年11月21日原始新闻发布时间已提供且符合窗口，配售实际完成日期及首次收录时间未知，不写成当日完成。所供历史及旧排除涉及其他产品、算力分配、工程工期或组织沿革，未见同一配售事件。按媒体回顾口径保留，不补造资金细项、算力采购、项目开工或研发效果；杭州主要总部已有官网依据，不再沿用上游地点未确认的理由。",
+      "event_headline_source": "463a2ba24433c4ed561c5375fa1a28002f5c9c09ba2a872123ad4b7c2e869c1e",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+          "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+          "checked_at": "2026-10-15T18:26:21.338217+00:00",
+          "subject": "阿里",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "文一西路969号"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条证明资本补充与AI基础投入的关联，但未提供独立的技术领先性、交付优势或行业地位比较依据；不以融资规模自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:121ee7a1a9485d1c"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "c393cf90f323ab752c544015d2076c23e49d3505f29ec4fba76186309fe0bfb9",
+        "input_row_sha256": "afd84d59ad595396099f5fa2ccb72a24c458c66de1d6de5f04b900998bf03475",
+        "reason": "已读本候选所供完整正文。文章明确称阿里已完成约800亿港元配售，并将其联系到AI基础投入，提供了独立资本节点，而非仅以科技企业身份或一般财务指标推想产业价值。沿用原阿里观察主体，不补写发行法律实体，不将融资归给阿里云或千问团队；registry尚未归档及未列工商全称，本身不构成当前集团层面报道的主体矛盾。2026年11月21日原始新闻发布时间已提供且符合窗口，配售实际完成日期及首次收录时间未知，不写成当日完成。所供历史及旧排除涉及其他产品、算力分配、工程工期或组织沿革，未见同一配售事件。按媒体回顾口径保留，不补造资金细项、算力采购、项目开工或研发效果；杭州主要总部已有官网依据，不再沿用上游地点未确认的理由。",
+        "scope": {
+          "technology_evidence": "原文具体披露阿里完成约800亿港元配售，并明确用于加码AI基础投入的报道关联。",
+          "value_reason": "资本补充与AI基础投入直接相连，可独立观察科技企业支持长期基础设施投入的融资路径；不要求同时披露技术突破，也不据此认定资金已形成算力或产品成果。"
+        },
+        "stage": {
+          "status": "reported_completed_placement",
+          "reason": "正文用“完成”描述配售，并用“早早”表明属于既有资本安排的回顾。新闻发布于2026年11月21日，配售完成日期、具体发行条款和首次收录时间均未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46",
+            "accepted_history:35f7b7ab635baa9b",
+            "accepted_history:f6d8b155f87b4309"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:e8832231a14da1a3",
+              "comparison": "different_event",
+              "reason": "旧项是100天建设数据中心的孤立工期陈述，不是配售融资。"
+            },
+            {
+              "evidence_id": "prior_decision:d0a7cda99e5a8167",
+              "comparison": "different_event",
+              "reason": "旧项是阿里云向外部模型客户配置算力的重复报道，与资本补充不同。"
+            },
+            {
+              "evidence_id": "prior_decision:e5721f2dfbcc26f1",
+              "comparison": "different_event",
+              "reason": "旧项排除既有算力分配事实的重报，不涉及本次配售。"
+            },
+            {
+              "evidence_id": "prior_decision:bbc64fc537da8827",
+              "comparison": "different_event",
+              "reason": "旧项是外部模型客户算力配置重复，与融资事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:53af43d462f03c9b",
+              "comparison": "different_event",
+              "reason": "旧项因数据中心100天工期缺少工程边界而不单列，不适用于配售事实。"
+            },
+            {
+              "evidence_id": "prior_decision:ebffcf3f3409ee7e",
+              "comparison": "different_event",
+              "reason": "旧项为既有算力分配安排重复，本条为资本节点。"
+            },
+            {
+              "evidence_id": "prior_decision:e918801b4c2f792e",
+              "comparison": "different_event",
+              "reason": "旧项涉及数据中心施工周期及交付边界，不是本事件。"
+            },
+            {
+              "evidence_id": "prior_decision:db7608dae3b7bcf4",
+              "comparison": "different_event",
+              "reason": "旧项排除同一算力配置消息重报，没有覆盖配售。"
+            },
+            {
+              "evidence_id": "prior_decision:12bd1f0cb029b06f",
+              "comparison": "different_event",
+              "reason": "旧项是千问办公形成过程的组织背景，配售具有不同的资本事实。"
+            },
+            {
+              "evidence_id": "prior_decision:cc192949c5a33d70",
+              "comparison": "different_event",
+              "reason": "旧项涉及多个AI项目整合，不是配售融资。"
+            },
+            {
+              "evidence_id": "prior_decision:b2ec3824cdc5ea5c",
+              "comparison": "different_event",
+              "reason": "旧项为千问办公组织沿革及泛称电商渗透，不能扩展为本次融资排除依据。"
+            }
+          ],
+          "change_reason": "所供历史未见同一约800亿港元配售。既有外部算力分配及2030年国产芯片规划分别属于资源配置和供应链规划，本条增加资本补充事实，不改判其他事件，也不宣称全库首次发现。",
+          "new_evidence_ids": [
+            "article:121ee7a1a9485d1c"
+          ]
+        },
+        "evidence_ids": [
+          "article:121ee7a1a9485d1c",
+          "geo-96adb38b9ecaed1e412df1a7",
+          "history_lookup:b052fccd76c1aa46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条证明资本补充与AI基础投入的关联，但未提供独立的技术领先性、交付优势或行业地位比较依据；不以融资规模自动授予全国标杆资格。",
+          "evidence_ids": [
+            "article:121ee7a1a9485d1c"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "DeepSeek",
+      "title": "DeepSeek 千亿融资落地，一图看懂 DeepSeek 的千亿融资",
+      "company": "杭州深度求索人工智能基础技术研究有限公司",
+      "score": 100,
+      "sector": "人工智能",
+      "financing": "此前媒体报道口径为融资1055亿元、投后估值6155亿元。文章称腾讯、宁德时代各出资100亿元，梁文锋再出资20亿元，国家人工智能产业投资基金追加投资10亿元，与首轮出资金额相同；中国移动、中国电信、中金公司、中信证券和中国人寿各自出资20亿至80亿元。杭州程砚层面的权益或出资比例为：腾讯9.5653%，宁德时代通过三只基金合计9.5653%，中国移动及中信证券投资各7.6522%，砺思资本相关基金7.1740%。上述融资金额、平台登记出资额及平台权益比例分别沿用原文口径。",
+      "source": "烯牛数据",
+      "location": "浙江省 / 杭州市",
+      "article_location": "浙江省 / 杭州市（复用已提供的同主体总部地点证据，非由新增股东名称推断）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_status": "confirmed",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/1cpOTSHeDWRwOLQ3xhx-SA",
+      "article_title": "DeepSeek 千亿融资落地，一图看懂 DeepSeek 的千亿融资",
+      "event_desc": "据文章披露，DeepSeek工商主体注册资本由约1645万元增至1991.8707万元，增幅约21.1%，新增股东杭州程砚企业管理咨询合伙企业（有限合伙），持股约17.3%。杭州程砚同期新增31家合伙人，登记出资额由0.6万元增至343897.9万元。文章另援引此前媒体报道，称DeepSeek将完成1055亿元股权融资，投后估值6155亿元；文章将本次工商变更描述为第二轮融资在工商层面落地。",
+      "insight": "本次变化首先体现在资本组织方式：外部资金通过持股平台集中进入，平台执行事务合伙人仍由梁文锋控制的公司担任，体现了吸纳资本与保留平台管理权并行的安排。投资方覆盖互联网、新能源及金融机构，说明其资本参与面扩大，但文章没有披露这些出资方与DeepSeek之间新增的技术合作或客户关系。",
+      "event_headline": "DeepSeek据报道完成增资并新增持股平台股东",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-20",
+        "event_date": null,
+        "observed_date": "2026-11-20",
+        "review_required": true
+      },
+      "published_date": "2026-11-20",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文具体报道DeepSeek工商主体增资并新增杭州程砚为股东，区别于此前仅披露融资金额、投资方或基金募集路径。继承已确认DeepSeek别名和稳定主体，杭州总部依据来自既存政府证据，而非持股平台名称。基础模型企业引入外部资本的工商实施节点具有独立资本成长观察价值，本次仅保留这一进展，不另算新融资轮次。1055亿元及6155亿元仍为此前媒体报道口径，平台登记出资额不等于DeepSeek融资实缴；公司增资和平台新增合伙人也不能证明全部资金到账。原始新闻发布时间2026-11-20T12:07:00Z已提供，符合七日窗口，上游缺发布时间和缺历史材料的理由不再成立。工商变更精确日期未知，不以报道日代替。另一历史来源曾提及工商变更，但其已审候选是旧融资及算力规划，不能据同一文章出现相关内容认定本工商事件已公开收录。",
+      "event_headline_source": "59ebd6578daca5ce7b91cf7569b386e986947a9ab799d9ab90729bc7d2f757bb",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本次工商及融资报道支持资本成长进展，但未建立独立的全国行业地位或技术、商业化领先性比较；融资规模、企业知名度及上游标签不足以自动授予标杆资格。",
+        "evidence_ids": [
+          "article:eff6a00564c2d767"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "f5813fa34a3aa0c27a7dd71a5ceedff0f86a3a77ab34dd7c47dc5e8cb3f79b9a",
+        "input_row_sha256": "d5e297d7b0f69e70b85e034a419fdb690b6255e9bffa3c2ce24bde06f0509325",
+        "reason": "完整正文具体报道DeepSeek工商主体增资并新增杭州程砚为股东，区别于此前仅披露融资金额、投资方或基金募集路径。继承已确认DeepSeek别名和稳定主体，杭州总部依据来自既存政府证据，而非持股平台名称。基础模型企业引入外部资本的工商实施节点具有独立资本成长观察价值，本次仅保留这一进展，不另算新融资轮次。1055亿元及6155亿元仍为此前媒体报道口径，平台登记出资额不等于DeepSeek融资实缴；公司增资和平台新增合伙人也不能证明全部资金到账。原始新闻发布时间2026-11-20T12:07:00Z已提供，符合七日窗口，上游缺发布时间和缺历史材料的理由不再成立。工商变更精确日期未知，不以报道日代替。另一历史来源曾提及工商变更，但其已审候选是旧融资及算力规划，不能据同一文章出现相关内容认定本工商事件已公开收录。",
+        "scope": {
+          "technology_evidence": "已确认主体从事人工智能基础模型业务；当前正文披露该主体注册资本变更、新增持股平台股东，以及平台集中引入外部合伙人的资本实施安排。",
+          "value_reason": "将已报道的第二轮融资推进到可辨识的公司股东及注册资本变化，提供资本进入组织方式的实质信息；不依赖虚构资金用途、客户合作或技术收益证明其价值。"
+        },
+        "stage": {
+          "status": "reported_completed_registration_change",
+          "reason": "正文称工商主体已完成注册资本变更并新增股东；这是媒体据工商信息披露的已发生登记变化。融资总额、全部交割及实缴到账未由该登记变化单独证明。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:e8a5886aa0c156ad",
+            "prior_decision:e7deda0f6354a412",
+            "prior_decision:0ef7955f91d699c6",
+            "prior_decision:7e394b4f7f40d077",
+            "prior_decision:e0e7fea7a2037e79",
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:32fffa5346c94646",
+              "comparison": "different_event",
+              "reason": "旧项为同版本模型发布转载去重，与股东及增资变更不同。"
+            },
+            {
+              "evidence_id": "prior_decision:45a66ae95482f362",
+              "comparison": "new_progress",
+              "reason": "旧项只重复二轮融资规模和投资方；当前增加公司层股东及增资登记变化。"
+            },
+            {
+              "evidence_id": "prior_decision:880e90efb1737bd7",
+              "comparison": "new_progress",
+              "reason": "旧项缺新增交割或资本实施事实；当前新增工商变更，但仍不证明全额交割。"
+            },
+            {
+              "evidence_id": "prior_decision:80fb107219f591f3",
+              "comparison": "new_progress",
+              "reason": "旧项为同轮融资重复报道；当前有具体股东及注册资本变化。"
+            },
+            {
+              "evidence_id": "prior_decision:78814bbddfa96173",
+              "comparison": "new_progress",
+              "reason": "旧裁决排除基金募集及LP解释性补充；当前新增公司层登记节点，不以基金募集冒充融资到账。"
+            },
+            {
+              "evidence_id": "prior_decision:c0340006c041913d",
+              "comparison": "new_progress",
+              "reason": "旧项为同轮基金通道及认缴细节；当前增加融资接受方股东和注册资本变更。"
+            },
+            {
+              "evidence_id": "prior_decision:6ff1c90693ed78c0",
+              "comparison": "new_progress",
+              "reason": "旧裁决针对基金层解释性资料；当前保留的是公司层工商实施变化。"
+            },
+            {
+              "evidence_id": "prior_decision:6e9b7ee8ca131a17",
+              "comparison": "new_progress",
+              "reason": "旧项未建立新的公司融资实施节点；当前具体披露新增股东及增资。"
+            },
+            {
+              "evidence_id": "prior_decision:9bb1808162ce2b36",
+              "comparison": "new_progress",
+              "reason": "旧项为资金来源结构补充；本次公司登记变化超出仅补充LP名单。"
+            },
+            {
+              "evidence_id": "prior_decision:c4ac6d7c70d0bcc1",
+              "comparison": "new_progress",
+              "reason": "旧项基金完成募集不等于公司交割；当前另有公司股东及增资变化，仍不认定全额到账。"
+            },
+            {
+              "evidence_id": "prior_decision:886c84e099fea241",
+              "comparison": "new_progress",
+              "reason": "旧裁决认为融资通道解释不足以另刊；当前增加公司层登记事实。"
+            },
+            {
+              "evidence_id": "prior_decision:211afb0620e659e6",
+              "comparison": "new_progress",
+              "reason": "旧项缺独立资本节点；当前有新增股东及注册资本变化，不重复报道既有融资金额。"
+            },
+            {
+              "evidence_id": "prior_decision:859bc403751bedb1",
+              "comparison": "different_event",
+              "reason": "旧项为科创板上市传闻无程序增量，与本次股权登记变化不同。"
+            },
+            {
+              "evidence_id": "prior_decision:e1296aaa3f432930",
+              "comparison": "different_event",
+              "reason": "旧项为IPO筹备重复报道，不约束本次工商变更。"
+            },
+            {
+              "evidence_id": "prior_decision:31748980348ea4f5",
+              "comparison": "new_progress",
+              "reason": "旧项只有同轮融资收尾及员工期权背景；当前新增公司层登记变化，不改判期权价值。"
+            },
+            {
+              "evidence_id": "prior_decision:d6bc65c91ab24026",
+              "comparison": "different_event",
+              "reason": "旧项未见IPO程序进展，与本次增资及新增股东不同。"
+            },
+            {
+              "evidence_id": "prior_decision:c1707122594950dd",
+              "comparison": "new_progress",
+              "reason": "旧项未见新交割节点；当前保留具体登记变化，但不扩大为全部交割完成。"
+            },
+            {
+              "evidence_id": "prior_decision:f7014050cbc7ad30",
+              "comparison": "different_event",
+              "reason": "旧项为拟上市信息重复，与本次公司股权变更不同。"
+            },
+            {
+              "evidence_id": "prior_decision:9e7aa6f3ac9c4e50",
+              "comparison": "different_event",
+              "reason": "旧项为上市时间传闻，当前并未据此确认IPO进展。"
+            },
+            {
+              "evidence_id": "prior_decision:7434cce9c6c20cb0",
+              "comparison": "different_event",
+              "reason": "旧项为IPO筹备重复，不涉及本次新增持股平台登记。"
+            },
+            {
+              "evidence_id": "prior_decision:a4a68ced57c891f0",
+              "comparison": "different_event",
+              "reason": "旧项为TileLang采用事实重复，与资本事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:a03c7fd12e112705",
+              "comparison": "different_event",
+              "reason": "旧项为应用API及聊天前端开放重复，与工商变更不同。"
+            },
+            {
+              "evidence_id": "prior_decision:27f920aec777dd65",
+              "comparison": "new_progress",
+              "reason": "旧项月度统计仅概称融资完成；当前提供具体增资及新增股东信息，不仅依赖完成措辞。"
+            },
+            {
+              "evidence_id": "prior_decision:e8781dc95b23d99d",
+              "comparison": "new_progress",
+              "reason": "旧项转述同轮融资金额及估值；当前增加公司层登记节点。"
+            },
+            {
+              "evidence_id": "prior_decision:9a1f9c0095ad8faf",
+              "comparison": "different_event",
+              "reason": "旧项为TileLang使用历史重复，与本次融资实施变化不同。"
+            },
+            {
+              "evidence_id": "prior_decision:b644c06b1b95019a",
+              "comparison": "different_event",
+              "reason": "旧项为同一API开放事件重复，与本次资本事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:029dd5b3d0b52ae0",
+              "comparison": "new_progress",
+              "reason": "旧项仅有融资月度统计及完成表述；当前补充具体工商变更事实。"
+            },
+            {
+              "evidence_id": "prior_decision:79a1f655c743db75",
+              "comparison": "different_event",
+              "reason": "旧项为算子开发工具采用事实重复，不构成资本事项排除依据。"
+            },
+            {
+              "evidence_id": "prior_decision:d5a4b17af2968e61",
+              "comparison": "new_progress",
+              "reason": "旧项未新增交易实施事实；当前新增股东及注册资本变化。"
+            },
+            {
+              "evidence_id": "prior_decision:7bb4682e127836c7",
+              "comparison": "different_event",
+              "reason": "旧项为TileLang重复收录，与当前事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:5f056adec10e8a81",
+              "comparison": "different_event",
+              "reason": "旧项为API及前端产品开放重复，与工商变更不同。"
+            },
+            {
+              "evidence_id": "prior_decision:244c93b1acd036a4",
+              "comparison": "new_progress",
+              "reason": "旧项没有超出融资统计口径；当前提供公司层登记进展。"
+            },
+            {
+              "evidence_id": "prior_decision:9996b386bd338018",
+              "comparison": "new_progress",
+              "reason": "旧项重复二轮融资金额、估值和参与方；当前增加具体登记变化。"
+            },
+            {
+              "evidence_id": "prior_decision:eafc04d614f77014",
+              "comparison": "different_event",
+              "reason": "旧项为工具采用重复，与资本实施事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:46d608e23ddccf31",
+              "comparison": "different_event",
+              "reason": "旧项为应用API开放重复，与股权登记不同。"
+            },
+            {
+              "evidence_id": "prior_decision:374a2a9f21b6e86b",
+              "comparison": "new_progress",
+              "reason": "旧项仅凭统计归类不能解除交割待核；当前有具体登记事实，但仍不解除全部到账缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:1bd0c1f0854f9211",
+              "comparison": "different_event",
+              "reason": "旧候选为历史510亿元融资且存储主体冲突；当前稳定主体一致，审的是二轮相关工商变化，不据此修复旧候选身份。"
+            },
+            {
+              "evidence_id": "prior_decision:5e1719d860cea119",
+              "comparison": "different_event",
+              "reason": "旧项为历史融资金额和轮次核对；本次不将510亿元认作新融资，也不改写其主体。"
+            },
+            {
+              "evidence_id": "prior_decision:e0e7fea7a2037e79",
+              "comparison": "different_event",
+              "reason": "旧候选为乌兰察布规划重复；旧理由提及同文另有工商变更，但未审为该项目候选的独立资本事件。"
+            },
+            {
+              "evidence_id": "prior_decision:adcd15fc8eea37df",
+              "comparison": "different_event",
+              "reason": "旧项针对历史510亿元融资及主体冲突，当前不是该笔历史融资。"
+            },
+            {
+              "evidence_id": "prior_decision:d1aa57284f541723",
+              "comparison": "different_event",
+              "reason": "旧项为算力中心规划；同文提及资本事项不等于资本事件已经单列收录。"
+            },
+            {
+              "evidence_id": "prior_decision:dc2fc12df6fbe089",
+              "comparison": "different_event",
+              "reason": "旧项为历史融资金额差异及身份核对，与当前二轮相关登记变化不同。"
+            },
+            {
+              "evidence_id": "prior_decision:b4fca80e70df9cc4",
+              "comparison": "different_event",
+              "reason": "旧项为乌兰察布项目无建设增量；本次不将资本变化推为开工或采购。"
+            },
+            {
+              "evidence_id": "prior_decision:58dd83f33ff5fa2e",
+              "comparison": "different_event",
+              "reason": "旧项为510亿元历史融资口径，本次不解除其轮次和金额缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:12887f982956dda3",
+              "comparison": "different_event",
+              "reason": "旧项为历史融资及存储主体冲突，当前候选自身主体已一致。"
+            },
+            {
+              "evidence_id": "prior_decision:cfbbcee250ad6108",
+              "comparison": "different_event",
+              "reason": "旧项为数据中心规划重复，本次不据工商变更认定建设进展。"
+            },
+            {
+              "evidence_id": "prior_decision:aab5148fd9ccefcb",
+              "comparison": "different_event",
+              "reason": "旧项为历史510亿元融资辨识，与当前新增持股平台不同。"
+            },
+            {
+              "evidence_id": "prior_decision:971427be8994945d",
+              "comparison": "different_event",
+              "reason": "旧项为算力项目规划及主体修复，当前不修改其旧裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:2d19ba365aa641fb",
+              "comparison": "different_event",
+              "reason": "旧项为历史融资轮次和金额核对，不因本次登记变化自动解决。"
+            },
+            {
+              "evidence_id": "prior_decision:f946b1ba8dd8a30e",
+              "comparison": "different_event",
+              "reason": "旧项为乌兰察布项目未有开工、采购或投运增量，与本资本事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:2e6be879dbc0493a",
+              "comparison": "different_event",
+              "reason": "旧项针对历史510亿元融资，不是本次二轮融资相关登记节点。"
+            },
+            {
+              "evidence_id": "prior_decision:8efc84a6604ed5f8",
+              "comparison": "different_event",
+              "reason": "旧项为算力建设规划，不以当前股权变化替代建设证据。"
+            },
+            {
+              "evidence_id": "prior_decision:80ae9a27f89f46e1",
+              "comparison": "different_event",
+              "reason": "旧项为模型更新转载去重，与资本变更不同。"
+            },
+            {
+              "evidence_id": "prior_decision:32e66738fb3c21d7",
+              "comparison": "different_event",
+              "reason": "旧项为API故障及补偿重复预警，与资本进展不同。"
+            },
+            {
+              "evidence_id": "prior_decision:34ff088823bc33a7",
+              "comparison": "new_progress",
+              "reason": "旧项仅重复同轮融资规模和主要投资方；当前增加工商登记实施事实。"
+            },
+            {
+              "evidence_id": "prior_decision:0ef7955f91d699c6",
+              "comparison": "new_progress",
+              "reason": "旧待核涉及交割尾声、横店份额和基金路径；当前补充公司登记变化，仍不足以确认横店实际认购额及全部交割。"
+            },
+            {
+              "evidence_id": "prior_decision:7e394b4f7f40d077",
+              "comparison": "new_progress",
+              "reason": "当前提供旧项所缺的一部分资本实施信息，但未提供特定投资份额实缴或全轮完成证明。"
+            }
+          ],
+          "change_reason": "11月3日已收录第二轮融资金额、估值及投资方，后续若干报道因重复或仅有基金层信息被排除。本次新增DeepSeek公司注册资本变更及持股平台成为股东的具体事实，允许按同轮融资的工商进展保留；不是因更换URL或标题宣称融资落地而改判。当前历史检索错误为空，不沿用旧运行的读取异常，也不宣称全球首次或全量历史首次。",
+          "new_evidence_ids": [
+            "article:eff6a00564c2d767"
+          ]
+        },
+        "evidence_ids": [
+          "article:eff6a00564c2d767",
+          "identity_registry:2dcd4f408df25406",
+          "geo-8d153ebc1f63d3a87bb41366",
+          "accepted_history:e8a5886aa0c156ad"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本次工商及融资报道支持资本成长进展，但未建立独立的全国行业地位或技术、商业化领先性比较；融资规模、企业知名度及上游标签不足以自动授予标杆资格。",
+          "evidence_ids": [
+            "article:eff6a00564c2d767"
           ]
         }
       }
@@ -1079,6 +1717,180 @@
       }
     },
     {
+      "company_raw_name": "万事利、万事利丝绸",
+      "identity_mentions": [
+        {
+          "name": "GBART活性免水洗印染一体机",
+          "relation": "product",
+          "evidence": "生产交给智能机器：那台磨了十年的GBART活性免水洗印染一体机，把原来占地5000平方米的印染车间塞进一台50平方米的设备里，染料上染率接近100%，排出来的水是清的，一米面料也能起订。"
+        }
+      ],
+      "title": "跟着晓晓逛展会｜当历史经典遇上高科技",
+      "company": "万事利丝绸",
+      "score": 85,
+      "sector": "纺织智能制造与AI设计",
+      "financing": "",
+      "source": "浙商杂志",
+      "location": "浙江省杭州市天城路68号(万事利科技大厦)2幢5楼501室",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市天城路68号(万事利科技大厦)2幢5楼501室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-207b3c30ed685d959153a0f9"
+        ],
+        "subject_evidence_ids": [
+          "geo-365fb7809b3f7e370708b8fd"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "万事利丝绸",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-365fb7809b3f7e370708b8fd"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-207b3c30ed685d959153a0f9",
+            "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=301066&id=12205943",
+            "checked_at": "2026-11-08T17:38:55.633928+00:00",
+            "subject": "万事利丝绸",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "浙江省杭州市天城路68号(万事利科技大厦)2幢5楼501室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-207b3c30ed685d959153a0f9"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-bb566a2c40af79ffe69d",
+      "company_canonical_name": "万事利丝绸",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/40hkSM7R44HHurK583jyUA",
+      "article_title": "跟着晓晓逛展会｜当历史经典遇上高科技",
+      "event_desc": "报道介绍，万事利将AI花型设计与智能印染用于丝巾定制，称定制周期由过去15天缩短至2小时。其花型大模型积累70多万个花型、300多套算法，并宣称能为全球80亿人每人设计10万条不重样的丝巾。公司历经十年打磨的GBART活性免水洗印染一体机，据报道将原占地5000平方米的印染车间功能集成至一台50平方米的设备，染料上染率接近100%，排水为清水，一米面料也能起订。原文还回顾，今年9月，公司曾在“历史经典产业高质量发展”展示活动上演示从AI出图到丝巾成品的即时印花流程。",
+      "insight": "万事利的关键变化不是单独增加AI出图，而是把设计与可小批量起订的印染设备接起来，使个性化花型能够更快成为实物。报道中的2小时定制和一米起订，分别指向交付速度与生产批量两个约束的改变，值得进一步辨明其适用面料、工序和运行条件。",
+      "event_headline": "万事利丝绸以AI设计和即时印染支持两小时定制",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "当前正文直接采访万事利丝绸董事长，并介绍AI花型设计、GBART印染设备、2小时定制及一米起订，足以支持企业设计制造应用线索。旧watch所需的简称主体及地点证据已由本轮所供年报释义、注册地址和办公地址材料补足，不因registry仍显示unresolved而继续待核，也不把万事利集团自动并入该主体。与旧报道相比，AI设计和无水印染不是新出现的技术事件，但本篇新增设备名称、占地集成及小批量起订等实质细节，按同一技术应用事项的信息增量保留。两篇报道周期指标的工序和条件未统一，不能宣称从2天再次提升到2小时。发布日满足7天窗口，既有9月演示不因发生较早而失去线索资格。",
+      "event_headline_source": "a09635b0faa8e4c5bab908a6f7db3978f05cc799958f7e67525388c28680d206",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-207b3c30ed685d959153a0f9",
+          "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=301066&id=12205943",
+          "checked_at": "2026-11-08T17:38:55.633928+00:00",
+          "subject": "万事利丝绸",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "浙江省杭州市天城路68号(万事利科技大厦)2幢5楼501室"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "已确认杭州主体及具体技术应用，但产品介绍和企业性能口径不足以独立证明全国领先地位，不自动授予全国标杆或领导简报资格。",
+        "evidence_ids": [
+          "article:46f4b91485bbc3bf",
+          "geo-365fb7809b3f7e370708b8fd"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "498090f74251736b9e63e699c75fd8261feaf9f8a5ac12fa5313b5e4650cf056",
+        "input_row_sha256": "e3e803c160a4fa3d58c067901a970d75242721ca0489bb042ae5919393aaf153",
+        "reason": "当前正文直接采访万事利丝绸董事长，并介绍AI花型设计、GBART印染设备、2小时定制及一米起订，足以支持企业设计制造应用线索。旧watch所需的简称主体及地点证据已由本轮所供年报释义、注册地址和办公地址材料补足，不因registry仍显示unresolved而继续待核，也不把万事利集团自动并入该主体。与旧报道相比，AI设计和无水印染不是新出现的技术事件，但本篇新增设备名称、占地集成及小批量起订等实质细节，按同一技术应用事项的信息增量保留。两篇报道周期指标的工序和条件未统一，不能宣称从2天再次提升到2小时。发布日满足7天窗口，既有9月演示不因发生较早而失去线索资格。",
+        "scope": {
+          "technology_evidence": "报道将花型大模型与GBART活性免水洗印染一体机结合介绍，明确给出2小时定制、一米面料起订以及设备占地集成的应用描述。",
+          "value_reason": "新增信息将关注点从单纯AI出图推进到制造端的小批量门槛和空间集成：一米起订对应小批量定制的实际生产条件，值得据此研究设计制造协同。不将宣传性的组合数量、清水外观或单次交付口径推导为已验证的全产线性能与环保成效。"
+        },
+        "stage": {
+          "status": "已应用能力的报道与既有现场演示回顾",
+          "reason": "正文以现有定制流程和设备能力介绍为主，并回顾今年9月已有即时印花演示；不是新签订单、刚完成量产或新获认证。2小时和设备性能按报道归属表述，具体适用工序、运行条件及测定日期未知。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "prior_decision:1dcaae09964021d8",
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:1dcaae09964021d8",
+              "comparison": "new_progress",
+              "reason": "旧报道已披露同主体AIGC花型设计及无水印染缩短生产流程，不能因更换URL认定全新突破。当前报道补充GBART设备名称、空间集成和一米起订等制造事实，属于同一技术应用事项的实质信息增量。旧watch提出的主体映射及地点缺口已有本轮所供官方披露证据补足，旧候选来源闭包验证本身不作为业务批准。"
+            }
+          ],
+          "change_reason": "由旧watch转为本轮keep，依据是主体简称与法律主体、杭州注册及办公地址已有已审年报证据，同时当前正文直接归属业务并新增制造条件。此处new_progress指披露增量，不代表已证明发生了新的性能升级；本轮万事利展台候选的7分钟现场体验也不与2小时定制直接比较。",
+          "new_evidence_ids": [
+            "article:46f4b91485bbc3bf",
+            "geo-365fb7809b3f7e370708b8fd",
+            "geo-207b3c30ed685d959153a0f9"
+          ]
+        },
+        "evidence_ids": [
+          "article:46f4b91485bbc3bf",
+          "prior_decision:1dcaae09964021d8",
+          "history_lookup:b052fccd76c1aa46",
+          "geo-365fb7809b3f7e370708b8fd",
+          "geo-207b3c30ed685d959153a0f9"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "已确认杭州主体及具体技术应用，但产品介绍和企业性能口径不足以独立证明全国领先地位，不自动授予全国标杆或领导简报资格。",
+          "evidence_ids": [
+            "article:46f4b91485bbc3bf",
+            "geo-365fb7809b3f7e370708b8fd"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "蓝色起源",
       "title": "马斯克披露多项业务时间表：Optimus拟18个月内胜任家务，Terafab计划2028年底量产；我国新增34家领航级智能工厂丨智能制造日报",
       "company": "蓝色起源",
@@ -1251,675 +2063,6 @@
           "evidence_ids": [
             "article:c012368ba15fcf0e",
             "geo-7971bb458295361b0d7aab04"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "Anthropic",
-      "title": "杨植麟，要敲钟了",
-      "company": "Anthropic",
-      "score": 70,
-      "sector": "人工智能大模型与企业开发者服务",
-      "financing": "据文章所述上市方案，拟发行8.25亿股A类股票，发行价区间70至78美元，完全稀释后估值最高约1.41万亿美元；发行尚未完成。",
-      "source": "创业邦",
-      "location": "US / California / San Francisco",
-      "article_location": "美国加利福尼亚州旧金山（输入已审注册地）",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "US / California / San Francisco",
-        "located_status": "subject_confirmed",
-        "display_basis": [
-          "geo-98b8e2309e1c91685311fb4f"
-        ],
-        "subject_evidence_ids": [
-          "geo-98b8e2309e1c91685311fb4f"
-        ],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "Anthropic",
-        "subject_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "US",
-          "province": "California",
-          "city": "San Francisco",
-          "basis_roles": [
-            "registered"
-          ],
-          "evidence_ids": [
-            "geo-98b8e2309e1c91685311fb4f"
-          ]
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-98b8e2309e1c91685311fb4f",
-            "source_url": "https://www.anthropic.com/privacy",
-            "checked_at": "2026-10-12T03:44:07.679932+00:00",
-            "subject": "Anthropic",
-            "role": "registered",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "US",
-              "province": "California",
-              "city": "San Francisco"
-            }
-          }
-        ]
-      },
-      "company_entity_id": "dr-u-c70eca6b0f88f44d81a4",
-      "company_canonical_name": "Anthropic",
-      "identity_status": "confirmed",
-      "event_type": "IPO",
-      "link": "https://mp.weixin.qq.com/s/5gxLPT6Lim1-8IV_wnhBUw",
-      "article_title": "杨植麟，要敲钟了",
-      "event_desc": "据创业邦报道，Anthropic于2026年11月10日向美国SEC提交更新版招股书，拟发行8.25亿股A类股票，发行价区间为每股70至78美元，预计11月19日登陆纳斯达克。相较此前已收录的公开提交S-1，本次新增具体发行安排；尚非最终定价或上市完成。",
-      "insight": "本次增量不是再一次宣布准备上市，而是发行方案开始具有明确数量和价格区间，使企业级模型与编程服务进入可观察的公开市场定价阶段。后续应区分拟议价格、最终发行价格与实际募集资金，不能用尚未完成的发行证明市场认可、盈利改善或算力投入已经获得覆盖。",
-      "event_headline": "据报道Anthropic披露IPO发行数量及价格区间，预计11月19日上市",
-      "event_signal": "major",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "reported_filing_date_listing_upcoming",
-        "event_date": "2026-11-10",
-        "observed_date": "2026-11-16",
-        "description": "原文明确报道11月10日更新申报，新闻发布于11月16日；预计11月19日上市仍属upcoming。更新日期和条款为媒体披露，本轮未核读对应SEC文件。",
-        "review_required": false
-      },
-      "published_date": "2026-11-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "完整原文虽以月之暗面为主线，但独立披露Anthropic于11月10日更新申报、拟发行8.25亿股A类股票、每股70至78美元及预计11月19日上市的安排，Anthropic是发行主体而非仅被点名的同行。相较历史已核的公开提交S-1及季度收入披露，本次新增发行数量、价格区间与预期上市日，是同一IPO从公开申报向具体发行安排推进的资本成长线索；其价值在于观察企业级模型与编程服务商业化如何进入公开市场定价阶段，不依赖员工财富或总体营收。按媒体报道的拟议方案保留，不声称本轮核读SEC文件、发行已定价、募资到账或上市完成。新闻发布于2026年11月16日，符合本次七日窗口；历史已提供，不能沿用上游缺少发布时间和历史的理由。美国登记主体不列杭州负面预警，经营亏损仅为背景，不据此新增风险栏目或解除旧财务口径待核。",
-      "event_headline_source": "aa3604ba20c965e965033046ce7d21dd9f9c46e4ced8b18b118c038b2ee46048",
-      "event_identity": {
-        "canonical_id": "文章称，Anthropic于11月10日向美国SEC提交更新版招股书，拟发行8.25亿股A类股票，发行价区间为每股70至78美元，完全稀释后估值最高约1.41万亿美元，预计11月19日登陆纳斯达克。文章援引该招股书称，公司2025年收入45.85亿美元，2026年前九个月收入332.42亿美元，同时仍有高额算力投入及经营亏损。"
-      },
-      "location_status": "subject_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-98b8e2309e1c91685311fb4f",
-          "source_url": "https://www.anthropic.com/privacy",
-          "checked_at": "2026-10-12T03:44:07.679932+00:00",
-          "subject": "Anthropic",
-          "role": "registered",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "US",
-            "province": "California",
-            "city": "San Francisco"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "复用既有明确审核尚未建立独立标杆资格的边界。本次具体发行方案支持普通全球产业观察，但拟议估值、发行规模及收入背景没有提供新的独立同行比较或行业地位证据，不自动授予全国标杆或领导简报资格。",
-        "evidence_ids": [
-          "accepted_history:90433f9d0be5a66a",
-          "accepted_history:90a734573abe91f3",
-          "article:d9443442ae6f3e5a"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "quality_inspector Agent",
-        "candidate_id": "5d9738b07b0aa5231881fd9a2a6e3f1580c6eb31d38161123a1c330b2cd7185f",
-        "input_row_sha256": "e32276de6d18b2ac788c405a11688156b07114740e5ecdfc7306673c38b25fdf",
-        "reason": "完整原文虽以月之暗面为主线，但独立披露Anthropic于11月10日更新申报、拟发行8.25亿股A类股票、每股70至78美元及预计11月19日上市的安排，Anthropic是发行主体而非仅被点名的同行。相较历史已核的公开提交S-1及季度收入披露，本次新增发行数量、价格区间与预期上市日，是同一IPO从公开申报向具体发行安排推进的资本成长线索；其价值在于观察企业级模型与编程服务商业化如何进入公开市场定价阶段，不依赖员工财富或总体营收。按媒体报道的拟议方案保留，不声称本轮核读SEC文件、发行已定价、募资到账或上市完成。新闻发布于2026年11月16日，符合本次七日窗口；历史已提供，不能沿用上游缺少发布时间和历史的理由。美国登记主体不列杭州负面预警，经营亏损仅为背景，不据此新增风险栏目或解除旧财务口径待核。",
-        "scope": {
-          "technology_evidence": "正文明确Anthropic服务全球开发者和企业客户，并报道其11月10日向SEC提交更新版招股书，拟发行8.25亿股A类股票，发行价区间每股70至78美元，预计11月19日登陆纳斯达克。历史材料进一步明确Claude及Claude Code的企业模型和编程服务业务。",
-          "value_reason": "此前公开递表时发行数量及价格区间未定，本次具体发行方案提供了独立资本阶段增量，可供杭州模型企业比较技术业务商业化后的公开融资与定价路径。不将计划发行额视为已募资金，不将九个月会计收入与另一公司的年化收入直接比较，也不凭拟议估值推导技术领先或盈利改善。"
-        },
-        "stage": {
-          "status": "reported_ipo_terms_listing_upcoming",
-          "reason": "仅依据已提供的创业邦完整正文确认存在该发行安排的报道。报道所称更新申报日期为2026年11月10日，新闻发布时间为2026年11月16日10:37 UTC；11月19日上市相对审核日仍为upcoming。未提供本次修订申报原件或申报编号，不能声称完成一手文件核验；历史原始材料支持的递表与特定经营指标不等于本次发行已完成。实际首次收录时间未知，不以新闻日或本轮审核日重置。"
-        },
-        "history": {
-          "result": "new_progress",
-          "evidence_ids": [
-            "accepted_history:3759faee6d2f4d53",
-            "accepted_history:5f63d1637094e575",
-            "accepted_history:c234511a046a6a3a",
-            "accepted_history:90433f9d0be5a66a",
-            "accepted_history:90a734573abe91f3",
-            "prior_decision:64bc0e0547e43406",
-            "prior_decision:0e77ec2efc663006",
-            "prior_decision:238dafb2edea0de1",
-            "history_lookup:fea6e0164d89e174"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:98796d7b80204373",
-              "comparison": "new_progress",
-              "reason": "同属IPO相关经营披露链，但旧待核针对第三季度财务来源及调整后利润、现金流口径。本次新增发行安排不解决这些缺口；季度收入后来已有分项补证，不回退为全项待核。"
-            },
-            {
-              "evidence_id": "prior_decision:f4c677f50813f832",
-              "comparison": "different_event",
-              "reason": "北极星TPU债务融资方案，与本次IPO发行条款不同，不据此认定芯片融资完成。"
-            },
-            {
-              "evidence_id": "prior_decision:af34ae94ced590be",
-              "comparison": "different_event",
-              "reason": "北极星优先债及博通剩余价值担保增量，不是IPO发行安排。"
-            },
-            {
-              "evidence_id": "prior_decision:10aad19c4c1f1ec4",
-              "comparison": "different_event",
-              "reason": "同一北极星融资结构的另一裁决，不提供本次发行条款核验依据。"
-            },
-            {
-              "evidence_id": "prior_decision:edfebee72ccb1b08",
-              "comparison": "different_event",
-              "reason": "旧watch针对Jack Clark演讲及研发指标，后来已有原稿补证采信；本次不回退或扩大该演讲结论。"
-            },
-            {
-              "evidence_id": "prior_decision:54c7f37adfb28ca6",
-              "comparison": "new_progress",
-              "reason": "同一IPO公开披露链。旧候选的递表阶段后来已获官方公告补证；本次增加发行数量、价格区间和预期上市日，不重复首次递表，也不整体核准旧客户和采购数字。"
-            },
-            {
-              "evidence_id": "prior_decision:10e36ef622f6463e",
-              "comparison": "new_progress",
-              "reason": "对应同一公开申报候选的旧watch；本次报道具有发行条款增量，不能仅继承旧待核，也不能将新报道视为旧财务与采购主张的一手补证。"
-            },
-            {
-              "evidence_id": "prior_decision:b36eb0d024722a65",
-              "comparison": "new_progress",
-              "reason": "旧项关注招股书版本收入、客户集中度和采购合同。本次发行条款属于资本阶段新增，未解决这些经营及合同指标的原文件定位缺口。"
-            },
-            {
-              "evidence_id": "prior_decision:ca4ac49a61a304d5",
-              "comparison": "different_event",
-              "reason": "Fable目录与Obsidian 3模型身份传闻，本次没有模型归属或评测条件补证。"
-            },
-            {
-              "evidence_id": "prior_decision:0de4750355b08fbb",
-              "comparison": "new_progress",
-              "reason": "同属申报披露链，但旧项为推理收入比例和Claude Code用户支出分组。本次未核实这些指标，仅保留发行安排增量。"
-            },
-            {
-              "evidence_id": "prior_decision:acdf157b51b7afa2",
-              "comparison": "new_progress",
-              "reason": "旧watch对应11月2日修订中的经营及合同信息，后续季度收入和TTM客户分层已限定采信；本次为所称11月10日发行条款更新，其余合同缺口不解除。"
-            },
-            {
-              "evidence_id": "prior_decision:f5d8add45c2d7efc",
-              "comparison": "new_progress",
-              "reason": "同一经营披露的另一旧watch，适用后续分项补证结论；不能据旧状态否定本次具体发行安排，也不能整体解禁未核数字。"
-            },
-            {
-              "evidence_id": "prior_decision:0e77ec2efc663006",
-              "comparison": "new_progress",
-              "reason": "已采信11月2日修订中的季度收入和TTM客户分层。本次新增发行数量与价格区间，不重复这些经营结果，不将其批准扩展至本篇全部财务背景。"
-            },
-            {
-              "evidence_id": "prior_decision:77161d76e40cdc97",
-              "comparison": "different_event",
-              "reason": "METR内部模型评估与AI辅助研发披露，不是IPO发行条款。"
-            },
-            {
-              "evidence_id": "prior_decision:d0bd2e0203c6fd67",
-              "comparison": "different_event",
-              "reason": "Claude内部训练故障排查案例，与资本发行安排不同。"
-            },
-            {
-              "evidence_id": "prior_decision:bfd74aec22e641f2",
-              "comparison": "different_event",
-              "reason": "METR研发评估的另一裁决，本次无该报告的新事实。"
-            },
-            {
-              "evidence_id": "prior_decision:c0a80e74665d120c",
-              "comparison": "different_event",
-              "reason": "Dreaming记忆整理及企业文档实验，与IPO无关，不重复研究事件。"
-            },
-            {
-              "evidence_id": "prior_decision:047d2adbaf681fa9",
-              "comparison": "new_progress",
-              "reason": "旧第三季度财务待核的另一回执。本次发行安排不澄清利润、成本或现金流定义；后续已核收入分项保持原结论。"
-            },
-            {
-              "evidence_id": "prior_decision:87e274f907756173",
-              "comparison": "different_event",
-              "reason": "北极星算力融资既有采信，不是本次公开股权发行。"
-            },
-            {
-              "evidence_id": "prior_decision:e92be670145d913c",
-              "comparison": "different_event",
-              "reason": "北极星残值担保结构增量，本次不证明其交割或担保执行。"
-            },
-            {
-              "evidence_id": "prior_decision:b7c53372f07d7337",
-              "comparison": "different_event",
-              "reason": "已补证的联创演讲与模型评测自述，不提供IPO条款的独立确认。"
-            },
-            {
-              "evidence_id": "prior_decision:64bc0e0547e43406",
-              "comparison": "new_progress",
-              "reason": "该keep依据官方公告确认10月26日提交S-1，当时发行数量和价格区间未定。本次报道明确提出数量、价格区间及预期上市日，构成同一IPO的实质阶段增量。"
-            },
-            {
-              "evidence_id": "prior_decision:f9d3849bc0d76b52",
-              "comparison": "new_progress",
-              "reason": "旧项为经营和采购合同待核，本次新增发行方案不解决版本收入、集中度和合同约束缺口，也不回退公开递表采信。"
-            },
-            {
-              "evidence_id": "prior_decision:fd33ac40e78f2f1b",
-              "comparison": "different_event",
-              "reason": "模型身份传闻的另一待核回执，本次没有相关发布或测试补证。"
-            },
-            {
-              "evidence_id": "prior_decision:ba72bf78dfcfdca1",
-              "comparison": "new_progress",
-              "reason": "旧续审仍缺推理收入及用户分组原件。本次新来源和发行条款不能替代这些统计的原始依据，保留其待核边界。"
-            },
-            {
-              "evidence_id": "prior_decision:238dafb2edea0de1",
-              "comparison": "new_progress",
-              "reason": "同一11月2日经营披露的限定keep，本次增加后续IPO发行安排，不重复季度收入或客户分层，也不重置首次收录时间。"
-            },
-            {
-              "evidence_id": "prior_decision:4b283f56be77fea5",
-              "comparison": "different_event",
-              "reason": "METR研发评估另一留痕，与本次资本节点不同。"
-            },
-            {
-              "evidence_id": "prior_decision:5c05f67beb547ee7",
-              "comparison": "different_event",
-              "reason": "训练故障排查案例另一留痕，不是本次发行安排。"
-            },
-            {
-              "evidence_id": "prior_decision:6c099fb0dbaa2667",
-              "comparison": "new_progress",
-              "reason": "旧reject针对同一申报链中人员成本缺少独立科技产业联系，不是IPO类别或公司排除。本次具有具体发行数量及价格区间，提供此前没有的资本阶段信息，旧排除理由不适用。"
-            },
-            {
-              "evidence_id": "prior_decision:d5dd6347b52803ea",
-              "comparison": "different_event",
-              "reason": "旧reject针对个人理财计划只有方向、缺少具体功能，与本次发行方案不同，不构成企业黑名单。"
-            }
-          ],
-          "change_reason": "8月、9月及10月8日历史已涉及秘密递表、上市地点和估值目标；10月28日收录的官方公告仅确认公开提交S-1，发行数量与价格区间未定；11月5日后续采信限定为季度收入和客户分层。本次原文新增所称11月10日更新中的8.25亿股、每股70至78美元及预计11月19日上市，足以按同一IPO保留媒体披露的发行安排增量，而非新建独立IPO或重发营收背景。Haiku发布、使用政策、安全测试权限、北极星融资及担保、联创演讲、METR评估、训练排障、Dreaming研究和个人理财计划分别为其他事件。所给历史检索无错误，未见同一发行条款已收录；不宣称全库首次发现。",
-          "new_evidence_ids": [
-            "article:d9443442ae6f3e5a"
-          ]
-        },
-        "evidence_ids": [
-          "article:d9443442ae6f3e5a",
-          "identity_registry:2dcd4f408df25406",
-          "geo-98b8e2309e1c91685311fb4f",
-          "accepted_history:90433f9d0be5a66a",
-          "accepted_history:90a734573abe91f3",
-          "prior_decision:64bc0e0547e43406",
-          "prior_decision:0e77ec2efc663006",
-          "prior_decision:6c099fb0dbaa2667",
-          "history_lookup:fea6e0164d89e174"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "复用既有明确审核尚未建立独立标杆资格的边界。本次具体发行方案支持普通全球产业观察，但拟议估值、发行规模及收入背景没有提供新的独立同行比较或行业地位证据，不自动授予全国标杆或领导简报资格。",
-          "evidence_ids": [
-            "accepted_history:90433f9d0be5a66a",
-            "accepted_history:90a734573abe91f3",
-            "article:d9443442ae6f3e5a"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "台积电",
-      "title": "英伟达、软银5亿美元投了家机器人公司；台积电下场做VC | 烯牛周报",
-      "company": "台积电",
-      "score": 70,
-      "sector": "半导体产业生态投资",
-      "financing": "董事会批准投资不超过5亿美元设立投资公司。",
-      "source": "烯牛数据",
-      "location": "TW / 新竹市 / 新竹科学园区力行六路8号",
-      "article_location": "",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "TW / 新竹市 / 新竹科学园区力行六路8号",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-28a1d8bb9a543314b90c8131"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "台积电",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-28a1d8bb9a543314b90c8131",
-            "source_url": "https://www.sipa.gov.tw/home.jsp?serno=201002010011&mserno=201002010011&menudata=chinesemenu&contlink=ap%2Fmanufacturers_1_3_view.jsp&level2=Y&dataserno=A0098&stype=C&qsipa=01",
-            "checked_at": "2026-10-20T02:23:25.943729+00:00",
-            "subject": "台积电",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "TW",
-              "city": "新竹市",
-              "address": "新竹科学园区力行六路8号"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "TW",
-          "city": "新竹市",
-          "evidence_ids": [
-            "geo-28a1d8bb9a543314b90c8131"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-7ad9114a6ee73402a554",
-      "company_canonical_name": "台积电",
-      "identity_status": "unresolved",
-      "event_type": "其他",
-      "link": "https://mp.weixin.qq.com/s/57FQRtHCNdN8qif_HLPs3w",
-      "article_title": "英伟达、软银5亿美元投了家机器人公司；台积电下场做VC | 烯牛周报",
-      "event_desc": "2026年11月10日，台积电董事会批准投资不超过5亿美元设立一家专门投资公司，拟对半导体产业及相关生态系统进行战略投资。",
-      "insight": "设立专门投资主体，意味着台积电拟用股权投资参与半导体生态建设；这是产业资本参与方式的变化，尚未对应到明确被投企业或技术供给环节。",
-      "event_headline": "台积电董事会批准出资不超5亿美元设立产业投资公司",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "historical",
-        "description": "事件日期早于最近7个自然日: 2026-11-10",
-        "event_date": "2026-11-10",
-        "observed_date": "2026-11-16",
-        "review_required": true
-      },
-      "published_date": "2026-11-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "完整原文明确记载，台积电董事会于2026年11月10日批准出资不超过5亿美元设立专门投资公司，投向半导体产业及相关生态系统。台积电是出资及决策主体，拟设公司是投资载体，不是台积电获得融资，也不能与标题中思灵机器人的5亿美元融资混同。这项有明确资金上限、组织安排和产业投向的决议，提供了独立于既有制程与扩产信息的产业资本配置事实，可作为全球半导体生态建设的日报观察线索；不证明具体技术供给、被投企业获资或协同成效。新闻于2026年11月16日发布，符合本次七日采集窗口，不能因决议发生于11月10日而剔除。所给历史和旧排除裁决均不涉及本次投资载体设立决议，无须改判旧事件。保留批准设立的阶段，不写成公司已成立或资金已投出，不自动取得杭州主体、全国标杆或领导简报资格。",
-      "event_headline_source": "8e3da41410d663f934628db5828579e18fb9b8b4c4d0cdbcee54f160b0855975",
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-28a1d8bb9a543314b90c8131",
-          "source_url": "https://www.sipa.gov.tw/home.jsp?serno=201002010011&mserno=201002010011&menudata=chinesemenu&contlink=ap%2Fmanufacturers_1_3_view.jsp&level2=Y&dataserno=A0098&stype=C&qsipa=01",
-          "checked_at": "2026-10-20T02:23:25.943729+00:00",
-          "subject": "台积电",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "TW",
-            "city": "新竹市",
-            "address": "新竹科学园区力行六路8号"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本条证明具体半导体生态资本安排，但未新增独立行业地位比较或已兑现产业协同依据，不能由批准额度、企业知名度或上游标杆建议授予全国标杆资格；不改变已有资格尚未建立的结论。",
-        "evidence_ids": [
-          "article:6364d3f2bf24cf4f",
-          "accepted_history:b47a5ba6303a0d72"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "quality_inspector Agent",
-        "candidate_id": "1b210fd09ff9fc1c62285c9013d0d6da771e81af722b14155f4f739c21bd8137",
-        "input_row_sha256": "bdf65c36b8af45e79d9705ea032911016e5693cdc74f691f4f53ceb3bf96a9fa",
-        "reason": "完整原文明确记载，台积电董事会于2026年11月10日批准出资不超过5亿美元设立专门投资公司，投向半导体产业及相关生态系统。台积电是出资及决策主体，拟设公司是投资载体，不是台积电获得融资，也不能与标题中思灵机器人的5亿美元融资混同。这项有明确资金上限、组织安排和产业投向的决议，提供了独立于既有制程与扩产信息的产业资本配置事实，可作为全球半导体生态建设的日报观察线索；不证明具体技术供给、被投企业获资或协同成效。新闻于2026年11月16日发布，符合本次七日采集窗口，不能因决议发生于11月10日而剔除。所给历史和旧排除裁决均不涉及本次投资载体设立决议，无须改判旧事件。保留批准设立的阶段，不写成公司已成立或资金已投出，不自动取得杭州主体、全国标杆或领导简报资格。",
-        "scope": {
-          "technology_evidence": "原文“台积电，下场做VC”段明确披露董事会批准投资不超过5亿美元设立专门投资公司，旨在对半导体产业及相关生态系统进行战略投资。台积电承担产业投资决策与拟出资角色，而非融资接受方。",
-          "value_reason": "本条新增的是以专门投资主体承载半导体生态战略投资的具体资本安排，而不是泛泛的投资意向或企业行业标签。它为比较半导体制造企业如何通过股权投资参与生态建设提供了明确观察节点；对杭州产业培育的借鉴在于区分产业投资载体设立与后续技术、供应链协同兑现，不能据批准额度推定本地企业获得资金或订单。"
-        },
-        "stage": {
-          "status": "董事会已批准设立投资载体，设立及出资执行尚未证实",
-          "reason": "原文明确决议日期为2026年11月10日，新闻发布时间为2026年11月16日10:10 UTC；本事件实际首次收录时间未提供。已发生的是董事会批准，未披露投资公司完成注册、资金实缴或具体项目交割。同段对Anthropic与OpenAI的投资是分别列出的其他批准事项，不并入本候选5亿美元额度，也不视为已完成投资。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:fea6e0164d89e174",
-            "accepted_history:35af08e13e28a66f",
-            "accepted_history:1bd1471abdfdc638",
-            "accepted_history:f390008cb8d8056a",
-            "accepted_history:f37c0ae3abc435dc",
-            "accepted_history:3e5931ca735e1210",
-            "accepted_history:c09f86f091084d8b",
-            "accepted_history:762a3ac8e3608c09",
-            "accepted_history:2097b6ffd0db583b",
-            "accepted_history:3ec2cb4d3be516e0",
-            "accepted_history:3d057442505f42b8",
-            "accepted_history:066d6693b0b32f17",
-            "accepted_history:b47a5ba6303a0d72",
-            "prior_decision:110a76ec798da8e7",
-            "prior_decision:0665910da2769c1b",
-            "prior_decision:e2a19f476a7906c0",
-            "prior_decision:1b5e26acd67e477f",
-            "prior_decision:9c4f2cc22a6261ec",
-            "prior_decision:bb8c7b9731daa7e9"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:110a76ec798da8e7",
-              "comparison": "different_event",
-              "reason": "旧watch及excluded栏目针对CoWoS-L用于Blackwell的封装应用及当时地点缺口，不是本次产业投资决议。该应用已有后续keep，本轮亦有已审新竹经营地证据，不能沿用旧地点待核阻断本条；仍不据经营地认定注册地或总部。"
-            },
-            {
-              "evidence_id": "prior_decision:0665910da2769c1b",
-              "comparison": "different_event",
-              "reason": "旧reject针对10月总体营收新增、技术制造背景未超出既有披露。本条是独立的董事会投资载体设立决议，不以营收增长或重复制造背景取得资格。"
-            },
-            {
-              "evidence_id": "prior_decision:e2a19f476a7906c0",
-              "comparison": "different_event",
-              "reason": "旧reject针对10月业绩会工厂项目推进与设备协调的重复回顾。本条不涉及项目数量、设备约束或扩产兑现，属于另一资本安排。"
-            },
-            {
-              "evidence_id": "prior_decision:1b5e26acd67e477f",
-              "comparison": "different_event",
-              "reason": "该排除记录仍为10月月度总营收，缺少独立新增技术实施信息；不能延伸为对台积电其他产业事件的排除，本条有不同的决议事实。"
-            },
-            {
-              "evidence_id": "prior_decision:9c4f2cc22a6261ec",
-              "comparison": "different_event",
-              "reason": "该记录重复排除总体营收报道及既有制程、封装背景，不包含专门投资公司设立事项。本次不重发该营收事件，也不改变其旧裁决。"
-            },
-            {
-              "evidence_id": "prior_decision:bb8c7b9731daa7e9",
-              "comparison": "different_event",
-              "reason": "旧排除已结合历史完整来源认定全球工厂推进及设备协调没有可独立刊发增量，项目数量差异不能当作变化。该来源闭包验证不批准其他事件；本条依据新的投资决议独立判断，不改判旧扩产事项。"
-            }
-          ],
-          "change_reason": "所给12条已收录历史分别涉及日本JASM投资及熊本审批、A14与亚1纳米制程规划、CoPoS及CoWoP、CoWoS-L客户应用、N2及台南扩产、CoWoS年度目标、CFET反相器、COUPE方案以及BEOL存储研究。4月JASM记录虽包含海外子公司资金配置，但用途为存款与债券投资，与本次设立半导体生态战略投资载体不同。其他旧keep裁决也对应上述技术及项目事项；所给检索记录与裁决未见本次同事件匹配。本条按另一事件保留，不是借换来源重置旧排除，不宣称全库首次发现。",
-          "new_evidence_ids": [
-            "article:6364d3f2bf24cf4f"
-          ]
-        },
-        "evidence_ids": [
-          "article:6364d3f2bf24cf4f",
-          "history_lookup:fea6e0164d89e174",
-          "geo-28a1d8bb9a543314b90c8131"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "本条证明具体半导体生态资本安排，但未新增独立行业地位比较或已兑现产业协同依据，不能由批准额度、企业知名度或上游标杆建议授予全国标杆资格；不改变已有资格尚未建立的结论。",
-          "evidence_ids": [
-            "article:6364d3f2bf24cf4f",
-            "accepted_history:b47a5ba6303a0d72"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "OpenAI",
-      "title": "英伟达、软银5亿美元投了家机器人公司；台积电下场做VC | 烯牛周报",
-      "company": "OpenAI",
-      "score": 70,
-      "sector": "人工智能",
-      "financing": "台积电董事会批准拟投资不超过5亿美元认购优先股；未披露认购已完成。",
-      "source": "烯牛数据",
-      "location": "US",
-      "article_location": "经营地：美国（复用本轮提供的已审证据，非本文新增事实）",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "US",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-94ce9cff8088e9a375b2bc71"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "OpenAI",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-94ce9cff8088e9a375b2bc71",
-            "source_url": "https://www.news.cn/world/20260401/5ec1e5b7aeca431aa45f15b14d749381/c.html",
-            "checked_at": "2026-10-20T02:18:43.852910+00:00",
-            "subject": "OpenAI",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "US"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "US",
-          "evidence_ids": [
-            "geo-94ce9cff8088e9a375b2bc71"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-7d3194f79e645c42e439",
-      "company_canonical_name": "OpenAI",
-      "identity_status": "confirmed",
-      "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/57FQRtHCNdN8qif_HLPs3w",
-      "article_title": "英伟达、软银5亿美元投了家机器人公司；台积电下场做VC | 烯牛周报",
-      "event_desc": "文章披露，2026年11月10日，台积电董事会批准对OpenAI进行不超过5亿美元的投资，拟认购其优先股。",
-      "insight": "拟认购优先股建立的是资本关系，文章没有披露由此产生的具体算力、芯片或产品协同。",
-      "event_headline": "OpenAI拟获台积电不超5亿美元优先股投资",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "actual",
-        "description": "2026年11月10日发生的是台积电董事会投资批准；认购及交割未证实完成。新闻发布于2026年11月16日，新闻七日窗口不限制事件年龄。",
-        "event_date": "2026-11-10",
-        "observed_date": "2026-11-16",
-        "review_required": false
-      },
-      "published_date": "2026-11-16",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "正文明确台积电董事会于2026年11月10日批准不超过5亿美元投资OpenAI并认购优先股，台积电为拟投资方，OpenAI为拟受投方，不是仅被提及的企业。结合已存模型产品与定制芯片业务证据，这是半导体制造企业参与基础模型企业资本支持的具体安排，可作全球正面日报线索；不要求同时披露技术突破或资金用途。批准不等于认购及交割完成，也不证明形成芯片供货或算力合作。新闻发布于2026年11月16日，符合本次七日窗口，不能以11月10日事件较早排除。所供历史未见同一投资审批，不将其并入既有融资到账金额。美国经营归属可复用，不取得杭州预警或领导简报资格。",
-      "event_headline_source": "7cb19b56fa65fb5c198f33df138143ef13796628e44ebb9fd15af26302a95d9e",
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-94ce9cff8088e9a375b2bc71",
-          "source_url": "https://www.news.cn/world/20260401/5ec1e5b7aeca431aa45f15b14d749381/c.html",
-          "checked_at": "2026-10-20T02:18:43.852910+00:00",
-          "subject": "OpenAI",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "US"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本条支持具体产业资本观察，但投资审批、金额及产业投资方身份不能独立证明技术领先、市场采用或行业地位，不继承历史星标。",
-        "evidence_ids": [
-          "article:6364d3f2bf24cf4f"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "quality_inspector Agent",
-        "candidate_id": "9fb00613f6fbd13d2ab594b31ced69bf565bfc068b73d41ecadde0c75503395e",
-        "input_row_sha256": "f1e60281b99c0522a0452e41be992d4917abc1cd2b364113f780a3c71a01459e",
-        "reason": "正文明确台积电董事会于2026年11月10日批准不超过5亿美元投资OpenAI并认购优先股，台积电为拟投资方，OpenAI为拟受投方，不是仅被提及的企业。结合已存模型产品与定制芯片业务证据，这是半导体制造企业参与基础模型企业资本支持的具体安排，可作全球正面日报线索；不要求同时披露技术突破或资金用途。批准不等于认购及交割完成，也不证明形成芯片供货或算力合作。新闻发布于2026年11月16日，符合本次七日窗口，不能以11月10日事件较早排除。所供历史未见同一投资审批，不将其并入既有融资到账金额。美国经营归属可复用，不取得杭州预警或领导简报资格。",
-        "scope": {
-          "technology_evidence": "原文称台积电董事会于2026年11月10日批准对OpenAI不超过5亿美元的投资，认购优先股；已存历史另明确OpenAI的模型产品业务及与博通合作开发定制AI芯片。",
-          "value_reason": "本条独立信息是半导体制造企业以明确额度及证券类型参与基础模型企业资本安排，为杭州观察模型企业融资来源及产业投资方参与方式提供具体参照。只能认定资本安排获得投资方董事会批准，不能推导技术协同、采购承诺或资金已经到账。"
-        },
-        "stage": {
-          "status": "投资方董事会已批准，认购及交割为upcoming",
-          "reason": "正文明确审批日为2026年11月10日，未披露投资协议生效或认购交割完成。新闻发布时间为2026年11月16日10:10 UTC，首次收录时间未提供。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:fea6e0164d89e174",
-            "accepted_history:48f7495c06b8b192",
-            "accepted_history:3ddf1bb48abc9049",
-            "accepted_history:ac08833768d94c58",
-            "accepted_history:a86c99a49c10830a",
-            "prior_decision:f02d28ff06f0b9ee",
-            "prior_decision:6ca2cbb54ddfc0b0",
-            "prior_decision:7d5678aad9223d2d"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:6ca2cbb54ddfc0b0",
-              "comparison": "different_event",
-              "reason": "旧排除涉及离职、解雇及信息外流指控，缺乏具体业务影响；本条是台积电投资审批，不继承公司级排除，也不改变旧裁决。"
-            },
-            {
-              "evidence_id": "prior_decision:7d5678aad9223d2d",
-              "comparison": "different_event",
-              "reason": "旧排除针对数学手稿周回顾没有新增事实，与台积电拟认购优先股无同事件关系。"
-            },
-            {
-              "evidence_id": "prior_decision:f02d28ff06f0b9ee",
-              "comparison": "different_event",
-              "reason": "旧保留为约110亿美元首笔融资交割，本条为台积电董事会投资批准。材料未证明是否属于同一融资轮，不能认作该轮新增到账或相加统计。"
-            }
-          ],
-          "change_reason": "已存2月融资回顾、近期110亿美元交割及博通合作芯片项目融资，均未记录台积电本次审批。其余产品、科研、安全、社区契约及待核事项也不包含该事实。当前历史检索无错误，不沿用其他候选旧读取故障。仅认定所供历史未见同一投资审批，不宣称全库首次发现，不改判其他待核事件。",
-          "new_evidence_ids": [
-            "article:6364d3f2bf24cf4f"
-          ]
-        },
-        "evidence_ids": [
-          "article:6364d3f2bf24cf4f",
-          "accepted_history:a86c99a49c10830a",
-          "accepted_history:ac08833768d94c58",
-          "geo-94ce9cff8088e9a375b2bc71",
-          "history_lookup:fea6e0164d89e174"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "本条支持具体产业资本观察，但投资审批、金额及产业投资方身份不能独立证明技术领先、市场采用或行业地位，不继承历史星标。",
-          "evidence_ids": [
-            "article:6364d3f2bf24cf4f"
           ]
         }
       }
@@ -2137,7 +2280,7 @@
     "": 2,
     "机器人核心零部件与精密传动": 1,
     "半导体产业生态投资": 1,
-    "人工智能": 1,
+    "人工智能": 2,
     "智能机器人与工业自动化": 1,
     "机器人与整厂自动化": 1,
     "集成电路设计工具": 1,
@@ -2146,7 +2289,7 @@
     "AI软件工程与研发治理": 1,
     "半导体存储": 2,
     "半导体制造": 2,
-    "半导体先进封装": 1,
+    "半导体先进封装": 3,
     "新型显示": 1,
     "半导体封装材料与电子元件": 1,
     "电池制造": 1,
@@ -2251,7 +2394,7 @@
     "量子云平台与混合计算": 1,
     "量子纠错与高性能计算": 1,
     "量子芯片制造": 2,
-    "半导体封装基板": 1,
+    "半导体封装基板": 4,
     "半导体先进封装与测试": 1,
     "电商平台、广告技术与即时履约": 1,
     "电商平台与购物应用": 1,
@@ -2332,7 +2475,23 @@
     "可控核聚变": 27,
     "先进核裂变／微型核反应堆": 3,
     "先进核裂变／小型模块化反应堆": 1,
-    "可控核聚变／聚变发电": 1
+    "可控核聚变／聚变发电": 1,
+    "人工智能／Agent决策模型": 1,
+    "人工智能／浏览器Agent基础设施": 1,
+    "AI编程与软件工程自动化": 1,
+    "科技，细分赛道未披露": 1,
+    "机器人": 1,
+    "纺织科技与数字化印染": 1,
+    "功能性纺织材料与丝绸制造": 1,
+    "纺织智能制造与AI设计": 1,
+    "半导体、空间智能、机器人仿真": 1,
+    "人工智能／基础设施": 1,
+    "AI计算芯片及服务器平台": 2,
+    "电子元件／高端MLCC": 1,
+    "AI芯片设计与通用处理器架构": 1,
+    "AI辅助芯片设计与验证": 1,
+    "AI辅助芯片设计": 1,
+    "金融科技 / AI投研": 1
   },
   "daily_details": {
     "2026-11-16": {
@@ -2358,7 +2517,11 @@
     "2026-11-21": {
       "count": 60,
       "negatives": 0
+    },
+    "2026-11-22": {
+      "count": 23,
+      "negatives": 0
     }
   },
-  "created": "2026-11-21 16:41:24"
+  "created": "2026-11-22 11:26:57"
 }
