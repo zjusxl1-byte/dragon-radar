@@ -6053,7 +6053,7 @@
     "2026-11-22": "9f0efdda3205979cff4fe864ae8ce1c50af4a03ca0d970872ae17794ba223f42"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "ea63d134a7706a3f23e19fb6c3db572e46dd889e279a42010e6908908db022eb",
+  "geography_version": "c5f88aa39888b92e88a9bad45a874fa1cffad4026d9731b6391965797d46c303",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -26175,10 +26175,50 @@
       }
     },
     "dr-u-8b332ded81dc8d3abeaa": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市 / 海淀区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-c83615ea89672aa888231a5a"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "光轮智能",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-c83615ea89672aa888231a5a",
+          "source_url": "https://www.taibo.cn/company/32258",
+          "checked_at": "2026-11-22T09:53:05.850Z",
+          "subject": "光轮智能",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "evidence_ids": [
+          "geo-c83615ea89672aa888231a5a"
+        ]
+      }
     },
     "dr-u-8b583709943e81e26ff2": {
       "geography_status": "unknown",
@@ -69979,7 +70019,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "7378fe54c7ab279457357836899fb35791307da5d3344e8e60003a045366be17",
+  "history_version": "d764e7f0ab14a4a0ce719bbf9a3afdb7b6c024bca45ac34794c9e36089d76234",
   "company_history_buckets": {
     "00": "e28fc09752dcc3d98c96cd421ae09a42f17599f526d8ebe5650c4b5f4f710b6c",
     "01": "8cd3df16821237db772a2daa69d1fe4bb6abec533f3a842aa182058a6d30c183",
@@ -69989,7 +70029,7 @@
     "05": "7f34c00230687dd4f07f6ca75e4d1ce285b37255b902be5ced67734c259ea750",
     "06": "368fc867487add06c684d0a8f9a2d244a02ad79b04c7f3325e85b3c46a8a2fe5",
     "07": "9752a3d725837562624930d3ed95d44b33bff5f0f8ff002a081c7f98112e7b3c",
-    "08": "90c8fe3a373fa5530d532910f0761380a59ca44f81f480a44b475502971a9c89",
+    "08": "0765a30f8bdce7f7fdb31e6514cbdeb7b3c0ba0be999a18d32536c37e92b3503",
     "09": "c9184110a6d8ba1a6de8969da3eb0a853eab7cd02f6ab93065d6dd28ca8804b2",
     "0a": "98d4a5d5cd4615af2d8e2bec9bbcce771b1ee02d2871ba3015744079c12be4ee",
     "0b": "ccf7c74da1bfe3f1260cec3c03bcde51477e0ca3181c29af7245ad45d5da08a7",
@@ -70046,7 +70086,7 @@
     "3e": "3d18dd350965cfbd7b1508d261bc48163ecad89cefd0d24ffc372148c25d0b66",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "ca4a0b3d30e71f9d3e35d1341b665b1b6e36ec7d41475711eeb422bf1db91128",
+  "history_search_version": "a3eb74100007a7ad6de7ac73087029100645bb97755aa1163be234f39c1bd911",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
