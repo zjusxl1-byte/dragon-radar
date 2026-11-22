@@ -2054,5 +2054,109 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "Architect Labs": [
+    {
+      "date": "2026-11-22",
+      "title": "Architect Labs公布实验性通用CPU架构Frostbite，称AI系统完成了编译器、指令集、微架构、RTL、验证和GDS物理布局的协同迭代。架构采用交互网络计算模型，通过局部计算、相邻单元工作窃取和空闲停用分配任务；程序由Vine 2编译为Ivy中间表示。公司称，经过四轮搜索和最后一轮筛选，共尝试58个方案，保留37个。制造前评估采用7纳米工艺，综合阶段频率为800 MHz，最终物理布局频率为500 MHz；由2×2计算单元及四个L3节点组成的Frostbite Quad面积为0.792平方毫米，同工艺参考CPU单核面积为0.895平方毫米。参考核心为身份未公开的现代双发射、顺序执行CPU。公司报告，在25项工作负载上，每瓦性能几何平均值为参考核心的4.59倍，其中10项搜索工作负载为6.02倍、15项保留评估工作负载为3.83倍；平均单位面积性能为参考核心的8.77倍。部分源自SPLASH-2的测试内核规模缩小了64倍。上述结果来自制造前仿真与物理设计评估；公司尚未宣布Frostbite量产或上市计划，计划发布RTL和ISA、构建FPGA软件试验平台及初步操作系统，并扩大至SPEC、PARSEC和更广泛CPU配置的比较。",
+      "article_title": "一颗全新CPU，刚刚面世，由AI自主设计！",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/18yreRCkoqt0ZYOfSUCuBw",
+      "sector": "AI芯片设计与通用处理器架构",
+      "location": "地点线索：美国；原文未明确州、市或注册地、总部地",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Architect Labs",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "美国；原文未明确州、市或注册地、总部地",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "Architect Labs",
+      "company_entity_id": "dr-u-1cf2da066cc7273bcf4e",
+      "company_raw_name": "Architect Labs",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "材料支持具有具体技术价值的全球研究线索，但未建立全国标杆资格；制造前自述结果、匿名比较核心及有限工作负载不足以证明已确立的行业领先地位。",
+        "evidence_ids": [
+          "article:c96ee60b6d322635"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "insight": "Frostbite把程序中的依赖关系显式交给分布式计算单元处理，尝试用局部数据访问和任务分配替代部分传统指令调度及缓存一致性开销；其价值还在于展示AI跨编译器、架构和物理实现共同搜索设计的能力。保留评估集上的能效结果提供了超出搜索集的初步支持，但能否扩展为通用计算优势，关键仍是更大规模标准负载、软件运行环境和实硅表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Architect Labs发布Frostbite架构及制造前评估结果",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "据创始人Hussain介绍，Architect Labs首个技术路线验证项目Redwood从设计构想到FPGA概念验证用时两周，公司还通过台积电晶圆共享服务完成了首批A0测试芯片。两周对应设计构想到FPGA原型的阶段，正文未给出测试芯片的流片周期、性能或量产结果。公司称，其平台能够承担芯片设计与验证，并测试固件栈及软硬件交互；约90%的验证工作通过自研模拟器、内部技术和其他方法完成，不使用商业仿真器，最终签核仍使用传统EDA工具。",
+      "article_title": "一颗全新CPU，刚刚面世，由AI自主设计！",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/18yreRCkoqt0ZYOfSUCuBw",
+      "sector": "AI辅助芯片设计与验证",
+      "location": "地点线索：美国；原文未明确州、市或注册地、总部地",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Architect Labs",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "美国；原文未明确州、市或注册地、总部地",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "Architect Labs",
+      "company_entity_id": "dr-u-1cf2da066cc7273bcf4e",
+      "company_raw_name": "Architect Labs",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原型周期和测试芯片实例支持平台工程进展，但缺少可比项目复杂度、独立测试结果及规模化交付依据，尚不能据此确立行业标杆地位。",
+        "evidence_ids": [
+          "article:c96ee60b6d322635"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "insight": "Redwood为Architect Labs的设计平台提供了从FPGA原型走向测试芯片的项目实例，与Frostbite目前的制造前评估属于不同验证阶段。其混合验证路线试图减少大量并行AI任务对商业仿真器授权的占用，同时保留传统工具的最终签核作用。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Architect Labs回顾Redwood两周原型与首批测试芯片",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
