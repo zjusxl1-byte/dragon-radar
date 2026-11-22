@@ -5482,7 +5482,7 @@
     "2026-11-21": "a304e1c7b9e49c58bae565610df2b7a63adfc303aec612db1946f31f7d47168e"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "5535e219033009564e3ad232ec5bc6b58e9d1ab6c58d3664c670a3201aa51d4e",
+  "geography_version": "298909d64d779f8de1e951bdf2009031a82da82872fd542226a3f2c7520814a6",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -7362,10 +7362,48 @@
       "located_status": "unknown"
     },
     "dr-u-0c8d8371fa8119bc9f28": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-5c549793b75e2d39232b1e2e"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "璞诺智药(杭州)生物技术研究有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-5c549793b75e2d39232b1e2e",
+          "source_url": "https://mp.weixin.qq.com/s/FNgnrzIOHEBDp_j3th7aLA",
+          "checked_at": "2026-11-22T01:48:14.706464+00:00",
+          "subject": "璞诺智药(杭州)生物技术研究有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "evidence_ids": [
+          "geo-5c549793b75e2d39232b1e2e"
+        ]
+      }
     },
     "dr-u-0caee180da9d0f3f29af": {
       "geography_status": "unknown",
@@ -68747,7 +68785,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "dbf6ac904d0b0639e0823b0f5e2fa7625390b21f1e203278f8e7e9826e98e4e5",
+  "history_version": "2909a4a2a9e1b8c19f6bf8ccdce5534955fd3d1255ed3465cbef202f3817c1a6",
   "company_history_buckets": {
     "00": "a4c07dc5d4f2250c7b951fd5cf99525503e713878667a51d911968ddc5c2d841",
     "01": "3e64b5404f599211bc11e289354401974a4b3c69034c7dd18b2c8e6d605ed94d",
@@ -68764,7 +68802,7 @@
     "0c": "bd15db9992986ea3715ea910d1c40014adedbfb4d5ebf52ecec880f44081f7bf",
     "0d": "2fbc540f7d9a685dbbf8ac320ac9a5afa6e48617aab679e03f2a587cf2f516d7",
     "0e": "0b542539a058c397f88fb454a5e7d2fb22af05450a88c00c13fad1471f472ce0",
-    "0f": "7e0b236f74d69b22fb7246c35ad759644bb7b7f16f07c658f2c3c6ecd6787e12",
+    "0f": "c5524a32ba7b1e787491be478607a5d74a68a6efc1908af78725afb58d06b501",
     "10": "bcc0a2c6cfc965876b5c0832d9256e3b16f0bd5bfc8f609a97f9892ae5f17541",
     "11": "1d0f77de674238d446fe58d6af9a1f75df048d3eac6f10351431f94ceec00c2b",
     "12": "277cd322abc0900a2168781b2d0dacf2ae660704c7b8275aeac34e46f7599307",
@@ -68814,7 +68852,7 @@
     "3e": "fe712a483bc993b623c7fd0e289f43435db540f2c7c8c06a0f6ed8d5da140487",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "5c522d5eabf7e6b62bc946c8e5705f99691dd27397f5f14da8db53e566960ed9",
+  "history_search_version": "1f2d42ac70522a31b35e601e8839380d6c6245510114ba20532c2b8ceced78a7",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",

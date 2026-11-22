@@ -3434,16 +3434,18 @@
       "event_type": "其他",
       "link": "https://mp.weixin.qq.com/s/FNgnrzIOHEBDp_j3th7aLA",
       "sector": "AI制药与靶向蛋白降解",
-      "location": "地点线索：公司迁入地：杭州；原所在地：苏州；原文未明确迁移对应注册地、总部或经营地。",
+      "location": "浙江省 / 杭州市",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-5c549793b75e2d39232b1e2e"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "璞诺智药(杭州)生物技术研究有限公司",
         "subject_locality": {
           "status": "unknown",
@@ -3451,7 +3453,31 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-5c549793b75e2d39232b1e2e",
+            "source_url": "https://mp.weixin.qq.com/s/FNgnrzIOHEBDp_j3th7aLA",
+            "checked_at": "2026-11-22T01:48:14.706464+00:00",
+            "subject": "璞诺智药(杭州)生物技术研究有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-5c549793b75e2d39232b1e2e"
+          ]
+        }
       },
       "article_location": "公司迁入地：杭州；原所在地：苏州；原文未明确迁移对应注册地、总部或经营地。",
       "source": "湖畔自留田",
