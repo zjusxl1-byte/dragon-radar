@@ -1557,24 +1557,62 @@
       "event_type": "重磅发布",
       "link": "https://mp.weixin.qq.com/s/07-_HXX4GioS1us_eEl5wQ",
       "sector": "人工智能／语言模型与视频生成",
-      "location": "地点待核",
+      "location": "北京市海淀区上地西路弘源新时代A座",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市海淀区上地西路弘源新时代A座",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-fc0feaa1b4b593d941aea5b6"
+        ],
+        "subject_evidence_ids": [
+          "geo-fc0feaa1b4b593d941aea5b6"
+        ],
+        "needs_review": false,
+        "next_action": null,
         "subject": "范式智能",
         "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-fc0feaa1b4b593d941aea5b6"
+          ]
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-fc0feaa1b4b593d941aea5b6",
+            "source_url": "https://www.4paradigm.com/about/contact.html",
+            "checked_at": "2026-11-22T12:22:47.366154+00:00",
+            "subject": "范式智能",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "district": "海淀区",
+              "address": "北京市海淀区上地西路弘源新时代A座"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区",
+          "evidence_ids": [
+            "geo-fc0feaa1b4b593d941aea5b6"
+          ]
+        }
       },
       "article_location": "",
       "source": "量子位",

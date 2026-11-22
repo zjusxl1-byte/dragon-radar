@@ -6053,7 +6053,7 @@
     "2026-11-22": "9f0efdda3205979cff4fe864ae8ce1c50af4a03ca0d970872ae17794ba223f42"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "15ebd23bfaa52160c9b0458b54327369ef0ba85e948a266c604454fc881bf472",
+  "geography_version": "a8997dfe6590b0fd957a18561484c9f325f8798ef4faad5e85ba029dc320d83d",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -34472,10 +34472,60 @@
       "located_status": "unknown"
     },
     "dr-u-c675275a63a81038a29a": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市海淀区上地西路弘源新时代A座",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-fc0feaa1b4b593d941aea5b6"
+      ],
+      "subject_evidence_ids": [
+        "geo-fc0feaa1b4b593d941aea5b6"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "范式智能",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-fc0feaa1b4b593d941aea5b6"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-fc0feaa1b4b593d941aea5b6",
+          "source_url": "https://www.4paradigm.com/about/contact.html",
+          "checked_at": "2026-11-22T12:22:47.366154+00:00",
+          "subject": "范式智能",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区",
+            "address": "北京市海淀区上地西路弘源新时代A座"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "evidence_ids": [
+          "geo-fc0feaa1b4b593d941aea5b6"
+        ]
+      }
     },
     "dr-u-c6fd44831abe6e78d5fd": {
       "geography_status": "unknown",
@@ -70057,7 +70107,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "504c7d3c65f9657d95772dfa7e35a24c2cfe943d1a8faff71deb5f4140c1c15e",
+  "history_version": "6978e2c105bcfd0d42b8384118fd14d174462f0189de5512931c9102c8f603a4",
   "company_history_buckets": {
     "00": "e28fc09752dcc3d98c96cd421ae09a42f17599f526d8ebe5650c4b5f4f710b6c",
     "01": "8cd3df16821237db772a2daa69d1fe4bb6abec533f3a842aa182058a6d30c183",
@@ -70106,7 +70156,7 @@
     "2c": "fbff5e92c5d3cf67cc99a248e59756558ec5124cd1fa05d6079a698da4e04157",
     "2d": "c1a0fb608a02b402798ec62bc4d766a3582a820746c0f06cb47f338f5ac63a87",
     "2e": "9bcb81e186adc53f4d8b714c35d38ef40707017608cbfd76b03e2c2590805b9f",
-    "2f": "d68685780c31988f60c29d2f406aff9fd8ab2cee97a9bd0e47ffc0121fb3609d",
+    "2f": "38bc4801e78e63fb25ad11ca398267bc601325f48832992c285bea4eefcf26dd",
     "30": "a5e8cf439ea89ddc4a4d720e48fbb60f06078954e49c7d07f9804b6a322e229f",
     "31": "641d66f671ef65d186deb9b4e0204db9506957fc7865bea22df6615f28e6a6f9",
     "32": "dd530e153f5975a4ba0133c49909894dcfa18b86aac7c7892cfc6cc812f67110",
@@ -70124,7 +70174,7 @@
     "3e": "3d18dd350965cfbd7b1508d261bc48163ecad89cefd0d24ffc372148c25d0b66",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "20519956c2a9ddadc7643f2639ccbffc0fdcddde0c1452127eff3097459c6012",
+  "history_search_version": "48e67db1f5bfd01d2e82590443906019f34b507e502f08818a968087ba96be7f",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
