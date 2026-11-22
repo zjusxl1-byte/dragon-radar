@@ -5482,7 +5482,7 @@
     "2026-11-21": "a304e1c7b9e49c58bae565610df2b7a63adfc303aec612db1946f31f7d47168e"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "b07f347e1d928c41c8085e47f929c692b001614530ad4f78fca26ffc0295c6db",
+  "geography_version": "c1e9d99e5913bd53983bd9290ebc002ad6f3fea6b2b98516399efd4de7e408c8",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -14001,10 +14001,48 @@
       "located_status": "unknown"
     },
     "dr-u-3baa75ca16d2be184d51": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-498f50fe64eb383a97235e26"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "邃铸科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-498f50fe64eb383a97235e26",
+          "source_url": "https://mp.weixin.qq.com/s/Y7dUji6iUozw1C2TANH4QQ",
+          "checked_at": "2026-11-22T02:49:33.133916+00:00",
+          "subject": "邃铸科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "evidence_ids": [
+          "geo-498f50fe64eb383a97235e26"
+        ]
+      }
     },
     "dr-u-3baaa5514a4118cf0ae2": {
       "geography_status": "unknown",
@@ -68852,7 +68890,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "9a2b5483a92d56f6a2a2e92add99848586a5edd0a92cd93052046c3edde2d56a",
+  "history_version": "64d1511f3260158bec9f419fb3db8ac874e02345361166e7f78af426814c1f10",
   "company_history_buckets": {
     "00": "a4c07dc5d4f2250c7b951fd5cf99525503e713878667a51d911968ddc5c2d841",
     "01": "3e64b5404f599211bc11e289354401974a4b3c69034c7dd18b2c8e6d605ed94d",
@@ -68890,7 +68928,7 @@
     "21": "95186d8a09aa4f52e5b8bc2bbe00b2508338811da3a1aa6f6b13bf6e1fa28dbe",
     "22": "60679c92d0f303d5fe405ee261397b7f8e0b2852b19b00c31e457be264e2d352",
     "23": "7516ab52f746c4e4756c7b26a981cdbc38f217c394d40c3740097a9099779166",
-    "24": "c9fa8ebcde454621bdc5aec2ea324f3915d0ab5cdcb2e2aa4e84a61b55a6ee2c",
+    "24": "46becb8bae63fb910c80bb9ed249d8839ac0830b709c08f2be282f0fb26eb2a1",
     "25": "7c278b1546f5ff029c6dcaa02c6babf2ed2d94bb19509c3937b3eeebe424c8c8",
     "26": "2794a89eb0eb2c1f882a88cfdb77db4c56d47098a4072ad15044f09bd4f1a179",
     "27": "b52489371937ac40105ed94c89254512e8080c6e5d15821665dfcb6683e79847",
@@ -68919,7 +68957,7 @@
     "3e": "fe712a483bc993b623c7fd0e289f43435db540f2c7c8c06a0f6ed8d5da140487",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "5d5a41d974948538ad97b472c7ac9050f13d807f7e61ba420d7d8193e29f4adb",
+  "history_search_version": "f76cf3a607fecca5ab698f0611b1cf1f0aacc0f79ba50df048fc8e305f37f8df",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
