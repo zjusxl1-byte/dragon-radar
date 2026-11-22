@@ -6053,7 +6053,7 @@
     "2026-11-22": "9f0efdda3205979cff4fe864ae8ce1c50af4a03ca0d970872ae17794ba223f42"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "ea257c597e32cca6cf3262e27d4daa291cea6167535ebcead98d55e07f398e60",
+  "geography_version": "3b9dd4c6471605534812fa3285746a516f8b5c753dddb1ff8786565a40f61c08",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -18901,10 +18901,48 @@
       "located_status": "unknown"
     },
     "dr-u-592ac3bdf4314b269530": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-67d05adff602dc238db3bb09"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "九州星核",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-67d05adff602dc238db3bb09",
+          "source_url": "https://mp.weixin.qq.com/s/fLXP0X_cCq5B2tl4GeE5cQ",
+          "checked_at": "2026-11-22T03:18:39.570149+00:00",
+          "subject": "九州星核",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "evidence_ids": [
+          "geo-67d05adff602dc238db3bb09"
+        ]
+      }
     },
     "dr-u-5931652f4692085fbb83": {
       "geography_status": "unknown",
@@ -69746,7 +69784,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "2c909e0db4d5a6b479994e1f32bad1ed7dc9446c8f9daf887e7a475499dc196f",
+  "history_version": "1f3fab0e5a5150e41f5f22d071fce4c08f5710ca80252024ec790be29bdd7f20",
   "company_history_buckets": {
     "00": "e28fc09752dcc3d98c96cd421ae09a42f17599f526d8ebe5650c4b5f4f710b6c",
     "01": "8cd3df16821237db772a2daa69d1fe4bb6abec533f3a842aa182058a6d30c183",
@@ -69774,7 +69812,7 @@
     "17": "b6b10625450ec76742eeadaa547fb7bab00fc4e634d43e95e2cff8e842c719e7",
     "18": "a0dfc98c5ea0966c0766f8f6e37efa4cfdb81ea400f55cdb0991f15edfad493e",
     "19": "2e39688904ec669fb67e2d7822c4a0eb487090b5343e9293892d2225c02b0b1a",
-    "1a": "b9cadc375edece5f3317ae3ee36fefdcbf8326b2c196c5f4e803ab70aaca6549",
+    "1a": "0e9f84d5792aa72b1eca76328abfd3f005a7ba81565229deab91e7060303ed16",
     "1b": "6336a2d86c41e71de923db207a6be097dd4a3ffc62520818664860d8a15922dc",
     "1c": "447e56c7c99390e6a8e52eeb3fd7df75f8927baf6ec47bbf53090c50af34c702",
     "1d": "c401ac4083421896845cef36e4b956faa8cae67ee1a161fc72ef00fcc650852e",
@@ -69813,7 +69851,7 @@
     "3e": "3d18dd350965cfbd7b1508d261bc48163ecad89cefd0d24ffc372148c25d0b66",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "864f7817f9f2cfed14d3c1c48bd08bfe7aeae3d4b6d8c42585396681d19830a6",
+  "history_search_version": "59a3c098d0e41df5c229a36c4d11b26cc2e4abf5165bb84364a67a2bbec72db1",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
