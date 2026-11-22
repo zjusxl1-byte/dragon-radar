@@ -6053,7 +6053,7 @@
     "2026-11-22": "9f0efdda3205979cff4fe864ae8ce1c50af4a03ca0d970872ae17794ba223f42"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "2a2819e0bfec4deefa7a039ba79b2527005caa50ffd1fe79c46a18d85507c242",
+  "geography_version": "80544766de5ddabcfbe175d4e805a92bb67b26a744bea598fde39f6ca6d08148",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -42366,10 +42366,51 @@
       "located_status": "unknown"
     },
     "dr-u-ff55e152b0c242ac1487": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 临平区 / 临平经济技术开发区杭汽轮制造基地总装车间",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-9d1ee350c8166a31ba0df78c"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "浙江杭汽轮动力科技集团股份有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-9d1ee350c8166a31ba0df78c",
+          "source_url": "https://mp.weixin.qq.com/s/r5YTsdR0oeWvmbWR52fyQQ",
+          "checked_at": "2026-11-22T15:51:11.345912+00:00",
+          "subject": "浙江杭汽轮动力科技集团股份有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "临平区",
+            "address": "临平经济技术开发区杭汽轮制造基地总装车间"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "临平区",
+        "evidence_ids": [
+          "geo-9d1ee350c8166a31ba0df78c"
+        ]
+      }
     },
     "dr-u-ff6389c520a94f14791b": {
       "geography_status": "confirmed",
@@ -70198,7 +70239,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "cae271b755dd6aafcdd08abc7e0cb254d1b4eb6d20b0e5c75da3aec916683bb6",
+  "history_version": "b7645cdfdc4b8dfaae1e430380d1f90399961fa873bc36d26a691bc6e92c056a",
   "company_history_buckets": {
     "00": "e28fc09752dcc3d98c96cd421ae09a42f17599f526d8ebe5650c4b5f4f710b6c",
     "01": "8cd3df16821237db772a2daa69d1fe4bb6abec533f3a842aa182058a6d30c183",
@@ -70237,7 +70278,7 @@
     "22": "60679c92d0f303d5fe405ee261397b7f8e0b2852b19b00c31e457be264e2d352",
     "23": "25a790bf0389302354771f27cc5586c4b06192b1b7f07390241b290157558da9",
     "24": "46becb8bae63fb910c80bb9ed249d8839ac0830b709c08f2be282f0fb26eb2a1",
-    "25": "7c278b1546f5ff029c6dcaa02c6babf2ed2d94bb19509c3937b3eeebe424c8c8",
+    "25": "021d12bb32eecaca850b5a7189c5516c55f5627ca16a04c82d397cad259bcd70",
     "26": "2794a89eb0eb2c1f882a88cfdb77db4c56d47098a4072ad15044f09bd4f1a179",
     "27": "b52489371937ac40105ed94c89254512e8080c6e5d15821665dfcb6683e79847",
     "28": "b02c285e4e7af211c11de6e130b8b46ce605cd7ac6d31a670d9a53523ce37592",
@@ -70265,7 +70306,7 @@
     "3e": "3d18dd350965cfbd7b1508d261bc48163ecad89cefd0d24ffc372148c25d0b66",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "a5c845321fff2b4ac17d970eb352e139e9a18f5e79ccd5e2d13827d0a81b509d",
+  "history_search_version": "3d1058ef69f98ce73e1842c65f7329f55acc1d78677f8c2d931e83152831f8ef",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
