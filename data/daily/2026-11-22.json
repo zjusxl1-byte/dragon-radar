@@ -1,0 +1,3759 @@
+{
+  "date": "2026-11-22",
+  "targets": [
+    {
+      "company_raw_name": "MachinePulse AI",
+      "identity_mentions": [
+        {
+          "name": "Karpo Decision 31B",
+          "relation": "product",
+          "evidence": "这位新晋决策高手，就是MachinePulse AI刚刚开源的Karpo Decision 31B。"
+        }
+      ],
+      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "company": "MachinePulse AI",
+      "score": 50,
+      "sector": "人工智能／Agent决策模型",
+      "financing": "",
+      "source": "量子位",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "MachinePulse AI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-be901be9d809cdc3c3c4",
+      "company_canonical_name": "MachinePulse AI",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/4N8Y12bIPGWnLBp95gtqgw",
+      "article_title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "event_desc": "MachinePulse AI开源Karpo Decision 31B，并同步提供0.8B、2B、4B、9B、12B和31B六种规模的决策模型。31B模型通过Readout Head直接输出候选选项概率，无需逐Token生成答案，支持选择、是非判断和评分三类任务，单题最多255个候选选项；Branch Attention支持256K上下文，共享背景材料只计算一次。文章披露，该模型在Decision Index总榜取得73.9的Full分，在JevBench公开题上的预期校准误差为2.3%；单张RTX PRO 6000处理公开集14万多次请求的中位响应时间为94毫秒。另在1K—4K Token请求条件下，单题中位耗时为371毫秒，每次请求包含16—63道题时为653毫秒。按JevBench的GPU成本估算，每1000次决策约0.025美元。团队采用面向校准决策的强化学习，并融合5个训练检查点；所述训练实验中，融合后公开测试成绩保持75.1，13个陌生领域的准确率由70.7%提高至72.3%，模型参数量和推理结构未增加。",
+      "insight": "这次开源把工具选择、结果筛选和完成状态判断做成可独立部署的决策层：直接输出概率、共享多题上下文，减少了这些任务反复生成文字答案的开销。其价值不仅是答题更快，还在于开发者可以依据概率设置自动执行或转人工的阈值；公开题上的校准结果尚不能直接代表具体业务中的阈值可靠性。",
+      "event_headline": "MachinePulse AI开源Karpo决策模型，直接输出选项概率",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "全文明确MachinePulse AI为Karpo Decision模型开发与开源主体，Karpo Decision 31B是产品而非另一企业。开放权重、直接输出概率的决策机制及共享上下文处理，构成可独立采信的技术产品进展，对杭州Agent企业降低高频判断开销具有对标价值。不同请求条件下的时延不可混用，团队测试和媒体试玩不证明全面领先通用模型。来源记录提供2026年11月21日发布时间，符合七日窗口；精确开源日期未知不影响保留。提供的历史检索未发现同事件记录，不宣称首次发现。工商身份和城市尚未归档不否定正文已明确的开发主体，也不赋予杭州属地或领导简报资格。",
+      "event_headline_source": "0dbcc324a85ccac8065bb7d669b96a258b207666cc0c34b4e90052c175cd1970",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "材料支持具体开源产品进展，但不足以建立全国标杆行业地位；地点未知，单项榜单和团队测试不能替代独立行业地位证据。",
+        "evidence_ids": [
+          "article:24fe8fc2aec19187"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "c3d732b58a73aaa424dd8505140b019c68e0234db8cfc0c9affe75767584b536",
+        "input_row_sha256": "b7222ce11545978a724d5ee90ab2689a71cbf7f39408d1a8fa72ca1b82aaa22e",
+        "reason": "全文明确MachinePulse AI为Karpo Decision模型开发与开源主体，Karpo Decision 31B是产品而非另一企业。开放权重、直接输出概率的决策机制及共享上下文处理，构成可独立采信的技术产品进展，对杭州Agent企业降低高频判断开销具有对标价值。不同请求条件下的时延不可混用，团队测试和媒体试玩不证明全面领先通用模型。来源记录提供2026年11月21日发布时间，符合七日窗口；精确开源日期未知不影响保留。提供的历史检索未发现同事件记录，不宣称首次发现。工商身份和城市尚未归档不否定正文已明确的开发主体，也不赋予杭州属地或领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文披露六种规模决策模型已开源；31B通过Readout Head一次前向推理输出候选概率，支持选择、是非判断和评分，并以Branch Attention复用多题共享上下文。",
+          "value_reason": "工具选择、结果筛选与任务完成判断可以由可部署的专用决策层承担，为Agent减少逐字生成和重复处理背景材料提供具体实现路线；概率输出也提供自动执行与人工接管的接口，但业务阈值可靠性仍需场景验证。"
+        },
+        "stage": {
+          "status": "已开源，性能为报道所述评测及试玩结果",
+          "reason": "原文明确称模型已经同步开源并列出权重仓库；榜单成绩、GPU成本估算和不同负载时延各有测试条件，不能写成已实现商业收益。新闻发布时间为2026-11-21T09:52:00Z，精确事件日期及首次收录时间未提供。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本候选的已收录历史和旧裁决均为空，检索未提供同事件匹配。本轮另一候选是27B Act、浏览器执行框架及评测集开放，与通用决策模型权重开放具有不同交付对象，可分别保留，但不据此推断两次发布的日期或先后。",
+          "new_evidence_ids": [
+            "article:24fe8fc2aec19187"
+          ]
+        },
+        "evidence_ids": [
+          "article:24fe8fc2aec19187",
+          "history_lookup:b052fccd76c1aa46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "材料支持具体开源产品进展，但不足以建立全国标杆行业地位；地点未知，单项榜单和团队测试不能替代独立行业地位证据。",
+          "evidence_ids": [
+            "article:24fe8fc2aec19187"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "MachinePulse",
+      "identity_mentions": [
+        {
+          "name": "karpo-browser",
+          "relation": "product",
+          "evidence": "MachinePulse团队最新开源了这套名为karpo-browser的浏览器Agent方案，该方案创新地采用了System 1＋System 2的快慢双模型分工，让通用大模型和专门的决策模型搭伙干活。"
+        }
+      ],
+      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "company": "MachinePulse AI",
+      "score": 50,
+      "sector": "人工智能／浏览器Agent基础设施",
+      "financing": "",
+      "source": "量子位",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "MachinePulse AI",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-be901be9d809cdc3c3c4",
+      "company_canonical_name": "MachinePulse AI",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/4N8Y12bIPGWnLBp95gtqgw",
+      "article_title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "event_desc": "MachinePulse将已应用于自家Personal Agent产品Karpo的浏览器操作方案向开发者开源，包含TypeScript编写的karpo-browser框架、Karpo Decision 27B Act模型权重及KBB网页动作决策评测集。方案采用快慢双模型分工：DeepSeek V4.1 Flash负责理解需求、任务规划和信息准备，27B Act负责选择网页操作，框架负责读取网页、执行动作及处理页面变化和异常；27B Act单次动作决策中位时延为931毫秒。团队在Browserbase Benchmark v2全部102道任务上运行三轮，报告平均成功率89%、平均耗时201秒、单任务模型成本0.096美元；约78%的网页操作由决策模型完成，占整个Agent运行耗时的14%、模型成本的13%。文章称其相较Claude Fable 5.2与Claude Code组合速度约快1.9倍、模型成本约为十三分之一，同时说明Karpo未参加榜单排名，其102题三轮自测与榜单其他记录所述38题单轮测试的口径不同。KBB覆盖584个真实网站、23075步网页操作，支持真实网页录制与离线回放；框架可适配不同模型，并通过MCP接入Claude Code、Codex等Agent。",
+      "insight": "MachinePulse把决策模型从通用判断推进到网页执行，并开放模型、执行框架和评测工具，开发者因而能复用一套完整的浏览器Agent实现。其团队测试显示，大部分网页操作可交给专用模型而只占较小的时间和模型成本；这支持按任务分工的产品路线，但不同题集和运行次数下的榜单记录不能直接确立全面领先。",
+      "event_headline": "MachinePulse开源浏览器工具链，将规划与网页动作分工",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "全文在同一团队与产品叙述中明确MachinePulse是浏览器方案的开放主体，足以识别本条技术归属，不因registry未归档而待核。独立事实是开放27B Act权重、karpo-browser执行框架和KBB评测集，并给出规划与动作分工、现有产品应用及开发者接入方式，不只是泛称演示。该工具链与另一候选的通用决策模型开放有不同交付对象，具备单列工程化进展的价值。DeepSeek承担规划组件角色，Claude Code和Codex为接入对象，不另列其发布。2026年11月21日来源发布时间满足窗口；历史检索未见同事件，地点和精确事件日如实未知。102题三轮自测与38题单轮榜单口径不同，不采信全面领先表述。",
+      "event_headline_source": "f1c4f35458a52eac23e06b231ce637c71517570562cb6ef5ade278d2b1090747",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "完整工具链和团队测试支持工程进展，但缺少足以建立全国标杆资格的独立行业地位依据；来源明确测试口径不同，不能据比较宣传授予标签。",
+        "evidence_ids": [
+          "article:24fe8fc2aec19187"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "47b58a2248f67ea6b3e43b3c0306f93c57a73a210902e4cbb03cd21e22ce7c72",
+        "input_row_sha256": "7894e61095dd1621baff295c5baba8b82ee9770193e8b6e50d8388c6a179b3c9",
+        "reason": "全文在同一团队与产品叙述中明确MachinePulse是浏览器方案的开放主体，足以识别本条技术归属，不因registry未归档而待核。独立事实是开放27B Act权重、karpo-browser执行框架和KBB评测集，并给出规划与动作分工、现有产品应用及开发者接入方式，不只是泛称演示。该工具链与另一候选的通用决策模型开放有不同交付对象，具备单列工程化进展的价值。DeepSeek承担规划组件角色，Claude Code和Codex为接入对象，不另列其发布。2026年11月21日来源发布时间满足窗口；历史检索未见同事件，地点和精确事件日如实未知。102题三轮自测与38题单轮榜单口径不同，不采信全面领先表述。",
+        "scope": {
+          "technology_evidence": "正文明确开放TypeScript浏览器框架、27B Act权重及覆盖584个网站和23075步操作的KBB评测集；通用模型负责需求理解与规划，专用决策模型选择网页动作，框架执行并处理异常，可通过MCP接入现有Agent。",
+          "value_reason": "开放的不仅是模型，还包含执行和动作评测能力，使开发者能够复用并检验规划与动作分工。团队完整任务测试为比较成功率、耗时和模型成本提供了具体线索，但尚非跨口径性能优越性的证明。"
+        },
+        "stage": {
+          "status": "工具链已开源，已用于自家产品，任务指标为团队自测",
+          "reason": "正文明确该方案此前已应用于自家Personal Agent，并已向开发者开放模型、框架和评测集；89%成功率、201秒和0.096美元来自102道任务三轮测试，不代表客户生产环境保证。新闻发布时间为2026-11-21T09:52:00Z，精确开源日期及首次收录时间未提供。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本候选历史检索未提供已收录或旧裁决匹配。相较本轮通用决策模型候选，本条新增网页动作模型、执行框架、评测集和接入方式；属于可独立辨认的工具链开放事实，不重复计算通用模型榜单成绩，也不推断发布先后。",
+          "new_evidence_ids": [
+            "article:24fe8fc2aec19187"
+          ]
+        },
+        "evidence_ids": [
+          "article:24fe8fc2aec19187",
+          "history_lookup:b052fccd76c1aa46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "完整工具链和团队测试支持工程进展，但缺少足以建立全国标杆资格的独立行业地位依据；来源明确测试口径不同，不能据比较宣传授予标签。",
+          "evidence_ids": [
+            "article:24fe8fc2aec19187"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "Grok Bot团队",
+      "identity_mentions": [
+        {
+          "name": "SpaceXSI",
+          "relation": "uncertain",
+          "evidence": "SpaceXSI首席工程师土豆姐（Lauren Tan）"
+        },
+        {
+          "name": "Dune",
+          "relation": "product",
+          "evidence": "在Grok Bot团队开发的客户端框架Dune中就有不少这样的设计。"
+        }
+      ],
+      "title": "全网疯传！Grok一姐教你如何月提交3000个PR",
+      "company": "Grok Bot",
+      "score": 35,
+      "sector": "AI编程与软件工程自动化",
+      "financing": "",
+      "source": "量子位",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Grok Bot",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-bf5b1a77289a1fcacf2e",
+      "company_canonical_name": "Grok Bot",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/DKdyv95tbi2WzzpomBCHQg",
+      "article_title": "全网疯传！Grok一姐教你如何月提交3000个PR",
+      "event_desc": "据Lauren Tan演讲，Grok Bot团队将工程经验转化为客户端框架Dune中的架构约束、Lint规则和类型检查，在产品代码中禁用useEffect，仅允许框架内部特定API使用，并禁止约99%的代码注释。团队为Agent提供应用运行、Chrome DevTools Protocol调试、用户视角功能地图及可复用的验证CLI和驱动程序，最近开始引入TLA+模型检查、Lean形式化证明，并使用Bombadil开展界面属性测试。文章称，今年10月团队提交1.1万个PR，平均每天超过350个，PR撤回率目前稳定在0.5%左右，客户端几乎每天发布一个稳定版本。Lauren Tan称个人上月提交3000个PR，并花费六个月建立自动化流程：Grok Bot发布新版本后，系统自动启动Cursor项目，调用云端Agent操作应用开展模糊测试，发现问题后创建修复PR，部分可直接合并；据其介绍，目前团队合入的大部分产品代码已不再需要人类深入代码审查。",
+      "insight": "这套流程的变化在于把Agent从代码生成延伸到运行应用、发现问题和提交修复，同时用框架与自动检查约束容易重复发生的错误。它为AI编程企业提供了具体的工程路径对标；但PR数量与撤回率尚不足以单独说明交付功能的复杂度或用户侧质量改善。",
+      "event_headline": "Grok Bot团队披露自动测试与修复PR流程",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "已读所供完整正文，原文明示Grok Bot团队开发Dune框架，并实施运行验证、自动模糊测试及修复PR流程，足以确认该团队与技术实践的关系，可按产品团队保留，不将其擅自合并为SpaceX或其他法人。独立价值是披露用框架约束和确定性检查降低Agent重复错误、将验证贯穿发布流程的具体实施路径，而非个人流量或PR数量本身。采集证据所载发布时间为2026年11月21日，符合七日窗口；上游称发布时间未提供不成立。地点及所属法人未明确不妨碍本条正面技术线索采信。所供历史检索未见匹配记录，不宣称首次公开。",
+      "event_headline_source": "ee92cbfafb2e01bb347860d56547774fc4ec593d27ef97e8f52607192e99f7f2",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体工程实践足以支持技术对标线索，但所属企业及主体行业地位未建立，团队自述的PR数据也不足以授予全国标杆资格。",
+        "evidence_ids": [
+          "article:51b223e4a228fdc5"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "63d089c9d7a9fb902860c49a6c3627f0116f509ae623faa11b6ebeaf80abfaec",
+        "input_row_sha256": "49895cd2f43f0d0f7b60b8ee991095d6018455f72032447a81f02bfc8e059476",
+        "reason": "已读所供完整正文，原文明示Grok Bot团队开发Dune框架，并实施运行验证、自动模糊测试及修复PR流程，足以确认该团队与技术实践的关系，可按产品团队保留，不将其擅自合并为SpaceX或其他法人。独立价值是披露用框架约束和确定性检查降低Agent重复错误、将验证贯穿发布流程的具体实施路径，而非个人流量或PR数量本身。采集证据所载发布时间为2026年11月21日，符合七日窗口；上游称发布时间未提供不成立。地点及所属法人未明确不妨碍本条正面技术线索采信。所供历史检索未见匹配记录，不宣称首次公开。",
+        "scope": {
+          "technology_evidence": "团队将工程经验落实为Dune架构约束和Lint规则，为Agent提供应用运行、CDP调试及验证CLI，最近开始引入TLA+和Lean，并在发布后调用云端Agent操作应用、发现问题及创建修复PR。",
+          "value_reason": "提供从生成代码转向可执行验证与自动修复的工程对标，关键机制是以框架和检查工具减少重复错误，并以运行证据支撑审查。PR数量及撤回率是演讲者自述，不能据此认定整体质量领先或量化生产率提升。"
+        },
+        "stage": {
+          "status": "团队已实施的工程流程及近期验证工具引入，依据演讲者自述",
+          "reason": "正文称自动化开发流程已经实现，形式化工具为最近开始引入；2026年10月PR数据及当前发布频率属于报道转述，未提供独立审计。具体演讲日及流程完成日未知，新闻发布时间为2026年11月21日。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所供accepted_history及prior_decisions均为空，历史检索未返回同事件记录，按当前证据作为新收录事件处理；这不等于证明首次公开。无旧裁决需要改判。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:51b223e4a228fdc5"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "具体工程实践足以支持技术对标线索，但所属企业及主体行业地位未建立，团队自述的PR数据也不足以授予全国标杆资格。",
+          "evidence_ids": [
+            "article:51b223e4a228fdc5"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "逆矩阵科技",
+      "title": "林俊旸，三个月涨了200亿",
+      "company": "逆矩阵科技",
+      "score": 15,
+      "sector": "科技，细分赛道未披露",
+      "financing": "今年6月完成超亿美元融资，估值超过50亿元；具体轮次、投资方及资金用途未披露。",
+      "source": "创业邦",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "逆矩阵科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-7c658826999bfa7d5265",
+      "company_canonical_name": "逆矩阵科技",
+      "identity_status": "confirmed",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/rxv_MEt6HIymwgrGUrJ6OA",
+      "article_title": "林俊旸，三个月涨了200亿",
+      "event_desc": "文章披露，今年6月，22岁的北大毕业生陈博远参与创办的逆矩阵科技完成超亿美元融资，估值超过50亿元。文章未说明该轮投资方、资金用途及公司的具体技术产品。",
+      "insight": "已收录同主体材料确认逆矩阵科技从事世界模型研发；本次报道新增2026年6月超亿美元融资及超过50亿元估值的资本成长节点，与三月已收录的超千万美元首轮融资不同。当前未披露具体轮次、投资方或资金用途，不将融资规模解释为技术效果或商业化成果。",
+      "event_headline": "历史回顾：逆矩阵科技完成超亿美元融资",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "approximate_date",
+        "description": "原文明确融资发生于2026年6月，具体日未知；新闻发表于2026年11月21日，不能以新闻日替代融资日。",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": false
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "当前全文明确逆矩阵科技为陈博远参与创办的融资主体，披露其2026年6月完成超亿美元融资、估值超过50亿元。已确认同主体历史说明公司从事世界模型基础研究与工程落地，补足当前文章未展开的技术业务背景。此次六月融资与历史三月收录的超千万美元首轮融资在时间和金额口径上不同，具备独立资本成长信息，不据此推断具体轮次、投资方或研发成果。新闻发表于2026年11月21日，符合最近七天窗口；六月事件属于历史进展回顾，并非今日融资。地点未知不阻断正面日报，也不赋予杭州属地或领导简报资格。",
+      "event_headline_source": "820a1932014e68c774c6b68d062b53e2238c336883a25c0e912a28822c5fc0a1",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "世界模型业务背景和融资规模支持产业观察，但现有证据未建立其行业地位、具体技术优势或可供杭州直接对标的独立实践。",
+        "evidence_ids": [
+          "article:5949a7145461458e",
+          "accepted_history:eed0f3db0335b7e1"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "1b3a00040b2c74e4d5dc6c9650a992d67197f25793562c336b4590bfbb422682",
+        "input_row_sha256": "14a839160e8a49e26f1343a62960fd9c2c759e902c0d8bf18bf32e28bad9c3f9",
+        "reason": "当前全文明确逆矩阵科技为陈博远参与创办的融资主体，披露其2026年6月完成超亿美元融资、估值超过50亿元。已确认同主体历史说明公司从事世界模型基础研究与工程落地，补足当前文章未展开的技术业务背景。此次六月融资与历史三月收录的超千万美元首轮融资在时间和金额口径上不同，具备独立资本成长信息，不据此推断具体轮次、投资方或研发成果。新闻发表于2026年11月21日，符合最近七天窗口；六月事件属于历史进展回顾，并非今日融资。地点未知不阻断正面日报，也不赋予杭州属地或领导简报资格。",
+        "scope": {
+          "technology_evidence": "当前正文披露逆矩阵科技独立融资事实；同主体已收录材料明确其研发世界模型，开展理解和模拟真实世界的AI系统基础研究及工程落地。",
+          "value_reason": "对已有世界模型研发业务证据的企业，六月超亿美元融资及超过50亿元估值提供了不同于既有首轮融资的资本成长节点，可用于观察该技术方向获得后续资本支持的情况，而非将融资等同于技术验证。"
+        },
+        "stage": {
+          "status": "已完成融资的历史回顾",
+          "reason": "原文明确“今年6月”及“完成超亿美元融资”；事件发生于2026年6月，具体日未知。新闻发布时间为2026年11月21日；本事件首次收录时间未提供。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:eed0f3db0335b7e1",
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "三月已收录的是超千万美元首轮融资；当前正文披露六月超亿美元融资及超过50亿元估值，属于不同时间、不同金额口径的融资节点。当前材料未明确轮次，不自行编号，也不将两笔金额相加。",
+          "new_evidence_ids": [
+            "article:5949a7145461458e"
+          ]
+        },
+        "evidence_ids": [
+          "article:5949a7145461458e",
+          "accepted_history:eed0f3db0335b7e1"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "世界模型业务背景和融资规模支持产业观察，但现有证据未建立其行业地位、具体技术优势或可供杭州直接对标的独立实践。",
+          "evidence_ids": [
+            "article:5949a7145461458e",
+            "accepted_history:eed0f3db0335b7e1"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "萝博派对",
+      "title": "林俊旸，三个月涨了200亿",
+      "company": "萝博派对",
+      "score": 40,
+      "sector": "机器人",
+      "financing": "成立一年多获得近5亿元融资；文章未列明单轮金额、融资轮次、投资方或资金用途。",
+      "source": "创业邦",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "萝博派对",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-93aaa0e9b061720ca78e",
+      "company_canonical_name": "萝博派对",
+      "identity_status": "unresolved",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/rxv_MEt6HIymwgrGUrJ6OA",
+      "article_title": "林俊旸，三个月涨了200亿",
+      "event_desc": "文章披露，2004年出生的哈尔滨工业大学毕业生黄一创办机器人公司萝博派对，公司成立一年多获得近5亿元融资。正文未说明融资轮次、投资方、用途及具体机器人产品。",
+      "insight": "萝博派对在成立一年多的阶段获得近5亿元融资，体现了早期机器人创业企业获得资本支持的成长节点。后续研究应先识别其机器人承担的具体任务，才能判断它与杭州机器人企业的可比环节。",
+      "event_headline": "萝博派对成立一年多，累计获得近5亿元融资",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确黄一创办的萝博派对是一家机器人公司，并独立披露成立一年多获得近5亿元融资，足以构成具有明确科技业务背景的资本成长线索，不只是创业者姓名或行业标签。按成立以来的累计融资回顾采信，不改写为新完成单轮融资，也不推断机器人具体功能、资金用途或商业交付。新闻发表于2026年11月21日，符合最近七天窗口；具体融资日期未知不单独阻断采信。所给检索未返回匹配历史，但不据此宣称首次公开。工商映射和城市未知不影响本条全球正面日报资格，亦不建立杭州属地。",
+      "event_headline_source": "e2ecfbf4b12831bf2376ae09ade4119267442db8e2e78702f7a8ef30bc0faa49",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有正文只建立机器人业务类别和累计融资成长事实，未提供行业地位、具体产品能力或可供杭州对标的独立实践依据。",
+        "evidence_ids": [
+          "article:5949a7145461458e"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "9b7c436183640acb6110516b5e0fe31e9db8e5813d151be7fe1ea0b93407f4f3",
+        "input_row_sha256": "2838ddc33213aad54c9fe396577f06872fc33bf812d55889459d303aafc8d06d",
+        "reason": "完整正文明确黄一创办的萝博派对是一家机器人公司，并独立披露成立一年多获得近5亿元融资，足以构成具有明确科技业务背景的资本成长线索，不只是创业者姓名或行业标签。按成立以来的累计融资回顾采信，不改写为新完成单轮融资，也不推断机器人具体功能、资金用途或商业交付。新闻发表于2026年11月21日，符合最近七天窗口；具体融资日期未知不单独阻断采信。所给检索未返回匹配历史，但不据此宣称首次公开。工商映射和城市未知不影响本条全球正面日报资格，亦不建立杭州属地。",
+        "scope": {
+          "technology_evidence": "当前正文直接称其为黄一创办的“机器人公司萝博派对”，并披露成立一年多获得近5亿元融资，技术业务类别与融资主体在同一句中明确对应。",
+          "value_reason": "成立一年多获得近5亿元融资揭示了早期机器人企业获得资本支持的具体成长节点，具有独立发现价值；尚不足以判断其产品竞争力、制造能力或与杭州企业的具体技术可比性。"
+        },
+        "stage": {
+          "status": "已获融资的累计回顾",
+          "reason": "原文使用“成立一年多便拿到了近5亿元融资”，支持已获融资的累计状态，不支持单轮金额或近期新交易。各笔融资日期未知；新闻发表于2026年11月21日，本事件首次收录时间未提供。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所给同主体历史检索无已收录项、待核项或排除裁决可匹配，本轮按未发现重复的独立融资线索保留，不宣称这是企业首次融资或首次公开报道。",
+          "new_evidence_ids": [
+            "article:5949a7145461458e"
+          ]
+        },
+        "evidence_ids": [
+          "article:5949a7145461458e",
+          "history_lookup:b052fccd76c1aa46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "现有正文只建立机器人业务类别和累计融资成长事实，未提供行业地位、具体产品能力或可供杭州对标的独立实践依据。",
+          "evidence_ids": [
+            "article:5949a7145461458e"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "万事利",
+      "title": "郭晶晶来了！杭州这个刚揭牌的国际平台，把全国七大历史经典产业凑在一起干了件大事！",
+      "company": "万事利",
+      "score": 35,
+      "sector": "纺织科技与数字化印染",
+      "financing": "",
+      "source": "浙商杂志",
+      "location": "地点待核",
+      "article_location": "浙江（原文将其列为浙江龙头企业，未说明具体城市或注册、总部地址）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "万事利",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-d6f237d1e3e2b4ac8682",
+      "company_canonical_name": "万事利",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/vu4z4_VIGpY1Wm3GEfu3AQ",
+      "article_title": "郭晶晶来了！杭州这个刚揭牌的国际平台，把全国七大历史经典产业凑在一起干了件大事！",
+      "event_desc": "万事利在首届历史经典产业博览会展示AI花型交互智能体和免水洗印染一体机。记者现场操作屏幕后，几十种花型迅速呈现，选定款式后由设备制作，报道记述7分钟取得一条定制丝巾。",
+      "insight": "这次展示把花型选择与现场印染连成了一条消费者可直接体验的定制流程：AI提供设计交互，设备承接实物制作。值得关注的是设计到成品的衔接能力；7分钟是报道中的现场体验结果，尚不能据此外推连续生产效率。",
+      "event_headline": "万事利展出AI花型交互与免水洗印染现场定制",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "全文不仅列名参展，还记述记者在万事利展台选择AI花型、设备随即制作并于7分钟后取得定制丝巾的操作过程，能够独立支持设计交互与现场制造衔接的正面线索。主体按原文保留为万事利展台，不将其自动等同于集团或万事利丝绸法律主体。采集证据载明2026年11月21日发布，满足最近7天窗口，上游所称缺发布时间不再成立。城市未知不阻断普通正面日报，但不得据展会在杭州赋予企业杭州属地。与本轮万事利丝绸候选涉及相同展会及相近技术流程，应关联呈现，不能将两篇报道计作两次独立技术突破；本条保留现场操作及7分钟体验这一具体事实。",
+      "event_headline_source": "3d23696844aff2f42c04a5223d4f8ebc81312ee5e188cf0ec00886fa7f296626",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "浙江（原文将其列为浙江龙头企业，未说明具体城市或注册、总部地址）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现场定制案例支持具体技术应用价值，但不足以建立全国行业领先地位或独立标杆资格。",
+        "evidence_ids": [
+          "article:fe5a945a2dd42ef9"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "456dd544375a5df34d1c0c5c009ed6f0e5a2b7ae33d556c9630eb867a2402476",
+        "input_row_sha256": "93c1f15af97cb7f4a8463eae01abe3aef7a1c62d8fa7e55f5251f267d6143c9f",
+        "reason": "全文不仅列名参展，还记述记者在万事利展台选择AI花型、设备随即制作并于7分钟后取得定制丝巾的操作过程，能够独立支持设计交互与现场制造衔接的正面线索。主体按原文保留为万事利展台，不将其自动等同于集团或万事利丝绸法律主体。采集证据载明2026年11月21日发布，满足最近7天窗口，上游所称缺发布时间不再成立。城市未知不阻断普通正面日报，但不得据展会在杭州赋予企业杭州属地。与本轮万事利丝绸候选涉及相同展会及相近技术流程，应关联呈现，不能将两篇报道计作两次独立技术突破；本条保留现场操作及7分钟体验这一具体事实。",
+        "scope": {
+          "technology_evidence": "原文明确描述AI花型交互智能体呈现花型，选择后由免水洗印染一体机制作定制丝巾。",
+          "value_reason": "现场操作证明设计选择能够接入实物制作，而非单纯展示生成图案，为判断个性化纺织品设计与制造能否贯通提供了可复核案例。7分钟仅为本次体验，不代表连续生产节拍或完整订单交付周期。"
+        },
+        "stage": {
+          "status": "已发生的现场应用演示",
+          "reason": "记者描述了实际选择花型并取得成品的过程；不据此认定设备量产、规模交付或技术首次发布。正文给出展期11月20日至22日，未明确该次体验的具体日期及年份，不补造事件日。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所供该稳定主体历史检索未返回已收录事项或旧裁决，按本次可见历史作为新事件线索处理，不宣称首次披露。本轮另一候选记录的是相关技术能力及制造条件，存在同一展会流程的关联，但没有已确认别名依据将两个稳定主体直接合并。",
+          "new_evidence_ids": [
+            "article:fe5a945a2dd42ef9"
+          ]
+        },
+        "evidence_ids": [
+          "article:fe5a945a2dd42ef9",
+          "history_lookup:b052fccd76c1aa46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "现场定制案例支持具体技术应用价值，但不足以建立全国行业领先地位或独立标杆资格。",
+          "evidence_ids": [
+            "article:fe5a945a2dd42ef9"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "凯喜雅",
+      "identity_mentions": [
+        {
+          "name": "凯喜雅",
+          "relation": "same_entity",
+          "evidence": "浙江凯喜雅国际股份有限公司国家级工业设计中心主任李鹏告诉记者，凯喜雅靠真丝拉绒技术，把原本只属于春夏的真丝品类拓展进了秋冬衣橱。"
+        }
+      ],
+      "title": "跟着晓晓逛展会｜当历史经典遇上高科技",
+      "company": "浙江凯喜雅国际股份有限公司",
+      "score": 10,
+      "sector": "功能性纺织材料与丝绸制造",
+      "financing": "",
+      "source": "浙商杂志",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "浙江凯喜雅国际股份有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-d4eea75b049cea50e432",
+      "company_canonical_name": "浙江凯喜雅国际股份有限公司",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/40hkSM7R44HHurK583jyUA",
+      "article_title": "跟着晓晓逛展会｜当历史经典遇上高科技",
+      "event_desc": "凯喜雅在首届历史经典产业博览会上展示多类功能化真丝产品。现场对比称，同样机洗20次后，自主研发的Innosilk可机洗真丝仍保持柔软和光泽；通过物理定型工艺，在100%天然真丝上实现永久肌理皱效果。报道还称，“丝耐晒”在14微米的轻薄真丝上实现UPF值超300，达到国标的8倍，紫外线透过率为1.95%，低于文中所述国标要求的5%。公司通过真丝拉绒技术拓展秋冬品类，新推出的“御风”系列专业防风真丝据介绍兼具全防风和透气属性，可用于行政夹克、户外风衣。报道介绍，公司产业链覆盖种桑养蚕、缫丝织造、印染后整和终端成衣。",
+      "insight": "凯喜雅展示的变化，是通过面料处理技术减少真丝对洗护、季节和穿着场景的限制，而不只是更换成衣款式。可机洗、防晒及防风产品分别对应日常维护和功能服饰需求，为真丝进入更广泛的日常穿着场景提供了具体产品路径。",
+      "event_headline": "凯喜雅展出可机洗、防晒及防风真丝产品",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "正文以浙江凯喜雅国际股份有限公司工业设计中心负责人采访及展台产品描述，将凯喜雅与可机洗真丝、物理定型真丝、拉绒及防风产品直接关联，主体和产品作用均有原文依据，不是泛称参展。功能化面料改变洗护条件、季节适用性及服装用途，足以单列为制造与材料应用线索。采集证据明确2026年11月21日发布，满足窗口；无须沿用上游因缺发布时间而待核的建议。文中防晒指标未给检测条件，且不同指标不能混算，不将其写成独立检测结论或据此确认行业突破。企业具体城市仍未知，不由展会地点推断。",
+      "event_headline_source": "65869d4d0b39fd33aa6c0472d8e942b354db79ac86ae17ad81b189c3b70184ca",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "产品功能与现场对比足以支持日报线索，但没有独立可比的行业地位、市场采用或领先性证据，国家级工业设计中心称谓本身不构成全国标杆裁决。",
+        "evidence_ids": [
+          "article:46f4b91485bbc3bf"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "a574c0e9909d4235f0be8051d624d9ea7c7cd2fb40117b21f0ec9a1358821d73",
+        "input_row_sha256": "e9b24b0c5d2bb8421a8ad803a3a4f68c9b8d3743aba97fec536894ee80021058",
+        "reason": "正文以浙江凯喜雅国际股份有限公司工业设计中心负责人采访及展台产品描述，将凯喜雅与可机洗真丝、物理定型真丝、拉绒及防风产品直接关联，主体和产品作用均有原文依据，不是泛称参展。功能化面料改变洗护条件、季节适用性及服装用途，足以单列为制造与材料应用线索。采集证据明确2026年11月21日发布，满足窗口；无须沿用上游因缺发布时间而待核的建议。文中防晒指标未给检测条件，且不同指标不能混算，不将其写成独立检测结论或据此确认行业突破。企业具体城市仍未知，不由展会地点推断。",
+        "scope": {
+          "technology_evidence": "原文记述Innosilk真丝机洗20次后的现场对比、天然真丝物理定型工艺，以及真丝拉绒和“御风”防风产品。",
+          "value_reason": "本条提供了真丝材料从娇贵洗护、春夏使用向日常维护及秋冬功能服装扩展的具体产品路径，价值来自面料功能和制造处理，而非传统品牌身份或行业潜力。"
+        },
+        "stage": {
+          "status": "已展出的功能产品及企业介绍",
+          "reason": "可机洗对比和多类功能面料已在展台展示，防风产品被报道为新推出；性能属于报道及企业介绍口径，不能提升为第三方认证、批量客户采用或商业收入。具体研发完成日与产品上市日未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所供该主体已收录历史及旧裁决均为空，检索未返回可判定重复的事项。本轮将功能真丝展示作为新收录线索，不宣称这些技术或产品首次出现。",
+          "new_evidence_ids": [
+            "article:46f4b91485bbc3bf"
+          ]
+        },
+        "evidence_ids": [
+          "article:46f4b91485bbc3bf",
+          "history_lookup:b052fccd76c1aa46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "产品功能与现场对比足以支持日报线索，但没有独立可比的行业地位、市场采用或领先性证据，国家级工业设计中心称谓本身不构成全国标杆裁决。",
+          "evidence_ids": [
+            "article:46f4b91485bbc3bf"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "万事利、万事利丝绸",
+      "identity_mentions": [
+        {
+          "name": "GBART活性免水洗印染一体机",
+          "relation": "product",
+          "evidence": "生产交给智能机器：那台磨了十年的GBART活性免水洗印染一体机，把原来占地5000平方米的印染车间塞进一台50平方米的设备里，染料上染率接近100%，排出来的水是清的，一米面料也能起订。"
+        }
+      ],
+      "title": "跟着晓晓逛展会｜当历史经典遇上高科技",
+      "company": "万事利丝绸",
+      "score": 85,
+      "sector": "纺织智能制造与AI设计",
+      "financing": "",
+      "source": "浙商杂志",
+      "location": "浙江省杭州市天城路68号(万事利科技大厦)2幢5楼501室",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省杭州市天城路68号(万事利科技大厦)2幢5楼501室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-207b3c30ed685d959153a0f9"
+        ],
+        "subject_evidence_ids": [
+          "geo-365fb7809b3f7e370708b8fd"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "万事利丝绸",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "registered"
+          ],
+          "evidence_ids": [
+            "geo-365fb7809b3f7e370708b8fd"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-207b3c30ed685d959153a0f9",
+            "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=301066&id=12205943",
+            "checked_at": "2026-11-08T17:38:55.633928+00:00",
+            "subject": "万事利丝绸",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "address": "浙江省杭州市天城路68号(万事利科技大厦)2幢5楼501室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-207b3c30ed685d959153a0f9"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-bb566a2c40af79ffe69d",
+      "company_canonical_name": "万事利丝绸",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/40hkSM7R44HHurK583jyUA",
+      "article_title": "跟着晓晓逛展会｜当历史经典遇上高科技",
+      "event_desc": "报道介绍，万事利将AI花型设计与智能印染用于丝巾定制，称定制周期由过去15天缩短至2小时。其花型大模型积累70多万个花型、300多套算法，并宣称能为全球80亿人每人设计10万条不重样的丝巾。公司历经十年打磨的GBART活性免水洗印染一体机，据报道将原占地5000平方米的印染车间功能集成至一台50平方米的设备，染料上染率接近100%，排水为清水，一米面料也能起订。原文还回顾，今年9月，公司曾在“历史经典产业高质量发展”展示活动上演示从AI出图到丝巾成品的即时印花流程。",
+      "insight": "万事利的关键变化不是单独增加AI出图，而是把设计与可小批量起订的印染设备接起来，使个性化花型能够更快成为实物。报道中的2小时定制和一米起订，分别指向交付速度与生产批量两个约束的改变，值得进一步辨明其适用面料、工序和运行条件。",
+      "event_headline": "万事利丝绸以AI设计和即时印染支持两小时定制",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "当前正文直接采访万事利丝绸董事长，并介绍AI花型设计、GBART印染设备、2小时定制及一米起订，足以支持企业设计制造应用线索。旧watch所需的简称主体及地点证据已由本轮所供年报释义、注册地址和办公地址材料补足，不因registry仍显示unresolved而继续待核，也不把万事利集团自动并入该主体。与旧报道相比，AI设计和无水印染不是新出现的技术事件，但本篇新增设备名称、占地集成及小批量起订等实质细节，按同一技术应用事项的信息增量保留。两篇报道周期指标的工序和条件未统一，不能宣称从2天再次提升到2小时。发布日满足7天窗口，既有9月演示不因发生较早而失去线索资格。",
+      "event_headline_source": "a09635b0faa8e4c5bab908a6f7db3978f05cc799958f7e67525388c28680d206",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-207b3c30ed685d959153a0f9",
+          "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=301066&id=12205943",
+          "checked_at": "2026-11-08T17:38:55.633928+00:00",
+          "subject": "万事利丝绸",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "address": "浙江省杭州市天城路68号(万事利科技大厦)2幢5楼501室"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "已确认杭州主体及具体技术应用，但产品介绍和企业性能口径不足以独立证明全国领先地位，不自动授予全国标杆或领导简报资格。",
+        "evidence_ids": [
+          "article:46f4b91485bbc3bf",
+          "geo-365fb7809b3f7e370708b8fd"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "498090f74251736b9e63e699c75fd8261feaf9f8a5ac12fa5313b5e4650cf056",
+        "input_row_sha256": "e3e803c160a4fa3d58c067901a970d75242721ca0489bb042ae5919393aaf153",
+        "reason": "当前正文直接采访万事利丝绸董事长，并介绍AI花型设计、GBART印染设备、2小时定制及一米起订，足以支持企业设计制造应用线索。旧watch所需的简称主体及地点证据已由本轮所供年报释义、注册地址和办公地址材料补足，不因registry仍显示unresolved而继续待核，也不把万事利集团自动并入该主体。与旧报道相比，AI设计和无水印染不是新出现的技术事件，但本篇新增设备名称、占地集成及小批量起订等实质细节，按同一技术应用事项的信息增量保留。两篇报道周期指标的工序和条件未统一，不能宣称从2天再次提升到2小时。发布日满足7天窗口，既有9月演示不因发生较早而失去线索资格。",
+        "scope": {
+          "technology_evidence": "报道将花型大模型与GBART活性免水洗印染一体机结合介绍，明确给出2小时定制、一米面料起订以及设备占地集成的应用描述。",
+          "value_reason": "新增信息将关注点从单纯AI出图推进到制造端的小批量门槛和空间集成：一米起订对应小批量定制的实际生产条件，值得据此研究设计制造协同。不将宣传性的组合数量、清水外观或单次交付口径推导为已验证的全产线性能与环保成效。"
+        },
+        "stage": {
+          "status": "已应用能力的报道与既有现场演示回顾",
+          "reason": "正文以现有定制流程和设备能力介绍为主，并回顾今年9月已有即时印花演示；不是新签订单、刚完成量产或新获认证。2小时和设备性能按报道归属表述，具体适用工序、运行条件及测定日期未知。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "prior_decision:1dcaae09964021d8",
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:1dcaae09964021d8",
+              "comparison": "new_progress",
+              "reason": "旧报道已披露同主体AIGC花型设计及无水印染缩短生产流程，不能因更换URL认定全新突破。当前报道补充GBART设备名称、空间集成和一米起订等制造事实，属于同一技术应用事项的实质信息增量。旧watch提出的主体映射及地点缺口已有本轮所供官方披露证据补足，旧候选来源闭包验证本身不作为业务批准。"
+            }
+          ],
+          "change_reason": "由旧watch转为本轮keep，依据是主体简称与法律主体、杭州注册及办公地址已有已审年报证据，同时当前正文直接归属业务并新增制造条件。此处new_progress指披露增量，不代表已证明发生了新的性能升级；本轮万事利展台候选的7分钟现场体验也不与2小时定制直接比较。",
+          "new_evidence_ids": [
+            "article:46f4b91485bbc3bf",
+            "geo-365fb7809b3f7e370708b8fd",
+            "geo-207b3c30ed685d959153a0f9"
+          ]
+        },
+        "evidence_ids": [
+          "article:46f4b91485bbc3bf",
+          "prior_decision:1dcaae09964021d8",
+          "history_lookup:b052fccd76c1aa46",
+          "geo-365fb7809b3f7e370708b8fd",
+          "geo-207b3c30ed685d959153a0f9"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "已确认杭州主体及具体技术应用，但产品介绍和企业性能口径不足以独立证明全国领先地位，不自动授予全国标杆或领导简报资格。",
+          "evidence_ids": [
+            "article:46f4b91485bbc3bf",
+            "geo-365fb7809b3f7e370708b8fd"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "AMD",
+      "title": "英伟达这周又演了出好戏：从「王者归来」到「门都没有」丨氪代表周报",
+      "company": "AMD",
+      "score": 70,
+      "sector": "半导体、空间智能、机器人仿真",
+      "financing": "报道称收购金额约82亿美元，未披露现金、股票或其他支付结构。",
+      "source": "36 氪",
+      "location": "US / 2485 Augustine Drive, Santa Clara, California 95054",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 2485 Augustine Drive, Santa Clara, California 95054",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-050ae70c9ea8bfd19645efce"
+        ],
+        "subject_evidence_ids": [
+          "geo-050ae70c9ea8bfd19645efce"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "AMD",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-050ae70c9ea8bfd19645efce"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-050ae70c9ea8bfd19645efce",
+            "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000018/amd-20251227.htm",
+            "checked_at": "2026-10-20T01:42:37.409870+00:00",
+            "subject": "AMD",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara",
+              "address": "2485 Augustine Drive, Santa Clara, California 95054"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-240389f4b730bad41f21",
+      "company_canonical_name": "AMD",
+      "identity_status": "unresolved",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/-7-EohS8HF4MgsfUggdkPg",
+      "article_title": "英伟达这周又演了出好戏：从「王者归来」到「门都没有」丨氪代表周报",
+      "event_desc": "文章称AMD已完成对World Labs约82亿美元的收购，为其仅次于赛灵思交易的第二大收购。李飞飞于11月16日确认出任AMD执行副总裁兼首席科学家，直接向苏姿丰汇报。文章称World Labs专攻空间智能，其Atlas产品可从一张图或一句话生成完整3D场景，并可用于训练机器人；双方自2025年起已在AMD GPU上开展模型训练合作。文章引述苏姿丰称，交易旨在将计算平台与模型协同优化。",
+      "insight": "若交易成立，AMD将把空间智能模型团队纳入芯片平台内部，使三维场景生成和机器人训练负载更直接地进入软硬件协同设计。双方既有GPU训练合作说明存在技术接点，但尚不能据此认定已推出优化后的芯片或联合产品。",
+      "event_headline": "AMD据报道完成约82亿美元收购World Labs",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "reported_completion_period_appointment_date_known",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "description": "新闻原始发布时间为2026-11-21T09:00:00Z；正文称本周完成收购，精确交割日未知。11月16日为李飞飞确认任职日期，不作为交割日。",
+        "review_required": false
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "已读当前完整正文。AMD明确为收购方，World Labs为标的，Atlas为标的产品，李飞飞任职是同一整合事项的组成事实，不另拆人事事件。原文具体报道约82亿美元收购已完成、李飞飞确认履新，并解释三维场景生成、机器人训练与计算平台和模型协同优化的联系，足以作为全球正面日报产业线索。相较旧裁决仅有9月签约且需核对共同交易历史，本篇新增的是报道所称完成及管理整合状态，不能继续按签约重述处理。仅按36氪报道采信，不声称本轮核读交易公告，不认定已推出协同优化芯片、实现性能提升或完成产品整合。名录unresolved不构成当前原文主体关系矛盾，美国总部已有同主体官方披露证据。新闻2026年11月21日发布符合窗口；精确交割日未知，11月16日只对应任职确认。",
+      "event_headline_source": "b73a8591cc1346f215365cb44d2dbb1d00df241653a78120f7f70ed358d254fc",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-050ae70c9ea8bfd19645efce",
+          "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000018/amd-20251227.htm",
+          "checked_at": "2026-10-20T01:42:37.409870+00:00",
+          "subject": "AMD",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "Santa Clara",
+            "address": "2485 Augustine Drive, Santa Clara, California 95054"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本包支持具体并购及软硬件协同路径，但没有独立建立可授予全国标杆标签的已审行业地位与比较依据；全球日报事件仍可保留。",
+        "evidence_ids": [
+          "article:e86b428bcd8937b8"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "a117d559ee49e206548a4cbeaf775ae579b9b2d252eaa9c9a6c6647963a03365",
+        "input_row_sha256": "70c47653649b0fa6b4cfa4b13264e5b1f13072cfe9b7052afc3b0e8875b33a0e",
+        "reason": "已读当前完整正文。AMD明确为收购方，World Labs为标的，Atlas为标的产品，李飞飞任职是同一整合事项的组成事实，不另拆人事事件。原文具体报道约82亿美元收购已完成、李飞飞确认履新，并解释三维场景生成、机器人训练与计算平台和模型协同优化的联系，足以作为全球正面日报产业线索。相较旧裁决仅有9月签约且需核对共同交易历史，本篇新增的是报道所称完成及管理整合状态，不能继续按签约重述处理。仅按36氪报道采信，不声称本轮核读交易公告，不认定已推出协同优化芯片、实现性能提升或完成产品整合。名录unresolved不构成当前原文主体关系矛盾，美国总部已有同主体官方披露证据。新闻2026年11月21日发布符合窗口；精确交割日未知，11月16日只对应任职确认。",
+        "scope": {
+          "technology_evidence": "World Labs从事空间智能，Atlas可由图片或文字生成三维场景并用于机器人训练；正文称双方自2025年起在AMD GPU上合作训练模型，本次收购意在计算平台与模型协同优化。",
+          "value_reason": "新增收购完成及团队进入芯片平台的整合事实，呈现芯片供应商通过纳入前沿模型团队理解未来计算负载的具体路径，可供杭州算力与空间智能企业研究软硬件协同组织方式，而非仅关注交易金额或高管任职。"
+        },
+        "stage": {
+          "status": "reported_acquisition_completed",
+          "reason": "正文明确称收购已经完成，并称李飞飞于11月16日确认出任执行副总裁兼首席科学家；交割精确日期及支付结构未披露，协同优化仍是交易目标，非已验证成果。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "prior_decision:44725904c46048c0",
+            "prior_decision:212362422ec8bdfd",
+            "prior_decision:007b7c39260ed6ed",
+            "prior_decision:624928f8ab9b358b",
+            "prior_decision:6f67b949415e66c5",
+            "prior_decision:c1f85ad173d362ff",
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:002b705ee4752089",
+              "comparison": "different_event",
+              "reason": "旧项为与火山引擎联合发布Venice云实例时的镜像拆卡，不适用于World Labs收购。"
+            },
+            {
+              "evidence_id": "prior_decision:123629c50d1ce405",
+              "comparison": "different_event",
+              "reason": "旧项为同一云实例发布的供应商视角去重。"
+            },
+            {
+              "evidence_id": "prior_decision:dacb27572a246365",
+              "comparison": "different_event",
+              "reason": "旧项为MI400和MI450-MC放量预测与实际排产未区分；当前未补证该问题。"
+            },
+            {
+              "evidence_id": "prior_decision:92a29aece4176583",
+              "comparison": "different_event",
+              "reason": "旧项为芯片放量时间预测口径待核，不是并购。"
+            },
+            {
+              "evidence_id": "prior_decision:adccca678879bbc4",
+              "comparison": "different_event",
+              "reason": "旧项为芯片排产与研究机构预测关系待核。"
+            },
+            {
+              "evidence_id": "prior_decision:45636c2886a37375",
+              "comparison": "different_event",
+              "reason": "旧项为MI系列产品放量主张。"
+            },
+            {
+              "evidence_id": "prior_decision:9b118a15a47fa969",
+              "comparison": "different_event",
+              "reason": "旧项为放量预测来源缺口，不由本次并购解除。"
+            },
+            {
+              "evidence_id": "prior_decision:44725904c46048c0",
+              "comparison": "new_progress",
+              "reason": "同一收购，旧文仅重述9月签约；当前明确报道已完成及任职确认。"
+            },
+            {
+              "evidence_id": "prior_decision:212362422ec8bdfd",
+              "comparison": "new_progress",
+              "reason": "交易双方和金额相同，完成状态及管理整合是新增，不宣称新交易或首次发现。"
+            },
+            {
+              "evidence_id": "prior_decision:007b7c39260ed6ed",
+              "comparison": "new_progress",
+              "reason": "旧待核涉及签约重述的历史关联，本条已出现可辨认的后续阶段。"
+            },
+            {
+              "evidence_id": "prior_decision:624928f8ab9b358b",
+              "comparison": "new_progress",
+              "reason": "从拟议收购推进到媒体所述完成，沿共同交易身份更新。"
+            },
+            {
+              "evidence_id": "prior_decision:6f67b949415e66c5",
+              "comparison": "new_progress",
+              "reason": "当前不再只是9月协议背景，新增收购完成及履新。"
+            },
+            {
+              "evidence_id": "prior_decision:c1f85ad173d362ff",
+              "comparison": "new_progress",
+              "reason": "同一并购的报道阶段增量，不以换URL解除旧事项或另计交易。"
+            }
+          ],
+          "change_reason": "旧材料只报道签署收购协议；当前完整正文明确报道收购已完成，并新增李飞飞于11月16日确认履新及汇报关系。以同一交易后续进展保留，不追认旧文为首次发现，也不声称已取得交易原始公告。",
+          "new_evidence_ids": [
+            "article:e86b428bcd8937b8"
+          ]
+        },
+        "evidence_ids": [
+          "article:e86b428bcd8937b8",
+          "geo-050ae70c9ea8bfd19645efce",
+          "prior_decision:44725904c46048c0"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本包支持具体并购及软硬件协同路径，但没有独立建立可授予全国标杆标签的已审行业地位与比较依据；全球日报事件仍可保留。",
+          "evidence_ids": [
+            "article:e86b428bcd8937b8"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "阿里",
+      "title": "29岁，一位字节女将爆红",
+      "company": "阿里",
+      "score": 100,
+      "sector": "人工智能／基础设施",
+      "financing": "约800亿港元配售；报道将其与加码AI基础投入联系。",
+      "source": "投资界",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路969号",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "subject_evidence_ids": [
+          "geo-96adb38b9ecaed1e412df1a7"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-96adb38b9ecaed1e412df1a7"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+            "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+            "checked_at": "2026-10-15T18:26:21.338217+00:00",
+            "subject": "阿里",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路969号"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1d99cc69a8ba22eb7d71",
+      "company_canonical_name": "阿里",
+      "identity_status": "unresolved",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/FARb_7XwJVkNadiHe9_4Kg",
+      "article_title": "29岁，一位字节女将爆红",
+      "event_desc": "正文称，阿里已完成约800亿港元配售，以加码AI基础投入；未提供配售完成日期、发行主体全称、发行价格及具体资金安排。",
+      "insight": "这笔配售是文章披露的独立资本节点，其科技产业意义在于为AI基础投入提供资金支持。正文没有说明具体建设对象，尚不能进一步判断资金将改变哪个算力或模型研发环节。",
+      "event_headline": "阿里据报道已完成约800亿港元配售以加码AI投入",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "已读本候选所供完整正文。文章明确称阿里已完成约800亿港元配售，并将其联系到AI基础投入，提供了独立资本节点，而非仅以科技企业身份或一般财务指标推想产业价值。沿用原阿里观察主体，不补写发行法律实体，不将融资归给阿里云或千问团队；registry尚未归档及未列工商全称，本身不构成当前集团层面报道的主体矛盾。2026年11月21日原始新闻发布时间已提供且符合窗口，配售实际完成日期及首次收录时间未知，不写成当日完成。所供历史及旧排除涉及其他产品、算力分配、工程工期或组织沿革，未见同一配售事件。按媒体回顾口径保留，不补造资金细项、算力采购、项目开工或研发效果；杭州主要总部已有官网依据，不再沿用上游地点未确认的理由。",
+      "event_headline_source": "463a2ba24433c4ed561c5375fa1a28002f5c9c09ba2a872123ad4b7c2e869c1e",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-96adb38b9ecaed1e412df1a7",
+          "source_url": "https://www.alibabagroup.com/faqs-corporate-information",
+          "checked_at": "2026-10-15T18:26:21.338217+00:00",
+          "subject": "阿里",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "文一西路969号"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条证明资本补充与AI基础投入的关联，但未提供独立的技术领先性、交付优势或行业地位比较依据；不以融资规模自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:121ee7a1a9485d1c"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "c393cf90f323ab752c544015d2076c23e49d3505f29ec4fba76186309fe0bfb9",
+        "input_row_sha256": "afd84d59ad595396099f5fa2ccb72a24c458c66de1d6de5f04b900998bf03475",
+        "reason": "已读本候选所供完整正文。文章明确称阿里已完成约800亿港元配售，并将其联系到AI基础投入，提供了独立资本节点，而非仅以科技企业身份或一般财务指标推想产业价值。沿用原阿里观察主体，不补写发行法律实体，不将融资归给阿里云或千问团队；registry尚未归档及未列工商全称，本身不构成当前集团层面报道的主体矛盾。2026年11月21日原始新闻发布时间已提供且符合窗口，配售实际完成日期及首次收录时间未知，不写成当日完成。所供历史及旧排除涉及其他产品、算力分配、工程工期或组织沿革，未见同一配售事件。按媒体回顾口径保留，不补造资金细项、算力采购、项目开工或研发效果；杭州主要总部已有官网依据，不再沿用上游地点未确认的理由。",
+        "scope": {
+          "technology_evidence": "原文具体披露阿里完成约800亿港元配售，并明确用于加码AI基础投入的报道关联。",
+          "value_reason": "资本补充与AI基础投入直接相连，可独立观察科技企业支持长期基础设施投入的融资路径；不要求同时披露技术突破，也不据此认定资金已形成算力或产品成果。"
+        },
+        "stage": {
+          "status": "reported_completed_placement",
+          "reason": "正文用“完成”描述配售，并用“早早”表明属于既有资本安排的回顾。新闻发布于2026年11月21日，配售完成日期、具体发行条款和首次收录时间均未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46",
+            "accepted_history:35f7b7ab635baa9b",
+            "accepted_history:f6d8b155f87b4309"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:e8832231a14da1a3",
+              "comparison": "different_event",
+              "reason": "旧项是100天建设数据中心的孤立工期陈述，不是配售融资。"
+            },
+            {
+              "evidence_id": "prior_decision:d0a7cda99e5a8167",
+              "comparison": "different_event",
+              "reason": "旧项是阿里云向外部模型客户配置算力的重复报道，与资本补充不同。"
+            },
+            {
+              "evidence_id": "prior_decision:e5721f2dfbcc26f1",
+              "comparison": "different_event",
+              "reason": "旧项排除既有算力分配事实的重报，不涉及本次配售。"
+            },
+            {
+              "evidence_id": "prior_decision:bbc64fc537da8827",
+              "comparison": "different_event",
+              "reason": "旧项是外部模型客户算力配置重复，与融资事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:53af43d462f03c9b",
+              "comparison": "different_event",
+              "reason": "旧项因数据中心100天工期缺少工程边界而不单列，不适用于配售事实。"
+            },
+            {
+              "evidence_id": "prior_decision:ebffcf3f3409ee7e",
+              "comparison": "different_event",
+              "reason": "旧项为既有算力分配安排重复，本条为资本节点。"
+            },
+            {
+              "evidence_id": "prior_decision:e918801b4c2f792e",
+              "comparison": "different_event",
+              "reason": "旧项涉及数据中心施工周期及交付边界，不是本事件。"
+            },
+            {
+              "evidence_id": "prior_decision:db7608dae3b7bcf4",
+              "comparison": "different_event",
+              "reason": "旧项排除同一算力配置消息重报，没有覆盖配售。"
+            },
+            {
+              "evidence_id": "prior_decision:12bd1f0cb029b06f",
+              "comparison": "different_event",
+              "reason": "旧项是千问办公形成过程的组织背景，配售具有不同的资本事实。"
+            },
+            {
+              "evidence_id": "prior_decision:cc192949c5a33d70",
+              "comparison": "different_event",
+              "reason": "旧项涉及多个AI项目整合，不是配售融资。"
+            },
+            {
+              "evidence_id": "prior_decision:b2ec3824cdc5ea5c",
+              "comparison": "different_event",
+              "reason": "旧项为千问办公组织沿革及泛称电商渗透，不能扩展为本次融资排除依据。"
+            }
+          ],
+          "change_reason": "所供历史未见同一约800亿港元配售。既有外部算力分配及2030年国产芯片规划分别属于资源配置和供应链规划，本条增加资本补充事实，不改判其他事件，也不宣称全库首次发现。",
+          "new_evidence_ids": [
+            "article:121ee7a1a9485d1c"
+          ]
+        },
+        "evidence_ids": [
+          "article:121ee7a1a9485d1c",
+          "geo-96adb38b9ecaed1e412df1a7",
+          "history_lookup:b052fccd76c1aa46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条证明资本补充与AI基础投入的关联，但未提供独立的技术领先性、交付优势或行业地位比较依据；不以融资规模自动授予全国标杆资格。",
+          "evidence_ids": [
+            "article:121ee7a1a9485d1c"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "AMD",
+      "title": "高端MLCC，将迎来最严重缺货",
+      "company": "AMD",
+      "score": 35,
+      "sector": "AI计算芯片及服务器平台",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "US / 2485 Augustine Drive, Santa Clara, California 95054",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / 2485 Augustine Drive, Santa Clara, California 95054",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-050ae70c9ea8bfd19645efce"
+        ],
+        "subject_evidence_ids": [
+          "geo-050ae70c9ea8bfd19645efce"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "AMD",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-050ae70c9ea8bfd19645efce"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-050ae70c9ea8bfd19645efce",
+            "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000018/amd-20251227.htm",
+            "checked_at": "2026-10-20T01:42:37.409870+00:00",
+            "subject": "AMD",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara",
+              "address": "2485 Augustine Drive, Santa Clara, California 95054"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-240389f4b730bad41f21",
+      "company_canonical_name": "AMD",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/aCZQwW4ZAe-91fd46UOmJA",
+      "article_title": "高端MLCC，将迎来最严重缺货",
+      "event_desc": "文章称，AMD已开始为Instinct MI450平台采购特殊规格的高容量积层陶瓷电容器（MLCC）。根据TrendForce此前披露的数据，在设计验证阶段，该平台单板所需的47μF、2.5V规格MLCC数量由1440颗增加至10544颗，原文披露增幅为632%。",
+      "insight": "MI450的元件采购与设计验证数据表明，新平台对高容量MLCC的需求不只来自服务器数量增长，也来自单板配置增加。这使电源配套元件的规格适配和供给能力成为观察AI平台放量的重要环节。",
+      "event_headline": "AMD已为MI450采购特殊规格高容量MLCC",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "已读本候选所供完整正文。文章经TECH+转述TrendForce，明确AMD已为Instinct MI450采购特殊规格高容量MLCC，并列出设计验证阶段特定规格的单板用量变化。AMD是平台及元件采购需求方，不是MLCC制造商；不能把文中村田、三星电机的供给份额或扩产计划归给AMD。该事实直接连接AI计算平台与电源配套元件需求，足以单列全球正面产业线索，不是从总体营收或价格想象AI关联。新闻发布于2026年11月21日，所引TECH+报道日期为11月20日，符合窗口；采购启动和设计变更日期、首次收录时间未知。既有Venice、HBM、FPGA、Helios及MI400等放量预测裁决均未覆盖本次MLCC采购。按媒体及研究机构口径保留，不把2027年缺货预测写成当前已发生的AMD供货中断，不进入杭州负面预警。",
+      "event_headline_source": "b8477236e23e48eae0359fe1220478a66d168d0acc1ca6a2624778c98b43d303",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-050ae70c9ea8bfd19645efce",
+          "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000018/amd-20251227.htm",
+          "checked_at": "2026-10-20T01:42:37.409870+00:00",
+          "subject": "AMD",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "Santa Clara",
+            "address": "2485 Augustine Drive, Santa Clara, California 95054"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条支持具体AI平台的元件需求和采购观察，但未独立建立AMD在该技术或供应链环节的领先地位及比较优势；全球正面日报采信不自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:5958fae7b70f2fd4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "f46ff9bc1693e44c1b52ff9dff4cd2f8911e61e57ada6e44b0f02eef5af1556a",
+        "input_row_sha256": "8dc64562a007a6979634d363ff6dccd13e449060790b891800e60b0e750753f1",
+        "reason": "已读本候选所供完整正文。文章经TECH+转述TrendForce，明确AMD已为Instinct MI450采购特殊规格高容量MLCC，并列出设计验证阶段特定规格的单板用量变化。AMD是平台及元件采购需求方，不是MLCC制造商；不能把文中村田、三星电机的供给份额或扩产计划归给AMD。该事实直接连接AI计算平台与电源配套元件需求，足以单列全球正面产业线索，不是从总体营收或价格想象AI关联。新闻发布于2026年11月21日，所引TECH+报道日期为11月20日，符合窗口；采购启动和设计变更日期、首次收录时间未知。既有Venice、HBM、FPGA、Helios及MI400等放量预测裁决均未覆盖本次MLCC采购。按媒体及研究机构口径保留，不把2027年缺货预测写成当前已发生的AMD供货中断，不进入杭州负面预警。",
+        "scope": {
+          "technology_evidence": "正文明确Instinct MI450已采购特殊规格高容量MLCC，并披露设计验证阶段47μF、2.5V规格元件单板需求由1440颗变为10544颗的报道数据。",
+          "value_reason": "具体平台、元件规格及采购行为表明，AI系统供给观察需要延伸到电源稳压、滤波和去耦部件的适配与制造供给，而不能只看计算芯片；该关联由本条正文直接支持。"
+        },
+        "stage": {
+          "status": "reported_procurement_started",
+          "reason": "原文称AMD“已开始”采购；单板用量属于设计验证阶段数据，不等同最终量产物料表或实际采购总量。新闻发布于2026年11月21日，事件精确日期未知；2027年上半年短缺及2028年以后产能释放均为预测。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46",
+            "accepted_history:c3eaf67fa4d231ca",
+            "accepted_history:66f5ab3c1f8329d0",
+            "accepted_history:7cf2502954c34d0d",
+            "prior_decision:dacb27572a246365"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:002b705ee4752089",
+              "comparison": "different_event",
+              "reason": "旧项是AMD与火山引擎联合发布EPYC云实例的多方重复拆卡，不是MI450元件采购。"
+            },
+            {
+              "evidence_id": "prior_decision:123629c50d1ce405",
+              "comparison": "different_event",
+              "reason": "旧项排除同一云实例发布的供应商视角重复；本条有独立MLCC采购事实。"
+            },
+            {
+              "evidence_id": "prior_decision:dacb27572a246365",
+              "comparison": "different_event",
+              "reason": "旧项涉及MI400及Meta定制MI450-MC的放量时间预测与实际排产未区分，不能仅因型号相关而套用；本条是另一来源明确报道的MLCC采购，不证明或改判旧放量安排。"
+            },
+            {
+              "evidence_id": "prior_decision:92a29aece4176583",
+              "comparison": "different_event",
+              "reason": "旧项核心缺口为研究模型预测与企业排产事实的区别，本条不涉及该季度前移判断。"
+            },
+            {
+              "evidence_id": "prior_decision:adccca678879bbc4",
+              "comparison": "different_event",
+              "reason": "旧项为MI400及定制型号放量预测，当前元件采购不能用于解除其原有证据缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:45636c2886a37375",
+              "comparison": "different_event",
+              "reason": "旧项涉及特定数量芯片的季度放量修订，本次没有重复或确认那些数量及排产日期。"
+            },
+            {
+              "evidence_id": "prior_decision:9b118a15a47fa969",
+              "comparison": "different_event",
+              "reason": "旧项为放量时间调整的证据不足裁决；本次有独立采购及设计验证报道，不将元件备货推成已量产或已交付。"
+            }
+          ],
+          "change_reason": "既有HBM供应安排、Venice架构、服务器管理FPGA、Helios订单及放量预测均不是本次MI450高容量MLCC采购。当前提供另一项关键配套元件需求线索，不撤销旧待核或排除裁决，不宣称全库首次收录。",
+          "new_evidence_ids": [
+            "article:5958fae7b70f2fd4"
+          ]
+        },
+        "evidence_ids": [
+          "article:5958fae7b70f2fd4",
+          "geo-050ae70c9ea8bfd19645efce",
+          "history_lookup:b052fccd76c1aa46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条支持具体AI平台的元件需求和采购观察，但未独立建立AMD在该技术或供应链环节的领先地位及比较优势；全球正面日报采信不自动授予全国标杆资格。",
+          "evidence_ids": [
+            "article:5958fae7b70f2fd4"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "英伟达",
+      "title": "高端MLCC，将迎来最严重缺货",
+      "company": "英伟达",
+      "score": 35,
+      "sector": "AI计算芯片及服务器平台",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "US / California / Santa Clara",
+      "article_location": "美国加利福尼亚州圣克拉拉（主要总部；复用已审同主体证据）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / Santa Clara",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "subject_evidence_ids": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "英伟达",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-4493064fe5737edf368c58ab"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4493064fe5737edf368c58ab",
+            "source_url": "https://nvidianews.nvidia.com/multimedia/santa-clara-headquarters",
+            "checked_at": "2026-10-16T00:31:54.065917+00:00",
+            "subject": "英伟达",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-60094bcf5292c4909fad",
+      "company_canonical_name": "英伟达",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/aCZQwW4ZAe-91fd46UOmJA",
+      "article_title": "高端MLCC，将迎来最严重缺货",
+      "event_desc": "文章称，英伟达Vera Rubin平台预计从2026年第四季度开始逐月扩大出货。根据TrendForce此前披露的数据，该平台使用的100μF、4V规格MLCC数量由每板320颗增加至500颗。",
+      "insight": "Vera Rubin的预计放量与单板高容量MLCC配置增加，共同指向AI平台升级对电源配套元件的需求拉动。其元件规格与MI450不同，两者说明的是需求路径，不能用颗数直接比较平台性能或供电效率。",
+      "event_headline": "英伟达Vera Rubin据报道增加单板高容量MLCC配置，预计逐月扩大出货",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "upcoming",
+        "description": "新闻发布于2026-11-21T03:32:00Z；原文预计Vera Rubin自2026年第四季度逐月扩大出货，未证明预测已兑现。MLCC配置变化引自TrendForce此前披露，具体发生日期及首次收录时间未知。",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": false
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确英伟达为Vera Rubin平台主体，转述TrendForce关于该平台单板100μF、4V规格MLCC由320颗增至500颗的数据，以及自2026年第四季度逐月扩大出货的预期。具体元件规格、配置变化和平台放量预期形成可独立阅读的AI硬件配套需求线索，不是仅凭企业名或缺货标题入选。历史已涉及Vera Rubin出货，不能宣称首次出货；本次新增价值是高容量MLCC配置及对应需求机制，而非重新包装既有量产事实。新闻发布于2026-11-21，符合七日窗口；配置变更具体时间及首次收录时间未知。按媒体转述的数据和预测保留，不认定扩大出货已实现、英伟达已遭遇缺料或其成本已经上升。美国总部证据不妨碍全球正面日报观察，也不赋予杭州负面预警或领导简报资格。",
+      "event_headline_source": "0ce6fd2be3798c026c9adb51e692e16050b08d5f91a4e8f2f20eeea17afdb07f",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-4493064fe5737edf368c58ab",
+          "source_url": "https://nvidianews.nvidia.com/multimedia/santa-clara-headquarters",
+          "checked_at": "2026-10-16T00:31:54.065917+00:00",
+          "subject": "英伟达",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "Santa Clara"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前正文足以支持Vera Rubin的具体元件需求观察，但没有单独建立本主体全国标杆资格所需的已审地位与对标依据；历史产品报道和上游标签不自动授予该资格。",
+        "evidence_ids": [
+          "article:5958fae7b70f2fd4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "cf82dc021cfe4558a083df98fb47cea2cdce762195bac3ed2b823fe0f786809f",
+        "input_row_sha256": "32a67b459841c9833a4f76ee9d57a52e643ada295b4ce3d14193d494d0fe59fa",
+        "reason": "完整正文明确英伟达为Vera Rubin平台主体，转述TrendForce关于该平台单板100μF、4V规格MLCC由320颗增至500颗的数据，以及自2026年第四季度逐月扩大出货的预期。具体元件规格、配置变化和平台放量预期形成可独立阅读的AI硬件配套需求线索，不是仅凭企业名或缺货标题入选。历史已涉及Vera Rubin出货，不能宣称首次出货；本次新增价值是高容量MLCC配置及对应需求机制，而非重新包装既有量产事实。新闻发布于2026-11-21，符合七日窗口；配置变更具体时间及首次收录时间未知。按媒体转述的数据和预测保留，不认定扩大出货已实现、英伟达已遭遇缺料或其成本已经上升。美国总部证据不妨碍全球正面日报观察，也不赋予杭州负面预警或领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文将Vera Rubin平台与100μF、4V高容量MLCC的具体单板配置联系起来，披露每板数量由320颗增至500颗，并说明MLCC用于电源稳压、滤波和去耦。",
+          "value_reason": "相较已有平台出货信息，本条增加了关键被动元件的规格和配置变化，使读者能够区分平台出货增长与单板元件配置增加这两条需求路径，为杭州相关元件及电源配套企业研究产品适配和供给能力提供具体入口；不能由此推定任何供应商已取得订单或全部MLCC产品普遍短缺。"
+        },
+        "stage": {
+          "status": "reported_configuration_and_upcoming_expansion",
+          "reason": "单板配置变化是文章转述TrendForce此前披露的数据，具体变更日期未知；自2026年第四季度逐月扩大出货属于预测，即使该季度已开始，也不能据此认定预测已经兑现。2027年上半年缺货程度及2028年以后新增产能释放同属预测。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46",
+            "accepted_history:4f440d27c62b70c6",
+            "accepted_history:fe2f9793b71bf514",
+            "accepted_history:2e03023c21d71d2a",
+            "prior_decision:b8f2efd44b6dafa1",
+            "prior_decision:0a1a6c54b6c7abb4"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:b352e953ed2315d9",
+              "comparison": "different_event",
+              "reason": "旧项为三星电机加入封装基板供应链的重复报道，本条为Vera Rubin的MLCC配置和放量预测，不是基板扩产回顾。"
+            },
+            {
+              "evidence_id": "prior_decision:6f399a95d7a0c6ef",
+              "comparison": "different_event",
+              "reason": "旧项重复10月多供应商封装基板扩产；本条披露另一类元件的具体配置，不撤销旧重复排除。"
+            },
+            {
+              "evidence_id": "prior_decision:a3469bf090252835",
+              "comparison": "different_event",
+              "reason": "封装基板合作与高容量MLCC配置并非同一事实，不能因同为英伟达供应链信息而合并。"
+            },
+            {
+              "evidence_id": "prior_decision:45547abdf8ece5e4",
+              "comparison": "different_event",
+              "reason": "旧项缺少基板扩产新增事实，本条的MLCC规格及配置变化未包含于该旧项。"
+            },
+            {
+              "evidence_id": "prior_decision:5b400bbcbc7fe9a6",
+              "comparison": "different_event",
+              "reason": "旧项为三星电机封装基板合作重复，本条不主张新增合作或新增供应商。"
+            },
+            {
+              "evidence_id": "prior_decision:ec7070422f54afda",
+              "comparison": "different_event",
+              "reason": "旧封装基板回顾继续排除，本次保留依据是平台MLCC配置的独立信息。"
+            },
+            {
+              "evidence_id": "prior_decision:1a435ddfca30f273",
+              "comparison": "different_event",
+              "reason": "旧项为GPU与Groq组合的概括性背景，本条有明确平台、元件规格及配置变化，不借旧异构推理背景补足价值。"
+            },
+            {
+              "evidence_id": "prior_decision:3f13a4c0c5c1ffdb",
+              "comparison": "different_event",
+              "reason": "Groq异构组合与平台MLCC需求属于不同事实链，旧信息不足裁决不适用于本条。"
+            },
+            {
+              "evidence_id": "prior_decision:05f70e348eee60a9",
+              "comparison": "different_event",
+              "reason": "旧项缺少可理解的推理分工，本条提供具体元件配置，不是旧组合的换来源报道。"
+            },
+            {
+              "evidence_id": "prior_decision:a385fd559fd532fb",
+              "comparison": "different_event",
+              "reason": "旧项涉及Groq组合，本条涉及Vera Rubin电源配套元件，主体相同不代表事件相同。"
+            },
+            {
+              "evidence_id": "prior_decision:14663d1fd9693d04",
+              "comparison": "different_event",
+              "reason": "旧异构推理背景仍不独立刊发；本条依据自身的规格及配置事实判断。"
+            },
+            {
+              "evidence_id": "prior_decision:aa1e2ca9bb670141",
+              "comparison": "different_event",
+              "reason": "本条没有新增Groq系统信息，也不改判该旧排除，属于另一项硬件配套观察。"
+            },
+            {
+              "evidence_id": "prior_decision:10bf68491c96a1e6",
+              "comparison": "different_event",
+              "reason": "旧项为Kumo Tabular发布信息不足，与Vera Rubin元件配置无关。"
+            },
+            {
+              "evidence_id": "prior_decision:6fc232eb8d25a191",
+              "comparison": "different_event",
+              "reason": "旧表格模型产品缺少具体能力说明，本条不涉及该产品或模型比较。"
+            },
+            {
+              "evidence_id": "prior_decision:1eb558420d0b2236",
+              "comparison": "different_event",
+              "reason": "Kumo Tabular发布与MLCC配置为独立事项，旧项继续保持原裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:ec11cd1109c2af89",
+              "comparison": "different_event",
+              "reason": "旧项为多个制造合作协议的汇总卡，本条不是重复汇总，而是具体MLCC配置及需求预测。"
+            },
+            {
+              "evidence_id": "prior_decision:1ad8e160c332706f",
+              "comparison": "different_event",
+              "reason": "旧项未提供独立于各供应商协议的新事实，本条新增元件配置，且不声称出现新采购协议。"
+            },
+            {
+              "evidence_id": "prior_decision:dcab4129e9714591",
+              "comparison": "different_event",
+              "reason": "制造合作总览与本次高容量MLCC观察不同，不重开旧总览卡。"
+            },
+            {
+              "evidence_id": "prior_decision:b8f2efd44b6dafa1",
+              "comparison": "new_progress",
+              "reason": "同属Vera Rubin产品事实链，旧项已涉及第三季度批量出货及更早出货历史。本条新增MLCC规格、单板配置变化和后续放量预测；不将出货本身认作首次新增，也不据此解决旧项CPU与NVL72刊发范围问题。"
+            },
+            {
+              "evidence_id": "prior_decision:93c0522996811e9d",
+              "comparison": "different_event",
+              "reason": "旧项为同次季度财报的重复卡，本条不重复营收、利润或财务指引。"
+            },
+            {
+              "evidence_id": "prior_decision:0a1a6c54b6c7abb4",
+              "comparison": "new_progress",
+              "reason": "旧项涉及NVL72量产及具名云伙伴运行，本条没有新增客户运行事实，而是增加MLCC配置与需求路径。沿用既有出货背景，不重置旧项历史和公开范围裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:160e21f55acd5a98",
+              "comparison": "different_event",
+              "reason": "旧项为拟收购Inception的单句报道，MLCC配置不构成其交易补证。"
+            },
+            {
+              "evidence_id": "prior_decision:9d6d4dbb235641db",
+              "comparison": "different_event",
+              "reason": "本条与Inception潜在交易无关，不改变旧项交易承诺和标的范围缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:cf21c10df7edeeb6",
+              "comparison": "different_event",
+              "reason": "旧并购候选与本次平台元件观察不同，不因另一正面事件保留而批准旧交易报道。"
+            },
+            {
+              "evidence_id": "prior_decision:3cc9ce887d1c39e6",
+              "comparison": "different_event",
+              "reason": "旧项关于Inception的证据不足仍保持，本条没有提供并购新事实。"
+            },
+            {
+              "evidence_id": "prior_decision:456d1942caca30cb",
+              "comparison": "different_event",
+              "reason": "旧项是RTX 5090停产传闻及境外主体预警资格问题，本条不是该传闻，也不将预测性MLCC供给紧张列为杭州预警。"
+            },
+            {
+              "evidence_id": "prior_decision:f42057ffa875ad0a",
+              "comparison": "different_event",
+              "reason": "旧项为RTX 5090停产否认及供给限制，本条为另一平台的元件配置，不把旧供给约束转借为Vera Rubin已缺料的证据。"
+            },
+            {
+              "evidence_id": "prior_decision:76d1bd0e5ce2f776",
+              "comparison": "different_event",
+              "reason": "旧项重复基板三年扩产2.5倍安排，本条并无该安排，MLCC配置变化具有不同事实内容。"
+            }
+          ],
+          "change_reason": "当前检索无读取错误，不能机械继承其他旧候选当时的历史来源故障。已供历史证明Vera Rubin并非仅处路线图阶段，已有出货报道；本条仅将新披露的高容量MLCC配置及放量预期作为该产品事实链的实质信息增量。所供Vera CPU设计、DSX POD、Rubin HPC及CPU机架发布各有不同产品或事件范围，不能据名称共现判为重复。未见当前MLCC配置的同事件旧裁决，不宣称首次发现，也不撤销其他旧排除。",
+          "new_evidence_ids": [
+            "article:5958fae7b70f2fd4"
+          ]
+        },
+        "evidence_ids": [
+          "article:5958fae7b70f2fd4",
+          "identity_registry:2dcd4f408df25406",
+          "geo-4493064fe5737edf368c58ab",
+          "history_lookup:b052fccd76c1aa46",
+          "prior_decision:b8f2efd44b6dafa1",
+          "prior_decision:0a1a6c54b6c7abb4"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "当前正文足以支持Vera Rubin的具体元件需求观察，但没有单独建立本主体全国标杆资格所需的已审地位与对标依据；历史产品报道和上游标签不自动授予该资格。",
+          "evidence_ids": [
+            "article:5958fae7b70f2fd4"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "村田制作所",
+      "title": "高端MLCC，将迎来最严重缺货",
+      "company": "村田制作所",
+      "score": 0,
+      "sector": "电子元件／高端MLCC",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "日本（原文明确的国家归属；注册地、主要总部及扩产项目地点未披露）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "村田制作所",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-d8155be3ea69bd2b82ae",
+      "company_canonical_name": "村田制作所",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/aCZQwW4ZAe-91fd46UOmJA",
+      "article_title": "高端MLCC，将迎来最严重缺货",
+      "event_desc": "据报道，村田制作所管理层已表示现有产能远远无法满足市场需求，并计划提前推进扩产；新的大规模产能预计要到2028年以后才能投入使用。",
+      "insight": "村田计划提前扩产，但新增大规模产能释放时间仍晚于报道预测的需求紧张高峰。高端MLCC不能仅靠增加设备迅速补量，制造工艺、良率和可靠性要求使量产爬坡成为供给响应的关键约束。",
+      "event_headline": "村田制作所计划提前扩产，大规模新产能预计2028年后投用",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "upcoming",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "description": "新闻发布于2026-11-21T03:32:00Z；管理层表态及计划提出日期未知。提前扩产属于计划，大规模新产能预计2028年后投入使用；首次收录时间未知。",
+        "review_required": false
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确村田制作所是高端MLCC供应商，并将现有产能不足和提前扩产计划归于其管理层，另给出大规模新产能预计2028年后投用的时段。可独立观察高端元件制造供给响应与AI服务器需求的时间错配，但不能认定项目已经开工、投产或产生新增交付。名录未登记不构成主体冲突；原文仅支持日本国家归属，城市、注册地、总部及项目地点仍未知，不补造。新闻发布于2026-11-21，符合七日窗口；所供历史检索未返回同主体事件，不宣称首次发现。不作为杭州负面预警。",
+      "event_headline_source": "2fbc54274e4978f95c1a94ad2f65af86c8bab10f543127df3bb6a93f227a5abe",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "日本（原文明确的国家归属；注册地、主要总部及扩产项目地点未披露）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原文支持其高端MLCC主要供应商角色和全球供给观察价值，但没有建立全国标杆的独立已审资格。",
+        "evidence_ids": [
+          "article:5958fae7b70f2fd4"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "abb401d8b6251d887d0e77f07d63cc6fa4d5944dc4864529bb1bea95e5d2998b",
+        "input_row_sha256": "8aa3570d6098ffbc516793bde684ecb42c2d9ce08138b3ec4fd0c3d3557501eb",
+        "reason": "完整正文明确村田制作所是高端MLCC供应商，并将现有产能不足和提前扩产计划归于其管理层，另给出大规模新产能预计2028年后投用的时段。可独立观察高端元件制造供给响应与AI服务器需求的时间错配，但不能认定项目已经开工、投产或产生新增交付。名录未登记不构成主体冲突；原文仅支持日本国家归属，城市、注册地、总部及项目地点仍未知，不补造。新闻发布于2026-11-21，符合七日窗口；所供历史检索未返回同主体事件，不宣称首次发现。不作为杭州负面预警。",
+        "scope": {
+          "technology_evidence": "原文将村田列为高端MLCC主要供应商，并具体转述管理层产能判断、提前扩产意向和新产能预计释放时段。",
+          "value_reason": "提供关键元件制造商自身的供给响应计划，可用于判断高容量、高可靠性产品扩产为何难以立即缓解需求压力，以及制造爬坡能力的对标价值。"
+        },
+        "stage": {
+          "status": "reported_management_plan_upcoming",
+          "reason": "管理层表态和计划被报道；大规模新产能预计2028年后投用，尚不能认定扩产完成。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所供检索未返回村田已收录、待核或排除事件，当前材料中未见同事件匹配；无旧裁决需要改判，首次收录时间仍未知。",
+          "new_evidence_ids": [
+            "article:5958fae7b70f2fd4"
+          ]
+        },
+        "evidence_ids": [
+          "article:5958fae7b70f2fd4",
+          "history_lookup:b052fccd76c1aa46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "原文支持其高端MLCC主要供应商角色和全球供给观察价值，但没有建立全国标杆的独立已审资格。",
+          "evidence_ids": [
+            "article:5958fae7b70f2fd4"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "Architect Labs",
+      "title": "一颗全新CPU，刚刚面世，由AI自主设计！",
+      "company": "Architect Labs",
+      "score": 50,
+      "sector": "AI芯片设计与通用处理器架构",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "美国；原文未明确州、市或注册地、总部地",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Architect Labs",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-1cf2da066cc7273bcf4e",
+      "company_canonical_name": "Architect Labs",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/18yreRCkoqt0ZYOfSUCuBw",
+      "article_title": "一颗全新CPU，刚刚面世，由AI自主设计！",
+      "event_desc": "Architect Labs公布实验性通用CPU架构Frostbite，称AI系统完成了编译器、指令集、微架构、RTL、验证和GDS物理布局的协同迭代。架构采用交互网络计算模型，通过局部计算、相邻单元工作窃取和空闲停用分配任务；程序由Vine 2编译为Ivy中间表示。公司称，经过四轮搜索和最后一轮筛选，共尝试58个方案，保留37个。制造前评估采用7纳米工艺，综合阶段频率为800 MHz，最终物理布局频率为500 MHz；由2×2计算单元及四个L3节点组成的Frostbite Quad面积为0.792平方毫米，同工艺参考CPU单核面积为0.895平方毫米。参考核心为身份未公开的现代双发射、顺序执行CPU。公司报告，在25项工作负载上，每瓦性能几何平均值为参考核心的4.59倍，其中10项搜索工作负载为6.02倍、15项保留评估工作负载为3.83倍；平均单位面积性能为参考核心的8.77倍。部分源自SPLASH-2的测试内核规模缩小了64倍。上述结果来自制造前仿真与物理设计评估；公司尚未宣布Frostbite量产或上市计划，计划发布RTL和ISA、构建FPGA软件试验平台及初步操作系统，并扩大至SPEC、PARSEC和更广泛CPU配置的比较。",
+      "insight": "Frostbite把程序中的依赖关系显式交给分布式计算单元处理，尝试用局部数据访问和任务分配替代部分传统指令调度及缓存一致性开销；其价值还在于展示AI跨编译器、架构和物理实现共同搜索设计的能力。保留评估集上的能效结果提供了超出搜索集的初步支持，但能否扩展为通用计算优势，关键仍是更大规模标准负载、软件运行环境和实硅表现。",
+      "event_headline": "Architect Labs发布Frostbite架构及制造前评估结果",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整供文明确Architect Labs为Frostbite架构及AI设计系统的提供方，披露交互网络计算机制、跨编译器至物理布局的设计流程和制造前评估，足以构成独立技术发现。采集证据记录新闻发布于2026-11-21，处于最近7天窗口，上游关于缺发布时间和链接的待核理由已不成立。具体事件日未知不影响采信。现有历史检索未返回已收录或旧裁决匹配，不据此宣称全球首次披露。以公司自述的实验结果保留，不将仿真优势写成实硅性能，不将Redwood测试芯片移用于Frostbite。原文称其为美国初创公司，城市及注册、总部地点仍待核，不妨碍全球正面日报采信，也不赋予杭州属地或领导简报资格。",
+      "event_headline_source": "fd2e1ee3c39e95ae06b9ce758ec35b82c47966666f1c994c97eb123faab0f843",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "美国；原文未明确州、市或注册地、总部地",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "材料支持具有具体技术价值的全球研究线索，但未建立全国标杆资格；制造前自述结果、匿名比较核心及有限工作负载不足以证明已确立的行业领先地位。",
+        "evidence_ids": [
+          "article:c96ee60b6d322635"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "7eb1fd2400cab6dbdde3c2a4fd56894d2dbb3110e0eea8e99b0cca7b94da8364",
+        "input_row_sha256": "0cc58b62e9292b9a656fee2db494ef508243d94f612b9281ae7b41102e45f29a",
+        "reason": "完整供文明确Architect Labs为Frostbite架构及AI设计系统的提供方，披露交互网络计算机制、跨编译器至物理布局的设计流程和制造前评估，足以构成独立技术发现。采集证据记录新闻发布于2026-11-21，处于最近7天窗口，上游关于缺发布时间和链接的待核理由已不成立。具体事件日未知不影响采信。现有历史检索未返回已收录或旧裁决匹配，不据此宣称全球首次披露。以公司自述的实验结果保留，不将仿真优势写成实硅性能，不将Redwood测试芯片移用于Frostbite。原文称其为美国初创公司，城市及注册、总部地点仍待核，不妨碍全球正面日报采信，也不赋予杭州属地或领导简报资格。",
+        "scope": {
+          "technology_evidence": "Frostbite采用交互网络、局部数据处理和相邻单元工作窃取；公司披露AI协同迭代编译器、ISA、微架构、RTL、验证及GDS布局，并报告25项工作负载的制造前性能与功耗评估。",
+          "value_reason": "独立价值在于展示AI跨软硬件层搜索处理器设计的具体实现，以及利用显式依赖和局部通信减少传统调度、内存访问开销的路径。其可供杭州芯片设计和EDA企业对标的是设计方法与验证体系，而非尚未经实硅验证的通用CPU领先结论。"
+        },
+        "stage": {
+          "status": "公司自述的实验架构发布及制造前评估",
+          "reason": "已披露RTL至物理布局的研究结果，但未宣布Frostbite量产或上市；FPGA软件试验平台、操作系统、RTL与ISA发布及更大规模标准测试仍属后续计划。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所供检索记录未返回同主体已收录事件或此前裁决，按当前记录作为未匹配的新事件处理，不证明首次公开。与本批Redwood原型及测试芯片事件不同，也不等同于伙伴ASIC项目进展。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:c96ee60b6d322635"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "材料支持具有具体技术价值的全球研究线索，但未建立全国标杆资格；制造前自述结果、匿名比较核心及有限工作负载不足以证明已确立的行业领先地位。",
+          "evidence_ids": [
+            "article:c96ee60b6d322635"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "Architect Labs",
+      "title": "一颗全新CPU，刚刚面世，由AI自主设计！",
+      "company": "Architect Labs",
+      "score": 50,
+      "sector": "AI辅助芯片设计与验证",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "美国；原文未明确州、市或注册地、总部地",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Architect Labs",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-1cf2da066cc7273bcf4e",
+      "company_canonical_name": "Architect Labs",
+      "identity_status": "unresolved",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/18yreRCkoqt0ZYOfSUCuBw",
+      "article_title": "一颗全新CPU，刚刚面世，由AI自主设计！",
+      "event_desc": "据创始人Hussain介绍，Architect Labs首个技术路线验证项目Redwood从设计构想到FPGA概念验证用时两周，公司还通过台积电晶圆共享服务完成了首批A0测试芯片。两周对应设计构想到FPGA原型的阶段，正文未给出测试芯片的流片周期、性能或量产结果。公司称，其平台能够承担芯片设计与验证，并测试固件栈及软硬件交互；约90%的验证工作通过自研模拟器、内部技术和其他方法完成，不使用商业仿真器，最终签核仍使用传统EDA工具。",
+      "insight": "Redwood为Architect Labs的设计平台提供了从FPGA原型走向测试芯片的项目实例，与Frostbite目前的制造前评估属于不同验证阶段。其混合验证路线试图减少大量并行AI任务对商业仿真器授权的占用，同时保留传统工具的最终签核作用。",
+      "event_headline": "Architect Labs回顾Redwood两周原型与首批测试芯片",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "原文以创始人介绍明确Redwood是Architect Labs的独立验证项目，包含两周完成FPGA概念验证和通过台积电晶圆共享服务完成首批A0测试芯片两项具体事实，不只是产品背景标签。其工程验证阶段与Frostbite制造前研究不同，应分别保留；台积电是制造服务方，不另造其独立进展。2026-11-21的新闻发布时间已由采集证据提供，历史检索没有返回重复或旧排除裁决，不能仅因项目为既往案例、具体发生日未知或不能证明首次披露而继续待核。两周仅对应FPGA原型阶段，不能扩大为流片周期、A0成功验证或量产。城市和工商档案未补齐不阻断本条全球正面发现。",
+      "event_headline_source": "b0ec47b507de456aa839533758be7e6e87c8272aa5d5a890d6c0598be4aa770b",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "美国；原文未明确州、市或注册地、总部地",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原型周期和测试芯片实例支持平台工程进展，但缺少可比项目复杂度、独立测试结果及规模化交付依据，尚不能据此确立行业标杆地位。",
+        "evidence_ids": [
+          "article:c96ee60b6d322635"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "d9182491af0aed144b97e502057139c3ff8919fc9876a1eaeb2f1efbb6941832",
+        "input_row_sha256": "a0e361a0f01281a2fd81c7a803e4ddb0550f9d0fa855a0d90005aea115ede398",
+        "reason": "原文以创始人介绍明确Redwood是Architect Labs的独立验证项目，包含两周完成FPGA概念验证和通过台积电晶圆共享服务完成首批A0测试芯片两项具体事实，不只是产品背景标签。其工程验证阶段与Frostbite制造前研究不同，应分别保留；台积电是制造服务方，不另造其独立进展。2026-11-21的新闻发布时间已由采集证据提供，历史检索没有返回重复或旧排除裁决，不能仅因项目为既往案例、具体发生日未知或不能证明首次披露而继续待核。两周仅对应FPGA原型阶段，不能扩大为流片周期、A0成功验证或量产。城市和工商档案未补齐不阻断本条全球正面发现。",
+        "scope": {
+          "technology_evidence": "Architect Labs称Redwood从构想到FPGA概念验证用时两周，并通过台积电晶圆共享服务完成首批A0测试芯片；平台采用自研模拟器等方法承担约90%的验证工作，最终签核仍使用传统EDA工具。",
+          "value_reason": "Redwood提供了AI芯片设计平台推进到原型和测试芯片阶段的具体工程实例；混合验证方式则揭示多智能体并行设计如何应对商业仿真器授权资源瓶颈。两者比单纯宣称AI能设计芯片更有独立阅读价值，但尚不足以量化整体成本收益或证明量产可靠性。"
+        },
+        "stage": {
+          "status": "公司自述的既往FPGA概念验证及首批A0测试芯片完成",
+          "reason": "正文明确原型和测试芯片节点已经发生，未提供具体日期、芯片测试结果或量产证明。让合作伙伴A0芯片直接进入量产是目标，不是本项目已实现的结果。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "已提供的历史检索未返回Redwood同事件或旧裁决，按当前记录作为未匹配事件保留，不宣称首次披露。Redwood与Frostbite是不同项目，测试芯片事实不得跨项目合并。",
+          "new_evidence_ids": []
+        },
+        "evidence_ids": [
+          "article:c96ee60b6d322635"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "原型周期和测试芯片实例支持平台工程进展，但缺少可比项目复杂度、独立测试结果及规模化交付依据，尚不能据此确立行业标杆地位。",
+          "evidence_ids": [
+            "article:c96ee60b6d322635"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "ChipAgents",
+      "title": "一颗全新CPU，刚刚面世，由AI自主设计！",
+      "company": "ChipAgents",
+      "score": 35,
+      "sector": "AI辅助芯片设计",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "ChipAgents",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-1b636bc7ad66715868a4",
+      "company_canonical_name": "ChipAgents",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/18yreRCkoqt0ZYOfSUCuBw",
+      "article_title": "一颗全新CPU，刚刚面世，由AI自主设计！",
+      "event_desc": "报道提及，ChipAgents此前宣布，帮助RISC-V处理器IP供应商Andes Technology将一项处理器定制任务的周期从8.5周缩短至6周。正文未披露任务范围、所用工具、完成日期或其他项目结果。",
+      "insight": "这一案例提供了AI用于具体处理器定制任务的周期变化证据，适合观察AI工具如何嵌入既有IP开发流程。它与Redwood从构想到FPGA原型的任务起止点不同，不能直接比较两家平台的整体开发效率。",
+      "event_headline": "ChipAgents此前披露为Andes处理器定制任务缩短周期",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文独立披露ChipAgents帮助Andes Technology缩短一项处理器定制任务周期，ChipAgents是工具及技术服务提供方，Andes是处理器IP供应商及客户，不与Architect Labs或其Frostbite、Redwood项目混同。虽处竞争背景段落，仍包含明确客户、任务和周期变化，不是仅被点名。可作为AI进入既有处理器IP开发流程的正面应用线索；任务范围与测量口径未披露，因此只按报道转述的既有案例采信，不推断平台整体效率。新闻发表于2026年11月21日，符合七日窗口；案例发生日和首次收录时间未知，不因案例较早或城市未知排除。名录未确认本身不构成业务主体冲突，地点仍保留待核。",
+      "event_headline_source": "ea0318a395da728973b581b5ed22daeea6b9ed4c8cf8cd6c031f5fa99b2eda80",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "单项客户任务足以支持应用线索，尚不足以建立主体行业地位、可推广能力及全国标杆资格。",
+        "evidence_ids": [
+          "article:c96ee60b6d322635"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "239c3b7d5ba8be86b87ac4dbc2c1976814955b61c56a22ac5eb56b38cc2148fe",
+        "input_row_sha256": "ab53cd89ad7f490deb43765f79e0f66d157e9c607aaed61fcde7adcdbfe576b6",
+        "reason": "完整正文独立披露ChipAgents帮助Andes Technology缩短一项处理器定制任务周期，ChipAgents是工具及技术服务提供方，Andes是处理器IP供应商及客户，不与Architect Labs或其Frostbite、Redwood项目混同。虽处竞争背景段落，仍包含明确客户、任务和周期变化，不是仅被点名。可作为AI进入既有处理器IP开发流程的正面应用线索；任务范围与测量口径未披露，因此只按报道转述的既有案例采信，不推断平台整体效率。新闻发表于2026年11月21日，符合七日窗口；案例发生日和首次收录时间未知，不因案例较早或城市未知排除。名录未确认本身不构成业务主体冲突，地点仍保留待核。",
+        "scope": {
+          "technology_evidence": "正文称ChipAgents帮助RISC-V处理器IP供应商Andes Technology，将一项处理器定制任务的周期从8.5周缩短至6周。",
+          "value_reason": "提供了AI芯片设计工具进入具体客户处理器定制流程的应用证据，值得用于识别工具商业落地路径；不能与不同任务边界的端到端芯片开发周期直接比较。"
+        },
+        "stage": {
+          "status": "reported_prior_customer_application",
+          "reason": "来源转述企业此前宣布的客户任务结果，不是本日新发布产品，也不是已独立验证的平台通用性能。事件具体日期未知，新闻发布时间为2026年11月21日。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所提供检索记录未返回该主体同事件已收录或旧裁决，按本轮未匹配历史的事件保留；不据此宣称该案例首次公开或项目绝对首次发现。",
+          "new_evidence_ids": [
+            "article:c96ee60b6d322635"
+          ]
+        },
+        "evidence_ids": [
+          "article:c96ee60b6d322635",
+          "history_lookup:b052fccd76c1aa46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "单项客户任务足以支持应用线索，尚不足以建立主体行业地位、可推广能力及全国标杆资格。",
+          "evidence_ids": [
+            "article:c96ee60b6d322635"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "三星电机",
+      "title": "FC-BGA成为关键",
+      "company": "三星电机",
+      "score": 35,
+      "sector": "半导体封装基板",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "KR / Gyeonggi-do / Suwon-si",
+      "article_location": "韩国京畿道水原市（主要总部，复用输入中的已审同主体证据）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "KR / Gyeonggi-do / Suwon-si",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-d20d39c8b1cf4c1b1072b26a"
+        ],
+        "subject_evidence_ids": [
+          "geo-d20d39c8b1cf4c1b1072b26a"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "三星电机",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "KR",
+          "province": "Gyeonggi-do",
+          "city": "Suwon-si",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-d20d39c8b1cf4c1b1072b26a"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-d20d39c8b1cf4c1b1072b26a",
+            "source_url": "https://m.samsungsem.com/global/about-us/company/location.do",
+            "checked_at": "2026-10-12T03:43:57.671125+00:00",
+            "subject": "三星电机",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "KR",
+              "province": "Gyeonggi-do",
+              "city": "Suwon-si"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-a05bd25dcce3fbbc9cdd",
+      "company_canonical_name": "三星电机",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/PpxsSAT4swasUGjz28352Q",
+      "article_title": "FC-BGA成为关键",
+      "event_desc": "据文中所述第三季度财报，三星电机今年前三季度封装基板业务营业利润为3694亿韩元，累计平均产能利用率为90%，去年同期为72%。第三季度该业务营收9390亿韩元，同比增长58%。文章将其表现与服务器CPU及AI加速器用FC-BGA业务占比联系起来。",
+      "insight": "三星电机的看点不只是产线接近满负荷，而是已进入服务器和AI加速器使用的高端基板环节。更大尺寸、更多布线层数提高了制造难度与产品单价，但文章没有提供两家企业的产能规模和成本口径，不能仅凭利用率接近就把利润差距全部归因于产品组合。",
+      "event_headline": "三星电机封装基板单季营收增长58%，高端应用受关注",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文将封装基板制造及相关分部业绩明确归于三星电机，不与三星电子或LG Innotek合并主体。报道披露其前三季度封装基板营业利润3694亿韩元、累计平均产能利用率90%，第三季度分部营收9390亿韩元、同比增长58%，并具体关联服务器CPU和AI加速器用FC-BGA产品，因此不是仅凭公司总体财务变化入选。其价值是观察高端封装产品组合如何对应实际制造与商业表现，但不能仅凭两家公司利用率相近就证明利润差距全部由产品组合造成。历史扩产、客户合作与玻璃基板事件均不覆盖本次分部经营结果。新闻发表于2026年11月21日，所引原报道日期为11月20日，均在七日窗口；正文称财报于11月19日公布，经营数据覆盖前三季度及第三季度，首次收录时间未知。复用已审韩国水原总部证据，作为全球正面产业观察保留，不赋予杭州预警或领导简报资格。",
+      "event_headline_source": "fc034b7a9c7f223bc10ecbdeae638b2e93d4c564b244ff50a2b999cc32e3854d",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-d20d39c8b1cf4c1b1072b26a",
+          "source_url": "https://m.samsungsem.com/global/about-us/company/location.do",
+          "checked_at": "2026-10-12T03:43:57.671125+00:00",
+          "subject": "三星电机",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "KR",
+            "province": "Gyeonggi-do",
+            "city": "Suwon-si"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "材料支持高端封装产品组合及制造经营对标，但两企横比缺少产能规模和成本口径，也未提供独立的全国标杆资格依据；不影响全球正面线索保留。",
+        "evidence_ids": [
+          "article:f2604e54dc2acb2e"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "6e93d6422c61af6d2545a1e0887f71bdd15f28314f240419f69da6c08090d1d0",
+        "input_row_sha256": "61a6bf05260138403a3dc4dfd9d19a6873d618126c1360f337b1138fa95aac85",
+        "reason": "完整正文将封装基板制造及相关分部业绩明确归于三星电机，不与三星电子或LG Innotek合并主体。报道披露其前三季度封装基板营业利润3694亿韩元、累计平均产能利用率90%，第三季度分部营收9390亿韩元、同比增长58%，并具体关联服务器CPU和AI加速器用FC-BGA产品，因此不是仅凭公司总体财务变化入选。其价值是观察高端封装产品组合如何对应实际制造与商业表现，但不能仅凭两家公司利用率相近就证明利润差距全部由产品组合造成。历史扩产、客户合作与玻璃基板事件均不覆盖本次分部经营结果。新闻发表于2026年11月21日，所引原报道日期为11月20日，均在七日窗口；正文称财报于11月19日公布，经营数据覆盖前三季度及第三季度，首次收录时间未知。复用已审韩国水原总部证据，作为全球正面产业观察保留，不赋予杭州预警或领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文明确三星电机供应服务器CPU和AI加速器用FC-BGA，并解释该基板连接芯片与主板、更大尺寸和更多布线层数提高制造难度；同时披露该分部产能利用率、营收与利润。",
+          "value_reason": "将高端封装基板的具体应用、制造状态与实际商业表现联系起来，可供杭州相关材料及封装企业判断产品升级方向；比较时仍须区分产能规模、产品组合和成本口径。"
+        },
+        "stage": {
+          "status": "reported_realized_segment_results",
+          "reason": "属于已披露的分部经营结果，不是未来订单或扩产收益。正文称财报于2026年11月19日公布，数据期间分别为前三季度及第三季度；本条新闻发表于11月21日。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:5c5120d9b29dc0bd",
+            "accepted_history:46bfa91b6c38c0e9",
+            "accepted_history:d9913313ce99062e",
+            "accepted_history:ae2099037a277042",
+            "accepted_history:ca50f5a9376794ed",
+            "prior_decision:da3172a6176ae104",
+            "prior_decision:759b24aff9556c31",
+            "prior_decision:e4de7a224586e083",
+            "prior_decision:21f602fba9d141e8",
+            "prior_decision:c5f8f041cc2d0e04",
+            "prior_decision:5e19582160de1376",
+            "prior_decision:a751a6f3ebd750bf",
+            "prior_decision:f13574f8e1738073",
+            "prior_decision:d5ff6572802934c0",
+            "prior_decision:6f7d917640849857",
+            "prior_decision:b8d6c34da0c0dcc1",
+            "prior_decision:0b0688dc94b3c16d",
+            "prior_decision:e897675ac4deaf2f",
+            "prior_decision:a4643fa8f3da1faa",
+            "prior_decision:2f8586903d0be5b8",
+            "prior_decision:9d87e99274cb4f91",
+            "prior_decision:b1d67254e3e10214",
+            "prior_decision:9d3b26d9a34daf81",
+            "prior_decision:afb1ad8f75b86ba5",
+            "prior_decision:ab162fa32169ee0a",
+            "prior_decision:c801748812b94859",
+            "prior_decision:34ee723cb5775531",
+            "prior_decision:9fd227752dc6b32b"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:da3172a6176ae104",
+              "comparison": "different_event",
+              "reason": "旧项为英伟达合作及专线规划，本项为已披露分部经营结果，不重复计算合作准入。"
+            },
+            {
+              "evidence_id": "prior_decision:759b24aff9556c31",
+              "comparison": "different_event",
+              "reason": "旧项为玻璃基板试产线及RDL探索。当前旧源闭包验证无错误，不沿用读取故障阻断本项；玻璃项目增量判断不由本篇经营报道解决。"
+            },
+            {
+              "evidence_id": "prior_decision:e4de7a224586e083",
+              "comparison": "different_event",
+              "reason": "旧项因重复英伟达供应链准入而排除，本项新增分部经营结果，不推翻旧重复判断。"
+            },
+            {
+              "evidence_id": "prior_decision:21f602fba9d141e8",
+              "comparison": "different_event",
+              "reason": "旧项仅复述既有客户准入，本项披露不同期间的经营结果，旧排除不适用于本项。"
+            },
+            {
+              "evidence_id": "prior_decision:c5f8f041cc2d0e04",
+              "comparison": "different_event",
+              "reason": "旧排除针对同一英伟达准入事实，本项不以该准入作为新增依据。"
+            },
+            {
+              "evidence_id": "prior_decision:5e19582160de1376",
+              "comparison": "different_event",
+              "reason": "旧项无新增订单、交付或制造事实而去重，本项独立披露分部业绩及制造利用率。"
+            },
+            {
+              "evidence_id": "prior_decision:a751a6f3ebd750bf",
+              "comparison": "different_event",
+              "reason": "旧客户关系重复判断仍成立，不构成对本次分部经营事件的排除。"
+            },
+            {
+              "evidence_id": "prior_decision:f13574f8e1738073",
+              "comparison": "different_event",
+              "reason": "旧项为英伟达供应链准入重复报道，本项为不同事实，不因换来源恢复旧项。"
+            },
+            {
+              "evidence_id": "prior_decision:d5ff6572802934c0",
+              "comparison": "different_event",
+              "reason": "旧项保留世宗新厂开工和未来量产节点，本项不是该新厂已贡献收入的证明。"
+            },
+            {
+              "evidence_id": "prior_decision:6f7d917640849857",
+              "comparison": "different_event",
+              "reason": "旧项为世宗扩产建设，本项为既有业务经营结果，阶段不同。"
+            },
+            {
+              "evidence_id": "prior_decision:b8d6c34da0c0dcc1",
+              "comparison": "different_event",
+              "reason": "旧项为新厂建设里程碑，不覆盖前三季度分部经营数据。"
+            },
+            {
+              "evidence_id": "prior_decision:0b0688dc94b3c16d",
+              "comparison": "different_event",
+              "reason": "旧建设事件与本次经营披露分别保留，不将未来产能当作现有业绩来源。"
+            },
+            {
+              "evidence_id": "prior_decision:e897675ac4deaf2f",
+              "comparison": "different_event",
+              "reason": "旧项为扩产投资及开工，本项不重复发布其投资金额。"
+            },
+            {
+              "evidence_id": "prior_decision:a4643fa8f3da1faa",
+              "comparison": "different_event",
+              "reason": "旧项制造建设进展与本项已实现分部经营结果不同。"
+            },
+            {
+              "evidence_id": "prior_decision:2f8586903d0be5b8",
+              "comparison": "different_event",
+              "reason": "旧项为供应协议修订且当时身份绑定冲突；本包registry已确认单一稳定主体，不将旧冲突自动延续，也不据此恢复旧协议项。"
+            },
+            {
+              "evidence_id": "prior_decision:9d87e99274cb4f91",
+              "comparison": "different_event",
+              "reason": "旧协议修订项与本次经营披露不同；当前身份确认支持本项，旧项仍须按其自身材料裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:b1d67254e3e10214",
+              "comparison": "different_event",
+              "reason": "旧项待核理由是实际ID冲突而非缺少工商全称；本包未出现该冲突，不能据旧状态排除经营事件。"
+            },
+            {
+              "evidence_id": "prior_decision:9d3b26d9a34daf81",
+              "comparison": "different_event",
+              "reason": "旧项涉及英伟达协议修订，本项未依赖该协议；当前旧源闭包无错误也不等于旧业务事件获批。"
+            },
+            {
+              "evidence_id": "prior_decision:afb1ad8f75b86ba5",
+              "comparison": "different_event",
+              "reason": "旧协议事件与本项不同，旧身份冲突不能在当前已确认绑定上无证延续。"
+            },
+            {
+              "evidence_id": "prior_decision:ab162fa32169ee0a",
+              "comparison": "different_event",
+              "reason": "旧项的协议及身份裁决不覆盖本次分部结果，当前不修改任何主体ID。"
+            },
+            {
+              "evidence_id": "prior_decision:c801748812b94859",
+              "comparison": "different_event",
+              "reason": "旧项为协议调整，本项为财报信息；旧reject字段与待核理由不一致，不把它当企业级排除。"
+            },
+            {
+              "evidence_id": "prior_decision:34ee723cb5775531",
+              "comparison": "different_event",
+              "reason": "旧协议项曾因身份冲突停止采信，本项具有当前确认身份及独立事实，非换URL重置旧裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:9fd227752dc6b32b",
+              "comparison": "different_event",
+              "reason": "旧项为玻璃基板，历史字节缺失记录不涉及本次经营原文；当前闭包验证无错误，不将旧故障泛化，本篇也不证明玻璃项目新增里程碑。"
+            }
+          ],
+          "change_reason": "逐项对照已收录历史：4月9日为玻璃基板送样，4月18日为越南扩产，10月11日为韩越投资规划，10月25日为英伟达合作，11月17日为世宗开工，均非本次分部经营结果。本项新增已披露的营收、利润和产能利用率事实，不依赖扩产金额变化，也不重新批准旧排除事件。与本轮供应计划候选同源但事实不同，可在公开编辑时合并呈现，避免重复计数。",
+          "new_evidence_ids": [
+            "article:f2604e54dc2acb2e"
+          ]
+        },
+        "evidence_ids": [
+          "article:f2604e54dc2acb2e",
+          "identity_registry:2dcd4f408df25406",
+          "geo-d20d39c8b1cf4c1b1072b26a"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "材料支持高端封装产品组合及制造经营对标，但两企横比缺少产能规模和成本口径，也未提供独立的全国标杆资格依据；不影响全球正面线索保留。",
+          "evidence_ids": [
+            "article:f2604e54dc2acb2e"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "三星电机",
+      "title": "FC-BGA成为关键",
+      "company": "三星电机",
+      "score": 35,
+      "sector": "半导体封装基板",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "KR / Gyeonggi-do / Suwon-si",
+      "article_location": "韩国京畿道水原市（主要总部，复用输入中的已审同主体证据）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "KR / Gyeonggi-do / Suwon-si",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-d20d39c8b1cf4c1b1072b26a"
+        ],
+        "subject_evidence_ids": [
+          "geo-d20d39c8b1cf4c1b1072b26a"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "三星电机",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "KR",
+          "province": "Gyeonggi-do",
+          "city": "Suwon-si",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-d20d39c8b1cf4c1b1072b26a"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-d20d39c8b1cf4c1b1072b26a",
+            "source_url": "https://m.samsungsem.com/global/about-us/company/location.do",
+            "checked_at": "2026-10-12T03:43:57.671125+00:00",
+            "subject": "三星电机",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "KR",
+              "province": "Gyeonggi-do",
+              "city": "Suwon-si"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-a05bd25dcce3fbbc9cdd",
+      "company_canonical_name": "三星电机",
+      "identity_status": "confirmed",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/PpxsSAT4swasUGjz28352Q",
+      "article_title": "FC-BGA成为关键",
+      "event_desc": "三星电机计划在第四季度将服务器CPU用FC-BGA产品的供应量提高一倍。正文未明确这一增幅的比较基期。公司在第三季度业绩电话会议上表示，即使大规模扩产也难以完全满足客户需求，仍不断收到追加订单请求。",
+      "insight": "这项计划把高端基板需求落实到了服务器CPU产品的近期供应安排，比笼统的AI需求判断更具体。后续应核对翻倍所用基期及实际供货结果，判断增长来自既有产线释放还是产品结构调整。",
+      "event_headline": "三星电机计划第四季度将服务器CPU基板供应量翻倍",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确三星电机计划第四季度将服务器CPU用FC-BGA供应量提高一倍，公司为具体关键部件供应方，并非仅被行业报道点名。该计划把需求判断落实到产品和近期供应安排，具有独立供给观察价值；比较基期未披露，不能改写为环比或同比翻倍，也不能声称已经交付。历史收录覆盖玻璃基板、扩产建设及英伟达合作，未出现这项服务器CPU产品供应计划，不因同属封装基板业务判为重复。本项与本轮分部业绩候选共享报道，但分别是未来供应安排和已实现经营结果，可关联展示。新闻发表于2026年11月21日，所引原报道为11月20日，符合窗口；计划确切宣布日及首次收录时间未知。已审总部位于韩国水原，作为全球正面产业线索采信，不取得杭州预警或领导简报资格。",
+      "event_headline_source": "58f1dc9e61bd4c3b3a291be5506d2cbec11d413f2a55ca475febde8405dd3d87",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-d20d39c8b1cf4c1b1072b26a",
+          "source_url": "https://m.samsungsem.com/global/about-us/company/location.do",
+          "checked_at": "2026-10-12T03:43:57.671125+00:00",
+          "subject": "三星电机",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "KR",
+            "province": "Gyeonggi-do",
+            "city": "Suwon-si"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体供应计划支持产业观察，但比较基期、执行结果和独立行业地位依据尚未建立，不能由计划自动授予全国标杆标签。",
+        "evidence_ids": [
+          "article:f2604e54dc2acb2e"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "7a96243d2e7ed24d56252e84ec5e9cc73ea4608cd3fe9ec59df2e215be0ac9b1",
+        "input_row_sha256": "bc610767e6b8ac7031ffe0d78f91ed385e97c3073c5266f0c3c35e93afe28ade",
+        "reason": "完整正文明确三星电机计划第四季度将服务器CPU用FC-BGA供应量提高一倍，公司为具体关键部件供应方，并非仅被行业报道点名。该计划把需求判断落实到产品和近期供应安排，具有独立供给观察价值；比较基期未披露，不能改写为环比或同比翻倍，也不能声称已经交付。历史收录覆盖玻璃基板、扩产建设及英伟达合作，未出现这项服务器CPU产品供应计划，不因同属封装基板业务判为重复。本项与本轮分部业绩候选共享报道，但分别是未来供应安排和已实现经营结果，可关联展示。新闻发表于2026年11月21日，所引原报道为11月20日，符合窗口；计划确切宣布日及首次收录时间未知。已审总部位于韩国水原，作为全球正面产业线索采信，不取得杭州预警或领导简报资格。",
+        "scope": {
+          "technology_evidence": "原文明确产品为服务器CPU用FC-BGA，并披露第四季度供应量提高一倍的计划；同时转述公司在第三季度业绩电话会议上称仍收到客户追加订单请求。",
+          "value_reason": "提供服务器关键封装部件的具体近期供应安排，可用于判断供给响应方向；未披露比较基期、实际交付和增产来源，不能据此量化行业缺口或确认新增产线贡献。"
+        },
+        "stage": {
+          "status": "upcoming",
+          "reason": "属于2026年第四季度供应计划，第四季度虽已开始，原文仍使用计划措辞，未证明翻倍目标已实现；不能将追加订单请求等同于已签订单或已交付收入。新闻日为11月21日，计划宣布日未知。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:5c5120d9b29dc0bd",
+            "accepted_history:46bfa91b6c38c0e9",
+            "accepted_history:d9913313ce99062e",
+            "accepted_history:ae2099037a277042",
+            "accepted_history:ca50f5a9376794ed",
+            "prior_decision:da3172a6176ae104",
+            "prior_decision:759b24aff9556c31",
+            "prior_decision:e4de7a224586e083",
+            "prior_decision:21f602fba9d141e8",
+            "prior_decision:c5f8f041cc2d0e04",
+            "prior_decision:5e19582160de1376",
+            "prior_decision:a751a6f3ebd750bf",
+            "prior_decision:f13574f8e1738073",
+            "prior_decision:d5ff6572802934c0",
+            "prior_decision:6f7d917640849857",
+            "prior_decision:b8d6c34da0c0dcc1",
+            "prior_decision:0b0688dc94b3c16d",
+            "prior_decision:e897675ac4deaf2f",
+            "prior_decision:a4643fa8f3da1faa",
+            "prior_decision:2f8586903d0be5b8",
+            "prior_decision:9d87e99274cb4f91",
+            "prior_decision:b1d67254e3e10214",
+            "prior_decision:9d3b26d9a34daf81",
+            "prior_decision:afb1ad8f75b86ba5",
+            "prior_decision:ab162fa32169ee0a",
+            "prior_decision:c801748812b94859",
+            "prior_decision:34ee723cb5775531",
+            "prior_decision:9fd227752dc6b32b"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:da3172a6176ae104",
+              "comparison": "different_event",
+              "reason": "旧项为英伟达合作专线和计划供货，本项限定服务器CPU产品及第四季度供应目标，不能无证认作同一客户项目。"
+            },
+            {
+              "evidence_id": "prior_decision:759b24aff9556c31",
+              "comparison": "different_event",
+              "reason": "旧项为玻璃基板试产和RDL探索，与本项产品供应计划不同；当前旧源闭包无错误，不沿用旧读取故障阻断本项。"
+            },
+            {
+              "evidence_id": "prior_decision:e4de7a224586e083",
+              "comparison": "different_event",
+              "reason": "旧项因重复英伟达准入而排除，本项具有新的具体产品供应安排，不恢复旧准入报道。"
+            },
+            {
+              "evidence_id": "prior_decision:21f602fba9d141e8",
+              "comparison": "different_event",
+              "reason": "旧项仅复述既有客户关系，本项为服务器CPU用基板供应计划，不能按公司名沿用排除。"
+            },
+            {
+              "evidence_id": "prior_decision:c5f8f041cc2d0e04",
+              "comparison": "different_event",
+              "reason": "旧准入事件的重复判断仍成立，但不覆盖第四季度具体供应目标。"
+            },
+            {
+              "evidence_id": "prior_decision:5e19582160de1376",
+              "comparison": "different_event",
+              "reason": "本项不以进入英伟达供应链作为新增事实，旧项去重不适用于本项。"
+            },
+            {
+              "evidence_id": "prior_decision:a751a6f3ebd750bf",
+              "comparison": "different_event",
+              "reason": "旧项为重复客户准入，本项为另一供应安排，未证明二者属于同一合同。"
+            },
+            {
+              "evidence_id": "prior_decision:f13574f8e1738073",
+              "comparison": "different_event",
+              "reason": "本次不是以新URL重报旧合作，当前原文新增了服务器CPU产品的季度供应目标。"
+            },
+            {
+              "evidence_id": "prior_decision:d5ff6572802934c0",
+              "comparison": "different_event",
+              "reason": "旧项为预计2028年量产的新厂建设，本项为2026年第四季度供应计划，不能推断由该新厂实现。"
+            },
+            {
+              "evidence_id": "prior_decision:6f7d917640849857",
+              "comparison": "different_event",
+              "reason": "旧世宗建设事件与本项近期供货计划不同，不以建设规划替代供货完成证明。"
+            },
+            {
+              "evidence_id": "prior_decision:b8d6c34da0c0dcc1",
+              "comparison": "different_event",
+              "reason": "旧项为工厂开工，本项为产品供应目标，实施环节和期间不同。"
+            },
+            {
+              "evidence_id": "prior_decision:0b0688dc94b3c16d",
+              "comparison": "different_event",
+              "reason": "旧项未来产能建设未包含本次季度供应翻倍计划。"
+            },
+            {
+              "evidence_id": "prior_decision:e897675ac4deaf2f",
+              "comparison": "different_event",
+              "reason": "旧项为世宗扩产投资及开工，本项不重复其投资金额或量产节点。"
+            },
+            {
+              "evidence_id": "prior_decision:a4643fa8f3da1faa",
+              "comparison": "different_event",
+              "reason": "本项近期供应安排与旧项长期建设里程碑分别判断，不假定因果关系。"
+            },
+            {
+              "evidence_id": "prior_decision:2f8586903d0be5b8",
+              "comparison": "different_event",
+              "reason": "旧项为英伟达协议修订并曾有ID冲突；当前registry已确认本主体，本项也未绑定该协议，不延续旧冲突或自动恢复旧项。"
+            },
+            {
+              "evidence_id": "prior_decision:9d87e99274cb4f91",
+              "comparison": "different_event",
+              "reason": "旧协议修订与本项供应计划没有同事件证据；当前身份已确认，不用旧待核状态替代本项判断。"
+            },
+            {
+              "evidence_id": "prior_decision:b1d67254e3e10214",
+              "comparison": "different_event",
+              "reason": "旧项存在的稳定身份冲突未在本包重现，当前计划具有独立原文依据，但不据此批准旧协议事件。"
+            },
+            {
+              "evidence_id": "prior_decision:9d3b26d9a34daf81",
+              "comparison": "different_event",
+              "reason": "旧项为协议调整，本项未披露相同客户或合同，不能并为同一事件；闭包通过不代替业务审核。"
+            },
+            {
+              "evidence_id": "prior_decision:afb1ad8f75b86ba5",
+              "comparison": "different_event",
+              "reason": "旧身份冲突不能无证扩展至当前已确认主体，旧协议项与本次季度计划分别处理。"
+            },
+            {
+              "evidence_id": "prior_decision:ab162fa32169ee0a",
+              "comparison": "different_event",
+              "reason": "本项不修改主体ID，也不借新来源重置旧协议裁决；当前事实为具体产品供应目标。"
+            },
+            {
+              "evidence_id": "prior_decision:c801748812b94859",
+              "comparison": "different_event",
+              "reason": "旧reject字段对应的理由实际为身份待核，不是企业黑名单；本包确认身份后独立判断新供应计划。"
+            },
+            {
+              "evidence_id": "prior_decision:34ee723cb5775531",
+              "comparison": "different_event",
+              "reason": "旧协议修订项与本次计划不同，当前身份依据支持本项，不能将旧状态机械继承。"
+            },
+            {
+              "evidence_id": "prior_decision:9fd227752dc6b32b",
+              "comparison": "different_event",
+              "reason": "旧项涉及玻璃基板历史字节与增量核对，本篇服务器CPU基板计划不依赖该旧源；当前闭包无错误也不证明旧玻璃事件已完成业务终审。"
+            }
+          ],
+          "change_reason": "已收录的玻璃基板送样、越南扩产、韩越投资、英伟达合作及世宗开工均未包含本次第四季度服务器CPU用FC-BGA供应目标。本项是另一具体供应计划，不以历史扩产金额变化或换URL构成新增，也不将其无证绑定为英伟达协议进展。与本轮经营结果候选可合并编辑，但不混淆计划与已实现业绩。",
+          "new_evidence_ids": [
+            "article:f2604e54dc2acb2e"
+          ]
+        },
+        "evidence_ids": [
+          "article:f2604e54dc2acb2e",
+          "identity_registry:2dcd4f408df25406",
+          "geo-d20d39c8b1cf4c1b1072b26a"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "具体供应计划支持产业观察，但比较基期、执行结果和独立行业地位依据尚未建立，不能由计划自动授予全国标杆标签。",
+          "evidence_ids": [
+            "article:f2604e54dc2acb2e"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "LG Innotek",
+      "title": "FC-BGA成为关键",
+      "company": "LG Innotek",
+      "score": 35,
+      "sector": "半导体封装基板",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "LG Innotek",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-4e9453cb081191075f7a",
+      "company_canonical_name": "LG Innotek",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/PpxsSAT4swasUGjz28352Q",
+      "article_title": "FC-BGA成为关键",
+      "event_desc": "LG Innotek今年前三季度封装基板业务累计营收1.4174万亿韩元，同比增长15.2%，营业利润1357亿韩元，超过去年全年1289亿韩元；累计平均产能利用率94.4%，去年同期为76.7%。第三季度该业务营收4818亿韩元，同比增长10.1%。前三季度累计营业利润率为9.6%，低于上半年的10.7%，第三季度单季营业利润率预计为7%出头。公司目前主要生产智能手机用RF-SiP和FC-CSP基板，FC-BGA业务以PC CPU应用为中心逐步扩大供应。",
+      "insight": "LG Innotek的基板业务已在前三季度实现超过上年全年的营业利润，但高产线负荷与利润率回落同时出现，说明产线忙碌程度不能代替产品结构和盈利质量判断。其FC-BGA目前围绕PC CPU扩大供应，与三星电机的服务器及AI加速器应用路径不同。",
+      "event_headline": "LG Innotek基板前三季利润超上年全年，利润率回落",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-21",
+        "event_date": null,
+        "observed_date": "2026-11-21",
+        "review_required": true
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确LG Innotek是封装基板生产及供应主体，独立披露其基板业务前三季度营收、利润、产能利用率及产品结构，而非仅在三星电机报道中被点名。该业务前三季度营业利润超过上年全年，同时利润率下降，且FC-BGA供应仍围绕PC CPU应用扩展，能够具体说明高负荷生产不等于高盈利、不同应用产品结构需要分别判断；这不是公司总体营收的泛化经营消息。按正面产业观察保留混合经营表现，不改写成风险预警，也不归因为原文未证明的成本上升。当前历史检索未提供匹配收录或排除，不能据此宣称首次披露。登记身份尚未完善及城市未知不影响本条原文中清楚的主体与业务归属，地点继续保留未知，不授予杭州主体或领导简报资格。新闻发布于2026年11月21日，处于七日窗口；经营事实覆盖前三季度，不能将报道日写成业绩发生日。",
+      "event_headline_source": "0f55fd0e38097ebac97f12cb059a66c84530464059171158ae901b077d3bbf99",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条能够支持具体封装基板经营及供应进展，但未建立LG Innotek在对应技术或市场中的领先地位、可供杭州直接对标的独立优势依据；不凭产能利用率或营收增长自动授予标杆资格。",
+        "evidence_ids": [
+          "article:f2604e54dc2acb2e"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "59637abc7ce5280dbb1ff4c34240a1b48b57971f91c3a8c860692234c1237fae",
+        "input_row_sha256": "a39682b45a29dbe06e729a3d141c5c01a0ecab5d87268872e81aa3acb05d0965",
+        "reason": "完整正文明确LG Innotek是封装基板生产及供应主体，独立披露其基板业务前三季度营收、利润、产能利用率及产品结构，而非仅在三星电机报道中被点名。该业务前三季度营业利润超过上年全年，同时利润率下降，且FC-BGA供应仍围绕PC CPU应用扩展，能够具体说明高负荷生产不等于高盈利、不同应用产品结构需要分别判断；这不是公司总体营收的泛化经营消息。按正面产业观察保留混合经营表现，不改写成风险预警，也不归因为原文未证明的成本上升。当前历史检索未提供匹配收录或排除，不能据此宣称首次披露。登记身份尚未完善及城市未知不影响本条原文中清楚的主体与业务归属，地点继续保留未知，不授予杭州主体或领导简报资格。新闻发布于2026年11月21日，处于七日窗口；经营事实覆盖前三季度，不能将报道日写成业绩发生日。",
+        "scope": {
+          "technology_evidence": "正文明确LG Innotek生产智能手机用RF-SiP、FC-CSP基板，FC-BGA业务以PC CPU应用为中心扩大供应，并披露封装基板业务94.4%的前三季度累计平均产能利用率及分业务营收、利润表现。",
+          "value_reason": "可独立观察封装基板企业在手机与PC CPU应用结构下的制造负荷和盈利表现，提示产业对标应区分产线利用率、应用结构与利润质量，不能仅凭接近满产判断企业已进入AI服务器高端供给环节。"
+        },
+        "stage": {
+          "status": "reported_operating_results",
+          "reason": "前三季度营收、累计利润及产能利用率为正文转述的已发生经营结果；PC CPU用FC-BGA处于逐步扩大供应阶段。第三季度单季利润率“7%出头”属于文中估计，不作为确定财报数值。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "本候选未提供同主体已收录或旧排除事件，所给检索记录未呈现本次基板经营结果的匹配项；按当前可见历史作为独立经营事件处理，不宣称企业或该事实此前从未被发现。它与同批2031年目标属于不同事实动作。",
+          "new_evidence_ids": [
+            "article:f2604e54dc2acb2e"
+          ]
+        },
+        "evidence_ids": [
+          "article:f2604e54dc2acb2e",
+          "history_lookup:b052fccd76c1aa46"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本条能够支持具体封装基板经营及供应进展，但未建立LG Innotek在对应技术或市场中的领先地位、可供杭州直接对标的独立优势依据；不凭产能利用率或营收增长自动授予标杆资格。",
+          "evidence_ids": [
+            "article:f2604e54dc2acb2e"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "歌尔智芯（佛山）科技有限公司",
+      "identity_mentions": [
+        {
+          "name": "广东佛智芯微电子有限公司",
+          "relation": "same_entity",
+          "evidence": "佛智芯随后更名为歌尔智芯（佛山）科技有限公司。"
+        }
+      ],
+      "title": "歌尔布局TGV玻璃基板",
+      "company": "歌尔智芯（佛山）科技有限公司",
+      "score": 50,
+      "sector": "半导体先进封装",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "广东省佛山市南海区（项目地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "歌尔智芯(佛山)科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-17348beec4f2d652fb46",
+      "company_canonical_name": "歌尔智芯(佛山)科技有限公司",
+      "identity_status": "unresolved",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/IkoBscF9KPJGXHnVXKm9fQ",
+      "article_title": "歌尔布局TGV玻璃基板",
+      "event_desc": "11月19日，歌尔集团与广东省佛山市南海区人民政府签署合作协议，旗下歌尔智芯（佛山）科技有限公司拟在南海区购地120亩，投资建设TGV玻璃基板产业化项目，开展玻璃基板、玻璃通孔加工及封装载板等领域的研发制造。新签约项目的具体投资金额、建设周期及量产时间尚未披露。",
+      "insight": "这项合作为歌尔将已有玻璃基板工艺和供货基础向更大制造规模拓展提供了项目载体。TGV通过在玻璃内形成并金属化微细通孔实现垂直电连接，是玻璃基板承接高密度封装的重要工艺；本次新增的是产业化扩建布局，而非已完成的量产扩张。",
+      "event_headline": "歌尔智芯佛山拟购地120亩，扩大玻璃基板制造布局",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_explicit",
+        "description": "正文明确11月19日签署合作协议，年份依2026年报道语境确定；购地和建设仍为后续计划。",
+        "event_date": "2026-11-19",
+        "observed_date": "2026-11-21",
+        "review_required": false
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确歌尔集团为签约方、歌尔智芯（佛山）为120亩TGV玻璃基板项目实施主体，并明确佛智芯更名关系；不将集团、广东公司和佛山公司合并。项目直接涉及先进封装材料和加工制造，新增价值是依托既有工艺与供货基础推进更大规模产业化布局，而非普通合作表态。签约已经发生，购地、建设及新项目量产尚未完成。来源发布时间为2026年11月21日，在最近7天内，上游所称缺发布时间不再成立。所供历史检索未见匹配，不宣称首次发现。注册地和总部仍未知，不影响本条全球正面日报资格，也不赋予杭州属地或领导简报资格。",
+      "event_headline_source": "7cea4e5e61bc8433fb6157ac942283b35fb4e06052fbc25a0d28fa0fe6ce5ea5",
+      "event_date": "2026-11-19",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "location_candidates": [
+        {
+          "value": "广东省佛山市南海区（项目地）",
+          "status": "article_candidate_only",
+          "reason": "article_place_not_yet_bound_to_subject_registered_hq_or_business"
+        }
+      ],
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文提供产业化基础、获奖项目参与情况和新项目布局，但不足以建立本主体全国行业地位及独立标杆资格。",
+        "evidence_ids": [
+          "article:f8c6891e95dee76e"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "927d4b565d3978ebe569a113bc460625d7e201a07693dc2a0d82c43e50895cdb",
+        "input_row_sha256": "58dc733013dbd87ac1c2c50930fd1891f728bd524e39c8c739de26722cc41f46",
+        "reason": "完整正文明确歌尔集团为签约方、歌尔智芯（佛山）为120亩TGV玻璃基板项目实施主体，并明确佛智芯更名关系；不将集团、广东公司和佛山公司合并。项目直接涉及先进封装材料和加工制造，新增价值是依托既有工艺与供货基础推进更大规模产业化布局，而非普通合作表态。签约已经发生，购地、建设及新项目量产尚未完成。来源发布时间为2026年11月21日，在最近7天内，上游所称缺发布时间不再成立。所供历史检索未见匹配，不宣称首次发现。注册地和总部仍未知，不影响本条全球正面日报资格，也不赋予杭州属地或领导简报资格。",
+        "scope": {
+          "technology_evidence": "项目聚焦玻璃基板、TGV加工及封装载板研发制造；正文说明TGV通过玻璃内微细通孔及金属化实现垂直电连接。",
+          "value_reason": "120亩项目提供了从既有样品验证和批量供货基础向更大制造规模拓展的具体载体，可供杭州先进封装材料与工艺产业布局研究参照。新项目投资额、建设周期和量产时间未披露，不能借用此前扩建项目的约5亿元投资。"
+        },
+        "stage": {
+          "status": "合作协议已签署，购地及建设为后续计划",
+          "reason": "正文明确11月19日正式签署合作协议，使用“将在南海区购地120亩”描述后续安排，并说明建设周期及量产时间未明确披露。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所供accepted_history和prior_decisions均为空，历史检索未返回同事件记录，按本次可见历史作为新事件处理，不证明全库首次收录。本条是11月19日项目签约，与控股收购及9月30日备案复核分别对应不同事实节点。",
+          "new_evidence_ids": [
+            "article:f8c6891e95dee76e"
+          ]
+        },
+        "evidence_ids": [
+          "article:f8c6891e95dee76e"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "正文提供产业化基础、获奖项目参与情况和新项目布局，但不足以建立本主体全国行业地位及独立标杆资格。",
+          "evidence_ids": [
+            "article:f8c6891e95dee76e"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "佛智芯",
+      "identity_mentions": [
+        {
+          "name": "广东佛智芯微电子有限公司",
+          "relation": "same_entity",
+          "evidence": "随后，通过股权收购取得广东佛智芯微电子有限公司72.9203%的股权，成为其控股股东。佛智芯随后更名为歌尔智芯（佛山）科技有限公司。"
+        }
+      ],
+      "title": "歌尔布局TGV玻璃基板",
+      "company": "歌尔智芯（佛山）科技有限公司",
+      "score": 35,
+      "sector": "半导体先进封装",
+      "financing": "",
+      "source": "半导体行业观察",
+      "location": "地点待核",
+      "article_location": "",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "歌尔智芯(佛山)科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "company_entity_id": "dr-u-17348beec4f2d652fb46",
+      "company_canonical_name": "歌尔智芯(佛山)科技有限公司",
+      "identity_status": "unresolved",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/IkoBscF9KPJGXHnVXKm9fQ",
+      "article_title": "歌尔布局TGV玻璃基板",
+      "event_desc": "正文披露，今年9月30日，佛智芯总投资约5亿元的玻璃基板生产线扩建项目完成备案复核，主要面向先进封装玻璃基板的中试及小批量供货需求。该企业后更名为歌尔智芯（佛山）科技有限公司。",
+      "insight": "这条产线扩建信息说明，企业已有面向中试和小批量供货的制造布局，能够为理解其后续扩大产业化规模的路径提供参照。备案复核对应项目手续进展，不能据此认定扩建产线已经建成或投产。",
+      "event_headline": "佛智芯玻璃基板扩建项目完成备案复核，面向中试及小批量供货",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_explicit",
+        "description": "正文明确今年9月30日完成玻璃基板生产线扩建项目备案复核，年份依2026年报道语境确定。",
+        "event_date": "2026-09-30",
+        "observed_date": "2026-11-21",
+        "review_required": false
+      },
+      "published_date": "2026-11-21",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确佛智芯玻璃基板生产线扩建项目于今年9月30日完成备案复核，并直接说明佛智芯后更名为歌尔智芯（佛山），足以支持同一企业的历史项目事实。约5亿元对应该扩建项目，不对应11月新签约的120亩项目。该条具有独立项目手续节点、投资规模和中试及小批量供货定位，不只是泛称产品背景；可用于理解先进封装制造从验证到供货的扩建安排。备案复核不等于建成投产。来源发布于11月21日，符合采集窗口，事件发生较早不能单独作为排除理由。所供历史检索未发现同事件记录，不宣称首次发现；注册地及总部未知不妨碍正面日报采信。",
+      "event_headline_source": "4d56ea9a8f36150d00048e8de96eace87ef2159ac353e177c07d8c215c438b88",
+      "event_date": "2026-09-30",
+      "location_status": "unknown",
+      "location_basis": [],
+      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体扩建手续和中试、小批量供货布局支持事件价值，但未提供足够行业比较依据证明全国标杆地位。",
+        "evidence_ids": [
+          "article:f8c6891e95dee76e"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "498c8959c358f379c4b0187188fb484e8a9b3c611eb40958810106b106bba252",
+        "input_row_sha256": "cd9a30cebc8ec203657a0b54b35cc5693a4df6e1a20671938eb8a41556898581",
+        "reason": "完整正文明确佛智芯玻璃基板生产线扩建项目于今年9月30日完成备案复核，并直接说明佛智芯后更名为歌尔智芯（佛山），足以支持同一企业的历史项目事实。约5亿元对应该扩建项目，不对应11月新签约的120亩项目。该条具有独立项目手续节点、投资规模和中试及小批量供货定位，不只是泛称产品背景；可用于理解先进封装制造从验证到供货的扩建安排。备案复核不等于建成投产。来源发布于11月21日，符合采集窗口，事件发生较早不能单独作为排除理由。所供历史检索未发现同事件记录，不宣称首次发现；注册地及总部未知不妨碍正面日报采信。",
+        "scope": {
+          "technology_evidence": "玻璃基板生产线扩建项目面向先进封装玻璃基板的中试及小批量供货需求，正文明确其完成备案复核。",
+          "value_reason": "约5亿元的具体扩建项目及其供货阶段定位，为判断企业如何配置先进封装中试和小批量制造能力提供独立信息；与120亩新项目分开记录，避免将既有扩建投资与后续规模化计划混算。"
+        },
+        "stage": {
+          "status": "生产线扩建项目完成备案复核",
+          "reason": "原文明确今年9月30日完成备案复核，未证明该扩建产线已经建成或投入生产；企业既有批量供货能力不能替代本项目投产证据。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [],
+          "change_reason": "所供accepted_history、prior_decisions均为空，历史检索未返回同事件，按本次可见历史作为新事件处理，不据此认定首次收录。本条是9月30日既有生产线扩建项目备案复核，不是11月19日120亩项目签约，也不是控股收购。",
+          "new_evidence_ids": [
+            "article:f8c6891e95dee76e"
+          ]
+        },
+        "evidence_ids": [
+          "article:f8c6891e95dee76e"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "具体扩建手续和中试、小批量供货布局支持事件价值，但未提供足够行业比较依据证明全国标杆地位。",
+          "evidence_ids": [
+            "article:f8c6891e95dee76e"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "DeepSeek",
+      "title": "DeepSeek 千亿融资落地，一图看懂 DeepSeek 的千亿融资",
+      "company": "杭州深度求索人工智能基础技术研究有限公司",
+      "score": 100,
+      "sector": "人工智能",
+      "financing": "此前媒体报道口径为融资1055亿元、投后估值6155亿元。文章称腾讯、宁德时代各出资100亿元，梁文锋再出资20亿元，国家人工智能产业投资基金追加投资10亿元，与首轮出资金额相同；中国移动、中国电信、中金公司、中信证券和中国人寿各自出资20亿至80亿元。杭州程砚层面的权益或出资比例为：腾讯9.5653%，宁德时代通过三只基金合计9.5653%，中国移动及中信证券投资各7.6522%，砺思资本相关基金7.1740%。上述融资金额、平台登记出资额及平台权益比例分别沿用原文口径。",
+      "source": "烯牛数据",
+      "location": "浙江省 / 杭州市",
+      "article_location": "浙江省 / 杭州市（复用已提供的同主体总部地点证据，非由新增股东名称推断）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "subject_evidence_ids": [
+          "geo-8d153ebc1f63d3a87bb41366"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "杭州深度求索人工智能基础技术研究有限公司",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-8d153ebc1f63d3a87bb41366"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+            "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+            "checked_at": "2026-10-17T18:18:34.816938+00:00",
+            "subject": "杭州深度求索人工智能基础技术研究有限公司",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ]
+      },
+      "company_entity_id": "dr-u-1407b719acc8f55195ab",
+      "company_canonical_name": "杭州深度求索人工智能基础技术研究有限公司",
+      "identity_status": "confirmed",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/1cpOTSHeDWRwOLQ3xhx-SA",
+      "article_title": "DeepSeek 千亿融资落地，一图看懂 DeepSeek 的千亿融资",
+      "event_desc": "据文章披露，DeepSeek工商主体注册资本由约1645万元增至1991.8707万元，增幅约21.1%，新增股东杭州程砚企业管理咨询合伙企业（有限合伙），持股约17.3%。杭州程砚同期新增31家合伙人，登记出资额由0.6万元增至343897.9万元。文章另援引此前媒体报道，称DeepSeek将完成1055亿元股权融资，投后估值6155亿元；文章将本次工商变更描述为第二轮融资在工商层面落地。",
+      "insight": "本次变化首先体现在资本组织方式：外部资金通过持股平台集中进入，平台执行事务合伙人仍由梁文锋控制的公司担任，体现了吸纳资本与保留平台管理权并行的安排。投资方覆盖互联网、新能源及金融机构，说明其资本参与面扩大，但文章没有披露这些出资方与DeepSeek之间新增的技术合作或客户关系。",
+      "event_headline": "DeepSeek据报道完成增资并新增持股平台股东",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-20",
+        "event_date": null,
+        "observed_date": "2026-11-20",
+        "review_required": true
+      },
+      "published_date": "2026-11-20",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文具体报道DeepSeek工商主体增资并新增杭州程砚为股东，区别于此前仅披露融资金额、投资方或基金募集路径。继承已确认DeepSeek别名和稳定主体，杭州总部依据来自既存政府证据，而非持股平台名称。基础模型企业引入外部资本的工商实施节点具有独立资本成长观察价值，本次仅保留这一进展，不另算新融资轮次。1055亿元及6155亿元仍为此前媒体报道口径，平台登记出资额不等于DeepSeek融资实缴；公司增资和平台新增合伙人也不能证明全部资金到账。原始新闻发布时间2026-11-20T12:07:00Z已提供，符合七日窗口，上游缺发布时间和缺历史材料的理由不再成立。工商变更精确日期未知，不以报道日代替。另一历史来源曾提及工商变更，但其已审候选是旧融资及算力规划，不能据同一文章出现相关内容认定本工商事件已公开收录。",
+      "event_headline_source": "59ebd6578daca5ce7b91cf7569b386e986947a9ab799d9ab90729bc7d2f757bb",
+      "location_status": "subject_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-8d153ebc1f63d3a87bb41366",
+          "source_url": "https://www.szlh.gov.cn/zmhd/wdzsk/content/post_12009943.html",
+          "checked_at": "2026-10-17T18:18:34.816938+00:00",
+          "subject": "杭州深度求索人工智能基础技术研究有限公司",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本次工商及融资报道支持资本成长进展，但未建立独立的全国行业地位或技术、商业化领先性比较；融资规模、企业知名度及上游标签不足以自动授予标杆资格。",
+        "evidence_ids": [
+          "article:eff6a00564c2d767"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "f5813fa34a3aa0c27a7dd71a5ceedff0f86a3a77ab34dd7c47dc5e8cb3f79b9a",
+        "input_row_sha256": "d5e297d7b0f69e70b85e034a419fdb690b6255e9bffa3c2ce24bde06f0509325",
+        "reason": "完整正文具体报道DeepSeek工商主体增资并新增杭州程砚为股东，区别于此前仅披露融资金额、投资方或基金募集路径。继承已确认DeepSeek别名和稳定主体，杭州总部依据来自既存政府证据，而非持股平台名称。基础模型企业引入外部资本的工商实施节点具有独立资本成长观察价值，本次仅保留这一进展，不另算新融资轮次。1055亿元及6155亿元仍为此前媒体报道口径，平台登记出资额不等于DeepSeek融资实缴；公司增资和平台新增合伙人也不能证明全部资金到账。原始新闻发布时间2026-11-20T12:07:00Z已提供，符合七日窗口，上游缺发布时间和缺历史材料的理由不再成立。工商变更精确日期未知，不以报道日代替。另一历史来源曾提及工商变更，但其已审候选是旧融资及算力规划，不能据同一文章出现相关内容认定本工商事件已公开收录。",
+        "scope": {
+          "technology_evidence": "已确认主体从事人工智能基础模型业务；当前正文披露该主体注册资本变更、新增持股平台股东，以及平台集中引入外部合伙人的资本实施安排。",
+          "value_reason": "将已报道的第二轮融资推进到可辨识的公司股东及注册资本变化，提供资本进入组织方式的实质信息；不依赖虚构资金用途、客户合作或技术收益证明其价值。"
+        },
+        "stage": {
+          "status": "reported_completed_registration_change",
+          "reason": "正文称工商主体已完成注册资本变更并新增股东；这是媒体据工商信息披露的已发生登记变化。融资总额、全部交割及实缴到账未由该登记变化单独证明。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:e8a5886aa0c156ad",
+            "prior_decision:e7deda0f6354a412",
+            "prior_decision:0ef7955f91d699c6",
+            "prior_decision:7e394b4f7f40d077",
+            "prior_decision:e0e7fea7a2037e79",
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:32fffa5346c94646",
+              "comparison": "different_event",
+              "reason": "旧项为同版本模型发布转载去重，与股东及增资变更不同。"
+            },
+            {
+              "evidence_id": "prior_decision:45a66ae95482f362",
+              "comparison": "new_progress",
+              "reason": "旧项只重复二轮融资规模和投资方；当前增加公司层股东及增资登记变化。"
+            },
+            {
+              "evidence_id": "prior_decision:880e90efb1737bd7",
+              "comparison": "new_progress",
+              "reason": "旧项缺新增交割或资本实施事实；当前新增工商变更，但仍不证明全额交割。"
+            },
+            {
+              "evidence_id": "prior_decision:80fb107219f591f3",
+              "comparison": "new_progress",
+              "reason": "旧项为同轮融资重复报道；当前有具体股东及注册资本变化。"
+            },
+            {
+              "evidence_id": "prior_decision:78814bbddfa96173",
+              "comparison": "new_progress",
+              "reason": "旧裁决排除基金募集及LP解释性补充；当前新增公司层登记节点，不以基金募集冒充融资到账。"
+            },
+            {
+              "evidence_id": "prior_decision:c0340006c041913d",
+              "comparison": "new_progress",
+              "reason": "旧项为同轮基金通道及认缴细节；当前增加融资接受方股东和注册资本变更。"
+            },
+            {
+              "evidence_id": "prior_decision:6ff1c90693ed78c0",
+              "comparison": "new_progress",
+              "reason": "旧裁决针对基金层解释性资料；当前保留的是公司层工商实施变化。"
+            },
+            {
+              "evidence_id": "prior_decision:6e9b7ee8ca131a17",
+              "comparison": "new_progress",
+              "reason": "旧项未建立新的公司融资实施节点；当前具体披露新增股东及增资。"
+            },
+            {
+              "evidence_id": "prior_decision:9bb1808162ce2b36",
+              "comparison": "new_progress",
+              "reason": "旧项为资金来源结构补充；本次公司登记变化超出仅补充LP名单。"
+            },
+            {
+              "evidence_id": "prior_decision:c4ac6d7c70d0bcc1",
+              "comparison": "new_progress",
+              "reason": "旧项基金完成募集不等于公司交割；当前另有公司股东及增资变化，仍不认定全额到账。"
+            },
+            {
+              "evidence_id": "prior_decision:886c84e099fea241",
+              "comparison": "new_progress",
+              "reason": "旧裁决认为融资通道解释不足以另刊；当前增加公司层登记事实。"
+            },
+            {
+              "evidence_id": "prior_decision:211afb0620e659e6",
+              "comparison": "new_progress",
+              "reason": "旧项缺独立资本节点；当前有新增股东及注册资本变化，不重复报道既有融资金额。"
+            },
+            {
+              "evidence_id": "prior_decision:859bc403751bedb1",
+              "comparison": "different_event",
+              "reason": "旧项为科创板上市传闻无程序增量，与本次股权登记变化不同。"
+            },
+            {
+              "evidence_id": "prior_decision:e1296aaa3f432930",
+              "comparison": "different_event",
+              "reason": "旧项为IPO筹备重复报道，不约束本次工商变更。"
+            },
+            {
+              "evidence_id": "prior_decision:31748980348ea4f5",
+              "comparison": "new_progress",
+              "reason": "旧项只有同轮融资收尾及员工期权背景；当前新增公司层登记变化，不改判期权价值。"
+            },
+            {
+              "evidence_id": "prior_decision:d6bc65c91ab24026",
+              "comparison": "different_event",
+              "reason": "旧项未见IPO程序进展，与本次增资及新增股东不同。"
+            },
+            {
+              "evidence_id": "prior_decision:c1707122594950dd",
+              "comparison": "new_progress",
+              "reason": "旧项未见新交割节点；当前保留具体登记变化，但不扩大为全部交割完成。"
+            },
+            {
+              "evidence_id": "prior_decision:f7014050cbc7ad30",
+              "comparison": "different_event",
+              "reason": "旧项为拟上市信息重复，与本次公司股权变更不同。"
+            },
+            {
+              "evidence_id": "prior_decision:9e7aa6f3ac9c4e50",
+              "comparison": "different_event",
+              "reason": "旧项为上市时间传闻，当前并未据此确认IPO进展。"
+            },
+            {
+              "evidence_id": "prior_decision:7434cce9c6c20cb0",
+              "comparison": "different_event",
+              "reason": "旧项为IPO筹备重复，不涉及本次新增持股平台登记。"
+            },
+            {
+              "evidence_id": "prior_decision:a4a68ced57c891f0",
+              "comparison": "different_event",
+              "reason": "旧项为TileLang采用事实重复，与资本事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:a03c7fd12e112705",
+              "comparison": "different_event",
+              "reason": "旧项为应用API及聊天前端开放重复，与工商变更不同。"
+            },
+            {
+              "evidence_id": "prior_decision:27f920aec777dd65",
+              "comparison": "new_progress",
+              "reason": "旧项月度统计仅概称融资完成；当前提供具体增资及新增股东信息，不仅依赖完成措辞。"
+            },
+            {
+              "evidence_id": "prior_decision:e8781dc95b23d99d",
+              "comparison": "new_progress",
+              "reason": "旧项转述同轮融资金额及估值；当前增加公司层登记节点。"
+            },
+            {
+              "evidence_id": "prior_decision:9a1f9c0095ad8faf",
+              "comparison": "different_event",
+              "reason": "旧项为TileLang使用历史重复，与本次融资实施变化不同。"
+            },
+            {
+              "evidence_id": "prior_decision:b644c06b1b95019a",
+              "comparison": "different_event",
+              "reason": "旧项为同一API开放事件重复，与本次资本事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:029dd5b3d0b52ae0",
+              "comparison": "new_progress",
+              "reason": "旧项仅有融资月度统计及完成表述；当前补充具体工商变更事实。"
+            },
+            {
+              "evidence_id": "prior_decision:79a1f655c743db75",
+              "comparison": "different_event",
+              "reason": "旧项为算子开发工具采用事实重复，不构成资本事项排除依据。"
+            },
+            {
+              "evidence_id": "prior_decision:d5a4b17af2968e61",
+              "comparison": "new_progress",
+              "reason": "旧项未新增交易实施事实；当前新增股东及注册资本变化。"
+            },
+            {
+              "evidence_id": "prior_decision:7bb4682e127836c7",
+              "comparison": "different_event",
+              "reason": "旧项为TileLang重复收录，与当前事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:5f056adec10e8a81",
+              "comparison": "different_event",
+              "reason": "旧项为API及前端产品开放重复，与工商变更不同。"
+            },
+            {
+              "evidence_id": "prior_decision:244c93b1acd036a4",
+              "comparison": "new_progress",
+              "reason": "旧项没有超出融资统计口径；当前提供公司层登记进展。"
+            },
+            {
+              "evidence_id": "prior_decision:9996b386bd338018",
+              "comparison": "new_progress",
+              "reason": "旧项重复二轮融资金额、估值和参与方；当前增加具体登记变化。"
+            },
+            {
+              "evidence_id": "prior_decision:eafc04d614f77014",
+              "comparison": "different_event",
+              "reason": "旧项为工具采用重复，与资本实施事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:46d608e23ddccf31",
+              "comparison": "different_event",
+              "reason": "旧项为应用API开放重复，与股权登记不同。"
+            },
+            {
+              "evidence_id": "prior_decision:374a2a9f21b6e86b",
+              "comparison": "new_progress",
+              "reason": "旧项仅凭统计归类不能解除交割待核；当前有具体登记事实，但仍不解除全部到账缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:1bd0c1f0854f9211",
+              "comparison": "different_event",
+              "reason": "旧候选为历史510亿元融资且存储主体冲突；当前稳定主体一致，审的是二轮相关工商变化，不据此修复旧候选身份。"
+            },
+            {
+              "evidence_id": "prior_decision:5e1719d860cea119",
+              "comparison": "different_event",
+              "reason": "旧项为历史融资金额和轮次核对；本次不将510亿元认作新融资，也不改写其主体。"
+            },
+            {
+              "evidence_id": "prior_decision:e0e7fea7a2037e79",
+              "comparison": "different_event",
+              "reason": "旧候选为乌兰察布规划重复；旧理由提及同文另有工商变更，但未审为该项目候选的独立资本事件。"
+            },
+            {
+              "evidence_id": "prior_decision:adcd15fc8eea37df",
+              "comparison": "different_event",
+              "reason": "旧项针对历史510亿元融资及主体冲突，当前不是该笔历史融资。"
+            },
+            {
+              "evidence_id": "prior_decision:d1aa57284f541723",
+              "comparison": "different_event",
+              "reason": "旧项为算力中心规划；同文提及资本事项不等于资本事件已经单列收录。"
+            },
+            {
+              "evidence_id": "prior_decision:dc2fc12df6fbe089",
+              "comparison": "different_event",
+              "reason": "旧项为历史融资金额差异及身份核对，与当前二轮相关登记变化不同。"
+            },
+            {
+              "evidence_id": "prior_decision:b4fca80e70df9cc4",
+              "comparison": "different_event",
+              "reason": "旧项为乌兰察布项目无建设增量；本次不将资本变化推为开工或采购。"
+            },
+            {
+              "evidence_id": "prior_decision:58dd83f33ff5fa2e",
+              "comparison": "different_event",
+              "reason": "旧项为510亿元历史融资口径，本次不解除其轮次和金额缺口。"
+            },
+            {
+              "evidence_id": "prior_decision:12887f982956dda3",
+              "comparison": "different_event",
+              "reason": "旧项为历史融资及存储主体冲突，当前候选自身主体已一致。"
+            },
+            {
+              "evidence_id": "prior_decision:cfbbcee250ad6108",
+              "comparison": "different_event",
+              "reason": "旧项为数据中心规划重复，本次不据工商变更认定建设进展。"
+            },
+            {
+              "evidence_id": "prior_decision:aab5148fd9ccefcb",
+              "comparison": "different_event",
+              "reason": "旧项为历史510亿元融资辨识，与当前新增持股平台不同。"
+            },
+            {
+              "evidence_id": "prior_decision:971427be8994945d",
+              "comparison": "different_event",
+              "reason": "旧项为算力项目规划及主体修复，当前不修改其旧裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:2d19ba365aa641fb",
+              "comparison": "different_event",
+              "reason": "旧项为历史融资轮次和金额核对，不因本次登记变化自动解决。"
+            },
+            {
+              "evidence_id": "prior_decision:f946b1ba8dd8a30e",
+              "comparison": "different_event",
+              "reason": "旧项为乌兰察布项目未有开工、采购或投运增量，与本资本事件不同。"
+            },
+            {
+              "evidence_id": "prior_decision:2e6be879dbc0493a",
+              "comparison": "different_event",
+              "reason": "旧项针对历史510亿元融资，不是本次二轮融资相关登记节点。"
+            },
+            {
+              "evidence_id": "prior_decision:8efc84a6604ed5f8",
+              "comparison": "different_event",
+              "reason": "旧项为算力建设规划，不以当前股权变化替代建设证据。"
+            },
+            {
+              "evidence_id": "prior_decision:80ae9a27f89f46e1",
+              "comparison": "different_event",
+              "reason": "旧项为模型更新转载去重，与资本变更不同。"
+            },
+            {
+              "evidence_id": "prior_decision:32e66738fb3c21d7",
+              "comparison": "different_event",
+              "reason": "旧项为API故障及补偿重复预警，与资本进展不同。"
+            },
+            {
+              "evidence_id": "prior_decision:34ff088823bc33a7",
+              "comparison": "new_progress",
+              "reason": "旧项仅重复同轮融资规模和主要投资方；当前增加工商登记实施事实。"
+            },
+            {
+              "evidence_id": "prior_decision:0ef7955f91d699c6",
+              "comparison": "new_progress",
+              "reason": "旧待核涉及交割尾声、横店份额和基金路径；当前补充公司登记变化，仍不足以确认横店实际认购额及全部交割。"
+            },
+            {
+              "evidence_id": "prior_decision:7e394b4f7f40d077",
+              "comparison": "new_progress",
+              "reason": "当前提供旧项所缺的一部分资本实施信息，但未提供特定投资份额实缴或全轮完成证明。"
+            }
+          ],
+          "change_reason": "11月3日已收录第二轮融资金额、估值及投资方，后续若干报道因重复或仅有基金层信息被排除。本次新增DeepSeek公司注册资本变更及持股平台成为股东的具体事实，允许按同轮融资的工商进展保留；不是因更换URL或标题宣称融资落地而改判。当前历史检索错误为空，不沿用旧运行的读取异常，也不宣称全球首次或全量历史首次。",
+          "new_evidence_ids": [
+            "article:eff6a00564c2d767"
+          ]
+        },
+        "evidence_ids": [
+          "article:eff6a00564c2d767",
+          "identity_registry:2dcd4f408df25406",
+          "geo-8d153ebc1f63d3a87bb41366",
+          "accepted_history:e8a5886aa0c156ad"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "本次工商及融资报道支持资本成长进展，但未建立独立的全国行业地位或技术、商业化领先性比较；融资规模、企业知名度及上游标签不足以自动授予标杆资格。",
+          "evidence_ids": [
+            "article:eff6a00564c2d767"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "烯牛数据",
+      "title": "DeepSeek 千亿融资落地，一图看懂 DeepSeek 的千亿融资",
+      "company": "烯牛数据",
+      "score": 50,
+      "sector": "金融科技 / AI投研",
+      "financing": "",
+      "source": "烯牛数据",
+      "location": "上海市",
+      "article_location": "上海市（复用已提供的同主体经营地证据，不作为注册地或总部认定）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d0090e832b07257eefc8cf4a"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "烯牛数据",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-d0090e832b07257eefc8cf4a",
+            "source_url": "https://pitchhub.36kr.com/project/1678561056142343",
+            "checked_at": "2026-10-29T00:33:25.274310+00:00",
+            "subject": "烯牛数据",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-d0090e832b07257eefc8cf4a"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-ff1411a0ba8324ec1cb3",
+      "company_canonical_name": "烯牛数据",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/1cpOTSHeDWRwOLQ3xhx-SA",
+      "article_title": "DeepSeek 千亿融资落地，一图看懂 DeepSeek 的千亿融资",
+      "event_desc": "文章称，11月18日，烯牛数据联合腾讯WorkBuddy正式上线“烯牛Buddy”，面向投资机构、银行、券商、保险、政府及国资平台等用户，提供基于专业金融数据的AI投研工作台。用户可在WorkBuddy中搜索烯牛数据应用，并通过连接器配置API Key。文章展示了使用该工作台对话整理DeepSeek股权结构图谱的案例。",
+      "insight": "烯牛数据将专业金融数据接入对话式工作台，让用户能够围绕企业股权关系直接提出问题并整理图谱，产品入口由数据查询延伸到投研任务。本文的DeepSeek案例体现了这一工作方式，但尚未提供结果准确率或实际使用规模。",
+      "event_headline": "烯牛数据联合腾讯WorkBuddy上线AI投研工作台",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "dated_from_publication_context",
+        "event_date": "2026-11-18",
+        "observed_date": "2026-11-20",
+        "description": "正文明确11月18日正式上线；2026年份由2026-11-20原始发布时间及当年报道语境确定。新闻发布时间与产品上线日分别记录，首次收录时间未提供。",
+        "review_required": false
+      },
+      "published_date": "2026-11-20",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文的独立产品段明确烯牛数据与腾讯WorkBuddy联合上线烯牛Buddy，给出目标用户、连接器接入方式及对话整理股权图谱案例。烯牛数据既是文章来源方，也是该段明确的产品联合发布方，不是因撰写DeepSeek融资报道而自动取得候选资格。当前信息足以独立支持专业金融数据与AI投研任务结合的产品进展，不能推导准确率、使用规模或收入。3月历史已经报道MCP产品及支持WorkBuddy集成，因此本次不能称首次接入WorkBuddy；保留的是具名投研工作台正式上线。10月产业链图谱是另一产品事件。新闻原始发布时间2026-11-20T12:07:00Z符合窗口，正文11月18日可结合当年报道语境确定为2026-11-18。上海仅为已审经营地，不认定为注册地或总部，不授杭州预警资格。",
+      "event_headline_source": "83d3f9125d442112876c1e9811d74bdf03caf0d4c52b106d62afe32f76336831",
+      "event_date": "2026-11-18",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-d0090e832b07257eefc8cf4a",
+          "source_url": "https://pitchhub.36kr.com/project/1678561056142343",
+          "checked_at": "2026-10-29T00:33:25.274310+00:00",
+          "subject": "烯牛数据",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据足以支持具体产品上线及应用方式，但未提供可比较的行业领先性、独立效果验证或具有代表性的采用证据。",
+        "evidence_ids": [
+          "article:eff6a00564c2d767"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "d7c3da525ac31d40aac11d40c621b318fbf8f70261b5691bb4690472b04b4bd7",
+        "input_row_sha256": "dc2af6eff63978d7c67022c8d07f28f72940004318fc33473ba58fbf336fe738",
+        "reason": "完整正文的独立产品段明确烯牛数据与腾讯WorkBuddy联合上线烯牛Buddy，给出目标用户、连接器接入方式及对话整理股权图谱案例。烯牛数据既是文章来源方，也是该段明确的产品联合发布方，不是因撰写DeepSeek融资报道而自动取得候选资格。当前信息足以独立支持专业金融数据与AI投研任务结合的产品进展，不能推导准确率、使用规模或收入。3月历史已经报道MCP产品及支持WorkBuddy集成，因此本次不能称首次接入WorkBuddy；保留的是具名投研工作台正式上线。10月产业链图谱是另一产品事件。新闻原始发布时间2026-11-20T12:07:00Z符合窗口，正文11月18日可结合当年报道语境确定为2026-11-18。上海仅为已审经营地，不认定为注册地或总部，不授杭州预警资格。",
+        "scope": {
+          "technology_evidence": "正文明确上线基于专业金融数据的AI投研工作台，提供WorkBuddy应用及连接器接入，并展示通过对话整理DeepSeek股权结构图谱的任务案例。",
+          "value_reason": "从既有专业数据接口集成推进到面向机构用户的具名任务工作台，体现数据产品的应用组织和分发方式变化，可供杭州金融科技及产业研究工具产品化对照。"
+        },
+        "stage": {
+          "status": "company_announced_product_launch",
+          "reason": "企业自发布正文明确写明11月18日正式上线，并提供接入说明和展示案例；上线事实按公司披露采信，未独立验证产品效果。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:bdc273fbed949e2a",
+            "accepted_history:0a324720e61076dd",
+            "prior_decision:9d7e9953fe31155b",
+            "history_lookup:b052fccd76c1aa46"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:9d7e9953fe31155b",
+              "comparison": "different_event",
+              "reason": "旧裁决保留的是地方规划、产业链与企业映射图谱；本次为联合WorkBuddy上线的AI投研工作台，不以旧keep代替审核。"
+            }
+          ],
+          "change_reason": "3月已收录MCP数据接口及WorkBuddy集成能力，本次新增具名烯牛Buddy工作台正式上线、机构用户定位与具体使用入口；不把已有集成关系重新包装为首次合作。所供历史未见该具名工作台上线事件，当前历史检索无错误。",
+          "new_evidence_ids": [
+            "article:eff6a00564c2d767"
+          ]
+        },
+        "evidence_ids": [
+          "article:eff6a00564c2d767",
+          "identity_registry:2dcd4f408df25406",
+          "geo-d0090e832b07257eefc8cf4a",
+          "accepted_history:bdc273fbed949e2a"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "当前证据足以支持具体产品上线及应用方式，但未提供可比较的行业领先性、独立效果验证或具有代表性的采用证据。",
+          "evidence_ids": [
+            "article:eff6a00564c2d767"
+          ]
+        }
+      }
+    }
+  ],
+  "negatives": [],
+  "excluded_count": {
+    "wechat": 40,
+    "web_search": 11,
+    "total": 51
+  },
+  "_analysis_status": "complete",
+  "quality_review": {
+    "schema_version": "dragon-overnight-review.v2",
+    "status": "agent_review_completed",
+    "reviewer": "quality_inspector Agent",
+    "reviewed_candidates": 75,
+    "semantic_reviewed_candidates": 75,
+    "watch_candidates": 0,
+    "pending_candidates": 0,
+    "source_pending_count": 0,
+    "source_pending_counts": {
+      "_analysis_pending": 0,
+      "_pending_fact_identity": 0
+    },
+    "evidence_excluded_candidates": 29,
+    "evidence_excluded_sources": 6
+  }
+}
