@@ -5482,7 +5482,7 @@
     "2026-11-21": "a304e1c7b9e49c58bae565610df2b7a63adfc303aec612db1946f31f7d47168e"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "298909d64d779f8de1e951bdf2009031a82da82872fd542226a3f2c7520814a6",
+  "geography_version": "b07f347e1d928c41c8085e47f929c692b001614530ad4f78fca26ffc0295c6db",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -11836,10 +11836,77 @@
       "located_status": "unknown"
     },
     "dr-u-2d8fce311f337e9dc107": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "北京市 / 海淀区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-9b96b9946236bd7c464f698d",
+        "geo-89ac24ac7829065e15c08fa4"
+      ],
+      "subject_evidence_ids": [
+        "geo-89ac24ac7829065e15c08fa4"
+      ],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "昆仑芯",
+      "subject_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "basis_roles": [
+          "hq"
+        ],
+        "evidence_ids": [
+          "geo-89ac24ac7829065e15c08fa4"
+        ]
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-89ac24ac7829065e15c08fa4",
+          "source_url": "https://kunlunxin.zhiye.com/Social?p=1^16,3^12",
+          "checked_at": "2026-11-22T02:24:09.736222+00:00",
+          "subject": "昆仑芯",
+          "role": "hq",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区",
+            "address": "北京市海淀区信息路甲9号"
+          }
+        },
+        {
+          "evidence_id": "geo-9b96b9946236bd7c464f698d",
+          "source_url": "https://www.kunlunxin.com/news?cat_id=60",
+          "checked_at": "2026-11-22T02:24:09.362933+00:00",
+          "subject": "昆仑芯",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "北京市",
+            "city": "北京市",
+            "district": "海淀区",
+            "address": "北京市海淀区中关村东升科技园·东畔科创中心C座"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "北京市",
+        "city": "北京市",
+        "district": "海淀区",
+        "evidence_ids": [
+          "geo-9b96b9946236bd7c464f698d",
+          "geo-89ac24ac7829065e15c08fa4"
+        ]
+      }
     },
     "dr-u-2d92ea040ef94a4fe466": {
       "geography_status": "unknown",
@@ -68785,13 +68852,13 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "2909a4a2a9e1b8c19f6bf8ccdce5534955fd3d1255ed3465cbef202f3817c1a6",
+  "history_version": "9a2b5483a92d56f6a2a2e92add99848586a5edd0a92cd93052046c3edde2d56a",
   "company_history_buckets": {
     "00": "a4c07dc5d4f2250c7b951fd5cf99525503e713878667a51d911968ddc5c2d841",
     "01": "3e64b5404f599211bc11e289354401974a4b3c69034c7dd18b2c8e6d605ed94d",
     "02": "c7f49ad45eea47ee9ceb5b9477fcbefd40354409afe2e2dec347d15fb727d0e3",
     "03": "e92b7fcd472dcfac346dfae3f56207f220ae1910167178caa90b4d5ebbb1a0be",
-    "04": "d02ddd1dc260ceb122ba77318c22ea068d69d71d89e37290931aae2193a09add",
+    "04": "4dc850cae1593be209bc1ecd8a98a82fa27e40164fca9c1b3b2b3cdec7ed59d6",
     "05": "b0d2057310d65de88cea104e1bdef24758c69825adbea2a972fc54e6684b6636",
     "06": "368fc867487add06c684d0a8f9a2d244a02ad79b04c7f3325e85b3c46a8a2fe5",
     "07": "9752a3d725837562624930d3ed95d44b33bff5f0f8ff002a081c7f98112e7b3c",
@@ -68852,7 +68919,7 @@
     "3e": "fe712a483bc993b623c7fd0e289f43435db540f2c7c8c06a0f6ed8d5da140487",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "1f2d42ac70522a31b35e601e8839380d6c6245510114ba20532c2b8ceced78a7",
+  "history_search_version": "5d5a41d974948538ad97b472c7ac9050f13d807f7e61ba420d7d8193e29f4adb",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
