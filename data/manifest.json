@@ -6053,7 +6053,7 @@
     "2026-11-22": "9f0efdda3205979cff4fe864ae8ce1c50af4a03ca0d970872ae17794ba223f42"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "3b9dd4c6471605534812fa3285746a516f8b5c753dddb1ff8786565a40f61c08",
+  "geography_version": "8bd0f6abee07136b3be4e4e150fb8aa41d9f5e43226f037df7abfb02cf6ee9a4",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -21260,10 +21260,48 @@
       "located_status": "unknown"
     },
     "dr-u-6cd049471bf160348f50": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-3fb932658a8eb12cb6707569"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "西湖生物医药科技有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-3fb932658a8eb12cb6707569",
+          "source_url": "https://mp.weixin.qq.com/s/FNgnrzIOHEBDp_j3th7aLA",
+          "checked_at": "2026-11-22T01:48:14.706464+00:00",
+          "subject": "西湖生物医药科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "evidence_ids": [
+          "geo-3fb932658a8eb12cb6707569"
+        ]
+      }
     },
     "dr-u-6cf4707346fa71ce7d8d": {
       "geography_status": "unknown",
@@ -69784,7 +69822,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "1f3fab0e5a5150e41f5f22d071fce4c08f5710ca80252024ec790be29bdd7f20",
+  "history_version": "01a60e7ad5a9489813c826c3f403d6529407ed91e9cefedbc6ea59b181c488b8",
   "company_history_buckets": {
     "00": "e28fc09752dcc3d98c96cd421ae09a42f17599f526d8ebe5650c4b5f4f710b6c",
     "01": "8cd3df16821237db772a2daa69d1fe4bb6abec533f3a842aa182058a6d30c183",
@@ -69841,7 +69879,7 @@
     "34": "e5e1ee1ccf3d89be7193053323bf329eaa565be8e12a9da8a5e6aea4d5cc46e8",
     "35": "56fe865b7fbf10fa4c4cb0f9a96da934b36631a1ba12688f3d255aabe68ef7ef",
     "36": "9367d6f7e2368346de5f2d73823a9220daae9e46faeaebe43b04f300824d7453",
-    "37": "525d79f290a008f43e42af9df10da510de6c8903bf961a01e5b135a41a9bd116",
+    "37": "5283aa752b9d244ed816eb6ecfb6e0e3945828fa526f9bc69ad7fb88fccaf6e0",
     "38": "4f5d897b309adadeed6b9051a5f51cde9c2ed45b889c75c7c4ab8d635c9ac5df",
     "39": "3062ca8d188efd14f61761b4e733d1fcd64648eb82d537db8e19a7d45f33a18c",
     "3a": "a675bbd32b9665950351c69473a604145a2027f31dbdb616ed95baee1e458c5f",
@@ -69851,7 +69889,7 @@
     "3e": "3d18dd350965cfbd7b1508d261bc48163ecad89cefd0d24ffc372148c25d0b66",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "59a3c098d0e41df5c229a36c4d11b26cc2e4abf5165bb84364a67a2bbec72db1",
+  "history_search_version": "9aec1cbff5d1e65592effc208f99920b92728819fe4af152b2b07f0d2147956a",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
