@@ -6053,7 +6053,7 @@
     "2026-11-22": "9f0efdda3205979cff4fe864ae8ce1c50af4a03ca0d970872ae17794ba223f42"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "c1e9d99e5913bd53983bd9290ebc002ad6f3fea6b2b98516399efd4de7e408c8",
+  "geography_version": "ea257c597e32cca6cf3262e27d4daa291cea6167535ebcead98d55e07f398e60",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -14772,10 +14772,50 @@
       "located_status": "unknown"
     },
     "dr-u-3c256450341034712608": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 钱塘区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-4d2bd055f8f90f603e9f2112"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "竞界聚能",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-4d2bd055f8f90f603e9f2112",
+          "source_url": "https://mp.weixin.qq.com/s/fLXP0X_cCq5B2tl4GeE5cQ",
+          "checked_at": "2026-11-22T03:18:39.570149+00:00",
+          "subject": "竞界聚能",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "钱塘区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "钱塘区",
+        "evidence_ids": [
+          "geo-4d2bd055f8f90f603e9f2112"
+        ]
+      }
     },
     "dr-u-3c3a5b62f2a615fc4f6f": {
       "geography_status": "confirmed",
@@ -15150,10 +15190,50 @@
       }
     },
     "dr-u-3d78018184307af6c1bc": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市 / 滨江区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-5000c3944b6944b89450b401"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "亦立医药",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-5000c3944b6944b89450b401",
+          "source_url": "https://mp.weixin.qq.com/s/FNgnrzIOHEBDp_j3th7aLA",
+          "checked_at": "2026-11-22T01:48:14.706464+00:00",
+          "subject": "亦立医药",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "滨江区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "district": "滨江区",
+        "evidence_ids": [
+          "geo-5000c3944b6944b89450b401"
+        ]
+      }
     },
     "dr-u-3dc6a8c746d6608b3129": {
       "geography_status": "unknown",
@@ -69672,7 +69752,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "26d211f4c1a51cdcb3e1f060fa0f78b101ff0e9f7d4aac1919c379f5696e23d9",
+  "history_version": "62d70515a31c5bf56faf6e2a412a22952cbc522563ad375b6b52b6dd3220d559",
   "company_history_buckets": {
     "00": "e28fc09752dcc3d98c96cd421ae09a42f17599f526d8ebe5650c4b5f4f710b6c",
     "01": "8cd3df16821237db772a2daa69d1fe4bb6abec533f3a842aa182058a6d30c183",
@@ -69691,7 +69771,7 @@
     "0e": "0b542539a058c397f88fb454a5e7d2fb22af05450a88c00c13fad1471f472ce0",
     "0f": "c5524a32ba7b1e787491be478607a5d74a68a6efc1908af78725afb58d06b501",
     "10": "bcc0a2c6cfc965876b5c0832d9256e3b16f0bd5bfc8f609a97f9892ae5f17541",
-    "11": "231a47cd0b71c03ddfab5dfe222bfe6d31d49f94eef333b37f1ef86eaaca6669",
+    "11": "16b136ad68b0a2f5e82e6635eee32135efd8ff29360cb7dc4d4870fb977f830e",
     "12": "277cd322abc0900a2168781b2d0dacf2ae660704c7b8275aeac34e46f7599307",
     "13": "647ad57e92c974f49f517d72cf60d2e1b8f2fdc37d5ae218c97c47cc9a6a1b30",
     "14": "52cfca22eb151b68bf0fc3564c0688dc4c7cd4215e31c53697a6cdb4436b8109",
@@ -69731,7 +69811,7 @@
     "36": "9367d6f7e2368346de5f2d73823a9220daae9e46faeaebe43b04f300824d7453",
     "37": "525d79f290a008f43e42af9df10da510de6c8903bf961a01e5b135a41a9bd116",
     "38": "4f5d897b309adadeed6b9051a5f51cde9c2ed45b889c75c7c4ab8d635c9ac5df",
-    "39": "6d175eb0398ff7072634a9a8c2dee42c278fa5f3cb5a3121d32d3f6420d386d0",
+    "39": "3062ca8d188efd14f61761b4e733d1fcd64648eb82d537db8e19a7d45f33a18c",
     "3a": "a675bbd32b9665950351c69473a604145a2027f31dbdb616ed95baee1e458c5f",
     "3b": "0c8eb88cd7e8e0bf2c3b450236adec0201f72670361588f090904ef39d112249",
     "3c": "bde2c53801cc67b1f2f70f252428bf0e5be9bf40a40635ad0e0bddd4bf0340db",
@@ -69739,7 +69819,7 @@
     "3e": "3d18dd350965cfbd7b1508d261bc48163ecad89cefd0d24ffc372148c25d0b66",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "9981d1d7b7feaffe338c7b0c0d1ad3567fa2d52a2e981e2bc9c2b0924ff58812",
+  "history_search_version": "8cc86f266d4c17b8d3043c0754b02a795de6e74a5492ff3c3129c8a1be542d73",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
