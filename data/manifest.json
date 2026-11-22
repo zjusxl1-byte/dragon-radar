@@ -6053,7 +6053,7 @@
     "2026-11-22": "9f0efdda3205979cff4fe864ae8ce1c50af4a03ca0d970872ae17794ba223f42"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "63f30ede0a2664a017e1f304b783230e135d501fb30d0de4ef0280fe578733e6",
+  "geography_version": "2a2819e0bfec4deefa7a039ba79b2527005caa50ffd1fe79c46a18d85507c242",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -39163,10 +39163,63 @@
       "located_status": "unknown"
     },
     "dr-u-e8a4411af98ff2909a7a": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-138ea75a1218044ca82a40a6",
+        "geo-e2f4ad640e5682dfe2b30b26"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "竞界聚能(杭州)科技有限公司",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-138ea75a1218044ca82a40a6",
+          "source_url": "https://mp.weixin.qq.com/s/2N8dh1pna9jnieKKukn6yg",
+          "checked_at": "2026-11-22T14:55:49.518837+00:00",
+          "subject": "竞界聚能(杭州)科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        },
+        {
+          "evidence_id": "geo-e2f4ad640e5682dfe2b30b26",
+          "source_url": "https://mp.weixin.qq.com/s/2N8dh1pna9jnieKKukn6yg",
+          "checked_at": "2026-11-22T14:55:49.518837+00:00",
+          "subject": "竞界聚能(杭州)科技有限公司",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "evidence_ids": [
+          "geo-138ea75a1218044ca82a40a6",
+          "geo-e2f4ad640e5682dfe2b30b26"
+        ]
+      }
     },
     "dr-u-e8e02fd8005794ad72a8": {
       "geography_status": "unknown",
@@ -70145,7 +70198,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "6a91e32a1f4902e90a86155cf816719f5b311599ea948872e84c1aceec06468c",
+  "history_version": "cae271b755dd6aafcdd08abc7e0cb254d1b4eb6d20b0e5c75da3aec916683bb6",
   "company_history_buckets": {
     "00": "e28fc09752dcc3d98c96cd421ae09a42f17599f526d8ebe5650c4b5f4f710b6c",
     "01": "8cd3df16821237db772a2daa69d1fe4bb6abec533f3a842aa182058a6d30c183",
@@ -70182,7 +70235,7 @@
     "20": "7568593eb377e2bdabd291ea9d6cf639e8af8167652931a6ed67b45c59d6a60e",
     "21": "95186d8a09aa4f52e5b8bc2bbe00b2508338811da3a1aa6f6b13bf6e1fa28dbe",
     "22": "60679c92d0f303d5fe405ee261397b7f8e0b2852b19b00c31e457be264e2d352",
-    "23": "7516ab52f746c4e4756c7b26a981cdbc38f217c394d40c3740097a9099779166",
+    "23": "25a790bf0389302354771f27cc5586c4b06192b1b7f07390241b290157558da9",
     "24": "46becb8bae63fb910c80bb9ed249d8839ac0830b709c08f2be282f0fb26eb2a1",
     "25": "7c278b1546f5ff029c6dcaa02c6babf2ed2d94bb19509c3937b3eeebe424c8c8",
     "26": "2794a89eb0eb2c1f882a88cfdb77db4c56d47098a4072ad15044f09bd4f1a179",
@@ -70212,7 +70265,7 @@
     "3e": "3d18dd350965cfbd7b1508d261bc48163ecad89cefd0d24ffc372148c25d0b66",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "7f670a07ae1a00b4cda24f6fdd2856ce23da978f9e4ff8f41af147059647fac7",
+  "history_search_version": "a5c845321fff2b4ac17d970eb352e139e9a18f5e79ccd5e2d13827d0a81b509d",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
