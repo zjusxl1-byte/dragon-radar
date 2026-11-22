@@ -6053,7 +6053,7 @@
     "2026-11-22": "9f0efdda3205979cff4fe864ae8ce1c50af4a03ca0d970872ae17794ba223f42"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "a8997dfe6590b0fd957a18561484c9f325f8798ef4faad5e85ba029dc320d83d",
+  "geography_version": "63f30ede0a2664a017e1f304b783230e135d501fb30d0de4ef0280fe578733e6",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -36847,10 +36847,48 @@
       "located_status": "unknown"
     },
     "dr-u-d8e1e5f45ed69fbba840": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "hangzhou",
+      "display_location": "浙江省 / 杭州市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-f96972f648eec3808934377c"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "子虔科技",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-f96972f648eec3808934377c",
+          "source_url": "https://paper.cnstock.com/html/2024-12/28/content_2011697.htm",
+          "checked_at": "2026-11-22T13:51:26.733457+00:00",
+          "subject": "子虔科技",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "hangzhou",
+        "country": "CN",
+        "province": "浙江省",
+        "city": "杭州市",
+        "evidence_ids": [
+          "geo-f96972f648eec3808934377c"
+        ]
+      }
     },
     "dr-u-d8f3ada13209bf7e5dc6": {
       "geography_status": "confirmed",
@@ -70107,7 +70145,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "6978e2c105bcfd0d42b8384118fd14d174462f0189de5512931c9102c8f603a4",
+  "history_version": "6a91e32a1f4902e90a86155cf816719f5b311599ea948872e84c1aceec06468c",
   "company_history_buckets": {
     "00": "e28fc09752dcc3d98c96cd421ae09a42f17599f526d8ebe5650c4b5f4f710b6c",
     "01": "8cd3df16821237db772a2daa69d1fe4bb6abec533f3a842aa182058a6d30c183",
@@ -70128,7 +70166,7 @@
     "10": "bcc0a2c6cfc965876b5c0832d9256e3b16f0bd5bfc8f609a97f9892ae5f17541",
     "11": "16b136ad68b0a2f5e82e6635eee32135efd8ff29360cb7dc4d4870fb977f830e",
     "12": "277cd322abc0900a2168781b2d0dacf2ae660704c7b8275aeac34e46f7599307",
-    "13": "647ad57e92c974f49f517d72cf60d2e1b8f2fdc37d5ae218c97c47cc9a6a1b30",
+    "13": "5a643f4c0d567d81887dcd80940e4db9bbd20690054fef92c6f804091c455780",
     "14": "52cfca22eb151b68bf0fc3564c0688dc4c7cd4215e31c53697a6cdb4436b8109",
     "15": "85be50dc334871b788bec347b67ab528cfbfb56a6fb58c022075eed56b5aa9e4",
     "16": "7fcc3f17f14ca104343257e3108f7b61ce35e8722154020be570823d8cc800a0",
@@ -70174,7 +70212,7 @@
     "3e": "3d18dd350965cfbd7b1508d261bc48163ecad89cefd0d24ffc372148c25d0b66",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "48e67db1f5bfd01d2e82590443906019f34b507e502f08818a968087ba96be7f",
+  "history_search_version": "7f670a07ae1a00b4cda24f6fdd2856ce23da978f9e4ff8f41af147059647fac7",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
