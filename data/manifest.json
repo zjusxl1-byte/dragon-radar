@@ -6053,7 +6053,7 @@
     "2026-11-22": "9f0efdda3205979cff4fe864ae8ce1c50af4a03ca0d970872ae17794ba223f42"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "8bd0f6abee07136b3be4e4e150fb8aa41d9f5e43226f037df7abfb02cf6ee9a4",
+  "geography_version": "16a9f8f677ed2515f211d359e2316d2e582010929fd20345bbc6402ef4186fce",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -23559,10 +23559,50 @@
       }
     },
     "dr-u-7c17b4341b7518627296": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市 / 徐汇区",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-f8f99d903660fb12747ca230"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "泛函数智能",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-f8f99d903660fb12747ca230",
+          "source_url": "https://news.qq.com/rain/a/20261111A082F200",
+          "checked_at": "2026-11-22T08:52:07.199803+00:00",
+          "subject": "泛函数智能",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "徐汇区"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "district": "徐汇区",
+        "evidence_ids": [
+          "geo-f8f99d903660fb12747ca230"
+        ]
+      }
     },
     "dr-u-7c4eca8c651b80fc25c0": {
       "geography_status": "unknown",
@@ -25149,10 +25189,51 @@
       "located_status": "unknown"
     },
     "dr-u-858326bb020621c2bd53": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "广东省 / 深圳市南山区桃源街道平山社区留仙大道4168号众冠时代广场A座4011",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-24f9bb33bc27e6202e7a365e"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "华瑞指数云",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-24f9bb33bc27e6202e7a365e",
+          "source_url": "https://www.qichamao.com/orgcompany/searchitemdtl/3147c124f330038c06be7379e876dff3.html",
+          "checked_at": "2026-11-22T08:51:58.203740+00:00",
+          "subject": "华瑞指数云",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "广东省",
+            "city": "深圳市",
+            "district": "南山区",
+            "address": "深圳市南山区桃源街道平山社区留仙大道4168号众冠时代广场A座4011"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "广东省",
+        "city": "深圳市",
+        "district": "南山区",
+        "evidence_ids": [
+          "geo-24f9bb33bc27e6202e7a365e"
+        ]
+      }
     },
     "dr-u-85906d5cf9df7e51365f": {
       "geography_status": "unknown",
@@ -69822,7 +69903,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "01a60e7ad5a9489813c826c3f403d6529407ed91e9cefedbc6ea59b181c488b8",
+  "history_version": "2ea9fd87c07f24fefb3ee606fc6a453cef1383cb88f5cbb69d257fd4078baaab",
   "company_history_buckets": {
     "00": "e28fc09752dcc3d98c96cd421ae09a42f17599f526d8ebe5650c4b5f4f710b6c",
     "01": "8cd3df16821237db772a2daa69d1fe4bb6abec533f3a842aa182058a6d30c183",
@@ -69848,7 +69929,7 @@
     "15": "85be50dc334871b788bec347b67ab528cfbfb56a6fb58c022075eed56b5aa9e4",
     "16": "7fcc3f17f14ca104343257e3108f7b61ce35e8722154020be570823d8cc800a0",
     "17": "b6b10625450ec76742eeadaa547fb7bab00fc4e634d43e95e2cff8e842c719e7",
-    "18": "a0dfc98c5ea0966c0766f8f6e37efa4cfdb81ea400f55cdb0991f15edfad493e",
+    "18": "98850eb400727f52784a27777c8a56af8e0d07e17be2db23367a3a2a636d9458",
     "19": "2e39688904ec669fb67e2d7822c4a0eb487090b5343e9293892d2225c02b0b1a",
     "1a": "0e9f84d5792aa72b1eca76328abfd3f005a7ba81565229deab91e7060303ed16",
     "1b": "6336a2d86c41e71de923db207a6be097dd4a3ffc62520818664860d8a15922dc",
@@ -69873,7 +69954,7 @@
     "2e": "9bcb81e186adc53f4d8b714c35d38ef40707017608cbfd76b03e2c2590805b9f",
     "2f": "3714f12a3622511c43cbcb8052d4ee9912e6136773debb80b040bb71556266cf",
     "30": "a5e8cf439ea89ddc4a4d720e48fbb60f06078954e49c7d07f9804b6a322e229f",
-    "31": "e5ac08c8734ea33e20b19b26b1b418b9e2ab4e5abd7a343eab2e537950d33562",
+    "31": "641d66f671ef65d186deb9b4e0204db9506957fc7865bea22df6615f28e6a6f9",
     "32": "dd530e153f5975a4ba0133c49909894dcfa18b86aac7c7892cfc6cc812f67110",
     "33": "1fd438f74ad9635757bbac2b008c666be70778dcbed7936510733a242e585759",
     "34": "e5e1ee1ccf3d89be7193053323bf329eaa565be8e12a9da8a5e6aea4d5cc46e8",
@@ -69889,7 +69970,7 @@
     "3e": "3d18dd350965cfbd7b1508d261bc48163ecad89cefd0d24ffc372148c25d0b66",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "9aec1cbff5d1e65592effc208f99920b92728819fe4af152b2b07f0d2147956a",
+  "history_search_version": "2bc91d74c7e30128c38d2a7d524f13c8ffc2841ad34da50c743cd88a67c7d8ac",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",

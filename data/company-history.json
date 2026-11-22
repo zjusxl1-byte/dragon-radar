@@ -167903,16 +167903,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/57FQRtHCNdN8qif_HLPs3w",
       "sector": "AI芯片设计工具",
-      "location": "地点待核",
+      "location": "上海市 / 徐汇区",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 徐汇区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f8f99d903660fb12747ca230"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "泛函数智能",
         "subject_locality": {
           "status": "unknown",
@@ -167920,7 +167922,33 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-f8f99d903660fb12747ca230",
+            "source_url": "https://news.qq.com/rain/a/20261111A082F200",
+            "checked_at": "2026-11-22T08:52:07.199803+00:00",
+            "subject": "泛函数智能",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "徐汇区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "徐汇区",
+          "evidence_ids": [
+            "geo-f8f99d903660fb12747ca230"
+          ]
+        }
       },
       "article_location": "",
       "source": "烯牛数据",
@@ -168330,16 +168358,18 @@
       "event_type": "融资",
       "link": "https://mp.weixin.qq.com/s/wQNesWYEwK80yJNOQQK3_A",
       "sector": "AI基础设施／分布式存储／推理上下文存储",
-      "location": "地点待核",
+      "location": "广东省 / 深圳市南山区桃源街道平山社区留仙大道4168号众冠时代广场A座4011",
       "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "广东省 / 深圳市南山区桃源街道平山社区留仙大道4168号众冠时代广场A座4011",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-24f9bb33bc27e6202e7a365e"
+        ],
         "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "needs_review": false,
+        "next_action": null,
         "subject": "华瑞指数云",
         "subject_locality": {
           "status": "unknown",
@@ -168347,7 +168377,34 @@
           "basis_roles": [],
           "evidence_ids": []
         },
-        "basis": []
+        "basis": [
+          {
+            "evidence_id": "geo-24f9bb33bc27e6202e7a365e",
+            "source_url": "https://www.qichamao.com/orgcompany/searchitemdtl/3147c124f330038c06be7379e876dff3.html",
+            "checked_at": "2026-11-22T08:51:58.203740+00:00",
+            "subject": "华瑞指数云",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "广东省",
+              "city": "深圳市",
+              "district": "南山区",
+              "address": "深圳市南山区桃源街道平山社区留仙大道4168号众冠时代广场A座4011"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "广东省",
+          "city": "深圳市",
+          "district": "南山区",
+          "evidence_ids": [
+            "geo-24f9bb33bc27e6202e7a365e"
+          ]
+        }
       },
       "article_location": "",
       "source": "创业邦",
