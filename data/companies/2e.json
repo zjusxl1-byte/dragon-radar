@@ -3080,5 +3080,70 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "Grok Bot": [
+    {
+      "date": "2026-11-22",
+      "title": "据Lauren Tan演讲，Grok Bot团队将工程经验转化为客户端框架Dune中的架构约束、Lint规则和类型检查，在产品代码中禁用useEffect，仅允许框架内部特定API使用，并禁止约99%的代码注释。团队为Agent提供应用运行、Chrome DevTools Protocol调试、用户视角功能地图及可复用的验证CLI和驱动程序，最近开始引入TLA+模型检查、Lean形式化证明，并使用Bombadil开展界面属性测试。文章称，今年10月团队提交1.1万个PR，平均每天超过350个，PR撤回率目前稳定在0.5%左右，客户端几乎每天发布一个稳定版本。Lauren Tan称个人上月提交3000个PR，并花费六个月建立自动化流程：Grok Bot发布新版本后，系统自动启动Cursor项目，调用云端Agent操作应用开展模糊测试，发现问题后创建修复PR，部分可直接合并；据其介绍，目前团队合入的大部分产品代码已不再需要人类深入代码审查。",
+      "article_title": "全网疯传！Grok一姐教你如何月提交3000个PR",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/DKdyv95tbi2WzzpomBCHQg",
+      "sector": "AI编程与软件工程自动化",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Grok Bot",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "Grok Bot",
+      "company_entity_id": "dr-u-bf5b1a77289a1fcacf2e",
+      "company_raw_name": "Grok Bot团队",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "SpaceXSI",
+          "relation": "uncertain",
+          "evidence": "SpaceXSI首席工程师土豆姐（Lauren Tan）"
+        },
+        {
+          "name": "Dune",
+          "relation": "product",
+          "evidence": "在Grok Bot团队开发的客户端框架Dune中就有不少这样的设计。"
+        }
+      ],
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体工程实践足以支持技术对标线索，但所属企业及主体行业地位未建立，团队自述的PR数据也不足以授予全国标杆资格。",
+        "evidence_ids": [
+          "article:51b223e4a228fdc5"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "insight": "这套流程的变化在于把Agent从代码生成延伸到运行应用、发现问题和提交修复，同时用框架与自动检查约束容易重复发生的错误。它为AI编程企业提供了具体的工程路径对标；但PR数量与撤回率尚不足以单独说明交付功能的复杂度或用户侧质量改善。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "Grok Bot团队披露自动测试与修复PR流程",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
