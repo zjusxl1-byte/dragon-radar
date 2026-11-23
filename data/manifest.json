@@ -5388,7 +5388,7 @@
     "2026-11-23": "9c7fa952bf3f695910c166a75de21e3109618d5fc0da9e2107a8abb6e8f6ff58"
   },
   "approved_history_supplement_version": "0649d297db996e743d75b8aa907a4b34ab14695a9cb7b6c0e3462c85c987ce30",
-  "geography_version": "80544766de5ddabcfbe175d4e805a92bb67b26a744bea598fde39f6ca6d08148",
+  "geography_version": "854f301c3af874db19399f2337a62c127335ef79a092fefc2ececf952bfad605",
   "company_geographies": {
     "dr-u-00070cc8a41d994e884f": {
       "geography_status": "unknown",
@@ -33037,10 +33037,48 @@
       "located_status": "unknown"
     },
     "dr-u-be901be9d809cdc3c3c4": {
-      "geography_status": "unknown",
-      "classification": "unknown",
-      "display_location": "地点待核",
-      "located_status": "unknown"
+      "geography_status": "confirmed",
+      "classification": "domestic_non_hangzhou",
+      "display_location": "上海市",
+      "located_status": "discovery_confirmed",
+      "display_basis": [
+        "geo-75fd28116db677d74d77a875"
+      ],
+      "subject_evidence_ids": [],
+      "needs_review": false,
+      "next_action": null,
+      "subject": "MachinePulse AI",
+      "subject_locality": {
+        "status": "unknown",
+        "classification": "unknown",
+        "basis_roles": [],
+        "evidence_ids": []
+      },
+      "basis": [
+        {
+          "evidence_id": "geo-75fd28116db677d74d77a875",
+          "source_url": "https://join.machinepulse.ai/api/jobs",
+          "checked_at": "2026-11-23T17:48:28.039518+08:00",
+          "subject": "MachinePulse AI",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "上海市",
+            "city": "上海市"
+          }
+        }
+      ],
+      "discovery_locality": {
+        "status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "country": "CN",
+        "province": "上海市",
+        "city": "上海市",
+        "evidence_ids": [
+          "geo-75fd28116db677d74d77a875"
+        ]
+      }
     },
     "dr-u-be98f30ca499cb0f823f": {
       "geography_status": "unknown",
@@ -69915,7 +69953,7 @@
     ]
   },
   "briefing_aliases": {},
-  "history_version": "c6e5f03bf36569b23186d73c86438747d3613fb5d8052db63456d849517ed8d7",
+  "history_version": "88852d519a004da5e1f6d408ab7b1d10edec57bf6da815c79e0847aa76f44af8",
   "company_history_buckets": {
     "00": "e28fc09752dcc3d98c96cd421ae09a42f17599f526d8ebe5650c4b5f4f710b6c",
     "01": "9f0905d6830f011ec0550b187457d4bb3c54e1a9e4c92c61df555be195820297",
@@ -69939,7 +69977,7 @@
     "13": "5a643f4c0d567d81887dcd80940e4db9bbd20690054fef92c6f804091c455780",
     "14": "80327f071c54f23b1a3aa79f9fb232c87d8a370e531bc0758afd0e1bb0310183",
     "15": "0ba9996c7a01be47c1e099f1d689465bb8a72ef896afe5b91eea3d258728f44f",
-    "16": "7fcc3f17f14ca104343257e3108f7b61ce35e8722154020be570823d8cc800a0",
+    "16": "c2f35c460bdebac768dda24b7ca2e8e5c7bb941276e051eabdb65e1b3b678c6b",
     "17": "b6b10625450ec76742eeadaa547fb7bab00fc4e634d43e95e2cff8e842c719e7",
     "18": "74383c577622be0aab9186a65dc3e6bdbbda5dd9b69b88f4b8a0f14a159abc07",
     "19": "2e39688904ec669fb67e2d7822c4a0eb487090b5343e9293892d2225c02b0b1a",
@@ -69982,7 +70020,7 @@
     "3e": "3d18dd350965cfbd7b1508d261bc48163ecad89cefd0d24ffc372148c25d0b66",
     "3f": "77463c6cc1212698c663edc4cf256aa1a76412895354f2dc35fb572edba8d077"
   },
-  "history_search_version": "7e31945c2b0fb54b1b090768c35265eb9a8acdfc5710ef1884b4f21a14ea058a",
+  "history_search_version": "cc3955f29653ab4fc09b6c1ef9a0cd887415e54d9f0c717f72dfe1e3bfaf7541",
   "company_interpretations": {
     "强脑科技": {
       "source_version": "9ba5a38626e6b99ad34efc9760d255cfd40a11315a12364960a7e983bd4cef8d",
