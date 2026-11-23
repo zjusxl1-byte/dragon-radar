@@ -261,6 +261,57 @@
       "event_headline": "认养一头牛开发AI养牛系统，推广至10座牧场",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "正文援引第一财经此前报道，称认养一头牛于2026年以来宣布将在吉林公主岭投建乳品深加工工厂，项目包括乳清蛋白粉、乳铁蛋白和奶酪；未披露投资额、规划产能、开工或投产时间。",
+      "article_title": "蛋白焦虑的年轻人，捧红了多少新生意？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/eWympk7SNCwr_k6C1Zq5VQ",
+      "sector": "乳品深加工与功能蛋白原料",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "认养一头牛",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "认养一头牛",
+      "company_entity_id": "dr-u-30a081330a9cc1cccb5d",
+      "company_raw_name": "认养一头牛",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体投建计划足以支持产业观察，但没有证明行业领先地位、稀缺技术能力或已实现的标杆制造成果。",
+        "evidence_ids": [
+          "article:2d69dfaaff2eace8"
+        ]
+      },
+      "published_date": "2026-11-21",
+      "insight": "拟建项目把业务布局延伸到乳源蛋白原料，潜在变化是从销售终端乳品，进一步进入食品配料供给环节。项目尚处于宣布投建状态，是否形成对外原料供应能力取决于实际建设和产品落地。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "认养一头牛拟在吉林公主岭投建乳品深加工工厂",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "元戎启行(DeepRoute.ai)": [
@@ -1950,6 +2001,89 @@
       "financing": "",
       "event_date": "",
       "event_headline": "英伟达Vera Rubin据报道增加单板高容量MLCC配置，预计逐月扩大出货",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "据文中转述的The Register报道，英伟达希望以同一款88核、主频3.3GHz的Vera CPU覆盖更广泛的数据中心工作负载。Vera计划用于Vera-Rubin超级芯片，并以独立CPU机架形式提供，进入存储和上下文内存系统。英伟达已在Supercomputing 2026展示搭载192颗Vera CPU的机架，面向难以直接通过GPU处理的高性能计算任务。Vera支持同时多线程（SMT）；开启后，88个Olympus核心在功能上可表现得更接近176个较窄的核心，为偏重吞吐量的任务提供另一种运行选择。英伟达表示，Vera没有采用特别强大的向量单元，设计考虑是客户通常也会配置承担向量化计算的GPU；其目标是在全部88核运行时兼顾低延迟和高吞吐量。公司称，Vera在特定工作负载下可使单核性能接近强调频率的x86处理器，每瓦吞吐量达到强调核心密度的处理器水平，适用场景包括持续集成与持续交付（CI/CD）、知识智能体、软件工程、数据库和分析。",
+      "article_title": "英伟达，想用一颗CPU打天下",
+      "event_type": "产品设计说明",
+      "link": "https://mp.weixin.qq.com/s/TTx5Bj58wUWWPHbWy-XiUA",
+      "sector": "数据中心CPU与异构计算",
+      "location": "US / California / Santa Clara",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / Santa Clara",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "subject_evidence_ids": [
+          "geo-4493064fe5737edf368c58ab"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "英伟达",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "Santa Clara",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-4493064fe5737edf368c58ab"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-4493064fe5737edf368c58ab",
+            "source_url": "https://nvidianews.nvidia.com/multimedia/santa-clara-headquarters",
+            "checked_at": "2026-10-16T00:31:54.065917+00:00",
+            "subject": "英伟达",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "Santa Clara"
+            }
+          }
+        ]
+      },
+      "article_location": "美国加利福尼亚州圣克拉拉（主要总部，复用已审同主体地理证据）",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "英伟达",
+      "company_entity_id": "dr-u-60094bcf5292c4909fad",
+      "company_raw_name": "英伟达",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "Vera CPU",
+          "relation": "product",
+          "evidence": "日前，《The Register》刊文介绍了英伟达Vera CPU的产品设计思路。"
+        }
+      ],
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据支持具体CPU设计对标，但没有本轮可复用的明确已审全国标杆资格；境外产业观察资格不自动转换为该标签。",
+        "evidence_ids": [
+          "article:7d8a8df4a4618775"
+        ]
+      },
+      "published_date": "2026-11-22",
+      "insight": "Vera试图把英伟达CPU的应用范围从以AI计算节点等场景为主，扩展到独立计算、存储及更多通用任务，其路径不是增加型号，而是用均衡规格和多线程模式适配不同负载。较克制的向量单元设计体现了CPU与GPU分工的产品思路，但这种取舍能否适合不同场景，关键仍在于客户的任务结构，以及全核负载下延迟与吞吐量能否同时满足需求。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "英伟达详解Vera统一规格、SMT与CPU/GPU分工",
       "event_signal": "material",
       "discovery_status": "update"
     }
