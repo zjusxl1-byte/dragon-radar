@@ -5,12 +5,12 @@
   "start_date": "2026-11-23",
   "end_date": "2026-11-29",
   "summary": {
-    "total_companies": 48,
-    "financing_events": 7,
+    "total_companies": 85,
+    "financing_events": 16,
     "ipo_events": 0,
-    "milestone_events": 17,
+    "milestone_events": 34,
     "negative_events": 0,
-    "active_days": 1
+    "active_days": 2
   },
   "top10": [
     {
@@ -305,6 +305,480 @@
           "reason": "本条证明具体芯片产业收购，但未建立阿里作为本次并购培育标杆的可比成果、独立行业地位及可复制成效；事件保留不自动授予全国标杆标签。",
           "evidence_ids": [
             "article:285610a6810c9cb8"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "蚂蚁",
+      "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
+      "company": "蚂蚁",
+      "score": 100,
+      "sector": "医疗健康人工智能",
+      "financing": "",
+      "source": "量子位",
+      "location": "浙江省 / 杭州市 / 西湖区 / 西溪路569号蚂蚁A空间",
+      "article_location": "",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 西溪路569号蚂蚁A空间",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-495b22c1304d6939e669db47"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "蚂蚁",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-495b22c1304d6939e669db47",
+            "source_url": "https://app.dahecube.com/nweb/news/20240327/195150n8049b2723de.htm?artid=195150",
+            "checked_at": "2026-10-20T02:20:14.385596+00:00",
+            "subject": "蚂蚁",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "西溪路569号蚂蚁A空间"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-495b22c1304d6939e669db47"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-7853225b8ee4cd6c6519",
+      "company_canonical_name": "蚂蚁",
+      "identity_status": "unresolved",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/ceH1mQR_6BNAlI5l2ehF7w",
+      "article_title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
+      "event_desc": "据报道，蚂蚁在医疗健康生态大会集中发布五款模型。LingSante-3.1-air-VL与LingSante-3.1-flash当天开源：前者基于Ling-3.0-flash-VL，支持图文输入，总参数124B、激活参数5.5B，结合医学检索与工具调用，提供医疗材料解读和本地部署选择；后者基于Ling-3.1-flash，总参数560B，采用Hybrid-linear MoE架构，最长支持100万Token上下文，面向长病历、医学文献和复杂推理任务。LingSante Live已在阿福APP上线视频通话，支持持续视觉理解、全双工语音和后台Agent分析，非接触测量与可穿戴设备结合仍属探索。LingSante Pulse被报道具备150余项疾病风险预测能力，目前公开的是生理信号编码器权重，具体疾病预测还需配套任务模型。LingSante MedGuard用于结合患者上下文检查医疗AI回答中的数值、单位、计算和证据支持情况，并识别医疗安全、合规与伦理风险。",
+      "insight": "此次发布把医疗材料理解、复杂病例推理、实时补充信息、风险预测与回答检查拆成不同模型，使蚂蚁的医疗AI供给从单一咨询入口扩展到面向不同任务的能力组合。两款专业模型开源与Live上线分别提供机构侧部署和用户侧交互入口，但编码器开放并不等于开发者已获得完整的疾病预测系统。",
+      "event_headline": "蚂蚁发布五款医疗健康模型，两款专业模型开源",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-23",
+        "event_date": null,
+        "observed_date": "2026-11-23",
+        "review_required": true
+      },
+      "published_date": "2026-11-23",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "已读对应URL所供完整正文。原文明确将五款医疗健康模型的集中发布归于蚂蚁；百灵、阿福及各模型是技术或产品名称，不另认定为企业，也不推断具体法人。两款专业模型开源、Live视频功能落地及Pulse编码器权重开放构成具体产品和开发者供给进展，具有机构本地部署与医疗交互设计的独立阅读价值。采集证据记录原始发布时间为2026-11-23T07:06:00Z，满足七天窗口，上游关于发布时间和历史材料缺失的待核理由已不成立。精确发布日未知，不以新闻日替代。历史通用百灵模型、个人助手和RefineICL研究均不是本次医疗模型集中发布。复用已审杭州经营地，不将其升级为注册地、总部或杭州负面预警资格。",
+      "event_headline_source": "a3c5ac6348495518937b508647726f3dd1546955bd56e0f7ecef044e373c74ff",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-495b22c1304d6939e669db47",
+          "source_url": "https://app.dahecube.com/nweb/news/20240327/195150n8049b2723de.htm?artid=195150",
+          "checked_at": "2026-10-20T02:20:14.385596+00:00",
+          "subject": "蚂蚁",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "西湖区",
+            "address": "西溪路569号蚂蚁A空间"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前材料足以支持医疗模型产品进展，但评测领先主要来自报道转述，未建立可独立复核的全国行业地位；不据企业知名度或模型数量自动授予标杆资格。",
+        "evidence_ids": [
+          "article:48664e673b18967b"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "b2f618c0f80707f962ab61312a069fc962bf061c557fc670d865b2507c4240e2",
+        "input_row_sha256": "48be8bdb50638ceeb2b9261d35e5a79a80f812f34e00ac86405a58b96a689699",
+        "reason": "已读对应URL所供完整正文。原文明确将五款医疗健康模型的集中发布归于蚂蚁；百灵、阿福及各模型是技术或产品名称，不另认定为企业，也不推断具体法人。两款专业模型开源、Live视频功能落地及Pulse编码器权重开放构成具体产品和开发者供给进展，具有机构本地部署与医疗交互设计的独立阅读价值。采集证据记录原始发布时间为2026-11-23T07:06:00Z，满足七天窗口，上游关于发布时间和历史材料缺失的待核理由已不成立。精确发布日未知，不以新闻日替代。历史通用百灵模型、个人助手和RefineICL研究均不是本次医疗模型集中发布。复用已审杭州经营地，不将其升级为注册地、总部或杭州负面预警资格。",
+        "scope": {
+          "technology_evidence": "正文披露医疗图文模型与长上下文推理模型开源，Live已在阿福APP落地视频通话，Pulse目前开放生理信号编码器而非完整疾病预测系统，MedGuard用于检查医疗回答的数值、证据和安全风险。",
+          "value_reason": "本次提供了从医疗材料理解、复杂推理到实时补充信息及回答检查的具体任务分工，并以开源和APP功能形成不同使用入口，可供杭州医疗AI企业比较私有化部署、交互架构与安全组件设计，而非仅凭健康AI赛道名称判断价值。"
+        },
+        "stage": {
+          "status": "据报道已发布；两款专业模型已开源，Live已上线，Pulse部分权重已开放",
+          "reason": "正文明确写两款专业模型当天开源、Live已在阿福APP落地；Pulse疾病预测仍需配套任务模型，非接触测量及可穿戴设备结合仍属探索。大会及发布的精确日期未提供，新闻发布时间为2026-11-23T07:06:00Z。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:3526417d894d3ef6",
+            "accepted_history:2fdfa25ea0558727",
+            "history_lookup:25e0864955885437"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:2c0f21ce7f278fc5",
+              "comparison": "different_event",
+              "reason": "旧项是通用Ling-3.1-flash开源及内部桌面客户端接入，本项是医疗专业模型家族发布；底座关联不构成事件重复。"
+            },
+            {
+              "evidence_id": "prior_decision:7d964cdab6677ccb",
+              "comparison": "different_event",
+              "reason": "旧项是灵光2.0个人助手发布，与阿福医疗模型及功能供给不同。"
+            },
+            {
+              "evidence_id": "prior_decision:1a35269daedb9e0a",
+              "comparison": "different_event",
+              "reason": "旧项因RefineICL仅有研究名称和参与关系、缺少独立实质内容而排除；本项具有明确模型功能、开源及上线事实，不继承该排除。"
+            },
+            {
+              "evidence_id": "prior_decision:bbd59aa5df1a0d07",
+              "comparison": "different_event",
+              "reason": "同一RefineICL研究的另一条排除记录，不是医疗模型发布，也不构成企业级排除依据。"
+            },
+            {
+              "evidence_id": "prior_decision:6d0a5a7614c5b721",
+              "comparison": "different_event",
+              "reason": "该记录仍针对通用百灵模型及桌面助手，不是本次医疗专业化发布。"
+            },
+            {
+              "evidence_id": "prior_decision:916a915edc5a2405",
+              "comparison": "different_event",
+              "reason": "该重复裁决记录属于旧通用模型事件，不能因共享模型底座将本项去重。"
+            },
+            {
+              "evidence_id": "prior_decision:10859e4707948f4c",
+              "comparison": "different_event",
+              "reason": "该记录属于灵光个人助手事件，与本次医疗模型家族不同。"
+            }
+          ],
+          "change_reason": "这是同主体的另一事件，不是对RefineICL排除裁决的翻案。所给历史检索未见同次医疗模型发布，不宣称全局首次发现；旧来源闭包验证不授予本事件资格。",
+          "new_evidence_ids": [
+            "article:48664e673b18967b"
+          ]
+        },
+        "evidence_ids": [
+          "article:48664e673b18967b",
+          "geo-495b22c1304d6939e669db47"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "当前材料足以支持医疗模型产品进展，但评测领先主要来自报道转述，未建立可独立复核的全国行业地位；不据企业知名度或模型数量自动授予标杆资格。",
+          "evidence_ids": [
+            "article:48664e673b18967b"
+          ]
+        }
+      }
+    },
+    {
+      "company_raw_name": "阿里巴巴",
+      "title": "林俊旸AI公司完成新融资：估值翻倍至50亿美元，吉利参投；Anthropic上市首日大涨17%，市值1.8万亿美元跻身全球第七丨AI周报",
+      "company": "阿里巴巴",
+      "score": 100,
+      "sector": "多模态基础模型与智能体",
+      "financing": "",
+      "source": "创业邦",
+      "location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+      "article_location": "浙江省杭州市余杭区文一西路960-1号（已提供名录确认的经营地）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 余杭区 / 文一西路960-1号",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-14c3cd9f0fde5abc65811edd"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "阿里巴巴",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+            "source_url": "https://ali-home.alibaba.com/global-location",
+            "checked_at": "2026-10-21T18:14:15.207210+00:00",
+            "subject": "阿里巴巴",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "余杭区",
+              "address": "文一西路960-1号"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "余杭区",
+          "evidence_ids": [
+            "geo-14c3cd9f0fde5abc65811edd"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-47c1e53c427aafb4556b",
+      "company_canonical_name": "阿里巴巴",
+      "identity_status": "confirmed",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/tXxfLDhU8jk5U18Ww5U2ZA",
+      "article_title": "林俊旸AI公司完成新融资：估值翻倍至50亿美元，吉利参投；Anthropic上市首日大涨17%，市值1.8万亿美元跻身全球第七丨AI周报",
+      "event_desc": "11月16日，阿里巴巴发布Qwen4-Max，总参数2.4T，具备原生视觉能力，支持百万上下文。官方称其改进智能体、编程及专业工具调用能力，并降低Token消耗。模型已在千问AI平台提供API，缓存命中价格每百万Tokens低至0.5元，完成单任务平均费用据称较上代下降6成；可通过阿里Token Plan及千问办公、Qoder、千问APP调用或体验，中小尺寸模型计划陆续开源。",
+      "insight": "原生视觉、长上下文与工具调用共同面向长周期工作任务，API上线使这些能力进入可调用产品。单任务费用下降来自官方口径，尚不能据此断定所有客户任务均有同等降幅。",
+      "event_headline": "阿里巴巴发布Qwen4-Max并向开发者开放API",
+      "event_signal": "material",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "reported_event_date",
+        "event_date": "2026-11-16",
+        "observed_date": "2026-11-22",
+        "review_required": false,
+        "description": "正文记载11月16日发布Qwen4-Max，年份结合2026年11月22日原始新闻语境确定。新闻发布时间2026-11-22T03:31:00Z符合七日采集窗口，不能以事件年龄代替新闻时效；首次收录时间未知。"
+      },
+      "published_date": "2026-11-22",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "已读本候选对应的完整周报正文。阿里巴巴是Qwen4-Max发布和API提供方，模型及千问办公、Qoder等应用入口不是新增企业。原生视觉、百万上下文、专业工具调用和API开放，构成面向复杂任务的具体模型产品进展；性能及单任务费用变化保留官方主张，不推导普遍客户收益。新闻发布于2026年11月22日，符合七日采集窗口；11月16日是正文记载的发布日，不能因事件较早而排除。逐项对照所供历史，既有模型开源、智能体产品、办公平台、处理器及商业化事件均未覆盖本次Qwen4-Max发布。官网证据仅支持杭州经营归属，不升级为集团注册地、主要总部、杭州预警或领导简报资格。",
+      "event_headline_source": "a02e73c731bfb617b368317e2ebf7082e26bfb9952cbabccbd4d7346c01ca30e",
+      "event_date": "2026-11-16",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-14c3cd9f0fde5abc65811edd",
+          "source_url": "https://ali-home.alibaba.com/global-location",
+          "checked_at": "2026-10-21T18:14:15.207210+00:00",
+          "subject": "阿里巴巴",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "CN",
+            "province": "浙江省",
+            "city": "杭州市",
+            "district": "余杭区",
+            "address": "文一西路960-1号"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "证据支持具体模型与API进展，但未建立本版本经可比验证的行业领先地位或独立全国标杆资格；集团知名度和参数规模不能代替资格依据。",
+        "evidence_ids": [
+          "article:b7cb3a12aa2878c7"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "b2074b71db68018fc07416354e8a13cd9f8b852a200c509c78f3b4146c4785e4",
+        "input_row_sha256": "bb6d6f141d2f81922dd81ea92504ecc12a31d3fcf455f7ebdec9841de0e79cbc",
+        "reason": "已读本候选对应的完整周报正文。阿里巴巴是Qwen4-Max发布和API提供方，模型及千问办公、Qoder等应用入口不是新增企业。原生视觉、百万上下文、专业工具调用和API开放，构成面向复杂任务的具体模型产品进展；性能及单任务费用变化保留官方主张，不推导普遍客户收益。新闻发布于2026年11月22日，符合七日采集窗口；11月16日是正文记载的发布日，不能因事件较早而排除。逐项对照所供历史，既有模型开源、智能体产品、办公平台、处理器及商业化事件均未覆盖本次Qwen4-Max发布。官网证据仅支持杭州经营归属，不升级为集团注册地、主要总部、杭州预警或领导简报资格。",
+        "scope": {
+          "technology_evidence": "正文明确Qwen4-Max总参数2.4T，具备原生视觉能力和百万上下文，面向智能体、编程及专业工具调用优化，已经提供API服务；中小尺寸模型开源仍属后续计划。",
+          "value_reason": "将多模态输入、长上下文和工具调用整合为已可调用的模型服务，为杭州模型及企业软件企业比较复杂任务的能力组合、产品接入和计费方式提供具体对象，不靠集团知名度或上游分数取得资格。"
+        },
+        "stage": {
+          "status": "模型已发布并开放API，部分系列模型开源为upcoming",
+          "reason": "正文记载11月16日发布，并明确Qwen4-Max现已提供API；性能和费用改善为官方表述，中小尺寸模型仅称将陆续开源。"
+        },
+        "history": {
+          "result": "new_event",
+          "evidence_ids": [
+            "accepted_history:55d4407cf47670fe",
+            "accepted_history:39d9266c87afa2ed",
+            "accepted_history:e845bb104d6d2c78",
+            "accepted_history:ba3f39ebe5a0a0d9",
+            "accepted_history:0f12d50d3dce4aef",
+            "accepted_history:d9672401fc16d46c",
+            "accepted_history:a6e71db93d712b9c",
+            "accepted_history:b466f510da649b98",
+            "accepted_history:06dd17c0fedc1544",
+            "accepted_history:9dc4d0f268de5aeb",
+            "accepted_history:00ae684b840f9be7",
+            "accepted_history:5118d69b08ae5d0e",
+            "history_lookup:25e0864955885437"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:cf3fa2122b6a981b",
+              "comparison": "different_event",
+              "reason": "旧项为云业务与AI商业化收入披露，不是Qwen4-Max发布。"
+            },
+            {
+              "evidence_id": "prior_decision:cd40d94f23ad42f3",
+              "comparison": "different_event",
+              "reason": "旧项为财务及云业务观察，不覆盖本次模型发布。"
+            },
+            {
+              "evidence_id": "prior_decision:792b780351fa289d",
+              "comparison": "different_event",
+              "reason": "Sirchmunk为检索框架开源，与基础模型发布不同。"
+            },
+            {
+              "evidence_id": "prior_decision:482faed1822835db",
+              "comparison": "different_event",
+              "reason": "旧项为Personal Agent生态接入规划，不是Qwen4-Max发布。"
+            },
+            {
+              "evidence_id": "prior_decision:f37dd73d7d5dc7ee",
+              "comparison": "different_event",
+              "reason": "玄铁处理器IP及车规路线图属于另一技术事件。"
+            },
+            {
+              "evidence_id": "prior_decision:d671cb25fa9e0c87",
+              "comparison": "different_event",
+              "reason": "玄铁E908A发布不覆盖本次模型与API开放。"
+            },
+            {
+              "evidence_id": "prior_decision:729ed392935b2d17",
+              "comparison": "different_event",
+              "reason": "Megaspeed算力租赁客户关系是另一商业事项。"
+            },
+            {
+              "evidence_id": "prior_decision:2d2f208057b4c4e2",
+              "comparison": "different_event",
+              "reason": "快乐虾米APP上线属于AI音乐产品事件。"
+            },
+            {
+              "evidence_id": "prior_decision:08daf4273f81238a",
+              "comparison": "different_event",
+              "reason": "旧项采信快乐虾米APP，不涉及Qwen4-Max。"
+            },
+            {
+              "evidence_id": "prior_decision:94fb431406ef04f1",
+              "comparison": "different_event",
+              "reason": "快乐虾米移动端发布与本次基础模型发布不同。"
+            },
+            {
+              "evidence_id": "prior_decision:d6348d6da6b0320c",
+              "comparison": "different_event",
+              "reason": "Cronus异构推理调度是既有计算系统事件。"
+            },
+            {
+              "evidence_id": "prior_decision:79fb2e5a8ae8c890",
+              "comparison": "different_event",
+              "reason": "快乐虾米APP采信不构成本次模型重复。"
+            },
+            {
+              "evidence_id": "prior_decision:2e164940b83b5bb4",
+              "comparison": "different_event",
+              "reason": "Cronus资源调度机制与Qwen4-Max发布不同。"
+            },
+            {
+              "evidence_id": "prior_decision:2d6de03a815f189d",
+              "comparison": "different_event",
+              "reason": "快乐虾米产品事件不覆盖本条。"
+            },
+            {
+              "evidence_id": "prior_decision:ff03a14c308a8e16",
+              "comparison": "different_event",
+              "reason": "旧排除针对Cronus同来源重复，不适用于Qwen4-Max。"
+            },
+            {
+              "evidence_id": "prior_decision:89f54059caedeb20",
+              "comparison": "different_event",
+              "reason": "旧排除针对快乐虾米APP重复，不是企业整体排除。"
+            },
+            {
+              "evidence_id": "prior_decision:7c01204b96902a59",
+              "comparison": "different_event",
+              "reason": "Cronus重复裁决不覆盖本次模型发布。"
+            },
+            {
+              "evidence_id": "prior_decision:21cee864fc559f11",
+              "comparison": "different_event",
+              "reason": "快乐虾米重复裁决与本条无同事件关系。"
+            },
+            {
+              "evidence_id": "prior_decision:49d7feb7a51d9d4f",
+              "comparison": "different_event",
+              "reason": "旧排除为Cronus系统机制重复，本条是模型发布。"
+            },
+            {
+              "evidence_id": "prior_decision:ac213a54439669b1",
+              "comparison": "different_event",
+              "reason": "Cronus重复公开被排，不影响另一模型事件资格。"
+            },
+            {
+              "evidence_id": "prior_decision:6b42465a3149e843",
+              "comparison": "different_event",
+              "reason": "Accio付费企业采用披露是另一产品商业化事件。"
+            },
+            {
+              "evidence_id": "prior_decision:f5c795f9621a1ae1",
+              "comparison": "different_event",
+              "reason": "旧排除为三年AI基建投资计划无执行增量，不涉及Qwen4-Max。"
+            },
+            {
+              "evidence_id": "prior_decision:7861af29438b45ba",
+              "comparison": "different_event",
+              "reason": "2018年收购中天微属于历史芯片并购事件。"
+            },
+            {
+              "evidence_id": "prior_decision:09d6d7c8b20b058d",
+              "comparison": "different_event",
+              "reason": "玄铁处理器发布与本次基础模型发布不同。"
+            },
+            {
+              "evidence_id": "prior_decision:22ff3126d4103ad9",
+              "comparison": "different_event",
+              "reason": "千问办公及个人助理推出不等于Qwen4-Max此次模型与API发布。"
+            }
+          ],
+          "change_reason": "当前正文明确新增Qwen4-Max这一具体版本的发布、能力组合及API开放；未发现所供历史已收录同事件，不改写其他产品的旧采信或排除，也不宣称全局首次发现。",
+          "new_evidence_ids": [
+            "article:b7cb3a12aa2878c7"
+          ]
+        },
+        "evidence_ids": [
+          "article:b7cb3a12aa2878c7",
+          "identity_registry:2dcd4f408df25406",
+          "geo-14c3cd9f0fde5abc65811edd",
+          "geo-3e188b8e374f1021ad5a5923",
+          "history_lookup:25e0864955885437"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "证据支持具体模型与API进展，但未建立本版本经可比验证的行业领先地位或独立全国标杆资格；集团知名度和参数规模不能代替资格依据。",
+          "evidence_ids": [
+            "article:b7cb3a12aa2878c7"
           ]
         }
       }
@@ -1172,6 +1646,217 @@
       }
     },
     {
+      "company_raw_name": "World Labs",
+      "title": "三位00后，公司卖了300亿",
+      "company": "World Labs",
+      "score": 70,
+      "sector": "人工智能",
+      "financing": "本次为文章所述已完成收购，交易对价约82亿美元，支付方式为全股票。",
+      "source": "36 氪",
+      "location": "US / California / San Francisco",
+      "article_location": "美国 / 加利福尼亚州 / 旧金山（已审经营地）",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / California / San Francisco",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-aa2ff98b0159a45af2b42435"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "World Labs",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-aa2ff98b0159a45af2b42435",
+            "source_url": "https://jobs.ashbyhq.com/worldlabs/207875a2-d8d9-4b9c-ba9f-a19358c07575",
+            "checked_at": "2026-11-08T00:32:13.793282+00:00",
+            "subject": "World Labs",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "California",
+              "city": "San Francisco"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "California",
+          "city": "San Francisco",
+          "evidence_ids": [
+            "geo-aa2ff98b0159a45af2b42435"
+          ]
+        }
+      },
+      "company_entity_id": "dr-u-da2f0f03bc3a24f599ed",
+      "company_canonical_name": "World Labs",
+      "identity_status": "confirmed",
+      "event_type": "并购",
+      "link": "https://mp.weixin.qq.com/s/JL4gI52ECHEKojTqAYD_Pg",
+      "article_title": "三位00后，公司卖了300亿",
+      "event_desc": "文章称，AMD不久前宣布已完成对World Labs的收购，交易为约82亿美元、约合人民币547亿元的全股票交易。文章同时称，联合创始人李飞飞将加入AMD，担任执行副总裁兼首席科学家，直接向AMD董事长兼首席执行官苏姿丰汇报。",
+      "insight": "按报道描述，这项交易把AI创业团队与芯片企业的科研组织连接起来，创始人的高层任职安排是整合的重要组成部分。正文没有披露产品及技术贡献，尚不能进一步判断具体的软硬件协同路径。",
+      "event_headline": "World Labs据报已被AMD以约82亿美元全股票收购",
+      "event_signal": "major",
+      "is_national_star": false,
+      "event_time_evidence": {
+        "status": "date_unknown_recent_report",
+        "description": "事件日期未明确；报道日为 2026-11-23",
+        "event_date": null,
+        "observed_date": "2026-11-23",
+        "review_required": true
+      },
+      "published_date": "2026-11-23",
+      "publication_basis": "采集源保留的发布时间",
+      "selection_recommendation": "keep",
+      "selection_reason": "完整正文明确称AMD已完成对World Labs约82亿美元全股票收购，World Labs是被收购企业，AMD是收购方，李飞飞是联合创始人及拟加入AMD的人员，不能混并主体。已确认身份及历史材料证明World Labs从事空间智能和世界模型业务，因此本条是科技企业产业整合节点，不是单纯人事或财富报道。历史9月记录仅为签署协议、待监管批准及交割；本次明确报道完成，构成交易阶段实质增量，可按“据报道已完成”保留，而非按旧并购重复剔除。报道没有证明具体软硬件协同成果，也没有证明李飞飞已经到任。新闻2026-11-23发布，符合窗口；交割日未知，不补造。旧金山证据仅支持经营地，不推定注册地、总部或杭州预警资格。",
+      "event_headline_source": "138ba6a269d275c1dcf44bf79f48941b1ebc8f149ff2d399d9cc380af52a4c61",
+      "location_status": "discovery_confirmed",
+      "location_basis": [
+        {
+          "evidence_id": "geo-aa2ff98b0159a45af2b42435",
+          "source_url": "https://jobs.ashbyhq.com/worldlabs/207875a2-d8d9-4b9c-ba9f-a19358c07575",
+          "checked_at": "2026-11-08T00:32:13.793282+00:00",
+          "subject": "World Labs",
+          "role": "business",
+          "subject_relation": "same_subject",
+          "place": {
+            "country": "US",
+            "province": "California",
+            "city": "San Francisco"
+          }
+        }
+      ],
+      "location_next_action": null,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "已供材料支持世界模型产品观察及并购进展，但未提供可直接复用的独立标杆审核依据；旧裁决中的概括性标杆表述、上游建议和交易金额不单独证明行业领先地位。本条保留不自动授予标杆或领导简报资格。",
+        "evidence_ids": [
+          "article:d36a455b736fef77",
+          "accepted_history:aaf242ce52f7e79d",
+          "prior_decision:61a2b1f3f0b5b5e3"
+        ]
+      },
+      "quality_review": {
+        "schema_version": "dragon-overnight-review.v2",
+        "decision": "keep",
+        "reviewer": "quality_inspector Agent",
+        "candidate_id": "f3e72b698d830e851000520e8e29ba8386839d8c54f19bf939dbd070d376903b",
+        "input_row_sha256": "8640888fa0597c763de4d755b1efd034d2ed05fe853f2fc3bd7e482c397ff4cd",
+        "reason": "完整正文明确称AMD已完成对World Labs约82亿美元全股票收购，World Labs是被收购企业，AMD是收购方，李飞飞是联合创始人及拟加入AMD的人员，不能混并主体。已确认身份及历史材料证明World Labs从事空间智能和世界模型业务，因此本条是科技企业产业整合节点，不是单纯人事或财富报道。历史9月记录仅为签署协议、待监管批准及交割；本次明确报道完成，构成交易阶段实质增量，可按“据报道已完成”保留，而非按旧并购重复剔除。报道没有证明具体软硬件协同成果，也没有证明李飞飞已经到任。新闻2026-11-23发布，符合窗口；交割日未知，不补造。旧金山证据仅支持经营地，不推定注册地、总部或杭州预警资格。",
+        "scope": {
+          "technology_evidence": "已审历史记录World Labs的空间智能、世界模型及Frameboy研究预览业务；当前正文明确披露AMD收购World Labs的完成状态、约82亿美元全股票对价及创始人后续任职安排。",
+          "value_reason": "相较已收录的拟议交易，本条新增交割完成的报道，使世界模型企业与芯片企业的产业整合从协议阶段推进到完成阶段；这是独立的资本与组织整合信息，但不能据此声称技术协同、产品整合或经营收益已实现。"
+        },
+        "stage": {
+          "status": "reported_completed_acquisition",
+          "reason": "正文明确使用“AMD正式宣布已完成对World Labs的收购”；李飞飞任职仍使用“将加入”，须分别保留交易完成报道与未来任职安排。具体交割日未披露。"
+        },
+        "history": {
+          "result": "new_progress",
+          "evidence_ids": [
+            "accepted_history:0a5ea444c5789ca4",
+            "accepted_history:aaf242ce52f7e79d",
+            "prior_decision:61a2b1f3f0b5b5e3",
+            "prior_decision:95d4d09fdc5e0206",
+            "prior_decision:fa8bd99f09c503d4",
+            "prior_decision:1e073d124e52bfe3",
+            "prior_decision:d85c6be8ad69f05d",
+            "prior_decision:611e4d13d14ec4c2",
+            "prior_decision:41730bc77ff2be6f",
+            "prior_decision:dea610a08ba8981a",
+            "prior_decision:d79bc0973a254178",
+            "prior_decision:e2b5c9a0919b6518",
+            "history_lookup:25e0864955885437"
+          ],
+          "prior_decisions": [
+            {
+              "evidence_id": "prior_decision:61a2b1f3f0b5b5e3",
+              "comparison": "new_progress",
+              "reason": "旧裁决保留的是9月签约且尚待交割的收购；本次正文明确称已完成，同一交易新增阶段，不是仅换来源。"
+            },
+            {
+              "evidence_id": "prior_decision:95d4d09fdc5e0206",
+              "comparison": "new_progress",
+              "reason": "旧记录对应同一82亿美元全股票交易的协议阶段；当前新增完成状态，对价本身不是新增。"
+            },
+            {
+              "evidence_id": "prior_decision:fa8bd99f09c503d4",
+              "comparison": "different_event",
+              "reason": "旧项是Frameboy研究预览和Viewfinder封闭测试，不是收购交割；不借产品发布证明本次并购产生技术成果。"
+            },
+            {
+              "evidence_id": "prior_decision:1e073d124e52bfe3",
+              "comparison": "different_event",
+              "reason": "旧排除针对重复报道的既有AMD GPU训练和推理合作；本条是交易完成报道，不推翻旧合作重复裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:d85c6be8ad69f05d",
+              "comparison": "different_event",
+              "reason": "旧项缺少新增合作成果而被排除；当前新增的是并购阶段，不把旧合作改写成收购后的新成果。"
+            },
+            {
+              "evidence_id": "prior_decision:611e4d13d14ec4c2",
+              "comparison": "different_event",
+              "reason": "旧项为已刊背景中的既有技术合作；本次报道收购完成，事件事实不同，旧排除仍有效。"
+            },
+            {
+              "evidence_id": "prior_decision:41730bc77ff2be6f",
+              "comparison": "different_event",
+              "reason": "旧裁决排除没有新增实施或产出的合作复述；当前并购完成不是该合作的再次刊发。"
+            },
+            {
+              "evidence_id": "prior_decision:dea610a08ba8981a",
+              "comparison": "different_event",
+              "reason": "旧排除涉及已知合作而非交易完成；当前不主张新增GPU优化、产品能力或客户采用。"
+            },
+            {
+              "evidence_id": "prior_decision:d79bc0973a254178",
+              "comparison": "different_event",
+              "reason": "旧项重复合作对象和方向，没有新增工作；本条独立披露交易完成状态，无需撤销该旧裁决。"
+            },
+            {
+              "evidence_id": "prior_decision:e2b5c9a0919b6518",
+              "comparison": "different_event",
+              "reason": "旧排除是Frameboy相同能力及阶段的重复报道；本条是并购进展，与Frameboy重复项不同。"
+            }
+          ],
+          "change_reason": "逐项对照后，9月已收录并购是同一交易的协议阶段，11月已收录Frameboy是另一产品事件，旧合作及Frameboy排除项均不覆盖本次交易完成报道。当前原文明确增加“已完成”这一阶段事实，因此作为原并购实质进展保留；不以更晚发布时间或来源变化作为改判理由，也不修改其他事件的有效旧裁决。",
+          "new_evidence_ids": [
+            "article:d36a455b736fef77"
+          ]
+        },
+        "evidence_ids": [
+          "article:d36a455b736fef77",
+          "accepted_history:0a5ea444c5789ca4",
+          "accepted_history:aaf242ce52f7e79d",
+          "geo-aa2ff98b0159a45af2b42435"
+        ],
+        "benchmark_review": {
+          "status": "not_qualified",
+          "eligible": false,
+          "reason": "已供材料支持世界模型产品观察及并购进展，但未提供可直接复用的独立标杆审核依据；旧裁决中的概括性标杆表述、上游建议和交易金额不单独证明行业领先地位。本条保留不自动授予标杆或领导简报资格。",
+          "evidence_ids": [
+            "article:d36a455b736fef77",
+            "accepted_history:aaf242ce52f7e79d",
+            "prior_decision:61a2b1f3f0b5b5e3"
+          ]
+        }
+      }
+    },
+    {
       "company_raw_name": "安脉盛",
       "title": "《新华每日电讯》头版聚焦！创新滨江：智创“产业雨林”成长记",
       "company": "安脉盛",
@@ -1281,12 +1966,12 @@
       }
     },
     {
-      "company_raw_name": "无锡诚恒微电子有限公司",
-      "title": "马斯克，突发警告；黎曼猜想迎来罕见一幕：AI与人类数学家同日提出证明；张雪称会考虑做外卖小哥用的电动摩托车丨邦早报",
-      "company": "无锡诚恒微电子有限公司",
-      "score": 50,
-      "sector": "半导体／边端侧人工智能",
-      "financing": "近2亿元人民币A轮融资；中金资本、中车资本、毅达资本、锡创兴吴、奇安投资共同参与。",
+      "company_raw_name": "Everful",
+      "title": "阿里前女高管，用AI帮老外找工厂，刚融了3个亿",
+      "company": "Everful",
+      "score": 60,
+      "sector": "AI跨境采购与供应链服务",
+      "financing": "A轮4850万美元，原文折合人民币约3.2亿元；Vertex Ventures Southeast Asia & India和January Capital联合领投，Square Peg和Lightspeed继续跟投；资金用途未披露。",
       "source": "创业邦",
       "location": "地点待核",
       "article_location": "",
@@ -1299,7 +1984,7 @@
         "subject_evidence_ids": [],
         "needs_review": true,
         "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "无锡诚恒微电子有限公司",
+        "subject": "Everful",
         "subject_locality": {
           "status": "unknown",
           "classification": "unknown",
@@ -1308,686 +1993,77 @@
         },
         "basis": []
       },
-      "company_entity_id": "dr-u-f75b4cb1e3719e1282c8",
-      "company_canonical_name": "无锡诚恒微电子有限公司",
+      "company_entity_id": "dr-u-68227a66e51a46684fb4",
+      "company_canonical_name": "Everful",
       "identity_status": "unresolved",
       "event_type": "融资",
-      "link": "https://mp.weixin.qq.com/s/syKGRMe8QICjfS_uZiKl9w",
-      "article_title": "马斯克，突发警告；黎曼猜想迎来罕见一幕：AI与人类数学家同日提出证明；张雪称会考虑做外卖小哥用的电动摩托车丨邦早报",
-      "event_desc": "无锡诚恒微电子有限公司近日完成近2亿元人民币A轮融资，参与方包括中金资本、中车资本、毅达资本、锡创兴吴和奇安投资。资金将主要用于日常经营与业务拓展，支撑边端侧AI SoC芯片的规模化量产与市场交付。",
-      "insight": "资金用途直接指向边端侧AI芯片从产品供给走向规模量产与市场交付的环节。值得研究的是其芯片服务哪些终端任务，以及量产交付将扩大哪类客户的本地AI计算能力。",
-      "event_headline": "诚恒微电子完成近2亿元A轮融资，支持边端AI芯片量产交付",
+      "link": "https://mp.weixin.qq.com/s/LkUFDV_bC66xx-T-hWZKbQ",
+      "article_title": "阿里前女高管，用AI帮老外找工厂，刚融了3个亿",
+      "event_desc": "原文称，11月19日，AI跨境采购初创公司Everful宣布完成4850万美元、约合人民币3.2亿元的A轮融资，由Vertex Ventures Southeast Asia & India和January Capital联合领投，老股东Square Peg和Lightspeed继续跟投，未披露资金用途。公司于2024年创办，业务覆盖批发采购、一件代发和商品定制，品类由珠宝拓展至服饰、家居用品等。目前连接超过3万家工厂，拥有超过2000万种商品，每月向全球60多个国家的客户发货超过500万件；全球约70名全职员工中，45人从事研发。公司尝试以AI Agent承担部分供应商筛选和采购沟通工作，并通过质检、物流服务完成交付，正在构建其所称的全球贸易世界模型。创始人预计，到报道所称的今年年底，公司年化收入将达到1亿美元、约合人民币6.7亿元。",
+      "insight": "Everful值得关注的不是单独提供一个找工厂的AI工具，而是把供应商选择与质检、物流交付连在一起，使实际履约信息有机会反过来改善下一次采购判断。此次融资是这一采购服务模式的资本成长节点，但现有人员和发货数据尚不能说明其增长主要由AI效率提升驱动，工厂及第三方服务商也承担了大量工作。",
+      "event_headline": "Everful完成4850万美元A轮融资，推进AI跨境采购业务",
       "event_signal": "major",
       "is_national_star": false,
       "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-23",
-        "event_date": null,
+        "status": "recent_event",
+        "event_date": "2026-11-19",
         "observed_date": "2026-11-23",
-        "review_required": true
-      },
-      "published_date": "2026-11-23",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "已阅读所供完整正文。诚恒微电子融资条目明确无锡诚恒微电子有限公司为融资主体，披露近2亿元A轮融资完成、五家参与机构及边端侧AI SoC业务，构成有具体技术业务支撑的资本成长节点。资金支持规模化量产与交付，不代表量产交付已经实现。新闻发布于2026-11-23，符合七日窗口；事件仅称近日，精确日期未知。所供历史检索未见同事件收录或裁决，不宣称首次发现。名录身份尚未归档及城市未知不妨碍按原文保留正面日报线索；不凭公司名前缀确认无锡属地，也不赋予杭州或标杆资格。",
-      "event_headline_source": "1d5428e134e52a282baa7236a7dbc678b8b924005a5415bef70b428c7d5925fb",
-      "location_status": "unknown",
-      "location_basis": [],
-      "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本条证明融资和具体芯片业务，未建立行业领先地位、差异化竞争力或可作为全国标杆的独立依据。",
-        "evidence_ids": [
-          "article:a4f7cc87781cda47"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "quality_inspector Agent",
-        "candidate_id": "45c955e1de163b3094d052a0dadcbd3d557c26ba2f29954b3cd1cf87637a6655",
-        "input_row_sha256": "be6330c8a9c9d2bdff301392a6d8acf9a17a1ac53bcc6c642fec5590b96cdde9",
-        "reason": "已阅读所供完整正文。诚恒微电子融资条目明确无锡诚恒微电子有限公司为融资主体，披露近2亿元A轮融资完成、五家参与机构及边端侧AI SoC业务，构成有具体技术业务支撑的资本成长节点。资金支持规模化量产与交付，不代表量产交付已经实现。新闻发布于2026-11-23，符合七日窗口；事件仅称近日，精确日期未知。所供历史检索未见同事件收录或裁决，不宣称首次发现。名录身份尚未归档及城市未知不妨碍按原文保留正面日报线索；不凭公司名前缀确认无锡属地，也不赋予杭州或标杆资格。",
-        "scope": {
-          "technology_evidence": "正文明确融资将支撑边端侧AI SoC芯片的规模化量产与市场交付。",
-          "value_reason": "融资把资本成长与边端AI芯片供给直接联系起来，可独立观察企业为量产、交付及业务拓展获得资金支持的节点，而非仅凭半导体行业身份入选。"
-        },
-        "stage": {
-          "status": "融资已完成，量产交付为资金支持方向",
-          "reason": "原文使用完成近2亿元人民币A轮融资，并将规模化量产与市场交付列为融资支持方向，未披露实际产量或交付成果。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "history_lookup:4b50bf07979f8202"
-          ],
-          "prior_decisions": [],
-          "change_reason": "本候选所供已收录历史和旧裁决均为空，检索记录未提供同轮融资匹配；按当前材料作为独立事件保留，不认定全库首次收录。",
-          "new_evidence_ids": [
-            "article:a4f7cc87781cda47"
-          ]
-        },
-        "evidence_ids": [
-          "article:a4f7cc87781cda47"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "本条证明融资和具体芯片业务，未建立行业领先地位、差异化竞争力或可作为全国标杆的独立依据。",
-          "evidence_ids": [
-            "article:a4f7cc87781cda47"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "Isomorphic Labs",
-      "title": "谷歌系AI制药公司融资50亿美元，总裁Max Jaderberg最新访谈：下一批重磅药，可能先由AI在计算机里“试”出来",
-      "company": "Isomorphic Labs",
-      "score": 50,
-      "sector": "AI药物研发",
-      "financing": "本轮为50亿美元C轮融资，正文折合约人民币355亿元。Greenoaks、红杉资本共同领投，a16z等参投，Alphabet追加投资，所列现有股东跟投。融资历史：正文称约半年前完成21亿美元B轮融资，2025年3月首次对外融资6亿美元。",
-      "source": "创业邦",
-      "location": "地点待核",
-      "article_location": "",
-      "geography": {
-        "geography_status": "unknown",
-        "classification": "unknown",
-        "display_location": "地点待核",
-        "located_status": "unknown",
-        "display_basis": [],
-        "subject_evidence_ids": [],
-        "needs_review": true,
-        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
-        "subject": "Isomorphic Labs",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": []
-      },
-      "company_entity_id": "dr-u-37799d436602eaf18708",
-      "company_canonical_name": "Isomorphic Labs",
-      "identity_status": "unresolved",
-      "event_type": "研发与商业模式披露",
-      "link": "https://mp.weixin.qq.com/s/2OJStsm3_HtoR8U0mMKzWA",
-      "article_title": "谷歌系AI制药公司融资50亿美元，总裁Max Jaderberg最新访谈：下一批重磅药，可能先由AI在计算机里“试”出来",
-      "event_desc": "创业邦11月23日刊载对11月12日Max Jaderberg访谈的翻译精编。Isomorphic Labs总裁表示，药物设计引擎和AI模型由内部开发，公司不出售或授权模型、不销售调用额度，而是推进自有管线与合作研发；公司主动设计实验生成数据，并已长期使用自动化实验室。自有管线主要关注肿瘤学、免疫学和炎症领域，首项临床试验尚无明确日期。文首50亿美元C轮融资已于11月20日收录，不作为新增融资重复发布。",
-      "insight": "该公司以自研模型支撑自有药物管线和合作研发，而非销售模型使用权，并通过主动实验生成数据连接模型研发与实验验证。可比较的是技术能力如何进入药物项目及数据如何积累，不应把实验级预测、临床毒性预测目标写成已实现能力。",
-      "event_headline": "Isomorphic Labs披露以自研药物设计引擎推进自有管线与合作研发",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "interview_disclosure",
-        "event_date": "2026-11-12",
-        "observed_date": "2026-11-23",
-        "description": "正文明确11月12日参与访谈；当前文章发布时间由来源证据提供为2026年11月23日。业务模式和研发实践的实际启动日期未披露，不将访谈日期当作实施起始日。",
+        "description": "2026年11月23日发布的正文明确11月19日宣布完成融资；该日期是宣布节点，不补造资金交割日期。",
         "review_required": false
       },
       "published_date": "2026-11-23",
       "publication_basis": "采集源保留的发布时间",
       "selection_recommendation": "keep",
-      "selection_reason": "50亿美元C轮融资与11月20日已收录融资为同一事件，不能因换来源、人民币折算不同或宣布日期表述不同重复发布。当前完整访谈另提供可独立采信的经营与技术实施增量：总裁明确公司不出售或授权模型，而是以内部开发的药物设计引擎推进自有管线和合作研发，并主动设计实验生成数据、已使用自动化实验室。该增量使公司从笼统的候选药物服务介绍，具体落到技术资产控制、数据生成方式及商业化路径，值得作为既有融资事件的业务模式增量保留，标题和正文不再以融资为新增。实验级预测准确度、人体毒性预测及复杂联合疗法仍为目标或设想，不能写成已实现成果。当前新闻发布于2026年11月23日，符合七日窗口；访谈日期为11月12日，事件较早不构成排除理由，不能伪称当日新部署。旧文11月17日与本篇北京时间11月18日的融资宣布日期差异，以及人民币折算差异，保留原始记录而不自行调和。当前包已提供发布时间和历史，故不继承上游关于两者缺失的待核理由。",
-      "event_headline_source": "article:22d260d3d5a145d1",
-      "event_identity": {
-        "canonical_id": "报道称，Isomorphic Labs于北京时间11月18日宣布完成50亿美元C轮融资，约合人民币355亿元，由Greenoaks和红杉资本共同领投，a16z等新投资方参投，Alphabet追加投资，Thrive Capital、MGX、GV、CapitalG、淡马锡及英国主权AI基金等现有股东跟投。正文未披露本轮具体资金用途。公司总裁Max Jaderberg在访谈中表示，公司内部开发药物设计引擎，不出售或授权模型，也不销售模型调用额度，而是推进自有药物管线及与制药、生物科技公司的合作研发；自有管线主要关注肿瘤学、免疫学和炎症领域。公司正在完善临床开发团队，未给出首项临床试验的明确日期。"
-      },
+      "selection_reason": "完整正文明确Everful是融资及AI跨境采购业务主体，宋思思的阿里任职经历不构成两家公司之间的股权或业务归属。11月19日宣布完成4850万美元A轮融资，结合原文披露的AI采购、质检及物流交付业务，构成具有独立价值的科技创业企业资本成长节点。新闻发布于2026年11月23日，符合七日窗口，上游关于缺发布时间的待核理由已消除。所供检索未返回同事件历史或旧裁决，不宣称全局首次。注册名录未完善、城市未知不妨碍正面日报采信；地点保持待核，不授予杭州属地或预警资格。资金用途、利润及AI实际降本幅度均未披露，年底年化收入是创始人预测，不作为已实现收入。",
+      "event_headline_source": "af488e5192223a063ad91e8ee1c1a9673e0bcf2d4ffc2684c8a55836871eb829",
+      "event_date": "2026-11-19",
       "location_status": "unknown",
       "location_basis": [],
       "location_next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
       "benchmark_review": {
         "status": "not_qualified",
         "eligible": false,
-        "reason": "融资规模和具体业务模式支持产业观察，但现有证据未独立建立已验证技术领先、临床成果或行业地位；不据此授予全国标杆标签。",
+        "reason": "融资和报道所述业务覆盖可支持创业模式观察，但尚不足以确认其行业领先地位、可验证的AI效率优势或全国标杆资格；所在地亦未确认。",
         "evidence_ids": [
-          "article:22d260d3d5a145d1"
+          "article:ed7654f54bb22c54"
         ]
       },
       "quality_review": {
         "schema_version": "dragon-overnight-review.v2",
         "decision": "keep",
         "reviewer": "quality_inspector Agent",
-        "candidate_id": "0258eb39bb1d030163afe199af63a7b3a353e93abbfec384efc6ffa7bf096782",
-        "input_row_sha256": "2add7c63b8fd20ccb0e2cd57f96e471da8f4d51887ebf402940682cea26140b6",
-        "reason": "50亿美元C轮融资与11月20日已收录融资为同一事件，不能因换来源、人民币折算不同或宣布日期表述不同重复发布。当前完整访谈另提供可独立采信的经营与技术实施增量：总裁明确公司不出售或授权模型，而是以内部开发的药物设计引擎推进自有管线和合作研发，并主动设计实验生成数据、已使用自动化实验室。该增量使公司从笼统的候选药物服务介绍，具体落到技术资产控制、数据生成方式及商业化路径，值得作为既有融资事件的业务模式增量保留，标题和正文不再以融资为新增。实验级预测准确度、人体毒性预测及复杂联合疗法仍为目标或设想，不能写成已实现成果。当前新闻发布于2026年11月23日，符合七日窗口；访谈日期为11月12日，事件较早不构成排除理由，不能伪称当日新部署。旧文11月17日与本篇北京时间11月18日的融资宣布日期差异，以及人民币折算差异，保留原始记录而不自行调和。当前包已提供发布时间和历史，故不继承上游关于两者缺失的待核理由。",
+        "candidate_id": "77d68df1ca43ab230b8c8bd6f0ba69a1c1d2f085ce135ffbc92235f50954970d",
+        "input_row_sha256": "d50123da3ef7546ef1a954dacf7d84ac10ce7b986df54b3dbe4fba95e67fab24",
+        "reason": "完整正文明确Everful是融资及AI跨境采购业务主体，宋思思的阿里任职经历不构成两家公司之间的股权或业务归属。11月19日宣布完成4850万美元A轮融资，结合原文披露的AI采购、质检及物流交付业务，构成具有独立价值的科技创业企业资本成长节点。新闻发布于2026年11月23日，符合七日窗口，上游关于缺发布时间的待核理由已消除。所供检索未返回同事件历史或旧裁决，不宣称全局首次。注册名录未完善、城市未知不妨碍正面日报采信；地点保持待核，不授予杭州属地或预警资格。资金用途、利润及AI实际降本幅度均未披露，年底年化收入是创始人预测，不作为已实现收入。",
         "scope": {
-          "technology_evidence": "总裁说明药物设计引擎和AI模型由内部开发，公司主动设计实验生成所需数据，已长期使用自动化实验室；模型用于自有药物管线及合作研发，不出售模型、授权或调用额度。",
-          "value_reason": "新增信息明确其商业化载体是药物研发项目而非模型销售，数据积累也不只依赖外部历史数据库。这为杭州AI制药企业比较模型服务与管线研发两条路径、判断数据和实验能力应如何配置，提供了具体可复核的企业案例；不代表临床效果已验证。"
+          "technology_evidence": "Everful尝试使用AI Agent承担部分供应商筛选及采购沟通工作，并通过质检、物流完成实体商品交付；正在构建其所称的全球贸易世界模型。",
+          "value_reason": "融资为将采购决策与实体履约结合的创业模式提供了明确资本成长节点，值得比较交易履约数据如何服务供应商判断，而非只关注找工厂工具或发货规模。"
         },
         "stage": {
-          "status": "访谈披露的现行业务模式与研发实践；融资已收录",
-          "reason": "11月12日访谈以公司负责人自述说明内部开发、数据生成、自动化实验室使用及两种业务模式；首项临床试验没有明确日期，实验级预测能力仍是研发目标。"
-        },
-        "history": {
-          "result": "new_progress",
-          "evidence_ids": [
-            "accepted_history:f397f1b92118cd39",
-            "accepted_history:086a2d727f0dd325",
-            "accepted_history:9c526176302cdd83",
-            "prior_decision:4b925499ac284f1f",
-            "prior_decision:15239ed261b799e3",
-            "prior_decision:ae8093540a4f1da4",
-            "prior_decision:a7ba085921f81aeb",
-            "prior_decision:0bec492fc7a4a5f0",
-            "prior_decision:df1adb7dbb47c763",
-            "prior_decision:6461b39be7fcf270",
-            "prior_decision:8b898a425770fb4f",
-            "prior_decision:2aec2f51ae33a19e",
-            "prior_decision:183cee2de72ce6d7",
-            "prior_decision:45d738a308186648",
-            "prior_decision:c8164eaf9986bfe8",
-            "history_lookup:4b50bf07979f8202"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:a7ba085921f81aeb",
-              "comparison": "different_event",
-              "reason": "旧裁决针对2025年诺华追加最多三个项目是否足以独立成条；本次访谈没有补充该扩围的具体任务或安排，不翻转旧排除。"
-            },
-            {
-              "evidence_id": "prior_decision:0bec492fc7a4a5f0",
-              "comparison": "different_event",
-              "reason": "旧裁决针对2026年强生加入合作名单；本次未提供该合作的独立执行事实，不以公司总体业务替其补证。"
-            },
-            {
-              "evidence_id": "prior_decision:df1adb7dbb47c763",
-              "comparison": "different_event",
-              "reason": "旧裁决针对默沙东肿瘤药物研发合作；本次公司总体管线和业务模式不等于该合同的新分工或执行进展。"
-            },
-            {
-              "evidence_id": "prior_decision:6461b39be7fcf270",
-              "comparison": "different_event",
-              "reason": "同为诺华2025年扩围的旧排除记录，当前未新增该项合作的具体实施证据，维持其原有事实边界。"
-            },
-            {
-              "evidence_id": "prior_decision:8b898a425770fb4f",
-              "comparison": "different_event",
-              "reason": "同为强生合作的旧排除记录，本次不重发该合作，也未补足其独立信息量。"
-            },
-            {
-              "evidence_id": "prior_decision:2aec2f51ae33a19e",
-              "comparison": "different_event",
-              "reason": "同为默沙东合作的旧排除记录，当前访谈未给该合作的具体研发对象或安排，不构成改判依据。"
-            },
-            {
-              "evidence_id": "prior_decision:183cee2de72ce6d7",
-              "comparison": "different_event",
-              "reason": "该记录排除诺华追加项目独立成条，本次保留的是访谈新增的公司级技术实施和商业模式，不恢复旧条目。"
-            },
-            {
-              "evidence_id": "prior_decision:45d738a308186648",
-              "comparison": "different_event",
-              "reason": "该记录排除仅有客户名单信息的强生合作，本次没有出现足以改变该项裁决的合作证据。"
-            },
-            {
-              "evidence_id": "prior_decision:c8164eaf9986bfe8",
-              "comparison": "different_event",
-              "reason": "该记录排除默沙东合作独立成条，本次不将泛化的合作研发模式归入该合同，旧排除不变。"
-            }
-          ],
-          "change_reason": "已收录的50亿美元C轮融资仅作背景；礼来和诺华初始合同属于另外事件。当前访谈增加了不出售或授权模型、自有管线与合作研发双路径、主动实验生成数据及自动化实验室使用等原历史摘要未载的具体事实。保留的是同主体报道的实质信息增量，不是新一轮融资、当日新实施或旧排除合作的复活。",
-          "new_evidence_ids": [
-            "article:22d260d3d5a145d1"
-          ]
-        },
-        "evidence_ids": [
-          "article:22d260d3d5a145d1",
-          "accepted_history:f397f1b92118cd39",
-          "accepted_history:086a2d727f0dd325",
-          "accepted_history:9c526176302cdd83",
-          "prior_decision:4b925499ac284f1f",
-          "history_lookup:4b50bf07979f8202"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "融资规模和具体业务模式支持产业观察，但现有证据未独立建立已验证技术领先、临床成果或行业地位；不据此授予全国标杆标签。",
-          "evidence_ids": [
-            "article:22d260d3d5a145d1"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "智谱",
-      "title": "史无前例，奔驰要100%中国化了？",
-      "company": "智谱",
-      "score": 50,
-      "sector": "人工智能、智能座舱",
-      "financing": "",
-      "source": "创业邦",
-      "location": "北京市海淀区中关村东路 1 号院 9 号楼 10 层",
-      "article_location": "",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "domestic_non_hangzhou",
-        "display_location": "北京市海淀区中关村东路 1 号院 9 号楼 10 层",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-f6fc9207a9b1ae073dedaca0"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "北京智谱华章科技股份有限公司",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-f6fc9207a9b1ae073dedaca0",
-            "source_url": "https://www.zhipuai.cn/",
-            "checked_at": "2026-10-20T01:40:06.332803+00:00",
-            "subject": "北京智谱华章科技股份有限公司",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "CN",
-              "province": "北京市",
-              "city": "北京市",
-              "address": "北京市海淀区中关村东路 1 号院 9 号楼 10 层"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "domestic_non_hangzhou",
-          "country": "CN",
-          "province": "北京市",
-          "city": "北京市",
-          "evidence_ids": [
-            "geo-f6fc9207a9b1ae073dedaca0"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-a797dd8a29ef0fd70883",
-      "company_canonical_name": "北京智谱华章科技股份有限公司",
-      "identity_status": "confirmed",
-      "event_type": "战略合作",
-      "link": "https://mp.weixin.qq.com/s/0g63MyE40b-Xx8kO6zughA",
-      "article_title": "史无前例，奔驰要100%中国化了？",
-      "event_desc": "正文称，奔驰与清华、智谱联合开发端侧多模态大模型，并装入新一代S级；未进一步披露各方的具体研发分工。",
-      "insight": "这项合作将能够处理多种信息的模型部署到车端，使模型能力成为车型研发的一部分。正文能够确认智谱参与联合开发，但不能据此把整套模型或座舱能力全部归于智谱。",
-      "event_headline": "智谱参与联合开发的端侧多模态模型装入奔驰S级",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-22",
-        "event_date": null,
-        "observed_date": "2026-11-22",
-        "review_required": true
-      },
-      "published_date": "2026-11-22",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "已读所供完整正文，来源URL为https://mp.weixin.qq.com/s/0g63MyE40b-Xx8kO6zughA。原文明示奔驰与清华、智谱联合开发端侧多模态大模型并装入新一代S级，智谱具有明确的联合研发角色，不是背景点名；不能将模型全部归于智谱，也不能把纯电CLA采用豆包的事实归给智谱。具体车端模型及车型搭载构成独立客户应用线索，达到正面日报尺度。采集证据所载2026年11月22日发布时间符合七日窗口，具体研发和搭载日期未知，不写为近日新完成。所供历史收录及排除项均未覆盖该奔驰合作。北京经营地址可复用，但不能升级为注册地、主要总部或杭州预警资格。",
-      "event_headline_source": "af558232f06757e9206d5f10690c5f1b4caa83817b6235004c91cf47c4babdbf",
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-f6fc9207a9b1ae073dedaca0",
-          "source_url": "https://www.zhipuai.cn/",
-          "checked_at": "2026-10-20T01:40:06.332803+00:00",
-          "subject": "北京智谱华章科技股份有限公司",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "CN",
-            "province": "北京市",
-            "city": "北京市",
-            "address": "北京市海淀区中关村东路 1 号院 9 号楼 10 层"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "本条证明智谱参与具体车型的端侧模型研发与搭载，但没有建立其在车端模型领域的行业领先地位或可复用的已审全国标杆资格；事件可保留而不新增标杆标签。",
-        "evidence_ids": [
-          "article:d6f221b1f6926734"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "quality_inspector Agent",
-        "candidate_id": "257893df3d656aaf1a139a5921ca888176f5631ad2f73073b936b77ef32fa59d",
-        "input_row_sha256": "9d3a468a409dd21df41f72d47cf48bdedce3fba8ae6adf957ae66e25268c1540",
-        "reason": "已读所供完整正文，来源URL为https://mp.weixin.qq.com/s/0g63MyE40b-Xx8kO6zughA。原文明示奔驰与清华、智谱联合开发端侧多模态大模型并装入新一代S级，智谱具有明确的联合研发角色，不是背景点名；不能将模型全部归于智谱，也不能把纯电CLA采用豆包的事实归给智谱。具体车端模型及车型搭载构成独立客户应用线索，达到正面日报尺度。采集证据所载2026年11月22日发布时间符合七日窗口，具体研发和搭载日期未知，不写为近日新完成。所供历史收录及排除项均未覆盖该奔驰合作。北京经营地址可复用，但不能升级为注册地、主要总部或杭州预警资格。",
-        "scope": {
-          "technology_evidence": "奔驰与清华、智谱联合开发端侧多模态大模型，并将其装入新一代S级；正文未披露各方研发分工、具体功能和部署规模。",
-          "value_reason": "从通用模型业务延伸到明确车型的端侧应用，提供模型企业进入整车研发和产品集成环节的具体案例，可供杭州模型企业研究车企合作路径；不是仅有合作对象名称。"
-        },
-        "stage": {
-          "status": "reported_joint_development_and_vehicle_integration",
-          "reason": "正文使用“联合做了”“装进了”的完成式表述，支持按媒体报道保留已联合开发并搭载的事实，不支持扩写为全系量产交付或新增订单。新闻发布于2026年11月22日，事件精确日期及首次收录时间未知。"
+          "status": "financing_completed",
+          "reason": "原文明确11月19日宣布完成A轮融资；AI采购系统仍在构建和逐步应用中，不能认定全部采购流程已自动化或效率优势已经验证。"
         },
         "history": {
           "result": "new_event",
           "evidence_ids": [
-            "history_lookup:4b50bf07979f8202",
-            "accepted_history:afc12e5761998c5d",
-            "accepted_history:1911e716185df238",
-            "accepted_history:ef8d58ba699a27f1",
-            "prior_decision:cd39587160dee6c4",
-            "prior_decision:13a34662104364e1"
+            "history_lookup:25e0864955885437"
           ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:cd39587160dee6c4",
-              "comparison": "different_event",
-              "reason": "旧项为智谱与并行科技补充外部算力，因供给安排信息过薄被排；本项明确端侧模型联合研发及奔驰S级搭载。"
-            },
-            {
-              "evidence_id": "prior_decision:1bfa935aa8aaa1fb",
-              "comparison": "different_event",
-              "reason": "旧裁决针对并行科技算力合作，并非奔驰车型模型应用。"
-            },
-            {
-              "evidence_id": "prior_decision:530a723114ee0f1b",
-              "comparison": "different_event",
-              "reason": "旧项仅有外部算力合作背景，本项具有独立的联合研发对象和搭载车型。"
-            },
-            {
-              "evidence_id": "prior_decision:757051e9cd7458c6",
-              "comparison": "different_event",
-              "reason": "旧项为算力来源举例，不涉及奔驰S级端侧多模态模型。"
-            },
-            {
-              "evidence_id": "prior_decision:3616f8f9566212bc",
-              "comparison": "different_event",
-              "reason": "并行科技供给关系与本次奔驰车型技术集成属于不同事项。"
-            },
-            {
-              "evidence_id": "prior_decision:c521febc9cf8a840",
-              "comparison": "different_event",
-              "reason": "旧排除针对未展开服务安排的算力合作，不适用于已指明模型形态及车型的本项。"
-            },
-            {
-              "evidence_id": "prior_decision:4ffef0171ba05e7e",
-              "comparison": "different_event",
-              "reason": "旧项为外部算力合作路径，本项为车端模型研发与搭载，不能按同公司连带排除。"
-            },
-            {
-              "evidence_id": "prior_decision:13a34662104364e1",
-              "comparison": "different_event",
-              "reason": "旧项为股价、目标价及机构盈亏预测，缺少已发生的业务变化；本项直接披露技术产品客户应用。"
-            },
-            {
-              "evidence_id": "prior_decision:33f5f5afe4336f34",
-              "comparison": "different_event",
-              "reason": "旧项为并行科技合作背景，未覆盖奔驰联合开发和S级搭载。"
-            },
-            {
-              "evidence_id": "prior_decision:51fc8282ce60df72",
-              "comparison": "different_event",
-              "reason": "旧算力合作与本次车端模型应用的合作方、任务和产品均不同。"
-            },
-            {
-              "evidence_id": "prior_decision:96b7d4329d0dece2",
-              "comparison": "different_event",
-              "reason": "旧项因算力合作内容过薄被排，本项有明确联合研发及车型应用事实，不是旧项换来源重报。"
-            }
-          ],
-          "change_reason": "已供历史中的API与国产算力、GLM模型发布、法律模型、安全研究、基金及收入结构均为其他事件；未见奔驰S级端侧多模态模型合作的同事件收录或排除。本次是不同事件的独立采信，不撤销旧算力合作或股价事件裁决，不宣称全局首次发现。",
+          "prior_decisions": [],
+          "change_reason": "本候选未提供已收录事项或旧裁决，检索材料未显示同一融资事件；当前完整正文和原始发布时间补齐了上游提出的业务及发布窗口问题，但不证明全局首次发现。",
           "new_evidence_ids": [
-            "article:d6f221b1f6926734"
+            "article:ed7654f54bb22c54"
           ]
         },
         "evidence_ids": [
-          "article:d6f221b1f6926734",
-          "identity_registry:2dcd4f408df25406",
-          "geo-f6fc9207a9b1ae073dedaca0",
-          "history_lookup:4b50bf07979f8202"
+          "article:ed7654f54bb22c54",
+          "history_lookup:25e0864955885437"
         ],
         "benchmark_review": {
           "status": "not_qualified",
           "eligible": false,
-          "reason": "本条证明智谱参与具体车型的端侧模型研发与搭载，但没有建立其在车端模型领域的行业领先地位或可复用的已审全国标杆资格；事件可保留而不新增标杆标签。",
+          "reason": "融资和报道所述业务覆盖可支持创业模式观察，但尚不足以确认其行业领先地位、可验证的AI效率优势或全国标杆资格；所在地亦未确认。",
           "evidence_ids": [
-            "article:d6f221b1f6926734"
-          ]
-        }
-      }
-    },
-    {
-      "company_raw_name": "恩智浦（NXP）",
-      "identity_mentions": [
-        {
-          "name": "NXP",
-          "relation": "same_entity",
-          "evidence": "恩智浦（NXP）也宣布，其 S32K5 系列汽车微控制器采用了基于 16nm FinFET 工艺的 MRAM。"
-        },
-        {
-          "name": "S32K5",
-          "relation": "product",
-          "evidence": "恩智浦（NXP）也宣布，其 S32K5 系列汽车微控制器采用了基于 16nm FinFET 工艺的 MRAM。"
-        }
-      ],
-      "title": "MRAM，接班eFlash？",
-      "company": "恩智浦",
-      "score": 50,
-      "sector": "半导体／汽车微控制器／嵌入式非易失性存储",
-      "financing": "",
-      "source": "半导体行业观察",
-      "location": "NL / 60 High Tech Campus, Eindhoven, 5656 AG, Netherlands",
-      "article_location": "",
-      "geography": {
-        "geography_status": "confirmed",
-        "classification": "foreign",
-        "display_location": "NL / 60 High Tech Campus, Eindhoven, 5656 AG, Netherlands",
-        "located_status": "discovery_confirmed",
-        "display_basis": [
-          "geo-5da7fd2038e500dfb5b24bed"
-        ],
-        "subject_evidence_ids": [],
-        "needs_review": false,
-        "next_action": null,
-        "subject": "恩智浦",
-        "subject_locality": {
-          "status": "unknown",
-          "classification": "unknown",
-          "basis_roles": [],
-          "evidence_ids": []
-        },
-        "basis": [
-          {
-            "evidence_id": "geo-5da7fd2038e500dfb5b24bed",
-            "source_url": "https://cn.investing.com/equities/nxp-semiconductors-company-profile",
-            "checked_at": "2026-11-12T18:11:28.305197+00:00",
-            "subject": "恩智浦",
-            "role": "business",
-            "subject_relation": "same_subject",
-            "place": {
-              "country": "NL",
-              "city": "Eindhoven",
-              "address": "60 High Tech Campus, Eindhoven, 5656 AG, Netherlands"
-            }
-          }
-        ],
-        "discovery_locality": {
-          "status": "confirmed",
-          "classification": "foreign",
-          "country": "NL",
-          "city": "Eindhoven",
-          "evidence_ids": [
-            "geo-5da7fd2038e500dfb5b24bed"
-          ]
-        }
-      },
-      "company_entity_id": "dr-u-54e63932c880727c8d33",
-      "company_canonical_name": "恩智浦",
-      "identity_status": "unresolved",
-      "event_type": "产品技术应用",
-      "link": "https://mp.weixin.qq.com/s/mbOfmpH0YMWeBecdvuy9lA",
-      "article_title": "MRAM，接班eFlash？",
-      "event_desc": "原文称，恩智浦宣布其S32K5系列汽车微控制器采用基于16nm FinFET工艺的MRAM。文中另引述恩智浦称，其16nm MRAM可在约3秒内更新20MB代码，闪存完成同样工作约需1分钟；未给出这一比较的具体测试配置，也未明确该测试对应的S32K5型号。",
-      "insight": "S32K5将MRAM用于16nm汽车微控制器，显示其价值不仅是存储耐用性，也包括支持更先进的逻辑工艺。MRAM无需先擦除再写入，可缩短代码更新过程，但文中速度数据不足以用于不同厂商或不同型号的横向性能排名。",
-      "event_headline": "恩智浦S32K5汽车微控制器据报道采用16nm MRAM",
-      "event_signal": "material",
-      "is_national_star": false,
-      "event_time_evidence": {
-        "status": "date_unknown_recent_report",
-        "description": "事件日期未明确；报道日为 2026-11-22",
-        "event_date": null,
-        "observed_date": "2026-11-22",
-        "review_required": true
-      },
-      "published_date": "2026-11-22",
-      "publication_basis": "采集源保留的发布时间",
-      "selection_recommendation": "keep",
-      "selection_reason": "完整正文明确恩智浦为S32K5汽车微控制器产品方，并称该系列采用16nm FinFET MRAM；不是仅被提名。全文解释无需先擦除的写入方式，并引述恩智浦的代码更新比较，形成产品配置与固件更新任务之间的具体联系，足以作为独立技术应用观察。3秒更新20MB的数据未明确对应S32K5具体型号和测试配置，因此只按恩智浦16nm MRAM的引述保留，不宣称该系列实测指标或跨厂商优势。新闻2026-11-22发布满足窗口，宣布及供货时间未知，不写成当日新品发布。历史供货承诺、经营披露、制造布局和成本传导均为不同事件。名录未完成不影响正文明确的业务归属；荷兰地址仅按经营联系地址复用，不升级总部或杭州预警资格。",
-      "event_headline_source": "7943e028d72449c103c5a726bca67002c2072dfae063f13d073c991e115eda19",
-      "location_status": "discovery_confirmed",
-      "location_basis": [
-        {
-          "evidence_id": "geo-5da7fd2038e500dfb5b24bed",
-          "source_url": "https://cn.investing.com/equities/nxp-semiconductors-company-profile",
-          "checked_at": "2026-11-12T18:11:28.305197+00:00",
-          "subject": "恩智浦",
-          "role": "business",
-          "subject_relation": "same_subject",
-          "place": {
-            "country": "NL",
-            "city": "Eindhoven",
-            "address": "60 High Tech Campus, Eindhoven, 5656 AG, Netherlands"
-          }
-        }
-      ],
-      "location_next_action": null,
-      "benchmark_review": {
-        "status": "not_qualified",
-        "eligible": false,
-        "reason": "当前材料证明具体产品采用及更新任务联系，尚不足以建立独立全国标杆资格。",
-        "evidence_ids": [
-          "article:c4e1af9a6a99fc82"
-        ]
-      },
-      "quality_review": {
-        "schema_version": "dragon-overnight-review.v2",
-        "decision": "keep",
-        "reviewer": "quality_inspector Agent",
-        "candidate_id": "377e0138b8ab84369be7c88c03f384e1b877c7a571b152855c5a965ba9ffbc52",
-        "input_row_sha256": "022e881245641dc9bc697ef10eed14855bd5f315eab1b38e99936c34a9370229",
-        "reason": "完整正文明确恩智浦为S32K5汽车微控制器产品方，并称该系列采用16nm FinFET MRAM；不是仅被提名。全文解释无需先擦除的写入方式，并引述恩智浦的代码更新比较，形成产品配置与固件更新任务之间的具体联系，足以作为独立技术应用观察。3秒更新20MB的数据未明确对应S32K5具体型号和测试配置，因此只按恩智浦16nm MRAM的引述保留，不宣称该系列实测指标或跨厂商优势。新闻2026-11-22发布满足窗口，宣布及供货时间未知，不写成当日新品发布。历史供货承诺、经营披露、制造布局和成本传导均为不同事件。名录未完成不影响正文明确的业务归属；荷兰地址仅按经营联系地址复用，不升级总部或杭州预警资格。",
-        "scope": {
-          "technology_evidence": "正文明确S32K5汽车MCU采用基于16nm FinFET的MRAM，并介绍MRAM免擦除写入及恩智浦对代码更新耗时的比较。",
-          "value_reason": "提供先进工艺汽车MCU采用非易失存储的具体产品实例，并联系固件更新这一明确任务，可用于汽车控制芯片存储路线和更新流程的比较，不靠汽车赛道标签或未证明的性能优势入选。"
-        },
-        "stage": {
-          "status": "reported_adoption_announcement_and_company_claim",
-          "reason": "已报道宣布采用MRAM，但独立宣布日期、量产与交付状态未知；代码更新耗时为公司引述，未提供具体测试配置或对应型号。"
-        },
-        "history": {
-          "result": "new_event",
-          "evidence_ids": [
-            "accepted_history:87302f64dd50b1a9",
-            "accepted_history:2cfc2f8489e63669",
-            "accepted_history:e981204796f5d223",
-            "accepted_history:beade75140c763ed",
-            "history_lookup:4b50bf07979f8202"
-          ],
-          "prior_decisions": [
-            {
-              "evidence_id": "prior_decision:df202ad807ab0e82",
-              "comparison": "different_event",
-              "reason": "旧排除针对季度业务表现重复，与S32K5存储配置不同。"
-            },
-            {
-              "evidence_id": "prior_decision:ae9bf88baad30aa2",
-              "comparison": "different_event",
-              "reason": "旧排除针对新加坡晶圆厂及马来西亚封测布局重复，不涉及本产品。"
-            },
-            {
-              "evidence_id": "prior_decision:e3b0a68dc7071c82",
-              "comparison": "different_event",
-              "reason": "旧经营披露去重与汽车MCU采用MRAM不是同一事项。"
-            },
-            {
-              "evidence_id": "prior_decision:ba461078c02957ab",
-              "comparison": "different_event",
-              "reason": "旧制造项目重复不构成本条产品事实的重复。"
-            },
-            {
-              "evidence_id": "prior_decision:9f60a82f3f285cca",
-              "comparison": "different_event",
-              "reason": "旧排除针对收入、库存和价格判断重复，不涉及S32K5。"
-            },
-            {
-              "evidence_id": "prior_decision:2246ba047590b47d",
-              "comparison": "different_event",
-              "reason": "旧前后道制造项目与当前产品存储配置不同。"
-            },
-            {
-              "evidence_id": "prior_decision:37bfa5012b38d77e",
-              "comparison": "different_event",
-              "reason": "旧季度业务观察与本次汽车MCU技术实例不同。"
-            },
-            {
-              "evidence_id": "prior_decision:3517339d2e204df0",
-              "comparison": "different_event",
-              "reason": "旧排除针对已收录的供应能力建设布局。"
-            },
-            {
-              "evidence_id": "prior_decision:a8f2c7dc9ac3261a",
-              "comparison": "different_event",
-              "reason": "旧经营数据重复不延伸为产品技术事件排除。"
-            },
-            {
-              "evidence_id": "prior_decision:d588ffae4f582f76",
-              "comparison": "different_event",
-              "reason": "旧制造设施布局与S32K5采用MRAM不同，维持原去重结论。"
-            },
-            {
-              "evidence_id": "prior_decision:52f9ae1f82203436",
-              "comparison": "different_event",
-              "reason": "旧待核针对交期与封测约束的杭州预警资格，不能用于阻断本条正面产品观察。"
-            },
-            {
-              "evidence_id": "prior_decision:ae8468f3d3f1a322",
-              "comparison": "different_event",
-              "reason": "旧供货约束仍有主体注册地或总部资格缺口，本条不据经营地址解决该旧缺口。"
-            },
-            {
-              "evidence_id": "prior_decision:23713224618e1ee5",
-              "comparison": "different_event",
-              "reason": "旧负面供货事件与本次MRAM配置不同，不改列或借用旧负面事实。"
-            },
-            {
-              "evidence_id": "prior_decision:b6576a17195194e1",
-              "comparison": "different_event",
-              "reason": "旧交期预警待核与当前产品观察不同，保持各自资格边界。"
-            },
-            {
-              "evidence_id": "prior_decision:65475877d56e0829",
-              "comparison": "different_event",
-              "reason": "旧供货约束待核不因本条keep获得杭州预警资格。"
-            }
-          ],
-          "change_reason": "已供历史分别是S12ZVMB长期供货、分终端经营表现、制造项目、交期约束及2027年成本传导，未见S32K5采用16nm MRAM的同事件记录。当前检索无读取错误，仅认定本包未见重复，不宣称首次发现或近期首次发布。",
-          "new_evidence_ids": [
-            "article:c4e1af9a6a99fc82"
-          ]
-        },
-        "evidence_ids": [
-          "article:c4e1af9a6a99fc82",
-          "history_lookup:4b50bf07979f8202",
-          "geo-5da7fd2038e500dfb5b24bed"
-        ],
-        "benchmark_review": {
-          "status": "not_qualified",
-          "eligible": false,
-          "reason": "当前材料证明具体产品采用及更新任务联系，尚不足以建立独立全国标杆资格。",
-          "evidence_ids": [
-            "article:c4e1af9a6a99fc82"
+            "article:ed7654f54bb22c54"
           ]
         }
       }
@@ -2033,13 +2109,49 @@
     "AI陪伴与互动内容": 1,
     "AI陪伴与智能体内容社区": 1,
     "乳品深加工与功能蛋白原料": 1,
-    "AI制药": 2
+    "AI制药": 2,
+    "人工智能云服务": 1,
+    "精密制造／AI服务器结构件": 1,
+    "通讯与数据中心硬件": 1,
+    "机器视觉／智能制造": 1,
+    "企业级人工智能": 4,
+    "人工智能": 2,
+    "端侧人工智能／大模型与推理基础软件": 1,
+    "端侧人工智能／手机端大模型": 1,
+    "医疗健康人工智能": 1,
+    "商业航天／光伏制造": 1,
+    "太空光伏": 1,
+    "钙钛矿光伏／太空光伏": 1,
+    "太空光伏／卫星能源系统": 1,
+    "商业航天／运载火箭制造": 1,
+    "AI跨境采购与供应链服务": 1,
+    "人工智能大模型": 1,
+    "人工智能大模型与智能体": 1,
+    "AI基础设施、存储与LED": 1,
+    "电子制造设备、表面贴装与先进封装": 1,
+    "半导体存储": 1,
+    "传感器、数字光子与半导体制造": 1,
+    "物联网通信、数据中心连接": 1,
+    "光学产品、光学制造": 1,
+    "半导体封装测试": 1,
+    "功率半导体、晶圆制造": 1,
+    "脑机接口、具身智能": 2,
+    "具身智能数据采集、肌电交互": 1,
+    "细胞治疗临床应用与国际医疗服务": 1,
+    "半导体／新型存储／AI计算存储": 1,
+    "多模态基础模型": 1,
+    "多模态基础模型与智能体": 1,
+    "生命科学智能自动化": 1
   },
   "daily_details": {
     "2026-11-23": {
       "count": 48,
       "negatives": 0
+    },
+    "2026-11-24": {
+      "count": 37,
+      "negatives": 0
     }
   },
-  "created": "2026-11-23 12:14:02"
+  "created": "2026-11-24 02:57:33"
 }
