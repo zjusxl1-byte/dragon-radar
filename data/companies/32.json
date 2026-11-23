@@ -1109,6 +1109,83 @@
       "event_headline": "SpaceX据报道拟投740亿美元新建两座超级计算园区",
       "event_signal": "major",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "涌金楼报道，马斯克近期向一家未具名德国设备商下单，采购金额超过6000万欧元的新型高效太阳能电池生产线；文章后文明确将其称为SpaceX订单。采购对象是生产线而非现成组件，未披露设备交付、投产或组件通过太空适用性验证的结果。",
+      "article_title": "一度电在地面卖三毛，在太空值多少？",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/Mc0s8iJHIrwopggT-TfQ1g",
+      "sector": "商业航天／光伏制造",
+      "location": "US / Texas / Starbase",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "foreign",
+        "display_location": "US / Texas / Starbase",
+        "located_status": "subject_confirmed",
+        "display_basis": [
+          "geo-697384d43ce6757b0ec982ab"
+        ],
+        "subject_evidence_ids": [
+          "geo-697384d43ce6757b0ec982ab"
+        ],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "SpaceX",
+        "subject_locality": {
+          "status": "confirmed",
+          "classification": "foreign",
+          "country": "US",
+          "province": "Texas",
+          "city": "Starbase",
+          "basis_roles": [
+            "hq"
+          ],
+          "evidence_ids": [
+            "geo-697384d43ce6757b0ec982ab"
+          ]
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-697384d43ce6757b0ec982ab",
+            "source_url": "https://gov.texas.gov/news/post/governor-abbott-announces-spacex-expansion-in-grimes-county",
+            "checked_at": "2026-10-20T01:38:05.868493+00:00",
+            "subject": "SpaceX",
+            "role": "hq",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "US",
+              "province": "Texas",
+              "city": "Starbase"
+            }
+          }
+        ]
+      },
+      "article_location": "美国得克萨斯州Starbase（主要总部，复用输入已审地点证据）",
+      "source": "涌金楼",
+      "kind": "event",
+      "canonical_name": "SpaceX",
+      "company_entity_id": "dr-u-e78bdebae031095bebcf",
+      "company_raw_name": "SpaceX",
+      "identity_status": "confirmed",
+      "score": 45,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条证明的是媒体所报设备采购线索，未建立SpaceX在光伏制造或太空光伏验证方面的全国标杆资格；既有航天及算力历史不能自动替代独立标杆审查。",
+        "evidence_ids": [
+          "article:5fc6390721d90efe"
+        ]
+      },
+      "published_date": "2026-11-23",
+      "event_identity": {
+        "canonical_id": "文章称，马斯克近期向一家未具名德国设备商采购新型高效太阳能电池生产线，订单金额超过6000万欧元，开篇所述生产线年制造能力为100吉瓦（1亿千瓦）；后文将该采购称为SpaceX的订单。采购对象是生产线，相关电池用于太空场景的适用性尚待首批组件下线后验证。"
+      },
+      "insight": "这笔媒体所报订单提供了需求方采购光伏制造设备的具体线索，但不证明SpaceX已建成或运营相关产线。其对太空光伏的意义仍取决于实际产品路线及太空环境验证，不能直接视为成熟组件订单或规模化太空供电能力。",
+      "financing": "",
+      "event_date": "",
+      "discovery_status": "update"
     }
   ],
   "灵心巧手": [
@@ -3057,6 +3134,129 @@
       "financing": "",
       "event_date": "",
       "event_headline": "阳光股份拟投不超过9.8亿元建设兴宁智算中心",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "无界方舟": [
+    {
+      "date": "2026-11-24",
+      "title": "据报道，无界方舟近日发布1450亿总参数端侧模型Edge0-145B，在Hugging Face开放模型权重，在GitHub开源配套推理引擎，并提供一键部署工具和硬件适配指南。发布首日支持macOS、Windows、Linux，覆盖苹果M系列及NVIDIA RTX Spark、RTX 4090/5090等平台。官方给出的最低运行配置为12GB显存加20GB系统内存，或48GB统一内存的Mac；介绍材料称预填充速度1100+ token/s、解码速度80+ token/s、典型功耗约80W，支持128K–256K上下文。官网速度表中，RTX 5090 D 24GB运行NVFP4版本的智能体解码速度为98.3 token/s、16K预填充速度为3165.7 token/s；Q3_K版本对应为121.2 token/s和3554.9 token/s。模型采用潜空间稀疏MoE架构、原生4 bit训练及显存—内存—硬盘三级权重调度，并结合投机解码和双卡协同。文章测试团队称在所述笔记本上完成了断网3D场景、游戏场景及发动机拆解动效制作。官方公布的Terminal-Bench 2.1和DeepSWE 1.1成绩分别为86.5和64.6。报道还称模型开源上线3天进入Hugging Face Text Generation榜首。",
+      "article_title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/9siMEVk-4cd2mCFnT1YtBQ",
+      "sector": "端侧人工智能／大模型与推理基础软件",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "无界方舟",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "无界方舟",
+      "company_entity_id": "dr-u-6b44106729a390c754ca",
+      "company_raw_name": "无界方舟AutoArk",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "无界方舟AutoArk",
+          "relation": "same_entity",
+          "evidence": "国产大模型Edge0，来自于创立仅两年半的“无界方舟AutoArk”。"
+        },
+        {
+          "name": "Edge0-145B",
+          "relation": "product",
+          "evidence": "无界方舟近日发布了端侧大模型Edge0-145B，总参数量达到1450亿"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本包足以支持具名端侧产品、工具开放和应用测试观察，但尚未建立经过核验的行业领先地位及稳定可比表现。宣传性首个、榜单、客户和适配率表述不能自动授予全国标杆资格。",
+        "evidence_ids": [
+          "article:21a0d3384289eabd"
+        ]
+      },
+      "published_date": "2026-11-23",
+      "insight": "无界方舟此次把大参数模型、推理引擎和硬件适配工具共同开放，产品交付从模型权重延伸到终端运行环境。稀疏计算与分层权重调度分别处理计算量和存储容量限制，使其值得围绕离线编程、三维内容制作等具体任务研究，而非仅比较总参数规模。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "无界方舟开源145B端侧模型及跨平台推理工具",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "据报道，无界方舟于今年9月初推出350亿参数端侧模型Edge0-35B，同时开源模型权重和统一推理框架。介绍材料称模型峰值内存不到2.5GB，在iPhone 18 Pro Max上的生成速度超过37 token/s。文章称其外网发布帖当天阅读量超过120万，模型曾登上Hugging Face全站Trending榜第一。",
+      "article_title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/9siMEVk-4cd2mCFnT1YtBQ",
+      "sector": "端侧人工智能／手机端大模型",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "无界方舟",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "无界方舟",
+      "company_entity_id": "dr-u-6b44106729a390c754ca",
+      "company_raw_name": "无界方舟",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Edge0-35B",
+          "relation": "product",
+          "evidence": "早在今年9月初，无界方舟就推出了全球第一个可以在手机上流畅运行的35B端侧模型：Edge0-35B。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "原文支持具体手机端产品和开源交付线索，但未建立经过核验的行业地位、跨设备可比表现及持续应用结果；不能凭首个宣传、榜单或流量授予全国标杆资格。",
+        "evidence_ids": [
+          "article:21a0d3384289eabd"
+        ]
+      },
+      "published_date": "2026-11-23",
+      "insight": "这次手机端发布与后续145B个人电脑模型面向不同硬件档位，显示无界方舟在围绕终端资源约束建立产品系列。其值得研究的变化是将模型与运行框架一起交付，让手机开发者有可复现部署的入口，而非仅提供一个模型规模指标。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "无界方舟于今年9月初推出并开源35B手机端模型",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
