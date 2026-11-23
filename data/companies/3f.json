@@ -1929,6 +1929,86 @@
       "event_headline": "蚂蚁发布灵光2.0，将个人AI助手延伸至长期事务跟进",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "据报道，蚂蚁在医疗健康生态大会集中发布五款模型。LingSante-3.1-air-VL与LingSante-3.1-flash当天开源：前者基于Ling-3.0-flash-VL，支持图文输入，总参数124B、激活参数5.5B，结合医学检索与工具调用，提供医疗材料解读和本地部署选择；后者基于Ling-3.1-flash，总参数560B，采用Hybrid-linear MoE架构，最长支持100万Token上下文，面向长病历、医学文献和复杂推理任务。LingSante Live已在阿福APP上线视频通话，支持持续视觉理解、全双工语音和后台Agent分析，非接触测量与可穿戴设备结合仍属探索。LingSante Pulse被报道具备150余项疾病风险预测能力，目前公开的是生理信号编码器权重，具体疾病预测还需配套任务模型。LingSante MedGuard用于结合患者上下文检查医疗AI回答中的数值、单位、计算和证据支持情况，并识别医疗安全、合规与伦理风险。",
+      "article_title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/ceH1mQR_6BNAlI5l2ehF7w",
+      "sector": "医疗健康人工智能",
+      "location": "浙江省 / 杭州市 / 西湖区 / 西溪路569号蚂蚁A空间",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市 / 西湖区 / 西溪路569号蚂蚁A空间",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-495b22c1304d6939e669db47"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "蚂蚁",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-495b22c1304d6939e669db47",
+            "source_url": "https://app.dahecube.com/nweb/news/20240327/195150n8049b2723de.htm?artid=195150",
+            "checked_at": "2026-10-20T02:20:14.385596+00:00",
+            "subject": "蚂蚁",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市",
+              "district": "西湖区",
+              "address": "西溪路569号蚂蚁A空间"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "district": "西湖区",
+          "evidence_ids": [
+            "geo-495b22c1304d6939e669db47"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "蚂蚁",
+      "company_entity_id": "dr-u-7853225b8ee4cd6c6519",
+      "company_raw_name": "蚂蚁",
+      "identity_status": "unresolved",
+      "score": 100,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前材料足以支持医疗模型产品进展，但评测领先主要来自报道转述，未建立可独立复核的全国行业地位；不据企业知名度或模型数量自动授予标杆资格。",
+        "evidence_ids": [
+          "article:48664e673b18967b"
+        ]
+      },
+      "published_date": "2026-11-23",
+      "insight": "此次发布把医疗材料理解、复杂病例推理、实时补充信息、风险预测与回答检查拆成不同模型，使蚂蚁的医疗AI供给从单一咨询入口扩展到面向不同任务的能力组合。两款专业模型开源与Live上线分别提供机构侧部署和用户侧交互入口，但编码器开放并不等于开发者已获得完整的疾病预测系统。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "蚂蚁发布五款医疗健康模型，两款专业模型开源",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "潜界科技": [
@@ -2523,6 +2603,57 @@
       "event_date": "",
       "event_headline": "Salesforce允许外部AI沿用既有规则触发业务流程",
       "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Everful": [
+    {
+      "date": "2026-11-24",
+      "title": "原文称，11月19日，AI跨境采购初创公司Everful宣布完成4850万美元、约合人民币3.2亿元的A轮融资，由Vertex Ventures Southeast Asia & India和January Capital联合领投，老股东Square Peg和Lightspeed继续跟投，未披露资金用途。公司于2024年创办，业务覆盖批发采购、一件代发和商品定制，品类由珠宝拓展至服饰、家居用品等。目前连接超过3万家工厂，拥有超过2000万种商品，每月向全球60多个国家的客户发货超过500万件；全球约70名全职员工中，45人从事研发。公司尝试以AI Agent承担部分供应商筛选和采购沟通工作，并通过质检、物流服务完成交付，正在构建其所称的全球贸易世界模型。创始人预计，到报道所称的今年年底，公司年化收入将达到1亿美元、约合人民币6.7亿元。",
+      "article_title": "阿里前女高管，用AI帮老外找工厂，刚融了3个亿",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/LkUFDV_bC66xx-T-hWZKbQ",
+      "sector": "AI跨境采购与供应链服务",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Everful",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "Everful",
+      "company_entity_id": "dr-u-68227a66e51a46684fb4",
+      "company_raw_name": "Everful",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "融资和报道所述业务覆盖可支持创业模式观察，但尚不足以确认其行业领先地位、可验证的AI效率优势或全国标杆资格；所在地亦未确认。",
+        "evidence_ids": [
+          "article:ed7654f54bb22c54"
+        ]
+      },
+      "published_date": "2026-11-23",
+      "insight": "Everful值得关注的不是单独提供一个找工厂的AI工具，而是把供应商选择与质检、物流交付连在一起，使实际履约信息有机会反过来改善下一次采购判断。此次融资是这一采购服务模式的资本成长节点，但现有人员和发货数据尚不能说明其增长主要由AI效率提升驱动，工厂及第三方服务商也承担了大量工作。",
+      "financing": "A轮4850万美元，原文折合人民币约3.2亿元；Vertex Ventures Southeast Asia & India和January Capital联合领投，Square Peg和Lightspeed继续跟投；资金用途未披露。",
+      "event_date": "2026-11-19",
       "discovery_status": "first_seen"
     }
   ]
