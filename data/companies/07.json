@@ -1662,5 +1662,70 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "南芯科技": [
+    {
+      "date": "2026-11-25",
+      "title": "南芯科技推出以SC3606和SC3601为核心的压电散热驱动方案，分别驱动压电风扇和压电微泵。SC3606集成全域扫描、分段逼近及实时频率跟踪，可在15kHz—40kHz范围内搜索和跟踪工作点；支持2.1V—5.5V输入，内部集成双向Buck-Boost，最高输出46Vpp，支持方波、正弦波、能量回收及亚毫秒级启动。SC3601最高输出190Vpp，采用双向转换与能量回收机制，文章称其相比传统单向驱动方案“节电效率提升10倍”、待机功耗低至微安级；其驱动波形总谐波失真加噪声低至0.3%，集成波形合成器、片上SRAM及高分辨率压电传感，也可用于触觉反馈和固态按键。两款芯片可按终端需求分别配置或组合使用。文章称该方案已覆盖轻薄可穿戴设备、智能手机及AI PC，并正向工业PC、光模块等场景延伸，未列具体客户、终端型号或出货数据。",
+      "article_title": "破解端侧AI散热困局，南芯科技补上主动散热“最后一环”",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/oYZHTyJpXfl42uZioAsznQ",
+      "sector": "模拟芯片／压电驱动／终端热管理",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "南芯科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "南芯科技",
+      "company_entity_id": "dr-u-dde6da5db01f0191524c",
+      "company_raw_name": "南芯科技",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "SC3606",
+          "relation": "product",
+          "evidence": "南芯科技推出了以压电风冷驱动SC3606、压电微泵液冷驱动SC3601为核心的系统级散热方案"
+        },
+        {
+          "name": "SC3601",
+          "relation": "product",
+          "evidence": "南芯科技推出了以压电风冷驱动SC3606、压电微泵液冷驱动SC3601为核心的系统级散热方案"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "两款芯片的功能与产品分工足以支持日报线索，但未建立独立市场地位、客户验证或可复核的领先性；文章宣传性评价不足以授予全国标杆资格。",
+        "evidence_ids": [
+          "article:309d2d68cf600c99"
+        ]
+      },
+      "published_date": "2026-11-23",
+      "insight": "南芯科技把压电风扇的频率跟踪、高压驱动和能量回收集成到芯片中，并以另一款芯片覆盖微泵液冷，为终端厂商配置主动散热提供了驱动层基础。其价值在于减少执行器适配与控制设计工作；实际整机收益仍取决于风道、液路和散热面的协同，液体循环搬运热量本身不等于将热量排出机身。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "南芯科技推出两款压电驱动芯片，覆盖风冷与微泵液冷",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
