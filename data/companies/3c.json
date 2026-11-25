@@ -127,6 +127,58 @@
       "event_headline": "文远知行拟携Uber在马德里推出商业化Robotaxi试点",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "文远知行执行长韩旭周一接受彭博电视采访时表示，公司计划与优步等合作伙伴在欧洲部署1000辆自动驾驶出租车。公司希望在获得当地监管允许的情况下进入全球各海外市场。报道同时称，文远知行已成为优步最大的自动驾驶技术合作伙伴之一，全球自动驾驶车队规模已扩大至4300辆，其中约一半为自动驾驶出租车。",
+      "article_title": "赛力斯目前已落地多款机器人；日媒：中国新车份额在全球39个市场超越日本丨汽车交通日报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/n6Oy8ISfhvU1j2OSYFkCZw",
+      "sector": "自动驾驶／自动驾驶出租车",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "文远知行",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "文远知行",
+      "company_entity_id": "dr-u-3c6d89173e6636d76947",
+      "company_raw_name": "文远知行",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有材料足以支持自动驾驶海外部署计划，但未建立经独立比较的行业地位、技术领先性或全国标杆资格，不能由全球车队规模及合作伙伴名称自动授予。",
+        "evidence_ids": [
+          "article:70f8974352be7769",
+          "accepted_history:09398220f8cafff7"
+        ]
+      },
+      "published_date": "2026-11-23",
+      "insight": "文远知行拟通过与优步等伙伴合作，把自动驾驶出租车业务进一步扩展到欧洲，体现了技术提供方借助出行合作伙伴拓展运营的路径。现有4300辆是全球各类自动驾驶车辆口径，不能视为欧洲已部署规模；欧洲计划的具体落点取决于当地监管许可及后续部署安排。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "文远知行计划携优步等伙伴在欧洲部署千辆Robotaxi",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "Firmus": [
@@ -2256,6 +2308,91 @@
       "event_headline": "智谱参与联合开发的端侧多模态模型装入奔驰S级",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "智谱发布GLM-5.4，首次在其模型中采用Loop Transformer架构，并将产品定位为“泛Coding”。该模型在750B级基座上，通过后训练让中间28层使用同一套权重循环计算两遍，参数规模基本保持原有量级；两轮分别设置门控，调节计算结果写回的幅度。部署时，较远上下文的KV Cache由两轮共享，近期滑动窗口分别缓存，第二轮复用第一轮的稀疏注意力索引；在1M Token上下文下，额外缓存限于滑动窗口。智谱披露的30B同参数量对照实验显示，加入Loop后整体训练计算量增加约10%，AIME25成绩由19.17升至30.42；GPQA Diamond由47.58升至56.26，平均输出Token减少11.7%；MMLU-Pro由71.65升至75.05，平均输出Token减少14.9%。据智谱官方数据，模型非高峰时段速度最高可达200 Token/s，高峰时段为70—80 Token/s。报道展示了交互式HTML、Blender建模与灯光控制台、3D网页游戏等案例，并描述了在ZCode中为既有稿件看板添加版本历史、保留四篇旧稿及显示初始版本的测试结果。智谱表示，将在完成必要的安全加固后开源GLM-5.4模型权重。",
+      "article_title": "智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA",
+      "sector": "人工智能大模型与智能编程",
+      "location": "北京市海淀区中关村东路 1 号院 9 号楼 10 层",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "北京市海淀区中关村东路 1 号院 9 号楼 10 层",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-f6fc9207a9b1ae073dedaca0"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "北京智谱华章科技股份有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-f6fc9207a9b1ae073dedaca0",
+            "source_url": "https://www.zhipuai.cn/",
+            "checked_at": "2026-10-20T01:40:06.332803+00:00",
+            "subject": "北京智谱华章科技股份有限公司",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "北京市",
+              "city": "北京市",
+              "address": "北京市海淀区中关村东路 1 号院 9 号楼 10 层"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "北京市",
+          "city": "北京市",
+          "evidence_ids": [
+            "geo-f6fc9207a9b1ae073dedaca0"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "北京智谱华章科技股份有限公司",
+      "company_entity_id": "dr-u-a797dd8a29ef0fd70883",
+      "company_raw_name": "智谱",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "GLM-5.4",
+          "relation": "product",
+          "evidence": "智谱首次采用Loop Transformer架构的新模型——GLM-5.4，闪亮登场！"
+        }
+      ],
+      "score": 70,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本包足以支持具体模型进展及技术对标价值，但网友评价、官方小模型实验和产品案例不足以独立确立全国标杆行业地位；不影响本事件保留。",
+        "evidence_ids": [
+          "article:93322b3e24e5b082"
+        ]
+      },
+      "published_date": "2026-11-23",
+      "insight": "智谱此次值得关注的变化，是将共享权重的循环计算从小模型实验推进到750B级旗舰部署，并通过门控、缓存与索引复用处理架构改造后的适配和显存问题。产品案例还展示了代码生成向可交互工具和既有软件功能修改延伸的路径，但30B对照实验的增益不能直接视为750B旗舰的同幅提升。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "智谱发布GLM-5.4，将循环架构用于750B级模型",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "Nscale": [
@@ -2483,6 +2620,57 @@
       "financing": "",
       "event_date": "",
       "event_headline": "小鹏集团在泰国和印尼发布G9L，拓展东南亚销售市场",
+      "event_signal": "material",
+      "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "据11月23日消息，小鹏集团日前在法国巴黎门店面向公众开放NGP城区高阶智能辅助驾驶试乘，将体验延伸至当地门店和真实城市道路。报道指出，小鹏是首家在欧洲开放此类公众体验的中国车企，目前小鹏和特斯拉均在欧洲提供此类体验。今年7月以来，NGP所搭载的第二代VLA大模型已完成德国、荷兰、法国等市场的本地化适配验证。小鹏正以2027年上半年开启欧洲首批交付为目标，推进本地化验证与应用准备。",
+      "article_title": "赛力斯目前已落地多款机器人；日媒：中国新车份额在全球39个市场超越日本丨汽车交通日报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/n6Oy8ISfhvU1j2OSYFkCZw",
+      "sector": "智能汽车／智能辅助驾驶",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "小鹏集团",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "小鹏集团",
+      "company_entity_id": "dr-u-593d0361124f348fa66b",
+      "company_raw_name": "小鹏集团",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "报道提供欧洲公众体验及首家中国车企的比较性表述，具有事件对标价值，但尚缺独立行业地位核验、当地许可范围及实际交付表现，不据单篇转述授予全国标杆资格。",
+        "evidence_ids": [
+          "article:70f8974352be7769"
+        ]
+      },
+      "published_date": "2026-11-23",
+      "insight": "小鹏把欧洲智驾验证进一步延伸到门店公众试乘，使当地用户能够在真实城市道路接触产品。多国适配验证与公众体验构成其欧洲交付准备的不同环节，接下来值得研究的是这些验证如何转化为当地实际可交付的功能范围。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "小鹏在巴黎门店开放城区智驾公众试乘",
       "event_signal": "material",
       "discovery_status": "update"
     }
@@ -3190,6 +3378,59 @@
       "financing": "",
       "event_date": "",
       "event_headline": "TikTok Shop推出独立购物App，首批上线东南亚四国",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "国通新药": [
+    {
+      "date": "2026-11-25",
+      "title": "先通医药通过旗下子公司国通新药开展核药CRO/CDMO业务，为同行提供研发、工艺开发及生产外包服务。原文披露该业务2025年收入4289万元，未单列国通新药全部营业收入。",
+      "article_title": "北京跑出港股核药第一股！茅台、瑞幸背后的大钲资本押注",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/29SkoTDqB4ftg5CTvuu6pg",
+      "sector": "核药研发及生产服务",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "国通新药",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "国通新药",
+      "company_entity_id": "dr-u-05cc6a5021190cfd267c",
+      "company_raw_name": "国通新药",
+      "identity_status": "unresolved",
+      "score": 0,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文证明了具体服务角色及业务收入，但未独立证明国通新药的行业排名、差异化技术优势或客户覆盖；母公司的全链条能力不能直接等同于子公司的全国标杆资格。",
+        "evidence_ids": [
+          "article:be8d3574246f468e"
+        ]
+      },
+      "published_date": "2026-11-24",
+      "insight": "国通新药把先通体系的核药研发生产能力用于服务外部企业，业务价值在于为缺少专用设施和工艺能力的开发者提供产业化环节。已披露收入说明这不是单纯的平台规划，但不能据此认定具体设施全部归属于该子公司。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "国通新药承接核药研发生产服务，2025年业务收入4289万元",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
