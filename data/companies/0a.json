@@ -2173,5 +2173,58 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "阿里达摩院": [
+    {
+      "date": "2026-11-25",
+      "title": "来自阿里达摩院、香港具身智能实验室等的研究团队提出RynnVLA-Latent。其潜在动作模型RynnLAM通过残差式未来特征预测、相机补偿后的三维场景流监督及相机运动解耦，从前后帧提取608维连续动作描述符；训练不需要原生机器人控制标签，但使用视觉特征和几何伪标签。团队汇集25个来源的人类交互、真实机器人与仿真视频，合计约30100小时、30.57亿帧，离线提取约7.4552亿个潜在动作描述符。策略采用RynnBrain视觉语言骨干与动作专家，先通过流匹配预测潜在动作片段，再经目标机器人专属后训练引入本体状态、适配原生动作维度。在LARY冻结表征、以轻量回归器预测低层控制的相对动作设置中，RynnLAM平均均方误差为0.38，去掉三维流监督后升至0.50。4B模型在LIBERO、LIBERO-Plus、VLABench五赛道及RoboTwin2.0 Native协议下的平均成功率分别为98.8%、84.7%、51.9%和88.6%；LIBERO-Plus未追加专项适配，RoboTwin训练包含随机化演示。真实实验覆盖固定双臂灵巧手和移动双臂夹爪平台，每任务测试35次；完成机器人专属后训练后，4B模型在六项任务中均取得所列方法中的最高观察成功率，其中牛排上菜为57.14%、桌面清理为40.00%。",
+      "article_title": "3万小时视频教会机器人干活，六项真机任务全登顶！阿里达摩院给出具身新策略",
+      "event_type": "研究进展",
+      "link": "https://mp.weixin.qq.com/s/svNUuCE4rPumnjhjwT6XnA",
+      "sector": "具身智能／机器人基础模型",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "阿里达摩院",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "阿里达摩院",
+      "company_entity_id": "dr-u-42f0b44cc91cc5e04de3",
+      "company_raw_name": "阿里达摩院",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据支持联合团队的一项具体机器人学习研究及实验结果，未建立本机构整体行业地位或全国标杆资格；基准及六项任务中的相对成绩不能自动授予企业标杆标签。",
+        "evidence_ids": [
+          "article:3d0852506a01e522"
+        ]
+      },
+      "published_date": "2026-11-24",
+      "insight": "这项工作的变化在于，把缺少机器人控制指令的人类与异构机器人视频转化为共享运动监督，让机器人策略能够利用更广的数据来源，再用目标机器人的真实示教完成执行对齐。去掉三维流监督后控制预测误差上升，支持几何约束具有实际作用；但六项真机任务中的相对领先仍伴随40.00%、57.14%等成功率，说明数据接口取得进展不等于操作可靠性已充分解决。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "阿里达摩院参与提出异构视频预训练机器人策略",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
