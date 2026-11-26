@@ -3123,5 +3123,65 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "Avicena": [
+    {
+      "date": "2026-11-27",
+      "title": "Avicena宣布完成超过1亿美元的C轮融资，参与方包括风险投资机构及AMD Ventures、三星、SK海力士等产业相关投资方。资金用于加快产品开发、扩大工程团队和推动商业化，公司将2027年视为重要商业化节点。其LightBundle平台采用GaN MicroLED发射阵列、硅光电探测器和多芯光纤，以大量相对低速的并行通道提供总带宽。原文称，公司今年3月发布512Gbps级评估套件，8月开始向客户和合作伙伴交付1Tbps级评估套件；后者采用335通道MicroLED阵列，每通道最高3Gbps，整体原始带宽达到1Tbps。9月展示可拆卸、可重新连接的连接器化方案。此前基于台积电N16工艺的演示芯片集成304个MicroLED和304个光电探测器，阵列间距50μm，单通道4Gbps，整体带宽约1.2Tbps，公布的演示链路功耗低于1pJ/bit。另有单通道11.2Gbps发射性能展示及基于台积电探测器样品的4Gbps链路测试；不同测试环节分别公布发射端0.2至0.3pJ/bit、接收端约0.35pJ/bit，未披露将这些指标合为同一完整系统的测试结果。",
+      "article_title": "光互联，AMD出手了",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/8ReqXlklds5zwROtg-MhAA",
+      "sector": "AI基础设施／短距离光互连",
+      "location": "地点线索：美国Sunnyvale（总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Avicena",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "美国Sunnyvale（总部）",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "Avicena",
+      "company_entity_id": "dr-u-573fac8406a351f684df",
+      "company_raw_name": "Avicena",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "LightBundle",
+          "relation": "product",
+          "evidence": "公司瞄准的是AI基础设施中的数据传输问题，推出了LightBundle光互连平台。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "所供证据支持融资、技术演示及客户评估阶段进展，但尚未建立经规模部署验证的行业地位或足以独立授予全国标杆标签的依据。全球技术路线观察价值不等于全国标杆资格。",
+        "evidence_ids": [
+          "article:e6ab74cd33845fce"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "Avicena已从器件性能展示推进到向客户交付Tbps级链路评估工具，客户可以开始验证其并行光连接在实际系统中的适用性；本轮融资为继续开发和工程化提供了资金。其路线将单通道提速压力转向阵列密度与并行集成，后续最有辨别力的是客户验证中能否同时解决封装对准、可靠性和成本问题，而产业投资方参与尚不能推导出已获其产品采用。",
+      "financing": "C轮融资超过1亿美元；参与方包括AMD Ventures、三星、SK海力士及风险投资机构。用于加快产品开发、扩大工程团队和推动商业化；原文未披露估值及各方投资金额。",
+      "event_date": "",
+      "event_headline": "Avicena完成超1亿美元C轮融资，推进MicroLED光互连商业化",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
   ]
 }
