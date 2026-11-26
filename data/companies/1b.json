@@ -1137,6 +1137,81 @@
       "event_headline": "蚂蚁集团旗下阿福披露健康咨询用户与就医提醒规模",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "原文称，蚂蚁于11月23日发布百灵医疗健康大模型家族LingSante，覆盖医疗专业推理、多模态理解、疾病风险预测、安全防护和实时智能体，并同步开源LingSante-3.1-air-VL与LingSante-3.1-flash。air-VL支持文字、图片和视频理解，总参数量124B、激活参数5.5B，原文称可在笔记本电脑等本地设备部署；flash面向复杂医学推理，总参数量560B，支持最长1M Token上下文，可处理病历、检查报告和医学文献，并通过多轮检索、证据核对和工具调用完成复杂任务。据蚂蚁介绍，flash在InclusionMed综合指数中位列开源模型首位，两款模型在涵盖医学推理、安全对齐和智能体任务的综合评测中达到开源领先水平。团队在预训练阶段加入医疗专业数据，由基模团队与医疗团队共同设计数据配比，后训练围绕循证能力、真实场景任务和临床反馈对齐，并邀请医生定义追问标准、提供案例及推理依据。该系列是AI健康应用“阿福”的医学能力底座；开源后，医疗机构可结合专科知识、临床数据及既有流程开展本地部署和二次开发。",
+      "article_title": "当一台笔记本，装下三甲医院的「最强大脑」",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/updCcRlPLONOkBUMt9xhuw",
+      "sector": "医疗人工智能／医疗大模型",
+      "location": "浙江省 / 杭州市",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "hangzhou",
+        "display_location": "浙江省 / 杭州市",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-dc542a5fc3d842d1031cb176"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "蚂蚁集团",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-dc542a5fc3d842d1031cb176",
+            "source_url": "https://ori.hangzhou.com.cn/ornews/content/2020-10/14/content_7831284.htm",
+            "checked_at": "2026-10-12T04:00:23.077844+00:00",
+            "subject": "蚂蚁集团",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "浙江省",
+              "city": "杭州市"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "hangzhou",
+          "country": "CN",
+          "province": "浙江省",
+          "city": "杭州市",
+          "evidence_ids": [
+            "geo-dc542a5fc3d842d1031cb176"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "蚂蚁集团",
+      "company_entity_id": "dr-u-d30e5ffc0ba9150b4367",
+      "company_raw_name": "蚂蚁集团",
+      "identity_status": "unresolved",
+      "score": 100,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "模型开源、应用联系及公司披露的评测结果足以支持本次产品进展，但尚未形成独立核验的行业地位和全国标杆资格依据；不因集团成熟度、用户规模或自述排名自动授标签。",
+        "evidence_ids": [
+          "article:85e80fef5a6bea57"
+        ]
+      },
+      "published_date": "2026-11-25",
+      "insight": "这次发布使蚂蚁支撑“阿福”的医疗模型能力，从自有应用底座进一步变为外部机构可二次开发的技术供给：医院能够将专科知识和工作流程接入模型，而不只是调用封闭接口。其产业价值在于为专科应用提供可复用底座；基层能否实际用起来，关键还在具体硬件条件、院内系统接入和持续运维，而非仅看激活参数量。",
+      "financing": "",
+      "event_date": "2026-11-23",
+      "discovery_status": "update"
     }
   ],
   "乐聚智能（深圳）股份有限公司": [
