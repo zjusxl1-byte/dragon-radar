@@ -2115,6 +2115,91 @@
       "event_headline": "东方算芯称已交付128卡训练集群，计划年底交付千卡集群",
       "event_signal": "major",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "据公司资料，东方算芯DF1000采用软件定义可重构计算架构，结合3D混合键合近存计算，将计算与DRAM存储垂直集成，并通过Chiplet技术拓展芯片集成与互联能力；单芯片访存带宽达到6.4TB/s，已完成流片验证，并实现128卡集群稳定运行。公司依托国内晶圆制造、3D混合键合及先进封装资源，衔接测试、板卡和整机环节，围绕DF1000形成巅峯加速卡、QY100液冷服务器、TY64超节点及HS系列智算集群。自研底层软件栈覆盖驱动、编译器、算子库及分布式通信组件，并适配PyTorch、TensorFlow等框架；公司正在推进与国内大模型企业的芯模协同。副总裁郭炜表示，公司正加快出货。",
+      "article_title": "不止于芯片国产化：东方算芯打通算力全链路自主可控",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/RKBBDuJmxqPEMwDu4GWjug",
+      "sector": "国产AI算力芯片与算力系统",
+      "location": "经营地：上海市 / 张江",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "经营地：上海市 / 张江",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-ed433796b914ffe72f1f42a5"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "东方算芯",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-ed433796b914ffe72f1f42a5",
+            "source_url": "https://www.csdn.net/article/2026-07-21/163078656",
+            "checked_at": "2026-10-20T02:35:14.884583+00:00",
+            "subject": "东方算芯",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "address": "上海张江"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-ed433796b914ffe72f1f42a5"
+          ]
+        },
+        "presentation": {
+          "label": "经营地：上海市 / 张江",
+          "detail": "新公司介绍直接证明张江经营归属；旧上海工博会活动事实保留为mention，不作总部资格。",
+          "evidence_ids": [
+            "geo-ed433796b914ffe72f1f42a5"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "东方算芯",
+      "company_entity_id": "dr-u-70e707437ab84e6fbcb3",
+      "company_raw_name": "东方算芯",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "公司披露的架构及系统运行支持产业研究，但缺少实际负载下的独立性能、交付表现及行业比较依据，尚不足以确立全国标杆地位。",
+        "evidence_ids": [
+          "article:2876a465d3d671a4"
+        ]
+      },
+      "published_date": "2026-11-25",
+      "insight": "本轮相对已收录的DF1000与128卡集群成果，新增价值在于披露3D混合键合计算与DRAM垂直集成、6.4TB/s访存带宽及具名系统产品组合，为比较近存计算和先进封装协同路径提供了具体信息。128卡运行不是本轮新里程碑；访存带宽能否转化为实际模型吞吐及能效优势，不能由该指标单独推定。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "东方算芯补充披露DF1000近存计算架构及系统产品细节",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "丰田汽车公司": [
@@ -3127,6 +3212,51 @@
       "financing": "2026年7月，天使+轮，数亿元。",
       "event_date": "",
       "event_headline": "贝塔聚变2026年7月完成数亿元天使加轮融资",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "杭州迪视医疗生物科技有限公司": [
+    {
+      "date": "2026-11-26",
+      "title": "文章披露，迪视医疗由眼科手术机器人拓展至双臂显微外科手术系统，将抖动滤除、高速递送算法和精密加工装配用于微小血管、淋巴管等组织的操作。眼科系统采用主从控制的多自由度系统、柔性结构、零间隙装配、抖动滤除、回程间隙实时补偿及高速控制反馈；据文中介绍，经浙江省检验院高温高湿、运动震荡等检测后仍保持3微米运动精度。医生通过手柄遥操作，将动作缩放至末端；穿刺时可锁定其他方向，沿针尖方向按每次10微米推进，药物递送可持续1至3分钟，并具备遇阻识别停止及断电后任意位置悬停设计。显微外科系统采用双臂和细小腕式末端，以适应深部狭小空间内的吻合操作。团队在2025年上半年开展了20多例涉及淋巴水肿和阿尔茨海默症的科研临床；文章称，目前正开展注册临床研究，主要涉及游离皮瓣和淋巴水肿患者。",
+      "article_title": "杭州的手术机器人，正在看不见的尺度里，完成看得见的奇迹",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/kT2Hs3Q7qtZCuXLyixK8Sg",
+      "sector": "医疗器械／手术机器人／显微外科",
+      "location": "地点线索：浙江省杭州市上城区（总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "杭州迪视医疗生物科技有限公司",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "浙江省杭州市上城区（总部）",
+      "source": "湖畔自留田",
+      "kind": "event",
+      "canonical_name": "杭州迪视医疗生物科技有限公司",
+      "company_entity_id": "dr-u-7adee22f7b66d8db55b3",
+      "company_raw_name": "杭州迪视医疗生物科技有限公司",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "published_date": "2026-11-25",
+      "insight": "迪视医疗的变化不只是把眼底操作做得更精细，而是将抑制手抖、缩放动作和精密控制能力延伸到微小管道吻合，并以双臂腕式末端适应深部操作空间，呈现从单一递药工具走向多场景显微操作平台的路径。现有临床探索和注册研究体现了应用范围的扩展，但阿尔茨海默症个案的术后表现尚不足以判断该应用的治疗效果。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "迪视医疗从眼底递药拓展至显微外科，开展注册临床研究",
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
