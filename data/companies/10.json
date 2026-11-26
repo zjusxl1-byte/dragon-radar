@@ -2326,5 +2326,58 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "脸谱心智": [
+    {
+      "date": "2026-11-26",
+      "title": "据文章转述的《General Looped Model》报告摘要，脸谱心智通过复用同一组权重、多轮迭代隐状态，将参数规模与计算深度解耦，并给出将存量非Loop骨干改造为共享计算结构的工程路径。报道列出四类测试：约10亿参数的世界模型在指定预测任务上比肩4至5万亿参数级参照模型，并缓解长时序仿真的误差累积；70亿参数工程级基础模型的综合能力接近1万亿参数级参照方案；9400万参数视频生成模型在多项指标上优于50亿参数参照方案，报道所列权重显存由21.34GB降至0.31GB，单台8卡服务器并发由57路增至至少336路；三维重建模型在提升几何质量的同时，将峰值显存降至参照方案约三分之一。文章称该报告曾短暂公开，数日后被临时收回，官方未附详细下架说明，重新公开时间及形式尚不明确。",
+      "article_title": "9400万参数硬刚50亿，权重显存直降98%！Loop架构被这家中国团队玩明白了",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/r5n6qJ7B7gW9RHcA-bXAaw",
+      "sector": "人工智能／循环模型架构",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "脸谱心智",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "脸谱心智",
+      "company_entity_id": "dr-u-b721e340385b96dd09a9",
+      "company_raw_name": "脸谱心智",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "跨任务测试报道足以支持技术路线观察，但底层报告、完整对照条件及独立验证缺失，尚不能建立全国标杆或行业领先资格。",
+        "evidence_ids": [
+          "article:7c2c6de30a130723"
+        ]
+      },
+      "published_date": "2026-11-25",
+      "insight": "这项工作的关注点是把共享权重、增加计算深度的方法扩展到多类任务，使脸谱心智的技术路线不再局限于世界模型。其部署价值在于减少需要驻留显存的权重，但循环会增加计算工作，实际优势还取决于相同任务质量下的延迟、总显存和硬件配置，不能将权重显存下降直接等同于整体推理成本同比下降。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "据报道，脸谱心智循环模型框架披露四类任务测试结果",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
