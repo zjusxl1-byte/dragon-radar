@@ -2927,6 +2927,100 @@
       "event_headline": "VAST开源EdenLive，将简化交互场景实时生成精细画面",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "VAST发布新一代高精度AI 3D基座模型Tripo H3.5 Preview，已上线Tripo Studio国际版。文章称，相比H3.1，新版提升复杂结构还原、精细几何生成、输入输出对齐及不可见部位推断能力，通过扩大模型容量与系统化训练提高首轮生成可靠性。报道所述评测统一输入、采用最高几何质量并剥离贴图与法线贴图；在资深3D美术师对192组素模案例的盲评中，新版获得82次第一。VAST开展的另一项覆盖200余个案例、结合Agent裁判与专家排序的评测称，新版在跨双评测集及单视图、四视图的22组汇总对照中均领先；其中单视图与四视图案例对应不同资产，并非同一物体的前后对比。报道给出的无贴图浮雕文字识别率为90.7%，H3.1为46.1%。新版支持生成表面完整闭合的网格；同期上线的可打印检测功能可按目标打印尺寸检查薄壁、水密性及非流形边，自动修复功能可修补孔洞、非流形边并按打印工艺及尺寸调整壁厚。文中展示了生成模型进入切片、支撑设置及实体打印流程的案例，并介绍其为游戏美术提供初始高模的用途。",
+      "article_title": "AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/UslS5EMnFIDmyCQ4EzGy-A",
+      "sector": "生成式AI／三维内容生成／3D打印软件",
+      "location": "上海市｜36氪档案所载注册地址：临港新片区宏祥北路83弄1-42号20幢118室",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市｜36氪档案所载注册地址：临港新片区宏祥北路83弄1-42号20幢118室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d14e38ccf4717bcb41a0b08a"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "VAST",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-d14e38ccf4717bcb41a0b08a",
+            "source_url": "https://pitchhub.36kr.com/project/3332216747439360",
+            "checked_at": "2026-10-20T02:23:20.555533+00:00",
+            "subject": "VAST",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "address": "中国（上海）自由贸易试验区临港新片区宏祥北路83弄1-42号20幢118室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-d14e38ccf4717bcb41a0b08a"
+          ]
+        },
+        "presentation": {
+          "label": "上海市｜36氪档案所载注册地址：临港新片区宏祥北路83弄1-42号20幢118室",
+          "detail": "36氪VAST企业档案所载上海瓦嘶特科技有限公司注册地址：中国（上海）自由贸易试验区临港新片区宏祥北路83弄1-42号20幢118室；同档案上海市、Tripo、宋亚宸相互对应。保留媒体档案注册地址角色，不宣称政府登记核验或已核实际办公室，不批准法律实体合并。",
+          "evidence_ids": [
+            "geo-d14e38ccf4717bcb41a0b08a"
+          ]
+        }
+      },
+      "article_location": "上海市（复用已审36氪企业档案地点证据，非本文披露）",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "VAST",
+      "company_entity_id": "dr-u-375eca5944bc3c254740",
+      "company_raw_name": "VAST",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "Tripo H3.5 Preview",
+          "relation": "product",
+          "evidence": "就是VAST刚发布的新一代高精度AI 3D基座模型Tripo H3.5 Preview。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持产品能力进展和具体产业对标价值，但本次评测含公司组织测试，合作接入及历史融资也不足单独确立全国标杆资格，不据此新增标签。",
+        "evidence_ids": [
+          "article:9d83ff60bdaa1ae8",
+          "accepted_history:74597ea9892471f1",
+          "accepted_history:b520fb329f77f06f"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "这次升级把竞争重点从渲染图是否逼真，推进到浮雕、镂空和交错部件是否真正成为可加工的三维结构；生成模型与检测、修复工具衔接，使VAST从提供建模结果进一步进入打印前处理环节。展示案例支持这一产品方向，但是否能稳定减少专业用户的修模工作，还需观察不同尺寸、工艺和复杂输入下的实际表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "VAST发布H3.5预览版，强化复杂几何生成与打印准备",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "帕西尼感知科技": [
@@ -125330,6 +125424,83 @@
       "event_headline": "据报道，蔚来ES9于2026年6至8月销售21380辆",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "11月25日举行的2026蔚来创新科技日后，李斌在媒体对话中表示，目前算力需求主要通过租卡满足，原因包括需求存在波峰波谷，以及算力卡价格高、采购困难。他认为租卡更符合公司的经营模式。正文未披露租用规模、供应商或具体计算任务。",
+      "article_title": "董明珠、魏建军同框直播，魏建军称现在汽车贬值速度太离谱；新一代小米SU7 Ultra完成工信部申报，将于2027年二季度发布丨汽车交通日报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/NurzQnY4oNScy-HwU0AlNw",
+      "sector": "智能电动汽车",
+      "location": "上海市 / 嘉定区",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市 / 嘉定区",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-77792b51d737eb7c6d9893ad"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "蔚来",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-77792b51d737eb7c6d9893ad",
+            "source_url": "https://www.nio.cn/policies/privacy-policy",
+            "checked_at": "2026-10-13T00:33:43.395537+00:00",
+            "subject": "蔚来",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "district": "嘉定区"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "嘉定区",
+          "evidence_ids": [
+            "geo-77792b51d737eb7c6d9893ad"
+          ]
+        }
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "蔚来",
+      "company_entity_id": "dr-u-759845673e2a08509a69",
+      "company_raw_name": "蔚来",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "本条证明算力获取方式，未建立该安排的行业领先性、实施成效或可供杭州对标的独立领先依据。",
+        "evidence_ids": [
+          "article:696b5206c42836ce"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "蔚来披露的是围绕波动需求组织算力供给的经营选择：租卡可调整资源使用规模，而不必全部依赖自购。其产业观察价值在于车企如何获取技术基础设施，不能据此外推具体训练投入或算力成本下降。",
+      "financing": "",
+      "event_date": "",
+      "discovery_status": "update"
     }
   ],
   "阶跃终端": [
@@ -171299,6 +171470,57 @@
       "event_headline": "德赛西威域控制器获丰田铂智3X采用",
       "event_signal": "material",
       "discovery_status": "first_seen"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "德赛西威位于西班牙南部利纳雷斯的智能制造基地于报道所述“今年11月”建成开幕，产线进入调试与试生产。工厂主要生产车载显示屏和域控制器，规划年产能约280万件、年产值约3.8亿欧元，计划通过高自动化产线将用工控制在500人以内。公司提前招聘当地制造、质量和人力资源员工并送往惠州培训；大宗电子原料从中国和东南亚运至香港配齐后发往西班牙，包装材料在西班牙采购，对欧洲缺乏配套的工艺和零件则带动原有供应商出海。公司目前在欧洲与大众、Stellantis、雷诺、奔驰、捷豹路虎、沃尔沃等车企推进超过10个车型项目合作。据国际业务负责人杨勇介绍，按现有订单计算，该工厂一期乃至二期产能已排满。",
+      "article_title": "从合资工厂到全球 Tier 1，一家汽车供应商如何跨过四十年",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/exsZCR5bZWqYKVwf02y7NQ",
+      "sector": "汽车电子与智能汽车供应链",
+      "location": "地点线索：广东省惠州市（总部）；西班牙利纳雷斯（本次工厂项目所在地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "德赛西威",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "广东省惠州市（总部）；西班牙利纳雷斯（本次工厂项目所在地）",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "德赛西威",
+      "company_entity_id": "dr-u-c8dac6ec256f9aa01d76",
+      "company_raw_name": "德赛西威",
+      "identity_status": "unresolved",
+      "score": 25,
+      "is_national_star": true,
+      "benchmark_review": {
+        "status": "confirmed",
+        "eligible": true,
+        "reason": "当前正文给出具体行业地位及对标基础：累计交付850万套座舱域控、700万套智驾域控，报道两项业务国内市占率均居第一，并披露全球车企项目及欧洲制造落地。其从汽车电子工程能力扩展至全球研发、制造和客户服务的路径，可供杭州汽车电子企业对标；不以规模或上市身份单独授予资格。",
+        "evidence_ids": [
+          "article:a6098b890eae0d71"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "西班牙工厂使德赛西威的欧洲业务从就近研发和客户服务进一步延伸到当地制造与供应链组织，增强了承接全球车企平台项目的配套能力。试生产中出现的加班审批与排产差异也说明，复制国内生产线之外，还需要把当地劳动规则纳入交付计划。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "德赛西威西班牙工厂建成开幕，进入调试与试生产",
+      "event_signal": "major",
+      "discovery_status": "update"
     }
   ],
   "浙江春风动力股份有限公司": [
@@ -189911,6 +190133,787 @@
       "event_date": "",
       "event_headline": "豆包购物灰度测试AI对话选品与下单衔接",
       "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "TabbyML": [
+    {
+      "date": "2026-11-27",
+      "title": "TabbyML将20个AI智能体组成系统工程团队，在人类设定优化目标和工程约束后，对其实际业务使用的开源搜索引擎Quickwit开展自主性能优化。团队分设调研员、指挥员和验证员，分别承担瓶颈分析、实验方案与正确性审查、隔离环境中的实现及测试；实验预先规定性能、正确性、兼容性和内存约束，成功改动进入后续代码基线，失败结果反馈给团队。经过4天、约350次实验，最终保留6项通过审查的优化，涉及缓存配置、数据结构、解压缩器复用和内存分配等环节。在包含1亿行数据、Quickwit支持的40条ClickBench查询测试中，总热查询耗时由40.5秒降至27.9秒，报道给出的降幅为31%；热查询几何平均耗时由403毫秒降至304毫秒，部分查询耗时降幅达87%。文章称，按同一组40条查询重算后，优化版本的热查询几何平均耗时低于Duckflight的354毫秒公开成绩，并在ClickBench数据湖类别的该项比较中超过此前公开成绩。",
+      "article_title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/s4dPl1b0IwXvcWKKY3M8qw",
+      "sector": "AI软件工程与基础设施性能优化",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "TabbyML",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "TabbyML",
+      "company_entity_id": "dr-u-87091047bc73547a55b3",
+      "company_raw_name": "TabbyML",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "指定查询集的性能及多智能体流程支持事件价值，但尚不足建立主体的全国标杆资格；城市未知，不推断为境内或境外企业，亦不把实验排名等同公司综合行业地位。",
+        "evidence_ids": [
+          "article:09cb16e67596be76"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "这次实验展示了TabbyML从生成代码向自主寻找瓶颈、组织实验和审查改动延伸的工程能力：多智能体不仅并行探索，还能否决通过现有测试却改变查询语义的方案。其价值在于把性能探索与正确性判断分开推进；目前成果集中于Quickwit及指定测试任务，跨系统的适用性仍是判断这一能力能否推广的关键。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "TabbyML以20个智能体完成Quickwit性能优化实验",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "汝原科技": [
+    {
+      "date": "2026-11-27",
+      "title": "汝原科技推出面向小批量定制经营者的Morpho桌面UV打印机。据正文，今年8月产品在Kickstarter上线，两分钟众筹突破100万美元，一周多超过1000万美元。团队此前访谈至少100名主要来自欧美的用户，产品定义至少耗时三个月，并累计制造至少300台测试机。产品以紫外线固化墨水，在物体表面打印图案及堆叠浮雕；采用封闭结构和喷头双向移动、底板不前后移动的龙门架结构，缩小占地并隔离气味与紫外光；通过双目摄像头识别物体位置，自研低腐蚀性墨水配方，以循环、搅拌应对白墨沉淀，并集成光谱仪和自研色彩配置算法进行校色。王铭钰称，公司测试显示墨水放置两年无需担心喷头因腐蚀损坏，用户无需原有的清洗、保湿流程；机器取得G7 Master最高等级ColorSpace色彩认证。截至采访时，团队主要解决可靠性、生产及制造制程问题，计划先寄送30台给用户实际使用，正式交货计划在明年第一季度。公司已将众筹营销费用降至原来的十分之一，转向交付准备。",
+      "article_title": "汝原科技王铭钰：众筹千万美金后，要把桌面 UV 打印做成长期生意",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/LlvM5UulFufZhmSvVzlXug",
+      "sector": "桌面数字制造与个性化打印设备",
+      "location": "地点线索：深圳香港科技大学产学研基地（办公地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "汝原科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "深圳香港科技大学产学研基地（办公地）",
+      "source": "晚点 LatePost",
+      "kind": "event",
+      "canonical_name": "汝原科技",
+      "company_entity_id": "dr-u-60324c33f6e431ea4d71",
+      "company_raw_name": "汝原科技",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "Morpho",
+          "relation": "product",
+          "evidence": "去年他带着汝原科技团队进入了一个陌生领域，今年 8 月推出新品牌 Morpho，做起桌面 UV 打印机。"
+        }
+      ],
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "具体技术路线与众筹结果足以支持产品观察，但正式交付和持续运行尚未验证；奖项及创始人履历不足以单独确立全国标杆行业地位。",
+        "evidence_ids": [
+          "article:73d7e96572a6a1d6"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "汝原把桌面UV打印的改进重点放在小商家的操作与生产流程：视觉定位减少手工对位，墨水配方与白墨循环减少维护，自动校色服务于批次一致性，而不只是增加可打印的图案。超千万美元众筹显示了早期购买意愿；产品仍处量产准备阶段，首批用户使用中的喷头维护表现和连续打印一致性，将决定这些设计能否兑现为日常生产工具的价值。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "汝原科技桌面UV打印机众筹超千万美元，推进量产交付",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "穿越者": [
+    {
+      "date": "2026-11-27",
+      "title": "穿越者选择从CYZ1亚轨道载人飞船起步，验证逃逸救生、着陆缓冲、伞降和可重复使用结构，再由CYZ2攻关轨道级再入。CYZ1采用分舱式逃逸设计；穿越舰提出独立逃逸救生舱段，目标是在整个飞行过程中提供应急救生能力。2026年1月，公司完成载人飞船全尺寸试验舱着陆缓冲验证，报道称核心指标达到预期，触地冲击过载控制在5g以内，试验后舱体结构完好、船载设备正常。CYZ1后续还需开展零高度逃逸、最大动压逃逸、伞降全工况、复用结构和环控生保等验证，按地面验证、无人飞行、载人飞行的顺序推进；公司规划于3—5年内逐步由试验转入商业运营。CYZ2已启动轨道级再入返回预研，计划优先攻关制导与控制架构，开展低空翻转缩比飞行、无动力再入等验证；其载货版以上行20吨、下行10吨为目标，载人版面向常态化人员往返。公司首艘穿越舰直径选定在4米左右，远期目标是形成具备完整逃逸救生能力的全可复用重型天地往返运输系统。",
+      "article_title": "穿越者飞船总师：攻克了8000km往返后，我想做中国版星舰",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/NTBTsc1-qmOFOFrpjH75bg",
+      "sector": "商业航天／载人飞船与天地往返运输",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "穿越者",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "穿越者",
+      "company_entity_id": "dr-u-3964fc6fe49fe87a3ccf",
+      "company_raw_name": "穿越者",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "穿越者壹号（CYZ1）",
+          "relation": "product",
+          "evidence": "穿越者壹号（CYZ1）采用分舱式逃逸设计"
+        },
+        {
+          "name": "CYZ2",
+          "relation": "product",
+          "evidence": "从亚轨道到近地轨道，再到深空，穿越者的产品谱系按照任务环境逐级展开。指向近地轨道的CYZ2载货版将以20吨上行、10吨下行为目标，载人版则面向常态化人员往返。"
+        }
+      ],
+      "score": 45,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "单次地面缓冲试验和预研路线尚不足以证明全国标杆地位；报道中的全球第三家表述未提供可独立复核的比较证据，不能据此授予资格。",
+        "evidence_ids": [
+          "article:b204f667a0d1cee9"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "穿越者把逃逸、缓冲和伞降等载人安全能力放在亚轨道阶段先行验证，再将轨道级再入单独推进，意在拆解整船研制中不同环境下的工程难题。已完成的全尺寸试验舱缓冲试验为着陆环节提供了数据，但这一路线能否延伸至轨道运输，关键仍在CYZ2能否完成轨道速度下的热防护、再入控制与后续复飞验证。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "穿越者披露载人飞船分级验证路线，CYZ2已启动预研",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "一目科技": [
+    {
+      "date": "2026-11-27",
+      "title": "一目科技创始人兼CEO李智强在11月26日的十周年全员信中宣布战略升级，基于触觉感知构建机器人灵巧操作生态YIMU xEco。该生态规划涵盖触觉传感器、灵巧手和机械臂组成的上肢硬件，以YIMU xHand为代表；软件YIMU xStudio提供原子动作、操作技能及建模、训练、部署工具；社区和云服务YIMU xWorld支持开发者共创、设备连接和远程操作。公司提出将触觉、灵巧手和机械臂协同设计，并通过小脑模型把原子动作组合为具有自适应能力的操作技能，打通人类操作演示、仿真训练、真机强化学习到部署的开发链路。公司明确不自研通用大脑模型、不自营数据资产业务、不直接开展行业应用运营，拟通过开放接口接入第三方大脑并支持集成商和生态伙伴。其三年目标是让机器人上肢成为标准部件，让操作技能成为可复用资产。",
+      "article_title": "百亿具身独角兽破壁，玩家集体涌向它的牌桌",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/t7d9MrlwIxUF0xD6wpXJNw",
+      "sector": "具身智能／机器人触觉感知与灵巧操作",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "一目科技",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "一目科技",
+      "company_entity_id": "dr-u-5dd8b726b299cb0f8f34",
+      "company_raw_name": "一目科技",
+      "identity_status": "unresolved",
+      "score": 60,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "产品架构和技术积累支持事件价值，但百亿估值、知识产权数量及媒体龙头评价不能自动证明标杆资格；当前材料缺少可独立复核的行业地位及规模化交付比较依据。",
+        "evidence_ids": [
+          "article:6dfa924a65499e23"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "这次升级将一目科技的产品边界从触觉部件扩展到上肢硬件与操作开发工具：把原本由客户承担的结构、电气和算法适配前移，并尝试以可复用技能承接不同场景。其平台价值取决于这些技能能否在不同任务中真正复用；原文已说明产品架构，但尚未披露跨任务复用的具体结果。",
+      "financing": "",
+      "event_date": "2026-11-26",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "蜜雪集团": [
+    {
+      "date": "2026-11-27",
+      "title": "文章称，蜜雪冰城自2024年10月开始在门店测试及推广智能出液机，通过设备控制果汁、糖浆等原料配比，减少人工操作。据文中转述的蜜雪集团2024年ESG报告，相关智能设备出餐精度误差为±2%，出餐速度提升34.5%。智能出液机覆盖门店数从2025年底超过1.3万家，增加至2026年6月底超过1.8万家。文章援引国信证券研报称，蜜雪集团2025年设备销售收入13.3亿元，同比增长75.4%，智能出液机推广是推动因素之一；集团未单独披露智能设备销售收入。此外，企业正在探索用AI视觉识别监测门店操作是否符合标准。",
+      "article_title": "蜜雪冰城，悄悄投了梁文锋",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/JOArV5INyoBiCsRy-alxMQ",
+      "sector": "餐饮智能设备与连锁经营数字化",
+      "location": "地点线索：河南省郑州市（原文经营地语境，未区分注册地与总部地）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "蜜雪集团",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "河南省郑州市（原文经营地语境，未区分注册地与总部地）",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "蜜雪集团",
+      "company_entity_id": "dr-u-f313c1f5e160d9ab0ee3",
+      "company_raw_name": "蜜雪集团",
+      "identity_status": "unresolved",
+      "score": 35,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前材料足以证明具体设备应用规模，但没有明确设备研发供应主体、独立技术行业地位或可比较优势，尚未建立全国科技产业标杆资格；不影响本次应用线索保留。",
+        "evidence_ids": [
+          "article:fc6b26cae38d9010"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "智能出液机把店员手工量取原料的一部分工作转为设备控制，使饮品配比标准化进入超过1.8万家门店的实际运营场景。其产业价值在于大规模加盟网络能够承接设备部署；但设备供应主体及加盟商实际收益尚未披露，不能把集团设备收入全部归给这款产品。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "蜜雪集团智能出液机截至2026年6月底覆盖逾1.8万家门店",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "自变量": [
+    {
+      "date": "2026-11-27",
+      "title": "据报道，自变量于11月与马来西亚国家邮政（Pos Malaysia Berhad）签署合作备忘录。签署前，其机器人已在对方主要分拣中心小规模部署，面向真实包裹分拣完成初步验证。方案采用自研通用具身模型WALL-B与双机械臂、双夹爪、三摄像头构型，由模型融合视觉、语言、触觉、动作及物理预测能力，完成包裹感知、抓取和摆放。文章称，其分拣效率达到每小时1911件；另以近期发布的一个模型为例，称部署到陌生产线后仅需10小时数据即可开展生产任务，迁移其他站点仍能保持90%的分拣效率。报道同时称，自变量在国内多家头部物流企业真实产线上已有规模化、常态化部署，与国内95%以上大型物流公司的合作覆盖中，大多仍处于或准备进入概念验证阶段；与国内某头部物流企业的进一步上量部署尚属预计。",
+      "article_title": "具身开始赚钱了",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/vxuBhRj_-pmJmxce64knjA",
+      "sector": "具身智能／物流分拣机器人",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "自变量",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "投资界",
+      "kind": "event",
+      "canonical_name": "自变量",
+      "company_entity_id": "dr-u-83ee8b326f9f815dcf85",
+      "company_raw_name": "自变量",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现场验证及模型、构型信息足以支持事件保留，但文中全球规模领先、效率超越全部同行等表述缺少可复核的比较口径与独立依据，尚不足以建立全国标杆资格。",
+        "evidence_ids": [
+          "article:17c3720810a306f8"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "此次合作的实质增量是海外邮政分拣中心已有小规模真实作业验证，随后进入备忘录合作阶段，而非只有出海意向。通用模型处理不规则包裹、双臂构型嵌入现有工位的组合，为跨站点复制提供了技术与工程路径；下一步最有辨别力的观察是该试点能否扩展到不同包裹结构的站点，并保持处理能力与较低的现场适配投入。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "自变量在马来西亚邮政分拣试运行后签署合作备忘录",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "智界汽车": [
+    {
+      "date": "2026-11-27",
+      "title": "智界汽车发文称，11月26日迎来第20万台整车下线。正文未披露对应生产企业名称、车型构成或累计统计起点。",
+      "article_title": "董明珠、魏建军同框直播，魏建军称现在汽车贬值速度太离谱；新一代小米SU7 Ultra完成工信部申报，将于2027年二季度发布丨汽车交通日报",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/NurzQnY4oNScy-HwU0AlNw",
+      "sector": "新能源汽车",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "智界汽车",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "创业邦",
+      "kind": "event",
+      "canonical_name": "智界汽车",
+      "company_entity_id": "dr-u-3aaa1d0019aa93599e67",
+      "company_raw_name": "智界汽车",
+      "identity_status": "unresolved",
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "单一累计下线节点未给出可比期间、行业份额或技术领先依据，足以保留制造进展，不足以独立授予全国标杆资格。",
+        "evidence_ids": [
+          "article:696b5206c42836ce"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "第20万台整车下线提供了品牌累计制造规模的具体节点，值得观察其产品持续供给能力。由于没有累计起点及分期产量，这一数字还不能解释近期生产速度是否加快。",
+      "financing": "",
+      "event_date": "2026-11-26",
+      "event_headline": "智界汽车宣布第20万台整车下线",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "HearWell": [
+    {
+      "date": "2026-11-27",
+      "title": "HearWell准备推出便携AI会议音箱Palmo Meet，首先面向北美市场，计划通过Kickstarter众筹。报道介绍，该产品重量约76克、厚度约8.5毫米，可装进口袋或磁吸于手机背面。据创始人介绍，产品通过声学算法处理本地拾音，并通过AI音轨分离降低远端传入的部分背景噪音，旨在仅部署一端设备的情况下改善双方通话体验；还将提供录音、转写和会议纪要功能，语音识别与纪要生成目前主要依靠云端模型。公司计划整合不同会议平台的内容，按人物、时间和事项整理信息。正文未披露众筹启动的精确日期。",
+      "article_title": "录音笔卖了七八亿，他又做AI会议室，融资数千万",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/45flq8yW-uIsDHZOF75Y1Q",
+      "sector": "AI音频硬件与声学感知",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "HearWell",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "铅笔道",
+      "kind": "event",
+      "canonical_name": "HearWell",
+      "company_entity_id": "dr-u-ac6c9e5cf61ee2da2a67",
+      "company_raw_name": "HearWell（听好科技）",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "HearWell（听好科技）",
+          "relation": "same_entity",
+          "evidence": "离开安克后，王志军创办AI声学感知公司HearWell（听好科技）。"
+        },
+        {
+          "name": "Palmo Meet",
+          "relation": "product",
+          "evidence": "第一款叫Palmo Meet，是一款手掌大小的便携AI会议音箱。"
+        },
+        {
+          "name": "Earmind",
+          "relation": "product",
+          "evidence": "第二款产品叫Earmind，定位是AI数字耳朵，我们把它称作耳朵的“外骨骼”。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据支持产品路线和拟推出安排，尚无独立效果验证、规模化交付或行业领先地位依据。",
+        "evidence_ids": [
+          "article:0cfc21389339a368"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "HearWell选择从“会后记录”向“会中听清”扩展：本地拾音处理与远端音轨分离分别作用于通话两侧，针对开放工位等场景下的双向交流问题。这一路径的产品价值取决于便携形态下的实际语音清晰度和处理延迟，不能仅用转写与纪要能力判断。",
+      "financing": "公司已完成两轮融资，累计融资数千万元，投资方包括博裕创投、璀璨资本、梅花创投、修远资本；正文未披露各轮金额及完成日期。",
+      "event_date": "",
+      "event_headline": "HearWell拟以便携AI会议音箱切入北美小型会议市场",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "意优机器人": [
+    {
+      "date": "2026-11-27",
+      "title": "锡创投推动意优机器人34亩产业化基地落户锡山区，规划30条产线、年产300万个关节模组。原文称相关赋能帮助企业突破对智元等头部具身智能客户的交付产能瓶颈，未披露规划产线的实际投产进度。",
+      "article_title": "回暖与分化之间：谁在重新定义一级市场的「好机构」？丨36氪2026年度价值IP名册重磅发布",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/aMpwnKddmt8BVf1kUZ5mzQ",
+      "sector": "机器人核心零部件",
+      "location": "地点线索：锡山区（产业化基地项目地，不据此认定注册地或总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "意优机器人",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "锡山区（产业化基地项目地，不据此认定注册地或总部）",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "意优机器人",
+      "company_entity_id": "dr-u-84168d4c8190d5b79cc8",
+      "company_raw_name": "意优机器人",
+      "identity_status": "unresolved",
+      "score": 25,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "基地规划规模和客户交付联系支持产业化线索，但未提供该主体行业地位、技术领先性或可独立核验的标杆能力依据。",
+        "evidence_ids": [
+          "article:3ffe2c84d685c592"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "关节模组处于机器人整机交付的上游，基地建设直接对应客户交付所需的制造能力。当前值得研究的是基地投产如何衔接客户需求，而非把规划年产量当作现有供给。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "意优机器人基地落户锡山区，规划年产300万模组",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "中科信半导体": [
+    {
+      "date": "2026-11-27",
+      "title": "芯联资本依托集团晶圆制造与供应链资源，推动中科信半导体、硅酷等被投企业深化与芯联集成的采购合作，相关合作额较上一年度增长超400%；原文未拆分中科信半导体的单家公司金额及增幅。",
+      "article_title": "回暖与分化之间：谁在重新定义一级市场的「好机构」？丨36氪2026年度价值IP名册重磅发布",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/aMpwnKddmt8BVf1kUZ5mzQ",
+      "sector": "半导体供应链",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "中科信半导体",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "中科信半导体",
+      "company_entity_id": "dr-u-29baf16df58728803bd9",
+      "company_raw_name": "中科信半导体",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "采购合作证明具体业务进展，但未建立中科信半导体自身的行业地位、技术比较优势或标杆资格；多主体合作增幅不能替代单体依据。",
+        "evidence_ids": [
+          "article:3ffe2c84d685c592"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "被投关系进一步连接到晶圆制造企业的采购环节，使资本协同具备实际业务接口。合作增长采用多家企业合计口径，不能据此判断中科信半导体自身的增长幅度。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "中科信半导体深化与芯联集成的采购合作",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "硅酷": [
+    {
+      "date": "2026-11-27",
+      "title": "硅酷是芯联资本推动深化与芯联集成采购合作的被投企业之一。原文称中科信半导体、硅酷等企业相关合作额较上一年度增长超400%，未披露硅酷单体合作金额、增幅及具体供货产品。",
+      "article_title": "回暖与分化之间：谁在重新定义一级市场的「好机构」？丨36氪2026年度价值IP名册重磅发布",
+      "event_type": "战略合作",
+      "link": "https://mp.weixin.qq.com/s/aMpwnKddmt8BVf1kUZ5mzQ",
+      "sector": "半导体供应链",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "硅酷",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "硅酷",
+      "company_entity_id": "dr-u-b3ad1b3208362567f966",
+      "company_raw_name": "硅酷",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "正文仅建立硅酷的采购合作参与关系，未披露足以判断行业地位、技术优势或杭州对标标杆资格的主体独立依据。",
+        "evidence_ids": [
+          "article:3ffe2c84d685c592"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "此次披露的价值在于采购合作，而非仅有资本关系。具体产品和单体业务贡献仍决定这项协同在硅酷经营中的实际分量。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "硅酷参与深化与芯联集成的采购协同",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "来福谐波": [
+    {
+      "date": "2026-11-27",
+      "title": "据本文，来福谐波于2026年6月登陆港交所。文章同时回顾北极光创投自2017年接触并领投企业，在其产品迭代与代际交接阶段帮助稳定供应链关系和市场信任。",
+      "article_title": "回暖与分化之间：谁在重新定义一级市场的「好机构」？丨36氪2026年度价值IP名册重磅发布",
+      "event_type": "IPO",
+      "link": "https://mp.weixin.qq.com/s/aMpwnKddmt8BVf1kUZ5mzQ",
+      "sector": "机器人核心零部件",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "来福谐波",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "来福谐波",
+      "company_entity_id": "dr-u-624fcfa1713c6ab2c85d",
+      "company_raw_name": "来福谐波",
+      "identity_status": "unresolved",
+      "score": 40,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "上市节点和报道中的“第一股”称谓不足以独立证明产品竞争地位、产业份额或可供杭州复制的具体优势，事件可保留但标杆资格尚未建立。",
+        "evidence_ids": [
+          "article:3ffe2c84d685c592"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "若上市事实得到官方披露对应，这是一项改变资本发展阶段的节点，而不是新的技术性能证明。产品迭代与供应链稳定提供了成长背景，不能仅凭陪伴叙述认定上市由投后赋能导致。",
+      "financing": "本文称2026年6月于港交所上市，未披露募集金额；另回顾北极光创投2017年领投。",
+      "event_date": "",
+      "event_headline": "据报道，来福谐波于2026年6月登陆港交所",
+      "event_signal": "major",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "怡斯莱": [
+    {
+      "date": "2026-11-27",
+      "title": "赋生资本被投企业怡斯莱以地沟油等废弃食用油为原料生产可持续航空燃油。原文未披露具体工艺、产能、客户、认证或本次扩产节点。",
+      "article_title": "回暖与分化之间：谁在重新定义一级市场的「好机构」？丨36氪2026年度价值IP名册重磅发布",
+      "event_type": "其他",
+      "link": "https://mp.weixin.qq.com/s/aMpwnKddmt8BVf1kUZ5mzQ",
+      "sector": "可持续航空燃料",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "怡斯莱",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "怡斯莱",
+      "company_entity_id": "dr-u-c81b3a5dab22866f6698",
+      "company_raw_name": "怡斯莱",
+      "identity_status": "unresolved",
+      "score": 15,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "当前证据支持具体生产应用，但未建立行业地位、技术优势、认证覆盖或供给规模，不能据所属赛道或投资关系授予全国标杆资格。",
+        "evidence_ids": [
+          "article:3ffe2c84d685c592"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "企业将废弃油脂连接到航空燃料供给，具体产业价值在于把废物资源转化为交通能源原料。当前文章支持生产路径的识别，不支持量化其减排效果或供给规模。",
+      "financing": "赋生资本被投企业，轮次、金额及时间未披露。",
+      "event_date": "",
+      "discovery_status": "first_seen"
+    }
+  ],
+  "Avicena": [
+    {
+      "date": "2026-11-27",
+      "title": "Avicena宣布完成超过1亿美元的C轮融资，参与方包括风险投资机构及AMD Ventures、三星、SK海力士等产业相关投资方。资金用于加快产品开发、扩大工程团队和推动商业化，公司将2027年视为重要商业化节点。其LightBundle平台采用GaN MicroLED发射阵列、硅光电探测器和多芯光纤，以大量相对低速的并行通道提供总带宽。原文称，公司今年3月发布512Gbps级评估套件，8月开始向客户和合作伙伴交付1Tbps级评估套件；后者采用335通道MicroLED阵列，每通道最高3Gbps，整体原始带宽达到1Tbps。9月展示可拆卸、可重新连接的连接器化方案。此前基于台积电N16工艺的演示芯片集成304个MicroLED和304个光电探测器，阵列间距50μm，单通道4Gbps，整体带宽约1.2Tbps，公布的演示链路功耗低于1pJ/bit。另有单通道11.2Gbps发射性能展示及基于台积电探测器样品的4Gbps链路测试；不同测试环节分别公布发射端0.2至0.3pJ/bit、接收端约0.35pJ/bit，未披露将这些指标合为同一完整系统的测试结果。",
+      "article_title": "光互联，AMD出手了",
+      "event_type": "融资",
+      "link": "https://mp.weixin.qq.com/s/8ReqXlklds5zwROtg-MhAA",
+      "sector": "AI基础设施／短距离光互连",
+      "location": "地点线索：美国Sunnyvale（总部）",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "Avicena",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "美国Sunnyvale（总部）",
+      "source": "半导体行业观察",
+      "kind": "event",
+      "canonical_name": "Avicena",
+      "company_entity_id": "dr-u-573fac8406a351f684df",
+      "company_raw_name": "Avicena",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "LightBundle",
+          "relation": "product",
+          "evidence": "公司瞄准的是AI基础设施中的数据传输问题，推出了LightBundle光互连平台。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "所供证据支持融资、技术演示及客户评估阶段进展，但尚未建立经规模部署验证的行业地位或足以独立授予全国标杆标签的依据。全球技术路线观察价值不等于全国标杆资格。",
+        "evidence_ids": [
+          "article:e6ab74cd33845fce"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "Avicena已从器件性能展示推进到向客户交付Tbps级链路评估工具，客户可以开始验证其并行光连接在实际系统中的适用性；本轮融资为继续开发和工程化提供了资金。其路线将单通道提速压力转向阵列密度与并行集成，后续最有辨别力的是客户验证中能否同时解决封装对准、可靠性和成本问题，而产业投资方参与尚不能推导出已获其产品采用。",
+      "financing": "C轮融资超过1亿美元；参与方包括AMD Ventures、三星、SK海力士及风险投资机构。用于加快产品开发、扩大工程团队和推动商业化；原文未披露估值及各方投资金额。",
+      "event_date": "",
+      "event_headline": "Avicena完成超1亿美元C轮融资，推进MicroLED光互连商业化",
+      "event_signal": "major",
       "discovery_status": "first_seen"
     }
   ]
