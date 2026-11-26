@@ -250,6 +250,100 @@
       "event_headline": "VAST开源EdenLive，将简化交互场景实时生成精细画面",
       "event_signal": "material",
       "discovery_status": "update"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "VAST发布新一代高精度AI 3D基座模型Tripo H3.5 Preview，已上线Tripo Studio国际版。文章称，相比H3.1，新版提升复杂结构还原、精细几何生成、输入输出对齐及不可见部位推断能力，通过扩大模型容量与系统化训练提高首轮生成可靠性。报道所述评测统一输入、采用最高几何质量并剥离贴图与法线贴图；在资深3D美术师对192组素模案例的盲评中，新版获得82次第一。VAST开展的另一项覆盖200余个案例、结合Agent裁判与专家排序的评测称，新版在跨双评测集及单视图、四视图的22组汇总对照中均领先；其中单视图与四视图案例对应不同资产，并非同一物体的前后对比。报道给出的无贴图浮雕文字识别率为90.7%，H3.1为46.1%。新版支持生成表面完整闭合的网格；同期上线的可打印检测功能可按目标打印尺寸检查薄壁、水密性及非流形边，自动修复功能可修补孔洞、非流形边并按打印工艺及尺寸调整壁厚。文中展示了生成模型进入切片、支撑设置及实体打印流程的案例，并介绍其为游戏美术提供初始高模的用途。",
+      "article_title": "AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/UslS5EMnFIDmyCQ4EzGy-A",
+      "sector": "生成式AI／三维内容生成／3D打印软件",
+      "location": "上海市｜36氪档案所载注册地址：临港新片区宏祥北路83弄1-42号20幢118室",
+      "geography": {
+        "geography_status": "confirmed",
+        "classification": "domestic_non_hangzhou",
+        "display_location": "上海市｜36氪档案所载注册地址：临港新片区宏祥北路83弄1-42号20幢118室",
+        "located_status": "discovery_confirmed",
+        "display_basis": [
+          "geo-d14e38ccf4717bcb41a0b08a"
+        ],
+        "subject_evidence_ids": [],
+        "needs_review": false,
+        "next_action": null,
+        "subject": "VAST",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": [
+          {
+            "evidence_id": "geo-d14e38ccf4717bcb41a0b08a",
+            "source_url": "https://pitchhub.36kr.com/project/3332216747439360",
+            "checked_at": "2026-10-20T02:23:20.555533+00:00",
+            "subject": "VAST",
+            "role": "business",
+            "subject_relation": "same_subject",
+            "place": {
+              "country": "CN",
+              "province": "上海市",
+              "city": "上海市",
+              "address": "中国（上海）自由贸易试验区临港新片区宏祥北路83弄1-42号20幢118室"
+            }
+          }
+        ],
+        "discovery_locality": {
+          "status": "confirmed",
+          "classification": "domestic_non_hangzhou",
+          "country": "CN",
+          "province": "上海市",
+          "city": "上海市",
+          "evidence_ids": [
+            "geo-d14e38ccf4717bcb41a0b08a"
+          ]
+        },
+        "presentation": {
+          "label": "上海市｜36氪档案所载注册地址：临港新片区宏祥北路83弄1-42号20幢118室",
+          "detail": "36氪VAST企业档案所载上海瓦嘶特科技有限公司注册地址：中国（上海）自由贸易试验区临港新片区宏祥北路83弄1-42号20幢118室；同档案上海市、Tripo、宋亚宸相互对应。保留媒体档案注册地址角色，不宣称政府登记核验或已核实际办公室，不批准法律实体合并。",
+          "evidence_ids": [
+            "geo-d14e38ccf4717bcb41a0b08a"
+          ]
+        }
+      },
+      "article_location": "上海市（复用已审36氪企业档案地点证据，非本文披露）",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "VAST",
+      "company_entity_id": "dr-u-375eca5944bc3c254740",
+      "company_raw_name": "VAST",
+      "identity_status": "confirmed",
+      "identity_mentions": [
+        {
+          "name": "Tripo H3.5 Preview",
+          "relation": "product",
+          "evidence": "就是VAST刚发布的新一代高精度AI 3D基座模型Tripo H3.5 Preview。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有证据支持产品能力进展和具体产业对标价值，但本次评测含公司组织测试，合作接入及历史融资也不足单独确立全国标杆资格，不据此新增标签。",
+        "evidence_ids": [
+          "article:9d83ff60bdaa1ae8",
+          "accepted_history:74597ea9892471f1",
+          "accepted_history:b520fb329f77f06f"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "这次升级把竞争重点从渲染图是否逼真，推进到浮雕、镂空和交错部件是否真正成为可加工的三维结构；生成模型与检测、修复工具衔接，使VAST从提供建模结果进一步进入打印前处理环节。展示案例支持这一产品方向，但是否能稳定减少专业用户的修模工作，还需观察不同尺寸、工艺和复杂输入下的实际表现。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "VAST发布H3.5预览版，强化复杂几何生成与打印准备",
+      "event_signal": "material",
+      "discovery_status": "update"
     }
   ],
   "杭州精算家": [
