@@ -2048,5 +2048,58 @@
       "event_signal": "material",
       "discovery_status": "first_seen"
     }
+  ],
+  "TabbyML": [
+    {
+      "date": "2026-11-27",
+      "title": "TabbyML将20个AI智能体组成系统工程团队，在人类设定优化目标和工程约束后，对其实际业务使用的开源搜索引擎Quickwit开展自主性能优化。团队分设调研员、指挥员和验证员，分别承担瓶颈分析、实验方案与正确性审查、隔离环境中的实现及测试；实验预先规定性能、正确性、兼容性和内存约束，成功改动进入后续代码基线，失败结果反馈给团队。经过4天、约350次实验，最终保留6项通过审查的优化，涉及缓存配置、数据结构、解压缩器复用和内存分配等环节。在包含1亿行数据、Quickwit支持的40条ClickBench查询测试中，总热查询耗时由40.5秒降至27.9秒，报道给出的降幅为31%；热查询几何平均耗时由403毫秒降至304毫秒，部分查询耗时降幅达87%。文章称，按同一组40条查询重算后，优化版本的热查询几何平均耗时低于Duckflight的354毫秒公开成绩，并在ClickBench数据湖类别的该项比较中超过此前公开成绩。",
+      "article_title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "event_type": "技术突破",
+      "link": "https://mp.weixin.qq.com/s/s4dPl1b0IwXvcWKKY3M8qw",
+      "sector": "AI软件工程与基础设施性能优化",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "TabbyML",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "量子位",
+      "kind": "event",
+      "canonical_name": "TabbyML",
+      "company_entity_id": "dr-u-87091047bc73547a55b3",
+      "company_raw_name": "TabbyML",
+      "identity_status": "unresolved",
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "指定查询集的性能及多智能体流程支持事件价值，但尚不足建立主体的全国标杆资格；城市未知，不推断为境内或境外企业，亦不把实验排名等同公司综合行业地位。",
+        "evidence_ids": [
+          "article:09cb16e67596be76"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "这次实验展示了TabbyML从生成代码向自主寻找瓶颈、组织实验和审查改动延伸的工程能力：多智能体不仅并行探索，还能否决通过现有测试却改变查询语义的方案。其价值在于把性能探索与正确性判断分开推进；目前成果集中于Quickwit及指定测试任务，跨系统的适用性仍是判断这一能力能否推广的关键。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "TabbyML以20个智能体完成Quickwit性能优化实验",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
