@@ -2505,5 +2505,70 @@
       "event_signal": "major",
       "discovery_status": "first_seen"
     }
+  ],
+  "海马云": [
+    {
+      "date": "2026-11-28",
+      "title": "海马云推出面向Agent的企业级可信知识库基础设施lumimax。产品支持千万字级材料一次入库，对PDF、扫描件、表格、图片及音视频进行多模态解析，通过自研DEN深度证据链知识网络，抽取实体、事件、关系与证据，构建跨文档知识页和图谱；结合目录、关键词、语义及关系查询开展多跳检索与推理，支持冲突识别、原文定位、增量更新、私有化部署，并通过网页对话或MCP接口供人及Agent调用，可生成报告、表格和演示文稿。据文章披露，lumimax在FRAMES、MultiHop-RAG、NoLiMa-32K、WildGraphBench中的成绩分别为92.82分、95.3分、90.52分、77.39分，在RAMDocs、OpenDocVQA、ViDoSeek、GraphRAG-Bench中的成绩分别为45.29%、91.45%、81.23%、83.70%。文章还描述了一家未具名律所将电池包质量纠纷涉及的1000多份、超过1万页文件导入系统，关联合同及附件中的条款替换关系、列出对照表并标注原文出处，供律师复核。",
+      "article_title": "Karpathy点燃LLM Wiki，中国公司率先做成了企业级产品",
+      "event_type": "重磅发布",
+      "link": "https://mp.weixin.qq.com/s/wIsCepln99XqFfQoxJoqiQ",
+      "sector": "企业级AI知识库与Agent知识基础设施",
+      "location": "地点待核",
+      "geography": {
+        "geography_status": "unknown",
+        "classification": "unknown",
+        "display_location": "地点待核",
+        "located_status": "unknown",
+        "display_basis": [],
+        "subject_evidence_ids": [],
+        "needs_review": true,
+        "next_action": "review_existing_source_then_capture_official_registered_or_hq_evidence",
+        "subject": "海马云",
+        "subject_locality": {
+          "status": "unknown",
+          "classification": "unknown",
+          "basis_roles": [],
+          "evidence_ids": []
+        },
+        "basis": []
+      },
+      "article_location": "",
+      "source": "36 氪",
+      "kind": "event",
+      "canonical_name": "海马云",
+      "company_entity_id": "dr-u-b01f48ee7a267274e4cf",
+      "company_raw_name": "海马云",
+      "identity_status": "unresolved",
+      "identity_mentions": [
+        {
+          "name": "lumimax",
+          "relation": "product",
+          "evidence": "八个月后，海马云推出的lumimax，让这个构想有了具体的产品形态。"
+        },
+        {
+          "name": "RunningHub",
+          "relation": "product",
+          "evidence": "2024年，海马云在AIGC领域发力，推出工业级影视内容生产平台RunningHub，将模型、工具和工作流组织起来，服务具体的内容生产任务，目前覆盖140多个国家和地区的开发者。"
+        }
+      ],
+      "score": 50,
+      "is_national_star": false,
+      "benchmark_review": {
+        "status": "not_qualified",
+        "eligible": false,
+        "reason": "现有材料足以支持产品路线和功能进展，但报道中的公开基准领先及国内首款宣称缺少独立核验，尚不足以据此确立全国标杆地位。",
+        "evidence_ids": [
+          "article:73ffe0cf74f1eecc"
+        ]
+      },
+      "published_date": "2026-11-26",
+      "insight": "lumimax使海马云的产品布局从内容生产进一步延伸到企业专业知识供给：将分散资料整理为带关系和出处的知识网络，再通过MCP这一连接AI助手与外部工具、数据的协议供不同Agent调用。合同条款案例体现的价值是集中呈现版本关系与证据，帮助专业人员复核，而非由系统替代其专业判断。",
+      "financing": "",
+      "event_date": "",
+      "event_headline": "海马云推出lumimax，将企业资料编译为可追溯知识网络",
+      "event_signal": "material",
+      "discovery_status": "first_seen"
+    }
   ]
 }
